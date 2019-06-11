@@ -6,5 +6,3 @@ has_children: true
 permalink: /docs/alarms
 ---
 
-
-
