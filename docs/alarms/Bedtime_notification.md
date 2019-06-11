@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CAPTCHA
+title: Bedtime notification
 nav_order: 2
 parent: Alarms
 ---
