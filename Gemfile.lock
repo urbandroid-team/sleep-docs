@@ -11,6 +11,9 @@ GEM
     eventmachine (1.2.7)
     ffi (1.11.1)
     forwardable-extended (2.6.0)
+    hawkins (2.0.5)
+      em-websocket (~> 0.5)
+      jekyll (~> 3.1)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -66,6 +69,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  hawkins
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
   just-the-docs
