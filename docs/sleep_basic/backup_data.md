@@ -2,7 +2,7 @@
 layout: default
 title: Backup data
 nav_order: 2
-parent: sleep - basic features
+parent: Sleep - basic features
 ---
 
 # Back up

@@ -2,7 +2,7 @@
 layout: default
 title: Sleep noise recording
 nav_order: 2
-parent: sleep - basic features
+parent: Sleep - basic features
 ---
 
 # Sleep noise recording

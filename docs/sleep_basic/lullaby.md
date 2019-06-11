@@ -2,7 +2,7 @@
 layout: default
 title: Lullaby
 nav_order: 2
-parent: sleep - basic features
+parent: Sleep - basic features
 ---
 
 # Lullaby
