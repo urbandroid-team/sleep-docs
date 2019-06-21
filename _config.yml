@@ -25,12 +25,25 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 search_enabled: true
+# color_scheme: 'dark'
 
 # Build settings
 markdown: kramdown
 theme: "just-the-docs"
 plugins:
   - jekyll-feed
+
+collections:
+  faqs:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "faqs" # a collection in your site, in plural form
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

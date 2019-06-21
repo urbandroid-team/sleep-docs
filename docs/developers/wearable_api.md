@@ -5,8 +5,6 @@ nav_order: 2
 parent: For developers
 ---
 
-# Wearable integration API
-
 ## Who is the API intended for
 
 If there is a 3rd party wearable you’d like to see integrated with Sleep, that does have some usable API and is not integrated yet, you have 2 options:
