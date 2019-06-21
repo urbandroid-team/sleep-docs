@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chronotype, social jetleg
+title: Jetlag
 nav_order: 2
 parent: Sleep research / theory / analysis
 ---
