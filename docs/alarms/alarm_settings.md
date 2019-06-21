@@ -5,7 +5,7 @@ nav_order: 2
 parent: Alarms
 ---
 
-> NOTE: for even better experince with alarms, see also Smart wake up (<span style="color:red">TODO ikona a lepší text</span>)
+> NOTE: for even better experience with alarms, see also Smart wake up (<span style="color:red">TODO ikona a lepší text</span>)
 
 ## Creating and adding alarms
 
@@ -51,7 +51,7 @@ Changes settings of all alarms.
 
 **Options:**
 * **Ringtone** - see Ringtone <span style="color:red">TODO ikona</span>
-* **Snooze** - see Snooze <span style="color:red">TODO ikona</span> 
+* **Snooze** - see Snooze <span style="color:red">TODO ikona</span>
 * **Backup alarm** - see Backup alarm <span style="color:red">TODO ikona</span>
 * **Alarm timeout** - see Backup alarm <span style="color:red">TODO ikona</span>
 * **Alarm output** - can force the alarm sound output to headphones only
@@ -63,11 +63,11 @@ Changes settings of all alarms.
 * **Vibrate** - enables phone vibrations
   * Disabled - no vibrations at all
   * From start - vibrations start at alarm time
-  * After 1-24 minutes - sets a delay for vibrations 
+  * After 1-24 minutes - sets a delay for vibrations
 * **Alarm sound start**
   * From start - sound start at alarm time
   * 1-24 minutes - sets a delay for sound
-* **Play alarm in silent profile** - 
+* **Play alarm in silent profile** -
 * **Flip to snooze** - lets you snooze an alarm by flipping the phone
 * **Volume or camera button effect** - allows to snooze or dismiss the alarm with volume buttons
 * **No screen orientation changes** - prevents changes of screen orientation while the alarm rings
@@ -84,7 +84,7 @@ Changes settings of the selected alarm
 
 **Options:**
 same as for alarm default settings, except for some new options:
-* **Repeat** - sets a schedule for repeating alarm, you can choose also Even/odd pattern 
+* **Repeat** - sets a schedule for repeating alarm, you can choose also Even/odd pattern
 * **Silent alarm** (in Ringtone) - sets alarm without sound
 * **Delete after ringing** - deletes this alarm completely after dismiss
 * **Terminate tracking** - allows you to continue with tracking after alarm dismiss
@@ -150,14 +150,14 @@ The backup alarm will start playing at max volume after a period of not interact
 
 > If you want to disable the backup alarm functionality, set it to Silent ringtone.
 
-> <span style="color:blue">EXAMPLE</span> 
-Alarm time: 7:00  
-Backup alarm duration: 2 minutes  
-Alarm timeout: 10 minutes  
+> <span style="color:blue">EXAMPLE</span>
+Alarm time: 7:00
+Backup alarm duration: 2 minutes
+Alarm timeout: 10 minutes
 This is what happens when You don’t interact with the alarm
 7:00 – alarm starts
 7:10 – backup alarm starts (full volume!!, duration 2 min)
-7:12 – automatically snoozes (for 10 minutes)  
+7:12 – automatically snoozes (for 10 minutes)
 7:22 – backup alarm starts again
 …
 …and so on, based on the number of repeats.
