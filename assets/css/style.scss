@@ -1,0 +1,46 @@
+---
+
+---
+
+$main-color: #4DB6AC;
+$palette-span: 180deg;
+$saturation-increment: 5%;
+$number-of-colors: 6;
+
+@function getPaletteVariation($i) {
+    @return desaturate( adjust-hue($main-color, ($palette-span / $number-of-colors) * $i), $saturation-increment * $i );
+}
+
+$color2: getPaletteVariation(1);
+$color3: getPaletteVariation(2);
+$color4: getPaletteVariation(3);
+$color5: getPaletteVariation(4);
+$color6: getPaletteVariation(5);
+
+h1 {
+  color: $main-color;
+}
+h2 {
+  color: $color2;
+  margin-top: 2.4em;
+}
+h3 {
+  color: $color3;
+  margin-top: 2.2em;
+}
+h4 {
+  color: $color4;
+  margin-top: 2.0em;
+}
+h5 {
+  color: $color5;
+  margin-top: 1.8em;
+}
+h6 {
+  color: $color6;
+  margin-top: 1.6em;
+}
+
+
+// Has to be at the end
+@import 'asciidoc';
