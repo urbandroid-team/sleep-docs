@@ -3,7 +3,7 @@ layout: default
 title: Sleep Phaser v1
 nav_order: 1
 parent: Sleep Phaser
-grandparent: Connected devices
+grand_parent: Connected devices
 ---
 ## Description of the device
 There are two touch buttons on the Sleep Phaser.
