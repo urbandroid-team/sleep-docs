@@ -25,13 +25,15 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 search_enabled: true
-# color_scheme: 'dark'
+color_scheme: 'dark'
 
 # Build settings
 markdown: kramdown
 theme: "just-the-docs"
+# incremental: true
 plugins:
   - jekyll-feed
+  - jekyll-asciidoc
 
 collections:
   faqs:
