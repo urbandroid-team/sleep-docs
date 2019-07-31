@@ -7,3 +7,12 @@
 ol, ul {
   margin-left: 0.5em;
 }
+
+// overrides just-the-docs' css which puts dl in a grid
+.dlist dl {
+  display: block;
+
+  dt {
+    text-align: initial;
+  }
+}
