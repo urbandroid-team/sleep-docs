@@ -1,0 +1,34 @@
+---
+layout: default
+title: Heart rate detection
+nav_order: 2
+parent: Sleep - advanced features
+---
+
+:toc:
+
+## What it does
+If you have a compatible heart rate sensor, you can use it to:
+
+. Gather your heart rate during the night and show it on your sleep graph
+. Have much more precise awake detection
+
+## Where to find it
+Enable HR monitoring for smartwatches/bands::
+  *Sleep as Android > Settings > Wearables > Heart rate monitoring*
+  For compatible smartwatches/bands, see link:smartwatch_wearables.html[Wearables]
+
+Enable HR monitoring for devices that support direct heart rate over BlueTooth::
+  *Sleep as Android > Settings > Wearables > Bluetooth Smart*
+  This regards devices such as heart rate straps (e.g. Polar H7) or link:oximeter.html[oximeters]
+
+Enable awake detection using heart rate data::
+  *Sleep as Android > Settings > Sleep tracking > Awake detection > Heart rate monitoring*
+
+// ## Options
+
+## Guide
+
+Heart rate levels can be gathered from smartwatches, smartbands, heart straps or from oximeters.
+
+// TODO:
