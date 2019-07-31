@@ -1,0 +1,40 @@
+---
+layout: default
+title: Bedtime notification
+nav_order: 2
+parent: Alarms
+---
+:toc:
+
+## What it does
+Sends you a "Time to go to bed!" notification slightly before bedtime.
+
+Bedtime notification is an effective way to maintain optimal sleep length or fight high sleep deficits. You can set the notification to trigger between 5 minutes to 2 hours before bedtime so you'll have enough time to prepare for bed.
+
+[NOTE]
+====
+The time to trigger the notification is calculated as follows:
++bedtime = next alarm time – ideal daily sleep income+
+
+.Example:
+You have set ideal daily sleep income to 7 hours, and an alarm for 6 AM.
+Your bedtime would then be 11 PM.
+====
+
+## Where to find it
+*Settings > Bedtime notification*
+
+
+## Options
+[horizontal]
+Bedtime notification:: Disable the feature or set a time when to send the bedtime notification
+Repeat:: How often should the notification repeat
+  - Example: 10 minutes repeat will notify you once on notification time and then every 10 minutes until you swipe the notification away
+Smart bedtime::
+  When enabled, adjust the notification time according to your sleep deficit for the last 5 days, average length of the smart wake up period, and default pause at the beginning of sleep tracking
+
+  +smart time to bed = next alarm – ideal daily sleep inc. – smart period – delayed tracking – in(5 days avg. sleep deficit > 10 min, 45 min)+
+
+## Guide
+
+## Troubleshooting
