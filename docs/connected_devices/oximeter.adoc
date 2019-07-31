@@ -1,0 +1,14 @@
+---
+layout: default
+title: Oximeter
+nav_order: 2
+parent: Connected devices
+---
+
+:toc:
+
+## What it does
+Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://www.happy-electronics.eu/shop/en/16-sleep[buy it here].
+
+## Where to find it
+  *Sleep as Android > Settings > Wearables > Pulse oximeter*
