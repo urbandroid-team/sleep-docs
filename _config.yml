@@ -33,7 +33,7 @@ theme: "just-the-docs"
 # incremental: true
 plugins:
   - jekyll-feed
-  - jekyll-asciidoc
+  # - jekyll-asciidoc
 
 collections:
   faqs:
@@ -46,6 +46,9 @@ defaults:
       type: "faqs" # a collection in your site, in plural form
     values:
       layout: "default"
+
+asciidoc: {}
+asciidoctor: {}
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
