@@ -6,6 +6,7 @@ has_children: true
 parent: Connected services
 ---
 :toc:
+
 ## What it does
 Tasker and Automate are automation tools for Android.
 // Sleep as Android by default includes a plugin for both Tasker and Automate.
@@ -17,7 +18,7 @@ After setup, you can react to *events* that happen in Sleep as Android (such as 
 
 You need to have either https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm[Tasker] or https://play.google.com/store/apps/details?id=com.llamalab.automate[Automate] installed.
 
-## How to
+## Guide
 
 This page offers a guide for Tasker. Automate has a little different interface but the concepts are the same.
 
