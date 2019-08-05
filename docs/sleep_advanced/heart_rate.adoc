@@ -8,6 +8,8 @@ parent: Sleep - advanced features
 :toc:
 
 ## What it does
+.Enhances your sleep tracking data.
+
 If you have a compatible heart rate sensor, you can use it to:
 
 . Gather your heart rate during the night and show it on your sleep graph

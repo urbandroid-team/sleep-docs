@@ -7,7 +7,7 @@ parent: Alarms
 :toc:
 
 ## What it does
-Sends you a "Time to go to bed!" notification slightly before bedtime.
+.Sends you a "Time to go to bed!" notification slightly before bedtime.
 
 Bedtime notification is an effective way to maintain optimal sleep length or fight high sleep deficits. You can set the notification to trigger between 5 minutes to 2 hours before bedtime so you'll have enough time to prepare for bed.
 

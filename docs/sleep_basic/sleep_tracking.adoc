@@ -1,0 +1,67 @@
+---
+layout: default
+title: Sleep tracking
+nav_order: 2
+parent: Sleep - basic features
+---
+:toc:
+
+## What it does
+.Sleep tracking is a way to objectively measure quality of your sleep.
+
+By tracking your sleep, the app enables you to:
+
+. See a sleep graph for every night
+. Monitor your long term sleep quality (with link:../theory/sleepscore.html[sleep score] and statistics)
+. Set up goals to improve your sleep quality
+. Use link:[smart wake up] for the alarm
+
+TIP: link:../theory/sleep_tracking_theory.html[Go here for a more in-depth read on sleep tracking].
+
+## Where to find it
+Start sleep tracking on the app's main screen by tapping *Start sleep tracking*.
+
+Settings can be found in
+*Sleep as Android > Settings > Sleep tracking*.
+
+## Options
+[horizontal]
+Smart wake up:: See [Smart wake up]
+Awake detection:: See [Awake detection]
+
+.Automatic sleep tracking
+[horizontal]
+Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
+- More details: link:automatic_sleep_tracking.html[Automatic sleep tracking].
+Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
+- On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
+- On _Save automatically_, the notification saves the sleep record for you automatically
+- More details: link:sleep_time_estimation.html[Sleep time estimation]
+
+.Sensor
+[horizontal]
+Sensor:: ...
+Test sensor:: ...
+Tutorial:: ...
+
+.Pair tracking
+[horizontal]
+Pair tracking:: ...
+Find partner:: ...
+
+.Do not disturb when sleeping
+[horizontal]
+Do not disturb when sleeping:: ...
+Turn off wireless signal during sleep:: ...
+
+.Advanced
+[horizontal]
+Screen dimming:: ...
+Hide stats before rating:: ...
+Stand-by:: ...
+Battery optimized:: ...
+
+
+## Guide
+
+## Troubleshooting
