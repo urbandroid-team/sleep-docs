@@ -14,7 +14,7 @@ By tracking your sleep, the app enables you to:
 . See a sleep graph for every night
 . Monitor your long term sleep quality (with link:../theory/sleepscore.html[sleep score] and statistics)
 . Set up goals to improve your sleep quality
-. Use link:[smart wake up] for the alarm
+. Use link:TODO:[smart wake up] for the alarm
 
 TIP: link:../theory/sleep_tracking_theory.html[Go here for a more in-depth read on sleep tracking].
 
