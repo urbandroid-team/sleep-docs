@@ -4,9 +4,10 @@ title: Alarm settings
 nav_order: 2
 parent: Alarms
 ---
+
 :toc:
 
-## What it does
+== What it does
 
 Alarm definition: an anxious awareness of danger :)
 
@@ -18,16 +19,14 @@ ____
 
 == Creating and adding alarms
 
-## What it does
-.One sentence summary
+=== What it does
+TODO
 
-// [Optional] Longer text describing the feature
-
-## Where to find it
+=== Where to find it
 New alarms are created using the <span style="color:red">TODO ikona</span>.
 To quickly edit an existing alarm, tap on the time of the alarm.
 
-## Options
+=== Options
 [horizontal]
 Clock time picker::
 Analogue time picker:: *Settings > Miscellaneous*
@@ -38,29 +37,26 @@ Wake up at an ideal time:: tap on the *Ideal* button, according to Your ideal sl
 
 == Naps
 
-## What it does
+=== What it does
 Naps allows to schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.
 
-# Where to find it
+=== Where to find it
 *Create alarm dialogue > Naps*
 
-## Options
+=== Options
 1 minute - 10 hours
 
 NOTE: Different default smart wakeup periods may be configured for Naps and regular Alarms (see Smart wakeup <span style="color:red">TODO ikona</span>)_
 
 
-
 == Ringtone
 
-
-## Where to find it
+=== Where to find it
 *Sleep as Android > Settings > Alarm default settings* - Default settings allows you to modify behaviour for all your alarms. Default settings are applied to all new alarms, unless you change the per-alarm settings.
 or
 *per-alarm settings* - Per-alarm settings change behaviour of a specific alarm; those changes won't affect other alarms or default settings.
 
-
-## Options
+=== Options
 [horizontal]
 Ringtone:: see Ringtone <span style="color:red">TODO ikona</span>
 Snooze:: see Snooze <span style="color:red">TODO ikona</span>
@@ -68,7 +64,7 @@ Backup alarm:: see Backup alarm <span style="color:red">TODO ikona</span>
 Alarm timeout:: see Backup alarm <span style="color:red">TODO ikona</span>
 Alarm output:: can force the alarm sound output to headphones only
 
-## Advanced Options
+=== Advanced Options
 [horizontal]
 Gentle volume increase:: alarm starts at minimum volume and gradually increase
  *Disabled - alarm starts at set volume
@@ -86,7 +82,7 @@ Volume or camera button effect:: allows to snooze or dismiss the alarm with volu
 No screen orientation changes:: prevents changes of screen orientation while the alarm rings
 Long press:: long press on dismiss button is necessary to turn the alarm off (prevents accidently dismissed alarms)
 
-## Per-alarm settings
+=== Per-alarm settings
 same as for alarm default settings, except for some new options
 [horizontal]
 Repeat:: sets a schedule for repeating alarm, you can choose also Even/odd pattern
@@ -97,15 +93,15 @@ Terminate tracking:: allows you to continue with tracking after alarm dismiss
 == Ringtone
 Select any pleasant music of your choice!
 
-## What it does
+=== What it does
 Changes the sound of alarm(s)
 
-## Where to find it
+=== Where to find it
 *Setings > Alarm default settings > Ringtone*
 or
 *per-alarm settings > Ringtone*
 
-## Options
+=== Options
 [horizontal]
 Silent:: available only in per-alarm settings, won't turn off vibrations
 Single ringtone::
@@ -118,15 +114,15 @@ File-based playlists:: any file based play list (.m3o, .pls) you have on your ph
 
 == Snooze
 
-## What it does
+=== What it does
 Allows you to delay your wake up if you do not yet feel rested in order to get additional period of sleep, or restrict those delays.
 
-## Where to find it
+=== Where to find it
 *Settings > Alarm default settings > Snooze*
 or
 *per-alarm settings > Snooze*
 
-## Options
+=== Options
 [horizontal]
 Snooze duration:: the main option of snooze on alarm screen (the only one or the biggest button).
 Snooze limit:: the maximum count of snoozing you are allowed. When this number is reached, only dismiss button is on the alarm screen.
@@ -134,18 +130,17 @@ Maximum total snooze time:: the maximum time you are allowed to snooze. When thi
 Halve Snooze:: each consecutive snooze duration is halved.
 Changing snooze time:: allows changing snooze duration on alarm screen (enables selection of different snoozes).
 Snooze after alarm time:: snoozing may be completely disabled after the alarm time has been reached (works only for smart alarm)
-NOTE: if your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.
+*Example* if your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.
 
 == Backup alarm
 
+=== What it does
+The backup alarm starts playing at max volume after a period of not interacting with the alarm.
 
-## What it does
-Tthe backup alarm starts playing at max volume after a period of not interacting with the alarm.
-
-## Where to find it
+=== Where to find it
 *Sleep as Android > Settings > Alarm default settings > Backup alarm*
 
-## Options
+=== Options
 [horizontal]
 Backup alarm duration:: sets for how long will the backup alarm ring (after that it gets snoozed – it will ring again after a regular alarm timeout)
 Rintone:: selects the backup ringtone, or sets the rintone as silent
@@ -154,8 +149,7 @@ Repeat:: sets how many times the backup alarm will repeat – after that, no ala
 
 NOTE: If you want to disable the backup alarm functionality, set it to Silent ringtone.
 
-NOTE: EXAMPLE:
-Alarm time: 7:00
+*Example* Alarm time: 7:00
 Backup alarm duration: 2 minutes
 Alarm timeout: 10 minutes
 This is what happens when You don’t interact with the alarm
@@ -166,7 +160,7 @@ This is what happens when You don’t interact with the alarm
 …
 …and so on, based on the number of repeats.
 
-## Guide
+== Guide
 [horizonatl]
 Create vibrations only alarm (no sound)::
 . set the alarm silent (_per-alarm settings &gt; Ringtone &gt; Silent_) or set the delay on sound (_Settings &gt; Alarm default setting &gt; Sound delay_)
@@ -192,7 +186,7 @@ Create odd / even schedule::
 .. Choose Weekly / Even / Odd pattern
 
 
-## Troubleshooting
+== Troubleshooting
 [hoprizontal]
 Alarms do not ring at all:: make sure no system restrictions are applied to Sleep as Android: (<span style="color:red">TODO odkaz na DKMA</span>)
 * send us your log using _Left ≡ menu &gt; Report a bug_
