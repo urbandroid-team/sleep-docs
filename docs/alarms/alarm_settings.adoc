@@ -8,14 +8,52 @@ parent: Alarms
 :toc:
 
 == What it does
-
 Alarm definition: an anxious awareness of danger :)
 
-____
+== Where to find it
+*Sleep as Android > Settings > Alarm default settings* - Default settings allows you to modify behaviour for all your alarms. Default settings are applied to all new alarms, unless you change the per-alarm settings.
+or
+*per-alarm settings* - Per-alarm settings change behaviour of a specific alarm; those changes won't affect other alarms or default settings.
+
+
+== Options
+[horizontal]
+Ringtone:: see Ringtone <span style="color:red">TODO ikona</span>
+Snooze:: see Snooze <span style="color:red">TODO ikona</span>
+Backup alarm:: see Backup alarm <span style="color:red">TODO ikona</span>
+Alarm timeout:: see Backup alarm <span style="color:red">TODO ikona</span>
+Alarm output:: can force the alarm sound output to headphones only
+
+
+== Advanced Options
+[horizontal]
+Gentle volume increase:: alarm starts at minimum volume and gradually increase
+*Disabled - alarm starts at set volume
+* 1-24 minutes - sets how long it takes to reach the set volum (~ speed of the increase)
+Vibrate:: enables phone vibrations
+* Disabled - no vibrations at all
+* From start - vibrations start at alarm time
+* After 1-24 minutes - sets a delay for vibrations
+Alarm sound start::
+* From start - sound start at alarm time
+* 1-24 minutes - sets a delay for sound
+Play alarm in silent profile::
+Flip to snooze:: lets you snooze an alarm by flipping the phone
+Volume or camera button effect:: allows to snooze or dismiss the alarm with volume buttons
+No screen orientation changes:: prevents changes of screen orientation while the alarm rings
+Long press:: long press on dismiss button is necessary to turn the alarm off (prevents accidently dismissed alarms)
+
+== Per-alarm settings
+same as for alarm default settings, except for some new options
+[horizontal]
+Repeat:: sets a schedule for repeating alarm, you can choose also Even/odd pattern
+Silent alarm:: (in Ringtone) - sets alarm without sound
+Delete after ringing:: deletes this alarm completely after dismiss
+Terminate tracking:: allows you to continue with tracking after alarm dismiss
+
 
 NOTE: for even better experience with alarms, see also Smart wake up (<span style="color:red">TODO ikona a lepší text</span>)
 
-____
 
 == Creating and adding alarms
 
@@ -47,48 +85,6 @@ Naps allows to schedule an alarm to trigger after a certain amount of time rathe
 1 minute - 10 hours
 
 NOTE: Different default smart wakeup periods may be configured for Naps and regular Alarms (see Smart wakeup <span style="color:red">TODO ikona</span>)_
-
-
-== Ringtone
-
-=== Where to find it
-*Sleep as Android > Settings > Alarm default settings* - Default settings allows you to modify behaviour for all your alarms. Default settings are applied to all new alarms, unless you change the per-alarm settings.
-or
-*per-alarm settings* - Per-alarm settings change behaviour of a specific alarm; those changes won't affect other alarms or default settings.
-
-=== Options
-[horizontal]
-Ringtone:: see Ringtone <span style="color:red">TODO ikona</span>
-Snooze:: see Snooze <span style="color:red">TODO ikona</span>
-Backup alarm:: see Backup alarm <span style="color:red">TODO ikona</span>
-Alarm timeout:: see Backup alarm <span style="color:red">TODO ikona</span>
-Alarm output:: can force the alarm sound output to headphones only
-
-=== Advanced Options
-[horizontal]
-Gentle volume increase:: alarm starts at minimum volume and gradually increase
- *Disabled - alarm starts at set volume
- * 1-24 minutes - sets how long it takes to reach the set volum (~ speed of the increase)
-Vibrate:: enables phone vibrations
- * Disabled - no vibrations at all
- * From start - vibrations start at alarm time
- * After 1-24 minutes - sets a delay for vibrations
-Alarm sound start::
- * From start - sound start at alarm time
- * 1-24 minutes - sets a delay for sound
-Play alarm in silent profile::
-Flip to snooze:: lets you snooze an alarm by flipping the phone
-Volume or camera button effect:: allows to snooze or dismiss the alarm with volume buttons
-No screen orientation changes:: prevents changes of screen orientation while the alarm rings
-Long press:: long press on dismiss button is necessary to turn the alarm off (prevents accidently dismissed alarms)
-
-=== Per-alarm settings
-same as for alarm default settings, except for some new options
-[horizontal]
-Repeat:: sets a schedule for repeating alarm, you can choose also Even/odd pattern
-Silent alarm:: (in Ringtone) - sets alarm without sound
-Delete after ringing:: deletes this alarm completely after dismiss
-Terminate tracking:: allows you to continue with tracking after alarm dismiss
 
 == Ringtone
 Select any pleasant music of your choice!
