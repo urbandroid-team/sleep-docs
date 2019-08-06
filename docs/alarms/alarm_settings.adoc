@@ -9,6 +9,7 @@ parent: Alarms
 
 == What it does
 Alarm definition: an anxious awareness of danger :)
+
 NOTE: for even better experience with alarms, see also Smart wake up (<span style="color:red">TODO ikona a lepší text</span>)
 
 == Where to find it
@@ -158,7 +159,7 @@ This is what happens when You don’t interact with the alarm
 …and so on, based on the number of repeats.
 
 == Guide
-[horizonatl]
+[horizontal]
 Create vibrations only alarm (no sound)::
 . set the alarm silent (_per-alarm settings &gt; Ringtone &gt; Silent_) or set the delay on sound (_Settings &gt; Alarm default setting &gt; Sound delay_)
 . Enable vibrations (_Settings &gt; Wearables &gt; Vibrate_)
@@ -184,7 +185,7 @@ Create odd / even schedule::
 
 
 == Troubleshooting
-[hoprizontal]
+[horizontal]
 Alarms do not ring at all:: make sure no system restrictions are applied to Sleep as Android: (<span style="color:red">TODO odkaz na DKMA</span>)
 * send us your log using _Left ≡ menu &gt; Report a bug_
 Alarms play at max volume::
