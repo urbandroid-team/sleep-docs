@@ -161,46 +161,47 @@ This is what happens when You don’t interact with the alarm
 == Guide
 [horizontal]
 Create vibrations only alarm (no sound)::
-. set the alarm silent (_per-alarm settings &gt; Ringtone &gt; Silent_) or set the delay on sound (_Settings &gt; Alarm default setting &gt; Sound delay_)
-. Enable vibrations (_Settings &gt; Wearables &gt; Vibrate_)
- &gt; We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+. set the alarm silent (*per-alarm settings > Ringtone > Silent*) or set the delay on sound (*Settings > Alarm default setting > Sound delay*)
+. Enable vibrations (*Settings > Wearables > Vibrate*)
+NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 Postpone or skip next alarm::
-. Open alarm &gt; Postpone next alarm / Skip Next
- &gt; Works only for repeated alarms
+. Open alarm > Postpone next alarm / Skip Next
+NOTE: Works only for repeated alarms
 Dismiss alarm before alarm time::
 . Open before alarm notification (appears one hour before alarm)
 . Dismiss from the notification
- &gt; won't deactivate the alarm completely, so it has no effect on next alarms)
+NOTE: won't deactivate the alarm completely, so it has no effect on next alarms
 Use my own sound as alarm::
-. Open Ringtone selection (_Settings &gt; Alarm defualt settings &gt; Ringone_ or _per-alarm settings &gt; Ringtone_)
-. Tap on folder (<span style="color:red">TODO ikona</span>) icon
+. Open Ringtone selection: *Settings > Alarm default settings > Ringtone* or *per-alarm settings > Ringtone*
+. Tap on folder (TODO) icon
 . Choose a sound file saved on your phone
 Name an alarm::
 . Open per-alarm settings or create new alarm dialogue
 . Name the alarm in the Label field
 Create odd / even schedule::
-.. Open per-alarm settings
-.. Choose Repeat dialogue
-.. Choose Weekly / Even / Odd pattern
+. Open per-alarm settings
+. Choose Repeat dialogue
+. Choose Weekly / Even / Odd pattern
 
 
 == Troubleshooting
 [horizontal]
-Alarms do not ring at all:: make sure no system restrictions are applied to Sleep as Android: (<span style="color:red">TODO odkaz na DKMA</span>)
-* send us your log using _Left ≡ menu &gt; Report a bug_
+Alarms do not ring::
+* make sure no system restrictions are applied to Sleep as Android: link:https://dontkillmyapp.com/[Check our guide here]
+* send us your log using *Left ≡ menu > Report a bug*
 Alarms play at max volume::
 * most probably your backup alarm went off after regular alarm did not wake you up
-* send us your log using _Left ≡ menu &gt; Report a bug_
+* send us your log using *Left ≡ menu > Report a bug*
 Silent alarms ring::
 * when battery saving mode enabled, vibrations are not going off, so a sound alarm is played despite the settings to make sure you are waken up
-* _Settings &gt; Sleep tracking &gt; Battery optimized_
-* _Tracking screen &gt; Stop and save pull up menu &gt; Save battery_
+* *Settings > Sleep tracking > Battery optimized*
+* *Tracking screen > Stop and save pull up menu > Save battery*
 Alarm rings before set alarm time::
 * Smart alarm is enabled
-* _Settings &gt; Sleep tracking &gt; Smart period_
+* _Settings > Sleep tracking > Smart period_
 Alarm sound is too quiet::
 * Gentle volume increase is enabled or set for too long period
-* _Settings &gt; Alarm default settigns &gt;Gentle volume increase_
+* *Settings > Alarm default settings > Gentle volume increase*
 Alarms do not play the selected ringtone::
 * loading of the selected file has failed
 * re-select the ringtone and make sure the app has permission to external storage
@@ -208,4 +209,4 @@ Only the first created alarm goes off::
 * when multiple alarms are created close together, they might overlap each other
 Alarms go off one hour late (59 minutes)::
 * Power nap feature is chosen as your smart period
-* _Settings &gt; Sleep tracking &gt; Smart wake up &gt; Smart period_
+* *Settings > Sleep tracking > Smart wake up > Smart period*
