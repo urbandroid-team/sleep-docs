@@ -8,7 +8,7 @@ parent: Alarms
 :toc:
 
 == What it does
-Alarm definition: an anxious awareness of danger :)
+Alarm definition: an anxious awareness of danger :) TODO text
 
 NOTE: for even better experience with alarms, see also Smart wake up (<span style="color:red">TODO ikona a lepší text</span>)
 
@@ -134,6 +134,7 @@ Snooze after alarm time:: snoozing may be completely disabled after the alarm ti
 
 === What it does
 The backup alarm starts playing at max volume after a period of not interacting with the alarm.
+NOTE: If you want to disable the backup alarm functionality, set it to Silent ringtone.
 
 === Where to find it
 *Sleep as Android > Settings > Alarm default settings > Backup alarm*
@@ -145,9 +146,7 @@ Rintone:: selects the backup ringtone, or sets the rintone as silent
 Alarm timeout:: sets the time after which the backup alarm will ring if You ignore Your normal alarm.
 Repeat:: sets how many times the backup alarm will repeat – after that, no alarm rings anymore.
 
-NOTE: If you want to disable the backup alarm functionality, set it to Silent ringtone.
-
-*Example* Alarm time: 7:00
+NOTE: Alarm time: 7:00
 Backup alarm duration: 2 minutes
 Alarm timeout: 10 minutes
 This is what happens when You don’t interact with the alarm
@@ -161,7 +160,7 @@ This is what happens when You don’t interact with the alarm
 == Guide
 [horizontal]
 Create vibrations only alarm (no sound)::
-. set the alarm silent (*per-alarm settings > Ringtone > Silent*) or set the delay on sound (*Settings > Alarm default setting > Sound delay*)
+. Set the alarm silent (*per-alarm settings > Ringtone > Silent*) or set the delay on sound (*Settings > Alarm default setting > Sound delay*)
 . Enable vibrations (*Settings > Wearables > Vibrate*)
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 Postpone or skip next alarm::
@@ -170,6 +169,7 @@ NOTE: Works only for repeated alarms
 Dismiss alarm before alarm time::
 . Open before alarm notification (appears one hour before alarm)
 . Dismiss from the notification
+
 NOTE: won't deactivate the alarm completely, so it has no effect on next alarms
 Use my own sound as alarm::
 . Open Ringtone selection: *Settings > Alarm default settings > Ringtone* or *per-alarm settings > Ringtone*
@@ -182,7 +182,6 @@ Create odd / even schedule::
 . Open per-alarm settings
 . Choose Repeat dialogue
 . Choose Weekly / Even / Odd pattern
-
 
 == Troubleshooting
 [horizontal]
