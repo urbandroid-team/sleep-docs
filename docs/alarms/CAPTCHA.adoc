@@ -1,9 +1,9 @@
-
+---
 layout: default
-title: CAPTCHA
+title: Captcha
 nav_order: 2
 parent: Alarms
-
+---
 
 :toc:
 

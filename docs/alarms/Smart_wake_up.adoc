@@ -1,9 +1,11 @@
-—
+---
 layout: default
-title: Smart wake up
+title: Smart wakeup
 nav_order: 2
 parent: Alarms
 ---
+
+:toc:
 
 = Smart Wakeup
 
