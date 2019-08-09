@@ -2,7 +2,8 @@
 layout: default
 title: Awake detection
 nav_order: 2
-parent: Sleep basic
+parent: Sleep - basic features
+
 ---
 
 :toc:
