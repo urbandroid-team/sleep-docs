@@ -1,0 +1,8 @@
+---
+layout: default
+title: Privacy
+nav_order: 2
+parent: General information
+---
+
+See https://team.urbandroid.org/privacy/ .
