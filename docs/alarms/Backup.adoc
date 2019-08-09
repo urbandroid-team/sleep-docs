@@ -19,7 +19,7 @@ _Sleep as Android > Settings > Alarm default settings > Backup alarm_
 [horizontal]
 Backup alarm duration:: Sets for how long will the backup alarm ring (after that it gets snoozed – it will ring again after a regular alarm timeout)
 Rintone:: Selects the backup ringtone, or sets the rintone as silent
-Alarm timeout:: Sets the time after which the backup alarm will ring if You ignore Your normal alarm.
+Alarm timeout:: Sets the time after which the backup alarm will ring if you ignore Your normal alarm.
 Repeat:: Sets how many times the backup alarm will repeat – after that, no alarm rings anymore.
 
 NOTE: Alarm time: 7:00

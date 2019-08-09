@@ -25,7 +25,7 @@ Silent:: Available only in per-alarm settings, won't turn off vibrations
 Single ringtone:: Choose any option from the list
 Alarm sound from the list:: Choose any option from the list
 Any sound file:: Tap on the folder icon and select your chosen file
-Own Playlist:: Tap on double check mark and choose files to create a playlist
+Own Playlist:: Tap on double check mark and choose files to create a playlist (TODO odkaz na Guide)
 Spotify playlist:: You can add your saved albums from Spotify’s _Your Library > Albums in Settings > Alarm default settings_
 Other playlists (including Google Play Music playlists):: Lot of media player apps can create such playlists with music that is available on your phone’s SD card.
-File-based playlists:: Any file based play list (.m3o, .pls) you have on your phone's SD card
+File-based playlists:: Any file based play list (.m3u, .pls) you have on your phone's SD card

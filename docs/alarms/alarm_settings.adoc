@@ -22,11 +22,11 @@ Per-alarm settings change behaviour of a specific alarm; those changes won't aff
 
 == Options
 [horizontal]
-Ringtone:: see Ringtone <span style="color:red">TODO ikona</span>
-Snooze:: see Snooze <span style="color:red">TODO ikona</span>
-Backup alarm:: see Backup alarm <span style="color:red">TODO ikona</span>
-Alarm timeout:: see Backup alarm <span style="color:red">TODO ikona</span>
-Alarm output:: can force the alarm sound output to headphones only
+Ringtone:: See Ringtone TODO
+Snooze:: See Snooze TODO
+Backup alarm:: See Backup alarm TODO
+Alarm timeout:: See Backup alarm TODO
+Alarm output:: Can force the alarm sound output to headphones only
 
 
 == Advanced Options
@@ -50,7 +50,7 @@ Long press:: long press on dismiss button is necessary to turn the alarm off (pr
 == Per-alarm settings
 same as for alarm default settings, except for some new options
 [horizontal]
-Repeat:: sets a schedule for repeating alarm, you can choose also Even/odd pattern
+Repeat:: sets a schedule for repeating alarm, you can choose also Even/odd pattern (TODO odkaz na Guide)
 Silent alarm (in Ringtone):: - sets alarm without sound
 Delete after ringing:: deletes this alarm completely after dismiss
 Terminate tracking:: allows you to continue with tracking after alarm dismiss
@@ -87,26 +87,26 @@ Create odd / even schedule::
 == Troubleshooting
 [horizontal]
 Alarms do not ring::
-* make sure no system restrictions are applied to Sleep as Android: link:https://dontkillmyapp.com/[Check our guide here]
-* send us your log using *Left ≡ menu > Report a bug*
+* Make sure no system restrictions are applied to Sleep as Android: link:https://dontkillmyapp.com/[Check our guide here]
+* Send us your log using _Left ≡ menu > Report a bug_
 Alarms play at max volume::
-* most probably your backup alarm went off after regular alarm did not wake you up
-* send us your log using *Left ≡ menu > Report a bug*
+* Most probably your backup alarm went off after regular alarm did not wake you up
+* Send us your log using _Left ≡ menu > Report a bug_
 Silent alarms ring::
-* when battery saving mode enabled, vibrations are not going off, so a sound alarm is played despite the settings to make sure you are waken up
-* *Settings > Sleep tracking > Battery optimized*
-* *Tracking screen > Stop and save pull up menu > Save battery*
+* When battery saving mode enabled, vibrations are not going off, so a sound alarm is played despite the settings to make sure you are waken up
+* _Settings > Sleep tracking > Battery optimized_
+* _Tracking screen > Stop and save pull up menu > Save battery_
 Alarm rings before set alarm time::
 * Smart alarm is enabled
 * _Settings > Sleep tracking > Smart period_
 Alarm sound is too quiet::
 * Gentle volume increase is enabled or set for too long period
-* *Settings > Alarm default settings > Gentle volume increase*
+* _Settings > Alarm default settings > Gentle volume increase_
 Alarms do not play the selected ringtone::
-* loading of the selected file has failed
-* re-select the ringtone and make sure the app has permission to external storage
+* Loading of the selected file has failed
+* Re-select the ringtone and make sure the app has permission to external storage
 Only the first created alarm goes off::
-* when multiple alarms are created close together, they might overlap each other
+* When multiple alarms are created close together, they might overlap each other
 Alarms go off one hour late (59 minutes)::
 * Power nap feature is chosen as your smart period
 * *Settings > Sleep tracking > Smart wake up > Smart period*
