@@ -8,7 +8,7 @@ parent: Alarms
 :toc:
 
 == What it does
-The backup alarm starts playing at max volume after a period of not interacting with the alarm.
+Starts ringing loudly if you ignore your normal alarm.
 
 NOTE: If you want to disable the backup alarm functionality, set it to Silent ringtone (see TODO)
 
@@ -17,10 +17,10 @@ _Sleep as Android > Settings > Alarm default settings > Backup alarm_
 
 == Options
 [horizontal]
-Backup alarm duration:: sets for how long will the backup alarm ring (after that it gets snoozed – it will ring again after a regular alarm timeout)
-Rintone:: selects the backup ringtone, or sets the rintone as silent
-Alarm timeout:: sets the time after which the backup alarm will ring if You ignore Your normal alarm.
-Repeat:: sets how many times the backup alarm will repeat – after that, no alarm rings anymore.
+Backup alarm duration:: Sets for how long will the backup alarm ring (after that it gets snoozed – it will ring again after a regular alarm timeout)
+Rintone:: Selects the backup ringtone, or sets the rintone as silent
+Alarm timeout:: Sets the time after which the backup alarm will ring if You ignore Your normal alarm.
+Repeat:: Sets how many times the backup alarm will repeat – after that, no alarm rings anymore.
 
 NOTE: Alarm time: 7:00
 Backup alarm duration: 2 minutes

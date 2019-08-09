@@ -17,10 +17,10 @@ _per-alarm settings > Snooze_
 
 == Options
 [horizontal]
-Snooze duration:: the main option of snooze on alarm screen (the only one or the biggest button).
-Snooze limit:: the maximum count of snoozing you are allowed. When this number is reached, only dismiss button is on the alarm screen.
-Maximum total snooze time:: the maximum time you are allowed to snooze. When this time is reached, only dismiss button is on the alarm screen.
-Halve Snooze:: each consecutive snooze duration is halved.
-Changing snooze time:: allows changing snooze duration on alarm screen (enables selection of different snoozes).
-Snooze after alarm time:: snoozing may be completely disabled after the alarm time has been reached (works only for smart alarm)
-NOTE: if your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.
+Snooze duration:: The main option of snooze on alarm screen (the only one or the biggest button).
+Snooze limit:: The maximum count of snoozing you are allowed. When this number is reached, only dismiss button is on the alarm screen.
+Maximum total snooze time:: The maximum time you are allowed to snooze. When this time is reached, only dismiss button is on the alarm screen.
+Halve Snooze:: Each consecutive snooze duration is halved.
+Changing snooze time:: Allows changing snooze duration on alarm screen (enables selection of different snoozes).
+Snooze after alarm time:: Snoozing may be completely disabled after the alarm time has been reached (works only for smart alarm)
+NOTE: If your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.

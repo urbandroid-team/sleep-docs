@@ -22,8 +22,8 @@ To quickly edit an existing alarm, tap on the time of the alarm.
 
 [horizontal]
 Clock time picker::
-Analogue time picker:: must be enabled in _Settings > Miscellaneous_
-Voice:: use the TODO button
+Analogue time picker:: Must be enabled in _Settings > Miscellaneous_
+Voice:: Sse the TODO button
 Keyboard:: HHMM format, use the TODO button
-Wake up at the next sunrise:: use the TODO button
-Wake up at an ideal time:: tap on the *Ideal* button
+Wake up at the next sunrise:: Use the TODO button
+Wake up at an ideal time:: Tap on the *Ideal* button
