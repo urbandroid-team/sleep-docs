@@ -16,6 +16,7 @@ Prove you are a human even though you sleep as android!
 
 _Settings > CAPTCHA: Stop oversleeping!_
 _per-alarm settings > CAPTCHA: Stop oversleeping!_
+
 NOTE: CAPTCHA can also be configured per alarm, so you can override your CAPTCHA settings and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends
 
 == Options

@@ -6,6 +6,7 @@ parent: Alarms
 ---
 
 :toc:
+
 = Alarms
 
 == What it does
@@ -71,11 +72,10 @@ NOTE: Works only for repeated alarms
 Dismiss alarm before alarm time::
 . Open before alarm notification (appears one hour before alarm)
 . Dismiss from the notification
-
 NOTE: won't deactivate the alarm completely, so it has no effect on next alarms
 
 Use my own sound as alarm::
-. Open Ringtone selection: *Settings > Alarm default settings > Ringtone* or *per-alarm settings > Ringtone*
+. Open Ringtone selection: _Settings > Alarm default settings > Ringtone_ or _per-alarm settings > Ringtone_
 . Tap on folder (TODO) icon
 . Choose a sound file saved on your phone
 Name an alarm::
