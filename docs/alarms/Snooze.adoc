@@ -7,8 +7,6 @@ parent: Alarms
 
 :toc:
 
-= Snooze
-
 == What it does
 Allows you to delay your wake up if you do not yet feel rested in order to get additional period of sleep, or restrict those delays.
 

@@ -6,7 +6,6 @@ parent: Alarms
 ---
 
 :toc:
-= Backup alarm
 
 == What it does
 The backup alarm starts playing at max volume after a period of not interacting with the alarm.

@@ -7,8 +7,6 @@ parent: Alarms
 
 :toc:
 
-= Smart Wakeup
-
 == What it does
 Smart wake up sets a window prior to alarm time and finds the optimal moment to wake you in light sleep phase.
 

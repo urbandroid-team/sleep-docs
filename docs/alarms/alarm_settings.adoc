@@ -7,8 +7,6 @@ parent: Alarms
 
 :toc:
 
-= Alarms
-
 == What it does
 Alarm definition: an anxious awareness of danger :) TODO text
 
