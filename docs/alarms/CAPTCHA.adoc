@@ -14,8 +14,8 @@ Prove you are a human even though you sleep as android!
 
 == Where to find it
 
-*Settings &gt; CAPTCHA: Stop oversleeping!*
-*per-alarm settings &gt; CAPTCHA: Stop oversleeping!*
+_Settings > CAPTCHA: Stop oversleeping!_
+_per-alarm settings > CAPTCHA: Stop oversleeping!_
 NOTE: CAPTCHA can also be configured per alarm, so you can override your CAPTCHA settings and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends
 
 == Options
@@ -69,10 +69,10 @@ Must scan all codes:: you need to scan all saved codes
 === Guide for QR and NFC Captcha
 [horiznotal]
 Learn new QR code / NFC tag::
-. Go to *Settings > Captcha > Settings*
+. Go to _Settings > Captcha > Settings_
 . Tap on "Learn"
 Delete a code / tag::
-. Go to *Settings > Captcha > Settings*
+. Go to _Settings > Captcha > Settings_
 . tap on TODO (ikona)
 
 
