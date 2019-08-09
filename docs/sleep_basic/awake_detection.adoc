@@ -30,7 +30,7 @@ Talk:: The talk-like sounds (talking, baby cry or cough) indicates awake
  * 45 minutes after beginning of tracking and 1 hour before alarm for automatic tracking
  * At least 4 talk-like events in last minute for manual tracking start
 Snooze:: Turns any snooze or pause result into awake
-Awake when using phone:: adds awake automatically when the phone is held in unusal position or used
+Awake when using phone:: Adds awake automatically when the phone is held in unusal position or used
 
 Delayed sleep tracking:: Configures automatic pause time at sleep tracking start if you know your typical fall asleep sequence
 Flip to pause:: Allows you to add 5 min pause by flipping the phone
@@ -45,8 +45,8 @@ Pause button:: Available from sleep tracking screen
 * Finish without your further interaction
 * You may add +5 minutes anytime.
 Volume / camera buttons:: Adds 5 minutes every time your press the volume of camera buttons
-* needs to be enabled in _Settings > Sleep tracking > Volume and camera button effect_
-* when screen off - press the power button and than one of the volume buttons or camera button
+* Needs to be enabled in _Settings > Sleep tracking > Volume and camera button effect_
+* When screen off - press the power button and than one of the volume buttons or camera button
 
 NOTE: You can also edit your sleep graph ex-post in order to correct your wake up or before fall asleep periods. This can be done in the sleep graph detail screen. Graph detail screen is displayed, when you click on a graph on the screen that lists all your recordings. You can select the related portion of the sleep graph and choose MENU &gt; Delete selected
 
