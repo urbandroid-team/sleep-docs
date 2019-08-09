@@ -1,0 +1,29 @@
+---
+layout: default
+title: Create alarm
+nav_order: 2
+parent: Alarms
+---
+
+:toc:
+
+= Creating and adding alarms
+
+== What it does
+
+TODO
+
+== Where to find it
+
+New alarms are created using the TODO
+To quickly edit an existing alarm, tap on the time of the alarm.
+
+== Options
+
+[horizontal]
+Clock time picker::
+Analogue time picker:: must be enabled in _Settings > Miscellaneous_
+Voice:: use the TODO button
+Keyboard:: HHMM format, use the TODO button
+Wake up at the next sunrise:: use the TODO button
+Wake up at an ideal time:: tap on the *Ideal* button
