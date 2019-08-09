@@ -128,7 +128,7 @@ Maximum total snooze time:: the maximum time you are allowed to snooze. When thi
 Halve Snooze:: each consecutive snooze duration is halved.
 Changing snooze time:: allows changing snooze duration on alarm screen (enables selection of different snoozes).
 Snooze after alarm time:: snoozing may be completely disabled after the alarm time has been reached (works only for smart alarm)
-*Example* if your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.
+NOTE: if your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.
 
 == Backup alarm
 
@@ -171,6 +171,7 @@ Dismiss alarm before alarm time::
 . Dismiss from the notification
 
 NOTE: won't deactivate the alarm completely, so it has no effect on next alarms
+
 Use my own sound as alarm::
 . Open Ringtone selection: *Settings > Alarm default settings > Ringtone* or *per-alarm settings > Ringtone*
 . Tap on folder (TODO) icon
