@@ -14,7 +14,7 @@ By tracking your sleep, the app enables you to:
 . See a sleep graph for every night
 . Monitor your long term sleep quality (with link:../theory/sleepscore.html[sleep score] and statistics)
 . Set up goals to improve your sleep quality
-. Use link:TODO:[smart wake up] for the alarm
+. Use link:../alarms/smart_wake_up.html[smart wake up] for the alarm
 
 TIP: link:../theory/sleep_tracking_theory.html[Go here for a more in-depth read on sleep tracking].
 
@@ -40,28 +40,38 @@ Sleep time estimate:: Do you forget to track your sleep? Enable this to receive 
 
 .Sensor
 [horizontal]
-Sensor:: ...
-Test sensor:: ...
+Sensor:: Choose a sensor that will be used for motion tracking when you track using phone (ie. without wearables or Sleep Phaser).
+Test sensor:: Test if your chosen sensor (sonar or accelerometer) is working correctly. May not work with all integrated wearables.
 Tutorial:: ...
 
 .Pair tracking
 [horizontal]
-Pair tracking:: ...
-Find partner:: ...
+Pair tracking:: Check to enable pair tracking. More details: link:../sleep_advanced/pair_tracking.html[Pair tracking].
+Find partner:: Tap simultaneously on two phones that are close together to form a pair.
 
 .Do not disturb when sleeping
 [horizontal]
-Do not disturb when sleeping:: ...
-Turn off wireless signal during sleep:: ...
+Do not disturb when sleeping:: If checked, do not disturb (DND) mode will be enabled during sleep tracking, and disabled again when sleep tracking ends.
+Note the following special rules:
+- if DND was active before sleep tracking started, Sleep will not touch it (ie. it won't disable it in the morning)
+- if DND was activated by Sleep, but you have toggled it during the sleep tracking, Sleep will not touch it again
+Turn off wireless signal during sleep::
+//TODO: zjistit jak to je
 
 .Advanced
 [horizontal]
-Screen dimming:: ...
-Hide stats before rating:: ...
-Stand-by:: ...
-Battery optimized:: ...
+Screen dimming:: Control what will happen to the phone screen while sleep tracking.
+  Disabled::: Sleep does nothing, your system screen timeout applies
+  Dim::: Screen dims, your system screen timeout applies
+  Dim with clock::: Screen dims, shows time, your system screen timeout applies
+  Always on clock::: Screen dims, shows time, your system timeout DOES NOT apply
+Hide stats before rating:: By default statistics are shown in the morning after sleep tracking ends. If you think the statistics might influence how you'd rate the night, turn this on.
+Stand-by:: Sleep tracking will be put into standby mode when battery drops under level set here. No further sleep data will be collected. This saves battery for the alarm.
+Battery optimized::
+//TODO: zjistit jak to je
 
 
-## Guide
+
+// ## Guide
 
 ## Troubleshooting
