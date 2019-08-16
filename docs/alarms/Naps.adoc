@@ -10,8 +10,9 @@ parent: Alarms
 == What it does
 Naps allows to schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.
 
+
 == Where to find it
-When setting time for an alarm, you can switch the timepicker to nap mode using NAP button:
+When setting time for an alarm, you can switch the timepicker to nap mode using _NAP_ button.
 _Create alarm dialogue > Naps_
 
 == Options

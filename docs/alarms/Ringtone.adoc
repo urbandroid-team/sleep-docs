@@ -7,7 +7,6 @@ parent: Alarms
 
 :toc:
 
-= Ringtone
 Select any pleasant music of your choice!
 
 == What it does

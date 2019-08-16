@@ -10,13 +10,13 @@ parent: Alarms
 == What it does
 Alarm definition: an anxious awareness of danger :) TODO text
 
-NOTE: for even better experience with alarms, see also Smart wake up (<span style="color:red">TODO ikona a lepší text</span>)
+NOTE: for even better experience with alarms, see also Smart wake up ([red]TODO ikona a lepší text)
 
 == Where to find it
-_Sleep as Android > Settings > Alarm default settings_
+._Sleep as Android > Settings > Alarm default settings_
 Default settings allows you to modify behaviour for all your alarms. Default settings are applied to all new alarms, unless you change the per-alarm settings.
 or
-_per-alarm settings_
+._per-alarm settings_
 Per-alarm settings change behaviour of a specific alarm; those changes won't affect other alarms or default settings.
 
 

@@ -7,11 +7,9 @@ parent: Alarms
 
 :toc:
 
-= Creating and adding alarms
-
 == What it does
 
-TODO
+EXAMPLE::123456
 
 == Where to find it
 
