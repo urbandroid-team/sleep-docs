@@ -3,15 +3,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   {% if site.plugins.jekyll-seo == nil %}
-  <title>{{ page.title }} - {{ site.title }}</title>
+    {%if page.title %}
+      <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+      <title>{{ site.title }}</title>
+    {% endif %}
 
-  {% if page.description %}
-  <meta name="Description" content="{{ page.description }}">
-  {% endif %}
+    {% if page.description %}
+      <meta name="Description" content="{{ page.description }}">
+    {% endif %}
   {% endif %}
 
   <link rel="shortcut icon" href="{{ "favicon.ico" | absolute_url }}" type="image/x-icon">
 
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/just-the-docs.css" | absolute_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
 
