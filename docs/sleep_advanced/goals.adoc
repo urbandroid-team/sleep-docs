@@ -4,10 +4,10 @@ title: Goals
 nav_order: 2
 parent: Sleep - advanced features
 ---
-:toc: right
+:toc:
 
 ## What it does
-Helps you change your sleep habits.
+Helps you actively improve your sleep habits.
 
 Goals are free to use – but let’s be honest to ourselves. Motivation to change your habits is much higher if there is something tangible at stake. Let’s say a few dollars.
 
