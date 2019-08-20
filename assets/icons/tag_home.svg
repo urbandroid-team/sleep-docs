@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="256"
+   height="256"
+   sodipodi:docname="tag_home.svg"
+   inkscape:export-filename="/home/petr/project/android-git/Sleep-actionbar2/res/drawable-xxhdpi/tag_home.png"
+   inkscape:export-xdpi="22.5"
+   inkscape:export-ydpi="22.5">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1307"
+     inkscape:window-height="744"
+     id="namedview4"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.921875"
+     inkscape:cx="-1.0847458"
+     inkscape:cy="128"
+     inkscape:window-x="59"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#ffffff"
+     d="M 128.1875 0.28125 C 117.39581 0.28125 114.52585 0.64809195 107.1875 2.96875 C 102.5125 4.447158 95.762496 7.3599259 92.1875 9.4375 C 83.84686 14.284575 70.75332 27.378109 65.90625 35.71875 C 55.5173 53.595618 53.52981 77.707381 60.71875 98.84375 C 64.00915 108.51792 67.65846 114.4189 81.9375 133.375 C 99.277496 156.39466 104.04099 164.93524 110.25 183.84375 C 115.25839 199.096 117.97905 214.87436 119.4375 237.46875 L 120.59375 255.71875 L 128.1875 255.71875 L 135.75 255.71875 L 136.96875 236.96875 C 138.41015 214.46577 141.03569 199.25929 146.25 183.375 C 151.86186 166.27965 158.61975 154.21777 173.90625 133.9375 C 195.1516 105.75175 199.6051 94.947209 199.5625 71.71875 C 199.54098 59.9754 199.21212 57.231549 197 50.5625 C 193.01515 38.549101 187.80103 30.143808 178.78125 21.21875 C 169.30423 11.841259 160.94859 6.688043 149.1875 2.96875 C 141.84915 0.64809195 138.97919 0.28125 128.1875 0.28125 z M 126.625 14.59375 C 126.94929 14.34288 131.22595 17.320006 138.0625 22.53125 L 149 30.875 L 149.125 23.46875 L 149.25 16.09375 L 157.125 16.09375 L 164.96875 16.09375 L 164.96875 29.59375 L 164.96875 43.09375 L 175.46875 51.125 C 181.24294 55.536711 185.96875 59.250026 185.96875 59.40625 C 185.96875 59.818059 177.20168 71.41817 176.875 71.4375 C 176.72389 71.4463 175.33616 70.506965 173.78125 69.34375 L 170.9375 67.21875 L 170.8125 94.875 L 170.6875 122.5 L 127.28125 122.5 L 83.84375 122.5 L 83.84375 94.8125 C 83.84375 79.589635 83.74489 67.15625 83.59375 67.15625 C 83.442583 67.15625 82.066155 68.131413 80.53125 69.3125 C 78.996343 70.493586 77.607291 71.4375 77.46875 71.4375 C 77.330196 71.4375 75.134266 68.740031 72.59375 65.4375 C 68.740362 60.4283 68.106305 59.345123 68.65625 58.84375 C 69.018828 58.51319 82.070943 48.515636 97.6875 36.625 C 113.30406 24.734366 126.33974 14.814427 126.625 14.59375 z M 127.125 35.09375 C 126.90863 35.08865 119.01634 40.947291 109.59375 48.125 L 92.46875 61.1875 L 92.46875 87.5625 L 92.4375 113.90625 L 102 113.90625 L 111.53125 113.90625 L 111.65625 97.8125 L 111.78125 81.71875 L 127.15625 81.59375 L 142.5625 81.4375 L 142.5625 97.6875 L 142.5625 113.90625 L 152.09375 113.90625 L 161.65625 113.90625 L 161.65625 87.53125 L 161.65625 61.125 L 144.59375 48.125 C 135.21069 40.965037 127.34139 35.098542 127.125 35.09375 z "
+     id="path2987" />
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="256"
+   height="256"
+   sodipodi:docname="tag_geo0.svg"
+   inkscape:export-filename="/home/petr/project/android-git/Sleep-actionbar2/res/drawable-xxhdpi/tag_geo0.png"
+   inkscape:export-xdpi="22.5"
+   inkscape:export-ydpi="22.5">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1307"
+     inkscape:window-height="744"
+     id="namedview4"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.921875"
+     inkscape:cx="-1.0847458"
+     inkscape:cy="128"
+     inkscape:window-x="59"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#ffffff"
+     d="M 128.1875 0.28125 C 117.39581 0.28125 114.52585 0.64809195 107.1875 2.96875 C 102.5125 4.447158 95.762496 7.3599259 92.1875 9.4375 C 83.84686 14.284575 70.75332 27.378109 65.90625 35.71875 C 55.5173 53.595618 53.52981 77.707381 60.71875 98.84375 C 64.00915 108.51792 67.65846 114.4189 81.9375 133.375 C 99.277496 156.39466 104.04099 164.93524 110.25 183.84375 C 115.25839 199.096 117.97905 214.87436 119.4375 237.46875 L 120.59375 255.71875 L 128.1875 255.71875 L 135.75 255.71875 L 136.96875 236.96875 C 138.41015 214.46577 141.03569 199.25929 146.25 183.375 C 151.86186 166.27965 158.61975 154.21777 173.90625 133.9375 C 195.1516 105.75175 199.6051 94.947209 199.5625 71.71875 C 199.54098 59.9754 199.21212 57.231549 197 50.5625 C 193.01515 38.549101 187.80103 30.143808 178.78125 21.21875 C 169.30423 11.841259 160.94859 6.688043 149.1875 2.96875 C 141.84915 0.64809195 138.97919 0.28125 128.1875 0.28125 z M 126.625 24.25 C 136.79983 24.250095 144.53731 26.330061 149.875 30.5 C 155.21258 34.628416 157.87493 40.660318 157.875 48.625 C 157.87493 52.711698 157.06375 56.403688 155.4375 59.65625 C 153.81113 62.867231 151.04477 66.319975 147.125 70.03125 L 143.125 73.59375 C 140.28933 76.179213 138.43816 78.259179 137.5625 79.84375 C 136.68675 81.3867 136.24996 83.092272 136.25 84.96875 L 136.25 87.78125 L 113.65625 87.78125 L 113.65625 84.71875 C 113.65623 81.299362 114.34262 78.283411 115.71875 75.65625 C 117.09484 72.987476 120.01724 69.617931 124.4375 65.53125 L 128.4375 61.90625 C 130.81438 59.737893 132.54075 57.699526 133.625 55.78125 C 134.75087 53.863101 135.31246 51.949532 135.3125 50.03125 C 135.31246 47.1123 134.31407 44.813887 132.3125 43.1875 C 130.31085 41.519565 127.52369 40.687579 123.9375 40.6875 C 120.55975 40.687579 116.88855 41.394767 112.96875 42.8125 C 109.0489 44.188686 104.97217 46.247852 100.71875 49 L 100.71875 29.375 C 105.76447 27.623678 110.3612 26.334099 114.53125 25.5 C 118.70126 24.666088 122.74684 24.250095 126.625 24.25 z M 113.65625 97.0625 L 136.25 97.0625 L 136.25 119.3125 L 113.65625 119.3125 L 113.65625 97.0625 z "
+     id="path2987" />
+</svg>

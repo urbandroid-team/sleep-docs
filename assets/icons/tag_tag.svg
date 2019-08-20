@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2995"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="tag_tag.svg"
+   inkscape:export-filename="/home/petr/project/android-git/Sleep-actionbar2/res/drawable/tag_tag.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2997">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect13434"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect13430"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6286"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3157"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="-19.093816"
+     inkscape:cy="7.268394"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3000">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1020.3622)">
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="0.63134533"
+       inkscape:original="M 9.03125 4.5 L 7 6.53125 L 4.9375 8.5625 L 4.9375 12.46875 L 4.9375 16.40625 L 11.21875 22.65625 L 17.46875 28.9375 L 23.4375 22.96875 L 29.375 17.03125 L 23.125 10.75 L 16.875 4.5 L 12.96875 4.5 L 9.03125 4.5 z M 12.3125 8.375 C 14.021044 8.375 15.40625 9.7602062 15.40625 11.46875 C 15.40625 13.177294 14.021044 14.5625 12.3125 14.5625 C 10.603956 14.5625 9.21875 13.177294 9.21875 11.46875 C 9.21875 9.7602062 10.603956 8.375 12.3125 8.375 z "
+       style="fill:#323232;fill-opacity:1"
+       id="path4183"
+       d="M 8.90625,3.875 A 0.63140847,0.63140847 0 0 0 8.59375,4.0625 L 6.5625,6.09375 4.5,8.125 A 0.63140847,0.63140847 0 0 0 4.3125,8.5625 l 0,3.90625 0,3.9375 A 0.63140847,0.63140847 0 0 0 4.5,16.84375 l 6.28125,6.25 6.25,6.28125 a 0.63140847,0.63140847 0 0 0 0.875,0 l 5.96875,-5.96875 5.9375,-5.9375 a 0.63140847,0.63140847 0 0 0 0,-0.875 l -6.25,-6.28125 -6.25,-6.25 A 0.63140847,0.63140847 0 0 0 16.875,3.875 l -3.90625,0 -3.9375,0 a 0.63140847,0.63140847 0 0 0 -0.125,0 z M 12.3125,9 c 1.367301,0 2.46875,1.101449 2.46875,2.46875 0,1.367301 -1.101449,2.46875 -2.46875,2.46875 -1.367301,0 -2.46875,-1.101449 -2.46875,-2.46875 C 9.84375,10.101449 10.945199,9 12.3125,9 z"
+       transform="translate(0,1020.3622)" />
+    <path
+       style="fill:#ffffff"
+       d="M 9.03125 4.5 L 7 6.53125 L 4.9375 8.5625 L 4.9375 12.46875 L 4.9375 16.40625 L 11.21875 22.65625 L 17.46875 28.9375 L 23.4375 22.96875 L 29.375 17.03125 L 23.125 10.75 L 16.875 4.5 L 12.96875 4.5 L 9.03125 4.5 z M 12.3125 8.375 C 14.021044 8.375 15.40625 9.7602062 15.40625 11.46875 C 15.40625 13.177294 14.021044 14.5625 12.3125 14.5625 C 10.603956 14.5625 9.21875 13.177294 9.21875 11.46875 C 9.21875 9.7602062 10.603956 8.375 12.3125 8.375 z "
+       transform="translate(0,1020.3622)"
+       id="path3408" />
+  </g>
+</svg>
