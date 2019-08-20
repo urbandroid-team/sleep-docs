@@ -50,8 +50,8 @@ defaults:
 asciidoc: {}
 asciidoctor:
   attributes:
-    imagesdir: /assets
-    iconsdir: '{imagesdir}/icons'
+    imagesdir: /assets/images
+    iconsdir: '{imagesdir}/../icons'
     hardbreaks: true
     icons: ''
     icontype: svg
