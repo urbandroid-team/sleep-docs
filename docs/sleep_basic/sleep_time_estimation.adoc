@@ -6,20 +6,24 @@ parent: Sleep - basic features
 ---
 :toc:
 
-## What it does
-.One sentence summary
 
-// [Optional] Longer text describing the feature
+## What it does
+
+If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
+
+The next day, a pop-up notification with estimated timings appears.
 
 ## Where to find it
-// Where to find the feature's settings and other related settings used to enable the feature, optionally with description
-// EXAMPLE: *Sleep as Android > Settings > Wearables > Use wearables*
+_Settings -> Sleep tracking -> Sleep time estimate_
 
 ## Options
-// Describe all the feature's options, see other docs pages for formatting
+[horizontal]
+
+Disabled:: No data from recognition engine are collected
+Manual only:: Sleep time estimation is saved only after you confirm it
+Save automatically:: Sleep time estimation is saved automatically
 
 ## Guide
 // Free form description on how to use the feature, various quirks and best practices
 
 ## Troubleshooting
-// To be used for automatic rendering of related FAQs
