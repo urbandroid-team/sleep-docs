@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Statistics, Sleep Score Charts
+title: Chrono Jetlag
 nav_order: 2
 parent: Sleep research / theory / analysis
 ---
+
+:toc:
