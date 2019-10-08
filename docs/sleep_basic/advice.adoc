@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Snoring detection
+title: Advice
 nav_order: 2
 parent: Sleep - basic features
 ---
+
+:toc:

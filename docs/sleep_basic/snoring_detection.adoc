@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Automatic sleep tracking
+title: Snoring detection
 nav_order: 2
 parent: Sleep - basic features
 ---
+
+:toc:

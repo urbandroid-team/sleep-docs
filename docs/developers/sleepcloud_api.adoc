@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Developer API
+title: SleepCloud Storage API
 nav_order: 2
 parent: For developers
+
 ---
+
+:toc:
