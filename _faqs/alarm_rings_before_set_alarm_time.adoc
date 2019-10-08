@@ -1,0 +1,9 @@
+---
+title: Alarm rings before set alarm time
+tags:
+  - alarm
+---
+
+Smart alarm is enabled.
+
+* _Settings > Sleep tracking > Smart period_

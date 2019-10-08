@@ -1,0 +1,7 @@
+---
+title: Only the first created alarm goes off
+tags:
+  - alarm
+---
+
+When multiple alarms are created close together, they might overlap each other.

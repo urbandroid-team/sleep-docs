@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the manual for the #1 sleep tracking Android app *Sleep as Android*.
+This is the user manual for the #1 sleep tracking Android app *Sleep as Android*.
 
 https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Get the app here].

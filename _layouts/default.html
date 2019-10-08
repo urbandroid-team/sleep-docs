@@ -75,7 +75,25 @@
             {% endfor %}
             {% assign tags = tags | reverse | join: ", " %}
             {{ tags }}
-        {% endif %}
+          {% endif %}
+
+          {% if page.collection != "faqs" %}
+
+            <h2>Troubleshooting</h2>
+
+            {% assign outputFaqs = '' | split: '' %}
+
+            {% for tag in page.tags %}
+            {% assign faqs = site.faqs | where_exp: "item", "item.tags contains tag" %}
+            {% assign outputFaqs = outputFaqs | concat: faqs | uniq | sort: "title" %}
+            {% endfor %}
+
+            {% for fue in outputFaqs %}
+              <h3><a href="{{ fue.url }}">{{ fue.title }}</a></h3>
+              {{ fue.content }}
+            {% endfor %}
+
+          {% endif %}
 
           {% if page.has_children == true and page.has_toc != false %}
           <hr>

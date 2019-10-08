@@ -1,0 +1,9 @@
+---
+title: Alarms play at max volume
+tags:
+  - alarm
+---
+
+Most probably your backup alarm went off after regular alarm did not wake you up.
+
+Send us your log using _Left ≡ menu > Report a bug_

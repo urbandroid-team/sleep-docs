@@ -3,8 +3,9 @@ layout: default
 title: Alarm settings
 nav_order: 2
 parent: Alarms
+tags:
+  - alarm
 ---
-
 :toc:
 
 == What it does
@@ -83,30 +84,3 @@ Create odd / even schedule::
 . Open per-alarm settings
 . Choose Repeat dialogue
 . Choose Weekly / Even / Odd pattern
-
-== Troubleshooting
-[horizontal]
-Alarms do not ring::
-* Make sure no system restrictions are applied to Sleep as Android: link:https://dontkillmyapp.com/[Check our guide here]
-* Send us your log using _Left ≡ menu > Report a bug_
-Alarms play at max volume::
-* Most probably your backup alarm went off after regular alarm did not wake you up
-* Send us your log using _Left ≡ menu > Report a bug_
-Silent alarms ring::
-* When battery saving mode enabled, vibrations are not going off, so a sound alarm is played despite the settings to make sure you are waken up
-* _Settings > Sleep tracking > Battery optimized_
-* _Tracking screen > Stop and save pull up menu > Save battery_
-Alarm rings before set alarm time::
-* Smart alarm is enabled
-* _Settings > Sleep tracking > Smart period_
-Alarm sound is too quiet::
-* Gentle volume increase is enabled or set for too long period
-* _Settings > Alarm default settings > Gentle volume increase_
-Alarms do not play the selected ringtone::
-* Loading of the selected file has failed
-* Re-select the ringtone and make sure the app has permission to external storage
-Only the first created alarm goes off::
-* When multiple alarms are created close together, they might overlap each other
-Alarms go off one hour late (59 minutes)::
-* Power nap feature is chosen as your smart period
-* *Settings > Sleep tracking > Smart wake up > Smart period*

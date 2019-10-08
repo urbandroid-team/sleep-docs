@@ -1,0 +1,10 @@
+---
+title: Alarms do not play selected ringtone
+tags:
+  - alarm
+  - ringtone
+---
+
+Loading of the selected file has failed.
+
+* Re-select the ringtone and make sure the app has permission to external storage

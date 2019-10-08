@@ -1,0 +1,9 @@
+---
+title: Alarm sound is too quiet
+tags:
+  - alarm
+---
+
+Gentle volume increase is enabled or set for too long period
+
+* _Settings > Alarm default settings > Gentle volume increase_

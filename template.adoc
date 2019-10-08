@@ -20,6 +20,3 @@ parent: Sleep - basic features
 
 ## Guide
 // Free form description on how to use the feature, various quirks and best practices
-
-## Troubleshooting
-// To be used for automatic rendering of related FAQs

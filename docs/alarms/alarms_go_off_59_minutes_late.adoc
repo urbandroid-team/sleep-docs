@@ -1,0 +1,9 @@
+---
+title: Alarms go off one hour late (59 minutes)
+tags:
+  - alarm
+  - powernap
+---
+
+* Power nap feature is chosen as your smart period
+* *Settings > Sleep tracking > Smart wake up > Smart period*

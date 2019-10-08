@@ -7,7 +7,7 @@ parent: Sleep - basic features
 :toc:
 
 ## What it does
-.Sleep tracking is a way to objectively measure quality of your sleep.
+.Sleep tracking is a way to objectively measure the quality of your sleep.
 
 By tracking your sleep, the app enables you to:
 
@@ -26,7 +26,7 @@ Settings can be found in
 
 ## Options
 [horizontal]
-Smart wake up:: See [Smart wake up]
+Smart wake up:: See link:../alarms/smart_wake_up.html[Smart wake up]
 Awake detection:: See [Awake detection]
 
 .Automatic sleep tracking
@@ -56,7 +56,11 @@ Note the following special rules:
 - if DND was active before sleep tracking started, Sleep will not touch it (ie. it won't disable it in the morning)
 - if DND was activated by Sleep, but you have toggled it during the sleep tracking, Sleep will not touch it again
 Turn off wireless signal during sleep::
-//TODO: zjistit jak to je
+This option tries to disable radios (wifi, cellular) during sleep tracking. Due to constraints gradually introduced in Android, it behaves differently based on the Android version you have on your phone.
+Below 4.2: turns on airplane mode
+Lollipop (5): turns off wifi
+Oreo (8): turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
+Q (10): does nothing - Android 10 has removed any means of controlling wifi programmatically
 
 .Advanced
 [horizontal]
@@ -67,8 +71,9 @@ Screen dimming:: Control what will happen to the phone screen while sleep tracki
   Always on clock::: Screen dims, shows time, your system timeout DOES NOT apply
 Hide stats before rating:: By default statistics are shown in the morning after sleep tracking ends. If you think the statistics might influence how you'd rate the night, turn this on.
 Stand-by:: Sleep tracking will be put into standby mode when battery drops under level set here. No further sleep data will be collected. This saves battery for the alarm.
-Battery optimized::
-//TODO: zjistit jak to je
+Battery optimized:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
+WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar/lockscreen.
+// Read more about the problem here: //TODO: zjistit jak to je
 
 
 
