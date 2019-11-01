@@ -23,9 +23,9 @@ Whenever a certain noise volume exceeds the configured threshold, noise recordin
 > <span style="color:red">TODO obrázek</span>
 
 **Options:**
-* **Record snoring or sleep talk** - enables recording snoring and talking
-* **Recording volume threshold** - usually the good value is around 10-20% (may vary with device).
-* **Snoring Statistics** - computes long-term noise statistics
+* **Record snoring, sleep talk...** - recording is triggered when a characteristic sound (snoring, talk, coughing, laughter, baby cry) is detected. 
+* **Recording volume threshold** - the volume at which the app starts recording. The good value is usually around 10-20% (may vary with device).
+* **Sound recognition** - enable recognition of individual sounds (snoring, talk, coughing, laughter, baby cry), adjust sensitivity for each of them separately. 
 * **Anti-snoring** - sets anti-snoring cues to make you stop snoring
   * **Sound** - sets the ringtone for anti-snoring alarm, tounge clicking as default
   * **Volume**  - sets volume for anti-snoring alarm
@@ -35,8 +35,6 @@ Whenever a certain noise volume exceeds the configured threshold, noise recordin
 * **Noise statistics** - starts computing long-term noise statistics (the volume level is displayed under each sleep record in %)
 * **Storage path** - a path to your recorings saved on your device
 * **Automatic delete** - deletes all unstarred recordings
-* **Volume gain** -  boosts noise recording volume when recordings are too quiet while tracking with sonar
-
 
 ---
 ## How to...
@@ -59,8 +57,10 @@ Whenever a certain noise volume exceeds the configured threshold, noise recordin
   * _Settings > Sleep tracking > Test sensor_
   * Frequency - drop down menu list
   * Volume - blue sliding bar
-* **Talking is recognized as snoring**
-  * 
+* **Inaccurate sound recognition**
+  * When listening to the noise recordings, you may find some of them tagged (#snore, #talk, etc.) incorrectly.
+  * You can fix the tags manually - either by editing the comment, or by tapping a corresponding icon on the player screen.
+  * The app may ask you to share the misclassified recording with us. If you agree, we will use the recording to learn from the mistake and improve our algorithm. 
 * **There is a fan in the room and gets recorded**
 * **How does the app distinguish between sounds**
   * (link to some background info??)
