@@ -30,6 +30,7 @@ Default CAPTCHA::
  Shake it::  Shake your phone
  Dream diary:: Write down your dreams (10 characters minimum at Difficulty 1)
  Say cheese!:: Smile to your front camera
+ Laugh Out Loud:: Laugh at your phone
 CAPTCHA Difficulty:: Allows you to set a difficulty, the more difficult the task, the more repetition of that task
 Preview:: Shows you the task in advance
 Settings:: Edits some of the tasks settings
