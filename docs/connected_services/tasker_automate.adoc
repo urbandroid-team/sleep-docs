@@ -53,6 +53,7 @@ Alarm started:: ...
 Dismiss (alarm):: the user has dismissed a ringing alarm AND solved the CAPTCHA if present. This event will also be fired when alarm has been dismissed while snoozed
 Snooze canceled:: alarm has been dismissed while snoozed
 ~REM:: the REM phase has been detected. More on REM phase detection here.
+Audio recognition:: Sleep as Android has detected one of the supported sounds: snoring, talk, coughing, laughter, baby crying. The maximum frequency of the event is once per 30s. Audio recognition has to be active for this event to work.
 Anti-Snoring:: Sleep as Android has detected snoring and executed an anti-snoring action (vibration or tongue click or both). Anti-snoring has to be active for this event to work.
 Smart period:: fires 45 minutes before smart period starts (to gather data for the smart period)
 
