@@ -6,4 +6,4 @@ tags:
 
 Gentle volume increase is enabled or set for too long period
 
-* _Settings > Alarm default settings > Gentle volume increase_
+* _Settings -> Alarm default settings -> Gentle volume increase_

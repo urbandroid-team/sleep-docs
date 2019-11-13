@@ -12,8 +12,8 @@ Naps allows to schedule an alarm to trigger after a certain amount of time rathe
 
 
 == Where to find it
-When setting time for an alarm, you can switch the timepicker to nap mode using _NAP_ button.
-_Create alarm dialogue > Naps_
+_Create alarm dialogue -> Naps_
+TODO: obrázek
 
 == Options
 1 minute - 10 hours

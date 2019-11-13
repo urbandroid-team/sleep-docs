@@ -6,5 +6,5 @@ tags:
 
 Make sure no system restrictions are applied to Sleep as Android: link:https://dontkillmyapp.com/[Check our guide here].
 
-Send us your log using _Left ≡ menu > Report a bug_
+Send us your log using _Left ≡ menu -> Report a bug_
 

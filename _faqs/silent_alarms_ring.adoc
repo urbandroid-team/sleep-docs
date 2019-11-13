@@ -7,5 +7,5 @@ tags:
 
 Vibrations are not going off with battery saving mode enabled. A sound alarm is played despite the settings to make sure you wake up.
 
-* _Settings > Sleep tracking > Battery optimized_
-* _Tracking screen > Stop and save pull up menu > Save battery_
+* _Settings -> Sleep tracking -> Battery optimized_
+* _Tracking screen -> Stop and save pull up menu -> Save battery_

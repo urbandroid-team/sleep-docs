@@ -13,15 +13,18 @@ EXAMPLE::123456
 
 == Where to find it
 
-New alarms are created using the TODO
+New alarms are created using the TODO: icon
+
 To quickly edit an existing alarm, tap on the time of the alarm.
+
+TODO: obrázek
 
 == Options
 
 [horizontal]
 Clock time picker::
 Analogue time picker:: Must be enabled in _Settings > Miscellaneous_
-Voice:: Sse the TODO button
+Voice:: Se the TODO button
 Keyboard:: HHMM format, use the TODO button
 Wake up at the next sunrise:: Use the TODO button
 Wake up at an ideal time:: Tap on the *Ideal* button
