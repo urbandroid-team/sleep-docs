@@ -8,7 +8,7 @@ parent: Alarms
 :toc:
 
 == What it does
-Smart wake up sets a window prior to alarm time and finds the optimal moment to wake you in light sleep phase.
+Smart wake up sets a window before the alarm time and finds the optimal moment to wake you up in light sleep phase.
 
 TIP: You can use a longer smart period for weekends and shorter period for workdays
 
@@ -21,19 +21,17 @@ Sleep as Android will wake you between 7:30-8:00, once you are in light sleep fo
 
 
 == Where to find it
-_Settings > Sleep tracking > Smart wake up_
-or
-_per-alarm settings > Smart wake up_
+_Settings -> Sleep tracking -> Smart wake up_
 
 == Options
 [horizontal]
 Smart period:: sets a smart period before alarm time
-* Disabled - alarm goes off at alarm time
-* Power nap - see TODO
+* Disabled - alarm goes off at alarm time exactly
+* Power nap - special type of smart period, see TODO
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
-Nap smart period:: sets a smart period before alarm time for naps with tracking and naps from shortcuts
+Nap smart period:: sets a smart period for naps with tracking and naps from shortcuts
 * Disabled - alarm goes off at alarm nap time
-* Power nap - see TODO
+* Power nap - special type of smart period, see TODO
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
 
 == Advanced options
@@ -51,6 +49,10 @@ Alarms go off exactly at the beginning of smart period::
 . Lower the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurance_
 Alarms go off only at alarm time at the end of smart period::
 . Increase the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurance_
+. If you feel the smart alarm is not working at all please send us the application log TODO
+My alarms go off an hour late::
+. Your smart period is set to Power nap (see TODO). When this option is selected as your smart wake up method, the warning screen with explanation needs to be confirmed.
+. Change the smart wake up period in _Settings -> Sleep tracking -> Smart wake up -> Smart period_
 
 = Power Nap
 
@@ -61,8 +63,8 @@ NOTE: Let say it is weekend and you can wake up any time after 10:00. You will s
 You can do a nap of minimum 20 minutes but keep Sleep as Android find you best moment afterward so power nap will make sure you sleep at least 20 minutes and find the best moment in 20+59 minutes.
 
 == Where to find it
-_Settings > Sleep tracking > Smart wakeup > Smart period_
+_Settings -> Sleep tracking -> Smart wakeup -> Smart period_
 or
-_Settings > Sleep tracking > Smart wakeup > Nap smart perio_
+_Settings -> Sleep tracking -> Smart wakeup -> Nap smart period_
 or
-_per-alarm setings > Smart period_
+_per-alarm settings -> Smart period_
