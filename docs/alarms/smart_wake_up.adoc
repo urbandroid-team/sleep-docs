@@ -10,10 +10,9 @@ parent: Alarms
 == What it does
 Smart wake up sets a window before the alarm time and finds the optimal moment to wake you up in light sleep phase.
 
-TIP: You can use a longer smart period for weekends and shorter period for workdays
-
 Curious whether it really works? Check our https://sleep.urbandroid.org/a-case-for-the-smart-alarm/[global study of smart alarm.]
 
+TIP: You can use a longer smart period for weekends and shorter period for workdays
 
 NOTE: Alarm time: 8:00
 Smart period: 30 minutes (default)
@@ -36,9 +35,9 @@ Nap smart period:: sets a smart period for naps with tracking and naps from shor
 
 == Advanced options
 [horizontal]
-Movement intensity:: Modifies sensitivity of the initiating alarm during smart period
-Movement occurence:: Modifies sensitivity of the initiating alarm during smart period
-Not before ideal sleep:: Does not allow the alarm before reaching either alarm time or ideal sleep duration
+Movement intensity:: Modifies sensitivity of the initiating alarm during smart period. Higher sensitivity will trigger alarm
+Movement occurrence:: Modifies sensitivity of the initiating alarm during smart period
+Not before ideal sleep:: Does not allow the alarm before reaching either ideal sleep duration or alarm time. This option can lead to ignored smart period fir the sake of reaching sleep duration closest to ideal sleep duration.
 
 == Guide
 // Free form description on how to use the feature, various quirks and best practices
@@ -46,25 +45,11 @@ Not before ideal sleep:: Does not allow the alarm before reaching either alarm t
 == Troubleshooting
 [horizontal]
 Alarms go off exactly at the beginning of smart period::
-. Lower the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurance_
+. Lower the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurrence_
 Alarms go off only at alarm time at the end of smart period::
-. Increase the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurance_
+. Increase the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurrence_
 . If you feel the smart alarm is not working at all please send us the application log TODO
 My alarms go off an hour late::
-. Your smart period is set to Power nap (see TODO). When this option is selected as your smart wake up method, the warning screen with explanation needs to be confirmed.
+. Your smart period is set to Power nap (see TODO).
+. When this option is selected as your smart wake up method, the warning screen with an explanation needs to be confirmed.
 . Change the smart wake up period in _Settings -> Sleep tracking -> Smart wake up -> Smart period_
-
-= Power Nap
-
-== What it does
-Power nap is a special case of smart wake up for situations when you don’t have a maximum time when you need to be woken up, but you prefer sleep a given time for sure and then finish one whole sleep cycle afterward.
-
-NOTE: Let say it is weekend and you can wake up any time after 10:00. You will schedule a power nap alarm for 10:00 which will look for the best moment to wake you up between 10:00-11:00
-You can do a nap of minimum 20 minutes but keep Sleep as Android find you best moment afterward so power nap will make sure you sleep at least 20 minutes and find the best moment in 20+59 minutes.
-
-== Where to find it
-_Settings -> Sleep tracking -> Smart wakeup -> Smart period_
-or
-_Settings -> Sleep tracking -> Smart wakeup -> Nap smart period_
-or
-_per-alarm settings -> Smart period_

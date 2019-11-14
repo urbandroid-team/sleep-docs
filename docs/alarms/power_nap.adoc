@@ -14,6 +14,10 @@ NOTE: Let say it is weekend and you can wake up any time after 10:00. You will s
 You can do a nap of minimum 20 minutes but keep Sleep as Android find you best moment afterward so power nap will make sure you sleep at least 20 minutes and find the best moment in 20+59 minutes.
 
 == Where to find it
-_Settings > Sleep tracking > Smart wakeup > Smart period_
-or
-_per-alarm setings > Smart period_
+_Settings -> Sleep tracking -> Smart wakeup -> Smart period / Nap smart period_
+
+//== Options
+//[horizontal]
+
+//== Guide
+// Free form description on how to use the feature, various quirks and best practices

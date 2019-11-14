@@ -11,7 +11,7 @@ parent: Alarms
 Snoozes allow you to delay your wake up if you do not yet feel rested on alarm time.
 
 After hitting a snooze button on alarm screen, you get additional period of sleep, and alarm time is postponed.
-You can also restrict the snoozing to prevent oversleeping.
+You can also restrict or limit the snoozing to prevent oversleeping.
 
 == Where to find it
 _Settings -> Alarm default settings -> Snooze_

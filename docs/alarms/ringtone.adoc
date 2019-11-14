@@ -13,18 +13,46 @@ Select any pleasant music of your choice!
 Changes the sound of alarm(s)
 
 == Where to find it
-_Setings > Alarm default settings > Ringtone_
-or
-_per-alarm settings > Ringtone_
+_Settings -> Alarm default settings -> Ringtone_
 
 == Options
 
 [horizontal]
-Silent:: Available only in per-alarm settings, won't turn off vibrations
-Single ringtone:: Choose any option from the list
-Alarm sound from the list:: Choose any option from the list
-Any sound file:: Tap on the folder icon and select your chosen file
-Own Playlist:: Tap on double check mark and choose files to create a playlist (TODO odkaz na Guide)
+Silent:: Available only in settings of each specific alarm (per-alarm), won't turn off vibrations.
+Single ringtone:: Choose any option from the list.
+Alarm sound from the list:: Choose any option from the list.
+Any sound file:: Tap on the folder icon and select your chosen file.
+Own Playlist:: Tap on double check mark and choose files to create a playlist (TODO odkaz na Guide).
 Spotify playlist:: You can add your saved albums from Spotify’s _Your Library > Albums in Settings > Alarm default settings_
-Other playlists (including Google Play Music playlists):: Lot of media player apps can create such playlists with music that is available on your phone’s SD card.
-File-based playlists:: Any file based play list (.m3u, .pls) you have on your phone's SD card
+Other playlists (including Google Play Music playlists):: Lot of media player apps can create such playlists with music that is available on your phone’s SD card. TODO
+File-based playlists:: You and use any file based play list (.m3u, .pls) you have on your phone's SD card.
+
+== Guide
+
+[horizontal]
+How to create your own playlist::
+. Open Ringtone selection and tap on the TODO icon in the upper right corner.
+. Now select any combination of the available ringtones.
+. Choose the order (Shuffle / Order / Loop single) in the ⋮ menu in upper right corner.
+. Confirm the selection with "OK" button or TODO icon.
+How to add my own song, sound file::
+. Tap on the folder TODO icon in the upper right corner.
+. Select a file in your file browser
+. Make sure the file is available and the app has permission for accessing that folder.
+
+== Troubleshooting
+[horizontal]
+My song was not played / my ringtone was not used / different ringtone::
+. Make sure the Alarm default settings and per-alarm settings for the alarm are not different
+. Check if the file has not been moved or deleted, the SD card is available at the time of the alarm.
+. Also check the app has the storage permission to access that file
+
+My selected Spotify playlist / album is not played (different playlist, different album)::
+. Unfortunately our Spotify integration is all reverse engineered and thus may stop working any time Spotify updates their app.
+. TODO má album větší šanci než playlist?
+.  When alarm starts and your phone is locked we are unable to change the playlist or album in your Spotify app. In this case the app will play simply where you last left it. We have not found a fix for this yet.
+
+Silent alarm goes off with beeping sound::
+. Make sure the battery  battery optimization or battery saver is not on: _Settings -> Sleep tracking -> Battery optimized_. When battery optimization is enabled, the vibrations do no work, so the app is loading the build-in ringtone to ensure you are woken up.
+
+.

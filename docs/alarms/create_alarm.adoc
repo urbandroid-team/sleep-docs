@@ -9,7 +9,7 @@ parent: Alarms
 
 == What it does
 
-EXAMPLE::123456
+EXAMPLE:: 123456
 
 == Where to find it
 
@@ -22,9 +22,8 @@ TODO: obrázek
 == Options
 
 [horizontal]
-Clock time picker::
-Analogue time picker:: Must be enabled in _Settings > Miscellaneous_
-Voice:: Se the TODO button
-Keyboard:: HHMM format, use the TODO button
-Wake up at the next sunrise:: Use the TODO button
-Wake up at an ideal time:: Tap on the *Ideal* button
+Time picker:: You can choose between round clock time picker (default) and Analogue time picker (,ust be enabled in _Settings -> Miscellaneous_).
+Voice:: Use TODO icon and then say the time aloud, Google speech recognition will recognize the time and use it.
+Keyboard:: Use the TODO button and type the time in HHMM format.
+Wake up at the next sunrise:: Use the TODO button, the alarm will be scheduled for the sunrise (location permission is needed).
+Wake up at an ideal time:: Tap on the *Ideal* button. The time will be scheduled for reaching your Ideal daily sleep income (set is _Settings_)
