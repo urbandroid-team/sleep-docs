@@ -2,7 +2,7 @@
 layout: default
 title: Sleep tracking theory
 nav_order: 2
-parent: Sleep research / theory / analysis
+parent: Sleep data
 ---
 :toc:
 
