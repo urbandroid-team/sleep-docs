@@ -1,0 +1,24 @@
+---
+layout: default
+title: Breath rate detection
+nav_order: 2
+parent: Sleep - advanced features
+---
+:toc:
+
+## What it does
+.Check your breath rate to find out whether you should get examined for sleep apnea
+
+With Sleep Phaser or an oximeter, Sleep as Android enables you to track your breathing rate/oxygen levels and show them on a sleep graph.
+
+## Where to find it
+// Where to find the feature's settings and other related settings used to enable the feature, optionally with description
+// EXAMPLE: *Sleep as Android > Settings > Wearables > Use wearables*
+
+## Options
+// Describe all the feature's options, see other docs pages for formatting
+
+## Guide
+// Free form description on how to use the feature, various quirks and best practices
+
+
