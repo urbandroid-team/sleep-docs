@@ -53,5 +53,9 @@ h6 {
 }
 
 
+td p:only-child {
+  margin-bottom: 0;
+}
+
 // Has to be at the end
 @import 'asciidoc';
