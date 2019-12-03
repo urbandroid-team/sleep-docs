@@ -16,7 +16,7 @@ Starts ringing loudly on maximum volume if you ignore your normal alarm.
 == Where to find it
 _Sleep as Android -> Settings -> Alarm default settings -> Backup alarm_
 
-NOTE: If you want to disable the backup alarm functionality, set it to Silent ringtone (see TODO:)
+NOTE: If you want to disable the backup alarm functionality, set it to Silent ringtone.
 
 == Options
 [horizontal]

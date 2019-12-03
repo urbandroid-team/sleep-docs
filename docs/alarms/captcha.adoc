@@ -25,8 +25,8 @@ Default CAPTCHA::
  Simple math:: Select the correct answer
  Typed math:: Type the correct answer
  Sleeping sheep:: Find an awake sheep
- QR code:: see TODO
- NFC tag:: see TODO
+ QR code:: see <<QR_NFC,QR Captcha>>
+ NFC tag:: see <<QR_NFC,NFC Captcha>>
  Shake it::  Shake your phone
  Dream diary:: Write down your dreams (10 characters minimum at Difficulty 1)
  Say cheese!:: Smile to your front camera
@@ -34,10 +34,10 @@ Default CAPTCHA::
 CAPTCHA Difficulty:: Allows you to set a difficulty, the more difficult the task, the more repetition of that task
 Preview:: Shows you the task in advance
 Settings:: Edits some of the tasks settings
- * editing, adding, and deleting QR codes and NFC tags
- * selecting tasks for MultiCaptcha
- * choosing your mantra for Mirror Text
-CAPTCHA ADD-ons:: Download free extension with more Captcha tasks (TODO: link na Play Store)
+ * Editing, adding, and deleting QR codes and NFC tags
+ * Selecting tasks for MultiCaptcha
+ * Choosing your mantra for Mirror Text
+CAPTCHA ADD-ons:: Download free extension with more Captcha tasks https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack[from Play Store]
  Captcha Captcha:: Type the letters of a distorted image
  Random Captcha:: Solve up to 5 different tasks each morning
  Multi Captcha:: Solve up to 15 chosen tasks in a row
@@ -57,7 +57,7 @@ NOTE: During CAPTCHA solving, alarm volume is lowered for 1 minute so that you d
 To get more time to solve your task, tap on + icon in the upper right corner
 
 == QR code and NFC tag CAPTCHA
-
+[[QR_NFC]]
 The QR and NFC CAPTCHAs are the ultimate solution for waking up. You can place a QR code or NFC tag in your bathroom or kitchen. The alarm than won’t stop until you get out of bed and scan the code/tag.
 
 [horizontal]
@@ -66,8 +66,8 @@ Supported QR apps: Barcode Scanner, QRDroid, Google Goggles
 NFC CAPTCHA:: You can use any credit card, some membership cards or ID cards
 NOTE: For security reasons, NFC Captcha requires unlocking the screen first
 Only at home:: Allows you to skip CAPTCHA when not at home
-NOTE: your location must be significantly different from your home, as the app does not collect fine location information
-Must scan all codes:: You need to scan all saved codes
+NOTE: Your location must be significantly different from your home, as the app does not collect fine location information
+Must scan all codes:: You need to scan all saved codes.
 
 === Guide for QR and NFC Captcha
 [horiznotal]
@@ -81,17 +81,4 @@ Delete a code / tag::
 
 == Troubleshooting
 [horiznotal]
-Cannot find settings for one of the task (MultiCaptcha)::
-. Disable MultiCaptcha and select the Captcha task you wish to change.
-. Open _Settings -> Captcha -> Settings and change the task.
-. Re-select MultiCaptcha again.
-QR code scanning does not work (error message on screen)::
-. If there is an issue with Google's vision API, the scanner might not recognize the QR code.
-. Try to use another QR scanner - e.g. Barcode Scanner and Google Goggles are supported.
-. Clear the preferred app for QR scanning in _System settings -> Apps -> Sleep -> Clear defaults_.
-. On newer phones clear the preferred app in _System settings -> Apps&Notifications ->  Sleep ->  Open by default_.
-Captcha did not work at all::
-. Send us the application log by using Left ≡ menu -> Report a bug.
-I had to solve Captcha (not at home) when I was not at home::
-NOTE: Not at home" feature only works when we see your location is significantly different from the home (+-5km at least) as we do not collect fine location for privacy reason-
-. Send us the application log by using Left ≡ menu -> Report a bug.
+

@@ -1,0 +1,10 @@
+---
+title: Captcha did not work at all
+tags:
+- alarm
+- captcha
+- at_home
+---
+
+
+. Send us the application log by using Left ≡ menu -> Report a bug.

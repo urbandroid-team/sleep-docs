@@ -1,0 +1,11 @@
+---
+title: I had to solve Captcha (not at home) when I was not at home
+tags:
+- alarm
+- captcha
+- at_home
+---
+
+NOTE: Not at home" feature only works when we see your location is significantly different from the home (+-5km at least) as we do not collect fine location for privacy reason-
+
+. Send us the application log by using Left ≡ menu -> Report a bug.
