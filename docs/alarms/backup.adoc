@@ -25,7 +25,7 @@ Ringtone:: Selects the backup ringtone, or sets the ringtone as silent
 Alarm timeout:: Sets the time after which the backup alarm will ring if you ignore your normal alarm.
 Repeat:: Sets how many times the backup alarm will repeat – after that, no alarm rings anymore.
 
-NOTE: Alarm time: 7:00
+EXAMPLE:: Alarm time: 7:00
 Backup alarm duration: 2 minutes
 Alarm timeout: 10 minutes
 This is what happens when you don’t interact with the alarm

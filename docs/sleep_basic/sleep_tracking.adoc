@@ -62,7 +62,7 @@ Lollipop (5): turns off wifi
 Oreo (8): turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
 Q (10): does nothing - Android 10 has removed any means of controlling wifi programmatically
 
-.Advanced
+.Advanced4q
 [horizontal]
 Screen dimming:: Control what will happen to the phone screen while sleep tracking.
   Disabled::: Sleep does nothing, your system screen timeout applies

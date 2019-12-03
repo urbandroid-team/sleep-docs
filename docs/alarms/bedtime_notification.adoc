@@ -35,6 +35,6 @@ Smart bedtime::
 
   +smart time to bed = next alarm – ideal daily sleep inc. – smart period – delayed tracking – in(5 days avg. sleep deficit > 10 min, 45 min)+
 
-## Guide
+//## Guide
 
-## Troubleshooting
+//## Troubleshooting

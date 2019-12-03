@@ -9,35 +9,35 @@ tags:
 :toc:
 
 == What it does
-Alarm definition: an anxious awareness of danger :) TODO text
+Alarm TODO text
 
-NOTE: For even better experience with alarms, see also Smart wake up ([red]TODO link)
+NOTE: For even better experience with alarms, see also link:../alarms/smart_wake_up.html[smart wake up]
 
 == Where to find it
 Alarms can be modified at two places - for one specific alarm in per-alarm settings, and for all alarms in Alarm default settings.
 
-._Sleep as Android > Settings -> Alarm default settings_
-Default settings allows you to modify behaviour for all your alarms. Default settings are also applied to all new alarms, unless you change the per-alarm settings.
+._Sleep as Android -> Settings -> Alarm default settings_
+Default settings allows you to modify behaviour for all your alarms. Default settings are also applied to all new alarms.
 
-._per-alarm settings_
+._Per-alarm settings_
 Per-alarm settings change behaviour of a specific alarm; those changes won't affect other alarms or default settings.
 
 
 == Options
 [horizontal]
-Ringtone:: See Ringtone TODO
-Snooze:: See Snooze TODO
-Backup alarm:: See Backup alarm TODO
-Alarm timeout:: See Backup alarm TODO
-Alarm output:: Can force the alarm sound output to headphones only
+Ringtone:: See link:../alarms/ringtone.html[Ringtone].
+Snooze:: See Snooze link:../alarms/snooz.html[Snooze]
+Backup alarm:: See link:../alarms/backup.html[Backup alarm]
+Alarm timeout:: See link:../alarms/backup.html[Backup alarm]
+Alarm output:: Can force the alarm sound output to music stream, so the alarm is audible only via headphones only.
 
 
 == Advanced Options
 [horizontal]
-Gentle volume increase:: Alarm starts at minimum volume and gradually increase to maximum
+Gentle volume increase:: Alarm starts at minimum volume and gradually increase to phone maximum.
 * Disabled - Alarm rings at volume set in Ringtone section
-* 1-24 minutes - Sets how long it takes to reach the max volume; the longer the the period, the slower the volume increase
-Vibrate:: Enables phone vibrations
+* 1-24 minutes - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increase.
+Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable)
 * Disabled - No vibrations on phone at all
 * From start - Vibrations start at alarm time
 * After 1-24 minutes - Sets a delay for vibrations
@@ -53,31 +53,28 @@ Long press:: Long press on dismiss button is necessary to turn the alarm off (pr
 == Per-alarm settings
 Same as for alarm default settings, except for some new options
 [horizontal]
-Repeat:: Sets a schedule for repeating alarm, you can choose also Even/odd pattern (TODO odkaz na Guide)
-Silent alarm (in Ringtone):: - Sets alarm without sound
+Repeat:: Sets a schedule for repeating alarm, you can choose also (<<anchor-1,Even / odd pattern>>)
+Silent alarm (in Ringtone):: Sets alarm without sound
 Delete after ringing:: Deletes this alarm completely after dismiss
 Terminate tracking:: Allows you to continue with tracking after alarm dismiss
-
-
-NOTE: For even better experience with alarms, see also Smart wake up (<span style="color:red">TODO ikona a lepší text</span>)
 
 == Guide
 [horizontal]
 Create alarm only as vibrations on watch (no sound)::
 . Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarm default setting -> Sound delay_)
-. Enable vibrations (_Settings -> Wearables -> Vibrate_)
+. Enable wearable vibrations (_Settings -> Wearables -> Vibrate_)
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 Postpone next alarm::
-. Open alarm > Postpone next alarm
+. Open alarm -> Postpone next alarm
 . Use the sliding bar or the drop down menu list for postponing alarm
 . Confirm the alarm time change
-NOTE: Works only for repeated alarms
+NOTE: Works only for repeating alarms
 Skip next alarm::
-. Open an alarm -> Skip next
-. Confirm the change
+. Open an alarm -> Skip next, confirm the change
+. Long press on the alarm on alarm board -> Skip next
 NOTE: Works only for repeated alarms
 Dismiss alarm before alarm time::
-. Open before alarm notification (appears one hour before alarm)
+. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone
 . Dismiss from the notification
 NOTE: won't deactivate the alarm completely, so it has no effect on next alarms
 
@@ -89,9 +86,10 @@ Name an alarm::
 . Open an alarm settings or create new alarm dialogue
 . Name the alarm in the Label field in upper right corner
 Create odd / even schedule::
+[[anchor-1]]
 . Open per-alarm settings
-. Choose Repeat dialogue (_Repeat:Never_ or any day of week listed below alarm time)
-. Choose Weekly / Even / Odd pattern
+. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time)
+. Choose Weekly / Even / Odd pattern from the drop down menu list
 
 == FAQ
 [horizontal]

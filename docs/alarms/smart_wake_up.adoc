@@ -26,18 +26,18 @@ _Settings -> Sleep tracking -> Smart wake up_
 [horizontal]
 Smart period:: sets a smart period before alarm time
 * Disabled - alarm goes off at alarm time exactly
-* Power nap - special type of smart period, see TODO
+* Power nap - special type of smart period, see link:../alarms/power_nap.html[power nap]
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
 Nap smart period:: sets a smart period for naps with tracking and naps from shortcuts
 * Disabled - alarm goes off at alarm nap time
-* Power nap - special type of smart period, see TODO
+* Power nap - special type of smart period, see link:../alarms/power_nap.html[power nap]
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
 
 == Advanced options
 [horizontal]
 Movement intensity:: Modifies sensitivity of the initiating alarm during smart period. Higher sensitivity will trigger alarm
 Movement occurrence:: Modifies sensitivity of the initiating alarm during smart period
-Not before ideal sleep:: Does not allow the alarm before reaching either ideal sleep duration or alarm time. This option can lead to ignored smart period fir the sake of reaching sleep duration closest to ideal sleep duration.
+Not before ideal sleep:: Does not allow the alarm before reaching either ideal sleep duration or alarm time. This option can lead to ignoring the smart period fr the sake of reaching sleep duration closest to ideal sleep duration.
 
 == Guide
 // Free form description on how to use the feature, various quirks and best practices
@@ -50,6 +50,6 @@ Alarms go off only at alarm time at the end of smart period::
 . Increase the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurrence_
 . If you feel the smart alarm is not working at all please send us the application log TODO
 My alarms go off an hour late::
-. Your smart period is set to Power nap (see TODO).
+. Your smart period is set to Power nap (see link:../alarms/power_nap.html[power nap])
 . When this option is selected as your smart wake up method, the warning screen with an explanation needs to be confirmed.
 . Change the smart wake up period in _Settings -> Sleep tracking -> Smart wake up -> Smart period_
