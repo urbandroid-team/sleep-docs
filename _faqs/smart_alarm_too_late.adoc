@@ -1,8 +1,8 @@
 ---
 title: Alarms go off exactly at the alarm time
 tags:
-- alarm
-- smart_alarm
+  - alarm
+  - smart_alarm
 ---
 
 

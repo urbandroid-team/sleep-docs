@@ -1,8 +1,8 @@
 ---
 title: Alarms go off exactly at the beginning of smart period
 tags:
-- alarm
-- smart_alarm
+  - alarm
+  - smart_alarm
 ---
 
 . Lower the sensitivity of Smart wakeup in _Settings -> Sleep tracking -> Movement intensity_ or _Movement occurrence_

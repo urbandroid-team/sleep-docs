@@ -1,8 +1,8 @@
 ---
-QR code scanning does not work
+title: QR code scanning does not work
 tags:
-- QR
-- captcha
+  - QR
+  - captcha
 ---
 
 . If there is an issue with Google's vision API, the scanner might not recognize the QR code.

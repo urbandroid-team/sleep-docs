@@ -8,10 +8,7 @@ parent: Alarms
 :toc:
 
 == What it does
-
 .Starts ringing loudly on maximum volume if you ignore your normal alarm.
-
-// TODO: banana
 
 == Where to find it
 _Sleep as Android -> Settings -> Alarm default settings -> Backup alarm_

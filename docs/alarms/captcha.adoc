@@ -28,7 +28,7 @@ Default CAPTCHA::
  NFC tag:: see <<QR_NFC,NFC Captcha>>
  Shake it::  Shake your phone
  Dream diary:: Write down your dream (10 characters minimum at Difficulty 1).
-NOTE:: Dream diary entries are saved into back up file under Comment section - see link:../sleep_basic/backup_data.html[Back up guide].
+NOTE: Dream diary entries are saved into back up file under Comment section - see link:../sleep_basic/backup_data.html[Back up guide].
 Say cheese!:: Smile to your front camera
  Laugh Out Loud:: Laugh at your phone
 CAPTCHA Difficulty:: Allows you to set a difficulty, the more difficult the task, the more repetition of that task
@@ -41,7 +41,7 @@ CAPTCHA ADD-ons:: Download free extension with more Captcha tasks https://play.g
  Captcha Captcha:: Type the letters of a distorted image
  Random Captcha:: Solve up to 5 different tasks each morning
  Multi Captcha:: Solve up to 15 chosen tasks in a row
- Mirror text:: Reade and type a text from a flipped quote
+ Mirror text:: Reade and type a text from a flipped quote - pre-defined or your own (configured in _Settings -> Captcha -> Settings_)
  Swearing:: Swear your way to dismiss (English only)
  Zombie Walk:: Walk 14-74 meters with the phone
  Let there be light:: Put your phone to a light source
@@ -68,15 +68,12 @@ Only at home:: Allows you to skip CAPTCHA when not at home
 NOTE: Your location must be significantly different from your home, as the app does not collect fine location information
 Must scan all codes:: You need to scan all saved codes.
 
-=== Guide for QR and NFC Captcha
+== Guide
 [horiznotal]
 Learn new QR code / NFC tag::
 . Go to _Settings -> Captcha -> Settings_
 . Tap on "Learn"
-Delete a code / tag::
+Delete a QR code / NFC tag::
 . Go to _Settings -> Captcha -> Settings_
 . Tap on TODO (ikona)
-
-//== Guide
-// Free form description on how to use the feature, various quirks and best practices
 

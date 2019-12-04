@@ -1,9 +1,9 @@
 ---
 title: Captcha did not work at all
 tags:
-- alarm
-- captcha
-- at_home
+  - alarm
+  - captcha
+  - at_home
 ---
 
 

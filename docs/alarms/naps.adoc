@@ -17,7 +17,10 @@ _Create alarm dialogue -> Naps_
 TODO: obrázek
 
 == Options
-1 minute - 10 hours
+
+[horizontal]
+1 minute - 10 hours::
+
 
 //== Guide
 // Free form description on how to use the feature, various quirks and best practices

@@ -27,7 +27,7 @@ _Settings -> Bedtime notification_
 
 == Options
 [horizontal]
-Bedtime notification:: Disable the feature, or set a time when to send the bedtime notification
+Bedtime notification:: Sets a time when to send the bedtime notification, or disable the feature completely.
 Repeat:: How often should the notification repeat
   - Example: 10 minutes repeat will notify you once on notification time and then every 10 minutes until you swipe the notification away or start sleep tracking
 Smart bedtime::

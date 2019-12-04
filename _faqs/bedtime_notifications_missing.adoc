@@ -1,8 +1,8 @@
 ---
 title: Bedtime notifications are missing
 tags:
-- bedtime
-- notification
+  - bedtime
+  - notification
 ---
 
 Please make sure the notifications are allowed by the system in system´s _Settings -> Apps & Notifications -> Sleep -> Notifications -> Bedtime notification_
