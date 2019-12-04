@@ -65,7 +65,6 @@ Create alarm only as vibrations on watch (no sound)::
 . Enable wearable vibrations (_Settings -> Wearables -> Vibrate_)
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 Create silent alarm::
-[[silent_alarm]]
 . Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_)
 . This option is available on in per-alarm settings, not in Alarm default settings
 Postpone next alarm::
@@ -81,7 +80,6 @@ Dismiss alarm before alarm time::
 . Open before alarm notification (appears one hour before alarm) from the notification bar on your phone
 . Dismiss from the notification
 NOTE: won't deactivate the alarm completely, so it has no effect on next alarms
-
 Use my own sound as alarm::
 . Open Ringtone selection: _Settings -> Alarm default settings -> Ringtone_ or _per-alarm settings -> Ringtone_
 . Tap on folder (TODO) icon in right upper corner
@@ -89,8 +87,7 @@ Use my own sound as alarm::
 Name an alarm::
 . Open an alarm settings or create new alarm dialogue
 . Name the alarm in the Label field in upper right corner
-Create odd / even schedule::
-[[even_odd]]
+Create odd / even schedule:: [[even_odd]]
 . Open per-alarm settings
 . Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time)
 . Choose Weekly / Even / Odd pattern from the drop down menu list
