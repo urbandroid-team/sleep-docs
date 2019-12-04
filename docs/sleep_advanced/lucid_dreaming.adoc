@@ -6,13 +6,13 @@ parent: Sleep - advanced features
 ---
 :toc:
 
-## What it does
+== What it does
 .Lucid dreaming cues will play once the app detects you are dreaming (in REM phase).
 
 TODO:link to some more information how lucid dreaming works
 
 == Where to find it
-_Settings > Lucid dreaming_
+_Settings -> Lucid dreaming_
 for using light-powered lucid dreaming cues:
 _Settings -> Smart light -> Lucid dreaming_
 

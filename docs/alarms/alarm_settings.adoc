@@ -9,7 +9,7 @@ tags:
 :toc:
 
 == What it does
-Alarm TODO text
+.Alarm TODO text
 
 NOTE: For even better experience with alarms, see also link:../alarms/smart_wake_up.html[smart wake up]
 
@@ -26,18 +26,18 @@ Per-alarm settings change behaviour of a specific alarm; those changes won't aff
 == Options
 [horizontal]
 Ringtone:: See link:../alarms/ringtone.html[Ringtone].
-Snooze:: See Snooze link:../alarms/snooz.html[Snooze]
+Snooze:: See link:../alarms/snooze.html[Snooze]
 Backup alarm:: See link:../alarms/backup.html[Backup alarm]
 Alarm timeout:: See link:../alarms/backup.html[Backup alarm]
-Alarm output:: Can force the alarm sound output to music stream, so the alarm is audible only via headphones only.
+Alarm output:: Can force the alarm sound output to music stream, so the alarm is audible only in your headphones. Please, test it before using it - some vendors do no allow use headphones for alarms!
 
 
 == Advanced Options
 [horizontal]
 Gentle volume increase:: Alarm starts at minimum volume and gradually increase to phone maximum.
-* Disabled - Alarm rings at volume set in Ringtone section
-* 1-24 minutes - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increase.
-Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable)
+* Disabled - Alarm rings at volume set in link:../alarms/ringtone.html[Ringtone] section
+* 1-24 minutes - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
+Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
 * Disabled - No vibrations on phone at all
 * From start - Vibrations start at alarm time
 * After 1-24 minutes - Sets a delay for vibrations
@@ -48,15 +48,15 @@ Play alarm in silent profile:: Enables to trigger alarm in silent mode
 Flip to snooze:: Lets you snooze an alarm by flipping the phone
 Volume or camera button effect:: Allows to snooze or dismiss the alarm with volume buttons
 No screen orientation changes:: Prevents changes of screen orientation while the alarm rings
-Long press:: Long press on dismiss button is necessary to turn the alarm off (prevents accidentally dismissed alarms)
+Long press:: Long press on dismiss button is necessary to dismiss the alarm (prevents accidentally dismissed alarms)
 
 == Per-alarm settings
-Same as for alarm default settings, except for some new options
+Same as for alarm default settings; some new options are available.
 [horizontal]
-Repeat:: Sets a schedule for repeating alarm, you can choose also (<<anchor-1,Even / odd pattern>>)
-Silent alarm (in Ringtone):: Sets alarm without sound
+Repeat:: Sets a schedule for repeating alarm, you can choose also (<<even_odd,Even / odd pattern>>)
 Delete after ringing:: Deletes this alarm completely after dismiss
 Terminate tracking:: Allows you to continue with tracking after alarm dismiss
+Silent alarm (in Ringtone):: Sets alarm without sound
 
 == Guide
 [horizontal]
@@ -64,6 +64,10 @@ Create alarm only as vibrations on watch (no sound)::
 . Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarm default setting -> Sound delay_)
 . Enable wearable vibrations (_Settings -> Wearables -> Vibrate_)
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+Create silent alarm::
+[[silent_alarm]]
+. Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_)
+. This option is available on in per-alarm settings, not in Alarm default settings
 Postpone next alarm::
 . Open alarm -> Postpone next alarm
 . Use the sliding bar or the drop down menu list for postponing alarm
@@ -86,11 +90,7 @@ Name an alarm::
 . Open an alarm settings or create new alarm dialogue
 . Name the alarm in the Label field in upper right corner
 Create odd / even schedule::
-[[anchor-1]]
+[[even_odd]]
 . Open per-alarm settings
 . Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time)
 . Choose Weekly / Even / Odd pattern from the drop down menu list
-
-== FAQ
-[horizontal]
-::

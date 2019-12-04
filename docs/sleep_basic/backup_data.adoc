@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Back up
+title: Backup
 nav_order: 2
 parent: Sleep - basic features
 ---
@@ -8,20 +8,90 @@ parent: Sleep - basic features
 :toc:
 
 == What it does
-. Export / import data TODO
-
-
-
-Sleep as Android provides several ways to backup and export your data.
-You can manually download your data as .csv file and backup anywhere you want or you can also use the data for your own analysis.
+//One sentence summary
+.Sleep as Android provides several ways to backup and export your data - local manual backup, or automated cloud backup.
 
 == Where to find it
-_≡ Left -> Back up_
+_Left_ ≡ _menu -> Backup_
+
+_Settings -> Services -> Cloud backup_
 
 == Options
 [horizontal]
-Export data:: All your sleep records will be exported to a csv file located at _/sdcard/sleep-data/sleep-export.csv_.
-Upload to Cloud::
-Import data:: Initiate import of data from /sdcard/sleep-data/sleep-export.csv. Import will just import new records that are present in this file and they are missing in your Sleep as Android database. It will not delete or modify any of existing sleep records you already have in the application.
-Download to Cloud::
+Export data:: All your sleep records are exported to a csv file located on your phone at _/sdcard/sleep-data/sleep-export.csv_; for  <<manual_backup,manual backup>> or for your own analysis of tracking results.
+
+Upload to Cloud:: Initiates Cloud back up set in _Settings -> Services_
+Import data:: Initiate import of data from /sdcard/sleep-data/sleep-export.csv.
+NOTE:: Import will just import new records that are present in this file and they are missing in your Sleep as Android database. It will not delete or modify any of existing sleep records you already have in the application.
+Download from Cloud:: Initiates syncing data with Cloud back up set in _Settings -> Services_
+
+[horizontal]
+SleepCloud:: See <<sleepcloud_backup,SleepCloud backup>>
+Google Drive:: See <<google_backup,Google backup>>
+Dropbox:: See TODO
+
+
+== Guide
+// Free form description on how to use the feature, various quirks and best practices
+
+=== Manual backup
+[[manual_backup]]
+Preventing data loss when using only local backup
+After any app reinstall, make sure to do Left menu > Backup > Import data immediately. If you forget to do that, the app will replace your sleep-export.csv file after the next sleep record is created. The old sleep-export.csv file will be renamed to sleep-export.backup.csv.
+
+To restore the old data:
+
+Delete the sleep-export.csv file
+Rename sleep-export.backup.csv to sleep-export.csv
+In Sleep, do Left menu > Backup > Import data
+
+=== Backup using Google provided backup cloud
+[[google_backup]]
+Most Android phones support Google provided backup. This is an optional feature and it must be explicitly enabled. You can go to System Settings > Backup & Restore and enable Back up my data option and Automatic restore option. When the first option is enabled, our application will backup your graphs and your alarms to a Google cloud. This is happening automatically in back-ground; you do not need to do anything.
+
+When you install a new installation of Sleep as Android on a phone where the Automatic restore option is enabled, all data will be automatically imported. You’ll get your sleep records and your alarm settings restored.
+
+We recommend using other methods, preferably SleepCloud, to backup your sleep records, as we have no direct control over initiation of Google backup so it may not work in all cases. This method is NOT meant to be used for synchronization of data or settings across phones.
+
+In case you have developer tools available, you can force Google backup and restore to get reliable results. To force the backup, you can run “adb backup -f sleep-backup.bk com.urbandroid.sleep” when the old device is connected and to upload the backup to a new device run “adb restore sleep-backup.bk”.
+
+This is the only method which backs up noise recordings metadata.
+
+=== Automated backup using SleepCloud Backup
+[[sleepcloud_backup]]
+CAUTION: This method requires the Sleep Cloud Backup add-on to be installed.
+
+This is the most convenient and reliable way to backup your sleep records. You need to have SleepCloud Backup add-on in order to benefit from this feature. The add-on automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc..). The backup/restore could also be triggered manually from Graphs tap – click on the cloud icon and you’ll see Download from cloud and Upload to cloud options. The first option is used to start backup, the second to start a data restore.
+
+Currently, we provide 3 different services where you can backup your data. You have to connect to at least one of them to benefit from the add-on. To connect, go to Settings > Service > Cloud backup and click on the service you want to connect. You can connect more than one service if you want.
+
+How to backup?
+Left menu > Backup > Upload to Cloud:
+Deletes all records from SleepCloud/Drive/Dropbox, then copies all records from your phone to SleepCloud/Drive/Dropbox. If it would delete too many records, gives you a warning.
+Left menu > Backup > Download from Cloud:
+Deletes all records from your phone, then copies all records from SleepCloud/Drive/Dropbox to your phone. If it would delete too many records, gives you a warning.
+
+=== Automated backup with the SleepCloud service
+This is the recommended backup service. It stores data in a special purpose cloud we designed for Sleep as Android. This backup option has several unique features not present in other options.
+
+– You can view and modify your data online, by visiting our online cloud here.
+
+– Unlike other services, it does a full synchronization of records including deleting/updating of existing records. This makes it the most suitable service to synchronize data among multiple devices.
+
+– It uses optimized communication protocols so it consumes least data of all services.
+
+SleepCloud backup also synchronizes all of your settings, so if you get a new phone, just install SleepCloud backup and all your settings will be downloaded along with the records. It works in an inobtrusive way, so if you’ve changed any of the settings on the new phone already, they won’t get overwritten.
+Your active alarms will also get synchronized. The inactive ones are ignored when syncing.
+In order to use SleepCloud, you need to have a valid Google account and grant us a permission to use this account when connecting to the cloud.
+
+
+=== Backup of noise data
+We currently do not provide any way how to automatically backup stored noise recordings. They are, however, stored on your sdcard (/sdcard/sleep-data/rec/*), so you can manually copy them to your new device.
+If you use the Google-provided backup cloud, all the noise recordings metadata will be backed up.
+
+
+
+
+
+
 

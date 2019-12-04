@@ -8,7 +8,7 @@ parent: Alarms
 :toc:
 
 == What it does
-Snoozes allow you to delay your wake up if you do not yet feel rested on alarm time.
+.Snoozes delay your wake up if you do not yet feel rested on alarm time.
 
 After hitting a snooze button on alarm screen, you get additional period of sleep, and alarm time is postponed.
 You can also restrict or limit the snoozing to prevent oversleeping.
@@ -25,3 +25,6 @@ Halve Snooze:: Each consecutive snooze duration is halved.
 Changing snooze time:: Allows changing snooze duration on alarm screen during alarm (enables selection of different snoozes).
 Snooze after alarm time:: Snoozing may be completely disabled after the alarm time has been reached (works only for smart alarm)
 NOTE: If your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.
+
+== Guide
+// Free form description on how to use the feature, various quirks and best practices

@@ -6,4 +6,4 @@ tags:
 
 Smart alarm is enabled (see TODO)
 
-* _Settings > Sleep tracking -> Smart period_
+* _Settings -> Sleep tracking -> Smart period_

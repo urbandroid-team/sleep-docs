@@ -7,7 +7,7 @@ parent: Sleep - advanced features
 
 :toc:
 
-## What it does
+== What it does
 .Enhances your sleep tracking data.
 
 If you have a compatible heart rate sensor, you can use it to:
@@ -15,17 +15,18 @@ If you have a compatible heart rate sensor, you can use it to:
 . Gather your heart rate during the night and show it on your sleep graph
 . Have much more precise awake detection
 
-## Where to find it
+== Where to find it
 Enable HR monitoring for smartwatches/bands::
-  *Sleep as Android > Settings > Wearables > Heart rate monitoring*
+  _Sleep as Android -> Settings -> Wearables -> Heart rate monitoring_
   For compatible smartwatches/bands, see link:smartwatch_wearables.html[Wearables]
 
 Enable HR monitoring for devices that support direct heart rate over BlueTooth::
-  *Sleep as Android > Settings > Wearables > Bluetooth Smart*
+  _Sleep as Android -> Settings -> Wearables -> Bluetooth Smart_
   This regards devices such as heart rate straps (e.g. Polar H7) or link:oximeter.html[oximeters]
+NOTE: Do not use for HR monitoring with compatible smartwatches.
 
 Enable awake detection using heart rate data::
-  *Sleep as Android > Settings > Sleep tracking > Awake detection > Heart rate monitoring*
+  _Sleep as Android -> Settings -> Sleep tracking -> Awake detection -> Heart rate monitoring_
 
 // ## Options
 

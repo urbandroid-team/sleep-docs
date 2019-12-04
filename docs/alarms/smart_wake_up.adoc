@@ -8,7 +8,7 @@ parent: Alarms
 :toc:
 
 == What it does
-Smart wake up sets a window before the alarm time and finds the optimal moment to wake you up in light sleep phase.
+.Smart wake up sets a window before the alarm time and finds the optimal moment to wake you up in light sleep phase.
 
 Curious whether it really works? Check our https://sleep.urbandroid.org/a-case-for-the-smart-alarm/[global study of smart alarm.]
 
@@ -41,15 +41,3 @@ Not before ideal sleep:: Does not allow the alarm before reaching either ideal s
 
 == Guide
 // Free form description on how to use the feature, various quirks and best practices
-
-== Troubleshooting
-[horizontal]
-Alarms go off exactly at the beginning of smart period::
-. Lower the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurrence_
-Alarms go off only at alarm time at the end of smart period::
-. Increase the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurrence_
-. If you feel the smart alarm is not working at all please send us the application log TODO
-My alarms go off an hour late::
-. Your smart period is set to Power nap (see link:../alarms/power_nap.html[power nap])
-. When this option is selected as your smart wake up method, the warning screen with an explanation needs to be confirmed.
-. Change the smart wake up period in _Settings -> Sleep tracking -> Smart wake up -> Smart period_

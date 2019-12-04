@@ -9,12 +9,12 @@ parent: Sleep - basic features
 :toc:
 
 == What it does
-Estimates your awake periods using either light detection, heart rate detection, detection of using a phone or pause feature.
+.Estimates your awake periods using either light detection, heart rate detection, detection of using a phone, or pause feature.
 
 Since actigraphy is not powerful enough to distinguish you being awake in the bed and not moving from being out of bed for toilet, sleep uses several tricks to estimate your awakes periods - like measuring the light, phone position, and heart rate peaks.
 
 == Where to find it
-_Settings > Sleep tracking > Awake detection_
+_Settings -> Sleep tracking -> Awake detection_
 
 == Options
 
@@ -22,7 +22,7 @@ _Settings > Sleep tracking > Awake detection_
 
 Movement intensity:: Estimated from awake like events based on acceleration threshold
 Heart rate monitoring:: Your heart beats up to 10 BPM slower TODO
-Light:: the ambient light sensor measures the level of ambient light in your bedroom
+Light:: The ambient light sensor measures the level of ambient light in your bedroom
  * If there is disturbing light (more than 30 lux) after sunset, we consider it as an Awake period.
  * The #dark tag is added when you have less than 30 lux for at least 90% of the night.
  * The #light tag is added when you have more than 60 lux for at least 33% of the night.
@@ -42,10 +42,10 @@ Use the sleep tracking pause feature whenever you are tracking but not sleeping.
 [horizontal]
 Pause button:: Available from sleep tracking screen
 * Displays the time left
-* Finish without your further interaction
+* Finished without your further interaction
 * You may add +5 minutes anytime.
 Volume / camera buttons:: Adds 5 minutes every time your press the volume of camera buttons
-* Needs to be enabled in _Settings > Sleep tracking > Volume and camera button effect_
+* Needs to be enabled in _Settings -> Sleep tracking -> Volume and camera button effect_
 * When screen off - press the power button and than one of the volume buttons or camera button
 
 NOTE: You can also edit your sleep graph ex-post in order to correct your wake up or before fall asleep periods. This can be done in the sleep graph detail screen. Graph detail screen is displayed, when you click on a graph on the screen that lists all your recordings. You can select the related portion of the sleep graph and choose MENU &gt; Delete selected

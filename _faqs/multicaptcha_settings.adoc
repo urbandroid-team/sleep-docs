@@ -1,0 +1,11 @@
+---
+title: Cannot find settings fro one of the task in MultiCaptcha
+tags:
+- alarm
+- captcha
+---
+
+
+. Disable MultiCaptcha and select the Captcha task you wish to change.
+. Open _Settings -> Captcha -> Settings_ and change the task.
+. Re-select MultiCaptcha again.
