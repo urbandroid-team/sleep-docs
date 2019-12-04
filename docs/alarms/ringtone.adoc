@@ -7,10 +7,8 @@ parent: Alarms
 
 :toc:
 
-Select any pleasant music of your choice for even more enjoyable mornings.
-
 == What it does
-Changes the sound of alarm(s)
+.Change the sound of alarm(s) to any pleasant music of your choice for even more enjoyable mornings.
 
 == Where to find it
 _Settings -> Alarm default settings -> Ringtone_

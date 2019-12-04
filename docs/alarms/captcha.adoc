@@ -9,15 +9,14 @@ parent: Alarms
 
 == What it does
 
-CAPTCHA is another very effective tool in preventing oversleeping - a little task which needs to be solved first before the alarm gets dismissed.
-Prove you are a human even though you sleep as android!
+.A little task which needs to be solved first before the alarm gets dismissed.
 
 == Where to find it
 
 _Settings -> CAPTCHA: Stop oversleeping!_
 _per-alarm settings -> CAPTCHA: Stop oversleeping!_
 
-NOTE: CAPTCHA can also be configured per alarm, so you can override your CAPTCHA settings and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends
+NOTE: CAPTCHA can also be configured per-alarm, so you can override your CAPTCHA settings and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends
 
 == Options
 [horizontal]
@@ -28,8 +27,9 @@ Default CAPTCHA::
  QR code:: see <<QR_NFC,QR Captcha>>
  NFC tag:: see <<QR_NFC,NFC Captcha>>
  Shake it::  Shake your phone
- Dream diary:: Write down your dreams (10 characters minimum at Difficulty 1)
- Say cheese!:: Smile to your front camera
+ Dream diary:: Write down your dream (10 characters minimum at Difficulty 1).
+NOTE:: Dream diary entries are saved into back up file under Comment section - see link:../sleep_basic/backup_data.html[Back up guide].
+Say cheese!:: Smile to your front camera
  Laugh Out Loud:: Laugh at your phone
 CAPTCHA Difficulty:: Allows you to set a difficulty, the more difficult the task, the more repetition of that task
 Preview:: Shows you the task in advance
@@ -51,10 +51,9 @@ CAPTCHA ADD-ons:: Download free extension with more Captcha tasks https://play.g
 == Advanced Options
 [horizontal]
 Alarm volume in CAPTCHA:: Lowers or mute the alarm volume while solving a task
-Prevent escaping CAPTCHA:: Prevents you to force closing or uninstalling the app during task solving
-
 NOTE: During CAPTCHA solving, alarm volume is lowered for 1 minute so that you don’t wake your partner with the ongoing alarm. You can use the 1 minute either to solve the CAPTCHA or get to a different room for solving.
 To get more time to solve your task, tap on + icon in the upper right corner
+Prevent escaping CAPTCHA:: Prevents you to force closing or uninstalling the app during task solving
 
 == QR code and NFC tag CAPTCHA
 [[QR_NFC]]
@@ -78,7 +77,6 @@ Delete a code / tag::
 . Go to _Settings -> Captcha -> Settings_
 . Tap on TODO (ikona)
 
-
-== Troubleshooting
-[horiznotal]
+//== Guide
+// Free form description on how to use the feature, various quirks and best practices
 

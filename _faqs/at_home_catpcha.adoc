@@ -8,4 +8,4 @@ tags:
 
 NOTE: Not at home" feature only works when we see your location is significantly different from the home (+-5km at least) as we do not collect fine location for privacy reason-
 
-. Send us the application log by using Left ≡ menu -> Report a bug.
+. Send us the application log by using _Left_ ☰ _menu -> Report a bug_

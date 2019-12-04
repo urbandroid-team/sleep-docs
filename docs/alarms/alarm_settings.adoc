@@ -9,7 +9,7 @@ tags:
 :toc:
 
 == What it does
-Alarm TODO text
+.Alarm TODO text
 
 NOTE: For even better experience with alarms, see also link:../alarms/smart_wake_up.html[smart wake up]
 
@@ -94,7 +94,3 @@ Create odd / even schedule::
 . Open per-alarm settings
 . Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time)
 . Choose Weekly / Even / Odd pattern from the drop down menu list
-
-== FAQ
-[horizontal]
-::

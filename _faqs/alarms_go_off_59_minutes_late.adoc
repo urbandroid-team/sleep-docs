@@ -5,5 +5,6 @@ tags:
   - powernap
 ---
 
-* Power nap feature is chosen as your smart period
-* *Settings > Sleep tracking > Smart wake up > Smart period*
+. Your smart period is set to Power nap (see link:../alarms/power_nap.html[power nap])
+. When this option is selected as your smart wake up method, the warning screen with an explanation needs to be confirmed.
+. Change the smart wake up period in _Settings -> Sleep tracking -> Smart wake up -> Smart period_

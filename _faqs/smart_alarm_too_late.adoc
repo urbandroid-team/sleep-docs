@@ -1,0 +1,11 @@
+---
+title: Alarms go off exactly at the alarm time
+tags:
+- alarm
+- smart_alarm
+---
+
+
+Alarms go off only at alarm time at the end of smart period::
+. Increase the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurrence_
+. If you feel the smart alarm is not working at all please send us the application log by using _Left_ ☰ _menu -> Report a bug_

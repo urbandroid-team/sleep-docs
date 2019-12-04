@@ -21,11 +21,11 @@ You have set ideal daily sleep income to 7 hours, and an alarm for 6 AM.
 Your bedtime would then be 11 PM.
 ====
 
-## Where to find it
+== Where to find it
 _Settings -> Bedtime notification_
 
 
-## Options
+== Options
 [horizontal]
 Bedtime notification:: Disable the feature, or set a time when to send the bedtime notification
 Repeat:: How often should the notification repeat
@@ -35,6 +35,6 @@ Smart bedtime::
 
   +smart time to bed = next alarm – ideal daily sleep inc. – smart period – delayed tracking – in(5 days avg. sleep deficit > 10 min, 45 min)+
 
-//## Guide
+//== Guide
 
-//## Troubleshooting
+//== Troubleshooting

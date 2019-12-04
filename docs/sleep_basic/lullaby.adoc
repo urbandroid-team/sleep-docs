@@ -8,19 +8,19 @@ parent: Sleep - basic features
 :toc:
 
 ## What it does
-.Plays you a lullby while sleep tracking to help you fall asleep better.
+.Plays you a lullaby while sleep tracking to help you fall asleep better.
 
 
 
 
 *Build in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
- &gt; 5 lullabies are build in for free, 5 additional lullabies available after unlocking the app and many more with the Sleep Lullaby Add-on <span style="color:red">TODO odkaz na Play Store</span>
+ &gt; 5 lullabies are build in for free, 5 additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack]
 
 You can also use any external sound player for playing your *own music* as a lullaby, or you can try *binaural beats*.
 
 == Where to find it
 _Settings -> Lullaby_
-_Left ≡ menu -> Lullaby_ (only for selecting or starting lullaby)
+_Left_ ≡ _menu -> Lullaby_ (only for selecting or starting lullaby)
 
 == Options
 [horizontal]
@@ -78,12 +78,12 @@ Play:: selection of build-in lullabies
  * Restaurant
  * Stop
 Turn off when sleeping:: controls the system-wide volume level and turns it gradually down when you fall asleep
- * works with build in lullabies and any sound player app
- * you can set minimal time of playback (0-90 min)
- &gt;This feature only works when Sleep tracking is active
+ * Works with build in lullabies and any sound player app
+ * You can set minimal time of playback (0-90 min)
+NOTE: This feature only works when Sleep tracking is active
 Volume:: controls overall volume of lullabies
 * *Sudden sounds volume* - controls volume of sudden sounds (e.g. thunders, bubbles)
-* *Start automatically* - initiates lullabies automaticaly when tracking starts
+* *Start automatically* - initiates lullabies automatically when tracking starts
 
 —
 [horizontal]
@@ -103,8 +103,8 @@ Turn off WiFi after lullaby::
 * *Binaural beats in alarm* - configures stimulating binaural beats into alarm sounds
 * beta - frequency around 20 Hz
 * gamma - frequency around 40 Hz
-* *Mindroid*
-(<span style="color:red">TODO odkaz</span>)
+* *Mindroid* -
+https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid]
 
 ___
 

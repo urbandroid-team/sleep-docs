@@ -7,4 +7,4 @@ tags:
 ---
 
 
-. Send us the application log by using Left ≡ menu -> Report a bug.
+. Send us the application log by using _Left_ ☰ _menu -> Report a bug_.

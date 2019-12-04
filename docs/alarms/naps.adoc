@@ -8,7 +8,7 @@ parent: Alarms
 :toc:
 
 == What it does
-Naps allows to schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.
+.Naps schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.
 
 So instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
 
@@ -18,3 +18,6 @@ TODO: obrázek
 
 == Options
 1 minute - 10 hours
+
+//== Guide
+// Free form description on how to use the feature, various quirks and best practices
