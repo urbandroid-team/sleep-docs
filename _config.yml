@@ -55,6 +55,9 @@ asciidoctor:
     hardbreaks: true
     icons: ''
     icontype: svg
+    page-liquid: true
+    toc-title: 'On this page:'
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

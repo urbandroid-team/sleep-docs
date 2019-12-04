@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sleep research / theory / analysis
+title: Sleep data
 nav_order: 2
 has_children: true
 permalink: /docs/theory
