@@ -2,16 +2,16 @@
 layout: default
 title: Lullaby
 nav_order: 2
-parent: sleep_tracking.adoc
+parent: /docs/sleep_basic/sleep_tracking.html
 ---
 
 :toc:
 
 ## What it does
-.Plays you a lullby while sleep tracking to help you fall asleep better.
+.Plays you a lullaby while sleep tracking to help you fall asleep.
 
-*Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
- &gt; 5 lullabies are built-in for free, 5 additional lullabies available after unlocking the app and many more with the Sleep Lullaby Add-on <span style="color:red">TODO odkaz na Play Store</span>
+*Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for a rich experience stimulating your fantasy.
+ 5 lullabies are built-in for free, more are available after unlocking the app and many more with the Sleep Lullaby Add-on <span style="color:red">TODO odkaz na Play Store</span>
 
 You can also use any external sound player for playing your *own music* as a lullaby, or you can try *binaural beats*.
 
