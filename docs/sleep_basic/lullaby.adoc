@@ -2,7 +2,7 @@
 layout: default
 title: Lullaby
 nav_order: 2
-parent: Sleep - basic features
+parent: sleep_tracking.adoc
 ---
 
 :toc:
@@ -10,11 +10,8 @@ parent: Sleep - basic features
 ## What it does
 .Plays you a lullby while sleep tracking to help you fall asleep better.
 
-
-
-
-*Build in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
- &gt; 5 lullabies are build in for free, 5 additional lullabies available after unlocking the app and many more with the Sleep Lullaby Add-on <span style="color:red">TODO odkaz na Play Store</span>
+*Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
+ &gt; 5 lullabies are built-in for free, 5 additional lullabies available after unlocking the app and many more with the Sleep Lullaby Add-on <span style="color:red">TODO odkaz na Play Store</span>
 
 You can also use any external sound player for playing your *own music* as a lullaby, or you can try *binaural beats*.
 
@@ -26,7 +23,7 @@ _Left ≡ menu -> Lullaby_ (only for selecting or starting lullaby)
 [horizontal]
 // TODO
 
-Play:: selection of build-in lullabies
+Play:: selection of built-in lullabies
  * Whale diving
  * Thunderstorm
  * Mountain stream
@@ -78,7 +75,7 @@ Play:: selection of build-in lullabies
  * Restaurant
  * Stop
 Turn off when sleeping:: controls the system-wide volume level and turns it gradually down when you fall asleep
- * works with build in lullabies and any sound player app
+ * works with built-in lullabies and any sound player app
  * you can set minimal time of playback (0-90 min)
  &gt;This feature only works when Sleep tracking is active
 Volume:: controls overall volume of lullabies
