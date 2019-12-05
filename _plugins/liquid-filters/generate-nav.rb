@@ -10,7 +10,7 @@ module Jekyll
 
       htmlPages = Jekyll.sites.first.site_payload['site']['html_pages']
 
-      tree = toTreeByUrl(htmlPages)
+      tree = toTreeByUrl(htmlPages).sort_by {|t| [t[:nav_order] ? 1 : 0, t[:nav_order]]}
 
       res = ''
       tree.each do |partialTree|
@@ -72,7 +72,7 @@ module Jekyll
     def toTreeByUrl(jekyllPages)
       nodes = jekyllPages.map do |j|
         active = ($currentPageUrl == j['url'])
-        { url: j['url'], parentUrl: j['parent'], title: j['title'], active: active, page: j}
+        { url: j['url'], parentUrl: j['parent'], title: j['title'], active: active, page: j, nav_order: j['nav_order']}
       end
 
       nodes.each do |node|
