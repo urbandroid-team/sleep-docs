@@ -1,0 +1,32 @@
+- vymazat advice z basic feateures
+
+
+zplostit basic
+sleep - advanced -> top level advanced a dat tam vic veci
+
+top level Sleep noise recording
+[x] top level sleep tracking
+  children:
+    [x] HR
+    []
+
+[x] sleep theory -> sleep data
+
+daj se anchory vylistovat v levym menicku TOC?
+  Jaky anchory?
+
+
+Extenstion pro asciidoc na PATH: menu, blabla, path....vararg
+  Wut?
+
+[x] vymyslet nejak link cesty abychom je nemuseli psat rucne
+  - vsechny adoc files dat do flat struktury a linky pak budou bez cesty...
+  - makro ktere bude brat page title a vyplivne link?
+  - liquid filter
+  - nic
+
+
+[x] parent, grand_parent: zmenit aby se nelinkoval pomoci title ale pomoci url
+
+[] FAQ stranku udelat jako Accordion
+

@@ -1,0 +1,13 @@
+---
+layout: default
+title: FAQ
+permalink: /faq/
+no_troubleshooting: true
+---
+
+# FAQ
+
+{% for faq in site.faqs %}
+  * link:{{ faq.url | relative_url }}[{{ faq.title }}]
+{% endfor %}
+

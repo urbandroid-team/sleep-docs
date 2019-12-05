@@ -2,9 +2,11 @@
 layout: default
 title: Sleep tracking
 nav_order: 2
-parent: Sleep - basic features
+has_children: true
+// parent: Sleep - basic features
 ---
 :toc:
+
 
 ## What it does
 .Sleep tracking is a way to objectively measure the quality of your sleep.
@@ -12,7 +14,7 @@ parent: Sleep - basic features
 By tracking your sleep, the app enables you to:
 
 . See a sleep graph for every night
-. Monitor your long term sleep quality (with link:../theory/sleepscore.html[sleep score] and statistics)
+. Monitor your long term sleep quality (with link:/docs/theory/sleepscore.html[sleep score] and statistics)
 . Set up goals to improve your sleep quality
 . Use link:../alarms/smart_wake_up.html[smart wake up] for the alarm
 
@@ -62,7 +64,7 @@ Lollipop (5): turns off wifi
 Oreo (8): turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
 Q (10): does nothing - Android 10 has removed any means of controlling wifi programmatically
 
-.Advanced4q
+.Advanced
 [horizontal]
 Screen dimming:: Control what will happen to the phone screen while sleep tracking.
   Disabled::: Sleep does nothing, your system screen timeout applies

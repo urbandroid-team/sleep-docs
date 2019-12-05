@@ -62,8 +62,26 @@
         </nav>
         {% endif %}
         {% endunless %}
+
+
         <div id="main-content" class="page-content" role="main">
           <h1>{{page.title}}</h1>
+
+          {% if page.has_children == true and page.has_toc != false %}
+          <hr>
+          <h2 class="text-delta">Subpages</h2>
+          {% assign children_list = site.pages | sort:"nav_order" %}
+          <ul>
+            {% for child in children_list %}
+            {% if child.parent == page.url and child.title != page.title %}
+            <li>
+              <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          {% endif %}
+
           {{ content }}
 
           {% if page.collection == "faqs" %}
@@ -77,7 +95,7 @@
             {{ tags }}
           {% endif %}
 
-          {% if page.collection != "faqs" %}
+          {% if page.collection != "faqs" and page.no_troubleshooting != true %}
 
             <h2>Troubleshooting</h2>
 
@@ -95,20 +113,6 @@
 
           {% endif %}
 
-          {% if page.has_children == true and page.has_toc != false %}
-          <hr>
-          <h2 class="text-delta">Table of contents</h2>
-          {% assign children_list = site.pages | sort:"nav_order" %}
-          <ul>
-            {% for child in children_list %}
-            {% if child.parent == page.title and child.title != page.title %}
-            <li>
-              <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          {% endif %}
         </div>
       </div>
     </div>

@@ -1,11 +1,5 @@
 module Jekyll
   module CustomFilters
-    def testFilter(input)
-      site = Jekyll.sites.first
-      # site.pages
-      'this is filtered by testFilter'
-    end
-
     def getTitleFromUrl(pageUrl)
       site = Jekyll.sites.first
       site.pages
