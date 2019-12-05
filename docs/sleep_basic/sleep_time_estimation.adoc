@@ -7,16 +7,16 @@ nav_order: 2
 :toc:
 
 
-## What it does
+== What it does
 
 If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
 
 The next day, a pop-up notification with estimated timings appears.
 
-## Where to find it
+== Where to find it
 _Settings -> Sleep tracking -> Sleep time estimate_
 
-## Options
+== Options
 [horizontal]
 
 Disabled:: No data from recognition engine are collected
@@ -25,4 +25,4 @@ Save automatically:: Sleep time estimation is saved automatically
 
 ## Guide
 
-## Troubleshooting
+== Troubleshooting

@@ -23,7 +23,7 @@ Enable HR monitoring for smartwatches/bands::
 Enable HR monitoring for devices that support direct heart rate over BlueTooth::
   _Sleep as Android -> Settings -> Wearables -> Bluetooth Smart_
   This regards devices such as heart rate straps (e.g. Polar H7) or link:oximeter.html[oximeters]
-NOTE: Do not use for HR monitoring with compatible smartwatches.
+NOTE: Do not use this option for HR monitoring with compatible smartwatches.
 
 Enable awake detection using heart rate data::
   _Sleep as Android -> Settings -> Sleep tracking -> Awake detection -> Heart rate monitoring_

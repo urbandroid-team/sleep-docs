@@ -16,15 +16,11 @@ Long press on an empty space on your phone screen -> Widgets -> scroll down unti
 == Options
 //TODO all images
 [horizontal]
-Tracking widget:: Starts a tracking and reminds you when to go to bed with colors. Its normal state is grey, but turns into green two hours before the scheduled bedtime and shows the countdown. When You reach bedtime, the widget turns red as a warning that You should go to sleep ASAP.
-Alarm widget:: Shows the time of the next alarm. Its color reflects current day of the week from Monday – Red to Friday and Weekend – Green to reflect the usually work week day sentiments :). Clicking on it brings You to the Sleep as Android application
-Hypnogram widget:: Shows your last hypnogram.
-Droid widget (icon):: Changes appearance depending on time, date, day of the week and other factors. Find out all the droid faces! Clicking on it brings You to the Sleep as Android application
+Tracking widget:: Starts a tracking and reminds you when to go to bed with colors.Two hours  shows the countdown. When you reach bedtime, the widget turns red as a warning that you should go to sleep ASAP. Tapping on tracking widgets initiates sleep tracking.
+Alarm widget:: Shows the time of the next alarm. Its color reflects the day of the week of the next alarm from Monday – Red to Friday and Weekend – Green, to reflect the usually work week day sentiments :). Clicking on it brings you to the Sleep application.
+Droid widget (icon):: Changes appearance depending on time, date, day of the week and other factors. Find out all the droid faces! Tapping on it brings you to the Sleep application
 Hypnogram widget:: Shows your last hypnogram, opens the last graph.
 Shortcuts widgets:: When long pressing the Sleep icon, you can create new widgets from your shortcuts. TODO link to shortcuts
-
-
-
 
 == Troubleshooting
 // To be used for automatic rendering of related FAQs
