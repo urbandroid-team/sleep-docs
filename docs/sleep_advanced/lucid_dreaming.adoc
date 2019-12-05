@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Bedtime notification
+title: Lucid dreaming
 nav_order: 2
-parent: Sleep - advanced features
+parent: /docs/sleep_advanced
 ---
 :toc:
 

@@ -2,7 +2,7 @@
 layout: default
 title: Goals
 nav_order: 2
-parent: Sleep - advanced features
+parent: /docs/sleep_advanced
 ---
 :toc:
 

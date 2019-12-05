@@ -2,10 +2,10 @@
 layout: default
 title: Permissions
 nav_order: 2
-parent: General information
+parent: /docs/general_info
 ---
 
-Sleep as 
+Sleep as
 
 
 This app has access to:

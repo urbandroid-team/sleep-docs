@@ -2,7 +2,7 @@
 layout: default
 title: Privacy
 nav_order: 2
-parent: General information
+parent: /docs/general_info
 ---
 
 See https://team.urbandroid.org/privacy/.
