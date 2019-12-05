@@ -7,21 +7,24 @@ parent: Sleep - advanced features
 :toc:
 
 == What it does
-.Lucid dreaming cues will play once the app detects you are dreaming (in REM phase).
+.Lucid dreaming alarm cues will play once the app detects you are dreaming (in REM phase).
 
-TODO:link to some more information how lucid dreaming works
+Lucid dreaming is a technique which allows to become aware of the fact that you are dreaming in order to gain control over your dreams.
+There are various techniques how to help your mind realize you are dreaming and most of them require some training in advance. The technique we use in Sleep as Android uses audible cues played (ideally in your headphones) during sleep. We play the cues usually towards the end of the deep sleep phases where we expect the most memorable dreaming.  Hearing the familiar audible cues should help you realize that you are dreaming. Please refer to other resources online on how to bed train to induce lucid dreaming and how to train yourself on the audible cues.
+Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments.
 
 == Where to find it
 _Settings -> Lucid dreaming_
-for using light-powered lucid dreaming cues:
+
+For using light-powered lucid dreaming cues:
 _Settings -> Smart light -> Lucid dreaming_
 
 == Options
 [horizontal]
 
-Enabled::
-Preview::
+Enabled:: ...
+Preview:: Allows you to try the lucid dreaming cue in advance.
 Ringtone:: Select your sound. A woman voice "You are dreaming" is default.
-Volume:: Select volume for sound quest
-Vibrate:: Enable vibrations upon lucid dreaming cues.
-Loop audio:: SEt the number of repetitions
+Volume:: Selects volume for sound cue.
+Vibrate:: Enables vibrations upon lucid dreaming cues.
+Loop audio:: Sets the number of repetitions
