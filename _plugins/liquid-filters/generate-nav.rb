@@ -1,3 +1,5 @@
+require 'pry'
+
 module Jekyll
   module GenerateNav
     def generateNav(currentPage)
@@ -6,32 +8,14 @@ module Jekyll
 
       htmlPages = Jekyll.sites.first.site_payload['site']['html_pages']
 
-      res = toTreeByUrl(htmlPages)
+      tree = toTreeByUrl(htmlPages)
 
-      
+      res = ''
+      tree.each do |branch|
+        res << hash_list_tag(branch)
+      end
 
-      # ar = convertToNestedStructure(currentPage, htmlPages)
-
-      # htmlPages.each do |page|
-      #   if (page['parent'] == nil)
-      #     outputHtml << '<li class="navigation-list-item '
-      #     if isCurrentPageActive(page, currentPage)
-      #       outputHtml << 'active'
-      #     end
-      #     outputHtml << '">'
-      #   end
-
-      #   if isParentOrGrandparentPageActive(page, currentPage)
-      #     firstLevelUrl = currentPage['url']
-      #   end
-
-      #   page['url'] == currentPage['url'] ? isLinkActive = 'active' : isLinkActive = ''
-      #   outputHtml << '<a href="' + page['url'].to_s + '" class="navigation-list-link ' + isLinkActive.to_s + '">' + page['title'].to_s + '</a>'
-
-
-      # end
-
-      # return outputHtml
+      pp res
       return res
 
     end
@@ -39,36 +23,24 @@ module Jekyll
     def hash_list_tag(hash)
       html = content_tag(:ul) {
         ul_contents = ""
-        ul_contents << content_tag(:li, hash[:parent])
-        hash[:children].each do |child|
-          ul_contents << hash_list_tag(child)
+        ul_contents << content_tag(:li, hash[:url])
+        if hash[:children]
+          hash[:children].each do |child|
+            ul_contents << hash_list_tag(child)
+          end
         end
-
-        ul_contents.html_safe
-      }.html_safe
+        ul_contents
+      }
     end
 
-    def convertToNestedStructure(currentPage, htmlPages)
-
-      # pp htmlPages # array of Jekyll:Page objects
-
-      res = toTreeByUrl(htmlPages)
-
-      # parents = htmlPages.select do |page|
-      #   page['parent'] == nil && page['grand_parent'] == nil
-      # end
-
-      # children = htmlPages.select do |page|
-      #   page['parent'] != nil && page['grand_parent'] == nil
-      # end
-
-      # grandchildren = htmlPages.select do |page|
-      #   page['grand_parent'] != nil
-      # end
-
-      # res = generateParentsList(currentPage, parents, children, grandchildren)
-
-      return res
+    def content_tag(tag, content = nil, &block)
+      if block_given?
+        # pp block # this is our content
+        content = block.call
+      else
+        # pp content
+      end
+      res = '<' + tag.to_s + '>' + content.to_s + '</' + tag.to_s + '>'
     end
 
     def toTreeByUrl(jekyllPages)
@@ -78,7 +50,7 @@ module Jekyll
 
       nodes.each do |node|
 
-        parentObject = nodes.find { |another| another[:url] == node[:parent] or another[:title] == node[:parent] }
+        parentObject = nodes.find { |another| another[:url] == node[:parent] }
         next unless parentObject
 
         node[:parentObject] = parentObject
@@ -88,7 +60,6 @@ module Jekyll
       end
 
       nodes.select { |node| node[:parentObject].nil? }
-
     end
 
     def isCurrentPageActive(page, currentPage)
