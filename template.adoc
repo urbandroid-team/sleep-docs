@@ -7,7 +7,7 @@ parent: Sleep - basic features
 :toc:
 
 ## What it does
-.One sentence summary
+*One sentence summary*
 
 // [Optional] Longer text describing the feature
 

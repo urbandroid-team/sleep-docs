@@ -2,16 +2,16 @@
 layout: default
 title: Alarm settings
 nav_order: 2
-parent: /docs/alarms/alarm_settings.html
+parent: /docs/alarms
 tags:
   - alarm
 ---
 :toc:
 
 == What it does
-.Alarm TODO text
+*Alarm TODO text*
 
-NOTE: For even better experience with alarms, see also link:../alarms/smart_wake_up.html[smart wake up]
+NOTE: For even better experience with alarms, see also link:../alarms/smart_wake_up.html[Smart wake up]
 
 == Where to find it
 Alarms can be modified at two places - for one specific alarm in per-alarm settings, and for all alarms in Alarm default settings.

@@ -2,7 +2,7 @@
 layout: default
 title: SleepCloud study
 nav_order: 2
-parent: Sleep data
+parent: /docs/theory
 ---
 
 :toc:

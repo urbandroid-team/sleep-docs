@@ -2,8 +2,8 @@
 layout: default
 title: Samsung Gear / Galaxy Gear
 nav_order: 2
-parent: Smartwatch and Wearables
-grand_parent: Connected devices
+parent: /docs/connected_devices/smartwatch_wearables.html
+grand_parent: /docs/connected_devices
 ---
 > Sleep as Android supports most Samsung wearables, but not all. Please look for your device in the "Supported watches" list below.
 

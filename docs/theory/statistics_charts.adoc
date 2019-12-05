@@ -1,8 +1,8 @@
-—
+---
 layout: default
 title: Statistics, Sleep Score charts
 nav_order: 2
-
-== parent: Sleep data
+parent: /docs/theory
+---
 
 :toc:
