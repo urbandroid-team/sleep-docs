@@ -7,23 +7,25 @@ parent: /docs/sleep_basic/sleep_tracking.html
 
 :toc:
 
-## What it does
+== What it does
 .Plays you a lullaby while sleep tracking to help you fall asleep better.
 
+
+For lullabies, you can use *built-in lullabies*, your *own music*, or you can try *binaural beats*.
+
 *Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
- &gt; 5 lullabies are build in for free, 5 additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack]
+Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack].
 
-You can also use any external sound player for playing your *own music* as a lullaby, or you can try *binaural beats*.
+For playing your *own music* (external player, Spotify, listening audiobooks), you can use the feature "Turn off when sleeping", which is watching for you falling asleep and then will start a countdown for the set time. After that, it will gradually lower the system media volume.
 
+*Binaural beats* mix real-time generated binaural tones into lullaby playback. Read more about https://en.wikipedia.org/wiki/Beat_(acoustics)[binaural beats].
 == Where to find it
 _Settings -> Lullaby_
 _Left_ ≡ _menu -> Lullaby_ (only for selecting or starting lullaby)
 
 == Options
 [horizontal]
-// TODO
-
-Play:: selection of built-in lullabies
+Built-in lullabies::
  * Whale diving
  * Thunderstorm
  * Mountain stream
@@ -34,7 +36,7 @@ Play:: selection of built-in lullabies
  * Windy walk
  * Old clock
  * Chants of Tibet
-* *Lullaby Add-ons* - unlock additional lullaby sounds
+Lullaby Add-ons::
  * Summer night
  * Frogs in pond
  * North wind
@@ -45,8 +47,8 @@ Play:: selection of built-in lullabies
  * Wind chimes
  * Om chant
  * Temple bells
- * flute
- * TRibal drums
+ * Flute
+ * Tribal drums
  * Piano
  * Cat purr
  * Steam train
@@ -73,36 +75,35 @@ Play:: selection of built-in lullabies
  * Vacuum cleaner
  * Washing machine
  * Restaurant
- * Stop
-Turn off when sleeping:: controls the system-wide volume level and turns it gradually down when you fall asleep
+Turn off when sleeping:: Controls the system-wide volume level and turns it gradually down when you fall asleep.
+NOTE: This feature only works when Sleep tracking is active.
+ * Works with built-in lullabies and any sound player app or service.
+ * You can set minimal time of playback (0-90 min).
+Volume:: Controls volume of lullabies.
+Sudden sounds volume:: Controls volume of sudden sounds (e.g. thunders, bubbles).
+Start automatically:: Initiates lullabies automatically when tracking starts.
 
- * Works with built-in lullabies and any sound player app
- * You can set minimal time of playback (0-90 min)
-NOTE: This feature only works when Sleep tracking is active
 
-Volume:: controls overall volume of lullabies
-* *Sudden sounds volume* - controls volume of sudden sounds (e.g. thunders, bubbles)
-* *Start automatically* - initiates lullabies automatically when tracking starts
-
-—
+== Online radio section
 [horizontal]
-Online radio section
 Play::
-+ Online radio::
-Turn off WiFi after lullaby::
++ Online radio:: You can add you own online radio
+NOTE: You need to add the url of the online audio stream (don´t confuse with the url of the radio web player).
 
-—
-*Binaural beats (advanced option)*
- &gt; effective only if you use the lullaby with headphones
- &gt; CAUTION: We do strongly discourage users from using binaural beats if they suffer epileptic or cardiac issues!
-* *Binaural beats* - mixes real-time generated binaural tones into lullaby playback, read more (<span style="color:red">TODO odkaz</span>)
+Turn off WiFi after lullaby:: Turns off the WiFi signal once the volume reaches zero. For online radios and streaming services.
 
-* delta - frequency goes down to 2 Hz
-* theta - frequency goes down to 4 Hz
-* *Binaural beats in alarm* - configures stimulating binaural beats into alarm sounds
-* beta - frequency around 20 Hz
-* gamma - frequency around 40 Hz
-* *Mindroid* -
+== Advanced Options
+[horizontal]
+Binaural beats::
+* Delta - frequency goes down to 2 Hz
+* Theta - frequency goes down to 4 Hz
+NOTE: Effective only if you use the lullaby with headphones
+NOTE: We do strongly discourage users from using binaural beats if they suffer epileptic or cardiac issues!
+Volume:: Set a volume of binaural tones
+Binaural beats in alarm:: Configures stimulating binaural beats into alarm sounds
+* Beta - frequency around 20 Hz
+* Gamma - frequency around 40 Hz
+Mindroid::
 https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid]
 
 ___
@@ -113,8 +114,4 @@ ___
 Use podcast / audiobook::
 
 == Troubleshooting
-// TODO
-[horizontal]
-Volume jumps to max when tracking::
-Lullaby got recorded::
-Sonar audible in lullabies::
+

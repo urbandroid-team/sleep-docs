@@ -1,0 +1,19 @@
+---
+title: Volume jumps to max when tracking
+tags:
+- tracking
+- volume
+- lullaby
+---
+
+TODO
+
+This is because you use sonar. Sonar needs the music stream to emit ultrasonic signal, if you lower volume you also lower intensity of sonar.
+We need to keep sonar volume at maximum.
+
+This is why we added a separate volume settings for lullabies, you need to set your lullaby volume upfront and let the music volume maintained by the sonar. Sorry for the limitation.
+Please note that this means that when using sonar, you cannot control lullaby volume by volume buttons as it always jumps back to maximum.
+
+Unfortunately, this also affects media volume in 3rd party apps, and we cannot control those separately from sonar media volume. This means that while using sonar, you can only use media apps on full volume.
+
+. You can set a tracking delay in _Settings -> Sleep tracking -> Awake detection -> Sleep tracking delay

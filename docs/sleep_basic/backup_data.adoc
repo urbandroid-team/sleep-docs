@@ -16,15 +16,15 @@ _Left_ ≡ _menu -> Backup_
 
 _Settings -> Services -> Cloud backup_
 
-== Options
+== Options in Left menu
 [horizontal]
 Export data:: All your sleep records are exported to a csv file located on your phone at _/sdcard/sleep-data/sleep-export.csv_; for  <<manual_backup,manual backup>> or for your own analysis of tracking results.
-
-Upload to Cloud:: Initiates Cloud back up set in _Settings -> Services_
-Import data:: Initiate import of data from /sdcard/sleep-data/sleep-export.csv.
+Upload to Cloud:: Initiates synchronization Cloud back up set in _Settings -> Services_ and uploads the data from phone to cloud.
+Import data:: Initiate import of data from /sdcard/sleep-data/sleep-export.csv (manual backup)
 NOTE:: Import will just import new records that are present in this file and they are missing in your Sleep as Android database. It will not delete or modify any of existing sleep records you already have in the application.
-Download from Cloud:: Initiates syncing data with Cloud back up set in _Settings -> Services_
+Download from Cloud:: Initiates synchronization with Cloud back up set in _Settings -> Services_ and downloads the data from cloud to application
 
+== Options in Services -> Cloud backup
 [horizontal]
 SleepCloud:: See <<sleepcloud_backup,SleepCloud backup>>
 Google Drive:: See <<google_backup,Google backup>>
@@ -36,8 +36,8 @@ Dropbox:: See TODO
 
 === Manual backup
 [[manual_backup]]
-Preventing data loss when using only local backup
-After any app reinstall, make sure to do Left menu > Backup > Import data immediately. If you forget to do that, the app will replace your sleep-export.csv file after the next sleep record is created. The old sleep-export.csv file will be renamed to sleep-export.backup.csv.
+After any app reinstall, make sure to do _Left_ ☰ _menu -> Backup -> Import data_ immediately.
+If you forget to do that, the app will replace your sleep-export.csv file after the next sleep record is created. The old sleep-export.csv file will be renamed to sleep-export.backup.csv.
 
 To restore the old data:
 
@@ -47,7 +47,7 @@ In Sleep, do Left menu > Backup > Import data
 
 === Backup using Google provided backup cloud
 [[google_backup]]
-Most Android phones support Google provided backup. This is an optional feature and it must be explicitly enabled. You can go to System Settings > Backup & Restore and enable Back up my data option and Automatic restore option. When the first option is enabled, our application will backup your graphs and your alarms to a Google cloud. This is happening automatically in back-ground; you do not need to do anything.
+Most Android phones support Google provided backup. This is an optional feature and it must be explicitly enabled. You can go to System Settings > Backup & Restore and enable Back up my data option and Automatic restore option. When the first option is enabled, our application will backup your graphs and your alarms to a Google cloud. This is happening automatically in background; you do not need to do anything.
 
 When you install a new installation of Sleep as Android on a phone where the Automatic restore option is enabled, all data will be automatically imported. You’ll get your sleep records and your alarm settings restored.
 
