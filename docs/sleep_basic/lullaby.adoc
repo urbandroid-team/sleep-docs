@@ -84,7 +84,7 @@ Sudden sounds volume:: Controls volume of sudden sounds (e.g. thunders, bubbles)
 Start automatically:: Initiates lullabies automatically when tracking starts.
 
 
-== Online radio section
+.Online radio section
 [horizontal]
 Play::
 + Online radio:: You can add you own online radio
