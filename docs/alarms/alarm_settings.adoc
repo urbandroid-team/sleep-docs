@@ -71,33 +71,35 @@ Silent alarm (in Ringtone):: Sets alarm without sound.
 == Guide
 [horizontal]
 Create alarm only as vibrations on watch (no sound)::
-. Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarm default setting -> Sound delay_)
-. Enable wearable vibrations (_Settings -> Wearables -> Vibrate_)
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+. Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarm default setting -> Sound delay_).
+. Enable wearable vibrations (_Settings -> Wearables -> Vibrate_).
+
 Create silent alarm::
-. Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_)
-. This option is available on in per-alarm settings, not in Alarm default settings
+NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+. Set the alarm silent (_per-alarm settings -> Ringtone -> Silent_).
+. This option is available only in per-alarm settings, not in Alarm default settings.
 Postpone next alarm::
-. Open alarm -> Postpone next alarm
-. Use the sliding bar or the drop down menu list for postponing alarm
-. Confirm the alarm time change
-NOTE: Works only for repeating alarms
+NOTE: Works only for repeating alarms.
+. Open alarm -> Postpone next alarm.
+. Use the sliding bar or the drop down menu list for postponing alarm.
+. Confirm the alarm time change.
 Skip next alarm::
-. Open an alarm -> Skip next, confirm the change
-. Long press on the alarm on alarm board -> Skip next
-NOTE: Works only for repeated alarms
+NOTE: Works only for repeated alarms.
+. Open an alarm -> Skip next, confirm the change.
+. Or long press on the alarm on alarm board -> Skip next.
 Dismiss alarm before alarm time::
-. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone
-. Dismiss from the notification
-NOTE: won't deactivate the alarm completely, so it has no effect on next alarms
+NOTE: won't deactivate the alarm completely, so it has no effect on next alarms.
+. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone.
+. Dismiss from the notification.
 Use my own sound as alarm::
-. Open Ringtone selection: _Settings -> Alarm default settings -> Ringtone_ or _per-alarm settings -> Ringtone_
-. Tap on folder (TODO) icon in right upper corner
-. Choose a sound file saved on your phone
+. Open Ringtone selection: _Settings -> Alarm default settings -> Ringtone_ or _per-alarm settings -> Ringtone_.
+. Tap on folder (TODO) icon in right upper corner.
+. Choose a sound file saved on your phone.
 Name an alarm::
-. Open an alarm settings or create new alarm dialogue
-. Name the alarm in the Label field in upper right corner
+. Open an alarm settings or create new alarm dialogue.
+. Name the alarm in the Label field in upper right corner.
 Create odd / even schedule:: [[even_odd]]
-. Open per-alarm settings
-. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time)
-. Choose Weekly / Even / Odd pattern from the drop down menu list
+. Open per-alarm settings.
+. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
+. Choose Weekly / Even / Odd pattern from the drop down menu list.
