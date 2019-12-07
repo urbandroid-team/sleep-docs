@@ -93,7 +93,7 @@ module Jekyll
 
     def filterOutExcludedPages(htmlPages)
       return htmlPages.select do |page|
-        page["exclude_from_nav"].nil?
+        page["exclude_from_nav"].nil? || page["exclude_from_nav"] == false
       end
     end
 
