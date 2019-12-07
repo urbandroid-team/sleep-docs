@@ -30,4 +30,4 @@ Extenstion pro asciidoc na PATH: menu, blabla, path....vararg
 
 [] FAQ stranku udelat jako Accordion
 
-[] generate_nav nebere v potaz nav_order
+[x] generate_nav nebere v potaz nav_order

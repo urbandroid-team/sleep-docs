@@ -10,6 +10,8 @@ module Jekyll
 
       htmlPages = Jekyll.sites.first.site_payload['site']['html_pages']
 
+      htmlPages = filterOutExcludedPages(htmlPages)
+
       tree = toTreeByUrl(htmlPages).sort_by {|t| [t[:nav_order] ? 1 : 0, t[:nav_order]]}
 
       res = ''
@@ -87,6 +89,12 @@ module Jekyll
       end
 
       nodes.select { |node| node[:parentObject].nil? }
+    end
+
+    def filterOutExcludedPages(htmlPages)
+      return htmlPages.select do |page|
+        page["exclude_from_nav"].nil?
+      end
     end
 
   end
