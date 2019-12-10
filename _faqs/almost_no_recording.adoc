@@ -1,0 +1,10 @@
+---
+title: Almost no recordings
+tags:
+- recording
+---
+
+
+* Threshold volume is set too low, so only very loud sounds are recorded
+* Go to _Settings -> Sleep noise recordings -> Recording volume threshold_
+* Lower the threshold with the sliding bar

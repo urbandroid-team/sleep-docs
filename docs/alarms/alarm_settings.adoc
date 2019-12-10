@@ -43,6 +43,7 @@ Play alarm in silent profile:: Enables to trigger alarm in silent mode.
 
 [horizontal]
 Snooze:: See link:../alarms/snooze.html[Snooze].
+Always fullscreen alarm:: Allows loading fullscreen alarm on Android 10.
 Flip to snooze:: Lets you snooze an alarm by flipping the phone.
 Volume or camera button effect:: Allows to snooze or dismiss the alarm with volume buttons.
 No screen orientation changes:: Prevents changes of screen orientation while the alarm rings.
@@ -59,6 +60,8 @@ Alarm timeout:: See link:../alarms/backup.html[Backup alarm].
 [horizontal]
 Alarm output:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones.
 NOTE: Please, test it before using it - some vendors do no allow use media stream for alarms!
+Alarm reliability:: Does a lot of stuff, but only for some... Are you the chosen one?
+On problematic phones can increase reliability of the alarm (see https://dontkillmyapp.com?app=Sleep%20as%20Android[dontkillmyapp.com]).
 
 == Per-alarm settings
 Same as for alarm default settings; some new options are available.

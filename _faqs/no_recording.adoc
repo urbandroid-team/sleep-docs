@@ -1,0 +1,9 @@
+---
+title: The app did not record anything
+tags:
+- recording
+---
+
+* Make sure the app has an external storage permission granted.
+* Go to _Settings -> Sleep noise recording -> Storage path_
+* Re-select the noise directory with the noise files

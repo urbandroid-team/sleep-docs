@@ -1,0 +1,9 @@
+---
+title: Wrong sound recognition
+tags:
+- recording
+---
+
+* When listening to the noise recordings, you may find some of them tagged (#snore, #talk, etc.) incorrectly.
+* You can fix the tags manually - either by editing the comment, or by tapping a corresponding icon on the player screen.
+* The app may ask you to share the misclassified recording with us. If you agree, we will use the recording to learn from the mistake and improve our algorithm.
