@@ -63,7 +63,7 @@ NOTE: Please, test it before using it - some vendors do no allow use media strea
 Alarm reliability:: Does a lot of stuff, but only for some... Are you the chosen one?
 On problematic phones can increase reliability of the alarm (see https://dontkillmyapp.com?app=Sleep%20as%20Android[dontkillmyapp.com]).
 
-== Per-alarm settings
+.Per-alarm settings
 Same as for alarm default settings; some new options are available.
 [horizontal]
 Repeat:: Sets a schedule for repeating alarm, you can choose also <<even_odd,Even / odd pattern>>.

@@ -2,24 +2,78 @@
 layout: default
 title: Home screen
 nav_order: 1
-// parent: /docs/sleep_advanced
 ---
 :toc:
 
-
-// TODO: popsat karticky na homescreen, jak se daj vyvolat kdyz si je odswipnu pryc atd..
-
-
 ## What it does
-*One sentence summary*
+You can customize your main screen of Sleep with three different home screen types.
+
+*Dashboard* is the default home screen, presenting all options in cards. It is very customizable - you can choose which cards are active, and also pin your most favourite one at the top.
+
+*Tabs home screen* displays alarm list as the main screen, all other options are listed as tabs. You can choose which tabs are shown.
+
+*Alarms* is a special, simplified  mode, when you are using only alarms and do not care about the tracking at all.
+The main screen shows list of your alarms, and also hides all tracking related options in Settings.
 
 // [Optional] Longer text describing the feature
 
 ## Where to find it
+_Left_ ☰ _menu -> Home screen section -> Dashboard / Tabs / Alarms_
+//TODO text
 // Where to find the feature's settings and other related settings used to enable the feature, optionally with description
 // EXAMPLE: _Sleep as Android -> Settings -> Wearables -> Use wearables_
 
 ## Options
+
+.Dashboard
+
+[horizontal]
+Alarm card:: Shows you the first next active alarm.
+* Alarm card has a shortcut for creating a new alarm (TODO ikona a dopsat text).
+* Alarm card has also a special function - you can Skip next alarm, edit alarm or delete alarm direct from this card by long pressing on it.
+//TODO obrázek!!
+* Simple tapping on alarm time opens editing that alarm.
+* Tapping on TODO ikona open the dialogue for creating a new alarm
+* Tapping on any other place of the card opens Alarm list
+
+News card:: Temporary card shown only during important events or with a crucial message.
+Best of noises card:: ...
+* After tapping on this card, a player plays the file.
+Sleep score card:: See link:../docs/theory/sleepscore.html[Sleep score].
+* Tapping on this card opens Stats (see link:..docs/theory/statisctics_carts.html[Stats])
+Graphs card:: Shows last saved graph.
+* Tapping on this card open the last graph (how to read graphs - TODO link, jestli něco bude)
+Noise card::
+Charts card:: Shows you graphs from the link:../docs/theory/statistics_charts.html[Charts section].
+* You can swipe through the graphs.
+* Tapping on this card opens link:../docs/theory/statistics_charts.html[Charts section].
+Advice card:: Shows latest Advice for you.
+* Tapping on this card opens link:../docs/theory/Advice.html[Advice section].
+Shortcuts card:: A mini-board with shortcuts.
+TODO obrázek
+* Ideal sleep shortcut
+* Naps shortcuts
+* + Add sleep shortcut
+NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep, and Sleep tracking) for your main screen TODO odkaz
+Add-on card:: ...
+* Tapping on this card opens link:../docs/theory/Advice.html[Add-on section].
+.Tabs
+
+[horizonatl]
+Alarm tab::
+Dashboard tab::
+Stats tab::
+Graphs tab::
+Noise tab::
+Add-ons tab::
+
+.Alarms
+
+[horizontal]
+lkadbfklasdbf
+
+
+
 // Describe all the feature's options, see other docs pages for formatting
 
 // EXAMPLE:
@@ -40,4 +94,12 @@ nav_order: 1
 // EXAMPLE END
 
 ## Guide
+[horizontal]
+How to get rid off a card on Dashboard:: TODO
+How to get a lost card back on Dashboard:: TODO
+How to get rid off a tab on Tabs:: TODO
+How to get a lost tab on Tabs:: TODO
+How to pin a card to top position:: TODO
+
+
 // Free form description on how to use the feature, various quirks and best practices
