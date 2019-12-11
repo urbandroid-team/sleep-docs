@@ -19,10 +19,10 @@ _Settings -> Sleep tracking -> Sleep time estimate_
 == Options
 [horizontal]
 
-Disabled:: No data from recognition engine are collected
-Manual only:: Sleep time estimation is saved only after you confirm it
-Save automatically:: Sleep time estimation is saved automatically
+Disabled:: No data from recognition engine are collected.
+Manual only:: Sleep time estimation is saved only after you confirm it.
+Save automatically:: Sleep time estimation is saved automatically when a tracking is missing the previous night.
 
-## Guide
+== Guide
 
 == Troubleshooting

@@ -1,0 +1,68 @@
+---
+layout: default
+title: Sleep noise recording
+nav_order: 2
+// parent: /docs/sleep_basic/sleep_tracking.html
+---
+
+:toc:
+
+== What it does
+
+Whenever a  noise volume exceeds the threshold, app starts recording, and continues recording for a few seconds, or longer, if another noise occurs.
+
+
+Noise recording allows you to record significant noises during your sleep, detects sleep talking, sleep laughing, snoring or even a more serious issue (such as obstructive sleep apnea OSA (TODO link na apnea?).
+See also link:../sleep_advanced/snoring_detection.html[Snoring detection].
+
+NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
+
+
+
+== Where to find it
+_Settings -> Sleep noise recording_
+
+You can check whether the phone is recording on the sleep tracking screen - the red light indicates that the phone is currently recording. (TODO obrázek)
+
+NOTE:: In order to achieve good recordings keep the phone close to your head with the microphone area not covered.
+
+== Options:
+[horizontal]
+Enabled:: ...
+Record snoring, sleep talk:: Recording is triggered when a characteristic sound (snoring, talk, coughing, laughter, baby cry) is detected.
+Recording volume threshold:: The volume at which the app starts recording. The good value is usually around 10-20% (may vary with device).
+NOTE:: Lower threshold increases the sensitivity = more sounds are recorded.
+
+.Sound recognition
+[horizontal]
+Sound recognition:: Enables recognition of individual sounds (snoring, talk, coughing, laughter, baby cry), adjust sensitivity for each of them separately.
+ * Snoring
+ * Talking
+ * Laughter
+ * Cough and sneeze
+ * Baby cry
+Anti-snoring:: Sets anti-snoring cues to make you stop snoring.
+ * Sound - Sets the ringtone for anti-snoring alarm, tounge clicking as default.
+ * Volume - Sets volume for anti-snoring alarm.
+ * Preview - Check anti-snoring alarm in advance.
+
+.Advanced
+[horizontal]
+Noise statistics:: Starts computing long-term noise statistics (the volume level is displayed under each sleep record in %).
+Storage path:: A path to your recordings saved on your device.
+Automatic delete:: Deletes all unstarred recordings.
+
+—
+
+== How to…
+
+== Troubleshooting
+
+* *Inaccurate sound recognition*
+* When listening to the noise recordings, you may find some of them tagged (#snore, #talk, etc.) incorrectly.
+* You can fix the tags manually - either by editing the comment, or by tapping a corresponding icon on the player screen.
+* The app may ask you to share the misclassified recording with us. If you agree, we will use the recording to learn from the mistake and improve our algorithm.
+* *There is a fan in the room and gets recorded*
+* *How does the app distinguish between sounds*
+* (link to some background info??)
+*

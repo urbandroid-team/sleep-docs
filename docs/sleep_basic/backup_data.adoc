@@ -63,7 +63,7 @@ CAUTION: This method requires the https://play.google.com/store/apps/details?id=
 
 This is the most convenient and reliable way to backup your sleep records. You need to have SleepCloud Backup add-on in order to benefit from this feature. The add-on automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc..). The backup/restore could also be triggered manually from Graphs tap – click on the cloud icon and you’ll see Download from cloud and Upload to cloud options. The first option is used to start backup, the second to start a data restore.
 
-Currently, we provide 3 different services where you can backup your data. You have to connect to at least one of them to benefit from the add-on. To connect, go to Settings > Service > Cloud backup and click on the service you want to connect. You can connect more than one service if you want.
+Currently, we provide 3 different services where you can backup your data. You have to connect to at least one of them to benefit from the add-on. To connect, go to Settings -> Service -> Cloud backup and click on the service you want to connect. You can connect more than one service if you want.
 
 How to backup?
 Left menu > Backup > Upload to Cloud:
