@@ -22,11 +22,11 @@ TODO: obrázek
 == Options
 
 [horizontal]
-Time picker:: You can choose between round clock time picker (default) and Analogue time picker (must be enabled in _Settings -> Miscellaneous_).
+Time picker:: You can choose between round clock time picker (default) and Analogue time picker (must be enabled in _Settings -> Personalize_).
 Voice:: Use TODO icon and then say the time aloud, Google speech recognition will recognize the time and use it.
 Keyboard:: Use the TODO button and type the time in HHMM format.
 Wake up at the next sunrise:: Use the TODO button, the alarm is scheduled for the sunrise (location permission is needed).
-Wake up at an ideal time:: Tap on the *Ideal* button. The time is scheduled for reaching your Ideal daily sleep income (set is _Settings_)
+Wake up at an ideal time:: Tap on the *Ideal* button. The time is scheduled for reaching your Ideal daily sleep income (set in _Settings_)
 
 //== Guide
 // Free form description on how to use the feature, various quirks and best practices

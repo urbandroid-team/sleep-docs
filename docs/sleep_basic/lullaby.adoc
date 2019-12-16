@@ -10,7 +10,6 @@ nav_order: 2
 == What it does
 .Plays you a lullaby while sleep tracking to help you fall asleep better.
 
-
 For lullabies, you can use *built-in lullabies*, your *own music*, or you can try *binaural beats*.
 
 *Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.

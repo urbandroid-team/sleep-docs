@@ -32,6 +32,8 @@ Talk:: The talk-like sounds (talking, baby cry or cough) indicates awake
 Snooze:: Turns any snooze or pause result into awake
 Awake when using phone:: Adds awake automatically when the phone is held in unusal position or used
 
+.Pause tracking
+
 Delayed sleep tracking:: Configures automatic pause time at sleep tracking start if you know your typical fall asleep sequence
 Flip to pause:: Allows you to add 5 min pause by flipping the phone
 
