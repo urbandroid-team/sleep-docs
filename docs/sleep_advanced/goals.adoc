@@ -20,7 +20,7 @@ _Sleep as Android -> Left ☰ menu -> Goal_
 
 == Guide
 
-== Set up a goal
+=== Set up a goal
 In the Goal screen, tap on the icon:plus[] button.
 
 image:goals.png[width=50%]
@@ -35,9 +35,3 @@ image:goals.png[width=50%]
 
 . Your current standing in the selected area (Here, sleep irregularity)
 . Set your goal for the next 1 month!
-
-// Free form description on how to use the feature, various quirks and best practices
-
-== Troubleshooting
-// To be used for automatic rendering of related FAQs
-
