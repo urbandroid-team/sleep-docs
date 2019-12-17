@@ -8,7 +8,8 @@
     "title": "{{ page.title | replace: '&amp;', '&' }}",
     "content": "{{ page.content | markdownify | strip_html | escape_once | remove: 'Table of contents' | remove: '```'  | remove: '---' | replace: '\', ' ' | normalize_whitespace }}",
     "url": "{{ page.url | absolute_url }}",
-    "relUrl": "{{ page.url }}"
+    "relUrl": "{{ page.url }}",
+    "collection": "{{ page.collection }}"
   }
       {% unless forloop.last %},
   {% endunless %}

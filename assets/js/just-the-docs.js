@@ -86,12 +86,14 @@ function initSearch() {
   request.send();
 
   function searchResults(dataStore) {
+    console.log(dataStore)
 
     var searchInput = document.querySelector('.js-search-input');
     var searchResults = document.querySelector('.js-search-results');
     var store = dataStore;
 
     function hideResults() {
+      // TODO: uncomment
       // searchResults.innerHTML = '';
       // searchResults.classList.remove('active');
     }
@@ -114,11 +116,14 @@ function initSearch() {
           searchResultsTabs.classList.add('tabs')
           searchResults.appendChild(searchResultsTabs)
 
-          var docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true)
-          var faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs)
+          var docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true) // TODO: render only docs here
+          var faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs) // TODO: render FAQ entries here
 
-          var resultsList = document.createElement('ul');
-          docsContent.appendChild(resultsList);
+          var docsResultsList = document.createElement('ul');
+          docsContent.appendChild(docsResultsList);
+
+          var faqResultsList = document.createElement('ul');
+          faqContent.appendChild(faqResultsList);
 
           for (var i in results) {
             var resultsListItem = document.createElement('li');
@@ -127,19 +132,27 @@ function initSearch() {
             var resultsUrl = store[results[i].ref].url;
             var resultsRelUrl = store[results[i].ref].relUrl;
             var resultsTitle = store[results[i].ref].title;
+            var resultsType = store[results[i].ref].collection;
 
             resultsLink.setAttribute('href', resultsUrl);
             resultsLink.innerText = resultsTitle;
             resultsUrlDesc.innerText = resultsRelUrl;
 
-            resultsList.classList.add('search-results-list');
+            faqResultsList.classList.add('search-results-list');
+            docsResultsList.classList.add('search-results-list');
+
             resultsListItem.classList.add('search-results-list-item');
             resultsLink.classList.add('search-results-link');
             resultsUrlDesc.classList.add('fs-2', 'text-grey-dk-000', 'd-block');
 
-            resultsList.appendChild(resultsListItem);
+            if (resultsType == 'faqs') {
+              faqResultsList.appendChild(resultsListItem);
+            } else {
+              docsResultsList.appendChild(resultsListItem)
+            }
             resultsListItem.appendChild(resultsLink);
             resultsLink.appendChild(resultsUrlDesc);
+
           }
         }
 
