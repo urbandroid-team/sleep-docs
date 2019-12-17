@@ -92,8 +92,8 @@ function initSearch() {
     var store = dataStore;
 
     function hideResults() {
-      searchResults.innerHTML = '';
-      searchResults.classList.remove('active');
+      // searchResults.innerHTML = '';
+      // searchResults.classList.remove('active');
     }
 
     addEvent(searchInput, 'keyup', function (e) {
@@ -109,8 +109,16 @@ function initSearch() {
 
         if (results.length > 0) {
           searchResults.classList.add('active');
+
+          var searchResultsTabs = document.createElement('div')
+          searchResultsTabs.classList.add('tabs')
+          searchResults.appendChild(searchResultsTabs)
+
+          var docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true)
+          var faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs)
+
           var resultsList = document.createElement('ul');
-          searchResults.appendChild(resultsList);
+          docsContent.appendChild(resultsList);
 
           for (var i in results) {
             var resultsListItem = document.createElement('li');
@@ -154,6 +162,33 @@ function pageFocus() {
   mainContent.focus();
 }
 
+function generateTabAndReturnContentNode(name, elementToAppendTo, active) {
+  var tabControl = document.createElement('input')
+  tabControl.setAttribute('type', 'radio')
+  tabControl.setAttribute('name', 'tabs')
+  tabControl.setAttribute('id', name)
+  active ? tabControl.setAttribute('checked', 'checked') : ''
+  elementToAppendTo.appendChild(tabControl)
+
+  var tabLabel = document.createElement('label')
+  tabLabel.setAttribute('for', name)
+  tabLabel.textContent = name
+  elementToAppendTo.appendChild(tabLabel)
+
+  var tab = document.createElement('div')
+  tab.classList.add('tab')
+  elementToAppendTo.appendChild(tab)
+
+  var contentTitle = document.createElement('h1')
+  contentTitle.textContent = name
+  tab.appendChild(contentTitle)
+
+  var content = document.createElement('p')
+  content.textContent = name
+  tab.appendChild(content)
+
+  return content
+}
 
 // Document ready
 

@@ -57,5 +57,72 @@ td p:last-child {
   margin-bottom: 0;
 }
 
+
+// SEARCH
+.search {
+  background-color: initial;
+}
+.js-search-input.search-input {
+  padding: 0.4em;
+  border-radius: 4px;
+  font-weight: 900;
+  color: black;
+
+  &::placeholder {
+    color: initial;
+    font-weight: initial;
+    opacity: 0.5;
+  }
+}
+
+// SEARCH TABS
+/**
+ * Tabs complementary to generateTabAndReturnContentNode() in just-the-docs.js
+ */
+.tabs {
+	display: flex;
+  flex-wrap: wrap; // make sure it wraps
+  justify-content: space-around;
+}
+.tabs label {
+	order: 1; // Put the labels first
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #90CAF9;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+	// width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #fff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
 // Has to be at the end
 @import 'asciidoc';
