@@ -28,9 +28,10 @@ Tap ☰ icon in the upper right corner, and the menu is revealed.
 Based on your sleep patterns in tracking history, the app will determine your chronotype and shows you the icon in the Left menu - either you are morning lark, or night owl.
 
 
-NOTE: The app needs to have at least few months of sleep data.
+NOTE: The app needs to have at least one month of sleep data.
 
-Based on research of professor Till Roenneberg,  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. This was also confirmed by our SleepCloud study (TODO odkaz).
+Based on research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. This was also confirmed by our https://sleep.urbandroid.org/sleepcloud-study/[SleepCloud study].
+
 To read more about chronotype, see our documentation on
 link:..docs/theory/chrono_jetlag.html[social jetlag].
 
@@ -61,12 +62,12 @@ Goal:: Opens link:../docs/sleep_advanced/goals.html[Goals].
 Noise:: Opens link:../docs/sleep_basic/sleep_noise_recording.html[Noise recording section].
 Add-ons:: TODO
 Backup:: Opens back up dialogue - for more details on back up, see link:../docs/sleep_basic/backup_data.html[back up].
-Lullaby:: Opens link:../docs/sleep_basic/lullaby.html[lullabies].
+Lullaby:: Opens link:../docs/sleep_basic/lullaby.html[Lullabies].
 Settings:: Opens general settings.
 
 .Home screen
 
-For mode details on Home screen, please see the link:../docs/homecreen.html[Home screen].
+For mode details on Home screen, please see the link:../docs/homescreen.html[Home screen].
 
 [horizontal]
 Dashboard:: Presents all options in cards.
@@ -83,8 +84,8 @@ Tell friends:: You can tell your friends about your experience with Sleep as And
 Release notes:: Get informed about latest changes in Sleep and new added features!
 Report a bug:: Generates an application log, that can be shared with our support team to help you with any issue. Do not hesitate and tell us, what is now working properly, so we can fix it!
 Send a wearable report:: Generates a special application log for debugging troubles with some wearables.
-Translate app:: If you can help us with translation to your language, or you spotted any incorrect translation, please, let us know.
-Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org (TODO jde z toho udělat create email odkaz?)
+Translate app:: If you can help us with translation to your language, or you spotted any incorrect translation, please, let us know to support@urbandroid.org.
+Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org.
 
 
 // Describe all the feature's options, see other docs pages for formatting

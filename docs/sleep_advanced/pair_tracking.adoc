@@ -10,9 +10,9 @@ parent: /docs/sleep_advanced
 == What it does
 .Helps you to get a cleaner record of your sleep phases by combining the measurements from your and your partner’s phone, using any combination of sensors.
 
-If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.
-
 Pair tracking uses two cooperating phones (your and your partner’s) simultaneously to filter out the partner’s activity and obtain clean separate activity records.
+
+If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.
 
 == Where to find it
 _Sleep as Android -> Settings -> Sleep tracking -> Pair tracking_
@@ -24,11 +24,12 @@ _Sleep as Android -> Settings -> Sleep tracking -> Find partner_
 
 == Guide
 . Go to _Sleep as Android -> Settings -> Sleep tracking_.
-. First, enable pair tracking using _Pair tracking_.
+. First, enable pair tracking by ticking the option _Pair tracking_.
 . Then you need to pair the phones, i.e. tell them that they should cooperate during sleep tracking. Tap on _Find partner_ simultaneously on the both phones. The two phones will attempt to connect to each other and form a pair.
 [NOTE]
-If pairing does not succeed the first time, please be patient and try it one or two times more.
+If pairing does not succeed the first time, please be patient, and try it one or two times more.
 . Now the two phones know about each other. The grey cryptic string at the bottom is their shared secret, which is unique for each pair, and by which the two phones recognize each other.
+//TODO obrázek
 
 When you go to bed, you start sleep tracking as usually, and so does your partner. There is no need to start the tracking simultaneously, just use the app as you used to. During sleep tracking, the phones attempt to connect to each other and exchange their activity data, so that each phone also has a full record of the partner’s activity. From the two datasets, we are able to discount the partner’s activity and extract a clean actigraph for each sleeper. For the time periods when the partner phone is not reachable, tracking works just like it used to, calculating everything just from its local recording.
 

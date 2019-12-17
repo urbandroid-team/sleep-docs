@@ -8,12 +8,13 @@ parent: /docs/sleep_advanced
 :toc:
 
 == What it does
-Sleep can tell you when it’s time to go to bed, wish you goodnight when you start sleep tracking,  tell you it’s time to wake up when the alarm rings, and say the weather in the morning, after you dismiss alarm.
+Sleep can tell you when it’s time to go to bed, wish you goodnight when you start sleep tracking,  tell you it’s time to wake up when the alarm rings, and say the weather in the morning, after you dismiss the alarm.
 
 // [Optional] Longer text describing the feature
 
 == Where to find it
-_Settings -> Miscellaneous -> Text to speech
+_Settings -> Miscellaneous -> Text to speech_
+
 == Options
 // Describe all the feature's options, see other docs pages for formatting
 
