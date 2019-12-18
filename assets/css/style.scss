@@ -82,7 +82,8 @@ td p:last-child {
 .tabs {
 	display: flex;
   flex-wrap: wrap; // make sure it wraps
-  justify-content: space-around;
+  flex-direction: row;
+  // justify-content: space-around;
 }
 .tabs label {
 	order: 1; // Put the labels first
@@ -93,6 +94,7 @@ td p:last-child {
   background: #90CAF9;
   font-weight: bold;
   transition: background ease 0.2s;
+  flex-grow: 1;
 }
 .tabs .tab {
   order: 99; // Put the tabs last

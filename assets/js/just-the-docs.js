@@ -93,9 +93,8 @@ function initSearch() {
     var store = dataStore;
 
     function hideResults() {
-      // TODO: uncomment
-      // searchResults.innerHTML = '';
-      // searchResults.classList.remove('active');
+      searchResults.innerHTML = '';
+      searchResults.classList.remove('active');
     }
 
     addEvent(searchInput, 'keyup', function (e) {
@@ -116,8 +115,8 @@ function initSearch() {
           searchResultsTabs.classList.add('tabs')
           searchResults.appendChild(searchResultsTabs)
 
-          var docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true) // TODO: render only docs here
-          var faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs) // TODO: render FAQ entries here
+          var docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true)
+          var faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs)
 
           var docsResultsList = document.createElement('ul');
           docsContent.appendChild(docsResultsList);
@@ -164,9 +163,15 @@ function initSearch() {
       }
     });
 
-    addEvent(searchInput, 'blur', function () {
-      setTimeout(function () { hideResults() }, 300);
-    });
+    // We don't want the search results dialog to close when the user is clicking inside
+    searchResults.addEventListener('click', function (e) {
+      e.stopPropagation()
+    })
+
+    addEvent(document.querySelector('.js-main-content'), 'click', function (e) {
+      // setTimeout(function () { hideResults() }, 100);
+      hideResults()
+    })
   }
 }
 
@@ -192,12 +197,12 @@ function generateTabAndReturnContentNode(name, elementToAppendTo, active) {
   tab.classList.add('tab')
   elementToAppendTo.appendChild(tab)
 
-  var contentTitle = document.createElement('h1')
-  contentTitle.textContent = name
-  tab.appendChild(contentTitle)
+  // var contentTitle = document.createElement('h1')
+  // contentTitle.textContent = name
+  // tab.appendChild(contentTitle)
 
   var content = document.createElement('p')
-  content.textContent = name
+  // content.textContent = name
   tab.appendChild(content)
 
   return content
