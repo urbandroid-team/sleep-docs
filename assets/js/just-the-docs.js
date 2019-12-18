@@ -135,7 +135,7 @@ function initSearch() {
 
             resultsLink.setAttribute('href', resultsUrl);
             resultsLink.innerText = resultsTitle;
-            resultsUrlDesc.innerText = resultsRelUrl;
+            // resultsUrlDesc.innerText = resultsRelUrl;
 
             faqResultsList.classList.add('search-results-list');
             docsResultsList.classList.add('search-results-list');

@@ -91,7 +91,7 @@ td p:last-child {
 	padding: 1rem 2rem;
 	margin-right: 0.2rem;
 	cursor: pointer;
-  background: #90CAF9;
+  // background: #90CAF9;
   font-weight: bold;
   transition: background ease 0.2s;
   flex-grow: 1;
@@ -102,13 +102,13 @@ td p:last-child {
 	// width: 100%;
 	display: none;
   padding: 1rem;
-  background: #fff;
+  background: #222;
 }
 .tabs input[type="radio"] {
 	display: none;
 }
 .tabs input[type="radio"]:checked + label {
-	background: #fff;
+  background: #222;
 }
 .tabs input[type="radio"]:checked + label + .tab {
 	display: block;
