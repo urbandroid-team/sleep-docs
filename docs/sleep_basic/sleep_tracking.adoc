@@ -2,8 +2,6 @@
 layout: default
 title: Sleep tracking
 nav_order: 2
-has_children: true
-// parent: Sleep - basic features
 ---
 :toc:
 
@@ -78,7 +76,4 @@ WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-vi
 // Read more about the problem here: //TODO: zjistit jak to je
 
 
-
 // ## Guide
-
-## Troubleshooting
