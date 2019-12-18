@@ -10,7 +10,6 @@ nav_order: 2
 == What it does
 .Plays you a lullaby while sleep tracking to help you fall asleep better.
 
-
 For lullabies, you can use *built-in lullabies*, your *own music*, or you can try *binaural beats*.
 
 *Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
@@ -19,6 +18,7 @@ Five lullabies are build in for free, five additional lullabies available after 
 For playing your *own music* (external player, Spotify, listening audiobooks), you can use the feature "Turn off when sleeping", which is watching for you falling asleep and then will start a countdown for the set time. After that, it will gradually lower the system media volume.
 
 *Binaural beats* mix real-time generated binaural tones into lullaby playback. Read more about https://en.wikipedia.org/wiki/Beat_(acoustics)[binaural beats].
+
 == Where to find it
 _Settings -> Lullaby_
 _Left_ ≡ _menu -> Lullaby_ (only for selecting or starting lullaby)
@@ -94,13 +94,13 @@ Turn off WiFi after lullaby:: Turns off the WiFi signal once the volume reaches 
 
 == Advanced Options
 [horizontal]
-Binaural beats::
+Binaural beats:: Enables binaural beats into lullaby playback - effective only if you use the lullaby with headphones.
+WARNING: We do strongly discourage users from using binaural beats if they suffer epileptic or cardiac issues!
 * Delta - frequency goes down to 2 Hz
 * Theta - frequency goes down to 4 Hz
-NOTE: Effective only if you use the lullaby with headphones
-NOTE: We do strongly discourage users from using binaural beats if they suffer epileptic or cardiac issues!
-Volume:: Set a volume of binaural tones
-Binaural beats in alarm:: Configures stimulating binaural beats into alarm sounds
+
+Volume:: Sets a volume of binaural tones.
+Binaural beats in alarm:: Configures stimulating binaural beats into alarm sound.
 * Beta - frequency around 20 Hz
 * Gamma - frequency around 40 Hz
 Mindroid::

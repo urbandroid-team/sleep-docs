@@ -48,7 +48,7 @@ Charts card:: Shows you graphs from the link:../docs/theory/statistics_charts.ht
 * You can swipe through the graphs, right ↔ left.
 * Tapping on this card opens link:../docs/theory/statistics_charts.html[Charts section].
 Advice card:: Shows the current advice.
-* Tapping on this card opens link:../docs/theory/Advice.html[Advice section].
+* Tapping on this card opens link:/docs/theory/Advice.html[Advice section].
 Shortcuts card:: A mini-board with shortcuts.
 TODO obrázek
 * Ideal sleep shortcut (TODO máme někde sekci na shortcuts?)

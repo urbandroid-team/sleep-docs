@@ -9,7 +9,8 @@ tags:
 :toc:
 
 == What it does
-*Alarm TODO text*
+You can change the settings of alarms to fit
+
 
 NOTE: For even better experience with alarms, see also link:../alarms/smart_wake_up.html[Smart wake up]
 

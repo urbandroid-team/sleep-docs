@@ -13,6 +13,8 @@ Lucid dreaming is a technique which allows to become aware of the fact that you 
 There are various techniques how to help your mind realize you are dreaming and most of them require some training in advance. The technique we use in Sleep as Android uses audible cues played (ideally in your headphones) during sleep. We play the cues usually towards the end of the deep sleep phases where we expect the most memorable dreaming.  Hearing the familiar audible cues should help you realize that you are dreaming. Please refer to other resources online on how to bed train to induce lucid dreaming and how to train yourself on the audible cues.
 Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments.
 
+//TODO budeme mít nějaký článek o lucid dreaming?
+
 == Where to find it
 _Settings -> Lucid dreaming_
 

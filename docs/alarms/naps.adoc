@@ -10,6 +10,7 @@ parent: /docs/alarms
 == What it does
 .Naps schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.
 
+
 So instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
 
 == Where to find it

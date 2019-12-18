@@ -10,7 +10,7 @@ tags:
 
 == What it does
 
-Whenever a  noise volume exceeds the threshold, app starts recording, and continues recording for a few seconds, or longer, if another noise occurs.
+.Whenever a  noise volume exceeds the threshold, app starts recording, and continues recording for a few seconds, or longer, if another noise occurs.
 
 
 Noise recording allows you to record significant noises during your sleep, detects sleep talking, sleep laughing, snoring or even a more serious issue (such as obstructive sleep apnea OSA (TODO link na apnea?).
@@ -43,7 +43,7 @@ Sound recognition:: Enables recognition of individual sounds (snoring, talk, cou
  * Cough and sneeze
  * Baby cry
 Anti-snoring:: Sets anti-snoring cues to make you stop snoring.
- * Sound - Sets the ringtone for anti-snoring alarm, tounge clicking as default.
+ * Sound - Sets the ringtone for anti-snoring alarm, tongue clicking as default.
  * Volume - Sets volume for anti-snoring alarm.
  * Preview - Check anti-snoring alarm in advance.
 
@@ -58,12 +58,3 @@ Automatic delete:: Deletes all unstarred recordings.
 == How to…
 
 == Troubleshooting
-
-* *Inaccurate sound recognition*
-* When listening to the noise recordings, you may find some of them tagged (#snore, #talk, etc.) incorrectly.
-* You can fix the tags manually - either by editing the comment, or by tapping a corresponding icon on the player screen.
-* The app may ask you to share the misclassified recording with us. If you agree, we will use the recording to learn from the mistake and improve our algorithm.
-* *There is a fan in the room and gets recorded*
-* *How does the app distinguish between sounds*
-* (link to some background info??)
-*
