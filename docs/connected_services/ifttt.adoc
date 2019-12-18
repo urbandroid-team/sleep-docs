@@ -10,7 +10,6 @@ parent: /docs/connected_services
 *Allows you to use Sleep as Android as a trigger for IFTTT tasks.*
 
 We use the link:https://ifttt.com/maker_webhooks[IFTTT Webhooks (formerly Maker)] channel to send triggers/events from Sleep as Android.
-// [Optional] Longer text describing the feature
 
 ## Where to find it
 _Sleep as Android -> Settings -> Services -> IFTTT_
@@ -22,33 +21,29 @@ When you enable the option, you will be taken to its settings.
 === Setup
 1. In _Settings -> Services -> IFTTT_, tap on _Retrieve_. An IFTTT login screen will show up below.
 2. Enter your email and password and tap _Sign in_.
-
++
 NOTE: Don't use Google/Facebook login. It doesn't work when the web browser window is embedded inside our app.
 If you don't want to fill your email/password inside our app, you can copy the needed ID from your own browser. Check https://ifttt.com/services/maker_webhooks/settings – the ID is in the page's URL, after /use/)
-
++
 3. Your ID gets loaded automatically and “IFTTT connected” message will appear.
 4. Now you can add IFTTT recipes on the link:https://ifttt.com/myrecipes/personal/new[IFTTT create page].
-  - Click on _+THIS_ and select _Webhooks” > “Receive a web request_.
+  - Click on _+THIS_ and select _Webhooks > Receive a web request_.
   - In the “event name” field, type one of the events below. Click _Create trigger_.
   - Click on _+THAT_ and choose your desired action.
 
 === Events that Sleep as Android posts to IFTTT
-* sleep_tracking_started
-* sleep_tracking_stopped
-* sleep_tracking_paused
-* sleep_tracking_resumed
-* alarm_snooze_clicked
-* time_to_bed_alarm_alert
-** fires when you get a bedtime notification
-* alarm_alert_start
-* alarm_alert_dismiss
-** fires when you dismiss alarm (after you solve CAPTCHA, if it’s set)
-* rem
-** fires when we estimate the start of REM phase
-* antisnoring
-** fires when we detect snoring
-* smart_period
-** fires 45 minutes before the smart wakeup period starts
+[horizontal]
+sleep_tracking_started:: ...
+sleep_tracking_stopped:: ...
+sleep_tracking_paused:: ...
+sleep_tracking_resumed:: ...
+alarm_snooze_clicked:: ...
+time_to_bed_alarm_alert:: Fires when you get a bedtime notification
+alarm_alert_start:: ...
+alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set)
+rem:: Fires when we estimate the start of REM phase
+antisnoring:: Fires when we detect snoring
+smart_period:: Fires 45 minutes before the smart wakeup period starts
 
 === Example recipes
 - link:https://ifttt.com/recipes/405744-sleep-as-android-turn-off-all-philips-hue-lights-when-starting-sleep-tracking[Turn off Philips Hue when sleep tracking starts]
