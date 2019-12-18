@@ -2,7 +2,8 @@
 layout: default
 title: Sleep noise recording
 nav_order: 2
-// parent: /docs/sleep_basic/sleep_tracking.html
+tags:
+  - noise
 ---
 
 :toc:
