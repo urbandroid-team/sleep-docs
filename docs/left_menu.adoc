@@ -5,14 +5,14 @@ nav_order: 1
 ---
 :toc:
 
-## What it does
+== What it does
 
 Left ☰ menu is an expandable menu for easy navigation and quick access to features.
 // [Optional] Longer text describing the feature
 
 //(TODO šlo by tam dodat i ty ikonky?)
 
-## Where to find it
+== Where to find it
 
 Tap ☰ icon in the upper right corner, and the menu is revealed.
 //TODO obrázek???
@@ -21,7 +21,7 @@ Tap ☰ icon in the upper right corner, and the menu is revealed.
 // Where to find the feature's settings and other related settings used to enable the feature, optionally with description
 // EXAMPLE: _Sleep as Android -> Settings -> Wearables -> Use wearables_
 
-## Options
+== Options
 
 .Chronotype
 
