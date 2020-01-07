@@ -124,17 +124,19 @@ function initSearch() {
           faqContent.appendChild(faqResultsList);
 
           for (var i in results) {
+            let result = store[results[i].ref]
             var resultsListItem = document.createElement('li');
             var resultsLink = document.createElement('a');
             var resultsUrlDesc = document.createElement('span');
-            var resultsUrl = store[results[i].ref].url;
-            var resultsRelUrl = store[results[i].ref].relUrl;
-            var resultsTitle = store[results[i].ref].title;
-            var resultsType = store[results[i].ref].collection;
+
+            var resultsUrl = result.url;
+            var resultsRelUrl = result.relUrl;
+            var resultsTitle = result.title;
+            var resultsType = result.collection;
+            var resultsTags = result.tags
 
             resultsLink.setAttribute('href', resultsUrl);
             resultsLink.innerText = resultsTitle;
-            // resultsUrlDesc.innerText = resultsRelUrl;
 
             faqResultsList.classList.add('search-results-list');
             docsResultsList.classList.add('search-results-list');
@@ -145,6 +147,10 @@ function initSearch() {
 
             if (resultsType == 'faqs') {
               faqResultsList.appendChild(resultsListItem);
+              let tags = document.createElement('li')
+              tags.classList.add('search-tags')
+              tags.textContent = resultsTags
+              faqResultsList.appendChild(tags)
             } else {
               docsResultsList.appendChild(resultsListItem)
             }
