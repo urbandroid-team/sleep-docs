@@ -86,7 +86,6 @@ function initSearch() {
   request.send();
 
   function searchResults(dataStore) {
-    console.log(dataStore)
 
     var searchInput = document.querySelector('.js-search-input');
     var searchResults = document.querySelector('.js-search-results');

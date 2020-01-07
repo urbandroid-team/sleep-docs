@@ -53,7 +53,7 @@ Add alarm:: ...
 .Sleep as Android
 
 [horizontal]
-Alarms:: Opens link:../docs/homecreen.html[List of alarms].
+icon:ic_alarm[] Alarms:: Opens link:../docs/homecreen.html[List of alarms].
 Stats:: Opens link:../docs/theory/statistics_charts.html[Statistics section].
 Graphs:: Opens link:../docs/theory/sleep_graph.html[Graph section].
 Trend:: Opens link:../docs/theory/statistics_charts.html[Statistics section].

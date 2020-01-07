@@ -1,0 +1,32 @@
+---
+layout: default
+title: Samsung Gear / Galaxy Gear
+nav_order: 2
+parent: /docs/connected_devices/smartwatch_wearables.html
+---
+Sleep as Android supports most Samsung wearables, but not all. Please look for your device in the "Supported watches" list below.
+
+## How to set up
+The Samsung Galaxy Gear integration consists of three parts:
+* link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Sleep as Android] on the phone
+* link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[Sleep as Android Gear Addon] on the phone
+* link:https://galaxy.store/sle[Sleep as Android - Native Gear Companion] on the watch (install through the Galaxy Gear Store)
+
+Make sure that all of the apps are installed, and then select *Sleep -> Settings -> Wearables -> Use wearables -> Samsung Gear / Galaxy Watch*.
+
+## Supported watches
+
+{% for wearable in site.data.wearables %}
+  {% if wearable['Support /<br>sensors'] contains 'YES' and wearable.Vendor == 'Samsung' %}
+      * {{ wearable.Vendor }} - {{ wearable.Device}}
+  {% endif %}
+{% endfor %}
+
+## Unsupported watches
+NOTE: This list may not be exhaustive.
+
+{% for wearable in site.data.wearables %}
+  {% if wearable['Support /<br>sensors'] contains 'NO' and wearable.Vendor == 'Samsung' %}
+     * {{ wearable.Vendor }} - {{ wearable.Device}}
+  {% endif %}
+{% endfor %}
