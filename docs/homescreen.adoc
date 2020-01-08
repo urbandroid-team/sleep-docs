@@ -31,85 +31,60 @@ _Settings -> Personalize -> Home screen_
 
 [horizontal]
 Alarm card:: Shows you the first next active alarm.
-* Alarm card has a shortcut for creating a new alarm (TODO ikona a dopsat text).
-* Alarm card has also a special function - you can skip next alarm, edit alarm or delete alarm directly from this card by long pressing on it.
-//TODO obrázek!!
+* You can see the alarm time and day of the week, when the very next alarm is scheduled at first glance:
+image:alarm_card_intro.png[width=50%]
 * Simple tapping on alarm time opens dialogue for changing the alarm time.
-* Tapping on image:sleep-docs/assets/icons/plus.svg[] opens the dialogue for creating a new alarm.
-* Tapping on any other place of the card opens List of alarms (TODO odkaz)
-
+* Tapping on icon:ic_alarm_plus[] opens the dialogue for creating a new alarm.
+* Tapping on any other place of the card opens <<alarm_list,list of all alarms>>
+image:alarm_card.png[width=50%]
+* Alarm card has also a special function - you can skip next alarm (or cancel skipping the alarm), edit alarm or delete alarm directly from this card by long pressing on it.
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
 * After tapping on this card, a player plays the file.
 Sleep score card:: See link:../docs/theory/sleepscore.html[Sleep score].
 * Tapping on this card opens Stats (see link:../docs/theory/statistics_charts.html[Stats])
-Graphs card:: Shows the last graph of sleep sleep phases.
-* Tapping on this card open the last graph (how to read graphs - TODO link, jestli něco bude)
-Noise card::
-Charts card:: Shows you graphs from the link:../docs/theory/statistics_charts.html[Charts section].
+Graphs card:: Shows you graphs from the link:../docs/theory/statistics_charts.html[Charts section].
 * You can swipe through the graphs, right ↔ left.
+* Tapping on this card open the last graph (how to read graphs - TODO link, jestli něco bude)
+Noise card:: TODO
+Charts card:: Shows you graphs from the link:../docs/theory/statistics_charts.html[Charts section].
 * Tapping on this card opens link:../docs/theory/statistics_charts.html[Charts section].
 Advice card:: Shows the current advice.
 * Tapping on this card opens link:/docs/theory/Advice.html[Advice section].
 Shortcuts card:: A mini-board with shortcuts.
-TODO obrázek
-* Ideal sleep shortcut (TODO máme někde sekci na shortcuts?)
-* Naps shortcuts
-* + Add sleep shortcut
-NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep, and Sleep tracking) for your main screen TODO odkaz
+* icon:ic_action_track[] Start sleep tracking:: Starts sleep tracking manually.
+* icon:ic_action_bedtime[] Ideal sleep:: Starts sleep tracking with and alarm based on your ideal daily sleep income (+ smart period and tracking start delay).
+* icon:ic_action_snooze[] Nap:: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
+* icon:plus[] Add sleep:: For adding a period of sleep manually, when you forgot tracking.
+* icon:ic_alarm_plus[] Add alarm:: You can create new alarm.
+NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep, and Sleep tracking) for your main screen, for details, see  link:/docs/sleep_advanced[the instruction] how to do it.
 Add-on card::
-* Tapping on this card opens TODO-link:../docs/theory/TODO.html[Add-on section].
+A short presentation of our add-ons, compatible devices or our other apps.
+* Tapping on this card opens list of add-ons and other applications made by our team.
 
 
 .Tabs
 
 [horizontal]
-Alarm tab:: Shows you the <<alarm_list,list of all alarms>> (see TODO odkaz)
-Dashboard tab:: Lists all cards from Dashboard except Alarm card
-Stats tab:: Shows the Stats from Stats section (from Left ☰ menu, see TODO odkaz)
-Graphs tab:: Shows the list of graphs from Graph section (from Left ☰ menu, see TODO odkaz)
-Noise tab::  Shows the list of noise recordings from Noise section (from Left ☰ menu, see TODO odkaz)
-Add-ons tab:: TODO
+Alarm tab:: Shows you the <<alarm_list,list of all alarms>>
+Dashboard tab:: Lists all cards from Dashboard except the  Alarm card
+Stats tab:: Shows link:../docs/theory/statistics_charts.html[statistics charts].
+Graphs tab:: Shows list of link:../docs/theory/sleep_graph.html[Graphs].
+Noise tab::  Shows the list of link:../docs/sleep_basic/sleep_noise_recording.html[Noise recording].
+Add-ons tab:: A list of add-ons and other applications made by our team.
 
 .Alarms
 
 .List of alarms
 [[alarm_list]]
-
-* All active alarms in the list have highlighted background TODO obrzák
-* Repeating alarms highlights the next alarm with different font color TODO obrzák
-* Active alarm shows you time left to your bedtime 12 hours prior to bedtime (TODO obrázek
-* If any alarm has its own settings different from default settings, the alarm card shows you those special settings (TODO obrázek)
+image:alarm_list.png[width=50%]
+* All active alarms in the list have highlighted background.
+* Repeating alarms highlights the next alarm with different font color.
+* Active alarm shows you time left to your bedtime 12 hours prior to bedtime.
+* If any alarm has its own settings different from default settings, the alarm card shows you those special settings.
 * Each alarm card has also a special function - by long pressing on any alarm card, you can Turn activate/deactivate the alarm, skip next alarm, edit alarm, copy alarm and its settings, or delete alarm.
-//TODO obrázek!!
 * Simple tapping on alarm time opens dialogue for changing time of the alarm
 * Tapping on the toggle activate / deactivate the alarm
-* TODO ikona creates a new alarm
-* TODO ikona koš deletes all unused non-active alarms
-
-[horizontal]
-lkadbfklasdbf
-
-
-
-// Describe all the feature's options, see other docs pages for formatting
-
-// EXAMPLE:
-
-// [horizontal]
-// Smart wake up:: See link:../alarms/smart_wake_up.html[Smart wake up]
-// Awake detection:: See [Awake detection]
-
-// .Automatic sleep tracking
-// [horizontal]
-// Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-// - More details: link:automatic_sleep_tracking.html[Automatic sleep tracking].
-// Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
-// - On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
-// - On _Save automatically_, the notification saves the sleep record for you automatically
-// - More details: link:sleep_time_estimation.html[Sleep time estimation]
-
-// EXAMPLE END
 
 ## Guide
 [horizontal]
