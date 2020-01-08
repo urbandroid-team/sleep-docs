@@ -1,0 +1,37 @@
+---
+layout: default
+title: Garmin
+nav_order: 2
+parent: /docs/connected_devices/smartwatch_wearables.html
+tags:
+- garmin
+---
+Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform.
+
+Does your watch support the ConnectIQ platform? link:https://www.wareable.com/garmin/garmin-connect-iq-guide-best-apps-122[check here] (Garmin does not have an official list).
+
+## How to set up
+Install the following apps:
+
+. link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Sleep as Android] on the phone
+. link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin[Garmin Addon for Sleep as Android] on the phone
+. link:https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[Sleep as Android] on the watch (install through the ConnectIQ Store in Garmin Connect app)
+
+Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Wearables -> Use wearables -> Garmin_.
+
+## Supported watches
+
+{% for wearable in site.data.wearables %}
+  {% if wearable['Support /<br>sensors'] contains 'YES' and wearable.Vendor == 'Garmin' %}
+    * +++ {{ wearable.Vendor }} - {{ wearable.Device}} +++
+  {% endif %}
+{% endfor %}
+
+## Unsupported watches
+NOTE: This list may not be exhaustive.
+
+{% for wearable in site.data.wearables %}
+  {% if wearable['Support /<br>sensors'] contains 'NO' and wearable.Vendor == 'Garmin' %}
+     * {{ wearable.Vendor }} - {{ wearable.Device}}
+  {% endif %}
+{% endfor %}

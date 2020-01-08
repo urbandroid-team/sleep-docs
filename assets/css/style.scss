@@ -9,7 +9,7 @@ $number-of-colors: 6;
 $background-color: #263238;
 
 
-.main-content-wrap, .side-bar, .page-header, .site-title, .search-input-wrap, .site-footer {
+html, body, .main-content-wrap, .side-bar, .page-header, .site-title, .search-input-wrap, .site-footer {
   background-color: $background-color;
 }
 
@@ -53,13 +53,22 @@ h6 {
 }
 
 
-td p:last-child {
-  margin-bottom: 0;
-}
 
 .icon {
   margin-right: 0.3em;
   vertical-align: middle;
+}
+
+// TABLES
+table {
+  display: block;
+  overflow-x: auto;
+}
+tbody {
+  vertical-align: initial;
+}
+td p:last-child {
+  margin-bottom: 0;
 }
 
 
@@ -78,6 +87,12 @@ td p:last-child {
     font-weight: initial;
     opacity: 0.5;
   }
+}
+.search-tags {
+  padding-left: 1rem;
+  font-size: 0.8em;
+  margin-top: -0.5em;
+  opacity: 50%;
 }
 
 // SEARCH TABS

@@ -4,7 +4,7 @@ title: Samsung Gear / Galaxy Gear
 nav_order: 2
 parent: /docs/connected_devices/smartwatch_wearables.html
 ---
-Sleep as Android supports most Samsung wearables, but not all. Please look for your device in the "Supported watches" list below.
+Sleep as Android supports most Samsung wearables, but not all. Please look for your device in <<supported-watches>> below.
 
 ## How to set up
 The Samsung Galaxy Gear integration consists of three parts:
