@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Breath rate detection && blood oxygen measurement
+title: Breath rate detection & blood oxygen measurement
 nav_order: 2
 parent: /docs/sleep_basic/sleep_tracking.html
 ---
