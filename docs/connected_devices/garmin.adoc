@@ -6,15 +6,18 @@ parent: /docs/connected_devices/smartwatch_wearables.html
 tags:
 - garmin
 ---
-Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform. Please check whether your watch supports the ConnectIQ platform here: link:https://www.wareable.com/garmin/garmin-connect-iq-guide-best-apps-122[ConnectIQ devices] (Garmin does not have an official list of devices that support CIQ).
+Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform.
+
+Does your watch support the ConnectIQ platform? link:https://www.wareable.com/garmin/garmin-connect-iq-guide-best-apps-122[check here] (Garmin does not have an official list).
 
 ## How to set up
-The Garmin integration consists of three parts:
-* link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Sleep as Android] on the phone
-* link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin[Garmin Addon for Sleep as Android] on the phone
-* link:https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[Sleep as Android] on the watch (install through the ConnectIQ Store in Garmin Connect app)
+Install the following apps:
 
-Make sure that all of the apps are installed, and then select *Sleep -> Settings -> Wearables -> Use wearables -> Garmin*.
+. link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Sleep as Android] on the phone
+. link:https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin[Garmin Addon for Sleep as Android] on the phone
+. link:https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[Sleep as Android] on the watch (install through the ConnectIQ Store in Garmin Connect app)
+
+Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Wearables -> Use wearables -> Garmin_.
 
 ## Supported watches
 
