@@ -28,25 +28,21 @@ image:chrono.png[width=20%]
 
 
 
-Accoring to the research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. Our https://sleep.urbandroid.org/sleepcloud-study/[SleepCloud study] also came to the same conclusion.
+According to the research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. Our https://sleep.urbandroid.org/sleepcloud-study/[SleepCloud study] also came to the same conclusion.
 
 To read more about chronotype, see our documentation on
 link:..docs/theory/chrono_jetlag.html[social jetlag].
 
-
-//(TODO text, plus ikonka a odkaz na vysvětlení)
-...
-
 .Shortcuts
 
-Available only in Tabs home screen mode.
+Available only in Tabs home screen mode. All the shortcuts from this menu can be used for creating widgets on main screen screen - see  link:/docs/sleep_advanced[the instruction] how to do it.
 
 [horizontal]
 
-icon:ic_action_track[] Start sleep tracking:: Start sleep tracking manually.
+icon:ic_action_track[] Start sleep tracking:: Starts sleep tracking manually.
 icon:ic_action_bedtime[] Ideal sleep:: Starts sleep tracking with and alarm based on your ideal daily sleep income (+ smart period and tracking start delay).
-icon:ic_action_snooze[] Nap:: Starts a nap with tracking.
-icon:plus[] Add sleep:: For adding a period of sleep manually.
+icon:ic_action_snooze[] Nap:: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
+icon:plus[] Add sleep:: For adding a period of sleep manually, when you forgot tracking.
 icon:ic_alarm_plus[] Add alarm:: You can create new alarm.
 
 
@@ -60,10 +56,10 @@ icon:ic_action_stats[] Trend:: Opens link:../docs/theory/statistics_charts.html[
 icon:ic_lightbulb[] Advice:: Opens link:../docs/theory/advice.html[Advice].
 icon:ic_goal[] Goal:: Opens link:../docs/sleep_advanced/goals.html[Goals].
 icon:ic_action_noise[] Noise:: Opens link:../docs/sleep_basic/sleep_noise_recording.html[Noise recording section].
-icon:ic_puzzle[] Add-ons:: TODO
+icon:ic_puzzle[] Add-ons:: Opens a list of all add-ons, and other apps from out team.
 icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on back up, see link:../docs/sleep_basic/backup_data.html[back up].
 icon:ic_action_lullaby[] Lullaby:: Opens link:../docs/sleep_basic/lullaby.html[Lullabies].
-icon:ic_cog[] Settings:: Opens general settings.
+icon:ic_cog[] Settings:: Opens general application settings.
 
 .Home screen
 
@@ -92,27 +88,3 @@ icon:ic_gift[] Release notes:: Get informed about latest changes in Sleep and ne
 icon:ic_share_variant[] Tell friends:: You can tell your friends about your experience with Sleep as Android (more about sharing - TODO odkaz na Share, pokud máme)
 icon:ic_translate[] Translate app:: If you can help us with translation to your language, or you spotted any incorrect translation, please, let us know to support@urbandroid.org.
 icon:ic_text[] Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org.
-
-
-// Describe all the feature's options, see other docs pages for formatting
-
-// EXAMPLE:
-
-// [horizontal]
-// Smart wake up:: See link:../alarms/smart_wake_up.html[Smart wake up]
-// Awake detection:: See [Awake detection]
-
-// .Automatic sleep tracking
-// [horizontal]
-// Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-// - More details: link:automatic_sleep_tracking.html[Automatic sleep tracking].
-// Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
-// - On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
-// - On _Save automatically_, the notification saves the sleep record for you automatically
-// - More details: link:sleep_time_estimation.html[Sleep time estimation]
-
-// EXAMPLE END
-
-//## Guide
-// Free form description on how to use the feature, various quirks and best practices
-
