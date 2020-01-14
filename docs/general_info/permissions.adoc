@@ -11,16 +11,6 @@ Sleep as Android has a lot of functionality, some of which can be only enabled w
 |===
 |Permission |Google's description |Used by feature | Notes
 
-|Wi-Fi connection information
-|View Wi-Fi connections
-|
-|
-
-|Device & app history
-|Retrieve running apps
-|
-|
-
 |Location
 |Approximate location (network-based), precise location (GPS and network-based)
 a|- Sunrise wakeup
@@ -72,6 +62,11 @@ a|- QR Captcha
 
 |Device ID & call information
 |Read phone status and identity
+|Alarm
+|Used to stop ringing the alarm when you're in-call.
+
+|Device & app history
+|Retrieve running apps
 |
 |
 
@@ -80,20 +75,35 @@ a|- QR Captcha
 | link:/docs/connected_services/google_calendar.html[Google Calendar]
 |Allows the app to reschedule alarms according to calendar events and public holidays, if you configure it to do so.
 
+|Wi-Fi connection information
+|View Wi-Fi connections
+|Online radio alarm, IFTTT, Spotify, Smartlight
+|Used to check whether WiFi is available.
+
 |Other
 |Receive data from Internet
 |Lots of features such as online radios, weather reports, backup etc.
 |
 
 |Other
-|Pair with Bluetooth devices
+|Connect and disconnect from Wi-Fi
+|Online radio alarm, IFTTT, Spotify, Smartlight
+|Used while sleep tracking to briefly connect to Wi-Fi for features that you set up.
+
+|Other
+|View network connections
 |
 |
 
 |Other
-|Connect and disconnect from Wi-Fi
-|
-|
+|Pair with Bluetooth devices
+|Oximeter, Sleep Phaser
+|Used to directly connect to Bluetooth devices.
+
+|Other
+|Access Bluetooth settings
+|Oximeter, Sleep Phaser
+|Used to directly connect to Bluetooth devices.
 
 |Other
 |Control Near Field Communication
@@ -102,7 +112,7 @@ a|- QR Captcha
 
 |Other
 |Control vibration
-|
+|Alarm
 |
 
 |Other
@@ -132,17 +142,7 @@ a|- Pee light
 |We need to read data from sensors for the whole night. If the device goes to sleep, we cannot read data from sensors.
 
 |Other
-|Access Bluetooth settings
-|
-|
-
-|Other
 |Disable your screen lock
-|
-|
-
-|Other
-|View network connections
 |
 |
 
@@ -151,17 +151,4 @@ a|- Pee light
 |
 |
 
-
-
 |===
-
-
-
-
-
-
-
-
-
-
-
