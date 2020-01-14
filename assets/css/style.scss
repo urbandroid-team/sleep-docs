@@ -113,7 +113,7 @@ li p:last-child {
 	order: 1; // Put the labels first
 	display: block;
 	padding: 1rem 2rem;
-	margin-right: 0.2rem;
+	// margin-right: 0.2rem;
 	cursor: pointer;
   // background: #90CAF9;
   font-weight: bold;
@@ -136,6 +136,9 @@ li p:last-child {
 }
 .tabs input[type="radio"]:checked + label + .tab {
 	display: block;
+}
+.search-results-wrap.active {
+  background-color: black;
 }
 
 @media (max-width: 45em) {

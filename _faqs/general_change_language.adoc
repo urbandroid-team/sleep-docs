@@ -1,0 +1,9 @@
+---
+title: Change language
+tags:
+- language
+---
+
+The app has the same language as your system. You can force English language in _Settings > Personalize > Force English_.
+
+If you are dissatisfied with the translation of Sleep as Android to your language, please see link:/docs/general_info/translation.html[Traslation].
