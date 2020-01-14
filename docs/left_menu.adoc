@@ -5,108 +5,86 @@ nav_order: 1
 ---
 :toc:
 
-## What it does
+== What it does
 
 Left ☰ menu is an expandable menu for easy navigation and quick access to features.
-// [Optional] Longer text describing the feature
 
-//(TODO šlo by tam dodat i ty ikonky?)
+== Where to find it
 
-## Where to find it
-
-Tap ☰ icon in the upper right corner, and the menu is revealed.
-//TODO obrázek???
+Tap ☰ icon in the upper left corner, and the menu expands.
 
 
-// Where to find the feature's settings and other related settings used to enable the feature, optionally with description
-// EXAMPLE: _Sleep as Android -> Settings -> Wearables -> Use wearables_
-
-## Options
+== Options
 
 .Chronotype
 
 Based on your sleep patterns in tracking history, the app will determine your chronotype and shows you the icon in the Left menu - either you are morning lark, or night owl.
 
-
 NOTE: The app needs to have at least one month of sleep data.
 
-Based on research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. This was also confirmed by our https://sleep.urbandroid.org/sleepcloud-study/[SleepCloud study].
+Your chronotype is then represented by a banner at the very top of the Left ☰ menu.
+
+image:chrono.png[width=20%]
+
+
+
+According to the research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. Our https://sleep.urbandroid.org/sleepcloud-study/[SleepCloud study] also came to the same conclusion.
 
 To read more about chronotype, see our documentation on
 link:..docs/theory/chrono_jetlag.html[social jetlag].
 
-
-//(TODO text, plus ikonka a odkaz na vysvětlení)
-...
-
 .Shortcuts
 
-Available only in Tabs home screen mode.
+Available only in Tabs home screen mode. All the shortcuts from this menu can be used for creating widgets on main screen screen - see  link:/docs/sleep_advanced[the instruction] how to do it.
 
 [horizontal]
-Ideal sleep:: ..
-Nap:: ...
-+ Add sleep:: ...
-Add alarm:: ...
+
+icon:ic_action_track[] Start sleep tracking:: Starts sleep tracking manually.
+icon:ic_action_bedtime[] Ideal sleep:: Starts sleep tracking with and alarm based on your ideal daily sleep income (+ smart period and tracking start delay).
+icon:ic_action_snooze[] Nap:: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
+icon:plus[] Add sleep:: For adding a period of sleep manually, when you forgot tracking.
+icon:ic_alarm_plus[] Add alarm:: You can create new alarm.
 
 
 .Sleep as Android
 
 [horizontal]
 icon:ic_alarm[] Alarms:: Opens link:../docs/homecreen.html[List of alarms].
-Stats:: Opens link:../docs/theory/statistics_charts.html[Statistics section].
-Graphs:: Opens link:../docs/theory/sleep_graph.html[Graph section].
-Trend:: Opens link:../docs/theory/statistics_charts.html[Statistics section].
-Advice:: Opens link:../docs/theory/advice.html[Advice].
-Goal:: Opens link:../docs/sleep_advanced/goals.html[Goals].
-Noise:: Opens link:../docs/sleep_basic/sleep_noise_recording.html[Noise recording section].
-Add-ons:: TODO
-Backup:: Opens back up dialogue - for more details on back up, see link:../docs/sleep_basic/backup_data.html[back up].
-Lullaby:: Opens link:../docs/sleep_basic/lullaby.html[Lullabies].
-Settings:: Opens general settings.
+icon:ic_timelapse[] Stats:: Opens link:../docs/theory/statistics_charts.html[Statistics section].
+icon:ic_action_graph[] Graphs:: Opens link:../docs/theory/sleep_graph.html[Graph section].
+icon:ic_action_stats[] Trend:: Opens link:../docs/theory/statistics_charts.html[Statistics section].
+icon:ic_lightbulb[] Advice:: Opens link:../docs/theory/advice.html[Advice].
+icon:ic_goal[] Goal:: Opens link:../docs/sleep_advanced/goals.html[Goals].
+icon:ic_action_noise[] Noise:: Opens link:../docs/sleep_basic/sleep_noise_recording.html[Noise recording section].
+icon:ic_puzzle[] Add-ons:: Opens a list of all add-ons, and other apps from out team.
+icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on back up, see link:../docs/sleep_basic/backup_data.html[back up].
+icon:ic_action_lullaby[] Lullaby:: Opens link:../docs/sleep_basic/lullaby.html[Lullabies].
+icon:ic_cog[] Settings:: Opens general application settings.
 
 .Home screen
 
 For mode details on Home screen, please see the link:../docs/homescreen.html[Home screen].
 
 [horizontal]
-Dashboard:: Presents all options in cards.
-Tabs:: Presents all option in tabs, list of alarm is the main screen.
-Alarms:: Simplified mode without any tracking-related settings.
+icon:ic_dashboard[] Dashboard:: Presents all options in cards.
+icon:ic_puzzle[] Tabs:: Presents all option in tabs, list of alarm is the main screen.
+icon:ic_action_track_off_white[] Alarms:: Simplified mode without any tracking-related settings.
 
 
 .Contact support
 
 [horizontal]
-Tutorial:: Opens a short introduction tutorial.
-Documentation:: Opens documentations (TODO odkaz na list of contents?)
-Tell friends:: You can tell your friends about your experience with Sleep as Android (more about sharing - TODO odkaz na Share, pokud máme)
-Release notes:: Get informed about latest changes in Sleep and new added features!
-Report a bug:: Generates an application log, that can be shared with our support team to help you with any issue. Do not hesitate and tell us, what is now working properly, so we can fix it!
-Send a wearable report:: Generates a special application log for debugging troubles with some wearables.
-Translate app:: If you can help us with translation to your language, or you spotted any incorrect translation, please, let us know to support@urbandroid.org.
-Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org.
-
-
-// Describe all the feature's options, see other docs pages for formatting
-
-// EXAMPLE:
-
-// [horizontal]
-// Smart wake up:: See link:../alarms/smart_wake_up.html[Smart wake up]
-// Awake detection:: See [Awake detection]
-
-// .Automatic sleep tracking
-// [horizontal]
-// Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-// - More details: link:automatic_sleep_tracking.html[Automatic sleep tracking].
-// Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
-// - On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
-// - On _Save automatically_, the notification saves the sleep record for you automatically
-// - More details: link:sleep_time_estimation.html[Sleep time estimation]
-
-// EXAMPLE END
-
-## Guide
-// Free form description on how to use the feature, various quirks and best practices
-
+icon:ic_help[] Help:: Opens help-assistance dialogue.
+* icon:ic_information[] Documentation
+* icon:ic_information[] FAQ
+* icon:ic_information[] Tutorial
+* icon:ic_action_play[] Watch video
+* icon:ic_help[] Forum
+* icon:ic_help[] Contact support
+* icon:ic_bug[] Report a bug
+icon:ic_bug[] Report a bug:: Generates an application log, that can be shared with our support team to help you with any issue. Do not hesitate and tell us, what is now working properly, so we can fix it!
+icon:ic_bug[] Send a wearable report:: Generates a special application log for debugging troubles with some wearables.
+icon:ic_gift[] Release notes:: Get informed about latest changes in Sleep and new added features!
+icon:ic_share_variant[] Tell friends:: You can tell your friends about your experience with Sleep as Android (more about sharing - TODO odkaz na Share, pokud máme)
+icon:ic_translate[] Translate app:: If you can help us with translation to your language, or you spotted any incorrect translation, please, let us know to support@urbandroid.org.
+icon:ic_text[] Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org.
