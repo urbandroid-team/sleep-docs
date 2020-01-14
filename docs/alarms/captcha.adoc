@@ -4,58 +4,67 @@ title: Captcha
 nav_order: 2
 parent: /docs/alarms
 ---
-
 :toc:
 
 == What it does
-
-.A little task which needs to be solved first before the alarm gets dismissed.
+*A little task which has to be solved first before  alarm gets dismissed.*
 
 == Where to find it
 
-_Settings -> CAPTCHA: Stop oversleeping!_
-_per-alarm settings -> CAPTCHA: Stop oversleeping!_
+- _Settings -> CAPTCHA: Stop oversleeping!_
+- _link:/docs/alarms/alarm_settings#where-to-find-it[Per-alarm settings] -> CAPTCHA: Stop oversleeping!_
 
-NOTE: CAPTCHA can also be configured per-alarm, so you can override your CAPTCHA settings and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends
+NOTE: CAPTCHA can also be configured per-alarm. You can override your default CAPTCHA settings on each alarm and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends.
 
 == Options
 [horizontal]
-Default CAPTCHA::
- Simple math:: Select the correct answer
- Typed math:: Type the correct answer
- Sleeping sheep:: Find an awake sheep
- QR code:: see <<QR_NFC,QR Captcha>>
- NFC tag:: see <<QR_NFC,NFC Captcha>>
- Shake it::  Shake your phone
- Dream diary:: Write down your dream (10 characters minimum at Difficulty 1).
-NOTE: Dream diary entries are saved into back up file under Comment section - see link:../sleep_basic/backup_data.html[Back up guide].
-Say cheese!:: Smile to your front camera
- Laugh Out Loud:: Laugh at your phone
+Default CAPTCHA:: CAPTCHA for all alarms where you don't have a per-alarm CAPTCHA set.
 CAPTCHA Difficulty:: Allows you to set a difficulty, the more difficult the task, the more repetition of that task
-Preview:: Shows you the task in advance
-Settings:: Edits some of the tasks settings
+Preview:: Allows you to check how the task would look, you can try solving it.
+Settings:: A CAPTCHA may be configurable, for example..
  * Editing, adding, and deleting QR codes and NFC tags
  * Selecting tasks for MultiCaptcha
  * Choosing your mantra for Mirror Text
-CAPTCHA ADD-ons:: Download free extension with more Captcha tasks https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack[from Play Store]
- Captcha Captcha:: Type the letters of a distorted image
- Random Captcha:: Solve up to 5 different tasks each morning
- Multi Captcha:: Solve up to 15 chosen tasks in a row
- Mirror text:: Reade and type a text from a flipped quote - pre-defined or your own (configured in _Settings -> Captcha -> Settings_)
- Swearing:: Swear your way to dismiss (English only)
- Zombie Walk:: Walk 14-74 meters with the phone
- Let there be light:: Put your phone to a light source
- Fun with Flags:: Recognize flags
- Spin around:: Spin around while keeping thumbs on the buttons on the screen
+CAPTCHA ADD-ons:: Download a free extension with more CAPTCHA tasks https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack[from Play Store]
 
-== Advanced Options
+.Advanced Options
 [horizontal]
 Alarm volume in CAPTCHA:: Lowers or mute the alarm volume while solving a task
 NOTE: During CAPTCHA solving, alarm volume is lowered for 1 minute so that you don’t wake your partner with the ongoing alarm. You can use the 1 minute either to solve the CAPTCHA or get to a different room for solving.
 To get more time to solve your task, tap on + icon in the upper right corner
-Prevent escaping CAPTCHA:: Prevents you to force closing or uninstalling the app during task solving
+Prevent escaping CAPTCHA:: Prevents you from force closing or uninstalling the app during task solving
 
-== QR code and NFC tag CAPTCHA
+## Guide
+
+### CAPTCHA types
+
+.Built-in CAPTCHAS
+[horizontal]
+Simple math:: Select the correct answer to a math problem
+Typed math:: Type the correct answer to a math problem
+Sleeping sheep:: Find an awake sheep
+QR code:: see <<QR_NFC,QR Captcha>>
+NFC tag:: see <<QR_NFC,NFC Captcha>>
+Shake it::  Shake your phone
+Dream diary:: Write down your dream (10 characters minimum at Difficulty 1).
+NOTE: Dream diary entries are saved into back up file under Comment section see link:../sleep_basic/backup_data.html[Backup guide].
+asdf
+Say cheese!:: Smile to your front camera
+Laugh Out Loud:: Laugh at your phone
+
+.CAPTCHA pack
+[horizontal]
+Captcha Captcha:: Classic CAPTCHA known from the early internet days - type the letters of a distorted image
+Random Captcha:: Solve up to 5 different tasks each morning
+Multi Captcha:: Solve up to 15 chosen tasks in a row
+Mirror text:: Read and type a text from a mirror-flipped quote - pre-defined or your own (configured in _Settings -> Captcha -> Settings_)
+Swearing:: Swear your way to dismiss (English only)
+Zombie Walk:: Walk 14-74 meters with the phone
+Let there be light:: Put your phone to a light source
+Fun with Flags:: Recognize flags
+Spin around:: Spin around while keeping thumbs on the buttons on the screen
+
+### QR code and NFC tag CAPTCHA
 [[QR_NFC]]
 The QR and NFC CAPTCHAs are the ultimate solution for waking up. You can place a QR code or NFC tag in your bathroom or kitchen. The alarm than won’t stop until you get out of bed and scan the code/tag.
 
@@ -65,11 +74,10 @@ Supported QR apps: Barcode Scanner, QRDroid, Google Goggles
 NFC CAPTCHA:: You can use any credit card, some membership cards or ID cards
 NOTE: For security reasons, NFC Captcha requires unlocking the screen first
 Only at home:: Allows you to skip CAPTCHA when not at home
-NOTE: Your location must be significantly different from your home, as the app does not collect fine location information
+NOTE: Your location must be significantly different from your home (at least 2.5 km), as the app does not collect fine location information
 Must scan all codes:: You need to scan all saved codes.
 
-== Guide
-[horiznotal]
+[horizontal]
 Learn new QR code / NFC tag::
 . Go to _Settings -> Captcha -> Settings_
 . Tap on "Learn"

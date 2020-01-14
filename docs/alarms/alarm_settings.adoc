@@ -63,7 +63,7 @@ Same as for alarm default settings; a few different options are available, liste
 [horizontal]
 Repeat:: Set a schedule for repeating alarm, you can choose also <<even_odd,Even / odd pattern>>.
 Delete after ringing:: Deletes this alarm completely after dismiss.
-Terminate tracking:: Allows you to continue with tracking after alarm dismiss.
+Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
 Silent alarm (in Ringtone):: Sets alarm without sound.
 
 == Guide
