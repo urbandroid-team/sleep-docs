@@ -7,7 +7,7 @@ parent: /docs/sleep_basic/sleep_tracking.html
 :toc:
 
 ## What it does
-*Checks your breath rate to hint you whether you should get examined for sleep apnea.*
+*Checks your breath rate to hint you whether you should get examined by a physician for sleep apnea.*
 
 With Sleep Phaser or an oximeter, Sleep as Android enables you to track your breathing rate/oxygen levels and show them on a sleep graph.
 
@@ -25,6 +25,10 @@ Low breath rate alarm:: If enabled, this will wake you up if you have a low brea
 A blue line on your sleep graph shows breath/oxygen data from connected devices.
 
 Whenever a significant dip in value occurs, a CPAP mask symbol will be shown on the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value.
+
+image:breath_rate.png[width=50%]
+
+Read about link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[sleep apnea].
 
 ### RDI
 *Respiratory Disturbance Index* is the average count of respiratory distubance episodes per hour.
