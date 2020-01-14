@@ -1,0 +1,58 @@
+---
+layout: default
+title: Smartlight
+nav_order: 2
+parent: /docs/connected_devices
+---
+:toc:
+
+## What it does
+*Uses your smartlight to enhance your sleep experience*
+
+Features:
+
+- Sunrise-like wakeup
+- Pee-light
+- Jet lag prevention with light
+- Lucid dreaming and anti-snoring cues with light
+
+## Where to find it
+_Sleep as Android -> Settings -> Smartlight_
+
+## Options
+[horizontal]
+Use smartlight:: Enables smartlight support
+Maximum intensity:: Set a global limit for brightness a smartlight would be allowed to achieve when controlled by Sleep. This is useful for sunrise alarm where 100% might be too bright for some people.
+
+.Alarm
+[horizontal]
+Keep light up after:: Set whether the light should stay on after dismissing alarm, snoozing alarm or both. Or none.
+Use screen light:: Enable to use your phone's screen as a smartlight for the sunrise alarm.
+Wake up with flashlight:: If enabled, your phone's flashlight will be flashing during alarm.
+WARNING: Might be unreliable on some phones.
+
+.Miscellaneous
+[horizontal]
+Pee-light:: If this is set, a pause in sleep tracking will turn on a red light on your set smartlight. If this is set to "Tracking is paused", the pee-light will be on for the whole pause.
+Lucid dreaming:: Use smartlight as a cue for lucid dreaming. When your REM phase is detected, your set light will flash.
+Anti-snoring:: Use smartlight as a cue for anti-snoring. When snoring is detected, your set light will flash.
+
+.Philips HUE
+[horizontal]
+Philips HUE (disconnected):: Tap this to connect your HUE.
+Test:: Test connection to your HUE by flashing it.
+Turn off:: Force turning off your connected HUE.
+
+.Sleep Phaser
+[horizontal]
+Sleep Phaser (disconnected):: Tap this to connect to your link:http://sleepphaser.urbandroid.org/[Sleep Phaser].
+Smartlight:: Use your connected Sleep Phaser as a smartlight. Sleep Phaser doesn't care about the topmost "Use smartlight" setting in this category.
+Sleep tracking:: Use your connected Sleep Phaser's PIR sensor as a sensor for sleep tracking.
+Start automatically:: Start tracking automatically when you start charging your phone while your Sleep Phaser is in Bluetooth range.
+NOTE: On Android 8 and later, you need to have link:https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter[Watch / Phaser Starter for Sleep as Android] installed in order for this to work.
+
+For complete manual for Sleep Phaser, see link:/docs/connected_devices/sleep_phaser.html[Sleep Phaser].
+
+.Sleep Mask
+[horizontal]
+Use Sleep Mask:: Enable to use your link:https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android.html[Sleep Mask] as a smartlight.
