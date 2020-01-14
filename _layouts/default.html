@@ -97,14 +97,16 @@
 
           {% if page.collection != "faqs" and page.no_troubleshooting != true %}
 
-            <h2>FAQ</h2>
-
             {% assign outputFaqs = '' | split: '' %}
 
             {% for tag in page.tags %}
             {% assign faqs = site.faqs | where_exp: "item", "item.tags contains tag" %}
             {% assign outputFaqs = outputFaqs | concat: faqs | uniq | sort: "title" %}
             {% endfor %}
+
+            {% if outputFaqs.size > 0 %}
+            <h2>FAQ</h2>
+            {% endif %}
 
             {% for fue in outputFaqs %}
               <h3><a href="{{ fue.url }}">{{ fue.title }}</a></h3>
