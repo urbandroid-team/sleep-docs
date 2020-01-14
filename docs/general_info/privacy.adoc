@@ -5,4 +5,4 @@ nav_order: 2
 parent: /docs/general_info
 ---
 
-See https://team.urbandroid.org/privacy/.
+See https://team.urbandroid.org/privacy/ for up-to-date version of Urbandroid's privacy policy that also concerns Sleep as Android.
