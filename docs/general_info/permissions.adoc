@@ -11,24 +11,6 @@ Sleep as Android has a lot of functionality, some of which can be only enabled w
 |===
 |Permission |Google's description |Used by feature | Notes
 
-.<|Contacts
-|Find accounts on the device
-a|- In-app purchases
-- link:/docs/connected_services/google_calendar.html[Google Calendar]
-|We don’t need your contacts. However this is the only permission that grants us access to your account name (like user@gmail.com).
-
-We need your contact name to be able to secure in-app purchases – please note that this permission does NOT include retrieval of any authentication information (login, password).
-
-We also use this permission to retrieve accounts for the Google Calendar integration (when you enable the Calendar option)
-
-For official Android information, please see: https://developer.android.com/guide/topics/permissions/overview#permission-groups (you can see that the GET_ACCOUNTS permission is in the CONTACTS permission group)
-
-|Identity
-|Find accounts on the device
-a|- In-app purchases
-- link:/docs/connected_services/google_calendar.html[Google Calendar]
-|Only for Lollipop and below, otherwise it's the same case as the Contacts permission - we need it to retrieve account names that are on your device in order to secure In-app purchases and connect to services such as Google Calendar.
-
 |Wi-Fi connection information
 |View Wi-Fi connections
 |
