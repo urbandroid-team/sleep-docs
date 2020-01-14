@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Personalize
-nav_order: 1
+nav_order: 2
+// parent: /docs
 ---
 :toc:
 
 == What it does
-*You can personalize Sleep even further; this section allows you to choose color of the graphs, theme, sort your alarms... and much more.*
+*Allows you to choose color of the graphs, theme, sort your alarms... and much more.*
 
 == Where to find it
 

@@ -9,65 +9,59 @@ tags:
 :toc:
 
 == What it does
-You can change the settings of alarms to fit
+*Adjust alarms to best fit your lifestyle.*
 
-
-NOTE: For even better experience with alarms, see also link:../alarms/smart_wake_up.html[Smart wake up]
+NOTE: For even better wakeup experience, see also link:../alarms/smart_wake_up.html[Smart wake up]
 
 == Where to find it
-Alarms can be modified at two places - for one specific alarm in per-alarm settings, and for all alarms in Alarm default settings.
-
-._Sleep as Android -> Settings -> Alarm default settings_
-Default settings allows you to modify behaviour for all your alarms. Default settings are also applied to all new alarms.
+Alarms can be modified at two places - for a specific alarm in _per-alarm settings_, and for all alarms in _Alarm default settings_.
 
 ._Per-alarm settings_
 Per-alarm settings change behaviour of a specific alarm; those changes won't affect other alarms or default settings.
 
+._Sleep as Android -> Settings -> Alarm default settings_
+Alarm default settings allow you to modify basic behaviour for all your alarms. Default settings are also applied to all new alarms.
 
 == Options
 
 [horizontal]
 Ringtone:: See link:../alarms/ringtone.html[Ringtone].
-Gentle volume increase:: Alarm starts at minimum volume and gradually increase to phone maximum.
-* Disabled - Alarm rings at volume set in link:../alarms/ringtone.html[Ringtone] section
+Gentle volume increase:: Alarm starts at minimum volume and will gradually increase to maximum.
+* Disabled - Alarm rings at volume set in link:../alarms/ringtone.html[Ringtone] section.
 * 1-24 minutes - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
 Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
 * Disabled - No vibrations on phone at all.
 * From start - Vibrations start at alarm time.
-* After 1-24 minutes - Sets a delay for vibrations.
+* After 1-24 minutes - Vibrations start after set time.
 Alarm sound start::
 * From start - Sound starts at alarm time.
-* 1-24 minutes - Sets a delay for sound.
-Play alarm in silent profile:: Enables to trigger alarm in silent mode.
+* 1-24 minutes - Sounds starts after set time.
+Play alarm in silent profile:: Alarm sound will override phone's silent mode.
 
 .Snooze / Dismiss
-
 [horizontal]
 Snooze:: See link:../alarms/snooze.html[Snooze].
-Always fullscreen alarm:: Allows loading fullscreen alarm on Android 10.
+Always fullscreen alarm:: Alarm will never show up as a heads-up notification. This is especially useful from Android 10 where the notification might not show at all sometimes.
 Flip to snooze:: Lets you snooze an alarm by flipping the phone.
 Volume or camera button effect:: Allows to snooze or dismiss the alarm with volume buttons.
 No screen orientation changes:: Prevents changes of screen orientation while the alarm rings.
 Long press:: Long press on dismiss button is necessary to dismiss the alarm (prevents accidentally dismissed alarms).
 
 .Backup alarm
-
 [horizontal]
 Backup alarm:: See link:../alarms/backup.html[Backup alarm].
 Alarm timeout:: See link:../alarms/backup.html[Backup alarm].
 
 .Dangerous options
-
 [horizontal]
 Alarm output:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones.
-NOTE: Please, test it before using it - some vendors do no allow use media stream for alarms!
-Alarm reliability:: Does a lot of stuff, but only for some... Are you the chosen one?
-On problematic phones can increase reliability of the alarm (see https://dontkillmyapp.com?app=Sleep%20as%20Android[dontkillmyapp.com]).
+NOTE: Please, test it before using it - some vendors do not allow to use media stream for alarms!
+Alarm reliability:: Can increase reliability of the alarm on problematic phones (see https://dontkillmyapp.com?app=Sleep%20as%20Android[dontkillmyapp.com]).
 
 .Per-alarm settings
-Same as for alarm default settings; some new options are available.
+Same as for alarm default settings; a few different options are available, listed below.
 [horizontal]
-Repeat:: Sets a schedule for repeating alarm, you can choose also <<even_odd,Even / odd pattern>>.
+Repeat:: Set a schedule for repeating alarm, you can choose also <<even_odd,Even / odd pattern>>.
 Delete after ringing:: Deletes this alarm completely after dismiss.
 Terminate tracking:: Allows you to continue with tracking after alarm dismiss.
 Silent alarm (in Ringtone):: Sets alarm without sound.
