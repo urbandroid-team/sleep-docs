@@ -1,3 +1,6 @@
+# Use like this:
+# EXAMPLE::exampleText[]
+
 class ExampleBlockMacro < Asciidoctor::Extensions::BlockMacroProcessor
   use_dsl
 
@@ -16,7 +19,7 @@ class ExampleBlockMacro < Asciidoctor::Extensions::BlockMacroProcessor
     <table>
     <tbody><tr>
     <td class="icon">
-    <div class="title">Example</div>
+    <img src="/assets/icons/example.svg" alt="Example">
     </td>
     <td class="content">
     #{target}

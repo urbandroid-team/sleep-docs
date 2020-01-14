@@ -1,159 +1,49 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   x="0px"
-   y="0px"
-   width="24px"
-   height="24px"
-   viewBox="0 0 24 24"
-   enable-background="new 0 0 24 24"
-   xml:space="preserve"
-   id="svg46"
-   sodipodi:docname="ic_information.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
-   id="metadata52"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs50" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="780"
-   inkscape:window-height="480"
-   id="namedview48"
-   showgrid="false"
-   inkscape:zoom="9.8333333"
-   inkscape:cx="12"
-   inkscape:cy="12"
-   inkscape:window-x="0"
-   inkscape:window-y="27"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="svg46" />
-<g
-   id="Bounding_Boxes">
-	<g
-   id="ui_x5F_spec_x5F_header_copy_3"
-   display="none">
-	</g>
-	<path
-   fill="none"
-   d="M0,0h24v24H0V0z"
-   id="path3" />
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<path style="fill:#D7EBFF;" d="M256,512C114.837,512,0,397.157,0,256S114.837,0,256,0s256,114.843,256,256S397.163,512,256,512z"/>
+<path style="fill:#C4E2FF;" d="M512,256C512,114.843,397.163,0,256,0v512C397.163,512,512,397.157,512,256z"/>
+<path style="fill:#3ABBE6;" d="M256,478.609c-122.75,0-222.609-99.864-222.609-222.609S133.25,33.391,256,33.391
+	S478.609,133.256,478.609,256S378.75,478.609,256,478.609z"/>
+<path style="fill:#33A6CC;" d="M478.609,256c0-122.744-99.859-222.609-222.609-222.609v445.217
+	C378.75,478.609,478.609,378.744,478.609,256z"/>
+<circle style="fill:#FFFFFF;" cx="256" cy="122.435" r="33.391"/>
+<path style="fill:#EDF0F2;" d="M289.391,122.435c0-18.442-14.949-33.391-33.391-33.391v66.783
+	C274.442,155.826,289.391,140.877,289.391,122.435z"/>
+<path style="fill:#FFFFFF;" d="M256,422.957L256,422.957c-18.442,0-33.391-14.949-33.391-33.391V222.609
+	c0-18.442,14.949-33.391,33.391-33.391l0,0c18.442,0,33.391,14.949,33.391,33.391v166.956
+	C289.391,408.007,274.442,422.957,256,422.957z"/>
+<path style="fill:#EDF0F2;" d="M289.391,389.565V222.609c0-18.442-14.949-33.391-33.391-33.391v233.739
+	C274.442,422.957,289.391,408.007,289.391,389.565z"/>
+<g>
 </g>
-<g
-   id="Rounded"
-   display="none">
-	<g
-   id="ui_x5F_spec_x5F_header_copy_5">
-	</g>
-	<g
-   display="inline"
-   id="g9">
-		<path
-   d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M12,17L12,17c-0.55,0-1-0.45-1-1v-4    c0-0.55,0.45-1,1-1h0c0.55,0,1,0.45,1,1v4C13,16.55,12.55,17,12,17z M13,9h-2V7h2V9z"
-   id="path7" />
-	</g>
+<g>
 </g>
-<g
-   id="Sharp"
-   display="none">
-	<g
-   id="ui_x5F_spec_x5F_header_copy_4">
-	</g>
-	<g
-   display="inline"
-   id="g15">
-		<path
-   d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13,17h-2v-6h2V17z M13,9h-2V7h2V9z"
-   id="path13" />
-	</g>
+<g>
 </g>
-<g
-   id="Outline"
-   style="fill:#ffffff;fill-opacity:1">
-	<g
-   id="ui_x5F_spec_x5F_header"
-   display="none"
-   style="fill:#ffffff;fill-opacity:1">
-	</g>
-	<g
-   id="g25"
-   style="fill:#ffffff;fill-opacity:1">
-		<rect
-   x="11"
-   y="7"
-   width="2"
-   height="2"
-   id="rect19"
-   style="fill:#ffffff;fill-opacity:1" />
-		<rect
-   x="11"
-   y="11"
-   width="2"
-   height="6"
-   id="rect21"
-   style="fill:#ffffff;fill-opacity:1" />
-		<path
-   d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8    c0-4.41,3.59-8,8-8s8,3.59,8,8C20,16.41,16.41,20,12,20z"
-   id="path23"
-   style="fill:#ffffff;fill-opacity:1" />
-	</g>
+<g>
 </g>
-<g
-   id="Duotone"
-   display="none">
-	<g
-   id="ui_x5F_spec_x5F_header_copy_2">
-	</g>
-	<g
-   display="inline"
-   id="g37">
-		<path
-   opacity="0.3"
-   d="M12,4c-4.41,0-8,3.59-8,8c0,4.41,3.59,8,8,8s8-3.59,8-8C20,7.59,16.41,4,12,4z M13,17h-2v-6h2V17z M13,9h-2    V7h2V9z"
-   id="path29" />
-		<rect
-   x="11"
-   y="7"
-   width="2"
-   height="2"
-   id="rect31" />
-		<rect
-   x="11"
-   y="11"
-   width="2"
-   height="6"
-   id="rect33" />
-		<path
-   d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8    c0-4.41,3.59-8,8-8s8,3.59,8,8C20,16.41,16.41,20,12,20z"
-   id="path35" />
-	</g>
+<g>
 </g>
-<g
-   id="Material"
-   display="none">
-	<g
-   id="ui_x5F_spec_x5F_header_copy">
-	</g>
-	<g
-   display="inline"
-   id="g43">
-		<path
-   d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13,17h-2v-6h2V17z M13,9h-2V7h2V9z"
-   id="path41" />
-	</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
 </g>
 </svg>

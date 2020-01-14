@@ -23,3 +23,10 @@ ol, ul {
 .icon img {
   height: 1em;
 }
+
+.admonitionblock .icon {
+  min-width: 0;
+  img {
+    height: 2em;
+  }
+}
