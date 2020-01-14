@@ -1,0 +1,185 @@
+---
+layout: default
+title: Permissions
+nav_order: 2
+parent: /docs/general_info
+---
+
+Sleep as Android has a lot of functionality, some of which can be only enabled with permissions from the user. See below for explanation of usage of each permission.
+
+[Attributes]
+|===
+|Permission |Google's description |Used by feature | Notes
+
+.<|Contacts
+|Find accounts on the device
+a|- In-app purchases
+- link:/docs/connected_services/google_calendar.html[Google Calendar]
+|We don’t need your contacts. However this is the only permission that grants us access to your account name (like user@gmail.com).
+
+We need your contact name to be able to secure in-app purchases – please note that this permission does NOT include retrieval of any authentication information (login, password).
+
+We also use this permission to retrieve accounts for the Google Calendar integration (when you enable the Calendar option)
+
+For official Android information, please see: https://developer.android.com/guide/topics/permissions/overview#permission-groups (you can see that the GET_ACCOUNTS permission is in the CONTACTS permission group)
+
+|Identity
+|Find accounts on the device
+a|- In-app purchases
+- link:/docs/connected_services/google_calendar.html[Google Calendar]
+|Only for Lollipop and below, otherwise it's the same case as the Contacts permission - we need it to retrieve account names that are on your device in order to secure In-app purchases and connect to services such as Google Calendar.
+
+|Wi-Fi connection information
+|View Wi-Fi connections
+|
+|
+
+|Device & app history
+|Retrieve running apps
+|
+|
+
+|Location
+|Approximate location (network-based), precise location (GPS and network-based)
+a|- Sunrise wakeup
+- Location tagging
+- Morning weather
+- Pair tracking
+- Bluetooth-connected devices, such as link:/docs/connected_devices/oximeter.html[Oximeter]
+
+a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.
+
+For all of this, we would be okay with _approximate location_ permission. However for _bluetooth connecting_ and _pair tracking_ features, we have to also ask for _precise location_.
+
+You can completely opt-out from location storing in _Settings -> Miscellaneous_.
+
+|Microphone
+|Record audio
+a|- link:/docs/sleep_basic/sleep_noise_recording.html[Sleep noise recording]
+- link:/docs/sensors.html[Sonar]
+|We ask you for this permission if you enable sleep noise recording or sonar.
+
+|Photos/Media/Files
+|Read the contents of your USB storage, modify or delete the contents of your USB storage
+a|- link:/docs/sleep_basic/sleep_noise_recording.html[Sleep noise recording]
+- link:/docs/sleep_basic/backup_data.html[Backup]
+|We don’t touch your photos. We use this permission to export your sleep data to a CSV file on the SD card and to store noise recordings.
+
+|Storage
+|Read the contents of your USB storage, modify or delete the contents of your USB storage
+a|- link:/docs/sleep_basic/sleep_noise_recording.html[Sleep noise recording]
+- link:/docs/sleep_basic/backup_data.html[Backup]
+|We don’t touch your photos. We use this permission to export your sleep data to a CSV file on the SD card and to store noise recordings.
+
+|Camera
+|Take pictures and videos
+a|- QR Captcha
+- Pee light
+- link:/docs/theory/jetlag.html[Jet lag prevention]
+|This is used by QR Captcha in order to scan barcodes/QR codes and to toggle flashlight in several features
+
+|Wearable sensors/Activity data
+|Body sensors (like heart rate monitors)
+|link:/docs/sleep_advanced/heart_rate.html[Heart rate monitoring]
+|Enables you to use heart rate trackers along with Sleep as Android
+
+|Phone
+|Read phone status and identity
+|_Privacy -> Handle phone calls_
+|Used to stop lullabies or recording when you get into a phone call.
+
+|Device ID & call information
+|Read phone status and identity
+|
+|
+
+|Calendar
+|Read calendar events plus confidential information, add or modify calendar events and send email to guests without owners' knowledge
+| link:/docs/connected_services/google_calendar.html[Google Calendar]
+|Allows the app to reschedule alarms according to calendar events and public holidays, if you configure it to do so.
+
+|Other
+|Receive data from Internet
+|Lots of features such as online radios, weather reports, backup etc.
+|
+
+|Other
+|Pair with Bluetooth devices
+|
+|
+
+|Other
+|Connect and disconnect from Wi-Fi
+|
+|
+
+|Other
+|Control Near Field Communication
+|NFC Captcha
+|
+
+|Other
+|Control vibration
+|
+|
+
+|Other
+|Modify system settings
+|
+|
+
+|Other
+|Draw over other apps
+|
+|
+
+|Other
+|Run at startup
+|Alarms
+|To be able to reschedule alarms after the device reboots.
+
+|Other
+|Control flashlight
+a|- Pee light
+- link:/docs/theory/jetlag.html[Jet lag prevention]
+|
+
+|Other
+|Prevent device from sleeping
+|Sleep tracking
+|We need to read data from sensors for the whole night. If the device goes to sleep, we cannot read data from sensors.
+
+|Other
+|Access Bluetooth settings
+|
+|
+
+|Other
+|Disable your screen lock
+|
+|
+
+|Other
+|View network connections
+|
+|
+
+|Other
+|Full network access
+|
+|
+
+
+
+|===
+
+
+
+
+
+
+
+
+
+
+
