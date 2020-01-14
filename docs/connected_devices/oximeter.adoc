@@ -3,12 +3,32 @@ layout: default
 title: Oximeter
 nav_order: 2
 parent: /docs/connected_devices
+tags:
+- oximeter
 ---
-
 :toc:
 
 ## What it does
 Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://www.happy-electronics.eu/shop/en/16-sleep[buy it here].
 
+The compatible oximeters are Berrymed oximeters with custom firmware. We did try a lot of oximeters that are on the market and these had the most reliable data.
+
 ## Where to find it
-  *Sleep as Android > Settings > Wearables > Pulse oximeter*
+_Sleep as Android -> Settings -> Wearables -> Pulse oximeter_
+
+
+## Options
+[horizontal]
+Pulse Oximeter:: Enable the feature
+Low breath rate alarm:: If enabled, an alarm will wake you up when you have an low breath rate episode. This tries to prevent your blood oxygen volume from dropping to dangerous levels.
+Low breath rate alarm sensitivity:: Set sensitivity for the low breath rate alarm.
+
+## Guide
+
+### How to set up
+. Turn on your oximeter
+.. If you have an older (non-BTLE) oximeter, pair it with your phone using the system bluetooth settings.
+.. If you have a newer (BTLE) oximeter, do not pair it.
+. Connect the oximeter to the app by tapping *Sleep as Android -> Settings -> Wearables -> Pulse oximeter*
+
+Now when you start sleep tracking, Sleep will connect to your oximeter to gather SpO~2~ and HR data.
