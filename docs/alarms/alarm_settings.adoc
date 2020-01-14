@@ -50,7 +50,7 @@ Volume or camera button effect:: Allows to snooze or dismiss the alarm with volu
 No screen orientation changes:: Prevents changes of screen orientation while the alarm rings.
 Long press:: Long press on dismiss button is necessary to dismiss the alarm (prevents accidentally dismissed alarms).
 
-.Back up alarm
+.Backup alarm
 
 [horizontal]
 Backup alarm:: See link:../alarms/backup.html[Backup alarm].
