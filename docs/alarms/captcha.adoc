@@ -12,7 +12,7 @@ parent: /docs/alarms
 == Where to find it
 
 - _Settings -> CAPTCHA: Stop oversleeping!_
-- _link:/docs/alarms/alarm_settings#where-to-find-it[Per-alarm settings] -> CAPTCHA: Stop oversleeping!_
+- _link:/docs/alarms/alarm_settings.html#per-alarm[Per-alarm settings] -> CAPTCHA: Stop oversleeping!_
 
 NOTE: CAPTCHA can also be configured per-alarm. You can override your default CAPTCHA settings on each alarm and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends.
 

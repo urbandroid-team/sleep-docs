@@ -3,12 +3,13 @@ layout: default
 title: Ringtone
 nav_order: 2
 parent: /docs/alarms
+tags:
+- ringtone
 ---
-
 :toc:
 
 == What it does
-.Change the sound of alarm(s) to any pleasant music of your choice for even more enjoyable mornings.
+*Change the sound of alarm(s) to any pleasant music of your choice for even more enjoyable mornings.*
 
 == Where to find it
 _Settings -> Alarm default settings -> Ringtone_
@@ -37,17 +38,3 @@ How to add my own song, sound file::
 . Tap on the folder TODO icon in the upper right corner.
 . Select a file in your file browser
 . Make sure the file is available and the app has permission for accessing that folder.
-
-== Troubleshooting
-[horizontal]
-My song was not played / my ringtone was not used / different ringtone::
-. Make sure the Alarm default settings and per-alarm settings for the alarm are not different
-. Check if the file has not been moved or deleted, the SD card is available at the time of the alarm.
-. Also check the app has the storage permission to access that file
-
-My selected Spotify playlist / album is not played (different playlist, different album)::
-* Unfortunately our Spotify integration is all reverse engineered and thus may stop working any time Spotify updates their app.
-NOTE: When alarm starts and your phone is locked we are unable to change the playlist or album in your Spotify app. In this case the app will play simply where you last left it. We have not found a fix for this yet.
-
-Silent alarm goes off with beeping sound::
-. Make sure the battery  battery optimization or battery saver is not on: _Settings -> Sleep tracking -> Battery optimized_ (battery optimization can be also enabled from the tracking screen) When battery optimization is enabled, the vibrations do no work, so the app is loading the build-in ringtone to ensure you are woken up.

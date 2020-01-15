@@ -17,6 +17,7 @@ NOTE: For even better wakeup experience, see also link:../alarms/smart_wake_up.h
 Alarms can be modified at two places - for a specific alarm in _per-alarm settings_, and for all alarms in _Alarm default settings_.
 
 ._Per-alarm settings_
+[[per-alarm]]
 Per-alarm settings change behaviour of a specific alarm; those changes won't affect other alarms or default settings.
 
 ._Sleep as Android -> Settings -> Alarm default settings_
