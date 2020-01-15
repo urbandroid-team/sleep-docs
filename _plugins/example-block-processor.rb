@@ -14,25 +14,24 @@ class ExampleBlock < Asciidoctor::Extensions::BlockProcessor
   use_dsl
 
   named :EXAMPLE
-  on_context :paragraph
-  parse_content_as :simple
+  parse_content_as :compound
 
   def process parent, reader, attrs
     text = (reader.lines.join("<br>"))
 
-    html = %(<div class="admonitionblock example">
-    <table>
-    <tbody><tr>
-    <td class="icon">
-    <img src="/assets/icons/example.svg" alt="Example">
-    </td>
-    <td class="content">
-    #{text}
-    </td>
-    </tr>
-    </tbody></table>
-    </div>)
+    html = %(+++<div class="admonitionblock example">
+      <table>
+      <tbody><tr>
+      <td class="icon">
+      <img src="/assets/icons/example.svg" alt="Example">
+      </td>
+      <td class="content">
+      +++ #{text} +++
+      </td>
+      </tr>
+      </tbody></table>
+      </div>+++)
 
-    create_pass_block parent, html, attrs
+    create_block parent, :paragraph, html, attrs
   end
 end
