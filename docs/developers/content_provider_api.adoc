@@ -1,9 +1,99 @@
 ---
 layout: default
-title: Intent and content provider API
+title: Content provider API
 nav_order: 2
 parent: /docs/developers
 
 ---
-
 :toc:
+
+## Features
+Sleep as Android exposes content providers so you can:
+* read sleep data saved in Sleep as Android
+* CRUD alarms in Sleep as Android
+
+WARNING: To access Sleep as Android content providers your app needs the com.urbandroid.sleep.READ permission declared in its manifest.
+
+### Sleep data content provider
+
+[source,java,linenums]
+----
+public class Record {
+ public static final String AUTHORITY = "com.urbandroid.sleep.history";
+ public static final String RECORDS_TABLE = "records";
+
+public static class Records implements BaseColumns {
+ public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + RECORDS_TABLE);
+ public static final String CONTENT_TYPE = "vnd.android.cursor.dir/com.urbandroid.sleep.history";
+
+public static final String RECORD_ID = "_id";
+public static final String START_TIME = "startTime";
+public static final String LATEST_TO_TIME = "latestToTime";
+public static final String TO_TIME = "toTime";
+public static final String FRAMERATE = "framerate";
+public static final String RATING = "rating";
+public static final String COMMENT = "comment";
+public static final String RECORD_DATA = "recordData";
+public static final String TIMEZONE = "timezone";
+public static final String LEN_ADJUST = "lenAdjust";
+public static final String QUALITY = "quality";
+public static final String SNORE = "snore";
+public static final String CYCLES = "cycles";
+public static final String EVENT_LABELS = "eventLabels";
+public static final String EVENTS = "events";
+public static final String RECORD_FULL_DATA = "recordFullData";
+public static final String RECORD_NOISE_DATA = "recordNoiseData";
+public static final String NOISE_LEVEL = "noiseLevel";
+public static final String FINISHED = "finished";
+public static final String GEO = "geo";
+public static final String LENGTH = "length";
+    }
+}
+----
+
+To query the content provider (only select is supported – no update or delete):
+
+[source,java,linenums]
+----
+private final String[] projection = new String[] (Record.Records.START_TIME,Record.Records.TO_TIME, Record.Records.RATING);
+
+Cursor cursor = activity.managedQuery(Record.Records.CONTENT_URI, projection, Record.Records.START_TIME + ” > ” + yearAgo, null, Record.Records.START_TIME + ” ASC”);
+----
+
+### Alarm data content provider
+
+Alarm content provider allows all provider operations.
+
+[source,java,linenums]
+----
+public final class Alarm {
+
+    public static class Columns implements BaseColumns {
+        public static final Uri CONTENT_URI = Uri.parse(“content://com.urbandroid.sleep.alarmclock/alarm”);
+
+        public static final String HOUR = “hour”;
+        public static final String MINUTES = “minutes”;
+        public static final String DAYS_OF_WEEK = “daysofweek”;
+        public static final String ALARM_TIME = “alarmtime”;
+        public static final String SUSPEND_TIME = “suspendtime”;
+        public static final String NON_DEEPSLEEP_WAKEUP_WINDOWN = “ndswakeupwindow”;
+        public static final String ENABLED = “enabled”;
+        public static final String VIBRATE = “vibrate”;
+        public static final String MESSAGE = “message”;
+        public static final String ALERT = “alert”;
+        public static final String DEFAULT_SORT_ORDER = HOUR + “, ” + MINUTES + ” ASC”;
+
+        public static final int ALARM_ID_INDEX = 0;
+        public static final int ALARM_HOUR_INDEX = 1;
+        public static final int ALARM_MINUTES_INDEX = 2;
+        public static final int ALARM_DAYS_OF_WEEK_INDEX = 3;
+        public static final int ALARM_TIME_INDEX = 4;
+        public static final int ALARM_ENABLED_INDEX = 5;
+        public static final int ALARM_VIBRATE_INDEX = 6;
+        public static final int ALARM_MESSAGE_INDEX = 7;
+        public static final int ALARM_ALERT_INDEX = 8;
+        public static final int ALARM_SUSPEND_TIME_INDEX = 9;
+        public static final int ALARM_NON_DEEPSLEEP_WAKEUP_WINDOW_INDEX = 10;
+    }
+}
+----

@@ -5,5 +5,13 @@ nav_order: 2
 parent: /docs/developers
 
 ---
+// :toc:
 
-:toc:
+## API guide
+To create your own CAPTCHA, use the https://github.com/urbandroid-team/sleep-captcha-support[Captcha support library]. Usage guide is available there.
+
+To see an example CAPTCHA created by our team, check https://github.com/urbandroid-team/sleep-captcha-examples[Sleep-Captcha-Example].
+
+### Testing note
+To send an intent to make the current CAPTCHA succeed, do:
+`adb shell am start -n com.urbandroid.sleep/.alarmclock.AlarmAlertFullScreen --ez captcha_result_success true`
