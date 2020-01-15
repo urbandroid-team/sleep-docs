@@ -1,0 +1,14 @@
+---
+title: Manual backup - cannot import data on my new phone
+tags:
+  - backup
+---
+
+If you moved a `sleep-export.csv` file to your new phone and did not import the file before the app created a new sleep record, the app has replaced your `sleep-export.csv`. The old `sleep-export.csv` file was renamed to `sleep-export.backup.csv`.
+
+To restore the old data:
+
+. Delete the `sleep-export.csv` file.
+. Rename `sleep-export.backup.csv` to `sleep-export.csv`.
+
+In Sleep, do _Left menu > Backup > Import data_.
