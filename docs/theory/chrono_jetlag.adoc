@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chronotype && Social jetlag
+title: Chronotype & Social jetlag
 nav_order: 2
 parent: /docs/theory
 ---

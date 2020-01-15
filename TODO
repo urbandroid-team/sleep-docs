@@ -28,6 +28,6 @@ Extenstion pro asciidoc na PATH: menu, blabla, path....vararg
 
 [x] parent, grand_parent: zmenit aby se nelinkoval pomoci title ale pomoci url
 
-[] FAQ stranku udelat jako Accordion
+[-] FAQ stranku udelat jako Accordion
 
 [x] generate_nav nebere v potaz nav_order
