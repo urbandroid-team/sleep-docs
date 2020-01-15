@@ -1,0 +1,35 @@
+---
+layout: default
+title: Sleep mask
+nav_order: 2
+parent: /docs/connected_devices
+tags:
+- sleep mask
+---
+:toc:
+
+## What it does
+*Sleep mask makes your sleep light stimulated. It can help you fall sleep faster, wake up better and help you with snoring or lucid dreaming.*
+
+Dedicated to be used with Sleep as Android and link:https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid]. Original hardware by Urbandroid.
+
+- link:http://sleepmask.urbandroid.org/[Learn more] on a dedicated website.
+- link:https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android.html[Get it] from Happy Electronics.
+
+## Where to find it
+_Sleep as Android -> Settings -> Smartlight -> Use Sleep Mask_
+
+## Guide
+### Features
+
+* Sunrise alarm: from low red to full yellow, no more annoying alarm sounds
+* Light stimulated lullabies for faster fall asleep
+* Lucid dreaming: learn to control and remember your dreams
+* Anti-snoring
+* Comfortable to wear all night
+
+### Parameters
+
+* Works with Sleep as Android and Mindroid
+* Supports any OTG equipped Android phone or Tablet, Android 3.1+
+* Micro USB connector
