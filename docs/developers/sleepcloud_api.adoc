@@ -3,7 +3,150 @@ layout: default
 title: SleepCloud Storage API
 nav_order: 2
 parent: /docs/developers
-
 ---
-
 :toc:
+
+## Who is the API intended for
+SleepCloud API is designed for 3rd party services integration. Using the API, your service can fetch latest Sleep data of a user who granted a permission to the service using OAuth2 authentication.
+
+## API description
+
+### Authentication
+In order to get access to user’s data, your service needs to gets user’s permission first. This is achieved using standard OAuth 2.0 protocol. The OAuth authentication is done against Google servers, please see https://developers.google.com/accounts/docs/OAuth2[Google documentation] for more details and recommendations. The requested authentication scope should be https://www.googleapis.com/auth/userinfo.email.
+
+Before any OAuth authentication for our application can be done, a client ID & password has to be obtained. To get a client ID, you need to have a Google account for your service and a Google project. You can create your project at https://console.developers.google.com/project.
+
+With a valid Google account, you can generate your Client ID at:
+`https://cloud.google.com/console/project/apps~PROJECT_ID/apiui/credential`
+(or use the API & auth → Credentials option within the project page).
+
+To customize the OAuth user consent page, please use: `https://cloud.google.com/console/project/apps~PROJECT_ID/apiui/consent`
+It is recommended to use your service logo and brand the consent page accordingly.
+
+The obtained OAuth token should be passed in each request to SleepCloud in an authorization header. The following attribute is required:
+`Authorization: Bearer YOUR_TOKEN`
+
+NOTE: Currently SleepCloud only supports white-listed Client IDs. In order to make the connection running please provide us with your generated Client ID at info@urbandroid.org and we will white-list you ASAP.
+
+For examples of OAuth client implementation see https://code.google.com/p/google-api-java-client/wiki/OAuth2[Google’s Developer Guide on OAuth 2.0], especially the https://code.google.com/p/google-api-java-client/wiki/OAuth2#Web_Server_Applications[Web Server Applications] section.
+
+### Methods
+
+#### Fetching sleep records
+This is the only supported operation. It returns user’s JSON formatted sleep data
+
+##### URL
+`https://sleep-cloud.appspot.com/fetchRecords?timestamp=STANDARD_TIMESTAMP_IN_MILLIES`
+
+##### Parameters
+
+[horizontal]
+timestamp:: Standard timestamp (in milliseconds) of the oldest record we are interested in. The intention is 3rd party services will remember the last timestamp used (per-user) and will always ask only for new records. Alternatively a timestamp of latest known record can be used. This argument can be left empty to fetch all records.
++
+WARNING: Request for all records can be throttled.
++
+actigraph:: Set `true` to retrieve actigraphs – recording of user activity during the night
+labels:: Set `true` to retrieve hypnogram data and other labelled events, such as sleep phases, alarms, snoring etc.
+tags:: Set `true` to retrieve lifestyle tagging such as: caffeine, alcohol, love, medication, sport…
+comments:: Set `true` to retrieve user custom comments about the record
+sample:: Set `true` to get static testing data for easier integration
+cursor:: Optional starting point of a query, see pagination section below.
+
+#### Return format (JSON)
+
+  {
+    "sleeps": [
+      {
+        "fromTime": Unix timestamp of sleep start time
+        "toTime": Unix timestamp of end of sleep
+        "lengthMinutes": Duration of the sleep in minutes (does not need to match to `fromTime`, due to pausing, delayed tracking, etc..).
+        "rating": A floating point number about user perceived quality rating of the sleep. Range from 0.0 to 5.0, where 5.0 is the best.
+        "deepSleep": A floating point number, representing a percentage of night spent in deep sleep. Range from 0.0 to 1.0.
+        "cycles": An integer representing a number of sleep cycle phases, see here.
+        "timezone": in the GMT sign hours : minutes format (example GMT+03:00)
+        "noiseLevel": Average level of noise during the night. The higher number the more noisy the night was.
+        "snoringSeconds": A total number of seconds when snoring was detected.
+        "tags": [
+          “home”, “alcohol”
+          ]: An array of lifestyle tags assigned to the sleep by the user or automatically
+        "comment": An optional string entered by the user. Returned only if `comments=true` is passed in the request.
+        "actigraph":
+          [
+            ….
+          ]: An array of integers, containing levels of movement. The values themselves are floating point numbers, the higher number the more movement was detected. The timestamps of values are not present, but the values are uniformly spread throughout all night. The values are present only if `actigraph=true` was passed in the request.
+        "labels": [
+          "timestamp": timestamp of an event (in milliseconds)
+          "label": label of a specific event. See <<event-labels>> for events' descriptions
+        ]: Returned only in case `labels=true` argument was passed. The labels are sorting in time ascending order.
+      },
+      {
+        "fromTime": …..
+        ….
+      },
+      …….
+      ],
+    "cursor": optional, returned only if there are more records that could be returned in a single query. See <<pagination>> below.
+  }
+
+
+.Example response
+[source,json,linenums]
+----
+{
+	"sleeps": [{
+		"fromTime": 1578604740379,
+		"toTime": 1578633910452
+		"lengthMinutes": 486,
+		"rating": 0,
+		"cycles": 0,
+		"noiseLevel": 0.017519919201731682,
+		"timezone": "GMT+01:00",
+		"snoringSeconds": 330,
+	}, {
+		"fromTime": 1578424043119,
+		"toTime": 1578461765833
+		"lengthMinutes": 627,
+		"rating": 0,
+		"deepSleep": 0.5920000076293945,
+		"cycles": 15,
+		"noiseLevel": 0.04210864007472992,
+		"timezone": "GMT+01:00",
+	}]
+}
+----
+
+#### Pagination
+If you need to read more records than 500, you may need to page through the result set. You can detect this by seeing a “cursor” node in your JSON response. If you see this, you should send a second query with exactly the same parameters as before, but append a URL parameter “cursor=YOUR_CURSOR_VALUE”. This process may need to be repeated a couple of times till you get all the records you want.
+
+#### Event labels
+Records may be associated with a number of events. The events are described by labels and timestamps of their occurrence. The labels have the following meanings:
+
+[horizontal]
+ALARM_EARLIEST:: The earliest time, when alarm could have possibly ring.
+ALARM_LATEST:: The latest time, when alarm could have possibly ring.
+ALARM_SNOOZE:: User snoozed an alarm.
+ALARM_SNOOZE_AFTER_KILL:: Alarm was automatically snoozed due to alarm timeout
+ALARM_DISMISS:: User successfully dismissed alarm.
+TRACKING_PAUSED:: Start of a wake up time
+TRACKING_RESUMED:: End of the wake up time
+TRACKING_STOPPED_BY_USER:: User stopped tracking
+ALARM_STARTED:: Alarm started ringing
+SNORING:: Snoring detected
+LOW_BATTERY:: Battery is low, tracking won’t work correctly
+DEEP_START:: Deep sleep phase started
+DEEP_END:: Deep sleep phase finished
+LIGHT_START:: Light sleep phase started
+LIGHT_END:: Light sleep phase finished
+REM_START:: REM sleep phase started
+REM_END:: REM sleep phase finished
+BROKEN_START:: No data from sensors in this period (maybe battery is empty)
+BROKEN_END:: No data from sensors finished
+WALKING_START:: Start of a walking period (imported from Google Fit)
+WALKING_END:: End of a walking period (imported from Google Fit)
+AWAKE_START:: Awake period started (from awake detection algorithm)
+AWAKE_END:: Awake period ended (from awake detection algorithm)
+HR(true):: Heart rate value
+LUCID_CUE:: REM sleep detected and playing a lucid dreaming cue
+SPO2(true):: SpO2 value
+APNEA:: Apnea episode detected
+RR(true):: Respiratory rate value
