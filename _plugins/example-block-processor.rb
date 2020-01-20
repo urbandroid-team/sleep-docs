@@ -26,7 +26,7 @@ class ExampleBlock < Asciidoctor::Extensions::BlockProcessor
       <img src="/assets/icons/example.svg" alt="Example">
       </td>
       <td class="content">
-      +++ #{text} +++
+      #{text}
       </td>
       </tr>
       </tbody></table>
