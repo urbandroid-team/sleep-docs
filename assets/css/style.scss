@@ -52,7 +52,14 @@ h6 {
   margin-top: 1.6em;
 }
 
-
+// typography override
+@media (min-width: 31.25rem) {
+  h5, .text-epsilon {
+    font-size: 12px !important;
+  }
+}
+// typography override
+// end
 
 .icon {
   margin-right: 0.3em;
