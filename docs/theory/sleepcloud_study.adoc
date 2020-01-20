@@ -4,5 +4,21 @@ title: SleepCloud study
 nav_order: 2
 parent: /docs/theory
 ---
-
 :toc:
+
+[.text-center]
+image:sleepcloud.png[width=30%]
+
+.“Do early birds and night owls really exist? Will you sleep better if you jump to bed before midnight? How much snoring is too much? How much sleep do we need? Does it really help to have a smart alarm that wakes you up in the light sleep phase?”
+
+link:https://sleep.urbandroid.org/sleepcloud-study/[Go to SleepCloud study]
+
+There is too much unknown about the great human mystery – sleep. For the first time in history, everyone has an opportunity to help the research from the comfort of their own homes.
+
+Millions of users use our Sleep as Android app daily to track their sleep behaviours, to help them understand better how they function. With Sleep as Android, you have free access to SleepCloud – a web app for visualisation and backup of sleep data.
+
+Over 100 000 of SleepCloud users agreed to share their sleep data for analysis and scientific research. Urbandroid Team now presents the largest sleep study in the world. It is very special – the SleepCloud community is fueling it with new data all the time.
+
+*Dive with us into one of the greatest mysteries of human behaviour. Urbandroid Team is proud to present the results of the largest sleep study in the world.*
+
+link:https://sleep.urbandroid.org/sleepcloud-study/[Go to SleepCloud study]
