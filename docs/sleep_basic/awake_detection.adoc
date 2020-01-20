@@ -2,8 +2,7 @@
 layout: default
 title: Awake detection
 nav_order: 2
-// parent: Sleep - basic features
-
+parent: /docs/sleep_basic/sleep_tracking.html
 ---
 
 :toc:

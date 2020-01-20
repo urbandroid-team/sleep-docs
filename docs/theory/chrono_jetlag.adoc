@@ -32,7 +32,7 @@ Social jet lag is a term pioneered by Dr. Till Roenneberg in his book link:https
 
 You can see your actual social jet lag in link:/docs/theory/charts.html[Charts].
 
-#### Workdays and weekend days
+### Workdays and weekend days
 Sleep as Android does not actually use the usual definition of workdays and weekend-days, but compute „work-like days“ and „weekend-like days“ from your historical data.
 
 How do we do that? First, we cluster your data based on mid-sleep hour and sleep duration. Then we look for two sufficiently distinct clusters. If we find them, we consider the smaller one to be free days and the bigger one work days.

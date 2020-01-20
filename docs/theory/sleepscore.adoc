@@ -7,19 +7,49 @@ parent: /docs/theory
 :toc:
 
 ## What it does
-.One sentence summary
-
-// [Optional] Longer text describing the feature
+*Sleep score is a complete summary of your sleep health.*
 
 ## Where to find it
-// Where to find the feature's settings and other related settings used to enable the feature, optionally with description
-// EXAMPLE: *Sleep as Android > Settings > Wearables > Use wearables*
-
-## Options
-// Describe all the feature's options, see other docs pages for formatting
+- on the Dashboard, one of the cards is a Sleep Score card.
+- in _Left ☰ menu -> _
 
 ## Guide
-// Free form description on how to use the feature, various quirks and best practices
 
-## Troubleshooting
-// To be used for automatic rendering of related FAQs
+image::sleepscore_annotated2.png[title="1) Your current sleep score. You get one point for each factor that is in healthy range.",width=50%,align=center]
+
+### Sleepscore factors
+
+There are six factors that contribute to sleep quality. Each of the factors has a healthy range and an unhealthy range:
+
+[cols=2*,options="header"]
+|===
+|Factor
+|Healthy range
+|Unhealthy range
+
+|Duration
+|6.5 hours to 8.5 hours
+|less than 6.5 hours, or more than 8.5 hours
+
+|Irregularity
+|under 0.5 hours
+|over 1 hour
+
+|Deep sleep percentage
+|over 30%
+|under 20%
+
+|Sleep efficiency
+|over 95%
+|under 85%
+
+|Snoring
+|under 3%
+|over 10%
+
+|Subjective rating
+|over 3.5 stars
+|under 2 stars
+|===
+
+If you’re in the healthy range for a certain factor, it lights up green and you get one point. Every line can also turn red if the values are in a very unhealthy range:

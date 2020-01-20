@@ -1,7 +1,7 @@
 ---
 layout: default
-title: General information
-nav_order: 2
+title: Legal information
+nav_order: 45
 has_children: true
 permalink: /docs/general_info
 ---

@@ -2,6 +2,7 @@
 layout: default
 title: Sensors
 nav_order: 2
+parent: /docs/sleep_basic/sleep_tracking.html
 ---
 :toc:
 

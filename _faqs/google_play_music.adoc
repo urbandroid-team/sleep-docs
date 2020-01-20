@@ -1,0 +1,20 @@
+---
+title: Google Play Music
+tags:
+- alarm
+---
+
+WARNING: Online Google Play Music is not supported. We only support playlists of locally available music created by Google Play Music.
+
+Sleep will only see playlists:
+
+- that are created from local music
+
+Sleep will NOT see playlists:
+
+- that are created in Play Music web app (https://play.google.com/music/) and downloaded via Play Music
+- that are created from music that was downloaded via Play Music app (using the download button inside Play Music)
+
+The reason is that we actually do not support Google Play Music at all. We support Android Playlist API which is supported by Play Music and other media player apps – they can register a list of songs as a playlist (locally on the phone), and then we see this playlist.
+However Play Music in fact has another internal way of creating playlists, which is somehow different and not transparent to us, and we are unable to read these playlists.​
+That’s why when selecting the playlist in Sleep as Android, sometimes you hear the playlist and sometimes not.
