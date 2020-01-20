@@ -60,6 +60,7 @@ asciidoctor:
     sectlinks: true
     source-highlighter: rouge
     sectnumlevels: 5
+    numbered: true
 
 
 # Exclude from processing.
