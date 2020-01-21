@@ -1,0 +1,23 @@
+---
+title: Phaser doesn’t connect to Sleep, light buttons work normally
+tags:
+  - phaser_v1
+---
+
+In this case we suspect that bluetooth got into some weird state (bluetooth devices often do). Please do a systematical restart of all included devices:
+
+. End sleep tracking, force close Sleep as Android.
+. Disable/enable bluetooth.
+. Start Sleep as Android.
+. Plug the Phaser out and back in.
+. Start sleep tracking.
+
+If it doesn’t start working, then
+
+. Restart your phone.
+. Plug the Phaser out and back in.
+. Disable/enable bluetooth.
+. Start Sleep as Android.
+. Start sleep tracking.
+
+And ideally send us a debug log (**menu > report a bug**) afterwards.

@@ -61,6 +61,19 @@ h6 {
 // typography override
 // end
 
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+
+.float-right { float: right; }
+.float-left { float: left; }
+.clearfix { clear: both}
+
+.image-right {
+  float: right;
+  margin: 0 1em 1em 1em;
+}
+
 .icon {
   margin-right: 0.3em;
   vertical-align: middle;

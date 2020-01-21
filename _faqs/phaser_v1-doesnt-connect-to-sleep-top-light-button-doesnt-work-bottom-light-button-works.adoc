@@ -1,0 +1,10 @@
+---
+title: Phaser doesn’t connect to Sleep, top light button doesn’t work, bottom light button works
+tags:
+- phaser_v1
+---
+It might happen that the Phaser gets stuck in bootloader mode after plugging to power. In this mode, the main button for turning on the light is unresponsive, but the second (bottom) button starts the base colored light normally. If something like this happens, a firmware reupload is needed.
+
+Please install the link:https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol[Sleep Phaser Remote Control] app, start it up, make sure it connected to your Sleep Phaser, and then start the firmware upload.
+
+On firmware upload, the lamp will be fast blinking red and green for a while until the upload finishes.
