@@ -23,7 +23,7 @@ Alarm sound from the list:: Choose any option from the list.
 Any sound file:: Tap on the folder icon and select your chosen file.
 Own Playlist:: Tap on double check mark and choose files to create a playlist (TODO odkaz na Guide).
 Spotify playlist:: You can add your saved albums or playlists from Spotify’s _Your Library > Albums / Playlists_
-Other playlists (including Google Play Music playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
+Other playlists (including link:/faqs/google_play_music.html[Google Play Music] playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
 File-based playlists:: You can use any file-based playlist (.m3u, .pls) you have on your phone.
 
 == Guide
