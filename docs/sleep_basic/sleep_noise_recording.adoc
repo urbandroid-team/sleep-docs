@@ -9,12 +9,11 @@ tags:
 :toc:
 
 == What it does
-
-.Whenever a  noise volume exceeds the threshold, app starts recording, and continues recording for a few seconds, or longer, if another noise occurs.
+*Whenever a noise volume exceeds the threshold, app starts recording, and continues recording for a few seconds, or longer, if another noise occurs.*
 
 
 Noise recording allows you to record significant noises during your sleep, detects sleep talking, sleep laughing, snoring or even a more serious issue (such as obstructive sleep apnea OSA (TODO link na apnea?).
-See also link:../sleep_advanced/snoring_detection.html[Snoring detection].
+See also link:/docs/sleep_advanced/sound_recognition.html[Snoring detection].
 
 NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
 

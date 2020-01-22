@@ -1,0 +1,8 @@
+---
+title: Sound is detected but not recorded
+
+tags:
+- recording
+- sound_recognition
+---
+Sometimes sounds are is recognized and zou can see them on the noise graph on your sleep record, but they are not recorded. This is because the sound was quieter than _Settings -> Sleep noise recording -> Recording volume threshold_ .

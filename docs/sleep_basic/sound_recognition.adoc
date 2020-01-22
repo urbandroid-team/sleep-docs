@@ -1,0 +1,76 @@
+---
+layout: default
+title: Sound recognition
+nav_order: 2
+parent: /docs/sleep_basic/sleep_noise_recording.html
+tags:
+- sound_recognition
+---
+:toc:
+
+## What it does
+*Listens to sounds you make during sleep tracking and categorizes them.*
+
+When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.
+
+icon:tag_snore_new[] Snoring
+
+Common snoring isn’t dangerous for your health, but may decrease the efficiency of your and your partner’s sleep. According to various sleep studies, 30% of the population are occasional snorers. But snoring may indicate more several respiratory issues such as the OSA – obstructive sleep apnea. Recent evidence show this dangerous disorder is greatly under-diagnosed and prevalence may reach up to 10% in population.
+
+icon:ic_action_talk[] Talk
+
+When you talk from your sleep, we tag the recording with #talk, and you can listen to the wisdom of your dreams in the morning.
+
+icon:ic_action_sick[] Sickness
+
+We detect coughing, sneezing and the like, and mark them as #sick. This may give you an early alert of an incoming sickness.
+
+icon:ic_action_baby[] Baby crying
+
+See how much was your sleep disturbed by your crying #baby.
+
+icon:ic_action_laugh[] Laughter
+
+A funny bonus feature. Indeed some people #laugh heavily from their sleep.
+
+## Where to find it
+_Sleep as Android -> Settings -> Sleep noise recording -> Sound recognition_
+
+## Options
+[horizontal]
+Enabled:: ...
+Sound categories:: You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to _Disabled_.
++
+Some users complained that snoring detection was too sensitive and sometimes marked non-snoring noises as snoring. For others, it was not sensitive enough and it used to miss part of their snoring. Indeed, every microphone is different, every environment has different acoustics, it is nearly impossible to balance all these specifics automatically.
++
+Using this option, everyone can tune the classifier so that it fits his needs and his specifics.
+
+## Under the hood
+We are using convolution neural networks, a state-of-the-art machine perception technique.
+
+The algorithm learns from real-world sound samples. We gave it thousands of diverse recordings, and told it “this one is snore”, “this one is cough”, “that one is just meaningless noise”, etc. The algorithm gradually learns specifics of the individual categories and then can recognize new, unheard sounds.
+
+The more samples it receives during the training phase, the better it works. It is truly hard to imagine how many different kinds of snores or coughs or various background noises and disturbances there are out there.
+
+We first deployed neural networks for snore/talk detection in 2017, and we have gone a long way since then. Driven by real-world performance feedback, we redesigned the internals of the network in 2019, we enhanced the way how we extract data from the microphone input, and we substantially extended the training data set. We believe it will bring a better classification accuracy in most cases.
+
+## Please, help us improve sound recognition
+We collected a database of several thousand recordings by our means, and we would like to collect way more of them, from more diverse sources.  This is where we are kindly asking you, our user, for help.
+
+You can send us your samples straight from the app. We will collect all these recordings, verify them manually, and use them to improve the algorithm.
+
+And if you really feel like having some fun with our app, you do not need to record only your sleep sounds. Just start sleep tracking anywhere, record any sounds in your surroundings, and if our app classifies them wrong, please, send them to us. The more varied collection of samples we receive, the better.
+
+Thank you in advance for any contributions.
+
+[NOTE]
+====
+When you listen to a recording, and it is classified incorrectly, you can manually add the missing tag or remove the wrong tag by tapping the respective button at the player screen.
+ +
+When you are leaving the player (and if the recording is longer than 30 s), we detect the changed tags and pop up a dialog, where we ask you to share the audio with us.
+ +
+If you agree, the app will send it to us by e-mail.
+
+[.text-center]
+image::new_sound_recognition_share.png[width=50%]
+====
