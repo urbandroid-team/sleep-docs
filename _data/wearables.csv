@@ -1,70 +1,70 @@
 Vendor,Device,Support /<br>sensors,Sensors supported,Battery use/night,Notes
-Xiaomi,Mi Band 1<br>- except Mi Band 1S,YES (🛌️),🛌️,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
+Xiaomi,Mi Band 1<br>- except Mi Band 1S,YES (↝),↝,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
 - <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.
 - <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.
 How to guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Xiaomi,Mi Band 2,YES (🛌️❤),🛌️❤,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
+Xiaomi,Mi Band 2,YES (↝❤),↝❤,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
 - <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.
 - <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.
 How to guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Xiaomi,Mi Band 3,YES (🛌️❤),🛌️❤,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
+Xiaomi,Mi Band 3,YES (↝❤),↝❤,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
 - <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.
 - <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.
 How to guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Xiaomi,Mi Band 4,YES (🛌️❤),🛌️❤,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
+Xiaomi,Mi Band 4,YES (↝❤),↝❤,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
 - <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.
 - <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.
 How to guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Pebble,1<br>- all variants,YES (🛌️),🛌️,<<10%,
-Pebble,2<br>- all variants,YES (🛌️❤),🛌️❤,<<10%,
-Sony,SW3 (SWR50),YES (🛌️),🛌️,~15%,"182 events sensor batch queue which allows very low battery consumption (although default sensor frequency is higher than on Gear Live for example)<br>Many thanks to Sony Mobile for their great help to overcome the sensor batching which got battery consumption from ~70% to ~15% per night.
+Pebble,1<br>- all variants,YES (↝),↝,<<10%,
+Pebble,2<br>- all variants,YES (↝❤),↝❤,<<10%,
+Sony,SW3 (SWR50),YES (↝),↝,~15%,"182 events sensor batch queue which allows very low battery consumption (although default sensor frequency is higher than on Gear Live for example)<br>Many thanks to Sony Mobile for their great help to overcome the sensor batching which got battery consumption from ~70% to ~15% per night.
 Known issue: Sometimes gets into a broken state and starts using up to 100% battery. Reboot watch to resolve the issue.
 Known issue: Sometimes the Wear app doesn't install the app on your watch automatically. Sleep as Android then stays stuck on ""Waiting for connectivity"" and never connects. To resolve, go to <strong>Android Wear app > Settings > Your watch > Resync apps</strong>."
-Samsung,Gear Live ,YES (🛌️❤),🛌️❤,~15%,"150 events sensor batch queue which allows very low battery consumption.
+Samsung,Gear Live ,YES (↝❤),↝❤,~15%,"150 events sensor batch queue which allows very low battery consumption.
 There are issues with refurbished Gear Live devices with a dev version of the OS which do not connect to with Sleep as Android. Re-flashing of the firmware <a href=""https://www.reddit.com/r/AndroidWear/comments/2rgx1p/no_update_on_gear_live/"">as described here</a> should resolve the issue.
 "
-Samsung,Gear Sport ,YES (🛌️❤),🛌️❤,~20%,"You need:<br>an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>a watch app called “Sleep as Android – Native Gear Companion”."
-Fitbit,"Ionic, Versa, Versa Lite, Versa 2",In beta,🛌️❤, ,See https://forum.urbandroid.org/t/fitbit-ionic-versa-beta-integration/3035/231
+Samsung,Gear Sport ,YES (↝❤),↝❤,~20%,"You need:<br>an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>a watch app called “Sleep as Android – Native Gear Companion”."
+Fitbit,"Ionic, Versa, Versa Lite, Versa 2",In beta,↝❤, ,See https://forum.urbandroid.org/t/fitbit-ionic-versa-beta-integration/3035/231
 ,,,, ,
-LG,G Watch,YES (🛌️),🛌️,~20%,"Should be working well. The watch reports a batch size of size zero, but sensor batching is supported in fact. "
-LG,G Watch R ,YES (🛌️❤),🛌️❤,~15%,Biggest sensor batch queue so far 10000 events. May allow us to do some further optimizations in the future.
-LG,G Watch Urbane ,YES (🛌️❤),🛌️❤,~15%,Sensor batch queue 10000 events.
-LG,G Watch Sport ,YES (🛌️❤),🛌️❤,~20%, 
-Motorola,Moto 360 ,YES (🛌️❤),🛌️❤,~40%,"CAUTION: Does not support sensor batching and features an 2010 CPU with high battery consumption
+LG,G Watch,YES (↝),↝,~20%,"Should be working well. The watch reports a batch size of size zero, but sensor batching is supported in fact. "
+LG,G Watch R ,YES (↝❤),↝❤,~15%,Biggest sensor batch queue so far 10000 events. May allow us to do some further optimizations in the future.
+LG,G Watch Urbane ,YES (↝❤),↝❤,~15%,Sensor batch queue 10000 events.
+LG,G Watch Sport ,YES (↝❤),↝❤,~20%, 
+Motorola,Moto 360 ,YES (↝❤),↝❤,~40%,"CAUTION: Does not support sensor batching and features an 2010 CPU with high battery consumption
 RECOMMENDATION: Use theater mode to lower battery consumption!
 EDIT2: Seems to get to reasonable battery consumption per night around 40% after the firmware update and fix for the sensor issue below. Still we get reports that on unknown occasions battery can peak at 70-80% for some days. Usually a reboot fixes this issue.
 EDIT: After the firmware update moto360 stops the accelerometer each few minutes, we have a workaround for this issue."
-Motorola,Moto 360 V2 ,YES (🛌️❤),🛌️❤,~5%,It seems that the Android Wear 2 version supports sensor batching.
-Asus,ZenWatch,YES (🛌️❤),🛌️❤,~40%,"CAUTION: Does not support sensor batching
+Motorola,Moto 360 V2 ,YES (↝❤),↝❤,~5%,It seems that the Android Wear 2 version supports sensor batching.
+Asus,ZenWatch,YES (↝❤),↝❤,~40%,"CAUTION: Does not support sensor batching
 RECOMMENDATION: Use theater mode to lower battery consumption!"
-Asus,ZenWatch 2,YES (🛌️),🛌️,6%<br>~50% on Android M,"Has sensor batching! Very good battery consumption reported, although not yet clear why it is so much better than other Wear devices.
+Asus,ZenWatch 2,YES (↝),↝,6%<br>~50% on Android M,"Has sensor batching! Very good battery consumption reported, although not yet clear why it is so much better than other Wear devices.
 Unfortunately Android M update for the watch broke sensor batching."
-Asus,ZenWatch 3,YES (🛌️),🛌️,?, 
-Samsung,Gear 1,YES (🛌️),🛌️,,"CAUTION: The accelerometer sensor only works with screen on, this together with no sensor batching support causes high battery consumption.
+Asus,ZenWatch 3,YES (↝),↝,?, 
+Samsung,Gear 1,YES (↝),↝,,"CAUTION: The accelerometer sensor only works with screen on, this together with no sensor batching support causes high battery consumption.
 You need:<br>- the latest watch app from the Samsung Galaxy AppStore or the Gear manager on some devices. The exact name of the add-on is <strong>Sleep As Android - Gear Add-On</strong>. Some users reported that they couldn't find it and they needed to narrow their search to ""Health & Fitness"".<br>- the latest <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a>.
 Your device must be running Tizen OS."
-Samsung,Gear 2,YES (🛌️),🛌️,~60%,"CAUTION: The accelerometer sensor only works with screen on, this together with no sensor batching support causes high battery consumption.
+Samsung,Gear 2,YES (↝),↝,~60%,"CAUTION: The accelerometer sensor only works with screen on, this together with no sensor batching support causes high battery consumption.
 You need:<br>- the latest watch app from the Samsung Galaxy AppStore or the Gear manager on some devices. The exact name of the add-on is <strong>Sleep As Android - Gear Add-On</strong>. Some users reported that they couldn't find it and they needed to narrow their search to ""Health & Fitness"".<br>- the latest <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a>."
-Samsung,Gear 2 Neo,YES (🛌️),🛌️,~60%,"CAUTION: The accelerometer sensor only works with screen on, this together with no sensor batching support causes high battery consumption.
+Samsung,Gear 2 Neo,YES (↝),↝,~60%,"CAUTION: The accelerometer sensor only works with screen on, this together with no sensor batching support causes high battery consumption.
 You need:<br>- the latest watch app from the Samsung Galaxy AppStore or the Gear manager on some devices. The exact name of the add-on is <strong>Sleep As Android - Gear Add-On</strong>. Some users reported that they couldn't find it and they needed to narrow their search to ""Health & Fitness"".<br>- the latest <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a>."
-Samsung,Gear S,YES (🛌️),🛌️,,"CAUTION: Gear S allows to track with screen off but we don't have reliable battery consumption results yet.
+Samsung,Gear S,YES (↝),↝,,"CAUTION: Gear S allows to track with screen off but we don't have reliable battery consumption results yet.
 You need:<br>- the latest watch app from the Samsung Galaxy AppStore or the Gear manager on some devices. The exact name of the add-on is <strong>Sleep As Android - Gear Add-On</strong>. Some users reported that they couldn't find it and they needed to narrow their search to ""Health & Fitness"".<br>- the latest <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a>."
-Samsung,Gear S2,YES (🛌️❤),🛌️❤,varies,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
-Samsung,Gear S3,YES (🛌️❤),🛌️❤,varies,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
-Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2",YES (🛌️❤),🛌️❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
-Samsung,Gear Fit 2<br>Gear Fit 2 Pro,YES (🛌️❤),🛌️❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
+Samsung,Gear S2,YES (↝❤),↝❤,varies,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
+Samsung,Gear S3,YES (↝❤),↝❤,varies,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
+Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
+Samsung,Gear Fit 2<br>Gear Fit 2 Pro,YES (↝❤),↝❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
 Read more at <a href=""http://bit.ly/sleepgearfit2"">Sleep loves Gear Fit 2</a>"
-Garmin,"ConnectIQ devices<br> (<a href=""http://bit.ly/saasupportedgarmindevices"">supported watches</a>)",YES (🛌️❤),🛌️❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
+Garmin,"ConnectIQ devices<br> (<a href=""http://bit.ly/saasupportedgarmindevices"">supported watches</a>)",YES (↝❤),↝❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
 
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
-iMacwear,iMacwear M7,YES (🛌️),🛌️,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
-Huawei,Watch,YES (🛌️❤),🛌️❤,~20%<br>untested,"Sensor batch queue 150 events.
+iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
+Huawei,Watch,YES (↝❤),↝❤,~20%<br>untested,"Sensor batch queue 150 events.
 Known issue: Heart rate sensor probably has wrong implementation in the Huawei watch API, so it fails to send data several times throughout the night."
-Huawei,Watch 2,YES (🛌️❤),🛌️❤,40%, 
-Fossil,Q Founder,YES (🛌️),🛌️,untested,"Sleep tracking consumes a lot of battery. To prevent that, do sleep tracking in theater mode."
-Fossil,Q Venture Gen 4,YES (🛌️),🛌️,40~45%<br>~30% in theatre mode,"Sleep tracking consumes a lot of battery. To prevent that, do sleep tracking in theater mode."
-Fossil,Sport 43 mm,YES (🛌️❤),🛌️❤,30~40%<br>~25~35% with theatre mode,
+Huawei,Watch 2,YES (↝❤),↝❤,40%, 
+Fossil,Q Founder,YES (↝),↝,untested,"Sleep tracking consumes a lot of battery. To prevent that, do sleep tracking in theater mode."
+Fossil,Q Venture Gen 4,YES (↝),↝,40~45%<br>~30% in theatre mode,"Sleep tracking consumes a lot of battery. To prevent that, do sleep tracking in theater mode."
+Fossil,Sport 43 mm,YES (↝❤),↝❤,30~40%<br>~25~35% with theatre mode,
 Polar,H7,YES (❤),❤, ,Only HR measurement
 Mio,Link,YES (❤),❤, ,Only HR measurement
 Sony,SW2,NO,,100%,"We tried to integrate with Sony SW2, but due to the architecture of the system sleep tracking was consuming over 10% of battery per hour which makes SW2 not suitable for sleep tracking."
@@ -84,6 +84,6 @@ Beurer,All,NO,, ,No support for 3rd party integration
 Wahoo,Tickr X,NO,, ,Turns off when it senses low activity
 Under<br>Armour,All,NO,, ,No realtime access to accelerometric data
 Vector,All,NO,, ,No access to raw accelerometric data
-Mobvoi,Ticwatch E & S,YES (🛌️❤),🛌️❤,17% with ❤,You need to have Google Play services installed on the watch.
-Huami,"Amazfit (Amazfit Bip, Amazfit Arc, Amazfit Cor)",YES (🛌️❤),🛌️❤,,"You need a 3rd party app that can route data from Amazfit to Sleep as Android:
+Mobvoi,Ticwatch E & S,YES (↝❤),↝❤,17% with ❤,You need to have Google Play services installed on the watch.
+Huami,"Amazfit (Amazfit Bip, Amazfit Arc, Amazfit Cor)",YES (↝❤),↝❤,,"You need a 3rd party app that can route data from Amazfit to Sleep as Android:
 - <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"">Tools & Amazfit app</a>. Also see <a href=""http://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"">T&A help</a>."
