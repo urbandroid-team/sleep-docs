@@ -32,3 +32,10 @@ ol, ul {
     min-width: 2em;
   }
 }
+
+ul.none > li::before {
+  content: "";
+}
+.icontable td:first-child {
+  min-width: 45px;
+}

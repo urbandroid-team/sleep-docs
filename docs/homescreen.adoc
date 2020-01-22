@@ -5,6 +5,8 @@ nav_order: 1
 ---
 :toc:
 
+
+
 == What it does
 You can personalize your main screen of Sleep with three different home screen types.
 
@@ -52,12 +54,26 @@ Charts card:: Shows you graphs from the link:../docs/theory/statistics_charts.ht
 Advice card:: Shows the current advice.
 * Tapping on this card opens link:/docs/theory/Advice.html[Advice section].
 Shortcuts card:: A mini-board with shortcuts.
-[none]
-* icon:ic_action_track[] Start sleep tracking: Starts sleep tracking manually.
-* icon:ic_action_bedtime[] Ideal sleep: Starts sleep tracking with and alarm based on your ideal daily sleep income (+ smart period and tracking start delay).
-* icon:ic_action_snooze[] Nap: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
-* icon:plus[] Add sleep: For adding a period of sleep manually, when you forgot tracking.
-* icon:ic_alarm_plus[] Add alarm: You can create new alarm.
++
+[.icontable,cols="1,11"]
+|===
+|icon:ic_action_track[]
+|Start sleep tracking: Starts sleep tracking manually.
+
+|icon:ic_action_bedtime[]
+|Ideal sleep: Starts sleep tracking with and alarm based on your ideal daily sleep income (+ smart period and tracking start delay).
+
+|icon:ic_action_snooze[]
+|Nap: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
+
+|icon:plus[]
+|Add sleep: For adding a period of sleep manually, when you forgot tracking.
+
+|icon:ic_alarm_plus[]
+|Add alarm: You can create new alarm.
+
+|===
++
 NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep, and Sleep tracking) for your main screen, for details, see  link:/docs/sleep_advanced[the instruction] how to do it.
 Add-on card::
 A short presentation of our add-ons, compatible devices or our other apps.
