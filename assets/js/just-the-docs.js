@@ -122,14 +122,8 @@ function initSearch() {
           searchResultsTabs.classList.add('tabs')
           searchResults.appendChild(searchResultsTabs)
 
-          const docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true);
-          const faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs);
-
           var docsResultsList = document.createElement('ul');
-          docsContent.appendChild(docsResultsList);
-
           var faqResultsList = document.createElement('ul');
-          faqContent.appendChild(faqResultsList);
 
           for (const i in results) {
             let result = store[results[i].ref]
@@ -167,6 +161,12 @@ function initSearch() {
             }
 
           }
+
+          const docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, docsResultsList.childElementCount, true);
+          const faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs, faqResultsList.childElementCount);
+          docsContent.appendChild(docsResultsList);
+          faqContent.appendChild(faqResultsList);
+
         }
 
         // When esc key is pressed, hide the results and clear the field
@@ -196,6 +196,8 @@ function addKeyboardNavigationToSearch(searchInputElement, resultsListsArray) {
 
   function searchInputKeyboardNavListener(event) {
     if (event.key === 'ArrowDown' && resultsListsArray[activeResultsList]) {
+      event.preventDefault()
+
       resultsListsArray[activeResultsList].firstChild.firstElementChild.focus()
     }
   }
@@ -203,6 +205,7 @@ function addKeyboardNavigationToSearch(searchInputElement, resultsListsArray) {
     switch (event.key) {
       case 'ArrowUp':
         if (event.target.parentElement.previousElementSibling) {
+          event.preventDefault()
           event.target.parentElement.previousElementSibling.firstElementChild.focus()
         } else {
           searchInputElement.focus()
@@ -210,11 +213,13 @@ function addKeyboardNavigationToSearch(searchInputElement, resultsListsArray) {
         return
       case 'ArrowDown':
         if (event.target.parentElement.nextElementSibling) {
+          event.preventDefault()
           event.target.parentElement.nextElementSibling.firstElementChild.focus()
         }
         return
       case 'ArrowRight':
         if (activeResultsList < resultsListsArray.length - 1) {
+          event.preventDefault()
           // Quick hack to switch to FAQs
           const faqTab = document.getElementById('FAQ')
           faqTab.checked = true
@@ -224,6 +229,7 @@ function addKeyboardNavigationToSearch(searchInputElement, resultsListsArray) {
         return
       case 'ArrowLeft':
         if (activeResultsList > 0) {
+          event.preventDefault()
           // Quick hack to switch to DOCS
           const docsTab = document.getElementById('Documentation')
           docsTab.checked = true
@@ -260,7 +266,7 @@ function pageFocus() {
   mainContent.focus();
 }
 
-function generateTabAndReturnContentNode(name, elementToAppendTo, active) {
+function generateTabAndReturnContentNode(name, elementToAppendTo, resultCount, active) {
   var tabControl = document.createElement('input')
   tabControl.setAttribute('type', 'radio')
   tabControl.setAttribute('name', 'tabs')
@@ -273,11 +279,18 @@ function generateTabAndReturnContentNode(name, elementToAppendTo, active) {
   tabLabel.textContent = name
   elementToAppendTo.appendChild(tabLabel)
 
+
   var tab = document.createElement('div')
   tab.classList.add('tab')
   elementToAppendTo.appendChild(tab)
 
-  // var contentTitle = document.createElement('h1')
+  let resultCountBadge = document.createElement('span')
+  resultCountBadge.classList.add('result-count-badge')
+  resultCountBadge.textContent = resultCount
+  // resultCountBadge.style
+  tabLabel.appendChild(resultCountBadge)
+
+      // var contentTitle = document.createElement('h1')
   // contentTitle.textContent = name
   // tab.appendChild(contentTitle)
 
