@@ -10,10 +10,10 @@ parent: /docs/connected_services
 ## What it does
 Allows you to synchronize data between Sleep as Android and Google Fit.
 
-. Sleep data
-.
-
-// [Optional] Longer text describing the feature
+. Upload your sleep data into Google Fit
+. Download 3rd party sleep data from Google Fit into Sleep as Android
+. Automatic synchronization of the *#sport* tag based on your fitness activity recorded in Google Fit
+. Heart rate import and export
 
 ## Where to find it
 *Sleep as Android > Settings > Services > Google Fit*
@@ -30,6 +30,6 @@ There are two sync methods:
 
 NOTE: Heart rate data are saved only for the past 7 days in both normal and full sync (they are computationally intensive).
 
-## Troubleshooting
+//## Troubleshooting
 // TODO: include NOTE: Data sync between two devices using Google Fit is unsupported.
 // TODO: include how to force sync
