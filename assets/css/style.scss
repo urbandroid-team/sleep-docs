@@ -80,6 +80,17 @@ p {
 .imageblock img {
   margin: 1em;
 }
+.imgflexblock > .content {
+  display: flex;
+  flex-wrap: wrap;
+  img {
+    margin: 0;
+    padding: 0.5em;
+  }
+  .imageblock {
+    flex-basis: 33%;
+  }
+}
 
 .icon {
   margin-right: 0.3em;
@@ -101,6 +112,15 @@ td p:last-child {
 // LISTS
 li p:last-child {
   margin-bottom: 0;
+}
+
+// NAVIGATION CATEGORIES
+$elementsInCategory: 2, 5, 10;
+
+@each $cat in $elementsInCategory {
+  nav > .navigation-list > .navigation-list:nth-child(#{$cat}) {
+    margin-bottom: 2em;
+  }
 }
 
 // SEARCH
