@@ -1,0 +1,43 @@
+---
+layout: default
+title: Samsung Health
+nav_order: 2
+parent: /docs/connected_services
+---
+:toc:
+
+## What it does
+*Allows you to synchronize data between Sleep as Android and Google Fit.*
+
+- Automatic export of your sleep duration and times and heart rate into Samsung Health.
+- Automatic import of 3rd party sleep lengths and heart rate into Sleep.
+- Automatic synchronization of the _#sport_ tag based on your fitness activity recorded in Samsung Health.
+- Automatic import of walking sessions during the night (considered as awake, not considering sleep walking).
+
+## Where to find it
+_Sleep as Android -> Settings -> Services -> Samsung Health_
+
+## Guide
+
+### How to connect to Samsung Health
+
+[.imgflexblock]
+****
+image::shealth/1.png[role="left",title="Install Samsung Health, start it up."]
+image::shealth/2.png[role="left",title="In Sleep as Android, enable Settings -> Services -> Samsung Health."]
+image::shealth/3.png[role="left",title="Grant all permissions to Sleep as Android"]
+image::shealth/4.png[role="left",title="Tap the button to sync your data to S Health"]
+image::shealth/5.png[role="left",title="Uploading..."]
+image::shealth/6.png[role="left",title="You can go back to Settings. Samsung Health is now enabled."]
+image::shealth/7.png[role="left",title="You can see your sleep data in Samsung Health."]
+image::shealth/8.png[role="left",title="Detail of one tracked night."]
+****
+
+### Synchronization
+
+There are two sync methods:
+
+- normal sync: saves data for the past 2 weeks. Sync happens everytime sleep tracking ends, or when you create a sleep record manually. Also everytime you start the app, if a sync did not happen in the past 24 hours.
+- full sync: saves data for the past 5 years. Can be triggered from _Settings > Services > Samsung Health (you have to toggle off and on) > Upload (button in the lower right corner)_
+
+NOTE: Heart rate data are exported/imported only for the past 7 days in both normal and full sync (because they are computationally intensive).
