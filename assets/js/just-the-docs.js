@@ -90,14 +90,22 @@ function initSearch() {
     var searchInput = document.querySelector('.js-search-input');
     var searchResults = document.querySelector('.js-search-results');
     var store = dataStore;
+    let keyboardNavigationListener
 
     function hideResults() {
       searchResults.innerHTML = '';
       searchResults.classList.remove('active');
     }
 
-    addEvent(searchInput, 'keyup', function (e) {
-      var query = this.value;
+    addEvent(searchInput, "keyup", function (e) {
+
+      if (e.key === 'ArrowDown') {
+        return
+      } else {
+        clearKeyboardNavigationListener(searchInput, keyboardNavigationListener)
+      }
+
+      const query = this.value;
 
       searchResults.innerHTML = '';
       searchResults.classList.remove('active');
@@ -105,17 +113,17 @@ function initSearch() {
       if (query === '') {
         hideResults();
       } else {
-        var results = index.search(query);
+        const results = index.search(query);
 
         if (results.length > 0) {
           searchResults.classList.add('active');
 
-          var searchResultsTabs = document.createElement('div')
+          const searchResultsTabs = document.createElement('div');
           searchResultsTabs.classList.add('tabs')
           searchResults.appendChild(searchResultsTabs)
 
-          var docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true)
-          var faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs)
+          const docsContent = generateTabAndReturnContentNode('Documentation', searchResultsTabs, true);
+          const faqContent = generateTabAndReturnContentNode('FAQ', searchResultsTabs);
 
           var docsResultsList = document.createElement('ul');
           docsContent.appendChild(docsResultsList);
@@ -123,7 +131,7 @@ function initSearch() {
           var faqResultsList = document.createElement('ul');
           faqContent.appendChild(faqResultsList);
 
-          for (var i in results) {
+          for (const i in results) {
             let result = store[results[i].ref]
             var resultsListItem = document.createElement('li');
             var resultsLink = document.createElement('a');
@@ -145,17 +153,18 @@ function initSearch() {
             resultsLink.classList.add('search-results-link');
             resultsUrlDesc.classList.add('fs-2', 'text-grey-dk-000', 'd-block');
 
-            if (resultsType == 'faqs') {
+            resultsLink.appendChild(resultsUrlDesc);
+            resultsListItem.appendChild(resultsLink);
+
+            if (resultsType === 'faqs') {
               faqResultsList.appendChild(resultsListItem);
-              let tags = document.createElement('li')
+              let tags = document.createElement('span')
               tags.classList.add('search-tags')
               tags.textContent = resultsTags
-              faqResultsList.appendChild(tags)
+              resultsListItem.appendChild(tags)
             } else {
               docsResultsList.appendChild(resultsListItem)
             }
-            resultsListItem.appendChild(resultsLink);
-            resultsLink.appendChild(resultsUrlDesc);
 
           }
         }
@@ -165,6 +174,8 @@ function initSearch() {
           hideResults();
           searchInput.value = '';
         }
+
+        keyboardNavigationListener = addKeyboardNavigationToSearch(searchInput, [docsResultsList, faqResultsList])
       }
     });
 
@@ -180,8 +191,72 @@ function initSearch() {
   }
 }
 
+function addKeyboardNavigationToSearch(searchInputElement, resultsListsArray) {
+  let activeResultsList = 0
+
+  function searchInputKeyboardNavListener(event) {
+    if (event.key === 'ArrowDown' && resultsListsArray[activeResultsList]) {
+      resultsListsArray[activeResultsList].firstChild.firstElementChild.focus()
+    }
+  }
+  function searchResultsKeyboardNavListener(event) {
+    switch (event.key) {
+      case 'ArrowUp':
+        if (event.target.parentElement.previousElementSibling) {
+          event.target.parentElement.previousElementSibling.firstElementChild.focus()
+        } else {
+          searchInputElement.focus()
+        }
+        return
+      case 'ArrowDown':
+        if (event.target.parentElement.nextElementSibling) {
+          event.target.parentElement.nextElementSibling.firstElementChild.focus()
+        }
+        return
+      case 'ArrowRight':
+        if (activeResultsList < resultsListsArray.length - 1) {
+          // Quick hack to switch to FAQs
+          const faqTab = document.getElementById('FAQ')
+          faqTab.checked = true
+          activeResultsList++
+          resultsListsArray[activeResultsList].firstChild.firstElementChild.focus()
+        }
+        return
+      case 'ArrowLeft':
+        if (activeResultsList > 0) {
+          // Quick hack to switch to DOCS
+          const docsTab = document.getElementById('Documentation')
+          docsTab.checked = true
+          activeResultsList--
+          resultsListsArray[activeResultsList].firstChild.firstElementChild.focus()
+        }
+        return
+      default:
+        return
+    }
+  }
+
+  searchInputElement.addEventListener("keydown", searchInputKeyboardNavListener, false);
+
+  resultsListsArray.forEach(resultList => {
+    if (resultList && resultList.childNodes) {
+      for (let i = 0; i < resultList.childNodes.length; i++) {
+        const item = resultList.childNodes[i]
+        item.addEventListener("keydown", searchResultsKeyboardNavListener, false)
+      }
+    }
+  })
+
+
+  return searchInputKeyboardNavListener
+}
+
+function clearKeyboardNavigationListener(searchInputElement, listener) {
+  searchInputElement.removeEventListener("keydown", listener)
+}
+
 function pageFocus() {
-  var mainContent = document.querySelector('.js-main-content');
+  const mainContent = document.querySelector('.js-main-content');
   mainContent.focus();
 }
 

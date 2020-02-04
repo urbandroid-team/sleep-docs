@@ -126,6 +126,14 @@ li p:last-child {
   margin-top: -0.5em;
   opacity: 50%;
 }
+.search-results-link:hover,
+.search-results-link:active,
+.search-results-link:focus
+{
+  color: #f5f6fa;
+  background-color: #222126;
+}
+
 
 // SEARCH TABS
 /**
