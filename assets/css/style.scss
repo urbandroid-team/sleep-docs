@@ -115,9 +115,23 @@ li p:last-child {
 }
 
 // NAVIGATION CATEGORIES
-$elementsInCategory: 2, 5, 10;
 
-@each $cat in $elementsInCategory {
+@function computeCategories($list, $new-value) {
+  $result: ();
+
+  $result: append($result, nth($list, 1));
+
+  @for $i from 2 through length($list) {
+    $result: append($result, nth($list, $i) + nth($list, ($i) - 1));
+  }
+
+  @return $result;
+}
+
+// How many list items are in each category
+$gaps: 2,4,10;
+
+@each $cat in computeCategories($gaps, 8) {
   nav > .navigation-list > .navigation-list:nth-child(#{$cat}) {
     margin-bottom: 2em;
   }
