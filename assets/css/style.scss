@@ -64,6 +64,10 @@ p {
 // typography override
 // end
 
+em {
+  filter: brightness(0.8);
+}
+
 .text-right { text-align: right; }
 .text-left { text-align: left; }
 .text-center { text-align: center; }
@@ -114,6 +118,22 @@ li p:last-child {
   margin-bottom: 0;
 }
 
+// MOBILE NAV BUTTON
+.navigation-list-toggle {
+  padding: 0;
+  margin-left: 0.3em;
+  margin-top: 0.05em;
+  line-height: normal;
+  left: 1rem;
+  font-size: 1.6em;
+  color: white;
+}
+.site-title {
+  padding-right: 2rem;
+  text-align: right;
+  padding-top: 0.1em;
+}
+
 // NAVIGATION CATEGORIES
 
 @function computeCategories($list) {
@@ -129,7 +149,7 @@ li p:last-child {
 }
 
 // How many list items are in each category
-$gaps: 2,3,2,7;
+$gaps: 3,3,2,7;
 
 @each $cat in computeCategories($gaps) {
   nav > .navigation-list > .navigation-list:nth-child(#{$cat}) {
@@ -140,6 +160,7 @@ $gaps: 2,3,2,7;
 // SEARCH
 .search {
   background-color: initial;
+  display: block;
 }
 .js-search-input.search-input {
   padding: 0.4em;
@@ -223,7 +244,7 @@ $gaps: 2,3,2,7;
   margin-left: 0.3em;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 25em) {
   .tabs .tab,
   .tabs label {
     order: initial;

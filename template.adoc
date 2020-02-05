@@ -6,16 +6,16 @@ parent: /docs/sleep_advanced
 ---
 :toc:
 
-## What it does
+== What it does
 *One sentence summary*
 
 // [Optional] Longer text describing the feature
 
-## Where to find it
+== Where to find it
 // Where to find the feature's settings and other related settings used to enable the feature, optionally with description
 // EXAMPLE: _Sleep as Android -> Settings -> Wearables -> Use wearables_
 
-## Options
+== Options
 // Describe all the feature's options, see other docs pages for formatting
 
 // EXAMPLE:
@@ -35,5 +35,5 @@ Start sleep tracking:: Set to something other than _Manual only_ to enable autom
 
 // EXAMPLE END
 
-## Guide
+== Guide
 // Free form description on how to use the feature, various quirks and best practices

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+<!--suppress HtmlUnknownTarget -->
 <html lang="{{ site.lang | default: "en-US" }}">
 {% include head.html %}
 
@@ -8,8 +9,8 @@
   <div class="page-wrap">
     <div class="side-bar">
       <a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-6 lh-tight">{{ site.title }}</a>
-      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button"
-          data-text-toggle="Hide">Menu</button></span>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn" type="button"
+          data-text-toggle="☰">☰</button></span>
       <div class="navigation main-nav js-main-nav">
         {% include nav.html %}
       </div>
@@ -22,7 +23,7 @@
           {% if site.search_enabled != nil %}
           <div class="search js-search">
             <div class="search-input-wrap">
-              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search {{ site.title }}"
+              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search documentation"
                 aria-label="Search {{ site.title }}" autocomplete="off">
               <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon">
                 <title>Search</title>

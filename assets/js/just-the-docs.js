@@ -20,7 +20,9 @@ function toggleNav() {
     var textToggle = navTrigger.getAttribute('data-text-toggle');
 
     nav.classList.toggle('nav-open');
-    auxNav.classList.toggle('nav-open');
+    if (auxNav) {
+      auxNav.classList.toggle('nav-open');
+    }
     navTrigger.classList.toggle('nav-open');
     search.classList.toggle('nav-open');
     navTrigger.innerText = textToggle;
