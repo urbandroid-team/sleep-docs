@@ -1,0 +1,53 @@
+---
+layout: default
+title: Search
+nav_order: 1
+---
+:toc:
+
+== What it does
+*Finds you anything inside Sleep as Android. Settings, documentation, alarms, sleep records...*
+
+We are aware that Sleep as Android is a very complex app. If you need anything done, then search is your best friend.
+
+== Where to find it
+In almost every screen inside Sleep as Android, there's a search box in the top bar.
+
+== Guide
+To search, tap into the search box and start typing.
+
+Search will search through:
+
+|===
+| |What can it find |What can you search by |Example query
+
+|Settings
+|Anything inside the settings - tapping takes you to the specific settings screen and emphasizes the searched option
+|Option name, option description, various aliases - just try what comes to your mind
+a|*eng* - find the "Force English" option to switch language
+
+|Documentation
+|Column 2, row 2
+|
+|Column 3, row 2
+
+|Alarm
+|Looks through active and inactive alarms
+|Alarm time
+a|*2:50* - finds you alarms that occur at 2:50
+
+|Add-ons
+|Looks through add-ons for Sleep as Android
+|Add-on name
+a|*cap* - finds the Captcha pack add-on
+
+|Graphs
+|Looks through your sleep records
+|Sleep record date, time, comment, tags
+a|*watch* - finds all records that have been created with a smartwatch
+
+|Noise
+|Looks through your sleep noise recordings
+|Date, comment, tags
+a|*talk* - finds all recordings with #talk detected
+|===
