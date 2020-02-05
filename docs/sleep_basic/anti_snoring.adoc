@@ -2,7 +2,7 @@
 layout: default
 title: Anti-snoring
 nav_order: 2
-parent: /docs/sleep_advanced
+parent: /docs/sleep_advanced/sleep_advanced.html
 ---
 :toc:
 

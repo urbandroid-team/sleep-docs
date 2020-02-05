@@ -2,7 +2,7 @@
 layout: default
 title: Permissions
 nav_order: 2
-parent: /docs/general_info
+parent: /docs/general_info/general_info.html
 ---
 
 Sleep as Android has a lot of functionality, some of which can be only enabled with permissions from the user. See below for explanation of usage of each permission.

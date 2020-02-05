@@ -2,7 +2,7 @@
 layout: default
 title: Spotify
 nav_order: 2
-parent: /docs/connected_services
+parent: /docs/connected_services/connected_services.html
 ---
 :toc:
 

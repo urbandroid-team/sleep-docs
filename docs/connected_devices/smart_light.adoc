@@ -2,7 +2,7 @@
 layout: default
 title: Smartlight
 nav_order: 2
-parent: /docs/connected_devices
+parent: /docs/connected_devices/connected_devices.html
 ---
 :toc:
 

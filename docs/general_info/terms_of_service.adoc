@@ -2,7 +2,7 @@
 layout: default
 title: SleepCloud Terms of service
 nav_order: 2
-parent: /docs/general_info
+parent: /docs/general_info/general_info.html
 ---
 Terms of Service (the “Terms”)
 

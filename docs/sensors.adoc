@@ -8,7 +8,7 @@ parent: /docs/sleep_basic/sleep_tracking.html
 
 *Sleep as Android measures your sleep using various sensors. You can use sensors that are in your phone, or purchase additional devices and use their sensors, or use a combination.*
 
-## Motion sensors
+== Motion sensors
 *Basic sleep tracking is done using a motion sensor.*
 
 [horizontal]
@@ -16,17 +16,17 @@ Accelerometer:: Can be either in the phone or in a connected wearable. If you wa
 Sonar:: Our invention, the sonar uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.
 PIR:: Passive infrared sensor is mounted on the link:/docs/connected_devices/sleep_phaser.html[Sleep Phaser] and can detect breath rate in addition to coarse movement.
 
-## Heart rate sensors
+== Heart rate sensors
 *Heart rate is used to better distinguish awake state.*
 
 See link:/docs/sleep_advanced/heart_rate.html[Heart rate] docs.
 
-## Breath rate / SpO~2~ sensors
+== Breath rate / SpO~2~ sensors
 *Breath rate detection is used to monitor healthy levels of breathing and tries to catch early signs of breathing disturbances.*
 
 See link:/docs/sleep_advanced/breath_rate.html[Breath rate] docs.
 
-## Light level sensors
+== Light level sensors
 *Ambient light sensors that are present in nearly every smartphone measure the level of ambient light in your bedroom.*
 
 See link:/docs/sleep_advanced/light_level.html[Light level detection] docs.

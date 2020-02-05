@@ -2,7 +2,7 @@
 layout: default
 title: Content provider API
 nav_order: 2
-parent: /docs/developers
+parent: /docs/developers/developers.html
 
 ---
 :toc:

@@ -3,6 +3,5 @@ layout: default
 title: For developers
 nav_order: 50
 has_children: true
-permalink: /docs/developers
 ---
 Sleep as Android can be fully automated and there are plenty of integration options. Most actions can be called from an external process and 3rd party apps can hook on most events. Anyone can integrate a new tracking device with Sleep as Android or access sleep data in Sleep Cloud. Please see more on the various integration and automation options below.

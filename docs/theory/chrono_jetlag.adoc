@@ -2,7 +2,7 @@
 layout: default
 title: Chronotype, Social jetlag, Sleep irregularity
 nav_order: 2
-parent: /docs/theory
+parent: /docs/theory/theory.html
 ---
 :toc:
 
