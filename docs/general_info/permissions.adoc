@@ -11,6 +11,11 @@ Sleep as Android has a lot of functionality, some of which can be only enabled w
 |===
 |Permission |Google's description |Used by feature | Notes
 
+|Contacts / Accounts
+|
+|We have removed this permission since it is not needed anymore by Sleep as Android.
+|
+
 |Location
 |Approximate location (network-based), precise location (GPS and network-based)
 a|- Sunrise wakeup

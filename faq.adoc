@@ -4,6 +4,7 @@ title: FAQ
 permalink: /faq/
 no_troubleshooting: true
 nav_order: 40
+search_exclude: true
 ---
 
 # FAQ

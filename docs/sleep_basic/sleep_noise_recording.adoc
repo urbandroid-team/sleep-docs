@@ -9,51 +9,36 @@ tags:
 :toc:
 
 == What it does
-*Whenever a noise volume exceeds the threshold, app starts recording, and continues recording for a few seconds, or longer, if another noise occurs.*
-
-
-Noise recording allows you to record significant noises during your sleep, detects sleep talking, sleep laughing, snoring or even a more serious issue (such as obstructive sleep apnea OSA (TODO link na apnea?).
-See also link:/docs/sleep_advanced/sound_recognition.html[Snoring detection].
+Records significant sounds while you sleep. It also link:/docs/sleep_basic/sound_recognition.html[classifies the sounds] into categories.
 
 NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
-
-
 
 == Where to find it
 _Settings -> Sleep noise recording_
 
-You can check whether the phone is recording on the sleep tracking screen - the red light indicates that the phone is currently recording. (TODO obrázek)
+You can check whether the phone is recording on the sleep tracking screen - red light indicates that the phone is currently recording.
 
-NOTE:: In order to achieve good recordings keep the phone close to your head with the microphone area not covered.
+image:recording/ss_noise_recording.png[width=50%]
+
+NOTE: In order to achieve good recordings, keep the phone close to your head with the microphone area clear.
 
 == Options:
 [horizontal]
 Enabled:: ...
 Record snoring, sleep talk:: Recording is triggered when a characteristic sound (snoring, talk, coughing, laughter, baby cry) is detected.
 Recording volume threshold:: The volume at which the app starts recording. The good value is usually around 10-20% (may vary with device).
-NOTE:: Lower threshold increases the sensitivity = more sounds are recorded.
+NOTE: Lower threshold increases the sensitivity = more sounds are recorded.
 
 .Sound recognition
 [horizontal]
-Sound recognition:: Enables recognition of individual sounds (snoring, talk, coughing, laughter, baby cry), adjust sensitivity for each of them separately.
- * Snoring
- * Talking
- * Laughter
- * Cough and sneeze
- * Baby cry
-Anti-snoring:: Sets anti-snoring cues to make you stop snoring.
- * Sound - Sets the ringtone for anti-snoring alarm, tongue clicking as default.
- * Volume - Sets volume for anti-snoring alarm.
- * Preview - Check anti-snoring alarm in advance.
+Sound recognition:: Enables recognition of individual sounds (snoring, talk, coughing, laughter, baby cry). See link:/docs/sleep_basic/sound_recognition.html[Sound recognition].
+Anti-snoring:: Sets anti-snoring cues to make you stop snoring. See link:/docs/sleep_basic/anti-snoring.html[Anti-snoring].
 
 .Advanced
 [horizontal]
-Noise statistics:: Starts computing long-term noise statistics (the volume level is displayed under each sleep record in %).
+Noise statistics:: If enabled, you will be seeing noise level statistics under each sleep records. Cannot be disabled if _Record snoring, sleep talk_ is enabled.
 Storage path:: A path to your recordings saved on your device.
-Automatic delete:: Deletes all unstarred recordings.
+Automatic delete:: If enabled, all unstarred recordings will be deleted after 7 days.
 
-—
 
-== How to…
-
-== Troubleshooting
+//== How to…

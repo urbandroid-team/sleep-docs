@@ -22,7 +22,7 @@ You need to have either https://play.google.com/store/apps/details?id=net.dingli
 
 This page offers a guide for Tasker. Automate has a little different interface but the concepts are the same.
 
-[TIP]
+[NOTE]
 ====
 link:tasker_walkthroughs.html[Take a look at Tasker walkthroughs]
 

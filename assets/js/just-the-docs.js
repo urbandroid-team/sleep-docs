@@ -301,10 +301,21 @@ function generateTabAndReturnContentNode(name, elementToAppendTo, resultCount, a
   return content
 }
 
+function addCtrlGListener() {
+  document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key === 'g') {
+      console.log('search focus')
+      event.preventDefault()
+      document.querySelector('.js-search-input').focus()
+    }
+  });
+}
+
 // Document ready
 
 function ready() {
   toggleNav();
+  addCtrlGListener()
   pageFocus();
   if (typeof lunr !== 'undefined') {
     initSearch();

@@ -6,7 +6,7 @@ parent: /docs/connected_devices
 ---
 :toc:
 
-## What it does
+== What it does
 *Uses your smartlight to enhance your sleep experience*
 
 Features:
@@ -16,10 +16,10 @@ Features:
 - Jet lag prevention with light
 - Lucid dreaming and anti-snoring cues with light
 
-## Where to find it
+== Where to find it
 _Sleep as Android -> Settings -> Smartlight_
 
-## Options
+== Options
 [horizontal]
 Use smartlight:: Enables smartlight support
 Maximum intensity:: Set a global limit for brightness a smartlight would be allowed to achieve when controlled by Sleep. This is useful for sunrise alarm where 100% might be too bright for some people.
@@ -32,10 +32,11 @@ Wake up with flashlight:: If enabled, your phone's flashlight will be flashing d
 WARNING: Might be unreliable on some phones.
 
 .Miscellaneous
+[[Miscellaneous]]
 [horizontal]
 Pee-light:: If this is set, a pause in sleep tracking will turn on a red light on your set smartlight. If this is set to "Tracking is paused", the pee-light will be on for the whole pause.
 Lucid dreaming:: Use smartlight as a cue for lucid dreaming. When your REM phase is detected, your set light will flash.
-Anti-snoring:: Use smartlight as a cue for anti-snoring. When snoring is detected, your set light will flash.
+Anti-snoring:: Use smartlight as a cue for anti-snoring. When snoring is detected, your set light will flash. See
 
 .Philips HUE
 [horizontal]

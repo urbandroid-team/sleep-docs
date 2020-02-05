@@ -6,15 +6,16 @@ parent: /docs/connected_services
 ---
 :toc:
 
-## What it is
+== What it is
 *A dashboard and a storage place for your sleep data*
 
 SleepCloud lets you
-- view your sleep data and charts on a desktop
+
+- view your sleep data and charts on a computer
 - link:/docs/sleep_basic/backup_data.html[backup your data]
 
-## Where to find it
-https://sleepcloud.urbandroid.org
+== Where to find it
 
-// ## Guide
-// Free form description on how to use the feature, various quirks and best practices
+Go to SleepCloud at https://sleepcloud.urbandroid.org[sleepcloud.urbandroid.org].
+
+link:/docs/general_info/terms_of_service.html[Terms of service are here].
