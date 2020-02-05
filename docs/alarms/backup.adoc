@@ -2,9 +2,8 @@
 layout: default
 title: Backup alarm
 nav_order: 2
-parent: /docs/alarms
+parent: /docs/alarms/alarms.html
 ---
-
 :toc:
 
 == What it does
