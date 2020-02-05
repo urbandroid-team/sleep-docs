@@ -64,8 +64,13 @@ p {
 // typography override
 // end
 
+// EMPHASIZES
 em {
   filter: brightness(0.8);
+}
+b, strong {
+  font-weight: bold;
+  filter: brightness(1.5);
 }
 
 .text-right { text-align: right; }
