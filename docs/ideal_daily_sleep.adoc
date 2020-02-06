@@ -1,0 +1,21 @@
+---
+layout: default
+title: Ideal daily sleep income
+nav_order: 2
+---
+:toc:
+
+== What it does
+*Ideal daily sleep income is your target sleep duration - how much time would you ideally want to sleep each night.*
+
+== Where to find it
+_Settings -> Bedtime notification -> Ideal daily sleep income_
+
+== Guide
+Ideal daily sleep income affects:
+
+- link:/docs/bedtime_notification.html[bedtime notification]
+- counting of your link:/docs/theory/charts.html[sleep deficit]
+
+
+Healthy ideal daily sleep income for healthy adults is 7-9 hours, according to link:https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898[Mayo Clinic].
