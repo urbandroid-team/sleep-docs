@@ -4,6 +4,6 @@ tags:
   - alarm
 ---
 
-When multiple alarms are created close together, they might overlap each other.
-If you created more alarms to make sure you are waken up, please note, that the app has a backup alarm (see TODO) feature to make sure you are waken up.
+- When multiple alarms are created close together, they might overlap each other.
+- If you created more alarms to make sure you are waken up, please note, that the app has a link:../alarms/backup.html[Backup alarm] feature to make sure you are waken up.
 

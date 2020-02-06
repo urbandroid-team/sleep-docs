@@ -6,6 +6,6 @@ tags:
   - at_home
 ---
 
-NOTE: Not at home feature only works when we see your location is significantly different from the home (+-5km at least) as we do not collect fine location for privacy reason-
+- Not at home feature only works when we see your location is significantly different from the home (±5km at least) as we do not collect fine location for privacy reasons.
 
-. Send us the application log by using _Left_ ☰ _menu -> Report a bug_
+Send us the application log by using _Left_ ☰ _menu -> Report a bug_

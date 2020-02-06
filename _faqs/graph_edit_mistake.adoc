@@ -6,5 +6,7 @@ tags:
 - awake
 ---
 
-
-TODO TODO TODOTODOTODOTODOTODOOOOOOO
+- It is possible to revert up to 5 changes done during editing a graph.
+- Uu can use Undo banner (appears each time you change a graph):
+TODO obrázek
+- You can use ⋮ _menu -> Undo_ option

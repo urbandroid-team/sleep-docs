@@ -1,7 +1,9 @@
 ---
-title: Sonar audible in lullaby
+title: Sonar chirp audible in lullaby
 tags:
 - lullaby
 - sonar
 ---
 
+- We have reports that this can happen on some devices, this depends on how the device mixes audio channels.
+- Try different frequency in _Settings -> Sleep tracking -> Test sensor_, frequencies are listed in drop down menu list.

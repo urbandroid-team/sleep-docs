@@ -1,8 +1,0 @@
----
-title: Alarms don't work
-tags:
-  - alarm
----
-
-Please see https://dontkillmyapp.com?app=Sleep%20as%20Android[dontkillmyapp.com].
-

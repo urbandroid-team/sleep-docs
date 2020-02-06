@@ -4,3 +4,5 @@ tags:
 - lullaby
 - sleep_noise_recording
 ---
+
+- Normally if lullaby is played, we stop noise recording, unless you have something plugged into your headphone jack as than we expect you have headphones and we can record normally.

@@ -1,5 +1,5 @@
 ---
-title: Cannot find settings fro one of the task in MultiCaptcha
+title: Cannot find settings for one of the task in MultiCaptcha
 tags:
   - alarm
   - captcha

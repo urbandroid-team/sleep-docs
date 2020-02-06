@@ -11,4 +11,4 @@ Loading of the selected file may have failed::
 . Check that the app has storage permission to access that file.
 
 Online service (Spotify, Google Music, online radio) may not have responded:: When the service is not responding for too long, the app uses a build-in ringtone.
-Unfortunately due to Spotify API scheme, it is not possible to play any Spotify playlist from a 3rd party app such as Sleep as Android. We can only play one of your saved albums.
+When alarm starts and your phone is locked we are unable to change the playlist or album in your Spotify app. In this case the app will play simply where you last left it.

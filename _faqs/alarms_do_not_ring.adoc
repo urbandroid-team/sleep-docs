@@ -4,7 +4,7 @@ tags:
   - alarm
 ---
 
-Make sure no system restrictions are applied to Sleep as Android: link:https://dontkillmyapp.com/[Check our guide here].
+- Make sure no system restrictions are applied to Sleep as Android: link:https://dontkillmyapp.com/[Check our guide here].
 
-Send us your log using _Left_ ☰ _menu -> Report a bug_
+- If the quide won't help, send us your log using _Left_ ☰ _menu -> Report a bug_.
 
