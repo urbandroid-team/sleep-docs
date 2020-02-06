@@ -61,8 +61,10 @@ h6 {
 p {
   font-size: 14px;
 }
-// typography override
-// end
+.page-content a {
+  white-space: normal;
+}
+// typography override end
 
 // EMPHASIZES
 em {
