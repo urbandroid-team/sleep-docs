@@ -106,11 +106,18 @@ image:alarm_list.png[width=50%]
 
 ## Guide
 [horizontal]
-How to get rid off a card on Dashboard:: TODO
-How to get a lost card back on Dashboard:: TODO
-How to get rid off a tab on Tabs:: TODO
-How to get a lost tab on Tabs:: TODO
-How to pin a card to top position:: TODO
+How to get rid off a card on Dashboard::
+Any card can be simple swipe away from the dashboard. You can also use the Hide / Show button at the bottom of Dashboard.
+How to get rid off a tab on Tabs::
+Open the last Tab with icon:ic_puzzle[] icon, and untick any tab you wish to hide.
+You can also personalize the Tabs in _Settings -> Personalize -> Show tab_.
+How to get a lost tab on Tabs::
+Open the last Tab with icon:ic_puzzle[] icon, and tick any tab you wish to show.
+You can also personalize the Tabs in _Settings -> Personalize -> Show tab_.
+How to get the hidden Dashboard card back::
+When you hide a card, an Undo bar appears instead of that card for 10 seconds. You can also retrieve any lost card with the Hide / Show button at the bottom of Dashboard.
+How to pin a card to top position::
+If you long press the card, it is pinned to the top position on the Dashboard. This option works on all cards except Alarm card and Chart card.
 
 
 // Free form description on how to use the feature, various quirks and best practices

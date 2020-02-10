@@ -60,7 +60,7 @@ icon:ic_action_baby[] Baby Cry
 icon:ic_action_laugh[]Laugh
 icon:ic_action_mic[] Sleep noise recordings, as described in Noise recording
 icon:ic_action_cpap[] Breath rate monitoring
-icon:ic_action_dream[] Lucig dreaming
+icon:ic_action_dream[] Lucid dreaming
 icon:ic_battery_60[] Battery - stand-by mode, or the battery was too low
 For more details on the tracked sleep measured, please consult Statistics.
 
