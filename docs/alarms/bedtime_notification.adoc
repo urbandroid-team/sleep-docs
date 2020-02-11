@@ -6,7 +6,7 @@ nav_order: 2
 ---
 :toc:
 
-## What it does
+== What it does
 *Sends you a "Time to go to bed!" notification slightly before bedtime.*
 
 Bedtime notification is an effective way to maintain optimal sleep length or fight high sleep deficits. You can set the notification to trigger between 5 minutes to 2 hours before bedtime so you'll have enough time to prepare for bed.
@@ -27,7 +27,7 @@ _Settings -> Bedtime notification_
 
 == Options
 [horizontal]
-Ideal daily sleep income:: Set how much time would you ideally want to sleep each night.
+Ideal daily sleep income:: Set how much time would you ideally want to sleep each night. See also link:/docs/ideal_daily_sleep.html[ideal daily sleep income].
 Bedtime notification:: Enable bedtime notification and set how long before bedtime to receive it.
 Repeat:: How often should the notification repeat
   - Example: 10 minutes repeat will notify you once on notification time and then every 10 minutes until you swipe the notification away or start sleep tracking
