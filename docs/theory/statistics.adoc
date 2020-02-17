@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Statistics, Sleep Score charts
+title: Statistics
 nav_order: 2
 parent: /docs/theory/theory.html
 ---

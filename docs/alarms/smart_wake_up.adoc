@@ -36,6 +36,7 @@ Nap smart period:: sets a smart period for naps with tracking and naps from shor
 
 == Advanced options
 [horizontal]
+[[sensitivity]]
 Movement intensity:: Adjust sensitivity of smart alarm. With less sensitivity, you need more noticeable movement to trigger alarm.
 Movement occurrence:: Adjust sensitivity of smart alarm. With less sensitivity, you need more frequent movement to trigger alarm.
 Not before ideal sleep:: Does not allow the alarm to ring before reaching either ideal sleep duration or alarm time. If enabled, can lead to ignoring the smart period for the sake of reaching sleep duration closest to ideal sleep duration.

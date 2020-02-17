@@ -81,6 +81,9 @@ b, strong {
 
 .float-right { float: right; }
 .float-left { float: left; }
+.left { float: left }
+.right { float: right }
+.clear { clear: both}
 .clearfix { clear: both}
 
 .image-right {
@@ -114,7 +117,7 @@ table {
   overflow-x: auto;
 }
 tbody {
-  vertical-align: initial;
+  vertical-align: top;
 }
 td p:last-child {
   margin-bottom: 0;
@@ -137,8 +140,8 @@ li p:last-child {
 }
 .site-title {
   padding-right: 2rem;
-  text-align: right;
-  padding-top: 0.1em;
+  //text-align: right;
+  padding-top: 0.5em;
 }
 
 // NAVIGATION CATEGORIES
