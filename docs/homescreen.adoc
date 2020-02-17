@@ -29,16 +29,15 @@ _Settings -> Personalize -> Home screen_
 
 == Options
 
-.Dashboard
+=== Dashboard
 
 [horizontal]
 Alarm card:: Shows you the first next active alarm.
 * You can see the alarm time and day of the week, when the very next alarm is scheduled at first glance:
-image:alarm_card_intro.png[width=50%]
+image:alarm_card_next_new.png[width=50%]
 * Simple tapping on alarm time opens dialogue for changing the alarm time.
 * Tapping on icon:ic_alarm_plus[] opens the dialogue for creating a new alarm.
 * Tapping on any other place of the card opens <<alarm_list,list of all alarms>>
-image:alarm_card.png[width=50%]
 * Alarm card has also a special function - you can skip next alarm (or cancel skipping the alarm), edit alarm or delete alarm directly from this card by long pressing on it.
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
@@ -80,7 +79,7 @@ A short presentation of our add-ons, compatible devices or our other apps.
 * Tapping on this card opens list of add-ons and other applications made by our team.
 
 
-.Tabs
+=== Tabs
 
 [horizontal]
 Alarm tab:: Shows you the <<alarm_list,list of all alarms>>
@@ -89,12 +88,13 @@ Stats tab:: Shows link:../docs/theory/statistics_charts.html[statistics charts].
 Graphs tab:: Shows list of link:../docs/theory/sleep_graph.html[Graphs].
 Noise tab::  Shows the list of link:../docs/sleep_basic/sleep_noise_recording.html[Noise recording].
 Add-ons tab:: A list of add-ons and other applications made by our team.
+Show tab:: A list of available tabs, allows you to choose the active / hidden tabs.
 
-.Alarms
+=== Alarms only
 
 .List of alarms
 [[alarm_list]]
-image:alarm_list.png[width=50%]
+image:alarm_list_test.png[width=50%]
 
 * All active alarms in the list have highlighted background.
 * Repeating alarms highlights the next alarm with different font color.
@@ -106,15 +106,15 @@ image:alarm_list.png[width=50%]
 
 ## Guide
 [horizontal]
-How to get rid off a card on Dashboard::
+How to hide a card on Dashboard::
 Any card can be simple swipe away from the dashboard. You can also use the Hide / Show button at the bottom of Dashboard.
-How to get rid off a tab on Tabs::
-Open the last Tab with icon:ic_puzzle[] icon, and untick any tab you wish to hide.
+How to hide a tab on Tabs::
+Open the last tab with icon:ic_tab[] icon, and untick any tab you wish to hide.
 You can also personalize the Tabs in _Settings -> Personalize -> Show tab_.
-How to get a lost tab on Tabs::
-Open the last Tab with icon:ic_puzzle[] icon, and tick any tab you wish to show.
+How to show missing tab on Tabs::
+Open the last tab with icon:ic_tab[] icon, and tick any tab you wish to show.
 You can also personalize the Tabs in _Settings -> Personalize -> Show tab_.
-How to get the hidden Dashboard card back::
+How to show the hidden Dashboard card back::
 When you hide a card, an Undo bar appears instead of that card for 10 seconds. You can also retrieve any lost card with the Hide / Show button at the bottom of Dashboard.
 How to pin a card to top position::
 If you long press the card, it is pinned to the top position on the Dashboard. This option works on all cards except Alarm card and Chart card.

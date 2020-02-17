@@ -8,61 +8,115 @@ parent: /docs/theory/theory.html
 :toc:
 
 Raw data from the sensors are aggregated into larger time frames and then used to plot the sleep graph and compute statistics.
+Tak tenhle text určitě ne TODO
 
 .Sleep graph screen
-The graph screen shows up to three graphs: actigraph, hypnogram and noise graph. It also gives some numbers about your night, along with an option to rate and tag the record.
-
-.Numbers
-- Deep sleep - a ratio and a duration of all your deep sleep phases during the tracking.
-- Duration - sleep duration (sum of all sleep phases, awakes are not counted), and the surplus / deficit from you Ideal daily sleep income.
-- Snoring - a percentage of time you were snoring during that tracking, and its total duration.
-
-.Actigraph
-Actigraph is a visualization of the intensity of your nightly movements. The higher the peak, the more you’ve been moving.
-
-.Hypnogram
-The hypnogram shows your sleep phases progress during the night, estimated from actigraphy data and other inputs (e.g. awake periods).
-- Awake - the highest column reaching the top of the graph-
-- REM phase and light sleep are shown as medium green
-- Deep sleep is shown as the lowest columns.
-- Red sections - if you see any red section on your graph, the app did not receive data from sensor (see TODO)
-
-.Noise graph
-
-
-The grey noise graph shows how much noise (sleep talk, snoring, environmental) was there throughout the night
-
-.Color lines
-
-- Orange line = light in your room in LUX units (read more about link:../docs/sleep_advanced/sleep_advanced/light.level.html[light awake detection]).
-- Red line = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about link:../docs/sleep_basic/sleep_tracking/heart_rate.htmll[heart rate monitoring]).
-- Blue line = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about link:../docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring]).
-- Turquoise (Blue-green) line = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about link:../docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring]).
-- Dashed line = smart period prior to alarm time (read more about link:../alarms/smart_wake_up.html[Smart wake up]).
+The graph screen shows up to three graphs: actigraph, hypnogram and noise graph (when Sleep noise recording is enabled). It also gives some numbers about your night, along with an option to rate and tag the record.
 
 A healthy sleep (if you are a monophasic sleeper) is 7-8 hours long and consists of 5 sleep cycles where the first lasts for 70-100 minutes and the consequent cycles get longer but lighter. Each cycle consists of 5 stages lasting usually 5-15 minutes. Stage 1 and 2 are considered light sleep and this is the best time to be woken up in the morning.
 So a healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) followed by an area of deep sleep (low peaks or no peaks) lasting 40-100 minutes.
 Different resources on sleep may provide different figures though.
 
-So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup (see Setup sleep tracking) or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc. See an example of such sleep graphs in the figure below.
+So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup (see Setup sleep tracking TODO) or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc. See an example of such sleep graphs in the figure below.
 
-.Markers (icons on graph)
+== Numbers
+[cols="1,2"]
+|===
+a|image:numbers.png[]
+a|*Numbers on the sleep graphs* lorem ipsum
+- *Deep sleep*: a ratio (%) and a duration (HH:MM) of all your deep sleep phases during the tracking.
+- *Duration*: sleep duration (sum of all sleep phases, awakes are not counted), and the surplus / deficit (šlo by tohle slovo udělat červeně?) from you Ideal daily sleep income.
+- *Snoring*: a percentage of time you were snoring during that tracking, and its total duration.
+
+|===
+
+== Actigraph
+
+[cols="1,2"]
+|===
+a|image:acti.png[]
+a|*Actigraph* is a visualization of the intensity of your nightly movements. The higher the peak, the more you’ve been moving.
+
+|===
+
+== Hypnogram
+
+[cols="1,2"]
+|===
+a|image:phase.png[]
+Red sections on graph
+image:red.png[]
+
+a|*The hypnogram* shows your sleep phases progress during the night, estimated from actigraphy data and other inputs (e.g. awake periods).
+- *Awake*: the highest column reaching the top of the graph-
+- *REM phase and light sleep*: shown as medium green, REM has lower columns.
+- *Deep sleep*: shown as the lowest columns.
+- *Red sections*: if you see any red section on your graph, the app did not receive data from sensor (see TODO)
+
+|===
+
+== Noise graph
+
+[cols="1,2"]
+|===
+a|image:snore.png[]
+a|*The noise graph* shows how much noise (sleep talk, snoring, environmental) was there throughout the night. When sound recognition is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with icons (icons are explained TODO) - you can read more about sound recognition or snoring detection. TODO TODO TODOTODOTODOTODOTODOOOOO
+
+|===
+
+== Color lines
+
+[cols="1,2"]
+|===
+a|Oxygen level (Oximeter) + heart rate
+image:hrbr.png[]
+
+Light lever + heart rate
+image:light.png[]
+
+Breath rate (sonar)
+image:br.png[]
+
+
+a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about link:../docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring])
+- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about link:../docs/sleep_basic/sleep_tracking/heart_rate.htmll[heart rate monitoring]).
+- *Orange line* = light in your room in LUX units (read more about link:../docs/sleep_advanced/sleep_advanced/light.level.html[light awake detection]).
+- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about link:../docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring]).
+- *Dashed line* = smart period prior to alarm time (read more about link:../alarms/smart_wake_up.html[Smart wake up]).
+
+|===
+
+== Markers and Icons
 Beside deep sleep marked with a green dashed line and light sleep marked in blue, there are several other events depicted in the sleep graphs.
 
-
-icon:ic_action_pause[] Pause - periods when sleep tracking has been paused, as described in Sleep tracking
-icon:ic_alarm_x[] Alarms and snoozed within the sleep graph
+[cols="1,2"]
+|===
+a|Icons on Actigraphy
+a|icon:ic_action_pause[] Pause of sleep tracking
+icon:clock[] Alarms and snoozed alarms
 icon:ic_action_sunrise[] Sunrise and sunset times
-icon:ic_action_noise[] - Snoring events, as described in Snoring detection
-- Sleep talking events
+icon:ic_action_noise[] Snoring events
+icon:ic_action_cpap[] Breath rate monitoring
+icon:ic_battery_60[] Battery (stand-by mode, or low battery)
+
+|===
+
+[cols="2,2"]
+|===
+a|Icons on Noise graph
+a|icon:ic_action_talk[] Sleep talking events
 icon:ic_action_sick[] Cough and sneeze
 icon:ic_action_baby[] Baby Cry
 icon:ic_action_laugh[]Laugh
-icon:ic_action_mic[] Sleep noise recordings, as described in Noise recording
-icon:ic_action_cpap[] Breath rate monitoring
+icon:ic_action_mic[] Sleep noise recordings
 icon:ic_action_dream[] Lucid dreaming
-icon:ic_battery_60[] Battery - stand-by mode, or the battery was too low
-For more details on the tracked sleep measured, please consult Statistics.
 
-.Tags (small iconts)
-See TODO
+|===
+
+[cols="3,2"]
+|===
+a|Icons in comment section, tags
+a|see Tags? TODO
+
+|===
+
