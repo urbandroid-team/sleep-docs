@@ -44,8 +44,8 @@ News card:: Temporary card shown only during important events or with a crucial 
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
 * After tapping on this card, a player plays the file.
 Sleep score card:: See link:../docs/theory/sleepscore.html[Sleep score].
-* Tapping on this card opens Stats (see link:../docs/theory/statistics_charts.html[Stats])
-Graphs card:: Shows you graphs from the link:../docs/theory/statistics_charts.html[Charts section].
+* Tapping on this card opens Stats (see link:../docs/theory/statistics.html[Stats])
+Graphs card:: Shows you graphs from the link:../docs/theory/charts.html[Charts section].
 * You can swipe through the graphs, right ↔ left.
 * Tapping on this card open the last graph (how to read graphs - TODO link, jestli něco bude)
 Noise card:: TODO

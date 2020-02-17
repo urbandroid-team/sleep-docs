@@ -55,6 +55,11 @@ a|* Has it recently improved or worsened? (last 7 days compared to last 60 days)
 |Social jet-lag
 a|* Is it in healthy bounds for last 60 days average (1 hour - 20 minutes)?
 
+[NOTE]
+===
+Your age for the duration healthy bounds can be configured in _Settings -> Sleep -> Stats -> Year of birth_
+===
+
 |===
 
 == Types of advice cards
