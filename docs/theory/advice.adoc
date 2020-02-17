@@ -63,7 +63,7 @@ Social jet-lag:: In bounds check for last 60 days average (1 hour - 20 minutes).
 [horizontal]
 Congrats:: Shows an improvement in one of the measured dimensions
 Caution:: Shows a worsening with tips how to improve and links to setup link:/docs/sleep_advanced/goals.html[Goals].
-Neutral:: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occuring a lot lately we cannot say it is good or bad.
+Neutral:: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occurring a lot lately we cannot say it is good or bad.
 
 
 == Examples
