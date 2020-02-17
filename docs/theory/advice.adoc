@@ -6,3 +6,65 @@ parent: /docs/theory/theory.html
 ---
 
 :toc:
+
+
+== What it does
+
+Advice shows your current sleep development in glance. You see which parameters of your sleep are improving or worsening recently including tips on how to reverse the worsening trends.
+
+== Where to find it
+
+Advice is accessible in *☰ -> Advice* or you can access it from a Dashboard card.
+
+== General description
+
+Advice measures recent trends in the main sleep dimensions (Duration, Irregularity, Deep sleep %, Snoring, Social jet-lag...).
+
+In most cases it compares your last 60 days aggregates to the last 7 days aggregates and look for significant recent worsening or improvements.
+
+For some dimensions there are checks to be withing bounds set by public medical studies.
+
+Advice also looks at your tags and tells you when there is an increased occurrence of e.g. #alcohol as a caution or #sport as good trend.
+
+Advice also compares your sleep figures with the average data measured by the app for your peers in your country.
+
+== Measured dimensions
+
+[horizontal]
+Duration:: Recent worsening or improvements (last 7 days to last 60 days).
+
+In bounds check, general (6.5 - 9), school age (9 - 11), teenager (8 - 10), young (7 - 9), elderly (6 - 9).
+
+Check if it meets your link:/docs/ideal_daily_sleep.html[Ideal daily sleep] target.
+
+Compare to others in your country.
+
+Irregularity::Recent worsening or improvements (last 7 days to last 60 days).
+
+In bounds check (1 hour - 20 minutes).
+
+Deep sleep %:: Recent worsening or improvements (last 7 days to last 60 days).
+
+In bounds check (25% - 75%).
+
+Snoring::Recent worsening or improvements (last 7 days to last 60 days).
+
+Warns if over 30 minutes, and a more severe warning over 60 minutes.
+
+Social jet-lag:: In bounds check (1 hour - 20 minutes).
+
+
+== Types of advice cards
+
+[horizontal]
+Congrats:: Shows an improvement in one of the measured dimensions
+Caution:: Shows a worsening with tips how to improve and links to setup link:/docs/sleep_advanced/goals.html[Goals].
+Neutral:: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occuring a lot lately we cannot say it is good or bad.
+
+
+== Examples
+
+Congrats:: Your SNORING is down by 5 minutes lately
+Caution:: Your DURATION is down by 30 minutes lately
+Neutral:: Others in your country are getting 54 minutes more DURATION
+Caution:: Your SNORING is over 50 minutes
