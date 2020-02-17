@@ -41,17 +41,21 @@ Compare to others in your country.
 
 Irregularity::Recent worsening or improvements (last 7 days to last 60 days).
 
-In bounds check (1 hour - 20 minutes).
+In bounds check for last 60 days average (1 hour - 20 minutes).
 
 Deep sleep %:: Recent worsening or improvements (last 7 days to last 60 days).
 
-In bounds check (25% - 75%).
+In bounds check for last 60 days average (25% - 75%).
+
+Compare to others in your country.
 
 Snoring::Recent worsening or improvements (last 7 days to last 60 days).
 
 Warns if over 30 minutes, and a more severe warning over 60 minutes.
 
-Social jet-lag:: In bounds check (1 hour - 20 minutes).
+Compare to others in your country.
+
+Social jet-lag:: In bounds check for last 60 days average (1 hour - 20 minutes).
 
 
 == Types of advice cards
@@ -68,3 +72,4 @@ Congrats:: Your SNORING is down by 5 minutes lately
 Caution:: Your DURATION is down by 30 minutes lately
 Neutral:: Others in your country are getting 54 minutes more DURATION
 Caution:: Your SNORING is over 50 minutes
+Congrats:: Your IRREGULARITY is under 20 minutes
