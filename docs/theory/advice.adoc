@@ -4,67 +4,65 @@ title: Advice
 nav_order: 2
 parent: /docs/theory/theory.html
 ---
-
 :toc:
 
-
 == What it does
-
-Advice shows your current sleep development in glance. You see which parameters of your sleep are improving or worsening recently including tips on how to reverse the worsening trends.
+Advice shows your current sleep development at a glance. You see which dimensions of your sleep have improved or worsened recently including tips on how to reverse the worsening trends.
 
 == Where to find it
-
-Advice is accessible in *☰ -> Advice* or you can access it from a Dashboard card.
+*Left ☰ menu -> Advice* or from the <</docs/homescreen#advicecard,Advice>> dashboard card.
 
 == General description
-
-Advice measures recent trends in the main sleep dimensions (Duration, Irregularity, Deep sleep %, Snoring, Social jet-lag...).
+Advice watches recent trends in the main sleep dimensions (Duration, Irregularity, Deep sleep %, Snoring, Social jet-lag...).
 
 In most cases it compares your last 60 days aggregates to the last 7 days aggregates and look for significant recent worsening or improvements.
 
-For some dimensions there are checks to be withing bounds set by public medical studies.
+For some dimensions there are further checks, such as whether your data are within bounds set by public health studies.
+//
+//For some dimensions there are checks to be within bounds set by public medical studies.
+//
+//Advice also looks at your tags and tells you when there is an increased occurrence of e.g. #alcohol as a caution or #sport as good trend.
+//
+//Advice also compares your sleep figures with the average data measured by the app for your peers in your country.
 
-Advice also looks at your tags and tells you when there is an increased occurrence of e.g. #alcohol as a caution or #sport as good trend.
+== Watched dimensions
 
-Advice also compares your sleep figures with the average data measured by the app for your peers in your country.
 
-== Measured dimensions
+|===
+|Dimension |Checks
 
-[horizontal]
-Duration:: Recent worsening or improvements (last 7 days to last 60 days).
+|Duration
+a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
+* Is it in healthy bounds for your age? General (6.5 - 9), school age (9 - 11), teenager (8 - 10), young (7 - 9), elderly (6 - 9).
+* Does it meets your link:/docs/ideal_daily_sleep.html[Ideal daily sleep] target?
+* How does it compare to others in your country?
 
-In bounds check, general (6.5 - 9), school age (9 - 11), teenager (8 - 10), young (7 - 9), elderly (6 - 9).
 
-Check if it meets your link:/docs/ideal_daily_sleep.html[Ideal daily sleep] target.
+|Irregularity
+a|* Has it recently improved or worsened? (last 7 days compared to last 60 days)
+* Is it in healthy bounds for last 60 days average (1 hour - 20 minutes)?
+* How does it compare to others in your country?
 
-Compare to others in your country.
+|Deep sleep %
+a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
+* Is it in healthy bounds for last 60 days average (25% - 75%)?
 
-Irregularity::Recent worsening or improvements (last 7 days to last 60 days).
+|Snoring
+a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
+* Warns if over 30 minutes, and a more severe warning over 60 minutes.
+* How does it compare to others in your country?
 
-In bounds check for last 60 days average (1 hour - 20 minutes).
+|Social jet-lag
+a|* Is it in healthy bounds for last 60 days average (1 hour - 20 minutes)?
 
-Deep sleep %:: Recent worsening or improvements (last 7 days to last 60 days).
-
-In bounds check for last 60 days average (25% - 75%).
-
-Compare to others in your country.
-
-Snoring::Recent worsening or improvements (last 7 days to last 60 days).
-
-Warns if over 30 minutes, and a more severe warning over 60 minutes.
-
-Compare to others in your country.
-
-Social jet-lag:: In bounds check for last 60 days average (1 hour - 20 minutes).
-
+|===
 
 == Types of advice cards
 
 [horizontal]
-Congrats:: Shows an improvement in one of the measured dimensions
-Caution:: Shows a worsening with tips how to improve and links to setup link:/docs/sleep_advanced/goals.html[Goals].
+Congrats:: Shows an improvement in a given dimension.
+Caution:: Shows a worsening with tips on how to improve and links to setup link:/docs/sleep_advanced/goals.html[Goals].
 Neutral:: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occurring a lot lately we cannot say it is good or bad.
-
 
 == Examples
 
