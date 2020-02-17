@@ -10,17 +10,19 @@ parent: /docs/alarms/alarms.html
 == What it does
 *Schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.*
 
-So instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
+[NOTE]
+===
+EXAMPLE: Instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
+===
 
 == Where to find it
-_Create alarm dialogue -> Naps_
-TODO: obrázek
+
+Add new a alarm using _icon:ic_alarm_plus[] -> Nap button_
+
+image:alarm_nap.png[]
 
 == Options
 
-[horizontal]
-1 minute - 10 hours::
+From 1 minute to 10 hours
 
-
-//== Guide
-// Free form description on how to use the feature, various quirks and best practices
+image:alarm_nap_2.png[]
