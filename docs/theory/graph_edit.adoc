@@ -6,7 +6,7 @@ parent: /docs/theory/theory.html
 ---
 :toc:
 
-## What it does
+== What it does
 *Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.*
 
 == Where to find it
@@ -44,6 +44,7 @@ a|Open the graph editor by tapping on the icon:ic_pencil[] pencil button.
 a|image:edit_1.png[]
 |===
 
+[[tags]]
 [cols="1,2"]
 |===
 |Choose any of the available icon tags, or you can also create your own tags - read more in <</docs/tags, Tags>>.
