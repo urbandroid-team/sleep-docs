@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   enable-background="new 0 0 24 24"
+   xml:space="preserve"
+   id="svg14"
+   sodipodi:docname="ic_action_geo3.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata20"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs18" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="1"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="741"
+   id="namedview16"
+   showgrid="true"
+   inkscape:zoom="9.8333333"
+   inkscape:cx="-5.7966102"
+   inkscape:cy="12"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg14"><inkscape:grid
+     type="xygrid"
+     id="grid827"
+     empspacing="2" /></sodipodi:namedview>
+
+<g
+   id="Outline"
+   style="fill:#ffffff;fill-opacity:1">
+	<g
+   id="ui_x5F_spec_x5F_header"
+   style="fill:#ffffff;fill-opacity:1">
+	</g>
+	<g
+   id="g11"
+   style="fill:#ffffff;fill-opacity:1">
+		<path
+   d="M12,2C8.13,2,5,5.13,5,9c0,5.25,7,13,7,13s7-7.75,7-13C19,5.13,15.87,2,12,2z M7,9c0-2.76,2.24-5,5-5s5,2.24,5,5    c0,2.88-2.88,7.19-5,9.88C9.92,16.21,7,11.85,7,9z"
+   id="path7"
+   style="fill:#ffffff;fill-opacity:1" />
+		
+	</g>
+</g>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.802948px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+   x="8.8374739"
+   y="14.152543"
+   id="text831"><tspan
+     sodipodi:role="line"
+     id="tspan829"
+     x="8.8374739"
+     y="14.152543"
+     style="font-size:11.102211px;stroke-width:0.99999994px;fill:#ffffff;fill-opacity:1;">3</tspan></text>
+
+</svg>
