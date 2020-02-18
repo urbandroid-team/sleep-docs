@@ -9,9 +9,15 @@ tags:
 :toc:
 
 == What it does
-*Setup your alarms so that you wake up refreshed with <</docs/alarms/smart_wake_up.html,Smart wake up>>, <<gentle_alarm>>, <</docs/connected_devices/smart_light,Smartlight>> and other features.*
+*Alarm settings help you make your wake up alarm a refreshing and pleasant experience.*
 
-Sleep as Android makes sure even sleepyheads wake up on time with <</docs/alarms/captcha,CAPTCHA>>.
+Most of all:
+* <</docs/alarms/smart_wake_up,Smart wake up>> wakes you at the right sleep phase
+* <<gentle_alarm>> finds the minimal sound to wake you
+* <</docs/connected_devices/smart_light,Smartlight>> natural sunrise wake up
+* and many more.
+
+We makes sure even sleepyheads wake up on time with our <</docs/alarms/captcha,CAPTCHA>> feature.
 
 == Where to find it
 Alarms can be setup in two places. Each alarm has its own alarm-specific settings. Newly created alarms are by default configured based on _Settings -> Alarms_.
