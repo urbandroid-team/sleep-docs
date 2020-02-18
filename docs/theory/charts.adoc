@@ -39,7 +39,6 @@ The goal is of course to fill up that chart completely!
 |===
 a|image:charts/trend/deficit.png[]
 a|*Deficit* chart is useful for tracking your sleep deficit.
-
 - *Blue line*: shows the deficit on a given day. If you sleep less then your link:/docs/ideal_daily_sleep.html[ideal sleep time], the blue line will be negative on that day. If you sleep more, it will be positive.
 
 - *Red / green line*: This line shows the total deficit/surplus. The most interesting point of the deficit chart is the rightmost point of this line. If it's red, it means that you have a sleep debt currently. If it's green, you are oversleeping your target.
