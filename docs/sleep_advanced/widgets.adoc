@@ -22,7 +22,7 @@ Droid widget (icon):: Changes appearance depending on time, date, day of the wee
 Hypnogram widget:: Shows your last hypnogram, opens the last graph.
 
 .Shortcut widgets
-When long pressing the Sleep icon, you can create new widgets from your shortcuts on shortcut card on link:../homescreen.html[Dashboard].
+When long pressing the Sleep icon, you can create new widgets from your shortcuts on shortcut card on link:/docs/homescreen.html[Dashboard].
 [horizontal]
 Add alarm:: Creates a widget for quick access to the dialogue for creating a new alarm.
 Nap X min:: Creates a nap from your last used nap.

@@ -27,11 +27,11 @@ _Settings -> Sleep tracking -> Smart wake up_
 [horizontal]
 Smart period:: Set the smart period - time window before alarm to be awoken in.
 * Disabled - alarm goes off at alarm time exactly
-* Power nap - special type of smart period, see link:../alarms/power_nap.html[Power nap]
+* Power nap - special type of smart period, see link:/docs/alarms/power_nap.html[Power nap]
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
 Nap smart period:: sets a smart period for naps with tracking and naps from shortcuts
 * Disabled - alarm goes off at alarm nap time
-* Power nap - special type of smart period, see link:../alarms/power_nap.html[Power nap]
+* Power nap - special type of smart period, see link:/docs/alarms/power_nap.html[Power nap]
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
 
 == Advanced options

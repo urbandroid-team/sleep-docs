@@ -50,6 +50,7 @@ defaults:
 asciidoc: {}
 asciidoctor:
   attributes:
+    xrefstyle: full
     imagesdir: /assets/images
     iconsdir: '{imagesdir}/../icons'
     hardbreaks: true
