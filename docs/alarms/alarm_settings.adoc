@@ -13,7 +13,7 @@ tags:
 
 Most of all:
 * <</docs/alarms/smart_wake_up,Smart wake up>> wakes you at the right sleep phase
-* <<gentle_alarm>> finds the minimal sound to wake you
+* <<gentle_alarm, Gentle colume increase>> finds the minimal sound to wake you
 * <</docs/connected_devices/smart_light,Smartlight>> natural sunrise wake up
 * and many more.
 
