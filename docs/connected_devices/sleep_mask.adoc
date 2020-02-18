@@ -14,7 +14,7 @@ tags:
 Dedicated to be used with Sleep as Android and link:https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid]. Original hardware by Urbandroid.
 
 - link:http://sleepmask.urbandroid.org/[Learn more] on a dedicated website.
-- link:https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android.html[Get it] from Happy Electronics.
+- <<https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android,Get it>> from Happy Electronics.
 
 ## Where to find it
 _Settings -> Smartlight -> Use Sleep Mask_

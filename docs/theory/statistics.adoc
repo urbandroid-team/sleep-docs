@@ -9,7 +9,7 @@ parent: /docs/theory/theory.html
 
 ## What it does
 
-Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of your link:/docs/theory/sleepscore.html[Sleep score] aggregated by days or optionally by link:/docs/theory/tags.html[Tags].
+Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of your <</docs/theory/sleepscore.html[Sleep score] aggregated by days or optionally by link:/docs/theory/tags,Tags>>.
 
 #TODO: add Tags section#
 
@@ -22,7 +22,7 @@ Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of
 ## What you see
 
 Each row in the Stats screen shows day-aggregated Duration, Deep sleep and Snoring.
-The aggregate is calculated from all tracked sleeps - let's call them link:/docs/theory/sleep_graph.html[Graphs] in the further text - which belong to the same day.
+The aggregate is calculated from all tracked sleeps - let's call them <</docs/theory/sleep_graph,Graphs>> in the further text - which belong to the same day.
 
 The list of days is based on the period selection in top right (Week, 14 days, Month...) but is limited to last 30 days.
 

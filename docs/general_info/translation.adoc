@@ -19,4 +19,4 @@ There are new features added all the time which need new strings, which in turn 
 - link:https://docs.google.com/spreadsheets/d/1Jse7DqJr4eNTca6_7rSBchpaX3eU6SgLo9V3ltBio5Q/edit[Twilight Translation Spreadsheet]
 - link:https://docs.google.com/spreadsheets/d/1jgE_VaECnMzUmg0apblRLVqg59abJhj30ylZUSF9zb8/edit[Digital Detox Translation Spreadsheet]
 
-We use link:https://tts.urbandroid.org/index.html[Translate the Sheet] to simplify the translation for us and the volunteers.
+We use <<https://tts.urbandroid.org/index,Translate the Sheet>> to simplify the translation for us and the volunteers.

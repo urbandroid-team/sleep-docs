@@ -39,7 +39,7 @@ Dismiss Alarm:: `com.urbandroid.sleep.alarmclock.ALARM_DISMISS_CAPTCHA`
 Stop Lullaby:: `com.urbandroid.sleep.ACTION_LULLABY_STOP_PLAYBACK`
 
 Request Backup:: `com.urbandroid.sleep.REQUEST_SYNC`
-Starts the backup sync – export a CSV file, backup to Sleepcloud, Dropbox and Google Drive if connected. See link:/docs/sleep_basic/backup_data.html[Backup data].
+Starts the backup sync – export a CSV file, backup to Sleepcloud, Dropbox and Google Drive if connected. See <</docs/sleep_basic/backup_data,Backup data>>.
 
 .Services
 [horizontal]
@@ -65,7 +65,7 @@ Alarm dismissed:: `com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS_AUTO`
 Lullaby started:: `com.urbandroid.sleep.ACTION_LULLABY_START_PLAYBACK_AUTO`
 Lullaby stopped:: `com.urbandroid.sleep.ACTION_LULLABY_STOPPED_PLAYBACK_AUTO`
 Lucid dreaming cue:: `com.urbandroid.sleep.LUCID_CUE_ACTION_AUTO`
-NOTE: Make sure link:/docs/sleep_advanced/lucid_dreaming.html[Lucid dreaming] is enabled in settings
+NOTE: Make sure <</docs/sleep_advanced/lucid_dreaming,Lucid dreaming>> is enabled in settings
 
 Antisnoring sound:: `com.urbandroid.sleep.ANTISNORING_ACTION_AUTO`
 

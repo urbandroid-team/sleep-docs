@@ -9,7 +9,7 @@ tags:
 :toc:
 
 == What it does
-Records significant sounds while you sleep. It also link:/docs/sleep_basic/sound_recognition.html[classifies the sounds] into categories.
+Records significant sounds while you sleep. It also <</docs/sleep_basic/sound_recognition,classifies the sounds>> into categories.
 
 NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
 
@@ -31,8 +31,8 @@ NOTE: Lower threshold increases the sensitivity = more sounds are recorded.
 
 .Sound recognition
 [horizontal]
-Sound recognition:: Enables recognition of individual sounds (snoring, talk, coughing, laughter, baby cry). See link:/docs/sleep_basic/sound_recognition.html[Sound recognition].
-Anti-snoring:: Sets anti-snoring cues to make you stop snoring. See link:/docs/sleep_basic/anti-snoring.html[Anti-snoring].
+Sound recognition:: Enables recognition of individual sounds (snoring, talk, coughing, laughter, baby cry). See <</docs/sleep_basic/sound_recognition,Sound recognition>>.
+Anti-snoring:: Sets anti-snoring cues to make you stop snoring. See <</docs/sleep_basic/anti-snoring,Anti-snoring>>.
 
 .Advanced
 [horizontal]

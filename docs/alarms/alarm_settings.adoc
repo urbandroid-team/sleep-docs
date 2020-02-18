@@ -9,9 +9,9 @@ tags:
 :toc:
 
 == What it does
-*Setup your alarms so that you wake up refreshed with link:/docs/alarms/smart_wake_up.html[Smart wake up], <<gentle>>, link:/docs/connected_devices/smart_light.html[Smartlight] and other features.*
+*Setup your alarms so that you wake up refreshed with <</docs/alarms/smart_wake_up.html[Smart wake up], <<gentle>>, link:/docs/connected_devices/smart_light,Smartlight>> and other features.*
 
-Sleep as Android makes sure even sleepyheads wake up on time with link:/docs/alarms/captcha.html[CAPTCHA].
+Sleep as Android makes sure even sleepyheads wake up on time with <</docs/alarms/captcha,CAPTCHA>>.
 
 == Where to find it
 Alarms can be setup in two places. Each alarm has its own alarm-specific settings. Newly created alarms are by default configured based on _Settings -> Alarms_.
@@ -26,23 +26,23 @@ Alarm default settings allow you to modify basic behaviour for all your alarms. 
 == Options
 
 [horizontal]
-Ringtone:: See link:/docs/alarms/ringtone.html[Ringtone].
+Ringtone:: See <</docs/alarms/ringtone,Ringtone>>.
 Gentle volume increase[[gentle]]:: Gentle volume makes sure to wake you with minimum volume required for a more pleasant wake up. Alarm starts at minimum volume and will gradually increase to maximum.
-* Disabled - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the link:/docs/alarms/ringtone.html[Ringtone] section.
+* Disabled - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</docs/alarms/ringtone,Ringtone>> section.
 * 1-24 minutes - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
 Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
 * Disabled - No vibrations on phone at all.
 * From start - Vibrations start at alarm time.
 * After 1-24 minutes - Vibrations start after set time.
 Alarm sound start::
-You may want to first give chance to link:/docs/connected_devices/smart_light.html[Smartlight] or vibrations to wake you up, before the alarm starts sounding.
+You may want to first give chance to <</docs/connected_devices/smart_light,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
 * From start - Sound starts at alarm time.
 * 1-24 minutes - Sounds starts after set time.
 Play alarm in silent profile:: Alarm sound will override phone's silent mode.
 
 .Snooze / Dismiss
 [horizontal]
-Snooze:: See link:/docs/alarms/snooze.html[Snooze].
+Snooze:: See <</docs/alarms/snooze,Snooze>>.
 Always fullscreen alarm:: Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw over other apps_ permission.
 Flip to snooze:: Lets you snooze an alarm by flipping the phone (from screen to back and other way around).
 Volume or camera button effect:: Allows to snooze or dismiss the alarm with volume buttons.
@@ -51,8 +51,8 @@ Long press:: Long press on dismiss button is necessary to dismiss the alarm (pre
 
 .Backup alarm
 [horizontal]
-Backup alarm:: See link:/docs/alarms/backup.html[Backup alarm].
-Alarm timeout:: See link:/docs/alarms/backup.html[Backup alarm].
+Backup alarm:: See <</docs/alarms/backup,Backup alarm>>.
+Alarm timeout:: See <</docs/alarms/backup,Backup alarm>>.
 
 .Dangerous options
 [horizontal]

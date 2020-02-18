@@ -34,7 +34,7 @@ For some dimensions there are further checks, such as whether your data are with
 |Duration
 a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
 * Is it in healthy bounds for your age? General (6.5 - 9), school age (9 - 11), teenager (8 - 10), young (7 - 9), elderly (6 - 9).
-* Does it meets your link:/docs/ideal_daily_sleep.html[Ideal daily sleep] target?
+* Does it meets your <</docs/ideal_daily_sleep,Ideal daily sleep>> target?
 * How does it compare to others in your country?
 
 
@@ -66,7 +66,7 @@ Your age for the duration healthy bounds can be configured in _Settings -> Sleep
 
 [horizontal]
 Congrats:: Shows an improvement in a given dimension.
-Caution:: Shows a worsening with tips on how to improve and links to setup link:/docs/sleep_advanced/goals.html[Goals].
+Caution:: Shows a worsening with tips on how to improve and links to setup <</docs/sleep_advanced/goals,Goals>>.
 Neutral:: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occurring a lot lately we cannot say it is good or bad.
 
 == Examples

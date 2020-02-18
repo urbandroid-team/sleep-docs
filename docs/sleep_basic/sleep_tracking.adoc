@@ -12,11 +12,11 @@ nav_order: 2
 By tracking your sleep, the app enables you to:
 
 . See a sleep graph for every night
-. Monitor your long term sleep quality (with link:/docs/theory/sleepscore.html[sleep score] and statistics)
+. Monitor your long term sleep quality (with <</docs/theory/sleepscore,sleep score>> and statistics)
 . Set up goals to improve your sleep quality
-. Use link:/docs/alarms/smart_wake_up.html[smart wake up] for the alarm
+. Use <</docs/alarms/smart_wake_up,smart wake up>> for the alarm
 
-TIP: link:/docs/theory/sleep_tracking_theory.html[Go here for a more in-depth read on sleep tracking].
+TIP: <</docs/theory/sleep_tracking_theory,Go here for a more in-depth read on sleep tracking>>.
 
 ## Where to find it
 Start sleep tracking on the app's main screen by tapping *Start sleep tracking*.
@@ -26,17 +26,17 @@ Settings can be found in
 
 ## Options
 [horizontal]
-Smart wake up:: See link:/docs/alarms/smart_wake_up.html[Smart wake up]
+Smart wake up:: See <</docs/alarms/smart_wake_up,Smart wake up>>
 Awake detection:: See [Awake detection]
 
 .Automatic sleep tracking
 [horizontal]
 Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-- More details: link:automatic_sleep_tracking.html[Automatic sleep tracking].
+- More details: <<automatic_sleep_tracking,Automatic sleep tracking>>.
 Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
 - On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
 - On _Save automatically_, the notification saves the sleep record for you automatically
-- More details: link:sleep_time_estimation.html[Sleep time estimation]
+- More details: <<sleep_time_estimation,Sleep time estimation>>
 
 .Sensor
 [horizontal]
@@ -46,7 +46,7 @@ Tutorial:: ...
 
 .Pair tracking
 [horizontal]
-Pair tracking:: Check to enable pair tracking. More details: link:/docs/sleep_advanced/pair_tracking.html[Pair tracking].
+Pair tracking:: Check to enable pair tracking. More details: <</docs/sleep_advanced/pair_tracking,Pair tracking>>.
 Find partner:: Tap simultaneously on two phones that are close together to form a pair.
 
 .Do not disturb when sleeping
