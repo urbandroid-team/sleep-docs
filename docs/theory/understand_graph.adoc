@@ -98,11 +98,11 @@ Breath rate (sonar)
 image:br.png[]
 
 
-a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about link:../docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring])
-- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about link:../docs/sleep_basic/sleep_tracking/heart_rate.htmll[heart rate monitoring]).
-- *Orange line* = light in your room in LUX units (read more about link:../docs/sleep_advanced/sleep_advanced/light.level.html[light awake detection]).
-- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about link:../docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring]).
-- *Dashed line* = smart period prior to alarm time (read more about link:../alarms/smart_wake_up.html[Smart wake up]).
+a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about link:/docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring])
+- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about link:/docs/sleep_basic/sleep_tracking/heart_rate.htmll[heart rate monitoring]).
+- *Orange line* = light in your room in LUX units (read more about link:/docs/sleep_advanced/sleep_advanced/light.level.html[light awake detection]).
+- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about link:/docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring]).
+- *Dashed line* = smart period prior to alarm time (read more about link:/docs/alarms/smart_wake_up.html[Smart wake up]).
 
 |===
 

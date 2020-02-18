@@ -23,7 +23,7 @@ Movement intensity:: Estimated from awake like events based on acceleration thre
 Heart rate monitoring::
 Any HR peak significantly higher than the average in the last 5 minutes is marked as awake period.
 . Your heart beats up to 10 BPM slower during sleep, than when awake.
-. The app supports most Bluetooth heart rate devices via BLE, and various smartwatches. Please refer to link:../docs/connected_devices.html[Wearable] for more details.
+. The app supports most Bluetooth heart rate devices via BLE, and various smartwatches. Please refer to link:/docs/connected_devices.html[Wearable] for more details.
 Light:: The ambient light sensor measures the level of ambient light in your bedroom
  * If there is disturbing light (more than 30 lux) after sunset, we consider it as an Awake period.
  * The #dark (TODO ikona) tag is added when you have less than 30 lux for at least 90% of the night.

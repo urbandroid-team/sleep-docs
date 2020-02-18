@@ -11,7 +11,7 @@ tags:
 == What it does
 *Adjust alarms to best fit your lifestyle.*
 
-NOTE: For even better wakeup experience, see also link:../alarms/smart_wake_up.html[Smart wake up]
+NOTE: For even better wakeup experience, see also link:/docs/alarms/smart_wake_up.html[Smart wake up]
 
 == Where to find it
 Alarms can be modified at two places - for a specific alarm in _per-alarm settings_, and for all alarms in _Alarm default settings_.
@@ -26,9 +26,9 @@ Alarm default settings allow you to modify basic behaviour for all your alarms. 
 == Options
 
 [horizontal]
-Ringtone:: See link:../alarms/ringtone.html[Ringtone].
+Ringtone:: See link:/docs/alarms/ringtone.html[Ringtone].
 Gentle volume increase:: Alarm starts at minimum volume and will gradually increase to maximum.
-* Disabled - Alarm rings at volume set in link:../alarms/ringtone.html[Ringtone] section.
+* Disabled - Alarm rings at volume set in link:/docs/alarms/ringtone.html[Ringtone] section.
 * 1-24 minutes - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
 Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
 * Disabled - No vibrations on phone at all.
@@ -41,7 +41,7 @@ Play alarm in silent profile:: Alarm sound will override phone's silent mode.
 
 .Snooze / Dismiss
 [horizontal]
-Snooze:: See link:../alarms/snooze.html[Snooze].
+Snooze:: See link:/docs/alarms/snooze.html[Snooze].
 Always fullscreen alarm:: Alarm will never show up as a heads-up notification. This is especially useful from Android 10 where the notification might not show at all sometimes.
 Flip to snooze:: Lets you snooze an alarm by flipping the phone.
 Volume or camera button effect:: Allows to snooze or dismiss the alarm with volume buttons.
@@ -50,8 +50,8 @@ Long press:: Long press on dismiss button is necessary to dismiss the alarm (pre
 
 .Backup alarm
 [horizontal]
-Backup alarm:: See link:../alarms/backup.html[Backup alarm].
-Alarm timeout:: See link:../alarms/backup.html[Backup alarm].
+Backup alarm:: See link:/docs/alarms/backup.html[Backup alarm].
+Alarm timeout:: See link:/docs/alarms/backup.html[Backup alarm].
 
 .Dangerous options
 [horizontal]

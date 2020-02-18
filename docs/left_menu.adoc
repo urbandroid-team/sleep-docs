@@ -53,21 +53,21 @@ icon:ic_alarm_plus[] Add alarm:: Create new alarm.
 === Sleep as Android
 
 [horizontal]
-icon:ic_alarm[] Alarms:: Opens link:../docs/homecreen.html[List of alarms].
-icon:ic_timelapse[] Stats:: Opens link:../docs/theory/statistics_charts.html[Statistics section].
-icon:ic_action_graph[] Graphs:: Opens link:../docs/theory/sleep_graph.html[Graph section].
-icon:ic_action_stats[] Trend:: Opens link:../docs/theory/statistics_charts.html[Statistics section].
-icon:ic_lightbulb[] Advice:: Opens link:../docs/theory/advice.html[Advice].
-icon:ic_goal[] Goal:: Opens link:../docs/sleep_advanced/goals.html[Goals].
-icon:ic_action_noise[] Noise:: Opens link:../docs/sleep_basic/sleep_noise_recording.html[Noise recording section].
+icon:ic_alarm[] Alarms:: Opens link:/docs/homecreen.html[List of alarms].
+icon:ic_timelapse[] Stats:: Opens link:/docs/theory/statistics_charts.html[Statistics section].
+icon:ic_action_graph[] Graphs:: Opens link:/docs/theory/sleep_graph.html[Graph section].
+icon:ic_action_stats[] Trend:: Opens link:/docs/theory/statistics_charts.html[Statistics section].
+icon:ic_lightbulb[] Advice:: Opens link:/docs/theory/advice.html[Advice].
+icon:ic_goal[] Goal:: Opens link:/docs/sleep_advanced/goals.html[Goals].
+icon:ic_action_noise[] Noise:: Opens link:/docs/sleep_basic/sleep_noise_recording.html[Noise recording section].
 icon:ic_puzzle[] Add-ons:: Opens a list of all add-ons, and other apps from out team.
-icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on back up, see link:../docs/sleep_basic/backup_data.html[back up].
-icon:ic_action_lullaby[] Lullaby:: Opens link:../docs/sleep_basic/lullaby.html[Lullabies].
+icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on back up, see link:/docs/sleep_basic/backup_data.html[back up].
+icon:ic_action_lullaby[] Lullaby:: Opens link:/docs/sleep_basic/lullaby.html[Lullabies].
 icon:ic_cog[] Settings:: Opens general application settings.
 
 === Home screen
 
-For mode details on Home screen, please see the link:../docs/homescreen.html[Home screen].
+For mode details on Home screen, please see the link:/docs/homescreen.html[Home screen].
 
 [horizontal]
 icon:ic_dashboard[] Dashboard:: Presents all options in cards.

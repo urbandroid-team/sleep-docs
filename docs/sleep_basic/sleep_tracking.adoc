@@ -14,9 +14,9 @@ By tracking your sleep, the app enables you to:
 . See a sleep graph for every night
 . Monitor your long term sleep quality (with link:/docs/theory/sleepscore.html[sleep score] and statistics)
 . Set up goals to improve your sleep quality
-. Use link:../alarms/smart_wake_up.html[smart wake up] for the alarm
+. Use link:/docs/alarms/smart_wake_up.html[smart wake up] for the alarm
 
-TIP: link:../theory/sleep_tracking_theory.html[Go here for a more in-depth read on sleep tracking].
+TIP: link:/docs/theory/sleep_tracking_theory.html[Go here for a more in-depth read on sleep tracking].
 
 ## Where to find it
 Start sleep tracking on the app's main screen by tapping *Start sleep tracking*.
@@ -26,7 +26,7 @@ Settings can be found in
 
 ## Options
 [horizontal]
-Smart wake up:: See link:../alarms/smart_wake_up.html[Smart wake up]
+Smart wake up:: See link:/docs/alarms/smart_wake_up.html[Smart wake up]
 Awake detection:: See [Awake detection]
 
 .Automatic sleep tracking
@@ -46,7 +46,7 @@ Tutorial:: ...
 
 .Pair tracking
 [horizontal]
-Pair tracking:: Check to enable pair tracking. More details: link:../sleep_advanced/pair_tracking.html[Pair tracking].
+Pair tracking:: Check to enable pair tracking. More details: link:/docs/sleep_advanced/pair_tracking.html[Pair tracking].
 Find partner:: Tap simultaneously on two phones that are close together to form a pair.
 
 .Do not disturb when sleeping
