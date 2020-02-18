@@ -4,54 +4,51 @@ title: Editing graphs
 nav_order: 2
 parent: /docs/theory/theory.html
 ---
-
 :toc:
 
 ## What it does
-*You can edit a graph - rate the sleep, add additional awake periods, cut excess time, and add tags or comments*
+*Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.*
 
 == Where to find it
-_Graph -> tap the pencil_  icon:ic_pencil[] _button_
+_On any sleep graph, tap the pencil_  icon:ic_pencil[] _button_.
 
 == Guide
 === Rating sleep
 [cols="1,2"]
 |===
 a|image:rate.png[]
-a|By rating each sleep, you add priceless feedback to sleep statistics. Your subjective feeling is one of the most important aspect of sleep quality. If you rate your sleep conscientiously, you can review the influence of other sleep aspects on your satisfaction with sleep - e.g. how well rested you feel depending on fall asleep hour.
-Rating is especially useful when combined with tags - you can evaluate for example the influence of coffee (or alcohol, or stress) on your feeling in the morning.
+a|Rate your sleep by tapping on the stars.
+
+0 = worst sleep, 5 - best sleep.
+
+NOTE: If you leave the rating untouched, it won't count towards your statistics. If you touch it and drag it to zero, it will count as 0.
 
 |===
 
 === Adding awakes, editing start / end of the tracking
 [cols="1,2"]
 |===
-a|Tap on the section of the graph you wish to edit.
-This section gets zoomed in for more precise selection with the bars.
-You can also enter the correct times in the time stamp manually.
-When the period is selected, tap on the scissors icon in the upper right corner.
-When at least one end of the selected period is touching the beginning, or end of the tracking, the whole period is cut off from the graph (the graph is shortened).
-
-When the selected period is within the graph, the period is transformed into awake period, and its duration is subtracted from Sleep duration.
+a|. Drag across the graph section that you wish to edit.
+. That section will zoom in for more precise selection with the handles.
+. For fine-grained selection, you can enter adjust the time manually in the upper bar.
+. When the period is selected, tap on the scissors icon in the upper right corner.
+- If at least one end of the selected period is touching the start or end of the graph, the whole period is cut off from the graph (the graph is shortened).
+- When the selected period is within the graph, the period is transformed into awake period, and its duration is subtracted from sleep duration.
 a|image:edit_3.png[]
 |===
-a|When the period is selected, tap on the scissors icon in the upper right corner.
-When at least one end of the selected period is touching the beginning, or end of the tracking, the whole period is cut off from the graph (the graph is shortened).
-When the selected period is within the graph, the period is transformed into awake period, and its duration is subtracted from Sleep duration.
 
-
-=== Editing comment section and tags
+=== Editing comments and tags
 [cols="1,2"]
 |===
-a|. Open the graph editor by tapping on the icon:ic_pencil[] pencil button in the corner.
+a|Open the graph editor by tapping on the icon:ic_pencil[] pencil button.
 a|image:edit_1.png[]
 |===
 
 [cols="1,2"]
 |===
-. Now, you can choose any of the available icon tags, or you can also create your own tags; once you create a tag, it is added to the list of tags. More information about tags are explained in TODO.
+|Choose any of the available icon tags, or you can also create your own tags - read more in <</docs/tags, Tags>>.
+
 Tap on the Comment section, and type anything you would like to save as a comment.
-When tapping the icon:ic_action_full_screen[] icon, the rating, the keyboard and comment section expands.
 a|image:edit_2.png[]
 |===
 
