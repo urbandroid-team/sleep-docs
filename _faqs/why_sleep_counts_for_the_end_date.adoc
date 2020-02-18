@@ -3,3 +3,6 @@ title: Why sleep record data count towards the end date
 tags:
 - tracking
 ---
+There is no clearcut answer to which day the sleep between them belongs.
+
+We have decided to attach the sleep to the day _after_, because how you slept will largely determine how your day will be.
