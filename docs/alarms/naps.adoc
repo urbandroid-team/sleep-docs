@@ -6,23 +6,30 @@ parent: /docs/alarms/alarms.html
 ---
 
 :toc:
+:xrefstyle: full
 
 == What it does
 *Schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.*
 
-[NOTE]
-===
-EXAMPLE: Instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
-===
+[EXAMPLE]
+Instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
 
 == Where to find it
 
-Add new a alarm using _icon:ic_alarm_plus[] -> Nap button_
+Add new a alarm using _icon:ic_alarm_plus[] -> Nap button_ as shown in <<figure-nap-button>>.
 
-image:alarm_nap.png[]
+[[figure-nap-button]]
+.Switch to naps
+image::alarm_nap.png[]
+
 
 == Options
 
 From 1 minute to 10 hours
+
+[.imgflexblock]
+****
+image:alarm_nap_2.png[role="center",title="Switch to maps"]
+****
 
 image:alarm_nap_2.png[]
