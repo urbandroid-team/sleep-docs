@@ -7,11 +7,13 @@ parent: /docs/alarms/alarms.html
 :toc:
 
 == What it does
-*Power nap is a special case of smart wake up for situations when you don’t have a concrete time to wake up, but you prefer to sleep at least a given time and then wake up after your current sleep cycle ends.*
+
+*Power nap is a special case of <</docs/alarms/smart_wake_up, Smart wake-up>> for situations when you don’t have a concrete time to wake up, but you prefer to sleep at least a given time and then wake up softly after your current sleep cycle ends.*
 
 EXAMPLE::Let's say it is weekend and you can wake up any time after 10:00. Scheduling a power nap alarm for 10:00 will look for the best moment to wake you up between 10:00-11:00.[]
 
-EXAMPLE::You can do a nap of minimum 20 minutes but let Sleep as Android find you best moment afterward so power nap will make sure you sleep at least 20 minutes and find the best moment in 20+59 minutes.[]
+EXAMPLE::You can do a nap of minimum 20 minutes but let Sleep as Android find you best moment afterward so power nap will make sure you sleep at least 20 minutes and find the best moment in 20 + 59 minutes.[]
 
 == Where to find it
+
 _Settings -> Sleep tracking -> Smart wakeup -> Smart period / Nap smart period_

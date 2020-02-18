@@ -9,7 +9,9 @@ tags:
 :toc:
 
 == What it does
-*Change the sound of alarm(s) to any pleasant music of your choice for even more enjoyable mornings.*
+*Changes how will your alarm sound of alarm(s).*
+
+Choose any music or sounds from a build-in nature sounds library, from your local device storage or use online radios or streaming services such as Spotify for even more enjoyable mornings.*
 
 == Where to find it
 _Settings -> Alarm default settings -> Ringtone_
@@ -17,11 +19,10 @@ _Settings -> Alarm default settings -> Ringtone_
 == Options
 
 [horizontal]
-Silent:: Available only in settings of each specific alarm (per-alarm), won't turn off vibrations.
-Single ringtone:: Choose any option from the list.
-Alarm sound from the list:: Choose any option from the list.
-Any sound file:: Tap on the folder icon and select your chosen file.
-Own Playlist:: Tap on double check mark and choose files to create a playlist (TODO odkaz na Guide).
+Silent:: Available only in <</docs/alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
+Single ringtone:: You can choose a single ringtone or multiple ringtones to create a playlist (see below).
+Playlist:: Tap on the playlist icon in top right icon:ic_action_view_as_list[] and choose files to create your own playlist.
+Browse your local files:: Tap on the folder icon icon:ic_folder[] and select your files from your internal or external storage. The system file picker will show up and you may need to enable external storage access first before you can see it in the picker.
 Spotify playlist:: You can add your saved albums or playlists from Spotify’s _Your Library > Albums / Playlists_
 Other playlists (including <</faqs/google_play_music,Google Play Music>> playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
 File-based playlists:: You can use any file-based playlist (.m3u, .pls) you have on your phone.
