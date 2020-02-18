@@ -4,16 +4,13 @@ title: Naps
 nav_order: 2
 parent: /docs/alarms/alarms.html
 ---
-
 :toc:
 
 == What it does
-*Schedule an alarm to trigger after a certain amount of time rather than at a certain hour and minute.*
+*Schedule an alarm to trigger _after_ a certain amount of time rather than _at_ a certain hour and minute.*
 
-[NOTE]
-===
-EXAMPLE: Instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
-===
+[EXAMPLE]
+Instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
 
 == Where to find it
 
