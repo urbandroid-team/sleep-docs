@@ -1,32 +1,38 @@
 ---
 layout: default
-title: Understanding Sleep graphs
+title: How to read sleep graphs
 nav_order: 2
 parent: /docs/theory/theory.html
 ---
-
 :toc:
 
-Raw data from the sensors are aggregated into larger time frames and then used to plot the sleep graph and compute statistics.
-Tak tenhle text určitě ne TODO
+*Sleep graph is the main output of sleep tracking - it shows analysed data from all the sensors that were used during the night.*
 
 For a guide how to edit a graph, please see the <</docs/theory/graph_edit#,Graph editing chapter>>.
 
-.Sleep graph screen
-The graph screen shows up to three graphs: actigraph, hypnogram and noise graph (when Sleep noise recording is enabled). It also gives some numbers about your night, along with an option to rate and tag the record.
+// TODO: For a guide how to edit a graph, please see the <</docs/theory/graph_edit,Graph editing chapter>>.
 
-A healthy sleep (if you are a monophasic sleeper) is 7-8 hours long and consists of 5 sleep cycles where the first lasts for 70-100 minutes and the consequent cycles get longer but lighter. Each cycle consists of 5 stages lasting usually 5-15 minutes. Stage 1 and 2 are considered light sleep and this is the best time to be woken up in the morning.
-So a healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) followed by an area of deep sleep (low peaks or no peaks) lasting 40-100 minutes.
-Different resources on sleep may provide different figures though.
+== Sleep graph screen
+The graph screen shows up to three graphs:
+- actigraph
+- hypnogram
+- noise graph (when <</docs/sleep_basic/sleep_noise_recording,noise recording>> is enabled).
 
-So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup (see Setup sleep tracking TODO) or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc. See an example of such sleep graphs in the figure below.
+Graph screen also shows some statistics about your night, along with an option to rate and annotate the record.
 
-== Numbers
+//A healthy sleep (if you are a monophasic sleeper) is 7-8 hours long and consists of 5 sleep cycles where the first lasts for 70-100 minutes and the consequent cycles get longer but lighter. Each cycle consists of 5 stages lasting usually 5-15 minutes. Stage 1 and 2 are considered light sleep and this is the best time to be woken up in the morning.
+//So a healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) followed by an area of deep sleep (low peaks or no peaks) lasting 40-100 minutes.
+//Different resources on sleep may provide different figures though.
+//
+//So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup (see Setup sleep tracking  TODO: ) or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc. See an example of such sleep graphs in the figure below.
+
+== Statistics
 [cols="1,2"]
 |===
-a|image:numbers.png[]
-a|*Numbers on the sleep graphs* lorem ipsum
-- *Date* of the tracking - data is used for the morning (or day), when the trackign ended (TODO máme někde vysvětlení, proč ne k tomu předchozímu?)
+a|
+.Sleep record statistics*
+image::numbers.png[]
+a|- *Date* of the sleep - this is the date when the sleep tracking ended. See <</faqs/why_sleep_counts_for_the_end_date, explanation>>.
 - icon:ic_share_variant[] - share button
 - icon:ic_dots_vertical[] - graph menu
  - Comment
@@ -88,26 +94,25 @@ a|*The noise graph* shows how much noise (sleep talk, snoring, environmental) wa
 
 [cols="1,2"]
 |===
-a|Oxygen level (Oximeter) + heart rate
-image:hrbr.png[]
+a|.Oxygen level (Oximeter) + heart rate
+image::hrbr.png[]
 
-Light level + heart rate
-image:light.png[]
+.Light level + heart rate
+image::light.png[]
 
-Breath rate (sonar)
-image:br.png[]
+.Breath rate (sonar)
+image::sonar_breath_rate.png[]
 
-
-a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about link:/docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring])
-- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about link:/docs/sleep_basic/sleep_tracking/heart_rate.htmll[heart rate monitoring]).
+a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</docs/sleep_basic/sleep_tracking/breath_rate.html,breath rate monitoring>>)
+- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</docs/sleep_basic/sleep_tracking/heart_rate.html,heart rate monitoring>>).
 - *Orange line* = light in your room in LUX units (read more about <</docs/sleep_advanced/sleep_advanced/light.level#,light awake detection>>).
-- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about link:/docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring]).
+- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</docs/sleep_basic/sleep_tracking/breath_rate.html,breath rate monitoring>>).
 - *Dashed line* = smart period prior to alarm time (read more about <</docs/alarms/smart_wake_up#,Smart wake up>>).
 
 |===
 
 == Markers and Icons
-Beside deep sleep marked with a green dashed line and light sleep marked in blue, there are several other events depicted in the sleep graphs.
+Beside deep sleep, REM phase and light sleep, there are several other events depicted in the sleep graphs.
 
 [cols="1,2"]
 |===
@@ -132,54 +137,3 @@ icon:ic_action_mic[] Sleep noise recordings
 icon:ic_action_dream[] Lucid dreaming
 
 |===
-
-[cols="1,2"]
-|===
-a|Automatically added tags
-a|icon:ic_action_newmoon[]#newmoon
-icon:ic_action_fullmoon[] #fullmoon
-icon:ic_action_rain[] #rain
-icon:ic_action_storm[] #storm
-icon:ic_cloud[] #cloudy
-icon:ic_action_cold[] #cold
-icon:ic_action_hot[] #hot
-icon:ic_action_watch[] #watch
-icon:ic_action_geo1[] #geo01
-icon:ic_action_geo2[] #geo02
-icon:ic_action_geo3[] #geo03
-icon:ic_action_geo0[] #geo00
-icon:ic_action_home[] #home
-icon:ic_cloud_upload[] #cloud
-icon:ic_action_lullaby[] #lullaby
-icon:ic_sonar[] #sonar
-icon:ic_sleep_phaser[] #phaser
-icon:ic_pair[] #pair
-icon:ic_automagic[] #auto (automatic tracking)
-
-|===
-
-[cols="1,2"]
-|===
-a|Additional tags
-a|icon:ic_action_food[] #food
-icon:ic_walk[] #sport
-icon:ic_martini[] #alcohol
-icon:ic_action_stress[] #stress
-icon:ic_action_lullaby[] #caffeine
-icon:ic_action_love[] #love
-icon:ic_action_med[] #med
-icon:ic_action_dream[] #dream
-icon:ic_action_talk[] #talk
-icon:ic_action_noise[] #snore
-icon:ic_action_laugh[] #laugh
-icon:ic_action_sick[] #sick
-icon:ic_action_work[] #work
-icon:ic_action_cpap[] #cpap
-icon:ic_action_baby[] #baby
-icon:ic_action_mic[] #note
-icon:ic_dream_good[] #gooddream
-icon:ic_dream_bad[] #baddream
-icon:ic_action_menses[]#menses
-
-|===
-
