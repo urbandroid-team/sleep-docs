@@ -9,7 +9,7 @@ parent: /docs/theory/theory.html
 
 ## What it does
 
-Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of your <</docs/theory/sleepscore.html[Sleep score] aggregated by days or optionally by link:/docs/theory/tags,Tags>>.
+Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of your <</docs/theory/sleepscore.html,Sleep score>> aggregated by days or optionally by <</docs/theory/tags,Tags>>.
 
 #TODO: add Tags section#
 
