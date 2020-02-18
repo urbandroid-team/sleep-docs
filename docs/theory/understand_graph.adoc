@@ -172,7 +172,7 @@ icon:ic_action_dream[] #dream
 icon:ic_action_talk[] #talk
 icon:ic_action_noise[] #snore
 icon:ic_action_laugh[] #laugh
-#sick
+icon:ic_action_sick[] #sick
 icon:ic_action_work[] #work
 icon:ic_action_cpap[] #cpap
 icon:ic_action_baby[] #baby
