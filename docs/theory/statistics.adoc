@@ -13,8 +13,6 @@ Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of
 
 ## Where to find it
 
-#TODO: how does the link <</docs/homescreen#advicecard,Advice>> work#
-
 *Left ☰ menu -> Stats* or from the <</docs/homescreen#sleepscore,Sleep Score>> dashboard card.
 
 ## What you see

@@ -99,7 +99,7 @@ image:sleepphaser_position_pair.png[width=50%]
 Pair tracking cross-checks signals from both Phasers against each other and cleans them out so any signal from your partner is removed from your data.
 
 ### Controlling the light directly
-You can control the light from the link:https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol[Sleep Phaser Remote Control].
+You can control the light from the https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol[Sleep Phaser Remote Control].
 This app can also alter a few internal settings of the Phaser and do firmware upgrades.
 
 ### Advice and warnings

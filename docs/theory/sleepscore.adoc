@@ -9,7 +9,7 @@ parent: /docs/theory/theory.html
 == What it does
 *Sleep score is a complete summary of your sleep health.*
 
-Sleep score draws a lot of inspiration from the link:https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index[Pittsburgh Sleep Quality Index].
+Sleep score draws a lot of inspiration from the https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index[Pittsburgh Sleep Quality Index].
 
 == Where to find it
 - on the Dashboard, one of the cards is a Sleep Score card.

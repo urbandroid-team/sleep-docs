@@ -34,7 +34,7 @@ image:alarm_card_next_new.png[width=50%]
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
 * After tapping on this card, a player plays the file.
-Sleep score card:: See <</docs/theory/sleepscore,Sleep score>>.
+Sleep score card [[sleepscore]]:: See <</docs/theory/sleepscore,Sleep score>>.
 * Tapping on this card opens Stats (see <</docs/theory/statistics,Stats>>)
 Graphs card:: Shows you graphs from the <</docs/theory/charts,Charts section>>.
 * You can swipe through the graphs, right ↔ left.
