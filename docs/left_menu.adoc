@@ -35,7 +35,7 @@ image:chrono.png[width=20%]
 According to the research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. Our <</docs/theory/sleepcloud_study,SleepCloud study>> also came to the same conclusion.
 
 To read more about chronotype, see our documentation on
-<<..docs/theory/chrono_jetlag,social jetlag>>.
+<</docs/theory/chrono_jetlag,social jetlag>>.
 
 === Shortcuts
 
@@ -61,7 +61,7 @@ icon:ic_lightbulb[] Advice:: Opens <</docs/theory/advice,Advice>>.
 icon:ic_goal[] Goal:: Opens <</docs/sleep_advanced/goals,Goals>>.
 icon:ic_action_noise[] Noise:: Opens <</docs/sleep_basic/sleep_noise_recording,Noise recording section>>.
 icon:ic_puzzle[] Add-ons:: Opens a list of all add-ons, and other apps from out team.
-icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on back up, see <</docs/sleep_basic/backup_data,back up>>.
+icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on Back up, see <</docs/sleep_basic/backup_data,Backup>>.
 icon:ic_action_lullaby[] Lullaby:: Opens <</docs/sleep_basic/lullaby,Lullabies>>.
 icon:ic_cog[] Settings:: Opens general application settings.
 
@@ -92,3 +92,4 @@ icon:ic_gift[] Release notes:: Get informed about latest changes in Sleep and ne
 icon:ic_share_variant[] Tell friends:: You can tell your friends about your experience with Sleep as Android.
 icon:ic_translate[] Translate app:: Can you help us translating Sleep as Android? Also see <</docs/general_info,Translation>>.
 icon:ic_text[] Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org.
+

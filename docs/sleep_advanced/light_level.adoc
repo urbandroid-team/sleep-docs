@@ -6,7 +6,7 @@ parent: /docs/sleep_advanced/sleep_advanced.html
 ---
 :toc:
 
-## What it does
+== What it does
 *Measures the level of ambient light in your bedroom using the ambient light sensor (lux sensor)*
 
 When awake detection is enabled, light is being measured during sleep tracking.

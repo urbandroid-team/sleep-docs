@@ -13,7 +13,7 @@ parent: /docs/sleep_advanced
 
 == Where to find it
 // Where to find the feature's settings and other related settings used to enable the feature, optionally with description
-// EXAMPLE: _Sleep as Android -> Settings -> Wearables -> Use wearables_
+// EXAMPLE: _Settings -> Wearables -> Use wearables_
 
 == Options
 // Describe all the feature's options, see other docs pages for formatting

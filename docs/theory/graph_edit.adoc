@@ -14,14 +14,14 @@ _On any sleep graph, tap the pencil_  icon:ic_pencil[] _button_.
 
 == Guide
 === Rating sleep
-[cols="1,2"]
+[cols="2,1"]
 |===
-a|image:rate.png[]
 a|Rate your sleep by tapping on the stars.
 
 0 = worst sleep, 5 - best sleep.
 
 NOTE: If you leave the rating untouched, it won't count towards your statistics. If you touch it and drag it to zero, it will count as 0.
+a|image:rate.png[]
 
 |===
 
