@@ -17,7 +17,7 @@ Features:
 - Lucid dreaming and anti-snoring cues with light
 
 == Where to find it
-_Sleep as Android -> Settings -> Smartlight_
+_Settings -> Smartlight_
 
 == Options
 [horizontal]

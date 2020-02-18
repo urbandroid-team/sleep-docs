@@ -12,7 +12,7 @@ parent: /docs/connected_services/connected_services.html
 We use the link:https://ifttt.com/maker_webhooks[IFTTT Webhooks (formerly Maker)] channel to send triggers/events from Sleep as Android.
 
 ## Where to find it
-_Sleep as Android -> Settings -> Services -> IFTTT_
+_Settings -> Services -> IFTTT_
 
 When you enable the option, you will be taken to its settings.
 

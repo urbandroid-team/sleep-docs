@@ -13,7 +13,7 @@ Goals are free to use – but let’s be honest to ourselves. Motivation to chan
 
 
 == Where to find it
-_Sleep as Android -> Left ☰ menu -> Goal_
+_Left ☰ menu -> Goal_
 
 // == Options
 // Describe all the feature's options, see other docs pages for formatting

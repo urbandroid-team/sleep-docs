@@ -15,7 +15,7 @@ parent: /docs/connected_services/connected_services.html
 - Automatic import of walking sessions during the night (considered as awake, not considering sleep walking).
 
 ## Where to find it
-_Sleep as Android -> Settings -> Services -> Samsung Health_
+_Settings -> Services -> Samsung Health_
 
 ## Guide
 

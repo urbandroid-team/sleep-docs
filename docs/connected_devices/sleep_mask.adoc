@@ -17,7 +17,7 @@ Dedicated to be used with Sleep as Android and link:https://play.google.com/stor
 - link:https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android.html[Get it] from Happy Electronics.
 
 ## Where to find it
-_Sleep as Android -> Settings -> Smartlight -> Use Sleep Mask_
+_Settings -> Smartlight -> Use Sleep Mask_
 
 ## Guide
 ### Features

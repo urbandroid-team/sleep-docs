@@ -10,7 +10,7 @@ parent: /docs/connected_services/connected_services.html
 *Set a Spotify album or playlist as an alarm ringtone*
 
 == Where to find it
-_Sleep as Android -> Settings -> Services -> Spotify_
+_Settings -> Services -> Spotify_
 
 == Guide
 

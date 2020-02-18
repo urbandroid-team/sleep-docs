@@ -14,7 +14,7 @@ Oximeter monitors your oxygen and heart rate levels. You need a compatible devic
 The compatible oximeters are Berrymed oximeters with custom firmware. We did try a lot of oximeters that are on the market and these had the most reliable data.
 
 ## Where to find it
-_Sleep as Android -> Settings -> Wearables -> Pulse oximeter_
+_Settings -> Wearables -> Pulse oximeter_
 
 
 ## Options

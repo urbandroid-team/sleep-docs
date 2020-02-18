@@ -15,7 +15,7 @@ The app offers smart ways to track your sleep automatically similarly to what we
 
 ## Where to find it
 
-_Sleep as Android -> Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking -> After fall asleep_
+_Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking -> After fall asleep_
 
 [WARNING]
 ===

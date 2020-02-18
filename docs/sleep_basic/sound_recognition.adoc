@@ -34,7 +34,7 @@ icon:ic_action_laugh[] Laughter
 A funny bonus feature. Indeed some people #laugh heavily from their sleep.
 
 ## Where to find it
-_Sleep as Android -> Settings -> Sleep noise recording -> Sound recognition_
+_Settings -> Sleep noise recording -> Sound recognition_
 
 ## Options
 [horizontal]

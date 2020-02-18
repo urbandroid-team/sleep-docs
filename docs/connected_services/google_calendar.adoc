@@ -10,7 +10,7 @@ parent: /docs/connected_services/connected_services.html
 *Connects your alarms and sleep data to Google Calendar*
 
 ## Where to find it
-_Sleep as Android -> Settings -> Services -> Google Calendar_
+_Settings -> Services -> Google Calendar_
 
 Google Calendar needs to be installed on your device, and Android version has to be at least 4.0.
 

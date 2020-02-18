@@ -21,4 +21,4 @@ The _#light_ tag is added when you have more than 60 lux for at least 33% of the
 Light measurement also plays a role in link:/docs/sleep_basic/automatic_sleep_tracking[Automatic sleep tracking].
 
 ## Where to find it
-_Sleep as Android -> Settings -> Sleep tracking -> Awake detection -> Light_
+_Settings -> Sleep tracking -> Awake detection -> Light_

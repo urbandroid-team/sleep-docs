@@ -15,15 +15,15 @@ Pair tracking uses two cooperating phones (your and your partner’s) simultaneo
 If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.
 
 == Where to find it
-_Sleep as Android -> Settings -> Sleep tracking -> Pair tracking_
+_Settings -> Sleep tracking -> Pair tracking_
 
-_Sleep as Android -> Settings -> Sleep tracking -> Find partner_
+_Settings -> Sleep tracking -> Find partner_
 
 // ## Options
 // Describe all the feature's options, see other docs pages for formatting
 
 == Guide
-. Go to _Sleep as Android -> Settings -> Sleep tracking_.
+. Go to _Settings -> Sleep tracking_.
 . First, enable pair tracking by ticking the option _Pair tracking_.
 . Then you need to pair the phones, i.e. tell them that they should cooperate during sleep tracking. Tap on _Find partner_ simultaneously on the both phones. The two phones will attempt to connect to each other and form a pair.
 [NOTE]

@@ -9,15 +9,18 @@ parent: /docs/alarms/alarms.html
 == What it does
 *Starts ringing loudly on maximum volume if you ignore your normal alarm.*
 
+Backup alarm starts after _Alarm timeout_.
+
 == Where to find it
-_Sleep as Android -> Settings -> Alarm default settings -> Backup alarm_
+_Settings -> Alarm default settings -> Backup alarm_
 
 == Options
 [horizontal]
-Backup alarm duration:: Set for how long will the backup alarm ring (after that it gets snoozed for 10 minutes. It will ring again after a regular alarm timeout)
-Ringtone:: Selects the backup ringtone, or sets the ringtone as silent
-Alarm timeout:: Sets the time after which the backup alarm will ring if you ignore your normal alarm.
-Repeat:: Sets how many times the backup alarm will repeat – after that, no alarm rings anymore.
+Backup alarm duration:: Set for how long will the backup alarm ring (after that it gets snoozed for your default _Snooze time_, but never less than 10 minutes.
+Ringtone:: Backup alarm ringtone.
+NOTE: Backup alarm get also be set to silent.
+Alarm timeout:: Time after which the backup alarm will ring if you ignore your normal alarm.
+Repeat:: Maximum time of repeats – after that, no alarm will ring anymore.
 
 [horizontal]
 EXAMPLE:: Alarm time: 7:00
@@ -26,7 +29,7 @@ Alarm timeout: 10 minutes
 This is what happens when you don’t interact with the alarm
 7:00 – alarm starts
 7:10 – backup alarm starts (full volume, duration 2 min)
-7:12 – automatically snoozes (for 10 minutes)
+7:12 – automatically snoozes (for 10 minutes as your default snooze time is 10 minutes)
 7:22 – backup alarm starts again
 …
 …and so on, based on the number of repeats.

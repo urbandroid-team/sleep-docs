@@ -13,7 +13,7 @@ parent: /docs/sleep_advanced/sleep_advanced.html
 A link:https://med.stanford.edu/news/all-news/2016/02/study-finds-possible-new-jet-lag-treatment.html[2016 study from Stanford University School of Medicine] found that short flashes of light during sleep can shift your melatonine cycle. This can be used to prevent jet lag.
 
 ## Where to find it
-_Sleep as Android -> Settings -> Jet lag prevention_
+_Settings -> Jet lag prevention_
 
 ## Options
 
