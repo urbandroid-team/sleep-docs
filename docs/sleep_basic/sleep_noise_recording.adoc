@@ -9,7 +9,7 @@ tags:
 :toc:
 
 == What it does
-Records significant sounds while you sleep. It also <</docs/sleep_basic/sound_recognition,classifies the sounds>> into categories.
+Records significant sounds while you sleep and builds a noise profile for the night. It also <</docs/sleep_basic/sound_recognition,classifies the sounds>> into categories.
 
 NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
 
