@@ -1,0 +1,61 @@
+---
+layout: default
+title: Editing graphs
+nav_order: 2
+parent: /docs/theory/theory.html
+---
+
+:toc:
+
+## What it does
+*You can edit a graph - rate the sleep, add additional awake periods, cut excess time, and add tags.*
+
+== Where to find it
+_Graph -> tap the pencil icon:ic_pencil[] button
+
+== Guide
+=== Rating sleep
+[cols="1,2"]
+|===
+a|Rating a sleep
+image:hrbr.png[] TODO obrázek
+a|By rating each sleep, you add priceless feedback to sleep statistics. Your subjective feeling is one of the most important aspect of sleep quality. If you rate your sleep conscientiously, you can review the influence of other sleep aspects on your satisfaction with sleep - e.g. how well rested you feel depending on fall asleep hour.
+Rating is especially useful when combined with tags - you can evaluate for example the influence of coffee (or alcohol, or stress) on your feeling in the morning.
+
+|===
+
+=== Adding awakes, editing start / end of the tracking
+[cols="1,2"]
+|===
+a|Time editing
+image:hrbr.png[] TODO obrázek
+a|Adding awakes
+a|lorem ipsum
+|===
+
+[cols="2,2"]
+|===
+a| image:hrbr.png[] TODO obrázek
+a| lorem ipsum
+|===
+
+
+=== Adding tags and comments
+
+[cols="1,2"]
+|===
+a| image:hrbr.png[] TODO obrázek
+a|.Adding tags
+By opening the graph editor (tapping the icon:ic_pencil[] pencil button), you can add any of the available icon tags.
+You can also create your own tags; once you create a tag, it is added to the list of tags.
+All tags are ordered based on the frequency of use, so your most favourite ones are always accessible.
+More information about tags are explained in TODO.
+|===
+
+[cols="1,2"]
+|===
+a| image:hrbr.png[] TODO obrázek
+a|.Adding comments
+When you the graph editor (tapping the icon:ic_pencil[] pencil button), you can add a note to the graph.
+Tap on the Comment section, and type anything you would like to save as a comment.
+When tapping the icon:ic_action_full_screen[] icon, teh rating, the keyboard and comment section expands.

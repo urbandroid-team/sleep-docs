@@ -71,7 +71,7 @@ For mode details on Home screen, please see the link:../docs/homescreen.html[Hom
 
 [horizontal]
 icon:ic_dashboard[] Dashboard:: Presents all options in cards.
-icon:ic_puzzle[] Tabs:: Presents all option in tabs, list of alarm is the main screen.
+icon:ic_tab[] Tabs:: Presents all option in tabs, list of alarm is the main screen.
 icon:ic_action_track_off_white[] Alarms:: Simplified mode without any tracking-related settings.
 
 

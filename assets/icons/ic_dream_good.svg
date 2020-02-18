@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="24"
+  height="24"
+  id="svg2"
+  version="1.1"
+  inkscape:version="0.92.3 (2405546, 2018-03-11)"
+  sodipodi:docname="ic_dream_good.svg"
+  inkscape:export-filename="/home/petr/project/android-git/Sleep-actionbar2/res/drawable-mdpi/ic_dream_bad.png"
+  inkscape:export-xdpi="5.625"
+  inkscape:export-ydpi="5.625">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#808080"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="22.354371"
+     inkscape:cy="21.003719"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="741"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     gridtolerance="2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid816"
+       empspacing="2" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1028.3622)">
+    <path
+       style="fill:#ffffff;stroke-width:1"
+       d="M 12.117188 2.1347656 C 10.929569 2.1347656 9.7340694 2.3827875 8.6171875 2.8671875 C 6.0249476 3.9914875 4.0561881 6.462725 3.4160156 9.390625 C 3.1652009 10.537725 3.1704334 10.018344 3.1503906 16.277344 C 3.1400726 19.485044 3.1471877 22.109375 3.1679688 22.109375 C 3.1888157 22.109375 3.8720498 21.443959 4.6855469 20.630859 L 6.1660156 19.152344 L 7.6660156 20.654297 L 9.1679688 22.15625 L 10.669922 20.654297 L 12.173828 19.152344 L 13.673828 20.654297 L 15.175781 22.15625 L 16.677734 20.654297 L 18.181641 19.152344 L 19.669922 20.642578 L 21.160156 22.132812 L 21.160156 16.453125 C 21.160156 10.396625 21.15527 10.594334 20.925781 9.4902344 C 20.420711 7.0605344 19.005429 4.9163563 17.035156 3.5976562 C 15.576385 2.6212562 13.852934 2.1261656 12.117188 2.1347656 z M 12.117188 4.1328125 A 1.9962092 1.9962092 0 0 0 12.126953 4.1328125 C 13.478066 4.1261125 14.812718 4.5108594 15.925781 5.2558594 C 17.43135 6.2635594 18.569185 7.9668375 18.970703 9.8984375 C 19.090853 10.476437 19.107668 10.4213 19.134766 11.1875 C 19.161864 11.9537 19.164062 13.427378 19.164062 16.455078 L 19.164062 17.416016 A 1.9962092 1.9962092 0 0 0 16.771484 17.742188 L 15.267578 19.244141 A 1.9962092 1.9962092 0 0 1 15.265625 19.244141 L 15.175781 19.335938 L 15.085938 19.246094 L 13.585938 17.744141 A 1.9962092 1.9962092 0 0 0 10.763672 17.742188 L 9.2597656 19.244141 A 1.9962092 1.9962092 0 0 1 9.2578125 19.244141 L 9.1679688 19.335938 L 9.078125 19.246094 L 7.578125 17.744141 A 1.9962092 1.9962092 0 0 0 5.1445312 17.443359 C 5.1453012 17.020959 5.1450326 16.736456 5.1464844 16.285156 C 5.156507 13.155256 5.1626012 11.7048 5.1914062 11 C 5.2202113 10.2952 5.2270665 10.448306 5.3652344 9.8164062 C 5.873067 7.4938063 7.4609786 5.5455187 9.4121094 4.6992188 C 10.278388 4.3235187 11.205311 4.1328125 12.117188 4.1328125 z "
+       transform="translate(0,1028.3622)"
+       id="path6862" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.54117647;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 12.089844,1044.5103 c -0.34504,0 -0.691122,-0.042 -1.035156,-0.1171 -1.4094638,-0.3092 -2.619497,-1.2833 -3.2968755,-2.627 -0.1456016,-0.2888 -0.4765625,-1.2383 -0.4765625,-1.3613 0,-0.016 0.4191069,-0.049 0.9296875,-0.049 h 0.9082031 l 0.2636719,0.5508 c 0.3822387,0.8049 0.9864965,1.3301 1.8378905,1.6231 0.747785,0.2571 1.801248,0.1515 2.507813,-0.2617 0.455937,-0.2667 1.028622,-0.9108 1.265625,-1.4336 l 0.191406,-0.4786 h 0.908203 0.931641 l -0.04883,0.2872 c -0.161882,1.0124 -1.02501,2.3196 -1.957031,2.9609 -0.875283,0.6022 -1.894567,0.9192 -2.929687,0.9062 z"
+       id="rect818"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccssccccccccccc" />
+    <ellipse
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.54117647;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path829"
+       cx="9.6607161"
+       cy="1037.8622"
+       rx="1.5892857"
+       ry="1.5" />
+    <ellipse
+       ry="1.5"
+       rx="1.5892857"
+       cy="1037.8622"
+       cx="14.357147"
+       id="ellipse831"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.54117647;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  </g>
+</svg>
