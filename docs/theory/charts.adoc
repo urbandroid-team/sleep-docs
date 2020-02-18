@@ -26,7 +26,7 @@ Tags: All charts can be configured to be only computed from sleep records with a
 [cols="1,2"]
 |===
 a|image:charts/trend/sleepscore.png[]
-a|*Sleep score* radar chart is another way of looking at your <</docs/theory/sleepscore,sleep score>>.
+a|*Sleep score* radar chart is another way of looking at your <</docs/theory/sleepscore#,sleep score>>.
 
 You can fill each of the sleep score section with up to 5 points. The more points you have in a given section, the more healthy that dimension of your sleep is.
 
@@ -39,7 +39,7 @@ The goal is of course to fill up that chart completely!
 |===
 a|image:charts/trend/deficit.png[]
 a|*Deficit* chart is useful for tracking your sleep deficit.
-- *Blue line*: shows the deficit on a given day. If you sleep less then your <</docs/ideal_daily_sleep,ideal sleep time>>, the blue line will be negative on that day. If you sleep more, it will be positive.
+- *Blue line*: shows the deficit on a given day. If you sleep less then your <</docs/ideal_daily_sleep#,ideal sleep time>>, the blue line will be negative on that day. If you sleep more, it will be positive.
 
 - *Red / green line*: This line shows the total deficit/surplus. The most interesting point of the deficit chart is the rightmost point of this line. If it's red, it means that you have a sleep debt currently. If it's green, you are oversleeping your target.
 

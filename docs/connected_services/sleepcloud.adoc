@@ -12,10 +12,10 @@ parent: /docs/connected_services/connected_services.html
 SleepCloud lets you
 
 - view your sleep data and charts on a computer
-- <</docs/sleep_basic/backup_data,backup your data>>
+- <</docs/sleep_basic/backup_data#,backup your data>>
 
 == Where to find it
 
 Go to SleepCloud at https://sleepcloud.urbandroid.org[sleepcloud.urbandroid.org].
 
-<</docs/general_info/terms_of_service,Terms of service are here>>.
+<</docs/general_info/terms_of_service#,Terms of service are here>>.

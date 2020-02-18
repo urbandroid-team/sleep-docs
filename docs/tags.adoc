@@ -19,7 +19,7 @@ Tags can be added:
 == Guide
 
 === Adding tags
-You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also <</docs/theory/graph_edit,editing tags>>.
+You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also <</docs/theory/graph_edit#,editing tags>>.
 
 There are also predefined icon tags, and a handful of automatically added tags.
 

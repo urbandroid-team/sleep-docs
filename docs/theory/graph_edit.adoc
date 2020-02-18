@@ -47,7 +47,7 @@ a|image:edit_1.png[]
 [[tags]]
 [cols="1,2"]
 |===
-|Choose any of the available icon tags, or you can also create your own tags - read more in <</docs/tags, Tags>>.
+|Choose any of the available icon tags, or you can also create your own tags - read more in <</docs/tags#, Tags>>.
 
 Tap on the Comment section, and type anything you would like to save as a comment.
 a|image:edit_2.png[]

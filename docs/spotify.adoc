@@ -14,7 +14,7 @@ _Settings -> Services -> Spotify_
 
 == Guide
 
-After you enable Spotify in _Settings -> Services_, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm's ringtone or lullabies. See <</docs/alarms/ringtone,Ringtone>>.
+After you enable Spotify in _Settings -> Services_, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm's ringtone or lullabies. See <</docs/alarms/ringtone#,Ringtone>>.
 
 WARNING: Our Spotify integration is all reverse engineered and thus may stop working any time Spotify updates their app.
 

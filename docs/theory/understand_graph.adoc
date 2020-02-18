@@ -10,7 +10,7 @@ parent: /docs/theory/theory.html
 Raw data from the sensors are aggregated into larger time frames and then used to plot the sleep graph and compute statistics.
 Tak tenhle text určitě ne TODO
 
-For a guide how to edit a graph, please see the <</docs/theory/graph_edit,Graph editing chapter>>.
+For a guide how to edit a graph, please see the <</docs/theory/graph_edit#,Graph editing chapter>>.
 
 .Sleep graph screen
 The graph screen shows up to three graphs: actigraph, hypnogram and noise graph (when Sleep noise recording is enabled). It also gives some numbers about your night, along with an option to rate and tag the record.
@@ -100,9 +100,9 @@ image:br.png[]
 
 a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about link:/docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring])
 - *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about link:/docs/sleep_basic/sleep_tracking/heart_rate.htmll[heart rate monitoring]).
-- *Orange line* = light in your room in LUX units (read more about <</docs/sleep_advanced/sleep_advanced/light.level,light awake detection>>).
+- *Orange line* = light in your room in LUX units (read more about <</docs/sleep_advanced/sleep_advanced/light.level#,light awake detection>>).
 - *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about link:/docs/sleep_basic/sleep_tracking/breath_rate.htmll[breath rate monitoring]).
-- *Dashed line* = smart period prior to alarm time (read more about <</docs/alarms/smart_wake_up,Smart wake up>>).
+- *Dashed line* = smart period prior to alarm time (read more about <</docs/alarms/smart_wake_up#,Smart wake up>>).
 
 |===
 

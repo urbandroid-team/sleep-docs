@@ -14,7 +14,7 @@ Bedtime notification is an effective way to maintain optimal sleep length or fig
 [NOTE]
 ====
 The time to trigger the notification is calculated as follows:
-`bedtime = next alarm time – ideal daily sleep income` See how to configure your <</docs/ideal_daily_sleep,Ideal daily sleep income>>
+`bedtime = next alarm time – ideal daily sleep income` See how to configure your <</docs/ideal_daily_sleep#,Ideal daily sleep income>>
 
 .Example:
 You've set _ideal daily sleep income_ to 7 hours, and an alarm for 6 AM.
@@ -27,7 +27,7 @@ _Settings -> Bedtime notification_
 
 == Options
 [horizontal]
-Ideal daily sleep income:: Set how much time would you ideally want to sleep each night. See also <</docs/ideal_daily_sleep,Ideal daily sleep income>>.
+Ideal daily sleep income:: Set how much time would you ideally want to sleep each night. See also <</docs/ideal_daily_sleep#,Ideal daily sleep income>>.
 Bedtime notification:: Enable bedtime notification and set how long before bedtime to receive it.
 Repeat:: How often should the notification repeat
   - Example: 10 minutes repeat will notify you once on notification time and then every 10 minutes until you swipe the notification away or start sleep tracking

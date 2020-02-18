@@ -22,7 +22,7 @@ a|- Sunrise wakeup
 - Location tagging
 - Morning weather
 - Pair tracking
-- Bluetooth-connected devices, such as <</docs/connected_devices/oximeter,Oximeter>>
+- Bluetooth-connected devices, such as <</docs/connected_devices/oximeter#,Oximeter>>
 
 a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.
 
@@ -32,32 +32,32 @@ You can completely opt-out from location storing in _Settings -> Miscellaneous_.
 
 |Microphone
 |Record audio
-a|- <</docs/sleep_basic/sleep_noise_recording,Sleep noise recording>>
-- <</docs/sensors,Sonar>>
+a|- <</docs/sleep_basic/sleep_noise_recording#,Sleep noise recording>>
+- <</docs/sensors#,Sonar>>
 |We ask you for this permission if you enable sleep noise recording or sonar.
 
 |Photos/Media/Files
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
-a|- <</docs/sleep_basic/sleep_noise_recording,Sleep noise recording>>
-- <</docs/sleep_basic/backup_data,Backup>>
+a|- <</docs/sleep_basic/sleep_noise_recording#,Sleep noise recording>>
+- <</docs/sleep_basic/backup_data#,Backup>>
 |We don’t touch your photos. We use this permission to export your sleep data to a CSV file on the SD card and to store noise recordings.
 
 |Storage
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
-a|- <</docs/sleep_basic/sleep_noise_recording,Sleep noise recording>>
-- <</docs/sleep_basic/backup_data,Backup>>
+a|- <</docs/sleep_basic/sleep_noise_recording#,Sleep noise recording>>
+- <</docs/sleep_basic/backup_data#,Backup>>
 |We don’t touch your photos. We use this permission to export your sleep data to a CSV file on the SD card and to store noise recordings.
 
 |Camera
 |Take pictures and videos
 a|- QR Captcha
 - Pee light
-- <</docs/theory/jetlag,Jet lag prevention>>
+- <</docs/theory/jetlag#,Jet lag prevention>>
 |This is used by QR Captcha in order to scan barcodes/QR codes and to toggle flashlight in several features
 
 |Wearable sensors/Activity data
 |Body sensors (like heart rate monitors)
-|<</docs/sleep_advanced/heart_rate,Heart rate monitoring>>
+|<</docs/sleep_advanced/heart_rate#,Heart rate monitoring>>
 |Enables you to use heart rate trackers along with Sleep as Android
 
 |Phone
@@ -77,7 +77,7 @@ a|- QR Captcha
 
 |Calendar
 |Read calendar events plus confidential information, add or modify calendar events and send email to guests without owners' knowledge
-| <</docs/connected_services/google_calendar,Google Calendar>>
+| <</docs/connected_services/google_calendar#,Google Calendar>>
 |Allows the app to reschedule alarms according to calendar events and public holidays, if you configure it to do so.
 
 |Wi-Fi connection information
@@ -138,7 +138,7 @@ a|- QR Captcha
 |Other
 |Control flashlight
 a|- Pee light
-- <</docs/theory/jetlag,Jet lag prevention>>
+- <</docs/theory/jetlag#,Jet lag prevention>>
 |
 
 |Other

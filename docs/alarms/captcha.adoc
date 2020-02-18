@@ -47,7 +47,7 @@ QR code:: see <<QR_NFC,QR Captcha>>
 NFC tag:: see <<QR_NFC,NFC Captcha>>
 Shake it::  Shake your phone
 Dream diary:: Write down your dream (10 characters minimum at Difficulty 1).
-NOTE: Dream diary entries are saved into back up file under Comment section see <</docs/sleep_basic/backup_data,Backup guide>>.
+NOTE: Dream diary entries are saved into back up file under Comment section see <</docs/sleep_basic/backup_data#,Backup guide>>.
 asdf
 Say cheese!:: Smile to your front camera
 Laugh Out Loud:: Laugh at your phone
