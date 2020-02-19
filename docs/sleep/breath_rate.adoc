@@ -7,13 +7,18 @@ parent: /sleep/sleep_tracking.html
 :toc:
 
 ## What it does
-*Checks your breath rate to hint you whether you should get examined by a physician for sleep apnea.*
 
-With Sleep Phaser or an oximeter, Sleep as Android enables you to track your breathing rate/oxygen levels and show them on a sleep graph.
+*<</sleep/sensors#sonar, Sonar>> or the <</devices/sleep_phaser_2, Sleep phaser>> is so sensitive we can even measure your abdominal movements and thus estimate your breath rate.*
+
+Any pause in in the detected breath rates is depicted as an O2 symbol icon::ic_action_cpap[] in the sleep graph and may hint at respiratory issues or cause by an outage of the sensor.
+
+Using <</devices/oximeter, Oximeter>> we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better and more precise respiratory issues tracking. They can even hint on any severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
 
 ## Where to find it
-1. With a Sleep Phaser, you can track your breath rate. See <</devices/sleep_phaser#,Sleep Phaser docs>> for details.
-2. With an oximeter, you can track your blood oxygen levels (SpO~2~). See <</devices/oximeter#,Oximeter docs>> for details.
+
+No action is required. You will see breath rates if you use the <</sleep/sensors#sonar, Sonar>> or the <</devices/sleep_phaser_2, Sleep phaser>> if the overall setting in your bedroom and the device in use reach the required level of sensitivity.
+
+With an oximeter, you can track your blood oxygen levels (SpO~2~). See <</devices/oximeter#,Oximeter docs>> for details.
 
 ## Options
 In _Settings -> Wearables_:
@@ -22,17 +27,24 @@ In _Settings -> Wearables_:
 Low breath rate alarm:: If enabled, this will wake you up if you have a low breathing rate (or blood oxygen level) for a while.
 
 ## Guide
-A blue line on your sleep graph shows breath/oxygen data from connected devices.
+A blue line on your sleep graph shows breath/oxygen data from connected devices, see <<breath-line>>.
 
-Whenever a significant dip in value occurs, a CPAP mask symbol will be shown on the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value.
+Whenever a significant dip in value occurs, a O2 symbol icon::ic_action_cpap[] will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value.
 
-image:breath_rate.png[width=50%]
+[[breath-line]]
+.Breath-rates in sleep graph
+image::breath_rate.png[]
 
 Read about link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[sleep apnea].
 
 ### RDI
-*Respiratory Disturbance Index* is the average count of respiratory distubance episodes per hour.
-
+*Respiratory Disturbance Index* is the average count of respiratory disturbance episodes per hour.
 E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.
+
+[horizontal]
+0 - 10:: RDI under 10 is considered normal, some of the disturbance events measure may be faults of the sensor and how tight the sensor is around your finger for instance.
+10 - 15:: RDI from 10 to 15 is considered a mild respiratory disturbance. We strongly recommend to do the measurements repeatedly to minimize any errors in measurement
+15 - 30:: RDI from 15 to 30 is considered moderate respiratory disturbance. It can be a warning sign. Definitely do measurement repeatedly to verify this result.
+30 and more:: RDI over 30 is considered severe. We recommend to consult your doctor.
 
 
