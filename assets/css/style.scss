@@ -98,14 +98,14 @@ b, strong {
 }
 
 .imageblock img {
-  margin: 1em;
+  margin-right: 1em;
 }
 .imgflexblock > .content {
   display: flex;
   flex-wrap: wrap;
   img {
     margin: 0;
-    padding-end: 0.5em;
+    padding-right: 0.5em;
     max-width: 20em;
   }
   .imageblock {
@@ -278,14 +278,7 @@ $gaps: 1,3,1,2,7;
 @import 'asciidoc';
 
 // Colors
-.color-orange {
-    color: orange;
-}
-
-.color-blue {
-    color: lightblue;
-}
-
-.color-green {
-    color: lightgreen;
-}
+.color-orange { color: orange }
+.color-blue { color: lightblue }
+.color-green { color: lightgreen }
+.color-red { color: indianred }
