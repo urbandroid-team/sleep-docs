@@ -6,91 +6,79 @@ parent: /sleep/0parent.html
 ---
 :toc:
 
-*Sleep graph is the main output of sleep tracking - it shows analysed data from all the sensors that were used during the night.*
-
-For a guide how to edit a graph, please see the <</sleep/graph_edit#,Graph editing chapter>>.
-
-// TODO: For a guide how to edit a graph, please see the <</sleep/graph_edit,Graph editing chapter>>.
+== What it is
+*Sleep graph is the <</sleep/sleep_tracking_theory#sleep-outcome,main outcome of sleep tracking>> - it shows analysed data from all the <</sleep/sensors,sensors>> that were used during the night.*
 
 == Sleep graph screen
 The graph screen shows up to three graphs:
-- actigraph
-- hypnogram
-- noise graph (when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
-Graph screen also shows some statistics about your night, along with an option to rate and annotate the record.
+- <<actigraph,actigraph>>
+- <<hypnogram,hypnogram>>
+- <<noise-graph,noise graph>> (when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
-//A healthy sleep (if you are a monophasic sleeper) is 7-8 hours long and consists of 5 sleep cycles where the first lasts for 70-100 minutes and the consequent cycles get longer but lighter. Each cycle consists of 5 stages lasting usually 5-15 minutes. Stage 1 and 2 are considered light sleep and this is the best time to be woken up in the morning.
-//So a healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) followed by an area of deep sleep (low peaks or no peaks) lasting 40-100 minutes.
-//Different resources on sleep may provide different figures though.
-//
-//So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup (see Setup sleep tracking  TODO: ) or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc. See an example of such sleep graphs in the figure below.
+Graph screen also shows <<statistics,statistics>> about your night, along with an option to rate and annotate the record.
 
-== Statistics
+
+=== Statistics
 [cols="1,2"]
 |===
 a|
-.Sleep record statistics*
+.Sleep record statistics
 image::numbers.png[]
-a|- *Date* of the sleep - this is the date when the sleep tracking ended. See <</faqs/why_sleep_counts_for_the_end_date#, explanation>>.
-- icon:ic_share_variant[] - share button
-- icon:ic_dots_vertical[] - graph menu
- - Comment
- - Noise
- - Legend
- - Color palette
- - Documentation
- - Show on map
- - Delete location
- - Delete
-// * icon:ic_information[] Documentation
-// * icon:ic_information[] FAQ
-// * icon:ic_information[] Tutorial
-// * icon:ic_action_play[] Watch video
-// * icon:ic_help[] Forum
-// * icon:ic_help[] Contact support
-// * icon:ic_bug[] Report a bug
-- *Deep sleep*: a ratio (%) and a duration (HH:MM) of all your deep sleep phases during the tracking.
-- *Duration*: sleep duration (sum of all sleep phases, awakes are not counted), and the surplus / deficit (šlo by tohle slovo udělat červeně?) from you Ideal daily sleep income.
-- *Snoring*: a percentage of time you were snoring during that tracking, and its total duration.
-
+a|*Sleep record end date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end and not start?>>
+*Deep sleep*::
+- Top value (%) shows deep sleep ratio (how big a portion of the night did you spend in deep sleep).
+- Bottom value (hours:minutes) shows deep sleep duration.
+*Duration*::
+- Top value (hours:minutes) shows sleep duration (sum of all sleep phases, awakes are not counted).
+- Bottom value shows the [color-green]#surplus# or [color-red]#deficit# compared to your <</sleep/ideal_daily_sleep,Ideal daily sleep income>>.
+*Snoring*::
+- Top value (%) shows snoring ratio (how big a portion of the night did you spend snoring).
+- Bottom value (hours:minutes) shows snoring duration.
 |===
 
-== Actigraph
+=== Actigraph
 
 [cols="1,2"]
 |===
-a|image:acti.png[]
-a|*Actigraph* is a visualization of the intensity of your nightly movements. The higher the peak, the more you’ve been moving.
-
+a|.Actigraph
+image::acti.png[]
+a|*Actigraph* shows the intensity of your nightly movements. The higher the peak, the more you’ve been moving.
 |===
 
-== Hypnogram
+=== Hypnogram
 
 [cols="1,2"]
 |===
-a|image:phase.png[]
-Red sections on graph
-image:red.png[]
-
+a|.Hypnogram
+image::phase.png[]
 a|*The hypnogram* shows your sleep phases progress during the night, estimated from actigraphy data and other inputs (e.g. awake periods).
-- *Awake*: the highest column reaching the top of the graph-
+
+- *Awake*: light green, the highest column reaching the top of the graph.
 - *REM phase and light sleep*: shown as medium green, REM has lower columns.
-- *Deep sleep*: shown as the lowest columns.
-- *Red sections*: if you see any red section on your graph, the app did not receive data from sensor (see TODO)
-
+- *Deep sleep*: shown as the lowest, dark green column.
 |===
-
-== Noise graph
 
 [cols="1,2"]
 |===
-a|image:snore.png[]
-a|*The noise graph* shows how much noise (sleep talk, snoring, environmental) was there throughout the night. When sound recognition is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with icons (icons are explained TODO) - you can read more about sound recognition or snoring detection. TODO TODO TODOTODOTODOTODOTODOOOOO
+a|.Red sections
+image::red.png[]
 
+a|Red sections on your graph indicate that the app did not receive data from sensors at that time. This usually happens when using wearables due to lost connection to the wearable. The phone's accelerometer can also (very rarely) malfunction.
 |===
 
-== Color lines
+=== Noise graph
+
+[cols="1,2"]
+|===
+a|.Noise graph
+image::snore.png[]
+a|*The noise graph* shows how much noise (sleep talk, snoring, environmental) was there throughout the night.
+
+When <</sleep/sound_recognition,sound recognition>> is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with <<markers-and-icons,icons>>.
+|===
+
+=== Colored lines
 
 [cols="1,2"]
 |===
@@ -103,37 +91,52 @@ image::light.png[]
 .Breath rate (sonar)
 image::sonar_breath_rate.png[]
 
-a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</sleep/sleep_tracking/breath_rate.html,breath rate monitoring>>)
-- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</sleep/sleep_tracking/heart_rate.html,heart rate monitoring>>).
-- *Orange line* = light in your room in LUX units (read more about <</sleep/sleep_advanced/light.level#,light awake detection>>).
-- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</sleep/sleep_tracking/breath_rate.html,breath rate monitoring>>).
+a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>)
+- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</sleep/heart_rate#,heart rate monitoring>>).
+- *Orange line* = light in your room in LUX units (read more about <</sleep/light_level#,light awake detection>>).
+- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>).
 - *Dashed line* = smart period prior to alarm time (read more about <</alarms/smart_wake_up#,Smart wake up>>).
-
 |===
 
-== Markers and Icons
-Beside deep sleep, REM phase and light sleep, there are several other events depicted in the sleep graphs.
+=== Markers and Icons
+Besides deep sleep, REM phase and light sleep, there are several other events depicted in the sleep graphs.
 
 [cols="1,2"]
 |===
-a|Icons on Actigraphy
-a|icon:ic_action_pause[] Pause of sleep tracking
-icon:clock[] Alarms and snoozed alarms
-icon:ic_action_sunrise[] Sunrise and sunset times
-icon:ic_action_noise[] Snoring events
-icon:ic_action_cpap[] Breath rate monitoring
-icon:ic_battery_60[] Battery (stand-by mode, or low battery)
-
+a|Icons on Actigraph
+a|icon:ic_action_pause[] Tracking paused
+icon:clock[] Alarm / snoozed alarm
+icon:ic_action_sunrise[] Sunrise / sunset
+icon:ic_action_noise[] Snoring event
+icon:ic_action_cpap[] Low breath rate detected (Apnea event)
+icon:ic_battery_60[] Low battery (switching to stand-by mode)
 |===
 
 [cols="1,2"]
 |===
 a|Icons on Noise graph
-a|icon:ic_action_talk[] Sleep talking events
+a|icon:ic_action_talk[] Sleep talking
 icon:ic_action_sick[] Cough and sneeze
-icon:ic_action_baby[] Baby Cry
-icon:ic_action_laugh[]Laugh
-icon:ic_action_mic[] Sleep noise recordings
+icon:ic_action_baby[] Baby cry
+icon:ic_action_laugh[] Laugh
+icon:ic_action_mic[] Sleep noise recorded
 icon:ic_action_dream[] Lucid dreaming
-
 |===
+
+== Guide
+
+=== Editing graphs
+For a guide on how to edit a graph, please see <</sleep/graph_edit#,Graph editing>>.
+
+=== How should the graphs look?
+
+As a general rule of thumb that applies to healthy individuals:
+
+A healthy sleep (for a monophasic sleeper) is 7-8 hours long and consists of 5 sleep cycles where the first lasts for 70-100 minutes and the consequent cycles get longer but lighter. Each cycle consists of 4 stages lasting usually 5-15 minutes. Stage 1 and 2 are considered light sleep and this is the best time to be woken up in the morning.
+
+A healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) followed by an area of deep sleep (low peaks or no peaks) lasting 40-100 minutes.
+Different resources on sleep may provide different figures though.
+
+So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc.
+//See examples of such sleep graphs below.
+
