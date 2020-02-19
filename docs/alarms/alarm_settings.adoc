@@ -14,7 +14,7 @@ tags:
 Most of all:
 * <</docs/alarms/smart_wake_up#,Smart wake up>> wakes you at the right sleep phase
 * <<gentle_alarm, Gentle volume increase>> finds the minimal sound to wake you
-* <</docs/connected_devices/smart_light#,Smartlight>> natural sunrise wake up
+* <</docs/devices/smart_light#,Smartlight>> natural sunrise wake up
 * and many more.
 
 We makes sure even sleepyheads wake up on time with our <</docs/alarms/captcha#,CAPTCHA>> feature.
@@ -41,7 +41,7 @@ Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
 * From start - Vibrations start at alarm time.
 * After 1-24 minutes - Vibrations start after set time.
 Alarm sound start::
-You may want to first give chance to <</docs/connected_devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
+You may want to first give chance to <</docs/devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
 * From start - Sound starts at alarm time.
 * 1-24 minutes - Sounds starts after set time.
 Play alarm in silent profile:: Alarm sound will override phone's silent mode.

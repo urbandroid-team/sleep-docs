@@ -30,7 +30,7 @@ For that, Sleep as Android gives you tools such as:
 * Bedroom <</docs/sleep_advanced/light_level,light levels measurement>>
 * Bedroom <</docs/sleep_basic/sleep_noise_recording,noise measurement>>
 * <</docs/alarms/smart_wake_up,Smart alarm>>
-* <</docs/alarms/alarm_settings#gentle_alarm,Gentle alarm volume increase>> & <</docs/connected_devices/smart_light#sunrise_alarm_guide,gentle alarm light increase / sunrise alarm>>
+* <</docs/alarms/alarm_settings#gentle_alarm,Gentle alarm volume increase>> & <</docs/devices/smart_light#sunrise_alarm_guide,gentle alarm light increase / sunrise alarm>>
 
 === Sleep outcome
 Sleep outcome is the actual shape of your sleep - the way it turns out. There are several ways to establish the quality of the sleep outcome, which together form a picture of your healthy your sleep is.

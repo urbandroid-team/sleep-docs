@@ -2,7 +2,7 @@
 layout: default
 title: Smartlight
 nav_order: 2
-parent: /docs/connected_devices/connected_devices.html
+parent: /docs/devices/connected_devices.html
 ---
 :toc:
 
@@ -52,7 +52,7 @@ Sleep tracking:: Use your connected Sleep Phaser's PIR sensor as a sensor for sl
 Start automatically:: Start tracking automatically when you start charging your phone while your Sleep Phaser is in Bluetooth range.
 NOTE: On Android 8 and later, you need to have https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter[Watch / Phaser Starter for Sleep as Android] installed in order for this to work.
 
-For complete manual for Sleep Phaser, see <</docs/connected_devices/sleep_phaser#,Sleep Phaser>>.
+For complete manual for Sleep Phaser, see <</docs/devices/sleep_phaser#,Sleep Phaser>>.
 
 .Sleep Mask
 [horizontal]

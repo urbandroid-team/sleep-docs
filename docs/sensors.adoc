@@ -12,9 +12,9 @@ parent: /docs/sleep_basic/sleep_tracking.html
 *Basic sleep tracking is done using a motion sensor.*
 
 [horizontal]
-Accelerometer:: Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see <</docs/connected_devices/smartwatch_wearables#,Smartwatch and Wearables>>.
-Sonar:: Our invention, the sonar uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.
-PIR:: Passive infrared sensor is mounted on the <</docs/connected_devices/sleep_phaser#,Sleep Phaser>> and can detect breath rate in addition to coarse movement.
+Accelerometer:: Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see <</docs/devices/smartwatch_wearables#,Smartwatch and Wearables>>.
+Sonar[[sonar]]:: Our invention, the sonar uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.
+PIR:: Passive infrared sensor is mounted on the <</docs/devices/sleep_phaser#,Sleep Phaser>> and can detect breath rate in addition to coarse movement.
 
 == Heart rate sensors
 *Heart rate is used to better distinguish awake state.*

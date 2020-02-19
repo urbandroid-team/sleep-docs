@@ -2,7 +2,7 @@
 layout: default
 title: Garmin
 nav_order: 2
-parent: /docs/connected_devices/smartwatch_wearables.html
+parent: /docs/devices/smartwatch_wearables.html
 tags:
 - garmin
 ---

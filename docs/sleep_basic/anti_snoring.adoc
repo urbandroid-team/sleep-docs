@@ -11,7 +11,7 @@ parent: /docs/sleep_advanced/sleep_advanced.html
 
 When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking and will react to try to make you stop snoring.
 
-Apart from audible anti-snoring you can also <</docs/connected_devices/smart_light#Miscellaneous,set your smartlight devices>> to react to your snoring.
+Apart from audible anti-snoring you can also <</docs/devices/smart_light#Miscellaneous,set your smartlight devices>> to react to your snoring.
 
 == Where to find it
 _Settings -> Sleep noise recording -> Anti-snoring_

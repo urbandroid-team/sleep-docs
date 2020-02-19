@@ -29,4 +29,4 @@ Each hour of timezone difference requires a day of adjustment. If you travel e.g
 
 Every night, during sleep tracking, the app will be intermittently flashing. We use 2ms flashes every 15 seconds.
 
-The source of flashes will be the phone's LED or a smartlight if you have it set up (see <</docs/connected_devices/smart_light#,Smartlight>> to find out how to do that).
+The source of flashes will be the phone's LED or a smartlight if you have it set up (see <</docs/devices/smart_light#,Smartlight>> to find out how to do that).

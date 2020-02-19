@@ -2,7 +2,7 @@
 layout: default
 title: IFTTT
 nav_order: 2
-parent: /docs/connected_services/connected_services.html
+parent: /docs/services/connected_services.html
 ---
 :toc:
 

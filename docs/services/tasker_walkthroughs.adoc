@@ -2,7 +2,7 @@
 layout: default
 title: Tasker walkthroughs
 nav_order: 1
-parent: /docs/connected_services/tasker_automate.html
+parent: /docs/services/tasker_automate.html
 grand_parent: /docs/connected_services
 ---
 
