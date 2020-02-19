@@ -23,7 +23,10 @@ _Left ☰ menu -> Goal_
 === Set up a goal
 In the Goal screen, tap on the icon:plus[] button.
 
-image:goals.png[width=50%]
+
+[[breath-line]]
+.Goal example
+image::goals.png[]
 
 . Select area in which you’d like to improve over the next 1 month (Duration, Fall asleep hour, Irregularity, Awake, Deep sleep, Snoring, Snooze)
 . Choose your motivation. You can try the goal for free, or you can bet a few bucks on yourself.

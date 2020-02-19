@@ -7,7 +7,7 @@ parent: /sleep/theory.html
 :toc:
 
 == What is it
-*Sleep as Android watches your sleep pattern trends and can tell you your <<chronotype>>, <<social-jet-lag>> level and <<sleep-irregularity>>.*
+*Sleep as Android watches your sleep pattern trends and can tell you your <<chronotype>>, <<social-jet-lag>> and <<sleep-irregularity>>.*
 
 == Chronotype
 Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark. Your currently detected chronotype is always shown in the left menu if you have at least a month of sleep data.
@@ -33,14 +33,14 @@ Social jet lag is a term pioneered by Dr. Till Roenneberg in his book https://ww
 You can see your actual social jet lag in <</sleep/charts#,Charts>>.
 
 === Workdays and weekend days
-Sleep as Android does not actually use the usual definition of workdays and weekend-days, but compute „work-like days“ and „weekend-like days“ from your historical data.
+Sleep as Android does not actually use the usual definition of workdays and weekend-days, but compute „work-like days“ and „weekend-like days“ from your historical data there are such two obvious sleep pattern clusters in your data.
 
 How do we do that? First, we cluster your data based on mid-sleep hour and sleep duration. Then we look for two sufficiently distinct clusters. If we find them, we consider the smaller one to be free days and the bigger one work days.
 
 If we fail to find those two clusters, we base the distinction on the calendar using the common pattern, where Saturday and Sunday are the free days.
 
 == Sleep irregularity
-Generally it is advised to sleep regularly – go to sleep at the same time every day and sleep for a fixed period of time.
+To get maximum of your sleep time, it is crucial to sleep regularly – go to sleep at the same time every day and sleep for a fixed period of time.
 
 Sleep as Android tracks your sleep irregularity and shows you in <</sleep/charts#,Charts>> how irregular your sleep is.
 
