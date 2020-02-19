@@ -2,7 +2,7 @@
 layout: default
 title: SleepCloud
 nav_order: 2
-parent: /services/connected_services.html
+parent: /services/0parent.html
 ---
 :toc:
 
@@ -12,7 +12,7 @@ parent: /services/connected_services.html
 SleepCloud lets you
 
 - view your sleep data and charts on a computer
-- <</sleep/backup_data#,backup your data>>
+- <</services/backup_data#,backup your data>>
 
 == Where to find it
 

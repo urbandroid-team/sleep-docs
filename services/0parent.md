@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Advanced features
-nav_order: 30
+title: Connected services
+nav_order: 50
 has_children: true
 ---

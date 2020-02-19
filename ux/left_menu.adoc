@@ -2,6 +2,7 @@
 layout: default
 title: Left ☰ menu
 nav_order: 1
+parent: /ux/0parent.html
 ---
 :toc:
 
@@ -61,7 +62,7 @@ icon:ic_lightbulb[] Advice:: Opens <</sleep/advice#,Advice>>.
 icon:ic_goal[] Goal:: Opens <</sleep/goals#,Goals>>.
 icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
 icon:ic_puzzle[] Add-ons:: Opens a list of all add-ons, and other apps from out team.
-icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on Back up, see <</sleep/backup_data#,Backup>>.
+icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on Back up, see <</services/backup_data#,Backup>>.
 icon:ic_action_lullaby[] Lullaby:: Opens <</sleep/lullaby#,Lullabies>>.
 icon:ic_cog[] Settings:: Opens general application settings.
 

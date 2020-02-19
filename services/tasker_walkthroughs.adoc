@@ -2,8 +2,7 @@
 layout: default
 title: Tasker walkthroughs
 nav_order: 1
-parent: /services/tasker_automate.html
-grand_parent: /connected_services
+parent: /services/0parent.html
 ---
 
 ## Create an “Add alarm” widget with Tasker

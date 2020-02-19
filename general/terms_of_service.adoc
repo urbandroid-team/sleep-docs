@@ -1,12 +1,12 @@
 ---
 layout: default
-title: SleepCloud Terms of service
-nav_order: 2
-parent: /general/general_info.html
+title: Terms of use
+nav_order: 204
+//parent: /general/general_info.html
 ---
 Terms of Service (the “Terms”)
 
-In order to use the SleepCloud service (the “Service”), you (the “User”) must firstly agree to this Terms. You may not use the Service if you do not accept this Terms. You understand and agree that SleepCloud will treat your use of the Service as acceptance of the Terms from that point onwards.
+In order to use the Sleep as Android and SleepCloud services (the “Service”), you (the “User”) must firstly agree to this Terms. You may not use the Service if you do not accept this Terms. You understand and agree that SleepCloud will treat your use of the Service as acceptance of the Terms from that point onwards.
 
 The provider provides this Service AS IS without any guarantees on its functionality, availability or correctness of the provided and stored data. Moreover you acknowledge and agree that SleepCloud is not liable for any loss or damage cause to you by the use of the Service including loss of user data.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Connected devices
-nav_order: 2
+title: Alarms
+nav_order: 10
 has_children: true
 ---
+

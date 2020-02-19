@@ -2,7 +2,7 @@
 layout: default
 title: Sleep time estimation
 nav_order: 2
-// parent: Sleep - basic features
+parent: /sleep/0parent.html
 ---
 :toc:
 

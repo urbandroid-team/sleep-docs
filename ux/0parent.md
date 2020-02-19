@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Alarms
-nav_order: 2
+title: User interface
+nav_order: 40
 has_children: true
 ---
-

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Permissions
-nav_order: 2
-parent: /general/general_info.html
+nav_order: 202
+//parent: /general/general_info.html
 ---
 
 Sleep as Android has a lot of functionality, some of which can be only enabled with permissions granted by user. See below on usage details for each permission.
@@ -39,13 +39,13 @@ a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
 |Photos/Media/Files
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
 a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
-- <</sleep/backup_data#,Backup>>
+- <</services/backup_data#,Backup>>
 |We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
 
 |Storage
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
 a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
-- <</sleep/backup_data#,Backup>>
+- <</services/backup_data#,Backup>>
 |We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
 
 |Camera

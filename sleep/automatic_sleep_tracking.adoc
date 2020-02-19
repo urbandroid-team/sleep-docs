@@ -2,7 +2,7 @@
 layout: default
 title: Automatic sleep tracking
 nav_order: 2
-parent: /sleep/sleep_tracking.html
+parent: /sleep/0parent.html
 ---
 :toc:
 

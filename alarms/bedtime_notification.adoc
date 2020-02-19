@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Bedtime notification
-nav_order: 2
-// parent: /alarms
+nav_order: 20
 ---
 :toc:
 

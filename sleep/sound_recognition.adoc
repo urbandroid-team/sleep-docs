@@ -2,7 +2,7 @@
 layout: default
 title: Sound recognition
 nav_order: 2
-parent: /sleep/sleep_noise_recording.html
+parent: /sleep/0parent.html
 tags:
 - sound_recognition
 ---

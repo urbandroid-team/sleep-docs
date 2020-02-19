@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Connected services
-nav_order: 2
+title: Connected devices
+nav_order: 50
 has_children: true
 ---

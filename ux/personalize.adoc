@@ -2,7 +2,7 @@
 layout: default
 title: Personalization
 nav_order: 2
-// parent: /docs
+parent: /ux/0parent.html
 ---
 :toc:
 

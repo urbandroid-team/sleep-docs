@@ -2,7 +2,7 @@
 layout: default
 title: Intent API
 nav_order: 2
-parent: /devs/developers.html
+parent: /devs/0parent.html
 
 ---
 :toc:
@@ -39,7 +39,7 @@ Dismiss Alarm:: `com.urbandroid.sleep.alarmclock.ALARM_DISMISS_CAPTCHA`
 Stop Lullaby:: `com.urbandroid.sleep.ACTION_LULLABY_STOP_PLAYBACK`
 
 Request Backup:: `com.urbandroid.sleep.REQUEST_SYNC`
-Starts the backup sync – export a CSV file, backup to Sleepcloud, Dropbox and Google Drive if connected. See <</sleep/backup_data#,Backup data>>.
+Starts the backup sync – export a CSV file, backup to Sleepcloud, Dropbox and Google Drive if connected. See <</services/backup_data#,Backup data>>.
 
 .Services
 [horizontal]

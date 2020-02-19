@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Translation
-nav_order: 2
-parent: /general/general_info.html
+nav_order: 203
+//parent: /general/general_info.html
 tags:
 - language
 ---
