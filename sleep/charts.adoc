@@ -196,9 +196,9 @@ It should be consistently between zero and your set smart period. If it's at one
 |===
 
 ==== Snooze
-[cols="1,2"]
+//[cols="1,2"]
 |===
-a|image:charts/trend/snooze.png[]
+//a|image:charts/trend/snooze.png[]
 a|*Snooze* chart shows how many minutes you've been snoozing your alarm.
 
 * *Green line*: Shows the actual snooze duration for each day.
@@ -342,37 +342,37 @@ Take a look at the curve (either blue or orange) and focus on the maximum point 
 |===
 
 ==== Fall asleep hour vs. deep sleep % / rating
-[cols="1,2"]
+//[cols="1,2"]
 |===
-a|image:charts/advice/fall_asleep_vs_deep.png[]
+//a|image:charts/advice/fall_asleep_vs_deep.png[]
 a|Shows you average values of deep sleep % / rating for sleeps that started at a given fall asleep hour.
 |===
 
 ==== Fall asleep hour vs. sleep duration
-[cols="1,2"]
+//[cols="1,2"]
 |===
-a|image:charts/advice/fall_asleep_vs_duration.png[]
+//a|image:charts/advice/fall_asleep_vs_duration.png[]
 a|Shows you average values of sleep duration for sleeps that started at a given fall asleep hour.
 |===
 
 ==== Weekday vs. deep sleep % / rating
-[cols="1,2"]
+//[cols="1,2"]
 |===
-a|image:charts/advice/weekday_vs_deep.png[]
+//a|image:charts/advice/weekday_vs_deep.png[]
 a|Shows you average values of deep sleep % / rating for sleeps that started at a given day.
 |===
 
 ==== Weekday vs. sleep duration
-[cols="1,2"]
+//[cols="1,2"]
 |===
-a|image:charts/advice/weekday_vs_duration.png[]
+//a|image:charts/advice/weekday_vs_duration.png[]
 a|Shows you average values of sleep duration for sleeps that started at a given day.
 |===
 
 ==== Fall asleep hour vs. snoring
-[cols="1,2"]
+//[cols="1,2"]
 |===
-a|image:charts/advice/fall_asleep_vs_snoring.png[]
+//a|image:charts/advice/fall_asleep_vs_snoring.png[]
 a|Shows you average values of snoring for sleeps that started at a given fall asleep hour.
 |===
 
