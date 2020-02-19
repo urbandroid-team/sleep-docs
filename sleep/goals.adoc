@@ -15,11 +15,6 @@ Goals are free to use – but let’s be honest to ourselves. Motivation to chan
 == Where to find it
 _Left ☰ menu -> Goal_
 
-// == Options
-// Describe all the feature's options, see other docs pages for formatting
-
-== Guide
-
 === Set up a goal
 In the Goal screen, tap on the icon:plus[] button.
 
@@ -42,13 +37,15 @@ image::goals.png[]
 
 After you create a goal you can check omn progress _Left ☰ menu -> Goal_, or you can see it in glance on your Dashboard <</ux/homescreen#goalcard, Goal>> card
 
-In <<goal-progress>> you see an example of a goal in progress. It consists of 3 series:
+In <<goal-progress-screen>> you see an example of a goal in progress. It consists of 3 series:
+
 * The [color-orange]#orange# line shows your target, where you want to get
 * The [color-green]#green# line is the guideline. To maximize change for a successful goal and to make your transition smooth we recommend to try to keep under or over the guideline at all times depending whether your try to increase or decrease aon of your sleep <</sleep/sleepscore#, Dimensions>>.
 * The [color-blue]#blue# line shows your current average value of the dimension you are trying to change.
++
 NOTE: Before the start of the goal we show a 30 days rolling average of the measure you try to change. But after we show the average from only the values after in the goal time range. This means at the beginning the values will probably be quite bumpy before they start to converge into more stable values.
 
-[[goal-progress]]
+[[goal-progress-screen]]
 .Checking goal progress
-image::goals-progress.png[]
+image::goal_progress.png[]
 
