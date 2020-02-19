@@ -16,7 +16,7 @@ For a guide how to edit a graph, please see the <</sleep/graph_edit#,Graph editi
 The graph screen shows up to three graphs:
 - actigraph
 - hypnogram
-- noise graph (when <</sleep/sleep_noise_recording,noise recording>> is enabled).
+- noise graph (when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
 Graph screen also shows some statistics about your night, along with an option to rate and annotate the record.
 
@@ -32,7 +32,7 @@ Graph screen also shows some statistics about your night, along with an option t
 a|
 .Sleep record statistics*
 image::numbers.png[]
-a|- *Date* of the sleep - this is the date when the sleep tracking ended. See <</faqs/why_sleep_counts_for_the_end_date, explanation>>.
+a|- *Date* of the sleep - this is the date when the sleep tracking ended. See <</faqs/why_sleep_counts_for_the_end_date#, explanation>>.
 - icon:ic_share_variant[] - share button
 - icon:ic_dots_vertical[] - graph menu
  - Comment

@@ -26,10 +26,10 @@ You can do something about the majority of those input factors in order to steer
 For that, Sleep as Android gives you tools such as:
 
 * Tags
-* <</alarms/bedtime_notification,Bedtime notifications>>
-* Bedroom <</sleep/light_level,light levels measurement>>
-* Bedroom <</sleep/sleep_noise_recording,noise measurement>>
-* <</alarms/smart_wake_up,Smart alarm>>
+* <</alarms/bedtime_notification#,Bedtime notifications>>
+* Bedroom <</sleep/light_level#,light levels measurement>>
+* Bedroom <</sleep/sleep_noise_recording#,noise measurement>>
+* <</alarms/smart_wake_up#,Smart alarm>>
 * <</alarms/alarm_settings#gentle_alarm,Gentle alarm volume increase>> & <</devices/smart_light#sunrise_alarm_guide,gentle alarm light increase / sunrise alarm>>
 
 === Sleep outcome
@@ -43,10 +43,40 @@ So when we want to know how well you sleep, we look at:
 * Detected snoring duration
 * Your subjective quality rating
 
-Those six dimensions together form your link:/sleep/sleepscore.html[_sleep score_].
+Those six dimensions together form your <</sleep/sleepscore#,sleep score>>.
 
-//== How is sleep tracked
+== How is sleep tracked
 
+Sleep scientists track sleep using two main methods:
+
+- PSG (polysomnography)
+- actigraphy
+
+=== PSG, polysomnography
+PSG is the first method used to measure sleep. If you go to a sleep lab, you will with 99% certainty undergo PSG.
+
+This is the 'heavyweight' method - the patient is usually wearing a lots of sensors:
+
+- EEG (to measure brain activity),
+- EOG (to measure eye muscle movements),
+- actigraphs (to measure overall movement),
+- EKG (to measure heart activity),
+- Pulse oximeter (to measure blood oxygenation level),
+- EMG (to measure other muscle movements),
+- and possibly other sensors.
+
+PSG is regarded as a golden standard in sleep science as it measures the most sleep dimensions.
+
+PSG distinguishes REM sleep and non-REM sleep. Non-REM is further divided into N1, N2, N3 phases.
+
+The biggest criticism of PSG is that it is too invasive - the patient is not in his home environment and is entangled in a lots of wires and other electronics that prevent him from sleeping naturally. This complicates diagnostics.
+
+=== Actigraphy
+Actigraphy is a sleep tracking method that's been on the rise first with wrist-worn actigraphs used by clinical sleep scientists, and later with the introduction of smartphones on the market as a comfortable solution for sleep tracking at home.
+
+
+
+=== PSG compared to actigraphy
 
 //-- PsG phases vs. actigraphic phases, what is deep sleep,light sleep
 

@@ -15,7 +15,7 @@ _Settings -> Bedtime notification -> Ideal daily sleep income_
 == Guide
 Ideal daily sleep income affects:
 
-- <</bedtime_notification#,bedtime notification>>
+- <</alarms/bedtime_notification#,bedtime notification>>
 - counting of your <</sleep/charts#,sleep deficit>>
 
 
