@@ -20,7 +20,7 @@ If you have a compatible heart rate sensor, you can use it to:
 [horizontal]
 Enable HR monitoring for fully integrated devices::
   _Settings -> Wearables -> Heart rate monitoring_
-  This regards all devices that we explicitly integrated, such as Pebble, Mi Band, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy. See <</docs/devices/smartwatch_wearables#,Smartwatch and Wearables>> for supported devices.
+  This regards all devices that we explicitly integrated, such as Pebble, Mi Band, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy. See <</docs/devices/wearables#,Smartwatch and Wearables>> for supported devices.
 Enable HR monitoring for devices that support direct HR over BLE (Bluetooth Low Energy)::
   _Settings -> Wearables -> Bluetooth Smart_
   This regards all other devices that have a HR sensor (such as Polar H7) and may or may not work with your device.

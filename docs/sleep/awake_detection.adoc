@@ -34,7 +34,7 @@ Movement intensity:: Is based on *significant activity* measured by a motion det
 Heart rate monitoring::
 Any heart rate peak significantly higher than the average in the last 5 minutes is marked as awake.
 * Your heart beats up to 10 BPM slower during sleep, than when awake.
-* The app supports most Bluetooth heart rate devices via BLE, and various smartwatches. Please refer to <</docs/devices/smartwatch_wearables#,Wearables>> for more details.
+* The app supports most Bluetooth heart rate devices via BLE, and various smartwatches. Please refer to <</docs/devices/wearables#,Wearables>> for more details.
 Light:: *Ambient light* in your bedroom after sunset is another hint of you being awake. We use the sensor on the phone for light tracking.
  * If there is disturbing light (more than 60 LUX, but can be adjusted with the sensitivity settings) after sunset, we consider it as an Awake.
  * The #dark icon:ic_lightbulb_off[] tag is added when you have less than 30 lux for at least 90% of the night.

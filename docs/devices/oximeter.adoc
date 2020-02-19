@@ -2,7 +2,7 @@
 layout: default
 title: Oximeter
 nav_order: 2
-parent: /docs/devices/connected_devices.html
+parent: /docs/devices/parent.html
 tags:
 - oximeter
 ---
