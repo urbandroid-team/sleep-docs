@@ -44,6 +44,8 @@ Charts card:: Shows you graphs from the <</sleep/statistics_charts#,Charts secti
 * Tapping on this card opens <</sleep/statistics_charts#,Charts section>>.
 Advice card [[advicecard]]:: Shows the current advice.
 * Tapping on this card opens <</sleep/Advice#,Advice section>>.
+Goal card [[goalcard]]:: Shows your active <</sleep/goals#, Goal>> progress. There are two progress bars one shows percentages of completion and the other time progress. With some goels the card can advice you what needs to be the next value to keep you on track to successfully finish the goal.
+* Tapping on this card opens <</sleep/Advice#,Advice section>>.
 Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 +
 [.icontable,cols="1,11"]

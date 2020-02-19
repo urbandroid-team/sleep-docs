@@ -23,9 +23,8 @@ _Left ☰ menu -> Goal_
 === Set up a goal
 In the Goal screen, tap on the icon:plus[] button.
 
-
-[[breath-line]]
-.Goal example
+[[adding-goal]]
+.Adding a new goal
 image::goals.png[]
 
 . Select area in which you’d like to improve over the next 1 month (Duration, Fall asleep hour, Irregularity, Awake, Deep sleep, Snoring, Snooze)
@@ -38,3 +37,13 @@ image::goals.png[]
 
 . Your current standing in the selected area (Here, sleep irregularity)
 . Set your goal for the next 1 month!
+
+=== Goal progress
+
+After you create a goal you can check omn progress _Left ☰ menu -> Goal_, or you can see it in glance on your Dashboard <</ux/homescreen#goalcard, Goal>> card
+
+[[goal-progress]]
+.Checking goal progress
+image::goals-progress.png[]
+
+The [color-orange]#orange#
