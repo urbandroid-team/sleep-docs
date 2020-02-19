@@ -12,13 +12,13 @@ parent: /docs/alarms/alarms.html
 == Where to find it
 
 - _Settings -> CAPTCHA: Stop oversleeping!_
-- _link:/docs/alarms/alarm_settings.html#per-alarm[Per-alarm settings] -> CAPTCHA: Stop oversleeping!_
+- _link:/docs/alarms/alarm_settings.html#per-alarm[Alarm-specific settings] -> CAPTCHA: Stop oversleeping!_
 
 NOTE: CAPTCHA can also be configured per-alarm. You can override your default CAPTCHA settings on each alarm and use a different CAPTCHA with more difficult settings on special occasions (e.g. exams) or easier CAPTCHA on the weekends.
 
 == Options
 [horizontal]
-Default CAPTCHA:: CAPTCHA for all alarms where you don't have a per-alarm CAPTCHA set.
+Default CAPTCHA:: CAPTCHA for all alarms where you don't have a alarm-specific CAPTCHA set.
 CAPTCHA Difficulty:: Allows you to set a difficulty, the more difficult the task, the more repetition of that task
 Preview:: Allows you to check how the task would look, you can try solving it.
 Settings:: A CAPTCHA may be configurable, for example..

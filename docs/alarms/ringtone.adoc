@@ -27,15 +27,17 @@ Spotify playlist:: You can add your saved albums or playlists from Spotify’s _
 Other playlists (including <</faqs/google_play_music,Google Play Music>> playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
 File-based playlists:: You can use any file-based playlist (.m3u, .pls) you have on your phone.
 
+#TODO: really?#
+
 == Guide
 
 [horizontal]
 How to create your own playlist::
-. Open Ringtone selection and tap on the TODO icon in the upper right corner.
+. Open Ringtone selection and tap on the icon:ic_action_view_as_list[] in the upper right corner.
 . Now select any combination of the available ringtones.
 . Choose the order (Shuffle / Order / Loop single) in the ⋮ menu in upper right corner.
-. Confirm the selection with "OK" button or TODO icon.
+. Confirm the selection with "OK" button or icon:ic_action_accept[].
 How to add my own song, sound file::
-. Tap on the folder TODO icon in the upper right corner.
+. Tap on the folder icon icon:ic_folder[] in the upper right corner.
 . Select a file in your file browser
 . Make sure the file is available and the app has permission for accessing that folder.

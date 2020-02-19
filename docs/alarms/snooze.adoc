@@ -10,18 +10,19 @@ parent: /docs/alarms/alarms.html
 *Snoozes delay your wake up if you do not yet feel rested on alarm time.*
 
 After hitting a snooze button on alarm screen, you get an additional period of sleep, and alarm time is postponed.
-You can also limit the snoozing to prevent oversleeping.
+You can also limit snoozing in various ways to prevent oversleeping.
 
 == Where to find it
 * _Settings -> Alarms -> Snooze_
-* link:/docs/alarms/alarm_settings.html#per-alarm[Per-alarm settings]
+* <</docs/alarms/alarm_settings#per-alarm, Alarm-specific settings>>
 
 == Options
 [horizontal]
-Snooze duration:: Default snooze time on alarm screen (the only one or the biggest button).
-Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm.
-Maximum total snooze time:: The maximum time total you are allowed to snooze. When this total is reached, you can only dismiss the alarm.
+Snooze duration:: Default snooze time on alarm screen. This appears on the big green #TODO: can we use colors # _Snooze_ button. If you enable _Changing snooze time_ there are additional snooze options as well.
+Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are not shown.
+Maximum total snooze time:: The maximum total time you are allowed to snooze. When this total time is reached, you can only use _Dismiss_.
 Halve Snooze:: Each consecutive snooze duration is halved.
-Changing snooze time:: Allows changing snooze duration on alarm screen during alarm (enables selection of different snooze durations).
-Snooze after alarm time:: Snoozing may be completely disabled after the alarm time has been reached (works only for smart alarm)
-EXAMPLE::If your alarm is set to 7:00 and due to smart wake-up it rings at 6:57, the longest possible snooze will be 3 minutes.[]
+EXAMPLE::At first the default snooze time is 10 minutes. After snoozing for 10 minutes it becomes 5 minutes, than 3 minutes and so on...[]
+Changing snooze time:: When enabled, a selection of different snooze durations occurs on the alarm screen in addition to the default snooze time.
+Snooze after alarm time:: Snoozing is be completely disabled after the set alarm time is reached (Does not have effect with disabled <</docs/alarms/smart_wake_up#, Smart wake up>>)
+EXAMPLE::If your alarm is set to 7:00 and due to Smart wake up it rings at 6:57, the maximum snooze duration is 3 minutes.[]

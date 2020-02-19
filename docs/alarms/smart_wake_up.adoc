@@ -8,12 +8,12 @@ parent: /docs/alarms/alarms.html
 :toc:
 
 == What it does
-*Looks for the best moment to wake you up.*
+*Looks for the best moment to wake you up for a great morning.*
 
 Waking up in light sleep feels natural - like on a weekend, without any alarm.
-In contrast, deep sleep wakeup (which is common with ordinary alarm clocks) leads to an unpleasant experience accompanied with feeling of tiredness, sleepiness, disorientation.
+In contrast, deep sleep wake up (which is common with ordinary alarm clocks) leads to an unpleasant experience accompanied with feeling of tiredness, sleepiness, disorientation.
 
-With smart wake up, you set up a time window (also smart wake up period), in which you’d like to be woken up once it is the right moment.
+With smart wake up, you set up a time window (also called Smart wake up period), in which you’d like to be woken up once it is the right moment.
 
 [EXAMPLE]
 Alarm time: 8:00
@@ -26,17 +26,17 @@ _Settings -> Sleep tracking -> Smart wake up_
 == Options
 [horizontal]
 Smart period:: Set the smart period - time window before alarm to be awoken in.
-* Disabled - alarm goes off at alarm time exactly
-* Power nap - special type of smart period, see <</docs/alarms/power_nap#,Power nap>>
+* Disabled - alarm goes off exactly at alarm time
+* Power nap - special type of smart period which wakes you after the alarm time, see <</docs/alarms/power_nap#,Power nap>>
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
 Nap smart period:: sets a smart period for naps with tracking and naps from shortcuts
 * Disabled - alarm goes off at alarm nap time
-* Power nap - special type of smart period, see <</docs/alarms/power_nap#,Power nap>>
+* Power nap - See <</docs/alarms/power_nap#,Power nap>>
 * 5 minutes - 2 hour - alarm goes of during the selected period prior to alarm time
 
 == Advanced options
 [horizontal]
 [[sensitivity]]
-Movement intensity:: Adjust sensitivity of smart alarm. With less sensitivity, you need more noticeable movement to trigger alarm.
-Movement occurrence:: Adjust sensitivity of smart alarm. With less sensitivity, you need more frequent movement to trigger alarm.
-Not before ideal sleep:: Does not allow the alarm to ring before reaching either ideal sleep duration or alarm time. If enabled, can lead to ignoring the smart period for the sake of reaching sleep duration closest to ideal sleep duration.
+Movement sensitivity:: Adjust sensitivity of smart alarm. With less sensitivity, you need more noticeable movement to trigger alarm.
+Not before ideal sleep:: Does not allow the alarm to ring before reaching either ideal sleep duration or alarm time.
+WARNING: In some cases this option can render Smart wake up ineffective. It can lead to ignoring the smart period for the sake of reaching ideal sleep duration.
