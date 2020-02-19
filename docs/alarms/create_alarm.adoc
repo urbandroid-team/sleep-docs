@@ -24,7 +24,7 @@ image::create_alarm.png[]
 == Options
 
 [horizontal]
-Time picker:: You can choose between analog clock time picker (default) and wheel time picker (This can be configured in <</docs/personalize#,_Settings -> Personalize -> Analog time picker_>>).
+Time picker:: You can choose between analog clock time picker (default) and wheel time picker (This can be configured in <</docs/ux/personalize#,_Settings -> Personalize -> Analog time picker_>>).
 Voice:: Use the mic icon icon:ic_action_mic[] and then say the time aloud. Google speech recognition will fill in the time.
 Keyboard:: Use the e.g. *700* text field and type the time in HHMM format.
 Wake up at the next sunrise:: Use the icon:ic_action_sunrise[] button, the alarm is scheduled for your local the sunrise time.

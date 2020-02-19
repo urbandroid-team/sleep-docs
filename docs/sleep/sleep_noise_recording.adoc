@@ -1,0 +1,44 @@
+---
+layout: default
+title: Sleep noise recording
+nav_order: 2
+tags:
+  - noise
+---
+
+:toc:
+
+== What it does
+Records significant sounds while you sleep and builds a noise profile for the night. It also <</docs/sleep/sound_recognition#,classifies the sounds>> into categories.
+
+NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
+
+== Where to find it
+_Settings -> Sleep noise recording_
+
+You can check whether the phone is recording on the sleep tracking screen - red light indicates that the phone is currently recording.
+
+image:recording/ss_noise_recording.png[width=50%]
+
+NOTE: In order to achieve good recordings, keep the phone close to your head with the microphone area clear.
+
+== Options:
+[horizontal]
+Enabled:: ...
+Record snoring, sleep talk:: Recording is triggered when a characteristic sound (snoring, talk, coughing, laughter, baby cry) is detected.
+Recording volume threshold:: The volume at which the app starts recording. The good value is usually around 10-20% (may vary with device).
+NOTE: Lower threshold increases the sensitivity = more sounds are recorded.
+
+.Sound recognition
+[horizontal]
+Sound recognition:: Enables recognition of individual sounds (snoring, talk, coughing, laughter, baby cry). See <</docs/sleep/sound_recognition#,Sound recognition>>.
+Anti-snoring:: Sets anti-snoring cues to make you stop snoring. See <</docs/sleep/anti-snoring#,Anti-snoring>>.
+
+.Advanced
+[horizontal]
+Noise statistics:: If enabled, you will be seeing noise level statistics under each sleep records. Cannot be disabled if _Record snoring, sleep talk_ is enabled.
+Storage path:: A path to your recordings saved on your device.
+Automatic delete:: If enabled, all unstarred recordings will be deleted after 7 days.
+
+
+//== How to…

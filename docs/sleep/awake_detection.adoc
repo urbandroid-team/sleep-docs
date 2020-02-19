@@ -1,0 +1,96 @@
+---
+layout: default
+title: Awake detection
+nav_order: 2
+parent: /docs/sleep/sleep_tracking.html
+---
+
+:toc:
+
+== What it does
+*Estimates your awake times during sleep tracking using various heuristics*
+
+Awake heuristics:
+* Significant movement
+* Light after sunset
+* Talking or baby crying
+* Use of phone
+*
+*  is another source of awake hints. When we sense sleep talk or baby crying.
+* Times when you snooze are recorded as short awakes
+
+<</docs/sleep/sleep_tracking_theory,Actigraphy>> (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. Anyway all the heuristics we discuss below give us a very good and solid view on your awakes which we measure as the *Efficiency* (_time sleeping / time tracking_) an important dimension in your <</docs/sleep/sleepscore, Sleep score>>.
+
+NOTE: Awake time is subtracted from your overall sleep *duration* - another important <</docs/sleep/sleepscore, Sleep score>> measure.
+
+== Where to find it
+_Settings -> Sleep tracking -> Awake detection_
+
+== Options
+
+[horizontal]
+
+Movement intensity:: Is based on *significant activity* measured by a motion detection sensor e.g. Accelerometer in phone or on a wearable, Sonar, Sleep phaser... see <</docs/sleep/sensors, Sensors>>
+Heart rate monitoring::
+Any heart rate peak significantly higher than the average in the last 5 minutes is marked as awake.
+* Your heart beats up to 10 BPM slower during sleep, than when awake.
+* The app supports most Bluetooth heart rate devices via BLE, and various smartwatches. Please refer to <</docs/devices/smartwatch_wearables#,Wearables>> for more details.
+Light:: *Ambient light* in your bedroom after sunset is another hint of you being awake. We use the sensor on the phone for light tracking.
+ * If there is disturbing light (more than 60 LUX, but can be adjusted with the sensitivity settings) after sunset, we consider it as an Awake.
+ * The #dark icon:ic_lightbulb_off[] tag is added when you have less than 30 lux for at least 90% of the night.
+ * The #light icon:ic_lightbulb[] tag is added when you have more than 60 lux for at least 33% of the night.
+Talk:: Several sounds (talking, baby cry..) may indicates awake, see <</docs/sleep/sound_recognition, Sound recognition>>.
+ * 45 minutes after beginning of tracking and 1 hour before alarm for automatic tracking.
+ * At least 4 talk-like or other events in last minute for manual tracking start.
+Snooze:: Turns any snooze or pause result into awake.
+Awake when using phone:: Adds awake automatically when the phone is held in up right position, there is minimum hand shaking and screen os on.
+NOTE: With less sensitivity settings we do not require the hand shaking threshold and up right position of the phone. But with all settings we require the screen to be on for longer than your _Phone settings -> Display -> Screen timeout_. This is becasuse yoru phone's screen may turn on by other unconscious event such as the phone is fully charges etc...
+
+[[awake-detection-settings]]
+.Awake detection settings
+image::awake_detection_settings.png[]
+
+Sensitivity settings as shown in <<awake-detection-settings>> can further fine tune awake detection. For instance in case of light detection we use a 30 LUX, 60 LUX and 120 LUX threshold with low, medium and high sensitivity.
+
+.Pause tracking
+
+[horizontal]
+Delayed sleep tracking:: Configures automatic pause time at sleep tracking start if you know your typical fall asleep time.
+Flip to pause:: Allows you to add 5 min pause by flipping your phone from the back to the display or other way around.
+
+== Pause
+
+Use the sleep tracking pause feature whenever you are tracking but not sleeping to provide our awake detection further hints.
+
+
+
+[horizontal]
+Pause button:: Available from sleep tracking screen, see <<pause-trackig>>.
+* Displays the time left,
+* Finished without your further interaction,
+* You may add +5 minutes anytime.
+Volume / camera buttons:: Adds 5 minutes every time your press the volume of camera buttons
+* Needs to be enabled in _Settings -> Sleep tracking -> Volume and camera button effect_
+* When screen off - press the power button and than one of the volume buttons or camera button.
+
+NOTE: You can also edit your sleep graph ex-post in order to correct your wake up or before fall asleep periods. See Guide for detailed instructions.
+
+
+[[pause-trackig]]
+.Pause tracking from the tracking screen
+image::pause_tracking.png[]
+
+
+== How to…
+
+[horizontal]
+
+Mark any period as awake::
+. Open the graph you wish to edit from _Left_ ☰ _menu -> Graphs ->_ open the graph.
+. Select any portion of the graph by taping on the graph directly.
+. Adjust the selection once the selected portion gets zoomed - either move the selection handles or correct the timings in the upper left corner (TODO obrázek).
+. When the proper time period is selected, tap on the (TODO obrázek) scissors icon.
+* You can revert up to 5 changes from the ⋮ _menu -> Undo_, or immediately a banned with _Undo_ button is displayed each time you edit the graph.
+Delete false-positive awakes::
+. Open ⋮ _menu -> Delete awake_.
+* Deletes all awakes from the graph.

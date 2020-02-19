@@ -1,0 +1,24 @@
+---
+layout: default
+title: Light level detection
+nav_order: 2
+parent: /docs/sleep/sleep_advanced.html
+---
+:toc:
+
+== What it does
+*Measures the level of ambient light in your bedroom using the ambient light sensor (lux sensor)*
+
+When awake detection is enabled, light is being measured during sleep tracking.
+
+You will see light level plotted on your sleep graph (in the same way as heart rates or breath is plotted), in lux units.
+_#dark_ / _#light_ tags will be added to your sleep records.
+If there is disturbing light (more than 30 lux) after sunset, we consider it as an Awake period.
+
+The _#dark_ tag is added when you have less than 30 lux for at least 90% of the night.
+The _#light_ tag is added when you have more than 60 lux for at least 33% of the night.
+
+Light measurement also plays a role in link:/docs/sleep/automatic_sleep_tracking[Automatic sleep tracking].
+
+## Where to find it
+_Settings -> Sleep tracking -> Awake detection -> Light_

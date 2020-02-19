@@ -1,0 +1,8 @@
+---
+layout: default
+title: Privacy
+nav_order: 2
+parent: /docs/general/general_info.html
+---
+
+See https://team.urbandroid.org/privacy/[https://team.urbandroid.org/privacy/] for up-to-date version of Urbandroid's privacy policy that also concerns Sleep as Android.

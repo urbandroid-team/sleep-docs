@@ -1,0 +1,53 @@
+---
+layout: default
+title: Sleep tracking theory
+nav_order: 2
+parent: /docs/sleep/theory.html
+tags:
+- theory
+---
+:toc:
+
+== What is sleep
+
+Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
+
+We expect that when we wake up, we will be feeling better than when we went to bed.
+
+But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.
+
+Sleep as Android enables you to track *inputs* and *outcome* of your sleep (the qualities of sleep itself).
+
+=== Sleep input factors
+The state in which you go to sleep, your bedroom environment, fall asleep and awake time, what you do during the day and of course your genetics are all input factors that determine how your sleep outcome is going to turn out.
+
+You can do something about the majority of those input factors in order to steer the outcome towards a healthy sleep.
+
+For that, Sleep as Android gives you tools such as:
+
+* Tags
+* <</docs/alarms/bedtime_notification,Bedtime notifications>>
+* Bedroom <</docs/sleep/light_level,light levels measurement>>
+* Bedroom <</docs/sleep/sleep_noise_recording,noise measurement>>
+* <</docs/alarms/smart_wake_up,Smart alarm>>
+* <</docs/alarms/alarm_settings#gentle_alarm,Gentle alarm volume increase>> & <</docs/devices/smart_light#sunrise_alarm_guide,gentle alarm light increase / sunrise alarm>>
+
+=== Sleep outcome
+Sleep outcome is the actual shape of your sleep - the way it turns out. There are several ways to establish the quality of the sleep outcome, which together form a picture of your healthy your sleep is.
+
+So when we want to know how well you sleep, we look at:
+
+* Sleep phases - especially the ratio of deep sleep versus light sleep
+* Duration of your sleep
+* Efficiency, ie. how long you're actually sleeping vs. being in bed
+* Detected snoring duration
+* Your subjective quality rating
+
+Those six dimensions together form your link:/docs/sleep/sleepscore.html[_sleep score_].
+
+//== How is sleep tracked
+
+
+//-- PsG phases vs. actigraphic phases, what is deep sleep,light sleep
+
+//== Why track your sleep

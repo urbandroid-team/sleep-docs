@@ -1,0 +1,159 @@
+---
+layout: default
+title: Permissions
+nav_order: 2
+parent: /docs/general/general_info.html
+---
+
+Sleep as Android has a lot of functionality, some of which can be only enabled with permissions granted by user. See below on usage details for each permission.
+
+[Attributes]
+|===
+|Permission |Google's description |Used by feature | Notes
+
+|Contacts / Accounts
+|
+|We have removed this permission since it is not needed anymore by Sleep as Android.
+|
+
+|Location
+|Approximate location (network-based), precise location (GPS and network-based)
+a|- Sunrise wakeup
+- Location tagging
+- Morning weather
+- Pair tracking
+- Bluetooth-connected devices, such as <</docs/devices/oximeter#,Oximeter>>
+
+a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.
+
+For all of this, we would be okay with _approximate location_ permission. However for _bluetooth connecting_ and _pair tracking_ features, we have to also ask for _precise location_.
+
+You can completely opt-out from location storing in _Settings -> Miscellaneous_.
+
+|Microphone
+|Record audio
+a|- <</docs/sleep/sleep_noise_recording#,Sleep noise recording>>
+- <</docs/sleep/sensors#,Sonar>>
+|This permission is needed to access sounds form your microphone so that features such as <</docs/sleep/sleep_noise_recording, Sleep noise recording>> or <</docs/sensors#sonar, Sonar>>.
+
+|Photos/Media/Files
+|Read the contents of your USB storage, modify or delete the contents of your USB storage
+a|- <</docs/sleep/sleep_noise_recording#,Sleep noise recording>>
+- <</docs/sleep/backup_data#,Backup>>
+|We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
+
+|Storage
+|Read the contents of your USB storage, modify or delete the contents of your USB storage
+a|- <</docs/sleep/sleep_noise_recording#,Sleep noise recording>>
+- <</docs/sleep/backup_data#,Backup>>
+|We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
+
+|Camera
+|Take pictures and videos
+a|- QR Captcha
+- Pee light
+- <</docs/sleep/jetlag#,Jet lag prevention>>
+|This is used by QR Captcha in order to scan barcodes / QR codes and to toggle flashlight in several features. Also the Smile <</docs/alarms/captcha, CAPTCHA>> uses this to detect your smile to dismiss your alarm in the morning.
+
+|Wearable sensors/Activity data
+|Body sensors (like heart rate monitors)
+|<</docs/sleep/heart_rate#,Heart rate monitoring>>
+|Enables you to use heart rate trackers along with Sleep as Android
+
+|Phone
+|Read phone status and identity
+|_Privacy -> Handle phone calls_
+|Used to stop lullabies or recording when you get into a phone call.
+
+|Device ID & call information
+|Read phone status and identity
+|Alarm
+|Used to stop ringing the alarm when you're in-call.
+
+|Device & app history
+|Retrieve running apps
+|
+|
+
+|Calendar
+|Read calendar events plus confidential information, add or modify calendar events and send email to guests without owners' knowledge
+| <</docs/services/google_calendar#,Google Calendar>>
+|Allows the app to reschedule alarms according to calendar events and public holidays, if you configure it to do so.
+
+|Wi-Fi connection information
+|View Wi-Fi connections
+|Online radio alarm, IFTTT, Spotify, Smartlight
+|Used to check whether WiFi is available.
+
+|Other
+|Receive data from Internet
+|Lots of features such as online radios, weather reports, backup etc.
+|
+
+|Other
+|Connect and disconnect from Wi-Fi
+|Online radio alarm, IFTTT, Spotify, Smartlight
+|Used while sleep tracking to briefly connect to Wi-Fi for features that you set up.
+
+|Other
+|View network connections
+|
+|
+
+|Other
+|Pair with Bluetooth devices
+|Oximeter, Sleep Phaser
+|Used to directly connect to Bluetooth devices.
+
+|Other
+|Access Bluetooth settings
+|Oximeter, Sleep Phaser
+|Used to directly connect to Bluetooth devices.
+
+|Other
+|Control Near Field Communication
+|NFC Captcha
+|
+
+|Other
+|Control vibration
+|Alarm
+|
+
+|Other
+|Modify system settings
+|
+|
+
+|Other
+|Draw over other apps
+|
+|
+
+|Other
+|Run at startup
+|Alarms
+|To be able to reschedule alarms after the device reboots.
+
+|Other
+|Control flashlight
+a|- Pee light
+- <</docs/sleep/jetlag#,Jet lag prevention>>
+|
+
+|Other
+|Prevent device from sleeping
+|Sleep tracking
+|We need to read data from sensors for the whole night. If the device goes to sleep, we cannot read data from sensors.
+
+|Other
+|Disable your screen lock
+|
+|
+
+|Other
+|Full network access
+|
+|
+
+|===
