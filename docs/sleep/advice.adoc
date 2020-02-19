@@ -2,7 +2,7 @@
 layout: default
 title: Advice
 nav_order: 2
-parent: /docs/sleep/theory.html
+parent: /sleep/theory.html
 ---
 :toc:
 
@@ -10,7 +10,7 @@ parent: /docs/sleep/theory.html
 Advice shows your current sleep development at a glance. You see which dimensions of your sleep have improved or worsened recently including tips on how to reverse the worsening trends.
 
 == Where to find it
-*Left ☰ menu -> Advice* or from the <</docs/ux/homescreen#advicecard,Advice>> dashboard card.
+*Left ☰ menu -> Advice* or from the <</ux/homescreen#advicecard,Advice>> dashboard card.
 
 == General description
 Advice watches recent trends in the main sleep dimensions (Duration, Irregularity, Deep sleep %, Snoring, Social jet-lag...).
@@ -34,7 +34,7 @@ For some dimensions there are further checks, such as whether your data are with
 |Duration
 a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
 * Is it in healthy bounds for your age? General (6.5 - 9), school age (9 - 11), teenager (8 - 10), young (7 - 9), elderly (6 - 9).
-* Does it meets your <</docs/sleep/ideal_daily_sleep#,Ideal daily sleep>> target?
+* Does it meets your <</sleep/ideal_daily_sleep#,Ideal daily sleep>> target?
 * How does it compare to others in your country?
 
 
@@ -66,7 +66,7 @@ Your age for the duration healthy bounds can be configured in _Settings -> Sleep
 
 [horizontal]
 Congrats:: Shows an improvement in a given dimension.
-Caution:: Shows a worsening with tips on how to improve and links to setup <</docs/sleep/goals#,Goals>>.
+Caution:: Shows a worsening with tips on how to improve and links to setup <</sleep/goals#,Goals>>.
 Neutral:: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occurring a lot lately we cannot say it is good or bad.
 
 == Examples

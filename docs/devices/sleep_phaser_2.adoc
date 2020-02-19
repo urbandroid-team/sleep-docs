@@ -2,7 +2,7 @@
 layout: default
 title: Sleep Phaser v2
 nav_order: 2
-parent: /docs/devices/sleep_phaser.html
+parent: /devices/sleep_phaser.html
 tags:
 - phaser_v2
 ---
@@ -44,7 +44,7 @@ On top of the Phaser, there is a touch button that controls the light. It has th
 - moderate orange
 - dark red
 
-The light can also be controlled via Sleep app – bottom menu during <</docs/sleep/sleep_tracking#,sleep tracking>>.
+The light can also be controlled via Sleep app – bottom menu during <</sleep/sleep_tracking#,sleep tracking>>.
 
 [.text-center]
 image::sleepphaser2.png[width=50%]
@@ -72,7 +72,7 @@ NOTE: The Phaser turns off the light after 30 minutes.
 
 ### Sleep tracking
 
-<</docs/sleep/sleep_tracking#,Sleep tracking>> with Sleep Phaser can be started either manually or automatically.
+<</sleep/sleep_tracking#,Sleep tracking>> with Sleep Phaser can be started either manually or automatically.
 
 [horizontal]
 Manual start:: In Sleep as Android app, tap the moon button. The app will connect to the Sleep Phaser and start sleep tracking right away.
@@ -89,7 +89,7 @@ image:sleepphaser_position.png[width=50%]
 #### Tracking with two Sleep Phasers (Pair tracking)
 To track two people in one bed with two Phasers (Dual Phasers):
 
-. enable _Settings -> Sleep tracking -> <</docs/sleep/pair_tracking#,Pair tracking>>_ on both phones
+. enable _Settings -> Sleep tracking -> <</sleep/pair_tracking#,Pair tracking>>_ on both phones
 . tap _Settings -> Sleep tracking -> Find partner_ simultaneously on both phones.
 
 Position the Phasers as indicated in the image below.

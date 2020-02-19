@@ -2,7 +2,7 @@
 layout: default
 title: Ringtone
 nav_order: 2
-parent: /docs/alarms/alarms.html
+parent: /alarms/alarms.html
 tags:
 - ringtone
 ---
@@ -19,7 +19,7 @@ _Settings -> Alarm default settings -> Ringtone_
 == Options
 
 [horizontal]
-Silent:: Available only in <</docs/alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
+Silent:: Available only in <</alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
 Single ringtone:: You can choose a single ringtone or multiple ringtones to create a playlist (see below).
 Playlist:: Tap on the playlist icon in top right icon:ic_action_view_as_list[] and choose files to create your own playlist.
 Browse your local files:: Tap on the folder icon icon:ic_folder[] and select your files from your internal or external storage. The system file picker will show up and you may need to enable external storage access first before you can see it in the picker.

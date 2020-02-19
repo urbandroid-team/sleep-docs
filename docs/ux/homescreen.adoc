@@ -34,16 +34,16 @@ image:alarm_card_next_new.png[width=50%]
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
 * After tapping on this card, a player plays the file.
-Sleep score card [[sleepscore]]:: See <</docs/sleep/sleepscore#,Sleep score>>.
-* Tapping on this card opens Stats (see <</docs/sleep/statistics#,Stats>>)
-Graphs card:: Shows you graphs from the <</docs/sleep/charts#,Charts section>>.
+Sleep score card [[sleepscore]]:: See <</sleep/sleepscore#,Sleep score>>.
+* Tapping on this card opens Stats (see <</sleep/statistics#,Stats>>)
+Graphs card:: Shows you graphs from the <</sleep/charts#,Charts section>>.
 * You can swipe through the graphs, right ↔ left.
 * Tapping on this card open the last graph (how to read graphs - TODO link, jestli něco bude)
 Noise card:: TODO
-Charts card:: Shows you graphs from the <</docs/sleep/statistics_charts#,Charts section>>.
-* Tapping on this card opens <</docs/sleep/statistics_charts#,Charts section>>.
+Charts card:: Shows you graphs from the <</sleep/statistics_charts#,Charts section>>.
+* Tapping on this card opens <</sleep/statistics_charts#,Charts section>>.
 Advice card [[advicecard]]:: Shows the current advice.
-* Tapping on this card opens <</docs/sleep/Advice#,Advice section>>.
+* Tapping on this card opens <</sleep/Advice#,Advice section>>.
 Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 +
 [.icontable,cols="1,11"]
@@ -65,7 +65,7 @@ Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 
 |===
 +
-NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep, and Sleep tracking) for your main screen, for details, see  link:/docs/sleep_advanced[the instruction] how to do it.
+NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep, and Sleep tracking) for your main screen, for details, see  link:/sleep_advanced[the instruction] how to do it.
 Add-on card::
 A short presentation of our add-ons, compatible devices or our other apps.
 * Tapping on this card opens list of add-ons and other applications made by our team.
@@ -76,9 +76,9 @@ A short presentation of our add-ons, compatible devices or our other apps.
 [horizontal]
 Alarm tab:: Shows you the <<alarm_list,list of all alarms>>
 Dashboard tab:: Lists all cards from Dashboard except the  Alarm card
-Stats tab:: Shows <</docs/sleep/statistics_charts#,statistics charts>>.
-Graphs tab:: Shows list of <</docs/sleep/sleep_graph#,Graphs>>.
-Noise tab::  Shows the list of <</docs/sleep/sleep_noise_recording#,Noise recording>>.
+Stats tab:: Shows <</sleep/statistics_charts#,statistics charts>>.
+Graphs tab:: Shows list of <</sleep/sleep_graph#,Graphs>>.
+Noise tab::  Shows the list of <</sleep/sleep_noise_recording#,Noise recording>>.
 Add-ons tab:: A list of add-ons and other applications made by our team.
 Show tab:: A list of available tabs, allows you to choose the active / hidden tabs.
 

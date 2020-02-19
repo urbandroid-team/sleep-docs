@@ -3,7 +3,7 @@ layout: default
 title: Tasker, Automate
 nav_order: 2
 has_children: true
-parent: /docs/services/connected_services.html
+parent: /services/connected_services.html
 ---
 :toc:
 

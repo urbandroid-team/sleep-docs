@@ -2,7 +2,7 @@
 layout: default
 title: Light level detection
 nav_order: 2
-parent: /docs/sleep/sleep_advanced.html
+parent: /sleep/sleep_advanced.html
 ---
 :toc:
 
@@ -18,7 +18,7 @@ If there is disturbing light (more than 30 lux) after sunset, we consider it as 
 The _#dark_ tag is added when you have less than 30 lux for at least 90% of the night.
 The _#light_ tag is added when you have more than 60 lux for at least 33% of the night.
 
-Light measurement also plays a role in link:/docs/sleep/automatic_sleep_tracking[Automatic sleep tracking].
+Light measurement also plays a role in link:/sleep/automatic_sleep_tracking[Automatic sleep tracking].
 
 ## Where to find it
 _Settings -> Sleep tracking -> Awake detection -> Light_

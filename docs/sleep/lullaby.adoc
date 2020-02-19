@@ -2,7 +2,7 @@
 layout: default
 title: Lullaby
 nav_order: 2
-// parent: /docs/sleep/sleep_tracking.html
+// parent: /sleep/sleep_tracking.html
 ---
 
 :toc:

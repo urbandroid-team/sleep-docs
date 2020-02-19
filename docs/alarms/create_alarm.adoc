@@ -2,7 +2,7 @@
 layout: default
 title: Create alarm
 nav_order: 2
-parent: /docs/alarms/alarms.html
+parent: /alarms/alarms.html
 ---
 :toc:
 
@@ -11,11 +11,11 @@ parent: /docs/alarms/alarms.html
 
 == Where to find it
 
-New alarms are created using the icon:ic_alarm_plus[] or by using any of the sleep or nap shortcuts which create a new alarm (with the _Delete after ringing_ option enabled) and start sleep tracking in one step (see <</docs/homescreen#shortcut, Shortcuts>>)
+New alarms are created using the icon:ic_alarm_plus[] or by using any of the sleep or nap shortcuts which create a new alarm (with the _Delete after ringing_ option enabled) and start sleep tracking in one step (see <</homescreen#shortcut, Shortcuts>>)
 
 To quickly edit trigger time of an existing alarm, tap on the time of the alarm.
 
-To edit <</docs/alarm_settings#per-alarm,Alarm-specific>> settings of your alarm, tap anywhere else than the the alarm time or the alarm switch button.
+To edit <</alarm_settings#per-alarm,Alarm-specific>> settings of your alarm, tap anywhere else than the the alarm time or the alarm switch button.
 
 [[figure-nap-button]]
 .Create new alarm
@@ -24,7 +24,7 @@ image::create_alarm.png[]
 == Options
 
 [horizontal]
-Time picker:: You can choose between analog clock time picker (default) and wheel time picker (This can be configured in <</docs/ux/personalize#,_Settings -> Personalize -> Analog time picker_>>).
+Time picker:: You can choose between analog clock time picker (default) and wheel time picker (This can be configured in <</ux/personalize#,_Settings -> Personalize -> Analog time picker_>>).
 Voice:: Use the mic icon icon:ic_action_mic[] and then say the time aloud. Google speech recognition will fill in the time.
 Keyboard:: Use the e.g. *700* text field and type the time in HHMM format.
 Wake up at the next sunrise:: Use the icon:ic_action_sunrise[] button, the alarm is scheduled for your local the sunrise time.

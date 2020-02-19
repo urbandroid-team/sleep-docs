@@ -2,7 +2,7 @@
 layout: default
 title: Sleep tracking theory
 nav_order: 2
-parent: /docs/sleep/theory.html
+parent: /sleep/theory.html
 tags:
 - theory
 ---
@@ -26,11 +26,11 @@ You can do something about the majority of those input factors in order to steer
 For that, Sleep as Android gives you tools such as:
 
 * Tags
-* <</docs/alarms/bedtime_notification,Bedtime notifications>>
-* Bedroom <</docs/sleep/light_level,light levels measurement>>
-* Bedroom <</docs/sleep/sleep_noise_recording,noise measurement>>
-* <</docs/alarms/smart_wake_up,Smart alarm>>
-* <</docs/alarms/alarm_settings#gentle_alarm,Gentle alarm volume increase>> & <</docs/devices/smart_light#sunrise_alarm_guide,gentle alarm light increase / sunrise alarm>>
+* <</alarms/bedtime_notification,Bedtime notifications>>
+* Bedroom <</sleep/light_level,light levels measurement>>
+* Bedroom <</sleep/sleep_noise_recording,noise measurement>>
+* <</alarms/smart_wake_up,Smart alarm>>
+* <</alarms/alarm_settings#gentle_alarm,Gentle alarm volume increase>> & <</devices/smart_light#sunrise_alarm_guide,gentle alarm light increase / sunrise alarm>>
 
 === Sleep outcome
 Sleep outcome is the actual shape of your sleep - the way it turns out. There are several ways to establish the quality of the sleep outcome, which together form a picture of your healthy your sleep is.
@@ -43,7 +43,7 @@ So when we want to know how well you sleep, we look at:
 * Detected snoring duration
 * Your subjective quality rating
 
-Those six dimensions together form your link:/docs/sleep/sleepscore.html[_sleep score_].
+Those six dimensions together form your link:/sleep/sleepscore.html[_sleep score_].
 
 //== How is sleep tracked
 

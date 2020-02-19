@@ -2,7 +2,7 @@
 layout: default
 title: Sleep score
 nav_order: 2
-parent: /docs/sleep/theory.html
+parent: /sleep/theory.html
 ---
 :toc:
 

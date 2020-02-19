@@ -59,7 +59,7 @@ NOTE: If you don't import immediately, the app will replace your `sleep-export.c
 +
 
 
-You can open the CSV file on your computer (e.g. in Excel) for your own analysis of the sleep tracking data. The structure of the CSV file is <</docs/devs/csv#,documented here>>.
+You can open the CSV file on your computer (e.g. in Excel) for your own analysis of the sleep tracking data. The structure of the CSV file is <</devs/csv#,documented here>>.
 
 ### Backup to SleepCloud (recommended)
 [[sleepcloud_backup]]

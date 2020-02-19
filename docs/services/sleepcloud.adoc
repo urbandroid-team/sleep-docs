@@ -2,7 +2,7 @@
 layout: default
 title: SleepCloud
 nav_order: 2
-parent: /docs/services/connected_services.html
+parent: /services/connected_services.html
 ---
 :toc:
 
@@ -12,10 +12,10 @@ parent: /docs/services/connected_services.html
 SleepCloud lets you
 
 - view your sleep data and charts on a computer
-- <</docs/sleep/backup_data#,backup your data>>
+- <</sleep/backup_data#,backup your data>>
 
 == Where to find it
 
 Go to SleepCloud at https://sleepcloud.urbandroid.org[sleepcloud.urbandroid.org].
 
-<</docs/generalterms_of_service#,Terms of service are here>>.
+<</generalterms_of_service#,Terms of service are here>>.

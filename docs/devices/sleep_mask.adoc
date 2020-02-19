@@ -2,7 +2,7 @@
 layout: default
 title: Sleep mask
 nav_order: 2
-parent: /docs/devices/connected_devices.html
+parent: /devices/connected_devices.html
 tags:
 - sleep mask
 ---

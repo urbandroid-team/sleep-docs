@@ -2,7 +2,7 @@
 layout: default
 title: Translation
 nav_order: 2
-parent: /docs/general/general_info.html
+parent: /general/general_info.html
 tags:
 - language
 ---

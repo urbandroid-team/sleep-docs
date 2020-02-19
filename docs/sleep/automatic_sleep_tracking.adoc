@@ -2,7 +2,7 @@
 layout: default
 title: Automatic sleep tracking
 nav_order: 2
-parent: /docs/sleep/sleep_tracking.html
+parent: /sleep/sleep_tracking.html
 ---
 :toc:
 
@@ -26,8 +26,8 @@ If you do not see this option your phone probably does not support activity trac
 
 Manual only:: Sleep as Android will never start sleep tracking without you pressing the *Start sleep tracking* button with the moon icon.
 After fall asleep:: This is the most advanced automatic option where all the sophistication goes in. It uses input from your phone's activity recognition engine and uses your common sleep habits for different days of week to find the sleep times for you.
-Bedtime:: This is a very simply automatic option which starts sleep tracking at the start of your bedtime. See how is the bedtime determined <</docs/alarms/bedtime_notification#,here>>. This is useful only if you have a very regular sleep schedule.
-Smart period:: Again a simple automation which starts sleep tracking some time before the smart period. The aim of this option is to have a function <</docs/alarms/smart_wake_up#,Smart wake-up>> with minimal battery use. Using this option will provide you with incomplete sleep stats.
+Bedtime:: This is a very simply automatic option which starts sleep tracking at the start of your bedtime. See how is the bedtime determined <</alarms/bedtime_notification#,here>>. This is useful only if you have a very regular sleep schedule.
+Smart period:: Again a simple automation which starts sleep tracking some time before the smart period. The aim of this option is to have a function <</alarms/smart_wake_up#,Smart wake-up>> with minimal battery use. Using this option will provide you with incomplete sleep stats.
 
 ## How it works
 

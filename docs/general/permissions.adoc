@@ -2,7 +2,7 @@
 layout: default
 title: Permissions
 nav_order: 2
-parent: /docs/general/general_info.html
+parent: /general/general_info.html
 ---
 
 Sleep as Android has a lot of functionality, some of which can be only enabled with permissions granted by user. See below on usage details for each permission.
@@ -22,7 +22,7 @@ a|- Sunrise wakeup
 - Location tagging
 - Morning weather
 - Pair tracking
-- Bluetooth-connected devices, such as <</docs/devices/oximeter#,Oximeter>>
+- Bluetooth-connected devices, such as <</devices/oximeter#,Oximeter>>
 
 a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.
 
@@ -32,32 +32,32 @@ You can completely opt-out from location storing in _Settings -> Miscellaneous_.
 
 |Microphone
 |Record audio
-a|- <</docs/sleep/sleep_noise_recording#,Sleep noise recording>>
-- <</docs/sleep/sensors#,Sonar>>
-|This permission is needed to access sounds form your microphone so that features such as <</docs/sleep/sleep_noise_recording, Sleep noise recording>> or <</docs/sensors#sonar, Sonar>>.
+a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
+- <</sleep/sensors#,Sonar>>
+|This permission is needed to access sounds form your microphone so that features such as <</sleep/sleep_noise_recording, Sleep noise recording>> or <</sensors#sonar, Sonar>>.
 
 |Photos/Media/Files
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
-a|- <</docs/sleep/sleep_noise_recording#,Sleep noise recording>>
-- <</docs/sleep/backup_data#,Backup>>
+a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
+- <</sleep/backup_data#,Backup>>
 |We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
 
 |Storage
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
-a|- <</docs/sleep/sleep_noise_recording#,Sleep noise recording>>
-- <</docs/sleep/backup_data#,Backup>>
+a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
+- <</sleep/backup_data#,Backup>>
 |We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
 
 |Camera
 |Take pictures and videos
 a|- QR Captcha
 - Pee light
-- <</docs/sleep/jetlag#,Jet lag prevention>>
-|This is used by QR Captcha in order to scan barcodes / QR codes and to toggle flashlight in several features. Also the Smile <</docs/alarms/captcha, CAPTCHA>> uses this to detect your smile to dismiss your alarm in the morning.
+- <</sleep/jetlag#,Jet lag prevention>>
+|This is used by QR Captcha in order to scan barcodes / QR codes and to toggle flashlight in several features. Also the Smile <</alarms/captcha, CAPTCHA>> uses this to detect your smile to dismiss your alarm in the morning.
 
 |Wearable sensors/Activity data
 |Body sensors (like heart rate monitors)
-|<</docs/sleep/heart_rate#,Heart rate monitoring>>
+|<</sleep/heart_rate#,Heart rate monitoring>>
 |Enables you to use heart rate trackers along with Sleep as Android
 
 |Phone
@@ -77,7 +77,7 @@ a|- QR Captcha
 
 |Calendar
 |Read calendar events plus confidential information, add or modify calendar events and send email to guests without owners' knowledge
-| <</docs/services/google_calendar#,Google Calendar>>
+| <</services/google_calendar#,Google Calendar>>
 |Allows the app to reschedule alarms according to calendar events and public holidays, if you configure it to do so.
 
 |Wi-Fi connection information
@@ -138,7 +138,7 @@ a|- QR Captcha
 |Other
 |Control flashlight
 a|- Pee light
-- <</docs/sleep/jetlag#,Jet lag prevention>>
+- <</sleep/jetlag#,Jet lag prevention>>
 |
 
 |Other

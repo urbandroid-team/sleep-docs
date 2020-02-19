@@ -2,7 +2,7 @@
 layout: default
 title: Chronotype, Social jetlag, Sleep irregularity
 nav_order: 2
-parent: /docs/sleep/theory.html
+parent: /sleep/theory.html
 ---
 :toc:
 
@@ -18,7 +18,7 @@ image:chrono.png[]
 - *Night owl* tends to stay up active until late night, usually past midnight, and wake up later. https://en.wikipedia.org/wiki/Night_owl_(person)[Wikipedia].
 - *Morning lark* is named after a bird who rises very early in the morning. A human lark is a person who usually gets up early and feels most energetic towards the start of the day. They tend to get tired towards the evening. link:https://en.wikipedia.org/wiki/Lark_(person)[Wikipedia].
 
-You can also see your actual chronotype and chronotype trend in <</docs/sleep/charts#chronotype,Charts>>.
+You can also see your actual chronotype and chronotype trend in <</sleep/charts#chronotype,Charts>>.
 
 === Chronotype levels
 We have divided the population into 10 groups (Morning Lark 5 to 1, Night Owl 1 to 5) according to their average _mid sleep hour_ (the middle point between _fall asleep hour_ and _wake up hour_. E.g. the mid-point between 10PM and 6AM would be 2AM).
@@ -30,7 +30,7 @@ If you were Morning lark 5, you would be a morning lark with the most mid sleep 
 == Social jet lag
 Social jet lag is a term pioneered by Dr. Till Roenneberg in his book https://www.amazon.com/gp/product/0674065859/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0674065859&linkCode=as2&tag=sleeasandr-20&linkId=297ccdc6a04b2832373b0c41ca26f44f[Internal Time]. It describes a notion that when people have a completely free day, they will turn to their _natural chronotype_. But when they work a fixed schedule, they have to fight this natural tendency on workdays. This constant shifting of sleep pattern between workdays and weekend-days creates a certain tension that can be best compared to a periodic shifting of timezones – and a jet lag results.
 
-You can see your actual social jet lag in <</docs/sleep/charts#,Charts>>.
+You can see your actual social jet lag in <</sleep/charts#,Charts>>.
 
 === Workdays and weekend days
 Sleep as Android does not actually use the usual definition of workdays and weekend-days, but compute „work-like days“ and „weekend-like days“ from your historical data.
@@ -42,6 +42,6 @@ If we fail to find those two clusters, we base the distinction on the calendar u
 == Sleep irregularity
 Generally it is advised to sleep regularly – go to sleep at the same time every day and sleep for a fixed period of time.
 
-Sleep as Android tracks your sleep irregularity and shows you in <</docs/sleep/charts#,Charts>> how irregular your sleep is.
+Sleep as Android tracks your sleep irregularity and shows you in <</sleep/charts#,Charts>> how irregular your sleep is.
 
 The irregularity shown is the https://en.wikipedia.org/wiki/Variance[variance] of your mid sleep hour.

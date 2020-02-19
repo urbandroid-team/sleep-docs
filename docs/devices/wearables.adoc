@@ -2,7 +2,7 @@
 layout: default
 title: Smartwatches and Wearables
 nav_order: 2
-parent: /docs/devices/parent.html
+parent: /devices/parent.html
 no_troubleshooting: true
 has_children: true
 ---

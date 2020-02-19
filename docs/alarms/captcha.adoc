@@ -2,7 +2,7 @@
 layout: default
 title: Captcha
 nav_order: 2
-parent: /docs/alarms/alarms.html
+parent: /alarms/alarms.html
 ---
 :toc:
 
@@ -14,13 +14,13 @@ CAPTCHA's make sure you wake on time and won't be late for your daily duties. CA
 == Where to find it
 
 - _Settings -> CAPTCHA: Stop oversleeping!_
-- _<</docs/alarms/alarm_settings#per-alarm,Alarm-specific settings>> -> CAPTCHA: Stop oversleeping!_
+- _<</alarms/alarm_settings#per-alarm,Alarm-specific settings>> -> CAPTCHA: Stop oversleeping!_
 
 NOTE: CAPTCHA can also be configured in Alarm-specific settings. You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.
 
 == Options
 [horizontal]
-Default CAPTCHA:: CAPTCHA for all alarms (not overridden by <</docs/alarms/alarm_settings#per-alarm,Alarm-specific settings>>
+Default CAPTCHA:: CAPTCHA for all alarms (not overridden by <</alarms/alarm_settings#per-alarm,Alarm-specific settings>>
 CAPTCHA Difficulty:: Sets CAPTCHA difficulty. How is difficulty used depends on each CAPTCHA. E.g. Math CAPTCHA requires you to do more equitions with larger numbers
 Preview:: See the selected CAPTCHA in action.
 WARNING: We strongly recommend to test each CAPTCHA with the _Preview_ feature and use _Settings_ before it is used in the morning which can bring unwanted surprises.

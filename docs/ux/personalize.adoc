@@ -16,7 +16,7 @@ _Settings -> Personalize_
 == Options
 
 [horizontal]
-Home screen:: Choose the <</docs/ux/homescreen#,Home screen>> mode.
+Home screen:: Choose the <</ux/homescreen#,Home screen>> mode.
 Theme:: You can choose a theme (background color of the app):
 * Automatic (Android OS) - Follows your system settings.
 * Automatic (Bedtime) - Uses dark theme between bedtime and sunrise.

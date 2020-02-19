@@ -2,7 +2,7 @@
 layout: default
 title: Sleep Phaser v1
 nav_order: 1
-parent: /docs/devices/sleep_phaser.html
+parent: /devices/sleep_phaser.html
 tags:
 - phaser_v1
 ---
@@ -60,7 +60,7 @@ Position the Phasers as indicated in the image below.
 image:sleepphaser_position_pair.png[width=50%]
 
 Pair tracking cross-checks signals from both Phasers against each other and cleans them out so any signal from your partner is removed from your data.
-For more details, see <</docs/sleep/pair_tracking#,Pair tracking>>.
+For more details, see <</sleep/pair_tracking#,Pair tracking>>.
 
 ### Controlling the light directly
 You can control the light from the https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol[Sleep Phaser Remote Control].

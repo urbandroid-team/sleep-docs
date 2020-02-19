@@ -2,7 +2,7 @@
 layout: default
 title: SleepCloud Storage API
 nav_order: 2
-parent: /docs/devs/developers.html
+parent: /devs/developers.html
 ---
 :toc:
 :toclevels: 3
@@ -13,7 +13,7 @@ SleepCloud API is designed for 3rd party services integration. Using the API, yo
 ## API description
 
 ### Authentication
-In order to get access to user’s data, your service needs to gets user’s permission first. This is achieved using standard OAuth 2.0 protocol. The OAuth authentication is done against Google servers, please see https://developers.google.com/accounts/docs/OAuth2[Google documentation] for more details and recommendations. The requested authentication scope should be https://www.googleapis.com/auth/userinfo.email.
+In order to get access to user’s data, your service needs to gets user’s permission first. This is achieved using standard OAuth 2.0 protocol. The OAuth authentication is done against Google servers, please see https://developers.google.com/accounts/OAuth2[Google documentation] for more details and recommendations. The requested authentication scope should be https://www.googleapis.com/auth/userinfo.email.
 
 Before any OAuth authentication for our application can be done, a client ID & password has to be obtained. To get a client ID, you need to have a Google account for your service and a Google project. You can create your project at https://console.developers.google.com/project.
 

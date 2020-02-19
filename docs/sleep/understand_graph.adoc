@@ -2,21 +2,21 @@
 layout: default
 title: How to read sleep graphs
 nav_order: 2
-parent: /docs/sleep/theory.html
+parent: /sleep/theory.html
 ---
 :toc:
 
 *Sleep graph is the main output of sleep tracking - it shows analysed data from all the sensors that were used during the night.*
 
-For a guide how to edit a graph, please see the <</docs/sleep/graph_edit#,Graph editing chapter>>.
+For a guide how to edit a graph, please see the <</sleep/graph_edit#,Graph editing chapter>>.
 
-// TODO: For a guide how to edit a graph, please see the <</docs/sleep/graph_edit,Graph editing chapter>>.
+// TODO: For a guide how to edit a graph, please see the <</sleep/graph_edit,Graph editing chapter>>.
 
 == Sleep graph screen
 The graph screen shows up to three graphs:
 - actigraph
 - hypnogram
-- noise graph (when <</docs/sleep/sleep_noise_recording,noise recording>> is enabled).
+- noise graph (when <</sleep/sleep_noise_recording,noise recording>> is enabled).
 
 Graph screen also shows some statistics about your night, along with an option to rate and annotate the record.
 
@@ -103,11 +103,11 @@ image::light.png[]
 .Breath rate (sonar)
 image::sonar_breath_rate.png[]
 
-a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</docs/sleep/sleep_tracking/breath_rate.html,breath rate monitoring>>)
-- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</docs/sleep/sleep_tracking/heart_rate.html,heart rate monitoring>>).
-- *Orange line* = light in your room in LUX units (read more about <</docs/sleep/sleep_advanced/light.level#,light awake detection>>).
-- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</docs/sleep/sleep_tracking/breath_rate.html,breath rate monitoring>>).
-- *Dashed line* = smart period prior to alarm time (read more about <</docs/alarms/smart_wake_up#,Smart wake up>>).
+a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</sleep/sleep_tracking/breath_rate.html,breath rate monitoring>>)
+- *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</sleep/sleep_tracking/heart_rate.html,heart rate monitoring>>).
+- *Orange line* = light in your room in LUX units (read more about <</sleep/sleep_advanced/light.level#,light awake detection>>).
+- *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</sleep/sleep_tracking/breath_rate.html,breath rate monitoring>>).
+- *Dashed line* = smart period prior to alarm time (read more about <</alarms/smart_wake_up#,Smart wake up>>).
 
 |===
 

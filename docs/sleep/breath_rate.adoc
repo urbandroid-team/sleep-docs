@@ -2,7 +2,7 @@
 layout: default
 title: Breath rate detection & blood oxygen measurement
 nav_order: 2
-parent: /docs/sleep/sleep_tracking.html
+parent: /sleep/sleep_tracking.html
 ---
 :toc:
 
@@ -12,8 +12,8 @@ parent: /docs/sleep/sleep_tracking.html
 With Sleep Phaser or an oximeter, Sleep as Android enables you to track your breathing rate/oxygen levels and show them on a sleep graph.
 
 ## Where to find it
-1. With a Sleep Phaser, you can track your breath rate. See <</docs/devices/sleep_phaser#,Sleep Phaser docs>> for details.
-2. With an oximeter, you can track your blood oxygen levels (SpO~2~). See <</docs/devices/oximeter#,Oximeter docs>> for details.
+1. With a Sleep Phaser, you can track your breath rate. See <</devices/sleep_phaser#,Sleep Phaser docs>> for details.
+2. With an oximeter, you can track your blood oxygen levels (SpO~2~). See <</devices/oximeter#,Oximeter docs>> for details.
 
 ## Options
 In _Settings -> Wearables_:
