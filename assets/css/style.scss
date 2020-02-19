@@ -123,9 +123,11 @@ b, strong {
 table {
   display: block;
   overflow-x: auto;
+  box-shadow: none;
 }
 tbody {
   vertical-align: top;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05)
 }
 td p:last-child {
   margin-bottom: 0;
