@@ -9,7 +9,7 @@ tags:
 
 . Please make sure the notifications are allowed by the system in system´s _Settings -> Apps & Notifications -> Sleep -> Notifications -> Bedtime notification_
 
-. Check if you are not using link:../alarms/bedtime.html[Smart bedtime].
+. Check if you are not using <</alarms/bedtime#,Smart bedtime>>.
 
 . Set bedtime notification to 5 minutes before and than set an alarm to your ideal time + 8 minutes. Than please wait for 3 minutes and if the notification will not show up, please send us the application log by using _Left_ ☰ _menu -> Report a bug_.
 
