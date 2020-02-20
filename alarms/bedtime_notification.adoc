@@ -14,12 +14,17 @@ Bedtime notification is an effective way to maintain optimal sleep length or fig
 [NOTE]
 ====
 The time to trigger the notification is calculated as follows:
-`bedtime = next alarm time – ideal daily sleep income` See how to configure your <</sleep/ideal_daily_sleep#,Ideal daily sleep income>>
+`bedtime = next alarm time – ideal daily sleep income`
+====
 
-.Example:
+See how to configure your <</sleep/ideal_daily_sleep#,Ideal daily sleep income>>
+
+
+[EXAMPLE]
 You've set _ideal daily sleep income_ to 7 hours, and an alarm for 6 AM.
 Your bedtime would be 11 PM.
-====
+
+
 
 == Where to find it
 _Settings -> Bedtime notification_
