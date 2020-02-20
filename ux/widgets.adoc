@@ -12,9 +12,12 @@ parent: /ux/0parent.html
 
 == Where to find it
 Long press on an empty space on your phone screen -> Widgets -> scroll down until you see Sleep.
+Long press the Sleep as Android icon -> tap icon:widget[] icon -> choose the widget from the list.
 
 == Options
-//TODO all images
+[[figure-widgets]]
+.Widgets
+image::widgets.png[]
 [horizontal]
 Tracking widget:: Starts a tracking and reminds you when to go to bed with colors.Two hours before the bedtime, shows the countdown. When you reach bedtime, the widget turns red as a warning that you should go to sleep ASAP. Tapping on tracking widgets initiates sleep tracking.
 Alarm widget:: Shows the time of the next alarm. Its color reflects the day of the week of the next alarm from Monday – Red, to Friday and Weekend – Green, to reflect the usually work week day sentiments :). Clicking on it brings you to the Sleep application.
@@ -23,6 +26,9 @@ Hypnogram widget:: Shows your last hypnogram, opens the last graph.
 
 .Shortcut widgets
 When long pressing the Sleep icon, you can create new widgets from your shortcuts on shortcut card on <</ux/homescreen#,Dashboard>>.
+[[figure-widgets_shortcuts]]
+.Widgets from shortcuts
+image::shortcuts_w_2.png[]
 [horizontal]
 Add alarm:: Creates a widget for quick access to the dialogue for creating a new alarm.
 Nap X min:: Creates a nap from your last used nap.

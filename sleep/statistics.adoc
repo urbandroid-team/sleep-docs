@@ -21,10 +21,12 @@ You further adjust your statistics settings in _Settings -> Sleep -> More -> Sta
 
 [horizontal]
 Ideal daily sleep income:: What is your ideal sleep duration target for a typical day. This is used calculate your _Sleep deficit = Ideal daily sleep income - Average sleep duration for selected period_. Read mode on <</sleep/ideal_daily_sleep#,Ideal daily sleep income>>.
-EXAMPLE:: Your ideal duration is 8 hours. Your average sleep for the last week is 7 and half hours. So your weekly sleep deficit is 30 minutes.
-Year of birth:: Determined your age with is use fro Sleep score and the healthy sleep duration ranges, see <</sleep/sleepscore#, Sleep score>> for details.
++
+EXAMPLE::Your ideal duration is 8 hours. Your average sleep for the last week is 7 and half hours. So your weekly sleep deficit is 30 minutes.[]
++
+Year of birth:: Determined your age with is use for Sleep score and the healthy sleep duration ranges, see <</sleep/sleepscore#, Sleep score>> for details.
 Use local times for irregularity:: By default *Sleep irregularity* – one of the important dimensions in your <</sleep/sleepscore#, Sleep score>> – uses UTC times to calculate how regular your sleep is. This means travelling to a different time zone or day light saving events will affect your regularity. We believe this is correct as in such events your body will really suffer with less quality sleep. On the other hand if you prefer to keep local times, this is your option.
-Automatic sleep tagging:: This option allows all automatic tags to be turned off. Sleep graphs can be <</sleep/tags#, Tagged>> with additional lifestyle information. For instance #sport or #alcohol. But some tags are calculated automatically for your graphs. Those include your 4 most frequent locations, moon cycle, ambient <</sleep/light_level#, light>> in the room, sensors used and more, see full list of <<adding-goal/sleep/tags/automatic-tags, automatic tags>>.
+Automatic sleep tagging:: This option allows all automatic tags to be turned off. Sleep graphs can be <</sleep/tags#, Tagged>> with additional lifestyle information. For instance \#sport or \#alcohol. But some tags are calculated automatically for your graphs. Those include your 4 most frequent locations, moon cycle, ambient <</sleep/light_level#, light>> in the room, sensors used and more, see full list of <<adding-goal/sleep/tags/automatic-tags, automatic tags>>.
 
 ## What you see
 
@@ -38,4 +40,12 @@ By default Graphs belong to the same day if their end time belongs to the same d
 Optionally aggregates by Tags can be expanded by tapping on _Show X Tags_. This will tell you how does your Duration, Deep sleep and Snoring differ when a certain tag is used to your Sleep score for all nights. The aggregates are calculated fro the selected period which can be changed in top right.
 
 A special row in the Tags section shows your country and aggregated Duration, Deep sleep and Snoring for your fellow citizens.
+
+
+.Coloring
+We use [color-green]#green# for surplus and [color-red]#red# for deficit on sleep length.
+For deep sleep % we calculate the average value:
+if +-15% from the average the coloring is green
+for any unusual values out of the average we use red.
+Values above the average may mean some error of measurement – for example the phone was not close enough to the body. Values under average may indicate too much light sleep due to various factors such as stress, alcohol consumption, loud environment etc…
 
