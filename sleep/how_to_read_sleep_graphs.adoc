@@ -33,14 +33,14 @@ image::numbers.png[]
 a|- *Date* of the sleep - this is the date when the sleep tracking ended. See <</faqs/why_sleep_counts_for_the_end_date#, explanation>>.
 - icon:ic_share_variant[] - share button
 - icon:ic_dots_vertical[] - graph menu
- - Comment
- - Noise
- - Legend
- - Color palette
- - Documentation
- - Show on map
- - Delete location
- - Delete
+- Comment
+- Noise
+- Legend
+- Color palette
+- Documentation
+- Show on map
+- Delete location
+- Delete
 // * icon:ic_information[] Documentation
 // * icon:ic_information[] FAQ
 // * icon:ic_information[] Tutorial

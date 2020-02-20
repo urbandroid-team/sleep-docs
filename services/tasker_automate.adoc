@@ -78,7 +78,7 @@ Play lullaby:: ...
 Stop lullaby:: ...
 Sleep tracking: ideal sleep time:: to create a new alarm for an ideal sleep time (with alarm default settings) and start sleep tracking immediately
 
-TIP: You can also add new alarm with System > Set Alarm action.
+NOTE: You can also add new alarm with System > Set Alarm action.
 
 // ## Troubleshooting
 // TODO: links to FAQ should be rendered here

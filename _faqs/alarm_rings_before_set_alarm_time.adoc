@@ -4,6 +4,6 @@ tags:
   - alarm
 ---
 
-- Smart alarm is enabled (see link:../alarms/smart_wake_up.html[Smart wake up]), so the app is waking you within the smart period, when light sleep is estimated.
+- Smart alarm is enabled (see <</alarms/smart_wake_up#,Smart wake up>>), so the app is waking you within the smart period, when light sleep is estimated.
 - If that is not what you expect, disable smart period in _Settings -> Sleep tracking -> Smart period_.
 - You can also try different smart period: shortest period is 5 minutes, longest is 2 hours.
