@@ -5,7 +5,6 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 :toc:
-:toclevels: 4
 
 == What is Sleep Apnea?
 
@@ -42,14 +41,14 @@ image::apnea_cpap.jpg[]
 
 The golden standard for apnea screening is PSG, which measures the AHI (apnea-hypopnea) index. Several studies has shown large correlation between AHI and ODI/RDI (oxyhemoglobin desaturation index, oximeter-derived respiratory disturbance index).
 
-[[apnea-cpap]]
+[[apnea-rdi]]
 .RDI compared to Sleep lab
 image::apnea_rdi.png[]
 
 ODI/RDI indexes can be effectively obtained from Pulse Oximetry at home.
 
-[[apnea-cpap]]
-.Pulse oximter
+[[pulse-oximeter]]
+.Pulse oximeter
 image::oximeter.jpg[]
 
 == How to use Sleep as Android for Sleep Apnea pre-screening
