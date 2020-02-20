@@ -1,0 +1,38 @@
+---
+layout: default
+title: Sonar - compatible devices
+nav_order: 2
+parent: /sleep/0parent.html
+---
+//Support,Device,Users Count,Median Signal Strength,Mean Volume Offset
+
+== Supported devices
+|===
+|Device |Support |Users count |Median signal strength |Mean volume offset
+
+{% for device in site.data.sonardevices %}
+{% if device.Support != 'Not supported' %}
+| +++ {{ device.Device }} +++
+| +++ {{ device.Support }} +++
+| +++ {{ device['Users Count'] }} +++
+| +++ {{ device['Median Signal Strength'] }} +++
+| +++ {{ device['Mean Volume Offset'] }} +++
+{% endif %}
+{% endfor %}
+|===
+
+== Unsupported devices
+|===
+|Device |Support |Users count |Median signal strength |Mean volume offset
+
+{% for device in site.data.sonardevices %}
+{% if device.Support == 'Not supported' %}
+| +++ {{ device.Device }} +++
+| +++ {{ device.Support }} +++
+| +++ {{ device['Users Count'] }} +++
+| +++ {{ device['Median Signal Strength'] }} +++
+| +++ {{ device['Mean Volume Offset'] }} +++
+
+{% endif %}
+{% endfor %}
+|===
