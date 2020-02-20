@@ -13,8 +13,23 @@ parent: /sleep/0parent.html
 
 [horizontal]
 Accelerometer:: Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see <</devices/wearables#,Smartwatch and Wearables>>.
-Sonar[[sonar]]:: Our invention, the sonar uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.
+Sonar:: Our invention — the sonar — uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions. <<sonar, Read more>> about Sonar.
 PIR:: Passive infrared sensor is mounted on the <</devices/sleep_phaser#,Sleep Phaser>> and can detect breath rate in addition to coarse movement.
+
+== Sonar
+
+Sonar means contact-less motion tracking. No more need for a device attached to your wrist or in the bed.
+Have you been interested in monitoring your sleep, only to be repelled by the fact that you need a phone in your bed? Or an expensive hardware?
+Sleep tracking has been known as a notoriously uncomfortable process, where you worry about hot phones under your pillow and cables twisted around your legs.
+Over the last year, we have developed a way to put that all behind. A way to track movement at a distance — with ultrasound.
+
+A sonar on your phone.
+
+Sonar uses the radar the
+
+
+
+See the list of device compatible with Sonar link:https://sleep.urbandroid.org/documentation/faq/sonar-compatible-devices/[].
 
 == Heart rate sensors
 *Heart rate is used to better distinguish awake state.*

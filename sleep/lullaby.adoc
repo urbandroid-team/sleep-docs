@@ -10,7 +10,7 @@ parent: /sleep/0parent.html
 == What it does
 .Plays you a lullaby when you get to bed to help you fall asleep better.
 
-For lullabies, you can use *built-in lullabies*, your *own music*, or you can try *binaural beats*.
+For lullabies, you can use *built-in lullabies*, your *own music*, or you can mix in *binaural beats*.
 
 *Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
 Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack].
@@ -105,13 +105,3 @@ Binaural beats in alarm:: Configures stimulating binaural beats into alarm sound
 * Gamma - frequency around 40 Hz
 Mindroid::
 https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid]
-
-___
-
-== How to
-// TODO
-//[horizontal]
-//Use podcast / audiobook::
-
-== Troubleshooting
-

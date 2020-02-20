@@ -7,7 +7,6 @@ parent: /sleep/0parent.html
 
 :toc:
 
-
 == What it does
 *Sleep tracking is a way to objectively measure the quality of your sleep.*
 
@@ -18,9 +17,10 @@ By tracking your sleep, the app enables you to:
 . Set up goals to improve your sleep quality
 . Use <</alarms/smart_wake_up#,smart wake up>> for the alarm
 
-TIP: <</sleep/sleep_tracking_theory#,Go here for a more in-depth read on sleep tracking>>.
+NOTE: See <</sleep/sleep_tracking_theory#, Sleep tracking theory>> for a more in-depth information on sleep tracking.
 
 == Where to find it
+
 Start sleep tracking on the app's main screen by tapping *Start sleep tracking*.
 
 Settings can be found in
@@ -29,7 +29,7 @@ Settings can be found in
 == Options
 [horizontal]
 Smart wake up:: See <</alarms/smart_wake_up#,Smart wake up>>
-Awake detection:: See [Awake detection]
+Awake detection:: See <</sleep/awake_detection, Awake detection>>
 
 .Automatic sleep tracking
 [horizontal]

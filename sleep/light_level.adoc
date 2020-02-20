@@ -11,9 +11,19 @@ parent: /sleep/0parent.html
 
 When awake detection is enabled, light is being measured during sleep tracking.
 
-You will see light level plotted on your sleep graph (in the same way as heart rates or breath is plotted), in lux units.
+You will see light level plotted on your sleep graph (in the same way as heart rates or breath is plotted), in LUX units.
 _#dark_ / _#light_ tags will be added to your sleep records.
-If there is disturbing light (more than 30 lux) after sunset, we consider it as an Awake period.
+If there is disturbing light (see the table below for details) after sunset, we consider it as an Awake period.
+
+NOTE: Sensitivity of light-based awake detection can be further adjusted in _Settings -> Sleep tracking -> Awake detection -> Light -> Sensitivity low to high_
+
+[horizontal]
+Medium sensitivity (default)::
+Light after sunset over 60 LUX is considered Awake
+Low sensitivity::
+Light after sunset over 30 LUX is considered Awake
+High sensitivity::
+Light after sunset over 120 LUX is considered Awake
 
 The _#dark_ tag is added when you have less than 30 lux for at least 90% of the night.
 The _#light_ tag is added when you have more than 60 lux for at least 33% of the night.

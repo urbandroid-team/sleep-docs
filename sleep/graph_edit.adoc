@@ -10,10 +10,12 @@ parent: /sleep/0parent.html
 *Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.*
 
 == Where to find it
-_On any sleep graph, tap the pencil_  icon:ic_pencil[] _button_.
+On any sleep graph, tap the pencil icon:ic_pencil[] icon.
 
 == Guide
+
 === Rating sleep
+
 [cols="2,1"]
 |===
 a|Rate your sleep by tapping on the stars.
@@ -26,6 +28,7 @@ a|image:rate.png[]
 |===
 
 === Adding awakes, editing start / end of the tracking
+
 [cols="1,2"]
 |===
 a|. Drag across the graph section that you wish to edit.
@@ -37,7 +40,10 @@ a|. Drag across the graph section that you wish to edit.
 a|image:edit_3.png[]
 |===
 
+NOTE: If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the <</sleep/statistics#, Stats>> screen and use icon:plus[] _Add sleep_
+
 === Editing comments and tags
+
 [cols="1,2"]
 |===
 a|Open the graph editor by tapping on the icon:ic_pencil[] pencil button.
