@@ -21,18 +21,22 @@ Ringtone:: Backup alarm ringtone.
 NOTE: Backup alarm get also be set to silent.
 Alarm timeout:: Time after which the backup alarm will ring if you ignore your normal alarm.
 Repeat:: Maximum time of repeats – after that, no alarm will ring anymore.
-
-[horizontal]
-EXAMPLE:: Alarm time: 7:00
++
+[NOTE]
+====
+Alarm time: 7:00
 Backup alarm duration: 2 minutes
 Alarm timeout: 10 minutes
-This is what happens when you don’t interact with the alarm
-7:00 – alarm starts
-7:10 – backup alarm starts (full volume, duration 2 min)
-7:12 – automatically snoozes (for 10 minutes as your default snooze time is 10 minutes)
-7:22 – backup alarm starts again
-…
+This is what happens when you don’t interact with the alarm:
+
+- 7:00 – alarm starts
+- 7:10 – backup alarm starts (full volume, duration 2 min)
+- 7:12 – automatically snoozes (for 10 minutes as your default snooze time is 10 minutes)
+- 7:22 – backup alarm starts again
+
 …and so on, based on the number of repeats.
+====
+
 
 == Guide
 
