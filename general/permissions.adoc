@@ -36,13 +36,7 @@ a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
 - <</sleep/sensors#,Sonar>>
 |This permission is needed to access sounds form your microphone so that features such as <</sleep/sleep_noise_recording, Sleep noise recording>> or <</sensors#sonar, Sonar>>.
 
-|Photos/Media/Files
-|Read the contents of your USB storage, modify or delete the contents of your USB storage
-a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
-- <</services/backup_data#,Backup>>
-|We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
-
-|Storage
+|Photos/Media/Files or Storage
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
 a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
 - <</services/backup_data#,Backup>>
@@ -113,27 +107,22 @@ a|- QR Captcha
 |Other
 |Control Near Field Communication
 |NFC Captcha
-|
+|Required for the NFC Captcha - to stop an alarm by scanning a NFC code
 
 |Other
 |Control vibration
 |Alarm
-|
-
-|Other
-|Modify system settings
-|
-|
+|Allows alarms, lucid cues and anti-snoring to vibrate
 
 |Other
 |Draw over other apps
-|
-|
+|Alarms
+|Allows the app to start a full screen alarm window even on Android 10. Also this is required to be able to start Spotify alarms.
 
 |Other
 |Run at startup
 |Alarms
-|To be able to reschedule alarms after the device reboots.
+|To be able to trigger your alarms after the device reboots.
 
 |Other
 |Control flashlight
