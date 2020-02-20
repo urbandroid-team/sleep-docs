@@ -236,9 +236,11 @@ $gaps: 1,2,1,2,7;
 }
 
 // SVG images
-img[src*=".svg"] {
+.icon > img {
   background-color: grey;
   border-radius: 50%;
+  padding: 0.2em;
+  font-size: 1.2em;
 }
 
 // Colors
