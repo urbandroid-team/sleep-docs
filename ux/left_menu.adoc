@@ -14,9 +14,7 @@ parent: /ux/0parent.html
 Tap ☰ icon in the upper left corner or swipe from the left to expand the menu.
 
 [NOTE]
-===
 On phones with gesture navigation you need to tap and hold instead of the swipe to access the menu.
-===
 
 
 == Options
