@@ -4,6 +4,7 @@
 
 layout: home
 exclude_from_nav: true
+no_comments: true
 ---
 
 [.text-center]
