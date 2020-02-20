@@ -1,14 +1,12 @@
 ---
 layout: page
 title: FAQ
-permalink: /faqs
+permalink: /faqs/
 no_troubleshooting: true
 nav_order: 5
 search_exclude: true
 no_comments: true
 ---
-
-# FAQ
 
 {% for faq in site.faqs %}
   * link:{{ faq.url | relative_url }}[{{ faq.title }}]

@@ -7,5 +7,14 @@ exclude_from_nav: true
 no_comments: true
 ---
 
-[.text-center]
-https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Get the app]
+//[.text-center]
+//https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Get the app]
+
+++++
+<nav role="navigation" aria-label="Main navigation">
+<ul class="navigation-list">
+{{ page | generateNav }}
+</ul>
+</nav>
+++++
+

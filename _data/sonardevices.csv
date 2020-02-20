@@ -1,0 +1,112 @@
+Support,Device,Users Count,Median Signal Strength,Mean Volume Offset
+Supported,Asus: ZenFone 2 Laser (ZE500KL),4,132.5,1.2
+Supported,Sony: Xperia Z3,6,62,2
+Supported,"OnePlus: 3, OnePlus3",10,167.5,1
+Supported,OnePlus: OnePlus 6,4,58.5,1.8
+Supported,Samsung: Galaxy A3(2016),4,1150,0.5
+Supported,Motorola: Moto G(4),4,314,1.5
+Supported,"Blackshark, LGE: Nexus 5X, Shark 1S",41,749,1.2
+Supported,Samsung: Galaxy Note9,10,1443.5,1.1
+Supported,Samsung: Galaxy Note9,5,256,1
+Supported,Samsung: Galaxy S8+,32,2292.5,1.4
+Supported,Samsung: Galaxy S8+,19,2392,1.8
+Supported,Samsung: Galaxy S8,55,2666,1.2
+Supported,Samsung: Galaxy S8,16,1668.5,1.1
+Supported,Asus: Nexus 7 (2013),5,118,1
+Supported,Samsung: Galaxy Note8,21,2279,1
+Supported,Samsung: Galaxy Note8,15,1638,1.7
+Supported,LGE: LG G5,15,379,1.4
+Supported,LGE: Nexus 5,21,502,1.4
+Supported,"Samsung: Galaxy S7 Edge, Galaxy S7 edge",100,813,1.8
+Supported,Samsung: Galaxy S7 Edge,5,726,1
+Supported,Samsung: Galaxy S7 Edge,7,1732,1.9
+Supported,Samsung: Galaxy S7 Edge,7,1387,1.7
+Supported,Samsung: Galaxy S7 Edge,17,1894,1.8
+Supported,Samsung: Galaxy S7,8,1192.5,1.9
+Supported,Samsung: Galaxy S7,6,1794.5,1.7
+Supported,Samsung: Galaxy S7,16,1010,1.3
+Supported,Samsung: Galaxy J3(2016),5,180,1.4
+Supported,Samsung: Galaxy S4,11,685,1.6
+Supported,"Motorola: DROID Turbo 2, Moto X Force",4,566,1.8
+Supported,"Samsung: Galaxy S5 Dual SIM, Galaxy S5",27,760,1.2
+Supported,Samsung: Galaxy S5,4,364.5,0.5
+Supported,Samsung: Galaxy S5,8,463,1.2
+Supported,Essential Products: PH-1,9,302,1
+Supported,Samsung: Galaxy Note5,4,650,1
+Supported,Samsung: Galaxy S7 Active,5,2062,1.4
+Supported,Motorola: Moto G Plus (5th Gen),7,96,0.7
+Supported,Samsung: Galaxy S5 Neo,4,119.5,1
+Supported,Samsung: Galaxy S9+,17,3144,0.8
+Supported,Xiaomi: Mi A1,13,195,2
+Supported,Samsung: Galaxy Note4,10,994,1.3
+Supported,Samsung: Galaxy Note4,7,381,1.6
+Supported,Motorola: Moto X (2nd Gen),6,3588,0.7
+Supported,Google: Pixel 2,15,374,1.9
+Supported,"Xiaomi: Redmi Note 5 Pro, Redmi Note 5",6,371.5,2
+Supported,"Samsung: Galaxy S6 Edge+, Galaxy S6 edge+",7,184,1.3
+Supported,Samsung: Galaxy S6,4,365.5,1
+Supported,Samsung: Galaxy S6,4,1054,1
+Supported,"Samsung: Galaxy S6 Edge, Galaxy S6 edge",25,814,1.6
+Partially – small signal strength,Sony: Xperia Z3 Compact,7,32,1.3
+Partially – small signal strength,OnePlus: OnePlus3T,6,16.5,4.3
+Partially – small signal strength,OnePlus: OnePlus5T,6,37,2.3
+Partially – small signal strength,LGE: V20,6,32.5,1
+Partially – small signal strength,"Samsung: Galaxy J5 Pro, Galaxy J5",4,21.5,3.8
+Partially – small signal strength,"LGE: LG G6, G6Fit",4,41.5,1
+Partially – small signal strength,Google: Pixel XL,31,43,1.4
+Partially – small signal strength,Xiaomi: Redmi Note 4,10,49.5,1.2
+Partially – small signal strength,Google: Pixel,27,39,1.6
+Partially – small signal strength,Google: Pixel 2 XL,38,24.5,2.7
+Partially – large average offset,OnePlus: One,35,1179,5.7
+Partially – large average offset,Sony: Xperia Z1 Compact,7,186,4.1
+Partially – large average offset,Sony: Xperia Z5 Compact,4,424,2.8
+Partially – large average offset,Sony: Xperia Z5,8,288,3.1
+Partially – large average offset,OnePlus: OnePlus3T,6,16.5,4.3
+Partially – large average offset,OnePlus: OnePlus5T,6,37,2.3
+Partially – large average offset,Samsung: Galaxy A5(2016),8,1629.5,3.6
+Partially – large average offset,Samsung: Galaxy A5(2017),7,247,3.3
+Partially – large average offset,"Motorola: Moto Z Play, Moto Z Play Droid",12,182.5,4
+Partially – large average offset,Motorola: Moto Z (2) Play,11,172,3.3
+Partially – large average offset,LGE: LG G5 SE,4,918.5,3
+Partially – large average offset,Huawei: Nexus 6P,62,454,3
+Partially – large average offset,Motorola: Moto G(4) Plus,15,139,3.9
+Partially – large average offset,"Motorola: Moto X Style, Moto X Pure Edition",9,1129,2.3
+Partially – large average offset,Google: Pixel 3 XL,6,1295.5,7.5
+Partially – large average offset,"LGE: LG Stylo 4, QStylus",4,93.5,3.5
+Partially – large average offset,LGE: LG G3,10,552.5,2.2
+Partially – large average offset,Xiaomi: Mi 5,10,62.5,2.8
+Partially – large average offset,"Motorola: Moto Z Droid, Moto Z",10,355,2.8
+Partially – large average offset,Motorola: Moto G4 Play,8,361.5,2.6
+Partially – large average offset,"Samsung: Galaxy Note3, Galaxy Note3 Duos",10,528,2.1
+Partially – large average offset,"Samsung: Galaxy J5 Pro, Galaxy J5",4,21.5,3.8
+Partially – large average offset,Xiaomi: Mi A2,4,157,3.5
+Partially – large average offset,Xiaomi: Redmi Note 3,10,78,3.5
+Partially – large average offset,Xiaomi: Redmi 3S,5,171,3.4
+Partially – large average offset,Xiaomi: Redmi Note 4,5,103,3.6
+Partially – large average offset,LGE: LG G4,25,193,3.3
+Partially – large average offset,Motorola: Moto G (5) Plus,4,161.5,3.8
+Partially – large average offset,Xiaomi: Redmi 4X,8,1288.5,3.4
+Partially – large average offset,Motorola: Nexus 6,15,1725,3.3
+Partially – large average offset,Samsung: Galaxy S9,9,2209,2.4
+Partially – large average offset,Google: Pixel 2 XL,38,24.5,2.7
+Partially – large average offset,Xiaomi: Redmi 5 Plus,5,197,2.2
+Not supported,Asus: ZenFone 3 Max (ZC520TL),4,35,1.2
+Not supported,Samsung: Galaxy S2,5,27,4.4
+Not supported,Sony: Xperia XA2,5,27,3.8
+Not supported,OnePlus: OnePlus5,45,29,3.2
+Not supported,Samsung: Galaxy A3,7,31,4
+Not supported,Samsung: Galaxy A5,6,7.5,1.7
+Not supported,"BlackBerry: KEYone, BlackBerry KEYone, Blackberry Keyone",10,26.5,1.4
+Not supported,"Motorola: Moto G Google Play edition, Moto G (1st Gen)",5,28,2.2
+Not supported,Motorola: Moto X (1st Gen),5,33,0.8
+Not supported,HTC: 10,5,35,0.6
+Not supported,"Samsung: Galaxy J1(2016), Galaxy J1 (2016), Galaxy J1",5,25,3.2
+Not supported,"Samsung: Galaxy J3(2017), Galaxy J3 Pro",6,36.5,0.8
+Not supported,Samsung: Galaxy J5(2016),34,31.5,2.3
+Not supported,"Samsung: Galaxy J7, Galaxy J7 V",6,20,3.5
+Not supported,Samsung: Galaxy J7 Pop,4,36.5,1
+Not supported,Samsung: Galaxy J7(2016),21,26,2.5
+Not supported,Samsung: Galaxy A8+(2018),5,32,3.8
+Not supported,"Motorola: moto e5 play, moto e(5) play, moto e(5) cruise",7,19,4.9
+Not supported,Motorola: Moto E (4) Plus,4,22.5,0.8
+Not supported,"Motorola: Moto E (4), Moto E4",4,8.5,1.2
