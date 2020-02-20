@@ -23,7 +23,7 @@ image::sleepscore_annotated2.png[title="1) Your current sleep score. You get one
 
 There are six dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range:
 
-[cols=2*,options="header"]
+[cols=4*,options="header"]
 |===
 |Dimension
 |Explanation
