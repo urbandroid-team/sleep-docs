@@ -145,8 +145,8 @@ $gaps: 1,2,1,2,7;
   padding: 0.4em;
   border-radius: 4px;
   font-weight: 900;
-  color: black;
-  background-color: white;
+  color: var(--body-text-color);
+  background-color: var(--table-background-color);
 
   &::placeholder {
     color: initial;
@@ -164,8 +164,10 @@ $gaps: 1,2,1,2,7;
 .search-results-link:active,
 .search-results-link:focus
 {
-  color: #f5f6fa;
-  background-color: #222126;
+  //color: #f5f6fa;
+  //background-color: #222126;
+  color: var(--body-background-color);
+  background-color: var(--body-text-color);
 }
 
 
@@ -196,24 +198,24 @@ $gaps: 1,2,1,2,7;
 	// width: 100%;
 	display: none;
   padding: 1rem;
-  background: #222;
+  background: var(--table-background-color);
 }
 .tabs input[type="radio"] {
 	display: none;
 }
 .tabs input[type="radio"]:checked + label {
-  background: #222;
+  background: var(--table-background-color);
 }
 .tabs input[type="radio"]:checked + label + .tab {
 	display: block;
 }
 .search-results-wrap.active {
-  background-color: black;
+  background-color: var(--body-heading-color);
   width: 350px;
 }
 .result-count-badge {
   vertical-align: super;
-  background-color: green;
+  background-color: var(--main-color);
   display: inline-block;
   width: 1.7em;
   line-height: 1.7em;
