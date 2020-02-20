@@ -24,8 +24,39 @@ You can add tags to any sleep record by including it in the comment section of t
 There are also predefined icon tags, and a handful of automatically added tags.
 The tags are arranged in the order based on the frequency of use.
 
+==== Icon tags
+You can choose from the list of pre-defined tags with icons, which include the most common lifestyle events which have some relevance to sleep.
+
 |===
-a|Automatically added tags a|Icon tags
+a|Icon tags
+
+a|icon:ic_action_food[] #food
+icon:ic_walk[] #sport
+icon:ic_martini[] #alcohol
+icon:ic_action_stress[] #stress
+icon:ic_action_lullaby[] #caffeine
+icon:ic_action_love[] #love
+icon:ic_action_med[] #med
+icon:ic_action_dream[] #dream
+icon:ic_action_talk[] #talk
+icon:ic_action_noise[] #snore
+icon:ic_action_laugh[] #laugh
+icon:ic_action_sick[] #sick
+icon:ic_action_work[] #work
+icon:ic_action_cpap[] #cpap
+icon:ic_action_baby[] #baby
+icon:ic_action_mic[] #note
+icon:ic_dream_good[] #gooddream
+icon:ic_dream_bad[] #baddream
+icon:ic_action_menses[]#menses
+|===
+
+
+==== Automatically added tags
+Some tags are calculated and added to your sleep record automatically. You can turn this feature off in _Settings -> Sleep -> More -> Stats -> Automatic tagging_.
+
+|===
+a|Automatically added tags
 
 a|icon:ic_action_newmoon[]#newmoon
 icon:ic_action_fullmoon[] #fullmoon
@@ -46,38 +77,9 @@ icon:ic_sonar[] #sonar
 icon:ic_sleep_phaser[] #phaser
 icon:ic_pair[] #pair
 icon:ic_automagic[] #auto (automatic tracking)
-a|icon:ic_action_food[] #food
-icon:ic_walk[] #sport
-icon:ic_martini[] #alcohol
-icon:ic_action_stress[] #stress
-icon:ic_action_lullaby[] #caffeine
-icon:ic_action_love[] #love
-icon:ic_action_med[] #med
-icon:ic_action_dream[] #dream
-icon:ic_action_talk[] #talk
-icon:ic_action_noise[] #snore
-icon:ic_action_laugh[] #laugh
-icon:ic_action_sick[] #sick
-icon:ic_action_work[] #work
-icon:ic_action_cpap[] #cpap
-icon:ic_action_baby[] #baby
-icon:ic_action_mic[] #note
-icon:ic_dream_good[] #gooddream
-icon:ic_dream_bad[] #baddream
-icon:ic_action_menses[]#menses
-
 |===
 
-==== Icon tags
-You can choose from the list of pre-defined tags with icons, which include the most common lifestyle events which have some relevance to sleep.
-
-==== Custom tags
-You can create your own personal tag, the only requirement is using the hash mark notation at the start, followed by any number of alphanumeric character (For example #headache or #travel).
-
-==== Automatically added tags
-Some tags are calculated and added to your sleep record automatically. You can turn this feature off in _Settings -> Sleep -> More -> Stats -> Automatic tagging_.
-
-.Location tags
+===== Location tags
 
 We calculate the 4 most frequent places in the past year of your data history. One year should be sufficient so that you can e.g. watch your sleep at your holiday home where you go regularly in the summer.
 
@@ -85,38 +87,41 @@ Should you move, your new home will gradually become #geo3 -> #geo2 -> #geo1 -> 
 
 You can also reset your home location any time using _Settings -> Privacy -> Reset home location_.
 
-NOTE: Location permission needs to be granted.
+NOTE: <</general/permissions#location,Location permission>> needs to be granted.
 
 The location we use is coarse and we store it even coarser, +/- 5 km. In effect, we identify your location as a square and then match those squares to set up the location tags.
 You can completely turn off location storing in _Settings -> Privacy -> Don't store sleep location_.
 
+===== Moon phases
 
-.Moon phases
+3 days around full moon or new moon graphs will get a \#fullmoon or #newmoon tags. You can see how the moon cycle affects your sleep in <</sleep/charts#tags, Charts>> or <</sleep/statistics#, Stats>>.
 
-3 days around full moon or the nov graphs will get a \#fullmoon or #newmoon tags. You can see how does the moon cycle affect your sleep in <</sleep/charts#tags, Charts>> or <</sleep/statistics#, Stats>>.
+===== Sensor
 
-.Sensor
+If you use a wearable or sonar, a #watch or #sonar tag will appear on your graph.
 
-If you use a Wearable or Sonar sensor a \#watch or \#sonar tag will appear at your graph.
-
-.Automatic sleep tracking
+===== Automatic sleep tracking
 
 If sleep tracking was started automatically for your (you did not hit the _icon:ic_action_track[] Sleep tracking_ button) an \#auto tag will be added.
 
 You can see more on this feature <</sleep/automatic_sleep_tracking#, here>>.
 
-.Pair tracking
+===== Pair tracking
 
-If pair tracking was used \#pair tag will be added. See more on <</sleep/automatic_sleep_tracking#, Pair tracking>>.
+If <</sleep/pair_tracking#, pair tracking>> was used #pair tag will be added.
 
-
+==== Custom tags
+You can create your own personal tag, the only requirement is using the hash mark notation at the start, followed by any number of alphanumeric character (For example #headache or #travel).
 
 ==== Frequency tracking
-It is also possible to track frequency of your events. For example #caffeeine_3x – meaning 3 coffees, #alcohol_2x – 2 shots, #sport_3x – 3 hours of sport. This allows to describe your lifestyle events more precisely. Support for automated analysis of the frequency information is not yet included in the app, but it is planned in coming versions.
+It is also possible to track frequency of your events. For example #caffeine_3x – meaning 3 coffees, #alcohol_2x – 2 shots, #sport_3x – 3 hours of sport. This allows to describe your lifestyle events more precisely.
+
+NOTE: Support for automated analysis of the frequency information is not yet included in the app, but it is planned in coming versions.
+
 You can add frequencies easily but pressing the tag button multiple times. To delete a tag on the other hand — long press the tag icon.
 
 === Analyzing tags
 Tags divide your sleep history so you can compare nights with a given tag to nights without that tag. See <</sleep/charts#tags, Charts>>.
 You can evaluate the influence of tags in <</sleep/charts#tags, Charts>> and in <</sleep/statistics#tags, Statistics>>
 
-In Stats tab, there is a collapsible Tags section which shows average sleep measures so that you can easily compare your overall average measures (sleep length, deep sleep, snoring…) with your tagged results. If you observe for example significant drop in deep sleep % after using caffeine you may consider to reduce caffeine consumption (especially before sleep) in order to improve your deep sleep %.
+In <</sleep/statistics#,Stats>>, there is a collapsible Tags section which shows average sleep measures so that you can easily compare your overall average measures (sleep length, deep sleep, snoring…) with your tagged results. If you observe e.g. a significant drop in deep sleep % after drinking coffee, you may consider to reduce caffeine consumption (especially before sleep) in order to improve your deep sleep %.
