@@ -69,3 +69,34 @@ icon:ic_action_menses[]#menses
 
 === Analyzing tags
 Tags divide your sleep history so you can compare nights with a given tag to nights without that tag. See <</sleep/charts#tags, Charts>>.
+
+
+This can be done in the Stats tab (in the image below). There is a collapsible Tags section which shows average sleep measures so that you can easily compare your overall average measures (sleep length, deep sleep, snoring…) with your tagged results. If you observe for example significant drop in deep sleep % after using caffeine you may consider to reduce caffeine consumption (especially before sleep) in order to improve your deep sleep %.
+
+Coloring
+We use green for surplus and red for deficit on sleep length.
+For deep sleep % we calculate the average value:
+if +-15% from the average the coloring is green
+for any unusual values out of the average we use red.
+Values above the average may mean some error of measurement – for example the phone was not close enough to the body. Values under average may indicate too much light sleep due to various factors such as stress, alcohol consumption, loud environment etc…
+
+Another insight into tagging is provided in Charts. There you can see effects of life style events in various bar charts. For example the effect on snoring:
+
+Custom tags
+
+Rating
+Rating is another quality criterion which adds subjective evaluation of our sleep. Similarly to deep sleep % we can show what sleep measures lead to your higher satisfaction with your sleep. Rating is added as 0-5 stars with 5 starts being the best rating. Sleep can be rated on the same dialog which is also used for adding tags.
+Location tagging – geo tags
+We use network-based location to implement some of the cool location based features such as wake up with sunrise, location tagging, and morning weather.
+In the geotagging feature, we calculate the 4 most frequent places from your sleep tracking history, so the most-frequent place is considered “home”, the second one is “geo1”, then “geo2” and finally “geo3”.
+The location we use is coarse and we store it even coarser, +/- 5 km. In effect, we identify your location as a square and then match those squares to set up the location tags.
+You can completely turn off location storing in Settings > Miscellaneous.
+
+
+The only requirement is using the hash mark notation at the start, followed by any number of alphanumeric character (For example #headache or #travel).
+
+Frequency tracking
+It is also possible to track frequency of your events. For example #caffeeine_3x – meaning 3 coffees, #alcohol_2x – 2 shots, #sport_3x – 3 hours of sport. This allows to describe your lifestyle events more precisely. Support for automated analysis of the frequency information is not yet included in the app, but it is planned in coming versions.
+You can add frequencies easily but pressing the tag button multiple times. To delete a tag on the other hand — long press the tag icon.
+
+You can add tags in the morning dialog after you finish sleep tracking, or from the tracking screen any time during the tracking.
