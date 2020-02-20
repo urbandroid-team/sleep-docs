@@ -72,12 +72,34 @@ Screen dimming:: Controls what will happen to the phone screen while sleep track
   Always on clock::: Screen dims, shows time, your system timeout DOES NOT apply
 WARNING: _Always on clock_ will keep your screen on all night which will significantly affect battery consumption.
 Stand-by:: Sleep tracking will be put into standby mode when battery drops under level set here. No further sleep data will be collected. This saves battery for the alarm.
-Battery optimized:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
-WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar/lockscreen.
-// Read more about the problem here: //TODO: zjistit jak to je
+Battery optimized [[battery-optimized]]:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
+WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
 
+== Guide
 
-// ## Guide
+=== How to track sleep
+Sleep is always tracked using one main sensor and optionally a handful of additional sensors.
+
+==== Using accelerometer
+Accelerometer is present on every phone. It measures its own movement - so the general idea is that your movements during sleep will move the phone.
+
+In case of using accelerometer, the phone has to be on your mattress with you - when you move during the night, phone has to move with you.
+
+.Phone placement when tracking using accelerometer
+image::tracking-position/acc.png[]
+
+The accuracy of measured data depends on how well your bed is able to transmit your movement to the phone.
+
+[color-green]#Wearable device# > [color-green]#Arm band# > [color-orange]#Spring mattress# > [color-orange]#Latex# > [color-orange]#Hard foam# > [color-orange]#Soft foam# > [color-red]#Thick slow foam layer# > [color-red]#100% Slow foam#
+
+==== Using sonar
+Sleep as Android enables you to use the phone’s microphone and speaker as a sonar (for range and movement detection using ultrasound). It works on a lot of phones, but not all (some are unable to produce or capture frequencies above human hearing range). See the growing list of compatible devices.
+
+.Phone placement when tracking using sonar
+image::tracking-position/sonar.png[]
+
+==== Using other devices
+You can also track sleep with additional devices like <</devices/sleep_phaser#, Sleep Phaser>> and <</devices/wearables#, wearables>>.
 
 // ### Sleep tracking screen
 // TODO: popsat sleep tracking screenu, hlavne bottom sheet co co dela? a instructiony...
