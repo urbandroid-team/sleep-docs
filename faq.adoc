@@ -5,6 +5,7 @@ permalink: /faq/
 no_troubleshooting: true
 nav_order: 5
 search_exclude: true
+no_comments: true
 ---
 
 # FAQ
