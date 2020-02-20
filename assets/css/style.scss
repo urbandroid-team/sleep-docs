@@ -235,6 +235,12 @@ $gaps: 1,2,1,2,7;
   }
 }
 
+// SVG images
+img[src*=".svg"] {
+  background-color: grey;
+  border-radius: 50%;
+}
+
 // Colors
 .color-orange { color: orange }
 .color-blue { color: lightblue }
