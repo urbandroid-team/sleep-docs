@@ -16,12 +16,20 @@ The compatible oximeters are Berrymed oximeters with custom firmware. We did try
 ## Where to find it
 _Settings -> Wearables -> Pulse oximeter_
 
+[[apnea-cpap]]
+.Pulse oximter
+image::oximeter.jpg[]
 
 ## Options
 [horizontal]
 Pulse Oximeter:: Enable the feature
 Low breath rate alarm:: If enabled, an alarm will wake you up when you have an low breath rate episode. This tries to prevent your blood oxygen volume from dropping to dangerous levels.
 Low breath rate alarm sensitivity:: Set sensitivity for the low breath rate alarm.
+
+[[spo2-graph]]
+.Resulting sleep graph with SPO2 data
+image::hrbr.png[]
+
 
 ## Guide
 

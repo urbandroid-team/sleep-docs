@@ -47,4 +47,7 @@ E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.
 15 - 30:: RDI from 15 to 30 is considered moderate respiratory disturbance. It can be a warning sign. Definitely do measurement repeatedly to verify this result.
 30 and more:: RDI over 30 is considered severe. We recommend to consult your doctor.
 
+[[spo2-graph]]
+.SPO2 data in sleep graph
+image::hrbr.png[]
 
