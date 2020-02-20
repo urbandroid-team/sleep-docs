@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FAQ
-permalink: /faq/
+permalink: /faqs
 no_troubleshooting: true
 nav_order: 5
 search_exclude: true
