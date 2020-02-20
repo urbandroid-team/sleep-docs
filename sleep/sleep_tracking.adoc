@@ -95,6 +95,8 @@ The accuracy of measured data depends on how well your bed is able to transmit y
 ==== Using sonar
 Sleep as Android enables you to use the phone’s microphone and speaker as a sonar (for range and movement detection using ultrasound). It works on a lot of phones, but not all (some are unable to produce or capture frequencies above human hearing range). See the <</sleep/sonar_devices#,list of compatible devices>>.
 
+https://sleep.urbandroid.org/introducing-sonar-as-sensor/[Read more] about sonar and how we invented it.
+
 .Phone placement when tracking using sonar
 image::tracking-position/sonar.png[]
 
