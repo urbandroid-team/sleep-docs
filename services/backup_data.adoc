@@ -55,7 +55,7 @@ To migrate your data to another phone:
 . Move the `/sdcard/sleep-data/` folder to your new phone, same location - `/sdcard/sleep-data/`.
 . Import the data with _Left_ ☰ _menu -> Backup -> Import data_ immediately.
 +
-NOTE: If you don't import immediately, the app will replace your `sleep-export.csv` file after the next sleep record is created. The old `sleep-export.csv` file will be renamed to `sleep-export.backup.csv`. See <</faqs/backup_data_not_imported_immediately,solution>>.
+NOTE: If you don't import immediately, the app will replace your `sleep-export.csv` file after the next sleep record is created. The old `sleep-export.csv` file will be renamed to `sleep-export.backup.csv`. See <</faqs/backup_data_not_imported_immediately#,solution>>.
 [[csv_export]]
 +
 

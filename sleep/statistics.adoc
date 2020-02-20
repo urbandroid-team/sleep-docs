@@ -26,7 +26,7 @@ EXAMPLE::Your ideal duration is 8 hours. Your average sleep for the last week is
 +
 Year of birth:: Determined your age with is use for Sleep score and the healthy sleep duration ranges, see <</sleep/sleepscore#, Sleep score>> for details.
 Use local times for irregularity:: By default *Sleep irregularity* – one of the important dimensions in your <</sleep/sleepscore#, Sleep score>> – uses UTC times to calculate how regular your sleep is. This means travelling to a different time zone or day light saving events will affect your regularity. We believe this is correct as in such events your body will really suffer with less quality sleep. On the other hand if you prefer to keep local times, this is your option.
-Automatic sleep tagging:: This option allows all automatic tags to be turned off. Sleep graphs can be <</sleep/tags#, Tagged>> with additional lifestyle information. For instance \#sport or \#alcohol. But some tags are calculated automatically for your graphs. Those include your 4 most frequent locations, moon cycle, ambient <</sleep/light_level#, light>> in the room, sensors used and more, see full list of <<adding-goal/sleep/tags/automatic-tags, automatic tags>>.
+Automatic sleep tagging:: This option allows all automatic tags to be turned off. Sleep graphs can be <</sleep/tags#, Tagged>> with additional lifestyle information. For instance \#sport or \#alcohol. But some tags are calculated automatically for your graphs. Those include your 4 most frequent locations, moon cycle, ambient <</sleep/light_level#, light>> in the room, sensors used and more, see full list of <</sleep/tags/automatic-tags#, automatic tags>>.
 
 ## What you see
 

@@ -25,7 +25,7 @@ You can do something about the majority of those input factors in order to steer
 
 For that, Sleep as Android gives you tools such as:
 
-* <</sleep/tags,Tags>>
+* <</sleep/tags#,Tags>>
 * <</alarms/bedtime_notification#,Bedtime notifications>>
 * Bedroom <</sleep/light_level#,light levels measurement>>
 * Bedroom <</sleep/sleep_noise_recording#,noise measurement>>

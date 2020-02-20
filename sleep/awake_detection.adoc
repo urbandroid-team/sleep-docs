@@ -17,9 +17,9 @@ Awake heuristics:
 * Talking or baby crying
 * Use of phone...
 
-<</sleep/sleep_tracking_theory,Actigraphy>> (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. Anyway all the heuristics we discuss below give us a very good and solid view on your awakes which we measure as the *Efficiency* (_time sleeping / time tracking_) an important dimension in your <</sleep/sleepscore, Sleep score>>.
+<</sleep/sleep_tracking_theory,Actigraphy>> (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. Anyway all the heuristics we discuss below give us a very good and solid view on your awakes which we measure as the *Efficiency* (_time sleeping / time tracking_) an important dimension in your <</sleep/sleepscore#, Sleep score>>.
 
-NOTE: Awake time is subtracted from your overall sleep *duration* - another important <</sleep/sleepscore, Sleep score>> measure.
+NOTE: Awake time is subtracted from your overall sleep *duration* - another important <</sleep/sleepscore#, Sleep score>> measure.
 
 == Where to find it
 _Settings -> Sleep tracking -> Awake detection_
@@ -28,7 +28,7 @@ _Settings -> Sleep tracking -> Awake detection_
 
 [horizontal]
 
-Movement intensity:: Is based on *significant activity* measured by a motion detection sensor e.g. Accelerometer in phone or on a wearable, Sonar, Sleep phaser... see <</sleep/sensors, Sensors>>
+Movement intensity:: Is based on *significant activity* measured by a motion detection sensor e.g. Accelerometer in phone or on a wearable, Sonar, Sleep phaser... see <</sleep/sensors#, Sensors>>
 Heart rate monitoring::
 Any heart rate peak significantly higher than the average in the last 5 minutes is marked as awake.
 * Your heart beats up to 10 BPM slower during sleep, than when awake.
@@ -37,7 +37,7 @@ Light:: *Ambient light* in your bedroom after sunset is another hint of you bein
  * If there is disturbing light (more than 60 LUX, but can be adjusted with the sensitivity settings) after sunset, we consider it as an Awake.
  * The #dark icon:ic_lightbulb_off[] tag is added when you have less than 30 lux for at least 90% of the night.
  * The #light icon:ic_lightbulb[] tag is added when you have more than 60 lux for at least 33% of the night.
-Talk:: Several sounds (talking, baby cry..) may indicates awake, see <</sleep/sound_recognition, Sound recognition>>.
+Talk:: Several sounds (talking, baby cry..) may indicates awake, see <</sleep/sound_recognition#, Sound recognition>>.
  * 45 minutes after beginning of tracking and 1 hour before alarm for automatic tracking.
  * At least 4 talk-like or other events in last minute for manual tracking start.
 Snooze:: Turns any snooze or pause result into awake.

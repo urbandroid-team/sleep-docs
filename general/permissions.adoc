@@ -34,7 +34,7 @@ You can completely opt-out from location storing in _Settings -> Miscellaneous_.
 |Record audio
 a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
 - <</sleep/sensors#,Sonar>>
-|This permission is needed to access sounds form your microphone so that features such as <</sleep/sleep_noise_recording, Sleep noise recording>> or <</sensors#sonar, Sonar>>.
+|This permission is needed to access sounds form your microphone so that features such as <</sleep/sleep_noise_recording#, Sleep noise recording>> or <</sensors#sonar, Sonar>>.
 
 |Photos/Media/Files or Storage
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
@@ -47,7 +47,7 @@ a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
 a|- QR Captcha
 - Pee light
 - <</sleep/jetlag#,Jet lag prevention>>
-|This is used by QR Captcha in order to scan barcodes / QR codes and to toggle flashlight in several features. Also the Smile <</alarms/captcha, CAPTCHA>> uses this to detect your smile to dismiss your alarm in the morning.
+|This is used by QR Captcha in order to scan barcodes / QR codes and to toggle flashlight in several features. Also the Smile <</alarms/captcha#, CAPTCHA>> uses this to detect your smile to dismiss your alarm in the morning.
 
 |Wearable sensors/Activity data
 |Body sensors (like heart rate monitors)

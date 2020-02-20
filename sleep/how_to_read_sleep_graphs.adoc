@@ -7,7 +7,7 @@ parent: /sleep/0parent.html
 :toc:
 
 == What it is
-*Sleep graph is the <</sleep/sleep_tracking_theory#sleep-outcome,main outcome of sleep tracking>> - it shows analysed data from all the <</sleep/sensors,sensors>> that were used during the night.*
+*Sleep graph is the <</sleep/sleep_tracking_theory#sleep-outcome,main outcome of sleep tracking>> - it shows analysed data from all the <</sleep/sensors#,sensors>> that were used during the night.*
 
 == Sleep graph screen
 The graph screen shows up to three graphs:
@@ -53,7 +53,7 @@ a|*Actigraph* shows the intensity of your nightly movements. The higher the peak
 |===
 a|.Hypnogram
 image::phase.png[]
-a|*The hypnogram* shows your <</sleep/sleep_tracking_theory,sleep phases>> progress during the night, estimated from actigraphic data and other inputs (e.g. awake periods).
+a|*The hypnogram* shows your <</sleep/sleep_tracking_theory#,sleep phases>> progress during the night, estimated from actigraphic data and other inputs (e.g. awake periods).
 
 - *Awake*: light green, the highest column reaching the top of the graph.
 - *REM phase and light sleep*: shown as medium green, REM has lower columns.
@@ -76,7 +76,7 @@ a|.Noise graph
 image::snore.png[]
 a|*The noise graph* shows how much noise (sleep talk, snoring, environmental) was there throughout the night.
 
-When <</sleep/sound_recognition,sound recognition>> is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with <<markers-and-icons,icons>>.
+When <</sleep/sound_recognition#,sound recognition>> is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with <<markers-and-icons,icons>>.
 |===
 
 === Colored lines
