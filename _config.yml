@@ -25,7 +25,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 search_enabled: true
-color_scheme: 'dark'
+#color_scheme: 'dark'
 
 debug: true
 

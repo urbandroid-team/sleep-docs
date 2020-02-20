@@ -1,0 +1,36 @@
+//
+// Labels (not the form kind)
+//
+
+.label,
+.label-blue {
+  display: inline-block;
+  padding-top: 0.16em;
+  padding-right: 0.42em;
+  padding-bottom: 0.16em;
+  padding-left: 0.42em;
+  margin-right: $sp-1;
+  margin-left: $sp-1;
+  color: var(--white);
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: var(--blue-100);
+  @include fs-2;
+}
+
+.label-green {
+  background-color: var(--green-200);
+}
+
+.label-purple {
+  background-color: var(--purple-100);
+}
+
+.label-red {
+  background-color: var(--red-200);
+}
+
+.label-yellow {
+  color: var(--grey-dk-200);
+  background-color: var(--yellow-200);
+}
