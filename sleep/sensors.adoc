@@ -16,20 +16,17 @@ Accelerometer:: Can be either in the phone or in a connected wearable. If you wa
 Sonar:: Our invention — the sonar — uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions. <<sonar, Read more>> about Sonar.
 PIR:: Passive infrared sensor is mounted on the <</devices/sleep_phaser#,Sleep Phaser>> and can detect breath rate in addition to coarse movement.
 
+See <</sleep/sleep_tracking_theory#how-to-track-sleep, How to track sleep>> for details on optimal setup of your sensor in the bedroom for best results.
+
 == Sonar
 
-Sonar means contact-less motion tracking. No more need for a device attached to your wrist or in the bed.
-Have you been interested in monitoring your sleep, only to be repelled by the fact that you need a phone in your bed? Or an expensive hardware?
-Sleep tracking has been known as a notoriously uncomfortable process, where you worry about hot phones under your pillow and cables twisted around your legs.
-Over the last year, we have developed a way to put that all behind. A way to track movement at a distance — with ultrasound.
+Sonar brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed.
 
-A sonar on your phone.
+You don’t need any new hardware for that – everything is already in your smartphone (check our link:https://sleep.urbandroid.org/documentation/faq/sonar-compatible-devices/[device compatibility list]): microphone, speaker and required computing power.
 
-Sonar uses the radar the
+During tracking with sonar the phone produces ultrasonic signal (which cannot be heart by most). Even tiny movements distort the reflected signal which allows as to track them when we record them with the microphone.
 
-
-
-See the list of device compatible with Sonar link:https://sleep.urbandroid.org/documentation/faq/sonar-compatible-devices/[].
+On many devices Sonar tracking is so precise we are even able to track your abdominal movements and display your <</sleep/breath_rate#, Breat-rate>> in the sleep graph.
 
 == Heart rate sensors
 *Heart rate is used to better distinguish awake state.*

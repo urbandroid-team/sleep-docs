@@ -10,24 +10,28 @@ parent: /sleep/0parent.html
 :toc:
 
 == What it does
-Records significant sounds while you sleep and builds a noise profile for the night. It also <</sleep/sound_recognition#,classifies the sounds>> into categories.
+Records significant sounds while you sleep and builds a ambient noise-level graph for the night. It also <</sleep/sound_recognition#,classifies the sounds>> into categories including snoring, talk, coughing, laughter, baby cry.
 
 NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
 
 == Where to find it
 _Settings -> Sleep noise recording_
 
-You can check whether the phone is recording on the sleep tracking screen - red light indicates that the phone is currently recording.
+You can check whether the phone is recording on the sleep tracking screen - [color-red]#red ⬤# indicates that the phone is currently recording.
 
-image:recording/ss_noise_recording.png[width=50%]
+On the seek bar to the right you can see current volume level and your _Recording voluem threshold_ which indicates volume to start recording.
 
-NOTE: In order to achieve good recordings, keep the phone close to your head with the microphone area clear.
+[[noise-recording-screen]]
+.Recording in progress
+image::recording/ss_noise_recording.png[]
+
+NOTE: In order to achieve good recordings, keep the phone close to the sound source with the microphone area clear.
 
 == Options:
 [horizontal]
-Enabled:: ...
-Record snoring, sleep talk:: Recording is triggered when a characteristic sound (snoring, talk, coughing, laughter, baby cry) is detected.
-Recording volume threshold:: The volume at which the app starts recording. The good value is usually around 10-20% (may vary with device).
+Enabled:: Options below are not shown before enabling this switch.
+Record snoring, sleep talk:: Recording is triggered when a characteristic sound (snoring, talk, coughing, laughter, baby cry) is detected or when _Recording volume threshold_ is reached.
+Recording volume threshold:: The volume at which the app starts recording. The good value is usually around 20-30% (may vary with device).
 NOTE: Lower threshold increases the sensitivity = more sounds are recorded.
 
 .Sound recognition

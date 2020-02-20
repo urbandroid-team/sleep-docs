@@ -13,18 +13,18 @@ parent: /sleep/0parent.html
 By tracking your sleep, the app enables you to:
 
 . See a sleep graph for every night
-. Monitor your long term sleep quality (with <</sleep/sleepscore#,sleep score>> and statistics)
+. Monitor your long term sleep quality (with <</sleep/sleepscore#,sleep score>> and <</sleep/statistics#,statistics>> )
 . Set up goals to improve your sleep quality
-. Use <</alarms/smart_wake_up#,smart wake up>> for the alarm
+. Use <</alarms/smart_wake_up#,smart wake up>> for a pleasant wake up experience
 
-NOTE: See <</sleep/sleep_tracking_theory#, Sleep tracking theory>> for a more in-depth information on sleep tracking.
+NOTE: See <</sleep/sleep_tracking_theory#, Sleep tracking theory>> for a more in-depth information on how sleep tracking works.
 
 == Where to find it
 
 Start sleep tracking on the app's main screen by tapping *Start sleep tracking*.
 
-Settings can be found in
-*Sleep as Android > Settings > Sleep tracking*.
+Sleep tracking settings can be found in
+_Settings -> Sleep tracking_.
 
 == Options
 [horizontal]
@@ -34,7 +34,7 @@ Awake detection:: See <</sleep/awake_detection, Awake detection>>
 .Automatic sleep tracking
 [horizontal]
 Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-- More details: <<automatic_sleep_tracking,Automatic sleep tracking>>.
+- More details: <<automatic_sleep_tracking, Automatic sleep tracking>>.
 Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
 - On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
 - On _Save automatically_, the notification saves the sleep record for you automatically
@@ -42,9 +42,8 @@ Sleep time estimate:: Do you forget to track your sleep? Enable this to receive 
 
 .Sensor
 [horizontal]
-Sensor:: Choose a sensor that will be used for motion tracking when you track using phone (ie. without wearables or Sleep Phaser).
-Test sensor:: Test if your chosen sensor (sonar or accelerometer) is working correctly. May not work with all integrated wearables.
-Tutorial:: ...
+Sensor:: Choose a sensor that will be used for motion tracking when you track using phone (ie. without wearables or Sleep Phaser). Read more about the available <</sleep/sensors#, Sensors>>
+Test sensor:: Test if your chosen sensor (Sonar or Accelerometer) is working correctly. If you want to test your wearable for motion tracking, please instead use _Settings -> Wearables -> Test sensor_.
 
 .Pair tracking
 [horizontal]
@@ -71,7 +70,7 @@ Screen dimming:: Controls what will happen to the phone screen while sleep track
   Dim::: Screen dims, your system screen timeout applies
   Dim with clock::: Screen dims, shows time, your system screen timeout applies
   Always on clock::: Screen dims, shows time, your system timeout DOES NOT apply
-Hide stats before rating:: By default statistics are shown in the morning after sleep tracking ends. If you think the statistics might influence how you'd rate the night, turn this on.
+WARNING: _Always on clock_ will keep your screen on all night which will significantly affect battery consumption.
 Stand-by:: Sleep tracking will be put into standby mode when battery drops under level set here. No further sleep data will be collected. This saves battery for the alarm.
 Battery optimized:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
 WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar/lockscreen.

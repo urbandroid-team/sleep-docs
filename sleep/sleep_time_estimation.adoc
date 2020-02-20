@@ -23,5 +23,4 @@ Disabled:: No data from recognition engine are collected.
 Manual only:: Sleep time estimation is saved only after you confirm it.
 Save automatically:: Sleep time estimation is saved automatically when a tracking is missing the previous night.
 
-== Guide
 

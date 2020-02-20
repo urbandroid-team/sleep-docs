@@ -69,3 +69,36 @@ icon:ic_action_menses[]#menses
 
 === Analyzing tags
 Tags divide your sleep history so you can compare nights with a given tag to nights without that tag. See <</sleep/charts#tags, Charts>>.
+
+=== Automatic tags
+
+Some tags are calculated and added to your sleep record automatically. You can turn this feature off in _Settings -> Sleep -> More -> Stats -> Automatic tagging_.
+
+.Location tags
+
+We calculate the 4 most frequent places in the past year of your data history. One year should be sufficient so that you can e.g. watch your sleep at your holiday home where you go regularly in the summer.
+
+Should you move, your new home will gradually become #geo3 -> #geo2 -> #geo1 -> #home after some time as it becomes dominant in your data.
+
+You can also reset yoru home location any time using _Settings -> Privacy -> Reset home location_.
+NOTE: Location permission needs to be granted.
+
+.Moon phases
+
+3 days around full moon or the nov graphs will get a #fullmoon or #newmoon tags. You can see how does the moon cycle affect your sleep in <</sleep/charts#tags, Charts>> or <</sleep/statistics#, Stats>>.
+
+.Sensor
+
+If you use a Wearable or Sonar sensor a #watch or #sonar tag will appear at your graph.
+
+.Automatic sleep tracking
+
+If sleep tracking was started automatically for your (you did not hit the _Sleep tracking_ button) an #auto tag will be added.
+
+You can see more on this feature <</sleep/automatic_sleep_tracking#, here>>.
+
+.Pair tracking
+
+If pair tracking was used #pair tag will be added. See more on <</sleep/automatic_sleep_tracking#, Pair tracking>>.
+
+
