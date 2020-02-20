@@ -8,15 +8,19 @@ parent: /sleep/0parent.html
 
 *Sleep graph is the main output of sleep tracking - it shows analysed data from all the sensors that were used during the night.*
 
-For a guide how to edit a graph, please see the <</sleep/graph_edit#,Graph editing chapter>>.
+Get more details on how to edit graphs in <</sleep/graph_edit#,Graph editing>>. To see more on how to track sleep and produce sleep graphs see <</sleep/sleep_tracking#,Sleep tracking>>.
+
 
 == Sleep graph screen
 The graph screen shows up to three graphs:
+
 - Actigraph (your activity or motion level)
 - Hypnogram (your sleep phases)
 - Noise graph (when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
 Graph screen also shows some statistics about your night, along with an option to <</sleep/graph_edit#,rate and annotate the record>>.
+
+The app uses Actigraphy – activity-based sleep tracking – as the method of estimating your sleep phases. We have shown in a study that our approach produces a very good match with Polysonography – the de-facto golder standard for clinical sleep tracking with a fraction of the costs. See link:https://sleep.urbandroid.org/sleep-lab-comparison/[How does Sleep as Android compare to the sleeplab].
 
 //A healthy sleep (if you are a monophasic sleeper) is 7-8 hours long and consists of 5 sleep cycles where the first lasts for 70-100 minutes and the consequent cycles get longer but lighter. Each cycle consists of 5 stages lasting usually 5-15 minutes. Stage 1 and 2 are considered light sleep and this is the best time to be woken up in the morning.
 //So a healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) followed by an area of deep sleep (low peaks or no peaks) lasting 40-100 minutes.
@@ -75,7 +79,7 @@ a|*The hypnogram* shows your sleep phases progress during the night, estimated f
 - *Awake*: the highest column reaching the top of the graph-
 - *REM phase and light sleep*: shown as medium green, REM has lower columns.
 - *Deep sleep*: shown as the lowest columns.
-- *Red sections*: if you see any red section on your graph, the app did not receive data from sensor (see TODO)
+- *Red sections*: if you see any red section on your graph, the app did not receive data from sensor (see below)
 
 |===
 
