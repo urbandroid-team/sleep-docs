@@ -120,7 +120,7 @@ NOTE: In case you have configured <</devices/smart_light#, Smartlight>>, the _Pe
 
 [[sleep-tracking-screen-1]]
 .Sleep tracking screen elements
-image::sleep_tracking_screen_.png[]
+image::sleep_tracking_screen_1.png[]
 
 Sliding up the _Stop and Save_ slider will bring up further options show in <<sleep-tracking-screen-2>>.
 
@@ -130,4 +130,4 @@ Sliding up the _Stop and Save_ slider will bring up further options show in <<sl
 
 [[sleep-tracking-screen-2]]
 .Sleep tracking screen elements
-image::sleep_tracking_screen_.png[]
+image::sleep_tracking_screen_2.png[]
