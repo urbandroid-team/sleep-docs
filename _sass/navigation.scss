@@ -7,6 +7,11 @@
   flex: 1 1 auto;
   color: var(--body-heading-color);
   background-color: var(--sidebar-color);
+  //.site-title {
+  padding-right: 2rem;
+  padding-top: 0.2em;
+  padding-left: 4em;
+  //}
 
   @include mq(md) {
     position: absolute;
@@ -15,6 +20,7 @@
     z-index: 101;
     height: 60px;
     padding-top: $sp-4;
+    padding-left: 2.5em;
     border-bottom: $border var(--border-color);
   }
 }
