@@ -16,7 +16,7 @@ Accelerometer:: Can be either in the phone or in a connected wearable. If you wa
 Sonar:: Our invention — the sonar — uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions. <<sonar, Read more>> about Sonar.
 PIR:: Passive infrared sensor is mounted on the <</devices/sleep_phaser#,Sleep Phaser>> and can detect breath rate in addition to coarse movement.
 
-See <</sleep/sleep_tracking_theory#how-to-track-sleep, How to track sleep>> for details on optimal setup of your sensor in the bedroom for best results.
+See <</sleep/sleep_tracking#how-to-track-sleep, How to track sleep>> for details on optimal setup of your sensor in the bedroom for best results.
 
 == Sonar
 
