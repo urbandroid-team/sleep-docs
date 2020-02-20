@@ -37,7 +37,7 @@ The list of days is based on the period selection in top right (Week, 14 days, M
 
 By default Graphs belong to the same day if their end time belongs to the same day. But this can be modified in _Setting -> Sleep -> Stats -> More -> Sleep day cutoff_ in case of specific sleeping schedules.
 
-Optionally aggregates by Tags can be expanded by tapping on _Show X Tags_. This will tell you how does your Duration, Deep sleep and Snoring differ when a certain tag is used to your Sleep score for all nights. The aggregates are calculated fro the selected period which can be changed in top right.
+Optionally aggregates by Tags can be expanded by tapping on _Show X Tags_. This will tell you how does your Duration, Deep sleep and Snoring differ, when a certain tag is used to your Sleep score for all nights. The aggregates are calculated for the selected period which can be changed in top right.
 
 A special row in the Tags section shows your country and aggregated Duration, Deep sleep and Snoring for your fellow citizens.
 

@@ -102,7 +102,7 @@ If you use a wearable or sonar, a #watch or #sonar tag will appear on your graph
 
 ===== Automatic sleep tracking
 
-If sleep tracking was started automatically for your (you did not hit the _icon:ic_action_track[] Sleep tracking_ button) an \#auto tag will be added.
+If sleep tracking was started automatically for your (you did not hit the _icon:ic_action_track[] Sleep tracking_ button) an #auto tag will be added.
 
 You can see more on this feature <</sleep/automatic_sleep_tracking#, here>>.
 
