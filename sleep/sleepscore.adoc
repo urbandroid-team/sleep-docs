@@ -64,14 +64,16 @@ There are six dimensions that contribute to sleep quality. Each of the dimension
 |===
 
 
-[NOTE][[age-note]]
-===
+[NOTE]
+====
+[[note-age]]
 Healthy durations are adjusted according to your age as defined in _Settings -> Sleep -> More -> Stats -> Year of birth_
+
 * General or not set (6.5 - 9)
 * School age (9 - 11)
 * Teenager (8 - 10),
 * Young (7 - 9)
 * Elderly (6 - 9)
-===
+====
 
 If you’re in the healthy range for a certain dimension, it lights up green and you get one point. Every line can also turn red if the values are in a very unhealthy range.
