@@ -15,11 +15,16 @@ Sleep score draws a lot of inspiration from the https://en.wikipedia.org/wiki/Pi
 - on the Dashboard, one of the cards is a Sleep Score card.
 - in _Left ☰ menu -> Trend -> Trend tab -> Sleep score chart_
 
-== Guide
+== How it looks like
 
 [[awake-detection-settings]]
 .Your current sleep score. You get one point for each dimension that is in healthy range.
 image::sleepscore_annotated.png[]
+
+[[figure-sleepscore-chart]]
+.This is how Sleep score looks in <</sleep/charts#sleep-score, Charts>>
+image::sleepscore.png[]
+
 
 === Sleepscore dimensions
 
