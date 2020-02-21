@@ -128,7 +128,7 @@ li p:last-child {
 }
 
 // How many list items are in each category
-$gaps: 1,2,1,2,7;
+$gaps: 1,2,1,2,1,7;
 
 @each $cat in computeCategories($gaps) {
   nav > .navigation-list > .navigation-list:nth-child(#{$cat}) {

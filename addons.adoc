@@ -1,0 +1,18 @@
+---
+layout: page
+title: Addons
+permalink: /addons/
+no_troubleshooting: true
+nav_order: 60
+no_comments: true
+---
+
+- <</services/sleepcloud#,SleepCloud>>
+- <</devices/sleep_phaser#,Sleep Phaser>>
+- <</devices/wearables#,Wearables>>
+- <</sleep/lullaby#,Lullabies>>
+- <</devices/oximeter#,Oximeter>>
+- <</alarms/catpcha#,CAPTCHA>>
+- <</devices/sleep_mask#,Sleep Mask>>
+
+
