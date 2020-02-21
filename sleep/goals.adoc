@@ -45,6 +45,7 @@ In <<goal-progress-screen>> you see an example of a goal in progress. It consist
 +
 NOTE: Before the start of the goal we show a 30 days rolling average of the measure you try to change. But after we show the average from only the values after in the goal time range. This means at the beginning the values will probably be quite bumpy before they start to converge into more stable values.
 
+
 [[goal-progress-screen]]
 .Checking goal progress
 image::goal_progress.png[]
