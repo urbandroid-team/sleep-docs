@@ -16,7 +16,17 @@ _Settings -> Bedtime notification -> Ideal daily sleep income_
 Ideal daily sleep income affects:
 
 - <</alarms/bedtime_notification#,bedtime notification>>
-- counting of your <</sleep/charts#,sleep deficit>>
+- counting of your <</sleep/charts#deficit,sleep deficit>>
 
 
 Healthy ideal daily sleep income for healthy adults is 7-9 hours, according to link:https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898[Mayo Clinic].
+
+In the app the sleep score uses your age (if provided) to adjust the ideal sleep times for the <</sleep/sleepscore#, Sleep score>> stats.
+
+* General (6.5 - 9)
+* School age (9 - 11)
+* Teenager (8 - 10),
+* Young (7 - 9)
+* Elderly (6 - 9)
+
+NOTE: To se your age go to _Settings -> Sleep -> More -> Stats_.
