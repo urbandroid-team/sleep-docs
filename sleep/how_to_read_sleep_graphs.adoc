@@ -107,7 +107,7 @@ Besides deep sleep, REM phase and light sleep, there are several other events de
 |===
 a|Icons on Actigraph
 a|icon:ic_action_pause[] Tracking paused
-icon:ic_alarm_time[] Alarm / snoozed alarm
+icon:ic_action_time[] Alarm / snoozed alarm
 icon:ic_action_sunrise[] Sunrise / sunset
 icon:ic_action_noise[] Snoring event
 icon:ic_action_cpap[] Low breath rate detected (Apnea event)
