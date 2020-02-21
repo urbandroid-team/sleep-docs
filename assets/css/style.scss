@@ -132,7 +132,7 @@ $gaps: 1,2,1,2,1,7;
 
 @each $cat in computeCategories($gaps) {
   nav > .navigation-list > .navigation-list:nth-child(#{$cat}) {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 }
 
