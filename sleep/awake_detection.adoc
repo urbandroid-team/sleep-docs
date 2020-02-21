@@ -70,7 +70,7 @@ Volume / camera buttons:: Adds 5 minutes every time your press the volume of cam
 * Needs to be enabled in _Settings -> Sleep tracking -> Volume and camera button effect_
 * When screen off - press the power button and than one of the volume buttons or camera button.
 
-NOTE: You can also edit your sleep graph ex-post in order to correct your wake up or before fall asleep periods. See Guide for detailed instructions.
+NOTE: You can also <</sleep/graph_edit#,edit your sleep graph>> ex-post in order to correct your wake up or before fall asleep periods.
 
 
 [[pause-trackig]]
