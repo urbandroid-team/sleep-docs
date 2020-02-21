@@ -9,29 +9,29 @@
 
 require 'asciidoctor'
 require 'asciidoctor/extensions'
+# include Asciidoctor
 
 class ExampleBlock < Asciidoctor::Extensions::BlockProcessor
   use_dsl
 
   named :EXAMPLE
-  parse_content_as :compound
+  on_contexts :example, :paragraph
 
   def process parent, reader, attrs
-    text = (reader.lines.join("<br>"))
+    attrs['name'] = 'example'
+    attrs['caption'] = 'Example'
+    create_block parent, :admonition, reader.lines, attrs, content_model: :compound
+  end
+end
 
-    html = %(+++<div class="admonitionblock example">
-      <table>
-      <tbody><tr>
-      <td class="icon">
-      <img src="/assets/icons/example.svg" alt="Example">
-      </td>
-      <td class="content">
-      #{text}
-      </td>
-      </tr>
-      </tbody></table>
-      </div>+++)
+class CustomAdmonitionBlockDocinfo < Asciidoctor::Extensions::DocinfoProcessor
+  use_dsl
 
-    create_block parent, :paragraph, html, attrs
+  def process doc
+    if (doc.basebackend? 'html') && doc.backend != 'pdf'
+      '<style>
+.admonitionblock td.icon .icon-example:before {content:"\f128";color:#871452;}
+</style>'
+    end
   end
 end
