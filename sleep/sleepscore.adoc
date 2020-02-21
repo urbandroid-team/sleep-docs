@@ -66,7 +66,7 @@ There are six dimensions that contribute to sleep quality. Each of the dimension
 
 [NOTE][[age-note]]
 ===
-Healthy durations are adjusted according to your age as defined in _Settings -> Sleep -> More -> Stats -> Year of birth_
+Healthy durations are adjusted according to your age if set. You can set your age in _Settings -> Sleep -> More -> Stats -> Year of birth_.
 * General or not set (6.5 - 9)
 * School age (9 - 11)
 * Teenager (8 - 10),
