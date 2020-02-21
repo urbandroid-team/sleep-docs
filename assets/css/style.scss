@@ -245,6 +245,18 @@ $gaps: 1,2,1,2,7;
   font-size: 1.2em;
 }
 
+// Admonition tables
+.admonitionblock {
+  td.content {
+    width: 100%;
+  }
+}
+table .admonitionblock {
+  td {
+    background-color: var(--body-background-color);
+  }
+}
+
 // Colors
 .color-orange { color: orange; font-weight: bold; }
 .color-blue { color: royalblue; font-weight: bold; }
