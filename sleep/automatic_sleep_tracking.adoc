@@ -17,10 +17,7 @@ The app offers smart ways to track your sleep automatically similarly to what we
 
 _Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking -> After fall asleep_
 
-[WARNING]
-===
-If you do not see this option your phone probably does not support activity tracking in background. This is based on the phone hardware, more specifically the SoC's sensor batching queue size.
-===
+WARNING: If you do not see this option your phone probably does not support activity tracking in background. This is based on the phone hardware, more specifically the SoC's sensor batching queue size.
 
 ## Options
 
@@ -66,9 +63,6 @@ Automatic tracking attempts are stopped quickly (~half a minute) after we recogn
 
 * Noise recording (and snoring detection) is enabled and talking is detected
 
-[WARNING]
-===
-When using Sonar automatic sleep tracking (after fall asleep) only starts when the phone is charging. The reason for this is battery consumption which is usually high with sonar.
-===
+WARNING: When using Sonar automatic sleep tracking (after fall asleep) only starts when the phone is charging. The reason for this is battery consumption which is usually high with sonar.
 
 This way we get a pretty precise figures about your sleep even you did not manually initiated sleep tracking.

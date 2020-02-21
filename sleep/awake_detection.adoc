@@ -11,6 +11,7 @@ parent: /sleep/0parent.html
 *Estimates your awake times during sleep tracking using various heuristics*
 
 Awake heuristics:
+
 * Significant movement
 * Light after sunset
 * Heart rate from wearables
