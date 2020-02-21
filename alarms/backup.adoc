@@ -40,5 +40,5 @@ This is what happens when you don’t interact with the alarm:
 
 [horizontal]
 How to disable backup alarm::
-. Go to _Settings_ -> _Alarm default settings -> Back up -> Ringtone
-. Set the ringtone to "Silent"
+. Go to _Settings -> Alarm default settings -> Back up -> Ringtone_
+. Set the ringtone to _Silent_
