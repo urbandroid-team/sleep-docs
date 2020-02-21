@@ -46,8 +46,10 @@ On top of the Phaser, there is a touch button that controls the light. It has th
 
 The light can also be controlled via Sleep app – bottom menu during <</sleep/sleep_tracking#,sleep tracking>>.
 
-[.text-center]
-image::sleepphaser2.png[width=50%]
+
+[[figure-phaser-2]]
+.Sleep phaser
+image:sleepphaser2.png[]]
 
 ### First start
 . Connect your Sleep Phaser to the power supply.
