@@ -2,4 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 
+deploy.txt
+
 \.idea/
