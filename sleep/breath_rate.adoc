@@ -6,30 +6,32 @@ parent: /sleep/0parent.html
 ---
 :toc:
 
-## What it does
+== What it does
 
-*<</sleep/sensors#sonar, Sonar>> or the <</devices/sleep_phaser_2#, Sleep phaser>> is so sensitive we can even measure your abdominal movements and thus estimate your breath rate.*
+*Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>> or  <</devices/sleep_phaser_2#, Sleep phaser>>) or your blood oxygenation (<</devices/oximeter#, oximeter>>).*
 
-Any pause in in the detected breath rates is depicted as an O2 symbol icon::ic_action_cpap[] in the sleep graph and may hint at respiratory issues or cause by an outage of the sensor.
+Sonar or Sleep Phaser measure your abdominal movements and thus estimate your breath rate.
 
-Using <</devices/oximeter, Oximeter>> we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better and more precise respiratory issues tracking. They can even hint on any severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
+Any pause in in the detected breath rates is depicted as an O2 symbol icon:ic_action_cpap[] in the sleep graph and may hint at respiratory issues or cause by an outage of the sensor.
 
-## Where to find it
+Using <</devices/oximeter, Oximeter>> we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
+
+== Where to find it
 
 No action is required. You will see breath rates if you use the <</sleep/sensors#sonar, Sonar>> or the <</devices/sleep_phaser_2#, Sleep phaser>> if the overall setting in your bedroom and the device in use reach the required level of sensitivity.
 
 With an oximeter, you can track your blood oxygen levels (SpO~2~). See <</devices/oximeter#,Oximeter docs>> for details.
 
-## Options
+== Options
 In _Settings -> Wearables_:
 
 [horizontal]
 Low breath rate alarm:: If enabled, this will wake you up if you have a low breathing rate (or blood oxygen level) for a while.
 
-## Guide
+== Guide
 A blue line on your sleep graph shows breath/oxygen data from connected devices, see <<breath-line>>.
 
-Whenever a significant dip in value occurs, a O2 symbol icon::ic_action_cpap[] will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value.
+Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value.
 
 [[breath-line]]
 .Breath-rates in sleep graph
@@ -37,7 +39,7 @@ image::breath_rate.png[]
 
 Read about link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[sleep apnea].
 
-### RDI
+=== RDI
 *Respiratory Disturbance Index* is the average count of respiratory disturbance episodes per hour.
 E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.
 

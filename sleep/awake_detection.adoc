@@ -8,17 +8,20 @@ parent: /sleep/0parent.html
 :toc:
 
 == What it does
-*Estimates your awake times during sleep tracking using various heuristics*
+*Estimates your awake times during sleep tracking using various hints.*
 
-Awake heuristics:
+Awake hints:
 
 * Significant movement
 * Light after sunset
 * Heart rate from wearables
 * Talking or baby crying
-* Use of phone...
+* Use of phone
+* ...
 
-<</sleep/sleep_tracking_theory,Actigraphy>> (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. Anyway all the heuristics we discuss below give us a very good and solid view on your awakes which we measure as the *Efficiency* (_time sleeping / time tracking_) an important dimension in your <</sleep/sleepscore#, Sleep score>>.
+<</sleep/sleep_tracking_theory,Actigraphy>> (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. So we use heuristics (hints) that give us a very good and solid view on your awake events.
+
+We then use awake events to measure *sleep efficiency* (_time sleeping / time tracking_) - an important dimension in your <</sleep/sleepscore#, sleep score>>.
 
 NOTE: Awake time is subtracted from your overall sleep *duration* - another important <</sleep/sleepscore#, Sleep score>> measure.
 
@@ -78,16 +81,16 @@ NOTE: You can also <</sleep/graph_edit#,edit your sleep graph>> ex-post in order
 image::pause_tracking.png[]
 
 
-== How to…
+== Guide
 
 [horizontal]
 
 Mark any period as awake::
 . Open the graph you wish to edit from _Left_ ☰ _menu -> Graphs ->_ open the graph.
 . Select any portion of the graph by taping on the graph directly.
-. Adjust the selection once the selected portion gets zoomed - either move the selection handles or correct the timings in the upper left corner (TODO obrázek).
-. When the proper time period is selected, tap on the (TODO obrázek) scissors icon.
-* You can revert up to 5 changes from the ⋮ _menu -> Undo_, or immediately a banned with _Undo_ button is displayed each time you edit the graph.
+. Adjust the selection once the selected portion gets zoomed - either move the selection handles or correct the timings in the upper left corner.
+. When the proper time period is selected, tap on the scissors icon.
+* You can revert up to 5 changes from the ⋮ _menu -> Undo_, or from an _Undo_ banner that is displayed each time you edit the graph.
 Delete false-positive awakes::
 . Open ⋮ _menu -> Delete awake_.
 * Deletes all awakes from the graph.

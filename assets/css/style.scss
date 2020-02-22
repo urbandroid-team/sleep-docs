@@ -31,10 +31,11 @@ p {
 
 // EMPHASIZES
 em {
-  filter: brightness(0.8);
+  color: var(--body-text-color-cursive);
 }
 b, strong {
   font-weight: bold;
+  color: var(--body-text-color-bold);
   //filter: brightness(1.5);
 }
 
@@ -96,6 +97,14 @@ tbody {
 td p:last-child {
   margin-bottom: 0;
 }
+thead tr:first-of-type th:last-of-type,
+thead tr:first-of-type td:last-of-type,
+tbody:first-child tr:first-of-type th:last-of-type,
+tbody:first-child tr:first-of-type td:last-of-type {
+  //border-top-right-radius: 4px;
+  width: 100%;
+}
+
 
 // LISTS
 li p:last-child {
@@ -239,10 +248,11 @@ $gaps: 1,2,1,2,1,7;
 
 // SVG images
 .icon > img {
-  background-color: #A0A0A050;
+  //background-color: #A0A0A050;
+  background-color: var(--body-text-color-bold);
   border-radius: 50%;
   padding: 0.2em;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 // Admonition tables

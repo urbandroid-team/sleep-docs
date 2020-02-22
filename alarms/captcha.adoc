@@ -7,23 +7,23 @@ parent: /alarms/0parent.html
 :toc:
 
 == What it does
-*A little task to be solved to allow you dismissing the Alarm.*
+*Gives you a task to solve in order to dismiss the alarm.*
 
-CAPTCHA's make sure you wake on time and won't be late for your daily duties. CAPTCHA also prevents any unintentional alarm dismiss.
+CAPTCHAs make sure you wake on time and won't be late for your daily duties. CAPTCHAs prevent any unintentional alarm dismiss.
 
 == Where to find it
 
 - _Settings -> CAPTCHA: Stop oversleeping!_
 - _<</alarms/alarm_settings#per-alarm,Alarm-specific settings>> -> CAPTCHA: Stop oversleeping!_
 
-NOTE: CAPTCHA can also be configured in Alarm-specific settings. You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.
+NOTE: CAPTCHA can also be configured in <</alarms/alarm_settings#per-alarm,Alarm-specific settings>>. You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.
 
 == Options
 [horizontal]
-Default CAPTCHA:: CAPTCHA for all alarms (not overridden by <</alarms/alarm_settings#per-alarm,Alarm-specific settings>>
-CAPTCHA Difficulty:: Sets CAPTCHA difficulty. How is difficulty used depends on each CAPTCHA. E.g. Math CAPTCHA requires you to do more equitions with larger numbers
+Default CAPTCHA:: CAPTCHA for all alarms (that are not overridden by <</alarms/alarm_settings#per-alarm,Alarm-specific settings>>)
+CAPTCHA Difficulty:: Sets CAPTCHA difficulty. How is difficulty used depends on each CAPTCHA. E.g. Math CAPTCHA requires you to do more equations with larger numbers on higher difficulty.
 Preview:: See the selected CAPTCHA in action.
-WARNING: We strongly recommend to test each CAPTCHA with the _Preview_ feature and use _Settings_ before it is used in the morning which can bring unwanted surprises.
+WARNING: We strongly recommend to test each CAPTCHA with the _Preview_ feature and use _Settings_ before it is used in the morning - that could bring unwanted surprises.
 Settings:: Some CAPTCHAs have addition settings, e.g.:
  * Editing, adding, and deleting QR codes and NFC tags
  * Selecting tasks for MultiCaptcha
@@ -35,7 +35,7 @@ CAPTCHA ADD-ons:: Download a free extension with more CAPTCHA tasks from https:/
 Alarm volume in CAPTCHA:: Lowers or mutes the alarm volume while solving a CAPTCHA task
 NOTE: During CAPTCHA solving, alarm volume is lowered for 1 minute so that you don’t wake your partner with the ongoing alarm. You can use the 1 minute either to solve the CAPTCHA or get to a different room for solving it.
 To get more time, tap on the _+_ icon in the upper right corner
-Prevent escaping CAPTCHA:: Prevents from any way of avoiding solving the CAPTCHA. Especially from force closing or uninstalling the app during the task.
+Prevent escaping CAPTCHA:: Prevents avoiding solving the CAPTCHA. Especially from force closing or uninstalling the app during the task.
 
 ## Guide
 
@@ -50,7 +50,7 @@ QR code:: see <<QR_NFC,QR Captcha>>
 NFC tag:: see <<QR_NFC,NFC Captcha>>
 Shake it::  Shake your phone
 Dream diary:: Write down your dream (10 characters minimum at Difficulty 1).
-NOTE: Dream diary entries are saved into as your sleep record comments.
+NOTE: Dream diary entries are saved into your sleep record comments. If there is no sleep record, they are only saved into your clipboard - this allows you to paste them somewhere else.
 Say cheese!:: Smile to your front camera, with more difficulty you need a cast a more charming smile!
 Laugh Out Loud:: Laugh at your phone microphone
 

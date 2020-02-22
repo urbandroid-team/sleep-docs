@@ -9,18 +9,19 @@ tags:
 :toc:
 
 == What it does
-*Alarm settings help you make your wake up alarm a refreshing and pleasant experience.*
+*Alarm settings help you make your wakeup alarm a refreshing and pleasant experience.*
 
 Most of all:
+
 * <</alarms/smart_wake_up#,Smart wake up>> wakes you at the right sleep phase
 * <<gentle_alarm, Gentle volume increase>> finds the minimal sound to wake you
 * <</devices/smart_light#,Smartlight>> natural sunrise wake up
 * and many more.
 
-We makes sure even sleepyheads wake up on time with our <</alarms/captcha#,CAPTCHA>> feature.
+We make sure even sleepyheads wake up on time with our <</alarms/captcha#,CAPTCHA>> feature.
 
 == Where to find it
-Alarms can be setup in two places. Each alarm has its own alarm-specific settings. Newly created alarms are by default configured based on _Settings -> Alarms_.
+Alarms can be setup in two places. Each alarm has its own alarm-specific settings. Newly created alarms are by default based on _Settings -> Alarms_.
 
 Alarm-specific settings[[per-alarm]]::
 
@@ -67,7 +68,9 @@ NOTE: Please, test it before using it, on some devices the alarm output may be s
 Alarm reliability:: Can increase reliability of the alarm on problematic phones (see https://dontkillmyapp.com?app=Sleep%20as%20Android[dontkillmyapp.com]).
 
 .Alarm-specific settings
-Same as for alarm default settings; a few different options are available, listed below.
+All default options are also available as alarm-specific options.
+
+There are also few options that are only available in alarm-specific settings:
 [horizontal]
 Repeat:: Set a schedule for repeating alarm, you can choose also <<even_odd,Even / odd bi-weekly patterns>>.
 Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
@@ -77,37 +80,45 @@ Silent alarm (in Ringtone):: Sets an alarm without sound.
 == Guide
 [horizontal]
 Create alarm only as vibrations on watch (no sound)::
-NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).
 . Enable wearable vibrations (_Settings -> Wearables -> Vibrate_).
++
+NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 
 Create silent alarm::
-NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_).
 . This option is available only in <<per-alarm,Alarm-specific settings>>, not in _Settings -> Alarms_. This is a safety measure to prevent unintentional silent alarms.
++
+NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 Postpone next alarm::
-NOTE: Works only for repeating alarms.
 . Open alarm -> Postpone next alarm.
 . Use the sliding bar or the drop down menu list for postponing alarm.
 . Confirm the alarm time change.
++
+NOTE: Works only for repeating alarms.
 Skip next alarm::
-NOTE: Works only for repeated alarms.
 . Open an alarm -> Skip next, confirm the change.
 . Or long press on the alarm on alarm board -> Skip next.
++
+NOTE: Works only for repeated alarms.
++
 NOTE: Skip next through long press can be used repeatedly, so that you can skip several days in advance.
 Dismiss alarm before alarm time::
-NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
 . Open before alarm notification (appears one hour before alarm) from the notification bar on your phone.
 . Dismiss from the notification.
++
+NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
 Use my own sound as alarm::
 . Open Ringtone selection: _Settings -> Alarm default settings -> Ringtone_ or _<<per-alarm,Alarm-specific settings>> -> Ringtone_.
 . Tap on folder icon:ic_folder[] icon in right upper corner.
 . Choose a sound file saved on your phone.
++
 NOTE: In the file picker you may first need to enable showing of external storage to be able to see your sound there.
 Name an alarm::
 . Open an existing alarm details screen or create new alarm dialogue.
 . Name your alarm in the Label field in upper right corner. You will see this name on the alarm dialog in the morning, so you can use it for TODOs or motivation texts and they will be written into your sleep graph description.
 Create odd / even schedule:: [[even_odd]]
-. Open _<<per-alarm,Alarm-specific settings>>.
+. Open _<<per-alarm,Alarm-specific settings>>_.
 . Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
 . Choose Weekly / Even / Odd pattern from the drop down menu list.

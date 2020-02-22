@@ -9,7 +9,7 @@ parent: /alarms/0parent.html
 == What it does
 *Starts ringing loudly on maximum volume if you ignore your normal alarm.*
 
-Backup alarm starts after _Alarm timeout_.
+Backup alarm starts after <<alarm-timeout,Alarm timeout>>.
 
 == Where to find it
 _Settings -> Alarm default settings -> Backup alarm_
@@ -18,8 +18,8 @@ _Settings -> Alarm default settings -> Backup alarm_
 [horizontal]
 Backup alarm duration:: Set for how long will the backup alarm ring (after that it gets snoozed for your default _Snooze time_, but never less than 10 minutes.
 Ringtone:: Backup alarm ringtone.
-NOTE: Backup alarm get also be set to silent.
-Alarm timeout:: Time after which the backup alarm will ring if you ignore your normal alarm.
+NOTE: Backup alarm can also be set to silent.
+Alarm timeout [[alarm-timeout]]:: Time after which the backup alarm will ring if you ignore your normal alarm.
 Repeat:: Maximum time of repeats – after that, no alarm will ring anymore.
 +
 [EXAMPLE]

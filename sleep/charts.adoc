@@ -31,7 +31,8 @@ a|*Sleep score* radar chart is another way of looking at your <</sleep/sleepscor
 
 You can fill each of the sleep score section with up to 5 points. The more points you have in a given section, the more healthy that dimension of your sleep is.
 
-.How should it look?
+*How should it look?*
+
 The goal is of course to fill up that chart completely!
 |===
 
@@ -44,7 +45,8 @@ a|*Deficit* chart is useful for tracking your sleep deficit.
 
 - *Red / green line*: This line shows the total deficit/surplus. The most interesting point of the deficit chart is the rightmost point of this line. If it's red, it means that you have a sleep debt currently. If it's green, you are oversleeping your target.
 
-.How should it look?
+*How should it look?*
+
 You should strive to have zero sleep deficit, so ideally all of the lines should aim to be around 0 hours all the time.
 |===
 
@@ -62,7 +64,8 @@ a|*Duration* chart shows you the evolution of your sleep lengths.
 The point at 30 May is the average of sleep durations from 1 May through 30 May.
 The point at 4 May is the average of sleep duration from 5 April through 4 May.
 
-.How should it look?
+*How should it look?*
+
 The chart should not have many extremes (regular, periodic chart is normal).
 |===
 
@@ -74,7 +77,8 @@ a|*Irregularity* chart shows you how much is your sleep irregular. The higher th
 
 * *Blue line*: Shows the irregularity for each day.
 
-.How should it look?
+*How should it look?*
+
 While some irregularity is normal, you should strive to keep it to minimum - keep the line at low values.
 |===
 
@@ -89,7 +93,8 @@ Deep sleep percentage means "a portion of your sleep duration when you've been i
 * *Deep blue line*: Shows actual deep sleep percentage on a given day.
 * *Light blue line*: Shows all-time average deep sleep percentage.
 
-.How should it look?
+*How should it look?*
+
 The average should be kept over 30%.
 |===
 
@@ -104,7 +109,8 @@ This graph shows how many hours of deep sleep have you been getting recently.
 * *Deep blue line*: Shows actual deep sleep duration on a given day.
 * *Light blue line*: Shows all-time average deep sleep duration.
 
-.How should it look?
+*How should it look?*
+
 The graph should not have many spikes - ideally should be regular, flat line, above 2 hours.
 |===
 
@@ -117,7 +123,8 @@ a|*Awake* chart shows you how much you've been waking up during your sleep.
 * *Green line*: Shows actual awake duration during sleep on a given day.
 * *Light blue line*: Shows all-time average awake during sleep.
 
-.How should it look?
+*How should it look?*
+
 In an ideal world, you should not wake up at all during sleep. This means a flat line at the bottom.
 |===
 
@@ -130,7 +137,8 @@ a|*Efficiency* chart shows the ratio of actually sleeping when you're in bed.
 * *Green line*: Shows actual sleep efficiency on a given day.
 * *Light blue line*: Shows all-time average efficiency.
 
-.How should it look?
+*How should it look?*
+
 Ideally a flat line at 100%.
 |===
 
@@ -143,7 +151,8 @@ a|*Snoring percentage* chart shows how much of the time you sleep did you spend 
 * *Violet line*: Shows snoring percentage on a given day.
 * *Light blue line*: Shows all-time average snoring percentage.
 
-.How should it look?
+*How should it look?*
+
 Ideally a flat line at 0%.
 |===
 
@@ -156,7 +165,8 @@ a|*Snoring* chart shows how much time did you spend snoring.
 * *Violet line*: Shows snoring duration on a given day.
 * *Light blue line*: Shows all-time average snoring duration.
 
-.How should it look?
+*How should it look?*
+
 Ideally a flat line at 0 minutes.
 |===
 
@@ -166,7 +176,8 @@ Ideally a flat line at 0 minutes.
 a|image:charts/trend/graphs.png[]
 a|*Graphs*, or "sleep bars", show the intensity of movement during sleep. Each bar is one sleep. At the bottom, the charts start with 12PM and go up to the next 12PM. The greener the bar is at any given point, the more intensive movement there was.
 
-.How should it look?
+*How should it look?*
+
 As the sleep bars are just another view at the actigraph, they should ideally follow the same rules as the actigraph: they should show regular sleep cycles that get shorter towards the end of the sleep.
 |===
 
@@ -179,7 +190,8 @@ a|*Fall asleep hour* chart shows when you've been going to bed.
 * *Green line*: Shows the actual hour when you started sleep tracking.
 * *Light blue line*: Shows all-time average.
 
-.How should it look?
+*How should it look?*
+
 Ideally a flat line with no spikes.
 |===
 
@@ -192,7 +204,8 @@ a|*Smart wakeup* shows how many minutes before the set alarm did smart wake up w
 * *Green line*: Shows how many minutes before the set alarm did smart wakeup wake you up at the given day.
 * *Light blue line*: Shows all-time average.
 
-.How should it look?
+*How should it look?*
+
 It should be consistently between zero and your set smart period. If it's at one of the extremes, you should <</alarms/smart_wake_up#sensitivity,adjust the smart wakeup sensitivity>>.
 |===
 
@@ -205,7 +218,8 @@ a|*Snooze* chart shows how many minutes you've been snoozing your alarm.
 * *Green line*: Shows the actual snooze duration for each day.
 * *Light blue line*: Shows all-time average of your snoozing.
 
-.How should it look?
+*How should it look?*
+
 There are no hard and fast rules on snoozing, but it sure is a sign of a strong willpower to keep it at zero!
 |===
 
@@ -243,9 +257,9 @@ a|image:charts/tags/rating.png[]
 |===
 
 ==== Snoring
-[cols="1,2"]
+//[cols="1,2"]
 |===
-a|image:charts/tags/snoring.png[]
+//a|image:charts/tags/snoring.png[]
 |Shows average snoring durations (in minutes) of sleeps with a certain tag.
 |===
 
@@ -286,7 +300,8 @@ a|Shows your sleeps as points in an XY graph, in order to find your social jet l
 
 Most importantly, the sleeps are divided into two clusters - *Working days* and *Free days* (<</sleep/chrono_jetlag#workdays-and-weekend-days,see explanation>>)
 
-.How should it look?
+*How should it look?*
+
 Ideally, the two clusters should be very close together, indicating that your social jet lag is very low.
 |===
 
@@ -296,7 +311,8 @@ Ideally, the two clusters should be very close together, indicating that your so
 a|image:charts/chronotype/jetlag.png[]
 a|Shows you mid-sleep hour on free days and workdays, and your social jet lag.
 
-.How should it look?
+*How should it look?*
+
 Ideally, the two leftmost bars should be very similar in height, so your social jet lag would be very low.
 |===
 

@@ -56,6 +56,9 @@ $body-heading-line-height: 1.15 !default !default;
   --code-background-color: var(--grey-dk-250);
 
   --body-text-color: var(--grey-lt-300);
+  --body-text-color-bold: var(--grey-dk-000);
+  --body-text-color-cursive: var(--grey-lt-000);
+
   --body-heading-color: var(--grey-lt-000);
   --nav-child-link-color: var(--grey-dk-000);
   --link-color: var(--blue-000);
@@ -75,6 +78,9 @@ $body-heading-line-height: 1.15 !default !default;
   --code-background-color: var(--grey-lt-000);
 
   --body-text-color: var(--grey-dk-100);
+  --body-text-color-bold: var(--grey-dk-300);
+  --body-text-color-cursive: var(--grey-dk-000);
+
   --body-heading-color: var(--grey-dk-300);
   --nav-child-link-color: var(--grey-dk-100);
   --link-color: var(--purple-000);

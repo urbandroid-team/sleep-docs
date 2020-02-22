@@ -11,7 +11,7 @@ parent: /sleep/0parent.html
 
 When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking and will react and try to make you stop snoring.
 
-Apart from audible anti-snoring you can also set your <</devices/smart_light#miscellaneous,Smartlight>> devices to react to your snoring.
+Apart from audible anti-snoring you can also set your <</devices/smart_light#miscellaneous,Smartlight>> devices to react to your snoring by flashing.
 
 == Where to find it
 _Settings -> Sleep noise recording -> Anti-snoring_
@@ -28,5 +28,6 @@ Loop audio:: Set repeating of the audio clip and vibration for higher efficiency
 Force headphones only:: Anti-snoring by default plays through headphones and the phone speaker simultaneously. This option enables you to e.g. not disturb your partner with anti-snoring if you use headphones.
 Preview:: Check how your set anti-snoring cue behaves.
 NOTE: We strongly recommend to _Preview_ your settings before using it at night.
++
 WARNING: Anti-snoring as well as <</sleep/lucid_dreaming#, Lucid dreaming>> may disturb you from sleeping.
 

@@ -7,10 +7,13 @@ parent: /sleep/0parent.html
 :toc:
 
 == What it does
-Advice shows your current sleep development at a glance. You see which dimensions of your sleep have improved or worsened recently including tips on how to reverse the worsening trends.
+*Advice shows your current sleep development at a glance.*
+
+You can see which dimensions of your sleep have improved or worsened recently including tips on how to reverse the worsening trends.
 
 == Where to find it
-*Left ☰ menu -> Advice* or from the <</ux/homescreen#advicecard,Advice>> dashboard card.
+- *Left ☰ menu -> Advice*
+- From the <</ux/homescreen#advicecard,Advice>> dashboard card.
 
 == General description
 Advice watches recent trends in the main sleep dimensions (Duration, Irregularity, Deep sleep %, Snoring, Social jet-lag...).
@@ -27,7 +30,7 @@ For some dimensions there are further checks, such as whether your data are with
 
 == Watched dimensions
 
-
+[cols="1,3"]
 |===
 |Dimension |Checks
 
@@ -65,14 +68,14 @@ Your age for the duration healthy bounds can be configured in _Settings -> Sleep
 == Types of advice cards
 
 [horizontal]
-Congrats:: Shows an improvement in a given dimension.
-Caution:: Shows a worsening with tips on how to improve and links to setup <</sleep/goals#,Goals>>.
+[color-green]#Congrats#:: Shows an improvement in a given dimension.
+[color-red]#Caution#:: Shows a worsening with tips on how to improve and links to setup <</sleep/goals#,Goals>>.
 Neutral:: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occurring a lot lately we cannot say it is good or bad.
 
 == Examples
 
-Congrats:: Your SNORING is down by 5 minutes lately
-Caution:: Your DURATION is down by 30 minutes lately
-Neutral:: Others in your country are getting 54 minutes more DURATION
-Caution:: Your SNORING is over 50 minutes
-Congrats:: Your IRREGULARITY is under 20 minutes
+[color-green]#Congrats#:: Your SNORING is down by 5 minutes lately.
+[color-red]#Caution#:: Your DURATION is down by 30 minutes lately.
+Neutral:: Others in your country are getting 54 minutes more DURATION.
+[color-red]#Caution#:: Your SNORING is over 50 minutes.
+[color-green]#Congrats#:: Your IRREGULARITY is under 20 minutes.
