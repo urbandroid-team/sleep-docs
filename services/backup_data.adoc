@@ -18,7 +18,7 @@ parent: /services/0parent.html
 == Options
 ._Left ☰ menu -> Backup_
 [horizontal]
-Export data:: TODO: Exports all your sleep records to a CSV file located on your phone at _/sdcard/sleep-data/sleep-export.csv_. Use for  <<local_backup,local backup>> or for your <<csv_export, own analysis>> of sleep tracking data.
+Export data:: Exports all your sleep records to a CSV file located on your phone at _/sdcard/sleep-data/sleep-export.csv_. Use for  <<local_backup,local backup>> or for your <<csv_export, own analysis>> of sleep tracking data.
 Upload to Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and uploads data from phone to cloud.
 Import data:: Starts import of data from /sdcard/sleep-data/sleep-export.csv (local backup).
 NOTE: If you already have existing sleep records in Sleep, import will not overwrite them. It will just import new records that are present in the import file.

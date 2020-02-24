@@ -39,7 +39,7 @@ Sleep score card [[sleepscore]]:: See <</sleep/sleepscore#,Sleep score>>.
 * Tapping on this card opens Stats (see <</sleep/statistics#,Stats>>)
 Graphs card:: Shows you graphs from the <</sleep/charts#,Charts section>>.
 * You can swipe through the graphs, right ↔ left.
-* Tapping on this card open the last graph (how to read graphs - TODO link, jestli něco bude)
+* Tapping on this card open the last graph (<</sleep/how_to_read_sleep_graphs#,How to read sleep graphs>>)
 Noise card:: TODO
 Charts card:: Shows you graphs from the <</sleep/statistics_charts#,Charts section>>.
 * Tapping on this card opens <</sleep/statistics_charts#,Charts section>>.

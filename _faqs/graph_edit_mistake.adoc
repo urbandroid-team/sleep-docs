@@ -8,5 +8,10 @@ tags:
 
 - It is possible to revert up to 5 changes done during editing a graph.
 - Uu can use Undo banner (appears each time you change a graph):
-TODO obrázek
+
+[[Awake_undo]]
+.Undo banner after using scissors icon
+image::awake_mistake.png[]
+
+
 - You can use ⋮ _menu -> Undo_ option
