@@ -1,0 +1,13 @@
+---
+title: Lockscreen does not unlock on alarm (Samsung)
+tags:
+- alarm
+- lockscren
+- samsung
+---
+
+When alarm goes off, it does not disable the lockscreen and you have to manually unlock the device to tap snooze or dismiss.
+
+You may have Sleep as Android enabled under *Border lights*. This causes the alarm popup to not display over the lockscreen, as the notification is being shown as a light around the edge of the screen.
+
+. Disable Border lights for Sleep as Android in your device’s settings.

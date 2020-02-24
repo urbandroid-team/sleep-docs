@@ -1,0 +1,12 @@
+---
+title: Lockscreen does not unlock on alarm (Samsung)
+tags:
+- alarm
+- lockscreen
+- xiaomi
+- miui
+---
+
+On Xiaomi/MIUI, you need to grant special permission to Sleep as Android so that it may unlock your screen during alarm.
+
+. Go to _System Settings -> Permissions -> Advanced Permissions ->_ select Sleep app and give it permission to access Lockscreen.

@@ -1,0 +1,14 @@
+---
+title: Play Store gives me an error
+tags:
+- purchase
+- play_store
+---
+
+There are many problems that can occur between Play Store and your phone. Most often they result in an error and inability to download and install the app you want.
+
+Examples of the codes are Error -24, 905, 963, RH-01, and many more. Google doesn’t provide an explanation for those codes, so the internet is full of guesses what they mean and how to solve them. Usually the solution involves cleaning cache of Google Play Services, uninstalling updates for Google Play Services, removing or factory resetting the phone. Sometimes it also suffices to unmount your SD card. Sometimes the error is a temporary glitch on Google servers.
+
+The most comprehensive effort to understand Play Store errors and find solutions is https://forum.xda-developers.com/showthread.php?t=2733038[here].
+
+Please note that we are not able to solve any Play Store errors. This is solely between you and Google.

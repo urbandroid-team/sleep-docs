@@ -1,0 +1,17 @@
+---
+title: Lockscreen does not unlock on alarm (Samsung)
+tags:
+- alarm
+- fullscreen
+- heads_up
+---
+
+You always get full screen alarm, when at least one of the following is true:
+
+- sleep tracking is running
+- if you have a keyguard (lockscreen) set up
+- if you have a _Settings -> Alarms -> Flip to snooze_ option turned on
+
+It sounds a little hacky, but the reasoning is simple. Some people want to use the heads up notification, it can be convenient if the alarm rings while you’re operating the phone. Flip to snooze is an option that cannot work with notification (it is impossible by design), so if you turn it on, we forbid all heads up notifications and go to “full screen alarm only” mode.
+
+On Android M, it is also possible to turn off heads up notifications per app in _Android Settings -> Apps -> Sleep as Android -> Notifications -> Allow peeking_.
