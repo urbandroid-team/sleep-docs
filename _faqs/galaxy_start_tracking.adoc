@@ -1,0 +1,17 @@
+---
+title: Samsung Galaxy Gear - Watch app stucks at Start tracking
+
+tags:
+- tracking
+- wearable
+- samsung
+- gear
+
+---
+
+This can be a result of multiple things, so please make sure to do the following troubleshooting:
+
+. Make sure you have Sleep as https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[Android Gear Addon] installed on your phone
+. It can happen that the addon cannot be started by us if it was force stopped previously. In that case please go to Play Store app on your phone, open https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[addon page] tap on “OPEN”.
+. Opt out of any battery savers that you might have on your phone, for all involved apps (Sleep as Android, Sleep as Android Gear Addon, Samsung Accessory Services) – to find out how to do that, please consult dontkillmyapp.com
+. Samsung Accessory services sometimes misbehaves and prevents connection to the watch for 3rd party apps. Please uninstall and reinstall it.

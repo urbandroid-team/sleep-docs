@@ -1,0 +1,15 @@
+---
+title: How does Sleep as Android (actigraphy) compare to Polysomnography?
+
+tags:
+- tracking
+- actigraphy
+- psg
+- polysomnography
+---
+
+We use a different input than polysomnographists, and define our own sleep phases, reflecting an objective aspect of sleep, easy to measure with common devices. One naturally needs to ask whether there is any relationship between the EEG-phases and our ACT-phases.
+
+Fortunately, several research teams raised similar questions before (See https://www.researchgate.net/publication/16355093_Rate_and_distribution_of_body_movements_during_sleep_in_Humans[this one], or https://www.ncbi.nlm.nih.gov/pubmed/25669176[this one], or https://www.ncbi.nlm.nih.gov/pubmed/10607067[this one], or https://link.springer.com/article/10.3758/BF03336549[this one]). They measured a bunch of people on a traditional polysomnograph and recorded their physical activity at the same time. (By filming them and then counting the movements manually, or by using accelerometer readings). The published analyses show that there indeed is a significant statistical relationship between EEG-phases and body movements.
+
+You can also read about comparison of Sleep as Android algorithms and Sleep lab results on https://sleep.urbandroid.org/sleep-lab-comparison/[our blog here].

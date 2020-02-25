@@ -14,4 +14,4 @@ Play Store supports three ways of purchasing apps:
 
 Not all options are unfortunately available in all regions.
 
-Please contact us (info@urbandroid.org) for other purchase options.
+Please contact us (support@urbandroid.org) for other purchase options.

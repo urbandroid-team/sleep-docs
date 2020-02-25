@@ -6,4 +6,4 @@ tags:
 ---
 
 . Increase the sensitivity of Smart wakeup in _Settings > Sleep tracking > Movement intensity_ or _Movement occurrence_
-. If you feel the smart alarm is not working at all please send us the application log by using _Left_ ☰ _menu -> Report a bug_.
+. If you feel the smart alarm is not working at all please send us the application log by using _Left_ ☰ _menu -> icon:ic_bug[] Report a bug_.

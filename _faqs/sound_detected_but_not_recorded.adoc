@@ -5,5 +5,6 @@ tags:
 - recording
 - sound_recognition
 ---
+
 - When a sound is recognized and you can see the icon, but it was not recorded, the threshold for recording is too high.
 . Increase the threshold in _Settings -> Sleep noise recording -> Recording volume threshold_ .

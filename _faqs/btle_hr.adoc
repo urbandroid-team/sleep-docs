@@ -1,0 +1,19 @@
+---
+title: How do I get BT smart heart rate device work with Sleep as Android?
+
+tags:
+- tracking
+- hr
+- bt_smart
+---
+
+
+
+. Enable the tracking in _Settings -> Wearables ->Bluetooth Smart_ (might be hidden under Advanced section).
+. Try to pair with your device (this may not be required for all devices and OS versions).
+. Make sure no other app is using your device while sleep tracking.
+
+
+If nothing helps please send us a debug report using _Left_ ☰ _menu -> icon:ic_bug[] Report a bug_.
+
+CAUTION: BT Smart heart rate tracking only works from Android 4.3 onward

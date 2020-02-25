@@ -1,0 +1,15 @@
+---
+title: I want to clean up old recordings
+
+tags:
+- recording
+- delete
+
+---
+
+First, a good thing to have is *auto-delete*, which will delete your noises automatically after one week. This is enabled by default in _Settings -> Noise recording -> Automatic delete_ (might be hidden under Advanced section).
+
+. Go to the _Left_ ☰ _menu -> icon:ic_action_noise[] Noise
+. Long press on one of the recording and use *Delete all unstarred recordings*.
+
+Also if you are getting too many noises from the night, you may consider a higher recording threshold in _Settings -> Noise recording -> Recording volume threshold_.

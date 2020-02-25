@@ -1,0 +1,9 @@
+---
+title: I have a dog / cat sleeping with me in bed. Will the sleep tracking be accurate?
+
+tags:
+- tracking
+- pets
+---
+
+This depends on several factors. The general rule is to not allow the pet to move your phone, ideally only your movements should move the device. So in this case it’s best to place Your device either under the pillow or to have an armband or smartwatch/smartband. If your pet is a calm one, it may just work. However, if your pet is used to jump in and out of bed several times a night, the sleep tracking will most probably register these events as light sleep occurrences.

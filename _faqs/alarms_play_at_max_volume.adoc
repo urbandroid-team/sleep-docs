@@ -10,4 +10,4 @@ tags:
 - Try vibrations (_Settings -> Alarms -> Vibrate_).
 
 
-Send us your log using _Left_ ☰ _menu -> Report a bug_
+Send us your log using _Left_ ☰ _menu -> icon:ic_bug[] Report a bug_

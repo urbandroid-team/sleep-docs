@@ -1,0 +1,17 @@
+---
+title: I don't trust the results, it is fake / generating random data
+
+tags:
+- tracking
+
+---
+
+Accelerometric sensors are really sensitive, which is great for sleep tracking. Normally, what you see when you leave the phone on the table gets immediately dwarfed when you do some more significant move. Just leave phone on the table for a while and you will see a dramatic development, but then move the phone and you will see all the development is really tiny in comparison to the new peak.
+
+So what you see is random noise, given by very small vibrations of the table or in very calm areas by seismic movement. We mark the data relatively, so you always get it distinguished into light and deep sleep. But the algorithm works well only in conditions that are assumed by it, i.e. in the bed with relatively large movement peaks.
+To be more specific, if you leave the phone on a table, you can get values perhaps on the scale of 0.000001 to 0.000009 m/s2 (The value is made up here, but it is physically very small). In the bed, you may get values from 1 to 9 m/s2 (which is physically large). The algorithm sees though just that the high value is 9 times higher than the low value, in both cases.
+We had to do this because every accelerometer (in different cell phones) measures differently, so we couldn’t assume any standard conversion formula that would respond to absolute values.
+
+So if you use the phone in the bed, it is in fact drastically different from measuring on a calm spot, just like the table.
+
+Please do not hesitate to ask for any clarification at support@urbandroid.org.

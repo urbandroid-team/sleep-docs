@@ -1,0 +1,15 @@
+---
+title: Will sleep tracking work with two people in the bed?
+
+tags:
+- tracking
+- pair
+
+---
+
+If you have separate mattresses there is minimum interference from your partner. If you have one big shared mattress (which isn’t recommended as you partner may need different mattress for his healthy sleep), it could still work assuming you keep your phone close to your body and ideally on your side of the bed.
+
+You can also consider using a armbands or smartwatches. This certainly solves the problem for a little convenience trade-off.
+
+If both of you are tracking, you can enable <</sleep/pair_tracking#, pair tracking>>, which filters out the partner’s activity.
+

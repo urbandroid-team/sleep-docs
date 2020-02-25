@@ -1,0 +1,23 @@
+---
+title: Cannot install app on Wear OS device
+
+tags:
+- wearable
+- wear_os
+- install
+---
+
+If you come from Wear OS 1.0, please note that Wear OS 2.0 changed the way apps get installed on the watch, you now need to install them manually using Play Store on the watch.
+
+Companion apps also have a special way to install on the watch:
+If you already have Sleep as Android installed on your phone, then the watch app can be only installed from *Apps on your phone* and for some reason not directly from Play Store.
+
+How to get there:
+. Make sure the watch is connected to the phone.
+. Go to app list on your watch, select Play Store.
+. Scroll past Recommended for you, Top Free Apps etc., until you see *Apps on your phone*.
+. Scroll down until you see Sleep.
+. Click the download button to the right. Done!
+
+. Now, you can enable the connection in _Settings -> Wearables -> Use wearable -> Wear OS_.
+. Test the connection in Settings -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).

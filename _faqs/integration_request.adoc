@@ -1,0 +1,12 @@
+---
+title: Do you support / integrate my device?
+
+tags:
+- wearable
+- integration
+- request
+---
+
+For all currently supported devices, check out <</devices/wearables#, list of compatible devices>>.
+
+If you’d like us to integrate another device, please add it as a suggestion to our https://forum.urbandroid.org/c/feature-requests/integration-requests[suggestion forum]. Also please check whether the device has an API so we can integrate it.

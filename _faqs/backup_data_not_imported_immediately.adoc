@@ -11,4 +11,4 @@ To restore the old data:
 . Delete the `sleep-export.csv` file.
 . Rename `sleep-export.backup.csv` to `sleep-export.csv`.
 
-In Sleep, do _Left menu > Backup > Import data_.
+In Sleep, do _Left menu > icon:ic_cloud_upload[]  Backup > Import data_.

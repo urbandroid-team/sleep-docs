@@ -8,7 +8,7 @@ tags:
 Firstly - did you buy the unlock as a separate app ("Sleep as Android Unlock") or as an in-app purchase? The solution is different in each case.
 
 == Separate Unlock app
-. Please make sure you have installed both Sleep as Android as well as Sleep as Android Unlock in your system Settings-> Apps -> Downloaded.
+. Please make sure you have installed both Sleep as Android as well as Sleep as Android Unlock in your _System Settings-> Apps -> Downloaded_.
 . If not, head to the Google Play Store and download Sleep as Android Unlock again! As long as you use the same Google account you did the purchase with as your primary account in Play Store it remembers your purchases and you should be able to download again.
 . If you are unable to download it (you see a price instead of download button), please go to the Play Store on your computer and check if you are able to download it there.
 
@@ -29,4 +29,4 @@ Another way that seemingly helped recently:
 . Install Sleep as Android from the web interface to your device.
 . Don’t let it open the Play Store app, but use the install button and choose your device in the browser.
 
-Please send a debug report (Left ☰ menu -> Report a bug) if the issue should persist. Also please let us know the order number of your purchase. This is included in your purchase confirmation you should have received via email – or you can check it at payments.google.com.
+Please send a debug report (Left ☰ menu -> icon:ic_bug[] Report a bug) if the issue should persist. Also please let us know the order number of your purchase. This is included in your purchase confirmation you should have received via email – or you can check it at payments.google.com.
