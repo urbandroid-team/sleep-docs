@@ -16,7 +16,7 @@ no_comments: true
   {% assign faqtags = faqtags | concat: faq.tags %}
 {% endfor %}
 
-{{ faqtags | uniq | join: ", " }}
+{{ faqtags | uniq | sort | join: ", " }}
 
 === PAGE tags
 
@@ -29,4 +29,4 @@ no_comments: true
   {% endif %}
 {% endfor %}
 
-{{ pagetags | join: ", " }}
+{{ pagetags | uniq | sort | join: ", " }}
