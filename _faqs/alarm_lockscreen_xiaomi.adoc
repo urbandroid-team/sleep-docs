@@ -1,5 +1,5 @@
 ---
-title: Lockscreen does not unlock on alarm (Samsung)
+title: Lockscreen does not unlock on alarm
 tags:
 - alarm
 - lockscreen
