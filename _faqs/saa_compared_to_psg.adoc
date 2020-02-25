@@ -2,10 +2,11 @@
 title: How does Sleep as Android (actigraphy) compare to Polysomnography?
 
 tags:
-- tracking
-- actigraphy
-- psg
-- polysomnography
+  - tracking
+  - actigraphy
+  - psg
+  - polysomnography
+  - graph
 ---
 
 We use a different input than polysomnographists, and define our own sleep phases, reflecting an objective aspect of sleep, easy to measure with common devices. One naturally needs to ask whether there is any relationship between the EEG-phases and our ACT-phases.

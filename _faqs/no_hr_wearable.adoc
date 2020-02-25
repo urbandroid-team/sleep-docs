@@ -2,8 +2,8 @@
 title: No heart rate measurements from my watch
 
 tags:
-- wearable
-- hr
+  - wearable
+  - hr
 ---
 
 Please check our <</devices/wearables#,integration table>> table – only devices with a heart icon will measure heart rate with Sleep as Android. Other smartwatches with HR sensor need to go around SaA – save HR to S Health or Google Fit, from where Sleep as Android will download it. Please note that Sleep as Android downloads the measurements usually with a day’s delay (the sync is triggered once another record is saved).

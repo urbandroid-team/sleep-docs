@@ -2,8 +2,8 @@
 title: I want to clean up old recordings
 
 tags:
-- recording
-- delete
+  - recording
+  - delete
 
 ---
 

@@ -3,6 +3,9 @@ layout: default
 title: How to read sleep graphs
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- graph
+
 ---
 :toc:
 

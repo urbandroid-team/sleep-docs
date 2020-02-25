@@ -1,8 +1,10 @@
 ---
 title: How does my phone know, when I am in the deep sleep?
+
 tags:
-- sleep_tracking
-- sleep_phases
+  - sleep_tracking
+  - sleep_phases
+  - actigraphy
 ---
 
 We use a method called sleep actigraphy and there are several scientific papers which show that it is not as precise as PSG but still provides reasonable data and more over it is more convenient for the user. The phone has an accelerometer sensor build in which is very sensitive and if placed in your bed we have a record of your movement over the nigh. In deep sleep your muscular movements are suppressed (otherwise you would be running or jumping around according to your dreams :)) and thus in this phase the sleep graph gets nearly flat. This is in short how we measure your sleep phases, for more details refer to <</sleep/sleep_tracking_theory#, How it works>>.

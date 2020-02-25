@@ -1,8 +1,9 @@
 ---
 title: I have been charged twice for the app
+
 tags:
-- purchase
-- playstore
+  - purchase
+  - playstore
 ---
 
 

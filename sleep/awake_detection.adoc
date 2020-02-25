@@ -3,6 +3,8 @@ layout: default
 title: Awake detection
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+-tracking
 ---
 
 :toc:

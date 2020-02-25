@@ -3,6 +3,8 @@ layout: default
 title: Captcha
 nav_order: 2
 parent: /alarms/0parent.html
+tags:
+- captcha
 ---
 :toc:
 

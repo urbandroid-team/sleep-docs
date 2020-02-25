@@ -1,8 +1,9 @@
 ---
 title: Play Store gives me an error
+
 tags:
-- purchase
-- play_store
+  - purchase
+  - playstore
 ---
 
 There are many problems that can occur between Play Store and your phone. Most often they result in an error and inability to download and install the app you want.

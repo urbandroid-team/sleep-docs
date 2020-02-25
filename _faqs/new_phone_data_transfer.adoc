@@ -2,7 +2,7 @@
 title: I have a new phone, and I would like to transfer all the data I collected so fat
 
 tags:
-- backup
+  - backup
 ---
 
 There are three possible ways to transfer your data to a new devices:

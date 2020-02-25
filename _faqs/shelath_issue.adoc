@@ -2,9 +2,7 @@
 title: Connection with S Health app is not available due to security / signiture issue
 
 tags:
-- services
-- integrations
-- s_health
+  - s_health
 ---
 
 This is a bug in S Health that the S Health team promised to be fixed way back in S Health v4.6, but didn’t.

@@ -2,8 +2,8 @@
 title: Sound is detected but not recorded
 
 tags:
-- recording
-- sound_recognition
+  - recording
+  - sound_recognition
 ---
 
 - When a sound is recognized and you can see the icon, but it was not recorded, the threshold for recording is too high.

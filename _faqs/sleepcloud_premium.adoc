@@ -1,8 +1,9 @@
 ---
 title: I bought SleepCloud premium, but the app doesn't sync
+
 tags:
-- sleepcloud
-- purchase
+  - sleepcloud
+  - purchase
 ---
 
 The following should hopefully solve your problem:

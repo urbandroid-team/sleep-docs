@@ -3,6 +3,8 @@ layout: default
 title: Anti-snoring
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- sleep_noise_recording
 ---
 :toc:
 

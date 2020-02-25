@@ -1,7 +1,9 @@
 ---
 title: Wrong sound recognition
+
 tags:
-- recording
+  - recording
+  - sound_recognition
 ---
 
 * When listening to the noise recordings, you may find some of them tagged (#snore, #talk, etc.) incorrectly.

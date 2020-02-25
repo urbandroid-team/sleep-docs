@@ -2,9 +2,9 @@
 title: Cannot install app on Wear OS device
 
 tags:
-- wearable
-- wear_os
-- install
+  - wearable
+  - wear_os
+  - install
 ---
 
 If you come from Wear OS 1.0, please note that Wear OS 2.0 changed the way apps get installed on the watch, you now need to install them manually using Play Store on the watch.

@@ -2,8 +2,7 @@
 title: Oximeter troubleshooting
 
 tags:
-- troubleshooting
-- oximeter
+  - oximeter
 ---
 
 

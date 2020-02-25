@@ -2,9 +2,9 @@
 title: Do you support / integrate my device?
 
 tags:
-- wearable
-- integration
-- request
+  - wearable
+  - integration
+  - request
 ---
 
 For all currently supported devices, check out <</devices/wearables#, list of compatible devices>>.

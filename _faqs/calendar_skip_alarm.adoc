@@ -2,10 +2,10 @@
 title: Calendar skipped my alarm
 
 tags:
-- services
-- integrations
-- calendar
-- alarm
+  - services
+  - integrations
+  - calendar
+  - alarm
 ---
 
 If you are using the *Skip alarm for holiday* feature, SaA might offer to skip your next alarm even if there is no holiday in your country tomorrow. This is because we use Google public holiday calendar, which is sometimes wrong.

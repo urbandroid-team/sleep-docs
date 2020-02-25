@@ -2,7 +2,7 @@
 title: I have found a mistake, error in the translation
 
 tags:
-- translation
+  - translation
 ---
 
 This is great! Please let us know at support@urbandroid.org.

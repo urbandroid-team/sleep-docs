@@ -1,9 +1,10 @@
 ---
 title: Lockscreen does not unlock on alarm (Samsung)
+
 tags:
-- alarm
-- fullscreen
-- heads_up
+  - alarm
+  - fullscreen
+  - heads_up
 ---
 
 You always get full screen alarm, when at least one of the following is true:

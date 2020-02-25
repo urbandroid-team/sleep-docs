@@ -1,9 +1,9 @@
 ---
-title: Why is there a red bar - section / block in my sleep graph?
+title: Why is there a red bar / section / block in my sleep graph?
 
 tags:
-- tracking
-- graph
+  - tracking
+  - graph
 ---
 
 The red block indicates that something went wrong with tracking at that time and the device stopped providing sensor data for some reason. Usually those are some non-standard battery optimizations or battery savers, the battery gets too low so we preserve it for the alarm or connectivity issue if you use a wearable.

@@ -1,8 +1,9 @@
 ---
 title: Silent alarm goes off with a sound
+
 tags:
-- alarm
-- ringtone
+  - alarm
+  - ringtone
 ---
 
 Battery optimization was enabled::

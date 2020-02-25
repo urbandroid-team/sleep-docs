@@ -1,7 +1,8 @@
 ---
 title: Why sleep record data count towards the end date
+
 tags:
-- tracking
+  - tracking
 ---
 
 There is no clearcut answer to which day the sleep between them belongs.

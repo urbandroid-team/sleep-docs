@@ -3,6 +3,8 @@ layout: default
 title: Pair tracking
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- pair
 ---
 
 :toc:

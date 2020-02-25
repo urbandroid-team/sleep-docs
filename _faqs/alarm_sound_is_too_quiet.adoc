@@ -1,7 +1,9 @@
 ---
 title: Alarm sound is too quiet
+
 tags:
   - alarm
+  - ringtone
 ---
 
 Gentle volume increase is enabled or set for too long period::

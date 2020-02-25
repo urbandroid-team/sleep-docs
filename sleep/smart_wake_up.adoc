@@ -3,6 +3,9 @@ layout: default
 title: Smart wakeup
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- tracking
+- alarm
 ---
 
 :toc:

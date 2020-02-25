@@ -3,6 +3,8 @@ layout: default
 title: Lullaby
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- lullaby
 ---
 
 :toc:

@@ -2,8 +2,8 @@
 title: Will sleep tracking work with two people in the bed?
 
 tags:
-- tracking
-- pair
+  - tracking
+  - pair
 
 ---
 

@@ -2,8 +2,8 @@
 title: Why is Sleep eating so much battery? What about battery overheating?
 
 tags:
-- tracking
-- battery
+  - tracking
+  - battery
 ---
 
 Usually battery consumption issue or related issues causing phone over-heating during sleep tracking are not caused by the sleep tracking directly.

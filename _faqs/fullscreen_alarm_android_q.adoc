@@ -1,7 +1,8 @@
 ---
 title: Full screen alarm is not displayed on Android 10
+
 tags:
-- alarm
+  - alarm
 ---
 
 Please note that Google made it impossible to start screens from background on Android 10. This is why we can no longer show the alarm screen with the big buttons under usual settings. On Android 10, the app can just show notifications from background if screen is on when alarm starts. If screen is locked we usually are able to show the full screen alarm.

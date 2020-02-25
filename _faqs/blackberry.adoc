@@ -1,8 +1,9 @@
 ---
 title: Running Sleep as Android on Blackberry
+
 tags:
-- general
-- blackberry
+  - general
+  - blackberry
 ---
 
 Sleep as Android is not officially supported on Blackberry. However, a lot of users have reported running it without any hassle.

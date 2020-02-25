@@ -1,5 +1,6 @@
 ---
 title: Alarms go off exactly at the beginning of smart period
+
 tags:
   - alarm
   - smart_alarm

@@ -1,7 +1,9 @@
 ---
 title: How to change language?
+
 tags:
-- language
+  - language
+  - personlize
 ---
 
 - The app has the same language as your system.

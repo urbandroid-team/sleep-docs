@@ -2,8 +2,9 @@
 title: I don't trust the results, it is fake / generating random data
 
 tags:
-- tracking
-
+  - tracking
+  - actigraphy
+  - graph
 ---
 
 Accelerometric sensors are really sensitive, which is great for sleep tracking. Normally, what you see when you leave the phone on the table gets immediately dwarfed when you do some more significant move. Just leave phone on the table for a while and you will see a dramatic development, but then move the phone and you will see all the development is really tiny in comparison to the new peak.

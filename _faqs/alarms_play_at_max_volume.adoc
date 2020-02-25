@@ -1,7 +1,9 @@
 ---
 title: Alarms play at max volume
+
 tags:
   - alarm
+  - backup
 ---
 
 - Most probably your <</alarms/backup#,Backup alarm>> went off after regular alarm did not wake you up. Backup alarm is triggered when there is no interaction (no snooze, no dismiss) for more than 20 minutes.

@@ -2,8 +2,8 @@
 title: How does the "Battery saving mode" in Sleep tracking work?
 
 tags:
-- tracking
-- battery
+  - tracking
+  - battery
 ---
 
 Battery saving mode currently resumes full tracking before the smart wake up period in order to find the best moment for your wake up, so the tracking uses up just a fraction of the battery consumption for the whole night. If the battery would drop under your defined stand-by threshold (default: 10%) the battery saving mode will re-occur.

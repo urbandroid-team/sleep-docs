@@ -1,8 +1,9 @@
 ---
 title: Sonar chirp audible in lullaby
+
 tags:
-- lullaby
-- sonar
+  - lullaby
+  - sonar
 ---
 
 - We have reports that this can happen on some devices, this depends on how the device mixes audio channels.

@@ -1,7 +1,8 @@
 ---
 title: Google Play Music
+
 tags:
-- alarm
+  - alarm
 ---
 
 WARNING: Online Google Play Music is not supported. We only support playlists of locally available music created by Google Play Music.

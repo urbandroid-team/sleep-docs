@@ -2,10 +2,9 @@
 title: MiBand - heart rate graph is missing
 
 tags:
-- wearable
-- miband
-- mifit
-- hr
+  - wearable
+  - miband
+  - hr
 ---
 
 

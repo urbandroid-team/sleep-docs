@@ -2,20 +2,20 @@
 title: Is sonar safe?
 
 tags:
-- tracking
-- sonar
-- safety
-- pets
+  - tracking
+  - sonar
+  - safety
+  - pets
 ---
 
-== Is sleep tracking with sonar safe for your health?
+.Is sleep tracking with sonar safe for your health?
 Ultrasound is generally considered safe if it is at normal volume. Regarding health effects, it works in a similar way to normal audible sound, i.e. very loud ultrasound can damage your hearing, whereas at low volume it is safe to hear. When using speakers, smartphones are nowhere close to be able to produce such loud sounds as to damage your hearing.
 We also use ultrasound that is very close to the hearing range (around 20 kHz), so the effects of the ultrasound are almost identical to hearing a high pitched sound at the same volume (expect you can’t hear it at all).
 The ultrasound volume we use is around 40 dB – which is lower than normal speech volume. You can measure the sound level yourself using e.g. this app.
 
-== Is sonar safe for your pets (cats, dogs, bats)?
+.Is sonar safe for your pets (cats, dogs, bats)?
 For pets that are able to hear it, the ultrasound emitted from Sleep as Android is a constant low noise. The situation is similar to e.g. refrigerator noise. It is there, you can hear it, but it’s not so much disturbing. The ultrasound definitely cannot damage your pets hearing at the volume used in Sleep as Android.
 Bats can be confused and fly into walls.
 
-== Is sleep tracking with sonar safe for your smartphone?
+.Is sleep tracking with sonar safe for your smartphone?
 The only difference between normal audible sound and our sonar is that the frequency is a little higher (normal frequencies 2 Hz-20 kHz, our sonar frequencies 18 kHz-22 kHz).  This is so small difference for the mic and speaker membranes that there is definitely no chance of damage, even with prolonged usage.

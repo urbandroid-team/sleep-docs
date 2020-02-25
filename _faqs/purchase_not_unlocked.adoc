@@ -1,8 +1,9 @@
 ---
 title: App is not unlocked although I have paid
+
 tags:
-- purchase
-- trial
+  - purchase
+  - trial
 ---
 
 Firstly - did you buy the unlock as a separate app ("Sleep as Android Unlock") or as an in-app purchase? The solution is different in each case.

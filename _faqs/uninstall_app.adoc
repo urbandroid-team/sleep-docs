@@ -2,8 +2,8 @@
 title: I cannot uninstall the app
 
 tags:
-- uninstall
-- captcha
+  - uninstall
+  - captcha
 ---
 
 You have probably activated Prevent escaping CAPTCHA option.

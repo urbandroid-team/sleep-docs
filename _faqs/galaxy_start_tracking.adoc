@@ -2,10 +2,10 @@
 title: Samsung Galaxy Gear - Watch app stucks at Start tracking
 
 tags:
-- tracking
-- wearable
-- samsung
-- gear
+  - tracking
+  - wearable
+  - samsung
+  - gear
 
 ---
 

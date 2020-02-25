@@ -1,9 +1,10 @@
 ---
 title: Volume jumps to max when tracking
+
 tags:
-- tracking
-- volume
-- lullaby
+  - tracking
+  - volume
+  - lullaby
 ---
 
 WARNING: The volume needs to be kept at maximum when tracking with sonar for maintaining the reliable results.

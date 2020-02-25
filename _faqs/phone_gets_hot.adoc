@@ -1,8 +1,9 @@
 ---
 title: Phone gets hot during tracking
+
 tags:
-- general
-- tracking
+  - tracking
+  - battery
 ---
 
 Usually this is not caused by the sleep tracking directly as this is usually not consuming too much resources (usually around 1-3% battery per hour of tracking).

@@ -1,8 +1,9 @@
 ---
 title: I do not have a credit card - is there some other way to buy full version?
+
 tags:
-- purchase
-- playstore
+  - purchase
+  - playstore
 ---
 
 Play Store supports three ways of purchasing apps:
