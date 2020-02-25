@@ -7,6 +7,12 @@ function removeEvent(el, type, handler) {
   if (el.detachEvent) el.detachEvent('on' + type, handler); else el.removeEventListener(type, handler);
 }
 
+// Decode HTML
+function htmlDecode(input) {
+  var doc = new DOMParser().parseFromString(input, "text/html");
+  return doc.documentElement.textContent;
+}
+
 // Show/hide mobile menu
 
 function toggleNav() {
@@ -135,7 +141,7 @@ function initSearch() {
 
             var resultsUrl = result.url;
             var resultsRelUrl = result.relUrl;
-            var resultsTitle = result.title;
+            var resultsTitle = htmlDecode(result.title);
             var resultsType = result.collection;
             var resultsTags = result.tags
 
