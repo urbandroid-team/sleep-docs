@@ -113,8 +113,12 @@
             {% endif %}
 
             {% for fue in outputFaqs %}
-              <h3 class="accordion"><a href="{{ fue.url }}">{{ fue.title }}</a></h3>
-              <div class="accordion-panel">{{ fue.content }}</div>
+              <h3 class="accordion">{{ fue.title }}</h3>
+              <div class="accordion-panel">
+                {{ fue.content }}
+
+                <div class="faq-permalink"><a href="{{ fue.url }}">Permalink</a></div>
+              </div>
             {% endfor %}
 
           </section>

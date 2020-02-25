@@ -1,7 +1,7 @@
 /* Style the element that is used to open and close the accordion class */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: var(--table-background-color);
+  color: var(--body-text-color);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -15,14 +15,14 @@
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .accordion.active, .accordion:hover {
-  background-color: #ddd;
+  background-color: var(--table-background-color-accent);
 }
 
 /* Unicode character for "plus" sign (+) */
 .accordion:after {
   content: '\2795';
   font-size: 13px;
-  color: #777;
+  color: var(--body-text-color);
   float: right;
   margin-left: 5px;
 }
@@ -36,7 +36,7 @@
 
 .accordion-panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: var(--table-background-color);
   max-height: 0;
   overflow: hidden;
   transition: 0.4s ease-in-out;
@@ -45,6 +45,7 @@
 }
 
 .accordion-panel.show {
+  padding: 18px;
   opacity: 1;
   max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
