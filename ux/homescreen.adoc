@@ -86,9 +86,10 @@ Show tab:: A list of available tabs, allows you to choose the active / hidden ta
 
 === Alarms only
 
+[[figure-alarm_list]]
 .List of alarms
-[[alarm_list]]
 image:alarm_list_test.png[width=50%]
+
 
 * All active alarms in the list have highlighted background.
 * Repeating alarms highlights the next alarm with different font color.

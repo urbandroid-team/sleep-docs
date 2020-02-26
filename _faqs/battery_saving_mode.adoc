@@ -1,5 +1,5 @@
 ---
-title: How does the "Battery saving mode" in Sleep tracking work?
+title: How does the Battery saving mode in Sleep tracking work?
 
 tags:
   - tracking

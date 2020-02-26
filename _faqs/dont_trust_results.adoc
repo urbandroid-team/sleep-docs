@@ -1,5 +1,5 @@
 ---
-title: I don't trust the results, it is fake / generating random data
+title: I do not trust the results, it is fake / generating random data
 
 tags:
   - tracking
