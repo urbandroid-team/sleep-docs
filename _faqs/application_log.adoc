@@ -1,0 +1,14 @@
+---
+title: I have troubles with the app
+
+tags:
+- log
+- bug
+---
+
+If you found any error, mistake, fault, or unexpected wrong behaviour, please let us know.
+
+. Open _Left_ ☰ menu -> icon:ic_bug[] Report a bug.
+. The app will generate few files.
+. Choose your email client from the menu, that automatically appears.
+. Send the log. The recipient is already filled in.

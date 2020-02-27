@@ -1,0 +1,28 @@
+---
+title: Tracking crashes, stops suddenly
+
+tags:
+  - tracking
+  - graph
+  - huawei
+  - samsung
+  - oneplus
+  - 1+
+  - xiaomi
+  - meizu
+  - asus
+  - wiko
+  - lenovo
+  - oppo
+  - nokia
+  - sony
+  - pixel
+  - nexus
+  - htc
+---
+
+If the tracking stops completely after few minutes, the background processes are restricted by your system.
+
+- Make sure no system restrictions are applied to Sleep as Android, or any companion app for a tracking with wearable: https://dontkillmyapp.com?app=Sleep[Check our guide here].
+
+- If the guide won't help, send us your log using _Left_ ☰ _menu -> icon:ic_bug[] Report a bug_.

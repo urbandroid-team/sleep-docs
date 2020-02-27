@@ -3,8 +3,13 @@ layout: default
 title: Sleep tracking theory
 nav_order: 2
 parent: /sleep/0parent.html
+
 tags:
-- theory
+ - theory
+ - tracking
+ - graph
+ - sleep_phases
+ - rem
 ---
 :toc:
 

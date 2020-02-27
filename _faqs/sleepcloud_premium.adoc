@@ -4,6 +4,7 @@ title: I bought SleepCloud premium, but the app doesn't sync
 tags:
   - sleepcloud
   - purchase
+  - premium
 ---
 
 The following should hopefully solve your problem:
