@@ -27,7 +27,9 @@ NOTE: The app needs to have at least one month of sleep data.
 
 Your chronotype is then represented by a banner at the very top of the Left ☰ menu.
 
-image:chrono.png[width=20%]
+[[figure-chronotypes]]
+.Chronotypes banner
+image:chrono.png[width=30%]
 
 
 

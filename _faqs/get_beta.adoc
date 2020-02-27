@@ -1,0 +1,23 @@
+---
+title: How do I opt-in to Beta testing channel?
+
+tags:
+- beta
+- play_store
+---
+
+We are rolling out the latest features first to beta testers to keep a good experience for regular users who are not so keen on new features but prefer everything as stable as possible.
+
+. Please first join our BETA Testers group at:
+https://groups.google.com/forum/#!forum/sleep-as-an-droid
+. That you can opt-into the BETA at the following address:
+https://play.google.com/apps/testing/com.urbandroid.sleep
+or simply by visiting our Play Store listing and tapping "Join BETA"
+
+NOTE: Without joining the Tester group, you cannot opt-in!
+
+After that you should be starting receiving latest BETA updates through the Play Store.
+
+To discuss BETA channel related issues please use our forum at: https://forum.urbandroid.org/c/beta
+
+We would be more than happy if you would consider joining the community and provide us with feedback on the latest features.
