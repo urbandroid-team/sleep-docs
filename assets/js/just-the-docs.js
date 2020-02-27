@@ -44,6 +44,7 @@ function initSearch() {
     this.ref('id');
     this.field('title', { boost: 20 });
     this.field('content', { boost: 10 });
+    this.field('tags', { boost: 5});
     this.field('url');
   });
 
@@ -76,7 +77,8 @@ function initSearch() {
           id: data[i].id,
           title: data[i].title,
           content: data[i].content,
-          url: data[i].url
+          url: data[i].url,
+          tags: data[i].tags
         });
       }
       searchResults(data);
