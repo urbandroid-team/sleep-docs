@@ -13,6 +13,7 @@ Companion apps also have a special way to install on the watch:
 If you already have Sleep as Android installed on your phone, then the watch app can be only installed from *Apps on your phone* and for some reason not directly from Play Store.
 
 How to get there:
+
 . Make sure the watch is connected to the phone.
 . Go to app list on your watch, select Play Store.
 . Scroll past Recommended for you, Top Free Apps etc., until you see *Apps on your phone*.

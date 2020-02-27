@@ -10,5 +10,5 @@ This is a bug in S Health that the S Health team promised to be fixed way back i
 We got the following guide on how to resolve this S Health issue from the Samsung S Health team:
 
 In order to resolve this issue, user can try either one of following:
-. Clear S Health data from _System Settings -> Applications -> S Health >- Clear data_.
+. Clear S Health data from _System Settings -> Applications -> S Health -> Clear data_.
 . Change the locale of the phone and wait 1 day.

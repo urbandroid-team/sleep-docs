@@ -6,6 +6,6 @@ tags:
 ---
 
 
-* Threshold volume is set too high, so even very quiet sounds are recorded.
+* Threshold volume is set too low, so even very quiet sounds are recorded.
 . Please go to _Settings -> Sleep noise recordings -> Recording volume threshold_.
 . Increase the threshold level with the sliding bar.

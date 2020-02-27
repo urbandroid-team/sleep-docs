@@ -11,6 +11,6 @@ The following should hopefully solve your problem:
 
 . Start sleep as android
 . Wait for ~15 minutes
-. Click on _Left_☰ _menu -> icon:ic_cloud_upload[] Backup -> Upload to cloud_.
+. Click on _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Upload to cloud_.
 
 The upload should be unrestricted at that point. Let us know if that does not help.

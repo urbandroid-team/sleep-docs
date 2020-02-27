@@ -18,18 +18,18 @@ _Settings -> Personalize_
 [horizontal]
 Home screen:: Choose the <</ux/homescreen#,Home screen>> mode.
 Theme:: You can choose a theme (background color of the app):
-* Automatic (Android OS) - Follows your system settings.
-* Automatic (Bedtime) - Uses dark theme between bedtime and sunrise.
-* Night owl - Dark theme (black background, white font) all the time.
-* Morning lark - Light theme (white background, black font) all the time.
-Color palette (Graphs):: You can choose 7 different color palletes for your graphs:
-* Default - The current default on new installations (a color may vary!).
-* Theme - 50 Shades of Sleep...
-* Green - Yoda green forever!
-* Blue - Feeling blue?
-* Purple - Been born in the purple?
-* Miscellaneous - A combination of blue, teal, and yellow, to match your colorful personality.
-* Legacy - Original graph palette from the good old times.
+* *Automatic* (Android OS) - Follows your system settings.
+* *Automatic* (Bedtime) - Uses dark theme between bedtime and sunrise.
+* *Night owl* - Dark theme (black background, white font) all the time.
+* *Morning lark* - Light theme (white background, black font) all the time.
+Color palette (Graphs):: You can choose 7 different color palettes for your graphs:
+* *Default* - The current default on new installations (a color may vary!).
+* *Theme* - 50 Shades of Sleep...
+* *Green* - Yoda green forever!
+* *Blue* - Feeling blue?
+* *Purple* - Been born in the purple?
+* *Miscellaneous* - A combination of blue, teal, and yellow, to match your colorful personality.
+* *Legacy* - Original graph palette from the good old times.
 Text to speech:: If enabled, Sleep will tell you when it’s time to go to bed, wish you goodnight when you start sleep tracking, tell you it’s time to wake up when the alarm rings, and tell you weather in the morning, after you dismiss the alarm.
 
 
