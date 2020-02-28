@@ -1,7 +1,8 @@
 ---
 title: The app did not record anything
+
 tags:
-- recording
+  - recording
 ---
 
 * Make sure the app has an external storage permission granted.

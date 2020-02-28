@@ -1,10 +1,26 @@
 ---
 title: Alarms do not ring
+
 tags:
   - alarm
+  - huawei
+  - samsung
+  - oneplus
+  - 1+
+  - xiaomi
+  - meizu
+  - asus
+  - wiko
+  - lenovo
+  - oppo
+  - nokia
+  - sony
+  - pixel
+  - nexus
+  - htc
 ---
 
 - Make sure no system restrictions are applied to Sleep as Android: https://dontkillmyapp.com?app=Sleep[Check our guide here].
 
-- If the guide won't help, send us your log using _Left_ ☰ _menu -> Report a bug_.
+- If the guide won't help, send us your log using _Left_ ☰ _menu -> icon:ic_bug[] Report a bug_.
 

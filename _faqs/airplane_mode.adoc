@@ -1,0 +1,11 @@
+---
+title: Why it is not possible to enable airplane mode automatically after sleep tracking starts?
+
+tags:
+  - tracking
+  - airplane
+---
+
+Unfortunately due to dummy security restrictions the Android team introduced in 4.2 there is no option to enable airplane mode from an app automatically. You always have to use the settings or long touch power button. If you have a rooted phone you may consider using https://play.google.com/store/apps/details?id=lv.id.dm.airplanemh we have support for that in Sleep. There is a similar hack for 4.3.
+
+If you don’t agree with the Android team design decision you can upvote issue 40497 here http://code.google.com/p/android/issues/detail?id=40497.

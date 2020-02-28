@@ -1,5 +1,6 @@
 ---
 title: Phaser doesn’t connect to Sleep, light buttons work normally
+
 tags:
   - phaser_v1
 ---
@@ -20,4 +21,4 @@ If it doesn’t start working, then
 . Start Sleep as Android.
 . Start sleep tracking.
 
-And ideally send us a debug log (**Left ☰ menu -> report a bug**) afterwards.
+And ideally send us a debug log (**Left ☰ menu -> icon:ic_bug[] Report a bug**) afterwards.

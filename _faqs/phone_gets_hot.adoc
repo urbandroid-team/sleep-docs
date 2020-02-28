@@ -1,0 +1,17 @@
+---
+title: Phone gets hot during tracking
+
+tags:
+  - tracking
+  - battery
+---
+
+Usually this is not caused by the sleep tracking directly as this is usually not consuming too much resources (usually around 1-3% battery per hour of tracking).
+The issue appears because we hold a wake lock (keeping the phone awake) – any badly written apps may access the CPU extensively during the sleep tracking time. We suggest checking which services are running before you get to sleep.
+For us it is hard to debug this. Also battery statistics are not a hint here as all battery consumption is accounted to the app which holds the lock even it did not consume the battery – this is by design in Android.
+
+To conclude, this issue may happen, although we did not get any similar reports for a very long time now. But the most probable cause is some wrong 3rd party service or app on your device.
+
+To see more on the issue we would need a debug report (menu > report a bug).
+
+A good test would be to reboot your phone before sleep tracking (or kill any unnecessary services running) and see if that helps.

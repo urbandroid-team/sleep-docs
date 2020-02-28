@@ -3,7 +3,8 @@ layout: default
 title: Sleep noise recording
 nav_order: 2
 tags:
-  - noise
+- noise
+- recording
 parent: /sleep/0parent.html
 ---
 

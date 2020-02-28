@@ -1,9 +1,9 @@
 ---
 title: Added awakes by mistake
+
 tags:
-- sleep_tracking
-- graph
-- awake
+  - graph
+  - awake
 ---
 
 - It is possible to revert up to 5 changes done during editing a graph.

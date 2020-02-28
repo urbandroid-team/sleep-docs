@@ -1,8 +1,9 @@
 ---
 title: My selected Spotify playlist / album is not played on alarm (or different playlist, different album)
+
 tags:
-- alarm
-- spotify
+  - alarm
+  - spotify
 ---
 
 - Unfortunately our Spotify integration is all reverse engineered and thus may stop working any time Spotify updates their app.

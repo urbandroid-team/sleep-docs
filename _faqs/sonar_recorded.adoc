@@ -2,10 +2,11 @@
 title: Sonar is recorded, strange sound, chirping in recordings
 
 tags:
-- recording
-- sonar
+  - recording
+  - sonar
 ---
-* Probably some filter to enhance audio experience is applied to speaker or mic
+
+* Probably some filter to enhance audio experience is applied to speaker or mic.
 * Try different frequency in _Settings -> Sleep tracking -> Test sensor_, choose a frequency from the drop down menu list.
 * When you find the least affected frequency, you could try increasing the recording threshold a bit in _Settings -> Sleep noise recording -> Recording volume threshold_.
 

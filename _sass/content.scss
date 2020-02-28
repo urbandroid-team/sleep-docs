@@ -14,7 +14,7 @@
 
   ul,
   ol {
-    padding-left: 1.5em;
+    padding-left: 0em;
   }
 
   ol {
@@ -26,8 +26,8 @@
 
       &::before {
         position: absolute;
-        top: 0.2em;
-        left: -1.6em;
+        top: 0.1em;
+        left: -1.1em;
         color: var(--grey-dk-000);
         content: counter(step-counter);
         counter-increment: step-counter;
@@ -57,7 +57,7 @@
     > li {
       &::before {
         position: absolute;
-        margin-left: -1.4em;
+        margin-left: -0.6em;
         color: var(--grey-dk-000);
         content: "•";
       }

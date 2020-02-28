@@ -1,0 +1,12 @@
+---
+title: I have been charged twice for the app
+
+tags:
+  - purchase
+  - playstore
+---
+
+
+The purchase process is done by Google and is completely out of our control. But from other users’ experience any duplicate charges have always been refunded after a while automatically by the Google payment system. You can check if this has already happened in your Google Wallet account.
+
+Please let us know at urbandroid.info@gmail.com if no refund is made for several days.

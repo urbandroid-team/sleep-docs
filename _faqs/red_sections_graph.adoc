@@ -1,0 +1,51 @@
+---
+title: Why is there a red bar / section / block in my sleep graph?
+
+tags:
+  - tracking
+  - graph
+  - huawei
+  - samsung
+  - oneplus
+  - 1+
+  - xiaomi
+  - meizu
+  - asus
+  - wiko
+  - lenovo
+  - oppo
+  - nokia
+  - sony
+  - pixel
+  - nexus
+  - htc
+---
+
+The red block indicates that something went wrong with tracking at that time and the device stopped providing sensor data for some reason. Usually those are some non-standard battery optimizations or battery savers, the battery gets too low so we preserve it for the alarm or connectivity issue if you use a wearable.
+
+== Battery restrictions
+Make sure no system restrictions are applied to Sleep, or any involved apps like wearable companion app).
+See our https://dontkillmyapp.com/[guide here], and follow the instructions.
+
+== Too low battery
+When the battery is too low (usually below 10%), data collecting is terminated to preserve enough battery for alarm.
+When the battery was too low, there is a battery icon is displayed on the graph:
+
+[[figure-low_battery]]
+.Low battery graph
+image::low_battery.png[]
+
+== Connectivity issues with a wearable
+When the connection with the wearable is lost, you can see red sections on the graph. The app always tries to reach the wearable again.
+ The graph can look like this:
+
+[[figure-lost_wearable]]
+.Connection lost during tracking
+image::red_wearable.png[]
+
+. Opt-out from any battery restrictions is applied by your system (https://dontkillmyapp.com/)
+. Pair the wearable with your phone in System settings.
+. Make sure the BT is not lost, and try lowering the distance between the phone and the wearable.
+. Try settings the device as Trusted device.
+
+

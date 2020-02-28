@@ -30,6 +30,9 @@ If you don't want to fill your email/password inside our app, you can copy the n
   - Click on _+THIS_ and select _Webhooks > Receive a web request_.
   - In the “event name” field, type one of the events below. Click _Create trigger_.
   - Click on _+THAT_ and choose your desired action.
++
+NOTE: In _+THAT_, you can also add variables (or "ingredients" as IFTTT calls them) from the event. For example with alarm_alert_start, we are sending the alarm timestamp and label.
+
 
 === Events that Sleep as Android posts to IFTTT
 [horizontal]
@@ -39,7 +42,10 @@ sleep_tracking_paused:: ...
 sleep_tracking_resumed:: ...
 alarm_snooze_clicked:: ...
 time_to_bed_alarm_alert:: Fires when you get a bedtime notification
-alarm_alert_start:: ...
+alarm_alert_start:: Fires when alarm starts.
+We are sending the following IFTTT variables:
+* Value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* Value2: alarm label, example: "label"
 alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set)
 rem:: Fires when we estimate the start of REM phase
 antisnoring:: Fires when we detect snoring

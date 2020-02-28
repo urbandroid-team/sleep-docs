@@ -3,6 +3,8 @@ layout: default
 title: Backup alarm
 nav_order: 2
 parent: /alarms/0parent.html
+tags:
+- backup
 ---
 :toc:
 

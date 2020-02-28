@@ -3,6 +3,8 @@ layout: default
 title: Sonar - compatible devices
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- sonar
 ---
 //Support,Device,Users Count,Median Signal Strength,Mean Volume Offset
 

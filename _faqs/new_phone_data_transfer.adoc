@@ -1,0 +1,21 @@
+---
+title: I have a new phone, and I would like to transfer all the data I collected so fat
+
+tags:
+  - backup
+---
+
+There are three possible ways to transfer your data to a new devices:
+
+== Google backup
+Normally we use Google’s backup function. So if enabled in _System settings -> Privacy_ and after installing Sleep as Android on the new device you will get all your settings, alarms and other data. This assumes you install with a fast network connection enabled.
+
+== Import - export in the app
+You an also do a manual export/import process:
+. Got to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_, and make sure the dialog says "successful"
+. Copy the directory _/sdcard/sleep-data_ to your new phone's SD card
+. Install Sleep as Android on the new phone and immediately go to _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Import_
+NOTE: You will need to adjust the settings manually.
+
+== Sleep Cloud
+Third option is to use some of the Cloud Backup methods from the SleepCloud Add-on. Please, see more about <</services/backup_data#,Backup>>.

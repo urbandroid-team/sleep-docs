@@ -87,6 +87,7 @@
           {{ content }}
 
           {% if page.collection == "faqs" %}
+
             <hr>
             Tags:
             {% assign tags = "" | split: '' %}
@@ -99,6 +100,7 @@
 
           {% if page.collection != "faqs" and page.no_troubleshooting != true %}
 
+          <section id="faqs-section">
             {% assign outputFaqs = '' | split: '' %}
 
             {% for tag in page.tags %}
@@ -111,14 +113,20 @@
             {% endif %}
 
             {% for fue in outputFaqs %}
-              <h3><a href="{{ fue.url }}">{{ fue.title }}</a></h3>
-              {{ fue.content }}
+              <h3 class="accordion">{{ fue.title }}</h3>
+              <div class="accordion-panel">
+                {{ fue.content }}
+
+                <div class="faq-permalink"><a href="{{ fue.url }}">Permalink</a></div>
+              </div>
             {% endfor %}
+
+          </section>
 
           {% endif %}
 
-        </div>
 
+        </div>
 
         {% unless site.debug %}
           {% unless page.no_comments %}
@@ -141,5 +149,7 @@
   </div>
 
 </body>
+
+<script type="text/javascript" src="{{ "/assets/js/accordion.js" | absolute_url }}"></script>
 
 </html>

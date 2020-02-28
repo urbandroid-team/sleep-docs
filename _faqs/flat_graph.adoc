@@ -1,0 +1,19 @@
+---
+title: My graphs are flat
+
+tags:
+- graph
+---
+
+There can be several reasons why your graphs are flat.
+
+.The actigraphy is almost flat
+When you can see some movement on the actigraphy, but the graph is unusually flat:
+. *Sonar* - make sure the signal is strong enough by keeping sonar volume at max at _Settings -> Sleep tracking -> Test sensor -> blue sliding bar_.
+- you can also try different frequency by choosing other frequency from the ddrop down menu list in _Settings -> Sleep tracking -> Test sensor -> Frequency_
+- keep the phone closer to you bed
+- try different positioning of the phone
+. *Accelerometer* - try keeping the phone closer to you.
+
+.The actigraphy is flat, or red
+- Disable all system restrictions applied to Sleep as Android, or any companion app for tracking with a wearable: https://dontkillmyapp.com/

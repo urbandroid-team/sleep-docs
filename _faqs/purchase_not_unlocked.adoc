@@ -1,0 +1,34 @@
+---
+title: App is not unlocked although I have paid
+
+tags:
+  - purchase
+  - trial
+  - premium
+---
+
+Firstly - did you buy the unlock as a separate app ("Sleep as Android Unlock") or as an in-app purchase? The solution is different in each case.
+
+== Separate Unlock app
+. Please make sure you have installed both Sleep as Android as well as Sleep as Android Unlock in your _System Settings-> Apps -> Downloaded_.
+. If not, head to the Google Play Store and download Sleep as Android Unlock again! As long as you use the same Google account you did the purchase with as your primary account in Play Store it remembers your purchases and you should be able to download again.
+. If you are unable to download it (you see a price instead of download button), please go to the Play Store on your computer and check if you are able to download it there.
+
+== In-app purchase
+In-app purchases are notoriously buggy on Android, especially when you have more than 1 account on your smartphone.
+The problem is that in-app purchases are always tied to a specific account, and if the app to which the in-app belongs is installed under a different account on your phone, it won’t be recognized. We consider it a bug, even though it is a logical one, not technical.
+
+NOTE: After the initial purchase, you need to wait for a while (maximum a few hours), the app should contact the licence server and unlock itself.
+
+. Make sure the Google account you did purchase the app with is the primary account on all your devices in the Play Store app,
+go to “My apps” in the Play Store app in order to refresh, then restart your phone. This is super important.
+. If the app doesn’t seem to unlock, please reinstall the app, this has solved the problem for many users recently.
+
+Another way that seemingly helped recently:
+
+. Uninstall Sleep as Android.
+. In a BROWSER on your desktop: Log in to the web interface of Google Play with the account you used to purchase.
+. Install Sleep as Android from the web interface to your device.
+. Don’t let it open the Play Store app, but use the install button and choose your device in the browser.
+
+Please send a debug report (Left ☰ menu -> icon:ic_bug[] Report a bug) if the issue should persist. Also please let us know the order number of your purchase. This is included in your purchase confirmation you should have received via email – or you can check it at payments.google.com.

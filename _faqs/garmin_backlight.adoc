@@ -1,7 +1,8 @@
 ---
 title: Backlight turns on
+
 tags:
-- garmin
+  - garmin
 ---
 
 - On Garmin watches there is a system-wide _gesture backlight_ setting that will light up your screen on wrist move, when you have any app running. This setting is ON by default.

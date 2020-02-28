@@ -3,6 +3,10 @@ layout: default
 title: Breath rate detection & blood oxygen measurement
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- tracking
+- oximeter
+- sonar
 ---
 :toc:
 

@@ -1,0 +1,18 @@
+---
+title: I do not have a credit card - is there some other way to buy full version?
+
+tags:
+  - purchase
+  - playstore
+---
+
+Play Store supports three ways of purchasing apps:
+- a credit card
+- Pay Pall
+- Google Pay Balance
+- Mobile phone billing
+- Google Play Gift cards
+
+Not all options are unfortunately available in all regions.
+
+Please contact us (support@urbandroid.org) for other purchase options.

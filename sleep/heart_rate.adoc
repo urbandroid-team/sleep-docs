@@ -3,6 +3,9 @@ layout: default
 title: Heart rate detection
 nav_order: 2
 parent: /sleep/0parent.html
+tags:
+- hr
+- wearable
 ---
 
 :toc:

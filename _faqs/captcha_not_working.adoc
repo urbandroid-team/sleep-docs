@@ -1,5 +1,6 @@
 ---
 title: Captcha did not work at all
+
 tags:
   - alarm
   - captcha
@@ -7,4 +8,4 @@ tags:
 ---
 
 
-. Send us the application log by using _Left_ ☰ _menu -> Report a bug_ right after you encounter any troubles with the Captcha task. Please, add a short description, what exactly is happening.
+. Send us the application log by using _Left_ ☰ _menu -> icon:ic_bug[] Report a bug_ right after you encounter any troubles with the Captcha task. Please, add a short description, what exactly is happening.

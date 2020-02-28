@@ -7,6 +7,12 @@ function removeEvent(el, type, handler) {
   if (el.detachEvent) el.detachEvent('on' + type, handler); else el.removeEventListener(type, handler);
 }
 
+// Decode HTML
+function htmlDecode(input) {
+  var doc = new DOMParser().parseFromString(input, "text/html");
+  return doc.documentElement.textContent;
+}
+
 // Show/hide mobile menu
 
 function toggleNav() {
@@ -38,6 +44,7 @@ function initSearch() {
     this.ref('id');
     this.field('title', { boost: 20 });
     this.field('content', { boost: 10 });
+    this.field('tags', { boost: 5});
     this.field('url');
   });
 
@@ -70,7 +77,8 @@ function initSearch() {
           id: data[i].id,
           title: data[i].title,
           content: data[i].content,
-          url: data[i].url
+          url: data[i].url,
+          tags: data[i].tags
         });
       }
       searchResults(data);
@@ -135,7 +143,7 @@ function initSearch() {
 
             var resultsUrl = result.url;
             var resultsRelUrl = result.relUrl;
-            var resultsTitle = result.title;
+            var resultsTitle = htmlDecode(result.title);
             var resultsType = result.collection;
             var resultsTags = result.tags
 

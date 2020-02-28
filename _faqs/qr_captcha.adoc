@@ -1,7 +1,8 @@
 ---
 title: QR code scanning does not work
+
 tags:
-  - QR
+  - qr
   - captcha
 ---
 

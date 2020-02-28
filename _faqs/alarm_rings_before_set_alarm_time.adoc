@@ -1,7 +1,9 @@
 ---
 title: Alarm rings before set alarm time
+
 tags:
   - alarm
+  - smart_alarm
 ---
 
 - Smart alarm is enabled (see <</alarms/smart_wake_up#,Smart wake up>>), so the app is waking you within the smart period, when light sleep is estimated.

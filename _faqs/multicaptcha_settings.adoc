@@ -1,7 +1,7 @@
 ---
 title: Cannot find settings for one of the task in MultiCaptcha
+
 tags:
-  - alarm
   - captcha
 ---
 

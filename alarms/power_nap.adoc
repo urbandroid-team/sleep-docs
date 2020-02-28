@@ -3,6 +3,8 @@ layout: default
 title: Power nap
 nav_order: 2
 parent: /alarms/0parent.html
+tags:
+- powernap
 ---
 :toc:
 
