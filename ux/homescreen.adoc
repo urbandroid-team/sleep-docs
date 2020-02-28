@@ -24,6 +24,14 @@ _Settings -> Personalize -> Home screen_
 
 === Dashboard
 
+Dashboard is designed to give you just the info you need in glace. If there is anything irrelevant just swipe the card away to create space for relevant content.
+
+If you use some of the cards frequently, long press to _Pin_ it to the top.
+
+[EXAMPLE]
+Do you use Shortcuts to start naps or sleep tracking with an ideal alarm every day? Just pin the Shortcut card to top
+Are you working on an active Goal? Just pin it to always see your latest progress.
+
 [horizontal]
 Alarm card:: Shows you the first next active alarm.
 * You can see the alarm time and day of the week, when the very next alarm is scheduled at first glance:
