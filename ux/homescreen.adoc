@@ -24,12 +24,12 @@ _Settings -> Personalize -> Home screen_
 
 === Dashboard
 
-Dashboard is designed to give you just the info you need in glace. If there is anything irrelevant just swipe the card away to create space for relevant content.
+Dashboard is designed to give you just the info you need at a glance. If you find anything irrelevant - just swipe the card away to create space for relevant content.
 
-If you use some of the cards frequently, long press to _Pin_ it to the top.
+If you use some of the cards frequently, _long press_ to pin it to the top.
 
 [EXAMPLE]
-Do you use Shortcuts to start naps or sleep tracking with an ideal alarm every day? Just pin the Shortcut card to top
+Do you use <<Shortcuts to start naps or sleep tracking with an ideal alarm every day? Just pin the Shortcut card to top
 Are you working on an active Goal? Just pin it to always see your latest progress.
 
 [horizontal]
@@ -42,13 +42,13 @@ image:alarm_card_next_new.png[width=50%]
 * Alarm card has also a special function - you can skip next alarm (or cancel skipping the alarm), edit alarm or delete alarm directly from this card by long pressing on it.
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
-* After tapping on this card, a player plays the file.
+* Tapping this card plays the set of noises.
 Sleep score card [[sleepscore]]:: See <</sleep/sleepscore#,Sleep score>>.
 * Tapping on this card opens Stats (see <</sleep/statistics#,Stats>>)
 Graphs card:: Shows you graphs from the <</sleep/charts#,Charts section>>.
 * You can swipe through the graphs, right ↔ left.
-* Tapping on this card open the last graph (<</sleep/how_to_read_sleep_graphs#,How to read sleep graphs>>)
-Noise card:: TODO
+* Tapping this card opens the last graph. See (<</sleep/how_to_read_sleep_graphs#,How to read sleep graphs>>).
+Noise card:: Shows latest noise recordings.
 Charts card:: Shows you graphs from the <</sleep/statistics_charts#,Charts section>>.
 * Tapping on this card opens <</sleep/statistics_charts#,Charts section>>.
 Advice card [[advicecard]]:: Shows a random advice from the <</sleep/Advice#,Advice section>>. More advice will show up when tapping on the card.
@@ -75,11 +75,10 @@ Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 
 |===
 +
-NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep, and Sleep tracking) for your main screen, for details, see  link:/sleep_advanced[the instruction] how to do it.
+NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep and Sleep tracking) for your main screen.
 Add-on card::
 A short presentation of our add-ons, compatible devices or our other apps.
-* Tapping on this card opens list of add-ons and other applications made by our team.
-
+* Tapping this card opens list of add-ons and other applications made by our team.
 
 === Tabs
 
