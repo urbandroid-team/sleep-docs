@@ -1,5 +1,5 @@
 ---
-title: Backlight turns on
+title: Garmin - Backlight turns on
 
 tags:
   - garmin

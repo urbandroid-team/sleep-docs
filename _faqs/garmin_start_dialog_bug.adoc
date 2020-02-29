@@ -1,0 +1,14 @@
+---
+title: Garmin - Cannot accept start dialog (green tick)
+
+tags:
+- garmin
+- vivoactive
+---
+
+This dialog is the only way to start a watch app from the phone. There's unfortunately no way to do it without that dialog.
+
+However, there is a bug in Garmin firmware that breaks this dialog on Vivoactive watches.
+
+In that case please don't start sleep tracking from the phone.
+As a workaround, start sleep tracking from the watch (just start the app on watch and it will trigger sleep tracking on the phone).
