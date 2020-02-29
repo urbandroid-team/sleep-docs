@@ -17,7 +17,7 @@ Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of
 
 ## Settings
 
-You further adjust your statistics settings in _Settings -> Sleep -> More -> Stats_.
+You can further adjust your statistics settings in _Settings -> Sleep -> More -> Stats_.
 
 [horizontal]
 Ideal daily sleep income:: What is your ideal sleep duration target for a typical day. This is used calculate your _Sleep deficit = Ideal daily sleep income - Average sleep duration for selected period_. Read mode on <</sleep/ideal_daily_sleep#,Ideal daily sleep income>>.
