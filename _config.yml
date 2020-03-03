@@ -74,6 +74,7 @@ exclude:
   - Gemfile.lock
   - template.adoc
   - README.md
+  - deploy.sh
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
