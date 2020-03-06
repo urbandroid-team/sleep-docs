@@ -11,3 +11,5 @@ tags:
 * When you find the least affected frequency, you could try increasing the recording threshold a bit in _Settings -> Sleep noise recording -> Recording volume threshold_.
 
 NOTE: We have also discovered, that this exact issue can be solved by different positioning of the phone - if the bottom of the phone (where mic and speaker are) is not touching any surface, the artifacts are gone. So try to put the phone on a book or something similar with the bottom of the phone over the edge. If you are not hearing the sonar itself during tracking, but it only gets recorded, this usually helps.
+
+audio::/assets/audios/sonar.mp3[options="controls"]
