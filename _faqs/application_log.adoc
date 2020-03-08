@@ -17,4 +17,4 @@ If you found any error, mistake, fault, or unexpected wrong behaviour, please le
 . Send the log. The recipient is already filled in.
 . Done! Many thanks!
 
-https://youtu.be/-3s26DmM3b0[Video step by step instructions]
+video::-3s26DmM3b0[youtube]
