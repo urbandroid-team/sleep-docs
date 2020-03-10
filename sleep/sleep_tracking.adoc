@@ -45,7 +45,7 @@ Sleep time estimate:: Do you forget to track your sleep? Enable this to receive 
 .Sensor
 [horizontal]
 Sensor:: Choose a sensor that will be used for motion tracking when you track using phone (ie. without wearables or Sleep Phaser). Read more about the available <</sleep/sensors#, Sensors>>
-Test sensor:: Test if your chosen sensor (Sonar or Accelerometer) is working correctly. If you want to test your wearable for motion tracking, please instead use _Settings -> Wearables -> Test sensor_.
+Test sensor [[test_sensor]]:: Test if your chosen sensor (Sonar or Accelerometer) is working correctly. If you want to test your wearable for motion tracking, please instead use _Settings -> Wearables -> Test sensor_.
 
 .Pair tracking
 [horizontal]

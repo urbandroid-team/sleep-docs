@@ -11,7 +11,7 @@ Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) pl
 
 Does your watch support the ConnectIQ platform? https://www.wareable.com/garmin/garmin-connect-iq-guide-best-apps-122[check here] (Garmin does not have an official list).
 
-## How to set up
+== How to set up
 Install the following apps:
 
 . https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Sleep as Android] on the phone
@@ -20,7 +20,13 @@ Install the following apps:
 
 Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Wearables -> Use wearables -> Garmin_.
 
-## Supported watches
+To start sleep tracking with your watch, tap _Start tracking_ on the <</ux/homescreen#,Homescreen>>.
+
+WARNING: Garmin integration does not support testing the sensor with <</sleep/sleep_tracking#test_sensor,Test sensor>>.
+
+WARNING: On some watches (mainly Vivoactive 3) there is a long-standing firmware issue that prevents you from accepting the starting dialog on the watch. Please start tracking from the watch instead. See <</faqs/garmin_start_dialog_bug#,FAQ: Garmin - Cannot accept start dialog (green tick)>>
+
+== Supported watches
 
 {% for wearable in site.data.wearables %}
   {% if wearable['Support /<br>sensors'] contains 'YES' and wearable.Vendor == 'Garmin' %}
@@ -28,7 +34,7 @@ Make sure that all of the apps are installed, and then select _Sleep -> Settings
   {% endif %}
 {% endfor %}
 
-## Unsupported watches
+== Unsupported watches
 NOTE: This list may not be exhaustive.
 
 {% for wearable in site.data.wearables %}
