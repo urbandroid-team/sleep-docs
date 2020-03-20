@@ -38,7 +38,8 @@ Restore settings:: Restore app's settings from locally saved `prefs.xml` file. S
 
 === Local backup
 [[local_backup]]
-Backs up: *Sleep records, Settings, Noise recordings, Noise recordings metadata*
+Backs up: *Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms*
+Does not back up: *Inactive alarms*
 
 Your data are being backed up on a daily basis to `/sdcard/sleep-data/` folder on your phone. You can also start local backup manually using _Left_ ☰ _menu -> Backup -> Export data_.
 
@@ -65,8 +66,8 @@ You can open the CSV file on your computer (e.g. in Excel) for your own analysis
 
 === Backup to SleepCloud (recommended)
 [[sleepcloud_backup]]
-Backs up: *Sleep records, Settings, Noise recordings metadata*
-Does not back up: *Noise recordings*
+Backs up: *Sleep records, Settings, Active alarms, Noise recordings metadata*
+Does not back up: *Noise recordings, Inactive alarms*
 
 Recommended backup service. It stores data in our own cloud designed for Sleep as Android. It has several unique features not present in other backup methods.
 
@@ -90,7 +91,7 @@ Recommended backup service. It stores data in our own cloud designed for Sleep a
 === Backup to Dropbox or Google Drive
 [[dropbox]][[google_drive]]
 Backs up: *Sleep records*
-Does not back up: *Settings, Noise recordings metadata, Noise recordings*
+Does not back up: *Settings, Noise recordings metadata, Noise recordings, Alarms*
 
 To automatically backup your data to Dropbox or Google Drive:
 . Install https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port[SleepCloud Backup add-on].
@@ -101,7 +102,7 @@ To automatically backup your data to Dropbox or Google Drive:
 
 === Backup using Google provided backup cloud
 [[google_backup]]
-Backs up: *Sleep records, Settings, Noise recordings metadata*
+Backs up: *Sleep records, Settings, Alarms, Noise recordings metadata*
 Does not back up: *Noise recordings*
 
 Most Android phones support Google provided backup. This is an optional feature and it must be explicitly enabled by the user.
