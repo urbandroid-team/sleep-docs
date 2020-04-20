@@ -8,6 +8,8 @@ parent: /devs/0parent.html
 
 The sleep-export.csv file is a backup file that contains data from sleep records. Each record is saved onto two lines (manually inserted sleep records) or three lines (sleep records recorded by sleep tracking).
 
+NOTE: If you want the data in JSON format, you can use our link:https://sleep.urbandroid.org/tools/csvtojson/[online converter tool].
+
 * First line contains headers:
 
 [horizontal]
