@@ -1,7 +1,6 @@
 Vendor,Device,Support /<br>sensors,Sensors supported,Battery use/night,Notes
-Xiaomi,Mi Band 1<br>- except Mi Band 1S,YES (↝),↝,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
-- <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.
-- <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.
+Xiaomi,Mi Band 1<br>- except Mi Band 1S,YES (↝),↝,~5%,"Mi Band 1 needs Tools & Mi Band app to route data from Mi Band to Sleep as Android:
+- <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>.
 How to guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
 Xiaomi,Mi Band 2,YES (↝❤),↝❤,~5%,"There are two apps that can route data from Mi Band to Sleep as Android:
 - <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.
