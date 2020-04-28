@@ -35,6 +35,7 @@ theme: "just-the-docs"
 # incremental: true
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   # - jekyll-asciidoc
 
 collections:

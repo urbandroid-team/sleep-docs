@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'hawkins'
   gem 'jekyll-asciidoc'
+  gem 'jekyll-redirect-from'
 end
 
 group :development, :test do

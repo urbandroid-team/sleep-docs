@@ -3,6 +3,8 @@ layout: default
 title: Bedtime notification
 nav_order: 20
 parent: /alarms/0parent.html
+redirect_from:
+- /sleep/bedtime_notification.html
 ---
 :toc:
 
