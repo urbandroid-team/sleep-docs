@@ -23,7 +23,7 @@ Awake hints:
 
 <</sleep/sleep_tracking_theory,Actigraphy>> (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. So we use heuristics (hints) that give us a very good and solid view on your awake events.
 
-We then use awake events to measure *sleep efficiency* (_time sleeping / time tracking_) - an important dimension in your <</sleep/sleepscore#, sleep score>>.
+We then use awake events to measure *sleep efficiency* (_= time sleeping / time tracking_) - an important dimension in your <</sleep/sleepscore#, sleep score>>.
 
 NOTE: Awake time is subtracted from your overall sleep *duration* - another important <</sleep/sleepscore#, Sleep score>> measure.
 
@@ -37,14 +37,14 @@ _Settings -> Sleep tracking -> Awake detection_
 image::awake_detection_settings.png[]
 
 === Movement intensity
-Movement intensity awake detection ss based on *significant activity* measured by a motion detection sensor e.g. Accelerometer in phone or on a wearable, Sonar, Sleep phaser... see <</sleep/sensors#, Sensors>>
+Movement intensity awake detection is based on *significant activity* measured by a motion detection sensor e.g. Accelerometer in phone or on a wearable, Sonar, Sleep phaser... see <</sleep/sensors#, Sensors>>
 [horizontal]
 Low sensitivity:: movement intensity is over ~0.25G for phone, ~0.4G for wearable
 Medium sensitivity:: movement intensity is over ~0.15G for phone, ~0.25G for wearable
 High sensitivity:: movement intensity is over ~0.1G for phone, ~0.2G for wearable
 
 === Heart rate monitoring
-When sing a heart rate sensor, you give Sleep very precise information about your awake times. During sleep, your heart beats approximately  up to 10 BPM slower than when awake.
+When using a heart rate sensor, you give Sleep very precise information about your awake times. During sleep, your heart beats approximately 10 BPM slower than when awake.
 
 NOTE: The app supports most Bluetooth heart rate devices via BLE, and various smartwatches. Please refer to <</devices/wearables#,Wearables>> for more details.
 
@@ -54,21 +54,21 @@ Medium sensitivity:: current HR is over ~1.15*median HR
 High sensitivity:: current HR is over ~median HR
 
 === Light
-*Ambient light* in your bedroom after sunset is another hint of you being awake. We use the sensor on the phone for light tracking. If there is disturbing light after sunset (value depends on set sensitivity), we consider it as an Awake.
-
-NOTE: The #dark icon:ic_lightbulb_off[] tag is added to graph when you have less than 30 lux for at least 90% of the night.
-The #light icon:ic_lightbulb[] tag is added to graph when you have more than 60 lux for at least 33% of the night.
+*Ambient light* in your bedroom after sunset is another hint of you being awake. We use the sensor on the phone for light tracking. If there is a disturbing light after sunset (value depends on set sensitivity), we consider it as an Awake hint.
 
 [horizontal]
 Low sensitivity:: light over 90 lux
 Medium sensitivity:: light over 60 lux
 High sensitivity:: light over 30 lux
 
+NOTE: The #dark icon:ic_lightbulb_off[] tag is added to graph when you have less than 30 lux for at least 90% of the night.
+The #light icon:ic_lightbulb[] tag is added to graph when you have more than 60 lux for at least 33% of the night.
+
 === Talk
-Several sounds, like talking, baby cry, etc. (see <</sleep/sound_recognition#, Sound recognition>>), may indicate you are awake. Because every mic is different, and every environment has different acoustics, it would be impossible to balance all these specifics automatically.
+Various sounds like talking, baby cry, etc. (see <</sleep/sound_recognition#, Sound recognition>>), may indicate you are awake. Because every microphone is different, and every environment has different acoustics, it would be impossible to balance all these specifics automatically.
 
 * By setting to *lower sensitivity*, you tell the app to only mark the period as awake if we are quite sure about classification of the sound.
-* *Higher sensitivity* means that also sounds where we are less sure about their classification (e.g. baby cry) should mark an awake period.
+* *Higher sensitivity* means that also sounds where we are less sure about their classification should mark an awake period.
 
 NOTE: The awake detection for talk starts 45 minutes after beginning of tracking and 1 hour before alarm for automatic tracking.
 For manual tracking starts, it is triggered after at least 4 talk-like or other events in last minute.
@@ -77,9 +77,9 @@ For manual tracking starts, it is triggered after at least 4 talk-like or other 
 Turns any snooze or pause result into awake.
 
 === Awake when using phone
-This option adds awake automatically when the phone is held in up right position, there is minimum hand shaking and screen os on.
+This option adds Awake when the phone is held in upright position, there is minimum hand shaking and screen is on.
 
-NOTE: With all settings we require the screen to be on for longer than your _Phone settings -> Display -> Screen timeout_. This is because your phone's screen may turn on by other unconscious event such as the phone is fully charges etc...
+NOTE: With all settings we require the screen to be on for longer than your _Phone settings -> Display -> Screen timeout_. This is because your phone's screen may turn on by other unconscious event such as the phone is fully charged etc...
 
 [horizontal]
 Low sensitivity:: only screen on
