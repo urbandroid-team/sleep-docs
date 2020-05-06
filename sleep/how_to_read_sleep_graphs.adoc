@@ -144,5 +144,19 @@ A healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) fol
 Different resources on sleep may provide different figures though.
 
 So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc.
+
+
+=== Comparing Sleep as Android graphs to sleep lab
+
+Ever wondered, how precise the sleep tracking with only a mobile phone could be?
+We had the opportunity to compare our algorithms with sleep-lab clinical study, and the results are very promising!
+The chances the smart alarm will be triggered properly (not in deep sleep) is 96%.
+Lucid cues have a 50% change to hit REM phase.
+Awake periods just from movement intensity changes (no other awake heuristic like sound detection, light detection, HR monitoring) can be detected with 30% success.
+
+You can read more details about the study on https://sleep.urbandroid.org/sleep-lab-comparison/[our blog post here].
+If you are interested how the REM detection with Sleep as Android work, you can  https://sleep.urbandroid.org/how-do-we-measure-your-dreams/[read it here].
+
+
 //See examples of such sleep graphs below.
 

@@ -79,7 +79,7 @@ icon:ic_action_track_off_white[] Alarms:: Simplified mode without any tracking-r
 === Contact support
 
 [horizontal]
-icon:ic_help[] Help:: Opens help-assistance dialogue.
+icon:ic_help_q[] Help:: Opens help-assistance dialogue.
 // * icon:ic_information[] Documentation
 // * icon:ic_information[] FAQ
 // * icon:ic_information[] Tutorial

@@ -29,7 +29,7 @@ You don’t need any new hardware for that – everything is already in your sma
 
 During tracking with sonar the phone produces ultrasonic signal (which cannot be heart by most). Even tiny movements distort the reflected signal which allows as to track them when we record them with the microphone.
 
-On many devices Sonar tracking is so precise we are even able to track your abdominal movements and display your <</sleep/breath_rate#, Breat-rate>> in the sleep graph.
+On many devices Sonar tracking is so precise we are even able to track your abdominal movements and display your <</sleep/breath_rate#, Breath-rate>> in the sleep graph.
 
 == Heart rate sensors
 *Heart rate is used to better distinguish awake state.*
