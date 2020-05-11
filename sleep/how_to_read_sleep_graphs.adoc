@@ -155,7 +155,7 @@ Lucid cues have a 50% change to hit REM phase.
 Awake periods just from movement intensity changes (no other awake heuristic like sound detection, light detection, HR monitoring) can be detected with 30% success.
 
 You can read more details about the study on https://sleep.urbandroid.org/sleep-lab-comparison/[our blog post here].
-If you are interested how the REM detection with Sleep as Android work, you can  https://sleep.urbandroid.org/how-do-we-measure-your-dreams/[read it here].
+If you are interested how the REM detection with Sleep as Android works, you can  https://sleep.urbandroid.org/how-do-we-measure-your-dreams/[read it here].
 
 
 //See examples of such sleep graphs below.
