@@ -15,7 +15,7 @@ redirect_from:
 
 Most of all:
 
-* <</alarms/smart_wake_up#,Smart wake up>> wakes you at the right sleep phase
+* <</sleep/smart_wake_up#,Smart wake up>> wakes you at the right sleep phase
 * <<gentle_alarm, Gentle volume increase>> finds the minimal sound to wake you
 * <</devices/smart_light#,Smartlight>> natural sunrise wake up
 * and many more.
