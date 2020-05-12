@@ -1,0 +1,38 @@
+---
+layout: default
+title: Release notes
+nav_order: 206
+//parent: /general/general_info.html
+---
+
+You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
+
+== Latest version 20200505
+– CAPTCHA Cheating Protection! Allows you to set a wager on not cheating CAPTCHA in _Settings -> CAPTCHA -> Cheating protection_
+– Goal wagers are now in-app purchases which can be refunded directly from the app in first 7 days or when completed
+– Workaround for time format in text to speech
+– Fix for not showing not supported playlists in lucid dreaming, anti-snoring and alarm backup
+– Ordered default playlist keeps order so that next alarm starts where the last alarm left it
+– Automatic resolution for added sleep times overlapping already existing sleeps
+– Fix for sunrise wake up when smartlight is disabled
+– Fix for a rare crash in noise playback
+– Connection to wearable is confirmed with a single vibe when starting sleep tracking
+– Tracking screen asks for BT when airplane mode is enabled and wearable connected
+– Fix for anti-snoring vibration preview to work on watch
+– Configuring your smart bulbs is now possible without disconnecting from bridge first
+– Fix for a race in “Track without” smart watch option when starting tracking which may result in empty graph
+– Fix for missing CHANGE_MULTICAST_STATE permission on Android 5-
+– Fix for crash when deleting part of graphs (recent regression)
+– Fix for asking for permission when doing an data import
+– Fix for goal showing failed text in first 14 days even progress is over 100%
+– Properly deleting snoring events when shrinking graphs
+– Close button on RDI notice
+– Fix for sleep time estimates when updating to a new version of the app
+– Fix for droid widget sleeping all day long
+– HR Wearable choice dialog now allows to choose form a list of devices
+– Fix for Wifi dialog occurring on Xiaomi when using smart lights
+– Fix for Lucid dreaming headphones only not working in preview
+– Fix for snooze though volume buttons if snooze limit is reached
+– Fix for sleep apnea link
+– Fix for HR tracker connectivity restarting
+– Updates in translations e.g. big update in Arabic translation and more
