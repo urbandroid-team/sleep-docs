@@ -43,7 +43,7 @@ image:alarm_card_next_new.png[width=50%]
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
 * Tapping this card plays the set of noises.
-Sleep score card [[sleepscore]]:: See <</sleep/sleepscore#,Sleep score>>.
+Sleep score card [[sleepscore]]:: Shows <</sleep/sleepscore#,Sleep score>> based on the recent 14 days.
 * Tapping on this card opens Stats (see <</sleep/statistics#,Stats>>)
 Graphs card:: Shows you graphs from the <</sleep/charts#,Charts section>>.
 * You can swipe through the graphs, right ↔ left.
