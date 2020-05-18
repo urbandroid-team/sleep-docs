@@ -55,6 +55,7 @@ Samsung,Gear Fit 2<br>Gear Fit 2 Pro,YES (↝❤),↝❤, ,"You need to install
 Read more at <a href=""http://bit.ly/sleepgearfit2"">Sleep loves Gear Fit 2</a>"
 Garmin,"ConnectIQ devices<br> (<a href=""http://bit.ly/saasupportedgarmindevices"">supported watches</a>)",YES (↝❤),↝❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
+Samsung,Gear Fit E, NO,,"RTOS does not have open API for integration",
 
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
 iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
