@@ -170,9 +170,9 @@ The data are expected to be expressed in number of heart beats per minute. It is
 
 * Intent: `com.urbandroid.sleep.watch.ACTION_EXTRA_DATA_UPDATE`
 * Extra:
-** *com.urbandroid.sleep.EXTRA_DATA_SPO2* (Int): Current SpO2 value
+** *com.urbandroid.sleep.EXTRA_DATA_SPO2* (Float): Current SpO2 value
 
-The data should be one integer, current SpO2 value, sent every 1 second.
+The data should be one float number, current SpO2 value, sent every 1 second.
 
 === Pause from watch
 
