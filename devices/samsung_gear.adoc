@@ -9,10 +9,6 @@ tags:
 ---
 Sleep as Android supports most Samsung wearables, but not all. Please look for your device in <<supported-watches>> below.
 
-WARNING:  Samsung did pull our app fro the Galaxy store for keeping a wake lock all night long during sleep tracking. Unfortunately, there does not seem to be a good sensor batching API which would allow us to gather all sensoric data and not restrict the watch from entering standby.. We are communicating with Samsung about this and are investigating some options.
-We hope to resolve the issue soon so please stay tuned... We are also exploring a new way to collect data on sensor.
-Please contact our support (support@urbandroid.org) for more information.
-
 ## How to set up
 The Samsung Galaxy Gear integration consists of three parts:
 * https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Sleep as Android] on the phone
