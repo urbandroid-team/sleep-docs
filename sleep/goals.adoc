@@ -20,7 +20,7 @@ In the Goal screen, tap on the icon:plus[] button.
 
 [[adding-goal]]
 .Adding a new goal
-image::goals.png[]
+image::goal_progress_succesful.png[]
 
 . Select area in which you’d like to improve over the next 1 month (Duration, Fall asleep hour, Irregularity, Awake, Deep sleep, Snoring, Snooze)
 . Choose your motivation. You can try the goal for free, or you can bet a few bucks on yourself.
