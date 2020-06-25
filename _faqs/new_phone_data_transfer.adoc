@@ -5,17 +5,36 @@ tags:
   - backup
 ---
 
-There are three possible ways to transfer your data to a new devices:
+There are five possible ways to transfer your data to a new devices:
 
 == Google backup
 Normally we use Google’s backup function. So if enabled in _System settings -> Privacy_ and after installing Sleep as Android on the new device you will get all your settings, alarms and other data. This assumes you install with a fast network connection enabled.
 
-== Import - export in the app
+== Import - export in the app - manually
 You an also do a manual export/import process:
 . Got to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_, and make sure the dialog says "successful"
 . Copy the directory _/sdcard/sleep-data_ to your new phone's SD card
 . Install Sleep as Android on the new phone and immediately go to _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Import_
-NOTE: You will need to adjust the settings manually.
++
+NOTE: If you don't import immediately, the app will replace your `sleep-export.zip` file after the next sleep record is created. The old `sleep-export.zip` file will be renamed to `sleep-export.backup.zip`. See <</faqs/backup_data_not_imported_immediately#,solution>>.
++
+[[csv_export]]
+== Import - export in the app - sending the backup file with email
+For even easier migrating to a new phone, you can use your email.
+. Go to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_.
+. When a dialogue "Successful backup to your local storage" appears, choose "Share" button.
+. Now, you can choose your email client, and the backup zip file is attached to the body of a new email.
+. Send it to yourself.
+. Open the email client on your new phone, open the email, and tap on the attachment.
+. You will be asked which data you wish to import - select all types of data you wish to import, and submit.
+
+== Import - export in the app - sharing the file with Google Drive
+Another easy way of migrating to a new device is Google Drive sharing
+. Got to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_.
+. When a dialogue "Successful backup to your local storage" appears, choose "Share" button.
+. Choose Google Drive, and confirm.
+. Then open Google Drive on your other device, and select the backup file.
+. You will be asked which data you wish to import - select all types of data you wish to import, and submit.
 
 == Sleep Cloud
 Third option is to use some of the Cloud Backup methods from the SleepCloud Add-on. Please, see more about <</services/backup_data#,Backup>>.

@@ -1,0 +1,20 @@
+---
+title: Sonar is audible, strange sounds when using sonar
+
+tags:
+- tracking
+- sonar
+---
+
+We have reports that on some device you can hear audible artifacts during sonar tracking. It sounds like this:
+audio::/assets/audios/sonar.mp3[options="controls"]
+
+Some of the signal gets into audible spectrum probably due to either insufficient quality of the speaker or some post processing which is applied to the output on your device firmware.
+
+We have also some reports that Sonar can get audible suddenly during tracking in the night. Unfortunately we are not sure why this could happen, we only have very few such reports and we are not able to reproduce this on our phones.
+
+To make any audible artifacts less likely_
+. Go to Settings > Sleep tracking > Test sensor.
+. Try different frequency from the drop down menu list.
+. When you find the least affected frequency, you could try lowering the volume a bit (the sliding bar). But keep it as high as possible to maintain reliable results.
+NOTE: If the volume needs to be adjusted, always confirm that sonar is still working - ideally after you change settings, try to sit calm in font of the test for few seconds and than move slightly -  do you see a spike?
