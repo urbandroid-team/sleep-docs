@@ -54,7 +54,7 @@ ZIP file:: all the above (except /rec folder) are zipped up here for easy sharin
 
 You can also open the CSV file on your computer (e.g. in Excel) for your own analysis of the sleep tracking data. The structure of the CSV file is <</devs/csv#,documented here>>.
 
-The backup zip file can be used for migrating your Sleep settings and tracking history to a new phone - see <</sleep/services/new_phone_data_transfer#, our detailed guide>>.
+The backup zip file can be used for migrating your Sleep settings and tracking history to a new phone - see <</faqs/new_phone_data_transfer#, our detailed guide>>.
 
 
 === Backup to SleepCloud (recommended)
