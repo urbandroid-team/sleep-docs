@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build
-        uses: urbandroid-team/jekyll-build-action@2
+        uses: urbandroid-team/jekyll-build-action@3
         env:
           $FTP_USER: ${{ secrets.FTP_USERNAME }}
           $FTP_PASS: ${{ secrets.FTP_PASSWORD }}
