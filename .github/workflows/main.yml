@@ -7,8 +7,6 @@ jobs:
     steps:
       - name: Build
         uses: urbandroid-team/jekyll-build-action@v1
-
-      - uses: actions/checkout@v2.1.0
       - name: Upload ftp
         uses: sebastianpopp/ftp-action@releases/v2
         with:
