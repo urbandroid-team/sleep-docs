@@ -6,11 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build
-        uses: urbandroid-team/jekyll-build-action@v1
-      - name: Upload ftp
-        uses: sebastianpopp/ftp-action@releases/v2
-        with:
-          host: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "_site"
+        uses: urbandroid-team/jekyll-build-action
+        env:
+          $FTP_USER: ${{ secrets.FTP_USERNAME }}
+          $FTP_PASS: ${{ secrets.FTP_PASSWORD }}
+          $FTP_SERVER: ${{ secrets.FTP_SERVER }}
