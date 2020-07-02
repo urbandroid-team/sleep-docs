@@ -7,6 +7,11 @@ tags:
 ---
 
 . If there is an issue with Google's vision API, the scanner might not recognize the QR code.
-. Try to use another QR scanner - e.g. Barcode Scanner and Google Goggles are supported.
+. Try to use another QR scanner - e.g. Barcode Scanner and Google Lens are supported.
 . Clear the preferred app for QR scanning in _System settings -> Apps -> Sleep -> Clear defaults_.
-. On newer phones clear the preferred app in _System settings -> Apps&Notifications ->  Sleep -> Open by default_.
+. On newer phones clear the preferred app in _System settings -> Apps&Notifications ->  Sleep -> Open by default -> Clear defaults_.
+image::qr_clear.png[]
+. Now open the Sleep QR scanning in _Settings -> Captcha -> Preview_ and try to scan the code.
+. The app will ask you which app will be used for scanning.
+image::qr_alter.png[]
+. Choose Always option to confirm this app for scanning your QR code upon Captcha task.
