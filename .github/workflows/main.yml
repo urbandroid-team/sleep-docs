@@ -5,6 +5,7 @@ jobs:
     name: build-and-deploy
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Build
         uses: urbandroid-team/jekyll-build-action@6
         env:
