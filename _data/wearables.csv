@@ -22,7 +22,7 @@ Known issue: Sometimes the Wear app doesn't install the app on your watch automa
 Samsung,Gear Live ,YES (↝❤),↝❤,~15%,"150 events sensor batch queue which allows very low battery consumption.
 There are issues with refurbished Gear Live devices with a dev version of the OS which do not connect to with Sleep as Android. Re-flashing of the firmware <a href=""https://www.reddit.com/r/AndroidWear/comments/2rgx1p/no_update_on_gear_live/"">as described here</a> should resolve the issue."
 Samsung,Gear Sport ,YES (↝❤),↝❤,~20%,"You need:<br>an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>a watch app called “Sleep as Android – Native Gear Companion”."
-Fitbit,"Ionic, Versa, Versa Lite, Versa 2",In beta,↝❤, ,See https://forum.urbandroid.org/t/fitbit-ionic-versa-beta-integration/3035/231
+Fitbit,"Ionic, Versa, Versa Lite, Versa 2",YES (↝❤),↝❤, ,https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02
 ,,,, ,
 LG,G Watch,YES (↝),↝,~20%,"Should be working well. The watch reports a batch size of size zero, but sensor batching is supported in fact. "
 LG,G Watch R ,YES (↝❤),↝❤,~15%,Biggest sensor batch queue so far 10000 events. May allow us to do some further optimizations in the future.
