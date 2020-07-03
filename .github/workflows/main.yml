@@ -9,6 +9,6 @@ jobs:
       - name: Build
         uses: urbandroid-team/jekyll-build-action@7
         env:
-          $FTP_USER: ${{ secrets.FTP_USERNAME }}
-          $FTP_PASS: ${{ secrets.FTP_PASSWORD }}
-          $FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USER: ${{ secrets.FTP_USERNAME }}
+          FTP_PASS: ${{ secrets.FTP_PASSWORD }}
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
