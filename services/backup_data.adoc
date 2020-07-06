@@ -18,18 +18,18 @@ parent: /services/0parent.html
 == Options
 ._Left ☰ menu -> Backup_
 [horizontal]
-Export data:: Exports all your sleep records, noises and preferences to CSV files located on your phone at _/sdcard/sleep-data/_. Use for  <<local_backup,local backup>> or for your <<csv_export, own analysis>> of sleep tracking data. The command also zips up the CSVs and offers to share.
+Export data:: Exports all your sleep records, noises and preferences to ZIP files located on your phone at _/sdcard/sleep-data/_. Use for  <<local_backup,local backup>> or for your <<csv_export, own analysis>> of sleep tracking data. The command also zips up the CSVs and offers to share.
 Upload to Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and uploads data from phone to cloud.
-Import data:: Starts import of data from /sdcard/sleep-data/sleep-export.csv (local backup).
+Import data:: Starts import of data from /sdcard/sleep-data/sleep-export.zip (local backup).
 NOTE: If you already have existing sleep records in Sleep, import will not overwrite them. It will just import new records that are present in the import file.
 Download from Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and downloads data from cloud to app.
 
-._Settings -> Privacy -> [Backup]_
+._Settings -> Privacy -> Backup_
 [horizontal]
 SleepCloud:: See <<sleepcloud_backup,SleepCloud backup>>
 Cloud backup:: Main switch for cloud backup. If disabled, no cloud backup will take place.
-Local storage backup:: If disabled, Sleep will not be doing daily <<local_backup>>.
-Restore settings:: Restore app's settings from locally saved `prefs.xml` file. See <<local_backup>> for details.
+Local storage backup:: If disabled, Sleep will not be doing daily <<local_backup,local backup>>.
+Restore settings:: Restore app's settings from locally saved `prefs.xml` file. See <<local_backup,local backup>> for details.
 
 // Google Drive:: See <<google_drive,Google Drive>>
 // Dropbox:: See <<dropbox,Dropbox>>
@@ -52,17 +52,10 @@ sleep-export.csv:: Latest sleep data
 sleep-export.backup.csv:: Sleep data from the previous backup
 ZIP file:: all the above (except /rec folder) are zipped up here for easy sharing
 
-To migrate your data to another phone:
+You can also open the CSV file on your computer (e.g. in Excel) for your own analysis of the sleep tracking data. The structure of the CSV file is <</devs/csv#,documented here>>.
 
-. Move the `/sdcard/sleep-data/` folder to your new phone, same location - `/sdcard/sleep-data/`.
-. Import the data with _Left_ ☰ _menu -> Backup -> Import data_ immediately.
-+
-NOTE: If you don't import immediately, the app will replace your `sleep-export.csv` file after the next sleep record is created. The old `sleep-export.csv` file will be renamed to `sleep-export.backup.csv`. See <</faqs/backup_data_not_imported_immediately#,solution>>.
-[[csv_export]]
-+
+The backup zip file can be used for migrating your Sleep settings and tracking history to a new phone - see <</faqs/new_phone_data_transfer#, our detailed guide>>.
 
-
-You can open the CSV file on your computer (e.g. in Excel) for your own analysis of the sleep tracking data. The structure of the CSV file is <</devs/csv#,documented here>>.
 
 === Backup to SleepCloud (recommended)
 [[sleepcloud_backup]]

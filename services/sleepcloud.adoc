@@ -7,9 +7,9 @@ parent: /services/0parent.html
 :toc:
 
 == What it is
-*A dashboard and a storage place for your sleep data*
+*A dashboard and a storage place for your sleep data.*
 
-SleepCloud lets you
+SleepCloud lets you:
 
 - view your sleep data and charts on a computer
 - <</services/backup_data#,backup your data>>

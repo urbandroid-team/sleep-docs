@@ -10,10 +10,12 @@ tags:
 :toc:
 
 == What it does
-*Set a Spotify album or playlist as an alarm ringtone*
+*Set a Spotify album or playlist as an alarm ringtone.*
 
 == Where to find it
 _Settings -> Services -> Spotify_
+
+The Spotify app is available on Play Store.
 
 == Guide
 

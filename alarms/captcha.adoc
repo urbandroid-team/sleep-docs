@@ -39,9 +39,9 @@ NOTE: During CAPTCHA solving, alarm volume is lowered for 1 minute so that you d
 To get more time, tap on the _+_ icon in the upper right corner
 Prevent escaping CAPTCHA:: Prevents avoiding solving the CAPTCHA. Especially from force closing or uninstalling the app during the task.
 
-## Guide
+== Guide
 
-### CAPTCHA types
+=== CAPTCHA types
 
 .Built-in CAPTCHAS
 [horizontal]
@@ -68,7 +68,7 @@ Let there be light:: Put your phone to a light source
 Fun with Flags:: Recognize flags
 Spin around:: Spin around while keeping thumbs on the buttons on the screen
 
-### QR code and NFC tag CAPTCHA
+=== QR code and NFC tag CAPTCHA
 [[QR_NFC]]
 The QR and NFC CAPTCHAs are the ultimate solution for waking up. You can place a QR code or NFC tag in your bathroom or kitchen. The alarm than won’t stop until you get out of bed and scan the code/tag.
 
@@ -89,4 +89,14 @@ Delete a QR code / NFC tag::
 . Go to _Settings -> Captcha -> Settings_
 . Tap on the trash can icon:ic_action_discard[]]
 
+=== Alarm avoiding protection
+// TODO
+
+There are three ways of protecting the alarm from your devious morning self:
+
+==== Force stop protection
+
+==== Uninstall protection
+
+==== Phone switch-off protection
 

@@ -20,10 +20,9 @@ Sony,SW3 (SWR50),YES (↝),↝,~15%,"182 events sensor batch queue which allows 
 Known issue: Sometimes gets into a broken state and starts using up to 100% battery. Reboot watch to resolve the issue.
 Known issue: Sometimes the Wear app doesn't install the app on your watch automatically. Sleep as Android then stays stuck on ""Waiting for connectivity"" and never connects. To resolve, go to <strong>Android Wear app > Settings > Your watch > Resync apps</strong>."
 Samsung,Gear Live ,YES (↝❤),↝❤,~15%,"150 events sensor batch queue which allows very low battery consumption.
-There are issues with refurbished Gear Live devices with a dev version of the OS which do not connect to with Sleep as Android. Re-flashing of the firmware <a href=""https://www.reddit.com/r/AndroidWear/comments/2rgx1p/no_update_on_gear_live/"">as described here</a> should resolve the issue.
-"
+There are issues with refurbished Gear Live devices with a dev version of the OS which do not connect to with Sleep as Android. Re-flashing of the firmware <a href=""https://www.reddit.com/r/AndroidWear/comments/2rgx1p/no_update_on_gear_live/"">as described here</a> should resolve the issue."
 Samsung,Gear Sport ,YES (↝❤),↝❤,~20%,"You need:<br>an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>a watch app called “Sleep as Android – Native Gear Companion”."
-Fitbit,"Ionic, Versa, Versa Lite, Versa 2",In beta,↝❤, ,See https://forum.urbandroid.org/t/fitbit-ionic-versa-beta-integration/3035/231
+Fitbit,"Ionic, Versa, Versa Lite, Versa 2",YES (↝❤),↝❤, ,https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02
 ,,,, ,
 LG,G Watch,YES (↝),↝,~20%,"Should be working well. The watch reports a batch size of size zero, but sensor batching is supported in fact. "
 LG,G Watch R ,YES (↝❤),↝❤,~15%,Biggest sensor batch queue so far 10000 events. May allow us to do some further optimizations in the future.
@@ -54,8 +53,8 @@ Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2",YES (↝❤),
 Samsung,Gear Fit 2<br>Gear Fit 2 Pro,YES (↝❤),↝❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
 Read more at <a href=""http://bit.ly/sleepgearfit2"">Sleep loves Gear Fit 2</a>"
 Garmin,"ConnectIQ devices<br> (<a href=""http://bit.ly/saasupportedgarmindevices"">supported watches</a>)",YES (↝❤),↝❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
+Samsung,Gear Fit E, NO,,"RTOS does not have open API for integration",
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
-
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
 iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
 Huawei,Watch,YES (↝❤),↝❤,~20%<br>untested,"Sensor batch queue 150 events.
@@ -70,7 +69,7 @@ Sony,SW2,NO,,100%,"We tried to integrate with Sony SW2, but due to the architect
 Sony,SWR10,NO,, ,Unsuitable for sleep tracking - no realtime access to accelerometric data.
 Sony,SWR30,NO,, ,No way to integrate. We have consulted it with Sony guys and concluded that the band's battery wouldn't last the night of sleep tracking.
 Jawbone,UP,NO,, ,No support for 3rd party integration
-Fitbit,"All except Ionic, Versa",NO,, ,No support for 3rd party integration
+Fitbit,"Charge, Blaze etc.",NO,, ,No support for 3rd party integration. Only Ionic and Versa are supported.
 Xiaomi,Mi band 1S,NO,, ,"No public API. We are trying to reverse engineer it, so hopefully it will work eventually. (Mi Band 1, 1A, 2 IS SUPPORTED)"
 Misfit,Misfit,NO,, ,Unsuitable for sleep tracking - no realtime access to accelerometric data
 Garmin,Non-Connect IQ devices,NO,, ,Garmin only has API for a few of their devices

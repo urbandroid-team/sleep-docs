@@ -5,11 +5,11 @@ tags:
   - backup
 ---
 
-If you moved a `sleep-export.csv` file to your new phone and did not import the file before the app created a new sleep record, the app has replaced your `sleep-export.csv`. The old `sleep-export.csv` file was renamed to `sleep-export.backup.csv`.
+If you moved a `sleep-export.zip` file to your new phone and did not import the file before the app created a new sleep record, the app has replaced your `sleep-export.zip`. The old `sleep-export.zip` file was renamed to `sleep-export.backup.zip`.
 
 To restore the old data:
 
-. Delete the `sleep-export.csv` file.
-. Rename `sleep-export.backup.csv` to `sleep-export.csv`.
+. Delete the `sleep-export.zip` file.
+. Rename `sleep-export.backup.zip` to `sleep-export.zip`.
 
 In Sleep, do _Left menu > icon:ic_cloud_upload[]  Backup > Import data_.
