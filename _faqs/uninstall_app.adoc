@@ -6,12 +6,11 @@ tags:
   - captcha
 ---
 
-You have probably activated Prevent escaping CAPTCHA option.
+You have probably activated uninstall protection in CAPTCHA Cheatin prevention.
 
 This option registers the app as a device administrator in order to block turning off the phone when an alarm rings.
 
-
 - Go to _System settings -> Location and Security -> Device Administrator_ and deselect the admin which you want to uninstall.
-- or disable *Prevent escaping Captcha* in _Settings -> Captcha: Stop oversleeping! -> Prevent escaping Captcha_ (might be hidden under Advanced menu)
+- or disable *Force stop and uninstall protection* in _Settings -> Captcha: Stop oversleeping! -> Captcha Cheatin protection_ (might be hidden under Advanced menu)
 
-Now uninstall the application. If it still says you need to deactivate the application before uninstalling, you may need to Force Stop the application before uninstalling.
+Now uninstall the application. If it still says you need to deactivate the application before uninstalling, you may need to Force Stop the application before uninstalling.g
