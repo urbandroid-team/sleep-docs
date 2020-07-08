@@ -6,7 +6,7 @@ tags:
   - captcha
 ---
 
-You have probably activated uninstall protection in CAPTCHA Cheatin prevention.
+You have probably activated uninstall protection in CAPTCHA Cheating prevention.
 
 This option registers the app as a device administrator in order to block turning off the phone when an alarm rings.
 
