@@ -80,6 +80,7 @@ Stand-by:: Sleep tracking will be put into standby mode when battery drops under
 Battery optimized [[battery-optimized]]:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
 WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
 
+[[guide]]
 == Guide
 
 === How to track sleep

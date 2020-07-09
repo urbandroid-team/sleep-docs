@@ -1,0 +1,41 @@
+---
+title: Quick guide to start with Sleep as Android
+
+tags:
+- tracking
+- alarm
+- guide
+---
+
+At first Sleep as Android may look complex with all its options, but in fact it is fairly easy to get started improving your sleep and wake up.
+You can delve deep into all the amazing options Sleep as Android provides later on. But to get started just rely on our carefully selected defaults.
+
+. Use the top right plus icon to set up your <</alarms/0parent#, Alarm>> time (e.g. 8:00). Tap the desired time directly on the clock - hours first, minutes second.
+
++
+image::quick_alarm_1.png[]
++
+
+. Confirm the selected time with SET button, it will show you the new alarm settings. Confirm the alarm with DONE.
+
++
+image::quick_alarm_2.png[]
++
+
+. <</sleep/smart_wake_up#, Smart wake up>> makes sure to find the best time for your wake up between 7:30 – 8:00 based on your sleep cycle.
+. You can now see the alarm scheduled on the main screen.
+. Tap the moon and <</sleep/sleep_tracking#, Sleep tracking>> starts, we use your phone’s sensor to find out what sleep phase you are in (see <</sleep/sleep_tracking_theory#, How it works>>).
+
++
+image::quick_alarm_3.png[]
++
+
+
++
+NOTE: We recommend turning on airplane mode during sleep tracking
++
+
+. Now just place the phone on the mattress near your body (see <</sleep/sleep_tracking/guide#, Setup sleep tracking>>) so it is able to sense your movement and wake you in the right sleep phase to bring your wake up experience to a new level
+. After dismissing the alarm in the morning you will see your <</sleep/how_to_read_sleep_graphs#, sleep phases, deep sleep % and more>>..
+
+
