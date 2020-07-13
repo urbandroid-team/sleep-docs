@@ -12,7 +12,7 @@ Sleep as Android supports a wide variety of smartwatches. Take a look at the lis
 
 .Supported wearables
 |===
-|Manufacturer |Device |Supported sensors
+|Manufacturer |Device |Supported sensors |Notes
 
 
 {% for wearable in site.data.wearables %}
@@ -21,6 +21,7 @@ Sleep as Android supports a wide variety of smartwatches. Take a look at the lis
 | +++ {{ wearable.Vendor }} +++
 | +++ {{ wearable.Device }} +++
 | +++ {{ wearable['Sensors supported'] }} +++
+| +++ {{ wearable['Notes'] }} +++
 
   {% endif %}
 {% endfor %}

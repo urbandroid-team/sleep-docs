@@ -60,10 +60,13 @@ Note the following special rules:
 - if DND was activated by Sleep, but you have toggled it during the sleep tracking, Sleep will not touch it again
 Turn off wireless signal during sleep::
 This option tries to disable radios (wifi, cellular) during sleep tracking. Due to constraints gradually introduced in Android, it behaves differently based on the Android version you have on your phone.
-Below 4.2: turns on airplane mode
-Lollipop (5): turns off wifi
-Oreo (8): turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
-Q (10): does nothing - Android 10 has removed any means of controlling wifi programmatically
+*Below 4.2*: turns on airplane mode
+*Lollipop (5)*: turns off wifi
+*Oreo (8)*: turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
+*Q (10)*: does nothing - Android 10 has removed any means of controlling wifi programmatically
+
++
+NOTE: Th WiFi will be turned on back during alarm time, if you use online radios, or Spotify as your ringtone
 
 .Advanced
 [horizontal]
@@ -77,6 +80,7 @@ Stand-by:: Sleep tracking will be put into standby mode when battery drops under
 Battery optimized [[battery-optimized]]:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
 WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
 
+[[guide]]
 == Guide
 
 === How to track sleep
@@ -118,9 +122,11 @@ You can also track sleep with additional devices like <</devices/sleep_phaser#, 
 - Stop tracking icon:ic_action_cancel[], this will show a confirmation dialog whether you like to delete the record or save it.
 . If <</sleep/sleep_noise_recording#, Noise recording>> is enabled, you will see an recording indicator, with current volume and the _Recording volume threshold_.
 . Shows your next alarm or a range in case of <</sleep/smart_wake_up#, Smart wake up>> and beneath you can see further instructions depending on your settings
-. Action icon:ic_pencil[] to <</sleep/graph_edit, comment>> or <</sleep/tags, tag>> your sleep graph and turn on your flash light icon:ic_flashlight[] to e.g. navigate to the toilet.
-NOTE: In case you have configured <</devices/smart_light#, Smartlight>>, the _Pee_light_ option will use it at minimum brightness red to help you to navigate the room.
-. An active sleep tracking is always indicated in the status bar as an ongoing notification. Even leaving the tracking screen you can always get back though this notification.
+. Action icon:ic_pencil[] to <</sleep/graph_edit#, comment>> or <</sleep/tags#, tag>> your sleep graph and turn on your flash light icon:ic_flashlight[] to e.g. navigate to the toilet.
++
+NOTE: In case you have configured <</devices/smart_light#, Smartlight>>, the _Pee-light_ option will use it at minimum brightness (and red if possible) to help you to navigate the room.
++
+. Running sleep tracking is always indicated in the status bar as an ongoing notification. Even after leaving the tracking screen you can always get back through this notification.
 
 [[sleep-tracking-screen-1]]
 .Sleep tracking screen elements
@@ -129,8 +135,8 @@ image::sleep_tracking_screen_1.png[]
 Sliding up the _Stop and Save_ slider will bring up further options show in <<sleep-tracking-screen-2>>.
 
 * _Stop and save_ stops current sleep tracking and immediately saves it. This option is only accessible after the slide to neglect any risk of accidental stop.
-* _Pee light_ uses your phones flashlight or any connected <</devices/smart_light#, Smartlight>>.
-* _Save battery_ switches sleep tracking into a low power mode. In this mode tracking will consume hardly any battery, but <</sleep/sleep_noise_recording#, Noise recording>> will be stopped and no activity will be tracked using <</sleep/sensors#, Sensors>>. This is useful if you do not have battery but still want to tracking times for your sleep.
+* _Pee-light_ uses your phones flashlight or any connected <</devices/smart_light#, Smartlight>>.
+* _Save battery_ switches sleep tracking into a low power mode. In this mode tracking will consume minimum battery, but <</sleep/sleep_noise_recording#, Noise recording>> will be stopped and no activity will be tracked using <</sleep/sensors#, Sensors>>. This is useful if you don't have much battery but still want to track the time of your sleep.
 
 [[sleep-tracking-screen-2]]
 .Sleep tracking screen elements
