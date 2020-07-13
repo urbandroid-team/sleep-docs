@@ -90,9 +90,8 @@ Delete a QR code / NFC tag::
 . Go to _Settings -> Captcha -> Settings_
 . Tap on the trash can icon:ic_action_discard[]
 
-=== Alarm avoiding protection
+=== CATPCHA cheating protection
 [[Cheat]]
-// TODO
 There are three ways of protecting the alarm from your devious morning self:
 
 ==== Power off protection
