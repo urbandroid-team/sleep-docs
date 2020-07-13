@@ -72,12 +72,17 @@ module Jekyll
     end
 
     def toTreeByUrl(jekyllPages)
-      nodes = jekyllPages.map do |j|
+
+
+      nodes = jekyllPages.reject {|p| p['title'].to_s.length == 0 }.map do |j|
         active = ($currentPageUrl == j['url'])
         { url: j['url'], parentUrl: j['parent'], title: j['title'], active: active, page: j, nav_order: j['nav_order']}
       end
 
       nodes.each do |node|
+
+#         next unless node[:title].to_s.length.to_i > 0
+#         puts 'node title '+ node[:title].to_s.length.to_s + ': ' + node[:title].to_s + ' node url: ' + node[:url].to_s
 
         parentObject = nodes.find { |another| another[:url] == node[:parentUrl]}
         next unless parentObject
