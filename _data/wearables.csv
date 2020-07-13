@@ -1,29 +1,10 @@
 Vendor,Device,Support /<br>sensors,Sensors supported,Battery use/night,Notes
-Xiaomi,Mi Band 1<br>- except Mi Band 1S,YES (↝),↝,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android.
-
-Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Xiaomi,Mi Band 2,YES (↝❤),↝❤,~5%,"Needs one of these apps to get data to Sleep as Android:
-<ul>
-<li><a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.</li>
-<li><a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.</li>
-</ul>
-
-Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Xiaomi,Mi Band 3,YES (↝❤),↝❤,~5%,"Needs one of these apps to get data to Sleep as Android:
-<ul>
-<li><a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.</li>
-<li><a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.</li>
-</ul>
-
-Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Xiaomi,Mi Band 4,YES (↝❤),↝❤,~5%,"Needs one of these apps to get data to Sleep as Android:
-<ul>
-<li><a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a>. Also see <a href=""http://help.mibandtools.com/knowledge_base/topics/sleep-as-android"">TMB help</a>.</li>
-<li><a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.</li>
-</ul>
-
-Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Xiaomi,Mi Band 5,YES (↝),↝,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android.
+Xiaomi,"Mi Band 1 (except 1S)<br>
+Mi Band 2<br>
+Mi Band 3<br>
+Mi Band 4<br>
+Mi Band 5<br>
+",YES (↝),↝,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android.
 
 Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
 Pebble,1<br>- all variants,YES (↝),↝,<<10%,
@@ -69,7 +50,7 @@ Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2",YES (↝❤),
 Samsung,"Gear Fit 2, Gear Fit 2 Pro",YES (↝❤),↝❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
 Read more at <a href=""http://bit.ly/sleepgearfit2"">Sleep loves Gear Fit 2</a>"
 Garmin,"ConnectIQ devices<br> (<a href=""http://bit.ly/saasupportedgarmindevices"">supported watches</a>)",YES (↝❤),↝❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
-Samsung,Gear Fit E,NO,,RTOS does not have open API for integration,
+Samsung,"Gear Fit 1, Galaxy Fit",NO,,RTOS does not have open API for integration,
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
 iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
