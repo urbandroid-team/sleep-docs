@@ -18,8 +18,7 @@ Mi Band 5<br>
 Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
 Huami,"Amazfit (Amazfit Bip, Amazfit Bip S, Amazfit Arc, Amazfit Cor)",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"">Tools & Amazfit app</a> to get data from Amazfit to Sleep as Android. Also see <a href=""http://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"">T&A help</a>."
 Huami,"Android-based Amazfit (Pace, Startos, Verge)",NO but coming soon,,,"AmazMod is currently working on this integration, stay tuned"
-Pebble,1<br>- all variants,YES (↝),↝,<<5%,Works either with the official app and the Rebble project or with GadgetBridge..
-Pebble,2<br>- all variants,YES (↝❤),↝❤,<<5%,
+Pebble,1 & 2 - all variants,YES (↝),↝,<<5%,Works either with the official app and the Rebble project or with GadgetBridge..
 Fitbit,"Ionic, Versa, Versa Lite, Versa 2",YES (↝❤),↝❤, ,"You need the <a href=""https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02"">Fitbit app</a>"
 Samsung,"Gear 1,2,2 Neo, S, S2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
 Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
