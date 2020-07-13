@@ -60,10 +60,13 @@ Note the following special rules:
 - if DND was activated by Sleep, but you have toggled it during the sleep tracking, Sleep will not touch it again
 Turn off wireless signal during sleep::
 This option tries to disable radios (wifi, cellular) during sleep tracking. Due to constraints gradually introduced in Android, it behaves differently based on the Android version you have on your phone.
-Below 4.2: turns on airplane mode
-Lollipop (5): turns off wifi
-Oreo (8): turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
-Q (10): does nothing - Android 10 has removed any means of controlling wifi programmatically
+*Below 4.2*: turns on airplane mode
+*Lollipop (5)*: turns off wifi
+*Oreo (8)*: turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
+*Q (10)*: does nothing - Android 10 has removed any means of controlling wifi programmatically
+
++
+NOTE: Th WiFi will be turned on back during alarm time, if you use online radios, or Spotify as your ringtone
 
 .Advanced
 [horizontal]
@@ -77,6 +80,7 @@ Stand-by:: Sleep tracking will be put into standby mode when battery drops under
 Battery optimized [[battery-optimized]]:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
 WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
 
+[[guide]]
 == Guide
 
 === How to track sleep
