@@ -7,7 +7,41 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20200606
+== Latest version 20200717
+– Fix for automatic sleep tracking issues because of too sensitive activity recognition
+– Fix for white theme to use light navbar
+– Sunrise effect using screen-backlight is now default on the alarm screen (turn off in Settings > Alarms > Alarm screen)
+– Tracking screen dimming is now by default with clock (turn off in Settings > Sleep tracking > Advanced > Screen dimming)
+– Alarm screen background is now black to make it look better on OLED screens
+– Fix for rare awake when using phone mis-detection
+– Communication with BT devices rewritten
+– Support for Bluetooth Sleep Mask from Happy Electronics
+– Fixes for SleepCloud upload/download from cloud
+– Fix for clickable location field in Google Calendar
+– Optimizing bandwidth on Calendar API
+– Fix Lullaby loading on Android 11
+– Lower threshold for ambient light tracking
+– Fix in a rare issue in noise recording finalization
+– Fix for not disabling activity recognition when estimates are turned off
+– Fix for accumulation of threads when using oximeters
+– More fixes in light graph
+– Fixes in light graph
+– Fix for showing sleep time estimates twice a day
+– Fix for not properly resetting sleep record duration after deleting awake
+– Fix for smart light behavior with delayed sleep tracking enabled
+– Fixes in the not before ideal sleep option
+– Fixes in Philips HUE support to make sure it is tuning off when sleep tracking starts
+– Fix for lost graph labels when deleting any selection
+– Fix for very rare ANR when alarm starts
+– Fix for a rare issue when Sonar was not used properly in case of disabled sleep noise recording
+– Fix for duplicate nap times in Shortcuts
+– Longer lullaby force stop times
+– Adding support for ChakaponDen 3rd party wearable support for Go2Sleep, Maxim Integration and Garmin
+– Experimental support for AmazMod Amazefit watchfaces for PACE, Startos or Verge
+– Fix in refund of CAPTCHA cheating wager
+– Big update in Farsi (Persian) texts and more new translations (Big thanks)
+
+== Version 20200606
 – Fix for long waiting times in noise playback in case of a slow SD card
 – Recording does not get paused because of lullaby if lullaby does not have a timeout
 – Fixes in keeping order in default ordered playlists, indicator of next song and order in playlist screen
