@@ -1,0 +1,14 @@
+---
+title: How to disable alarm before alarm time
+
+tags:
+- alarm
+---
+
+You can disable an alarm before the alarm time, if you wake up naturally before the alarm rings.
+
+. *From notification* - 1 hour before alarm time, the "Before alarm notification" appears in your notification bar; expand the notification and choose "Dismiss".
+
+. *From the tracking graph* - if you terminate the tracking, you can dismiss the alarm directly form the resulting graph.
+
+. *From main screen* - long press on the alarm card, and select "Skip next".
