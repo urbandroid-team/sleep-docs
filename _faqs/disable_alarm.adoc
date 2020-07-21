@@ -12,3 +12,5 @@ You can disable an alarm before the alarm time, if you wake up naturally before 
 . *From the tracking graph* - if you terminate the tracking, you can dismiss the alarm directly form the resulting graph.
 
 . *From main screen* - long press on the alarm card, and select "Skip next".
+
+NOTE: Any of these options won't have any influence on future alarms - if you have repeating alarm, the alarm will ring at the next scheduled time.
