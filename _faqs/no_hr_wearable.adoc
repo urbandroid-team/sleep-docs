@@ -21,7 +21,7 @@ Check your HR settings in the Mi Fit app.
 When the Mi Band is in *Sleep Assistant* HR mode in Mi Fit, it doesn’t feed the HR data to Mi Band Tools / Sleep as Android. When it is in regular HR tracking mode (24-hour), it works.
 
 - *Tools&MiBand* - Check if _Heart Rate Monitor_ is enabled in T&MB _Left_ ☰ _menu -> Heart Rate_ -> icon:ic_cog[] -> _Heart Rate monitor_
-- *Notify&Fitness* - Enable heart rate monitoring in N&F icon:ic_action_graph_3[] -> _Sleep -> Monitor heart_, and aslo in N&F icon:ic_action_graph_3[] -> _Sleep -> More options -> Sleep as Android -> Settings -> Heart monitor_
+- *Notify&Fitness* - Enable heart rate monitoring in N&F icon:ic_action_graph[] -> _Sleep -> Monitor heart_, and also in N&F icon:ic_action_graph[] -> _Sleep -> More options -> Sleep as Android -> Settings -> Heart monitor_
 
 .Wear OS
 - For older versions of Android (4 and lower) on your phone, you need to opt-in to our <</faq/get_beta#, Beta testing channel>>. Newer version no longer needs to be in Beta.
