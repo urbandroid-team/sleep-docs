@@ -20,7 +20,7 @@ _Settings -> Sleep noise recording_
 
 You can check whether the phone is recording on the sleep tracking screen - [color-red]#red ⬤# indicates that the phone is currently recording.
 
-On the seek bar to the right you can see current volume level and your _Recording voluem threshold_ which indicates volume to start recording.
+On the seek bar to the right you can see current volume level and your _Recording volume threshold_ which indicates volume to start recording.
 
 [[noise-recording-screen]]
 .Recording in progress
@@ -45,6 +45,30 @@ Anti-snoring:: Sets anti-snoring cues to make you stop snoring. See <</sleep/ant
 Noise statistics:: If enabled, you will be seeing noise level statistics under each sleep records. Cannot be disabled if _Record snoring, sleep talk_ is enabled.
 Storage path:: A path to your recordings saved on your device.
 Automatic delete:: If enabled, all unstarred recordings will be deleted after 7 days.
+
+== Guide
+
+=== How to play your recordings
+You can play your recordings from three places within the app.
+
+==== Play sound from Noise card on the main screen
+* You can find a selection of best noises from last tracking session directly on the main screen.
+
+image::noise_card.png[]
+
+* To replay the recording, tap on the Noise card.
+
+==== Play sound from Noise section in the Left ☰ menu
+
+* All your available recordings are stored in the _Left_ ☰ _menu -> Noise_.
+* You can filter snore / talk tagged files with the search bar.
+
+==== Play sound directly from the graph
+* A period on the graph with sound recording is marked with icon:ic_action_mic[] icon.
+* When you drag over the graph period with mic icon and select the period (it will be highlighted).
+* You can play the sound recorded at that time with icon:ic_action_play[] in the top right corner.
+
+image::play_from_graph.png[]
 
 
 //== How to…

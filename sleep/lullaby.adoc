@@ -81,6 +81,7 @@ Turn off when sleeping:: Controls the system-wide volume level and turns it grad
 NOTE: This feature only works when Sleep tracking is active.
  * Works with built-in lullabies and any sound player app or service.
  * You can set minimal time of playback (0-90 min).
+ * To disable this feature, set it to "Use current device volume".
 Volume:: Controls volume of lullabies.
 Sudden sounds volume:: Controls volume of sudden sounds (e.g. thunders, bubbles).
 Start automatically:: Initiates lullabies automatically when tracking starts.

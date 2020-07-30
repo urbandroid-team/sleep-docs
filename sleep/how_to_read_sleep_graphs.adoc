@@ -56,6 +56,11 @@ a|*Actigraph* shows the intensity of your nightly movements. The higher the peak
 |===
 a|.Hypnogram
 image::phase.png[]
+
+
+.Awake period
+image::awake_graph.png[]
+
 a|*The hypnogram* shows your <</sleep/sleep_tracking_theory#,sleep phases>> progress during the night, estimated from actigraphic data and other inputs (e.g. awake periods).
 
 - *Awake*: light green, the highest column reaching the top of the graph.
