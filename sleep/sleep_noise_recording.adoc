@@ -54,6 +54,8 @@ You can play your recordings from three places within the app.
 ==== Play sound from Noise card on the main screen
 * You can find a selection of best noises from last tracking session directly on the main screen.
 
+image::noise_card.png[]
+
 * To replay the recording, tap on the Noise card.
 
 ==== Play sound from Noise section in the Left ☰ menu
