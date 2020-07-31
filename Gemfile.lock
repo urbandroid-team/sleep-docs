@@ -45,6 +45,8 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     just-the-docs (0.2.5)
@@ -94,7 +96,8 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-feed (~> 0.6)
   jekyll-redirect-from
-  just-the-docs
+  jekyll-sitemap
+  just-the-docs (= 0.2.5)
   pry
   rb-readline
   tzinfo-data

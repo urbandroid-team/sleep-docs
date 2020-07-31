@@ -1,0 +1,17 @@
+---
+title: Duration is shorter, lenght is wrong
+
+tags:
+- tracking
+- actigraphy
+- graph
+---
+
+​The Sleep Duration is total sum of all your sleep phases (Light, REM, and Deep), not counting the awake phases - because when awake, you are actually not sleeping.
+​So on default settings, the Sleep duration is always a bit shorter than the duration of tracking.
+
+​If you wish your Sleep duration is the same as tracking duration:
+
+* Disable the awake detection in _Settings -> Sleep tracking -> Awake detection_.
+* You can also try to adjust the sensitivity of each type of settings to get optimal results. In most cases, too much awake periods are caused by significant HR peaks.
+* If you are not sure, where those awake periods come from, please use _Left_ ☰ _menu -> Report a bug_, and send us the application log.
