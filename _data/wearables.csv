@@ -8,12 +8,13 @@ Asus ZenWatch<br/>
 Huawei, Samsung, Polar but only Wear OS-based<br/>
 TicWatch (only versions with Play Services)<br/>
 … and many more …",YES (↝❤),↝❤,"15% without HR, 25% with HR tracking","Battery life on each device depends on the sensor batch queue size, which allows the app to keep the watch in standby most of the time and still collect all data."
+
 Xiaomi,"Mi Band 1 (except 1S)<br>
 Mi Band 2<br>
 Mi Band 3<br>
 Mi Band 4<br>
 Mi Band 5<br>
-",YES (↝),↝,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android.
+",YES (↝❤),↝❤,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android.
 
 Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
 Huami,"Amazfit (Amazfit Bip, Amazfit Bip S, Amazfit Arc, Amazfit Cor)",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"">Tools & Amazfit app</a> to get data from Amazfit to Sleep as Android. Also see <a href=""http://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"">T&A help</a>."

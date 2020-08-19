@@ -109,6 +109,7 @@ image::tracking-position/sonar.png[]
 ==== Using other devices
 You can also track sleep with additional devices like <</devices/sleep_phaser#, Sleep Phaser>> and <</devices/wearables#, wearables>>.
 
+
 === Sleep tracking screen
 
 <<sleep-tracking-screen-1>> shows common elements of the tracking screen
@@ -141,3 +142,23 @@ Sliding up the _Stop and Save_ slider will bring up further options show in <<sl
 [[sleep-tracking-screen-2]]
 .Sleep tracking screen elements
 image::sleep_tracking_screen_2.png[]
+
+=== Testing sensors
+You can test sensor function - we recommend testing it especially when using sonar, to make sure sonar is supported on your device.
+You should see a green graph, reacting to your movement.
+
+[[test-sensor-accel]]
+.Test sensor screen for accelerometer
+image::accel_test.png[]
+
+For sonar sensor, you see either "Sonar is supported" message (Fig. 6), which means you can use Sonar. In the middle of the screen, you can see the strength of the signal - the higher number, the better signal.
+
+[[test-sensor-sonar-ok]]
+.Test sensor screens for sonar
+image::sonar_test.png[]
+
+Or you see "Sonar not supported" message (Fig. 7), which means sonic signal is not reliable or too weak for proper tracking. Sonar signal depends on the quality of speaker and mic, and on the way system treats sound stream - when system for example adds an enhancing filter, the sonar signal can be distorted.
+
+[[test-sensor-sonar-fail]]
+.Test sensor - sonar not supported
+image::sonar_test_fail.png[]
