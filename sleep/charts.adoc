@@ -273,6 +273,8 @@ a|image:charts/tags/awake.png[]
 === Chronotype
 Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark. <</sleep/chrono_jetlag#chronotype,Read more on Chronotype>>.
 
+NOTE: Chronotype statistics need least a month of sleep data.
+
 ==== Mid-sleep hour
 [cols="1,2"]
 |===
