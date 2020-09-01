@@ -10,7 +10,8 @@ tags:
 
 
 ## What it does
-.Testing sensor gives you confirmation the wearable is connected properly, and the companion app is sending data about your movement
+*Testing sensor gives you confirmation the wearable is connected properly, and the companion app is sending data about your movement.*
+
 
 ## Where to find it
 _Settings -> Wearables -> Test sensor_

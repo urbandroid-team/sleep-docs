@@ -7,7 +7,22 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20200804
+== Latest version 20200828
+– Brand new CAPTCHA cheating protection:
+* to make working make sure to grant the app permission to ‘Draw over other apps’
+* This feature won’t let you out of the alarm screen without completing CAPTCHA
+* If you are using the CAPCTHA pack with additional CAPCTHA’s please make sure to update first it
+– Workaround for Automatic sleep tracking not starting recording or Sonar on Android 11, more details at
+https://issuetracker.google.com/issues/162913367
+– Fix for keeping alarm states when swiping from recents
+– Fix for properly handling week start days (Settings > Personalization) in bi-weekly alarms
+– Fix for issue to purchase CAPTCHA anti-cheating motivation wager
+– Support for your own Wearable integrations through Tasker or Automate
+– Fix for HR not showing for some stable HR value periods
+– new in-app review API integration
+– new like this app dialog
+
+== 20200804
 – Fix for automatic sleep tracking issues because of too sensitive activity recognition
 – Fix for white theme to use light navbar
 – Sunrise effect using screen-backlight is now default on the alarm screen (turn off in Settings > Alarms > Alarm screen)
