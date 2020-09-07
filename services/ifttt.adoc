@@ -45,7 +45,7 @@ time_to_bed_alarm_alert:: Fires when you get a bedtime notification
 alarm_alert_start:: Fires when alarm starts.
 We are sending the following IFTTT variables:
 * Value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* Value2: alarm label, example: "label"
+* Value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set)
 rem:: Fires when we estimate the start of REM phase
 antisnoring:: Fires when we detect snoring
