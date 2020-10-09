@@ -104,6 +104,7 @@ If you cheat the Captcha, the wager is lost.
 
 ==== Force stop and uninstall protection
 This advanced option grants the app admin privileges to prevent uninstalling the app.
+Admin privileges also prevent the system from clearing the app's data.
 
-NOTE: To uninstall the app, you need to revoke this option!
+NOTE: To uninstall the app or to clear the app's data, you need to revoke this option!
 
