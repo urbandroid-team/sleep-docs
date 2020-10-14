@@ -75,14 +75,12 @@ The QR and NFC CAPTCHAs are the ultimate solution for waking up. You can place a
 
 [horizontal]
 QR CAPTCHA:: You can use any barcode or QR code (there are many free online QR code generators).
-WARNING: The option Power off protection cannot be used with 3rd party scanning apps
+WARNING: The option Power off protection and Force stop protection cannot be used with 3rd party scanning apps
 NFC CAPTCHA:: You can use any credit card, some membership cards or ID cards.
 NOTE: For security reasons, NFC Captcha requires unlocking the screen first
 Only at home:: Allows you to skip CAPTCHA when not at home.
 NOTE: Your location must be significantly different from your home (at least 2.5 km), as the app does not collect fine location information
 Must scan all codes:: You need to scan all saved codes.
-
-supported QR apps are Barcode Scanner, QRDroid, Google Goggles
 
 [horizontal]
 Learn new QR code / NFC tag::
@@ -94,13 +92,11 @@ Delete a QR code / NFC tag::
 
 === CAPTCHA cheating protection
 [[Cheat]]
-There are three ways of protecting the alarm from your devious morning self:
+There are three ways of protecting the alarm from your devious morning self, Power off protection, Wakeup motivation, and Force stop and uninstall protection.
+NOTE: Power off protection and Force stop and uninstall protection will overlay the screen, preventing you to cheat the tasks. You cannot use 3rd party scanners (for QR Captcha) with these option.
 
 ==== Power off protection
 Power off protections hides power-off dialogue, so you cannot restart the device or turn it off.
-
-
-NOTE: Power off protection will overlay the screen, preventing you to cheat the tasks. You cannot use 3rd party scanners (for QR Captcha) with this option.
 
 ==== Wakeup motivation
 This option allows you to set a small wager on not cheating the Captcha. This will boost your motivation to wake up!
