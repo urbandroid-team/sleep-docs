@@ -168,7 +168,7 @@ The data are expected to be expressed in number of heart beats per minute. It is
 
 === Send SpO2 data
 
-* Intent: `com.urbandroid.sleep.watch.ACTION_EXTRA_DATA_UPDATE`
+* Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
 * Extra:
 ** *com.urbandroid.sleep.EXTRA_DATA_SPO2* (Float): Current SpO2 value
 
