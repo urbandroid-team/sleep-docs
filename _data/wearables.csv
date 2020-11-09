@@ -26,7 +26,7 @@ Samsung,"Gear 1,2,2 Neo, S, S2",YES (↝❤),↝❤,15-20% at best,"You need to 
 Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
 Samsung,"Gear Fit 2, Gear Fit 2 Pro",YES (↝❤),↝❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
 Read more at <a href=""http://bit.ly/sleepgearfit2"">Sleep loves Gear Fit 2</a>"
-Samsung,"Gear Fit 1, Galaxy Fit",NO,,,RTOS does not have open API for integration
+Samsung,"Gear Fit 1, Gear Fit 2, Galaxy Fit, Galaxy Fit e",NO,,,RTOS does not have open API for integration
 Garmin,"ConnectIQ devices<br> (<a href=""https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml"">supported watches</a>)",YES (↝❤),↝❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
