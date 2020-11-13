@@ -7,20 +7,20 @@ parent: /services/0parent.html
 ---
 :toc:
 
-## What it does
+== What it does
 Tasker and Automate are automation tools for Android.
 // Sleep as Android by default includes a plugin for both Tasker and Automate.
 
 After setup, you can react to *events* that happen in Sleep as Android (such as _alarm was dismissed_), and you can call *actions* (such as _start sleep tracking_).
 
-## Where to find it
-*Sleep as Android > Settings > Services > Tasker*
+== Where to find it
+*Sleep as Android -> Settings -> Services -> Automation -> Tasker*
 
 You need to have either https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm[Tasker] or https://play.google.com/store/apps/details?id=com.llamalab.automate[Automate] installed.
 
-## Guide
+== Guide
 
-This page offers a guide for Tasker. Automate has a little different interface but the concepts are the same.
+This page offers a guide for Tasker.Automate has a little different interface but the concepts are the same.
 
 [NOTE]
 ====
@@ -29,7 +29,7 @@ This page offers a guide for Tasker. Automate has a little different interface b
 <<automate_walkthroughs,Take a look at Automate walkthroughs>>
 ====
 
-### Events
+=== Events
 
 To react to an event in Sleep as Android, do the following:
 
@@ -57,7 +57,7 @@ Audio recognition:: Sleep as Android has detected one of the supported sounds: s
 Anti-Snoring:: Sleep as Android has detected snoring and executed an anti-snoring action (vibration or tongue click or both). Anti-snoring has to be active for this event to work.
 Smart period:: fires 45 minutes before smart period starts (to gather data for the smart period)
 
-### Actions
+=== Actions
 To triger an action in Sleep as Android, do the following:
 
 . Start Tasker
@@ -66,7 +66,7 @@ To triger an action in Sleep as Android, do the following:
 . Tap (+) button > Plugin > Sleep > Configuration (pencil) > [your chosen task]
 . Go back
 
-You can use any events on your phone and trigger Sleep as Android's actions with them. Sleep provides these actions:
+You can use any events on your phone and trigger Sleep as Android's actions with them.Sleep provides these actions:
 
 [horizontal]
 Start sleep tracking:: ...
@@ -80,5 +80,3 @@ Sleep tracking: ideal sleep time:: to create a new alarm for an ideal sleep time
 
 NOTE: You can also add new alarm with System > Set Alarm action.
 
-// ## Troubleshooting
-// TODO: links to FAQ should be rendered here

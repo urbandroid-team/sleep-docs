@@ -6,19 +6,18 @@ parent: /services/0parent.html
 ---
 :toc:
 
-## What it does
+== What it does
 *Allows you to POST events from Sleep as Android to a custom URL endpoint.*
 
-## Where to find it
-_Settings -> Services -> Webhooks_
+== Where to find it
+_Settings -> Services -> Automation -> Webhooks_
 
-## Guide
+== Guide
 
 === Setup
-1. Tap on the _Webhooks_ option and fill in the URL of your server/application, including _http://_ or _https://_ .
-2. Tap ok. It's done!
-
-NOTE: To disable the service, clear the URL.
+. Enable the _Webhooks_ option
+. Tap the URL option and fill in the URL of your server/application, including _http://_ or _https://_ .
+. Tap ok. It's done!
 
 === Format of the POST request
 On every event, Sleep as Android will POST a request with a JSON body in the following format:
@@ -32,22 +31,4 @@ On every event, Sleep as Android will POST a request with a JSON body in the fol
 }
 ....
 
-The `event` field will have a value of one of the event names listed below. The `valueX` fields will be only present if not empty.
-
-
-=== Events that will Sleep as Android post to your endpoint
-[horizontal]
-sleep_tracking_started:: ...
-sleep_tracking_stopped:: ...
-sleep_tracking_paused:: ...
-sleep_tracking_resumed:: ...
-alarm_snooze_clicked:: ...
-time_to_bed_alarm_alert:: Fires when you get a bedtime notification
-alarm_alert_start:: Fires when alarm starts.
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set)
-rem:: Fires when we estimate the start of REM phase
-antisnoring:: Fires when we detect snoring
-smart_period:: Fires 45 minutes before the smart wakeup period starts
+The `event` field will have a value of one of the <</services/automation#events,event names>>. The `valueX` fields will be only present if not empty.

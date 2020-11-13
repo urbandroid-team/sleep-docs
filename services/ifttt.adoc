@@ -6,17 +6,17 @@ parent: /services/0parent.html
 ---
 :toc:
 
-## What it does
+== What it does
 *Allows you to use Sleep as Android as a trigger for IFTTT tasks.*
 
 We use the link:https://ifttt.com/maker_webhooks[IFTTT Webhooks (formerly Maker)] channel to send triggers/events from Sleep as Android.
 
-## Where to find it
-_Settings -> Services -> IFTTT_
+== Where to find it
+_Settings -> Services -> Automation -> IFTTT_
 
 When you enable the option, you will be taken to its settings.
 
-## Guide
+== Guide
 
 === Setup
 1. In _Settings -> Services -> IFTTT_, tap on _Retrieve_. An IFTTT login screen will show up below.
@@ -35,21 +35,7 @@ NOTE: In _+THAT_, you can also add variables (or "ingredients" as IFTTT calls th
 
 
 === Events that Sleep as Android posts to IFTTT
-[horizontal]
-sleep_tracking_started:: ...
-sleep_tracking_stopped:: ...
-sleep_tracking_paused:: ...
-sleep_tracking_resumed:: ...
-alarm_snooze_clicked:: ...
-time_to_bed_alarm_alert:: Fires when you get a bedtime notification
-alarm_alert_start:: Fires when alarm starts.
-We are sending the following IFTTT variables:
-* Value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* Value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set)
-rem:: Fires when we estimate the start of REM phase
-antisnoring:: Fires when we detect snoring
-smart_period:: Fires 45 minutes before the smart wakeup period starts
+<</services/automation#events,See here>>.
 
 === Example recipes
 - https://ifttt.com/recipes/405744-sleep-as-android-turn-off-all-philips-hue-lights-when-starting-sleep-tracking[Turn off Philips Hue when sleep tracking starts]

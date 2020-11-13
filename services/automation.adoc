@@ -1,0 +1,53 @@
+---
+layout: default
+title: Automation
+redirect_from:
+- /automation/
+no_troubleshooting: true
+nav_order: 1
+parent: /services/0parent.html
+---
+
+- <</services/ifttt#,IFTTT>>
+- <</services/mqtt#,MQTT>>
+- <</services/custom_webhooks#,Custom webhooks>>
+- <</services/tasker_automate#,Tasker or Tasker-compatible apps like Automate>>
+- <</devs/intent_api#,Intent API>>
+
+Sleep as Android can be used to automate your smart devices or other applications through
+
+== Events
+The events that will be sent to each automation service can be toggled in _Settings -> Services -> Automation -> Events_.
+
+The events are:
+
+[horizontal]
+sleep_tracking_started:: ...
+sleep_tracking_stopped:: ...
+sleep_tracking_paused:: ...
+sleep_tracking_resumed:: ...
+alarm_snooze_clicked:: You have snoozed a ringing alarm.
+alarm_snooze_canceled:: You have a canceled an alarm that is currently snoozed.
+time_to_bed_alarm_alert:: Fires when you get a bedtime notification.
+alarm_alert_start:: Fires when alarm starts.
+We are sending the following values:
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
+alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set).
+alarm_skip_next:: Fires when you tap dismiss an alarm from notification before it actually rings.
+rem:: Fires when we estimate the start of REM phase.
+smart_period:: Fires 45 minutes before the smart wakeup period starts.
+lullaby_start:: Fires when lullaby starts playing.
+lullaby_stop:: Fires when lullaby is stopped (either manually or automatically).
+lullaby_volume_down:: Fires when we detect you fell asleep and starting lowering the volume of lullabies.
+deep_sleep:: Fires when we detect you going into deep sleep phase. Warning: This may result in lots of events during the night and may not exactly fit the resulting sleep graph as we can only detect phases reliably from whole-night data.
+light_sleep:: Fires when we detect you going into light sleep phase. Warning: This may result in lots of events during the night and may not exactly fit the resulting sleep graph as we can only detect phases reliably from whole-night data.
+awake:: Fires when we detect you woke up.
+not_awake:: Fires when we detect you fell asleep.
+apnea_alarm:: Fires when we detect a significant dip in your oxygen levels.
+antisnoring:: Fires when antisnoring is triggered.
+sound_event_snore:: Fires when we detect snoring.
+sound_event_talk:: Fires when we detect talking.
+sound_event_cough:: Fires when we detect coughing.
+sound_event_baby:: Fires when we detect baby cry.
+sound_event_laugh:: Fires when we detect laughter.
