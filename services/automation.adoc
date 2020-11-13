@@ -8,15 +8,57 @@ nav_order: 1
 parent: /services/0parent.html
 ---
 
+== What it does
+
+Sleep as Android can be used to automate your smart devices or other applications through various services:
+
 - <</services/ifttt#,IFTTT>>
 - <</services/mqtt#,MQTT>>
 - <</services/custom_webhooks#,Custom webhooks>>
 - <</services/tasker_automate#,Tasker or Tasker-compatible apps like Automate>>
 - <</devs/intent_api#,Intent API>>
 
-Sleep as Android can be used to automate your smart devices or other applications through
+== Where to find it
 
-== Events
+_Settings -> Services -> Automation_
+
+== Options
+
+[horizontal]
+Events:: Set events that will be sent from Sleep as Android to each automation service.
+- <<events, More details>>
+
+.Tasker
+[horizontal]
+Tasker:: Enable or disable Tasker integration.
+- <</services/tasker_automate#, More details>>
+
+.IFTTT
+[horizontal]
+IFTTT:: Enable or disable IFTTT integration.
+- <</services/ifttt#, More details>>
+
+.Webhooks
+[horizontal]
+Webhooks:: Enable or disable custom webhooks integration.
+- <</services/custom_webhooks#, More details>>
+URL:: Set URL of your custom webhooks endpoint.
+
+.MQTT
+[horizontal]
+MQTT:: Enable or disable MQTT integration.
+- <</services/mqtt#, More details>>
+URL:: Set URL of your MQTT broker.
+Client ID:: Set client ID under which Sleep as Android will connect to the MQTT broker. Warning: You cannot have multiple devices connecting under the same Client ID to the same broker. Default: "SleepAsAndroid"
+
+.Intent API
+[horizontal]
+Intent API:: Enable or disable intent API.
+- <</devs/intent_api#, More details>>
+
+== Guide
+
+=== Events
 The events that will be sent to each automation service can be toggled in _Settings -> Services -> Automation -> Events_.
 
 The events are:
