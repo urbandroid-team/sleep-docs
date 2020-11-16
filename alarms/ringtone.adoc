@@ -30,8 +30,6 @@ NOTE: In the morning, Sleep turns on the Wifi automatically and waits for 30 sec
 +
 
 Spotify playlist:: You can add your saved albums or playlists from Spotify’s _Your Library > Albums / Playlists_
-Other playlists (including <</faqs/google_play_music#,Google Play Music>> playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
-File-based playlists:: You can use any file-based playlist (.m3u, .pls) you have on your phone.
 
 //#TODO: really?#
 
