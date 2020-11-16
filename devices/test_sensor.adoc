@@ -8,7 +8,6 @@ tags:
 - tracking
 ---
 
-
 ## What it does
 *Testing sensor gives you confirmation the wearable is connected properly, and the companion app is sending data about your movement.*
 
