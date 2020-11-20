@@ -46,7 +46,7 @@ How to create your own playlist::
 * See a video guide
 
 +
-video::-3sDr9EnzTFHY4[youtube]
+video::Dr9EnzTFHY4[youtube]
 +
 
 How to add my own song, sound file::
@@ -56,5 +56,6 @@ How to add my own song, sound file::
 * See a video guide
 
 +
-video::-3sTWXKkFV2zS4[youtube]
+video::TWXKkFV2zS4[youtube]
 +
+
