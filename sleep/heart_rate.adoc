@@ -17,12 +17,23 @@ If you have a compatible heart rate sensor, you can use it to:
 
 . Gather your heart rate during the night and show it on your sleep graph
 . Have much more precise awake detection
+. If your wearable supports heart rate variability data collection, you will see HRV on your sleep graph too (read https://sleep.urbandroid.org/hrv-tracking/[more about heart rate variability here])
 
-See and example of a heart-rate enabled track in <<graph-hr>>
+See and example of a heart-rate enabled track in <<graph-hr>> and heart rate variability graph in <<graph-hrv>>.
 
-[[graph-hr]]
+
+
+[cols="^,^"]
+|===
+a|[[graph-hr]]
 .Graph with heart rate tracking
 image::graph_hr.png[]
+
+a|[[graph-hrv]]
+.Graph with heart rate and heart rate variability
+image::graph_hrv2.png[]
+
+|===
 
 
 == Where to find it
@@ -36,6 +47,7 @@ Enable HR monitoring for devices that support direct HR over BLE (Bluetooth Low 
   This regards all other devices that have a HR sensor (such as Polar H7) and may or may not work with your device.
 NOTE: Do not use this option for HR monitoring with compatible smartwatches such as Pebble, Mi Band, Amazefit, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy...
 Enable HR monitoring for a supported oximeter:: If you have an <</devices/oximeter#,oximeter>> connected in _Sleep -> Settings -> Wearables -> Pulse Oximeter_, heart rate will be detected by default.
+Enable HRV monitoring:: If your wearable supports HRV data collection, it will be enabled automatically with HR monitoring.
 Enable awake detection using heart rate data::
   _Settings -> Sleep tracking -> Awake detection -> Heart rate monitoring_
 

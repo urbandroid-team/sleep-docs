@@ -94,6 +94,9 @@ When <</sleep/sound_recognition#,sound recognition>> is enabled, sounds (cry, la
 a|.Oxygen level (Oximeter) + heart rate
 image::hrbr.png[]
 
+.Heart rate + heart rate variability
+image::hrv.png[]
+
 .Light level + heart rate
 image::light.png[]
 
@@ -102,6 +105,7 @@ image::sonar_breath_rate.png[]
 
 a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>)
 - *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</sleep/heart_rate#,heart rate monitoring>>).
+- *Violet line* = heart rate variability. Dots with numbers represent local maximum and minimum (read more about https://sleep.urbandroid.org/hrv-tracking/[heart rate variablity]).
 - *Orange line* = light in your room in LUX units (read more about <</sleep/light_level#,light awake detection>>).
 - *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>).
 - *Dashed line* = smart period prior to alarm time (read more about <</alarms/smart_wake_up#,Smart wake up>>).
