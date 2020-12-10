@@ -69,13 +69,24 @@ sleep_tracking_stopped:: ...
 sleep_tracking_paused:: ...
 sleep_tracking_resumed:: ...
 alarm_snooze_clicked:: You have snoozed a ringing alarm.
+We are sending the following values:
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 alarm_snooze_canceled:: You have a canceled an alarm that is currently snoozed.
+We are sending the following values:
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 time_to_bed_alarm_alert:: Fires when you get a bedtime notification.
+We are sending the following values:
+* value1: UNIX timestamp of the alarm start time (the alarm which triggered the bedtime notification, based on your <</sleep/ideal_daily_sleep#,ideal daily sleep income>>), example: "1582719660934"
 alarm_alert_start:: Fires when alarm starts.
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set).
+We are sending the following values:
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 alarm_skip_next:: Fires when you tap dismiss an alarm from notification before it actually rings.
 rem:: Fires when we estimate the start of REM phase.
 smart_period:: Fires 45 minutes before the smart wakeup period starts.
