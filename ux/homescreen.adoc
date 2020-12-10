@@ -35,11 +35,15 @@ Are you working on an active Goal? Just pin it to always see your latest progres
 [horizontal]
 Alarm card:: Shows you the first next active alarm.
 * You can see the alarm time and day of the week, when the very next alarm is scheduled at first glance:
-image:alarm_card_next_new.png[width=50%]
+image:alarm_card_next_new.png[width=80%]
 * Simple tapping on alarm time opens dialogue for changing the alarm time.
 * Tapping on icon:ic_alarm_plus[] opens the dialogue for creating a new alarm.
 * Tapping on any other place of the card opens <<alarm_list,list of all alarms>>
 * Alarm card has also a special function - you can skip next alarm (or cancel skipping the alarm), edit alarm or delete alarm directly from this card by long pressing on it.
+Bedtime / alarm card:: Shows either time left to your bedtime, or time left to the alarm time.
+* If the current time is before the bedtime (and the bedtime is closer than 4 hours), the bedtime card will show you time left till the bedtime.
+* If the current time is after the bedtime, the card shows the time left till the alarm.
+image:bedtime_card.png[]
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
 * Tapping this card plays the set of noises.
