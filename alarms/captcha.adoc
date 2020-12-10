@@ -93,6 +93,8 @@ Delete a QR code / NFC tag::
 === CAPTCHA cheating protection
 [[Cheat]]
 There are three ways of protecting the alarm from your devious morning self, Power off protection, Wakeup motivation, and Force stop and uninstall protection.
+
+
 NOTE: Power off protection and Force stop and uninstall protection will overlay the screen, preventing you to cheat the tasks. You cannot use 3rd party scanners (for QR Captcha) with these option.
 
 ==== Power off protection

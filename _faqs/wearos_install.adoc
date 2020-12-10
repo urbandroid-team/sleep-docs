@@ -22,3 +22,6 @@ How to get there:
 
 . Now, you can enable the connection in _Settings -> Wearables -> Use wearable -> Wear OS_.
 . Test the connection in Settings -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
+
+If you don't see the companion app listed om the Apps on your phone, the Play Store app on the watch is not fully synced - you can try clearing the Cache of the Play Store app on both devices and try again.
+If nothing helps, please contact support@urbandroid.org for help.
