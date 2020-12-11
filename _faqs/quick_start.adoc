@@ -13,21 +13,44 @@ You can delve deep into all the amazing options Sleep as Android provides later 
 . Use the top right plus icon to set up your <</alarms/0parent#, Alarm>> time (e.g. 8:00). Tap the desired time directly on the clock - hours first, minutes second.
 
 +
-image::quick_alarm_1.png[]
+[cols="^,^,^"]
+|===
+a|.Tap on the (+) icon
+image::create_alarm_1.png[width=80%]
+
+a|.Tap on the desired time - hours first
+image::create_alarm_2.png[width=80%]
+
+a|.Tap on the desired time - minutes second
+image::create_alarm_3.png[width=80%]
+
+|===
 +
 
 . Confirm the selected time with SET button, it will show you the new alarm settings. Confirm the alarm with DONE.
 
 +
-image::quick_alarm_2.png[]
+[cols="^,^,^"]
+|===
+a|.Confirm the time with SET button.
+image::create_alarm_4.png[width=80%]
+
+a|.Now you see the new alarm's settings.
+image::create_alarm_5.png[width=80%]
+
+a|.Confirm with DONE
+image::create_alarm_6.png[width=80%]
+
+|===
 +
+
 
 . <</sleep/smart_wake_up#, Smart wake up>> makes sure to find the best time for your wake up between 7:30 – 8:00 based on your sleep cycle.
 . You can now see the alarm scheduled on the main screen.
 . Tap the moon and <</sleep/sleep_tracking#, Sleep tracking>> starts, we use your phone’s sensor to find out what sleep phase you are in (see <</sleep/sleep_tracking_theory#, How it works>>).
 
 +
-image::quick_alarm_3.png[]
+image::create_alarm_9.png[]
 +
 
 

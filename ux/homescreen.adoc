@@ -44,6 +44,7 @@ Bedtime / alarm card:: Shows either time left to your bedtime, or time left to t
 * If the current time is before the bedtime (and the bedtime is closer than 4 hours), the bedtime card will show you time left till the bedtime.
 * If the current time is after the bedtime, the card shows the time left till the alarm.
 image:bedtime_card.png[]
+
 News card:: Temporary card shown only during important events or with a crucial message.
 Best of noises card:: Shows you the selection of the best sounds recorded last night.
 * Tapping this card plays the set of noises.
