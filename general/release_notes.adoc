@@ -7,7 +7,31 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20201010
+== Latest version 20201217
+– Support for sleep phases and current awake times with new version of Google Fit!
+– HRV tracking: See how well does sleep rest your body (supported on: Stresslocator oximeters, Polar OH1 and H10, Some Wear OS devices) more at https://sleep.urbandroid.org/hrv-tracking/
+– New Automation dashboard in Settings > Services
+* Automation event filter (choose only required events)
+* NEW MQTT service (in addition to IFTTT, Tasker, Webhooks and Intents)
+– Quick setting tile: double tap to start sleep tracking in battery saving mode, long press to access alarms
+– Fixes for distorted lullaby playback and binaural beats not stopping
+– Clean up job of junk app files produced by a bug in Android webview, shrinks the app storage size
+– Storage size debugging in crash reports
+– Option to delete all not tagged noise records
+– Fixes in Tradfri and Hue smartlight integration
+– Lower max color temperature for smartlight sunrise wake up
+– WiFi turn off button on Android R leads to settings page (no more WiFi control from app)
+– Experimental options under Settings > Noise recording > Input / Output to debug new recording quality issues on 1+
+– Fixes for overlapping segments in Google Fit sync
+– Fix wrong Google Fit record duration – sync is needed to correct Google Fit records
+– Fix for requiring fine location with Polar wearables for sleep tracking
+– Changes in how we recognize premium version though in-app purchases (please report any issues)
+– Fix for playlist mode “loop single” which always played the first song
+– Fix for duplicate Google Calendar Sleep events (old duplicate events must be cleaned manually)
+– Updates in Spanish, German, French, Chinese (HK).. big thanks to our contributors!
+
+== 20201010
+
 – Fix in using fallback OGG recording as default, so now MediaCodec M4A should be default again resulting in lower battery consumption
 – Fixes in battery consumption when syncing starred noises to media library but there are errors
 – Experimental support for SPO2 tracking on TicWatch Pro 3 and maybe few other Wear OS watches
