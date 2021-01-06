@@ -5,6 +5,12 @@ nav_order: 2
 parent: /devices/0parent.html
 no_troubleshooting: true
 has_children: true
+tags:
+  - fitbit
+  - samsung
+  - xiaomi
+  - mi band
+  - garmin
 ---
 :toc:
 
