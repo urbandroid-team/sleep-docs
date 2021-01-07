@@ -16,8 +16,40 @@ Luckily, both companion apps allow vibration customization in the pro versions.
 . In Mi Band Tools app: _Left_ ☰ _menu -> Settings -> Sleep as Android -> Custom vibration_ adjust the vibrations. You can set vibration count and length, and delay between vibrations.
 . Test the resulting vibration pattern with _Test vibration_.
 
+
++
+[cols="^,^,^"]
+|===
+a|.From the Left ☰ menu, choose _Settings_.
+image::TMB_vibr_1.png[width=80%]
+
+a|.Find _Sleep as Android_ section.
+image::TMB_vibr_2.png[width=80%]
+
+a|.Find _Custom vibration_.
+image::TMB_vibr_3.png[width=80%]
+
+|===
++
+
+
 == Notify & Fitness
 . Enable custom vibrations in Sleep as Android settings section.
 . Open the vibration settings with the _Vibration_ button.
 . Adjust the vibration pattern - you can change intensity and duration, and also vibration delay.
 . Test the resulting vibration pattern with the Play button in the top right corner.
+
++
+[cols="^,^,^"]
+|===
+a|.Swith to the graph tab and tap on the cog icon.
+image::NF_vibr_1.png[width=80%]
+
+a|.Open _Settings_ for Sleep as Android integration.
+image::NF_vibr_2.png[width=80%]
+
+a|.Find _Custom vibration_.
+image::NF_vibr_3.png[width=80%]
+
+|===
++
