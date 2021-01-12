@@ -88,8 +88,14 @@ We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 alarm_skip_next:: Fires when you tap dismiss an alarm from notification before it actually rings.
+We are sending the following values:
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 rem:: Fires when we estimate the start of REM phase.
 smart_period:: Fires 45 minutes before the smart wakeup period starts.
+We are sending the following values:
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 lullaby_start:: Fires when lullaby starts playing.
 lullaby_stop:: Fires when lullaby is stopped (either manually or automatically).
 lullaby_volume_down:: Fires when we detect you fell asleep and starting lowering the volume of lullabies.
