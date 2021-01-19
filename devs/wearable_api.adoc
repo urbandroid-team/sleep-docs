@@ -166,23 +166,23 @@ Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a 
 
 The data are expected to be expressed in number of heart beats per minute. It is not necessary to sample these data so frequently as movement data. Once every few minutes is perfectly fine.
 
-=== Send various body sensor data - HR, RR, SPO2, SDDN
+=== Send various body sensors data - HR, RR, SPO2, SDDN
 
 * Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
-This is a generic intent intent to carry data from various sensors.
-The data can be sent as a single float value or as an array of floats.
+This is a generic intent to carry data from various sensors.
+The data can be sent as a single value or as an array.
 
 * Extras:
 
-** *Data type marker.* Presence of a particular marker determines what are carried.
-   If only a single value is sent, it is stored directly in this extra.
-   Four markers are supported at the moment:
-*** com.urbandroid.sleep.EXTRA_DATA_HR - heart rate. The frequency does not need to be high, once every few minutes is fine.
-*** com.urbandroid.sleep.EXTRA_DATA_RR - R-R intervals - intervals between consecutive heart beats. This data need to be reliable. Every R-R interval should be sent.
-*** com.urbandroid.sleep.EXTRA_DATA_SPO2 - blood oxygenation measure. High frequency (every few seconds) is required.
+** *Data type marker.* Presence of a particular marker determines what kind of data is carried.
+   If only a single value is sent, it is stored directly in this extra. For an array, see later.
+   One of the following markers must be present:
+*** com.urbandroid.sleep.EXTRA_DATA_HR - heart rate. The frequency does not need to be high, once a minute is fine.
+*** com.urbandroid.sleep.EXTRA_DATA_RR - R-R intervals - i.e. time intervals between consecutive heart beats. This data need to be reliable. Every R-R interval should be sent.
+*** com.urbandroid.sleep.EXTRA_DATA_SPO2 - blood oxygenation measure. High frequency (every few seconds) is expected.
 *** com.urbandroid.sleep.EXTRA_DATA_SDDN - short-term heart rate variability. Typically once every few minutes.
 
-The further extras depend on whether a single value is sent or an array.
+* The further extras depend on whether a single value or an array is sent.
 
 ** *Sinle value case*
 **** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP - optional. The time of the measurement. Long - unix timestamp.
