@@ -196,7 +196,8 @@ The data can be sent as a single value or as an array.
 ** *Array case*
 *** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the last measurement.
     Long - unix timestamp in millis.
-*** `com.urbandroid.sleep.EXTRA_DATA_FRAMERATE` - optional. Long, millis. The default is 1000 (i.e. 1 second)
+*** `com.urbandroid.sleep.EXTRA_DATA_FRAMERATE` - optional. Long, millis.
+    The default is 1000 (i.e. 1 second)
 *** `com.urbandroid.sleep.EXTRA_DATA_BATCH` - the data - float array.
 
 * *Single value extras example:*
