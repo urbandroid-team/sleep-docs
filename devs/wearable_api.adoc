@@ -166,13 +166,32 @@ Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a 
 
 The data are expected to be expressed in number of heart beats per minute. It is not necessary to sample these data so frequently as movement data. Once every few minutes is perfectly fine.
 
-=== Send SpO2 data
+=== Send various body sensor data - HR, RR, SPO2, SDDN
 
 * Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
-* Extra:
-** *com.urbandroid.sleep.EXTRA_DATA_SPO2* (Float): Current SpO2 value
+This is a generic intent intent to carry data from various sensors.
+The data can be sent as a single float value or as an array of floats.
 
-The data should a one float number, current SpO2 value, sent every 1 second.
+* Extras:
+** *Data type marker.* Presence of a particular marker determines what are carried.
+   If only a single value is sent, it is stored directly in this extra.
+   Four markers are supported at the moment:
+*** com.urbandroid.sleep.EXTRA_DATA_HR - heart rate
+*** com.urbandroid.sleep.EXTRA_DATA_RR - R-R intervals - intervals between consecutive heart beats
+*** com.urbandroid.sleep.EXTRA_DATA_SPO2 - blood oxygenation measure
+*** com.urbandroid.sleep.EXTRA_DATA_SDDN - short-term heart rate variability
+
+
+
+
+
+
+
+
+
+
+
+
 
 === Pause from watch
 
