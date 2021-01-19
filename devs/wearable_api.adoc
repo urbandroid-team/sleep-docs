@@ -171,10 +171,15 @@ The data are expected to be expressed in number of heart beats per minute. It is
 * Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
 This is a generic intent to carry data from various sensors.
 The data can be sent as a single value or as an array.
+ +
+ +
 +
 +
-+
-* Extras:
+x+
+x+
+x +
+x +
+* Extrass:
 
 ** *Data type marker.* Presence of a particular marker determines what kind of data is carried.
    If only a single value is sent, it is stored directly in this extra. For an array, see later.
