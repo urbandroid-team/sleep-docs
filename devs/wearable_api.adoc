@@ -172,6 +172,7 @@ The data are expected to be expressed in number of heart beats per minute. It is
 This is a generic intent to carry data from various sensors.
 The data can be sent as a single value or as an array.
  +
+
  +
 * Extras:
 
