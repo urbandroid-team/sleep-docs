@@ -171,18 +171,19 @@ The data are expected to be expressed in number of heart beats per minute. It is
 * Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
 This is a generic intent to carry data from various sensors.
 The data can be sent as a single value or as an array.
- +
 
- +
 * Extras:
-
 ** *Data type marker.* Presence of a particular marker determines what kind of data is carried.
    If only a single value is sent, it is stored directly in this extra. For an array, see later.
    One of the following markers must be present:
-*** com.urbandroid.sleep.EXTRA_DATA_HR - heart rate. The frequency does not need to be high, once a minute is fine.
-*** com.urbandroid.sleep.EXTRA_DATA_RR - R-R intervals - i.e. time intervals between consecutive heart beats. This data need to be reliable. Every R-R interval should be sent.
-*** com.urbandroid.sleep.EXTRA_DATA_SPO2 - blood oxygenation measure. High frequency (every few seconds) is expected.
-*** com.urbandroid.sleep.EXTRA_DATA_SDDN - short-term heart rate variability. Typically once every few minutes.
+*** com.urbandroid.sleep.EXTRA_DATA_HR - heart rate in beats per minute.
+    The frequency does not need to be high, once a minute is fine.
+*** com.urbandroid.sleep.EXTRA_DATA_RR - R-R intervals in milliseconds - i.e. time intervals between consecutive heart beats.
+    These data need to be reliable. Every R-R interval should be sent.
+*** com.urbandroid.sleep.EXTRA_DATA_SPO2 - blood oxygenation measure.
+    High frequency (every second or so) is expected.
+*** com.urbandroid.sleep.EXTRA_DATA_SDDN - short-term heart rate variability.
+    Typically once every few minutes.
 
 * The further extras depend on whether a single value or an array is sent.
 
