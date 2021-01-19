@@ -172,7 +172,7 @@ The data are expected to be expressed in number of heart beats per minute. It is
 * Extra:
 ** *com.urbandroid.sleep.EXTRA_DATA_SPO2* (Float): Current SpO2 value
 
-The data should be one float number, current SpO2 value, sent every 1 second.
+The data should a one float number, current SpO2 value, sent every 1 second.
 
 === Pause from watch
 
