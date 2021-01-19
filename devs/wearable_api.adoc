@@ -166,7 +166,7 @@ Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a 
 
 The data are expected to be expressed in number of heart beats per minute. It is not necessary to sample these data so frequently as movement data. Once every few minutes is perfectly fine.
 
-=== Send various body sensors data - HR, RR, SPO2, SDDN
+=== Send various body sensors data - HR, RR, SPO2, SDNN
 
 * Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
 This is a generic intent to carry data from various sensors.
@@ -178,21 +178,24 @@ The data can be sent as a single value or as an array.
    One of the following markers must be present:
 *** `com.urbandroid.sleep.EXTRA_DATA_HR` - heart rate in beats per minute.
     The frequency does not need to be high, once a minute is fine.
-*** `com.urbandroid.sleep.EXTRA_DATA_RR` - R-R intervals in milliseconds - i.e. time intervals between consecutive heart beats.
+*** `com.urbandroid.sleep.EXTRA_DATA_RR` - R-R intervals in milliseconds,
+    i.e. time intervals between consecutive heart beats.
     These data need to be reliable. Every R-R interval should be sent.
 *** `com.urbandroid.sleep.EXTRA_DATA_SPO2` - blood oxygenation measure.
     High frequency (every second or so) is expected.
-*** `com.urbandroid.sleep.EXTRA_DATA_SDDN` - short-term heart rate variability.
+*** `com.urbandroid.sleep.EXTRA_DATA_SDNN` - short-term heart rate variability.
     Typically once every few minutes.
 
-* The further extras depend on whether a single value or an array is sent.
+* *The further extras depend on whether a single value or an array is sent.*
 
 ** *Single value case*
-*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the measurement. Long - unix timestamp.
+*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the measurement.
+    Long - unix timestamp in millis.
 *** The value is stored directly in the marker extra as a float.
 
 ** *Array case*
-*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the last measurement. Long - unix timestamp.
+*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the last measurement.
+    Long - unix timestamp in millis.
 *** `com.urbandroid.sleep.EXTRA_DATA_FRAMERATE` - optional. Long, millis. The default is 1000 (i.e. 1 second)
 *** `com.urbandroid.sleep.EXTRA_DATA_BATCH` - the data - float array.
 
