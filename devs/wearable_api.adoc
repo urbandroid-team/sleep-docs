@@ -171,7 +171,9 @@ The data are expected to be expressed in number of heart beats per minute. It is
 * Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
 This is a generic intent to carry data from various sensors.
 The data can be sent as a single value or as an array.
-
++
++
++
 * Extras:
 
 ** *Data type marker.* Presence of a particular marker determines what kind of data is carried.
@@ -185,23 +187,23 @@ The data can be sent as a single value or as an array.
 * The further extras depend on whether a single value or an array is sent.
 
 ** *Sinle value case*
-**** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP - optional. The time of the measurement. Long - unix timestamp.
-**** The value is stored directly in the ,arker extra as a float.
+*** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP - optional. The time of the measurement. Long - unix timestamp.
+*** The value is stored directly in the marker extra as a float.
 
 ** *Array case*
-**** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP - optional. The time of the last measurement. Long - unix timestamp.
-**** com.urbandroid.sleep.EXTRA_DATA_FRAMERATE - optional. Long, millis. The default is 1000 (i.e. 1s)
-**** com.urbandroid.sleep.EXTRA_DATA_BATCH - the data - float array.
+*** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP - optional. The time of the last measurement. Long - unix timestamp.
+*** com.urbandroid.sleep.EXTRA_DATA_FRAMERATE - optional. Long, millis. The default is 1000 (i.e. 1 second)
+*** com.urbandroid.sleep.EXTRA_DATA_BATCH - the data - float array.
 
 * Single value extras example:
-*** com.urbandroid.sleep.EXTRA_DATA_SPO2: 97
-*** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000
+** com.urbandroid.sleep.EXTRA_DATA_SPO2: 97
+** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000
 
 * Array extras example:
-*** com.urbandroid.sleep.EXTRA_DATA_SPO2: true
-*** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000
-*** com.urbandroid.sleep.EXTRA_DATA_FRAMERATE: 2000
-*** com.urbandroid.sleep.EXTRA_DATA_BATCH: [97.0f, 98.0f, 99.9f, 90.0f]
+** com.urbandroid.sleep.EXTRA_DATA_SPO2: true
+** com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000
+** com.urbandroid.sleep.EXTRA_DATA_FRAMERATE: 2000
+** com.urbandroid.sleep.EXTRA_DATA_BATCH: [97.0f, 98.0f, 99.9f, 90.0f]
 
 === Pause from watch
 
