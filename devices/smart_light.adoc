@@ -26,10 +26,11 @@ Maximum intensity:: Set a global limit for brightness a smartlight would be allo
 
 .Alarm
 [horizontal]
-Keep light up after:: Set whether the light should stay on after dismissing alarm, snoozing alarm or both. Or none.
-Use screen light:: Enable to use your phone's screen as a smartlight for the sunrise alarm.
+
+Sunrise:: Enable to use your phone's screen as a smartlight for the sunrise alarm.
 Wake up with flashlight:: If enabled, your phone's flashlight will be flashing during alarm.
 WARNING: Might be unreliable on some phones.
+Keep light up after:: Set whether the light should stay on after dismissing alarm, snoozing alarm or both. Or none.
 
 .Miscellaneous
 [[Miscellaneous]]
