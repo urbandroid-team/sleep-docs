@@ -29,7 +29,7 @@ Samsung Gear Fit 2 is the only exception - to track sleep using Gear Fit 2 with 
 The steps to follow are:
 
 . Install https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[Sleep as Android Gear Addon] on the phone.
-. Install Sleep as Android for Gear Fit 2 watch face on the Galaxy Store using your Galaxy Wearable app.
+. Install https://galaxystore.samsung.com/geardetail/com.urbandroid.sleep.gearfit[Sleep as Android for Gear Fit 2 watch face] on the Galaxy Store using your Galaxy Wearable app.
 . Now, you can enable the connection in _Settings -> Wearables -> Use wearable -> Samsung Gear / Galaxy Watch_.
 . Then test the connection in _Settings -> Wearables -> Test sensor_ - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
 
