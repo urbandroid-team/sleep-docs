@@ -42,7 +42,7 @@ image::TMB_vibr_3.png[width=80%]
 +
 [cols="^,^,^"]
 |===
-a|.Swith to the graph tab and tap on the cog icon.
+a|.Switch to the graph tab and tap on the cog icon.
 image::NF_vibr_1.png[width=80%]
 
 a|.Open _Settings_ for Sleep as Android integration.

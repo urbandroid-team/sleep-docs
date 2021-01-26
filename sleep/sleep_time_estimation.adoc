@@ -13,6 +13,8 @@ If you forget to start sleep tracking we can use your phone activity recognition
 
 The next day, a pop-up notification with estimated timings appears.
 
+image::suggestion.png[]
+
 == Where to find it
 _Settings -> Sleep tracking -> Sleep time estimate_
 
