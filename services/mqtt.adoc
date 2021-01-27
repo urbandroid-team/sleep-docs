@@ -35,4 +35,5 @@ On every event, Sleep as Android will publish a message to _SleepAsAndroid_ topi
 The `event` field will have a value of one of the <</services/automation#events,event names>>. The `valueX` fields will be only present if not empty.
 
 === Recipes
-https://community.openhab.org/t/sleep-as-android-and-mqtt/115556[A guide from Russ]
+
+* A very detailed https://community.openhab.org/t/sleep-as-android-and-mqtt/115556[guide from Russ on openHAB]
