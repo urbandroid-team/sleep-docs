@@ -1,0 +1,14 @@
+---
+title: Sonar stopped working after upgrading to Android 11
+
+tags:
+  - tracking
+  - sonar
+---
+
+If you get completely flat graphs with automatic tracking with sonar sensor after upgrading to Android 11, make sure the app has permission *Draw over other apps*, *Display over other apps* or *Appear on top* (Samsung).
+This permission is necessary for accessing the microphone from the background.
+
+. _System settings -> Apps -> Sleep -> Appear on top_ / _Display over other apps_
+. _System settings -> Apps -> More options (⁝) > Special access > Appear
+on top_ / _Display over other apps_

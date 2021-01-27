@@ -58,6 +58,7 @@ Do not disturb when sleeping:: If checked, do not disturb (DND) mode will be ena
 Note the following special rules:
 - if DND was active before sleep tracking started, Sleep will not touch it (ie. it won't disable it in the morning)
 - if DND was activated by Sleep, but you have toggled it during the sleep tracking, Sleep will not touch it again
+Priority mode:: Enables Priority DND - this mode allows using customizable exceptions, for example emergency contacts will get through even when DND is activated.
 Turn off wireless signal during sleep::
 This option tries to disable radios (wifi, cellular) during sleep tracking. Due to constraints gradually introduced in Android, it behaves differently based on the Android version you have on your phone.
 *Below 4.2*: turns on airplane mode
@@ -66,7 +67,7 @@ This option tries to disable radios (wifi, cellular) during sleep tracking. Due 
 *Q (10)*: does nothing - Android 10 has removed any means of controlling wifi programmatically
 
 +
-NOTE: Th WiFi will be turned on back during alarm time, if you use online radios, or Spotify as your ringtone
+
 
 .Advanced
 [horizontal]

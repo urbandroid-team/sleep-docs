@@ -12,6 +12,10 @@ tags:
 *Testing sensor gives you confirmation the wearable is connected properly, and the companion app is sending data about your movement.*
 
 
+NOTE: Testing sensor is not supported by Garmin wearables and FitBit.
+
+
+
 ## Where to find it
 _Settings -> Wearables -> Test sensor_
 
