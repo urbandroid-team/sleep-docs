@@ -51,11 +51,15 @@ There is a fixed set of commands sent from the phone to the watch you need to im
 
 === Start movement tracking
 
-Intent: `com.urbandroid.sleep.watch.START_TRACKING`
+* Intent: `com.urbandroid.sleep.watch.START_TRACKING`
+* Extras:
+** `DO_HR_MONITORING`: enables Hear rate and HRV monitoring on the device
+** `DO_OXIMETER_MONITORING`: enables oximetry monitoring on the device
 
 === Stop movement tracking
 
-Intent: `com.urbandroid.sleep.watch.STOP_TRACKING`
+* Intent: `com.urbandroid.sleep.watch.STOP_TRACKING`
+
 
 === Pause tracking
 

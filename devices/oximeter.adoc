@@ -9,9 +9,14 @@ tags:
 :toc:
 
 ## What it does
-Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://www.happy-electronics.eu/shop/en/16-sleep[buy it here].
+Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://www.happy-electronics.eu/shop/en/16-sleep[oximeter], or there are few wearables that allow us collecting SpO~2~ data too. See <</sleep/breath_rate#,Breath rate detection and oxygenation measure docs>> for details.
 
 The compatible oximeters are Berrymed oximeters with custom firmware. We did try a lot of oximeters that are on the market and these had the most reliable data.
+
+Currently, only some Wear OS powered wearables can be used for SpO~2~ monitoring. Garmins and Galaxy watches are hopefully coming soon.
+
+NOTE: We have tested TicWatch 3. If you have Wear OS watch that can monitor SpO2, but this data are not collect by Sleep, please send us your application log (Left ☰ menu -> Report a bug) and we will use the information from the log for adding support for this watch too.
+
 
 ## Where to find it
 _Settings -> Wearables -> Pulse oximeter_
@@ -22,7 +27,8 @@ image::oximeter.jpg[]
 
 ## Options
 [horizontal]
-Pulse Oximeter:: Enable the feature
+Pulse Oximeter (Bluetooth):: Enable the feature for compatible oximeters.
+Pulse Oximeter (Wear OS...):: Enable the feature for compatible wearables.
 Low breath rate alarm:: If enabled, an alarm will wake you up when you have an low breath rate episode. This tries to prevent your blood oxygen volume from dropping to dangerous levels.
 Low breath rate alarm sensitivity:: Set sensitivity for the low breath rate alarm.
 
@@ -33,10 +39,15 @@ image::hrbr.png[]
 
 ## Guide
 
-### How to set up
+### How to set up oximeter
 . Turn on your oximeter
 .. If you have an older (non-BTLE) oximeter, pair it with your phone using the system bluetooth settings.
 .. If you have a newer (BTLE) oximeter, do not pair it.
-. Connect the oximeter to the app by tapping *Sleep as Android -> Settings -> Wearables -> Pulse oximeter*
+. Connect the oximeter to the app by tapping _Settings -> Wearables -> Pulse oximeter (Bluetooth)_
 
 Now when you start sleep tracking, Sleep will connect to your oximeter to gather SpO~2~ and HR data.
+
+### How to set up wearable
+
+. Make sure the wearable is connected properly, and corresponding option is enabled in _Settings -> Wearables -> Use wearable_.
+. Enable SpO2 data gathering in _Settings -> Wearables -> Pulse oximeter (Wear Os...)_.

@@ -12,19 +12,19 @@ tags:
 
 == What it does
 
-*Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>> or  <</devices/sleep_phaser_2#, Sleep phaser>>) or your blood oxygenation (<</devices/oximeter#, oximeter>>).*
+*Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>>,  <</devices/sleep_phaser_2#, Sleep phaser>>), or your blood oxygenation (<</devices/oximeter#, oximeter, some wearables>>.*
 
 Sonar or Sleep Phaser measure your abdominal movements and thus estimate your breath rate.
 
 Any pause in in the detected breath rates is depicted as an O2 symbol icon:ic_action_cpap[] in the sleep graph and may hint at respiratory issues or cause by an outage of the sensor.
 
-Using <</devices/oximeter, Oximeter>> we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
+By using <</devices/oximeter, Oximeter>> or wearable, we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
 
 == Where to find it
 
-No action is required. You will see breath rates if you use the <</sleep/sensors#sonar, Sonar>> or the <</devices/sleep_phaser_2#, Sleep phaser>> if the overall setting in your bedroom and the device in use reach the required level of sensitivity.
+With the <</sleep/sensors#sonar, Sonar>> or the <</devices/sleep_phaser_2#, Sleep phaser>>, no actions is required - you will see breath rates if the overall setting in your bedroom and the device in use reach the required level of sensitivity.
 
-With an oximeter, you can track your blood oxygen levels (SpO~2~). See <</devices/oximeter#,Oximeter docs>> for details.
+With <</devices/oximeter#,an oximeter or a wearable>>, you can track your blood oxygen levels (SpO~2~), if this option is enabled and the device properly connected.
 
 == Options
 In _Settings -> Wearables_:
