@@ -12,7 +12,7 @@ tags:
 
 == What it does
 
-*Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>>,  <</devices/sleep_phaser_2#, Sleep phaser>>), or your blood oxygenation (<</devices/oximeter#, oximeter, some wearables>>.*
+*Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>>,  <</devices/sleep_phaser_2#, Sleep phaser>>, and https://sleep.urbandroid.org/polar-sleep-tracking/[Polar H10]), or your blood oxygenation (<</devices/oximeter#, oximeter, some wearables>>).*
 
 Sonar or Sleep Phaser measure your abdominal movements and thus estimate your breath rate.
 

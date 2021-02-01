@@ -17,8 +17,29 @@ Mi Band 5<br>
 ",YES (↝❤),↝❤,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android. Alternatively, you can use <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify & Fitness for Mi Band</a>.
 
 Guide: <a href=""https://sleep.urbandroid.org/sleep-android-talks-xiaomi-mi-band-2/""> Sleep as Android talks to Xiaomi Mi Band</a>."
-Huami,"Amazfit (Amazfit GTS, Amazfit GTR, Amazfit Bip, Amazfit Bip S, Amazfit Bip Lite, Amazfit Arc, Amazfit Cor, Amazfit Cor 2)",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"">Tools & Amazfit app</a> to get data from Amazfit to Sleep as Android. Also see <a href=""http://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"">T&A help</a>."
-Huami,"Amazfit (Amazfit T-Rex, Amazfit GTS, Amazfit GTR (47mm & 42mm), Amazfit GTR Lite (47mm & 42mm), Amazfit Verge Lite, Amazfit Bip Lite, Amazfit Bip & Amazfit Bip S, Amazfit Mi Dong Cor, Amazfit Arc)",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=com.mc.amazfit1"">Notify & Fitness for Amazfit app</a> to get data from Amazfit to Sleep as Android.."
+Huami,"<strong>Amazfit</strong><br>
+Amazfit GTS,<br>
+Amazfit GTS 2,<br>
+Amazfit GTS 2E,<br>
+Amazfit GTS 2 Mini,<br>
+Amazfit GTR,<br>
+Amazfit GTR 2,<br>
+Amazfit GTR 2E,<br>
+Amazfit Bip,<br>
+Amazfit Bip S,<br>
+Amazfit Bip Lite,<br>
+Amazfit Arc,
+Amazfit Cor,
+Amazfit Cor 2",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"">Tools & Amazfit app</a> to get data from Amazfit to Sleep as Android. Also see <a href=""http://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"">T&A help</a>."
+Huami,"<strong>Amazfit</strong><br>
+Amazfit T-Rex,<br>
+Amazfit GTS,<br>
+Amazfit GTR (47mm & 42mm),<br>
+Amazfit GTR Lite (47mm & 42mm),<br>
+Amazfit Verge Lite,<br>
+Amazfit Bip Lite,<br>
+Amazfit Bip & Amazfit Bip S,<br>
+Amazfit Mi Dong Cor, Amazfit Arc)",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=com.mc.amazfit1"">Notify & Fitness for Amazfit app</a> to get data from Amazfit to Sleep as Android.."
 Huami,"Android-based Amazfit (Pace, Stratos, Verge)",NO but coming soon,,,"AmazMod is currently working on this integration, stay tuned"
 Pebble,1 & 2 - all variants,YES (↝),↝,<<5%,Works either with the official app and the Rebble project or with GadgetBridge..
 Fitbit,"Ionic, Versa, Versa Lite, Versa 2, Versa Sense, Versa 3",YES (↝❤),↝❤, ,"You need the <a href=""https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02"">Fitbit app</a>"
@@ -31,7 +52,7 @@ Garmin,"ConnectIQ devices<br> (<a href=""https://raw.githubusercontent.com/urban
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
 iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
-Polar,H7,YES (❤),❤, ,Only HR measurement
+Polar,"H7, H10. OH1",YES (❤),❤, ,Only HR measurement
 Mio,Link,YES (❤),❤, ,Only HR measurement
 Jawbone,UP,NO,, ,No support for 3rd party integration
 Fitbit,"Charge, Blaze etc.",NO,, ,No support for 3rd party integration. Only Ionic and Versa are supported.
