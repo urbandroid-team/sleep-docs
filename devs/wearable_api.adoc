@@ -84,7 +84,7 @@ If the pause expires naturally on phone, i.e. its time runs out, there is no not
 
 * Intent: `com.urbandroid.sleep.watch.START_ALARM`
 * Extras:
-** *DELAY* (int): Desired delay in millisecond after how long should the alarm start.
+** *DELAY* (int): Desired delay in millisecond after how long should the alarm start. Value can be also -1, which means that wearable alarm is set to "disabled" in Sleep as Android and the watch should not vibrate (it may display an alarm screen if applicable).
 
 === Stop alarm
 
@@ -162,7 +162,7 @@ on_sensor_change() {
 
 Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a batch period send the batch array to Sleep as Android. Batch period is by default 120 seconds, but Sleep sometimes needs to change it and sends a `com.urbandroid.sleep.watch.SET_BATCH_SIZE` command.
 
-=== Send heart rate data
+=== Send heart rate data
 
 * Intent: `com.urbandroid.sleep.watch.HR_DATA_UPDATE`
 * Extra:
