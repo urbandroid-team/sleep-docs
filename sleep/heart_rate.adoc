@@ -43,11 +43,68 @@ Enable HR monitoring for fully integrated devices::
   _Settings -> Wearables -> Heart rate monitoring_
   This regards all devices that we explicitly integrated, such as Pebble, Mi Band, Amazefit, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy. See <</devices/wearables#,Smartwatch and Wearables>> for supported devices.
 Enable HR monitoring for devices that support direct HR over BLE (Bluetooth Low Energy)::
-  _Settings -> Wearables -> Bluetooth Smart_
-  This regards all other devices that have a HR sensor (such as Polar H7) and may or may not work with your device.
-NOTE: Do not use this option for HR monitoring with compatible smartwatches such as Pebble, Mi Band, Amazefit, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy...
+ _Settings -> Wearables -> Bluetooth Smart_
+ This regards all other devices that have a HR sensor (such as Polar H7) and may or may not work with your device.
+NOTE: Do not use this option for HR monitoring with compatible smartwatches such as Pebble, Mi Band, Amazefit, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy, etc.
 Enable HR monitoring for a supported oximeter:: If you have an <</devices/oximeter#,oximeter>> connected in _Sleep -> Settings -> Wearables -> Pulse Oximeter_, heart rate will be detected by default.
 Enable HRV monitoring:: If your wearable supports HRV data collection, it will be enabled automatically with HR monitoring.
 Enable awake detection using heart rate data::
   _Settings -> Sleep tracking -> Awake detection -> Heart rate monitoring_
 
+== Guide
+
+=== How to tell if the wearable will collect HR
+
+Only wearables, that use GATT Heart Rate Profile interface can be connected via BT smart for collecting HR data.
+If you are not sure, if the HR monitoring is possible with your wearable, you can check, if it is compatible directly in the Sleep app.
+
+. Try to pair with your device (this may not be required for all devices and OS versions).
+. Make sure no other app is using your device while sleep tracking.
+. Go to _Settings -> Wearables -> Bluetooth Smart_ and tick this option.
+. The app will start a Bluetooth scanning and lists all nearby devices.
+. If your wearable is listed in BT scanning with a icon:tag_love[] icon, it uses the requi red HR profile
+
+
+[cols="^"]
+|===
+a|[[br_scan]]
+.Difference between compatible and non-compatible HR protocol
+image::bt_scan.png[]
+
+|===
+
+
+NOTE: If your wearable is not listed with a heart icon:tag_love[] icon, you need to go around – save HR to S Health or Google Fit, from where Sleep as Android will download it.
+
+=== Mi Bands
+Check your HR settings in the Mi Fit app.
+When the Mi Band is in *Sleep Assistant* HR mode in Mi Fit, it doesn’t feed the HR data to Mi Band Tools / Sleep as Android. When it is in regular HR tracking mode (24-hour), it works.
+
+==== Tools&MiBand
+
+. Enable _Heart Rate Monitor_ in T&MB _Left_ ☰ _menu -> Heart Rate_ -> icon:ic_cog[] -> _Heart Rate monitor_
+
+[cols="^"]
+|===
+a|[[tmb_hr]]
+.Enabled HR monitoring in Tools&MiBand app
+image::tmb_hr.png[]
+
+|===
+
+==== Notify&Fitness
+
+. Enable heart rate monitoring in N&F icon:ic_action_graph[] -> _Heart_ section icon:ic_cog[]  -> _Heart monitor_
+. Enable collecting HR data by the Sleep app in N&F icon:ic_action_graph[] -> _Sleep_ section icon:ic_cog[] -> _Sleep as Android -> Settings -> Heart monitor_
+
+[cols="^,^"]
+|===
+a|[[nf_hr1]]
+.Notify&Fitness HR monitoring enabled
+image::nf_hr2.png[]
+
+a|[[nf_hr2]]
+.Notify&Fintess HR data enabled for Sleep
+image::nf_hr1.png[]
+
+|===
