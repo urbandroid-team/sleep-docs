@@ -82,4 +82,4 @@ Audio recognition:: `com.urbandroid.sleep.audio.SOUND_EVENT_AUTO`
 ** TIMESTAMP – Unix epoch millis
 ** SOUND_CLASS – one of “SNORE”, “TALK”, “COUGH”, “BABY”, “LAUGH”
 
-Automatic start of sleep tracking, e.g. at bedtime or in the beginning of smart period:: `com.urbandroid.sleep.alarmclock.AUTO_START_SLEEP_TRACK_AUTO`
+Start of smart period:: `com.urbandroid.sleep.SMART_PERIOD_AUTO`
