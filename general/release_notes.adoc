@@ -7,7 +7,32 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210118
+== Latest version 20210226
+
+– Integration with new Google Sleep API for more precise sleep time estimates and automatic sleep tracking with minimal battery impact
+– Experimental Google Assistant app actions added (open/start/stop tracking, alarms, dashboard)
+– Google Fit/S Health data download/import with process bar notification
+– Fix for binaural beats not playing
+– Default theme on Android R+ is follow system – fix main screen brought to front by system during theme switching
+– Fix for MQTT freezing during sending events
+– Fix for HRV -/+ chart
+– Two-phase bridge search for Philips HUE should work better to find your bridge in some network setups
+– Fixes in automation Smart period event
+– Silent option in Backup alarm settings is the first prominent option
+– Fix in automation starting of foreground service
+– Fixes in Ad card to not show multiple Ads at once
+– Fix for Goal screen showing up even goal is not finished
+– Fix for blurry times on the goal chart
+– Automatic sleep tracking tutorial card
+– Adding deep sleep duration chart to Dashboard
+– Adding smart light bridge and lights flow made more clear with an OK button
+– Option to enable / disable Oximeter tracking on Smart watches such as Tic Watch 3 Pro (Wear OS), the Wear OS app needs to be updated to support this
+– Sleep tracking button on alarm list now shows when tracking is running
+– Support for more efficient messaging with FitBit watches
+– Fix crash in app startup in Belorussian localization
+– Update in Arabic, Norwegian and Danish (Many thanks)
+
+== 20210118
 – New beginners’ tutorial card explaining all features and linking to settings
 – HRV tracking: See how well does sleep rest your body (supported on: Stresslocator oximeters, Polar OH1 and H10, Some Wear OS devices) more at https://sleep.urbandroid.org/hrv-tracking/
 – Fix for a rare issue when the next alarm card does not react to touch
