@@ -52,7 +52,8 @@ Garmin,"ConnectIQ devices<br> (<a href=""https://raw.githubusercontent.com/urban
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
 iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
-Polar,"H7, H10. OH1",YES (❤),❤, ,Only HR measurement
+Polar,"H7",YES (❤),❤, ,Only HR measurement
+Polar,"H10, OH1",YES (↝❤),↝❤, ,Full sleep tracking
 Mio,Link,YES (❤),❤, ,Only HR measurement
 Jawbone,UP,NO,, ,No support for 3rd party integration
 Fitbit,"Charge, Blaze etc.",NO,, ,No support for 3rd party integration. Only Ionic and Versa are supported.
