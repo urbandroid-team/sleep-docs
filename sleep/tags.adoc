@@ -82,6 +82,7 @@ icon:ic_pair[] \#pair (<</sleep/pair_tracking#,pair tracking>> was active)
 icon:ic_automagic[] \#auto (<</sleep/automatic_sleep_tracking#,automatic tracking>>)
 icon:ic_lightbulb_off[] \#dark (less than 30 lux for at least 90% of the night, see <</sleep/light_level#, Light level tracking>>)
 icon:ic_lightbulb[] \#light (more than 60 lux for at least 33% of the night, see <</sleep/light_level#, Light level tracking>>)
+icon:ic_walk[] \#sport (when at least 80% of the goal (Steps or Heart points) is achieved during the day, see <</services/google_fit#,Google Fit>>)
 |===
 
 ===== Location tags

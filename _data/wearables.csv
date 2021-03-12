@@ -28,8 +28,8 @@ Amazfit GTR 2E,<br>
 Amazfit Bip,<br>
 Amazfit Bip S,<br>
 Amazfit Bip Lite,<br>
-Amazfit Arc,
-Amazfit Cor,
+Amazfit Arc,<br>
+Amazfit Cor,<br>
 Amazfit Cor 2",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"">Tools & Amazfit app</a> to get data from Amazfit to Sleep as Android. Also see <a href=""http://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"">T&A help</a>."
 Huami,"<strong>Amazfit</strong><br>
 Amazfit T-Rex,<br>
@@ -42,10 +42,22 @@ Amazfit Bip & Amazfit Bip S,<br>
 Amazfit Mi Dong Cor, Amazfit Arc)",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=com.mc.amazfit1"">Notify & Fitness for Amazfit app</a> to get data from Amazfit to Sleep as Android.."
 Huami,"Android-based Amazfit (Pace, Stratos, Verge)",NO but coming soon,,,"AmazMod is currently working on this integration, stay tuned"
 Pebble,1 & 2 - all variants,YES (↝),↝,<<5%,Works either with the official app and the Rebble project or with GadgetBridge..
-Fitbit,"Ionic, Versa, Versa Lite, Versa 2, Versa Sense, Versa 3",YES (↝❤),↝❤, ,"You need the <a href=""https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02"">Fitbit app</a>"
-Samsung,"Gear 1,2,2 Neo, S, S2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
-Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
-Samsung,"Gear Fit 2, Gear Fit 2 Pro",YES (↝❤),↝❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
+Fitbit,"Ionic,<br>
+Versa,<br>
+Versa Lite,<br>
+Versa 2,<br>
+Versa Sense,<br>
+Versa 3",YES (↝❤),↝❤, ,"You need the <a href=""https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02"">Fitbit app</a>"
+Samsung,"Gear 1,<br>
+Gear 2,<br>
+Gear Neo,<br>
+Gear S,<br>
+Gear S2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
+Samsung,"Galaxy Watch,<br>
+Galaxy Watch Active,<br>
+Galaxy Watch Active 2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
+Samsung,"Gear Fit 2,<br>
+Gear Fit 2 Pro",YES (↝❤),↝❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
 Read more at <a href=""http://bit.ly/sleepgearfit2"">Sleep loves Gear Fit 2</a>"
 Samsung,"Gear Fit 1, Galaxy Fit, Galaxy Fit 2, Galaxy Fit e",NO,,,RTOS does not have open API for integration
 Garmin,"ConnectIQ devices<br> (<a href=""https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml"">supported watches</a>)",YES (↝❤),↝❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
