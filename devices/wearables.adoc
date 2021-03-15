@@ -13,9 +13,16 @@ tags:
   - garmin
 ---
 
-Sleep as Android supports a wide variety of smartwatches. Take a look at the list:
+== How to set up tracking with a wearable
+
+. First of all, make sure your wearable is supported (see the <<supported_wearables, table>>)
+. Install the required companion apps (this depends on the wearable type, check the <<supported_wearables, table>>) for more details).
+. Select the corresponding option in _Settings -> Wearables -> Use wearable_.
+
 
 == Supported wearables[[supported_wearables]]
+
+Sleep as Android supports a wide variety of smartwatches. Take a look at the list:
 
 |===
 |Manufacturer |Device |Supported sensors |Notes
@@ -33,9 +40,3 @@ Sleep as Android supports a wide variety of smartwatches. Take a look at the lis
 {% endfor %}
 
 |===
-
-== How to set up tracking with a wearable
-
-. First of all, make sure your wearable is supported (see the <<supported_wearables, table>>)
-. Install the required companion apps (this depends on the wearable type, check the <<supported_wearables, table>>) for more details).
-. Select the corresponding option in _Settings -> Wearables -> Use wearable_.
