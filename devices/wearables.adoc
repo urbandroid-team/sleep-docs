@@ -19,6 +19,7 @@ tags:
 . Install the required companion apps (this depends on the wearable type, check the <<supported_wearables, table>>) for more details).
 . Select the corresponding option in _Settings -> Wearables -> Use wearable_.
 
+NOTE: Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
 
 == Supported wearables[[supported_wearables]]
 
