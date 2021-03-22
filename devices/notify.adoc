@@ -1,0 +1,81 @@
+---
+layout: default
+title: Amazfit with Notify for Amazfit & Zepp app and Mi Bands with Notify for Mi Band app
+nav_order: 3
+parent: /devices/wearables.html
+tags:
+- notify
+- amazfit
+- miband
+- wearable
+---
+
+:toc:
+
+
+Sleep as Android can be used for sleep tracking with several Amazfit wearables, and Mi Bands. As the API for direct integration is not open, you need to install the companion app. This chapter targets https://play.google.com/store/apps/details?id=com.mc.miband1[Notify for MiBand] and https://play.google.com/store/apps/details?id=com.mc.amazfit1[Notify for Amazfit & Zepp] users. These apps are developed by mailto:mat90c@gmail.com[Matteo].
+
+With Amazfits and MiBands, you can monitor your movement and HR values.
+
+== How to set up in Sleep
+
+. Make sure the watch is connected to the phone and to the Notify app
+. Ënable the connection in _Settings -> Wearables -> Use wearable -> XiaoMi MiBand (Notify for MiBand) / Huami Amazfit (Notify for Amazfit & Zepp)_.
+. Test the connection in Settings -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
+. For HR data, enable *Heart rate monitoring* in _Settings -> Wearables_.
+
+== How to set up in Notify app
+
+. Sleep as Android integration must be enabled in
+
+
+
+=== HR monitoring
+
+Check your HR settings in the Mi Fit app.
+When the Mi Band is in *Sleep Assistant* HR mode in Mi Fit, it doesn’t feed the HR data to Mi Band Tools / Sleep as Android. When it is in regular HR tracking mode (24-hour), it works.
+
+. Enable heart rate monitoring in N&F icon:ic_action_graph[] -> _Heart_ section icon:ic_cog[]  -> _Heart monitor_
+. Enable collecting HR data by the Sleep app in N&F icon:ic_action_graph[] -> _Sleep_ section icon:ic_cog[] -> _Sleep as Android -> Settings -> Heart monitor_
+
+[cols="^,^"]
+|===
+a|[[nf_hr1]]
+.Notify&Fitness HR monitoring enabled
+image::nf_hr2.png[]
+
+a|[[nf_hr2]]
+.Notify&Fintess HR data enabled for Sleep
+image::nf_hr1.png[]
+
+|===
+
+=== Custom vibrations
+
+. Enable custom vibrations in Sleep as Android settings section.
+. Open the vibration settings with the _Vibration_ button.
+. Adjust the vibration pattern - you can change intensity and duration, and also vibration delay.
+. Test the resulting vibration pattern with the Play button in the top right corner.
+
++
+[cols="^,^,^"]
+|===
+a|.Switch to the graph tab and tap on the cog icon.
+image::NF_vibr_1.png[width=80%]
+
+a|.Open _Settings_ for Sleep as Android integration.
+image::NF_vibr_2.png[width=80%]
+
+a|.Find _Custom vibration_.
+image::NF_vibr_3.png[width=80%]
+
+|===
++
+
+
+=== Dismiss / Snooze with buttons
+
+
+- *Dismiss* - enables dismissing alarm with the button (dismiss will be confirmed with a vibration)
+- *Snooze* - with two button press, you can snooze the alarm (will be confirmed with a vibration)
+- No action for the button - disable both previous options
