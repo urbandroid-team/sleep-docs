@@ -22,6 +22,7 @@ iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out o
 Polar,"H7",YES (❤),❤, ,Only HR measurement
 Polar,"H10, OH1",YES (↝❤),↝❤, ,Full sleep tracking
 Mio,Link,YES (❤),❤, ,Only HR measurement
+CooSpo,H6M,YES (❤),❤, ,Only HR measurement
 Jawbone,UP,NO,, ,No support for 3rd party integration
 Fitbit,"Charge, Blaze etc.",NO,, ,No support for 3rd party integration. Only Ionic and Versa are supported.
 Xiaomi,Mi band 1S,NO,, ,"No public API. We are trying to reverse engineer it, so hopefully it will work eventually. (Mi Band 1, 1A, 2 IS SUPPORTED)"
