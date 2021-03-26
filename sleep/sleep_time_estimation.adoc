@@ -27,6 +27,6 @@ Save automatically:: Sleep time estimation is saved automatically when a trackin
 
 == How it works
 
-The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Activity recognition transition API), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren't tracking.
+The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or https://developers.google.com/location-context/sleep[Google Sleep API]), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren't tracking.
 
 NOTE: This feature requires at least 500 events in sensor batching queue. If you don't see Sleep time estimation listed in the Settings, than your phone does not meet this criteria.
