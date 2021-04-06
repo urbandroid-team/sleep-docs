@@ -12,11 +12,19 @@ tags:
   - mi band
   - garmin
 ---
-:toc:
+
+== How to set up tracking with a wearable
+
+. First of all, make sure your wearable is supported (see the <<supported_wearables, table>>)
+. Install the required companion apps (this depends on the wearable type, check the <<supported_wearables, table>>) for more details).
+. Select the corresponding option in _Settings -> Wearables -> Use wearable_.
+
+NOTE: Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
+
+== Supported wearables[[supported_wearables]]
 
 Sleep as Android supports a wide variety of smartwatches. Take a look at the list:
 
-.Supported wearables
 |===
 |Manufacturer |Device |Supported sensors |Notes
 

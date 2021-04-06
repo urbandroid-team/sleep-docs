@@ -34,7 +34,7 @@ Smart period:: Again a simple automation which starts sleep tracking some time b
 
 == How it works
 
-Automatic start after fall asleep is a breakthrough method invented by Urbandroid which uses Google’s Activity Transition API as a base to detect when you’ve gone to bed to start sleep tracking.
+Automatic start after fall asleep is a breakthrough method invented by Urbandroid which uses Google Activity Transition API or https://developers.google.com/location-context/sleep[Google Sleep API] as a base to detect when you’ve gone to bed to start sleep tracking.
 
 First, we need to find intervals when it is most probable that you’d be sleeping. By default, the interval we use is 8PM to 7AM, but this will shift over time to reflect your habits.
 

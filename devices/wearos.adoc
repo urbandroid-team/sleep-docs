@@ -1,20 +1,23 @@
 ---
-title: Cannot install app on Wear OS device
-
+layout: default
+title: Wear OS devices
+nav_order: 2
+parent: /devices/wearables.html
 tags:
-  - wearable
-  - wear_os
-  - install
+- wearos
+- wearable
 ---
 
 Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.
+All Wear OS devices can monitor sleep tracking movement and collect HR. Some wearables can also collect SpO2 data - for more details, please see the chapter on <</devices/oximeter#, oximeters and SpO data>>.
 
-How to get there:
+== How to set up
 
 . Make sure the watch is connected to the phone.
 . Go to app list on your watch, select Play Store.
 . Find *Sleep as Android* and select _Install_.
 . After the companion app is installed, you can enable the connection in _Settings -> Wearables -> Use wearable -> Wear OS_.
 . Test the connection in Settings -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
+. For HR data, enable *Heart rate monitoring* in _Settings -> Wearables_.
 
-NOTE: Sleep tracking collects data the night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
+
