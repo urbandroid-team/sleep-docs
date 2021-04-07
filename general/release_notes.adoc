@@ -7,7 +7,53 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210226
+== Latest version 20210403
+– Redesign of Stats, Charts and SleepScore
+– Integration with new Google Sleep API for more precise sleep time estimates and automatic sleep tracking with minimal battery impact
+– Fix for “Force English” in combination with be-weekly alarm schedules. If you use both options, please check your alarms!!!
+– Experimental Google Assistant app actions added (open/start/stop tracking, alarms, dashboard)
+– Google Fit/S Health data download/import with process bar notification
+– BETA Only: New sleep noise classification neural network – an order larger network with advance architecture for better noise classification
+– Option to rename tags in menu – Graphs – long press – Rename tag
+– Fix for binaural beats not playing
+– Support for unlocking premium through monthly subscription – an alternative to Lifetime license
+– Default theme on Android R+ is follow system – fix main screen brought to front by system during theme switching
+– Option to set different sleep duration goals for each alarm to support polyphasic schedules
+– Ideal sleep duration renamed to Sleep duration goal
+– Better normalization of noise chart to handle extreme values
+– Support for latest Ads SDK
+– New splash screen
+– Fix for Snooze snackbar not going away from the alarm screen when dismissed
+– Sleep Mask intensity settings is respected
+– Support for experimental Wearables e.g. O2Ring, Go2Sleep, Maxim Integrated by ChakaponDen to provide SPO2 and HR data in parallel to another wearable providing activity – this requires the Settings > Wearables > Automatic option
+– Reduction in permission for Google Fit
+– Default DND mode on Android Q+ is now priority mode
+– Fix in walking tag from Samsung Health
+– Fix for MQTT freezing during sending events
+– Fix for HRV -/+ chart
+– Fix for not awake automation event NOT_AWAKE and TRACKING_STARTED
+– Warning about NFC CAPTCHA and CAPTCHA cheating protection incompatibility when lock screen is enabled
+– Workaround to stop CAPTCHA cheating protection when NFC CAPTCHA is on and screen is locked
+– Two-phase bridge search for Philips HUE should work better to find your bridge in some network setups
+– Fixes in automation Smart period event
+– Silent option in Backup alarm settings is the first prominent option
+– Fix in automation starting of foreground service
+– Fixes in Ad card to not show multiple Ads at once
+– Fix for Goal screen showing up even goal is not finished
+– Fix for blurry times on the goal chart
+– Fix for a rare crash in Google Fit sync screen
+– Automatic sleep tracking tutorial card
+– Fixes in selection graph intervals with typing
+– Adding deep sleep duration chart to Dashboard
+– Adding smart light bridge and lights flow made more clear with an OK button
+– Option to enable / disable Oximeter tracking on Smart watches such as Tic Watch 3 Pro (Wear OS), the Wear OS app needs tobe updated to support this
+– Sleep tracking button on alarm list now shows when tracking is running
+– Support for more efficient messaging with FitBit watches
+– Fix crash in app startup in Belorussian localization
+– Update in Arabic, Norwegian, Danish, German, Indonesian and more (Many thanks)
+
+
+== 20210226
 
 – Integration with new Google Sleep API for more precise sleep time estimates and automatic sleep tracking with minimal battery impact
 – Experimental Google Assistant app actions added (open/start/stop tracking, alarms, dashboard)
