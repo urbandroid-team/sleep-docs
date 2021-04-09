@@ -92,7 +92,7 @@ We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 rem:: Fires when we estimate the start of REM phase.
-smart_period:: Fires 45 minutes before the smart wakeup period starts.
+smart_period:: Fires at the start of the smart period.
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
