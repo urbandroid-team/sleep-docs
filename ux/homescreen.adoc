@@ -40,6 +40,11 @@ image:alarm_card_next_new.png[width=80%]
 * Tapping on icon:ic_alarm_plus[] opens the dialogue for creating a new alarm.
 * Tapping on any other place of the card opens <<alarm_list,list of all alarms>>
 * Alarm card has also a special function - you can skip next alarm (or cancel skipping the alarm), edit alarm or delete alarm directly from this card by long pressing on it.
+
+Tutorial card:: Simple guide through all the available features in the app to help our new users navigate in the app.
+* Swiping the card will show you next list.
+* Taping on the card will reveal the presented feature in the settings.
+
 Bedtime / alarm card:: Shows either time left to your bedtime, or time left to the alarm time.
 * If the current time is before the bedtime (and the bedtime is closer than 4 hours), the bedtime card will show you time left till the bedtime.
 * If the current time is after the bedtime, the card shows the time left till the alarm.

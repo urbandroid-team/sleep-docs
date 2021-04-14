@@ -18,13 +18,14 @@ _Settings -> Personalize_
 [horizontal]
 Home screen:: Choose the <</ux/homescreen#,Home screen>> mode.
 Theme:: You can choose a theme (background color of the app):
-* *Automatic* (Android OS) - Follows your system settings.
+* *Automatic* (Android OS) - Follows the switching of changing dark / light themes by your system.
 * *Automatic* (Bedtime) - Uses dark theme between bedtime and sunrise.
 * *Night owl* - Dark theme (black background, white font) all the time.
 * *Morning lark* - Light theme (white background, black font) all the time.
+* *Device settings* - Follows your system settings.
 Color palette (Graphs):: You can choose 7 different color palettes for your graphs:
 * *Default* - The current default on new installations (a color may vary!).
-* *Theme* - 50 Shades of Sleep...
+* *Theme* - New azure blue and orange combination!
 * *Green* - Yoda green forever!
 * *Blue* - Feeling blue?
 * *Purple* - Been born in the purple?
@@ -43,6 +44,13 @@ Start week on:: Choose which day is the first day of a week:
 - Device default - the app follows your system locale.
 - Sunday
 - Monday
+
+Time format:: Choose the format of the time in the app:
+- Device default: uses the format set in system settings
+- 13:00 - 24 hour
+- 1:00
+- 1:00 PM - AM / PM format
+
 
 .Alarms
 [horizontal]

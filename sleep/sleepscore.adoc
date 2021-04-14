@@ -37,10 +37,15 @@ There are six dimensions that contribute to sleep quality. Each of the dimension
 |Healthy range
 |Unhealthy range
 
-|Duration
-|How long have you been sleeping.
-|6.5 hours to 8.5 hours, see <<note-age, how this differs with age>>
-|less than 6.5 hours, or more than 8.5 hours
+|HRV Gain
+|xx
+|xx <<note-age, how this differs with age>>
+|xx
+
+|Breath
+|xx
+|xx <<note-age, how this differs with age>>
+|xx
 
 |Irregularity
 |How irregular your sleep is. Variance of your mid-sleep hour.
@@ -52,20 +57,26 @@ There are six dimensions that contribute to sleep quality. Each of the dimension
 |over 30%
 |under 20%
 
+|Duration
+|How long have you been sleeping.
+|6.5 hours to 8.5 hours, see <<note-age, how this differs with age>>
+|less than 6.5 hours, or more than 8.5 hours
+
 |Sleep efficiency
 |How long you've been actually sleeping vs. being in bed.
 |over 95%
 |under 85%
+
+|Subjective rating
+|Your average subjective rating
+|over 3.5 stars
+|under 2 stars
 
 |Snoring
 |How long you've been snoring compared to the total sleep duration.
 |under 3%
 |over 10%
 
-|Subjective rating
-|Your average subjective rating
-|over 3.5 stars
-|under 2 stars
 |===
 
 
