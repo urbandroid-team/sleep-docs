@@ -28,54 +28,71 @@ image::sleepscore.png[]
 
 === Sleepscore dimensions
 
-There are six dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range:
+There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range:
 
-[cols=4*,options="header"]
+[cols=5*,options="header"]
 |===
 |Dimension
 |Explanation
-|Healthy range
-|Unhealthy range
+|Top figure
+|Bottom figure
+|Healthy / Unhealthy range
 
-|HRV Gain
-|xx
-|xx <<note-age, how this differs with age>>
-|xx
+a|image::hrv_pie.png[]
+|The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details https://sleep.urbandroid.org/hrv-tracking/[here]).
+|Difference between hrv after and hrv before.
+|HRV after (the last low activity period before awake up).
+|Healthy: over 2
+Unhealthy: under -5
 
-|Breath
-|xx
-|xx <<note-age, how this differs with age>>
-|xx
+a|image::BR_pie.png[]
+|Breathing disturbance episodes per hour <</sleep/sleep_apnea#, here>> and <</sleep/breath_rate#, here>>.
+|Average breathing disturbance episodes per hour.
+|
+|Healthy: under 10
+Unhealthy: over 20
 
-|Irregularity
+a|image::irregularity_pie.png[]
 |How irregular your sleep is. Variance of your mid-sleep hour.
-|under 0.5 hours
-|over 1 hour
+|Deviation of sleep duration and mid sleep hour.
+|
+|Healthy: under 0.5 hours
+Unhelathy: over 1 hour
 
-|Deep sleep percentage
+a|image::deepsleep_pie.png[]
 |How long you've been in deep sleep compared to the total sleep duration.
-|over 30%
-|under 20%
-
+|Average % of deep sleep
 |Duration
+|Healthy: over 30%
+Unhealthy: under 20%
+
+a|image::duration_pie.png[]
 |How long have you been sleeping.
-|6.5 hours to 8.5 hours, see <<note-age, how this differs with age>>
-|less than 6.5 hours, or more than 8.5 hours
+|Average duration
+|Deficit or surplus
+|Healthy: 6.5 hours to 8.5 hours, see <<note-age, how this differs with age>>
+Unhealthy: less than 6.5 hours, or more than 8.5 hours
 
-|Sleep efficiency
+a|image::efficiency_pie.png[]
 |How long you've been actually sleeping vs. being in bed.
-|over 95%
-|under 85%
+|Sleep/awake ratio in %
+|Average duration of awakes
+|Healthy: over 95%
+Unhealthy: under 85%
 
-|Subjective rating
-|Your average subjective rating
-|over 3.5 stars
-|under 2 stars
+a|image::rating_pie.png[]
+|Your average subjective rating.
+|Your average rating
+|Max rating
+|Healthy: over 3.5 stars
+Unhealthy: under 2 stars
 
-|Snoring
+a|image::snoring_pie.png[]
 |How long you've been snoring compared to the total sleep duration.
-|under 3%
-|over 10%
+|Average % of snoring
+|Total duration of snoring
+|Healthy: under 3%
+Unhealthy: over 10%
 
 |===
 
