@@ -125,4 +125,6 @@ Mark any period as awake::
 * You can revert up to 5 changes from the ⋮ _menu -> Undo_, or from an _Undo_ banner that is displayed each time you edit the graph.
 Delete false-positive awakes::
 . Open ⋮ _menu -> Delete awake_.
-* Deletes all awakes from the graph.
+* Deletes all awakes (the awakes estimated by the app) from the graph.
+
+NOTE: Deleting awakes won't work for paused tracking (there is no sensoric data from that period) and for the awakes manually entered by the user.
