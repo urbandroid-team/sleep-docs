@@ -7,7 +7,27 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210403
+== Latest version 20210419
+– Teal color palette (aka Color palette: Theme) is now default option
+– Color platte (Settings > Personalization) now affect more UI elements
+– Different Color themes are now more fine-tunes
+– Color theme tutorial and news cards
+– Fix for zero progress shown as 50% in sleep score pie charts
+– Sleep API threshold adjustments, for cases when automatic sleep tracking does not start
+– Sleep API sleep time estimates only shown if sleep is in a probable range
+– Google Sleep API opt-out option in Settings > Sleep tracking > Automatic sleep tracking > Use Google Sleep API
+– Hint on pie views scroll-ability in sleep detail view
+– HRV pie chart adjustment – now shows HRV Gain in the middle and HRV before wake in the bottom
+– Fix for dismiss button on rating screen
+– Screen Score radar chart updated to show all sleep score measures
+– Warning on Sonar sensor test about headphones being plugged
+– Fixes in last sleep record card on Dashboard in case of short graphs
+– Automation event Before Smart Period for those who need to turn their thermostat earlier
+– New shortcut to start track for target sleep duration + before bedtime offset
+– Fix for fine location requirement when using SleepPhaser on new Android versions to make BT devices visible
+– Chinese translations (big thanks!)
+
+== 20210403
 – Redesign of Stats, Charts and SleepScore
 – Integration with new Google Sleep API for more precise sleep time estimates and automatic sleep tracking with minimal battery impact
 – Fix for “Force English” in combination with be-weekly alarm schedules. If you use both options, please check your alarms!!!
