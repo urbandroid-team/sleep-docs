@@ -34,7 +34,7 @@ Voice:: Use the mic icon icon:ic_action_mic[] and then say the time aloud. Googl
 Keyboard:: Use the e.g. *700* text field and type the time in HHMM format.
 Wake up at the next sunrise:: Use the icon:ic_action_sunrise[] button - the alarm will be scheduled for your local sunrise time.
 NOTE: Location permission is needed for sunrise alarms.
-Wake up at an ideal time:: Tap on the *Ideal* button. The time is scheduled to reach your <</sleep/ideal_daily_sleep#,Ideal daily sleep income>>.
+Wake up at an ideal time:: Tap on the *Goal* button. The time is scheduled to reach your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>.
 
 
 [[figure-new-alarm]]

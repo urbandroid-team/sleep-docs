@@ -16,14 +16,14 @@ Bedtime notification is an effective way to maintain optimal sleep length or fig
 [NOTE]
 ====
 The time to trigger the notification is calculated as follows:
-`bedtime = next alarm time – ideal daily sleep income`
+`bedtime = next alarm time – daily sleep duration goal`
 ====
 
-See how to configure your <</sleep/ideal_daily_sleep#,Ideal daily sleep income>>
+See how to configure your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>
 
 
 [EXAMPLE]
-You've set _ideal daily sleep income_ to 7 hours, and an alarm for 6 AM.
+You've set your _Daily sleep duration goal_ to 7 hours, and an alarm for 6 AM.
 Your bedtime would be 11 PM.
 
 
@@ -35,7 +35,7 @@ _per-alarm settings -> Bedtime notifications_
 
 == Options
 [horizontal]
-Ideal daily sleep income:: Set how much time would you ideally want to sleep each night. See also <</sleep/ideal_daily_sleep#,Ideal daily sleep income>>.
+Daily sleep duration goal:: Set how much time would you ideally want to sleep each night. See also <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>.
 Bedtime notification:: Enable bedtime notification and set how long before bedtime to receive it.
 Repeat:: How often should the notification repeat
 +
@@ -45,7 +45,7 @@ Repeat:: How often should the notification repeat
 Smart bedtime::
   When enabled, smart bedtime adjusts the notification time according to your sleep deficit for the last 5 days, average length of the smart wake up period, and default pause at the beginning of sleep tracking
 +
-`smart time to bed = next alarm – ideal daily sleep income – smart period – delayed tracking – in(5 days avg. sleep deficit > 10 min, 45 min)`
+`smart time to bed = next alarm – daily sleep duration goal – smart period – delayed tracking – in(5 days avg. sleep deficit > 10 min, 45 min)`
 
 [horizontal]
 Per-alarm bedtime notification:: A special case of bedtime notifications for polyphasic sleeping schedules (see <</alarms/polyphasic#,Polyphasic sleeping schedule>>)

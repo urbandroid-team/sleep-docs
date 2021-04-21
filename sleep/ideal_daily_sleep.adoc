@@ -13,7 +13,7 @@ parent: /sleep/0parent.html
 _Settings -> Bedtime notification -> Daily sleep duration goal_
 
 == Guide
-Ideal daily sleep income affects:
+Daily sleep duration affects:
 
 - <</alarms/bedtime_notification#,bedtime notification>>
 - counting of your <</sleep/charts#deficit,sleep deficit>>

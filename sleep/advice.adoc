@@ -37,7 +37,7 @@ For some dimensions there are further checks, such as whether your data are with
 |Duration
 a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
 * Is it in healthy bounds for your age? General (6.5 - 9), school age (9 - 11), teenager (8 - 10), young (7 - 9), elderly (6 - 9).
-* Does it meets your <</sleep/ideal_daily_sleep#,Ideal daily sleep>> target?
+* Does it meets your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>?
 * How does it compare to others in your country?
 
 

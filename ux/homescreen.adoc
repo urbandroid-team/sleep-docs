@@ -72,7 +72,7 @@ Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 |Start sleep tracking: Starts sleep tracking manually.
 
 |icon:ic_action_bedtime[]
-|Ideal sleep: Starts sleep tracking with and alarm based on your ideal daily sleep income (+ smart period and tracking start delay).
+|Sleep X hour: Starts sleep tracking with and alarm based on your<</sleep/ideal_daily_sleep#,Daily sleep duration goal>> (+ smart period and tracking start delay).
 
 |icon:ic_action_snooze[]
 |Nap: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
@@ -85,7 +85,7 @@ Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 
 |===
 +
-NOTE: You can create a shortcut (Add alarm, Nap, Ideal sleep and Sleep tracking) for your main screen.
+NOTE: You can create a shortcut (Add alarm, Nap, Sleep X hours and Sleep tracking) for your main screen.
 Add-on card::
 A short presentation of our add-ons, compatible devices or our other apps.
 * Tapping this card opens list of add-ons and other applications made by our team.

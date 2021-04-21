@@ -20,7 +20,7 @@ Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of
 You can further adjust your statistics settings in _Settings -> Sleep -> Stats_.
 
 [horizontal]
-Daily sleep duration goal:: What is your ideal sleep duration target for a typical day. This is used calculate your _Sleep deficit = Ideal daily sleep income - Average sleep duration for selected period_. Read mode on <</sleep/ideal_daily_sleep#,daily sleep duration goal>>.
+Daily sleep duration goal:: What is your ideal sleep duration target for a typical day. This is used calculate your _Sleep deficit = Daily sleep duration goal - Average sleep duration for selected period_. Read mode on <</sleep/ideal_daily_sleep#,daily sleep duration goal>>.
 +
 EXAMPLE::Your ideal duration is 8 hours. Your average sleep for the last week is 7 and half hours. So your weekly sleep deficit is 30 minutes.[]
 +
