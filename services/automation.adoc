@@ -93,9 +93,9 @@ We are sending the following values:
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 rem:: Fires when we estimate the start of REM phase.
 smart_period:: Fires at the start of the smart period.
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
+before_smart_period:: Fires 45 minutes before the start of smart period.
+We are sending the following value:
+* value: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 lullaby_start:: Fires when lullaby starts playing.
 lullaby_stop:: Fires when lullaby is stopped (either manually or automatically).
 lullaby_volume_down:: Fires when we detect you fell asleep and starting lowering the volume of lullabies.
