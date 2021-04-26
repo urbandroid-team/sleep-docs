@@ -83,8 +83,8 @@ NOTE: With all settings we require the screen to be on for longer than your _Pho
 
 [horizontal]
 Low sensitivity:: only screen on
-Medium sensitivity:: screen on + position of the phone is unusual
-High sensitivity:: screen on + position is unusual + phone acceleration is unusual
+Medium sensitivity:: screen on, or position of the phone is unusual
+High sensitivity:: screen on, or position is unusual, or phone acceleration is unusual
 
 === Pause tracking
 

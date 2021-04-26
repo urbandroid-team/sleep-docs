@@ -38,6 +38,16 @@ Wake up at an ideal time:: Tap on the *Goal* button. The time is scheduled to re
 
 
 [[figure-new-alarm]]
-.Two types of alarm pickers
-image::time_picker.png[]
+
+
+[cols="1,1"]
+|===
+a| .Analogue time picker
+image::time_picker_a.png[]
+
+a| .Wheel time picker
+image::time_picker_b.png[]
+
+|===
+
 
