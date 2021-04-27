@@ -12,6 +12,8 @@ tags:
 Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools & MiBand and Tools & Amazfit app, you can use some devices with Sleep app.
 https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools[Tools & Mi Band] and https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools[Tools & Amazfit] are developed by https://play.google.com/store/apps/developer?id=Tools+%26+Wearables+Ltd[Tools & Wearables Ltd.].
 
+You can check the Tools app https://help.mibandtools.com/knowledge_base/categories/mi-band-tools-faq-frequently-asked-questions[page with FAQs], page for https://help.mibandtools.com/knowledge_base/topics/sleep-as-android[Sleep as Android integration for Mi Bands], and page for https://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit[Sleep as Android integration for Amazfit].
+
 == Supported Mi Bands[[supported_wearables]]
 
 - Mi Band 1. 1.0, 1A
