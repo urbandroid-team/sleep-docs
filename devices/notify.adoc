@@ -92,10 +92,13 @@ image::NF_button.png[width=80%]
 
 == Custom vibration pattern
 
-. Enable custom vibrations in Sleep as Android settings section.
+. First, enable wearable vibrations in Sleep app in _Settings -> Wearables -> Alarm_.
+. Open Notify app and enable custom vibrations in Sleep as Android settings section.
 . Open the vibration settings with the _Vibration_ button.
 . Adjust the vibration pattern - you can change intensity and duration, and also vibration delay.
 . Test the resulting vibration pattern with the Play button in the top right corner.
+
+NOTE: You can also have a silent alarm with vibrations only, for details, see <</alarms/alarm_settings/guide#, the guide>>)
 
 +
 [cols="^,^"]

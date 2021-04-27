@@ -66,13 +66,13 @@ In _Left_ ☰ _menu -> Settings -> Sleep as Android -> Mi Band Button Action_
 - *Snooze*
 
 == Custom vibrations
-
+. First, enable wearable vibrations in Sleep app in _Settings -> Wearables -> Alarm_.
 . Enable priority override mode for MiBand Tools app: pull down the notification bar, and on the MiBand Tools status bar notification, press the first icon multiple times, until you enter priority override mode = you will se an exclamation mark.
 . In Mi Band Tools app: _Left_ ☰ _menu -> Settings -> Sleep as Android -> Custom vibration_ adjust the vibrations. You can set vibration count and length, and delay between vibrations.
 . Test the resulting vibration pattern with _Test vibration_.
 
+NOTE: You can also have a silent alarm with vibrations only, for details, see <</alarms/alarm_settings/guide#, the guide>>)
 
-+
 [cols="^,^,^"]
 |===
 a|.From the Left ☰ menu, choose _Settings_.
@@ -85,4 +85,3 @@ a|.Find _Custom vibration_.
 image::TMB_vibr_3.png[width=80%]
 
 |===
-+
