@@ -9,8 +9,9 @@ tags:
 - wearable
 ---
 
-Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Notify app, you can use some devices with Sleep app.
-https://play.google.com/store/apps/details?id=com.mc.miband1&hl=en[Notify app for Mi Band] and https://play.google.com/store/apps/details?id=com.mc.amazfit1&hl=en[Notify app for Amazfit & Zepp] is developed by https://play.google.com/store/apps/developer?id=OneZeroBit&hl=en[OneZerobit].
+Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.
+But thanks to the Notify app, you can use some devices with Sleep app.
+https://play.google.com/store/apps/details?id=com.mc.miband1&hl=en[Notify app for Mi Band] and https://play.google.com/store/apps/details?id=com.mc.amazfit1&hl=en[Notify app for Amazfit & Zepp] are developed by https://play.google.com/store/apps/developer?id=OneZeroBit&hl=en[OneZerobit].
 
 == Supported Mi Bands[[supported_wearables]]
 
@@ -25,11 +26,9 @@ https://play.google.com/store/apps/details?id=com.mc.miband1&hl=en[Notify app fo
 
 - Amazfit T-Rex
 - Amazfit GTS
-- Amazfit GTR (47mm & 42mm)
-- Amazfit GTR Lite (47mm & 42mm)
+- Amazfit GTR, GTR Lite (47mm & 42mm)
 - Amazfit Verge Lite
-- Amazfit Bip Lite
-- Amazfit Bip & Amazfit Bip S
+- Amazfit Bip, Bip Lite, Bip S
 - Amazfit Mi Dong Cor
 - Amazfit Arc
 
@@ -64,11 +63,11 @@ NOTE: Sleep tracking collects data the whole night and they are analyzed in real
 |===
 a|[[nf_hr1]]
 .Notify&Fitness HR monitoring enabled
-image::nf_hr2.png[]
+image::nf_hr2.png[width=80%]
 
 a|[[nf_hr2]]
 .Notify&Fintess HR data enabled for Sleep
-image::nf_hr1.png[]
+image::nf_hr1.png[width=80%]
 
 |===
 
@@ -81,7 +80,7 @@ image::nf_hr1.png[]
 a|.Open _Settings_ for Sleep as Android integration.
 image::NF_vibr_2.png[width=80%]
 
-a|.Find _Custom vibration_.
+a|.Choose the action of the button.
 image::NF_button.png[width=80%]
 
 |===

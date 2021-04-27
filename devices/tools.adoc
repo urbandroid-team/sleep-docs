@@ -1,0 +1,88 @@
+---
+layout: default
+title: Tools & Mi Band and Amazfit
+nav_order: 2
+parent: /devices/wearables.html
+tags:
+- miband
+- notify
+- wearable
+---
+
+Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools & MiBand and Tools & Amazfit app, you can use some devices with Sleep app.
+https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools[Tools & Mi Band] and https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools[Tools & Amazfit] are developed by https://play.google.com/store/apps/developer?id=Tools+%26+Wearables+Ltd[Tools & Wearables Ltd.].
+
+== Supported Mi Bands[[supported_wearables]]
+
+- Mi Band 1. 1.0, 1A
+- Mi Band 2
+- Mi Band 3
+- Mi Band 4
+- Mi Band 5
+- Mi Band 6
+
+== Supported Amazfits[[supported_wearables]]
+
+- Amazfit GTS, GTS 2, GTS 2E, GTS 2 mini
+- Amazfit GTR, GTR 2, GTR 2R
+- Amazfit Bip, Bit Lite, Bip S
+- Amazfit Cor, Cor 2
+- Amazfit Arc
+- Amazfit BAnd 5
+
+== How to set up integration in Tools app
+
+The Tools app is ready to use with Sleep app, you do not need to enable the integration.
+
+== How to set up integration in Sleep app
+
+. Open _Settings -> Wearables -> Use wearable_.
+. Choose the correct option from the list.
+. For HR data enable _Settings -> Wearable -> Heart rate monitoring_.
+
+NOTE: Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
+
+== HR monitoring
+
+Check your HR settings in the Mi Fit app.
+When the Mi Band is in *Sleep Assistant* HR mode in Mi Fit, it doesn’t feed the HR data to Mi Band Tools / Sleep as Android. When it is in regular HR tracking mode (24-hour), it works.
+
+. Enable _Heart Rate Monitor_ in T&MB _Left_ ☰ _menu -> Heart Rate_ -> icon:ic_cog[] -> _Heart Rate monitor_
+
+[cols="^"]
+|===
+a|[[tmb_hr]]
+.Enabled HR monitoring in Tools&MiBand app
+image::tmb_hr.png[width=80%]
+
+|===
+
+== Button snooze / dismiss
+
+In _Left_ ☰ _menu -> Settings -> Sleep as Android -> Mi Band Button Action_
+
+- *None* - the button will not have any effect on alarm
+- *Dismiss*
+- *Snooze*
+
+== Custom vibrations
+
+. Enable priority override mode for MiBand Tools app: pull down the notification bar, and on the MiBand Tools status bar notification, press the first icon multiple times, until you enter priority override mode = you will se an exclamation mark.
+. In Mi Band Tools app: _Left_ ☰ _menu -> Settings -> Sleep as Android -> Custom vibration_ adjust the vibrations. You can set vibration count and length, and delay between vibrations.
+. Test the resulting vibration pattern with _Test vibration_.
+
+
++
+[cols="^,^,^"]
+|===
+a|.From the Left ☰ menu, choose _Settings_.
+image::TMB_vibr_1.png[width=80%]
+
+a|.Find _Sleep as Android_ section.
+image::TMB_vibr_2.png[width=80%]
+
+a|.Find _Custom vibration_.
+image::TMB_vibr_3.png[width=80%]
+
+|===
++
