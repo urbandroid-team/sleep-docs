@@ -91,6 +91,8 @@ alarm_skip_next:: Fires when you tap dismiss an alarm from notification before i
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
+show_skip_next_alarm:: Fires exactly 1 hour before the next alarm is triggered.
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 rem:: Fires when we estimate the start of REM phase.
 smart_period:: Fires at the start of the smart period.
 before_smart_period:: Fires 45 minutes before the start of smart period.

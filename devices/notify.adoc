@@ -13,6 +13,8 @@ Sleep as Android does not have direct integration with Mi Bands and Amazfit, bec
 But thanks to the Notify app, you can use some devices with Sleep app.
 https://play.google.com/store/apps/details?id=com.mc.miband1&hl=en[Notify app for Mi Band] and https://play.google.com/store/apps/details?id=com.mc.amazfit1&hl=en[Notify app for Amazfit & Zepp] are developed by https://play.google.com/store/apps/developer?id=OneZeroBit&hl=en[OneZerobit].
 
+You can visit Notify app page for http://forum.mibandnotify.com/discussion/20117/sleep-as-android-integration[Sleep as Android integration here].
+
 == Supported Mi Bands[[supported_wearables]]
 
 - Mi Band 1, 1S and 1A
@@ -21,6 +23,7 @@ https://play.google.com/store/apps/details?id=com.mc.miband1&hl=en[Notify app fo
 - Mi Band 3 and 3i
 - Mi Band 4
 - Mi Band 5
+- Mi Band 6
 
 == Supported Amazfits[[supported_wearables]]
 
@@ -56,17 +59,16 @@ NOTE: Sleep tracking collects data the whole night and they are analyzed in real
 
 == HR monitoring
 
-. Enable heart rate monitoring in N&F icon:ic_action_graph[] -> _Heart_ section icon:ic_cog[]  -> _Heart monitor_
 . Enable collecting HR data by the Sleep app in N&F icon:ic_action_graph[] -> _Sleep_ section icon:ic_cog[] -> _Sleep as Android -> Settings -> Heart monitor_
+. Enable collecting dat in Sleep app in _Settings -> Wearables -> Heart rate monitoring_
 
 [cols="^,^"]
 |===
-a|[[nf_hr1]]
-.Notify&Fitness HR monitoring enabled
-image::nf_hr2.png[width=80%]
 
-a|[[nf_hr2]]
-.Notify&Fintess HR data enabled for Sleep
+a|.Open _Settings_ for Sleep as Android integration.
+image::NF_vibr_2.png[width=80%]
+
+a|.Notify&Fintess HR data enabled for Sleep
 image::nf_hr1.png[width=80%]
 
 |===
