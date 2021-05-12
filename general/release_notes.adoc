@@ -7,7 +7,36 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210423
+== Latest version 20210505
+– Other people stats updated with latest data from 2020 and 2021
+– News card promoting Other people stats
+– Fix for rare cases when Unlock app is not recognized
+– Link to updated app video
+– Fix for rate ANRs when starting services
+– New automation event will trigger 1 hour before scheduled alarm
+– Fix for faster loading for dashboard
+– Better contrast for sleep score description text
+– Faster loading of main screen fix
+– Big update in Hungarian and Romanian (Big thanks to Dora)
+
+== 20210430
+– 4th generation of sound recognition neural networks: Networks are an order bigger with higher success rare in problematic environments and on problematic devices
+– More improvements in new sound classification – fixes for some breath types being misclassified as snoring
+– Charts > Advice shows efficiency bars in addition to deep sleep and rating
+– Fix for syncing Cloud and Health services when connectivity is available
+– Fix hor HRV gain pie chart not shown when gain is negative
+– Stats screen redesign:
+* filtering by tags
+* compare your data with others in your country or in the world – list of all countries
+– Fix for rare ANR issue related to sleep item estimation using Sleep API
+– Fix for sleep time suggestions being shown again
+– Several minor bug fixes
+– Fix for showing actigraph markers better at the edge of the graph
+– More smaller color palette tweaks
+– Bigger update in Hungarian (many thanks)
+
+
+== 20210423
 – Teal color palette (aka Color palette: Theme) is now default option
 – Color platte (Settings > Personalization) now affect more UI elements
 – Different Color themes are now more fine-tunes
