@@ -7,7 +7,39 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210505
+== Latest version 20210525
+– Material Components theme – improved visual appearance of many default components – more Material look
+– New material design time picker (needs enabling in Settings > Personalization > Material Time Picker)
+– Rounded corners for dialogs
+– Fix for SPO2 measurement on Wear OS when starting from
+– Open time picker when accessing alarm from quick settings
+– Consistent styling of dialogs and menus with theme colors
+– Use of condensed fonts in several places e.g. card titles or times
+– Fix for sleep score pie charts with large fonts on some devices
+– Fix for default alarm fallback when Wifi is off with online radio ringtone
+– Potential fix for an issues with missing SPO2 when starting sleep tracking from Wear OS watch
+– Better coloring of postpone time on alarm cards
+– Lullaby Stop is now a dialog button
+– Fixes in Automatic sleep tracking when using Google Sleep API
+– Fine-tuning confidence levels for automatic sleep tracking when using Google Sleep API
+– Fix in Sleep Score pie views in extremely large font settings
+– Updates in German, Italian and Albanian translation (big thanks!)
+
+== 20210517
+– Material Components theme – improved visual appearance of many default components – more Material look
+– New material design time picker
+– Consistent styling of dialogs and menus with theme colors
+– Use of condensed fonts in several places e.g. card titles or times
+– Fix for sleep score pie charts with large fonts on some devices
+– Fix for default alarm fallback when Wifi is off with online radio ringtone
+– better coloring of postpone time on alarm cards
+– Lullaby Stop is now a dialog button
+– Fixes in Automatic sleep tracking when using Google Sleep API
+– Fine-tuning confidence levels for automatic sleep tracking when using Google Sleep API
+– Fix in Sleep Score pie views in extremely low DPI screens
+– Updates in German, Italian and Albanian translation (big thanks!)
+
+== 20210505
 – Other people stats updated with latest data from 2020 and 2021
 – News card promoting Other people stats
 – Fix for rare cases when Unlock app is not recognized
