@@ -7,7 +7,22 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210525
+== Latest version 20210616
+– use on non-sensitive scopes for Google Calendar Sync (Setting > Services > Google Calendar)
+* fixes the “App is blocked” issue for new users
+* instead of the “Sleep” calendar now data will be stored in the app created “Sleep as Android” calendar
+– Best of noises card now support also laughter, cough and sneeze and baby crying
+– Fix for #light tag being added even when there wasn’t significant light most of the night
+– Fix for rare crash in slider preferences – e.g. on the set alarm screen
+– Fix for slider values not being persisted if selected form the drop down menu
+– Fix for 1 minute precision differences in sleep duration on graphs list vs. graph detail
+– Better handling of tapping on the last sleep card to showing last graph detail
+– Fix for already owned error when purchasing CAPTCHA wagers
+– Tag filter drop down on Stats screen now shows tag counts
+– Fix for disabled slider color
+– Big update in Spanish localization (many thanks!)
+
+== 20210525
 – Material Components theme – improved visual appearance of many default components – more Material look
 – New material design time picker (needs enabling in Settings > Personalization > Material Time Picker)
 – Rounded corners for dialogs
