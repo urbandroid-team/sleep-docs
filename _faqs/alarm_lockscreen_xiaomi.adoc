@@ -9,6 +9,14 @@ tags:
   - samsung
 ---
 
+.Generally all new Android versions
+
+Google made it impossible to start screens from the background on newer Android versions. This is why we can no longer show the alarm screen with the big buttons under usual settings. The app can just show notifications from the background if the screen is on when the alarm starts. If the screen is locked we usually are able to show the full-screen alarm.
+
+. Go to _Settings -> Alarms -> Always fullscreen alarm_ (might be hidden under Advanced in Snooze/Dismiss section), and enable this option.
+. It will take you to the system settings, where you need to grant the *Draw over other apps* permission.
+
+
 .XiaoMi / MIUI
 On Xiaomi/MIUI, you need to grant special permission to Sleep as Android so that it may unlock your screen during alarm.
 
