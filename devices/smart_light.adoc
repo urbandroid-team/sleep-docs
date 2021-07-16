@@ -61,13 +61,16 @@ Use Sleep Mask:: Enable to use your https://www.happy-electronics.eu/shop/en/hom
 
 == Guide
 
-=== How to setup sunrise alarm (sunrise-like wakeup) ?
 [[sunrise_alarm_guide]]
+
+=== How to setup sunrise alarm (sunrise-like wakeup) ?
+
 . Enable _Settings -> Smartlight -> Use smartlight_
 . Select your smartlight:
 * Use phone's screen as a smartlight: Enable _Smartlight -> Use screen light_
 * Use a smartbulb as a smartlight: Connect using _Smartlight -> Philips HUE, IKEA Trådfri (disconnected)_
 * Use Sleep Phaser as a smartlight: Connect using _Smartlight -> Sleep Phaser (disconnected)_ and enable _Smartlight_ right under it.
+* Use cable-type Sleep Mask as a smartlight: Connect using _Smartlight -> Use Sleep Mask_.
 
 After you've done the above steps to connect and enable the smartlight of your choice, all of your alarms will turn on the smartlight when they start ringing. Now, to have a truly sunrise wakeup, you probably want the smartlight to turn on _before_ the alarm rings.
 
