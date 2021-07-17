@@ -51,7 +51,7 @@ NOTE: All smartlight features are enabled automatically now - including anti-sno
 . Power on the Sleep Mask using an ON/OFF switch.
 . On your mobile device, make sure that Bluetooth is enabled and the Sleep app has Location permissiom (required for BT scanning).
 . In Sleep as Android, go to _Settings -> Smartlight -> Enable_ (at the very top) to enable smartlight functions in the app.
-. Then, scroll down to the Sleep Mask section, tick the *Use SleepMask*,
+. Then, scroll down to the Sleep Mask section, tick the *Use SleepMask*.
 . Tap on *Connect Sleep Mask BlueTooth*.
 . Wait till the Sleep Mask is listed in the dialogue and select it.
 . Now the mask is paired (you will see a BT address below Connect Sleep Mask BlueTooth). The Mask also blinks to confirm the connection.
