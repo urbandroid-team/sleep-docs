@@ -25,11 +25,11 @@ image::mask1.jpg[]
 image::mask2.jpg[]
 
 * Sunrise alarm: from low red to full yellow, no more annoying alarm sounds
-* Light stimulated lullabies for faster fall asleep (cable type mask)
 * Lucid dreaming: learn to control and remember your dreams
 * Anti-snoring
 * Comfortable to wear all night
 
+NOTE: SleepMasks are compatible with https://play.google.com/store/apps/details?id=com.urbandroid.mind&hl=en&gl=US[Mindroid app] as well.
 
 ## Where to find it
 _Settings -> Smartlight -> Use Sleep Mask_ (both types)
@@ -44,7 +44,7 @@ _Settings -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
 . Connect the cable to the micro USB port of your Android device. A diode lights on.
 . In the Sleep as Android  _Settings -> Smartlight_ ,scroll down to the Sleep Mask section, tick the *Use SleepMask*.
 
-NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues,  <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>, and lullabies.
+NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>.
 
 === Bluetooth type Sleep Mask
 
@@ -56,6 +56,5 @@ NOTE: All smartlight features are enabled automatically now - including anti-sno
 . Wait till the Sleep Mask is listed in the dialogue and select it.
 . Now the mask is paired (you will see a BT address below Connect Sleep Mask BlueTooth). The Mask also blinks to confirm the connection.
 
-NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues,  <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>.
+NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>.
 
-NOTE: you can have light lullabies with BT mask too, but only with https://play.google.com/store/apps/details?id=com.urbandroid.mind&hl=en&gl=US[Mindroid app].
