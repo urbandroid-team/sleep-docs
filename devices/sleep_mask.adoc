@@ -29,8 +29,6 @@ image::mask2.jpg[]
 * Anti-snoring
 * Comfortable to wear all night
 
-NOTE: SleepMasks are compatible with https://play.google.com/store/apps/details?id=com.urbandroid.mind&hl=en&gl=US[Mindroid app] as well.
-
 ## Where to find it
 _Settings -> Smartlight -> Use Sleep Mask_ (both types)
 _Settings -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
