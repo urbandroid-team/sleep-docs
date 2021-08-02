@@ -40,3 +40,9 @@ image::hrbr.png[]
 . Connect the oximeter to the app by tapping *Sleep as Android -> Settings -> Wearables -> Pulse oximeter*
 
 Now when you start sleep tracking, Sleep will connect to your oximeter to gather SpO~2~ and HR data.
+
+## Medical-grade home sleep apnea test (US only)
+
+If you see high RDI levels when using an commodity oximeter you may consider to confirm or deny those results with a disposable home test for sleep apnea analyzed by medical professionals.
+
+We have partnered with Sleep Master Solution to bring you such a test in the US, link:https://sleepmastersolutions.com/sleepasandroid/[Read more].
