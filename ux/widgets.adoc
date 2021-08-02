@@ -32,7 +32,7 @@ image::shortcuts_w_2.png[]
 [horizontal]
 Add alarm:: Creates a widget for quick access to the dialogue for creating a new alarm.
 Nap X min:: Creates a nap from your last used nap.
-Ideal sleep length:: Creates a widget to start tracking to reach your ideal daily sleep income set in _Settings_ (accounts for sleep tracking delay and smart period, to ensure you really reach the needed sleep income).
+Sleep duration goal:: Creates a widget to start tracking to reach your Daily sleep duration goal set in _Settings_ (accounts for sleep tracking delay and smart period, to ensure you really reach the needed sleep income).
 Sleep tracking:: Starts tracking.
 
 == Troubleshooting

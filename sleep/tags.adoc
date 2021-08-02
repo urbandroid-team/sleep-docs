@@ -82,6 +82,7 @@ icon:ic_pair[] \#pair (<</sleep/pair_tracking#,pair tracking>> was active)
 icon:ic_automagic[] \#auto (<</sleep/automatic_sleep_tracking#,automatic tracking>>)
 icon:ic_lightbulb_off[] \#dark (less than 30 lux for at least 90% of the night, see <</sleep/light_level#, Light level tracking>>)
 icon:ic_lightbulb[] \#light (more than 60 lux for at least 33% of the night, see <</sleep/light_level#, Light level tracking>>)
+icon:ic_walk[] \#sport (when at least 80% of the goal (Steps or Heart points) is achieved during the day, see <</services/google_fit#,Google Fit>>)
 |===
 
 ===== Location tags
@@ -124,6 +125,32 @@ It is also possible to track frequency of your events. For example #caffeine_3x 
 NOTE: Support for automated analysis of the frequency information is not yet included in the app, but it is planned in coming versions.
 
 You can add frequencies easily but pressing the tag button multiple times. To delete a tag on the other hand — long press the tag icon.
+
+=== Editing tags
+
+Your personal tags can be edited, if needed. The tags will be changed on all graphs and also for the statistics.
+
+video::7edhMVA3t1g[youtube]
+
+NOTE: You can edit only text tags, emoji tags cannot be altered at this moment.
+
+==== Renaming tags
+1. Open the list of graphs from the _Left_ ☰ _menu -> Graphs_.
+2. Long press on the graph and select _Rename tag_.
+3. To the first field, type the old name of your tag.
+4. To the second field, type the new name of your tag.
+5. Confirm with OK button.
+6. Confirm the 'Are you sure?' dialogue.
+
+==== Deleting tags
+
+1. Open the list of graphs from the _Left_ ☰ _menu -> Graphs_.
+2. Long press on the graph and select _Rename tag_.
+3. To the first field, type the old name of your tag.
+4. Keep the second field empty.
+5. Confirm with OK button.
+6. Confirm the 'Are you sure?' dialogue.
+
 
 === Analyzing tags
 Tags divide your sleep history so you can compare nights with a given tag to nights without that tag. See <</sleep/charts#tags, Charts>>.

@@ -28,17 +28,26 @@ The app uses Actigraphy – activity-based sleep tracking – as the method of e
 |===
 a|
 .Sleep record statistics
-image::numbers.png[]
-a|*Sleep record end date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end and not start?>>
-*Deep sleep*::
-- Top value (%) shows deep sleep ratio (how big a portion of the night did you spend in deep sleep).
-- Bottom value (hours:minutes) shows deep sleep duration.
-*Duration*::
-- Top value (hours:minutes) shows sleep duration (sum of all sleep phases, awakes are not counted).
-- Bottom value shows the [color-green]#surplus# or [color-red]#deficit# compared to your <</sleep/ideal_daily_sleep,Ideal daily sleep income>>.
-*Snoring*::
-- Top value (%) shows snoring ratio (how big a portion of the night did you spend snoring).
-- Bottom value (hours:minutes) shows snoring duration.
+image::graph_score.png[]
+a|*End date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end and not start?>>
+
+*Share icon*:: sharing resulting graphs with your friends, doctor, or support
+
+*(?)*:: Help button with graph's legend
+
+*(⁝) menu*::
+- Comment - adds a note to your graph
+- Noise - opens the list of recorded files
+- Color palette - changes the look
+- Delete awake - deletes awakes detected by the app
+- Delete - deletes the whole graph
+- Clip to clipboard
+- Undo -reverts changes done to the graph
+
+*Sleep score pie charts*::
+- Sleep score pie charts are scrollable, and their order can be changed.
+- Read more details about sleep score in <</sleep/sleepscore,sleep score chapter>>.
+
 |===
 
 === Actigraph
@@ -46,8 +55,14 @@ a|*Sleep record end date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end 
 [cols="1,2"]
 |===
 a|.Actigraph
-image::acti.png[]
-a|*Actigraph* shows the intensity of your nightly movements. The higher the peak, the more you’ve been moving.
+image::graph_acti.png[]
+a|*Rating*::
+- Rate your sleep each morning - it will give the app your subjective evaluation for statistics.
+
+*Actigraph*::
+- Shows the intensity of your nightly movements.
+- The higher the peak, the more you’ve been moving.
+
 |===
 
 === Hypnogram
@@ -55,12 +70,13 @@ a|*Actigraph* shows the intensity of your nightly movements. The higher the peak
 [cols="1,2"]
 |===
 a|.Hypnogram
-image::phase.png[]
-a|*The hypnogram* shows your <</sleep/sleep_tracking_theory#,sleep phases>> progress during the night, estimated from actigraphic data and other inputs (e.g. awake periods).
+image::graph_phase.png[]
 
-- *Awake*: light green, the highest column reaching the top of the graph.
-- *REM phase and light sleep*: shown as medium green, REM has lower columns.
-- *Deep sleep*: shown as the lowest, dark green column.
+a|*The hypnogram*::
+- Shows your <</sleep/sleep_tracking_theory#,sleep phases>> progress during the night, estimated from actigraphic data and other inputs (e.g. awake periods).
+- *Awake*: lightest color, the highest column reaching the top of the graph.
+- *REM phase and light sleep*: shown as medium color, REM has lower columns.
+- *Deep sleep*: shown as the lowest, darkest shade.
 |===
 
 [cols="1,2"]
@@ -76,10 +92,10 @@ a|Red sections on your graph indicate that the app did not receive data from sen
 [cols="1,2"]
 |===
 a|.Noise graph
-image::snore.png[]
-a|*The noise graph* shows how much noise (sleep talk, snoring, environmental) was there throughout the night.
-
-When <</sleep/sound_recognition#,sound recognition>> is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with <<markers-and-icons,icons>>.
+image::graph_noise.png[]
+a|*The noise graph*::
+- Shows how much noise (sleep talk, snoring, environmental) was there throughout the night.
+- When <</sleep/sound_recognition#,sound recognition>> is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with <<markers-and-icons,icons>>.
 |===
 
 === Colored lines
@@ -87,7 +103,10 @@ When <</sleep/sound_recognition#,sound recognition>> is enabled, sounds (cry, la
 [cols="1,2"]
 |===
 a|.Oxygen level (Oximeter) + heart rate
-image::hrbr.png[]
+image::graph_colored.png[]
+
+.Heart rate + heart rate variability
+image::hrv.png[]
 
 .Light level + heart rate
 image::light.png[]
@@ -97,6 +116,7 @@ image::sonar_breath_rate.png[]
 
 a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>)
 - *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</sleep/heart_rate#,heart rate monitoring>>).
+- *Violet line* = heart rate variability. Dots with numbers represent local maximum and minimum (read more about https://sleep.urbandroid.org/hrv-tracking/[heart rate variablity]).
 - *Orange line* = light in your room in LUX units (read more about <</sleep/light_level#,light awake detection>>).
 - *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>).
 - *Dashed line* = smart period prior to alarm time (read more about <</alarms/smart_wake_up#,Smart wake up>>).

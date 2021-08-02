@@ -6,6 +6,8 @@ tags:
   - captcha
 ---
 
+WARNING: External scanners cannot be used together with Captcha Cheating protection feature.
+
 . If there is an issue with Google's vision API, the scanner might not recognize the QR code.
 . Try to use another QR scanner - e.g. Barcode Scanner and Google Lens are supported.
 . Clear the preferred app for QR scanning in _System settings -> Apps -> Sleep -> Clear defaults_.

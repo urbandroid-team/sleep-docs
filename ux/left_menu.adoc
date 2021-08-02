@@ -45,7 +45,7 @@ Available only in Tabs home screen mode. All the shortcuts from this menu can be
 [horizontal]
 
 icon:ic_action_track[] Start sleep tracking:: Starts sleep tracking.
-icon:ic_action_bedtime[] Ideal sleep:: Starts sleep tracking with and alarm based on your ideal daily sleep income (+ smart period and tracking start delay). See <</sleep/ideal_daily_sleep#,Ideal daily sleep income>> on how to configure this.
+icon:ic_action_bedtime[] Sleep X hours:: Starts sleep tracking with and alarm based on your daily sleep duration goal (+ smart period and tracking start delay). See <</sleep/ideal_daily_sleep#,Ideal daily sleep income>> on how to configure this.
 icon:ic_action_snooze[] Nap:: Schedules a nap and starts tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied. Nap options are based on your last used naps, see <</sleep/ideal_daily_sleep#,Scheduling a nap alarm>>.
 icon:plus[] Add sleep:: For adding a period of sleep manually, when you forgot to track sleep.
 icon:ic_alarm_plus[] Add alarm:: Create new alarm.

@@ -24,14 +24,28 @@ Single ringtone:: You can choose a single ringtone or multiple ringtones to crea
 Playlist:: Tap on the playlist icon in top right icon:ic_action_view_as_list[] and choose files to create your own playlist.
 Browse your local files:: Tap on the folder icon icon:ic_folder[] and select your files from your internal or external storage. The system file picker will show up and you may need to enable external storage access first before you can see it in the picker.
 Online radio:: You can add any radio you want, if you provide the stream URL (do not confuse with radio URL). Few SomaFM radios are added by default.
+Available online radios:
+- Ancient FM - https://www.gofundme.com/f/ancientfm-2021[a community funded radio station]
+- Bagel Rock
+- Beat Blender
+- Chillout Lounge
+- Covers
+- Folk Salad
+- Groove Salad
+- Illinois Street Lounge
+- Lush
+- Sleep Pill
+- Sonic Universe
+- Space station
+- Underground 80s
 
 +
 NOTE: In the morning, Sleep turns on the Wifi automatically and waits for 30 seconds while trying to establish the connection. If it can’t play radio, it plays the local ringtone.
 +
 
 Spotify playlist:: You can add your saved albums or playlists from Spotify’s _Your Library > Albums / Playlists_
-Other playlists (including <</faqs/google_play_music#,Google Play Music>> playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
-File-based playlists:: You can use any file-based playlist (.m3u, .pls) you have on your phone.
+
+Other playlists (including Google Play Music playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
 
 //#TODO: really?#
 
@@ -46,7 +60,7 @@ How to create your own playlist::
 * See a video guide
 
 +
-video::-3sDr9EnzTFHY4[youtube]
+video::Dr9EnzTFHY4[youtube]
 +
 
 How to add my own song, sound file::
@@ -56,5 +70,6 @@ How to add my own song, sound file::
 * See a video guide
 
 +
-video::-3sTWXKkFV2zS4[youtube]
+video::TWXKkFV2zS4[youtube]
 +
+

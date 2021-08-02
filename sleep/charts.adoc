@@ -41,7 +41,7 @@ The goal is of course to fill up that chart completely!
 |===
 a|image:charts/trend/deficit.png[]
 a|*Deficit* chart is useful for tracking your sleep deficit.
-- *Blue line*: shows the deficit on a given day. If you sleep less then your <</sleep/ideal_daily_sleep#,ideal sleep time>>, the blue line will be negative on that day. If you sleep more, it will be positive.
+- *Blue line*: shows the deficit on a given day. If you sleep less then your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>, the blue line will be negative on that day. If you sleep more, it will be positive.
 
 - *Red / green line*: This line shows the total deficit/surplus. The most interesting point of the deficit chart is the rightmost point of this line. If it's red, it means that you have a sleep debt currently. If it's green, you are oversleeping your target.
 
@@ -272,6 +272,8 @@ a|image:charts/tags/awake.png[]
 
 === Chronotype
 Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark. <</sleep/chrono_jetlag#chronotype,Read more on Chronotype>>.
+
+NOTE: Chronotype statistics need least a month of sleep data.
 
 ==== Mid-sleep hour
 [cols="1,2"]

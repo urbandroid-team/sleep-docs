@@ -58,7 +58,9 @@ Examples:
 You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert that.
 
 === Add sleep data to calendar
-If enabled, your sleep records will be synced into your Google Calendar.
-The records will go into any calendar that is called Sleep, or has #sleep somewhere in its name.
+If enabled, the app will create a "Sleep as Android" calendar and your sleep records will be synced into it.
 
 On first sync, your current sleep records up to 1 year old will be loaded into the calendar.
+
+NOTE: The app used a "sleep" calendar in the past, but due to the recent change in Permissions, we had to redesign the integration to match new Google requirements. The app will no longer sync the data to this "sleep" calendar, but will start syncing data to the new "Sleep as Android" Calendar.
+You can still keep the old "sleep" Calendar archived, you just need to deactivate it. The first manual sync to the new calendar will sync all data from the phone up to one year back to the new Sleep as Android calendar.

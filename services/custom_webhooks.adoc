@@ -1,0 +1,34 @@
+---
+layout: default
+title: Custom webhooks
+nav_order: 2
+parent: /services/0parent.html
+---
+:toc:
+
+== What it does
+*Allows you to POST events from Sleep as Android to a custom URL endpoint.*
+
+== Where to find it
+_Settings -> Services -> Automation -> Webhooks_
+
+== Guide
+
+=== Setup
+. Enable the _Webhooks_ option
+. Tap the URL option and fill in the URL of your server/application, including _http://_ or _https://_ .
+. Tap ok. It's done!
+
+=== Format of the POST request
+On every event, Sleep as Android will POST a request with a JSON body in the following format:
+
+....
+{
+    "event" : "event_name",
+    "value1" : "",
+    "value2" : "",
+    "value3" : ""
+}
+....
+
+The `event` field will have a value of one of the <</services/automation#events,event names>>. The `valueX` fields will be only present if not empty.

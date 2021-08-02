@@ -12,8 +12,25 @@ Allows you to synchronize data between Sleep as Android and Google Fit.
 
 . Upload your sleep data into Google Fit
 . Download 3rd party sleep data from Google Fit into Sleep as Android
-. Automatic synchronization of the *#sport* tag based on your fitness activity recorded in Google Fit
 . Heart rate import and export
+. Automatic synchronization of the *#sport* tag based on your fitness activity recorded in Google Fit
+
++
+NOTE: The *#sport* tag is added when at least 80% of the goal (Steps or Heart points) is achieved during the day.
++
+
+
+[cols="^,^"]
+|===
+a|[[google-fit]]
+.Google Fit goals progress - 80% goal reached on (Thu), Fri, Sun, and Tue
+image::google_fit1.png[]
+
+a|[[google-fit]]
+.Goal synced to Sleep - #sport tag added to Sat, Mon, and Wed
+image::google_fit2.png[]
+
+|===
 
 == Where to find it
 *Sleep as Android > Settings > Services > Google Fit*

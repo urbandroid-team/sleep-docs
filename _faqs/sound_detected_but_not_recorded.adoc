@@ -1,10 +1,25 @@
 ---
-title: Sound is detected but not recorded
+title: Sound is detected but not recorded, no recordings
 
 tags:
   - recording
   - sound_recognition
 ---
 
-- When a sound is recognized and you can see the icon, but it was not recorded, the threshold for recording is too high.
-. Lower the threshold in _Settings -> Sleep noise recording -> Recording volume threshold_ .
+There are two reasons, why the app did not record the sound, even when it was properly detected (you see the sound icon on the noise graph):
+
+* The threshold is set too high.
+* The app had troubles saving the file.
+
+== Adjusting threshold
+. Go to _Settings -> Sleep noise recording -> Recording volume threshold_.
+. Lower the value - the default value is 15%
+
+* Higher threshold = less sounds are recorded
+* Lower threshold = more sounds are recorded
+
+== Resetting storage path
+
+. Go to _Settings -> Sleep noise recording -> Storage path_.
+. Tap on RESET button.
+. Now you should see the Storage path set as "/storage/emulated/0".

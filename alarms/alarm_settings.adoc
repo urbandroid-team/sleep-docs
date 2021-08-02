@@ -75,11 +75,14 @@ All default options are also available as alarm-specific options.
 There are also few options that are only available in alarm-specific settings:
 [horizontal]
 Repeat:: Set a schedule for repeating alarm, you can choose also <<even_odd,Even / odd bi-weekly patterns>>.
-Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
-Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
 Silent alarm (in Ringtone):: Sets an alarm without sound.
+Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>)).
+Sleep duration goal:: A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).
+Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
+Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
 
 == Guide
+[[guide]]
 [horizontal]
 Create alarm only as vibrations on watch (no sound)::
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).

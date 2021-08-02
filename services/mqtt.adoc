@@ -1,0 +1,39 @@
+---
+layout: default
+title: MQTT
+nav_order: 2
+parent: /services/0parent.html
+---
+:toc:
+
+== What it does
+*Allows you to publish events from Sleep as Android to any MQTT broker.*
+
+== Where to find it
+_Settings -> Services -> Automation -> MQTT_
+
+== Guide
+
+=== Setup
+. Enable the _MQTT_ option
+. Tap the URL option and fill in the URL of the MQTT broker, including _mqtt://_ or _mqtts://_ .
+. Tap ok.
+. (Optional) If you want to customize the client ID under which the app will connect to the MQTT Broker, you can do so by tapping _Client ID_ option. By default, this is "SleepAsAndroid" and should be fine in case you're the only one publishing to the broker through Sleep as Android.
+
+=== Format of the POST request
+On every event, Sleep as Android will publish a message to _SleepAsAndroid_ topic in the following format:
+
+....
+{
+    "event" : "event_name",
+    "value1" : "",
+    "value2" : "",
+    "value3" : ""
+}
+....
+
+The `event` field will have a value of one of the <</services/automation#events,event names>>. The `valueX` fields will be only present if not empty.
+
+=== Recipes
+
+* A very detailed https://community.openhab.org/t/sleep-as-android-and-mqtt/115556[guide from Russ on openHAB]

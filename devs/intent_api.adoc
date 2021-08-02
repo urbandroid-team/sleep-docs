@@ -53,7 +53,7 @@ Starts the backup sync – export a CSV file, backup to Sleepcloud, Dropbox and 
 Lullaby start:: Start a Service with package `com.urbandroid.sleep` and class `com.urbandroid.sleep.media.lullaby.LullabyService`
 EXTRA: extra_lullaby = “lullaby name”…
 Lullaby names:
-NONE, WHALE, STORM, STREAM, CAVE, FIREPLACE, SEA, WIND, CLOCK, TIBER, NIGHT, FROGS, HORSE, SHEEP, CHIMES, OM, BELLS, FLUTE, PIANO, CAT, TRAIN, MARCH, MUSICBOX, BABY, GIRL, SUB, NASA, LAVA, JUNGLE, TIBET, BABY, SCIFI, CHOR, BREATH…
+NONE, WHITENOISE, WHALE, STORM, STREAM, CAVE, FIREPLACE, SEA, WIND, CLOCK, TIBER, NIGHT, FROGS, HORSE, SHEEP, CHIMES, OM, BELLS, FLUTE, PIANO, CAT, TRAIN, MARCH, MUSICBOX, BABY, GIRL, SUB, NASA, LAVA, JUNGLE, TIBET, BABY, SCIFI, CHOR, BREATH…
 
 == Events emitted by Sleep
 
@@ -82,4 +82,4 @@ Audio recognition:: `com.urbandroid.sleep.audio.SOUND_EVENT_AUTO`
 ** TIMESTAMP – Unix epoch millis
 ** SOUND_CLASS – one of “SNORE”, “TALK”, “COUGH”, “BABY”, “LAUGH”
 
-Automatic start of sleep tracking, e.g. at bedtime or in the beginning of smart period:: `com.urbandroid.sleep.alarmclock.AUTO_START_SLEEP_TRACK_AUTO`
+Start of smart period:: `com.urbandroid.sleep.SMART_PERIOD_AUTO`

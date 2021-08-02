@@ -15,4 +15,4 @@ We had to do this because every accelerometer (in different cell phones) measure
 
 So if you use the phone in the bed, it is in fact drastically different from measuring on a calm spot, just like the table.
 
-Please do not hesitate to ask for any clarification at support@urbandroid.org.
+Please do not hesitate to ask for any clarification at support@urbandroid.org. You can also read more about comparison of our data with the sleep lab results https://sleep.urbandroid.org/sleep-lab-comparison/[in this post].

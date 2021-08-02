@@ -51,11 +51,15 @@ There is a fixed set of commands sent from the phone to the watch you need to im
 
 === Start movement tracking
 
-Intent: `com.urbandroid.sleep.watch.START_TRACKING`
+* Intent: `com.urbandroid.sleep.watch.START_TRACKING`
+* Extras:
+** `DO_HR_MONITORING`: enables Hear rate and HRV monitoring on the device
+** `DO_OXIMETER_MONITORING`: enables oximetry monitoring on the device
 
 === Stop movement tracking
 
-Intent: `com.urbandroid.sleep.watch.STOP_TRACKING`
+* Intent: `com.urbandroid.sleep.watch.STOP_TRACKING`
+
 
 === Pause tracking
 
@@ -80,7 +84,7 @@ If the pause expires naturally on phone, i.e. its time runs out, there is no not
 
 * Intent: `com.urbandroid.sleep.watch.START_ALARM`
 * Extras:
-** *DELAY* (int): Desired delay in millisecond after how long should the alarm start.
+** *DELAY* (int): Desired delay in millisecond after how long should the alarm start. Value can be also -1, which means that wearable alarm is set to "disabled" in Sleep as Android and the watch should not vibrate (it may display an alarm screen if applicable).
 
 === Stop alarm
 
@@ -158,7 +162,7 @@ on_sensor_change() {
 
 Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a batch period send the batch array to Sleep as Android. Batch period is by default 120 seconds, but Sleep sometimes needs to change it and sends a `com.urbandroid.sleep.watch.SET_BATCH_SIZE` command.
 
-=== Send heart rate data
+=== Send heart rate data
 
 * Intent: `com.urbandroid.sleep.watch.HR_DATA_UPDATE`
 * Extra:
@@ -166,13 +170,49 @@ Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a 
 
 The data are expected to be expressed in number of heart beats per minute. It is not necessary to sample these data so frequently as movement data. Once every few minutes is perfectly fine.
 
-=== Send SpO2 data
+=== Send various body sensors data - HR, RR, SPO2, SDNN
 
-* Intent: `com.urbandroid.sleep.watch.ACTION_EXTRA_DATA_UPDATE`
-* Extra:
-** *com.urbandroid.sleep.EXTRA_DATA_SPO2* (Float): Current SpO2 value
+* Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
+This is a generic intent to carry data from various sensors.
+The data can be sent as a single value or as an array.
 
-The data should be one float number, current SpO2 value, sent every 1 second.
+* Extras:
+** *Data type marker.* Presence of a particular marker determines what kind of data is carried.
+   If only a single value is sent, it is stored directly in this extra. For an array, see later.
+   One of the following markers must be present:
+*** `com.urbandroid.sleep.EXTRA_DATA_HR` - heart rate in beats per minute.
+    The frequency does not need to be high, once a minute is fine.
+*** `com.urbandroid.sleep.EXTRA_DATA_RR` - R-R intervals in milliseconds,
+    i.e. time intervals between consecutive heart beats.
+    These data need to be reliable. Every R-R interval should be sent.
+*** `com.urbandroid.sleep.EXTRA_DATA_SPO2` - blood oxygenation measure.
+    High frequency (every second or so) is expected.
+*** `com.urbandroid.sleep.EXTRA_DATA_SDNN` - short-term heart rate variability.
+    Typically once every few minutes.
+
+* *The further extras depend on whether a single value or an array is sent.*
+
+** *Single value case*
+*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the measurement.
+    Long - unix timestamp in millis.
+*** The value is stored directly in the marker extra as a float.
+
+** *Array case*
+*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the last measurement.
+    Long - unix timestamp in millis.
+*** `com.urbandroid.sleep.EXTRA_DATA_FRAMERATE` - optional. Long, millis.
+    The default is 1000 (i.e. 1 second)
+*** `com.urbandroid.sleep.EXTRA_DATA_BATCH` - the data - float array.
+
+* *Single value extras example:*
+** `com.urbandroid.sleep.EXTRA_DATA_SPO2: 97`
+** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000`
+
+* *Array extras example:*
+** `com.urbandroid.sleep.EXTRA_DATA_SPO2: true`
+** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000`
+** `com.urbandroid.sleep.EXTRA_DATA_FRAMERATE: 2000`
+** `com.urbandroid.sleep.EXTRA_DATA_BATCH: [97.0f, 98.0f, 99.9f, 90.0f]`
 
 === Pause from watch
 

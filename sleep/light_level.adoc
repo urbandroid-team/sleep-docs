@@ -21,9 +21,9 @@ NOTE: Sensitivity of light-based awake detection can be further adjusted in _Set
 Medium sensitivity (default)::
 Light after sunset over 60 LUX is considered Awake
 Low sensitivity::
-Light after sunset over 30 LUX is considered Awake
+Light after sunset over 90 LUX is considered Awake
 High sensitivity::
-Light after sunset over 120 LUX is considered Awake
+Light after sunset over 30 LUX is considered Awake
 
 The _#dark_ tag is added when you have less than 30 lux for at least 90% of the night.
 The _#light_ tag is added when you have more than 60 lux for at least 33% of the night.

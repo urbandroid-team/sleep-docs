@@ -10,7 +10,9 @@ parent: /sleep/0parent.html
 *Sleep as Android watches your sleep pattern trends and can tell you your <<chronotype>>, <<social-jet-lag>> and <<sleep-irregularity>>.*
 
 == Chronotype
-Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark. Your currently detected chronotype is always shown in the left menu if you have at least a month of sleep data.
+Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark.
+
+NOTE: Your currently detected chronotype is always shown in the left menu if you have at least a month of sleep data.
 
 [.text-center]
 image:chrono.png[]

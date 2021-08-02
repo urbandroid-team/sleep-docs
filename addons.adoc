@@ -12,7 +12,7 @@ no_comments: true
 - <</devices/wearables#,Wearables>>
 - <</sleep/lullaby#,Lullabies>>
 - <</devices/oximeter#,Oximeter>>
-- <</alarms/catpcha#,CAPTCHA>>
+- <</alarms/captcha#,CAPTCHA>>
 - <</devices/sleep_mask#,Sleep Mask>>
 
 
