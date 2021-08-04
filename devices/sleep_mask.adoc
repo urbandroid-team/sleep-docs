@@ -28,6 +28,8 @@ image::mask2.jpg[]
 * Lucid dreaming: learn to control and remember your dreams
 * Anti-snoring
 * Comfortable to wear all night
+* Light stimulated lullabies for faster fall asleep (CAUTION: Wired version only, Wireless version only supports lullabies through https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid app] with Sleep program)
+* More light stimulation programs with https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid app]
 
 ## Where to find it
 _Settings -> Smartlight -> Use Sleep Mask_ (both types)
