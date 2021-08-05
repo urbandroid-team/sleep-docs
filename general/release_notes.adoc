@@ -7,7 +7,26 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210616
+== Latest version 20210804
+– Android 12: Material YOU Theme using system colors from wallpaper (Force other colors in Settings > Personalization > Color palette)
+– Android 12: Splash Screen API implemented with animated sun/moon
+– Card round corners (Material You style)
+– New image resources to work well with Material YOU
+– Targeting Android 11 APIs (please report any issues e.g. issues with otehr apps interoperability)
+– Partnering with Sleep Master Solutions for medical grade Apnea testing at home – Only in US
+– Sonar can be used even when your device is connected to a BT phone system (Calls over wearables…)
+– Fix for an issue when paused sleep takes the whole session
+– Fix for a bug which does not allow to add second estimated sleep segment
+– “Smart wake up > Not before sleep goal” now accounts for awakes (BETA only)
+– 90 minute snooze option added
+– Fixes in location retrieval for Sleep records
+– Fix for the battery optimized settings desync with the settings checkbox
+– Fixes in Wear OS if connectivity drops you still get all your data
+– Fix for heart rate export to Google Fit
+– Potential fix for very rare crash in Settings screens
+– Bigger update in Latin Spanish translation
+
+== 20210616
 – use on non-sensitive scopes for Google Calendar Sync (Setting > Services > Google Calendar)
 * fixes the “App is blocked” issue for new users
 * instead of the “Sleep” calendar now data will be stored in the app created “Sleep as Android” calendar
