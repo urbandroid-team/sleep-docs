@@ -31,7 +31,12 @@ During tracking with sonar the phone produces ultrasonic signal (which cannot be
 
 On many devices Sonar tracking is so precise we are even able to track your abdominal movements and display your <</sleep/breath_rate#, Breath-rate>> in the sleep graph.
 
-WARNING: Sonar won't work with connected headphones.
+NOTE: Sonar won't work with connected headphones.
+
+WARNING: The sonar sensor might not work on Android 11, when the tracking is started automatically due to changes in the permissions - apps running in the background cannot ask for the mic.
+To workaround this we would need to have the "Draw over other apps permission" and start a transparent short lived screen before we start the sleep tracking service.
+Please see the history of the issue here:
+https://issuetracker.google.com/issues/162913367
 
 == Heart rate sensors
 *Heart rate is used to better distinguish awake state.*

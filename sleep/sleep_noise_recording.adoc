@@ -15,6 +15,13 @@ Records significant sounds while you sleep and builds a ambient noise-level grap
 
 NOTE: Enabling Sleep noise recording may lead to higher battery consumption during sleep tracking.
 
+
+WARNING: The sleep noise recording might not work on Android 11, when the tracking is started automatically due to changes in the permissions - apps running in the background cannot ask for the mic.
+To workaround this we would need to have the "Draw over other apps permission" and start a transparent short lived screen before we start the sleep tracking service.
+Please see the history of the issue here:
+https://issuetracker.google.com/issues/162913367
+
+
 == Where to find it
 _Settings -> Sleep noise recording_
 
