@@ -76,4 +76,4 @@ After you've done the above steps to connect and enable the smartlight of your c
 
 To set that up, head to _Settings -> Alarms -> Alarm sound start_ and set it to some period. At the time of the alarm, only the smartlight will turn on at the lowest brightness and gradually brighten up until the set period passes. Then the alarm starts ringing.
 
-You can adjust the speed of the sun-rise effect by changing the period of <</alarm/alarm_settings/gentle_alarm#,Gentle volume increase>>. The longer the period is, the longer it takes to get from dark to full light.
+Without the delayed sound start, you can control the speed of sun-rise effect by changing the period of <</alarm/alarm_settings/gentle_alarm#,Gentle volume increase>>. The longer the period is, the longer it takes to get from dark to full light.
