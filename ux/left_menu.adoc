@@ -31,12 +31,33 @@ Your chronotype is then represented by a banner at the very top of the Left ☰ 
 .Chronotypes banner
 image:chrono.png[width=30%]
 
-
-
 According to the research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. Our <</sleep/sleepcloud_study#,SleepCloud study>> also came to the same conclusion.
 
 To read more about chronotype, see our documentation on
 <</sleep/chrono_jetlag#,social jetlag>>.
+
+
+=== Sleep as Android
+
+[horizontal]
+icon:ic_alarm[] Alarms:: Opens <</homecreen#,List of alarms>>.
+icon:ic_timelapse[] Stats:: Opens <</sleep/statistics_charts#,Statistics section>>.
+icon:ic_action_graph[] Graphs:: Opens <</sleep/sleep_graph#,Graph section>>.
+icon:ic_action_stats[] Trend:: Opens <</sleep/statistics_charts#,Statistics section>>.
+icon:ic_lightbulb[] Advice:: Opens <</sleep/advice#,Advice>>.
+icon:ic_goal[] Goal:: Opens <</sleep/goals#,Goals>>.
+icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
+
+
+=== Home screen
+
+For mode details on Home screen, please see the <</ux/homescreen#,Home screen>>.
+
+[horizontal]
+icon:ic_dashboard[] Dashboard:: Presents all options in cards.
+icon:ic_tab[] Tabs:: Presents all option in tabs, list of alarm is the main screen.
+icon:ic_action_track_off_white[] Alarms:: Simplified mode without any tracking-related settings.
+
 
 === Shortcuts
 
@@ -50,46 +71,21 @@ icon:ic_action_snooze[] Nap:: Schedules a nap and starts tracking; smart period 
 icon:plus[] Add sleep:: For adding a period of sleep manually, when you forgot to track sleep.
 icon:ic_alarm_plus[] Add alarm:: Create new alarm.
 
-
-=== Sleep as Android
+=== Support
 
 [horizontal]
-icon:ic_alarm[] Alarms:: Opens <</homecreen#,List of alarms>>.
-icon:ic_timelapse[] Stats:: Opens <</sleep/statistics_charts#,Statistics section>>.
-icon:ic_action_graph[] Graphs:: Opens <</sleep/sleep_graph#,Graph section>>.
-icon:ic_action_stats[] Trend:: Opens <</sleep/statistics_charts#,Statistics section>>.
-icon:ic_lightbulb[] Advice:: Opens <</sleep/advice#,Advice>>.
-icon:ic_goal[] Goal:: Opens <</sleep/goals#,Goals>>.
-icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
-icon:ic_puzzle[] Add-ons:: Opens a list of all add-ons, and other apps from out team.
+icon:ic_help_q[] Support:: Opens help-assistance dialogue.
+ icon:ic_information[] Documentation
+ icon:ic_information[] FAQ
+ icon:ic_information[] Tutorial
+ icon:ic_action_play[] Watch video
+ icon:ic_help[] Forum
+ icon:ic_help[] Contact support
+ icon:ic_gift[] Release notes (Latest changes in Sleep and new added features)
+ icon:ic_bug[] Report a bug (Generates an application log that can be shared with our support team to help you with any issue. Don't hesitate to tell us what's not working properly. We're eager to fix it!)
+ icon:ic_bug[] Send a wearable report (Generates a log for debugging troubles with some wearables - Garmin, Samsung).
+
 icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on Back up, see <</services/backup_data#,Backup>>.
-icon:ic_action_lullaby[] Lullaby:: Opens <</sleep/lullaby#,Lullabies>>.
-icon:ic_cog[] Settings:: Opens general application settings.
-
-=== Home screen
-
-For mode details on Home screen, please see the <</ux/homescreen#,Home screen>>.
-
-[horizontal]
-icon:ic_dashboard[] Dashboard:: Presents all options in cards.
-icon:ic_tab[] Tabs:: Presents all option in tabs, list of alarm is the main screen.
-icon:ic_action_track_off_white[] Alarms:: Simplified mode without any tracking-related settings.
-
-
-=== Contact support
-
-[horizontal]
-icon:ic_help_q[] Help:: Opens help-assistance dialogue.
-// * icon:ic_information[] Documentation
-// * icon:ic_information[] FAQ
-// * icon:ic_information[] Tutorial
-// * icon:ic_action_play[] Watch video
-// * icon:ic_help[] Forum
-// * icon:ic_help[] Contact support
-// * icon:ic_bug[] Report a bug
-icon:ic_bug[] Report a bug:: Generates an application log that can be shared with our support team to help you with any issue. Don't hesitate to tell us what's not working properly. We're eager to fix it!
-icon:ic_bug[] Send a wearable report:: Generates a log for debugging troubles with some wearables (Garmin, Samsung).
-icon:ic_gift[] Release notes:: Get informed about latest changes in Sleep and new added features!
 icon:ic_share_variant[] Tell friends:: You can tell your friends about your experience with Sleep as Android.
 icon:ic_translate[] Translate app:: Can you help us translating Sleep as Android? Also see <</general/translation#,Translation>>.
 icon:ic_text[] Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org.
