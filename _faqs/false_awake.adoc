@@ -8,6 +8,6 @@ tags:
 ---
 
 
-- When there is too much awakes falsely estimated on your graph, use _Left_ ☰ _menu -> icon:ic_bug[] Report a bug, and send us the application log.
+- When there is too much awakes falsely estimated on your graph, use _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug, and send us the application log.
 - Most often the awakes are driven by significant HR peaks (awakes align with HR red line graph), you can try disable this type of awake detection in _Settings -> Sleep tracking -> Awake detection -> Heart rate monitoring_.
-- Other common reason is phone screen turned on, you can try to disblae Awake when using phone awake detection in _Settings -> Sleep tracking -> Awake detection -> Awake when using phone_.
+- Other common reason is phone screen turned on, you can try to disable Awake when using phone awake detection in _Settings -> Sleep tracking -> Awake detection -> Awake when using phone_.

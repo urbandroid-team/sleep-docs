@@ -8,7 +8,7 @@ tags:
 
 If you found any error, mistake, fault, or unexpected wrong behaviour, please let us know.
 
-. Open _Left_ ☰ menu -> icon:ic_bug[] Report a bug.
+. Open _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.
 . Describe your troubles briefly, with key words.
 . Tap _SEND REPORT_ button.
 . The app will generate few files.
@@ -17,4 +17,4 @@ If you found any error, mistake, fault, or unexpected wrong behaviour, please le
 . Send the log. The recipient is already filled in.
 . Done! Many thanks!
 
-video::-3s26DmM3b0[youtube]
+video::6T_EL6DgKO8[youtube]

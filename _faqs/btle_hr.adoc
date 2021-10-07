@@ -15,6 +15,6 @@ tags:
 . Make sure no other app is using your device while sleep tracking.
 
 
-If nothing helps please send us a debug report using _Left_ ☰ _menu -> icon:ic_bug[] Report a bug_.
+If nothing helps please send us a debug report using _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug..
 
 NOTE: BT Smart heart rate tracking only works from Android 4.3 onward

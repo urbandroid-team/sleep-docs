@@ -21,4 +21,4 @@ If it doesn’t start working, then
 . Start Sleep as Android.
 . Start sleep tracking.
 
-And ideally send us a debug log (**Left ☰ menu -> icon:ic_bug[] Report a bug**) afterwards.
+And ideally send us a debug log (_Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug) afterwards.

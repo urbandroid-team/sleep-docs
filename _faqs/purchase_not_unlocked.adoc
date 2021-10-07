@@ -31,4 +31,4 @@ Another way that seemingly helped recently:
 . Install Sleep as Android from the web interface to your device.
 . Don’t let it open the Play Store app, but use the install button and choose your device in the browser.
 
-Please send a debug report (Left ☰ menu -> icon:ic_bug[] Report a bug) if the issue should persist. Also please let us know the order number of your purchase. This is included in your purchase confirmation you should have received via email – or you can check it at payments.google.com.
+Please send a debug report (_Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.) if the issue should persist. Also please let us know the order number of your purchase. This is included in your purchase confirmation you should have received via email – or you can check it at payments.google.com.

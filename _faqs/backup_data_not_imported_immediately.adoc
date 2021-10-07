@@ -12,4 +12,6 @@ To restore the old data:
 . Delete the `sleep-export.zip` file.
 . Rename `sleep-export.backup.zip` to `sleep-export.zip`.
 
-In Sleep, do _Left menu > icon:ic_cloud_upload[]  Backup > Import data_.
+In Sleep, do _Left_ ☰ _menu -> icon:ic_cloud_upload[]  Backup > Import data_.
+
+
