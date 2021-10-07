@@ -7,7 +7,23 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20210910
+== Latest version 20211001
+– Google Fit Fix: Quick fix for missing sensitive scope permission after Google Fit privacy update
+– Privacy policy dialog before connecting to Google Fit
+– Some Google Fit features such as profile sync or automatic #sport tag has been reverted due to Google privacy requirements
+– Support for alarm on arbitrary day
+– Clean up of the menu drawer – clean and simple
+– Report a bug and release notes are now under the menu > Support dialog
+– Fix for m4a noise recordings not uploading to Android’s MediaStore
+– Better home screen picker dialog
+– Gentle volume increase: Disabled – this option now includes a short 30s volume increase period but still respects your system’s alarm stream volume
+– Alarm default settings vs. Individual alarm settings made more explanatory
+– Fix for changing noise storage location on Android 11+
+– Option to import backups from arbitrary location
+– Delayed sound start now resets to beginning of the alarm song
+– Dialog asking for update to latest version of the app has been removed
+
+== 20210910
 – Galaxy Watch 4: dedicated option in Settings > Wearables
 – SPO2 on Galaxy Watch 4 is currently not possible 🙁 see
 https://shorturl.at/hvNR8
