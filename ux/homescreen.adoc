@@ -68,8 +68,6 @@ Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 +
 [.icontable,cols="1,11"]
 |===
-|icon:ic_action_track[]
-|Start sleep tracking: Starts sleep tracking manually.
 
 |icon:ic_action_bedtime[]
 |Sleep X hour: Starts sleep tracking with and alarm based on your<</sleep/ideal_daily_sleep#,Daily sleep duration goal>> (+ smart period and tracking start delay).
@@ -80,8 +78,11 @@ Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
 |icon:plus[]
 |Add sleep: For adding a period of sleep manually, when you forgot tracking.
 
-|icon:ic_alarm_plus[]
-|Add alarm: You can create new alarm.
+|icon:plus[]
+|Add goal: for adding a new goal (<</sleep/goals#, read more about Goals>>).
+
+|icon:ic_action_lullaby[]
+|Lullabies: A quick access to the lullabies.
 
 |===
 +

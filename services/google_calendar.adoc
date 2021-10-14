@@ -62,5 +62,9 @@ If enabled, the app will create a "Sleep as Android" calendar and your sleep rec
 
 On first sync, your current sleep records up to 1 year old will be loaded into the calendar.
 
+.Google Calendar entry
+image:calendar.png[width=30%]
+
+
 NOTE: The app used a "sleep" calendar in the past, but due to the recent change in Permissions, we had to redesign the integration to match new Google requirements. The app will no longer sync the data to this "sleep" calendar, but will start syncing data to the new "Sleep as Android" Calendar.
 You can still keep the old "sleep" Calendar archived, you just need to deactivate it. The first manual sync to the new calendar will sync all data from the phone up to one year back to the new Sleep as Android calendar.
