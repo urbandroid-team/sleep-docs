@@ -58,7 +58,7 @@ So when we have found out the most probable sleep interval, we can zoom in and l
 
 Every 15 minutes during the previously detected “probable sleep interval”, we check the state of your phone in the Google Transition API, and if we detect a still state, we start a sleep tracking service, using whatever sensors you have configured (accelerometer, sonar, wearables, …).
 
-Also every 15 minutes we do corrections based on your activity and either stop the current sleep tracking without saving or add awake intervals if we already track for long enough.
+Also every 15 minutes we do corrections based on your activity and either stop the current sleep tracking without saving or add awake intervals if we already track for long enough (at least 45 minutes).
 
 Automatic tracking attempts are stopped quickly (~half a minute) after we recognized you are probably still awake if one of the following holds:
 
