@@ -7,7 +7,28 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20211001
+== Latest version 20211012
+– Fix for add/remove awake buttons menu color in graph detail
+– Lullaby is back in the menu drawer and removed from shortcuts, many thanks for your feedback on this
+– NFC and QR Code CAPTCHA fallback when you loose the code/tag now depends on set difficulty and starts at 50 sheep
+– Small parametric changes in actigraphic sleep phase detection
+– Material You button shapes on Android 12
+– Option to force scoped storage in Settings > Privacy > Backup
+– Potential fix for unresponsive buttons on rating screen
+– Fix for notification icons styling with Material You
+– Styling of alarm dismiss button on rating screen
+– Fix in online radio alarm regression
+– Fix for some import export issues with scoped storage
+– Fix for backup of OGG noise files into Media Store
+– Fix for add-ons still showing when already installed
+– Menu drawer headers used for Android 12 Material YOU now used also for older versions
+– Better Material YOU adjusted Lark and Owl badges
+– Fix for Wear OS app backward compatibility with Wear OS 1.0 devices
+– Bedtime info on next alarm again showing minutes for bedtimes <4 hours
+– Gentle volume increase – disabled option reverted to minimal volume up with an addition of 30 seconds option up to current system volume
+– Better Bedtime info formatting in Japanese
+
+== 20211001
 – Google Fit Fix: Quick fix for missing sensitive scope permission after Google Fit privacy update
 – Privacy policy dialog before connecting to Google Fit
 – Some Google Fit features such as profile sync or automatic #sport tag has been reverted due to Google privacy requirements
