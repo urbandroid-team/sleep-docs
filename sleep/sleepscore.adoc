@@ -118,3 +118,5 @@ Healthy durations are adjusted according to your age as defined in _Settings -> 
 ====
 
 If you’re in the healthy range for a certain dimension, it lights up green and you get one point. Every line can also turn red if the values are in a very unfavourable range.
+
+NOTE: If you are missing some charts, it means you do not have the required sensor, or the app does not have enough data to estimate it. If your irregularity pie chart is missing, there are probably gaps in the graphs. You can consider <</sleep/automatic_sleep_tracking#, Automatic tracking start>> or <</sleep/sleep_time_estimation#, Sleep time estimation>> features, if you often forget to start the tracking.
