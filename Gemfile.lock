@@ -11,6 +11,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
+    ffi (1.15.4)
     ffi (1.15.4-x64-mingw32)
     forwardable-extended (2.6.0)
     hawkins (2.0.5)
@@ -64,7 +66,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (4.0.6)
-    rake (12.3.2)
+    rake (12.3.3)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -80,9 +82,9 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2021.5)
       tzinfo (>= 1.0.0)
-    wdm (0.1.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -96,7 +98,6 @@ DEPENDENCIES
   pry
   rb-readline
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.17.2
