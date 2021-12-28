@@ -23,10 +23,15 @@ For using light-powered lucid dreaming cues, please use _Settings -> Smart light
 
 == Options
 [horizontal]
-
 Enabled:: Enabled or disabled this option completely including smart light/.
+Later:: Allows you to postpone the first occurrence of lucid cue when the REM is detected.
+
+.Sound
+[horizontal]
 Preview:: Allows you to try the lucid dreaming cue in advance.
 Ringtone:: Select your sound. A woman voice "You are dreaming" is default.
-Volume:: Selects volume for sound cue.
 Vibrate:: Enables vibrations upon lucid dreaming cues.
+Volume:: Selects volume for sound cue.
+Force headphones only:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
+NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings.
 Repeat:: Sets the number of repetitions for audio and vibrations if enabled

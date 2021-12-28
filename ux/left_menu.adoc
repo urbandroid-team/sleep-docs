@@ -41,9 +41,9 @@ To read more about chronotype, see our documentation on
 
 [horizontal]
 icon:ic_alarm[] Alarms:: Opens <</homecreen#,List of alarms>>.
-icon:ic_timelapse[] Stats:: Opens <</sleep/statistics_charts#,Statistics section>>.
+icon:ic_timelapse[] Stats:: Opens <</sleep/charts#,Statistics section>>.
 icon:ic_action_graph[] Graphs:: Opens <</sleep/sleep_graph#,Graph section>>.
-icon:ic_action_stats[] Trend:: Opens <</sleep/statistics_charts#,Statistics section>>.
+icon:ic_action_stats[] Trend:: Opens <</sleep/sleepscore#,Statistics section>>.
 icon:ic_lightbulb[] Advice:: Opens <</sleep/advice#,Advice>>.
 icon:ic_goal[] Goal:: Opens <</sleep/goals#,Goals>>.
 icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recording section>>.

@@ -10,7 +10,7 @@ parent: /sleep/0parent.html
 *Daily sleep duration goal is your target sleep duration - how much time would you ideally want to sleep each night.*
 
 == Where to find it
-_Settings -> Bedtime notification -> Daily sleep duration goal_
+_Settings -> Bedtime notification -> Sleep duration goal_
 
 == Guide
 Daily sleep duration affects:

@@ -20,9 +20,9 @@ You can also limit snoozing in various ways to prevent oversleeping.
 == Options
 [horizontal]
 Snooze duration:: Default snooze time on alarm screen. This appears on the big [color-green]#Snooze button#. If you enable _Changing snooze time_ there are additional snooze options as well.
-Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are not shown.
 Maximum total snooze time:: The maximum total time you are allowed to snooze. When this total time is reached, you can only use _Dismiss_.
-Halve Snooze:: Each consecutive snooze duration is halved.
+Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are not shown.
+Halve the Snooze:: Each consecutive snooze duration is halved.
 EXAMPLE::At first the default snooze time is 10 minutes. After snoozing for 10 minutes it becomes 5 minutes, than 3 minutes and so on...[]
 Changing snooze time:: When enabled, a selection of different snooze durations occurs on the alarm screen in addition to the default snooze time.
 Snooze after alarm time:: Snoozing is be completely disabled after the set alarm time is reached (Does not have effect with disabled <</alarms/smart_wake_up#, Smart wake up>>)

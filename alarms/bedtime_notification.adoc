@@ -35,7 +35,7 @@ _per-alarm settings -> Bedtime notifications_
 
 == Options
 [horizontal]
-Daily sleep duration goal:: Set how much time would you ideally want to sleep each night. See also <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>.
+Sleep duration goal:: Set how much time would you ideally want to sleep each night. See also <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>.
 Bedtime notification:: Enable bedtime notification and set how long before bedtime to receive it.
 Repeat:: How often should the notification repeat
 +
