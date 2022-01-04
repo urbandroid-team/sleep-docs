@@ -81,7 +81,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (= 1.17.3)
   hawkins
   jekyll (~> 3.8.6)
   jekyll-asciidoc
@@ -94,4 +93,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.17.3
+   2.3.4
