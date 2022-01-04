@@ -81,7 +81,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (= 1.17.2)
+  bundler (= 1.17.3)
   hawkins
   jekyll (~> 3.8.6)
   jekyll-asciidoc
