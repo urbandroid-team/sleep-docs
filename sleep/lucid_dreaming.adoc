@@ -24,6 +24,7 @@ For using light-powered lucid dreaming cues, please use _Settings -> Smart light
 == Options
 [horizontal]
 Enabled:: Enabled or disabled this option completely including smart light/.
+Sensitivity:: Changes the sensitivity of lucid cues triggering based on the progress of the sleep phases before.
 Later:: Allows you to postpone the first occurrence of lucid cue when the REM is detected.
 
 .Sound

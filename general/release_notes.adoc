@@ -7,7 +7,46 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20211012
+== Latest version 20211216
+– Material V3 Bottom navigation in Home screen: Tabs and in Charts
+– Try out new visual for Tabs, use menu drawer > Home screen > Tabs and let us know!
+– New way to select available tabs (menu drawer > Home screen > Tabs > Pencil)
+– Experimental version of Non-weekly alarms in alarm details > Repeat > Non-weekly (Please report any issues)
+– Big update in translations: Hindi, Japanese, Portuguese, Russian, Spanish, Swedish
+– Visual tweaks in Main screen, Graphs, Charts, Alarms
+– Many fixes in Charts, mostly visual
+– Fix for slow start of the app with a lot of SPO2 data
+– Many functional nad visual fixes in Charts
+– Fix broken noise recording on Samsung Galaxy S21 by fallback to OGG
+– Fix for app being opened after alarm dismiss
+– Fix for wearable bug report not showing
+– Better restoring of alarms in case of reboot – when cheating CAPCTHA or when phone reboots during the night
+– Fix for Tag bar charts not showing all tags
+– Waiting for connectivity to sync Google Calendar
+– Fix for tomorrow day indicated when creating a new alarm
+– Long press to dismiss is now clearly indicated
+– Fix for restarting of alarm screen on 1+
+– Fix for Body sensor permission cannot be granted
+– Fix for toasts showing time of next alarm in case of choosing a date in future
+– Samsung + Android 12 use Vorbis instead of ACC because of codes issues
+– Waiting for connectivity to health services
+– Fix for rating reset when getting to graph detail from rating screen
+– Menu drawer headers used for Android 12 Material YOU now used also for older versions
+– Fix for missing tracking screen when snoozing alarms
+– Material V3 boxier shape for action button
+– Fix for persistent delete undo snackbar
+– Nigh owl and morning lark icons better suited for changing themes
+– Better Material YOU adjusted Lark and Owl badges
+– Fix for Wear OS app backward compatibility with Wear OS 1.0 devices
+– Bedtime info on next alarm again showing minutes for bedtimes
+– Fixes for Multi CAPTCHA + CAPTCHA Cheating protection (please update CAPTCHA pack as well)
+– Gentle volume increase – disabled option reverted to minimal volume up with an addition of 30 seconds option up to current system volume
+– Better Bedtime info formatting in Japanese
+– Fix for not requiring body sensors permission
+– Changes in lullaby turn off time propagates into currently running lullaby
+– Notification when alarms won’t trigger in case of app being background restricted
+
+== 20211012
 – Fix for add/remove awake buttons menu color in graph detail
 – Lullaby is back in the menu drawer and removed from shortcuts, many thanks for your feedback on this
 – NFC and QR Code CAPTCHA fallback when you loose the code/tag now depends on set difficulty and starts at 50 sheep

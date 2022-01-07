@@ -53,12 +53,7 @@ Noise statistics:: If enabled, you will be seeing noise level statistics under e
 Storage path:: A path to your recordings saved on your device.
 Automatic delete:: If enabled, all unstarred recordings will be deleted after 7 days.
 Output:: Allows you to switch between .m4a and .ogg formats.
-Input::
-* Default
-* Device default
-* MIC
-* Sound recognition
-* UNPROCESSED
+Input:: Options for different pre-processing of sound signal from the mic (for debugging issues with noise cancellation, handling calls, etc.)
 
 == Guide
 
