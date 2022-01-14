@@ -7,7 +7,25 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20211216
+== Latest version 20220114
+– Fix for Settings > Alarm > Disable screen orientation changes setting
+– Improved look of alarm screen in landscape on phones
+– Improve CAPTCHA cheating protection though Accessibility Service
+– New walk-through tutorial for CAPCTHA cheating permissions
+– If you want to prevent any cheating of CAPTCHA please enable Settings > Accessibility service > Sleep as Android
+– Fix for Sonar not reverting volume if sleep tracking is hard killed by the system and restarted
+– Fix for inconsistent “skip next” text in alarm list
+– Temporarily removing the weather feature on the rating screen (Data Safety Form)
+– Improved lullaby volume adjusting with Sonar
+– Fixes in Swedish translation errors
+– Remembering the last open tab in the Tabbed home screen mode
+– More smaller bug fixes
+– Fix for predefined alarms ringtone – not being application settings
+– Fix for permission names in Czech
+– Fine tuning apnea alarm thresholds
+– Fix for mute ringtone when using lucid dreaming
+
+== 20211216
 – Material V3 Bottom navigation in Home screen: Tabs and in Charts
 – Try out new visual for Tabs, use menu drawer > Home screen > Tabs and let us know!
 – New way to select available tabs (menu drawer > Home screen > Tabs > Pencil)
