@@ -1,0 +1,25 @@
+---
+layout: default
+title: Alarms only mode
+nav_order: 1
+parent: /ux/0parent.html
+---
+:toc:
+
+*Alarms only* mode, is a special, simplified  mode, when you are using only alarms and do not care about the tracking at all.
+The main screen shows list of your alarms.
+
+WARNING: this mode affects also settings appearance (hides all sleep tracking related options) and the <</ux/left_menu#,Left ☰ menu>> (hides sleep tracking related options, if there are no tracking history).
+
+Other home screen types are <</ux/hs_dashboard#,Dashboard>> and <</ux/hs_tabs#,Tabs>>.
+
+[[figure-new-alarm]]
+.Alarms only mode look
+image::alarms_only.png[]
+
+== Where to find it
+_Left_ ☰ _menu -> Home screen section -> Alarms only_
+_Settings -> Personalize -> Home screen_
+
+
+

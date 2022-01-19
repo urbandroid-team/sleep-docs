@@ -19,6 +19,11 @@ On phones with gesture navigation you need to tap and hold instead of the swipe 
 
 == Options
 
+The content of the Left menu might be influenced by the type of home screen.
+
+. In *Tabs home screen*, the options shown as tabs are hidden. If Dashboard tab is diasbled, shortcuts are added to the Left menu.
+. In *Alarms only mode*, the tracking related features are hidden, if there is no tracking history.
+
 === Chronotype
 
 Based on your sleep patterns in tracking history, the app will determine your chronotype and shows you the icon in the Left menu - either you are morning lark, or night owl.
@@ -40,10 +45,11 @@ To read more about chronotype, see our documentation on
 === Sleep as Android
 
 [horizontal]
+icon:ic_dashboard[] Dashboard:: Opens <</ux/dashboard#,Dashboard>> in Tabs mode.
 icon:ic_alarm[] Alarms:: Opens <</homecreen#,List of alarms>>.
-icon:ic_timelapse[] Stats:: Opens <</sleep/charts#,Statistics section>>.
+icon:ic_timelapse[] Stats:: Opens <</sleep/statistics#,Statistics section>>.
 icon:ic_action_graph[] Graphs:: Opens <</sleep/sleep_graph#,Graph section>>.
-icon:ic_action_stats[] Trend:: Opens <</sleep/sleepscore#,Statistics section>>.
+icon:ic_action_stats[] Chart:: Opens <</sleep/charts#,Charts section>>.
 icon:ic_lightbulb[] Advice:: Opens <</sleep/advice#,Advice>>.
 icon:ic_goal[] Goal:: Opens <</sleep/goals#,Goals>>.
 icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
@@ -51,7 +57,7 @@ icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recor
 
 === Home screen
 
-For mode details on Home screen, please see the <</ux/homescreen#,Home screen>>.
+For mode details on Home screen, please see the <</ux/dashboard#,Dashboard>>, <</ux/tabs#,Tabs>>, and <</ux/alarms_only#,Alarms only mode>>.
 
 [horizontal]
 icon:ic_dashboard[] Dashboard:: Presents all options in cards.
