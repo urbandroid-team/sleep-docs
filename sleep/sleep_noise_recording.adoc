@@ -77,7 +77,7 @@ image::noise_card.png[]
 * When you drag over the graph period with mic icon and select the period (it will be highlighted).
 * You can play the sound recorded at that time with icon:ic_action_play[] in the top right corner.
 
-image::play_from_graph.png[]
+image::rec_play.gif[]
 
 
 //== How to…

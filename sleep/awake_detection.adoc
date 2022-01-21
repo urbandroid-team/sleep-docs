@@ -105,8 +105,6 @@ Volume / camera buttons:: Adds 5 minutes every time your press the volume of cam
 * Needs to be enabled in _Settings -> Sleep tracking -> Volume and camera button effect_
 * When screen off - press the power button and than one of the volume buttons or camera button.
 
-NOTE: You can also <</sleep/graph_edit#,edit your sleep graph>> ex-post in order to correct your wake up or before fall asleep periods (see the Guide how to do so).
-
 
 [[pause-trackig]]
 .Pause tracking from the tracking screen
@@ -115,16 +113,4 @@ image::pause_tracking.png[]
 
 == Guide
 
-[horizontal]
-
-Mark any period as awake::
-. Open the graph you wish to edit from _Left_ ☰ _menu -> Graphs ->_ open the graph.
-. Select any portion of the graph by taping on the graph directly.
-. Adjust the selection once the selected portion gets zoomed - either move the selection handles or correct the timings in the upper left corner.
-. When the proper time period is selected, tap on the scissors icon.
-* You can revert up to 5 changes from the ⋮ _menu -> Undo_, or from an _Undo_ banner that is displayed each time you edit the graph.
-Delete false-positive awakes::
-. Open ⋮ _menu -> Delete awake_.
-* Deletes all awakes (the awakes estimated by the app) from the graph.
-
-NOTE: Deleting awakes won't work for paused tracking (there is no sensoric data from that period) and for the awakes manually entered by the user.
+In case the app makes a mistake in detecting your awake periods, you can  edit your sleep graph ex-post in order to correct your wake up or before fall asleep periods - check our guide how to <</sleep/graph_edit#add_awake, add the missing awakes>>, or <</sleep/graph_edit#delete_awake,revert the false-positive awake>> from your graph.
