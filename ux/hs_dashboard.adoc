@@ -103,4 +103,4 @@ If you long press the card, it is pinned to the top position on the Dashboard. T
 
 [[figure-dashboard-edit]]
 .The Dashboard editing.
-image::ds.gif[]
+image::editing_dashboard.gif[]
