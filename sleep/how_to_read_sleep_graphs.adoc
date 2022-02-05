@@ -74,9 +74,9 @@ image::graph_phase.png[]
 
 a|*The hypnogram*::
 - Shows your <</sleep/sleep_tracking_theory#,sleep phases>> progress during the night, estimated from actigraphic data and other inputs (e.g. awake periods).
-- *Awake*: lightest color, the highest column reaching the top of the graph.
-- *REM phase and light sleep*: shown as medium color, REM has lower columns.
-- *Deep sleep*: shown as the lowest, darkest shade.
+- *Awake*: lightest color, the highest column reaching the top of the graph (100% of the height).
+- *REM phase and light sleep*: shown as medium color - REM 75% of the height, light sleep 50% of the height.
+- *Deep sleep*: shown as the lowest, darkest shade, 25% of the height.
 |===
 
 [cols="1,2"]
