@@ -34,6 +34,7 @@ You can visit Notify app page for http://forum.mibandnotify.com/discussion/20117
 - Amazfit Bip, Bip Lite, Bip S
 - Amazfit Mi Dong Cor
 - Amazfit Arc
+- Amazfit Band 5
 
 == How to set up integration in Notify app
 
