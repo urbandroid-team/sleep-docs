@@ -29,6 +29,6 @@ NOTE: If you are using a Captcha task from the Captcha add-on, please, make sure
 .Samsung
 When alarm goes off, it does not disable the lockscreen and you have to manually unlock the device to tap snooze or dismiss.
 
-You may have Sleep as Android enabled under Border lights. This causes the alarm popup to not display over the lockscreen, as the notification is being shown as a light around the edge of the screen.
+You may have Sleep as Android enabled under Border lights (Edge Lightning on some versions). This causes the alarm popup to not display over the lockscreen, as the notification is being shown as a light around the edge of the screen.
 
 . Disable Border lights for Sleep as Android in your device’s settings.
