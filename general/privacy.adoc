@@ -6,3 +6,53 @@ nav_order: 201
 ---
 
 See https://team.urbandroid.org/privacy/[https://team.urbandroid.org/privacy/] for up-to-date version of Urbandroid's privacy policy that also concerns Sleep as Android.
+
+:toc:
+
+== What it does
+*Allows you to change various privacy options in the app.*
+
+== Where to find it
+
+_Settings -> Privacy_
+
+== Options
+
+[horizontal]
+Don't collect anonymous usage stats:: Allows you to opt-out from anonymous data usage stats. No personally identifiable data is collected even when this option is enabled.
+The anonymous data are for example - how many users have certain app's version, how many users have certain type of Android, how many users have sonar selected as the sensor...
+
+
+.Ads
+[horizontal]
+
+Don't personalize ads:: Allows you to opt-out from the the Android Ads Personalization; it will take you to the system settings page, where you can turn off this feature.
+Settings:: Redirects you to the Facebook Ads preferences.
+
+NOTE: The app does not share your personal data.
+The app only asks to display unspecified ad, the provider of the advertisement will serve the ad based on the advertising ID, that can be disabled.
+You can read more details at our https://team.urbandroid.org/privacy/[https://team.urbandroid.org/privacy/].
+
+NOTE: Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow <</faqs/purchase_not_unlocked#,the guide for unlocking the paid version>>.
+
+.Backup
+[horizontal]
+SleepCloud:: Access to the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&hl=cs&gl=US[SleepCloud addon], if installed and used.
+Android app data backup:: Allows system app data backup.
+Local storage backup:: Enables daily local storage, which saves "0/com.urbandroid.sleep/files/sleep-data/sleep-export.zip" file.
+Scoped storage:: Enables https://source.android.com/devices/storage/scoped[Scoped storage]; when enabled, the access of the app is restricted only to its designated folder. Substitutes the read_storage permission.
+Google Fit:: Enabled Read only access for Sleep app in the Google Fit integration.
+Weather:: Enables weather data gathering for weather tags.
+Restore settings:: Deletes all your changes in the settings, and switches to the defaults.
+
+.Location
+[horizontal]
+Don't store sleep location:: Opts you out of location data. The app only gathers coarse location (± 5km) for <</sleep/tags#geo,geotagging>>.
+Reset home location:: Resets your current home location - useful when you move.
+
+.Advanced
+[horizontal]
+Disable experimental features:: Opt you out from our new experimental features (like new actigraphy data processing, new neuron network for sound classification...).
+Handle phone calls:: Mutes alarms and lullabies, and pauses sound recording when in phone call. The phone permission is needed.
+
+

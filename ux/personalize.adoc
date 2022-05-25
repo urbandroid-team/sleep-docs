@@ -17,6 +17,11 @@ _Settings -> Personalize_
 
 [horizontal]
 Home screen:: Choose the <</ux/homescreen#,Home screen>> mode.
+Show Tabs:: Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).
+* *Dashboard* - adds the Dashboard as a tab.
+* *Stats* - adds SleepScore and stats as a tab.
+* *Graphs* - adds a list of sleep tracking graphs.
+* *Noise* - adds a list of noises as a tab.
 Theme:: You can choose a theme (background color of the app):
 * *Automatic* (Android OS) - Follows the switching of changing dark / light themes by your system.
 * *Automatic* (Bedtime) - Uses dark theme between bedtime and sunrise.
@@ -25,7 +30,7 @@ Theme:: You can choose a theme (background color of the app):
 * *Device settings* - Follows your system settings.
 Color palette (Graphs):: You can choose 7 different color palettes for your graphs:
 * *Default* - The current default on new installations (a color may vary!).
-* *Theme* - New azure blue and orange combination!
+* *Teal* - Teal really is the best color, it's cyan-tiffically proven.
 * *Green* - Yoda green forever!
 * *Blue* - Feeling blue?
 * *Purple* - Been born in the purple?
@@ -33,34 +38,35 @@ Color palette (Graphs):: You can choose 7 different color palettes for your grap
 * *Legacy* - Original graph palette from the good old times.
 Screen transition animations:: Disables animations (for search bar, bar, graphs, stats...)
 Text to speech:: If enabled, Sleep will tell you when it’s time to go to bed, wish you goodnight when you start sleep tracking, tell you it’s time to wake up when the alarm rings, and tell you weather in the morning, after you dismiss the alarm.
+The app uses the system TTS engine. You can change your preferred voice in the system settings -> Accessibility -> Text-to-speech output.
 
 
 .Localization
 [horizontal]
 Force English:: Set app language to English, regardless of your system locale.
 Temperature:: Choose temperature units for weather:
-- Default - uses the phone's default format
-- °C
-- °F
+- *Default* - uses the phone's default format
+- *°C*
+- *°F*
 Start week on:: Choose which day is the first day of a week:
-- Device default - the app follows your system locale.
-- Sunday
-- Monday
-- Saturday
-- Friday
+- *Device default* - the app follows your system locale.
+- *Sunday*
+- *Monday*
+- *Saturday*
+- *Friday*
 
 Time format:: Choose the format of the time in the app:
-- Device default: uses the format set in system settings
-- 13:00 - 24 hour
-- 1:00
-- 1:00 PM - AM / PM format
+- *Device default* - uses the format set in system settings
+- *13:00* - 24 hour time format
+- *1:00* - 12 hour time format
+- *1:00 PM* - AM / PM format
 
 
 .Alarms
 [horizontal]
 Alarm sorting:: Sort alarms in alarm list based either on time or day.
-Default: Day.
-By setting Time, all your alarms will be sorted by time regardless on which day are they scheduled to ring.
+- *Day* - default value
+- *Time* - all your alarms will be sorted by time regardless on which day are they scheduled to ring.
 Analog time picker[[analog-picker]]:: A round analog clock time picker will be shown when creating new alarms instead of the digital one.
 Material time picker:: A round analog clock time picker from Google Material You design.
 

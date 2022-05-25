@@ -85,6 +85,7 @@ icon:ic_lightbulb[] \#light (more than 60 lux for at least 33% of the night, see
 icon:ic_walk[] \#sport (when at least 80% of the goal (Steps or Heart points) is achieved during the day, see <</services/google_fit#,Google Fit>>)
 |===
 
+[[geo]]
 ===== Location tags
 
 We calculate the 4 most frequent places in the past year of your data history. One year should be sufficient so that you can e.g. watch your sleep at your holiday home where you go regularly in the summer.
