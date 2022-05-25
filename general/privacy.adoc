@@ -33,7 +33,7 @@ NOTE: The app does not share your personal data.
 The app only asks to display unspecified ad, the provider of the advertisement will serve the ad based on the advertising ID, that can be disabled.
 You can read more details at our https://team.urbandroid.org/privacy/[https://team.urbandroid.org/privacy/].
 
-NOTE: Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow <</faqs/purchase_not_unlocked#, the guide for unlocking the paid version>>.
+NOTE: Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow <</faqs/purchase_not_unlocked#,the guide for unlocking the paid version>>.
 
 .Backup
 [horizontal]
