@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby '2.7.4'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -8,7 +9,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.6"
+gem "jekyll", "3.8.6"
 # gem "jekyll", :git => "https://github.com/jekyll/jekyll.git", :branch => "master"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -19,6 +20,8 @@ gem "just-the-docs", "0.2.5"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
+
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'hawkins'
