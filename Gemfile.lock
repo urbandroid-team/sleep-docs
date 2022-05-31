@@ -11,6 +11,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
+    ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     hawkins (2.0.5)
@@ -80,11 +82,11 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2022.1)
       tzinfo (>= 1.0.0)
-    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   hawkins
@@ -97,7 +99,6 @@ DEPENDENCIES
   pry
   rb-readline
   tzinfo-data
-  wdm (~> 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
