@@ -92,6 +92,9 @@ To automatically backup your data to Dropbox or Google Drive:
 * The paid PRO version automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc.). You can force backup using _Left_ ≡ _menu -> Backup -> Upload to Cloud_.
 * The back up service will create a *Sleep as Android* folder within the Google Drive storage, and *Sleep Cloud Backup* folder within the DropBox service.
 
+image:drive.png[Google Drive last back up]
+image:dropbox.png[DropBox last back up]
+
 === Backup using Google provided backup cloud
 [[google_backup]]
 Backs up: *Sleep records, Settings, Alarms, Noise recordings metadata*
@@ -105,6 +108,10 @@ NOTE: We recommend using other methods, preferably <<sleepcloud_backup,SleepClou
 
 . In case you have developer tools available, you can force Google backup and restore to get reliable results. To force the backup, you can run “adb backup -f sleep-backup.bk com.urbandroid.sleep” when the old device is connected and to upload the backup to a new device run “adb restore sleep-backup.bk”.
 
+image:system_backup.png[Google One backup]
+
 === Import data from email, Google Drive, Dropbox
 
 If you tap on the CSV or ZIP file that was exported from Sleep (anywhere - in your email attachment, Drive, Dropbox, file manager), the system will offer to open it with Sleep as Android. This will import the included sleep records.
+
+image:import.png[Importing]
