@@ -19,17 +19,15 @@ parent: /services/0parent.html
 ._Left ☰ menu -> Backup_
 [horizontal]
 Export data:: Exports all your sleep records, noises and preferences to ZIP files located on your phone at _/sdcard/sleep-data/_. Use for  <<local_backup,local backup>> or for your <<csv_export, own analysis>> of sleep tracking data. The command also zips up the CSVs and offers to share.
-Upload to Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and uploads data from phone to cloud.
 Import data:: Starts import of data from /sdcard/sleep-data/sleep-export.zip (local backup).
 NOTE: If you already have existing sleep records in Sleep, import will not overwrite them. It will just import new records that are present in the import file.
+Upload to Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and uploads data from phone to cloud.
 Download from Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and downloads data from cloud to app.
+Download from Google Fit:: Starts synchronization with Google Fit service.
 
 ._Settings -> Privacy -> Backup_
-[horizontal]
-SleepCloud:: See <<sleepcloud_backup,SleepCloud backup>>
-Cloud backup:: Main switch for cloud backup. If disabled, no cloud backup will take place.
-Local storage backup:: If disabled, Sleep will not be doing daily <<local_backup,local backup>>.
-Restore settings:: Restore app's settings from locally saved `prefs.xml` file. See <<local_backup,local backup>> for details.
+
+For more details, please read the <</general/privacy#backup,Backup section of Privacy settings>>.
 
 // Google Drive:: See <<google_drive,Google Drive>>
 // Dropbox:: See <<dropbox,Dropbox>>
@@ -83,8 +81,8 @@ Recommended backup service. It stores data in our own cloud designed for Sleep a
 
 === Backup to Dropbox or Google Drive
 [[dropbox]][[google_drive]]
-Backs up: *Sleep records*
-Does not back up: *Settings, Noise recordings metadata, Noise recordings, Alarms*
+Backs up: *Sleep records, Settings, Noise recordings metadata, Alarms*
+Does not back up: *Noise recordings*
 
 To automatically backup your data to Dropbox or Google Drive:
 . Install https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port[SleepCloud Backup add-on].
@@ -92,6 +90,7 @@ To automatically backup your data to Dropbox or Google Drive:
 
 * Free SleepCloud service automatically initiates back up once a week.
 * The paid PRO version automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc.). You can force backup using _Left_ ≡ _menu -> Backup -> Upload to Cloud_.
+* The back up service will create a *Sleep as Android* folder within the Google Drive storage, and *Sleep Cloud Backup* folder within the DropBox service.
 
 === Backup using Google provided backup cloud
 [[google_backup]]
@@ -102,9 +101,7 @@ Most Android phones support Google provided backup. This is an optional feature 
 
 NOTE: We recommend using other methods, preferably <<sleepcloud_backup,SleepCloud>>, to backup your sleep records, as we have no direct control over initiation of Google backup so it may not work in all cases. This method is NOT meant to be used for synchronization of data or settings across phones.
 
-. Enable Backup to Google Drive in  _System Settings -> System -> Backup_ (might be hidden under Advanced options) -> _Back up to Google Drive_ - our application will backup your graphs and your alarms to a Google cloud (automatically in background; you do not need to do anything).
-
-. Enable _Automatic restore_ option in _System Settings -> System -> Backup_ (might be hidden under Advanced options) -> _App data_ - when you install a new installation of Sleep as Android on a phone where the Automatic restore option is enabled, all data will be automatically imported. You’ll get your sleep records and your alarm settings restored.
+. Enable Backup to Google One in  _System Settings -> System -> Backup_ (might be hidden under Advanced options) -> _Back up by Google One_ - the system will backup to a Google cloud automatically in background, or you can force immediate back up with "Back up now" button.
 
 . In case you have developer tools available, you can force Google backup and restore to get reliable results. To force the backup, you can run “adb backup -f sleep-backup.bk com.urbandroid.sleep” when the old device is connected and to upload the backup to a new device run “adb restore sleep-backup.bk”.
 

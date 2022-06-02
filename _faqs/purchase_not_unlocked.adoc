@@ -11,7 +11,7 @@ Firstly - did you buy the unlock as a separate app ("Sleep as Android Unlock") o
 
 == Separate Unlock app
 . Please make sure you have installed both Sleep as Android as well as Sleep as Android Unlock in your _System Settings-> Apps -> Downloaded_.
-. If not, head to the Google Play Store and download Sleep as Android Unlock again! As long as you use the same Google account you did the purchase with as your primary account in Play Store it remembers your purchases and you should be able to download again.
+. If not, head to the Google Play Store and download https://play.google.com/store/apps/details?id=com.urbandroid.sleep.full.key&hl=cs&gl=US[Sleep as Android Unlock] again! As long as you use the same Google account you did the purchase with as your primary account in Play Store it remembers your purchases and you should be able to download again.
 . If you are unable to download it (you see a price instead of download button), please go to the Play Store on your computer and check if you are able to download it there.
 
 == In-app purchase

@@ -35,6 +35,8 @@ You can read more details at our https://team.urbandroid.org/privacy/[https://te
 
 NOTE: Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow <</faqs/purchase_not_unlocked#,the guide for unlocking the paid version>>.
 
+
+[[backup]]
 .Backup
 [horizontal]
 SleepCloud:: Access to the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&hl=cs&gl=US[SleepCloud addon], if installed and used.
