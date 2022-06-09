@@ -58,3 +58,5 @@ NOTE: All smartlight features are enabled automatically now - including anti-sno
 
 NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>.
 
+NOTE: The app cannot connect BT mask and Sleep Phaser at the same time.
+
