@@ -7,7 +7,72 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20220114
+== Latest version
+
+== 20220609
+– EXECUTIVE SUMMARY: Better Spotify and Meditation lullaby
+– New Spotify integration using remote play: more reliable, works for Spotify Premium users, should always play the selected playlists
+– To use new Spotify remote play you need to re-authenticate in Settings > Service > Spotify or tapping on tethe news card
+– News card about new Spotify integration
+– Integration with our app Lis10 to add guided fall asleep meditation to your lullabies
+– You can enable meditation in Settings > Lullaby > Meditation
+– Fix for Spotify login for Facebook users
+– Fixing volume indicator in alarm when directly accessing system volume (e.g. Spotify)
+– Workaround for CAPTCHA cheating protection crash on some Samsung Android 12 devices related to accessibility service
+
+== 20220516
+– HOTFIX release for recent crashes on Android 12L and 13 – Android BETA program
+– Fix for CAPTCHA cheating protection to use full potential of Accessibility Service
+– New material design time picker for 12-hour locales
+– Support for Notify and Fitness on Huawei phones
+– Fix for some colors in dark mode
+
+== 20220322
+– Fix for a widget size regression
+– Preview dialog for CAPTCHA
+– Calendar integration: Fix for reschedule alarm notification texts
+– Fix for Dropbox and Drive automatic sync
+– Fix for a rare crash when Unlocking the app
+– Test button for IFTTT and related fixes
+– Various smaller bug fixes
+– Updates in Swedish, French, Portuguese, Spanish…Many thanks!
+
+== 20220222
+– Visual improvements in on-boarding screens
+– More color aligned backgrounds and images
+– Nicer droid images
+– Pause +5 min option in sleep tracking screen when not using noise recording
+– Media Session support for lullaby playback – can be controlled from the quick settings, Wear OS watches, the assistant..
+– Show year info even for shorter period chart views
+– Fix for white edit field on note dialog in sleep tracking screen on older devices
+– Fix for crashing bug in hindi locale
+– Fix for Spotify lullaby playback crash
+– Several other smaller bug fixes
+
+== 20220118
+– Improve CAPTCHA cheating protection though Accessibility Service
+– New walk-through tutorial for CAPTCHA cheating permissions
+– If you want to prevent any cheating of CAPTCHA please enable Settings > Accessibility service > Sleep as Android
+– Remembering the last open tab in the Tabbed home screen mode
+– Fix for Settings > Alarm > Disable screen orientation changes setting
+– Improved look of alarm screen in landscape on phones
+– More privacy friendly analytics, most of the default analytics features are now turned off, we basically just use custom events to track usage patterns important for us to improve user experience
+– Fallback for backup export, in case the only option is scoped storage
+– Fix for Sonar not reverting volume if sleep tracking is hard killed by the system and restarted
+– Fix for inconsistent “skip next” text in alarm list
+– Improved lullaby volume adjusting with Sonar
+– Fixes in Swedish translation errors
+– More smaller bug fixes
+– Fix for predefined alarms ringtone – not being application settings
+– Fix for permission names in Czech
+– Fine tuning apnea alarm thresholds
+– Fix for mute ringtone when using lucid dreaming
+– Option to turn off weather information in morning in Settings > Privacy
+– Use of coarse location for weather
+– Fix for MET Norway forecasts
+– Not closing lullaby dialog when playing lullaby in preview
+
+== 20220114
 – Fix for Settings > Alarm > Disable screen orientation changes setting
 – Improved look of alarm screen in landscape on phones
 – Improve CAPTCHA cheating protection though Accessibility Service
