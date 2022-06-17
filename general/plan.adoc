@@ -13,7 +13,7 @@ We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free 
 == FREE Sleep as Android
 
 With free version of Sleep as Android, you get 14 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.
-In addition, the free app shows advertisments.
+In addition, the free app shows advertisements.
 
 == FULL Sleep as Android
 
@@ -23,6 +23,8 @@ There are thee options to get full Sleep as Android:
 1. Unlock stand-alone app
 2. In-app lifetime Sleep
 3. Subscription for Sleep
+
+image:premium.png[width=50%]
 
 === Unlock stand-alone app
 

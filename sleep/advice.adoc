@@ -9,7 +9,7 @@ parent: /sleep/0parent.html
 == What it does
 *Advice shows your current sleep development at a glance.*
 
-You can see which dimensions of your sleep have improved or worsened recently including tips on how to reverse the worsening trends.
+You can see which dimensions of your sleep have improved or worsened recently, including tips on how to reverse the worsening trends.
 
 == Where to find it
 - *Left ☰ menu -> Advice*
