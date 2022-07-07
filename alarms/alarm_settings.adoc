@@ -37,23 +37,23 @@ Alarm default settings allow you to modify basic behaviour for all your alarms. 
 [horizontal]
 Ringtone:: See <</alarms/ringtone#,Ringtone>>.
 Gentle volume increase[[gentle_alarm]]:: Gentle volume makes sure to wake you with minimum volume required for a more pleasant wake up. Alarm starts at minimum volume and will gradually increase to maximum.
-* Disabled - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
-* 30 seconds - a brief period of increased sound followed by sound at current system's volume.
-* 1-24 minutes - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
+* *Disabled* - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
+* *30 seconds* - a brief period of increased sound followed by sound at current system's volume.
+* *1-24 minutes* - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
 Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
-* Disabled - No vibrations on phone at all.
-* From start - Vibrations start at alarm time.
-* After 30 seconds - Vibrations start after 30 seconds.
-* After 1-24 minutes - Vibrations start after set time.
+* *Disabled* - No vibrations on phone at all.
+* *From start* - Vibrations start at alarm time.
+* *After 30 seconds* - Vibrations start after 30 seconds.
+* *After 1-24 minutes* - Vibrations start after set time.
 Delayed alarm sound start::
 You may want to first give chance to <</devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
-* Disabled - Sound starts at alarm time.
-* 30 seconds - 24 minutes - Sounds starts after set time.
+* *Disabled* - Sound starts at alarm time.
+* *30 seconds - 24 minutes* - Sounds starts after set time.
 Play alarm in silent profile:: Alarm sound will override phone's silent mode.
 
 .Alarm Screen
 [horizontal]
-Sunrise:: Enable to use your phone’s screen as a smartlight for the sunrise alarm.
+Sunrise:: Enables using your phone’s screen as a smartlight for the sunrise alarm.
 Always fullscreen alarm:: Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw over other apps_ permission.
 No screen orientation changes:: Prevents changes of screen orientation while the alarm rings (prevents accidental snoozes or dismiss during orientation changes).
 
@@ -73,7 +73,7 @@ Alarm timeout:: See <</alarms/backup#,Backup alarm>>.
 .Dangerous options
 [horizontal]
 Alarm output:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
-NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings.
+NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, on other phones, the system still routes the media stream to both devices.
 
 
 .Alarm-specific settings
@@ -83,54 +83,83 @@ There are also few options that are only available in alarm-specific settings:
 [horizontal]
 Repeat:: Set a schedule for repeating alarm, you can choose also <<even_odd,Even / odd bi-weekly patterns>>.
 Silent alarm (in Ringtone):: Sets an alarm without sound.
-Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>)).
+Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>).
 Sleep duration goal:: A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).
 Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
 Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
 
 == Guide
 [[guide]]
-[horizontal]
-Create alarm only as vibrations on watch (no sound)::
+
+=== Create an alarm only as vibrations on watch (no sound)
+
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).
 . Enable wearable vibrations (_Settings -> Wearables -> Vibrate_).
 +
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 
-Create silent alarm::
+
+=== Create silent alarm
 
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_).
 . This option is available only in <<per-alarm,Alarm-specific settings>>, not in _Settings -> Alarms_. This is a safety measure to prevent unintentional silent alarms.
 +
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
-Postpone next alarm::
+
+=== Postpone next alarm
 . Open alarm -> Postpone next alarm.
 . Use the sliding bar or the drop down menu list for postponing alarm.
 . Confirm the alarm time change.
 +
 NOTE: Works only for repeating alarms.
-Skip next alarm::
+
+
+=== Skip next alarm
+
 . Open an alarm -> Skip next, confirm the change.
 . Or long press on the alarm on alarm board -> Skip next.
 +
 NOTE: Works only for repeated alarms.
 +
 NOTE: Skip next through long press can be used repeatedly, so that you can skip several days in advance.
-Dismiss alarm before alarm time::
-. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone.
+
+
+=== Dismiss alarm before alarm time
+
+. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone. On newer phones, you need to expand the notification with the expanding arrow.
 . Dismiss from the notification.
+image:dismiss_not.png[width=50%]
+
+[start=1]
+. Tap the dismiss button on the finished graph.
+image:dismiss_graph.png[width=50%]
 +
 NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
-Use my own sound as alarm::
+
+=== Use my own sound as alarm
 . Open Ringtone selection: _Settings -> Alarm default settings -> Ringtone_ or _<<per-alarm,Alarm-specific settings>> -> Ringtone_.
 . Tap on folder icon:ic_folder[] icon in right upper corner.
 . Choose a sound file saved on your phone.
 +
 NOTE: In the file picker you may first need to enable showing of external storage to be able to see your sound there.
-Name an alarm::
+
+=== Name an alarm
 . Open an existing alarm details screen or create new alarm dialogue.
 . Name your alarm in the Label field in upper right corner. You will see this name on the alarm dialog in the morning, so you can use it for TODOs or motivation texts and they will be written into your sleep graph description.
-Create odd / even schedule:: [[even_odd]]
+image:alarm_label.png[width=70%]
+
+
+=== Create odd / even schedule [[even_odd]]
 . Open _<<per-alarm,Alarm-specific settings>>_.
 . Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
 . Choose Weekly / Even / Odd pattern from the drop down menu list.
+* The app will show you the date of the next scheduled alarm and also will label the alarm scheduled for the next week
+image:odd_even.png[width=50%]
+
+
+=== Create non-weekly schedule
+. Open _<<per-alarm,Alarm-specific settings>>_.
+. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
+. Choose the pattern of the repetition - every 2nd - every 6th day.
+* The app will show you the date of the next scheduled alarm bellow the alarm time, and on the alarm card.
+image:alarm_date.png[width=70%, align=center]

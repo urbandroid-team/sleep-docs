@@ -60,7 +60,7 @@ Does not back up: *Noise recordings, Inactive alarms*
 
 Recommended backup service. It stores data in our own cloud designed for Sleep as Android. It has several unique features not present in other backup methods.
 
-Read <</services/sleepcloud# more about SleepCloud addon and account here>>
+Read <</services/sleepcloud#, more about SleepCloud addon and account here>>.
 
 == Backup to Dropbox or Google Drive
 [[dropbox]][[google_drive]]

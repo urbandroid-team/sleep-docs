@@ -29,6 +29,7 @@ Theme:: You can choose a theme (background color of the app):
 * *Morning lark* - Light theme (white background, black font) all the time.
 * *Device settings* - Follows your system settings.
 Color palette (Graphs):: You can choose 7 different color palettes for your graphs:
+video::color.mp4[width=400, options=autoplay]
 * *Default* - The current default on new installations (a color may vary!).
 * *Teal* - Teal really is the best color, it's cyan-tiffically proven.
 * *Green* - Yoda green forever!
@@ -36,7 +37,6 @@ Color palette (Graphs):: You can choose 7 different color palettes for your grap
 * *Purple* - Been born in the purple?
 * *Miscellaneous* - A combination of blue, teal, and yellow, to match your colorful personality.
 * *Legacy* - Original graph palette from the good old times.
-image:color.gif[200,160]
 
 Screen transition animations:: Disables animations (for search bar, bar, graphs, stats...)
 Text to speech:: If enabled, Sleep will tell you when it’s time to go to bed, wish you goodnight when you start sleep tracking, tell you it’s time to wake up when the alarm rings, and tell you weather in the morning, after you dismiss the alarm.

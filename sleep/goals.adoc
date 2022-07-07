@@ -35,7 +35,7 @@ image::goal_progress_succesful.png[]
 
 === Goal progress
 
-After you create a goal you can check omn progress _Left ☰ menu -> Goal_, or you can see it in glance on your Dashboard <</ux/homescreen#goalcard, Goal>> card
+After you create a goal you can check on the progress in _Left ☰ menu -> Goal_, or you can see it in glance on your Dashboard <</ux/homescreen#goalcard, Goal>> card.
 
 In <<goal-progress-screen>> you see an example of a goal in progress. It consists of 3 series:
 

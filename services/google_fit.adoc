@@ -10,6 +10,18 @@ parent: /services/0parent.html
 == What it does
 Allows you to synchronize data between Sleep as Android and Google Fit.
 
+[cols="^,^"]
+|===
+a|[[google-fit-insert]]
+.Sleep data from SAA app in Google Fit.
+image::google_fit_month.png[]
+
+a|[[google-fit-insert]]
+.Sleep data for one night
+image::google_fit_day.png[]
+
+|===
+
 . Upload your sleep data into Google Fit
 . Download 3rd party sleep data from Google Fit into Sleep as Android
 . Heart rate import and export

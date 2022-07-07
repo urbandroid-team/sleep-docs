@@ -26,7 +26,15 @@ image::sleepscore_annotated.png[]
 image::sleepscore.png[]
 
 
-=== Sleepscore dimensions
+=== Sleep score charts colors
+
+We use [color-green]#green-ish# for healthy range and [color-red]#red-ish# for unfavourable range. The exact color may depend on the color palette.
+
+Values above the average may mean some error of measurement – for example the phone was not close enough to the body. Values under average may indicate too much light sleep due to various factors such as stress, alcohol consumption, loud environment etc…
+
+In long-term perspective, diversion from the average may indicate some issue. The Advice card on the main Dashboard <</sleep/advice#advicecard, from the Advice section>> will warn you, if the app detects any unfavourable trend in your data.
+
+=== Sleep score dimensions
 
 There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range:
 
@@ -48,7 +56,7 @@ Unfavourable: under -5
 
 a|image::BR_pie.png[]
 *Breath disturbances*
-|Breathing disturbance episodes per hour <</sleep/sleep_apnea#, here>> and <</sleep/breath_rate#, here>>.
+|Breathing disturbance episodes per hour, read more about this topic <</sleep/sleep_apnea#, here>> and <</sleep/breath_rate#, here>>.
 |Average breathing disturbance episodes per hour.
 |
 |Healthy: under 10
@@ -108,7 +116,7 @@ Unfavourable: over 10%
 [NOTE]
 ====
 [[note-age]]
-Healthy durations are adjusted according to your age as defined in _Settings -> Sleep -> More -> Stats -> Year of birth_
+Healthy durations are adjusted according to your age as defined in _Settings -> Stats -> Year of birth_
 
 * General or not set (6.5 - 9)
 * School age (9 - 11)
