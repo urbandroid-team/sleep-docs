@@ -9,6 +9,28 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 == Latest version
 
+== 20220707
+
+- Experimental PineTime (https://www.pine64.org/pinetime/) support (InfiniTime 1.9.0+ firmware is required)
+- PineTime supports: accel sleep tracking, heart rate, lucid dreaming and anti-snoring, alarms
+- Health Connect integration under Settings > Services > Health Connect
+- Improved Meditation support in Settings > Lullabies
+- Option to only automatically start tracking when on charger (this is by default always ON for Sonar)
+- Fix for gentle volume increase for Spotify with the Last song option
+- Stop and Pause / Resume actions from sleep tracking notification
+- Option to skip rating screen after tracking in Settings > Stats
+- Option backup files in a shared directory in Settings > Privacy > Local backup > Storage path
+- Fix for a recent regression which bring Sleep to the front when dismissing an alarm from notification
+- Fix for a recent regression in webhooks
+- Option to allow basic authentication in webhooks automation
+- Stop action on sleep tracking notification stops and saves tracking directly
+- Fix for crash in barcode scanning
+- Better handling of gesture navigation on rating screen
+- Sleep duration goal in home screen shortcuts now triggers without bedtime notification time
+- Fix for alarm widget to show day when at least 24 hours ahead
+- Fix for odd/even weeks confusion
+- Lis10 meditations now support top 10 world languages
+
 == 20220609
 – EXECUTIVE SUMMARY: Better Spotify and Meditation lullaby
 – New Spotify integration using remote play: more reliable, works for Spotify Premium users, should always play the selected playlists
