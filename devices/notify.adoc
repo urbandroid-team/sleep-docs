@@ -24,6 +24,7 @@ You can visit Notify app page for http://forum.mibandnotify.com/discussion/20117
 - Mi Band 4
 - Mi Band 5
 - Mi Band 6
+- Mi Band 7
 
 == Supported Amazfits[[supported_wearables]]
 
