@@ -25,7 +25,7 @@ We make sure even sleepyheads wake up on time with our <</alarms/captcha#,CAPTCH
 == Where to find it
 Alarms can be setup in two places. Each alarm has its own alarm-specific settings. Newly created alarms are by default based on _Settings -> Alarms_.
 
-Alarm-specific settings[[per-alarm]]::
+Alarm-specific settings::
 
 Alarm-specific settings change behaviour of a particular alarm; those changes won't affect other alarms or default settings.
 
@@ -75,7 +75,7 @@ Alarm timeout:: See <</alarms/backup#,Backup alarm>>.
 Alarm output:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
 NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, on other phones, the system still routes the media stream to both devices.
 
-
+[[per-alarm]]
 .Alarm-specific settings
 All default options are also available as alarm-specific options.
 

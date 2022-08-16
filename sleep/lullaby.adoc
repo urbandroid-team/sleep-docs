@@ -97,7 +97,7 @@ Turn off WiFi after lullaby:: Turns off the WiFi signal once the volume reaches 
 
 == Advanced Options
 [horizontal]
-Binaural beats:: Enables binaural beats into lullaby playback - effective only if you use the lullaby with headphones.
+Binaural beats[[binaural]]:: Enables binaural beats into lullaby playback - effective only if you use the lullaby with headphones.
 WARNING: We do strongly discourage users from using binaural beats if they suffer epileptic or cardiac issues!
 * Delta - frequency goes down to 2 Hz
 * Theta - frequency goes down to 4 Hz
