@@ -87,6 +87,23 @@ Sudden sounds volume:: Controls volume of sudden sounds (e.g. thunders, bubbles)
 Start automatically:: Initiates lullabies automatically when tracking starts.
 
 
+.Meditation section [[meditation]]
+
+Meditation lullabies requires a https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[free add-on Lis10 from Play Store].
+The addon is a text-to-speech editor, that gives you a full freedom of the content. You can adjust the meditation to fit your needs.
+The addon provides a few samples, but you are free to edit them or create your own meditations.
+
+
+[horizontal]
+Meditation::
+Session::
+ * Meditation Daytime
+ * Meditation Fall Asleep
+ * Wim Hof Inspired Breathing Exercise
+Voice setup:: Opens the settings for the Text-to-speech engine on your phone, where you can change the voice parameters, like tone, langauge, and rate.
+Install:: Takes you directly to the addon https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[web on  Play Store].
+
+
 .Online radio section
 [horizontal]
 Play::
