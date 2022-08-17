@@ -95,7 +95,8 @@ The addon provides a few samples, but you are free to edit them or create your o
 
 
 [horizontal]
-Meditation::
+Meditation:: When enabled, the mediation will start automatically if the lullaby starts.
+NOTE: You need to have the lullaby automatic start enabled, or start the lullaby manually from the tracking screen with the icon:ic_action_lullaby[] icon in the top right corner.
 Session::
  * Meditation Daytime
  * Meditation Fall Asleep
