@@ -96,12 +96,12 @@ The addon provides a few samples, but you are free to edit them or create your o
 
 [horizontal]
 Meditation:: When enabled, the mediation will start automatically if the lullaby starts.
-NOTE: You need to have the lullaby automatic start enabled, or start the lullaby manually from the tracking screen with the icon:ic_action_lullaby[] icon in the top right corner.
+NOTE: You need to have the lullaby automatic start enabled, or start the lullaby manually from the tracking screen with the icon:ic_action_lullaby[xs] icon in the top right corner.
 Session::
  * Meditation Daytime
  * Meditation Fall Asleep
  * Wim Hof Inspired Breathing Exercise
-Voice setup:: Opens the settings for the Text-to-speech engine on your phone, where you can change the voice parameters, like tone, langauge, and rate.
+Voice setup:: Opens the settings for the Text-to-speech engine on your phone, where you can change the voice parameters, like tone, language, and rate.
 Install:: Takes you directly to the addon https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[web on  Play Store].
 
 

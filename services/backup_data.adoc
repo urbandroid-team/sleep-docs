@@ -39,6 +39,9 @@ Does not back up: *Inactive alarms*
 
 Your data are being backed up on a daily basis to `/sdcard/sleep-data/` folder on your phone. You can also start local backup manually using _Left_ ☰ _menu -> Backup -> Export data_.
 
+NOTE: Do not use if you plan to reinstall the app, or to clear the app's data!
+If you wish to use manual backup for these purposes, tap the SHARE button on the dialogue, and save the file to a different location, add it to an email, or save it to a cloud service.
+
 What is backed up in this folder:
 [horizontal]
 /rec folder:: Contains all your recorded noise files.

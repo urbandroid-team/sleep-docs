@@ -25,12 +25,13 @@ You can check the Tools app https://help.mibandtools.com/knowledge_base/categori
 
 == Supported Amazfits[[supported_wearables]]
 
-- Amazfit GTS, GTS 2, GTS 2E, GTS 2 mini
-- Amazfit GTR, GTR 2, GTR 2R
+- Amazfit GTS, GTS 2, GTS 2E, GTS 2 mini, GTS 3
+- Amazfit GTR, GTR 2, GTR 2R, GTR 3, GTR 3 PRO
 - Amazfit Bip, Bit Lite, Bip S
 - Amazfit Cor, Cor 2
 - Amazfit Arc
 - Amazfit BAnd 5
+- Amazfit T-Rex
 
 == How to set up integration in Tools app
 
