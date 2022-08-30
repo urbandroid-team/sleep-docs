@@ -7,7 +7,25 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20220707
+== Latest version 20220830
+
+- Android 12 target API level
+- Toggleable graph legend: allows you to select exactly the view of your data you want
+- More Material Design V3: app settings, menu drawer, alarm settings, dialogs, text fields, fonts
+- Design tweaks in alarm card and alarm list and more
+- Improved graphs in landscape mode
+- Better graphs on tablets
+- Fix for CAPTCHA cheating protection + Accessibility + Lock screen on Android 13
+- Settings category contextual help (?)
+- Sleep tracking settings less bloated
+- Fix in recent regression in chart period
+- Showing data in Sleep score or Charts even with recent gap in data
+- Fix for not immediately terminating tracking when tapping sleep tracking notification
+- Fix for charging requirement in automatic sleep tracking when sonar as well as wearable is connected
+- Gentle vibration on PineTime
+- Slovak and Greek translations
+
+== 20220707
 
 - Experimental PineTime (https://www.pine64.org/pinetime/) support (InfiniTime 1.9.0+ firmware is required)
 - PineTime supports: accel sleep tracking, heart rate, lucid dreaming and anti-snoring, alarms
