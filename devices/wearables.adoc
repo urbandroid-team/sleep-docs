@@ -25,6 +25,15 @@ NOTE: Sleep tracking collects data the whole night and they are analyzed in real
 
 Sleep as Android supports a wide variety of smartwatches. Take a look at the list:
 
+.Legend for sensor
+
+[horizontal]
+↝:: Movement detected from the wearables' accelerometer
+❤:: Heart rate (HR)
+💟:: Heart rate variability (HRV) - all models from the category with this sensor
+◌:: Blood oxygen saturation (SpO2) - all models from the category with this sensor
+
+
 |===
 |Manufacturer |Device |Supported sensors |Notes
 

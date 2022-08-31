@@ -25,7 +25,7 @@ See <</sleep/sleep_tracking#how-to-track-sleep, How to track sleep>> for details
 
 Sonar brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed.
 
-You don’t need any new hardware for that – everything is already in your smartphone (check our <</sleep/sonar_devices#,device compatibility list>>): microphone, speaker, and required computing power.
+You don’t need any new hardware for that – everything is already in your smartphone: microphone, speaker, and required computing power.
 
 During tracking with sonar the phone produces ultrasonic signal (which cannot be heard by most). Even tiny movements distort the reflected signal which allows us to track them when we record them with the microphone.
 

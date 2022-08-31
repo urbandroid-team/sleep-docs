@@ -1,25 +1,25 @@
 Vendor,Device,Support /<br>sensors,Sensors supported,Battery use/night,Notes
 Wear OS,"All Android Wear 1.0 and Wear OS 2.0 devices are supported if they have Play Services e.g.:
-Moto 360, Fossil, LG Watch, Sony SWR50, Asus ZenWatch, Huawei, Samsung, Polar but only Wear OS-based, TicWatch (only versions with Play Services), … and many more …",YES (↝❤),↝❤,"15% without HR, 25% with HR tracking","Battery life on each device depends on the sensor batch queue size, which allows the app to keep the watch in standby most of the time and still collect all data. </br> </br>You need a companion app installed from the Play Store on the watch."
+Moto 360, Fossil, LG Watch, Sony SWR50, Asus ZenWatch, Huawei, Samsung, Polar but only Wear OS-based, TicWatch (only versions with Play Services), … and many more …",YES (↝❤💟◌),↝❤💟◌,"15% without HR, 25% with HR tracking","Battery life on each device depends on the sensor batch queue size, which allows the app to keep the watch in standby most of the time and still collect all data. </br> </br>You need a companion app installed from the Play Store on the watch. </br> </br>Wear OS devices do not allow readin SpO2 and HRV data at once."
 Xiaomi,"Mi Band 1, Mi Band 2, Mi Band 3, Mi Band 4, Mi Band 5, Mi Band 6, Mi Band 7",YES (↝❤),↝❤,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify for Mi Band</a> to get data to Sleep as Android."
 Xiaomi,"Mi Band 1 (except 1S), Mi Band 2, Mi Band 3, Mi Band 4, Mi Band 5, Mi Band 6, Mi Band 7",YES (↝❤),↝❤,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android."
 Huami,"Amazfit GTS, Amazfit GTS 2 Amazfit GTS 3, Amazfit GTS 2E, Amazfit GTS 2 Mini, Amazfit GTR, Amazfit GTR 2, Amazfit GTR 2E, Amazfit GTR 3, Amazfit GTR 3 PRO, Amazfit T-Rex, Amazfit Bip, Amazfit Bip S, Amazfit Bip Lite, Amazfit Arc, Amazfit Cor, Amazfit Cor 2",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"">Tools & Amazfit app</a> to get data from Amazfit to Sleep as Android. Also see <a href=""http://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"">T&A help</a>."
 Huami,"Amazfit T-Rex, Amazfit GTS, Amazfit GTR (47mm & 42mm), Amazfit GTR Lite (47mm & 42mm), Amazfit Verge Lite, Amazfit Bip Lite, Amazfit Bip & Amazfit Bip S, Amazfit Bip 3, Amazfit Mi Dong Cor, Amazfit Arc)",YES (↝❤),↝❤,,"You need <a href=""https://play.google.com/store/apps/details?id=com.mc.amazfit1"">Notify & Fitness for Amazfit app</a> to get data from Amazfit to Sleep as Android.."
 Huami,"Android-based Amazfit (Pace, Stratos, Verge)",NO but coming soon,,,"AmazMod is currently working on this integration, stay tuned"
 Pebble,1 & 2 - all variants,YES (↝),↝,<<5%,Works either with the official app and the Rebble project or with GadgetBridge..
-Fitbit,"Ionic, Versa, Versa Lite, Versa 2, Versa Sense, Versa 3",YES (↝❤),↝❤, ,"You need the <a href=""https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02"">Fitbit app</a>"
+Fitbit,"Ionic, Versa, Versa Lite, Versa 2, Versa Sense, Versa 3",YES (↝❤💟),↝❤💟, ,"You need the <a href=""https://gallery.fitbit.com/details/90650cd6-76fa-40db-a747-240ac7da8a02"">Fitbit app</a>"
 Samsung,"Gear 1, Gear 2, Gear Neo, Gear S, Gear S2",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
 Samsung,"Galaxy Watch, Galaxy Watch Active, Galaxy Watch Active 2, Galaxy Watch 3",YES (↝❤),↝❤,15-20% at best,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android - Native Gear Companion"" on the watch from the Gear store."
 Samsung,"Gear Fit 2, Gear Fit 2 Pro",YES (↝❤),↝❤, ,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"">addon for phone</a><br>- ""Sleep As Android for Gear Fit 2"" watchface on the watch from the Gear store.
 Read more at <a href=""http://bit.ly/sleepgearfit2"">Sleep loves Gear Fit 2</a>"
 Samsung,"Gear Fit 1, Galaxy Fit, Galaxy Fit 2, Galaxy Fit e",NO,,,RTOS does not have open API for integration
-Samsung,"Galaxy Watch 4",YES (↝❤),↝❤,40%,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep"">addon the watch from the Play Store on the watch."
-Garmin,"ConnectIQ devices<br> (<a href=""https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml"">supported watches</a>)",YES (↝❤),↝❤,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
+Samsung,"Galaxy Watch 4, Galaxy Watch 5",YES (↝❤),↝❤,40%,"You need to install:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep"">addon the watch from the Play Store on the watch</a>. </br> </br>GW4 and GW5 do not allow 3rd party apps to read SpO2 data."
+Garmin,"ConnectIQ devices<br> (<a href=""https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml"">supported watches</a>)",YES (↝❤💟💨◌),↝❤💟◌,~10-15% ,"You need:<br>- an <a href=""https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"">addon for phone</a><br>- a <a href=""https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"">watch app</a>"
 Microsoft,Band (1 and 2),NO,,~60%,"Supported previously, but not anymore.
 There was a plugin <a href=""https://play.google.com/store/apps/details?id=com.shopeetee.sleepasbandaddon"">download an addon</a>.<br>Made by David Beneda, big thanks!"
 iMacwear,iMacwear M7,YES (↝),↝,,"Sleep works on these kinds of devices out of the box, the same as on a full scale Android smartphone."
-Polar,"H7",YES (❤),❤, ,Only HR measurement
-Polar,"H10, OH1, Sense",YES (↝❤),↝❤, ,Full sleep tracking
+Polar,"H7",YES (❤💟),❤💟, ,Only HR measurement
+Polar,"H10, OH1, Sense",YES (↝❤💟),↝❤💟, ,Full sleep tracking
 Mio,Link,YES (❤),❤, ,Only HR measurement
 CooSpo,H6M,YES (❤),❤, ,Only HR measurement
 Jawbone,UP,NO,, ,No support for 3rd party integration
@@ -36,3 +36,4 @@ Beurer,All,NO,, ,No support for 3rd party integration
 Wahoo,Tickr X,NO,, ,Turns off when it senses low activity
 Under<br>Armour,All,NO,, ,No realtime access to accelerometric data
 Vector,All,NO,, ,No access to raw accelerometric data
+Pine64,PineTime,YES (↝❤),↝❤, , You need Gadget bridge

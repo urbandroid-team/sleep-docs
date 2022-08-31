@@ -98,7 +98,7 @@ The accuracy of measured data depends on how well your bed is able to transmit y
 [color-green]#Wearable device# > [color-green]#Arm band# > [color-orange]#Spring mattress# > [color-orange]#Latex# > [color-orange]#Hard foam# > [color-orange]#Soft foam# > [color-red]#Thick slow foam layer# > [color-red]#100% Slow foam#
 
 ==== Using sonar
-Sleep as Android enables you to use the phone’s microphone and speaker as a sonar (for range and movement detection using ultrasound). It works on a lot of phones, but not all (some are unable to produce or capture frequencies above human hearing range). See the <</sleep/sonar_devices#,list of compatible devices>>.
+Sleep as Android enables you to use the phone’s microphone and speaker as a sonar (for range and movement detection using ultrasound). It works on a lot of phones, but not all (some are unable to produce or capture frequencies above human hearing range).
 
 https://sleep.urbandroid.org/introducing-sonar-as-sensor/[Read more] about sonar and how we invented it.
 
