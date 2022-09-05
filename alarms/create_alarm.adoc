@@ -11,12 +11,15 @@ parent: /alarms/0parent.html
 
 == Where to find it
 
-New alarms are created using icon:ic_alarm_plus[] or by using any of the sleep or nap <</ux/homescreen#shortcut,shortcuts>> which create a new alarm (with the _Delete after ringing_ option enabled) and start sleep tracking in one step.
+You can create an alarm by using one of these methods:
 
-[[figure-new-alarm]]
-.Ways to create a new alarm
-image::new_alarms.png[]
-
+[horizontal]
+Set new alarm cart:: on Dashboard, when there is no active alarm. image:set_alarm_1.png[]
+Alarm icon icon:ic_alarm_plus[]:: in the search bar (Tabs layout) image:set_alarm_2.png[]
+Alarm icon icon:ic_alarm_plus[]:: on the alarm card (Dashboard layout) image:set_alarm_3.png[]
+Alarm icon widget:: from the main screen image:set_alarm_4.png[]
+Shortcut bar on the Dashboard:: creates a new alarm (with the _Delete after ringing_ option enabled) and start sleep tracking in one step.
+image:set_alarm_5.png[]
 
 To quickly edit trigger time of an existing alarm, tap on the time of the alarm.
 
@@ -26,10 +29,67 @@ To edit <</alarms/alarm_settings#per-alarm,Alarm-specific>> settings of your ala
 .Edit alarm time
 image::alarm_edit.png[]
 
+
 == Options
 
+
+NOTE: All options in the per-alarm settings will override the settings default for other alarms, and are applied to this alarm only. If you wish to change all alarms, go to _Settings → Alarms_.
+
 [horizontal]
-Time picker:: You can choose between analog clock time picker (default) and wheel time picker (This can be configured in <</ux/personalize#analog-picker,_Settings -> Personalize -> Analog time picker_>>).
+Label:: Name your alarms - see <</alarms/alarm_settings/#alarm_label, guide how to add a label>>
+Time:: Chooses the alarm time. You have four several options how the time picker should like like - analog, wheel Google, wheel original - check <<time_picker, your options below>>.
+Day:: The first next occurrence of the alarm, tapping on this option opens date picker.
+Repeat:: Chooses the pattern of the repetition:
+* *Weekly* - repeats the day pattern every week
+* *Odd week* - repeats the day pattern every off week
+* *Even week* - repeats the day pattern every even week
+* *Non-weekly* - every 2nd-6th day
+* *Monday - Sunday* - you can choose any combination of weekdays.
+
+.Ringtone
+[horizontal]
+Ringtone:: See <</alarms/ringtone#,Ringtone>>.
+Gentle volume increase[[gentle_alarm]]:: Gentle volume makes sure to wake you with minimum volume required for a more pleasant wake up. Alarm starts at minimum volume and will gradually increase to maximum.
+* *Disabled* - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
+* *30 seconds* - a brief period of increased sound followed by sound at current system's volume.
+* *1-24 minutes* - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
+Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
+* *Disabled* - No vibrations on phone at all.
+* *From start* - Vibrations start at alarm time.
+* *After 30 seconds* - Vibrations start after 30 seconds.
+* *After 1-24 minutes* - Vibrations start after set time.
+Delayed alarm sound start::
+You may want to first give chance to <</devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
+* *Disabled* - Sound starts at alarm time.
+* *30 seconds - 24 minutes* - Sounds starts after set time.
+Vibrate (Wearables):: Enables and controls vibrations on a connected wearable.
+
+
+.Snooze
+[horizontal]
+Snooze duration:: The primary snooze time on alarm screen. This appears on the big [color-green]#Snooze button#.
+If you enable <</alarms/snooze#snooze_change, Changing snooze time>> in the Alarms default settings, there are additional snooze options as well.
+Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are greyed out and disabled.
+Maximum total snooze time:: The maximum total time you are allowed to snooze. When this total time is reached, you can only use _Dismiss_.
+Snooze after alarm time:: Snoozing can  be completely disabled after the set alarm time is reached (Does not have effect with disabled <</alarms/smart_wake_up#, Smart wake up>>)
+EXAMPLE::If your alarm is set to 7:00 and due to Smart wake up it rings at 6:57, the maximum snooze duration is 3 minutes.[]
+
+.Sleep
+[horizontal]
+Smart period:: Controls the smart period duration for this alarm. Check <</sleep/smart_wake_up#, the chapter on Smart period here>>.
+Captcha: Stop oversleeping!:: Short task to prove you are fully woken up, each alarm can have different Captcha type. Read <</alarms/captcha#, more details here>>.
+Bedtime notification:: Enables bedtime notification and set how long before bedtime to receive it. See <</alarms/bedtime_notification#, chapter on Bedtime notifications for details>>
+Sleep duration goal:: Set how much time would you ideally want to sleep each night. See also <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>.
+Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
+Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms, default for naps).
+
+[[time_picker]]
+
+== Options for choosing the alarm time
+
+
+[horizontal]
+Time picker:: You can choose between analog clock time picker (default) and wheel time picker and Material You time picker (This can be configured in <</ux/personalize#analog-picker,_Settings -> Personalize -> Analog time picker_>> or at <</ux/personalize#material-picker,_Settings -> Personalize -> Material time picker_>>).
 Voice:: Use the mic icon icon:ic_action_mic[] and then say the time aloud. Google speech recognition will fill in the time.
 Keyboard:: Use the e.g. *700* text field and type the time in HHMM format.
 Wake up at the next sunrise:: Use the icon:ic_action_sunrise[] button - the alarm will be scheduled for your local sunrise time.
@@ -40,7 +100,7 @@ Wake up at an ideal time:: Tap on the icon:ic_target[] button or *GOAL* button. 
 [[figure-new-alarm]]
 
 
-[cols="1,1"]
+[cols="1,1,1"]
 |===
 a| .Analogue time picker
 image::time_picker_a.png[]
@@ -48,6 +108,7 @@ image::time_picker_a.png[]
 a| .Wheel time picker
 image::time_picker_b.png[]
 
+a| .Material YOU picker
+image::time_picker_c.png[]
+
 |===
-
-

@@ -159,9 +159,13 @@ NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
 +
 NOTE: In the file picker you may first need to enable showing of external storage to be able to see your sound there.
 
+[[alarm_label]]
 === Name an alarm
 . Open an existing alarm details screen or create new alarm dialogue.
 . Name your alarm in the Label field in upper right corner. You will see this name on the alarm dialog in the morning, so you can use it for TODOs or motivation texts and they will be written into your sleep graph description.
+
+NOTE: Alarm label shows on the list of alarms and as a tag on the graph.
+
 image:alarm_label.png[width=70%]
 
 

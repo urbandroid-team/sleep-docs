@@ -70,7 +70,7 @@ Alarm sorting:: Sort alarms in alarm list based either on time or day.
 - *Day* - default value
 - *Time* - all your alarms will be sorted by time regardless on which day are they scheduled to ring.
 Analog time picker[[analog-picker]]:: A round analog clock time picker will be shown when creating new alarms instead of the digital one.
-Material time picker:: A round analog clock time picker from Google Material You design.
+Material time picker[[material-picker]]:: A round analog clock time picker from Google Material You design.
 
 .Advanced
 [horizontal]
