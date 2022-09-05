@@ -81,7 +81,23 @@ All default options are also available as alarm-specific options.
 
 There are also few options that are only available in alarm-specific settings:
 [horizontal]
-Repeat:: Set a schedule for repeating alarm, you can choose also <<even_odd,Even / odd bi-weekly patterns>>.
+Time:: Chooses the alarm time.
+Day:: The first occurrence of the alarm, tapping on this option opens date picker.
+Repeat:: Chooses the pattern of the repetition:
+* *Weekly* - repeats the day pattern every week
+* *Odd week* - repeats the day pattern every off week
+* *Even week* - repeats the day pattern every even week
+* *Non-weekly* - every 2nd-6th day
+* *Monday - Sunday* - you can choose any combination of weekdays.
+
+Next alarm:: A tool for one time change of the alarm time - for advancing or postponing the alarm one time.
+* Drop down menu list - 15 minutes increments
+* Sliding bar - for any non-round durations
+
+Skip next:: skips the next occurrence of the alarm, you can choose only one skip, or choose a date from the time picker with *Skip more days*.
+
+
+[horizontal]
 Silent alarm (in Ringtone):: Sets an alarm without sound.
 Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>).
 Sleep duration goal:: A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).

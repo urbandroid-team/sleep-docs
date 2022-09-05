@@ -36,4 +36,4 @@ Beurer,All,NO,, ,No support for 3rd party integration
 Wahoo,Tickr X,NO,, ,Turns off when it senses low activity
 Under<br>Armour,All,NO,, ,No realtime access to accelerometric data
 Vector,All,NO,, ,No access to raw accelerometric data
-Pine64,PineTime,YES (↝❤),↝❤, , You need Gadget bridge
+Pine64,PineTime,YES (↝❤),↝❤, , You need Gadget bridge. </b> HR only limited at this moment
