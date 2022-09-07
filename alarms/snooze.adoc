@@ -24,6 +24,7 @@ Maximum total snooze time:: The maximum total time you are allowed to snooze. Wh
 Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are not shown.
 Halve the Snooze:: Each consecutive snooze duration is halved.
 EXAMPLE::At first the default snooze time is 10 minutes. After snoozing for 10 minutes it becomes 5 minutes, than 3 minutes and so on...[]
+[[snooze-change]]
 Changing snooze time:: When enabled, a selection of different snooze durations occurs on the alarm screen in addition to the default snooze time.
 Snooze after alarm time:: Snoozing is be completely disabled after the set alarm time is reached (Does not have effect with disabled <</alarms/smart_wake_up#, Smart wake up>>)
 EXAMPLE::If your alarm is set to 7:00 and due to Smart wake up it rings at 6:57, the maximum snooze duration is 3 minutes.[]

@@ -1,5 +1,5 @@
 Vendor,Device,Support /<br>sensors,Sensors supported,Battery use/night,Notes
-Wear OS,"All Android Wear 1.0 and Wear OS 2.0 devices are supported if they have Play Services e.g.:
+Wear OS,"All Android Wear 1.0, Wear OS 2.0, and Wear OS 3.0 devices are supported if they have Play Services e.g.:
 Moto 360, Fossil, LG Watch, Sony SWR50, Asus ZenWatch, Huawei, Samsung, Polar but only Wear OS-based, TicWatch (only versions with Play Services), … and many more …",YES (↝❤💟◌),↝❤💟◌,"15% without HR, 25% with HR tracking","Battery life on each device depends on the sensor batch queue size, which allows the app to keep the watch in standby most of the time and still collect all data. </br> </br>You need a companion app installed from the Play Store on the watch. </br> </br>Wear OS devices do not allow readin SpO2 and HRV data at once."
 Xiaomi,"Mi Band 1, Mi Band 2, Mi Band 3, Mi Band 4, Mi Band 5, Mi Band 6, Mi Band 7",YES (↝❤),↝❤,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=com.mc.miband1"">Notify for Mi Band</a> to get data to Sleep as Android."
 Xiaomi,"Mi Band 1 (except 1S), Mi Band 2, Mi Band 3, Mi Band 4, Mi Band 5, Mi Band 6, Mi Band 7",YES (↝❤),↝❤,~5%,"Needs <a href=""https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"">Tools & MiBand app</a> to get data to Sleep as Android."
