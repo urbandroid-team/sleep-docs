@@ -11,3 +11,10 @@ no_comments: true
 https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Get the app]
 
 video::6HHYxnvIPA0[youtube, align=center, width=400, height=280]
+
+
+
+
+[.text-center]
+If you need any help with app,
+please contact us mailto:support@urbandroid.org[at our support email support@urbandroid.org].
