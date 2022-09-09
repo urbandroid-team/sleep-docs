@@ -61,5 +61,5 @@ With free version of SleepCloud, you can do backups only once a week. The online
 
 == FULL SleepCloud
 
-The full version with unlimited backups is paid since we have to pay for the cloud storage to Google (whose servers we are using). The price ~$0.99 first year. The fee is charged yearly.
+The full version with unlimited backups is paid since we have to pay for the cloud storage to Google (whose servers we are using). The fee is charged yearly.
 Full SleepCloud version is already included in the monthly subscription plan.

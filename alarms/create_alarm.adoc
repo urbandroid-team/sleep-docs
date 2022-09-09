@@ -14,7 +14,7 @@ parent: /alarms/0parent.html
 You can create an alarm by using one of these methods:
 
 [horizontal]
-Set new alarm cart:: on Dashboard, when there is no active alarm. image:set_alarm_1.png[]
+Set new alarm card:: on Dashboard, when there is no active alarm. image:set_alarm_1.png[]
 Alarm icon icon:ic_alarm_plus[]:: in the search bar (Tabs layout) image:set_alarm_2.png[]
 Alarm icon icon:ic_alarm_plus[]:: on the alarm card (Dashboard layout) image:set_alarm_3.png[]
 Alarm icon widget:: from the main screen image:set_alarm_4.png[]
