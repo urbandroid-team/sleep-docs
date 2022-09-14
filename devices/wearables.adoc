@@ -50,3 +50,6 @@ Sleep as Android supports a wide variety of smartwatches. Take a look at the lis
 {% endfor %}
 
 |===
+
+
+NOTE:: If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please send us you applicationg log (Left ≡ menu → (?) Support → Report a bug). We can adjust the parameters and integrate the sensor on other watches too.
