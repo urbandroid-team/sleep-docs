@@ -32,7 +32,8 @@ module Jekyll
 
         ul_contents << createTag(:li, ['navigation-list-item', active], url)
         if partialTree[:children] && active
-          partialTree[:children].each do |child|
+          sortedPartialTree = partialTree[:children].sort_by {|t| [t[:nav_order] ? 1 : 0, t[:nav_order]]}
+          sortedPartialTree.each do |child|
             ul_contents << generateList(child)
           end
         end
