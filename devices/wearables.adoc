@@ -15,17 +15,19 @@ tags:
 
 == How to set up tracking with a wearable
 
-. First of all, make sure your wearable is supported (see the <<supported_wearables, table>>)
-. Install the required companion apps (this depends on the wearable type, check the <<supported_wearables, table>>) for more details).
+. First of all, make sure your wearable is supported (see the <<supported_wearables, table below>>).
+. Check if the wearable is connected properly via Bluetooth.
+. Install the required companion apps - this depends on the wearable type, check the <<supported_wearables, table below>>, or one of the subpages.
 . Select the corresponding option in _Settings -> Wearables -> Use wearable_.
+. You can test the connection on some wearables with the Test sensor - see <</devices/test_sensor, details about testing the connection here>>.
 
-NOTE: Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
+NOTE: Sleep tracking collects data the whole night and the data are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
 
 == Supported wearables[[supported_wearables]]
 
 Sleep as Android supports a wide variety of smartwatches. Take a look at the list:
 
-.Legend for sensor
+.Legend for sensors
 
 [horizontal]
 ↝:: Movement detected from the wearables' accelerometer
@@ -50,6 +52,3 @@ Sleep as Android supports a wide variety of smartwatches. Take a look at the lis
 {% endfor %}
 
 |===
-
-
-NOTE:: If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please send us you applicationg log (Left ≡ menu → (?) Support → Report a bug). We can adjust the parameters and integrate the sensor on other watches too.
