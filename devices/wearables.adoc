@@ -21,6 +21,8 @@ tags:
 . Select the corresponding option in _Settings -> Wearables -> Use wearable_.
 . You can test the connection on some wearables with the Test sensor - see <</devices/test_sensor, details about testing the connection here>>.
 
+You can find specific guides for each wearable type on the subpages of the Wearable section.
+
 NOTE: Sleep tracking collects data the whole night and the data are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
 
 == Supported wearables[[supported_wearables]]
