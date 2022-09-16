@@ -9,7 +9,17 @@ tags:
 ---
 
 Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.
-All Wear OS devices can monitor sleep tracking movement and collect HR. Some wearables can also collect SpO2 data - for more details, please see the chapter on <</devices/oximeter#, oximeters and SpO data>>.
+
+All Wear OS devices can monitor sleep tracking movement and collect HR.
+
+Some wearables can also collect SpO2 data - for more details, please see the chapter on <</devices/oximeter#, oximeters and SpO data>>. Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.
+If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.
+
+.Supported versions of OS
+
+* Android Wear 1.0
+* Wear OS 2.0
+* Wear OS 3.0
 
 == How to set up
 

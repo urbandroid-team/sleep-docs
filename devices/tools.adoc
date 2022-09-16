@@ -8,6 +8,8 @@ tags:
 - notify
 - wearable
 ---
+:toc:
+
 
 Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools & MiBand and Tools & Amazfit app, you can use some devices with Sleep app.
 https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools[Tools & Mi Band] and https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools[Tools & Amazfit] are developed by https://play.google.com/store/apps/developer?id=Tools+%26+Wearables+Ltd[Tools & Wearables Ltd.].

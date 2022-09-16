@@ -7,6 +7,8 @@ tags:
 - garmin
 - wearable
 ---
+:toc:
+
 Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform.
 
 Does your watch support the ConnectIQ platform? https://developer.garmin.com/connect-iq/compatible-devices/[check here].
@@ -14,39 +16,62 @@ Does your watch support the ConnectIQ platform? https://developer.garmin.com/con
 == How to set up
 You will need to install the following apps:
 
-For the phone:
+.On the phone
+. https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin[Garmin Addon for Sleep as Android] from Play Store.
+. https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&hl=en_US[Sleep Watch starter] from Play Store.
 
-. https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Sleep as Android] on the phone
-. https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin[Garmin Addon for Sleep as Android] on the phone
+.On the watch
+. Install the current version of the watch app https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[thourgh the ConnectIQ Store] (Connect IQ 3.1 and higher).
+. Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Wearables -> Use wearables -> Garmin_.
+. For HR data, enable *Heart rate monitoring* in _Settings -> Wearables_.
+. To start sleep tracking with your watch, tap _Start tracking_ on the <</ux/homescreen#,Homescreen>>.
 
-For the watch:
+WARNING: You need to side-load a legacy version of the Sleep app, if your ConnectIQ is less than 3.1. https://sleep.urbandroid.org/more/garmin-legacy-watch-app-downloads/[Look here], find your model and put the corresponding file (Sleep.prg) onto your device, in /GARMIN/APPS folder
 
-* If your watch supports ConnectIQ at least 3.1, install the current version of the watch app:
-- https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[link to the app] (install through the ConnectIQ Store in Garmin Connect app)
-* If your watch isn't being updated anymore by Garmin and supports only ConnectIQ version less than 3.1, you will need to sideload a legacy version of the Sleep app:
-- https://sleep.urbandroid.org/more/garmin-legacy-watch-app-downloads/[look here], find your model and put the corresponding file (Sleep.prg) onto your device, in /GARMIN/APPS folder
 
-Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Wearables -> Use wearables -> Garmin_.
-
-To start sleep tracking with your watch, tap _Start tracking_ on the <</ux/homescreen#,Homescreen>>.
-
-WARNING: Garmin integration does not support testing the sensor with <</sleep/sleep_tracking#test_sensor,Test sensor>>.
+NOTE: Garmin integration does not support testing the sensor with <</sleep/sleep_tracking#test_sensor,Test sensor>>.
 
 WARNING: On some watches (mainly Vivoactive 3) there is a long-standing firmware issue that prevents you from accepting the starting dialog on the watch. Please start tracking from the watch instead. See <</faqs/garmin_start_dialog_bug#,FAQ: Garmin - Cannot accept start dialog (green tick)>>
 
 == Supported watches
 
-{% for wearable in site.data.wearables %}
-  {% if wearable['Support /<br>sensors'] contains 'YES' and wearable.Vendor == 'Garmin' %}
-    * +++ {{ wearable.Vendor }} - {{ wearable.Device}} +++
-  {% endif %}
-{% endfor %}
+https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml[List of supported Garmin wearables].
 
-== Unsupported watches
-NOTE: This list may not be exhaustive.
+* Garmin D2 air, D2 Airx10, D2 Delta, D2 Delta PX, D2 Delta S
+* Garmin Descent Mk2, Mk2S
+* Garmin Enduro
+* Garmin Epix 2
+* Garmin Fenix 5, Fenix 5 Plus, Fenix 5S, Fenix 5S Plus, Fenix 5X, Fenix 5X Plus
+* Garmin Fenix 6, Fenix 6 Pro, Fenix 6S, Fenix 6s Pro, Fenix 6x Pro
+* Garmin Fenix 7, Fenix 7S, Fenix 7X, Fenix Chronos
+* Garmin Forerunner 245, Forerunner245M
+* Garmin Forerunner 255, Forerunner 255M, Forerunner 255D, Forerunner 255SM
+* Garmin Forerunner 55
+* Garmin Forerunner 645, Forerunner 645M
+* Garmin Forerunner 745,
+* Garmin Forerunner 935
+* Garmin Forerunner 945, Forerunner 945 LTE
+* Garmin Forerunner 955
+* Garmin Instinct 2, Instinct 2S
+* Garmin Legacy Hero Captain Marvel, First Avenger
+* Gamin Legacy Saga Darth Vader, Rey
+* Gamin MARQ Adventurer, MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Expedition, MARQ Golfer
+* Garmin Venu, Venu 2, Venu 2 Plus, Venu 2S, Venu D, Venu SQ, Venu SQM
+* Garmin Vivoactive 3, Vivoactive 3M, Vivoactive 3M LTE, Vivoactive 4, Vivoactive 4S
 
-{% for wearable in site.data.wearables %}
-  {% if wearable['Support /<br>sensors'] contains 'NO' and wearable.Vendor == 'Garmin' %}
-     * {{ wearable.Vendor }} - {{ wearable.Device}}
-  {% endif %}
-{% endfor %}
+
+// what does this piece do?
+//{% for wearable in site.data.wearables %}
+//  {% if wearable['Support /<br>sensors'] contains 'YES' and wearable.Vendor == 'Garmin' %}
+//    * +++ {{ wearable.Vendor }} - {{ wearable.Device}} +++
+//  {% endif %}
+//{% endfor %}
+
+//== Unsupported watches
+//NOTE: This list may not be exhaustive.
+
+//{% for wearable in site.data.wearables %}
+//  {% if wearable['Support /<br>sensors'] contains 'NO' and wearable.Vendor == 'Garmin' %}
+//     * {{ wearable.Vendor }} - {{ wearable.Device}}
+//  {% endif %}
+// {% endfor %}

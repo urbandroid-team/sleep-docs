@@ -12,6 +12,8 @@ tags:
   - mi band
   - garmin
 ---
+:toc:
+
 
 == How to set up tracking with a wearable
 

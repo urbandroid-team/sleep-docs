@@ -8,15 +8,19 @@ tags:
 - wearable
 ---
 
+
 Sleep tracking with Galaxy Watch 4 and Galaxy Watch 5 (running the ONE UI Watch OS) requires a companion app installed from the Play Store on the watch.
 
 NOTE: Unfortunately due to limit put for non-Samsung apps, we cannot read SpO2 or HRV from those watches at the moment.
 
 == How to set up
 
+.On the watch
 . Make sure the watch is connected to the phone.
 . Go to app list on your watch, select Play Store.
 . Find *Sleep as Android* and select _Install_.
+
+.On the phone
 . After the companion app is installed, you can enable the connection in _Settings -> Wearables -> Use wearable -> Galaxy Watch 4+_.
 . Test the connection in Settings -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
 . For HR data, enable *Heart rate monitoring* in _Settings -> Wearables_.

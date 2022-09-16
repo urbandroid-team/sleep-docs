@@ -8,6 +8,8 @@ tags:
 - notify
 - wearable
 ---
+:toc:
+
 
 Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.
 But thanks to the Notify app, you can use some devices with Sleep app.
