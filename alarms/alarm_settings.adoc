@@ -104,9 +104,10 @@ Sleep duration goal:: A special option for polyphasic sleeping (see <</alarms/po
 Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
 Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
 
-== Guide
 [[guide]]
+== Guide
 
+[[sound_delay]]
 === Create an alarm only as vibrations on watch (no sound)
 
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).

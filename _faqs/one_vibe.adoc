@@ -1,0 +1,15 @@
+---
+title: My watch vibrates only once
+
+tags:
+- wear_os
+- one_ui
+- alarm
+- wearable
+---
+
+On Wear OS platform and ONE UI Watch (Galaxy Watch 4 + 5), we use gentle vibrations for even more natural wake up.
+It starts with a single vibe, another in 30s, than again in 20s and so on. After few minutes the vibrations will be continuous.
+
+If you are worried this won't be enough, you can set a <<alarms/alarms_settings/sound_delay#, delayed start of alarm sound>> on the phone. And there is always <</alarms/backup#,the backup alarm>>.
+
