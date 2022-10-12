@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build
-        uses: urbandroid-team/jekyll-build-action@8
+        uses: urbandroid-team/jekyll-build-action@9
         env:
           FTP_USER: ${{ secrets.FTP_USERNAME }}
           FTP_PASS: ${{ secrets.FTP_PASSWORD }}
