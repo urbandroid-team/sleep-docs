@@ -65,7 +65,7 @@ asciidoctor:
     sectnumlevels: 5
     numbered: true
 
-jekyll-rushed-analytics:
+jekyll_rushed_analytics:
   GoogleAnalytics4:                       # Add, if you want to track with Google Analytics
     measurement_id: G-BF5KGK7V37          # Required - replace with your tracking id
 
