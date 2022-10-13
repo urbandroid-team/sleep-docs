@@ -24,6 +24,7 @@ You can check the Tools app https://help.mibandtools.com/knowledge_base/categori
 - Mi Band 4
 - Mi Band 5
 - Mi Band 6
+- Mi Band 7
 
 == Supported Amazfits[[supported_wearables]]
 
