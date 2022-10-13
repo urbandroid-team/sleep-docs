@@ -27,6 +27,7 @@ group :jekyll_plugins do
   gem 'jekyll-asciidoc'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
+  gem 'jekyll-rushed-analytics', '~> 0.1.15.pre'
 end
 
 group :development, :test do
