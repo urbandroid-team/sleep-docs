@@ -51,18 +51,6 @@
     }
   }
 
-  ul {
-    list-style: none;
-
-    > li {
-      &::before {
-        position: absolute;
-        margin-left: -0.6em;
-        color: var(--grey-dk-000);
-        content: "•";
-      }
-    }
-  }
 
   .task-list {
     padding-left: 0;

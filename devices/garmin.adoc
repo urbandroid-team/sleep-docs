@@ -58,20 +58,3 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 * Gamin MARQ Adventurer, MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Expedition, MARQ Golfer
 * Garmin Venu, Venu 2, Venu 2 Plus, Venu 2S, Venu D, Venu SQ, Venu SQM
 * Garmin Vivoactive 3, Vivoactive 3M, Vivoactive 3M LTE, Vivoactive 4, Vivoactive 4S
-
-
-// what does this piece do?
-//{% for wearable in site.data.wearables %}
-//  {% if wearable['Support /<br>sensors'] contains 'YES' and wearable.Vendor == 'Garmin' %}
-//    * +++ {{ wearable.Vendor }} - {{ wearable.Device}} +++
-//  {% endif %}
-//{% endfor %}
-
-//== Unsupported watches
-//NOTE: This list may not be exhaustive.
-
-//{% for wearable in site.data.wearables %}
-//  {% if wearable['Support /<br>sensors'] contains 'NO' and wearable.Vendor == 'Garmin' %}
-//     * {{ wearable.Vendor }} - {{ wearable.Device}}
-//  {% endif %}
-// {% endfor %}
