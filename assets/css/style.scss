@@ -6,6 +6,11 @@ html, body, .main-content-wrap, .side-bar, .page-header, .site-title, .search-in
   background-color: var(--body-background-color);
 }
 
+.side-bar {
+  position: sticky;
+  top: 0;
+}
+
 a {color: var(--main-color);}
 
 h1 { color: var(--main-color); }
@@ -273,8 +278,10 @@ table .admonitionblock {
 .color-green { color: forestgreen; font-weight: bold; }
 .color-red { color: indianred; font-weight: bold; }
 
-
-
 // !!! Leave at the end !!!!
 @import 'accordion';
 @import 'asciidoc';
+
+@import './adoc-foundation-urbandroid.scss';
+//@import 'asciidoctor.css';
+//@import "adoc-foundation.css";
