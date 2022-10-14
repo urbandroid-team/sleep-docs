@@ -111,7 +111,7 @@ tbody:first-child tr:first-of-type td:last-of-type {
 }
 
 
-// LISTS
+// LISTSinput
 li p:last-child {
   margin-bottom: 0;
 }
@@ -163,7 +163,7 @@ $gaps: 1,2,1,2,1,7;
   background-color: var(--table-background-color);
 
   &::placeholder {
-    color: initial;
+    color: var(--body-text-color);
     font-weight: initial;
     opacity: 0.5;
   }
@@ -216,6 +216,9 @@ $gaps: 1,2,1,2,1,7;
 }
 .tabs input[type="radio"] {
 	display: none;
+}
+.tabs input[type="radio"] + label {
+  background: var(--body-background-color);
 }
 .tabs input[type="radio"]:checked + label {
   background: var(--table-background-color);
@@ -272,6 +275,8 @@ table .admonitionblock {
   }
 }
 
+ol.breadcrumb-nav-list { margin-left: 0 }
+
 // Colors
 .color-orange { color: orange; font-weight: bold; }
 .color-blue { color: royalblue; font-weight: bold; }
@@ -285,3 +290,7 @@ table .admonitionblock {
 @import './adoc-foundation-urbandroid.scss';
 //@import 'asciidoctor.css';
 //@import "adoc-foundation.css";
+
+@media (prefers-color-scheme: dark) {
+  @import './color_schemes/dark';
+}

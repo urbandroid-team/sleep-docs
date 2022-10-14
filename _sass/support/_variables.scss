@@ -14,6 +14,10 @@ $body-heading-line-height: 1.15 !default !default;
 
 :root {
   --white: #fff;
+  --black: #222222;
+
+  --bg-grey-lt-000: #1c1f20;
+  --subheading: #6f6f6f;
 
   --grey-dk-000: #959396;
   --grey-dk-100: #5c5962;
@@ -55,7 +59,7 @@ $body-heading-line-height: 1.15 !default !default;
   --sidebar-color: var(--grey-dk-300);
   --code-background-color: var(--grey-dk-250);
 
-  --body-text-color: var(--grey-lt-300);
+  --body-text-color: var(--black);
   --body-text-color-bold: var(--grey-dk-000);
   --body-text-color-cursive: var(--grey-lt-000);
 
@@ -67,6 +71,9 @@ $body-heading-line-height: 1.15 !default !default;
   --border-color: var(--grey-dk-200);
   --table-background-color: var(--grey-dk-100);
   --table-background-color-accent: var(--grey-dk-200);
+  --table-border-color: var(--line-separator-color);
+
+  --line-separator-color: #dddddd;
 
   --main-color: hsl(174, 42%, 51%);
 

@@ -162,7 +162,7 @@ function initSearch() {
 
             if (resultsType === 'faqs') {
               faqResultsList.appendChild(resultsListItem);
-              let tags = document.createElement('span')
+              let tags = document.createElement('div')
               tags.classList.add('search-tags')
               tags.textContent = resultsTags
               resultsListItem.appendChild(tags)

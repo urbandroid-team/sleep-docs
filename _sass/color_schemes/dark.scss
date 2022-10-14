@@ -1,16 +1,58 @@
 
+/* Invert all elements on the body while attempting to not alter the hue substantially. */
+body {
+  //filter: invert(100%) hue-rotate(180deg);
+}
+
+/* Workarounds and optical adjustments. */
+
+/* Firefox workaround: Set the background colour for the html
+   element separately because, unlike other browsers, Firefox
+   doesn’t apply the filter to the root element’s background. */
+html {
+  //background-color: #111;
+}
+
+/* Do not invert media (revert the invert). */
+img, video, iframe {
+  //filter: invert(100%) hue-rotate(180deg);
+}
+
+/* Improve contrast on icons. */
+.icon {
+  //filter: invert(15%) hue-rotate(180deg);
+}
+
+/* Re-enable code block backgrounds. */
+pre {
+  //filter: invert(6%);
+}
+
+/* Improve contrast on list item markers. */
+li::marker {
+  //color: #666;
+}
+
 :root {
---body-background-color: var(--grey-dk-300);
---sidebar-color: var(--grey-dk-300);
---border-color: var(--grey-dk-200);
+  --black: #fff;
+  --white: #222222;
 
---body-text-color: var(--grey-lt-300);
---body-heading-color: var(--grey-lt-000);
---nav-child-link-color: var(--grey-dk-000);
+  --body-background-color: var(--bg-grey-lt-000);
+  --subheading: rgb(162, 154, 142);
+  //--sidebar-color: var(--grey-dk-300);
+  //--border-color: var(--grey-dk-200);
 
---link-color: var(--blue-000);
---btn-primary-color: var(--blue-200);
---base-button-color: var(--grey-dk-250);
+  --body-text-color: #ada69b;
+  --body-text-color-bold: #cecac4;
+  --body-heading-color: rgb(211, 207, 201);
+  --nav-child-link-color: var(--grey-dk-000);
 
---code-background-color: var(--grey-dk-250);
+  --link-color: var(--blue-000);
+  --btn-primary-color: var(--blue-200);
+  --base-button-color: var(--grey-dk-250);
+  --table-background-color: #2c242f;
+  --table-border-color: #3a3e41;
+
+  --code-background-color: var(--grey-dk-250);
+  --line-separator-color: rgb(58, 62, 65);
 }
