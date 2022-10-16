@@ -54,10 +54,10 @@
         <nav class="breadcrumb-nav">
           <ol class="breadcrumb-nav-list">
             {% if page.grand_parent %}
-              <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent | getTitleFromUrl }}</a></li>
-              <li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent | getTitleFromUrl }}</a></li>
+              <li class="breadcrumb-nav-list-item"><a href="{{ page.grand_parent }}">{{ page.grand_parent | getTitleFromUrl }}</a></li>
+              <li class="breadcrumb-nav-list-item"><a href="{{ page.parent }}">{{ page.parent | getTitleFromUrl }}</a></li>
             {% else %}
-              <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent | getTitleFromUrl }}</a></li>
+              <li class="breadcrumb-nav-list-item"><a href="{{ page.parent }}">{{ page.parent | getTitleFromUrl }}</a></li>
             {% endif %}
               <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
           </ol>
