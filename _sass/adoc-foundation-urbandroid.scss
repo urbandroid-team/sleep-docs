@@ -1,6 +1,6 @@
 /* ========================================================================== Base ========================================================================== */
 /** 1. Prevent system color scheme's background color being used in Firefox, IE, and Opera. 2. Prevent system color scheme's text color being used in Firefox, IE, and Opera. 3. Set default font family to sans-serif. 4. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
-html { background: #fff; /* 1 */ color: #000; /* 2 */ font-family: sans-serif; /* 3 */ -ms-text-size-adjust: 100%; /* 4 */ -webkit-text-size-adjust: 100%; /* 4 */ }
+html { background: var(--body-background-color); /* 1 */ color: #000; /* 2 */ font-family: sans-serif; /* 3 */ -ms-text-size-adjust: 100%; /* 4 */ -webkit-text-size-adjust: 100%; /* 4 */ }
 
 /** Remove default margin. */
 body { margin: 0; }
@@ -265,7 +265,17 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
 .clearfix:before, .clearfix:after, .float-group:before, .float-group:after { content: " "; display: table; }
 .clearfix:after, .float-group:after { clear: both; }
 
-*:not(pre) > code { font-size: inherit; padding: 0; white-space: nowrap; background-color: inherit; border: 0 solid var(--line-separator-color); -webkit-border-radius: 0; border-radius: 0; text-shadow: none; }
+*:not(pre) > code {
+  font-size: inherit;
+  padding: 0;
+  white-space: normal;
+  overflow-wrap: break-word;
+  background-color: inherit;
+  border: 0 solid var(--line-separator-color);
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  text-shadow: none;
+}
 
 pre, pre > code { line-height: 1.4; color: black; font-family: monospace, serif; font-weight: normal; }
 
