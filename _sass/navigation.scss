@@ -117,6 +117,10 @@
   }
 }
 
+.js-main-content.nav-open {
+  display: none;
+}
+
 // Breadcrumb nav
 .breadcrumb-nav {
   @include mq(md) {

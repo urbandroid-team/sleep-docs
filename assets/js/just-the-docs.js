@@ -20,6 +20,7 @@ function toggleNav() {
   const auxNav = document.querySelector('.js-aux-nav');
   const navTrigger = document.querySelector('.js-main-nav-trigger');
   const search = document.querySelector('.js-search');
+  const content = document.querySelector('.js-main-content')
 
   addEvent(navTrigger, 'click', function () {
     var text = navTrigger.innerText;
@@ -31,6 +32,7 @@ function toggleNav() {
     }
     navTrigger.classList.toggle('nav-open');
     search.classList.toggle('nav-open');
+    content.classList.toggle('nav-open');
     navTrigger.innerText = textToggle;
     navTrigger.setAttribute('data-text-toggle', text);
     textToggle = text;
