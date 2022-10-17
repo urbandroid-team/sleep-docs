@@ -119,6 +119,11 @@
 
 .js-main-content.nav-open {
   display: none;
+
+  @include mq(md) {
+    display: block;
+  }
+
 }
 
 // Breadcrumb nav
