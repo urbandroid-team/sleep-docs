@@ -25,6 +25,7 @@
       position: relative;
 
       &::before {
+        display: none;
         position: absolute;
         top: 0.1em;
         left: -1.1em;
