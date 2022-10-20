@@ -13,6 +13,8 @@ tags:
   - garmin
 ---
 
+[[wearable_setup]]
+
 == How to set up tracking with a wearable
 
 . First of all, make sure your wearable is supported (see the <<supported_wearables, table below>>).

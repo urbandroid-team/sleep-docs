@@ -30,6 +30,8 @@ With <</devices/oximeter#,an oximeter or a wearable>>, you can track your blood 
 In _Settings -> Wearables_:
 
 [horizontal]
+Pulse Oximeter (Bluetooth):: Pairs compatible oximeters.
+Pulse Oximeter (Wear OS, Garmin...):: Reads SpO2 data from a wearable connected in <</devices/wearables/wearable_setup#, Use wearable>>.
 Low breath rate alarm:: If enabled, this will wake you up if you have a low breathing rate (or blood oxygen level) for a while.
 
 == Guide

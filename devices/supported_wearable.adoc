@@ -20,8 +20,8 @@ Sleep as Android supports a wide variety of smartwatches. Take a look at the lis
 [horizontal]
 ↝:: Movement detected from the wearables' accelerometer
 ❤:: Heart rate (HR)
-💟:: Heart rate variability (HRV) - all models from the category with this sensor
-◌:: Blood oxygen saturation (SpO2) - all models from the category with this sensor
+💟:: Heart rate variability (HRV)
+◌:: Blood oxygen saturation (SpO2)
 
 
 |===
