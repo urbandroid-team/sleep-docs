@@ -63,6 +63,7 @@ Captcha Captcha:: Classic CAPTCHA known from the early internet days - type the 
 Random Captcha:: Solve up to 5 different tasks each morning
 Multi Captcha:: Solve up to 15 chosen tasks in a row
 Mirror text:: Read and type a text from a mirror-flipped quote - pre-defined or your own (configured in _Settings -> Captcha -> Settings_)
+Jumping sheep:: Lead the lost sheep through the fences and wolfs to the safety - tap to jump over obstacles
 Swearing:: Swear your way to dismiss (English only)
 Zombie Walk:: Walk 14-74 meters with the phone
 Let there be light:: Put your phone to a light source
