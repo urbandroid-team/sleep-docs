@@ -22,7 +22,7 @@ In order to use SleepCloud, you need to have a valid Google account and grant us
 == Features
 
 * Free SleepCloud service automatically initiates back up once a week.
-* The paid PRO version automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc.). You can force backup using _Left_ ≡ _menu -> Backup -> Upload to Cloud_
+* The paid PRO version automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc.). You can force backup using _Left_ ≡ _menu -> Backup -> Upload to Cloud_.
 
 * You can view and modify your data online, by visiting https://sleep-cloud.appspot.com/SleepCloud.html[your SleepCloud account].
 * Unlike other services, it does a full synchronization of records including deleting/updating of existing records. This makes it the most suitable service to synchronize data among multiple devices.

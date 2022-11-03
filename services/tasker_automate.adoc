@@ -24,9 +24,9 @@ This page offers a guide for Tasker.Automate has a little different interface bu
 
 [NOTE]
 ====
-<<tasker_walkthroughs,Take a look at Tasker walkthroughs>>
+<</services/tasker_walkthroughs#,Take a look at Tasker walkthroughs>>
 
-<<automate_walkthroughs,Take a look at Automate walkthroughs>>
+<</services/automate_walkthroughs#,Take a look at Automate walkthroughs>>
 ====
 
 === Events

@@ -44,7 +44,7 @@ _Settings -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
 . Connect the cable to the micro USB port of your Android device. A diode lights on.
 . In the Sleep as Android  _Settings -> Smartlight_ ,scroll down to the Sleep Mask section, tick the *Use SleepMask*.
 
-NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>.
+NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light#guide, sunrise alarm>>.
 
 === Bluetooth type Sleep Mask
 

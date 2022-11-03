@@ -18,10 +18,10 @@ Sleep as Android has a lot of functionality, some of which can be only enabled w
 
 |Location [[location]]
 |Approximate location (network-based), precise location (GPS and network-based)
-a|- Sunrise wakeup
-- Location tagging
+a|- <</devices/smart_light#guide, Sunrise wakeup>>
+- <</sleep/tags#geo, Location tagging>>
 - Morning weather
-- Pair tracking
+- <</sleep/pair_tracking#, Pair tracking>>
 - Bluetooth-connected devices, such as <</devices/wearables#,wearables>>
 
 a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.
@@ -33,8 +33,8 @@ You can completely opt-out from location storing in _Settings -> Miscellaneous_.
 |Microphone
 |Record audio
 a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
-- <</sleep/sensors#,Sonar>>
-|This permission is needed to access sounds form your microphone so that features such as <</sleep/sleep_noise_recording#, Sleep noise recording>> or <</sensors#sonar, Sonar>>.
+- <</sleep/sensors#sonar,Sonar>>
+|This permission is needed to access sounds form your microphone so that features such as <</sleep/sleep_noise_recording#, Sleep noise recording>> or <</sleep/sensors#sonar, Sonar>>.
 
 |Photos/Media/Files or Storage
 |Read the contents of your USB storage, modify or delete the contents of your USB storage
@@ -44,7 +44,7 @@ a|- <</sleep/sleep_noise_recording#,Sleep noise recording>>
 
 |Camera
 |Take pictures and videos
-a|- QR Captcha
+a|- Some <</alarms/captcha#, Captcha tasks>>
 - Pee light
 - <</sleep/jetlag#,Jet lag prevention>>
 |This is used by QR Captcha in order to scan barcodes / QR codes and to toggle flashlight in several features. Also the Smile <</alarms/captcha#, CAPTCHA>> uses this to detect your smile to dismiss your alarm in the morning.

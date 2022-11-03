@@ -78,7 +78,7 @@ We are sending the following values:
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 time_to_bed_alarm_alert:: Fires when you get a bedtime notification.
 We are sending the following values:
-* value1: UNIX timestamp of the alarm start time (the alarm which triggered the bedtime notification, based on your <</sleep/ideal_daily_sleep#,ideal daily sleep income>>), example: "1582719660934"
+* value1: UNIX timestamp of the alarm start time (the alarm which triggered the bedtime notification, based on your <</sleep/ideal_daily_sleep#,ideal daily sleep target>>), example: "1582719660934"
 alarm_alert_start:: Fires when alarm starts.
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
