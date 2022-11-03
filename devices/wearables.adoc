@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Smartwatches and Wearables
-nav_order: 2
+title: Wearables
+nav_order: 1
 parent: /devices/0parent.html
 no_troubleshooting: true
 has_children: true
@@ -11,6 +11,11 @@ tags:
   - xiaomi
   - mi band
   - garmin
+  - pebble
+  - pinetime
+  - wearos
+  - amazfit
+  - polar
 ---
 
 [[wearable_setup]]

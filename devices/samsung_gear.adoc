@@ -26,6 +26,10 @@ Sleep as Android supports most Samsung wearables, but not all. Please look for y
 
 ## How to set up Gear Fit 2
 
+
+WARNING: Galaxy Store suspended our wachface for Gear Fit, and we have to pass their new verification process. The watchface is currently not available. We are sorry for the inconvenience.
+
+
 Samsung Gear Fit 2 is the only exception - to track sleep using Gear Fit 2 with Sleep as Android, you have to install and set up our addon on the phone and our app on the watch (actually a watchface).
 
 The steps to follow are:
@@ -38,7 +42,7 @@ The steps to follow are:
 NOTE: Whenever you want to do sleep tracking, switch the watchface on your Gear Fit 2 to the Sleep watchface, and double tap to start tracking. It would actually work even without switching to the watchface (so you can start tracking from the phone), but you won't have any way to stop it from the watch, and alarm will have to be stopped from the phone in that case. So I recommend switching to the Sleep watchface.
 To switch the watchface, just long tap on the current watchface.
 
-If you are interested in some background stories and explanations on why it works this way, check out https://sleep.urbandroid.org/sleep-%E2%9D%A4-gear-fit-2/[this link] or for more tecnical information check out https://medium.com/@roundedeverett/how-to-develop-apps-for-samsung-gear-fit-2-16119801da1b[this link].
+If you are interested in some background stories and explanations on why it works this way, check out https://sleep.urbandroid.org/sleep-%E2%9D%A4-gear-fit-2/[this link] or for more technical information check out https://medium.com/@roundedeverett/how-to-develop-apps-for-samsung-gear-fit-2-16119801da1b[this link].
 
 ## Supported watches
 

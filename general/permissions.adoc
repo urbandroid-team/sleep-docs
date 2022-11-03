@@ -22,7 +22,7 @@ a|- Sunrise wakeup
 - Location tagging
 - Morning weather
 - Pair tracking
-- Bluetooth-connected devices, such as <</devices/oximeter#,Oximeter>>
+- Bluetooth-connected devices, such as <</devices/wearables#,wearables>>
 
 a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.
 

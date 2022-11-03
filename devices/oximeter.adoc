@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Oximeter
-nav_order: 2
-parent: /devices/0parent.html
+nav_order: 3
+parent: /devices/wearables.html
 tags:
 - oximeter
 ---
