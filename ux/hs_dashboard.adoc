@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dashbord home screen
-nav_order: 1
+nav_order: 4
 parent: /ux/0parent.html
 ---
 :toc:
@@ -59,10 +59,10 @@ Graphs card:: Shows you graphs from the <</sleep/charts#,Charts section>>.
 * Tapping this card opens the last graph. See (<</sleep/how_to_read_sleep_graphs#,How to read sleep graphs>>).
 
 Noise card:: Shows latest noise recordings.
-Charts card:: Shows you graphs from the <</sleep/statistics_charts#,Charts section>>.
-* Tapping on this card opens <</sleep/statistics_charts#,Charts section>>.
+Charts card:: Shows you graphs from the <</sleep/charts#,Charts section>>.
+* Tapping on this card opens <</sleep/charts#,Charts section>>.
 
-Advice card [[advicecard]]:: Shows a random advice from the <</sleep/Advice#,Advice section>>. More advice will show up when tapping on the card.
+Advice card [[advicecard]]:: Shows a random advice from the <</sleep/advice#,Advice section>>. More advice will show up when tapping on the card.
 
 Goal card [[goalcard]]:: Shows your active <</sleep/goals#, Goal>> progress. There are two progress bars one shows percentages of completion and the other time progress. With some goels the card can advice you what needs to be the next value to keep you on track to successfully finish the goal.
 * Tapping on this card opens <</sleep/Advice#,Advice section>>.

@@ -46,7 +46,7 @@ Enable HR monitoring for devices that support direct HR over BLE (Bluetooth Low 
  _Settings -> Wearables -> Bluetooth Smart_
  This regards all other devices that have a HR sensor (such as Polar H7) and may or may not work with your device.
 NOTE: Do not use this option for HR monitoring with compatible smartwatches such as Pebble, Mi Band, Amazefit, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy, etc.
-Enable HR monitoring for a supported oximeter:: If you have an <</devices/wearables/oximeter#,oximeter>> connected in _Sleep -> Settings -> Wearables -> Pulse Oximeter_, heart rate will be detected by default.
+Enable HR monitoring for a supported oximeter:: If you have an <</devices/oximeter#,oximeter>> connected in _Sleep -> Settings -> Wearables -> Pulse Oximeter_, heart rate will be detected by default.
 Enable HRV monitoring:: If your wearable supports HRV data collection, it will be enabled automatically with HR monitoring.
 Enable awake detection using heart rate data::
   _Settings -> Sleep tracking -> Awake detection -> Heart rate monitoring_

@@ -22,9 +22,9 @@ tags:
 
 == How to set up tracking with a wearable
 
-. First of all, make sure your wearable is supported (see the <<supported_wearables, table below>>).
+. First of all, make sure your wearable is supported (see the <</devices/supported_wearable#, table of all integated wearables>>).
 . Check if the wearable is connected properly via Bluetooth.
-. Install the required companion apps - this depends on the wearable type, check the <<supported_wearables, table below>>, or one of the subpages.
+. Install the required companion apps - this depends on the wearable type, check the  <</devices/supported_wearable#, table below>>, or one of the subpages.
 . Select the corresponding option in _Settings -> Wearables -> Use wearable_.
 . You can test the connection on some wearables with the Test sensor - see <</devices/test_sensor, details about testing the connection here>>.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wear OS devices
-nav_order: 50
+nav_order: 4
 parent: /devices/wearables.html
 tags:
 - wearos
@@ -12,7 +12,7 @@ Sleep tracking with Wear OS device requires a companion app installed from the P
 
 All Wear OS devices can monitor sleep tracking movement and collect HR.
 
-Some wearables can also collect SpO2 data - for more details, please see the chapter on <</devices/wearables/oximeter#, oximeters and SpO data>>. Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.
+Some wearables can also collect SpO2 data - for more details, please see the chapter on <</devices/oximeter#, oximeters and SpO data>>. Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.
 If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.
 
 .Supported versions of OS

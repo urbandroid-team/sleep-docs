@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Left ☰ menu
-nav_order: 1
+nav_order: 3
 parent: /ux/0parent.html
 ---
 :toc:
@@ -45,9 +45,9 @@ To read more about chronotype, see our documentation on
 === Sleep as Android
 
 [horizontal]
-icon:ic_dashboard[] Dashboard:: Opens <</ux/dashboard#,Dashboard>> in Tabs mode.
+icon:ic_dashboard[] Dashboard:: Opens <</ux/hs_dashboard#,Dashboard>> in Tabs mode.
 icon:ic_alarm[] Alarms:: Opens <</homecreen#,List of alarms>>.
-icon:ic_timelapse[] Stats:: Opens <</sleep/statistics#,Statistics section>>.
+icon:ic_timelapse[] Stats:: Opens <</sleep/charts#,Statistics section>>.
 icon:ic_action_graph[] Graphs:: Opens <</sleep/sleep_graph#,Graph section>>.
 icon:ic_action_stats[] Chart:: Opens <</sleep/charts#,Charts section>>.
 icon:ic_lightbulb[] Advice:: Opens <</sleep/advice#,Advice>>.
@@ -57,7 +57,7 @@ icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recor
 
 === Home screen
 
-For mode details on Home screen, please see the <</ux/dashboard#,Dashboard>>, <</ux/tabs#,Tabs>>, and <</ux/alarms_only#,Alarms only mode>>.
+For mode details on Home screen, please see the <</ux/hs_dashboard#,Dashboard>>, <</ux/hr_tabs#,Tabs>>, and <</ux/hs_alarms_only#,Alarms only mode>>.
 
 [horizontal]
 icon:ic_dashboard[] Dashboard:: Presents all options in cards.
@@ -67,7 +67,7 @@ icon:ic_action_track_off_white[] Alarms:: Simplified mode without any tracking-r
 
 === Shortcuts
 
-Available only in Tabs home screen mode. All the shortcuts from this menu can be used for creating widgets on main screen screen - see  link:/sleep_advanced[how to do it].
+Available only in Tabs home screen mode. All the shortcuts from this menu can be used for creating widgets on main screen screen - see  <</ux/widgets#, how to do it>>.
 
 [horizontal]
 

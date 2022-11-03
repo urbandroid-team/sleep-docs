@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Alarms only mode
-nav_order: 1
+nav_order: 6
 parent: /ux/0parent.html
 ---
-:toc:
 
 *Alarms only* mode, is a special, simplified  mode, when you are using only alarms and do not care about the tracking at all.
 The main screen shows list of your alarms.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notify for Mi Band and Amazfit
-nav_order: 50
+nav_order: 8
 parent: /devices/wearables.html
 tags:
 - miband

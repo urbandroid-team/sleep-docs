@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tabs home screen
-nav_order: 1
+nav_order: 5
 parent: /ux/0parent.html
 ---
 :toc:
@@ -27,7 +27,7 @@ _Settings -> Personalize -> Home screen_
 [horizontal]
 Alarm tab:: Shows you the <<alarm_list,list of all alarms>>. Always visible.
 Dashboard tab:: Lists all cards from Dashboard except the Alarm card
-Stats tab:: Shows <</sleep/statistics_charts#,statistics charts>>.
+Stats tab:: Shows <</sleep/charts#,statistics charts>>.
 Graphs tab:: Shows list of <</sleep/sleep_graph#,Graphs>>.
 Noise tab::  Shows the list of <</sleep/sleep_noise_recording#,Noise recording>>.
 

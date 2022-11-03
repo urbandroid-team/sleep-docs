@@ -12,13 +12,13 @@ tags:
 
 == What it does
 
-*Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>>,  <</devices/sleep_phaser_2#, Sleep phaser>>, and https://sleep.urbandroid.org/polar-sleep-tracking/[Polar H10]), or your blood oxygenation (<</devices/wearables/oximeter, oximeter, some wearables>>).*
+*Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>>,  <</devices/sleep_phaser_2#, Sleep phaser>>, and https://sleep.urbandroid.org/polar-sleep-tracking/[Polar H10]), or your blood oxygenation (<</devices/oximeter#, oximeter, some wearables>>).*
 
 Sonar or Sleep Phaser measure your abdominal movements and thus estimate your breath rate.
 
 Any pause in in the detected breath rates is depicted as an O2 symbol icon:ic_action_cpap[] in the sleep graph and may hint at respiratory issues or cause by an outage of the sensor.
 
-By using <</devices/wearables/oximeter#, Oximeter>> or wearable, we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
+By using <</devices/oximeter#, Oximeter>> or wearable, we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
 
 == Where to find it
 
