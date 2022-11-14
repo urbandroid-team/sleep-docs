@@ -16,16 +16,16 @@ Google Calendar needs to be installed on your device, and Android version has to
 
 ## Options
 [horizontal]
-<<disable-repeating-alarms-on-holidays>>:: Automatically disables repeating alarms being scheduled on public holiday.
+<<disable-repeating-alarms-on-holidays>>:: Allows you to skip repeating alarms on public holiday by confirming the notification.
 <<reschedule-alarms>>:: Whenever your calendar event collides with your next active alarm, Sleep as Android will move that alarm to an earlier time.
 <<add-sleep-data-to-calendar>>:: If enabled, your sleep records will be synced into your Google Calendar.
 
 ## Guide
 
 === Disable repeating alarms on holidays
-*Prevents repeating alarms from ringing on public holidays.*
+*Allows skipping alarms from ringing on public holidays.*
 
-Whenever this happens, you get a notification with possibility to revert the action.
+Whenever the app finds a public holiday in the calendar, you get a notification with an option to skip the alarm.
 
 [NOTE]
 ====
