@@ -30,15 +30,15 @@ If you see you are consistently behind some target for any of your dimensions, y
 The app will point out some notable trends and also suggest some changes in the <<sleep/advice,Advice section>>.
 
 
-== Quick video tour in the app
+//== Quick video tour in the app
 
 
 
-== Quick video guide for first sleep tracking with an alarm
+//== Quick video guide for first sleep tracking with an alarm
 
 
 
-== Quick video guide for creating a repeating work-day alarm
+//== Quick video guide for creating a repeating work-day alarm
 
 
-== Quick video guide for connecting a wearable
+//== Quick video guide for connecting a wearable
