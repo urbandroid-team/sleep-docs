@@ -19,7 +19,11 @@ If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, 
 
 * Android Wear 1.0
 * Wear OS 2.0
-* Wear OS 3.0
+* Wear OS 3.0 (with some limitations)
+
+WARNING: Wear OS 3.0 have some impletemented limitations for independent apps:
+- not all wearables allow reading SpO2 or HRV data (Pixel Watch for example)
+- Bedtime mode will NOT allow vibrations for alerm
 
 == How to set up
 
