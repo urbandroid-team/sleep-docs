@@ -52,8 +52,9 @@ _Cons_
 === Subscription for Sleep as Android
 
 Subscription is mainly for users, who are not yet decided if they would benefit from the lifetime purchase.
-The fee is monthly.
-The subscription type includes SleepCloud PRO version.
+The fee is either monthly, or yearly (depending on your choice).
+Both subscription types includes SleepCloud PRO version.
+Yearly subscription has additional week of trial period.
 
 == FREE SleepCloud
 
