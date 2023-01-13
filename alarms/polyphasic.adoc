@@ -15,7 +15,7 @@ This target sleep income can be set up in the per-alarm setting, where you can c
 
 NOTE: The per-alarm sleeping target has no influence on Daily sleep income.
 
-. Open per-alarm settings from _Left_ ☰ _menu -> Alarms, and choose the alarm you need to adjust.
+. Open per-alarm settings from _Left_ ☰ _menu_ -> _Alarms_, and choose the alarm you need to adjust.
 . In the Bedtime section, untick the Application settings (which is by default on).
 . Choose the sleep duration goal (20 min - 13 hours and 30 min) with the sliding bar or from the drop-down menu list.
 . Adjust the timing for the bedtime notification
