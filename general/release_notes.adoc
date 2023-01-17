@@ -7,7 +7,30 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20221101
+== Latest version 20230116
+
+*Alarm screen redesign*
+– Repeat days selection directly on alarm detail screen
+– Card look for sound and smart period in alarm and app settings
+– New adjustment controls fro next alarm time
+– Alarm label edit in alarm title
+
+*Lullabies + Spotify updates*
+– Support for Spotify liked songs in Lullabies and ringtones for Premium users
+– Fix for recent nature lullaby update
+– Refresh of Spotify songs every time on lullaby screen
+– Closing Lullaby screen after select when starting from tracking
+– Color-coding for Spotify lullabies without album art and for radios
+– Fix for lock screen in lullabies
+
+*And more…*
+– Aerated UI tweaks on most screens
+– Fix in navbar color in tabbed view with custom color palette
+– Fix for a crash in Estonian language when creating alarms
+– Changes in Premium screen, adding Yearly plan option
+– Many new translations
+
+== 20221101
 
 - If you are using odd / even week alarms, they may have got reversed due to a bug, please double check your alarm schedules
 - Pixel Watch support: new wearable option for Wear OS 3.0+
