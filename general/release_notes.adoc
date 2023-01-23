@@ -7,7 +7,7 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20230116
+== Latest version 20230119
 
 *Alarm screen redesign*
 – Repeat days selection directly on alarm detail screen
