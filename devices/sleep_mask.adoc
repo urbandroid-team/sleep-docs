@@ -14,7 +14,7 @@ tags:
 Dedicated to be used with Sleep as Android and https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid].
 
 - http://sleepmask.urbandroid.org/[Learn more] on a dedicated website.
-- https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android.html[Get it] from Happy Electronics.
+- https://happyelectronics.eu/[Get it] from Happy Electronics.
 
 [[figure-mask-1]]
 .Cable type Sleep mask
