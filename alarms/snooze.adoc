@@ -5,17 +5,20 @@ nav_order: 2
 parent: /alarms/0parent.html
 tags:
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Snoozes delay your wake up if you do not yet feel rested on alarm time.*
 
 After hitting a snooze button on alarm screen, you get an additional period of sleep, and alarm time is postponed.
 You can also limit snoozing in various ways to prevent oversleeping.
 
-== Where to find it
 * _Settings -> Alarms -> Snooze_
 * <</alarms/alarm_settings#per-alarm, Alarm-specific settings>>
+
+---
+//toc::[]
+//:toclevels: 3
+
 
 == Options
 [horizontal]
@@ -23,8 +26,12 @@ Snooze duration:: Default snooze time on alarm screen. This appears on the big [
 Maximum total snooze time:: The maximum total time you are allowed to snooze. When this total time is reached, you can only use _Dismiss_.
 Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are not shown.
 Halve the Snooze:: Each consecutive snooze duration is halved.
++
 EXAMPLE::At first the default snooze time is 10 minutes. After snoozing for 10 minutes it becomes 5 minutes, than 3 minutes and so on...[]
++
 [[snooze-change]]
 Changing snooze time:: When enabled, a selection of different snooze durations occurs on the alarm screen in addition to the default snooze time.
 Snooze after alarm time:: Snoozing is be completely disabled after the set alarm time is reached (Does not have effect with disabled <</alarms/smart_wake_up#, Smart wake up>>)
++
 EXAMPLE::If your alarm is set to 7:00 and due to Smart wake up it rings at 6:57, the maximum snooze duration is 3 minutes.[]
++

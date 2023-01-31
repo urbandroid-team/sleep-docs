@@ -8,34 +8,35 @@ tags:
 redirect_from:
 - /sleep/alarm_settings.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Alarm settings help you make your wakeup alarm a refreshing and pleasant experience.*
-
-Most of all:
 
 * <</sleep/smart_wake_up#,Smart wake up>> wakes you at the right sleep phase
 * <<gentle_alarm, Gentle volume increase>> finds the minimal sound to wake you
 * <</devices/smart_light#,Smartlight>> natural sunrise wake up
+* making sure you won't oversleep with our <</alarms/captcha#,CAPTCHA>> feature.
 * and many more.
 
-We make sure even sleepyheads wake up on time with our <</alarms/captcha#,CAPTCHA>> feature.
+_Settings -> Alarms_
+_alarm-specific settings_
 
-== Where to find it
-Alarms can be setup in two places. Each alarm has its own alarm-specific settings. Newly created alarms are by default based on _Settings -> Alarms_.
+---
+toc::[]
+:toclevels: 3
 
-Alarm-specific settings::
-
-Alarm-specific settings change behaviour of a particular alarm; those changes won't affect other alarms or default settings.
-
-Default settings in  _Settings -> Alarms_::
-Alarm default settings allow you to modify basic behaviour for all your alarms. Default settings are also applied to all new alarms.
 
 == Options
 
+Alarms can be setup in two places, because you need one default configuration controlling all alarms, and still an option for unique behavior of special alarms.
+
+=== Default alarm settings
+Alarm default settings allow you to modify basic behaviour for all your alarms. Default settings are also applied to all new alarms.
+
 [horizontal]
-Ringtone:: See <</alarms/ringtone#,Ringtone>>.
+Smart wake up:: See <</alarms/smart_wake_up#,Smart wake up>>
+Captcha:: See <</alarms/captcha#,Captcha>>
+Sound:: See <</alarms/ringtone#,Sound>>.
 Gentle volume increase[[gentle_alarm]]:: Gentle volume makes sure to wake you with minimum volume required for a more pleasant wake up. Alarm starts at minimum volume and will gradually increase to maximum.
 * *Disabled* - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
 * *30 seconds* - a brief period of increased sound followed by sound at current system's volume.
@@ -76,31 +77,29 @@ Alarm output:: Can force the alarm sound output to media stream, so the alarm is
 NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, on other phones, the system still routes the media stream to both devices.
 
 [[per-alarm]]
-.Alarm-specific settings
+=== Alarm-specific "per-alarm" settings
+Alarm-specific settings change behaviour of a particular alarm; those changes won't affect other alarms or default settings.
 All default options are also available as alarm-specific options.
 
 There are also few options that are only available in alarm-specific settings:
 [horizontal]
+Alarm name:: You can change the title of the alarm (see <<alarm_label, the guide below>>)
 Time:: Chooses the alarm time.
-Day:: The first occurrence of the alarm, tapping on this option opens date picker.
 Repeat:: Chooses the pattern of the repetition:
 * *Weekly* - repeats the day pattern every week
 * *Odd week* - repeats the day pattern every off week
 * *Even week* - repeats the day pattern every even week
 * *Non-weekly* - every 2nd-6th day
 * *Monday - Sunday* - you can choose any combination of weekdays.
-
-Next alarm:: A tool for one time change of the alarm time - for advancing or postponing the alarm one time.
-* Drop down menu list - 15 minutes increments
-* Sliding bar - for any non-round durations
-
+Next alarm:: A tool for one time change of the alarm time - for advancing or postponing the alarm one time (see <<alarm_date, the guide below>>).
+* Changing the date of the first alarm
+* Changing the time of the next first alarm
 Skip next:: skips the next occurrence of the alarm, you can choose only one skip, or choose a date from the time picker with *Skip more days*.
-
-
-[horizontal]
-Silent alarm (in Ringtone):: Sets an alarm without sound.
+Silent alarm (in Sound):: Sets an alarm without sound.
 Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>).
-Sleep duration goal:: A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).
+* *Bedtime notification* - Changes the timing of the bedtime notification for this alarm
+* *Sleep duration goal* - A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).
+Snooze:: Changes the snooze limits for this alarm.
 Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
 Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
 
@@ -110,25 +109,24 @@ Delete after ringing:: Deletes this alarm completely after dismiss (useful for o
 [[sound_delay]]
 === Create an alarm only as vibrations on watch (no sound)
 
-. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).
-. Enable wearable vibrations (_Settings -> Wearables -> Vibrate_).
+. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_) or set the delay on sound (_Settings -> Alarms -> Delayed alarm sound start_).
+. Enable wearable vibrations (_Settings -> Sleep tracking -> Wearables -> Alarm_).
 +
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 
 
 === Create silent alarm
 
-. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_).
+. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_).
 . This option is available only in <<per-alarm,Alarm-specific settings>>, not in _Settings -> Alarms_. This is a safety measure to prevent unintentional silent alarms.
 +
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
 
 === Postpone next alarm
-. Open alarm -> Postpone next alarm.
-. Use the sliding bar or the drop down menu list for postponing alarm.
+. Open alarm -> and with the (+) and (-) buttons in the Next alarm section, change the time of the next alarm.
 . Confirm the alarm time change.
 +
-NOTE: Works only for repeating alarms.
+NOTE: Works only for repeating alarms. The change will apply only once, to the first next alarm.
 
 
 === Skip next alarm
@@ -140,6 +138,13 @@ NOTE: Works only for repeated alarms.
 +
 NOTE: Skip next through long press can be used repeatedly, so that you can skip several days in advance.
 
+
+[[alarm_date]]
+=== Skip next alarm until certain date
+
+. Open alarm -> tap on the Next alarm section.
+. Choose the date of the next alarm.
+. The alarm date is displayed on the alarm card.
 
 === Dismiss alarm before alarm time
 
@@ -153,8 +158,9 @@ image:dismiss_graph.png[width=50%]
 +
 NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
 
+
 === Use my own sound as alarm
-. Open Ringtone selection: _Settings -> Alarm default settings -> Ringtone_ or _<<per-alarm,Alarm-specific settings>> -> Ringtone_.
+. Open Ringtone selection: _Settings -> Alarm default settings -> Sound_ or _<<per-alarm,Alarm-specific settings>> -> Sound_.
 . Tap on folder icon:ic_folder[] icon in right upper corner.
 . Choose a sound file saved on your phone.
 +

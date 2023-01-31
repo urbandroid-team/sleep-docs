@@ -6,23 +6,30 @@ parent: /alarms/0parent.html
 tags:
 - captcha
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Gives you a task to solve in order to dismiss the alarm.*
 
 CAPTCHAs make sure you wake on time and won't be late for your daily duties. CAPTCHAs prevent any unintentional alarm dismiss.
 
-== Where to find it
+- _Settings -> Alarms -> CAPTCHA_
+- _<</alarms/alarm_settings#per-alarm,Alarm-specific settings>> -> CAPTCHA_
 
-- _Settings -> CAPTCHA: Stop oversleeping!_
-- _<</alarms/alarm_settings#per-alarm,Alarm-specific settings>> -> CAPTCHA: Stop oversleeping!_
+---
+toc::[]
+:toclevels: 3
+
+
+== Options
 
 NOTE: CAPTCHA can also be configured in <</alarms/alarm_settings#per-alarm,Alarm-specific settings>>. You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.
 
-== Options
 [horizontal]
 Default CAPTCHA:: CAPTCHA for all alarms (that are not overridden by <</alarms/alarm_settings#per-alarm,Alarm-specific settings>>)
+CAPTCHA No cheating:: Prevents avoiding solving the CAPTCHA, see <<Cheat,Cheating protection>> details
+
+.Settings for chosen Captcha
+[horizontal]
 CAPTCHA Difficulty:: Sets CAPTCHA difficulty. How is difficulty used depends on each CAPTCHA. E.g. Math CAPTCHA requires you to do more equations with larger numbers on higher difficulty.
 Preview:: See the selected CAPTCHA in action.
 WARNING: We strongly recommend to test each CAPTCHA with the _Preview_ feature and use _Settings_ before it is used in the morning - that could bring unwanted surprises.
@@ -30,7 +37,7 @@ Settings:: Some CAPTCHAs have addition settings, e.g.:
  * Editing, adding, and deleting QR codes and NFC tags
  * Selecting tasks for MultiCaptcha
  * Choosing your mantra for Mirror Text CAPTCHA
-CAPTCHA Cheating protection:: Prevents avoiding solving the CAPTCHA, see <<Cheat,Cheating protection>> details
+
 
 CAPTCHA ADD-ons:: Download a free extension with more CAPTCHA tasks from https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack[Play Store]
 
