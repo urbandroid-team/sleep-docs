@@ -1,32 +1,61 @@
 ---
 layout: default
-title: Ringtone
+title: Sound
 nav_order: 2
 parent: /alarms/0parent.html
 tags:
 - ringtone
 ---
-:toc:
+:toc: macro
 
-== What it does
-*Changes how will your alarm sound.*
+*Changes how your alarms sound.*
 
-Choose any music or sounds from a built-in nature sounds library, from your local device storage or use online radios or streaming services such as Spotify for even more enjoyable mornings.*
+Choose any music or sounds from a built-in nature sounds library, from your device storage or use online radios or streaming services such as Spotify for even more enjoyable mornings.
 
-== Where to find it
-_Settings -> Alarm default settings -> Ringtone_
+_Settings -> Alarm default settings -> Sound_
+_per-alarm settings -> Sound_
+
+---
+
+toc::[]
+:toclevels: 3
+
 
 == Options
 
-[horizontal]
-Silent:: Available only in <</alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
-Single ringtone:: You can choose a single ringtone or multiple ringtones to create a playlist (see below).
-+
 NOTE: When you choose a sound, you will hear the preview.
+
+[horizontal]
+Nature:: A great selection of nature sounds by Sleep:
+- Bird song
+- Cuckoo
+- Cockcrow
+- Bird song 2
+- Bird song 3
+- Seaguls
+- Seagules 2
+- Ocean Waves
+- Crickets
+- Summer storm
+- Whale
+- Mountain stream
+- Classic (Sleepyheads)
+- Xylophone (Sleepyheads)
+- Bells (Sleepyheads)
+- Horn (Sleepyheads)
+- Lucid dreaming
+- Tong click
+- Low breath rate alarm
+
+
+Phone:: You can pick any music file from your storage.
+- Ringtones
+- Your Music (tagged as a music by the system)
+- Your Music (all sound files, that were not tagged as a music by the system)
 +
-Playlist:: Tap on the playlist icon in top right icon:ic_action_view_as_list[] and choose files to create your own playlist.
-Browse your local files:: Tap on the folder icon icon:ic_folder[] and select your files from your internal or external storage. The system file picker will show up and you may need to enable external storage access first before you can see it in the picker.
-Online radio[[radio]]:: You can add any radio you want, if you provide the stream URL (do not confuse with radio URL). Few SomaFM radios are added by default.
+NOTE: You can manually choose any other file from your internal or external storage you did not find listed. See <<guide_song, the guide below>> on how to do so.
++
+Radio[[radio]]:: You can add any radio you want, if you provide the stream URL (do not confuse with radio URL). Few SomaFM radios are added by default.
 Available online radios:
 - Ancient FM - https://www.gofundme.com/f/ancientfm-2021[a community funded radio station]
 - Bagel Rock
@@ -41,38 +70,55 @@ Available online radios:
 - Sonic Universe
 - Space station
 - Underground 80s
-
 +
 NOTE: In the morning, Sleep turns on the Wifi automatically and waits for 30 seconds while trying to establish the connection. If it can’t play radio, it plays the local ringtone.
 +
+Spotify:: You can choose sounds from your Spotify Library
+- Current playlist
+- Like songs
+- Playlist
+Playlist:: You can create a playlist of your liking, from any combination of sounds from all the previous categories. The songs can be played in order, or shuffled. See <<guide_playlist, the guide below>> on how to do create the playlist, and how to control the songs' order.
+Silent:: Available only in <</alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
+//Playlist:: Tap on the playlist icon in top right icon:ic_action_view_as_list[] and choose files to create your own playlist.
 
-Spotify playlist:: You can add your saved albums or playlists from Spotify’s _Your Library > Albums / Playlists_
-
-Other playlists (including Google Play Music playlists):: Lots of media player apps can create such playlists from music that is available on your phone.
-
-//#TODO: really?#
+//#TODO:
 
 == Guide
 
-[horizontal]
-How to create your own playlist::
-. Open Ringtone selection and tap on the icon:ic_action_view_as_list[] in the upper right corner.
-. Now select any combination of the available ringtones.
-. Choose the order (Shuffle / Order / Loop single) in the ⋮ menu in upper right corner.
-. Confirm the selection with "OK" button or icon:ic_action_accept[].
-* See a video guide
+=== How to add my own song or sound file [[guide_song]]
 
-+
-video::Dr9EnzTFHY4[youtube]
-+
-
-How to add my own song, sound file::
 . Tap on the folder icon icon:ic_folder[] in the upper right corner.
 . Select a file in your file browser
 . Make sure the file is available and the app has permission for accessing that folder.
-* See a video guide
 
+
+//video::TWXKkFV2zS4[youtube]
+
+
+=== How to manage own playlists[[guide_playlist]]
+
+. Switch the tab at top to *Playlist* (at the end).
+. By ticking the box next tot eh songs' name, choose each file you wish to have in the playlist.
+. You can play the preview with the ICON button on the control panel (bar for volume will change the volume of the reply).
+. You can change the order of the played songs,by tapping on the icon to change the playback mode:
 +
-video::TWXKkFV2zS4[youtube]
+[horizontal]
+icon:is_playlist_loop1[]:: one song looping, the app will play each day a new song from the list, looping it
+icon:ic_playlist_inorder[]:: ordered list, you can see the order next to the songs' names
+icon:ic_playlist_shuffle[]:: shuffled, songs are playing in a random order
 +
+
+. Confirm the selection with icon:ic_action_accept[] OK button.
+. The ICON bin revert the selection, so you can start over.
+
+//video::Dr9EnzTFHY4[youtube]
+
+
+
+
+
+
+
+
+
 
