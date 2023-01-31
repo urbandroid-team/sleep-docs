@@ -26,70 +26,32 @@ toc::[]
 NOTE: When you choose a sound, you will hear the preview.
 
 [horizontal]
-Nature:: A great selection of nature sounds by Sleep:
-- Bird song
-- Cuckoo
-- Cockcrow
-- Bird song 2
-- Bird song 3
-- Seaguls
-- Seagules 2
-- Ocean Waves
-- Crickets
-- Summer storm
-- Whale
-- Mountain stream
-- Classic (Sleepyheads)
-- Xylophone (Sleepyheads)
-- Bells (Sleepyheads)
-- Horn (Sleepyheads)
-- Lucid dreaming
-- Tong click
-- Low breath rate alarm
-
-
+Nature:: A great selection of nature sounds by Sleep (birds, ocean, storm...)
 Phone:: You can pick any music file from your storage.
-- Ringtones
-- Your Music (tagged as a music by the system)
-- Your Music (all sound files, that were not tagged as a music by the system)
+* *Ringtones*
+* *Your Music* (tagged as a music by the system)
+* *Your Music* (all sound files, that were not tagged as a music by the system)
+* *Any other own file* - you can manually choose any other file from your internal or external storage you did not find listed. See <<guide_song, the guide below>> on how to do so.
 +
-NOTE: You can manually choose any other file from your internal or external storage you did not find listed. See <<guide_song, the guide below>> on how to do so.
+Radio[[radio]]:: Several SomaFM radios are added by default - all available online radio stations with links https://sleep.urbandroid.org/radio/radio.txt[here]. You can add other radio stations - see <<guide_radio, the guide below>>.
 +
-Radio[[radio]]:: You can add any radio you want, if you provide the stream URL (do not confuse with radio URL). Few SomaFM radios are added by default.
-Available online radios:
-- Ancient FM - https://www.gofundme.com/f/ancientfm-2021[a community funded radio station]
-- Bagel Rock
-- Beat Blender
-- Chillout Lounge
-- Covers
-- Folk Salad
-- Groove Salad
-- Illinois Street Lounge
-- Lush
-- Sleep Pill
-- Sonic Universe
-- Space station
-- Underground 80s
-+
-NOTE: In the morning, Sleep turns on the Wifi automatically and waits for 30 seconds while trying to establish the connection. If it can’t play radio, it plays the local ringtone.
+NOTE: In the morning, Sleep waits for 30 seconds while trying to establish the connection. If it can’t play radio, it plays the local ringtone.
 +
 Spotify:: You can choose sounds from your Spotify Library
-- Current playlist
-- Like songs
-- Playlist
-Playlist:: You can create a playlist of your liking, from any combination of sounds from all the previous categories. The songs can be played in order, or shuffled. See <<guide_playlist, the guide below>> on how to do create the playlist, and how to control the songs' order.
+* *Current playlist*
+* *Playlists*
+Playlist:: You can create a playlist of your liking, from any combination of sounds from all the previous categories. The songs can be played in order, or shuffled. See <<guide_playlist, the guide below>> on how to create the playlist, and how to control the songs' order.
 Silent:: Available only in <</alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
-//Playlist:: Tap on the playlist icon in top right icon:ic_action_view_as_list[] and choose files to create your own playlist.
-
-//#TODO:
 
 == Guide
 
 === How to add my own song or sound file [[guide_song]]
 
+. Switch to *Phone* tab at the top.
 . Tap on the folder icon icon:ic_folder[] in the upper right corner.
-. Select a file in your file browser
-. Make sure the file is available and the app has permission for accessing that folder.
+. Select a file in your file browser.
+
+WARNING: Make sure the file is available and the app has permission for accessing that folder. On newer Android versions, the safest folder is Media. Downloads folder is not recommended.
 
 
 //video::TWXKkFV2zS4[youtube]
@@ -98,21 +60,27 @@ Silent:: Available only in <</alarm_settings#per-alarm, Alarm-specific settings>
 === How to manage own playlists[[guide_playlist]]
 
 . Switch the tab at top to *Playlist* (at the end).
-. By ticking the box next tot eh songs' name, choose each file you wish to have in the playlist.
-. You can play the preview with the ICON button on the control panel (bar for volume will change the volume of the reply).
+. By ticking the box next to the songs' name, choose each file you wish to have in the playlist.
+. You can play the preview with the icon:play[] button on the control panel (bar for volume will change the volume of the reply).
 . You can change the order of the played songs,by tapping on the icon to change the playback mode:
-+
-[horizontal]
-icon:is_playlist_loop1[]:: one song looping, the app will play each day a new song from the list, looping it
-icon:ic_playlist_inorder[]:: ordered list, you can see the order next to the songs' names
-icon:ic_playlist_shuffle[]:: shuffled, songs are playing in a random order
-+
-
+ icon:is_playlist_loop1[] - one song looping, the app will play each day a new song from the list, looping it
+ icon:ic_playlist_inorder[] - ordered list, you can see the order next to the songs' names
+ icon:ic_playlist_shuffle[] -  shuffled, songs are playing in a random order
 . Confirm the selection with icon:ic_action_accept[] OK button.
-. The ICON bin revert the selection, so you can start over.
+. The icon:bin[] bin revert the selection, so you can start over.
 
 //video::Dr9EnzTFHY4[youtube]
 
+
+=== How to add your own radio [[guide_radio]]
+
+. Switch the tap at the top to *Radio*.
+. Tap the (+) icon.
+. Insert the the stream URL (do not confuse with radio URL) to the second box, top row is for naming your radio.
+. Tap on *Add* to confirm.
++
+NOTE: You can try radio stream URL search engines, like https://streamurl.link/[this one].
++
 
 
 
