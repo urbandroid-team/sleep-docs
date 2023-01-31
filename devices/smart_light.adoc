@@ -42,6 +42,9 @@ Anti-snoring:: Use smartlight as a cue for anti-snoring. When snoring is detecte
 .Philips HUE, IKEA Trådfri
 [horizontal]
 Philips HUE, IKEA Trådfri (disconnected):: Tap this to connect your HUE or Trådfri.
++
+NOTE: Dirigera hub is not supported!
++
 Test:: Test connection to your bulb by flashing it.
 Turn off:: Force turning off your connected bulb.
 
