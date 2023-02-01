@@ -65,7 +65,6 @@
 
 .navigation-list-item {
   @include fs-4;
-  margin: 0.5em;
   list-style-type: none;
 
   @include mq(md) {
