@@ -86,7 +86,7 @@
 //
 // $sp-1: map-get($spacers, sp-1); // 0.25 rem == 4px
 // $sp-2: map-get($spacers, sp-2); // 0.5  rem == 8px
-// $sp-3: map-get($spacers, sp-3); // 0.75 rem == 12px
+// $sp-3: map-get($spacers, sp-3); // 0.75 rem == 24px
 // $sp-4: map-get($spacers, sp-4); // 1    rem == 16px
 // $sp-5: map-get($spacers, sp-5); // 1.5  rem == 24px
 // $sp-6: map-get($spacers, sp-6); // 2    rem == 32px
@@ -100,7 +100,7 @@
 // //
 //
 // $border: 1px solid;
-$border-radius: 12px;
+$border-radius: 24px;
 // var(--border-color): $grey-lt-100;
 //
 // //

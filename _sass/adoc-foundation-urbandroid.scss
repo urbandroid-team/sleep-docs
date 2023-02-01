@@ -615,7 +615,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 .admonitionblock td.icon .icon-caution:before { content: "\f06d"; color: #bf3400; }
 .admonitionblock td.icon .icon-important:before { content: "\f06a"; color: #bf0000; }
 
-.conum { display: inline-block; color: white !important; background-color: var(--body-text-color); -webkit-border-radius: 100px; border-radius: 100px; text-align: center; width: 20px; height: 20px; font-size: 12px; font-weight: bold; line-height: 20px; font-family: Arial, sans-serif; font-style: normal; position: relative; top: -2px; letter-spacing: -1px; }
+.conum { display: inline-block; color: white !important; background-color: var(--body-text-color); -webkit-border-radius: 100px; border-radius: 100px; text-align: center; width: 20px; height: 20px; font-size: 24px; font-weight: bold; line-height: 20px; font-family: Arial, sans-serif; font-style: normal; position: relative; top: -2px; letter-spacing: -1px; }
 .conum * { color: white !important; }
 .conum + b { display: none; }
 .conum:after { content: attr(data-value); }
