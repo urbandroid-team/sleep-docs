@@ -67,9 +67,9 @@
   @include fs-4;
   list-style-type: none;
 
-//   @include mq(md) {
-//     @include fs-3;
-//   }
+  @include mq(md) {
+    @include fs-3;
+  }
 
   .navigation-list-child-list {
     display: none;
