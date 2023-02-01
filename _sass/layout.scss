@@ -114,7 +114,7 @@
 
 .navigation {
   @include mq(md) {
-    padding-top: $sp-8;
+    padding-top: $sp-4;
     overflow-y: auto;
     flex: 1 1 auto;
   }

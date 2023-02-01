@@ -268,8 +268,8 @@ table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f9f9f9; }
 table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.4; }
 
 navigation-list-link {
-    padding-top: 0.5em
-    padding-bottom: 0.5em
+    padding-top: 0.25em
+    padding-bottom: 0.25em
 }
 
 .clearfix:before, .clearfix:after, .float-group:before, .float-group:after { content: " "; display: table; }
