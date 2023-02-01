@@ -6,37 +6,32 @@ parent: /alarms/0parent.html
 redirect_from:
 - /sleep/bedtime_notification.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Sends you a "Time to go to bed!" notification before bedtime.*
 
 Bedtime notification is an effective way to maintain optimal sleep length or fight high sleep deficits. You can set the notification to trigger between 5 minutes to 2 hours before bedtime so you'll have enough time to prepare for bed.
 
-[NOTE]
-====
-The time to trigger the notification is calculated as follows:
+_Settings -> Alarms -> Bedtime notification_
+_per-alarm settings -> Bedtime notification_
+
+NOTE: The time to trigger the notification is calculated as follows:
 `bedtime = next alarm time – daily sleep duration goal`
-====
-
-See how to configure your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>
-
-
 [EXAMPLE]
-You've set your _Daily sleep duration goal_ to 7 hours, and an alarm for 6 AM.
+You've set your <<duration_goal,Daily sleep duration goal>> to 7 hours, and an alarm for 6 AM.
 Your bedtime would be 11 PM.
 
 
+---
 
-== Where to find it
-_Settings -> Bedtime notification_
-_per-alarm settings -> Bedtime notifications_
+toc::[]
+:toclevels: 3
 
 
 == Options
 [horizontal]
-Sleep duration goal:: Set how much time would you ideally want to sleep each night. See also <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>.
 Bedtime notification:: Enable bedtime notification and set how long before bedtime to receive it.
+Sleep duration goal:: Set how much time would you ideally want to sleep each night. See also <<duration_goal,Daily sleep duration goal>>.
 Repeat:: How often should the notification repeat
 +
 [EXAMPLE]
@@ -48,5 +43,25 @@ Smart bedtime::
 `smart time to bed = next alarm – daily sleep duration goal – smart period – delayed tracking – in(5 days avg. sleep deficit > 10 min, 45 min)`
 
 [horizontal]
-Per-alarm bedtime notification:: A special case of bedtime notifications for polyphasic sleeping schedules (see <</alarms/polyphasic#,Polyphasic sleeping schedule>>)
+Per-alarm bedtime notification:: A special case of bedtime notifications for polyphasic sleeping schedules (see <</alarms/polyphasic#,Polyphasic sleeping schedule>>).
 
+== Sleep duration goal [[duration_goal]]
+
+*Daily sleep duration goal is your target sleep duration - how much time would you ideally want to sleep each night.*
+
+Daily sleep duration affects:
+
+- <</alarms/bedtime_notification#,bedtime notification>>
+- counting of your <</sleep/charts#deficit,sleep deficit>>
+
+
+Healthy ideal daily sleep income for healthy adults is 7-9 hours, according to link:https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898[Mayo Clinic].
+
+In the app the sleep score uses your age (if provided in  _Settings -> Stats_) to adjust the ideal sleep times for the <</sleep/sleepscore#, Sleep score>> stats.
+* General (6.5 - 9)
+* School age (9 - 11)
+* Teenager (8 - 10),
+* Young (7 - 9)
+* Elderly (6 - 9)
+
+NOTE: For biphasic and polyphasic sleep target of individual naps, see chapter <</alarms/polyphasic#,Polyphasic sleeping schedule>>.

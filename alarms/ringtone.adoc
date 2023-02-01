@@ -23,8 +23,6 @@ toc::[]
 
 == Options
 
-NOTE: When you choose a sound, you will hear the preview.
-
 [horizontal]
 Nature:: A great selection of nature sounds by Sleep (birds, ocean, storm...)
 Phone:: You can pick any music file from your storage.
@@ -61,13 +59,13 @@ WARNING: Make sure the file is available and the app has permission for accessin
 
 . Switch the tab at top to *Playlist* (at the end).
 . By ticking the box next to the songs' name, choose each file you wish to have in the playlist.
-. You can play the preview with the icon:play[] button on the control panel (bar for volume will change the volume of the reply).
+. You can play the preview with the icon:ic_action_play[] button on the control panel (bar for volume will change the volume of the reply).
 . You can change the order of the played songs,by tapping on the icon to change the playback mode:
  icon:is_playlist_loop1[] - one song looping, the app will play each day a new song from the list, looping it
  icon:ic_playlist_inorder[] - ordered list, you can see the order next to the songs' names
  icon:ic_playlist_shuffle[] -  shuffled, songs are playing in a random order
 . Confirm the selection with icon:ic_action_accept[] OK button.
-. The icon:bin[] icon revert the selection, so you can start over.
+. The icon:ic_action_discard[] icon revert the selection, so you can start over.
 
 //video::Dr9EnzTFHY4[youtube]
 
