@@ -72,18 +72,18 @@
 //
 $spacers: (
   sp-0: 0,
-  sp-1: $spacing-unit * 1.25,
-  asp-2: $spacing-unit * 2,
-  sp-3: $spacing-unit * 2,
-  sp-4: $spacing-unit * 2,
-  sp-5: $spacing-unit * 2.5,
-  sp-6: $spacing-unit * 3,
-  sp-7: $spacing-unit * 3.5,
-  sp-8: $spacing-unit * 4,
-  sp-9: $spacing-unit * 4.5,
-  sp-10: $spacing-unit * 5
+  sp-1: $spacing-unit * 0.25,
+  asp-2: $spacing-unit * 1.5,
+  sp-3: $spacing-unit * 1.5,
+  sp-4: $spacing-unit * 1.5,
+  sp-5: $spacing-unit * 1.5,
+  sp-6: $spacing-unit * 2,
+  sp-7: $spacing-unit * 2.5,
+  sp-8: $spacing-unit * 3,
+  sp-9: $spacing-unit * 3.5,
+  sp-10: $spacing-unit * 4
 );
-//
+
 $sp-1: map-get($spacers, sp-1); // 0.25 rem == 4px
 $sp-2: map-get($spacers, sp-2); // 0.5  rem == 8px
 $sp-3: map-get($spacers, sp-3); // 0.75 rem == 24px
