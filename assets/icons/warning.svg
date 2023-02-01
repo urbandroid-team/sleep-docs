@@ -22,9 +22,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="1.6015625"
-     inkscape:cx="256"
-     inkscape:cy="256"
+     inkscape:zoom="0.80078125"
+     inkscape:cx="92.409756"
+     inkscape:cy="499.51219"
      inkscape:window-width="1920"
      inkscape:window-height="1046"
      inkscape:window-x="0"
@@ -33,7 +33,7 @@
      inkscape:current-layer="svg12" />
   <g
      id="g10"
-     transform="translate(0,-6.5)">
+     transform="matrix(1.098451,0,0,1.098451,-6.2986671,-14.808424)">
     <path
        d="M 57.362,26.54 20.1,91.075 a 7.666,7.666 0 0 0 6.639,11.5 h 74.518 a 7.666,7.666 0 0 0 6.639,-11.5 L 70.638,26.54 a 7.665,7.665 0 0 0 -13.276,0 z"
        fill="#ee404c"
