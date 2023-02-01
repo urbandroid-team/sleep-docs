@@ -355,7 +355,7 @@ table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-si
 .admonitionblock > table td.icon { vertical-align: top; text-align: center; width: 80px; }
 .admonitionblock > table td.icon img { max-width: none; }
 .admonitionblock > table td.icon .title { font-weight: bold; text-transform: uppercase; }
-.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; color: var(--subheading); }
+.admonitionblock > table td.content { padding-left: 0em; padding-right: 1em; color: var(--subheading); }
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
 
 .exampleblock > .content { border-style: solid; border-with: 0px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: white; -webkit-border-radius: 0; border-radius: 0; }
