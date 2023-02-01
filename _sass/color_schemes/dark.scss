@@ -37,7 +37,7 @@ li::marker {
   --black: #fff;
   --white: #222222;
 
-  --body-background-color: var(--bg-grey-lt-000);
+  --body-background-color: black;
   --subheading: rgb(162, 154, 142);
   //--sidebar-color: var(--grey-dk-300);
   //--border-color: var(--grey-dk-200);
@@ -50,8 +50,8 @@ li::marker {
   --link-color: var(--blue-000);
   --btn-primary-color: var(--blue-200);
   --base-button-color: var(--grey-dk-250);
-  --table-background-color: #2c242f;
-  --table-border-color: #3a3e41;
+  --table-background-color: #102030;
+  --table-border-color: #203040;
 
   --code-background-color: var(--grey-dk-250);
   --line-separator-color: rgb(58, 62, 65);

@@ -33,6 +33,14 @@ ol, ul {
   }
 }
 
+table .admonitionblock .icon {
+  min-width: 0;
+  img {
+    height: 1em;
+    min-width: 1em;
+  }
+}
+
 ul.none > li::before {
   content: "";
 }
