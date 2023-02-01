@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Polyphasic sleeping schedule
+title: Polyphasic sleeping
 nav_order: 20
 parent: /alarms/0parent.html
 ---
@@ -8,28 +8,29 @@ parent: /alarms/0parent.html
 Polyphasic sleeping is the practice of sleeping during more shorter periods of time in the course of 24 hours (in contrast with more common monophasic sleep with one long period of sleep).
 This type of sleeping practice requires some special settings.
 
-== Bedtime notification
+== Adjusting Bedtime notification
 
 Bedtime notification is normally scheduled based on the alarm time and the daily sleep income. The naps for polyphasic sleeping needs a bedtime notification, that is not derived from the daily income, but from the length of sleep specific to this nap.
 This target sleep income can be set up in the per-alarm setting, where you can choose the length of the sleep income for the alarm, and also adjust the bedtime notification timing.
 
-NOTE: The per-alarm sleeping target has no influence on Daily sleep income.
+NOTE: The per-alarm sleeping target has no influence on Daily sleep income, as you still need to reach the sum of sleep+naps each day.
 
 . Open per-alarm settings from _Left_ ☰ _menu_ -> _Alarms_, and choose the alarm you need to adjust.
-. In the Bedtime section, untick the Application settings (which is by default on).
+. Tap Bedtime notification tile and untick the Application settings (which is by default on).
 . Choose the sleep duration goal (20 min - 13 hours and 30 min) with the sliding bar or from the drop-down menu list.
-. Adjust the timing for the bedtime notification
+. Adjust the timing for the bedtime notification, if needed.
+. Confirm with Save button at the bottom.
 
 
-[cols="1,1,1"]
-|===
-a| .Disable the Application settings.[[polyphasic_target]]
-image::polyphasic_target1.png[]
-
-a| .The toggle must be deactivated.
-image::polyphasic_target2.png[]
-
-a| .Adjust the per-alarm duration goal.
-image::polyphasic_target3.png[]
-
-|===
+//[cols="1,1,1"]
+//|===
+//a| .Disable the Application settings.[[polyphasic_target]]
+//image::polyphasic_target1.png[]
+//
+//a| .The toggle must be deactivated.
+//image::polyphasic_target2.png[]
+//
+//a| .Adjust the per-alarm duration goal.
+//image::polyphasic_target3.png[]
+//
+//|===

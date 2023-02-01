@@ -23,8 +23,6 @@ toc::[]
 
 == Options
 
-NOTE: When you choose a sound, you will hear the preview.
-
 [horizontal]
 Nature:: A great selection of nature sounds by Sleep (birds, ocean, storm...)
 Phone:: You can pick any music file from your storage.

@@ -4,27 +4,16 @@ title: Naps
 nav_order: 2
 parent: /alarms/0parent.html
 ---
-:toc:
-
-== What it does
 *Schedule an alarm to trigger _after_ a certain amount of time rather than _at_ a certain hour and minute.*
 
 [EXAMPLE]
 Instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
 
-== Where to find it
-
-Add new a alarm using _icon:ic_alarm_plus[] -> Nap button_ as shown in <<figure-nap-button>>.
-
-[[figure-nap-button]]
-.Switch to naps
-image::alarm_nap.png[]
+Add new a alarm using _icon:ic_alarm_plus[] -> Nap button_. You can select naps from 1 minute to 10 hours.
 
 
-== Options
-
-You can select naps from 1 minute to 10 hours in a list shown in <<figure-nap-list>>
-
-[[figure-nap-list]]
-.Nap list
-image::alarm_nap_2.png[]
+[.imgflexblock]
+****
+image::alarm_nap.png[role="left",title="Switch to naps."]
+image::alarm_nap_2.png[role="left",title="Nap list"]
+****
