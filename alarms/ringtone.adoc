@@ -65,7 +65,7 @@ WARNING: Make sure the file is available and the app has permission for accessin
  icon:ic_playlist_inorder[] - ordered list, you can see the order next to the songs' names
  icon:ic_playlist_shuffle[] -  shuffled, songs are playing in a random order
 . Confirm the selection with icon:ic_action_accept[] OK button.
-. The icon:ic_action_discart[] icon revert the selection, so you can start over.
+. The icon:ic_action_discard[] icon revert the selection, so you can start over.
 
 //video::Dr9EnzTFHY4[youtube]
 
