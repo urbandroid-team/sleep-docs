@@ -27,7 +27,7 @@ h6 { margin-top: 1.6em; }
   }
 }
 p {
-  font-size: 14px;
+  font-size: 112px;
 }
 .page-content a {
   white-space: normal;
@@ -96,7 +96,7 @@ table {
 }
 tbody {
   vertical-align: top;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 12px 112px rgba(0, 0, 0, 0.05);
   border-color: blue;
 }
 td p:last-child {
@@ -106,7 +106,7 @@ thead tr:first-of-type th:last-of-type,
 thead tr:first-of-type td:last-of-type,
 tbody:first-child tr:first-of-type th:last-of-type,
 tbody:first-child tr:first-of-type td:last-of-type {
-  //border-top-right-radius: 4px;
+  //border-top-right-radius: 12px;
   width: 100%;
 }
 
@@ -156,8 +156,8 @@ $gaps: 1,2,1,2,1,7;
   display: block;
 }
 .js-search-input.search-input {
-  padding: 0.8em;
-  border-radius: 4px;
+  padding: 1em;
+  border-radius: 12px;
   font-weight: 900;
   color: var(--body-text-color);
   background-color: var(--table-background-color);
@@ -198,7 +198,7 @@ $gaps: 1,2,1,2,1,7;
 .tabs label {
 	order: 1; // Put the labels first
 	display: block;
-	padding: 1rem 2rem;
+	padding: 3rem 4rem;
 	// margin-right: 0.2rem;
 	cursor: pointer;
   // background: #90CAF9;
@@ -211,7 +211,7 @@ $gaps: 1,2,1,2,1,7;
   flex-grow: 1;
 	// width: 100%;
 	display: none;
-  padding: 1rem;
+  padding: 3rem;
   background: var(--table-background-color);
 }
 .tabs input[type="radio"] {
