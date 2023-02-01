@@ -84,16 +84,16 @@ $spacers: (
   sp-10: $spacing-unit * 5
 );
 //
-// $sp-1: map-get($spacers, sp-1); // 0.25 rem == 4px
-// $sp-2: map-get($spacers, sp-2); // 0.5  rem == 8px
-// $sp-3: map-get($spacers, sp-3); // 0.75 rem == 24px
-// $sp-4: map-get($spacers, sp-4); // 1    rem == 16px
-// $sp-5: map-get($spacers, sp-5); // 1.5  rem == 24px
-// $sp-6: map-get($spacers, sp-6); // 2    rem == 32px
-// $sp-7: map-get($spacers, sp-7); // 2.5  rem == 40px
-// $sp-8: map-get($spacers, sp-8); // 3    rem == 48px
-// $sp-9: map-get($spacers, sp-9); // 4    rem == 48px
-// $sp-10: map-get($spacers, sp-10); // 4.5  rem == 48px
+$sp-1: map-get($spacers, sp-1); // 0.25 rem == 4px
+$sp-2: map-get($spacers, sp-2); // 0.5  rem == 8px
+$sp-3: map-get($spacers, sp-3); // 0.75 rem == 24px
+$sp-4: map-get($spacers, sp-4); // 1    rem == 16px
+$sp-5: map-get($spacers, sp-5); // 1.5  rem == 24px
+$sp-6: map-get($spacers, sp-6); // 2    rem == 32px
+$sp-7: map-get($spacers, sp-7); // 2.5  rem == 40px
+$sp-8: map-get($spacers, sp-8); // 3    rem == 48px
+$sp-9: map-get($spacers, sp-9); // 4    rem == 48px
+$sp-10: map-get($spacers, sp-10); // 4.5  rem == 48px
 //
 // //
 // // Borders
