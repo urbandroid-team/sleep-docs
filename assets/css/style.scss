@@ -271,9 +271,10 @@ $gaps: 1,2,1,2,1,7;
 
 .admonitionblock .icon > img {
   //background-color: #A0A0A050;
-  background-color: #505050;
+  background-color: transparent;
   border-radius: 50%;
-  padding: 0em;
+  padding: 0px;
+  margin: 0px;
   font-size: 2em;
 }
 
