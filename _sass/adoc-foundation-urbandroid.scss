@@ -352,7 +352,7 @@ kbd kbd:last-child { margin-right: 0; }
 table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-size: inherit; }
 
 .admonitionblock > table { border: 0; background: none; width: 100%; }
-.admonitionblock > table td.icon { text-align: center; width: 80px; }
+.admonitionblock > table td.icon { vertical-align: top; text-align: center; width: 80px; }
 .admonitionblock > table td.icon img { max-width: none; }
 .admonitionblock > table td.icon .title { font-weight: bold; text-transform: uppercase; }
 .admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid var(--line-separator-color); color: var(--subheading); }
