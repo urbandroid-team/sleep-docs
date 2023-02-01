@@ -262,6 +262,14 @@ $gaps: 1,2,1,2,1,7;
   font-size: 2em;
 }
 
+.admonitionblock .icon > img {
+  //background-color: #A0A0A050;
+  background-color: #505050;
+  border-radius: 50%;
+  padding: 0.05em;
+  font-size: 2em;
+}
+
 // Admonition tables
 .admonitionblock {
   td.content {
