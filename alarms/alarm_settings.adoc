@@ -79,11 +79,13 @@ NOTE: Please, test it before using it, on some devices the alarm output may be s
 [[per-alarm]]
 === Alarm-specific "per-alarm" settings
 Alarm-specific settings change behaviour of a particular alarm; those changes won't affect other alarms or default settings.
-All default options are also available as alarm-specific options.
+
+NOTE: All default options are also available as alarm-specific options.
+
 
 There are also few options that are only available in alarm-specific settings:
 [horizontal]
-Alarm name:: You can change the title of the alarm (see <<alarm_label, the guide below>>)
+Alarm name:: Editable alarm name (see <<alarm_label, the guide below>>), used on alarm screen, as a tag on graphs, and read during alarm with TTS enabled.
 Time:: Chooses the alarm time.
 Repeat:: Chooses the pattern of the repetition:
 * *Weekly* - repeats the day pattern every week
@@ -91,10 +93,15 @@ Repeat:: Chooses the pattern of the repetition:
 * *Even week* - repeats the day pattern every even week
 * *Non-weekly* - every 2nd-6th day
 * *Monday - Sunday* - you can choose any combination of weekdays.
+
+.Next alarm
+[horizontal]
 Next alarm:: A tool for one time change of the alarm time - for advancing or postponing the alarm one time (see <<alarm_date, the guide below>>).
 * Changing the date of the first alarm
 * Changing the time of the next first alarm
 Skip next:: skips the next occurrence of the alarm, you can choose only one skip, or choose a date from the time picker with *Skip more days*.
+
+[horizontal]
 Silent alarm (in Sound):: Sets an alarm without sound.
 Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>).
 * *Bedtime notification* - Changes the timing of the bedtime notification for this alarm
@@ -171,7 +178,7 @@ NOTE: In the file picker you may first need to enable showing of external storag
 . Open an existing alarm details screen or create new alarm dialogue.
 . Name your alarm in the Label field in upper right corner. You will see this name on the alarm dialog in the morning, so you can use it for TODOs or motivation texts and they will be written into your sleep graph description.
 
-NOTE: Alarm label shows on the list of alarms and as a tag on the graph.
+NOTE: Alarm label shows on the list of alarms and as a tag on the graph. If Text-to-speech is enabled the app reads this alarm name with the alarm time.
 
 image:alarm_label.png[width=70%]
 
