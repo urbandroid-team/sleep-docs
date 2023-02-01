@@ -258,7 +258,7 @@ blockquote, blockquote p { line-height: 1.6; color: var(--subheading); }
 table { background: var(--white); margin-bottom: 1.25em; border: solid 1px var(--table-border-color); }
 table thead, table tfoot { background: whitesmoke; font-weight: bold; }
 table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: var(--body-text-color); text-align: left; }
-table tr th, table tr td { padding: 0.5625em 0.625em; font-size: inherit; color: var(--body-text-color); }
+table tr th, table tr td { font-size: inherit; color: var(--body-text-color); }
 table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f9f9f9; }
 table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.4; }
 
