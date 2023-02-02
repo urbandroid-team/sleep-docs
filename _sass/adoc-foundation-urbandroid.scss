@@ -263,7 +263,7 @@ blockquote, blockquote p { line-height: 1.6; color: var(--subheading); }
 table thead, table tfoot { font-weight: bold; }
 table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: var(--body-text-color); text-align: left; }
 table thead th { padding: 1.5em 1em; font-size: inherit; color: var(--body-text-color); }
-table tr th, table tr td { padding: 1.5em 1em; font-size: inherit; color: var(--body-text-color); }
+table tr th, table tr td { padding: 1em 1em 0em 1em; font-size: inherit; color: var(--body-text-color); }
 table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f9f9f9; }
 table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.4; }
 
@@ -521,6 +521,10 @@ ol.lowergreek { list-style-type: lower-greek; }
 td.hdlist1 { padding-right: .8em; font-weight: bold; }
 
 td.hdlist1, td.hdlist2 { vertical-align: top; }
+td.hdlist2 {
+  padding-bottom: 2em;
+  padding-left: 2em;
+}
 
 .literalblock + .colist, .listingblock + .colist { margin-top: -0.5em; }
 
