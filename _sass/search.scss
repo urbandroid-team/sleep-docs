@@ -43,7 +43,7 @@
 }
 
 .search-input-wrap {
-  display: flex;
+  display: contents;
   background-color: var(--body-background-color);
 }
 
@@ -83,8 +83,9 @@
   margin-right: $sp-2;
   fill: var(--grey-dk-000);
   order: 1;
-  position: fixed;
-  margin-left: 1em;
+  position: relative;
+  left: 2em;
+  top: -1em;
 }
 
 .search-results-list {
