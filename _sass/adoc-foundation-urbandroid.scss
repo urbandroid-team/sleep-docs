@@ -267,6 +267,10 @@ table tr th, table tr td { padding: 1.5em 1em; font-size: inherit; color: var(--
 table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f9f9f9; }
 table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.4; }
 
+.search-results-wrap.active {
+    top: 1em;
+}
+
 navigation-list-link {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
