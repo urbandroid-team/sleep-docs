@@ -204,7 +204,7 @@ $gaps: 1,2,1,2,1,7;
 .tabs label {
 	order: 1; // Put the labels first
 	display: block;
-	padding: 3rem 4rem;
+	padding: 1.5rem 4rem;
 	// margin-right: 0.2rem;
 	cursor: pointer;
   // background: #90CAF9;
@@ -217,7 +217,7 @@ $gaps: 1,2,1,2,1,7;
   flex-grow: 1;
 	// width: 100%;
 	display: none;
-  padding: 3rem;
+  padding: 1.5rem;
   background: var(--table-background-color);
 }
 .tabs input[type="radio"] {
