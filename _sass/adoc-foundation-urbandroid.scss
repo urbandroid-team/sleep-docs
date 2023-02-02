@@ -506,6 +506,18 @@ ol.lowergreek { list-style-type: lower-greek; }
 .hdlist > table, .colist > table { border: 0; background: none; }
 .hdlist > table > tbody > tr, .colist > table > tbody > tr { background: none; }
 
+// Render definition lists (HD lists) as content below title
+.hdlist > table {
+  & > tbody > tr {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > td {
+      width: 100%;
+    }
+  }
+}
+
 td.hdlist1 { padding-right: .8em; font-weight: bold; }
 
 td.hdlist1, td.hdlist2 { vertical-align: top; }

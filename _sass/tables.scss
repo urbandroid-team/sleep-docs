@@ -12,6 +12,8 @@ table {
   border-collapse: separate;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
 
+  border-radius: $border-radius;
+
   @include mq(sm) {
     display: table;
   }
@@ -34,42 +36,6 @@ td {
   }
 }
 
-thead,
-tbody:first-child {
-  tr {
-    &:first-of-type {
-      th,
-      td {
-        &:first-of-type {
-          border-top-left-radius: $border-radius;
-        }
-
-        &:last-of-type {
-          border-top-right-radius: $border-radius;
-        }
-      }
-    }
-  }
-}
-
-tbody {
-  tr {
-    &:last-of-type {
-      th,
-      td {
-        border-bottom: 0;
-
-        &:first-of-type {
-          border-bottom-left-radius: $border-radius;
-        }
-
-        &:last-of-type {
-          border-bottom-right-radius: $border-radius;
-        }
-      }
-    }
-  }
-}
 
 thead {
   th {
