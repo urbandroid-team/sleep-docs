@@ -1,5 +1,7 @@
 /* Style the element that is used to open and close the accordion class */
 .accordion {
+  border-radius: 24px;
+  vertical-align: center;
   background-color: var(--table-background-color);
   color: var(--body-text-color);
   cursor: pointer;
@@ -24,7 +26,8 @@
   font-size: 13px;
   color: var(--body-text-color);
   float: right;
-  margin-left: 5px;
+  vertical-align: middle;
+  margin: 5px;
 }
 
 /* Unicode character for "minus" sign (-) */
