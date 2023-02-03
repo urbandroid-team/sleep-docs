@@ -28,6 +28,8 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'jekyll-rushed-analytics', '~> 0.1.15.pre'
+  gem 'slim', '~> 3.0.7'
+  gem 'thread_safe', '~> 0.3.5'
 end
 
 group :development, :test do

@@ -5,7 +5,7 @@
   }
   .main-nav::-webkit-scrollbar,
   .main-content-wrap::-webkit-scrollbar {
-    width: 11px;
+    width: 6px; // scrollbar-width for Webkit
   }
   .main-nav,
   .main-content-wrap {
