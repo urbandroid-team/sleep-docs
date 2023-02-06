@@ -1,0 +1,16 @@
+= block_with_title 'hdlist'
+  div.hdlistwrapper
+    - items.each do |terms, dd|
+      div.hdlistitem
+        div class=['hdlist1', ('strong' if option? 'strong')]
+          - terms = [*terms]
+          - terms.each_with_index do |dt, idx|
+            =dt.text
+            - unless idx >= terms.count - 1
+              br
+        div.hdlist2
+          - unless dd.nil?
+            - if dd.text?
+              p =dd.text
+            - if dd.blocks?
+              =dd.content

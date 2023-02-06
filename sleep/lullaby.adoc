@@ -6,88 +6,102 @@ parent: /sleep/0parent.html
 tags:
 - lullaby
 ---
+:toc: macro
 
-:toc:
-
-== What it does
 .Plays you a lullaby when you get to bed to help you fall asleep better.
 
-For lullabies, you can use *built-in lullabies*, your *own music*, or you can mix in *binaural beats*.
+For lullabies, you can use built-in *Nature sound* lullabies, your *own music*, *Spotify*, *online radio*, or you can mix in *binaural beats*.
+You can listen to your favourite music the whole night, or let the app control the volume and gradually lower it to zero after you started falling asleep with <<turn_off, Turn off when sleeping feature>>.
 
-*Built-in lullabies* are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
-Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack].
-
-For playing your *own music* (external player, Spotify, listening to audiobooks), you can use the feature "Turn off when sleeping", which is watching for you falling asleep and then will start a countdown for the set time. After that, it will gradually lower the system media volume.
-
-*Binaural beats* mix real-time generated binaural tones into lullaby playback. Read more about https://en.wikipedia.org/wiki/Beat_(acoustics)#Binaural_beats[binaural beats].
-
-== Where to find it
 _Settings -> Lullaby_
-_Left_ ≡ _menu -> Lullaby_ (only for selecting or starting lullaby, no settings)
+_Left_ ≡ _menu -> Lullaby_
+icon:ic_action_lullaby[] _icon on the tracking screen_
+
+---
+
+toc::[]
+:toclevels: 3
 
 == Options
-[horizontal]
-Built-in lullabies::
- * Whale diving
- * Thunderstorm
- * Mountain stream
- * White noise
- * Down in a cave
- * Fireplace
- * Ocean beach
- * Windy walk
- * Old clock
- * Chants of Tibet
+
+=== Nature
+Built-in lullabies[[nature]]:: are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
+Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack].
+
+* Whale diving
+* Thunderstorm
+* Mountain stream
+* White noise
+* Down in a cave
+* Fireplace
+* Ocean beach
+* Windy walk
+* Old clock
+* Chants of Tibet
 Lullaby Add-ons::
- * Summer night
- * Frogs in pond
- * North wind
- * Jungle
- * Lava cake
- * Galloping horse
- * Sheep counting
- * Wind chimes
- * Om chant
- * Temple bells
- * Flute
- * Tribal drums
- * Piano
- * Cat purr
- * Steam train
- * NASA Saturn "sound"
- * Submarine
- * War march
- * Musicbox
- * Baby in belly
- * Girl singing
- * Choir
- * Slow breath
- * Spaceship
- * Brown noise
- * Pink noise
- * Forest
- * Baby Doppler
- * Heart
- * Car
- * Fireworks
- * Fan
- * Hairdryer
- * Shower
- * Shush
- * Vacuum cleaner
- * Washing machine
- * Restaurant
-Turn off when sleeping:: Controls the system-wide volume level and turns it gradually down when you fall asleep.
+* Summer night
+* Frogs in pond
+* North wind
+* Jungle
+* Lava cake
+* Galloping horse
+* Sheep counting
+* Wind chimes
+* Om chant
+* Temple bells
+* Flute
+* Tribal drums
+* Piano
+* Cat purr
+* Steam train
+* NASA Saturn "sound"
+* Submarine
+* War march
+* Musicbox
+* Baby in belly
+* Girl singing
+* Choir
+* Slow breath
+* Spaceship
+* Brown noise
+* Pink noise
+* Forest
+* Baby Doppler
+* Heart
+* Car
+* Fireworks
+* Fan
+* Hairdryer
+* Shower
+* Shush
+* Vacuum cleaner
+* Washing machine
+* Restaurant
+
+=== Spotify
+
+You can choose lullabies from your Spotify Library
+
+* *Current playlist*
+* *Playlists*
+
+=== Radio
+
+Several SomaFM radios are added by default - all available online radio stations with links https://sleep.urbandroid.org/radio/radio.txt[here]. You can add other radio stations - see <<guide_radio, the guide below>>.
+
+== Settings
+[horizontal]
+Preview:: Plays a preview of your current lullaby
+Turn off when sleeping [[turn_off]]:: Controls the system-wide volume level and turns it gradually down when you fall asleep.
 NOTE: This feature only works when Sleep tracking is active.
  * Works with built-in lullabies and any sound player app or service.
- * You can set minimal time of playback (0-90 min).
- * To disable this feature, set it to "Use current device volume".
+ * You can set minimal time of playback (5-90 min).
 Volume:: Controls volume of lullabies.
 Sudden sounds volume:: Controls volume of sudden sounds (e.g. thunders, bubbles).
 Start automatically:: Initiates lullabies automatically when tracking starts.
 
 
-.Meditation section [[meditation]]
+.Meditation [[meditation]]
 
 Meditation lullabies requires a https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[free add-on Lis10 from Play Store].
 The addon is a text-to-speech editor, that gives you a full freedom of the content. You can adjust the meditation to fit your needs.
@@ -104,16 +118,10 @@ Session::
 Voice setup:: Opens the settings for the Text-to-speech engine on your phone, where you can change the voice parameters, like tone, language, and rate.
 Install:: Takes you directly to the addon https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[web on  Play Store].
 
+.Binaural beats
 
-.Online radio section
-[horizontal]
-Play::
-+ Online radio:: You can add you own online radio
-NOTE: You need to find the URL of the online audio stream. This may or may be not the same URL as the radio web player, often the stream URL is hard to find.
+Bineaural beats mix real-time generated binaural tones into lullaby playback. Read more about https://en.wikipedia.org/wiki/Beat_(acoustics)#Binaural_beats[binaural beats].
 
-Turn off WiFi after lullaby:: Turns off the WiFi signal once the volume reaches zero. For online radios and streaming services.
-
-== Advanced Options
 [horizontal]
 Binaural beats[[binaural]]:: Enables binaural beats into lullaby playback - effective only if you use the lullaby with headphones.
 WARNING: We do strongly discourage users from using binaural beats if they suffer epileptic or cardiac issues!
@@ -126,3 +134,28 @@ Binaural beats in alarm:: Configures stimulating binaural beats into alarm sound
 * Gamma - frequency around 40 Hz
 Mindroid::
 https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid]
+
+
+.Advanced
+[horizontal]
+Turn off WiFi after lullaby:: Turns off the WiFi signal once the volume reaches zero. For online radios and streaming services.
+
+== Guides
+
+=== How to add your own radio [[guide_radio]]
+
+. Switch the tap at the top to *Radio*.
+. Tap the (+) icon.
+. Insert the the stream URL (do not confuse with radio URL) to the second box, top row is for naming your radio.
+. Tap on *Add* to confirm.
++
+NOTE: You can try radio stream URL search engines, like https://streamurl.link/[this one].
++
+
+
+=== How to play own music as lullaby [[own_music]]
+
+. Configure the minimal playback duration in _Settings -> Sleep tracking -> Lullabies -> Turn off when sleeping_ (from 5 minutes to 90 minutes).
+. Open an external player you normally use for listening music, and start playing.
+. Start sleep tracking.
+. After the minimal playback time is reached,the app will search for when you start falling asleep, and then lower the volume gradually.
