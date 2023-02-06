@@ -284,7 +284,7 @@ $gaps: 1,2,1,2,1,7;
     vertical-align: middle;
   }
 }
-table .admonitionblock {
+table .admonitionblock, .hdlist .admonitionblock {
   td {
     background-color: var(--body-background-color);
   }
