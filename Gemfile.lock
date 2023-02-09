@@ -95,6 +95,7 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2022.5)
       tzinfo (>= 1.0.0)
+    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
@@ -116,6 +117,7 @@ DEPENDENCIES
   slim (~> 3.0.7)
   thread_safe (~> 0.3.5)
   tzinfo-data
+  wdm (~> 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
