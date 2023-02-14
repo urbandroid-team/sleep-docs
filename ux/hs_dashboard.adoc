@@ -67,29 +67,17 @@ Advice card [[advicecard]]:: Shows a random advice from the <</sleep/advice#,Adv
 Goal card [[goalcard]]:: Shows your active <</sleep/goals#, Goal>> progress. There are two progress bars one shows percentages of completion and the other time progress. With some goels the card can advice you what needs to be the next value to keep you on track to successfully finish the goal.
 * Tapping on this card opens <</sleep/Advice#,Advice section>>.
 
+
 Shortcuts card [[shortcut]]:: A mini-board with shortcuts.
+* icon:ic_action_bedtime[] Sleep X hour: Starts sleep tracking with and alarm based on your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>> (+ smart period and tracking start delay).
+* icon:ic_action_snooze[] Nap: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
+* icon:plus[] Add sleep: For adding a period of sleep manually, when you forgot tracking.
+* icon:plus[] Add goal: for adding a new goal (<</sleep/goals#, read more about Goals>>).
+* icon:ic_action_lullaby[] Lullabies: A quick access to the lullabies.
 +
-[.icontable,cols="1,11"]
-|===
-
-|icon:ic_action_bedtime[]
-|Sleep X hour: Starts sleep tracking with and alarm based on your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>> (+ smart period and tracking start delay).
-
-|icon:ic_action_snooze[]
-|Nap: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
-
-|icon:plus[]
-|Add sleep: For adding a period of sleep manually, when you forgot tracking.
-
-|icon:plus[]
-|Add goal: for adding a new goal (<</sleep/goals#, read more about Goals>>).
-
-|icon:ic_action_lullaby[]
-|Lullabies: A quick access to the lullabies.
-
-|===
+NOTE: You can create a shortcut (Add alarm, Nap, Sleep X hours and Sleep tracking) widget for your main screen (<</ux/widgets#, see here for details>>).
 +
-NOTE: You can create a shortcut (Add alarm, Nap, Sleep X hours and Sleep tracking) for your main screen.
+
 Add-on card::
 A short presentation of our add-ons, compatible devices or our other apps.
 * Tapping this card opens list of add-ons and other applications made by our team.

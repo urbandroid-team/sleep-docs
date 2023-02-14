@@ -77,7 +77,7 @@ Use Sleep Mask:: Enable to use your https://www.happy-electronics.eu/shop/en/hom
 
 After you've done the above steps to connect and enable the smartlight of your choice, all of your alarms will turn on the smartlight when they start ringing. Now, to have a truly sunrise wakeup, you probably want the smartlight to turn on _before_ the alarm rings.
 
-To set that up, head to _Settings -> Alarms -> Alarm sound start_ and set it to some period. At the time of the alarm, only the smartlight will turn on at the lowest brightness and gradually brighten up until the set period passes. Then the alarm starts ringing.
+To set that up, head to _Settings -> Alarms -> Sound delay_ and set it to some period. At the time of the alarm, only the smartlight will turn on at the lowest brightness and gradually brighten up until the set period passes. Then the alarm starts ringing.
 
 Without the delayed sound start, you can control the speed of sun-rise effect by changing the period of <</alarm/alarm_settings/gentle_alarm#,Gentle volume increase>>. The longer the period is, the longer it takes to get from dark to full light.
 

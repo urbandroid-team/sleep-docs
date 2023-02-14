@@ -46,7 +46,7 @@ Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
 * *From start* - Vibrations start at alarm time.
 * *After 30 seconds* - Vibrations start after 30 seconds.
 * *After 1-24 minutes* - Vibrations start after set time.
-Delayed alarm sound start::
+Delayed sound:: [[sound_delay]]
 You may want to first give chance to <</devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
 * *Disabled* - Sound starts at alarm time.
 * *30 seconds - 24 minutes* - Sounds starts after set time.
@@ -94,12 +94,35 @@ Repeat:: Chooses the pattern of the repetition:
 * *Non-weekly* - every 2nd-6th day
 * *Monday - Sunday* - you can choose any combination of weekdays.
 
+
+
 .Next alarm
+
+A tool for one time change of the alarm time - for advancing or postponing the alarm one time. It allows you to choose only the NEXT day and time of an alarm.  Afterward the alarm returns to it's normal schedule.
+
 [horizontal]
-Next alarm:: A tool for one time change of the alarm time - for advancing or postponing the alarm one time (see <<alarm_date, the guide below>>).
-* Changing the date of the first alarm
-* Changing the time of the next first alarm
-Skip next:: skips the next occurrence of the alarm, you can choose only one skip, or choose a date from the time picker with *Skip more days*.
+Changing the date of the next alarm::  You can change the date of the next alarm:
+. In case of a one-time alarm the selected day is the actual day when alarm will ring.
+. In case of a repeating alarm, the alarm may ring on the selected day or on any eligible day after based on your repeat settings.
++
+[EXAMPLE]
+You have a repeating alarm on We, Th and you set your Next alarm day to Monday next week. Next time the alarm will trigger is Wednesday next week.
++
+
+Changing the time of the next alarm:: You can adjust time of next alarm just for a single execution of the alarm.
++
+[EXAMPLE]
+Normally you wake up at 7:00 but tomorrow you have a special meeting and you need to wake up at 6:00. You can change the alarm to start at 6:00 for a single day and afterward the alarm resets back to 7:00 for you automatically.
++
+
+Skip next:: You can skip only the next execution of an alarm. This is a special case and convenience for choosing the next alarm day for the day after tomorrow.
++
+[EXAMPLE]
+Tomorrow is a day off for me, but I do want to continue using the alarm afterward as usual.
++
+
+Skip more days:: This is the same as "Changing the next day" above.
+
 
 [horizontal]
 Silent alarm (in Sound):: Sets an alarm without sound.
