@@ -8,4 +8,4 @@ tags:
 Unfortunately, Google made it impossible to start screens from background on Android 10. This is why we can no longer show the alarm screen with the big buttons under usual settings. On Android 10, the app can just show notifications from background if screen is on when alarm starts. If screen is locked we usually are able to show the full screen alarm.
 
 To get full screen alarms back:
-. Enable the option *Always fullscreen alarm* in _Settings -> Alarms -> Always fullscreen alarm_ (might be hidden under Advanced in Snooze/Dismiss section).
+. Enable the option *Always fullscreen alarm* in _Settings -> Alarms -> Fullscreen alarm_ (might be hidden under Advanced in Snooze/Dismiss section).

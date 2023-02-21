@@ -60,7 +60,7 @@ If you are not sure, if the HR monitoring is possible with your wearable, you ca
 
 . Try to pair with your device (this may not be required for all devices and OS versions).
 . Make sure no other app is using your device while sleep tracking.
-. Go to _Settings -> Wearables -> Bluetooth Smart_ and tick this option.
+. Go to _Settings -> Sleep tracking -> Wearables -> Bluetooth Smart_ and tick this option.
 . The app will start a Bluetooth scanning and lists all nearby devices.
 . If your wearable is listed in BT scanning with a icon:tag_love[] icon, it uses the requi red HR profile
 

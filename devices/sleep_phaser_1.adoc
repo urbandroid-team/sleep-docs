@@ -26,7 +26,7 @@ There are two touch buttons on the Sleep Phaser.
 ## First start
 1. Connect your Sleep Phaser to the power supply.
 2. Make sure that Bluetooth and Location service (GPS) are turned on.
-3. In Sleep as Android, go to Settings > Smartlight > Sleep Phaser and tap Sleep Phaser disconnected (you can also just search for “sleep phaser”). The app will connect to the nearest Sleep Phaser. This will also unlock your Sleep as Android, if you have the trial version.
+3. In Sleep as Android, go to Settings > Services -> Smartlight > Sleep Phaser and tap Sleep Phaser disconnected (you can also just search for “sleep phaser”). The app will connect to the nearest Sleep Phaser. This will also unlock your Sleep as Android, if you have the trial version.
 4. After a successful connection, you can activate one or more Sleep Phaser functions:
   * Smartlight: Enables sunrise alarm. When this option is enabled, the general smartlight options (Pee-light, Lucid dreaming, Anti-Snoring start to apply to Sleep Phaser)
   * Sleep tracking: Enables tracking movement and breathing with Sleep Phaser.

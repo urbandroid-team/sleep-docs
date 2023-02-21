@@ -9,5 +9,5 @@ tags:
 
 . Please make sure that you are not accidentally starting the Sleep as Android app from your watch. This would start sleep tracking immediately.
 
-. Make sure you are not using automatic start of sleep tracking in _Settings -> Sleep tracking -> Start sleep tracking_.
+. Make sure you are not using automatic start of sleep tracking in _Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking_.
 You can find more information about automatic sleep tracking start <</sleep/automatic_sleep_tracking#,here>>.

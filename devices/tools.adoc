@@ -43,9 +43,9 @@ The Tools app is ready to use with Sleep app, you do not need to enable the inte
 
 == How to set up integration in Sleep app
 
-. Open _Settings -> Wearables -> Use wearable_.
+. Open _Settings -> Sleep tracking -> Wearables -> Use wearable_.
 . Choose the correct option from the list.
-. For HR data enable _Settings -> Wearable -> Heart rate monitoring_.
+. For HR data enable _Settings -> Sleep tracking -> Wearable -> Heart rate monitoring_.
 
 NOTE: Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
 

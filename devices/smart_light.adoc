@@ -17,7 +17,7 @@ Features:
 - Lucid dreaming and anti-snoring cues with light
 
 == Where to find it
-_Settings -> Smartlight_
+_Settings -> Services -> Smartlight_
 
 == Options
 [horizontal]
@@ -68,7 +68,7 @@ Use Sleep Mask:: Enable to use your https://www.happy-electronics.eu/shop/en/hom
 
 === How to setup sunrise alarm (sunrise-like wakeup) ?
 
-. Enable _Settings -> Smartlight -> Use smartlight_
+. Enable _Settings -> Services -> Smartlight -> Use smartlight_
 . Select your smartlight:
 * Use phone's screen as a smartlight: Enable _Smartlight -> Use screen light_
 * Use a smartbulb as a smartlight: Connect using _Smartlight -> Philips HUE, IKEA Trådfri (disconnected)_

@@ -21,7 +21,7 @@ Sleep app also have a feature for tracking sleep times - Sleep time estimation. 
 
 == Where to find it
 
-_Settings -> Sleep tracking -> Start sleep tracking -> After fall asleep_
+_Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking -> After fall asleep_
 
 WARNING: If you do not see this option your phone probably does not support activity tracking in background. This is based on the phone hardware, more specifically the SoC's sensor batching queue size.
 

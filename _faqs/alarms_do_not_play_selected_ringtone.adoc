@@ -7,7 +7,7 @@ tags:
 ---
 
 Loading of the selected file may have failed::
-. Make sure that you have selected the correct ringtone - check <</alarms/alarm_settings#per-alarm,per-alarm settings>> and Alarm default settings.
+. Make sure that you have selected the correct ringtone - check Alarm default settings in _Settings -> Alarms -> Sound_, or settings of each alarm.
 . Check if the file has not been moved or deleted and that SD card is available at the time of the alarm.
 . Check that the app has storage permission to access that file.
 

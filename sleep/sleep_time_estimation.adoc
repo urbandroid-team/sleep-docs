@@ -16,7 +16,7 @@ The next day, a pop-up notification with estimated timings appears.
 image::suggestion.png[]
 
 == Where to find it
-_Settings -> Sleep tracking -> Sleep time estimate_
+_Settings -> Sleep tracking -> Automatic sleep tracking -> Sleep time estimate_
 
 == Options
 [horizontal]

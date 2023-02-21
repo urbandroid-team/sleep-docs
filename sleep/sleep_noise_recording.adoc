@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sleep noise recording
+title: Sleep noise analysis
 nav_order: 2
 tags:
 - noise
@@ -23,7 +23,7 @@ https://issuetracker.google.com/issues/162913367
 
 
 == Where to find it
-_Settings -> Sleep noise recording_
+_Settings -> Sleep noise analysis_
 
 You can check whether the phone is recording on the sleep tracking screen - [color-red]#red ⬤# indicates that the phone is currently recording.
 

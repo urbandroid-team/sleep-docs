@@ -21,27 +21,17 @@ toc::[]
 :toclevels: 3
 
 
-== Options
+== Nature
+A great selection of nature sounds by Sleep (birds, ocean, storm...)
+
+== Phone
+You can pick any music file from your storage.
 
 [horizontal]
-Nature:: A great selection of nature sounds by Sleep (birds, ocean, storm...)
-Phone:: You can pick any music file from your storage.
-* *Ringtones*
-* *Your Music* (tagged as a music by the system)
-* *Your Music* (all sound files, that were not tagged as a music by the system)
-* *Any other own file* - you can manually choose any other file from your internal or external storage you did not find listed. See <<guide_song, the guide below>> on how to do so.
-+
-Radio[[radio]]:: Several SomaFM radios are added by default - all available online radio stations with links https://sleep.urbandroid.org/radio/radio.txt[here]. You can add other radio stations - see <<guide_radio, the guide below>>.
-+
-NOTE: In the morning, Sleep waits for 30 seconds while trying to establish the connection. If it can’t play radio, it plays the local ringtone.
-+
-Spotify:: You can choose sounds from your Spotify Library
-* *Current playlist*
-* *Playlists*
-Playlist:: You can create a playlist of your liking, from any combination of sounds from all the previous categories. The songs can be played in order, or shuffled. See <<guide_playlist, the guide below>> on how to create the playlist, and how to control the songs' order.
-Silent:: Available only in <</alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
-
-== Guide
+Ringtones::
+Your Music:: tagged as a music by the system
+Your Music:: all sound files, that were not tagged as a music by the system
+Any other own file:: you can manually choose any other file from your internal or external storage you did not find listed.
 
 === How to add your own song or sound file [[guide_song]]
 
@@ -55,19 +45,10 @@ WARNING: Make sure the file is available and the app has permission for accessin
 //video::TWXKkFV2zS4[youtube]
 
 
-=== How to manage your own playlists[[guide_playlist]]
+== Radio[[radio]]
+Several SomaFM radios are added by default - all available online radio stations with links https://sleep.urbandroid.org/radio/radio.txt[here]. You can add other radio stations - see <<guide_radio, the guide below>>.
 
-. Switch the tab at top to *Playlist* (at the end).
-. By ticking the box next to the songs' name, choose each file you wish to have in the playlist.
-. You can play the preview with the icon:ic_action_play[] button on the control panel (bar for volume will change the volume of the reply).
-. You can change the order of the played songs,by tapping on the icon to change the playback mode:
- icon:is_playlist_loop1[] - one song looping, the app will play each day a new song from the list, looping it
- icon:ic_playlist_inorder[] - ordered list, you can see the order next to the songs' names
- icon:ic_playlist_shuffle[] -  shuffled, songs are playing in a random order
-. Confirm the selection with icon:ic_action_accept[] OK button.
-. The icon:ic_action_discard[] icon revert the selection, so you can start over.
-
-//video::Dr9EnzTFHY4[youtube]
+NOTE: In the morning, Sleep waits for 30 seconds while trying to establish the connection. If it can’t play radio, it plays the local ringtone.
 
 
 === How to add your own radio [[guide_radio]]
@@ -76,10 +57,39 @@ WARNING: Make sure the file is available and the app has permission for accessin
 . Tap the (+) icon.
 . Insert the the stream URL (do not confuse with radio URL) to the second box, top row is for naming your radio.
 . Tap on *Add* to confirm.
-+
-NOTE: You can try radio stream URL search engines, like https://streamurl.link/[this one].
-+
 
+NOTE: You can try radio stream URL search engines, like https://streamurl.link/[this one].
+
+
+
+== Spotify
+You can choose sounds from your Spotify Library
+
+[horizontal]
+Current playlist:: dd
+Playlists:: dd
+
+
+== Playlist
+You can create a playlist of your liking, from any combination of sounds from all the previous categories. The songs can be played in order, or shuffled. See <<guide_playlist, the guide below>> on how to create the playlist, and how to control the songs' order.
+
+=== How to manage your own playlists[[guide_playlist]]
+
+. Switch the tab at top to *Playlist* (at the end).
+. By ticking the box next to the songs' name, choose each file you wish to have in the playlist.
+. You can play the preview with the icon:ic_action_play[] button on the control panel (bar for volume will change the volume of the reply).
+. You can change the order of the played songs,by tapping on the icon to change the playback mode.
+
+[horizontal]
+icon:is_playlist_loop1[]:: one song looping, the app will play each day a new song from the list, looping it
+icon:ic_playlist_inorder[]:: ordered list, you can see the order next to the songs' names
+icon:ic_playlist_shuffle[]:: shuffled, songs are playing in a random order
+icon:ic_action_discard[]::  reverts the selection, so you can start over.
+
+//video::Dr9EnzTFHY4[youtube]
+
+== Silent alarm
+Available only in <</alarm_settings#per-alarm, Alarm-specific settings>>. Won't turn off vibrations.
 
 
 

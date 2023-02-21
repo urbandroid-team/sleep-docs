@@ -16,7 +16,7 @@ When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking
 Apart from audible anti-snoring you can also set your <</devices/smart_light#miscellaneous,Smartlight>> devices to react to your snoring by flashing.
 
 == Where to find it
-_Settings -> Sleep noise recording -> Anti-snoring_
+_Settings -> Sleep noise analysis -> Anti-snoring_
 
 == Options
 [horizontal]

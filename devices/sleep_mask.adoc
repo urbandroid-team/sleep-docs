@@ -32,8 +32,8 @@ image::mask2.jpg[]
 * More light stimulation programs with https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid app]
 
 ## Where to find it
-_Settings -> Smartlight -> Use Sleep Mask_ (both types)
-_Settings -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
+_Settings -> Services -> Smartlight -> Use Sleep Mask_ (both types)
+_Settings -> Services -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
 
 ## Guide
 

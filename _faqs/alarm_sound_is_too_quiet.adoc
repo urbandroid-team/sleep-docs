@@ -11,4 +11,4 @@ Gentle volume increase is enabled or set for too long period::
 - Try shorter period in _Settings -> Alarms -> Gentle volume increase_, the shortest period is 1 minutes - the volume goes from zero to full volume during one minute.
 
 Your ringtone volume might be too too low::
-- Check the volume of the ringtone in _Settings -> Alarms -> Ringtone_ or in the settings of each individual alarm in <</alarms/alarm_settings#per-alarm,per-alarm settings>>.
+- Make sure the alarm sound stream is high enough - press the volume button on your phone, and expand the dialogue that shows on the side of the screen. The sound screen will show you the level of each sound stream on your phone.

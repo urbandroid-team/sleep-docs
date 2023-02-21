@@ -16,7 +16,7 @@ We have also some reports that Sonar can get audible suddenly during tracking in
 
 To make any audible artifacts less likely:
 
-. Go to Settings > Sleep tracking > Test sensor.
+. Go to _Settings -> Sleep tracking -> Test sensor_.
 . Try different frequency from the drop down menu list.
 . When you find the least affected frequency, you could try lowering the volume a bit (the sliding bar). But keep it as high as possible to maintain reliable results.
 

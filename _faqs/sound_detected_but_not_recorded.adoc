@@ -12,7 +12,7 @@ There are two reasons, why the app did not record the sound, even when it was pr
 * The app had troubles saving the file.
 
 == Adjusting threshold
-. Go to _Settings -> Sleep noise recording -> Recording volume threshold_.
+. Go to _Settings -> Sleep noise analysis -> Recording volume threshold_.
 . Lower the value - the default value is 15%
 
 * Higher threshold = less sounds are recorded
@@ -20,6 +20,6 @@ There are two reasons, why the app did not record the sound, even when it was pr
 
 == Resetting storage path
 
-. Go to _Settings -> Sleep noise recording -> Storage path_.
+. Go to _Settings -> Sleep noise analysis -> Storage path_.
 . Tap on RESET button.
 . Now you should see the Storage path set as "/storage/emulated/0".

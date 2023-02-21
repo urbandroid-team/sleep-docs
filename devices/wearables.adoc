@@ -25,7 +25,7 @@ tags:
 . First of all, make sure your wearable is supported (see the <</devices/supported_wearable#, table of all integated wearables>>).
 . Check if the wearable is connected properly via Bluetooth.
 . Install the required companion apps - this depends on the wearable type, check the  <</devices/supported_wearable#, table below>>, or one of the subpages.
-. Select the corresponding option in _Settings -> Wearables -> Use wearable_.
+. Select the corresponding option in _Settings -> Sleep tracking -> Wearables -> Use wearable_.
 . You can test the connection on some wearables with the Test sensor - see <</devices/test_sensor#, details about testing the connection here>>.
 
 You can find specific guides for each wearable type on the subpages of the Wearable section.
@@ -33,11 +33,9 @@ You can find specific guides for each wearable type on the subpages of the Weara
 NOTE: Sleep tracking collects data the whole night and the data are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
 
 
-== Guide
+== Create an alarm only as vibrations on watch (no sound, delayed sound)
 
-=== Create an alarm only as vibrations on watch (no sound, delayed sound)
-
-. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Ringtone -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).
-. Enable wearable vibrations (_Settings -> Wearables -> Vibrate_).
+. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).
+. Enable wearable vibrations (_Settings -> Sleep tracking -> Wearables -> Vibrate_).
 +
 NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.

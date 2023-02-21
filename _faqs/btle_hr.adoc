@@ -10,7 +10,7 @@ tags:
 
 
 
-. Enable the tracking in _Settings -> Wearables ->Bluetooth Smart_ (might be hidden under Advanced section).
+. Enable the tracking in _Settings -> Sleep tracking -> Wearables ->Bluetooth Smart_ (might be hidden under Advanced section).
 . Try to pair with your device (this may not be required for all devices and OS versions).
 . Make sure no other app is using your device while sleep tracking.
 

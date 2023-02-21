@@ -7,5 +7,5 @@ tags:
 
 
 . Disable MultiCaptcha and select the Captcha task you wish to change.
-. Open _Settings -> Captcha -> Settings_ and change the task.
+. Open _Settings -> Alarms -> Captcha -> Settings_ and change the task.
 . Re-select MultiCaptcha again.

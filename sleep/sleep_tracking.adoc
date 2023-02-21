@@ -30,27 +30,39 @@ _Settings -> Sleep tracking_.
 
 == Options
 [horizontal]
-Smart wake up:: See <</alarms/smart_wake_up#,Smart wake up>>
 Awake detection:: See <</sleep/awake_detection#, Awake detection>>
-Pair tracking:: Check to enable pair tracking. More details: <</sleep/pair_tracking#,Pair tracking>>.
-
-.Automatic sleep tracking
-[horizontal]
-Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-- More details: <<automatic_sleep_tracking, Automatic sleep tracking>>.
-Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
-- On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
-- On _Save automatically_, the notification saves the sleep record for you automatically
-- More details: <<sleep_time_estimation,Sleep time estimation>>
-Use Google Sleep API:: Enables the Sleep API by Google (https://developers.google.com/location-context/sleep[you can read more here]).
+Automatic sleep tracking:: Options for automati tracking, see details at <</sleep/automatic_sleep_tracking#,Automatic sleep tracking>>
+//Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
+//- More details: <<automatic_sleep_tracking, Automatic sleep tracking>>.
+//Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
+//- On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
+//- On _Save automatically_, the notification saves the sleep record for you automatically
+//- More details: <<sleep_time_estimation,Sleep time estimation>>
+//Use Google Sleep API:: Enables the Sleep API by Google (https://developers.google.com/location-context/sleep[you can read more here]).
 
 .Sensor
 [horizontal]
-Sensor:: Choose a sensor that will be used for motion tracking when you track using phone (ie. without wearables or Sleep Phaser). Read more about the available <</sleep/sensors#, Sensors>>
-Test sensor [[test_sensor]]:: Test if your chosen sensor (Sonar or Accelerometer) is working correctly. If you want to test your wearable for motion tracking, please instead use _Settings -> Wearables -> Test sensor_.
+Sensor:: Choose a sensor that will be used for motion tracking when you track using phone (ie. without wearables or Sleep Phaser). Read more about the available <</sleep/sensors#, Sensors>>.
+Wearables:: Chose your wearable as the sleep tracking sensor. See deails on <</devices/wearables#,wearables here>>.
+Pair tracking:: Check to enable pair tracking. More details: <</sleep/pair_tracking#,Pair tracking>>.
+Test sensor [[test_sensor]]:: Test if your chosen sensor (Sonar or Accelerometer) is working correctly.
++
+NOTE: If you want to test your wearable for motion tracking, please instead use _Settings -> Wearables -> Test sensor_.
++
 
-.Do not disturb when sleeping
+.During sleep
 [horizontal]
+Lullabies:: Play calming melodies, audiobooks, or meditations to help you fall asleep. Details at <</sleep/lullaby#,Lullabies>>.
+Screen dimming:: Controls what will happen to the phone screen while sleep tracking.
+    Disabled::: Sleep does nothing, your system screen timeout applies
+    Dim::: Screen dims, your system screen timeout applies
+    Dim with clock::: Screen dims, shows time, your system screen timeout applies
+    Always on clock::: Screen dims, shows time, your system timeout DOES NOT apply
++
+WARNING: _Always on clock_ will keep your screen on all night which will significantly affect battery consumption.
++
+Lucid dreaming:: sdf
+Jet lag prevention:: wer
 Do not disturb when sleeping:: If checked, do not disturb (DND) mode will be enabled during sleep tracking, and disabled again when sleep tracking ends.
 Note the following special rules:
 - if DND was active before sleep tracking started, Sleep will not touch it (ie. it won't disable it in the morning)
@@ -62,18 +74,6 @@ This option tries to disable radios (wifi, cellular) during sleep tracking. Due 
 *Lollipop (5)*: turns off wifi
 *Oreo (8)*: turns off wifi. If you have turned on airplane mode manually, we cannot turn wifi on for features such as IFTTT or Smartlights
 *Q (10)*: does nothing - Android 10 has removed any means of controlling wifi programmatically
-
-+
-
-
-.Advanced
-[horizontal]
-Screen dimming:: Controls what will happen to the phone screen while sleep tracking.
-  Disabled::: Sleep does nothing, your system screen timeout applies
-  Dim::: Screen dims, your system screen timeout applies
-  Dim with clock::: Screen dims, shows time, your system screen timeout applies
-  Always on clock::: Screen dims, shows time, your system timeout DOES NOT apply
-WARNING: _Always on clock_ will keep your screen on all night which will significantly affect battery consumption.
 Stand-by:: Sleep tracking will be put into standby mode when battery drops under level set here. No further sleep data will be collected. This saves battery for the alarm.
 Battery optimized [[battery-optimized]]:: This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone does not have to have CPU awake all night to be able to read data from the sensor.
 WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.

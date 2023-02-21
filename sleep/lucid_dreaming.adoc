@@ -17,7 +17,7 @@ There are various techniques how to help your mind realize you are dreaming and 
 Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments done by this famous physisist.
 
 == Where to find it
-_Settings -> Lucid dreaming_
+_Settings -> Sleep tracking -> Lucid dreaming_
 
 For using light-powered lucid dreaming cues, please use _Settings -> Smart light -> Lucid dreaming_
 
