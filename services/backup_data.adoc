@@ -6,40 +6,34 @@ tags:
 - backup
 parent: /services/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Make sure to never lose your data with either local manual backup or automated cloud backup.*
 
-== Where to find it
-- _Left_ ≡ _menu -> Backup_
-- _Settings -> Services -> Cloud backup_
+_Left_ ≡ _menu -> Backup_
+_Settings -> Services -> Cloud backup_
+_Settings -> Privacy -> Backup_
 
-== Options
-._Left ☰ menu -> Backup_
-[horizontal]
-Export data:: Exports all your sleep records, noises and preferences to ZIP files located on your phone at _/sdcard/sleep-data/_. Use for  <<local_backup,local backup>> or for your <<csv_export, own analysis>> of sleep tracking data. The command also zips up the CSVs and offers to share.
-Import data:: Starts import of data from /sdcard/sleep-data/sleep-export.zip (local backup).
-NOTE: If you already have existing sleep records in Sleep, import will not overwrite them. It will just import new records that are present in the import file.
-Upload to Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and uploads data from phone to cloud.
-Download from Cloud:: Starts synchronization set in _Settings -> Services -> Cloud backup_ and downloads data from cloud to app.
-Download from Google Fit:: Starts synchronization with Google Fit service.
-
-._Settings -> Privacy -> Backup_
-
-For more details, please read the <</general/privacy#backup,Backup section of Privacy settings>>.
+---
+toc::[]
+:toclevels: 2
 
 // Google Drive:: See <<google_drive,Google Drive>>
 // Dropbox:: See <<dropbox,Dropbox>>
 
+= Types of backup
+
 == Local backup
 [[local_backup]]
-Backs up: *Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms*
-Does not back up: *Inactive alarms*
+[horizontal]
+Backs up:: Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms
+Does not back up:: Inactive alarms
 
-Your data are being backed up on a daily basis to `/sdcard/sleep-data/` folder on your phone. You can also start local backup manually using _Left_ ☰ _menu -> Backup -> Export data_.
+Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version (based on _Settings -> Personalize -> Privacy -> Storage path_).
 
-NOTE: Do not use if you plan to reinstall the app, or to clear the app's data!
+You can also start local backup manually using _Left_ ☰ _menu -> Backup -> Export data_.
+
+WARNING: Do not use if you plan to reinstall the app, or to clear the app's data!
 If you wish to use manual backup for these purposes, tap the SHARE button on the dialogue, and save the file to a different location, add it to an email, or save it to a cloud service.
 
 What is backed up in this folder:
@@ -53,13 +47,33 @@ ZIP file:: all the above (except /rec folder) are zipped up here for easy sharin
 
 You can also open the CSV file on your computer (e.g. in Excel) for your own analysis of the sleep tracking data. The structure of the CSV file is <</devs/csv#,documented here>>.
 
-The backup zip file can be used for migrating your Sleep settings and tracking history to a new phone - see <</faqs/new_phone_data_transfer#, our detailed guide>>.
+=== How to import / export in the app - manually
+You an also do a manual export/import process:
+
+. Go to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_, and make sure the dialog says "successful".
+. Copy the directory you see on the dialogue to your new phone's SD card.
+. Install Sleep as Android on the new phone and immediately go to _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Import_.
+
+NOTE: If you don't import immediately, the app will replace your `sleep-export.zip` file after the next sleep record is created. The old `sleep-export.zip` file will be renamed to `sleep-export.backup.zip`. See <</faqs/backup_data_not_imported_immediately#,solution>>.
+
+
+[[csv_export]]
+=== How to share the manually created backup
+For even easier migrating to a new phone, you can use your email, or cloud storage (like)
+
+. Go to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_.
+. When a dialogue "Successful backup to your local storage" appears, choose "Share" button.
+. Now, you can choose your email client, and the backup zip file is attached to the body of a new email.
+. Send it to yourself.
+. Open the email client on your new phone, open the email, and tap on the attachment.
+. You will be asked which data you wish to import - select all types of data you wish to import, and submit - <<manual_import, see how it looks like>>.
 
 
 == Backup to SleepCloud (recommended)
 [[sleepcloud_backup]]
-Backs up: *Sleep records, Settings, Active alarms, Noise recordings metadata*
-Does not back up: *Noise recordings, Inactive alarms*
+[horizontal]
+Backs up:: Sleep records, Settings, Active alarms, Noise recordings metadata
+Does not back up:: Noise recordings, Inactive alarms
 
 Recommended backup service. It stores data in our own cloud designed for Sleep as Android. It has several unique features not present in other backup methods.
 
@@ -67,15 +81,14 @@ Read <</services/sleepcloud#, more about SleepCloud addon and account here>>.
 
 == Backup to Dropbox or Google Drive
 [[dropbox]][[google_drive]]
-Backs up: *Sleep records, Settings, Noise recordings metadata, Alarms*
-Does not back up: *Noise recordings*
+[horizontal]
+Backs up:: Sleep records, Settings, Noise recordings metadata, Alarms
+Does not back up:: Noise recordings
 
 To automatically backup your data to Dropbox or Google Drive:
 . Install https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port[SleepCloud Backup add-on].
 . Go to _Sleep -> Settings -> Services -> Cloud backup_ and connect either _Google Drive_ or _Dropbox_.
 
-* Free SleepCloud service automatically initiates back up once a week.
-* The paid PRO version automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc.). You can force backup using _Left_ ≡ _menu -> Backup -> Upload to Cloud_.
 * The back up service will create a *Sleep as Android* folder within the Google Drive storage, and *Sleep Cloud Backup* folder within the DropBox service.
 
 image:drive.png[Google Drive last back up]
@@ -86,8 +99,9 @@ image:backup_fail.png[width=200]
 
 == Backup using Google provided backup cloud
 [[google_backup]]
-Backs up: *Sleep records, Settings, Alarms, Noise recordings metadata*
-Does not back up: *Noise recordings*
+[horizontal]
+Backs up:: Sleep records, Settings, Alarms, Noise recordings metadata
+Does not back up:: Noise recordings
 
 Most Android phones support Google provided backup. This is an optional feature and it must be explicitly enabled by the user.
 
@@ -103,4 +117,5 @@ image:system_backup.png[Google One backup]
 
 If you tap on the CSV or ZIP file that was exported from Sleep (anywhere - in your email attachment, Drive, Dropbox, file manager), the system will offer to open it with Sleep as Android. This will import the included sleep records.
 
+[[manual_import]]
 image:import.png[Importing]

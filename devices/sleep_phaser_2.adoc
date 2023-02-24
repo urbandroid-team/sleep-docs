@@ -6,26 +6,25 @@ parent: /devices/sleep_phaser.html
 tags:
 - phaser_v2
 ---
-:toc:
+:toc: macro
 
-## What it is
 *Sleep Phaser is the ultimate sleep tracking device which allows you to use the potential of Sleep as Android to the max.*
 
 Below is the user guide for Sleep Phaser v2.
 
-## User guide
+---
+toc::[]
+:toclevels: 2
 
-Congratulations on purchasing Sleep Phaser v2 – the ultimate device which allows you to use the potential of Sleep as Android app to the max. This guide will help you set up and operate the device.
-
-### Package contents
+== Package contents
 - Sleep Phaser V2
 - Charging cable
 - User guide
 
-### Phone requirements
+== Phone requirements
 - Android OS (version 4.3 at least)
 
-### Device description
+== Sleep Phaser description
 A switch with three positions is located at the bottom of the Phaser.
 
 |===
@@ -51,11 +50,12 @@ The light can also be controlled via Sleep app – bottom menu during <</sleep/s
 .Sleep phaser
 image:sleepphaser2.png[]]
 
-### First start
+== First start
 . Connect your Sleep Phaser to the power supply.
 . Make sure that _Bluetooth_ and _Location service_ (GPS) are turned on.
 . In Sleep as Android, go to _Settings -> Services -> Smartlight -> Sleep Phaser_ and tap _Sleep Phaser (disconnected)_ (you can also just search for “sleep phaser”). The app will connect to the nearest Sleep Phaser. This will also unlock your Sleep as Android if you have the trial version.
 . After a successful connection, you can activate one or more Sleep Phaser functions:
+
 [horizontal]
   Smartlight:: Enables sunrise alarm. When this option is enabled, the general smart light options (Pee-light, Lucid dreaming, Anti-Snoring) start to apply to Sleep Phaser.
   Sleep tracking:: Enables tracking movement and breathing with Sleep Phaser
@@ -72,7 +72,7 @@ NOTE: The Phaser turns off the light after 30 minutes.
 // - Google Fit & Samsung Health Integration
 // - Automation with Tasker and IFTTT
 
-### Sleep tracking
+== Sleep tracking
 
 <</sleep/sleep_tracking#,Sleep tracking>> with Sleep Phaser can be started either manually or automatically.
 
@@ -81,14 +81,14 @@ Manual start:: In Sleep as Android app, tap the moon button. The app will connec
 Automatic start:: 	Whenever you connect your phone to a charger, Sleep checks whether you are in Sleep Phaser’s Bluetooth range. If you are (and “Start automatically” is enabled), sleep tracking will show up in a pause mode.
 Once you switch off the lamp, sleep tracking will unpause and will start monitoring your sleep.
 
-#### Positioning the device
+=== Positioning the device
 The Phaser scans a 130-degree wide area.
 
 In case there are more people in the bed, to prevent interference, we recommend positioning the Phaser as seen below. In this way, you get a maximum signal from yourself, while the signal from your partner is mostly blocked. The PIR sensor should point approximately to your shoulders. If you are able to see the sensor from your bed, then the sensor is able to “see” you.
 
 image:sleepphaser_position.png[width=50%]
 
-#### Tracking with two Sleep Phasers (Pair tracking)
+=== Tracking with two Sleep Phasers (Pair tracking)
 To track two people in one bed with two Phasers (Dual Phasers):
 
 . enable _Settings -> Sleep tracking -> <</sleep/pair_tracking#,Pair tracking>>_ on both phones
@@ -100,11 +100,11 @@ image:sleepphaser_position_pair.png[width=50%]
 
 Pair tracking cross-checks signals from both Phasers against each other and cleans them out so any signal from your partner is removed from your data.
 
-### Controlling the light directly
+=== Controlling the light directly
 You can control the light from the https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol[Sleep Phaser Remote Control].
 This app can also alter a few internal settings of the Phaser and do firmware upgrades.
 
-### Advice and warnings
+== Advice and warnings
 .	To ensure proper function, keep the device clean
 .	Be careful when cleaning the device, don’t let moisture get to the diodes. You alone are responsible if you destroy the device cleaning it.
 .	Protect the device from fire, water, and extreme temperatures.
@@ -115,7 +115,7 @@ This app can also alter a few internal settings of the Phaser and do firmware up
 .	Keep the device out of the reach of children.
 .	Don’t keep the devices connected if you are not using it.
 
-### Troubleshooting
+== Troubleshooting
 Things to check before any troubleshooting:
 
 . Make sure to install the latest version of Sleep as Android

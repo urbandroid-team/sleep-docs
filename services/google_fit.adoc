@@ -5,10 +5,30 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
-:toc:
+:toc: macro
 
-== What it does
 Allows you to synchronize data between Sleep as Android and Google Fit.
+
+_Settings -> Services -> Google Fit_
+
+== Features
+
+* Upload your sleep data into Google Fit
+* Download 3rd party sleep data from Google Fit into Sleep as Android
+* Heart rate import and export
+* Automatic synchronization of the *#sport* tag based on your fitness activity recorded in Google Fit
+
+NOTE: When enabling the integration, you are asked whether you'd like to synchronize your past records. This is currently limited up to 3 years. All new sleep records are then synchronized with Fit.
+
+== Sync methods
+
+[horizntal]
+Normal sync::
+Saves data for the past 2 weeks. Happens everytime sleep tracking ends, or when you create a sleep record manually. Also everytime you start the app, if a sync did not happen in the past 24 hours.
+Full sync::
+Saves data for the past 3 years. Can be triggered from _Settings -> Services -> Google Fit_ (you have to toggle off and on) -> Upload_ (button in the lower right corner)
+
+NOTE: Heart rate data are saved only for the past 7 days in both normal and full sync (they are computationally intensive).
 
 [cols="^,^"]
 |===
@@ -22,14 +42,11 @@ image::google_fit_day.png[]
 
 |===
 
-. Upload your sleep data into Google Fit
-. Download 3rd party sleep data from Google Fit into Sleep as Android
-. Heart rate import and export
-. Automatic synchronization of the *#sport* tag based on your fitness activity recorded in Google Fit
 
-+
+
+
 NOTE: The *#sport* tag is added when at least 80% of the goal (Steps or Heart points) is achieved during the day.
-+
+
 
 
 [cols="^,^"]
@@ -44,20 +61,7 @@ image::google_fit2.png[]
 
 |===
 
-== Where to find it
-*Sleep as Android > Settings > Services > Google Fit*
 
-When enabling the integration, you are asked whether you'd like to synchronize your past records. This is currently limited up to 3 years. All new sleep records are then synchronized with Fit.
-
-== Guide
-
-=== When does sync occur?
-There are two sync methods:
-
-- normal sync: saves data for the past 2 weeks. Happens everytime sleep tracking ends, or when you create a sleep record manually. Also everytime you start the app, if a sync did not happen in the past 24 hours.
-- full sync: saves data for the past 3 years. Can be triggered from *Settings > Services > Google Fit* (you have to toggle off and on) > Upload (button in the lower right corner)
-
-NOTE: Heart rate data are saved only for the past 7 days in both normal and full sync (they are computationally intensive).
 
 //## Troubleshooting
 // TODO: include NOTE: Data sync between two devices using Google Fit is unsupported.

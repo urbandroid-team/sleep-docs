@@ -4,40 +4,34 @@ title: Google Calendar
 nav_order: 2
 parent: /services/0parent.html
 ---
-:toc:
+:toc: macro
 
-## What it does
 *Connects your alarms and sleep data to Google Calendar*
 
-## Where to find it
 _Settings -> Services -> Google Calendar_
 
 Google Calendar needs to be installed on your device, and Android version has to be at least 4.0.
 
-## Options
-[horizontal]
-<<disable-repeating-alarms-on-holidays>>:: Allows you to skip repeating alarms on public holiday by confirming the notification.
-<<reschedule-alarms>>:: Whenever your calendar event collides with your next active alarm, Sleep as Android will move that alarm to an earlier time.
-<<add-sleep-data-to-calendar>>:: If enabled, your sleep records will be synced into your Google Calendar.
+---
+toc::[]
+:toclevels: 2
 
-## Guide
 
-=== Disable repeating alarms on holidays
-*Allows skipping alarms from ringing on public holidays.*
-
+== Disable repeating alarms on holiday
+Allows you to skip repeating alarms on public holiday by confirming the notification.
 Whenever the app finds a public holiday in the calendar, you get a notification with an option to skip the alarm.
 
 [NOTE]
 ====
 Most users should have already subscribed public holidays to their calendar. If this is not your case, do this:
 
- - click the little downward arrow under “other calendars” on the left side of the default calendar view (beside “add”).
- - click on “browse interesting calendars” and you should be able to see and subscribe to _Public holidays_.
+- click the little downward arrow under “other calendars” on the left side of the default calendar view (beside “add”).
+- click on “browse interesting calendars” and you should be able to see and subscribe to _Public holidays_.
 
 See also https://support.google.com/calendar/answer/6084659?co=GENIE.Platform%3DDesktop&hl=en&oco=0[Google Calendar support].
 ====
 
-=== Reschedule alarms
+== Reschedule alarms
 Whenever your calendar event collides with your next active alarm, Sleep as Android will move that alarm to an earlier time.
 
 How long before the event will the moved alarm ring? You can set that using the slider below this option.
@@ -46,20 +40,20 @@ If you want a specific calendar event to reschedule your alarm by a specific tim
 
 Examples:
 
-- #alarm-30  (advances the alarm for 30 minutes)
-- #alarm-30m (advances the alarm for 30 minutes)
-- #alarm+20 (postpones the alarm for 20 minutes)
-- #alarm+20h (postpones the alarm for 20 hours)
-- #alarm-1h (advances the alarm for 1 hour)
-- #alarm+2h30m (postpones the alarm for 2 hours 30 min)
-- #alarm+2h30 (postpones the alarm for 2 hours 30 min)
-- #alarm+2:15 (postpones the alarm for 2 hours 15 min)
+[horizontal]
+#alarm-30:: advances the alarm for 30 minutes
+#alarm-30m:: advances the alarm for 30 minutes
+#alarm+20:: postpones the alarm for 20 minutes
+#alarm+20h:: postpones the alarm for 20 hours
+#alarm-1h:: advances the alarm for 1 hour
+#alarm+2h30m:: postpones the alarm for 2 hours 30 min
+#alarm+2h30:: postpones the alarm for 2 hours 30 min
+#alarm+2:15:: postpones the alarm for 2 hours 15 min
 
 You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert that.
 
-=== Add sleep data to calendar
-If enabled, the app will create a "Sleep as Android" calendar and your sleep records will be synced into it.
-
+== Add Sleep data to calendar
+If enabled, your sleep records will be synced into your Google Calendar.
 On first sync, your current sleep records up to 1 year old will be loaded into the calendar.
 
 .Google Calendar entry

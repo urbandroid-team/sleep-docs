@@ -6,15 +6,32 @@ parent: /devices/0parent.html
 tags:
 - sleep mask
 ---
-:toc:
+:toc: macro
 
-## What it does
 *Sleep mask makes your sleep light stimulated. It can help you fall sleep faster, wake up better and help you with snoring or lucid dreaming.*
 
 Dedicated to be used with Sleep as Android and https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid].
 
 - http://sleepmask.urbandroid.org/[Learn more] on a dedicated website.
 - https://happyelectronics.eu/[Get it] from Happy Electronics.
+
+
+* Sunrise alarm: from low red to full yellow, no more annoying alarm sounds
+* Lucid dreaming: learn to control and remember your dreams
+* Anti-snoring
+* Comfortable to wear all night
+* Light stimulated lullabies for faster fall asleep (CAUTION: Wired version only, Wireless version only supports lullabies through https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid app] with Sleep program)
+* More light stimulation programs with https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid app]
+
+
+_Settings -> Services -> Smartlight -> Use Sleep Mask_ (both types)
+_Settings -> Services -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
+
+---
+toc::[]
+:toclevels: 2
+
+== Sleep masks types
 
 [[figure-mask-1]]
 .Cable type Sleep mask
@@ -24,33 +41,23 @@ image::mask1.jpg[]
 .Bluetooth Sleep mask
 image::mask2.jpg[]
 
-* Sunrise alarm: from low red to full yellow, no more annoying alarm sounds
-* Lucid dreaming: learn to control and remember your dreams
-* Anti-snoring
-* Comfortable to wear all night
-* Light stimulated lullabies for faster fall asleep (CAUTION: Wired version only, Wireless version only supports lullabies through https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid app] with Sleep program)
-* More light stimulation programs with https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid app]
+video::a9tYTJOC3Ss[youtube, align=center, width=400, height=280]
 
-## Where to find it
-_Settings -> Services -> Smartlight -> Use Sleep Mask_ (both types)
-_Settings -> Services -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
 
-## Guide
+=== How to configure cable type Sleep Mask
 
-=== Cable type Sleep Mask
-
-. In Sleep as Android, go to _Settings -> Smartlight -> Enable_ (at the very top) to enable smartlight functions in the app.
+. In Sleep as Android, go to _Settings -> Services -> Smartlight -> Enable_ (at the very top) to enable smartlight functions in the app.
 . Connect the small black box to the black connector via USB.
 . Connect the cable to the micro USB port of your Android device. A diode lights on.
-. In the Sleep as Android  _Settings -> Smartlight_ ,scroll down to the Sleep Mask section, tick the *Use SleepMask*.
+. In the Sleep as Android  _Settings -> Services -> Smartlight_ ,scroll down to the Sleep Mask section, tick the *Use SleepMask*.
 
 NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light#guide, sunrise alarm>>.
 
-=== Bluetooth type Sleep Mask
+=== How to configure Bluetooth type Sleep Mask
 
 . Power on the Sleep Mask using an ON/OFF switch.
 . On your mobile device, make sure that Bluetooth is enabled and the Sleep app has Location permissiom (required for BT scanning).
-. In Sleep as Android, go to _Settings -> Smartlight -> Enable_ (at the very top) to enable smartlight functions in the app.
+. In Sleep as Android, go to _Settings -> Services -> Smartlight -> Enable_ (at the very top) to enable smartlight functions in the app.
 . Then, scroll down to the Sleep Mask section, tick the *Use SleepMask*.
 . Tap on *Connect Sleep Mask BlueTooth*.
 . Wait till the Sleep Mask is listed in the dialogue and select it.
@@ -59,4 +66,3 @@ NOTE: All smartlight features are enabled automatically now - including anti-sno
 NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>.
 
 NOTE: The app cannot connect BT mask and Sleep Phaser at the same time.
-
