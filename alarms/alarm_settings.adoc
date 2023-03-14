@@ -176,7 +176,7 @@ toc::[]
 //== Postpone next alarm
 //. Open alarm -> and with the (+) and (-) buttons in the Next alarm section, change the time of the next alarm.
 //. Confirm the alarm time change.
-/+
+//+
 //NOTE: Works only for repeating alarms. The change will apply only once, to the first next alarm.
 
 
@@ -242,9 +242,9 @@ toc::[]
 //* The app will show you the date of the next scheduled alarm bellow the alarm time, and on the alarm card.
 //image:alarm_date.png[width=70%, align=center]
 
-Alarms can be setup in two places, because you need one default configuration controlling all alarms, and still an option for unique behavior of special alarms.
+Alarms can be set up in two places, because you need one default configuration that controls all alarms, and still have an option to create a special alarm with unique behavior.
 
-. *Default alarm settings* - allow you to modify basic behaviour for all your alarms. Default settings are also applied to all new alarms.
+. *Default alarm settings* - allow you to modify basic behaviour of all your alarms. Default settings are also applied to all new alarms.
 . *Alarm specific "per-alarm" settings* - change behaviour of a particular alarm; those changes won't affect other alarms or default settings. In the following chapter, options only available in the per-alarm settings are labeled.
 
 == Alarm name (per-alarm only)

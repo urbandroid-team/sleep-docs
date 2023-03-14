@@ -7,10 +7,15 @@ tags:
 - graph
 
 ---
-:toc:
+:toc: macro
 
-== What it is
+
 *Sleep graph is the <</sleep/sleep_tracking_theory#sleep-outcome,main outcome of sleep tracking>> - it shows analysed data from all the <</sleep/sensors#,sensors>> that were used during the night.*
+
+---
+toc::[]
+:toclevels: 1
+
 
 == Sleep graph screen
 The graph screen shows up to three graphs:
@@ -149,7 +154,23 @@ icon:ic_action_dream[] Lucid dreaming
 
 |===
 
-== Guide
+== Morning rating screen
+
+The first screen you see in the morning is *Morning briefing* and it offers you important information at a glance.
+
+NOTE: If you prefer seeing the full graph, change the morning screen in _Settings -> Personalize -> Morning screen_.
+
+[horizontal]
+Sleep score:: see details in <</sleep/sleepscore,sleep score chapter>>.
+Graph overview:: Simplified graph, tap to expand it to the full graph.
+Noise card:: Simplified noise level graph.
+Sensor card:: Simplified sensor data graph.
+Weather card:: MetNorway or OpenWeather data , can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
+Rating:: Rate you sleep with starts to add important feedback for stats.
+
+
+
+== Guides
 
 === Editing graphs
 For a guide on how to edit a graph, please see <</sleep/graph_edit#,Graph editing>>.

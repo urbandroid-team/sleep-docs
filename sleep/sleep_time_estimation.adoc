@@ -4,10 +4,7 @@ title: Sleep time estimation
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc:
-
-
-== What it does
+:toc: macro
 
 If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
 
@@ -15,12 +12,9 @@ The next day, a pop-up notification with estimated timings appears.
 
 image::suggestion.png[]
 
-== Where to find it
 _Settings -> Sleep tracking -> Automatic sleep tracking -> Sleep time estimate_
 
-== Options
 [horizontal]
-
 Disabled:: No data from recognition engine are collected.
 Manual only:: Sleep time estimation is saved only after you confirm it.
 Save automatically:: Sleep time estimation is saved automatically when a tracking is missing the previous night.

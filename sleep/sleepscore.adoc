@@ -4,18 +4,14 @@ title: Sleep score
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Sleep score is a complete summary of your sleep health.*
 
 Sleep score draws a lot of inspiration from the https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index[Pittsburgh Sleep Quality Index].
 
-== Where to find it
-- on the Dashboard, one of the cards is a Sleep Score card.
-- in _Left ☰ menu -> Trend -> Trend tab -> Sleep score chart_
-
-== How it looks like
+_Dashboard - Sleep Score card_
+- _Left ☰ menu -> Trend -> Trend tab -> Sleep score chart_
 
 [[awake-detection-settings]]
 .Your current sleep score. You get one point for each dimension that is in healthy range.
@@ -25,8 +21,12 @@ image::sleepscore_annotated.png[]
 .This is how Sleep score looks in <</sleep/charts#sleep-score, Charts>>
 image::sleepscore.png[]
 
+---
+toc::[]
+:toclevels: 1
 
-=== Sleep score charts colors
+
+== Sleep score charts colors
 
 We use [color-green]#green-ish# for healthy range and [color-red]#red-ish# for unfavourable range. The exact color may depend on the color palette.
 
@@ -34,7 +34,7 @@ Values above the average may mean some error of measurement – for example the 
 
 In long-term perspective, diversion from the average may indicate some issue. The Advice card on the main Dashboard <</sleep/advice#advicecard, from the Advice section>> will warn you, if the app detects any unfavourable trend in your data.
 
-=== Sleep score dimensions
+== Sleep score dimensions
 
 There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range:
 

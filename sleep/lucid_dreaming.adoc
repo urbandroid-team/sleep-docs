@@ -4,9 +4,8 @@ title: Lucid dreaming
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 .Lucid dreaming alarm cues will play once the app detects you are dreaming (in REM phase).
 
 Even we cannot use an EEG (Electroencephalogram), we still get a very good picture of your REM phases from your activity with a high match rate.
@@ -14,25 +13,40 @@ You can read about how we do it in link:https://sleep.urbandroid.org/how-do-we-m
 
 Lucid dreaming is a technique which allows to become aware of the fact that you are dreaming in order to gain control over your dreams.
 There are various techniques how to help your mind realize you are dreaming and most of them require some training in advance. The technique we use in Sleep as Android uses audible cues played (ideally in your headphones) during sleep. We play the cues usually towards the end of the deep sleep phases where we expect the most memorable dreaming.  Hearing the familiar audible cues should help you realize that you are dreaming. Please refer to other resources online on how to bed train to induce lucid dreaming and how to train yourself on the audible cues.
-Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments done by this famous physisist.
+Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments done by this famous physicist.
 
-== Where to find it
 _Settings -> Sleep tracking -> Lucid dreaming_
+_Settings -> Services -> Smart light -> Lucid dreaming_
 
-For using light-powered lucid dreaming cues, please use _Settings -> Smart light -> Lucid dreaming_
+---
+toc::[]
+:toclevels: 1
 
-== Options
-[horizontal]
-Enabled:: Enabled or disabled this option completely including smart light/.
-Sensitivity:: Changes the sensitivity of lucid cues triggering based on the progress of the sleep phases before.
-Later:: Allows you to postpone the first occurrence of lucid cue when the REM is detected.
+= Options
 
-.Sound
-[horizontal]
-Preview:: Allows you to try the lucid dreaming cue in advance.
-Ringtone:: Select your sound. A woman voice "You are dreaming" is default.
-Vibrate:: Enables vibrations upon lucid dreaming cues.
-Volume:: Selects volume for sound cue.
-Force headphones only:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
-NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings.
-Repeat:: Sets the number of repetitions for audio and vibrations if enabled
+== Sensitivity
+Changes the sensitivity of lucid cues triggering based on the progress of the sleep phases before.
+
+== Later
+Allows you to postpone the first occurrence of lucid cue when the REM is detected.
+
+
+== Preview
+Allows you to try the lucid dreaming cue in advance.
+
+== Ringtone
+Select your sound. A woman voice "You are dreaming" is default.
+
+== Vibrate
+Enables vibrations upon lucid dreaming cues. If a wearable is connected, the cues will vibrate only on the wearable.
+
+== Volume
+Selects volume for sound cue.
+
+== Force headphones only
+Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
+
+NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, and not all phones support this feature.
+
+== Repeat
+Sets the number of repetitions for audio (and vibrations if enabled).

@@ -4,28 +4,19 @@ title: Jet lag prevention
 nav_order: 2
 parent: /sleep/0parent.html
 ---
+:toc: macro
 
-:toc:
-
-## What it does
 *Prevents jet lag with short flashes of light during the night.*
 
 A link:https://med.stanford.edu/news/all-news/2016/02/study-finds-possible-new-jet-lag-treatment[2016 study from Stanford University School of Medicine] found that short flashes of light during sleep can shift your melatonine cycle. This can be used to prevent jet lag.
 
-## Where to find it
 _Settings -> Sleep tracking -> Jet lag prevention_
 
-## Options
 
-[horizontal]
-Enabled:: Enables _Jet lag prevention_. Don't forget to set _Target timezone_.
-Tutorial:: ...
-Target timezone:: Select the timezone to which you'll be traveling. You can choose either by GMT offset or by city.
-
-## Guide
+== Guide
 Before traveling abroad, enable *Jet lag prevention* and set *Target timezone*.
 
-Each hour of timezone difference requires a day of adjustment. If you travel e.g. 4 timezones away, start 4 days before the departure.
+NOTE: Each hour of timezone difference requires a day of adjustment. If you travel e.g. 4 timezones away, start 4 days before the departure.
 
 Every night, during sleep tracking, the app will be intermittently flashing. We use 2ms flashes every 15 seconds.
 

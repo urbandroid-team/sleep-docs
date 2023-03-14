@@ -4,13 +4,17 @@ title: Tabs home screen
 nav_order: 5
 parent: /ux/0parent.html
 ---
-:toc:
+:toc: macro
 
 *Tabs home screen* shows different screens in Tabs - easily accessible and editable.
 
-The tabs available can be edited, so you can hide the ones you don't use. The tabs showing will be hidden from the <</ux/left_menu#,Left ☰ menu>>.
+The tabs available can be edited, so you can hide the ones you don't use. The tabs showing will be hidden from the <</ux/left_menu#,Left ☰ menu>>. Alarms tab is always visible.
 
 NOTE: The app remembers where you left the app the last time - and this tab will be shown as the first screen the next time you open the app again.
+
+_Left_ ☰ _menu -> Home screen section -> Tabs_
+_Settings -> Personalize -> Home screen_
+
 
 [[figure-tabs]]
 .The Tabs home screen editing.
@@ -18,23 +22,6 @@ image::tabs.gif[]
 
 Other home screen types are <</ux/hs_dashboard#,Dashboard>> and <</ux/hs_alarms_only#,Alarms only mode>>.
 
-== Where to find it
-_Left_ ☰ _menu -> Home screen section -> Tabs_
-_Settings -> Personalize -> Home screen_
-
-== Options
-
-[horizontal]
-Alarm tab:: Shows you the <<alarm_list,list of all alarms>>. Always visible.
-Dashboard tab:: Lists all cards from Dashboard except the Alarm card
-Stats tab:: Shows <</sleep/charts#,statistics charts>>.
-Graphs tab:: Shows list of <</sleep/sleep_graph#,Graphs>>.
-Noise tab::  Shows the list of <</sleep/sleep_noise_recording#,Noise recording>>.
 
 
-== Guide
 
-[horizontal]
-How to enable / disable tabs::
-. Open Left ☰ menu -> Tabs (in home screen section) -> tap on the small pencil icon
-. Tick the tabs you wish to have visible, and untick the ones you wish to hide.

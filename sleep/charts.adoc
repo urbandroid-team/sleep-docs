@@ -4,26 +4,25 @@ title: Charts / Trends
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc:
-:toclevels: 4
+:toc: macro
 
-== What it does
 *Charts enable you to study your sleep from a long-term perspective.*
 
 Charts are here to help you find patterns in your sleep and enable you to decide for evidence-based changes.
 
-== Where to find it
-_Left ☰ menu -> Trends_
+_Left ☰ menu -> Charts_
 
-== Charts explanation
+[horizontal]
+Date range:: Each chart is computed from data within a certain date range. This range is controlled by the first dropdown menu in the top bar.
+Tags:: All charts can be configured to be only computed from sleep records with a certain tag. You can select the tag in the second dropdown menu in the top bar.
 
-*Date range*: Each chart is computed from data within a certain date range. This range is controlled by the first dropdown menu in the top bar.
+---
+toc::[]
+:toclevels: 2
 
-*Tags*: All charts can be configured to be only computed from sleep records with a certain tag. You can select the tag in the second dropdown menu in the top bar.
+== Trend
 
-=== Trend
-
-==== Sleep score
+=== Sleep score
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_sleepscore.png[]
@@ -36,7 +35,7 @@ You can fill each of the sleep score section with up to 5 points. The more point
 The goal is of course to fill up that chart completely!
 |===
 
-==== Deficit
+=== Deficit
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_deficit.png[]
@@ -50,7 +49,7 @@ a|*Deficit* chart is useful for tracking your sleep deficit.
 You should strive to have zero sleep deficit, so ideally all of the lines should aim to be around 0 hours all the time.
 |===
 
-==== Duration
+=== Duration
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_duration.png[]
@@ -69,7 +68,7 @@ The point at 4 May is the average of sleep duration from 5 April through 4 May.
 The chart should not have many extremes (regular, periodic chart is normal).
 |===
 
-==== Irregularity
+=== Irregularity
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_irregularity.png[]
@@ -82,7 +81,7 @@ a|*Irregularity* chart shows you how much is your sleep irregular. The higher th
 While some irregularity is normal, you should strive to keep it to minimum - keep the line at low values.
 |===
 
-==== Deep sleep %
+=== Deep sleep %
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_deepsleep_percentage.png[]
@@ -98,7 +97,7 @@ Deep sleep percentage means "a portion of your sleep duration when you've been i
 The average should be kept over 30%.
 |===
 
-==== Deep sleep
+=== Deep sleep
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_deepsleep.png[]
@@ -114,7 +113,7 @@ This graph shows how many hours of deep sleep have you been getting recently.
 The graph should not have many spikes - ideally should be regular, flat line, above 2 hours.
 |===
 
-==== Awake
+=== Awake
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_awake.png[]
@@ -128,7 +127,7 @@ a|*Awake* chart shows you how much you've been waking up during your sleep.
 In an ideal world, you should not wake up at all during sleep. This means a flat line at the bottom.
 |===
 
-==== Efficiency
+=== Efficiency
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_efficiency.png[]
@@ -142,7 +141,7 @@ a|*Efficiency* chart shows the ratio of actually sleeping when you're in bed (sl
 Ideally a flat line at 100%.
 |===
 
-==== Snoring %
+=== Snoring %
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_snoring_percentage.png[]
@@ -156,7 +155,7 @@ a|*Snoring percentage* chart shows how much of the time you sleep did you spend 
 Ideally a flat line at 0%.
 |===
 
-==== Snoring
+=== Snoring
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_snoring.png[]
@@ -170,7 +169,7 @@ a|*Snoring* chart shows how much time did you spend snoring.
 Ideally a flat line at 0 minutes.
 |===
 
-==== Graphs
+=== Graphs
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_graphs.png[]
@@ -181,7 +180,7 @@ a|*Graphs*, or "sleep bars", show the intensity of movement during sleep. Each b
 As the sleep bars are just another view at the actigraph, they should ideally follow the same rules as the actigraph: they should show regular sleep cycles that get shorter towards the end of the sleep.
 |===
 
-==== Fall asleep hour
+=== Fall asleep hour
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_fall_asleep_hour.png[]
@@ -195,7 +194,7 @@ a|*Fall asleep hour* chart shows when you've been going to bed.
 Ideally a flat line with no spikes.
 |===
 
-==== Smart wakeup
+=== Smart wakeup
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_smart_wakeup.png[]
@@ -209,7 +208,7 @@ a|*Smart wakeup* shows how many minutes before the set alarm did smart wake up w
 It should be consistently between zero and your set smart period. If it's at one of the extremes, you should <</alarms/smart_wake_up#sensitivity,adjust the smart wakeup sensitivity>>.
 |===
 
-==== Snooze
+=== Snooze
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_snooze.png[]
@@ -223,7 +222,7 @@ a|*Snooze* chart shows how many minutes you've been snoozing your alarm.
 There are no hard and fast rules on snoozing, but it sure is a sign of a strong willpower to keep it at zero!
 |===
 
-==== HRV
+=== HRV
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_hrv.png[]
@@ -240,7 +239,7 @@ Generally, the higher the better, but ideal HRV is highly individual - your age,
 |===
 
 
-==== HRV Gain
+=== HRV Gain
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_hrv_gain.png[]
@@ -255,7 +254,7 @@ It should be consistently in the purple positive spectrum.
 |===
 
 
-==== HRV Before wake up
+=== HRV Before wake up
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_hrv_before_wake.png[]
@@ -270,7 +269,7 @@ Like HRV, HRV before wake up is highly individual measure, higher numbers are mo
 |===
 
 
-==== Respiratory disturbances
+=== Respiratory disturbances
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_respiratory_disturbance.png[]
@@ -286,7 +285,7 @@ Ideally, there are no respiratory disturbance during you sleep, so a flat line a
 
 
 
-=== Tags
+== Tags
 This section shows you characteristics of all sleeps that have a certain tag. You can for example find out whether your snoring is higher on sleeps that have an #alcohol tag, or whether rating is higher on sleeps with #sport tag.
 
 Each chart also includes the average value of all your sleeps for reference.
@@ -295,7 +294,7 @@ WARNING: This section shows only sleeps that have _at least one tag_.
 
 NOTE: You can further filter the sleeps by another tag in the top menu!
 
-==== Duration
+=== Duration
 [cols="1,2"]
 |===
 a|image:charts/tags/duration.png[]
@@ -303,7 +302,7 @@ a|image:charts/tags/duration.png[]
 
 |===
 
-==== Deep sleep %
+=== Deep sleep %
 [cols="1,2"]
 |===
 a|image:charts/tags/deepsleep_percentage.png[]
@@ -312,33 +311,33 @@ a|image:charts/tags/deepsleep_percentage.png[]
 |===
 
 
-==== Rating
+=== Rating
 [cols="1,2"]
 |===
 a|image:charts/tags/rating.png[]
 |Shows average rating of sleeps with a certain tag.
 |===
 
-==== Snoring
+=== Snoring
 //[cols="1,2"]
 |===
 //a|image:charts/tags/snoring.png[]
 |Shows average snoring durations (in minutes) of sleeps with a certain tag.
 |===
 
-==== Awake
+=== Awake
 [cols="1,2"]
 |===
 a|image:charts/tags/awake.png[]
 |Shows average awake durations (in minutes) of sleeps with a certain tag.
 |===
 
-=== Chronotype
+== Chronotype
 Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark. <</sleep/chrono_jetlag#chronotype,Read more on Chronotype>>.
 
 NOTE: Chronotype statistics need least a month of sleep data.
 
-==== Mid-sleep hour
+=== Mid-sleep hour
 [cols="1,2"]
 |===
 a|image:charts/chronotype/midsleephour.png[]
@@ -347,14 +346,14 @@ a|Shows where your all-time average mid-sleep hour stands in comparison to other
 If your mid-sleep hour is more to the right, you are a night owl. If it's more to the left, you're a morning lark.
 |===
 
-==== Chronotype trend
+=== Chronotype trend
 [cols="1,2"]
 |===
 a|image:charts/chronotype/chronotype_trend.png[]
 a|Shows the evolution of your chronotype. If you switched chronotypes at some point, there might've been some specific event like job change etc.
 |===
 
-==== Social jetlag clusters
+=== Social jetlag clusters
 [cols="1,2"]
 |===
 a|image:charts/chronotype/jetlag_clusters.png[]
@@ -370,7 +369,7 @@ Most importantly, the sleeps are divided into two clusters - *Working days* and 
 Ideally, the two clusters should be very close together, indicating that your social jet lag is very low.
 |===
 
-==== Social jetlag
+=== Social jetlag
 [cols="1,2"]
 |===
 a|image:charts/chronotype/jetlag.png[]
@@ -381,9 +380,9 @@ a|Shows you mid-sleep hour on free days and workdays, and your social jet lag.
 Ideally, the two leftmost bars should be very similar in height, so your social jet lag would be very low.
 |===
 
-=== Advice
+== Advice
 
-==== Fall asleep hour regression model
+=== Fall asleep hour regression model
 [cols="1,2"]
 |===
 a|image:charts/advice/fall_asleep_regression.png[]
@@ -403,7 +402,7 @@ You can see two sets of points, and up to two curves.
 Take a look at the curve (either blue or orange) and focus on the maximum point or points. At what position (what fall asleep hour) it is? You should go to bed at this hour in order to maximize your deep sleep % (in case of blue line) or rating (in case of orange line).
 |===
 
-==== Duration regression model
+=== Duration regression model
 [cols="1,2"]
 |===
 a|image:charts/advice/duration_regression.png[]
@@ -423,7 +422,7 @@ You can see two sets of points, and up to two curves.
 Take a look at the curve (either blue or orange) and focus on the maximum point or points. At what position (what sleep duration) it is? You should try to sleep for that long in order to maximize your deep sleep % (in case of blue line) or rating (in case of orange line).
 |===
 
-==== Fall asleep hour vs. deep sleep % / rating
+=== Fall asleep hour vs. deep sleep % / rating
 //[cols="1,2"]
 |===
 //a|image:charts/advice/fall_asleep_vs_deep.png[]

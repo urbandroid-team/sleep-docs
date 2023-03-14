@@ -4,17 +4,17 @@ title: Editing graphs
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.*
 
-== Where to find it
-On any sleep graph, tap the pencil icon:ic_pencil[] icon.
+__On any sleep graph, tap __the pencil icon:ic_pencil[] icon on graphs_
 
-== Guide
+---
+toc::[]
+:toclevels: 1
 
-=== Rating sleep
+== Rating sleep
 
 [cols="2,1"]
 |===
@@ -44,7 +44,7 @@ a|image:edit_3.png[]
 NOTE: If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the <</sleep/statistics#, Stats>> screen and use icon:plus[] _Add sleep_
 
 [[delete_awake]]
-=== Deleting awakes
+== Deleting awakes
 
 [cols="1,2"]
 |===
@@ -68,13 +68,8 @@ a|image:delete_awake.gif[]
 
 NOTE: Deleting awakes won't work for paused tracking (there is no sensoric data from that period) and for the awakes manually entered by the user.
 
-=== Editing comments and tags
+== Editing comments and tags
 
-[cols="1,2"]
-|===
-a|Open the graph editor by tapping on the icon:ic_pencil[] pencil button.
-a|image:edit_1.png[]
-|===
 
 [[tags]]
 [cols="1,2"]

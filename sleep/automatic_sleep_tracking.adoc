@@ -8,32 +8,39 @@ tags:
 - automagic
 
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Tracks sleep automatically, without the need to manually start it.*
 
 On smartphones, sleep tracking was traditionally a process initiated by a button tap, or by a hard timed trigger.
 Sleep as Android is different.
 The app offers smart ways to track your sleep automatically similarly to what wearables and smart bands do — using your phone’s activity recognition system.
 
-Sleep app also have a feature for tracking sleep times - Sleep time estimation. If you forget to start sleep tracking, the app estimates the most probable times you were sleeping form phone activity recognition engine and Google Sleep aPI, and will ask you next day. You can read more about <</sleep/sleep_time_estimation#,sleep time estimation here>>.
-
-== Where to find it
+Sleep app also have a feature for tracking sleep times - *Sleep time estimation*. If you forget to start sleep tracking, the app estimates the most probable times you were sleeping form phone activity recognition engine and Google Sleep aPI, and will ask you next day. You can read more about <</sleep/sleep_time_estimation#,sleep time estimation here>>.
 
 _Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking -> After fall asleep_
 
 WARNING: If you do not see this option your phone probably does not support activity tracking in background. This is based on the phone hardware, more specifically the SoC's sensor batching queue size.
 
-== Options
+---
+toc::[]
+:toclevels: 1
 
-[horizontal]
-Manual only:: Sleep as Android will never start sleep tracking without you pressing the _Start sleep tracking_ button with the moon icon.
-After fall asleep:: This is the *most advanced automatic option* where all the sophistication goes in. It uses input from your phone's activity recognition engine and uses your common sleep habits for different days of week to find the sleep times for you.
-Bedtime:: This is a very simple automatic option which starts sleep tracking at the start of your bedtime. See how is the bedtime determined <</alarms/bedtime_notification#,here>>. This is useful only if you have a very regular sleep schedule.
-Smart period:: Again a simple automation which starts sleep tracking some time before the smart period. The aim of this option is to have a function <</alarms/smart_wake_up#,Smart wake-up>> with minimal battery use. Using this option will provide you with incomplete sleep stats.
+= Options
 
-== How it works
+== Manual only
+Sleep as Android will never start sleep tracking without you pressing the _Start sleep tracking_ button with the moon icon, from the wearable, or with a tracking widget.
+
+== Bedtime
+This is a very simple automatic option which starts sleep tracking at the start of your bedtime. See how is the bedtime determined <</alarms/bedtime_notification#,here>>. This is useful only if you have a very regular sleep schedule.
+
+== Smart period
+Again a simple automation which starts sleep tracking some time before the smart period. The aim of this option is to have a function <</alarms/smart_wake_up#,Smart wake-up>> with minimal battery use. Using this option will provide you with incomplete sleep stats.
+
+NOTE: Sleep tracking starts 45 minutes before the smart period, so the sensor has enough time to gather data for calibration.
+
+== After fall asleep
+This is the *most advanced automatic option* where all the sophistication goes in. It uses input from your phone's activity recognition engine and uses your common sleep habits for different days of week to find the sleep times for you.
 
 Automatic start after fall asleep is a breakthrough method invented by Urbandroid which uses Google Activity Transition API or https://developers.google.com/location-context/sleep[Google Sleep API] as a base to detect when you’ve gone to bed to start sleep tracking.
 
@@ -72,4 +79,3 @@ Automatic tracking attempts are stopped quickly (~half a minute) after we recogn
 
 WARNING: When using Sonar automatic sleep tracking (after fall asleep) only starts when the phone is charging. The reason for this is battery consumption which is usually high with sonar.
 
-This way we get a pretty precise figures about your sleep even you did not manually initiated sleep tracking.
