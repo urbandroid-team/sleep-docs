@@ -154,6 +154,7 @@ icon:ic_action_dream[] Lucid dreaming
 
 |===
 
+[[morning_screen]]
 == Morning rating screen
 
 The first screen you see in the morning is *Morning briefing* and it offers you important information at a glance.

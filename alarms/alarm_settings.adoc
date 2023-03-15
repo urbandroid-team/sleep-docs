@@ -299,7 +299,7 @@ You can change the date of the next alarm:
 You have a repeating alarm on We, Th and you set your Next alarm day to Monday next week. Next time the alarm will trigger is Wednesday next week.
 
 
-=== How to changing the time of the next alarm
+=== How to change the time of the next alarm
 You can adjust time of next alarm just for a single execution of the alarm, with the (+) and (-) buttons.
 
 [EXAMPLE]
@@ -435,16 +435,11 @@ Allows to snooze or dismiss the alarm with volume buttons.
 == Long press
 Long press on dismiss button is necessary to dismiss the alarm. This may be useful, if you accidentally dismiss your alarms.
 
-=== Dismiss alarm before alarm time
+=== How to dismiss alarm before alarm time
 
-. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone. On newer phones, you need to expand the notification with the expanding arrow.
-. Dismiss from the notification.
-image:dismiss_not.png[width=50%]
+. You can dismiss the alarm from the <</sleep/how_to_read_sleep_graphs#morning_screen, Morning briefing screen>>.
+. Or you can dismiss from the before alarm notification (appears one hour before alarm) from the notification bar on your phone. On newer phones, you need to expand the notification with the expanding arrow.
 
-[start=1]
-. Tap the dismiss button on the finished graph.
-image:dismiss_graph.png[width=50%]
-+
 NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
 
 
@@ -682,14 +677,14 @@ NOTE: Please, test it before using it, on some devices the alarm output may be s
 
 //Examples:
 
-/- #alarm-30  (advances the alarm for 30 minutes)
-/- #alarm-30m (advances the alarm for 30 minutes)
-/- #alarm+20 (postpones the alarm for 20 minutes)
-/- #alarm+20h (postpones the alarm for 20 hours)
-/- #alarm-1h (advances the alarm for 1 hour)
-/- #alarm+2h30m (postpones the alarm for 2 hours 30 min)
-/- #alarm+2h30 (postpones the alarm for 2 hours 30 min)
-/- #alarm+2:15 (postpones the alarm for 2 hours 15 min)
+//- #alarm-30  (advances the alarm for 30 minutes)
+//- #alarm-30m (advances the alarm for 30 minutes)
+//- #alarm+20 (postpones the alarm for 20 minutes)
+//- #alarm+20h (postpones the alarm for 20 hours)
+//- #alarm-1h (advances the alarm for 1 hour)
+//- #alarm+2h30m (postpones the alarm for 2 hours 30 min)
+//- #alarm+2h30 (postpones the alarm for 2 hours 30 min)
+//- #alarm+2:15 (postpones the alarm for 2 hours 15 min)
 
 //You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert that.
 
