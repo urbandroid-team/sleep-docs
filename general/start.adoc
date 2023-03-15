@@ -21,13 +21,13 @@ The app is collecting data about your movement, your body vital signs (HR, HRV, 
 The movement data from the sensor are evaluated by https://sleep.urbandroid.org/how-do-we-measure-your-dreams/[unique algorithms] to estimate your sleep phases. This method used is called *actigraphy* (you can read more in the <<sleep/sleep_tracking_theory, Sleep tracking theory chapter>>). After each night, you will get a <<sleep/how_to_read_sleep_graph, sleep graph>>, and after the app collects enough data for long-term statistic, you can explore your sleep quality patterns in your <<sleep/statistics, Stats and Trends>>.
 
 
-== Why Sleep Score with several values and not Sleep Quality?
+//== Why Sleep Score with several values and not Sleep Quality?
 
-There isn't a single number which would tell you whether your sleep is good or bad. There isn't a 85% sleep quality figure which some may try to convince you of. Instead, sleep has several parameters and you are trying to keep all those in favourable limits.
-This is what we call the <</sleep/sleepscore,Sleep score>> where we evaluate your duration, regularity, depth of sleep, snoring, heart rate variability or oxygenation (depending on the device you use).
-From a single night you can check if you slept long enough and how much you snored, but the data start to be interesting with more nights tracked where you start seeing trends - am I improving my regularity? Is my sleep deficit getting down? etc..
-If you see you are consistently behind some target for any of your dimensions, you can setup <</sleep/goals,goals>>. For instance you are sleeping just 6:00 on average which is quite bad for an adult, so you can setup a goal to increase your sleep duration to at least 6:30 and the app will guide you gradually to achieve that goal...
-The app will point out some notable trends and also suggest some changes in the <<sleep/advice,Advice section>>.
+//There isn't a single number which would tell you whether your sleep is good or bad. There isn't a 85% sleep quality figure which some may try to convince you of. Instead, sleep has several parameters and you are trying to keep all those in favourable limits.
+//This is what we call the <</sleep/sleepscore,Sleep score>> where we evaluate your duration, regularity, depth of sleep, snoring, heart rate variability or oxygenation (depending on the device you use).
+//From a single night you can check if you slept long enough and how much you snored, but the data start to be interesting with more nights tracked where you start seeing trends - am I improving my regularity? Is my sleep deficit getting down? etc..
+//If you see you are consistently behind some target for any of your dimensions, you can setup <</sleep/goals,goals>>. For instance you are sleeping just 6:00 on average which is quite bad for an adult, so you can setup a goal to increase your sleep duration to at least 6:30 and the app will guide you gradually to achieve that goal...
+//The app will point out some notable trends and also suggest some changes in the <<sleep/advice,Advice section>>.
 
 
 //== Quick video tour in the app

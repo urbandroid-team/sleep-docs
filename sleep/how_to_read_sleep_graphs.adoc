@@ -161,7 +161,7 @@ The first screen you see in the morning is *Morning briefing* and it offers you 
 NOTE: If you prefer seeing the full graph, change the morning screen in _Settings -> Personalize -> Morning screen_.
 
 [horizontal]
-Sleep score:: see details in <</sleep/sleepscore,sleep score chapter>>.
+Sleep score:: see details in <</sleep/sleepscore#,sleep score chapter>>.
 Graph overview:: Simplified graph, tap to expand it to the full graph.
 Noise card:: Simplified noise level graph.
 Sensor card:: Simplified sensor data graph.

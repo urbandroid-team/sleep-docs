@@ -11,32 +11,30 @@ parent: /sleep/0parent.html
 Sleep score draws a lot of inspiration from the https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index[Pittsburgh Sleep Quality Index].
 
 _Dashboard - Sleep Score card_
-- _Left ☰ menu -> Trend -> Trend tab -> Sleep score chart_
+_Left ☰ menu -> Trend -> Trend tab -> Sleep score chart_
 
-[[awake-detection-settings]]
-.Your current sleep score. You get one point for each dimension that is in healthy range.
+.Sleep Score on the card
 image::sleepscore_annotated.png[]
 
 [[figure-sleepscore-chart]]
-.This is how Sleep score looks in <</sleep/charts#sleep-score, Charts>>
+.Sleep score in <</sleep/charts#sleep-score, Charts section>>
 image::sleepscore.png[]
 
+
 ---
-toc::[]
-:toclevels: 1
+//toc::[]
+//:toclevels: 1
+
+NOTE: You can choose between colors matching your theme, or color-coding - each dimension has its own color across the whole app (_Settings > Personalize > Stats > Color palette_).
 
 
-== Sleep score charts colors
-
-We use [color-green]#green-ish# for healthy range and [color-red]#red-ish# for unfavourable range. The exact color may depend on the color palette.
-
-Values above the average may mean some error of measurement – for example the phone was not close enough to the body. Values under average may indicate too much light sleep due to various factors such as stress, alcohol consumption, loud environment etc…
-
-In long-term perspective, diversion from the average may indicate some issue. The Advice card on the main Dashboard <</sleep/advice#advicecard, from the Advice section>> will warn you, if the app detects any unfavourable trend in your data.
+If you see you are consistently behind some target for any of your dimensions, you can setup <</sleep/goals,goals>>. For instance you are sleeping just 6:00 on average which is quite bad for an adult, so you can setup a goal to increase your sleep duration to at least 6:30 and the app will guide you gradually to achieve that goal...
+The app will point out some notable trends and also suggest some changes in the <<sleep/advice,Advice section>>.
 
 == Sleep score dimensions
 
-There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range:
+There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range.
+The app combines all dimensions into one "Sleep Score" for simplification (only new version).
 
 [cols="^,<,<,<,<", options="header"]
 |===

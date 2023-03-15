@@ -7,7 +7,31 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20230119
+== Latest version 20230303
+
+*Sleep score*
+- Score quality percentage calculated from all sleep dimensions
+- Pie chart redesign
+- Sleep score also on graph detail and on morning briefing screen
+- Sleep score color option in _Settings > Personalization > Stats > Sleep Score > Color palette_
+
+
+*Other design changes*
+– Charts redesign: period adaptive axis and chart type
+– Bedtime settings redesign to better explain how it works
+– Navigation to next and previous sleep graph
+– Morning screen settings screen in Settings > Personalization with four option (Morning briefing, tracked graph, dashboard or nothing after tracking)
+– Captcha preview dialog on alarm screen
+
+*Fixes*
+– Fixes in Garmin and Gear Wearable add-ons – updating to latest API level
+– Fix for Polar accel readings after new firmware update
+– Fix in incorrect duration calculation “Sleep day cutoff” different then midnight
+– Fix for weather on morning screen with no location permission
+– Smooth scrolling of alarm name title
+– Fixes in translations
+
+== 20230119
 
 *Alarm screen redesign*
 – Repeat days selection directly on alarm detail screen
