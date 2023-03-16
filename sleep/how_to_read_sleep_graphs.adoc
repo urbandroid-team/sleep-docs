@@ -169,7 +169,7 @@ Sensor card:: Simplified sensor data graph.
 Weather card:: MetNorway or OpenWeather data.
 Can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
 Dismiss:: If you end the tracking before alarm, you can simply dismiss the upcoming alarm.
-Rating:: Rate you sleep with stars to add important feedback for stats.
+Rating:: Rate you sleep with stars to add important feedback for stats, or add <</sleep/tags#, tags>>.
 
 
 
