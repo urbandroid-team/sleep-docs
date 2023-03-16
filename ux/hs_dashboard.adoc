@@ -18,7 +18,7 @@ Are you working on an active Goal? Just pin it to always see your latest progres
 
 [[figure-dashboard]]
 .The whole Dashboard with all cards visible.
-image::dashboard_blue.png[]
+image::dashboard_violet.png[]
 
 Other home screen types are <</ux/hs_alarms_only#,Alarms only>> mode and <</ux/hs_tabs#,Tabs>>.
 

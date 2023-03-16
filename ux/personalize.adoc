@@ -14,17 +14,24 @@ _Settings -> Personalize_
 toc::[]
 :toclevels: 2
 
+== Stats
+
+See <</sleep/statistics#, Statistics chapter>>.
+
+== Privacy
+
+See <</general/privacy#, Privacy chapter>>.
+
 == Home screen
 Chooses the Home screen mode (<</ux/hs_dashboard#,Dashboard>>,  <</ux/hs_tabs#,Tabs>>. or  <</ux/hs_alarms_only#,Alarms only>>).
 
 == Show Tabs
 Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).
 
-[horizontal]
-Dashboard:: Adds the Dashboard as a tab.
-Stats:: Adds SleepScore and stats as a tab.
-Graphs:: Adds a list of sleep tracking graphs.
-Noise:: adds a list of noises as a tab.
+== Morning screen
+
+See <</sleep/how_to_read_sleep_graphs#morning_screen, the chapter on Morning screen>>.
+
 
 == Theme
 You can choose a theme (background color of the app):
@@ -61,22 +68,13 @@ The app uses the system TTS engine. You can change your preferred voice in the _
 == Force English
 Set app language to English, regardless of your system locale.
 
+
 == Temperature
-Choose temperature units for weather:
-[horizontal]
-Default:: Uses the phone's default format
-°C::
-°F::
+Choose temperature units for weather, *Default* option follows your system.
 
 == Start week on
-Choose which day is the first day of a week:
-[horizontal]
-Device default
-The app follows your system locale.
-Sunday
-Monday
-Saturday
-Friday
+Choose which day is the first day of a week, *Device detauls* option follows you system locale.
+
 
 == Time format
 Choose the format of the time in the app:
