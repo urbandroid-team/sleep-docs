@@ -8,8 +8,6 @@ parent: /ux/0parent.html
 
 .You can choose different widgets for your phone's screen, each with different function.
 
-Long press on an empty space on your phone screen -> Widgets -> scroll down until you see Sleep.
-Long press the Sleep as Android icon -> tap icon:widget[] icon -> choose the widget from the list.
 
 ---
 toc::[]
@@ -18,16 +16,23 @@ toc::[]
 = Widgets
 [[figure-widgets]]
 
+Long press on an empty space on your phone screen -> Widgets -> scroll down until you see Sleep.
+Long press the Sleep as Android icon -> tap icon:widget[] icon -> choose the widget from the list.
+
 image::widgets.png[]
 
 == Tracking widget
-Starts a tracking and reminds you when to go to bed with colors.Two hours before the bedtime, shows the countdown. When you reach bedtime, the widget turns red as a warning that you should go to sleep ASAP. Tapping on tracking widgets initiates sleep tracking.
+Starts a tracking and reminds you when to go to bed with colors.Two hours before the bedtime, shows the countdown. When you reach bedtime, the widget turns red as a warning that you should go to sleep ASAP.
+Tapping on tracking widgets initiates sleep tracking.
 
 == Alarm widget
-Shows the time of the next alarm. Its color reflects the day of the week of the next alarm from Monday – Red, to Friday and Weekend – Green, to reflect the usually work week day sentiments :). Clicking on it brings you to the Sleep application.
+Shows the time of the next alarm. Its color reflects the day of the week of the next alarm from Monday – Red, to Friday and Weekend – Green, to reflect the usually work week day sentiments :).
+Clicking on it brings you to the Sleep application.
 
 == Droid widget (icon)
-Changes appearance depending on time, date, day of the week and other factors. Find out all the droid faces! Tapping on it brings you to the Sleep application
+Changes appearance depending on time, date, day of the week and other factors. Find out all the droid faces!
+Size of the widget can be changed (min size 1x2).
+Tapping on it brings you to the Sleep application.
 
 == Hypnogram widget
 Shows your last hypnogram, opens the last graph.

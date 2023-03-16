@@ -9,7 +9,7 @@ tags:
 ---
 :toc: macro
 
-
+[[graph_explain]]
 *Sleep graph is the <</sleep/sleep_tracking_theory#sleep-outcome,main outcome of sleep tracking>> - it shows analysed data from all the <</sleep/sensors#,sensors>> that were used during the night.*
 
 ---
@@ -159,15 +159,18 @@ icon:ic_action_dream[] Lucid dreaming
 
 The first screen you see in the morning is *Morning briefing* and it offers you important information at a glance.
 
-NOTE: If you prefer seeing the full graph, change the morning screen in _Settings -> Personalize -> Morning screen_.
+NOTE: You can customize the screen in _Settings -> Personalize -> Morning screen_.
 
 [horizontal]
-Sleep score:: see details in <</sleep/sleepscore#,sleep score chapter>>.
-Graph overview:: Simplified graph, tap to expand it to the full graph.
+Sleep score:: See details in <</sleep/sleepscore#,sleep score chapter>>.
+Graph overview:: Simplified graph, tap to expand it to the <<graph_explain, full graph>>.
 Noise card:: Simplified noise level graph.
 Sensor card:: Simplified sensor data graph.
-Weather card:: MetNorway or OpenWeather data , can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
-Rating:: Rate you sleep with starts to add important feedback for stats.
+Weather card:: MetNorway or OpenWeather data.
+Can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
+Dismiss:: If you end the tracking before alarm, you can simply dismiss the upcoming alarm.
+Rating:: Rate you sleep with stars to add important feedback for stats.
+
 
 
 
