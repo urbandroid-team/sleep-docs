@@ -159,7 +159,7 @@ icon:ic_action_dream[] Lucid dreaming
 
 The first screen you see in the morning is *Morning briefing* and it offers you important information at a glance.
 
-NOTE: You can customize the screen in _Settings -> Personalize -> Morning screen_.
+NOTE: You can customize the screen in _Settings -> Personalize -> Morning screen_, see details <</ux/personalize#morning_screen_set, here>>.
 
 [horizontal]
 Sleep score:: See details in <</sleep/sleepscore#,sleep score chapter>>.

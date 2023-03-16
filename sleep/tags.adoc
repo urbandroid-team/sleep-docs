@@ -55,6 +55,7 @@ icon:ic_action_menses[]#menses
 |===
 
 
+[[tags_auto]]
 == Automatically added tags
 Some tags are calculated and added to your sleep record automatically. You can turn this feature off in _Settings -> Sleep -> More -> Stats -> Automatic tagging_.
 

@@ -28,10 +28,22 @@ Chooses the Home screen mode (<</ux/hs_dashboard#,Dashboard>>,  <</ux/hs_tabs#,T
 == Show Tabs
 Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).
 
+[[morning_screen_set]]
 == Morning screen
 
-See <</sleep/how_to_read_sleep_graphs#morning_screen, the chapter on Morning screen>>.
+You can choose from three screen you see in the morning after tracking, or you can disable the morning screen completely:
+[horizontal]
+Morning briefing:: See <</sleep/how_to_read_sleep_graphs#morning_screen, the chapter on Morning screen>>.
+Graphs:: The app opens the full graph directly.
+Dashboard:: The app opens the main screen of the app.
+Disabled:: No screen is opened when you finish the tracking.
 
+You can further customize the the morning briefing:
+
+[horizontal]
+Weather:: Hides the weather tile.
+Automatic sleep tagging:: Enables <</sleep/tags#tags_auto, automatic tags>>.
+Hide stats before rating:: Will hide the sleep tracking results till you rate your sleep - enable if you feel that seing the results may influence your rating.
 
 == Theme
 You can choose a theme (background color of the app):
