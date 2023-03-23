@@ -13,7 +13,7 @@ After hitting a snooze button on the alarm screen, you get an additional period 
 You can also limit snoozing in several ways to prevent oversleeping.
 
 _Settings -> Alarms -> Snooze_
-<</alarms/alarm_settings#per-alarm, Alarm-specific settings>>
+_Alarm-specific settings_
 
 [EXAMPLE]
 The alarm goes off at 5:30, and it wakes you up at 5:33.
