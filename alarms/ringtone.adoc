@@ -28,7 +28,7 @@ A great selection of nature sounds by Sleep (birds, ocean, storm...)
 You can pick any music file from your storage.
 
 [horizontal]
-Ringtones::
+Ringtones:: sounds labeled as ringtones from your system
 Your Music:: tagged as a music by the system
 Your Music:: all sound files, that were not tagged as a music by the system
 Any other own file:: you can manually choose any other file from your internal or external storage you did not find listed.
