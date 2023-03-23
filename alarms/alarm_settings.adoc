@@ -25,7 +25,7 @@ redirect_from:
 toc::[]
 :toclevels: 1
 
-[[per-alarm]]]
+[[per-alarm]]
 == Alarm defaults vs alarm-specific "per-alarm" settings
 
 Alarms can be set up in two places because you need a default configuration that controls all alarms and still have the option to create a special alarm with unique behavior.
