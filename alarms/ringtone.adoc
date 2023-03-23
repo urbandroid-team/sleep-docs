@@ -66,8 +66,8 @@ NOTE: You can try radio stream URL search engines, like https://streamurl.link/[
 You can choose sounds from your Spotify Library
 
 [horizontal]
-Current playlist:: dd
-Playlists:: dd
+Current playlist:: Plays the last opened playlist.
+Playlists:: Select any playlist from your library.
 
 
 == Playlist

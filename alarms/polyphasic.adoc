@@ -5,19 +5,19 @@ nav_order: 20
 parent: /alarms/0parent.html
 ---
 
-Polyphasic sleeping is the practice of sleeping during more shorter periods of time in the course of 24 hours (in contrast with more common monophasic sleep with one long period of sleep).
-This type of sleeping practice requires some special settings.
+Polyphasic sleep is the practice of sleeping in several shorter periods over the course of 24 hours (as opposed to the more common monophasic sleep with one long period of sleep).
+This type of sleep practice requires some special settings.
 
-*Bedtime notification* is normally scheduled based on the alarm time and the daily sleep income. The naps for polyphasic sleeping needs a bedtime notification, that is not derived from the daily income, but from the length of sleep specific to this nap.
-This target sleep income can be set up in the per-alarm setting, where you can choose the length of the sleep income for the alarm, and also adjust the bedtime notification timing.
+The *Bedtime Notification* is normally scheduled based on the alarm time and the daily sleep income. Polyphasic sleep naps require a bedtime notification that is not based on the daily amount of sleep, but on the amount of sleep specific to that nap.
+This target sleep duration can be set in the per-alarm setting, where you can select the length of sleep duration for the alarm and also adjust the bedtime notification time.
 
-NOTE: The per-alarm sleeping target has no influence on Daily sleep income, as you still need to reach the sum of sleep+naps each day.
+NOTE: The per-alarm sleep goal does not affect your daily sleep income, because you still need to reach the sum of sleep and naps each day.
 
-. Open per-alarm settings from _Left_ ☰ _menu_ -> _Alarms_, and choose the alarm you need to adjust.
-. Tap Bedtime notification tile and untick the Application settings (which is by default on).
-. Choose the sleep duration goal (20 min - 13 hours and 30 min) with the sliding bar or from the drop-down menu list.
-. Adjust the timing for the bedtime notification, if needed.
-. Confirm with Save button at the bottom.
+. Open per-alarm settings from _Left_ ☰ _menu_ -> _Alarms_, and select the alarm you need to adjust.
+. Tap the Bedtime notification tile and uncheck the Application settings (checked by default).
+. Choose the sleep duration goal (20 minutes - 13 hours and 30 minutes) with the slider or from the drop-down menu list.
+. Adjust the timing for the bedtime notification, if necessary.
+. Confirm with the Save button at the bottom.
 
 
 //[cols="1,1,1"]

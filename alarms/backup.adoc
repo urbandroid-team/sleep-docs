@@ -8,9 +8,9 @@ tags:
 ---
 :toc: macro
 
-*Starts ringing loudly on maximum volume if you ignore your normal alarm.*
+*Starts ringing loudly at maximum volume if you ignore your normal alarm.*
 
-Backup alarm starts after <<alarm-timeout,Alarm timeout>>.
+Backup alarm will start after <<alarm-timeout,Alarm timeout>>.
 
 _Settings -> Alarms -> Backup alarm_
 
@@ -21,7 +21,7 @@ toc::[]
 
 
 == Backup alarm duration
-Set for how long will the backup alarm ring (after that it gets snoozed for your default _Snooze time_, but never less than 10 minutes).
+Set how long the backup alarm will ring (it will then snooze for your default _Snooze Time_, but never less than 10 minutes).
 
 == Ringtone
 Backup alarm ringtone.
@@ -31,13 +31,13 @@ Backup alarm ringtone.
 . Go to _Settings -> Alarm default settings -> Back up -> Sound_.
 . Set the ringtone to _Silent_.
 
-NOTE: Silent Ringtone for backup alarm won't disable the vibrations. The backup alarm is the last instance to notify you the alarm is still going off, so you can react and do not oversleep.
+NOTE: Silent ringtone for backup alarm won't disable vibrations. The backup alarm is the last thing to let you know that the alarm is still going off, so you can react and not fall asleep.
 
 == Alarm timeout [[alarm-timeout]]
 Time after which the backup alarm will ring if you ignore your normal alarm.
 
 == Repeat
-Maximum time of repeats – after that, no alarm will ring anymore.
+Maximum number of times the alarm can be repeated. After that, no alarm will ring.
 
 
 [EXAMPLE]
@@ -45,13 +45,13 @@ Maximum time of repeats – after that, no alarm will ring anymore.
 Alarm time: 7:00
 Backup alarm duration: 2 minutes
 Alarm timeout: 10 minutes
-This is what happens when you don’t interact with the alarm:
+This is what happens if you don't interact with the alarm:
 
 - 7:00 – alarm starts
-- 7:10 – backup alarm starts (full volume, duration 2 min)
-- 7:12 – automatically snoozes (for 10 minutes as your default snooze time is 10 minutes)
+- 7:10 – backup alarm starts (full volume, duration 2 minutes)
+- 7:12 – automatically snoozes (for 10 minutes, as your default snooze time is 10 minutes)
 - 7:22 – backup alarm starts again
 
-…and so on, based on the number of repeats.
+…and so on, based on the number of repetitions.
 ====
 

@@ -72,6 +72,7 @@ Legacy:: Original graph palette from the good old times.
 == Screen transition animations
 Disables animations (for search bar, bar, graphs, stats...)
 
+[[tts]]
 == Text to speech
 If enabled, Sleep will tell you when it’s *time to go to bed*, wish you *goodnight* when you start sleep tracking, tell you *it’s time to wake up* when the alarm rings, and tell you *weather* in the morning, after you dismiss the alarm.
 

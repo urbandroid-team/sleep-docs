@@ -10,324 +10,114 @@ redirect_from:
 ---
 :toc: macro
 
-*Alarm settings help you make your wakeup alarm a refreshing and pleasant experience.*
+*Alarm settings help you make your wake-up experience refreshing and enjoyable.*
 
-* <</sleep/smart_wake_up#,Smart wake up>> wakes you at the right sleep phase
-* <<gentle_alarm, Gentle volume increase>> finds the minimal sound to wake you
-* <</devices/smart_light#,Smartlight>> natural sunrise wake up
-* making sure you won't oversleep with our <</alarms/captcha#,CAPTCHA>> feature.
-* and many more.
+* <</sleep/smart_wake_up#,Smart wake up>> wakes you at the right stage of sleep
+* <<gentle_alarm, Gentle volume increase>> finds the minimum sound to wake you up
+* <</devices/smart_light#,Smartlight>> natural sunrise alarm
+* Make sure you don't oversleep with our <</alarms/captcha#,CAPTCHA>> feature
+*  And many more
 
-_Settings -> Alarms_
-_alarm-specific settings_
+//_Settings -> Alarms_
+//_alarm-specific settings_
 
 ---
 toc::[]
 :toclevels: 1
 
 
-//= Options
+== Alarm defaults vs alarm-specific "per-alarm" settings
 
-//Alarms can be setup in two places, because you need one default configuration controlling all alarms, and still an option for unique behavior of special alarms.
+Alarms can be set up in two places because you need a default configuration that controls all alarms and still have the option to create a special alarm with unique behavior.
 
-//== Default alarm settings
-//Alarm default settings allow you to modify basic behaviour for all your alarms. Default settings are also applied to all new alarms.
-
-//=== Smart wakeup
-//[horizontal]
-//Smart wake up:: See <</alarms/smart_wake_up#,Smart wake up>>
-
-//=== Captcha
-//[horizontal]
-//Captcha:: See <</alarms/captcha#,Captcha>>
-
-//=== Sound
-//Sound:: See <</alarms/ringtone#,Sound>>.
-//Gentle volume increase[[gentle_alarm]]:: Gentle volume makes sure to wake you with minimum volume required for a more pleasant wake up. Alarm starts at minimum volume and will gradually increase to maximum.
-//* *Disabled* - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
-//* *30 seconds* - a brief period of increased sound followed by sound at current system's volume.
-//* *1-24 minutes* - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
-//Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
-//* *Disabled* - No vibrations on phone at all.
-//* *From start* - Vibrations start at alarm time.
-//* *After 30 seconds* - Vibrations start after 30 seconds.
-//* *After 1-24 minutes* - Vibrations start after set time.
-//Delayed sound:: [[sound_delay]]
-//You may want to first give chance to <</devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
-//* *Disabled* - Sound starts at alarm time.
-//* *30 seconds - 24 minutes* - Sounds starts after set time.
-//Play alarm in silent profile:: Alarm sound will override phone's silent mode.
-
-//=== Alarm Screen
-//[horizontal]
-//Sunrise:: Enables using your phone’s screen as a smartlight for the sunrise alarm.
-//Always fullscreen alarm:: Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw over other apps_ permission.
-//No screen orientation changes:: Prevents changes of screen orientation while the alarm rings (prevents accidental snoozes or dismiss during orientation changes).
-
-//=== Snooze / Dismiss
-//[horizontal]
-//Snooze:: See <</alarms/snooze#,Snooze>>.
-//Flip to snooze:: Lets you snooze an alarm by flipping the phone (from screen to back and other way around).
-//Volume or camera button effect:: Allows to snooze or dismiss the alarm with volume buttons.
-//Long press:: Long press on dismiss button is necessary to dismiss the alarm (prevents accidentally dismissed alarms).
-
-//=== Backup alarm
-//[horizontal]
-//Backup alarm:: See <</alarms/backup#,Backup alarm>>.
-//Alarm timeout:: See <</alarms/backup#,Backup alarm>>.
-
-//=== Dangerous options
-//[horizontal]
-//Alarm output:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
-//NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, on other phones, the system still routes the media stream to both devices.
-
-//[[per-alarm]]
-//== Alarm-specific "per-alarm" settings
-//Alarm-specific settings change behaviour of a particular alarm; those changes won't affect other alarms or default settings.
-
-//NOTE: All default options are also available as alarm-specific options.
-
-
-//There are also few options that are only available in alarm-specific settings:
-
-//=== Name, Time and Repeat
-//[horizontal]
-//Alarm name:: Editable alarm name (see <<alarm_label, the guide below>>), used on alarm screen, as a tag on graphs, and read during alarm with TTS enabled.
-//Time:: Chooses the alarm time,
-//Repeat:: Chooses the pattern of the repetition:
-//* *Weekly* - repeats the day pattern every week
-//* *Odd week* - repeats the day pattern every off week
-//* *Even week* - repeats the day pattern every even week
-//* *Non-weekly* - every 2nd-6th day
-//* *Monday - Sunday* - you can choose any combination of weekdays.
-
-
-
-//=== Next alarm
-
-//A tool for one time change of the alarm time - for advancing or postponing the alarm one time. It allows you to choose only the NEXT day and time of an alarm.  Afterward the alarm returns to it's normal schedule.
-
-//[horizontal]
-//Changing the date of the next alarm::  You can change the date of the next alarm:
-//. In case of a one-time alarm the selected day is the actual day when alarm will ring.
-//. In case of a repeating alarm, the alarm may ring on the selected day or on any eligible day after based on your repeat settings.
-//+
-//[EXAMPLE]
-//You have a repeating alarm on We, Th and you set your Next alarm day to Monday next week. Next time the alarm will trigger is Wednesday next week.
-//+
-
-//Changing the time of the next alarm:: You can adjust time of next alarm just for a single execution of the alarm.
-//+
-//[EXAMPLE]
-//Normally you wake up at 7:00 but tomorrow you have a special meeting and you need to wake up at 6:00. You can change the alarm to start at 6:00 for a single day and afterward the alarm resets back to 7:00 for you automatically.
-//+
-
-//Skip next:: You can skip only the next execution of an alarm. This is a special case and convenience for choosing the next alarm day for the day after tomorrow.
-//+
-//[EXAMPLE]
-//Tomorrow is a day off for me, but I do want to continue using the alarm afterward as usual.
-//+
-
-//Skip more days:: This is the same as "Changing the next day" above.
-
-
-//[horizontal]
-//Silent alarm (in Sound):: Sets an alarm without sound.
-
-//=== Bedtime notification
-
-//[horizontal]
-//Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>).
-//* *Bedtime notification* - Changes the timing of the bedtime notification for this alarm
-//* *Sleep duration goal* - A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).
-
-//=== Snooze
-
-//[horizontal]
-//Snooze:: Changes the snooze limits for this alarm.
-
-//==== Terminate tracking
-//[horizontal]
-//Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
-
-//=== Delete after ringing
-//[horizontal]
-//Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
-
-//[[guide]]
-//= Guide
-
-//[[sound_delay]]
-//== Create an alarm only as vibrations on watch (no sound)
-
-//. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_) or set the delay on sound (_Settings -> Alarms -> Delayed alarm sound start_).
-//. Enable wearable vibrations (_Settings -> Sleep tracking -> Wearables -> Alarm_).
-//+
-//NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
-
-
-//== Create silent alarm
-
-//. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_).
-//. This option is available only in <<per-alarm,Alarm-specific settings>>, not in _Settings -> Alarms_. This is a safety measure to prevent unintentional silent alarms.
-//+
-//NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
-
-//== Postpone next alarm
-//. Open alarm -> and with the (+) and (-) buttons in the Next alarm section, change the time of the next alarm.
-//. Confirm the alarm time change.
-//+
-//NOTE: Works only for repeating alarms. The change will apply only once, to the first next alarm.
-
-
-//== Skip next alarm
-
-//. Open an alarm -> Skip next, confirm the change.
-//. Or long press on the alarm on alarm board -> Skip next.
-//+
-//NOTE: Works only for repeated alarms.
-//+
-//NOTE: Skip next through long press can be used repeatedly, so that you can skip several days in advance.
-
-
-//[[alarm_date]]
-//== Skip next alarm until certain date
-
-//. Open alarm -> tap on the Next alarm section.
-//. Choose the date of the next alarm.
-//. The alarm date is displayed on the alarm card.
-
-//== Dismiss alarm before alarm time
-
-//. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone. On newer phones, you need to expand the notification with the expanding arrow.
-//. Dismiss from the notification.
-//image:dismiss_not.png[width=50%]
-
-//[start=1]
-//. Tap the dismiss button on the finished graph.
-//image:dismiss_graph.png[width=50%]
-//+
-//NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
-
-
-//== Use my own sound as alarm
-//. Open Ringtone selection: _Settings -> Alarm default settings -> Sound_ or _<<per-alarm,Alarm-specific settings>> -> Sound_.
-//. Tap on folder icon:ic_folder[] icon in right upper corner.
-//. Choose a sound file saved on your phone.
-//+
-//NOTE: In the file picker you may first need to enable showing of external storage to be able to see your sound there.
-
-//[[alarm_label]]
-//== Name an alarm
-//. Open an existing alarm details screen or create new alarm dialogue.
-//. Name your alarm in the Label field in upper right corner. You will see this name on the alarm dialog in the morning, so you can use it for TODOs or motivation texts and they will be written into your sleep graph description.
-
-//NOTE: Alarm label shows on the list of alarms and as a tag on the graph. If Text-to-speech is enabled the app reads this alarm name with the alarm time.
-
-//image:alarm_label.png[width=70%]
-
-
-//== Create odd / even schedule [[even_odd]]
-//. Open _<<per-alarm,Alarm-specific settings>>_.
-//. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
-//. Choose Weekly / Even / Odd pattern from the drop down menu list.
-//* The app will show you the date of the next scheduled alarm and also will label the alarm scheduled for the next week
-//image:odd_even.png[width=50%]
-
-
-//== Create non-weekly schedule
-//. Open _<<per-alarm,Alarm-specific settings>>_.
-//. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
-//. Choose the pattern of the repetition - every 2nd - every 6th day.
-//* The app will show you the date of the next scheduled alarm bellow the alarm time, and on the alarm card.
-//image:alarm_date.png[width=70%, align=center]
-
-Alarms can be set up in two places, because you need one default configuration that controls all alarms, and still have an option to create a special alarm with unique behavior.
-
-. *Default alarm settings* - allow you to modify basic behaviour of all your alarms. Default settings are also applied to all new alarms.
-. *Alarm specific "per-alarm" settings* - change behaviour of a particular alarm; those changes won't affect other alarms or default settings. In the following chapter, options only available in the per-alarm settings are labeled.
+. *Default alarm settings* - allow you to change the basic behavior of all your alarms. Default settings are also applied to all new alarms.
+. *Alarm-specific "per-alarm" settings* - change the behavior of a specific alarm; these changes won't affect other alarms or default settings.
 
 == Alarm name (per-alarm only)
-You can edit the names of your alarms for adding more order to your alarm list or to remind you something in the morning (can be used as a reminder, as TODOs or for morning motivational affirmations).
-You can use _text_ and emojis 🤩.
+You can edit the names of your alarms to add more order to your alarm list or to remind you of something in the morning (can be used as a reminder, as TODOs or for morning motivational affirmations).
+You can use _text_ and emoticons 🤩.
 
 NOTE: You will see this name on the alarm dialog in the morning.
-Alarm label shows also on the list of alarms and as a tag on the graph.
-If Text-to-speech is enabled the app reads this alarm name with the alarm time.
+The alarm name is also displayed in the list of alarms and as a tag on the graph.
+If <</ux/personalize#tts, text-to-speech>> is enabled, the application will read this alarm name with the alarm time.
 
 //image:alarm_label.png[width=70%]
 
 == Time
-Chooses the alarm time, you can choose one of three time pickers (see <</alarms/create_alarm#figure-new-alarm, here for details>>).
+You can choose one of three time pickers - wheel picker, analogue picker, and Material YOU picker (see <</alarms/create_alarm#figure-new-alarm, here for details>>).
 
 == Repeat
-Chooses the pattern of the repetition
+Chooses the pattern of the repetition:
 
 [horizontal]
-Weekly:: Repeats the day pattern every week
-Odd week:: Repeats the day pattern every off week
+Weekly:: Repeats the daily pattern every week
+Odd week:: Repeats the day pattern every odd week
 Even week:: Repeats the day pattern every even week
 Non-weekly:: Every 2nd-6th day
-Monday - Sunday:: You can choose any combination of weekdays.
+Monday - Sunday:: You can choose any combination of days of the week.
 
 
 === How to create non-weekly schedule
-. Open the alarm from the alarm list.
-. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
-. Choose the pattern of the repetition - every 2nd - every 6th day.
-* The app will show you the date of the next scheduled alarm bellow the alarm time, and on the alarm card.
+. Open the alarm in the alarm list.
+. Select the Repeat dialog (_Repeat: Never_ or weekdays listed below the alarm time).
+. Select the repeat pattern - every 2nd - every 6th day.
+
+NOTE: The app displays the date of the next scheduled alarm below the alarm time and on the alarm card.
+
 image:alarm_date.png[width=70%, align=center]
 
 === How to create odd / even schedule [[even_odd]]
-. Open the alarm from the alarm list.
-. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
-. Choose Weekly / Even / Odd pattern from the drop down menu list.
-* The app will show you the date of the next scheduled alarm and also will label the alarm scheduled for the next week
+. Open the alarm in the alarm list.
+. Select the Repeat dialog (_Repeat: Never_ or weekdays listed under the alarm time).
+. Select Weekly / Even / Odd pattern from the drop down menu list.
+
+NOTE: The app shows you the date of the next scheduled alarm and also labels the alarm scheduled for next week.
+
 image:odd_even.png[width=50%]
 
 == Next alarm (per-alarm only)
 
-A tool for one time change of the alarm time - for advancing or postponing the alarm one time. It allows you to choose only the NEXT day and time of an alarm.  Afterward the alarm returns to it's normal schedule.
+A tool to change the alarm time once - for advancing or postponing the alarm one time. After that the alarm will return to it's normal schedule.
 
 === How to change the date of the next alarm
 You can change the date of the next alarm:
 
-* In case of a one-time alarm the selected day is the actual day when alarm will ring.
-* In case of a repeating alarm, the alarm may ring on the selected day or on any eligible day after based on your repeat settings.
+* For a one-time alarm, the selected day is the actual day the alarm will ring.
+* In case of a recurring alarm, the alarm can ring on the selected day or on any eligible day after that based on your repeat settings.
 
 [EXAMPLE]
-You have a repeating alarm on We, Th and you set your Next alarm day to Monday next week. Next time the alarm will trigger is Wednesday next week.
+You have a repeating alarm on We, Th and you set your Next alarm day to Monday next week. The next time the alarm goes off is Wednesday next week.
 
 
 === How to change the time of the next alarm
 You can adjust time of next alarm just for a single execution of the alarm, with the (+) and (-) buttons.
 
 [EXAMPLE]
-Normally you wake up at 7:00 but tomorrow you have a special meeting and you need to wake up at 6:00. You can change the alarm to start at 6:00 for a single day and afterward the alarm resets back to 7:00 for you automatically.
+You usually wake up at 7:00, but tomorrow you have a special meeting and need to wake up at 6:00. You can change the alarm to start at 6:00 for a single day, and after that the alarm will automatically reset to 7:00 for you.
 
 
 === Skip alarm
-You can skip the next execution of an alarm only. This is a special case and convenience for choosing the next alarm day for the day after tomorrow.
+You can skip the next execution of an alarm. This is a special case and a convenience for selecting the next alarm day for the day after tomorrow.
 
 NOTE: Works only for repeated alarms.
 
 [EXAMPLE]
-Tomorrow is a day off for me, but I do want to continue using the alarm afterward as usual.
+Tomorrow is a day off for me, but I would like to continue to use the alarm as usual after the day off.
 
-* Use Skip next button in the alarm's settings.
-* Long press on the alarm on alarm board -> Skip next
+* Use the Skip Next button in the alarm settings.
+* Long press on the alarm in the alarm card -> Skip next
 
-NOTE: Skip next through long press can be used repeatedly, so that you can skip several days in advance.
+NOTE: Skip next through long press can be used repeatedly to skip several days in advance.
 
 [[alarm_date]]
 === Skip next alarm until a certain date
 
 . Open alarm -> tap on the Next alarm section.
-. Choose the date of the next alarm.
+. Select the date of the next alarm.
 . The alarm date is displayed on the alarm card.
 
 === Disable repeating alarms on holidays
-Allows skipping alarms from ringing on public holidays.
+Allows you to skip alarms on holidays.
 Whenever the app finds a public holiday in the calendar, you get a notification with an option to skip the alarm.
 
 [NOTE]
@@ -340,12 +130,17 @@ Most users should have already subscribed public holidays to their calendar. If 
 See also https://support.google.com/calendar/answer/6084659?co=GENIE.Platform%3DDesktop&hl=en&oco=0[Google Calendar support].
 ====
 
+. Enable Google Calendar integration in _Settings -> Services -> Google Calendar_.
+. Select the _Holiday_ option.
+
+NOTE: You will always be notified when one of your alarms can be rescheduled, with the option to cancel this change.
+
 === Change alarm time based on Google Calendar
-Whenever your calendar event collides with your next active alarm, Sleep as Android will move that alarm to an earlier time.
+Whenever your calendar event conflicts with your next active alarm, Sleep as Android will move that alarm to an earlier time.
 
-How long before the event will the moved alarm ring? You can set that using the slider below this option.
+How long before the event will the moved alarm go off? You can set this with the slider below this option.
 
-If you want a specific calendar event to reschedule your alarm by a specific time (overriding the slider), you can do that by writing an expression in the following format in the _title_ or _description_ of the calendar event.
+If you want a specific calendar event to move your alarm by a specific time (overriding the slider), you can do that by writing an expression in the following format in the _title_ or _description_ of the calendar event.
 
 [horizontal]
 #alarm-30::  Advances the alarm for 30 minutes
@@ -357,12 +152,12 @@ If you want a specific calendar event to reschedule your alarm by a specific tim
 #alarm+2h30:: Postpones the alarm for 2 hours 30 min
 #alarm+2:15:: Postpones the alarm for 2 hours 15 min
 
-NOTE: You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert that.
+NOTE: You will always be notified when one of your alarms can be rescheduled, with the option to cancel the change.
 
 == Smart period
 
 See <</alarms/smart_wake_up#,Smart wake up>>.
-You can have a different smart period for each alarm - longer period for weekends, and shorter period for your workdays.
+You can have a different smart period for each alarm - a longer period for weekends, and a shorter period for your workdays.
 
 == Captcha
 
@@ -374,44 +169,44 @@ See <</alarms/ringtone#,Sound>>.
 === Create silent alarm
 
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_).
-. This option is available only in <<per-alarm,Alarm-specific settings>>, not in _Settings -> Alarms_. This is a safety measure to prevent unintentional silent alarms.
+. This option is only available in <<per-alarm,Alarm-specific settings>>, not in _Settings -> Alarms_. This is a security measure to prevent accidental silent alarms.
 
-NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+NOTE: We strongly recommend setting a sound delay instead of setting the alarm to silent, especially if the backup alarm is also silent.
 
 === Create an alarm only as vibrations on watch (no sound)
 
 . Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_) or set the delay on sound (_Settings -> Alarms -> Delayed alarm sound start_).
 . Enable wearable vibrations (_Settings -> Sleep tracking -> Wearables -> Alarm_).
 
-NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+NOTE: We strongly recommend setting a sound delay instead of setting the alarm to silent, especially if the backup alarm is also silent.
 
 == Gentle volume increase[[gentle_alarm]]
 
-Gentle volume makes sure to wake you with minimum volume required for a more pleasant wake up. Alarm starts at minimum volume and will gradually increase to maximum.
+Gentle volume ensures you wake up with the minimum volume necessary for a more pleasant wake-up experience. The alarm starts at the minimum volume and gradually increases to the maximum volume.
 
 [horizontal]
-Disabled:: Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
-30 seconds:: a brief period of increased sound followed by sound at current system's volume.
-1-24 minutes:: Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
+Disabled:: Alarm sounds at the system's alarm stream volume (or media stream if using streaming services or changing the _Alarm Output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
+30 seconds:: A brief period of increased sound followed by sound at the current system volume.
+1-24 minutes:: Sets how long it takes to reach the maximum volume; the longer the time, the slower the volume increases and the longer it takes to reach the maximum.
 
 == Vibrate
-Enables phone vibrations (do not confuse with vibrations on wearable).
+Enables phone vibrations (not to be confused with wearable vibrations).
 
 [horizontal]
-Disabled:: No vibrations on phone at all.
+Disabled:: No vibrations at all on the phone.
 From start:: Vibrations start at alarm time.
-After 30 seconds:: Vibrations start after 30 seconds.
-After 1-24 minutes:: Vibrations start after set time.
+After 30 seconds:: Vibrate start after 30 seconds.
+After 1-24 minutes:: Vibrations start after the set time.
 
 == Delayed sound [[sound_delay]]
-You may want to first give chance to <</devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
+You may want to give <</devices/smart_light#,Smartlight>> or vibrations a chance to wake you up before the alarm sounds.
 
 [horizontal]
 Disabled:: Sound starts at alarm time.
-30 seconds - 24 minutes:: Sounds starts after the set time.
+30 seconds - 24 minutes:: Sound starts after the set time.
 
 == Play alarm in silent profile
-Alarm sound will override phone's silent mode.
+The alarm sound overrides the phone's silent mode.
 
 
 == Bedtime notifications
@@ -420,37 +215,37 @@ See <</alarms/bedtime_notification#,Bedtime notification>>).
 
 
 == Sleep duration goal (per-alarm only)
-A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).
+A special option for polyphasic sleep (see <</alarms/polyphasic#,here for more details>>).
 
 
 == Snooze
-Changes the snooze limits for this alarm, you can limit snoozing in counts, or in time, see <</alarms/snooze#,Snooze chapter>>.
+Changes the snooze limits for this alarm, you can limit the snooze in counts, or in time, see <</alarms/snooze#,Snooze chapter>>.
 
 == Flip to snooze
-Lets you snooze an alarm by flipping the phone (from screen to back and other way around).
+Lets you snooze an alarm by flipping the phone (screen to back and vice versa).
 
 == Volume or camera button effect
-Allows to snooze or dismiss the alarm with volume buttons.
+Allows you to snooze or cancel the alarm using the volume buttons.
 
 == Long press
-Long press on dismiss button is necessary to dismiss the alarm. This may be useful, if you accidentally dismiss your alarms.
+A long press on the dismiss button is required to dismiss the alarm. This can be useful if you accidentally dismiss your alarms.
 
 === How to dismiss alarm before alarm time
 
 . You can dismiss the alarm from the <</sleep/how_to_read_sleep_graphs#morning_screen, Morning briefing screen>>.
-. Or you can dismiss from the before alarm notification (appears one hour before alarm) from the notification bar on your phone. On newer phones, you need to expand the notification with the expanding arrow.
+. Or you can dismiss the alarm from the pre-alarm notification (which appears one hour before the alarm) from the notification bar on your phone. On newer phones, you will need to expand the notification with the expand arrow.
 
-NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
+NOTE: Won't completely disable the alarm, so it won't affect the next alarms.
 
 
 == Sunrise
-Enables using your phone’s screen as a smartlight for the sunrise alarm. It uses the screen's brightness to gently wake you up with light.
+Lets you use your phone screen as a smart light for your sunrise alarm. It uses the brightness of the screen to gently wake you up with light.
 
 == Always fullscreen alarm
-Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw over other apps_ permission.
+Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw / Display over other apps_ permission.
 
 == No screen orientation changes
-Prevents changes of screen orientation while the alarm rings (prevents accidental snoozes or dismiss during orientation changes).
+Prevents screen orientation from being changed while the alarm is ringing (prevents accidental snooze or dismiss during orientation change).
 
 
 == Backup alarm (alarm default only)
@@ -463,262 +258,17 @@ See <</alarms/backup#,Backup alarm>>.
 == Terminate tracking (per-alarm only)
 Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
 
-[Example] You need to take medicine during the night, but you go to sleep immediately after taking it. You can configure the first (medicine) alarm to continue the tracking, so only the morning alarm will terminate tracking.
+[EXAMPLE]
+You have to take medicine at night, but you go to sleep immediately after taking it. You can configure the first (medicine) alarm to continue tracking so that only the morning alarm will stop tracking.
 
 
+[[alarm_delete]]
 == Delete after ringing (per-alarm only)
-Deletes this alarm completely after dismiss (useful for one-time alarms).
+Deletes this alarm completely when it is dismissed (useful for one-time alarms).
 This option is enabled for all new naps.
 
 
 == Alarm output
-Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
+Can force the alarm sound output to the media stream so that the alarm is only heard in your headphones (not through the device speaker).
 
-NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, on other phones, the system still routes the media stream to both devices.
-
-//= new layout 2
-
-//testing
-
-//= Options
-//Alarms can be setup in two places, because you need one default configuration controlling all alarms, and still an option for unique behavior of special alarms.
-
-//. *Default alarm settings* - allow you to modify basic behaviour for all your alarms. Default settings are also applied to all new alarms.
-//. *Alarm specific "per-alarm" settings* - change behaviour of a particular alarm; those changes won't affect other alarms or default settings. In the following chapter, options only available in the per-alarm settings are labeled.
-
-//== Name, Time and Repeat
-//[horizontal]
-//Alarm name (per-alarm only):: Editable alarm name (see <<alarm_label, the guide below>>), used on alarm screen, as a tag on graphs, and read during alarm with TTS enabled.
-//Time:: Chooses the alarm time, you can choose one of three time pickers (see <<figure-new-alarm, here for details>>).
-//Repeat:: Chooses the pattern of the repetition:
-//* *Weekly* - repeats the day pattern every week
-//* *Odd week* - repeats the day pattern every off week
-//* *Even week* - repeats the day pattern every even week
-//* *Non-weekly* - every 2nd-6th day
-//* *Monday - Sunday* - you can choose any combination of weekdays.
-
-
-//== Next alarm (per-alarm only)
-
-//A tool for one time change of the alarm time - for advancing or postponing the alarm one time. It allows you to choose only the NEXT day and time of an alarm.  Afterward the alarm returns to it's normal schedule.
-
-//[horizontal]
-//Changing the date of the next alarm::  You can change the date of the next alarm:
-//. In case of a one-time alarm the selected day is the actual day when alarm will ring.
-//. In case of a repeating alarm, the alarm may ring on the selected day or on any eligible day after based on your repeat settings.
-//+
-//[EXAMPLE]
-//You have a repeating alarm on We, Th and you set your Next alarm day to Monday next week. Next time the alarm will trigger is Wednesday next week.
-//+
-
-//Changing the time of the next alarm:: You can adjust time of next alarm just for a single execution of the alarm.
-//+
-//[EXAMPLE]
-//Normally you wake up at 7:00 but tomorrow you have a special meeting and you need to wake up at 6:00. You can change the alarm to start at 6:00 for a single day and afterward the alarm resets back to 7:00 for you automatically.
-//+
-
-//Skip next:: You can skip only the next execution of an alarm. This is a special case and convenience for choosing the next alarm day for the day after tomorrow.
-//+
-//[EXAMPLE]
-//Tomorrow is a day off for me, but I do want to continue using the alarm afterward as usual.
-//+
-
-//Skip more days:: This is the same as "Changing the next day" above.
-
-
-//== Smart period
-//[horizontal]
-//Smart wake up:: See <</alarms/smart_wake_up#,Smart wake up>>
-
-//== Captcha
-//[horizontal]
-//Captcha:: See <</alarms/captcha#,Captcha>>
-
-//== Sound and vibrations
-//Sound:: See <</alarms/ringtone#,Sound>>.
-//Gentle volume increase[[gentle_alarm]]:: Gentle volume makes sure to wake you with minimum volume required for a more pleasant wake up. Alarm starts at minimum volume and will gradually increase to maximum.
-//* *Disabled* - Alarm rings at system's alarm stream volume (or media stream when using streaming services or changing the _Alarm output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
-//* *30 seconds* - a brief period of increased sound followed by sound at current system's volume.
-//* *1-24 minutes* - Sets how long it takes to reach the max volume; the longer the period, the slower the volume increases and the longer it takes to reach the max.
-//Vibrate:: Enables phone vibrations (do not confuse with vibrations on wearable).
-//* *Disabled* - No vibrations on phone at all.
-//* *From start* - Vibrations start at alarm time.
-//* *After 30 seconds* - Vibrations start after 30 seconds.
-//* *After 1-24 minutes* - Vibrations start after set time.
-//Delayed sound:: [[sound_delay]]
-//You may want to first give chance to <</devices/smart_light#,Smartlight>> or vibrations to wake you up, before the alarm starts sounding.
-//* *Disabled* - Sound starts at alarm time.
-//* *30 seconds - 24 minutes* - Sounds starts after set time.
-//Play alarm in silent profile:: Alarm sound will override phone's silent mode.
-//Silent alarm (per-alarm only):: Alarm goes off without sound.
-
-
-//== Bedtime notification
-
-//[horizontal]
-//Bedtime notification:: Bedtime notification for this alarm, if you need a different bedtime notification for specific alarm (see <</alarms/bedtime_notification#,Bedtime notification>>).
-//* *Bedtime notification* - Changes the timing of the bedtime notification for this alarm
-//* *Sleep duration goal* (per-alarm only)- A special option for polyphasic sleeping (see <</alarms/polyphasic#,here for more details>>).
-
-
-//== Snooze
-
-//[horizontal]
-//Snooze:: Changes the snooze limits for this alarm.
-
-
-//== Snooze / Dismiss
-//[horizontal]
-//Snooze:: See <</alarms/snooze#,Snooze>>.
-//Flip to snooze:: Lets you snooze an alarm by flipping the phone (from screen to back and other way around).
-//Volume or camera button effect:: Allows to snooze or dismiss the alarm with volume buttons.
-//Long press:: Long press on dismiss button is necessary to dismiss the alarm (prevents accidentally dismissed alarms).
-
-
-//== Alarm Screen (alarm default only)
-
-//[horizontal]
-//Sunrise:: Enables using your phone’s screen as a smartlight for the sunrise alarm.
-//Always fullscreen alarm:: Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw over other apps_ permission.
-//No screen orientation changes:: Prevents changes of screen orientation while the alarm rings (prevents accidental snoozes or dismiss during orientation changes).
-
-
-//== Backup alarm (alarm default only)
-//[horizontal]
-//Backup alarm:: See <</alarms/backup#,Backup alarm>>.
-//Alarm timeout:: See <</alarms/backup#,Backup alarm>>.
-
-
-//== Terminate tracking (per-alarm only)
-//[horizontal]
-//Terminate tracking:: Enabled by default. Normally dismissing an alarm will end current sleep tracking. Disable this to continue tracking even after you dismiss the alarm.
-
-
-//== Delete after ringing (per-alarm only)
-//[horizontal]
-//Delete after ringing:: Deletes this alarm completely after dismiss (useful for one-time alarms).
-
-
-//== Dangerous options (alarm default only)
-//[horizontal]
-//Alarm output:: Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
-//NOTE: Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, on other phones, the system still routes the media stream to both devices.
-
-//= Guides
-
-//[[alarm_label]]
-//== Name an alarm
-//. Open an existing alarm details screen or create new alarm dialogue.
-//. Name your alarm in the Label field in upper right corner. You will see this name on the alarm dialog in the morning, so you can use it for TODOs or motivation texts and they will be written into your sleep graph description.
-
-//NOTE: Alarm label shows on the list of alarms and as a tag on the graph. If Text-to-speech is enabled the app reads this alarm name with the alarm time.
-
-//image:alarm_label.png[width=70%]
-
-//== Create non-weekly schedule
-//. Open _<<per-alarm,Alarm-specific settings>>_.
-//. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
-//. Choose the pattern of the repetition - every 2nd - every 6th day.
-//* The app will show you the date of the next scheduled alarm bellow the alarm time, and on the alarm card.
-//image:alarm_date.png[width=70%, align=center]
-
-//== Create odd / even schedule [[even_odd]]
-//. Open _<<per-alarm,Alarm-specific settings>>_.
-//. Choose Repeat dialogue (_Repeat:Never_ or days of week listed below alarm time).
-//. Choose Weekly / Even / Odd pattern from the drop down menu list.
-//* The app will show you the date of the next scheduled alarm and also will label the alarm scheduled for the next week
-//image:odd_even.png[width=50%]
-
-//== Postpone next alarm
-//. Open alarm -> and with the (+) and (-) buttons in the Next alarm section, change the time of the next alarm.
-//. Confirm the alarm time change.
-//+
-//NOTE: Works only for repeating alarms. The change will apply only once, to the first next alarm.
-
-
-//== Skip next alarm
-
-//. Open an alarm -> Skip next, confirm the change.
-//. Or long press on the alarm on alarm board -> Skip next.
-//+
-//NOTE: Works only for repeated alarms.
-//+
-//NOTE: Skip next through long press can be used repeatedly, so that you can skip several days in advance.
-
-
-//[[alarm_date]]
-//== Skip next alarm until certain date
-
-//. Open alarm -> tap on the Next alarm section.
-//. Choose the date of the next alarm.
-//. The alarm date is displayed on the alarm card.
-
-//== Disable repeating alarms on holidays
-//*Allows skipping alarms from ringing on public holidays.*
-
-//Whenever the app finds a public holiday in the calendar, you get a notification with an option to skip the alarm.
-
-//[NOTE]
-//====
-//Most users should have already subscribed public holidays to their calendar. If this is not your case, do this:
-
-//- click the little downward arrow under “other calendars” on the left side of the default calendar view (beside “add”).
-//- click on “browse interesting calendars” and you should be able to see and subscribe to _Public holidays_.
-
-//See also https://support.google.com/calendar/answer/6084659?co=GENIE.Platform%3DDesktop&hl=en&oco=0[Google Calendar support].
-//====
-
-//== Reschedule alarms based on Google Calendar
-//Whenever your calendar event collides with your next active alarm, Sleep as Android will move that alarm to an earlier time.
-
-//How long before the event will the moved alarm ring? You can set that using the slider below this option.
-
-//If you want a specific calendar event to reschedule your alarm by a specific time (overriding the slider), you can do that by writing an expression in the following format in the _title_ or _description_ of the calendar event.
-
-//Examples:
-
-//- #alarm-30  (advances the alarm for 30 minutes)
-//- #alarm-30m (advances the alarm for 30 minutes)
-//- #alarm+20 (postpones the alarm for 20 minutes)
-//- #alarm+20h (postpones the alarm for 20 hours)
-//- #alarm-1h (advances the alarm for 1 hour)
-//- #alarm+2h30m (postpones the alarm for 2 hours 30 min)
-//- #alarm+2h30 (postpones the alarm for 2 hours 30 min)
-//- #alarm+2:15 (postpones the alarm for 2 hours 15 min)
-
-//You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert that.
-
-//== Create an alarm only as vibrations on watch (no sound)
-
-//. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_) or set the delay on sound (_Settings -> Alarms -> Delayed alarm sound start_).
-//. Enable wearable vibrations (_Settings -> Sleep tracking -> Wearables -> Alarm_).
-//+
-//NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
-
-
-//== Create silent alarm
-
-//. Set the alarm silent (_<<per-alarm,Alarm-specific settings>> -> Sound -> Silent_).
-//. This option is available only in <<per-alarm,Alarm-specific settings>>, not in _Settings -> Alarms_. This is a safety measure to prevent unintentional silent alarms.
-//+
-//NOTE: We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
-
-//== Use my own sound as alarm
-//. Open Ringtone selection: _Settings -> Alarm default settings -> Sound_ or _<<per-alarm,Alarm-specific settings>> -> Sound_.
-//. Tap on folder icon:ic_folder[] icon in right upper corner.
-//. Choose a sound file saved on your phone.
-//+
-//NOTE: In the file picker you may first need to enable showing of external storage to be able to see your sound there.
-
-
-//== Dismiss alarm before alarm time
-
-//. Open before alarm notification (appears one hour before alarm) from the notification bar on your phone. On newer phones, you need to expand the notification with the expanding arrow.
-//. Dismiss from the notification.
-//image:dismiss_not.png[width=50%]
-
-//[start=1]
-//. Tap the dismiss button on the finished graph.
-//image:dismiss_graph.png[width=50%]
-//+
-//NOTE: Won't deactivate the alarm completely, so it has no effect on next alarms.
+NOTE: Please test it before using, some devices may mute the alarm output due to DND or other settings, on other phones the system will still route the media stream to both devices.

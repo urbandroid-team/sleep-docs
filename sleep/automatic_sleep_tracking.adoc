@@ -26,7 +26,6 @@ WARNING: If you do not see this option your phone probably does not support acti
 toc::[]
 :toclevels: 1
 
-= Options
 
 == Manual only
 Sleep as Android will never start sleep tracking without you pressing the _Start sleep tracking_ button with the moon icon, from the wearable, or with a tracking widget.

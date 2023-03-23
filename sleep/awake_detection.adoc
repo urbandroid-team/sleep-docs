@@ -12,6 +12,10 @@ tags:
 
 _Settings -> Sleep tracking -> Awake detection_
 
+---
+toc::[]
+:toclevels: 2
+
 
 <</sleep/sleep_tracking_theory,Actigraphy>> (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. So we use heuristics (hints) that give us a very good and solid view on your awake events.
 
@@ -22,7 +26,6 @@ Awake hints:
 * Heart rate from wearables
 * Talking or baby crying
 * Use of phone
-* ...
 
 We then use awake events to measure *sleep efficiency* (_= time sleeping / time tracking_) - an important dimension in your <</sleep/sleepscore#, sleep score>>.
 
@@ -31,9 +34,7 @@ NOTE: Awake time is subtracted from your overall sleep *duration* - another impo
 NOTE: In case the app makes a mistake in detecting your awake periods, you can  edit your sleep graph ex-post in order to correct your wake up or before fall asleep periods - check our guide how to <</sleep/graph_edit#add_awake, add the missing awakes>>, or <</sleep/graph_edit#delete_awake,revert the false-positive awake>> from your graph.
 
 
----
-toc::[]
-:toclevels: 2
+
 
 [[awake-detection-settings]]
 //.Awake detection settings
