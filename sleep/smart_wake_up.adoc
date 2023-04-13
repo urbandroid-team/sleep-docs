@@ -23,6 +23,9 @@ Alarm time: 8:00
 Smart period: 30 minutes (default)
 Sleep as Android will wake you between 7:30-8:00, once you are in light sleep for some time. The scheduled alarm time (8:00) is considered as the last possible wake up time.
 
+
+NOTE: Smart wake up feature requires sleep tracking running to be running, so the app can detect your sleep phases.
+
 ---
 toc::[]
 :toclevels: 1

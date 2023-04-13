@@ -15,7 +15,7 @@ Bedtime notification is an effective way to maintain optimal sleep duration or t
 _Settings -> Alarms -> Bedtime notification_
 _per-alarm settings -> Bedtime notification_
 
-NOTE: The time to trigger the notification is calculated as follows:
+NOTE: The time of your bedtime is calculated as follows:
 `bedtime = next alarm time – daily sleep duration goal`
 [EXAMPLE]
 You have set your <<duration_goal,Daily sleep duration goal>> to 7 hours, and an alarm for 6 AM.
