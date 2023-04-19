@@ -7,7 +7,29 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20230303
+== Latest version 20230415
+– Material 3 Status bar scrim when scrolling
+– Better power dialog hiding in CAPTCHA anti-cheating
+– Fix for rare top bar issue in sleep tracking screen
+– Tags above the comment field on morning screen
+– Fix for regression in Charts – Graphs – activity
+– Added support for MacroDroid Tasker plugins
+– Fixed bar spacing for Graphs trend in charts
+– Fix in weather location precision
+– Fix for broken Adjust alarm time – postpone / prepone in rare situations
+– Fix for a crash on graph detail screen
+– Fix for score pie view color
+– Fix for sleep score discrepancy when rating sleeps
+– Fix for crashing bug when changing orientation on graph screen
+– Better graphics in case of no advice
+– Fix for graph day picker
+– Fix for missing breath rates
+– Fix for back stack when using new day picker on graph screen
+– Many thanks Thomas!
+– Charts redesign: period adaptive axis and chart type
+– Fixes in Garmin and Gear Wearable add-ons – updating to latest API level
+
+== 20230303
 
 *Sleep score*
 - Score quality percentage calculated from all sleep dimensions
