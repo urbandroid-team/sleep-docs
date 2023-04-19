@@ -22,4 +22,3 @@ There are two reasons, why the app did not record the sound, even when it was pr
 
 . Go to _Settings -> Sleep noise analysis -> Storage path_.
 . Tap on RESET button.
-. Now you should see the Storage path set as "/storage/emulated/0".

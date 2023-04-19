@@ -63,11 +63,11 @@ WARNING: The use of Sleep as Android does not contain or constitute, and should 
 
 For details please refer to <</devices/oximeter#, Oximeter>> and <</sleep/breath_rate, SPO2 and breath rates>>
 
-== Medical-grade home sleep apnea test (US only)
+//== Medical-grade home sleep apnea test (US only)
 
-If you see high RDI levels you may consider to confirm or deny those results with a disposable home test for sleep apnea analyzed by medical professionals.
+//If you see high RDI levels you may consider to confirm or deny those results with a disposable home test for sleep apnea analyzed by medical professionals.
 
-We have partnered with Sleep Master Solution to bring you such a test in the US, link:https://sleepmastersolutions.com/sleepasandroid/[Read more].
+//We have partnered with Sleep Master Solution to bring you such a test in the US, link:https://sleepmastersolutions.com/sleepasandroid/[Read more].
 
 == References
 
