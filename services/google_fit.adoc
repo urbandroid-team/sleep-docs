@@ -19,6 +19,9 @@ _Settings -> Services -> Google Fit_
 
 NOTE: When enabling the integration, you are asked whether you'd like to synchronize your past records. This is currently limited up to 3 years. All new sleep records are then synchronized with Fit.
 
+[WARNING]
+The app will only sync entries without cloud icon (that were already synced from another cloud service).
+
 == Sync methods
 
 [horizntal]
