@@ -29,12 +29,12 @@ toc::[]
 Backs up:: Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms
 Does not back up:: Inactive alarms
 
-Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version (based on _Settings -> Personalize -> Privacy -> Storage path_).
+Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version, based on _Settings -> Personalize -> Privacy -> Storage path_).
 
 You can also start local backup manually using _Left_ ☰ _menu -> Backup -> Export data_.
 
-WARNING: Do not use if you plan to reinstall the app, or to clear the app's data!
-If you wish to use manual backup for these purposes, tap the SHARE button on the dialogue, and save the file to a different location, add it to an email, or save it to a cloud service.
+WARNING: Do not use if you plan to reinstall the application or delete the application data!
+If you want to use manual backup for these purposes, tap the SHARE button in the dialog and save the file to another location, attach it to an email, or save it to a cloud service.
 
 What is backed up in this folder:
 [horizontal]
