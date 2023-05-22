@@ -26,6 +26,7 @@ Sleep as Android will wake you between 7:30-8:00, once you are in light sleep fo
 
 NOTE: Smart wake up feature requires sleep tracking to be running, so the app can detect your sleep phases. If you don't want to run sleep tracking the whole night, see the Smart period option on <</sleep/automatic_sleep_tracking#,Automatic sleep tracking>>.
 
+
 ---
 toc::[]
 :toclevels: 1

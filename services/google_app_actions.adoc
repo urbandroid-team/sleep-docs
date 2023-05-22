@@ -1,0 +1,56 @@
+---
+layout: default
+title: Google Assistant App Actions
+nav_order: 2
+parent: /services/0parent.html
+---
+
+:toc:
+
+== What it does
+Control Sleep as Android with voice using Google Assistant.
+
+== Guide
+
+=== Supported voice actions
+
+The list for each voice action is not exhaustive, but the listed phrases are guaranteed to work.
+
+==== Start sleep tracking
+
+- "Hey Google, open Sleep start tracking."
+- "Hey Google, open start tracking in Sleep."
+- "Hey Google, open tracking in Sleep."
+- "Hey Google, open sleep tracking in Sleep."
+
+- "Hey Google, show Sleep start tracking."
+- "Hey Google, show start tracking in Sleep."
+- "Hey Google, show tracking in Sleep."
+- "Hey Google, show sleep tracking in Sleep."
+
+==== Stop sleep tracking
+
+- "Hey Google, open Sleep stop tracking."
+- "Hey Google, open end sleep tracking in Sleep."
+- "Hey Google, open finish tracking in Sleep."
+- "Hey Google, open end tracking in Sleep."
+
+- "Hey Google, show Sleep stop tracking."
+- "Hey Google, show end sleep tracking in Sleep."
+- "Hey Google, show finish tracking in Sleep."
+- "Hey Google, show end tracking in Sleep."
+
+==== Open alarms list
+
+- "Hey Google, show alarms in Sleep."
+- "Hey Google, show my alarms in Sleep."
+- "Hey Google, open alarms in Sleep."
+- "Hey Google, open alarms list in Sleep."
+- "Hey Google, show my alarms list in Sleep."
+
+==== Show your last sleep
+
+- "Hey Google, show my last sleep in Sleep."
+- "Hey Google, open my last sleep in Sleep."
+- "Hey Google, show last sleep in Sleep."
+- "Hey Google, open last sleep in Sleep."
