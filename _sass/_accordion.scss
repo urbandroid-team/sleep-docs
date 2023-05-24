@@ -42,7 +42,7 @@
   background-color: var(--table-background-color);
   max-height: 0;
   overflow: hidden;
-  transition: 0.4s ease-in-out;
+  transition: 4s ease-in-out;
   opacity: 0;
   margin-bottom:10px;
 }
@@ -50,6 +50,6 @@
 .accordion-panel.show {
   padding: 18px;
   opacity: 1;
-  max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+  max-height: 5000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
   border-radius: 24px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
