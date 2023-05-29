@@ -62,7 +62,7 @@ Reads SpO2 data from a wearable connected in <</devices/wearables/wearable_setup
 
 _Settings -> Sleep tracking -> Wearables -> Pulse oximeter (Wear OS, Garmin..)_
 
-WARNING: Not all wearables provide SpO2 data to our app. Check the <</devices/wearables/supported_wearable#, compatibility table>>.
+WARNING: Not all wearables provide SpO2 data to our app. Check the <</devices/supported_wearable#, compatibility table>>.
 
 
 == Low breath rate alarm
