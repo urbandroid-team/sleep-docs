@@ -22,5 +22,5 @@ tags:
 
 - Make sure no system restrictions are applied to Sleep as Android: https://dontkillmyapp.com?app=Sleep[Check our guide here].
 
-- If the guide won't help, send us your log using _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.
+- If the guide doesn't help, send us your log using _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.
 

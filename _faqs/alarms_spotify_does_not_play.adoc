@@ -6,8 +6,8 @@ tags:
   - spotify
 ---
 
-- Unfortunately our Spotify integration is all reverse engineered and thus may stop working any time Spotify updates their app.
+- Unfortunately, our Spotify integration is all reverse-engineered and thus may stop working whenever Spotify updates their app.
 
-- When alarm starts and your phone is locked we are unable to change the playlist or album in your Spotify app. In this case the app will play simply where you last left it. We have not found a fix for this yet.
+- If the alarm goes off and your phone is locked, we will no be unable to change the playlist or album in your Spotify app. In this case the app will simply play where you last left it. We have not found a fix for this yet.
 
-- Using a VPN service may block playing the online content.
+- Using a VPN service may block playback of the online content.
