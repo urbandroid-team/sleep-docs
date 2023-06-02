@@ -9,26 +9,26 @@ tags:
   - samsung
 ---
 
-.Generally all new Android versions
+.In general, all new Android versions
 
-Google made it impossible to start screens from the background on newer Android versions. This is why we can no longer show the alarm screen with the big buttons under usual settings. The app can just show notifications from the background if the screen is on when the alarm starts. If the screen is locked we usually are able to show the full-screen alarm.
+Google has made it impossible to launch screens from the background in newer Android versions. Because of this, we can no longer show the alarm screen with the big buttons in the usual settings. The app can only show notifications in the background if the screen is on when the alarm starts. If the screen is locked, we can usually show the full screen alarm.
 
-. Go to _Settings -> Alarms -> Fullscreen alarm_ (might be hidden under Advanced in Snooze/Dismiss section), and enable this option.
-. It will take you to the system settings, where you need to grant the *Draw over other apps* permission.
+. Go to _Settings -> Alarms -> Fullscreen alarm_ (may be hidden under Advanced in the Snooze/Dismiss section), and enable this option.
+. This will take you to the System Preferences where you will need to give the *Draw/Display over other apps* permission.
 
 
 .XiaoMi / MIUI
-On Xiaomi/MIUI, you need to grant special permission to Sleep as Android so that it may unlock your screen during alarm.
+On Xiaomi/MIUI, you need to give special permission to Sleep as Android to unlock your screen during an alarm.
 
-. Go to _System Settings -> Permissions -> Advanced Permissions ->_ select Sleep app and give it permission to access Lockscreen.
+. Go to System _Settings -> Permissions -> Advanced Permissions -> select Sleep app and give it permission to access the lock screen.
 
 
-NOTE: If you are using a Captcha task from the Captcha add-on, please, make sure the permission is granted to the add-on as well.
+NOTE: If you are using a CAPTCHA task from the CAPTCHA add-on, please make sure that the permission is also given to the add-on.
 
 
 .Samsung
-When alarm goes off, it does not disable the lockscreen and you have to manually unlock the device to tap snooze or dismiss.
+When the alarm goes off, it does not disable the lock screen and you will need to manually unlock the device to tap snooze or dismiss.
 
-You may have Sleep as Android enabled under Border lights (Edge Lightning on some versions). This causes the alarm popup to not display over the lockscreen, as the notification is being shown as a light around the edge of the screen.
+You may have Sleep as Android enabled under Edge Lighting (Edge Lighting on some versions). This causes the alarm popup not to appear above the lock screen because the notification appears as a light around the edge of the screen.
 
 . Disable Border lights for Sleep as Android in your device’s settings.

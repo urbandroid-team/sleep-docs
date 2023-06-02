@@ -7,16 +7,15 @@ tags:
   - lullaby
 ---
 
-WARNING: The volume needs to be kept at maximum when tracking with sonar for maintaining the reliable results.
+WARNING: When tracking with sonar, the volume must be kept at maximum to maintain reliable results.
 
-- Unfortunately, this also affects media volume in 3rd party apps, and we cannot control those separately from sonar media volume. This means that while using sonar, you can only use media apps on full volume.
-- You can set a time delay on start of tracking in _Settings -> Sleep tracking -> Awake detection -> Delayed sleep tracking_.
+Unfortunately, this also affects media volume in third-party applications, and we cannot control those separately from Sonar's media volume. This means that while using Sonar, you can only use media applications at full volume.
 
-//-
+You can set a time delay to start tracking in _Settings -> Sleep Tracking -> Awake Detection -> Delayed Sleep Tracking_.
 
-External players::
-- When using sonar, you cannot control media volume by volume buttons as it always jumps back to maximum.
+External Players::
+When using Sonar, you cannot use the volume buttons to control the media volume because it always jumps back to maximum.
+
 
 Lullabies::
-- You can control volume of lullabies from the Sleep app (_Settings -> Lullabies_), and from the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Lullaby add-on pack].
-- When you lower the volume with volume buttons, the lullaby volume is estimated and adjusted accordingly, sonar volume is still kept at maximum.
+You can control the volume of lullabies from the Sleep app (_Settings -> Lullabies_) and from https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Lullaby add-on pack] - when you lower the volume with the volume buttons, the lullaby volume is estimated and adjusted accordingly, the Sonar volume is still kept at maximum.
