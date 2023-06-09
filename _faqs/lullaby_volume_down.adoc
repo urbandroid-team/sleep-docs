@@ -7,8 +7,8 @@ tags:
 - volume
 ---
 
-If your volume gradually lowers after a while, when the tracking is running, the option *Turn off when sleeping* is enabled. This feature lowers the system-wide volume, so it affects even music played outside Sleep.
+If you notice your volume gradually dropping after a while while tracking is running, the *Turn off when sleeping* is enabled. This feature lowers the system-wide volume, so it also affects music played outside of Sleep.
 
 . Go to _Settings -> Sleep tracking -> Lullabies -> Turn off when sleeping_.
-. Extend the minimal playback time (5-90 min).
-. Or disable the feature completely by setting it to *Use current device volume*.
+. Increase the minimum play time (5-90 minutes).
+. Or disable the feature altogether by setting it to *Disabled*, and the app won't change the volume.

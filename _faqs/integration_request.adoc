@@ -7,6 +7,6 @@ tags:
   - request
 ---
 
-For all currently supported devices, check out <</devices/supported_wearable#, list of compatible devices>>.
+All currently supported devices can be found at <</devices/supported_wearable#, list of compatible devices>>.
 
-If you’d like us to integrate another device, please add it as a suggestion to our https://forum.urbandroid.org/c/feature-requests/integration-requests[suggestion forum]. Also please check whether the device has an API so we can integrate it.
+If you'd like us to integrate another device, please submit it as a suggestion to our https://forum.urbandroid.org/c/feature-requests/integration-requests[Suggestion Forum]. Also, please check if the device has an API so we can integrate it.

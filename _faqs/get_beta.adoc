@@ -6,18 +6,18 @@ tags:
 - play_store
 ---
 
-We are rolling out the latest features first to beta testers to keep a good experience for regular users who are not so keen on new features but prefer everything as stable as possible.
+We roll out the latest features to beta testers first to maintain a good experience for regular users who are not so keen on new features but prefer things to be as stable as possible.
 
 . Please first join our BETA Testers group at:
 https://groups.google.com/forum/#!forum/sleep-as-an-droid
 . That you can opt-into the BETA at the following address:
 https://play.google.com/apps/testing/com.urbandroid.sleep
-or simply by visiting our Play Store listing and tapping "Join BETA"
+or by visiting our Play Store listing and tapping "Join BETA"
 
 NOTE: Without joining the Tester group, you cannot opt-in!
 
-After that you should be starting receiving latest BETA updates through the Play Store.
+You should then receive latest BETA updates via the Play Store.
 
 To discuss BETA channel related issues please use our forum at: https://forum.urbandroid.org/c/beta
 
-We would be more than happy if you would consider joining the community and provide us with feedback on the latest features.
+We would love to have you join the community and give us feedback on the latest features.

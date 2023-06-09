@@ -6,4 +6,4 @@ tags:
   - battery
 ---
 
-Battery saving mode currently resumes full tracking before the smart wake up period in order to find the best moment for your wake up, so the tracking uses up just a fraction of the battery consumption for the whole night. If the battery would drop under your defined stand-by threshold (default: 10%) the battery saving mode will re-occur.
+Battery saving mode currently resumes full tracking before the Smart Wakeup period to find the best time for you to wake up so that tracking uses only a fraction of the battery consumption for the entire night. When the battery drops below your defined standby threshold (default: 10%), the battery saver mode will resume.

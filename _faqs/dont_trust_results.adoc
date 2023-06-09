@@ -7,12 +7,12 @@ tags:
   - graph
 ---
 
-Accelerometric sensors are really sensitive, which is great for sleep tracking. Normally, what you see when you leave the phone on the table gets immediately dwarfed when you do some more significant move. Just leave phone on the table for a while and you will see a dramatic development, but then move the phone and you will see all the development is really tiny in comparison to the new peak.
+Accelerometers are really sensitive, which is great for sleep tracking. Usually what you see when you leave the phone on the table is immediately dwarfed when you make a more significant movement. Just leave the phone on the table for a while and you will see a dramatic spike, but then move the phone and you will see that all the development is really tiny compared to the new peak.
 
-So what you see is random noise, given by very small vibrations of the table or in very calm areas by seismic movement. We mark the data relatively, so you always get it distinguished into light and deep sleep. But the algorithm works well only in conditions that are assumed by it, i.e. in the bed with relatively large movement peaks.
-To be more specific, if you leave the phone on a table, you can get values perhaps on the scale of 0.000001 to 0.000009 m/s2 (The value is made up here, but it is physically very small). In the bed, you may get values from 1 to 9 m/s2 (which is physically large). The algorithm sees though just that the high value is 9 times higher than the low value, in both cases.
-We had to do this because every accelerometer (in different cell phones) measures differently, so we couldn’t assume any standard conversion formula that would respond to absolute values.
+So what you see is random noise caused by very small vibrations of the table or in very quiet areas by seismic movement. We mark the data relatively, so you can always distinguish between light and deep sleep. However, the algorithm works well only in conditions, it assumes i.e. in the bed with relatively large movement peaks.
+To be more precise, if you leave the phone on a table, you may get values perhaps in the range of 0.000001 to 0.000009 m/s2 (the value is made up here, but it is physically very small). In the bed, you can get values from 1 to 9 m/s2 (which is physically large). However, the algorithm only sees that the high value is 9 times higher than the low value in both cases.
+We had to do this because each accelerometer (in different phones) measures differently, so we couldn't assume a standard conversion formula that responds to absolute values.
 
-So if you use the phone in the bed, it is in fact drastically different from measuring on a calm spot, just like the table.
+So if you use the phone in bed, it is indeed drastically different from measuring in a quiet place, like the table.
 
-Please do not hesitate to ask for any clarification at support@urbandroid.org. You can also read more about comparison of our data with the sleep lab results https://sleep.urbandroid.org/sleep-lab-comparison/[in this post].
+Please do not hesitate to contact support@urbandroid.org for clarification. You can also read more about how our data compares to sleep lab results at https://sleep.urbandroid.org/sleep-lab-comparison/[in this post].

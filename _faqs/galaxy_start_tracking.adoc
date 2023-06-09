@@ -9,9 +9,9 @@ tags:
 
 ---
 
-This can be a result of multiple things, so please make sure to do the following troubleshooting:
+This can be the result of several things, so please try the following troubleshooting steps:
 
-. Make sure you have Sleep as https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[Android Gear Addon] installed on your phone
-. It can happen that the addon cannot be started by us if it was force stopped previously. In that case please go to Play Store app on your phone, open https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[addon page] tap on “OPEN”.
-. Opt out of any battery savers that you might have on your phone, for all involved apps (Sleep as Android, Sleep as Android Gear Addon, Samsung Accessory Services) – to find out how to do that, please consult dontkillmyapp.com
-. Samsung Accessory services sometimes misbehaves and prevents connection to the watch for 3rd party apps. Please uninstall and reinstall it.
+. Make sure you have Sleep as https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[Android Gear Addon] installed on your phone and updated to the latest version.
+. It may happen that the addon can not be started by us if it was force stopped before. In this case, please go to the Play Store app on your phone, open https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[addon page], tap "OPEN".
+. Disable all battery savers on your phone for all involved apps (Sleep as Android, Sleep as Android Gear Addon, Samsung Accessory Services) - to find out how to do this, please visit dontkillmyapp.com
+. Samsung Accessory Services sometimes misbehaves and prevents 3rd party apps from connecting to the watch. Please uninstall and reinstall it.

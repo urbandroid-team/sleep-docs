@@ -7,9 +7,9 @@ tags:
 
 ---
 
-First, a good thing to have is *auto-delete*, which will delete your noises automatically after one week. This is enabled by default in _Settings -> Sleep noise analysis -> Automatic delete_ (might be hidden under Advanced section).
+The first food thing to have is *auto-delete*, which will automatically delete your noises  after one week. This is enabled by default in _Settings -> Sleep noise analysis -> Automatic delete_ (may be hidden in the Advanced section).
 
 . Go to the _Left_ ☰ _menu -> icon:ic_action_noise[] Noise
-. Long press on one of the recording and use *Delete all unstarred recordings*.
+. Long press on one of the recordings and use *Delete all unstarred recordings*.
 
-Also if you are getting too many noises from the night, you may consider a higher recording threshold in _Settings -> Sleep noise analysis -> Recording volume threshold_.
+Also, if you get too much noise recorded during the night, you can consider a higher recording threshold in _Settings -> Sleep noise analysis -> Recording volume threshold_.

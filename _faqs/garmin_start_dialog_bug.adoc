@@ -6,9 +6,9 @@ tags:
 - vivoactive
 ---
 
-This dialog is the only way to start a watch app from the phone. There's unfortunately no way to do it without that dialog.
+This dialog is the only way to start a watch app from the phone. Unfortunately, there's no way to do it without this dialog.
 
-However, there is a bug in Garmin firmware that breaks this dialog on Vivoactive watches.
+However, there is a bug in the Garmin firmware that breaks this dialog on Vivoactive watches.
 
-In that case please don't start sleep tracking from the phone.
-As a workaround, start sleep tracking from the watch (just start the app on watch and it will trigger sleep tracking on the phone).
+In this case, please don't start sleep tracking from the phone.
+As a workaround, start sleep tracking from the watch (just start the app on the watch and it will trigger sleep tracking on the phone).

@@ -5,14 +5,14 @@ tags:
 - graph
 ---
 
-There can be several reasons why your graphs are flat.
+There are several reasons why your graphs may be flat.
 
 .The actigraphy is almost flat
-When you can see some movement on the actigraphy, but the graph is unusually flat:
-. *Sonar* - make sure the signal is strong enough by keeping sonar volume at max at _Settings -> Sleep tracking -> Test sensor -> blue sliding bar_.
-- you can also try different frequency by choosing other frequency from the ddrop down menu list in _Settings -> Sleep tracking -> Test sensor -> Frequency_
-- keep the phone closer to you bed
-- try different positioning of the phone
+If you can see some movement on the actigraphy, but the graph is unusually flat:
+. *Sonar* - make sure the signal is strong enough by keeping the sonar volume at max at _Settings -> Sleep tracking -> Test sensor -> blue sliding bar_.
+- You can also try a different frequency by selecting other frequency from the drop-down menu list in _Settings -> Sleep tracking -> Test sensor -> Frequency_
+- Keep the phone closer to your bed.
+- Try different positions of the phone.
 . *Accelerometer* - try keeping the phone closer to you.
 
 .The actigraphy is flat, or red

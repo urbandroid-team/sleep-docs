@@ -5,6 +5,6 @@ tags:
 - request
 ---
 
-If you have any idea, how we could improve the app, please let us know and post your  the suggestion on our http://forum.urbandroid.org/c/feature-requests/l/votes[feature request forum].
-Please do a search for it first to check if it's already present - in that case please upvote it.
+If you have an idea on how we can improve the application, please let us know and post your suggestion on our http://forum.urbandroid.org/c/feature-requests/l/votes[feature request forum].
+Please do a search for it first to see if it's already there  - if it is, please upvote it.
 We use the feature request forum to prioritize our roadmap.

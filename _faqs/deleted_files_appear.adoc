@@ -8,6 +8,6 @@ tags:
 
 ---
 
-If you delete the graph from the Sleep app and it comes back later, check if the graph has icon:ic_cloud_upload[] icon. Those graphs are synced from external service - either Samsung Health of Google Fit.
+If you delete the graph from the Sleep app and it comes back later, check if the graph has icon:ic_cloud_upload[] icon. These graphs are synced from an external service - either Samsung Health, Health Connect, or Google Fit.
 
-If you delete the graphs there too, the they won't re-appear in the Sleep when you delete them.
+If you delete the graphs there too, the they won't reappear in the Sleep when you delete them.

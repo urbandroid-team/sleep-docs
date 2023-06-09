@@ -5,12 +5,12 @@ tags:
 - alarm
 ---
 
-You can disable an alarm before the alarm time, if you wake up naturally before the alarm rings.
+You can turn off an alarm before it goes off if you wake up naturally before the alarm goes off.
 
-. *From notification* - 1 hour before alarm time, the "Before alarm notification" appears in your notification bar; expand the notification and choose "Dismiss".
+. *From the notification* - 1 hour before the alarm time, the "Before alarm notification" will appear in your notification bar; expand the notification and select "Dismiss".
 
-. *From the tracking graph* - if you terminate the tracking, you can dismiss the alarm directly form the resulting graph.
+. *From the tracking graph* - if you stop tracking, you can dismiss the alarm directly from the Morning screen.
 
-. *From main screen* - long press on the alarm card, and select "Skip next".
+. *From the main screen* - long press on the alarm card, and select "Skip next".
 
-NOTE: Any of these options won't have any influence on future alarms - if you have repeating alarm, the alarm will ring at the next scheduled time.
+NOTE: None of these options will affect future alarms - if you have a repeating alarm, it will go off at the next scheduled time.
