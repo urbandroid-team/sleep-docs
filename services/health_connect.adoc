@@ -24,6 +24,7 @@ NOTE: Health Connect service is still in BETA.
 image::hc_1.png[role="left",title="In Sleep as Android, enable Settings -> Services -> Health Connect."]
 image::hc_2.png[role="left",title="Grant permissions to Sleep as Android"]
 image::hc_3.png[role="left",title="Tap the button to sync your data"]
+image::hc_5.png[role="left",title="You can go back to Settings. Health Connect is now enabled."]
 image::hc_4.png[role="left",title="Edit permissions if needed"]
 
 ****

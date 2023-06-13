@@ -19,13 +19,11 @@ _Settings -> Services -> Samsung Health_
 
 [.imgflexblock]
 ****
-image::shealth/1.png[role="left",title="Install Samsung Health, start it up."]
 image::shealth/2.png[role="left",title="In Sleep as Android, enable Settings -> Services -> Samsung Health."]
 image::shealth/3.png[role="left",title="Grant all permissions to Sleep as Android"]
 image::shealth/4.png[role="left",title="Tap the button to sync your data to S Health"]
 image::shealth/5.png[role="left",title="Uploading..."]
 image::shealth/6.png[role="left",title="You can go back to Settings. Samsung Health is now enabled."]
-image::shealth/7.png[role="left",title="You can see your sleep data in Samsung Health."]
 image::shealth/8.png[role="left",title="Detail of one tracked night."]
 ****
 
