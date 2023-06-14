@@ -51,7 +51,7 @@ a|*End date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end and not start
 
 *Sleep score pie charts*::
 - Sleep score pie charts are scrollable, and their order can be changed.
-- Read more details about sleep score in <</sleep/sleepscore,sleep score chapter>>.
+- Read more details about sleep score in <</sleep/sleepscore#,sleep score chapter>>.
 
 |===
 

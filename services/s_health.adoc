@@ -6,12 +6,12 @@ parent: /services/0parent.html
 ---
 :toc: macro
 
-Allows you to synchronize data between Sleep as Android and Google Fit.*
+Allows you to sync data between Sleep as Android and Google Fit.*
 
-- Automatic export of your sleep duration and times and heart rate into Samsung Health.
-- Automatic import of 3rd party sleep lengths and heart rate into Sleep.
-- Automatic synchronization of the _#sport_ tag based on your fitness activity recorded in Samsung Health.
-- Automatic import of walking sessions during the night (considered as awake, not considering sleep walking).
+- Automatically export your sleep duration, sleep times, and heart rate to Samsung Health.
+- Automatically import 3rd party sleep duration and heart rate into Sleep.
+- Automatically sync #sport tag based on your fitness activity recorded in Samsung Health.
+- Automatically import walking sessions during the night (considered as awake, not including sleep walking).
 
 _Settings -> Services -> Samsung Health_
 
@@ -29,10 +29,10 @@ image::shealth/8.png[role="left",title="Detail of one tracked night."]
 
 == Synchronization
 
-There are two sync methods:
+There are two synchronization methods:
 
-- normal sync: saves data for the past 2 weeks. Sync happens everytime sleep tracking ends, or when you create a sleep record manually. Also everytime you start the app, if a sync did not happen in the past 24 hours.
-- full sync: saves data for the past 5 years. Can be triggered from _Settings > Services > Samsung Health (you have to toggle off and on) > Upload (button in the lower right corner)_
+- *Normal sync*: stores the last 2 weeks of data. Sync happens every time sleep tracking ends or when you manually create a sleep record. Also every time you start the app, if no sync has happened in the last 24 hours and the phone is connected.
+- *Full sync*: stores the last 5 years of data. Can be triggered from Settings > Services > Samsung Health (you need to toggle off and on) > Upload (button in the bottom right corner).
 
 NOTE: Heart rate data are exported/imported only for the past 7 days in both normal and full sync (because they are computationally intensive).
 
