@@ -6,4 +6,4 @@ tags:
 - audiobook
 ---
 
-You are free to use any mp3 files you like or any player. With the feature *Turn off when sleping*, just start the playback in your favorite player. Lullaby volume down will take care to bring to volume down after you fall asleep. For more details refer to <</sleep/ lullaby#,Lullabies>>.
+You are free to use any mp3 file you like or any player. With the feature *Turn off when sleeping*, just start the playback in your favorite player. Lullaby volume down will take care to bring to volume down after you fall asleep. For more details, see <</sleep/ lullaby#,Lullabies>>.

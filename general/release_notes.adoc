@@ -7,7 +7,30 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20230505
+== Latest version 20230621
+
+*NEWS*
+
+* Day of month alarm scheduling (e.g. alarm every 5th day of the month)
+
+
+*Fixes and updates*
+
+* Hiding WiFi control settings on Android Q+ as this is no more possible, thanks Google!
+* Fix for alarm dismiss from notification on Android 12+
+* Twitter V2 support – without media
+* Fixes in Health Connect API
+* Potential fix for last used lullaby not updating
+* Fixed in ringtone picker – playlist vs. single mode
+* Auto-refreshing device default alarm ringtone every 8h
+* Fix for progress indicator on Tutorial screens
+* Fix for Bedtime card shown in case of short duration goals
+* Fix in Weather on morning screen to properly ask for location
+* DND missing permission warning on tracking screen
+* On-boarding for the full screen alarm option for better alarm usability
+
+
+== 20230505
 
 *NEWS*
 
