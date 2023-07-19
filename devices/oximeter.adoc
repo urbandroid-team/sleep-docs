@@ -25,6 +25,8 @@ _Settings -> Sleep tracking -> Wearables -> Pulse oximeter_
 .Pulse oximter
 image::oximeter.jpg[]
 
+Sleep as Android supports link:https://happyelectronics.eu/collections/biofeedback[StressLocator pulse oximeters] from Barrymed, with a customized firmware provided by Happy Electronics.
+
 ## Options
 [horizontal]
 Pulse Oximeter (Bluetooth):: Enable the feature for compatible oximeters.

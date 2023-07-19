@@ -53,7 +53,8 @@ image::oximeter.jpg[]
 
 == How to use Sleep as Android for Sleep Apnea pre-screening
 
-Sleep as Android supports link:https://www.happy-electronics.eu/shop/en/content/15-devices-to-determine-a-sleep-apnea[StressLocator pulse oximeters]. Simply pair your StressLocator device, enable _Settings – Wearables – Pulse Oximeter_, put the device on your finger and start sleep tracking.
+[[he_oxi]]
+Sleep as Android supports link:https://happyelectronics.eu/collections/biofeedback[StressLocator pulse oximeters]. Simply pair your StressLocator device, enable _Settings – Wearables – Pulse Oximeter_, put the device on your finger and start sleep tracking.
 
 In the morning Sleep as Android determines your RDI with the related severity scoring. Score over RDI >15 per hour is considered as a significant warning sign and visiting a sleep lab is highly recommended.
 
