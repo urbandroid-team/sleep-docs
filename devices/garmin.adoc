@@ -22,9 +22,13 @@ You will need to install the following apps:
 
 .On the watch
 . Install the current version of the watch app https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[thourgh the ConnectIQ Store] (Connect IQ 3.1 and higher).
-. Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Wearables -> Use wearables -> Garmin_.
-. For HR data, enable *Heart rate monitoring* in _Settings -> Wearables_.
+. Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Sleep tracking -> Wearables -> Use wearables -> Garmin_.
+. For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables_.
 . To start sleep tracking with your watch, tap _Start tracking_ on the <</ux/homescreen#,Homescreen>>.
+
+.If you have troubles with muted vibrations for lucid cues or anti-snoring alerts
+. On your wearable go to _Settings -> System -> Sleep mode_ and disable *DND while sleep*.
+. Make sure *Status notification* and *Allow vibrations* are enabled on the wearable in _Settings > Smart notification > notifications > Overall usage and apps > Apps_
 
 WARNING: You need to side-load a legacy version of the Sleep app, if your ConnectIQ is less than 3.1. https://sleep.urbandroid.org/more/garmin-legacy-watch-app-downloads/[Look here], find your model and put the corresponding file (Sleep.prg) onto your device, in /GARMIN/APPS folder
 

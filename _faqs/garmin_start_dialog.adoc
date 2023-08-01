@@ -5,6 +5,6 @@ tags:
   - garmin
 ---
 
-When initiating sleep tracking from the phone, you have to confirm a dialog on the watch, asking you whether you want to launch Sleep. To initiate connection between the watch and phone, we need to start the Sleep app on watch - however, as designed by Garmin, it is not possible to programmatically start an app on the watch without asking the user for consent.
+When initiating sleep tracking from the phone, you must confirm a dialog on the watch, asking you if you want to launch Sleep. To initiate the connection between the watch and the phone, we need to launch the Sleep app on the watch - but the way Garmin designed it, it is not possible to programmatically launch an app on the watch without asking the user for consent.
 
-It seems like a weird decision in the context of sleep tracking. The reason as stated by Garmin is that all ConnectIQ apps are treated as "activities", meaning actual physical activities, and that the watches only allow one app to run at the same time (no multitasking). You wouldn't want a random app to replace your current activity (say, that's recording your running in the middle of a marathon) and let you lose your data. Apparently we're gonna have to live with that :/
+This seems like an odd choice in the context of sleep tracking. The reason, as explained by Garmin, is that all ConnectIQ apps are treated as "activities," meaning actual physical activity, and the watches only allow one app to run at a time (no multitasking). You wouldn't want a random app to replace your current activity (say, recording your run in the middle of a marathon) and cause you to lose your data. Looks like we'll have to live with that :/.

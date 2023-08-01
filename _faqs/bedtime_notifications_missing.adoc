@@ -6,11 +6,11 @@ tags:
   - notification
 ---
 
-- Please note that bedtime notification is not shown when you have already started tracking.
+NOTE: Note that the bedtime notification will not be displayed if you have already started tracking.
 
 . Please make sure the notifications are allowed by the system in system´s _Settings -> Apps & Notifications -> Sleep -> Notifications -> Bedtime notification_
 
-. Check if you are not using <</alarms/bedtime#,Smart bedtime>>.
+. Check that you are not using <</alarms/bedtime#,Smart bedtime>>.
 
-. Set bedtime notification to 5 minutes before and than set an alarm to your duration goal time + 8 minutes. Than please wait for 3 minutes and if the notification will not show up, please send us the application log by using _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.
+. Set bedtime notification to 5 minutes before and then set an alarm to your duration target time + 8 minutes. Then please wait for 3 minutes and if the notification will not show up, please send us the application log by using _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.
 

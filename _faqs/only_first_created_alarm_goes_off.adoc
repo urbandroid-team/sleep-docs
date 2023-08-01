@@ -7,4 +7,5 @@ tags:
 
 - When multiple alarms are created close together, they might overlap each other.
 - If you created more alarms to make sure you are waken up, please note, that the app has a <</alarms/backup#,Backup alarm>> feature to make sure you are waken up.
+- You can limit snoozing, and configure <</alarms/captcha#,CAPTCHA task>> to prove you are already fully woken up.
 

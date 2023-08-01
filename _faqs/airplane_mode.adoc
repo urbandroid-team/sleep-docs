@@ -6,6 +6,6 @@ tags:
   - airplane
 ---
 
-Unfortunately due to dummy security restrictions the Android team introduced in 4.2 there is no option to enable airplane mode from an app automatically. You always have to use the settings or long touch power button. If you have a rooted phone you may consider using https://play.google.com/store/apps/details?id=lv.id.dm.airplanemh we have support for that in Sleep. There is a similar hack for 4.3.
+Unfortunately, due to security restrictions introduced by the Android team in 4.2, there is no way to automatically enable airplane mode from an app. You always have to go into settings or long press the power button. If you have a rooted phone you might consider using https://play.google.com/store/apps/details?id=lv.id.dm.airplanemh we have support for this in Sleep. A similar hack exists for 4.3.
 
-If you don’t agree with the Android team design decision you can upvote issue 40497 here http://code.google.com/p/android/issues/detail?id=40497.
+If you don't agree with the Android team's design decision, you can upvote issue 40497 here http://code.google.com/p/android/issues/detail?id=40497.

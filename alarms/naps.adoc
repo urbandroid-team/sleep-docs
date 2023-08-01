@@ -4,16 +4,19 @@ title: Naps
 nav_order: 2
 parent: /alarms/0parent.html
 ---
-*Schedule an alarm to trigger _after_ a certain amount of time rather than _at_ a certain hour and minute.*
+*Schedule an alarm to go off _after_ a certain amount of time instead of _at_ a certain hour and minute.*
 
 [EXAMPLE]
-Instead of scheduling the alarm for e.g. 7 AM, you can schedule an alarm to ring in 15 minutes from now.
+Instead of setting the alarm to go off at 7 a.m., you can set it to go off in 15 minutes.
 
-Add new a alarm using _icon:ic_alarm_plus[] -> Nap button_. You can select naps from 1 minute to 10 hours.
+Add a new alarm with icon:ic_alarm_plus[] -> NAP button. You can choose naps from 1 minute to 10 hours.
+
 
 
 [.imgflexblock]
 ****
-image::alarm_nap.png[role="left",title="Switch to naps."]
+image::alarm_nap.png[role="left",title="Switch to naps"]
 image::alarm_nap_2.png[role="left",title="Nap list"]
 ****
+
+NOTE: By default, nap alarms are deleted after they go off, but you can uncheck the <</alarms/alarm_settings#alarm_delete, Delete after ringing>> option in Alarm settings.

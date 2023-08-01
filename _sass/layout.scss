@@ -2,6 +2,12 @@
 // The basic two column layout
 //
 
+$nav-height: 77px;
+
+[id] {
+  scroll-margin-top: calc(1em + #{$nav-height}) ;
+}
+
 .page-wrap {
   @include mq(md) {
     position: absolute;
@@ -146,4 +152,11 @@ body {
     justify-self: end;
     background-color: var(--sidebar-color);
   }
+}
+
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  height: $nav-height;
 }

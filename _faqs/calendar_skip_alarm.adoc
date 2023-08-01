@@ -8,4 +8,5 @@ tags:
   - alarm
 ---
 
-If you are using the *Skip alarm for holiday* feature, SaA might offer to skip your next alarm even if there is no holiday in your country tomorrow. This is because we use Google public holiday calendar, which is sometimes wrong.
+If you use the *Skip alarm for holiday* feature, SaA may offer to skip your next alarm even if tomorrow is not a holiday in your country. This is because we use Google's holiday calendar, which is sometimes incorrect.
+You can cancel the skip if this is the case.

@@ -7,10 +7,15 @@ tags:
 - graph
 
 ---
-:toc:
+:toc: macro
 
-== What it is
+[[graph_explain]]
 *Sleep graph is the <</sleep/sleep_tracking_theory#sleep-outcome,main outcome of sleep tracking>> - it shows analysed data from all the <</sleep/sensors#,sensors>> that were used during the night.*
+
+---
+toc::[]
+:toclevels: 1
+
 
 == Sleep graph screen
 The graph screen shows up to three graphs:
@@ -46,7 +51,7 @@ a|*End date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end and not start
 
 *Sleep score pie charts*::
 - Sleep score pie charts are scrollable, and their order can be changed.
-- Read more details about sleep score in <</sleep/sleepscore,sleep score chapter>>.
+- Read more details about sleep score in <</sleep/sleepscore#,sleep score chapter>>.
 
 |===
 
@@ -149,7 +154,27 @@ icon:ic_action_dream[] Lucid dreaming
 
 |===
 
-== Guide
+[[morning_screen]]
+== Morning rating screen
+
+The first screen you see in the morning is *Morning briefing* and it offers you important information at a glance.
+
+NOTE: You can customize the screen in _Settings -> Personalize -> Morning screen_, see details <</ux/personalize#morning_screen_set, here>>.
+
+[horizontal]
+Sleep score:: See details in <</sleep/sleepscore#,sleep score chapter>>.
+Graph overview:: Simplified graph, tap to expand it to the <<graph_explain, full graph>>.
+Noise card:: Simplified noise level graph.
+Sensor card:: Simplified sensor data graph.
+Weather card:: MetNorway or OpenWeather data.
+Can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
+Dismiss:: If you end the tracking before alarm, you can simply dismiss the upcoming alarm.
+Rating:: Rate you sleep with stars to add important feedback for stats, or add <</sleep/tags#, tags>>.
+
+
+
+
+== Guides
 
 === Editing graphs
 For a guide on how to edit a graph, please see <</sleep/graph_edit#,Graph editing>>.

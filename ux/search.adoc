@@ -4,18 +4,14 @@ title: Search
 nav_order: 1
 parent: /ux/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Finds you anything inside Sleep as Android. Settings, documentation, alarms, sleep records...*
 
 We are aware that Sleep as Android is a very complex app. If you need anything done, then search is your best friend.
+That is why you find it on almost every screen inside Sleep as Android - in the top bar.
 
-== Where to find it
-In almost every screen inside Sleep as Android, there's a search box in the top bar.
 
-== Guide
-To search, tap into the search box and start typing.
 
 Search will search through:
 

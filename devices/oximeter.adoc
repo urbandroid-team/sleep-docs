@@ -15,15 +15,17 @@ The compatible oximeters are Berrymed oximeters with custom firmware. We did try
 
 Currently, only some Wear OS powered wearables can be used for SpO~2~ monitoring. Garmins and Galaxy watches are hopefully coming soon.
 
-NOTE: We have tested TicWatch 3. If you have Wear OS watch that can monitor SpO2, but this data are not collect by Sleep, please send us your application log (Left ☰ menu -> Report a bug) and we will use the information from the log for adding support for this watch too.
+NOTE: We have tested TicWatch 3. If you have Wear OS watch that can monitor SpO2, but this data are not collect by Sleep, please send us your application log (Left ☰ menu -> (?) Support -> Report a bug) and we will use the information from the log for adding support for this watch too.
 
 
 ## Where to find it
-_Settings -> Wearables -> Pulse oximeter_
+_Settings -> Sleep tracking -> Wearables -> Pulse oximeter_
 
 [[apnea-cpap]]
 .Pulse oximter
 image::oximeter.jpg[]
+
+Sleep as Android supports link:https://happyelectronics.eu/collections/biofeedback[StressLocator pulse oximeters] from Barrymed, with a customized firmware provided by Happy Electronics.
 
 ## Options
 [horizontal]
@@ -50,7 +52,7 @@ Now when you start sleep tracking, Sleep will connect to your oximeter to gather
 ### How to set up wearable
 
 . Make sure the wearable is connected properly, and corresponding option is enabled in _Settings -> Wearables -> Use wearable_.
-. Enable SpO2 data gathering in _Settings -> Wearables -> Pulse oximeter (Wear Os...)_.
+. Enable SpO2 data gathering in _Settings -> Sleep tracking -> Wearables -> Pulse oximeter (Wear Os...)_.
 
 ## Medical-grade home sleep apnea test (US only)
 

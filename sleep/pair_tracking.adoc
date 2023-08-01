@@ -6,19 +6,16 @@ parent: /sleep/0parent.html
 tags:
 - pair
 ---
+:toc: macro
 
-:toc:
 
-== What it does
 .Helps you to get a cleaner record of your sleep phases by combining the measurements from your and your partner’s phone, using any combination of sensors.
 
 Pair tracking uses two cooperating phones (your and your partner’s) simultaneously to filter out the partner’s activity and obtain clean separate activity records.
 
 If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.
 
-== Where to find it
 _Settings -> Sleep tracking -> Pair tracking_
-
 _Settings -> Sleep tracking -> Find partner_
 
 // ## Options
@@ -26,7 +23,7 @@ _Settings -> Sleep tracking -> Find partner_
 
 == Guide
 . Go to _Settings -> Sleep tracking_.
-. First, enable pair tracking by ticking the option _Pair tracking_.
+. First, enable pair tracking.
 . Then you need to pair the phones, i.e. tell them that they should cooperate during sleep tracking. Tap on _Find partner_ simultaneously on the both phones.
 +
 [[figure-pair_tracking_1]]
@@ -50,9 +47,9 @@ image::pair_3.png[]
 
 When you go to bed, you start sleep tracking as usually, and so does your partner. There is no need to start the tracking simultaneously, just use the app as you used to. During sleep tracking, the phones attempt to connect to each other and exchange their activity data, so that each phone also has a full record of the partner’s activity. From the two datasets, we are able to discount the partner’s activity and extract a clean actigraph for each sleeper. For the time periods when the partner phone is not reachable, tracking works just like it used to, calculating everything just from its local recording.
 
-Sleep records where pair tracking was used for at least a part of the night are tagged with a new “#pair” tag and a icon:ic_pair[] pair icon.
+NOTE: Sleep records where pair tracking was used for at least a part of the night are tagged with a new “#pair” tag and a icon:ic_pair[] pair icon.
 
 If you sleep alone temporarily, you may disable pair tracking, and it may save a bit of energy. The impact of pair tracking on battery consumption is however negligible.
 
-== Troubleshooting
+//== Troubleshooting
 // To be used for automatic rendering of related FAQs

@@ -8,8 +8,8 @@ tags:
 - wearable
 ---
 
-On Wear OS platform and ONE UI Watch (Galaxy Watch 4 + 5), we use gentle vibrations for even more natural wake up.
-It starts with a single vibe, another in 30s, than again in 20s and so on. After few minutes the vibrations will be continuous.
+On the Wear OS platform and ONE UI Watch (Galaxy Watch 4 + 5), we use gentle vibrations for an even more natural wake up.
+It starts with a single vibration, another in 30s, then again in 20s and so on. After a few minutes, the vibrations become continuous.
 
-If you are worried this won't be enough, you can set a <<alarms/alarms_settings/sound_delay#, delayed start of alarm sound>> on the phone. And there is always <</alarms/backup#,the backup alarm>>.
+If you're worried that's not enough, you can set a <<alarms/alarms_settings/sound_delay#, delayed start of alarm sound>> on the phone. And there is always <</alarms/backup#, the backup alarm>>.
 

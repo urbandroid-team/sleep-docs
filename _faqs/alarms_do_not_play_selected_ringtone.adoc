@@ -7,9 +7,9 @@ tags:
 ---
 
 Loading of the selected file may have failed::
-. Make sure that you have selected the correct ringtone - check <</alarms/alarm_settings#per-alarm,per-alarm settings>> and Alarm default settings.
-. Check if the file has not been moved or deleted and that SD card is available at the time of the alarm.
-. Check that the app has storage permission to access that file.
+. Make sure that you have selected the correct ringtone - check the Alarm default settings in _Settings -> Alarms -> Sound_, or the settings of each alarm.
+. Check that the file has not been moved or deleted and that SD card is available at the time of the alarm.
+. Check that the app has storage permission to access the file.
 
-Online service (Spotify, Google Music, online radio) may not have responded:: When the service is not responding for too long, the app uses a build-in ringtone.
-When alarm starts and your phone is locked we are unable to change the playlist or album in your Spotify app. In this case the app will play simply where you last left it.
+Online service (Spotify, Google Music, online radio) may not be responding:: If the service is not responding for too long, the app will use a built-in ringtone.
+If the alarm starts and your phone is locked we are unable to change the playlist or album in your Spotify app. In this case the app will simply play where you last left it.

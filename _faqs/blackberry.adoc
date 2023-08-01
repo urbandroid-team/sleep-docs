@@ -6,6 +6,6 @@ tags:
   - blackberry
 ---
 
-Sleep as Android is not officially supported on Blackberry. However, a lot of users have reported running it without any hassle.
+Sleep as Android is not officially supported on Blackberry. However, many users have reported running it without any problems.
 
-Often an issue is when you try to unlock Sleep as Android. You won’t be able to install the “Sleep as Android Unlock” app from the Play Store. A working solution is to buy the unlock and then send us a proof of purchase and application log (use _Left_ ☰ menu -> icon:ic_bug[] Report a bug). We’ll unlock the app specifically for your phone.
+A common problem is when you try to unlock Sleep as Android. You won't be able to install the "Sleep as Android Unlock" app from the Play Store. A working solution is to buy the unlock and then send us a proof of purchase and application log (use _Left_ ☰ menu -> (?) Support -> icon:ic_bug[] Report a bug). We'll unlock the application specifically for your phone.

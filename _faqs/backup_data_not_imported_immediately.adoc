@@ -5,7 +5,7 @@ tags:
   - backup
 ---
 
-If you moved a `sleep-export.zip` file to your new phone and did not import the file before the app created a new sleep record, the app has replaced your `sleep-export.zip`. The old `sleep-export.zip` file was renamed to `sleep-export.backup.zip`.
+If you moved a `sleep-export.zip` file to your new phone and did not import the file before the app created a new sleep record, the app has replaced your `sleep-export.zip`. The old `sleep-export.zip` file has been renamed to `sleep-export.backup.zip`.
 
 To restore the old data:
 

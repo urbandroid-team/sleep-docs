@@ -6,11 +6,11 @@ tags:
   - ringtone
 ---
 
-Battery optimization was enabled::
-- When battery optimization is enabled, vibrations do not work, so the app is loading the built-in ringtone to ensure your wake up.
+Battery optimization has been enabled:::
+- When battery optimization is enabled, vibrations do not work, so the app loads the built-in ringtone to make sure you wake up.
 . Check _Settings -> Sleep tracking -> Battery optimized_.
 . Do not enable *Save battery* option from the _Tracking screen -> Stop and save pull up menu -> Save battery_.
 
-Phone was rebooted::
-- When the phone screen is locked after a reboot, the app cannot load any files.
-- The phone rings with the build-in ringtone and vibrates.
+Phone has been restarted::
+- If the phone screen is locked after a restart, the app cannot load any files.
+- The phone will ring with the built-in ringtone and vibrate.

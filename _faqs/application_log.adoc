@@ -6,15 +6,15 @@ tags:
 - bug
 ---
 
-If you found any error, mistake, fault, or unexpected wrong behaviour, please let us know.
+If you have found a bug, error, or unexpected behavior, please let us know.
 
 . Open _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.
-. Describe your troubles briefly, with key words.
-. Tap _SEND REPORT_ button.
-. The app will generate few files.
-. Choose your email client from the menu, that automatically appears.
-. In the email body, you can described your issue in details. Ideally a description what exactly is happening and brief steps to reproduce it.
+.     Briefly describe your problem using keywords.
+. Tap the _SEND REPORT_ button.
+. The application will generate some files (crash_report is the most important).
+. Choose your email client from the menu, that appears automatically.
+. In the email body you can describe your problem in detail. Ideally a description of what exactly is happening and short steps to reproduce it.
 . Send the log. The recipient is already filled in.
-. Done! Many thanks!
+. Done! Thank you very much!
 
 video::6T_EL6DgKO8[youtube]

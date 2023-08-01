@@ -4,27 +4,25 @@ title: Left ☰ menu
 nav_order: 3
 parent: /ux/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Left ☰ menu is an expandable menu for easy navigation and quick access to features.*
-
-== Where to find it
 
 Tap ☰ icon in the upper left corner or swipe from the left to expand the menu.
 
 [NOTE]
 On phones with gesture navigation you need to tap and hold instead of the swipe to access the menu.
 
-
-== Options
-
 The content of the Left menu might be influenced by the type of home screen.
 
-. In *Tabs home screen*, the options shown as tabs are hidden. If Dashboard tab is diasbled, shortcuts are added to the Left menu.
+. In *Tabs home screen*, the options shown as tabs are hidden. If Dashboard tab is disabled, shortcuts are added to the Left menu.
 . In *Alarms only mode*, the tracking related features are hidden, if there is no tracking history.
 
-=== Chronotype
+---
+toc::[]
+:toclevels: 1
+
+== Chronotype
 
 Based on your sleep patterns in tracking history, the app will determine your chronotype and shows you the icon in the Left menu - either you are morning lark, or night owl.
 
@@ -42,57 +40,93 @@ To read more about chronotype, see our documentation on
 <</sleep/chrono_jetlag#,social jetlag>>.
 
 
-=== Sleep as Android
+== Sleep as Android section
 
-[horizontal]
-icon:ic_dashboard[] Dashboard:: Opens <</ux/hs_dashboard#,Dashboard>> in Tabs mode.
-icon:ic_alarm[] Alarms:: Opens <</homecreen#,List of alarms>>.
-icon:ic_timelapse[] Stats:: Opens <</sleep/charts#,Statistics section>>.
-icon:ic_action_graph[] Graphs:: Opens <</sleep/sleep_graph#,Graph section>>.
-icon:ic_action_stats[] Chart:: Opens <</sleep/charts#,Charts section>>.
-icon:ic_lightbulb[] Advice:: Opens <</sleep/advice#,Advice>>.
-icon:ic_goal[] Goal:: Opens <</sleep/goals#,Goals>>.
-icon:ic_action_noise[] Noise:: Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
+=== icon:ic_dashboard[] Dashboard
+Opens <</ux/hs_dashboard#,Dashboard>> in Tabs mode, if you do not have Tabs showing.
+
+=== icon:ic_alarm[] Alarms
+Opens <</homecreen#,List of alarms>> in Dashboard mode.
+
+=== icon:ic_timelapse[] Stats
+Opens <</sleep/charts#,Statistics section>>.
+
+=== icon:ic_action_graph[] Graphs
+Opens <</sleep/sleep_graph#,Graph section>>.
+
+=== icon:ic_action_stats[] Chart
+Opens <</sleep/charts#,Charts section>>.
+
+=== icon:ic_lightbulb[] Advice
+Opens <</sleep/advice#,Advice>>.
+
+=== icon:ic_goal[] Goal
+Opens <</sleep/goals#,Goals>>.
+
+=== icon:ic_action_noise[] Noise
+Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
+
+=== icon:ic_action_lullaby[] Lullaby
+A shortcut to <</sleep/lullaby#, lullaby section>>.
 
 
-=== Home screen
+== Home screen section
 
-For mode details on Home screen, please see the <</ux/hs_dashboard#,Dashboard>>, <</ux/hr_tabs#,Tabs>>, and <</ux/hs_alarms_only#,Alarms only mode>>.
+=== icon:ic_dashboard[] Dashboard
+Presents all options in cards, see <</ux/hs_dashboard#, details about Dashboard>>.
 
-[horizontal]
-icon:ic_dashboard[] Dashboard:: Presents all options in cards.
-icon:ic_tab[] Tabs:: Presents all option in tabs, list of alarm is the main screen.
-icon:ic_action_track_off_white[] Alarms:: Simplified mode without any tracking-related settings.
+=== icon:ic_tab[] Tabs
+Presents all option in tabs, list of alarm is the main screen, see <</ux/hr_tabs#,details about Tabs>>.
+
+=== icon:ic_action_track_off_white[] Alarms only
+Simplified mode without any tracking-related settings, read more in <</ux/hs_alarms_only#,Alarms only mode>> chapter.
 
 
-=== Shortcuts
+== Shortcuts section
 
 Available only in Tabs home screen mode. All the shortcuts from this menu can be used for creating widgets on main screen screen - see  <</ux/widgets#, how to do it>>.
 
+=== icon:ic_action_track[] Start sleep tracking
+Starts sleep tracking.
+
+=== icon:ic_action_bedtime[] Sleep X hours
+Starts sleep tracking with and alarm based on your daily sleep duration goal (+ smart period and tracking start delay). See <</sleep/ideal_daily_sleep#,Ideal daily sleep income>> on how to configure this.
+
+=== icon:ic_action_snooze[] Nap X min
+Schedules a nap and starts tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied. Nap options are based on your last used naps, see <</sleep/ideal_daily_sleep#,Scheduling a nap alarm>>.
+
+=== icon:plus[] Add sleep
+For adding a period of sleep manually, when you forgot to track sleep.
+
+=== icon:ic_alarm_plus[] Add alarm
+Creates a new alarm.
+
+== Support section
+
+
+=== icon:ic_help_q[] Support
+Opens help-assistance dialogue.
+
 [horizontal]
+ icon:ic_information[] Documentation:: Opens this online documentation at https://docs.sleep.urbandroid.org/.
+ icon:ic_information[] FAQ:: Opens Frequently Asked Question section in the documentation - you can use the search box at the top to find the answer to your questions.
+ icon:ic_information[] Tutorial:: Reopens the onboarding tutorial.
+ icon:ic_action_play[] Watch video:: Opens https://youtu.be/6HHYxnvIPA0[YouTube promotion video].
+ icon:ic_help[] Forum:: Opens our https://forum.urbandroid.org[users forum]
+ icon:ic_help[] Contact support:: Opens mailto:support@urbandroid.org[a mail to our support email support@urbandroid.org].
+ icon:ic_gift[] Release notes:: Opens <</general/release_notes#,Release notes>> with Latest changes in Sleep and new added features.
+ icon:ic_bug[] Report a bug:: Generates an application log that can be shared with our support team to help you with any issue. Don't hesitate to tell us what's not working properly. We're eager to fix it!
+ icon:ic_bug[]Send a wearable report:: Generates a log for debugging troubles with some wearables - Garmin, Samsung.
 
-icon:ic_action_track[] Start sleep tracking:: Starts sleep tracking.
-icon:ic_action_bedtime[] Sleep X hours:: Starts sleep tracking with and alarm based on your daily sleep duration goal (+ smart period and tracking start delay). See <</sleep/ideal_daily_sleep#,Ideal daily sleep income>> on how to configure this.
-icon:ic_action_snooze[] Nap:: Schedules a nap and starts tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied. Nap options are based on your last used naps, see <</sleep/ideal_daily_sleep#,Scheduling a nap alarm>>.
-icon:plus[] Add sleep:: For adding a period of sleep manually, when you forgot to track sleep.
-icon:ic_alarm_plus[] Add alarm:: Create new alarm.
+=== icon:ic_cloud_upload[] Backup
+Opens back up dialogue - for more details on Back up, see <</services/backup_data#,Backup>>.
 
-=== Support
+=== icon:ic_share_variant[] Tell friends
+You can tell your friends about your experience with Sleep as Android.
 
-[horizontal]
-icon:ic_help_q[] Support:: Opens help-assistance dialogue.
- icon:ic_information[] Documentation
- icon:ic_information[] FAQ
- icon:ic_information[] Tutorial
- icon:ic_action_play[] Watch video
- icon:ic_help[] Forum
- icon:ic_help[] Contact support
- icon:ic_gift[] Release notes (Latest changes in Sleep and new added features)
- icon:ic_bug[] Report a bug (Generates an application log that can be shared with our support team to help you with any issue. Don't hesitate to tell us what's not working properly. We're eager to fix it!)
- icon:ic_bug[] Send a wearable report (Generates a log for debugging troubles with some wearables - Garmin, Samsung).
+=== icon:ic_translate[] Translate app
+Can you help us translating Sleep as Android? Also see <</general/translation#,Translation>>.
 
-icon:ic_cloud_upload[] Backup:: Opens back up dialogue - for more details on Back up, see <</services/backup_data#,Backup>>.
-icon:ic_share_variant[] Tell friends:: You can tell your friends about your experience with Sleep as Android.
-icon:ic_translate[] Translate app:: Can you help us translating Sleep as Android? Also see <</general/translation#,Translation>>.
-icon:ic_text[] Terms of use:: You can read terms of use here - if you have any question or doubts, please contact us at support@urbandroid.org.
+=== icon:ic_text[] Terms of use
+You can read <</general/terms_of_use#, our terms of use>> here - if you have any question or doubts, please contact us at support@urbandroid.org.
 

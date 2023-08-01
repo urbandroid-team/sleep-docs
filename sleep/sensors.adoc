@@ -7,25 +7,27 @@ tags:
 - tracking
 - sonar
 ---
-:toc:
+:toc: macro
 
 *Sleep as Android measures your sleep using various sensors. You can use sensors that are in your phone, or purchase additional devices and use their sensors, or use a combination.*
+
+---
+toc::[]
+:toclevels: 1
+
 
 == Motion sensors
 *Basic sleep tracking is done using a motion sensor.*
 
-[horizontal]
-Accelerometer:: Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see <</devices/wearables#,Smartwatch and Wearables>>.
-Sonar:: Our invention — the sonar — uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions. <<sonar, Read more>> about Sonar.
-PIR:: Passive infrared sensor is mounted on the <</devices/sleep_phaser#,Sleep Phaser>> and can detect breath rate in addition to coarse movement.
+=== Accelerometer
+Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see <</devices/wearables#,Smartwatch and Wearables>>.
 
-See <</sleep/sleep_tracking#how-to-track-sleep, How to track sleep>> for details on optimal setup of your sensor in the bedroom for best results.
-
-== Sonar
-
-Sonar brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed.
+=== Sonar
+Our invention — the sonar — brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed. It uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.
 
 You don’t need any new hardware for that – everything is already in your smartphone: microphone, speaker, and required computing power.
+
+Sonar can use different frequencies, you can change the frequency in Test sensor section - see <<sonar_testing, sonar testing section>> bellow.
 
 During tracking with sonar the phone produces ultrasonic signal (which cannot be heard by most). Even tiny movements distort the reflected signal which allows us to track them when we record them with the microphone.
 
@@ -33,12 +35,25 @@ On many devices Sonar tracking is so precise we are even able to track your abdo
 
 NOTE: Sonar won't work with connected headphones.
 
+
 WARNING: The sonar sensor might not work on Android 11, when the tracking is started automatically due to changes in the permissions - apps running in the background cannot ask for the mic.
 To workaround this we would need to have the "Draw over other apps permission" and start a transparent short lived screen before we start the sleep tracking service.
 Please see the history of the issue here:
 https://issuetracker.google.com/issues/162913367
 
-== Heart rate sensors
+[horizontal]
+Sensitivity:: The slider changes the strength - the higher the sensitivity, the higher the strength
+Frequency:: Choice of different frequency of the sonar signal
+
+=== PIR
+Passive infrared sensor is mounted on the <</devices/sleep_phaser#,Sleep Phaser>> and can detect breath rate in addition to coarse movement.
+
+See <</sleep/sleep_tracking#how-to-track-sleep, How to track sleep>> for details on optimal setup of your sensor in the bedroom for best results.
+
+
+== Body sensors
+
+=== Heart rate sensors
 *Heart rate is used to better distinguish awake state.*
 
 See <</sleep/heart_rate#,Heart rate>> docs.
@@ -52,3 +67,46 @@ See <</sleep/breath_rate#,Breath rate>> docs.
 *Ambient light sensors that are present in nearly every smartphone measure the level of ambient light in your bedroom.*
 
 See <</sleep/light_level#,Light level detection>> docs.
+
+== Testing sensor
+
+_Settings -> Sleep tracking -> Test sensor_
+
+You can test sensor function - we recommend testing it especially when using sonar, to make sure sonar is supported on your device.
+You should see a green graph, reacting to your movement. The label of the graph tells you, which sensor is used for this test - this sensor will be used during the sleep tracking.
+
+=== Accelerometer testing
+
+Accelerometer sensor is a system sensor, so there are rarely issues with this sensors.
+
+[[test-sensor-accel]]
+.Successful accelerometer test
+image::accel_test.png[]
+
+
+[[sonar_testing]]
+=== Sonar testing
+Sonar testing screen allows you to test the capability of your phone to produce the signal, the strength of the sonar signal, and also changing the sonar properties - the frequency and the sensitivity.
+
+Sonar testing screen is always labelled as "Testing sensor: Sonar".
+
+[horizontal]
+Sensitivity:: The slider changes the strength - the higher the sensitivity, the higher the strength
+Frequency:: Choice of different frequency of the sonar signal
+Signal strength:: The number you see in the middle of the screen is strength of the signal - the higher th better.
+
+[[test-sensor-sonar-ok]]
+.Successful sonar test
+image::sonar_test.png[]
+
+
+[[test-sensor-sonar-fail]]
+.UNsuccessful sonar test
+image::sonar_test_fail.png[]]
+
+
+
+
+
+
+=== Wearable sensor testing

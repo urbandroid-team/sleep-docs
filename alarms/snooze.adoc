@@ -7,31 +7,46 @@ tags:
 ---
 :toc: macro
 
-*Snoozes delay your wake up if you do not yet feel rested on alarm time.*
+*Snooze will delay your wake up if you do not feel rested at alarm time.*
 
-After hitting a snooze button on alarm screen, you get an additional period of sleep, and alarm time is postponed.
-You can also limit snoozing in various ways to prevent oversleeping.
+After hitting a snooze button on the alarm screen, you get an additional period of sleep, and the alarm time is postponed.
+You can also limit snoozing in several ways to prevent oversleeping.
 
-* _Settings -> Alarms -> Snooze_
-* <</alarms/alarm_settings#per-alarm, Alarm-specific settings>>
+_Settings -> Alarms -> Snooze_
+_Alarm-specific settings_
+
+[EXAMPLE]
+The alarm goes off at 5:30, and it wakes you up at 5:33.
+But you decide to have some more sleep for a few minutes and you hit the 10 snooze button.
+The alarm goes off again at 5:43 (5:33 + 10 minutes snooze).
 
 ---
-//toc::[]
-//:toclevels: 3
+toc::[]
+:toclevels: 3
 
 
-== Options
-[horizontal]
-Snooze duration:: Default snooze time on alarm screen. This appears on the big [color-green]#Snooze button#. If you enable _Changing snooze time_ there are additional snooze options as well.
-Maximum total snooze time:: The maximum total time you are allowed to snooze. When this total time is reached, you can only use _Dismiss_.
-Snooze limit:: The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are not shown.
-Halve the Snooze:: Each consecutive snooze duration is halved.
-+
-EXAMPLE::At first the default snooze time is 10 minutes. After snoozing for 10 minutes it becomes 5 minutes, than 3 minutes and so on...[]
-+
+== Snooze duration
+Default snooze time on alarm screen. This appears on the big [color-green]#Snooze button#. If you enable _Changing snooze time_ there are additional snooze options as well.
+
+== Maximum total snooze time
+The maximum total time you are allowed to snooze. When this total time is reached, you can only use _Dismiss_ on the alarm screen.
+
+== Snooze limit
+The maximum count of snoozes you are allowed. When this number is reached, you can only dismiss the alarm, the green _Snooze_ are not shown.
+
+== Halve the Snooze
+Each consecutive snooze duration is halved.
+
+[EXAMPLE]
+At first the default snooze time is 10 minutes. After snoozing for 10 minutes it becomes 5 minutes, than 3 minutes and so on...
+
+
 [[snooze-change]]
-Changing snooze time:: When enabled, a selection of different snooze durations occurs on the alarm screen in addition to the default snooze time.
-Snooze after alarm time:: Snoozing is be completely disabled after the set alarm time is reached (Does not have effect with disabled <</alarms/smart_wake_up#, Smart wake up>>)
-+
-EXAMPLE::If your alarm is set to 7:00 and due to Smart wake up it rings at 6:57, the maximum snooze duration is 3 minutes.[]
-+
+== Changing snooze time
+When enabled, a selection of different snooze durations occurs on the alarm screen in addition to the default snooze time.
+
+== Snooze after alarm time
+Snoozing is be completely disabled after the set alarm time is reached (Does not have effect with disabled <</alarms/smart_wake_up#, Smart wake up>>)
+
+[EXAMPLE]
+If your alarm is set to 7:00 and due to Smart wake up it rings at 6:47, the maximum snooze duration is 13 minutes.

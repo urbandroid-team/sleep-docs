@@ -4,77 +4,117 @@ title: Personalization
 nav_order: 2
 parent: /ux/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Allows you to choose color of the graphs, theme, sort your alarms... and much more.*
-
-== Where to find it
 
 _Settings -> Personalize_
 
-== Options
+---
+toc::[]
+:toclevels: 2
+
+== Stats
+
+See <</sleep/statistics#, Statistics chapter>>.
+
+== Privacy
+
+See <</general/privacy#, Privacy chapter>>.
+
+== Home screen
+Chooses the Home screen mode (<</ux/hs_dashboard#,Dashboard>>,  <</ux/hs_tabs#,Tabs>>. or  <</ux/hs_alarms_only#,Alarms only>>).
+
+== Show Tabs
+Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).
+
+[[morning_screen_set]]
+== Morning screen
+
+You can choose from three screen you see in the morning after tracking, or you can disable the morning screen completely:
+[horizontal]
+Morning briefing:: See <</sleep/how_to_read_sleep_graphs#morning_screen, the chapter on Morning screen>>.
+Graphs:: The app opens the full graph directly.
+Dashboard:: The app opens the main screen of the app.
+Disabled:: No screen is opened when you finish the tracking.
+
+You can further customize the the morning briefing:
 
 [horizontal]
-Home screen:: Chooses the Home screen mode (<</ux/hs_dashboard#,Dashboard>>,  <</ux/hs_tabs#,Tabs>>. or  <</ux/hs_alarms_only#,Alarms only>>).
-Show Tabs:: Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).
-* *Dashboard* - adds the Dashboard as a tab.
-* *Stats* - adds SleepScore and stats as a tab.
-* *Graphs* - adds a list of sleep tracking graphs.
-* *Noise* - adds a list of noises as a tab.
-Theme:: You can choose a theme (background color of the app):
-* *Automatic* (Android OS) - Follows the switching of changing dark / light themes by your system.
-* *Automatic* (Bedtime) - Uses dark theme between bedtime and sunrise.
-* *Night owl* - Dark theme (black background, white font) all the time.
-* *Morning lark* - Light theme (white background, black font) all the time.
-* *Device settings* - Follows your system settings.
-Color palette (Graphs):: You can choose 7 different color palettes for your graphs:
+Weather:: Hides the weather tile.
+Automatic sleep tagging:: Enables <</sleep/tags#tags_auto, automatic tags>>.
+Hide stats before rating:: Will hide the sleep tracking results till you rate your sleep - enable if you feel that seing the results may influence your rating.
+
+== Theme
+You can choose a theme (background color of the app):
+
+[horizontal]
+Automatic (Android OS):: Follows the switching of changing dark / light themes by your system.
+Automatic (Bedtime):: Uses dark theme between bedtime and sunrise.
+Night owl::  Dark theme (black background, white font) all the time.
+Morning lark:: Light theme (white background, black font) all the time.
+Device settings:: Follows your system settings.
+
+== Color palette (Graphs)
+You can choose 7 different color palettes for your graphs:
+
 video::color.mp4[width=400, options=autoplay]
-* *Default* - The current default on new installations (a color may vary!).
-* *Teal* - Teal really is the best color, it's cyan-tiffically proven.
-* *Green* - Yoda green forever!
-* *Blue* - Feeling blue?
-* *Purple* - Been born in the purple?
-* *Miscellaneous* - A combination of blue, teal, and yellow, to match your colorful personality.
-* *Legacy* - Original graph palette from the good old times.
 
-Screen transition animations:: Disables animations (for search bar, bar, graphs, stats...)
-Text to speech:: If enabled, Sleep will tell you when it’s time to go to bed, wish you goodnight when you start sleep tracking, tell you it’s time to wake up when the alarm rings, and tell you weather in the morning, after you dismiss the alarm.
-The app uses the system TTS engine. You can change your preferred voice in the system settings -> Accessibility -> Text-to-speech output.
-
-
-.Localization
 [horizontal]
-Force English:: Set app language to English, regardless of your system locale.
-Temperature:: Choose temperature units for weather:
-- *Default* - uses the phone's default format
-- *°C*
-- *°F*
-Start week on:: Choose which day is the first day of a week:
-- *Device default* - the app follows your system locale.
-- *Sunday*
-- *Monday*
-- *Saturday*
-- *Friday*
+Default:: The current default on new installations (a color may vary!).
+Teal:: Teal really is the best color, it's cyan-tiffically proven.
+Green:: Yoda green forever!
+Blue:: Feeling blue?
+Purple:: Been born in the purple?
+Miscellaneous:: A combination of blue, teal, and yellow, to match your colorful personality.
+Legacy:: Original graph palette from the good old times.
 
-Time format:: Choose the format of the time in the app:
-- *Device default* - uses the format set in system settings
-- *13:00* - 24 hour time format
-- *1:00* - 12 hour time format
-- *1:00 PM* - AM / PM format
+== Screen transition animations
+Disables animations (for search bar, bar, graphs, stats...)
+
+[[tts]]
+== Text to speech
+If enabled, Sleep will tell you when it’s *time to go to bed*, wish you *goodnight* when you start sleep tracking, tell you *it’s time to wake up* when the alarm rings, and tell you *weather* in the morning, after you dismiss the alarm.
+
+The app uses the system TTS engine. You can change your preferred voice in the _system settings -> Accessibility -> Text-to-speech output_.
+
+== Force English
+Set app language to English, regardless of your system locale.
 
 
-.Alarms
+== Temperature
+Choose temperature units for weather, *Default* option follows your system.
+
+== Start week on
+Choose which day is the first day of a week, *Device detauls* option follows you system locale.
+
+
+== Time format
+Choose the format of the time in the app:
 [horizontal]
-Alarm sorting:: Sort alarms in alarm list based either on time or day.
-- *Day* - default value
-- *Time* - all your alarms will be sorted by time regardless on which day are they scheduled to ring.
-Analog time picker[[analog-picker]]:: A round analog clock time picker will be shown when creating new alarms instead of the digital one.
-Material time picker[[material-picker]]:: A round analog clock time picker from Google Material You design.
+Device default:: Uses the format set in system settings
+13:00::  24 hour time format
+1:00:: 12 hour time format
+1:00 PM:: AM / PM format
 
-.Advanced
+== Alarm sorting
+Sort alarms in alarm list based either on time or day.
 [horizontal]
-Release notes:: If disabled, you won't be seeing release notes card/dialog when Sleep is updated to a new version. To check the release notes at will, tap _Left ☰ menu -> icon:ic_help[] Support -> Release notes_.
-Show advanced settings:: All advanced Settings are expanded on all settings screens.
-Hide droid avatar:: Hides the Droid on the home screen. It's probably not the Droid you were looking for.
+Day:: Default value, alarms are sorted based on they day
+Time:: All your alarms will be sorted by time regardless on which day are they scheduled to ring.
+
+== Analog time picker[[analog-picker]]
+A round analog clock time picker will be shown when creating new alarms instead of the digital one.
+
+== Material time picker[[material-picker]]
+A round analog clock time picker from Google Material You design.
+
+== Release notes
+If disabled, you won't be seeing release notes card/dialog when Sleep is updated to a new version. To check the release notes at will, tap _Left ☰ menu -> icon:ic_help[] Support -> Release notes_.
+
+== Show advanced settings
+All advanced Settings are expanded on all settings screens.
+
+== Hide droid avatar
+Hides the Droid on the home screen. It's probably not the Droid you were looking for.
 

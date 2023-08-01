@@ -4,16 +4,18 @@ title: Advice
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What it does
 *Advice shows your current sleep development at a glance.*
 
 You can see which dimensions of your sleep have improved or worsened recently, including tips on how to reverse the worsening trends.
 
-== Where to find it
-- *Left ☰ menu -> Advice*
-- From the <</ux/homescreen#advicecard,Advice>> dashboard card.
+_Left ☰ menu -> Advice_
+_From the <</ux/homescreen#advicecard,Advice>> dashboard card_
+
+---
+toc::[]
+:toclevels: 3
 
 == General description
 Advice watches recent trends in the main sleep dimensions (Duration, Irregularity, Deep sleep %, Snoring, Social jet-lag...).

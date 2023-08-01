@@ -4,23 +4,31 @@ title: Chronotype, Social jetlag, Sleep irregularity
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc:
+:toc: macro
 
-== What is it
-*Sleep as Android watches your sleep pattern trends and can tell you your <<chronotype>>, <<social-jet-lag>> and <<sleep-irregularity>>.*
+*Sleep as Android watches your sleep pattern trends and can tell you your chronotype, social-jet-lag and sleep-irregularity.*
+
+
+---
+toc::[]
+:toclevels: 1
+
 
 == Chronotype
-Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark.
+*Chronotype* is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark.
+
+[horizontal]
+*Night owl*:: tends to stay up active until late night, usually past midnight, and wake up later. https://en.wikipedia.org/wiki/Night_owl_(person)[Wikipedia].
+*Morning lark*::
+Named after a bird who rises very early in the morning. A human lark is a person who usually gets up early and feels most energetic towards the start of the day. They tend to get tired towards the evening. link:https://en.wikipedia.org/wiki/Lark_(person)[Wikipedia].
 
 NOTE: Your currently detected chronotype is always shown in the left menu if you have at least a month of sleep data.
 
 [.text-center]
 image:chrono.png[]
 
-- *Night owl* tends to stay up active until late night, usually past midnight, and wake up later. https://en.wikipedia.org/wiki/Night_owl_(person)[Wikipedia].
-- *Morning lark* is named after a bird who rises very early in the morning. A human lark is a person who usually gets up early and feels most energetic towards the start of the day. They tend to get tired towards the evening. link:https://en.wikipedia.org/wiki/Lark_(person)[Wikipedia].
-
 You can also see your actual chronotype and chronotype trend in <</sleep/charts#chronotype,Charts>>.
+
 
 === Chronotype levels
 We have divided the population into 10 groups (Morning Lark 5 to 1, Night Owl 1 to 5) according to their average _mid sleep hour_ (the middle point between _fall asleep hour_ and _wake up hour_. E.g. the mid-point between 10PM and 6AM would be 2AM).

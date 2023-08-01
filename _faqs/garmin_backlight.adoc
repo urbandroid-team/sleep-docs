@@ -5,7 +5,7 @@ tags:
   - garmin
 ---
 
-- On Garmin watches there is a system-wide _gesture backlight_ setting that will light up your screen on wrist move, when you have any app running. This setting is ON by default.
-. Go to *settings/system/lightning/during activity/gesture* and switch it to off. Now the light does not switch on if you are running or cycling and turning your wrist. Check that it's still on for buttons and alarms so it'll turn on if you need it during sport.
+- Garmin watches have a system-wide _gesture backlight_ setting that lights up your screen on wrist move, when you move your wrist while running an application. By default, this setting is ON.
+. Go to *Settings/System/Lighting/During Activity/Gesture* and turn it off. Now the light will not come on when you run or bike and turn your wrist. Make sure it's still on for buttons and alarms so that it turns on when you need it during exercise.
 
-- Fenix 6: It may be possible to set a power mode / power profile in the Power manager so that backlight won't light up in the Sleep app only.
+- Fenix 6: It may be possible to set a power mode / power profile in the power manager so that the backlight doesn't only light up in the sleep app.

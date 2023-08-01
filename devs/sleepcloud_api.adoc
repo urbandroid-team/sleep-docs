@@ -27,7 +27,7 @@ It is recommended to use your service logo and brand the consent page accordingl
 The obtained OAuth token should be passed in each request to SleepCloud in an authorization header. The following attribute is required:
 `Authorization: Bearer YOUR_TOKEN`
 
-NOTE: Currently SleepCloud only supports white-listed Client IDs. In order to make the connection running please provide us with your generated Client ID at info@urbandroid.org and we will white-list you ASAP.
+NOTE: Currently SleepCloud only supports white-listed Client IDs. In order to make the connection running please provide us with your generated Client ID at support@urbandroid.org and we will white-list you ASAP.
 
 For examples of OAuth client implementation see https://code.google.com/p/google-api-java-client/wiki/OAuth2[Google’s Developer Guide on OAuth 2.0], especially the https://code.google.com/p/google-api-java-client/wiki/OAuth2#Web_Server_Applications[Web Server Applications] section.
 

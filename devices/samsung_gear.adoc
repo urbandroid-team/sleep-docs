@@ -21,8 +21,8 @@ Sleep as Android supports most Samsung wearables, but not all. Please look for y
 +
 
 
-. Now, you can enable the connection in _Settings -> Wearables -> Use wearable -> Samsung Gear / Galaxy Watch_.
-. Then test the connection in _Settings -> Wearables -> Test sensor_ - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
+. Now, you can enable the connection in _Settings -> Sleep tracking -> Wearables -> Use wearable -> Samsung Gear / Galaxy Watch_.
+. Then test the connection in _Settings -> Sleep tracking -> Wearables -> Test sensor_ - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
 
 ## How to set up Gear Fit 2
 
@@ -36,8 +36,8 @@ The steps to follow are:
 
 . Install https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung[Sleep as Android Gear Addon] on the phone.
 . Install https://galaxystore.samsung.com/geardetail/com.urbandroid.sleep.gearfit[Sleep as Android for Gear Fit 2 watch face] on the Galaxy Store using your Galaxy Wearable app.
-. Now, you can enable the connection in _Settings -> Wearables -> Use wearable -> Samsung Gear / Galaxy Watch_.
-. Then test the connection in _Settings -> Wearables -> Test sensor_ - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
+. Now, you can enable the connection in _Settings -> Sleep tracking -> Wearables -> Use wearable -> Samsung Gear / Galaxy Watch_.
+. Then test the connection in _Settings -> Sleep tracking -> Wearables -> Test sensor_ - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
 
 NOTE: Whenever you want to do sleep tracking, switch the watchface on your Gear Fit 2 to the Sleep watchface, and double tap to start tracking. It would actually work even without switching to the watchface (so you can start tracking from the phone), but you won't have any way to stop it from the watch, and alarm will have to be stopped from the phone in that case. So I recommend switching to the Sleep watchface.
 To switch the watchface, just long tap on the current watchface.

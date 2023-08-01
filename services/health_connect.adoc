@@ -1,0 +1,33 @@
+---
+layout: default
+title: Health Connect
+nav_order: 2
+parent: /services/0parent.html
+---
+:toc: macro
+
+Allows you to synchronize data between Sleep as Android and Health Connect.
+
+- Export of your sleep phases from Sleep
+- Import of 3rd party sleep data into Sleep
+- Exchanging data about resting HR
+- Exchanging data about SpO2 data
+
+_Settings -> Services -> Health Connect_
+
+NOTE: Health Connect service is still in BETA.
+
+== How to connect to  Health Connect
+
+[.imgflexblock]
+****
+image::hc_1.png[role="left",title="In Sleep as Android, enable Settings -> Services -> Health Connect."]
+image::hc_2.png[role="left",title="Grant permissions to Sleep as Android"]
+image::hc_3.png[role="left",title="Tap the button to sync your data"]
+image::hc_5.png[role="left",title="You can go back to Settings. Health Connect is now enabled."]
+image::hc_4.png[role="left",title="Edit permissions if needed"]
+
+****
+
+[WARNING]
+You need a version from our web installed to access SpO2 data, the version deployed by the Play Store cannot read them - this issue has been reported to Health Connect support. Get the app from our https://sleep.urbandroid.org/more/download/[download page].

@@ -8,44 +8,30 @@ tags:
 - oximeter
 - sonar
 ---
-:toc:
+:toc: macro
 
-== What it does
 
 *Makes use of sensors that can measure either your breath rate (<</sleep/sensors#sonar, sonar>>,  <</devices/sleep_phaser_2#, Sleep phaser>>, and https://sleep.urbandroid.org/polar-sleep-tracking/[Polar H10]), or your blood oxygenation (<</devices/oximeter#, oximeter, some wearables>>).*
 
-Sonar or Sleep Phaser measure your abdominal movements and thus estimate your breath rate.
 
-Any pause in in the detected breath rates is depicted as an O2 symbol icon:ic_action_cpap[] in the sleep graph and may hint at respiratory issues or cause by an outage of the sensor.
+A *turquoise line* on your sleep graph shows breath rate - see <<breath-line>>.
+A *blue line* on your graph depicts oxygen data - see <<spo2-graph>>.
 
-By using <</devices/oximeter#, Oximeter>> or wearable, we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
-
-== Where to find it
-
-With the <</sleep/sensors#sonar, Sonar>> or the <</devices/sleep_phaser_2#, Sleep phaser>>, no actions is required - you will see breath rates if the overall setting in your bedroom and the device in use reach the required level of sensitivity.
-
-With <</devices/wearables/oximeter#,an oximeter or a wearable>>, you can track your blood oxygen levels (SpO~2~), if this option is enabled and the device properly connected.
-
-== Options
-In _Settings -> Wearables_:
-
-[horizontal]
-Pulse Oximeter (Bluetooth):: Pairs compatible oximeters.
-Pulse Oximeter (Wear OS, Garmin...):: Reads SpO2 data from a wearable connected in <</devices/wearables/wearable_setup#, Use wearable>>.
-Low breath rate alarm:: If enabled, this will wake you up if you have a low breathing rate (or blood oxygen level) for a while.
-
-== Guide
-A blue line on your sleep graph shows breath/oxygen data from connected devices, see <<breath-line>>.
-
-Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value.
+Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value. Monitoring breathing disturbances is important for link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[sleep apnea] detection.
 
 [[breath-line]]
 .Breath-rates in sleep graph
 image::breath_rate.png[]
 
-Read about link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[sleep apnea].
+[[spo2-graph]]
+.SPO2 data in sleep graph
+image::hrbr.png[]
 
-=== RDI
+---
+toc::[]
+:toclevels: 1
+
+== RDI
 *Respiratory Disturbance Index* is the average count of respiratory disturbance episodes per hour.
 E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.
 
@@ -55,7 +41,38 @@ E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.
 15 - 30:: RDI from 15 to 30 is considered moderate respiratory disturbance. It can be a warning sign. Definitely do measurement repeatedly to verify this result.
 30 and more:: RDI over 30 is considered severe. We recommend to consult your doctor.
 
-[[spo2-graph]]
-.SPO2 data in sleep graph
-image::hrbr.png[]
+
+== Sonar breath rate tracking
+
+Sonar can measure your abdominal movements and thus estimate your breath rate, if the signal is strong enough. With the <</sleep/sensors#sonar, Sonar>>, no actions is required - you will automatically see breath rates on your sleep graph.
+
+== Sleep phaser breath rate tracking
+
+<</devices/sleep_phaser_2#, Sleep phaser>> can also measure your abdominal movements for estimating your breath rate.
+No actions is required - you will automatically see breath rates if the overall setting in your bedroom and the device in use reach the required level of sensitivity.
+
+== Oximeter SpO2 monitoring
+By using <</devices/oximeter#, Oximeter>> or wearable, we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[Sleep apnea].
+
+_Settings -> Sleep tracking -> Wearables -> Pulse oximeter (Bluetooth)_
+
+== Wearables SpO2 monitoring
+
+Reads SpO2 data from a wearable connected in <</devices/wearables/wearable_setup#, Use wearable>>.
+
+_Settings -> Sleep tracking -> Wearables -> Pulse oximeter (Wear OS, Garmin..)_
+
+WARNING: Not all wearables provide SpO2 data to our app. Check the <</devices/supported_wearable#, compatibility table>>.
+
+
+== Low breath rate alarm
+
+If enabled, this will wake you up if you have a low breathing rate (or blood oxygen level) for a while. You can configure the sound, vibrations, or both.
+
+_Settings -> Sleep tracking -> Wearbales -> Low breath rate alarm_
+
+WARNING: The alert is very prominent on purpose.
+
+
+
 

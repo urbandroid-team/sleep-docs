@@ -9,4 +9,4 @@ tags:
 - The app has the same language as your system.
 - The only exception is English - you can force English language in _Settings -> Personalize -> Force English_.
 
-If you are dissatisfied with the translation of Sleep as Android to your language, please see <</general_info/translation#,Translation>>.
+If you are not satisfied with the translation of Sleep as Android to your language, please see <</general_info/translation#,Translation>>.

@@ -68,7 +68,7 @@ asciidoctor:
 
 jekyll_rushed_analytics:
   GoogleAnalytics4:                       # Add, if you want to track with Google Analytics
-    measurement_id: G-BF5KGK7V37          # Required - replace with your tracking id
+    measurement_id: G-VKHQZDBBL2          # Required - replace with your tracking id
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

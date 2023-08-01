@@ -7,8 +7,8 @@ tags:
 
 
 == OLD Oximeter (non BTLE)
-The app can ONLY connect to the stress locator when it’s first paired with the phone (or removed and re-paired) and no other app has been used (e.g. StressLocator app).
+The app can ONLY connect to the Stress locator when it's first paired with the phone (or removed and repaired) and no other app has been used (e.g. StressLocator app).
 
 == NEW Oximeters (BTLE)
-- 2017 and beyond
-The app can only connect to the Oximeter when it is NOT PAIRED to the phone.
+- 2017 and later
+The app can only connect to the Oximeter if it is NOT PAIRED with the phone.
