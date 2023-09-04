@@ -50,7 +50,7 @@ Examples:
 #alarm+2h30:: postpones the alarm for 2 hours 30 min
 #alarm+2:15:: postpones the alarm for 2 hours 15 min
 
-You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert that.
+You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert the automatic option back to the original alarm time.
 
 == Add Sleep data to calendar
 If enabled, your sleep records will be synced into your Google Calendar.
