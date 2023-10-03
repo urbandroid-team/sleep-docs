@@ -7,28 +7,49 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20230810
+== Latest version 20231001
 
 *NEWS*
 
-– Targeting Android 13 API level
-– Support for per-app language settings on Android 13+
-– Migration to latest build tools
+* Experimental Sleep Regularity Index calculation: Sleep Score card, Charts and Advice (Many thanks to Jeff Huang, Ji Won contribution)
+* Health Connect Android 14 migration
+
+* New sound noise files features
+** Storing AAC noise recordings in M4A container which allows adding meta data
+** Tagging sleep noises stored in media library with metadata: author, album… (both OGG and M4A)
+** Sleep as Android Album art for M4A and OGG
+** You can find your newly starred noises is the “Best of Noises” album by “Sleep as Android” in your favorite music player
+** Migration of older starred noises to the new album can be done manually by removing star and re-adding
+** Migration to new phone: backup of Android Media Store through Google One, or manual copy of /Music/Sleep
+
+
+*Fixes and updates*
+* Fix for a regression in IKEA Tradfri integration
+* Fix for Drive, Dropbox backup not working when local storage backup is off in: [Settings – Privacy]
+* Fix for a sleep score rendering glitch on the Sleep Score card
+
+== 20230810
+
+*NEWS*
+
+* Targeting Android 13 API level
+* Support for per-app language settings on Android 13+
+* Migration to latest build tools
 
 *Fixes and updates*
 
-– Next alarm is shown above weather on the morning screen
-– Fix in MQTT and potentially other automation tasks, if more tasks were triggered at once some may have got missing
-– Fix for a regression in MQTT because of new build tools
-– Fix for sleep tracking button when long pressing quick settings tile in tabbed home screen
-– Fix for using per-alarm smart wake up for “not before ideal” smart wake up feature
-– Analog time picker for one-time alarm time changes
-– Fix for inactive notification dismiss button on Android 11-
-– Fixed in ringtone picker – playlist vs. single mode
-– Auto-refreshing device default alarm ringtone every 8h
-– Fix for missing Indonesian
-– Fix for last used lullaby not updated
-– Hiding WiFi control settings on Android Q+ as this is no more possible, thanks Google!
+* Next alarm is shown above weather on the morning screen
+* Fix in MQTT and potentially other automation tasks, if more tasks were triggered at once some may have got missing
+* Fix for a regression in MQTT because of new build tools
+* Fix for sleep tracking button when long pressing quick settings tile in tabbed home screen
+* Fix for using per-alarm smart wake up for “not before ideal” smart wake up feature
+* Analog time picker for one-time alarm time changes
+* Fix for inactive notification dismiss button on Android 11-
+* Fixed in ringtone picker – playlist vs. single mode
+* Auto-refreshing device default alarm ringtone every 8h
+* Fix for missing Indonesian
+* Fix for last used lullaby not updated
+* Hiding WiFi control settings on Android Q+ as this is no more possible, thanks Google!
 
 == 20230621
 
