@@ -11,7 +11,8 @@ tags:
 ## Buy compatible Pulse Oximeter
 
 [horizontal]
-*link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get a Pulse Oximeter compatible with Sleep as Android link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE]. image::oximeter.jpg[]
+*link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get a Pulse Oximeter compatible with Sleep as Android link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE].
+image::oximeter.jpg[]
 
 ## What it does
 Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://happyelectronics.eu/products/alert-stresslocator-oximeter[oximeter], or there are few wearables that allow us collecting SpO~2~ data too. See <</sleep/breath_rate#,Breath rate detection and oxygenation measure docs>> for details.
