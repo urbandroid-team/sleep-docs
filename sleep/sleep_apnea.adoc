@@ -6,13 +6,12 @@ parent: /sleep/0parent.html
 ---
 :toc:
 
-## Buy compatible Pulse Oximeter
+## Get a compatible Oximeter for respiration monitoring
 
 [horizontal]
-*link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get a Pulse Oximeter compatible with Sleep as Android link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE].
+*link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get a Pulse Oximeter compatible with Sleep as Android and suitable for whole night oxygenation monitoring link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE].
 
-image::oximeter.jpg[]
-
+image::oximeter2.png[]
 
 == What is Sleep Apnea?
 
