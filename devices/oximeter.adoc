@@ -12,6 +12,7 @@ tags:
 
 [horizontal]
 *link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get a Pulse Oximeter compatible with Sleep as Android link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE].
+
 image::oximeter.jpg[]
 
 ## What it does

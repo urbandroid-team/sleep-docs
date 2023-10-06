@@ -6,6 +6,14 @@ parent: /sleep/0parent.html
 ---
 :toc:
 
+## Buy compatible Pulse Oximeter
+
+[horizontal]
+*link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get a Pulse Oximeter compatible with Sleep as Android link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE].
+
+image::oximeter.jpg[]
+
+
 == What is Sleep Apnea?
 
 Obstructive sleep apnea (OSA) is a disease, which can frequently be difficult to diagnose.
