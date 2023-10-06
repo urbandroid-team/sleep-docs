@@ -6,10 +6,14 @@ parent: /devices/wearables.html
 tags:
 - oximeter
 ---
+
+[horizontal]
+*link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get Pulse Oximeter compatible with Sleep as Android link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE] image::oximeter.jpg[link="https://happyelectronics.eu/products/alert-stresslocator-oximeter"]
+
 :toc:
 
 ## What it does
-Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://www.happy-electronics.eu/shop/en/16-sleep[oximeter], or there are few wearables that allow us collecting SpO~2~ data too. See <</sleep/breath_rate#,Breath rate detection and oxygenation measure docs>> for details.
+Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://happyelectronics.eu/products/alert-stresslocator-oximeter[oximeter], or there are few wearables that allow us collecting SpO~2~ data too. See <</sleep/breath_rate#,Breath rate detection and oxygenation measure docs>> for details.
 
 The compatible oximeters are Berrymed oximeters with custom firmware. We did try a lot of oximeters that are on the market and these had the most reliable data.
 
@@ -25,7 +29,7 @@ _Settings -> Sleep tracking -> Wearables -> Pulse oximeter_
 .Pulse oximter
 image::oximeter.jpg[]
 
-Sleep as Android supports link:https://happyelectronics.eu/collections/biofeedback[StressLocator pulse oximeters] from Barrymed, with a customized firmware provided by Happy Electronics.
+Sleep as Android supports link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[StressLocator pulse oximeters] from Barrymed, with a customized firmware provided by Happy Electronics.
 
 ## Options
 [horizontal]
@@ -54,8 +58,3 @@ Now when you start sleep tracking, Sleep will connect to your oximeter to gather
 . Make sure the wearable is connected properly, and corresponding option is enabled in _Settings -> Wearables -> Use wearable_.
 . Enable SpO2 data gathering in _Settings -> Sleep tracking -> Wearables -> Pulse oximeter (Wear Os...)_.
 
-## Medical-grade home sleep apnea test (US only)
-
-If you see high RDI levels when using an commodity oximeter you may consider to confirm or deny those results with a disposable home test for sleep apnea analyzed by medical professionals.
-
-We have partnered with Sleep Master Solution to bring you such a test in the US, link:https://sleepmastersolutions.com/sleepasandroid/[Read more].
