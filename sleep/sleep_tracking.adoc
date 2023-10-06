@@ -93,6 +93,8 @@ This feature has no real effect if you're using Sound Recording or Sonar, becaus
 
 WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
 
+WARNING: Enabling sensor batching may break awake detection.
+
 == Tracking screen
 
 <<sleep-tracking-screen-1>> shows common elements of the tracking screen

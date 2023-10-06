@@ -34,7 +34,7 @@ The app will point out some notable trends and also suggest some changes in the 
 == Sleep score dimensions
 
 There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range.
-The app combines all dimensions into one "Sleep Score" for simplification (only new version).
+The app combines all dimensions into one "Sleep Score" for simplification.
 
 [cols="^,<,<,<,<", options="header"]
 |===
@@ -43,6 +43,15 @@ The app combines all dimensions into one "Sleep Score" for simplification (only 
 |Top figure
 |Bottom figure
 |Healthy / Unfavourable range
+
+a|image::score_pie.png[]
+*Sleep Score*
+|Overall score combining all your other sleep metrics.
+|Percentage of the score (0,100).
+|
+|Healthy: as close to 100% as possible
+Unfavourable:
+
 
 a|image::hrv_pie.png[]
 *HRV gain*
@@ -61,11 +70,11 @@ a|image::BR_pie.png[]
 Unfavourable: over 20
 
 a|image::irregularity_pie.png[]
-*Irregularity*
-|How irregular your sleep is. Variance of your mid-sleep hour.
+*Regularity*
+|How regular your sleep is. Variance of your mid-sleep hour.
 |Deviation of sleep duration and mid sleep hour.
-|
-|Healthy: under 0.5 hours
+|SRI, <</sleep/chrono_jetlag#sri,more details here>>
+|Healthy: under 0.5 hours for regularity, as close to 100 for SRI as possible.
 Unfavourable: over 1 hour
 
 a|image::deepsleep_pie.png[]

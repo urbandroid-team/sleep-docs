@@ -150,6 +150,7 @@ Solve up to 15 selected tasks in a row. You can select the tasks in  in _Setting
 
 == Mirror text (CAPTCHA add-on)
 Read and type a text from a mirror-flipped quote - predefined or your own (configured in _Settings -> Alarms -> CAPTCHA -> Settings_).
+You can choose to Mirror the text, allow online database (with about 75k quotes), configure your own quotes for morning mantras, or as reminders
 
 == Jumping sheep (CAPTCHA add-on)
 Guide the lost sheep through the fences and wolves to safety - tap to jump over obstacles.

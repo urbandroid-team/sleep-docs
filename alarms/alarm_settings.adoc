@@ -13,7 +13,7 @@ redirect_from:
 *Alarm settings help you make your wake-up experience refreshing and enjoyable.*
 
 * <</sleep/smart_wake_up#,Smart wake up>> wakes you at the right stage of sleep
-* <<gentle_alarm, Gentle volume increase>> finds the minimum sound to wake you up
+* <<gentle_alarm, Gentle volume>> feature finds the minimum sound to wake you up
 * <</devices/smart_light#,Smartlight>> natural sunrise alarm
 * Make sure you don't oversleep with our <</alarms/captcha#,CAPTCHA>> feature
 *  And many more
@@ -180,7 +180,7 @@ NOTE: We strongly recommend setting a sound delay instead of setting the alarm t
 
 NOTE: We strongly recommend setting a sound delay instead of setting the alarm to silent, especially if the backup alarm is also silent.
 
-== Gentle volume increase[[gentle_alarm]]
+== Gentle volume [[gentle_alarm]]
 
 Gentle volume ensures you wake up with the minimum volume necessary for a more pleasant wake-up experience. The alarm starts at the minimum volume and gradually increases to the maximum volume.
 

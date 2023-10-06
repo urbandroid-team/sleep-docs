@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Chronotype, Social jetlag, Sleep irregularity
+title: Chronotype, Social jetlag, Sleep Regularity
 nav_order: 2
 parent: /sleep/0parent.html
 ---
 :toc: macro
 
-*Sleep as Android watches your sleep pattern trends and can tell you your chronotype, social-jet-lag and sleep-irregularity.*
+*Sleep as Android watches your sleep pattern trends and can tell you your chronotype, social-jet-lag and sleep Regularity.*
 
 
 ---
@@ -65,9 +65,20 @@ In <<figure-chrono-weekdays>> you see there is no obvious clustering for this us
 .Weekdays vs. Weekends clustering
 image::chrono_weekdays.png[]
 
-== Sleep irregularity
+
+[[regularity]]
+
+== Sleep Regularity
 To get maximum of your sleep time, it is crucial to sleep regularly – go to sleep at the same time every day and sleep for a fixed period of time.
 
 Sleep as Android tracks your sleep irregularity and shows you in <</sleep/charts#,Charts>> how irregular your sleep is.
 
 The irregularity shown is the https://en.wikipedia.org/wiki/Variance[variance] of your mid sleep hour.
+
+
+[[sri]]
+
+=== Sleep Regularity Index
+SRI is a metric calculated as the probability of an individual being in the same state (asleep or awake) at any two time points 24 hours apart, averaged over 7-days (range 0–100, with 100 being perfectly regular).
+This index can be used for monitoring your risk of health issues - read about the link  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10153326/[between SRI and mortality], or the link https://www.nature.com/articles/s41598-017-03171-4[between SRI and academic performance].
+You can also read how https://academic.oup.com/sleep/article/44/10/zsab103/6232042[SRI compares to other sleep metrics].
