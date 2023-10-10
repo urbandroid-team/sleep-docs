@@ -8,36 +8,40 @@ tags:
 ---
 :toc:
 
-## What it does
-Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://www.happy-electronics.eu/shop/en/16-sleep[oximeter], or there are few wearables that allow us collecting SpO~2~ data too. See <</sleep/breath_rate#,Breath rate detection and oxygenation measure docs>> for details.
+## Get a compatible Pulse Oximeter
 
-The compatible oximeters are Berrymed oximeters with custom firmware. We did try a lot of oximeters that are on the market and these had the most reliable data.
+[horizontal]
+*link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[Buy Pulse Oximeter]*:: Get a Pulse Oximeter compatible with Sleep as Android and suitable for whole night oxygenation monitoring link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[HERE].
 
-Currently, only some Wear OS powered wearables can be used for SpO~2~ monitoring. Garmins and Galaxy watches are hopefully coming soon.
+Oximeter monitors your oxygen and heart rate levels. You need a compatible device - https://happyelectronics.eu/products/alert-stresslocator-oximeter[oximeter], or there are few wearables that allow us collecting SpO~2~ data too. See <</sleep/breath_rate#,Breath rate detection and oxygenation measure docs>> for details.
 
-NOTE: We have tested TicWatch 3. If you have Wear OS watch that can monitor SpO2, but this data are not collect by Sleep, please send us your application log (Left ☰ menu -> (?) Support -> Report a bug) and we will use the information from the log for adding support for this watch too.
+The compatible oximeters are BerryMed oximeters with custom firmware. We did try a lot of oximeters that are on the market and these had the most reliable data.
 
+Alternatively, you can use wearables with SpO~2~ sensors. But due to restrictions on OEMs side only some Wear OS devices with freely accessible SpO~2~ sensors can be used for SpO~2~ monitoring with Sleep as Android. This includes for instance some Mobvoi Tic Watch devices, some Fossil models. We are able to get some SpO~2~ data from Garmins devices but probably not a sontinuous stream we would need to Respiratory disturbance analysis.
+
+NOTE: We are testing Mobvoi TicWatch 3 Pro and SpO~2~ monitoring works very well there. If you have Wear OS watch that can monitor SpO~2~, but this data are not collect by Sleep, please send us your application log (Left ☰ menu -> (?) Support -> Report a bug) and we will use the information from the log for adding support for this watch too.
+
+NOTE: Continuous SpO~2~ monitoring on Samsung Galaxy Watches is currently not possible due to limitations on Samsung side.
 
 ## Where to find it
 _Settings -> Sleep tracking -> Wearables -> Pulse oximeter_
 
 [[apnea-cpap]]
 .Pulse oximter
-image::oximeter.jpg[]
+image::oximeter2.png[]
 
-Sleep as Android supports link:https://happyelectronics.eu/collections/biofeedback[StressLocator pulse oximeters] from Barrymed, with a customized firmware provided by Happy Electronics.
+Sleep as Android supports link:https://happyelectronics.eu/products/alert-stresslocator-oximeter[StressLocator pulse oximeters] from Barrymed, with a customized firmware provided by Happy Electronics and several Wear OS devices. Some Gamin watches may be supported without guarantee.
 
 ## Options
 [horizontal]
-Pulse Oximeter (Bluetooth):: Enable the feature for compatible oximeters.
-Pulse Oximeter (Wear OS...):: Enable the feature for compatible wearables.
+Pulse Oximeter (Bluetooth):: Enable the feature for compatible oximeters: Stresslocator / BerryMed
+Pulse Oximeter (Wear OS...):: Enable the feature for compatible wearables, typically Wear OS or Garmin.
 Low breath rate alarm:: If enabled, an alarm will wake you up when you have an low breath rate episode. This tries to prevent your blood oxygen volume from dropping to dangerous levels.
 Low breath rate alarm sensitivity:: Set sensitivity for the low breath rate alarm.
 
 [[spo2-graph]]
 .Resulting sleep graph with SPO2 data
 image::hrbr.png[]
-
 
 ## Guide
 
@@ -54,8 +58,3 @@ Now when you start sleep tracking, Sleep will connect to your oximeter to gather
 . Make sure the wearable is connected properly, and corresponding option is enabled in _Settings -> Wearables -> Use wearable_.
 . Enable SpO2 data gathering in _Settings -> Sleep tracking -> Wearables -> Pulse oximeter (Wear Os...)_.
 
-## Medical-grade home sleep apnea test (US only)
-
-If you see high RDI levels when using an commodity oximeter you may consider to confirm or deny those results with a disposable home test for sleep apnea analyzed by medical professionals.
-
-We have partnered with Sleep Master Solution to bring you such a test in the US, link:https://sleepmastersolutions.com/sleepasandroid/[Read more].
