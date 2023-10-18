@@ -69,7 +69,7 @@ image::chrono_weekdays.png[]
 [[regularity]]
 
 == Sleep Regularity
-Sleep regularity is a key to healthy sleep - ideally you go to sleep at the same time every day and sleep for the same period of time. You can read about https://www.sciencedirect.com/science/article/abs/pii/S2352721823001687[how sleep regularity affects the speed of you aging].
+Sleep regularity is a key to healthy sleep - ideally you go to sleep at the same time every day and sleep for the same period of time. You can read about https://www.sciencedirect.com/science/article/abs/pii/S2352721823001687[how sleep regularity affects the speed of your aging].
 
 The regularity shown is the https://en.wikipedia.org/wiki/Variance[variance] of your mid sleep hour and as Sleep regularity index.
 
