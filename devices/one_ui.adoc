@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Sleep tracking with Galaxy Watch 4 and Galaxy Watch 5 (running the ONE UI Watch OS) requires a companion app installed from the Play Store on the watch.
+Sleep tracking with Galaxy Watch model 4 and newer models (running the ONE UI Watch OS) requires a companion app installed from the Play Store on the watch.
 
 NOTE: Unfortunately due to limit put for non-Samsung apps, we cannot read SpO2 or HRV from those watches at the moment.
 
