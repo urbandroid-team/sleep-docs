@@ -71,11 +71,11 @@ Unfavourable: over 20
 
 a|image::irregularity_pie.png[]
 *Regularity*
-|How regular your sleep is. Variance of your mid-sleep hour.
+|How regular your sleep is. https://en.wikipedia.org/wiki/Variance[Variance] of your mid-sleep hour and Sleep Regularity Index.
 |Deviation of sleep duration and mid sleep hour.
 |SRI, <</sleep/chrono_jetlag#sri,more details here>>
-|Healthy: under 0.5 hours for regularity, as close to 100 for SRI as possible.
-Unfavourable: over 1 hour
+|Healthy: under 0.5 hours for regularity, over 80 for SRI.
+Unfavourable: over 1 hour, less then 60 for SRI
 
 a|image::deepsleep_pie.png[]
 *Deep Sleep*

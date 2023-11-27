@@ -20,7 +20,7 @@ In the Goal screen, tap on the icon:plus[] button.
 .Adding a new goal
 image::goal_progress_succesful.png[]
 
-. Select area in which you’d like to improve over the next 1 month (Duration, Fall asleep hour, Irregularity, Awake, Deep sleep, Snoring, Snooze)
+. Select area in which you’d like to improve over the next 1 month (Duration, Fall asleep hour, Regularity, Awake, Deep sleep, Snoring, Snooze)
 . Choose your motivation. You can try the goal for free, or you can bet a few bucks on yourself.
   * You can bet a smaller wager or a bigger wager. In the US, a small wager is around $2, big wager around $4. When you select the wager and confirm the goal, you will see the exact price and then you can confirm or decline the payment.
 

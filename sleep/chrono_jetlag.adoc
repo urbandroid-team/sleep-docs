@@ -69,16 +69,19 @@ image::chrono_weekdays.png[]
 [[regularity]]
 
 == Sleep Regularity
-To get maximum of your sleep time, it is crucial to sleep regularly – go to sleep at the same time every day and sleep for a fixed period of time.
+Sleep regularity is a key to healthy sleep - ideally you go to sleep at the same time every day and sleep for the same period of time. You can read about https://www.sciencedirect.com/science/article/abs/pii/S2352721823001687[how sleep regularity affects the speed of your aging].
 
-Sleep as Android tracks your sleep irregularity and shows you in <</sleep/charts#,Charts>> how irregular your sleep is.
+The regularity shown is the https://en.wikipedia.org/wiki/Variance[variance] of your mid sleep hour and as Sleep regularity index.
 
-The irregularity shown is the https://en.wikipedia.org/wiki/Variance[variance] of your mid sleep hour.
-
+Sleep as Android tracks your sleep regularity and shows you in <</sleep/charts#,Charts>> how regular your sleep is.
 
 [[sri]]
 
 === Sleep Regularity Index
-SRI is a metric calculated as the probability of an individual being in the same state (asleep or awake) at any two time points 24 hours apart, averaged over 7-days (range 0–100, with 100 being perfectly regular).
-This index can be used for monitoring your risk of health issues - read about the link  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10153326/[between SRI and mortality], or the link https://www.nature.com/articles/s41598-017-03171-4[between SRI and academic performance].
+https://sleep.urbandroid.org/sleep-regularity-index/[SRI] is a metric calculated as the probability of an individual being in the same state (asleep or awake) at any two time points 24 hours apart (range 0–100, with 100 being perfectly regular).
+
+It is accounting for awakes, naps, and works well even for polyphasic sleep patterns.
+
+This index can be used for monitoring your risk of health issues - read about the link  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10153326/[between SRI and mortality], the link https://www.nature.com/articles/s41598-017-03171-4[between SRI and academic performance].
+
 You can also read how https://academic.oup.com/sleep/article/44/10/zsab103/6232042[SRI compares to other sleep metrics].
