@@ -68,11 +68,11 @@ The point at 4 May is the average of sleep duration from 5 April through 4 May.
 The chart should not have many extremes (regular, periodic chart is normal).
 |===
 
-=== Irregularity
+=== Regularity
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_irregularity.png[]
-a|*Irregularity* chart shows you how much is your sleep irregular. The higher the line is, the more irregular your sleep is.
+a|*Regularity* chart shows you how much is your sleep irregular. The higher the line is, the more irregular your sleep is.
 
 * *Blue line*: Shows the irregularity for each day.
 

@@ -18,7 +18,7 @@ toc::[]
 :toclevels: 3
 
 == General description
-Advice watches recent trends in the main sleep dimensions (Duration, Irregularity, Deep sleep %, Snoring, Social jet-lag...).
+Advice watches recent trends in the main sleep dimensions (Duration, Regularity, Deep sleep %, Snoring, Social jet-lag...).
 
 In most cases it compares your last 60 days aggregates to the last 7 days aggregates and look for significant recent worsening or improvements.
 
