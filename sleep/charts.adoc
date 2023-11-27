@@ -74,11 +74,42 @@ The chart should not have many extremes (regular, periodic chart is normal).
 a|image:charts/trend/trend_irregularity.png[]
 a|*Regularity* chart shows you how much is your sleep irregular. The higher the line is, the more irregular your sleep is.
 
-* *Blue line*: Shows the irregularity for each day.
 
 *How should it look?*
 
 While some irregularity is normal, you should strive to keep it to minimum - keep the line at low values.
+|===
+
+
+[[chart_sri]]
+
+=== Regularity index
+[cols="1,2"]
+|===
+a|image:charts/trend/charts_sri.png[]
+a|*Regularity Index* chart shows you the Sleep regularity Index - The <</sleep/chrono_jetlag#sri,SRI explained here>>.
+
+*How should it look?*
+
+Ideally, your SRI is kept high close to 100%. The SRI of 100 means your asleep and awake times where absolutely identical between two consecutive days. Values above 80 are considered as regular sleep.
+
+|===
+
+
+[[chart_sri_dif]]
+
+=== Regularity index (+/-)
+[cols="1,2"]
+|===
+a|image:charts/trend/chart_sri_dif.png[]
+a|*Regularity Index (+/-)* chart shows you the increase/decrease of the Sleep regularity Index from your average <</sleep/chrono_jetlag#sri,see details about SRI here>>.
+
+* *Blue columns*: Increase
+* *Red columns*: Decrease
+
+*How should it look?*
+
+Your ideal graph shows minimum fluctuations, no significant increases or decreases.
 |===
 
 === Deep sleep %
