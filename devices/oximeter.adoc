@@ -23,7 +23,7 @@ NOTE: We are testing Mobvoi TicWatch 3 Pro and SpO~2~ monitoring works very well
 
 NOTE: Continuous SpO~2~ monitoring on Samsung Galaxy Watches is currently not possible due to limitations on Samsung side.
 
-## Where to find it
+## Settings
 _Settings -> Sleep tracking -> Wearables -> Pulse oximeter_
 
 [[apnea-cpap]]
