@@ -28,11 +28,11 @@ toc::[]
 a|image:charts/trend/trend_sleepscore.png[]
 a|*Sleep score* radar chart is another way of looking at your <</sleep/sleepscore#,sleep score>>.
 
-You can fill each of the sleep score section with up to 5 points. The more points you have in a given section, the more healthy that dimension of your sleep is.
+- You can fill each of the sleep score section with up to 5 points. The more points you have in a given section, the more healthy that dimension of your sleep is.
 
 *How should it look?*
 
-The goal is of course to fill up that chart completely!
+The more the merrier - goal is of course to fill up that chart completely!
 |===
 
 === Deficit
@@ -40,13 +40,15 @@ The goal is of course to fill up that chart completely!
 |===
 a|image:charts/trend/trend_deficit.png[]
 a|*Deficit* chart is useful for tracking your sleep deficit.
-- *Blue line*: shows the deficit on a given day. If you sleep less then your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>, the blue line will be negative on that day. If you sleep more, it will be positive.
 
-- *Red / green line*: This line shows the total deficit/surplus. The most interesting point of the deficit chart is the rightmost point of this line. If it's red, it means that you have a sleep debt currently. If it's green, you are oversleeping your target.
+
+- If you sleep less then your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>>, the Deficit/Surplus line will be negative on that day. If you sleep more, it will be positive.
+
+- The most interesting point of the deficit chart is the rightmost point of this line. If it's red, it means that you have a sleep debt currently. If it's green, you are oversleeping your target.
 
 *How should it look?*
 
-You should strive to have zero sleep deficit, so ideally all of the lines should aim to be around 0 hours all the time.
+You should strive to have zero sleep deficit, so ideally all of the lines should aim to be close to 0.
 |===
 
 === Duration
@@ -55,8 +57,10 @@ You should strive to have zero sleep deficit, so ideally all of the lines should
 a|image:charts/trend/trend_duration.png[]
 a|*Duration* chart shows you the evolution of your sleep lengths.
 
-* *Dark green line*: Shows all-time average duration.
-* *Light green line*: Either shows actual duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
+// * *Dark green line*: Shows all-time average duration.
+// * *Light green line*:
+
+- The line either shows actual duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
 ** Actual duration: Each point corresponds to the sleep duration on that day.
 ** 30-day average: Each point on this line is the average sleep duration of that day and each day in the past 30 days from it.
 [EXAMPLE]
@@ -72,7 +76,9 @@ The chart should not have many extremes (regular, periodic chart is normal).
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_irregularity.png[]
-a|*Regularity* chart shows you how much is your sleep irregular. The higher the line is, the more irregular your sleep is.
+a|*Regularity* chart shows you how much is your sleep irregular.
+
+- The higher the line is, the more irregular your sleep is.
 
 
 *How should it look?*
@@ -87,7 +93,9 @@ While some irregularity is normal, you should strive to keep it to minimum - kee
 [cols="1,2"]
 |===
 a|image:charts/trend/charts_sri.png[]
-a|*Regularity Index* chart shows you the Sleep regularity Index - The <</sleep/chrono_jetlag#sri,SRI explained here>>.
+a|*Regularity Index* chart shows you the Sleep regularity Index.
+
+- The SRI index is <</sleep/chrono_jetlag#sri,explained here>>.
 
 *How should it look?*
 
@@ -102,7 +110,7 @@ Ideally, your SRI is kept high close to 100%. The SRI of 100 means your asleep a
 [cols="1,2"]
 |===
 a|image:charts/trend/chart_sri_dif.png[]
-a|*Regularity Index (+/-)* chart shows you the increase/decrease of the Sleep regularity Index from your average <</sleep/chrono_jetlag#sri,see details about SRI here>>.
+a|*Regularity Index (+/-)* chart shows you the increase/decrease of the Sleep regularity Index from your average (<</sleep/chrono_jetlag#sri,see details about SRI here>>).
 
 * *Blue columns*: Increase
 * *Red columns*: Decrease
@@ -118,10 +126,10 @@ Your ideal graph shows minimum fluctuations, no significant increases or decreas
 a|image:charts/trend/trend_deepsleep_percentage.png[]
 a|*Deep sleep %* chart shows you how your deep sleep percentage has been changing recently – effectively how well did you sleep.
 
-Deep sleep percentage means "a portion of your sleep duration when you've been in deep sleep". So if you had an 8-hour slumber, 50% deep sleep percentage would mean 4 hours in deep sleep. So what this graph shows is how effectively are you able to sleep.
+- Deep sleep percentage means "a portion of your sleep duration when you've been in deep sleep". So if you had an 8-hour slumber, 50% deep sleep percentage would mean 4 hours in deep sleep. So what this graph shows is how effectively are you able to sleep.
 
-* *Deep blue line*: Either shows actual deep sleep percentage (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
-* *Deep green line*: Shows all-time average deep sleep percentage.
+// * *Deep blue line*: Either shows actual deep sleep percentage (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
+// * *Deep green line*: Shows all-time average deep sleep percentage.
 
 *How should it look?*
 
@@ -134,10 +142,10 @@ The average should be kept over 30%.
 a|image:charts/trend/trend_deepsleep.png[]
 a|*Deep sleep* chart shows you how your deep sleep duration has been changing recently.
 
-This graph shows how many hours of deep sleep have you been getting recently.
+- This graph shows how many hours of deep sleep have you been getting recently.
 
-* *Deep blue line*: Either shows actual deep sleep duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher)
-* *Deep green line*: Shows all-time average deep sleep duration.
+// * *Deep blue line*: Either shows actual deep sleep duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher)
+// * *Deep green line*: Shows all-time average deep sleep duration.
 
 *How should it look?*
 
@@ -150,12 +158,14 @@ The graph should not have many spikes - ideally should be regular, flat line, ab
 a|image:charts/trend/trend_awake.png[]
 a|*Awake* chart shows you how much you've been waking up during your sleep.
 
-* *Light green line*: Either shows actual awake duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher)
-* *Deep green line*: Shows all-time average awake during sleep.
+- This graph shows a sum of awakes for all the tracking during each day.
+
+// * *Light green line*: Either shows actual awake duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher)
+// * *Deep green line*: Shows all-time average awake during sleep.
 
 *How should it look?*
 
-In an ideal world, you should not wake up at all during sleep. This means a flat line at the bottom.
+In an ideal world, you should not wake up at all during sleep -this means a flat line at the bottom.
 |===
 
 === Efficiency
@@ -164,12 +174,14 @@ In an ideal world, you should not wake up at all during sleep. This means a flat
 a|image:charts/trend/trend_efficiency.png[]
 a|*Efficiency* chart shows the ratio of actually sleeping when you're in bed (sleep duration to tracking duration).
 
-* *Light green line*: Either shows actual efficiency (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
-* *Deep green line*: Shows all-time average of efficiency of your sleep.
+- If you are in the bed for 8 hours, but only sleep 6 hours (2hours of awakes), your efficiency is 75%.
+
+// * *Light green line*: Either shows actual efficiency (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
+// * *Deep green line*: Shows all-time average of efficiency of your sleep.
 
 *How should it look?*
 
-Ideally a flat line at 100%.
+Ideally a line reaching the 100% value most of the times.
 |===
 
 === Snoring %
@@ -178,12 +190,15 @@ Ideally a flat line at 100%.
 a|image:charts/trend/trend_snoring_percentage.png[]
 a|*Snoring percentage* chart shows how much of the time you sleep did you spend snoring.
 
-* *Violet line*: Either shows actual snoring percentage (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
-* *Deep green line*: Shows all-time average snoring percentage.
+- Shows the the ratio between time you snore during the tracking and the sleep duration.
+
+
+//* *Violet line*: Either shows actual snoring percentage (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
+//* *Deep green line*: Shows all-time average snoring percentage.
 
 *How should it look?*
 
-Ideally a flat line at 0%.
+Ideally a flat line close to 0%.
 |===
 
 === Snoring
@@ -192,19 +207,25 @@ Ideally a flat line at 0%.
 a|image:charts/trend/trend_snoring.png[]
 a|*Snoring* chart shows how much time did you spend snoring.
 
-* *Violet line*: Either shows actual sum of snoring duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
-* *Deep green line*: Shows all-time average snoring duration.
+- Shows the total duration of detected snoring from the tracking for each day.
+
+//* *Violet line*: Either shows actual sum of snoring duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
+//* *Deep green line*: Shows all-time average snoring duration.
 
 *How should it look?*
 
-Ideally a flat line at 0 minutes.
+Ideally a flat line close to 0 minutes.
 |===
 
 === Graphs
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_graphs.png[]
-a|*Graphs*, or "sleep bars", show the intensity of movement during sleep. Each bar is one sleep. At the bottom, the charts start with 12PM and go up to the next 12PM. The greener the bar is at any given point, the more intensive movement there was.
+a|*Graphs*, or "sleep bars", show the intensity of movement during sleep.
+
+- Each bar is one sleep.
+- At the bottom, the charts start with 12PM and go up to the next 12PM.
+- The greener the bar is at any given point, the more intensive movement there was.
 
 *How should it look?*
 
@@ -217,22 +238,26 @@ As the sleep bars are just another view at the actigraph, they should ideally fo
 a|image:charts/trend/trend_fall_asleep_hour.png[]
 a|*Fall asleep hour* chart shows when you've been going to bed.
 
-* *Light green line*: Either shows actual hour when you started sleep tracking (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
-* *Dark green line*: Shows all-time average.
+- This graph shows when the sleep tracking starts.
+
+//* *Light green line*: Either shows actual hour when you started sleep tracking (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
+//* *Dark green line*: Shows all-time average.
 
 *How should it look?*
 
-Ideally a flat line with no spikes.
+Ideally a flat line with minimum spikes.
 |===
 
 === Smart wakeup
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_smart_wakeup.png[]
-a|*Smart wakeup* shows how many minutes before the set alarm did smart wake up wake you up - ie. the efficiency of smart wake up for you.
+a|*Smart wakeup* shows how many minutes before the set alarm did smart wake up wake you up.
 
-* *Light green line*: Shows how many minutes before the set alarm did smart wakeup wake you up at the given day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).
-* *Deep green line*: Shows all-time average.
+- This graph represents the efficiency of smart wake up for you.
+
+//* *Light green line*: Shows how many minutes before the set alarm did smart wakeup wake you up at the given day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).
+//* *Deep green line*: Shows all-time average.
 
 *How should it look?*
 
@@ -245,22 +270,26 @@ It should be consistently between zero and your set smart period. If it's at one
 a|image:charts/trend/trend_snooze.png[]
 a|*Snooze* chart shows how many minutes you've been snoozing your alarm.
 
-* *Light green line*: Shows the actual snooze duration for each day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).
-* *Deep green line*: Shows all-time average of your snoozing.
+- If you feel you might need help with limiting your snoozing, try snooze limits in _Settings -> Alarms -> Snooze_ (you can limit count of snooze, or total allowed snooze time).
+
+//* *Light green line*: Shows the actual snooze duration for each day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).
+//* *Deep green line*: Shows all-time average of your snoozing.
 
 *How should it look?*
 
-There are no hard and fast rules on snoozing, but it sure is a sign of a strong willpower to keep it at zero!
+There are no hard and fast rules on snoozing, but it sure is a sign of a strong willpower to keep it at zero.
 |===
 
 === HRV
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_hrv.png[]
-a|*HRV* chart shows total amount of heart rate variability throughout the entire night, including all the local minima and maxima
+a|*HRV* chart shows total amount of heart rate variability throughout the entire night, including all the local minima and maxima.
 
-* *Purple line*: Shows Total HRV for - SDANN (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher)..
-* *Deep green line*: Shows all-time average.
+- More about https://sleep.urbandroid.org/hrv-tracking/[HRV here].
+
+//* *Purple line*: Shows Total HRV for - SDANN (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher)..
+//* *Deep green line*: Shows all-time average.
 
 *How should it look?*
 
@@ -274,11 +303,12 @@ Generally, the higher the better, but ideal HRV is highly individual - your age,
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_hrv_gain.png[]
-a|*HRV gain* chart shows the difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (https://sleep.urbandroid.org/hrv-tracking/[see details here]).
+a|*HRV gain* chart shows the difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after).
 
+- More about https://sleep.urbandroid.org/hrv-tracking/[HRV here].
 
-* *Purple line*: Shows HRV gain for given day.
-* *Red line*: Shows HRV loss for given day.
+//* *Purple line*: Shows HRV gain for given day.
+//* *Red line*: Shows HRV loss for given day.
 
 *How should it look?*
 It should be consistently in the purple positive spectrum.
@@ -291,8 +321,7 @@ It should be consistently in the purple positive spectrum.
 a|image:charts/trend/trend_hrv_before_wake.png[]
 a|*HRV Before wake up* chart shows HRV before wake up for given day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).
 
-* *Purple line*: Shows HRV before wake up for given day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher)..
-* *Deep green line*: Shows all-time average.
+- More about https://sleep.urbandroid.org/hrv-tracking/[HRV here].
 
 *How should it look?*
 Like HRV, HRV before wake up is highly individual measure, higher numbers are more favourable.
@@ -304,14 +333,14 @@ Like HRV, HRV before wake up is highly individual measure, higher numbers are mo
 [cols="1,2"]
 |===
 a|image:charts/trend/trend_respiratory_disturbance.png[]
-a|*Respiratory disturbances* chart shows
+a|*Respiratory disturbances* chart shows the sum of the respiratory disturbances.
 
-* *Deep blue line*: Shows the sum of the respiratory disturbance for given day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).
-* *Deep green line*: Shows all-time average.
+- More about <</sleep/breath_rate#rdi, respiratory disturbances here>>.
+- Values above 10 are considered as a mild respiratory disturbance.
 
 *How should it look?*
 
-Ideally, there are no respiratory disturbance during you sleep, so a flat line at zero.
+Ideally, there are almost no respiratory disturbance during you sleep, so a flat line reaching close to zero.
 |===
 
 
