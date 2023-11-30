@@ -38,88 +38,88 @@ The app will point out some notable trends and also suggest some changes in the 
 There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range.
 The app combines all dimensions into one "Sleep Score" for simplification.
 
-[cols="^,<,<,<,<", options="header"]
-|===
-|Dimension
-|Explanation
-|Top figure
-|Bottom figure
-|Healthy / Unfavourable range
+//[cols="^,<,<,<,<", options="header"]
+//|===
+//|Dimension
+//|Explanation
+//|Top figure
+//|Bottom figure
+//|Healthy / Unfavourable range
 
-a|image::score_pie.png[]
-*Sleep Score*
-|Overall score combining all your other sleep metrics.
-|Percentage of the score (0,100).
-|
-|Healthy: as close to 100% as possible
-Unfavourable:
+//a|image::score_pie.png[]
+//*Sleep Score*
+//|Overall score combining all your other sleep metrics.
+//|Percentage of the score (0,100).
+//|
+//|Healthy: as close to 100% as possible
+//Unfavourable:
 
 
-a|image::hrv_pie.png[]
-*HRV gain*
-|The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details https://sleep.urbandroid.org/hrv-tracking/[here]).
-|Difference between hrv after and hrv before.
-|HRV after (the last low activity period before awake up).
-|Healthy: over 2
-Unfavourable: under -5
+//a|image::hrv_pie.png[]
+//*HRV gain*
+//|The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details https://sleep.urbandroid.org/hrv-tracking/[here]).
+//|Difference between hrv after and hrv before.
+//|HRV after (the last low activity period before awake up).
+//|Healthy: over 2
+//Unfavourable: under -5
 
-a|image::BR_pie.png[]
-*Breath disturbances*
-|Breathing disturbance episodes per hour, read more about this topic <</sleep/sleep_apnea#, here>> and <</sleep/breath_rate#, here>>.
-|Average breathing disturbance episodes per hour.
-|
-|Healthy: under 10
-Unfavourable: over 20
+//a|image::BR_pie.png[]
+//*Breath disturbances*
+//|Breathing disturbance episodes per hour, read more about this topic <</sleep/sleep_apnea#, here>> and <</sleep/breath_rate#, here>>.
+//|Average breathing disturbance episodes per hour.
+//|
+//|Healthy: under 10
+//Unfavourable: over 20
 
-a|image::irregularity_pie.png[]
-*Regularity*
-|How regular your sleep is. https://en.wikipedia.org/wiki/Variance[Variance] of your mid-sleep hour and Sleep Regularity Index.
-|Deviation of sleep duration and mid sleep hour.
-|SRI, <</sleep/chrono_jetlag#sri,more details here>>
-|Healthy: under 0.5 hours for regularity, over 80 for SRI.
-Unfavourable: over 1 hour, less then 60 for SRI
+//a|image::irregularity_pie.png[]
+//*Regularity*
+//|How regular your sleep is. https://en.wikipedia.org/wiki/Variance[Variance] of your mid-sleep hour and Sleep Regularity Index.
+//|Deviation of sleep duration and mid sleep hour.
+//|SRI, <</sleep/chrono_jetlag#sri,more details here>>
+//|Healthy: under 0.5 hours for regularity, over 80 for SRI.
+//Unfavourable: over 1 hour, less then 60 for SRI
 
-a|image::deepsleep_pie.png[]
-*Deep Sleep*
-|How long you've been in deep sleep compared to the total sleep duration.
-|Average % of deep sleep
-|Duration
-|Healthy: over 30%
-Unfavourable: under 20%
+//a|image::deepsleep_pie.png[]
+//*Deep Sleep*
+//|How long you've been in deep sleep compared to the total sleep duration.
+//|Average % of deep sleep
+//|Duration
+//|Healthy: over 30%
+//Unfavourable: under 20%
 
-a|image::duration_pie.png[]
-*Duration*
-|How long have you been sleeping.
-|Average duration
-|Deficit or surplus
-|Healthy: 6.5 hours to 8.5 hours, see <<note-age, how this differs with age>>
-Unfavourable: less than 6.5 hours, or more than 8.5 hours
+//a|image::duration_pie.png[]
+//*Duration*
+//|How long have you been sleeping.
+//|Average duration
+//|Deficit or surplus
+//|Healthy: 6.5 hours to 8.5 hours, see <<note-age, how this differs with age>>
+//Unfavourable: less than 6.5 hours, or more than 8.5 hours
 
-a|image::efficiency_pie.png[]
-*Efficiency*
-|How long you've been actually sleeping vs. being in bed.
-|Sleep/awake ratio in %
-|Average duration of awakes
-|Healthy: over 95%
-Unfavourable: under 85%
+//a|image::efficiency_pie.png[]
+//*Efficiency*
+//|How long you've been actually sleeping vs. being in bed.
+//|Sleep/awake ratio in %
+//|Average duration of awakes
+//|Healthy: over 95%
+//Unfavourable: under 85%
 
-a|image::rating_pie.png[]
-*Rating*
-|Your average subjective rating.
-|Your average rating
-|Max rating
-|Healthy: over 3.5 stars
-Unfavourable: under 2 stars
+//a|image::rating_pie.png[]
+//*Rating*
+//|Your average subjective rating.
+//|Your average rating
+//|Max rating
+//|Healthy: over 3.5 stars
+//Unfavourable: under 2 stars
 
-a|image::snoring_pie.png[]
-*Snoring*
-|How long you've been snoring compared to the total sleep duration.
-|Average % of snoring
-|Total duration of snoring
-|Healthy: under 3%
-Unfavourable: over 10%
+//a|image::snoring_pie.png[]
+//*Snoring*
+//|How long you've been snoring compared to the total sleep duration.
+//|Average % of snoring
+//|Total duration of snoring
+//|Healthy: under 3%
+//Unfavourable: over 10%
 
-|===
+//|===
 
 
 [NOTE]
