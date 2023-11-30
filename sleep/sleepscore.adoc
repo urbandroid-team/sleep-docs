@@ -20,12 +20,14 @@ image::sleepscore_annotated.png[]
 .Sleep score in <</sleep/charts#sleep-score, Charts section>>
 image::sleepscore.png[]
 
+toc::[]
+:toclevels: 2
 
 ---
 //toc::[]
 //:toclevels: 1
 
-NOTE: You can choose between colors matching your theme, or color-coding - each dimension has its own color across the whole app (_Settings > Personalize > Stats > Color palette_).
+NOTE: You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; _Settings > Personalize > Stats > Color palette_).
 
 
 If you see you are consistently behind some target for any of your dimensions, you can setup <</sleep/goals,goals>>. For instance you are sleeping just 6:00 on average which is quite bad for an adult, so you can setup a goal to increase your sleep duration to at least 6:30 and the app will guide you gradually to achieve that goal...
@@ -135,3 +137,178 @@ Healthy durations are adjusted according to your age as defined in _Settings -> 
 If you’re in the healthy range for a certain dimension, it lights up green and you get one point. Every line can also turn red if the values are in a very unfavourable range.
 
 NOTE: If you are missing some charts, it means you do not have the required sensor, or the app does not have enough data to estimate it. If your irregularity pie chart is missing, there are probably gaps in the graphs. You can consider <</sleep/automatic_sleep_tracking#, Automatic tracking start>> or <</sleep/sleep_time_estimation#, Sleep time estimation>> features, if you often forget to start the tracking.
+
+=== Sleep Score
+[cols="1,1"]
+|===
+a|image::score_pie.png[align="left"]
+|Overall score combining all your other sleep metrics.
+
+|Figure
+|Percentage of the score (0,100).
+
+|Healthy range
+|as close to 100% as possible
+|===
+
+=== HRV Gain
+[cols="1,1"]
+|===
+a|image::hrv_pie.png[align="left"]
+|The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details https://sleep.urbandroid.org/hrv-tracking/[here]).
+
+|Top Figure
+|Difference between hrv after and hrv before.
+
+|Bottom Figure
+|HRV after (the last low activity period before awake up).
+
+|Healthy range
+|over 2
+
+|Unfavourable range
+|under -5
+
+|===
+
+
+=== Breath disturbances
+[cols="1,1"]
+|===
+a|image::BR_pie.png[align="left"]
+|Breathing disturbance episodes per hour, read more about this topic <</sleep/sleep_apnea#, here>> and <</sleep/breath_rate#, here>>.
+
+|Top Figure
+|Average breathing disturbance episodes per hour.
+
+|Healthy range
+|under 10
+
+|Unfavourable range
+|under over 20
+
+|===
+
+=== Regularity
+[cols="1,1"]
+|===
+a|image::irregularity_pie.png[align="left"]
+|How regular your sleep is. https://en.wikipedia.org/wiki/Variance[Variance] of your mid-sleep hour and Sleep Regularity Index.
+
+|Top Figure
+|Deviation of sleep duration and mid sleep hour.
+
+|Bottom Figure
+|SRI, <</sleep/chrono_jetlag#sri,more details here>>
+
+|Healthy range
+|under 0.5 hours for regularity, over 80 for SRI.
+
+|Unfavourable range
+|over 1 hour, less then 60 for SRI
+
+|===
+
+=== Deep Sleep
+[cols="1,1"]
+|===
+a|image::deepsleep_pie.png[align="left"]
+|How long you've been in deep sleep compared to the total sleep duration.
+
+|Top Figure
+|Average % of deep sleep
+
+|Bottom Figure
+|Duration of deep sleep phases
+
+|Healthy range
+|over 30%
+
+|Unfavourable range
+|under 20%
+
+|===
+
+
+=== Duration
+[cols="1,1"]
+|===
+a|image::duration_pie.png[align="left"]
+|How long have you been sleeping.
+
+|Top Figure
+|Total sum of all your sleep phases of the day.
+
+|Bottom Figure
+|Deficit or surplus from your sleep daily goal.
+
+|Healthy range
+|6.5 hours to 8.5 hours, see <<note-age, how this differs with age>>
+
+|Unfavourable range
+|less than 6.5 hours, or more than 8.5 hours
+
+|===
+
+
+=== Efficiency
+[cols="1,1"]
+|===
+a|image::efficiency_pie.png[align="left"]
+|How long you've been actually sleeping vs. being in bed.
+
+|Top Figure
+|Sleep/awake ratio in %
+
+|Bottom Figure
+|Duration of awake periods
+
+|Healthy range
+|over 95%
+
+|Unfavourable range
+|under 85%
+
+|===
+
+
+=== Rating
+
+[cols="1,1"]
+|===
+a|image::rating_pie.png[align="left"]
+|Your average subjective rating.
+
+|Top Figure
+|Your rating
+
+|Bottom Figure
+|Max rating
+
+|Healthy range
+|over 3.5 stars
+
+|Unfavourable range
+|under 2 stars
+
+|===
+
+=== Snoring
+[cols="1,1"]
+|===
+a|image::snoring_pie.png[align="left"]
+|How long you've been snoring compared to the total sleep duration.
+
+|Top Figure
+|Percentage of your snoring
+
+|Bottom Figure
+|Total duration of snoring
+
+|Healthy range
+|under 3%
+
+|Unfavourable range
+|over 10%
+
+|===
