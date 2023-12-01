@@ -282,9 +282,6 @@ a|image::rating_pie.png[align="left",width=50%,height=50%]
 |Top Figure
 |Your rating
 
-|Bottom Figure
-|Max rating
-
 |Healthy range
 |over 3.5 stars
 
