@@ -19,7 +19,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Per-alarm sleep duration goal is used for goal shortcut for alarm scheduling
 * New Gentle wake up settings screen for alarms
 * In charts we distinguish between Bedtime and Fall asleep time
-* Adding support for Notify & Fitness for Xiaomi: Mi Band 8, Mi Band 8 Pro, Xiaomi Watch S1, Mi Band 7 Pro, Redmi Band 2, Redmi Watch 3, Redmi Watch 2
+* Adding support for https://play.google.com/store/apps/details?id=com.mc.xiaomi1[Notify & Fitness for Xiaomi]: Mi Band 8, Mi Band 8 Pro, Xiaomi Watch S1, Mi Band 7 Pro, Redmi Band 2, Redmi Watch 3, Redmi Watch 2
 
 
 *Bug fixes*
