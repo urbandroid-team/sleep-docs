@@ -15,6 +15,12 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * You can choose start day for non-weekly Alarm schedules
 * Support for HRV calculation from RR intervals on supported Wear OS watches, tested on TicWatch 5 (Wear OS app update needed)
 * Now you can get HR, HRV and SPO2 tracking at the same time on TicWatch 5 see https://bit.ly/46YZBnp
+* Detailed explanation on subscription free trial period
+* Per-alarm sleep duration goal is used for goal shortcut for alarm scheduling
+* New Gentle wake up settings screen for alarms
+* In charts we distinguish between Bedtime and Fall asleep time
+* Adding support for Notify & Fitness for Xiaomi: Mi Band 8, Mi Band 8 Pro, Xiaomi Watch S1, Mi Band 7 Pro, Redmi Band 2, Redmi Watch 3, Redmi Watch 2
+
 
 *Bug fixes*
 
@@ -25,6 +31,17 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Fix for Alarm repeat mode sync when taping on weekdays
 * Fix for starred recordings not shown on sleep graph
 * More Sleep Regularity Index fixes
+* Fix for native Health Connect on Android 14
+* Fix for a crash when Health Connect service is not available
+* Fix for HRV regression on TicWatch 3 Pro
+* Fix for rare repeating alarms after dismiss in smart period
+* Fix for automation event parameters when alarm snooze is canceled
+* Many different Garmin integration fixes in add-on and in the watch app (please update the addons)
+* Fix for Garmin add-on problems to connect to phone
+* Fix for tracking screen dimming after snooze
+* Fix for crash in Automation service
+* Per-alarm sleep duration goal is used for goal shortcut for alarm scheduling
+
 
 
 == 20231001
