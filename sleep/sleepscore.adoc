@@ -141,7 +141,7 @@ NOTE: If you are missing some charts, it means you do not have the required sens
 === Sleep Score
 [cols="1,1"]
 |===
-a|image::score_pie.png[align="left"]
+a|image::score_pie.png[align="left", width=50%,height=50%]
 |Overall score combining all your other sleep metrics.
 
 |Figure
@@ -154,7 +154,7 @@ a|image::score_pie.png[align="left"]
 === HRV Gain
 [cols="1,1"]
 |===
-a|image::hrv_pie.png[align="left"]
+a|image::hrv_pie.png[align="left",width=50%,height=50%]
 |The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details https://sleep.urbandroid.org/hrv-tracking/[here]).
 
 |Top Figure
@@ -175,7 +175,7 @@ a|image::hrv_pie.png[align="left"]
 === Breath disturbances
 [cols="1,1"]
 |===
-a|image::BR_pie.png[align="left"]
+a|image::BR_pie.png[align="left",width=50%,height=50%]
 |Breathing disturbance episodes per hour, read more about this topic <</sleep/sleep_apnea#, here>> and <</sleep/breath_rate#, here>>.
 
 |Top Figure
@@ -192,7 +192,7 @@ a|image::BR_pie.png[align="left"]
 === Regularity
 [cols="1,1"]
 |===
-a|image::irregularity_pie.png[align="left"]
+a|image::irregularity_pie.png[align="left",width=50%,height=50%]
 |How regular your sleep is. https://en.wikipedia.org/wiki/Variance[Variance] of your mid-sleep hour and Sleep Regularity Index.
 
 |Top Figure
@@ -212,7 +212,7 @@ a|image::irregularity_pie.png[align="left"]
 === Deep Sleep
 [cols="1,1"]
 |===
-a|image::deepsleep_pie.png[align="left"]
+a|image::deepsleep_pie.png[align="left",width=50%,height=50%]
 |How long you've been in deep sleep compared to the total sleep duration.
 
 |Top Figure
@@ -233,7 +233,7 @@ a|image::deepsleep_pie.png[align="left"]
 === Duration
 [cols="1,1"]
 |===
-a|image::duration_pie.png[align="left"]
+a|image::duration_pie.png[align="left",width=50%,height=50%]
 |How long have you been sleeping.
 
 |Top Figure
@@ -254,7 +254,7 @@ a|image::duration_pie.png[align="left"]
 === Efficiency
 [cols="1,1"]
 |===
-a|image::efficiency_pie.png[align="left"]
+a|image::efficiency_pie.png[align="left",width=50%,height=50%]
 |How long you've been actually sleeping vs. being in bed.
 
 |Top Figure
@@ -276,7 +276,7 @@ a|image::efficiency_pie.png[align="left"]
 
 [cols="1,1"]
 |===
-a|image::rating_pie.png[align="left"]
+a|image::rating_pie.png[align="left",width=50%,height=50%]
 |Your average subjective rating.
 
 |Top Figure
@@ -296,7 +296,7 @@ a|image::rating_pie.png[align="left"]
 === Snoring
 [cols="1,1"]
 |===
-a|image::snoring_pie.png[align="left"]
+a|image::snoring_pie.png[align="left",width=50%,height=50%]
 |How long you've been snoring compared to the total sleep duration.
 
 |Top Figure
