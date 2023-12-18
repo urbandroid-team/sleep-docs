@@ -193,19 +193,19 @@ a|image::BR_pie.png[align="left",width=50%,height=50%]
 [cols="1,1"]
 |===
 a|image::irregularity_pie.png[align="left",width=50%,height=50%]
-|How regular your sleep is. https://en.wikipedia.org/wiki/Variance[Variance] of your mid-sleep hour and Sleep Regularity Index.
+|How regular your sleep is. <</sleep/chrono_jetlag#sri,Sleep Regularity Index, SRI>> and https://en.wikipedia.org/wiki/Variance[Variance] of your mid-sleep hour.
 
 |Top Figure
-|Deviation of sleep duration and mid sleep hour.
-
-|Bottom Figure
 |SRI, <</sleep/chrono_jetlag#sri,more details here>>
 
+|Bottom Figure
+|Deviation of sleep duration and mid sleep hour
+
 |Healthy range
-|under 0.5 hours for regularity, over 80 for SRI.
+|Over 80 for SRI and under 0.5 hours for regularity
 
 |Unfavourable range
-|over 1 hour, less then 60 for SRI
+|Less then 60 for SRI, over 1 hour fpr mid sleep hour variance
 
 |===
 
