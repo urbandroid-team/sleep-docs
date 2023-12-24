@@ -18,35 +18,11 @@ Features:
 _Settings -> Services -> Smartlight_
 
 toc::[]
-:toclevels: 2
+:toclevels: 4
 
-= Options
 
 == Use smartlight
 Enables smartlight support.
-
-== Maximum intensity
-Set a a global limit for brightness a smartlight would be allowed to achieve when controlled by Sleep. This is useful for sunrise alarm where 100% might be too bright for some people.
-
-== Sunrise
-Enable to use your phone's screen as a smartlight for the sunrise alarm. See <<sunrise_alarm_guide, the guide below>> on how to configure this in your settings.
-
-== Wake up with flashlight
-If enabled, your phone's flashlight will be flashing during alarm.
-
-WARNING: Might be unreliable on some phones.
-
-== Keep light up after
-Set whether the light should stay on after dismissing alarm, snoozing alarm or both. Or none.
-
-== Pee-light
-If this is set, a pause in sleep tracking will turn on a red light on your set smartlight. If this is set to "Tracking is paused", the pee-light will be on for the whole pause.
-
-== Lucid dreaming
-Use smartlight as a cue for lucid dreaming. When your REM phase is detected, your set light will flash.
-
-== Anti-snoring
-Use smartlight as a cue for anti-snoring. When snoring is detected, your set light will flash. See
 
 
 == Philips HUE, IKEA Trådfri
@@ -75,26 +51,47 @@ NOTE: On Android 8 and later, you need to have https://play.google.com/store/app
 
 == Sleep Mask
 
-
-
 Use Sleep Mask:: Enable to use your https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android.html[Sleep Mask] as a smartlight.
 
-= Guide
+== Maximum intensity
+Set a a global limit for brightness a smartlight would be allowed to achieve when controlled by Sleep. This is useful for sunrise alarm where 100% might be too bright for some people.
+
+== Nightlight
+If this is set, a pause in sleep tracking will turn on a red light on your set smartlight. If this is set to "Tracking is paused", the pee-light will be on for the whole pause.
+
+== Lucid dreaming
+Use smartlight as a cue for lucid dreaming. When your REM phase is detected, your set light will flash.
+
+== Anti-snoring
+Use smartlight as a cue for anti-snoring. When snoring is detected, your set light will flash. See
+
+== Keep light up after
+Set whether the light should stay on after dismissing alarm, snoozing alarm or both. Or none.
+
+== Sunrise
+Enable to use your phone's screen as a smartlight for the sunrise alarm. See <<sunrise_alarm_guide, the guide below>> on how to configure this in your settings.
+
+== Wake up with flashlight
+If enabled, your phone's flashlight will be flashing during alarm.
+
+WARNING: Might be unreliable on some phones.
+
+== Guide
 
 [[sunrise_alarm_guide]]
 
-== How to setup sunrise alarm (sunrise-like wakeup)
+=== How to setup sunrise alarm (sunrise-like wakeup)
 
-. Enable _Settings -> Services -> Smartlight -> Use smartlight_
+. Enable _Settings -> Services -> Smartlight -> Enabled_.
 . Select your smartlight:
-* Use phone's screen as a smartlight: Enable _Smartlight -> Use screen light_
-* Use a smartbulb as a smartlight: Connect using _Smartlight -> Philips HUE, IKEA Trådfri (disconnected)_
-* Use Sleep Phaser as a smartlight: Connect using _Smartlight -> Sleep Phaser (disconnected)_ and enable _Smartlight_ right under it.
+* Use phone's screen as a smartlight: Enable _Settings -> Services -> Smartlight -> Sunrise_ or _Settings -> Alarms -> Gentle wakeup -> Sunrise_.
+* Use a smartbulb as a smartlight: Connect using _Settings -> Services -> Smartlight -> Philips HUE, IKEA Trådfri (disconnected)_
+* Use Sleep Phaser as a smartlight: Connect using _Settings -> Services -> Smartlight -> Sleep Phaser (disconnected)_ and enable _Smartlight_ right under it.
 * Use cable-type Sleep Mask as a smartlight: Connect using _Smartlight -> Use Sleep Mask_.
 
 After you've done the above steps to connect and enable the smartlight of your choice, all of your alarms will turn on the smartlight when they start ringing. Now, to have a truly sunrise wakeup, you probably want the smartlight to turn on _before_ the alarm rings.
 
-To set that up, head to _Settings -> Alarms -> Sound delay_ and set it to some period. At the time of the alarm, only the smartlight will turn on at the lowest brightness and gradually brighten up until the set period passes. Then the alarm starts ringing.
+To set that up, head to _Settings -> Alarms -> Gentle wakeup -> Delayed alarm sound start_ and set it to some period. At the time of the alarm, only the smartlight will turn on at the lowest brightness and gradually brighten up until the set period passes. Then the alarm starts ringing.
 
 Without the delayed sound start, you can control the speed of sun-rise effect by changing the period of <</alarm/alarm_settings/gentle_alarm#,Gentle volume>>. The longer the period is, the longer it takes to get from dark to full light.
 

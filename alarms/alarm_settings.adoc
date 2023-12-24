@@ -43,10 +43,10 @@ If <</ux/personalize#tts, text-to-speech>> is enabled, the application will read
 
 //image:alarm_label.png[width=70%]
 
-== Time
+== Time (per-alarm only)
 You can choose one of three time pickers - wheel picker, analogue picker, and Material YOU picker (see <</alarms/create_alarm#figure-new-alarm, here for details>>).
 
-== Repeat
+== Repeat (per-alarm only)
 Chooses the pattern of the repetition:
 
 [horizontal]
@@ -154,7 +154,7 @@ If you want a specific calendar event to move your alarm by a specific time (ove
 
 NOTE: You will always be notified when one of your alarms can be rescheduled, with the option to cancel the change.
 
-== Smart period
+== Smart wake up
 
 See <</alarms/smart_wake_up#,Smart wake up>>.
 You can have a different smart period for each alarm - a longer period for weekends, and a shorter period for your workdays.
@@ -180,16 +180,18 @@ NOTE: We strongly recommend setting a sound delay instead of setting the alarm t
 
 NOTE: We strongly recommend setting a sound delay instead of setting the alarm to silent, especially if the backup alarm is also silent.
 
-== Gentle volume [[gentle_alarm]]
+== Gentle wake up [[gentle_alarm]]
 
 Gentle volume ensures you wake up with the minimum volume necessary for a more pleasant wake-up experience. The alarm starts at the minimum volume and gradually increases to the maximum volume.
+
+=== Gentle volume
 
 [horizontal]
 Disabled:: Alarm sounds at the system's alarm stream volume (or media stream if using streaming services or changing the _Alarm Output_ settings). For more details see the <</alarms/ringtone#,Ringtone>> section.
 30 seconds:: A brief period of increased sound followed by sound at the current system volume.
 1-24 minutes:: Sets how long it takes to reach the maximum volume; the longer the time, the slower the volume increases and the longer it takes to reach the maximum.
 
-== Vibrate
+=== Vibrate
 Enables phone vibrations (not to be confused with wearable vibrations).
 
 [horizontal]
@@ -198,34 +200,38 @@ From start:: Vibrations start at alarm time.
 After 30 seconds:: Vibrate start after 30 seconds.
 After 1-24 minutes:: Vibrations start after the set time.
 
-== Delayed sound [[sound_delay]]
+=== Delayed sound [[sound_delay]]
 You may want to give <</devices/smart_light#,Smartlight>> or vibrations a chance to wake you up before the alarm sounds.
 
 [horizontal]
 Disabled:: Sound starts at alarm time.
 30 seconds - 24 minutes:: Sound starts after the set time.
 
-== Play alarm in silent profile
+=== Play alarm in silent profile
 The alarm sound overrides the phone's silent mode.
 
+=== Sunrise wake up
+Enable to use your phone's screen as a smartlight for the sunrise alarm. See <<sunrise_alarm_guide, the guide below>> on how to configure this in your settings.
+
+=== Flashlight wake up
+If enabled, your phone's flashlight will be flashing during alarm.
+
+=== Use smartlight
+Opens additional smartlight settings in <<devices/smartlight#, Smartlight section>>.
 
 == Bedtime notifications
 
 See <</alarms/bedtime_notification#,Bedtime notification>>).
 
 
-== Sleep duration goal (per-alarm only)
+=== Sleep duration goal (per-alarm only)
 A special option for polyphasic sleep (see <</alarms/polyphasic#,here for more details>>).
-
 
 == Snooze
 Changes the snooze limits for this alarm, you can limit the snooze in counts, or in time, see <</alarms/snooze#,Snooze chapter>>.
 
-== Flip to snooze
-Lets you snooze an alarm by flipping the phone (screen to back and vice versa).
-
-== Volume or camera button effect
-Allows you to snooze or cancel the alarm using the volume buttons.
+== Fullscreen alarm
+Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw / Display over other apps_ permission.
 
 == Long press
 A long press on the dismiss button is required to dismiss the alarm. This can be useful if you accidentally dismiss your alarms.
@@ -237,15 +243,14 @@ A long press on the dismiss button is required to dismiss the alarm. This can be
 
 NOTE: Won't completely disable the alarm, so it won't affect the next alarms.
 
-
-== Sunrise
-Lets you use your phone screen as a smart light for your sunrise alarm. It uses the brightness of the screen to gently wake you up with light.
-
-== Always fullscreen alarm
-Alarm will never show up as a heads-up notification. This includes Android 10 where this feature requires the _Draw / Display over other apps_ permission.
+== Flip to snooze
+Lets you snooze an alarm by flipping the phone (screen to back and vice versa).
 
 == No screen orientation changes
 Prevents screen orientation from being changed while the alarm is ringing (prevents accidental snooze or dismiss during orientation change).
+
+== Volume or camera button effect
+Allows you to snooze or cancel the alarm using the volume buttons.
 
 
 == Backup alarm (alarm default only)

@@ -7,7 +7,41 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20231023
+== Latest version 20231221
+
+*Sleep regularity index*
+
+* Default Regularity measure in Sleep Score
+* Now also used in Goals
+* Default in Chart card
+
+*New Goals*
+
+* Goal type selection screen
+* Goal charts to better indicate progress
+* New goal progress calculation
+* Redesign of Goal target and Goal detail screens
+* Redesign of goal card on dashboard
+
+*Achievements*
+
+* New motivation to explore features in the app and earn badges
+* Dashboard card
+
+*Charts*
+
+* Different Bedtime and Fall asleep time charts
+Settings
+* Nicer awake detection and sound recognition settings screens
+* Smartlight settings reorganized
+* New Gentle wake up settings screen
+
+*Fixes*
+
+* Fix for a glitch in noise cards layout
+* Fix for Spotify volume jump in case of Gentle volume 30 seconds up to device volume
+
+== 20231023
 
 *Features*
 

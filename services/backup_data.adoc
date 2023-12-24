@@ -16,12 +16,11 @@ _Settings -> Privacy -> Backup_
 
 ---
 toc::[]
-:toclevels: 2
+:toclevels: 4
 
 // Google Drive:: See <<google_drive,Google Drive>>
 // Dropbox:: See <<dropbox,Dropbox>>
 
-= Types of backup
 
 == Local backup
 [[local_backup]]
@@ -54,7 +53,7 @@ You an also do a manual export/import process:
 . Copy the directory you see on the dialogue to your new phone's SD card.
 . Install Sleep as Android on the new phone and immediately go to _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Import_.
 
-NOTE: If you don't import immediately, the app will replace your `sleep-export.zip` file after the next sleep record is created. The old `sleep-export.zip` file will be renamed to `sleep-export.backup.zip`. See <</faqs/backup_data_not_imported_immediately#,solution>>.
+NOTE: If you don't import immediately, the app will replace your `sleep-export.zip` file after the next sleep record is created. The old `sleep-export.zip` file will be renamed to `sleep-export.backup.zip`. See <</faqs/backup_data_not_imported_immediately#, solution>>.
 
 
 [[csv_export]]
