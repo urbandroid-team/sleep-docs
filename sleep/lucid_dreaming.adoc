@@ -22,7 +22,6 @@ _Settings -> Services -> Smart light -> Lucid dreaming_
 toc::[]
 :toclevels: 1
 
-= Options
 
 == Sensitivity
 Changes the sensitivity of lucid cues triggering based on the progress of the sleep phases before.

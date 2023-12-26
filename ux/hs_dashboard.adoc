@@ -28,7 +28,6 @@ _Settings -> Personalize -> Home screen_
 toc::[]
 :toclevels: 2
 
-= Options
 
 == Alarm card
 Shows you the first next active alarm.

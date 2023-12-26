@@ -9,8 +9,9 @@ tags:
 
 - Most likely, your <</alarms/backup#,Backup alarm>> went off after your regular alarm failed tp wake you up. T Backup alarm is triggered when there is no interaction (no snooze, no dismiss) for more than 20 minutes.
 
-- Make sure you are using a loud enough volume in _Settings -> Alarms -> Ringtone_, or enable Gentle Volume in _Settings -> Alarms -> Gentle volume_
-- Try vibrations (_Settings -> Alarms -> Vibrate_).
+- Make sure you are using a loud enough volume in the system settings. If you are using a current system volume, you risk the volume won't be suitable for you when the alarm starts. Any app can change this volume.
+- Enable Gentle Volume in _Settings -> Alarms -> Gentle wake up -> Gentle volume_
+- Try vibrations (_Settings -> Alarms -> -> Gentle wake up -> Vibrate_).
 
 
 Send us your log using _Left_ ☰ menu -> icon:ic_help_q[] Support ->icon:ic_bug[] Report a bug.
