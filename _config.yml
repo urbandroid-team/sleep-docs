@@ -17,7 +17,7 @@ title: Sleep as Android
 email: info@urbandroid.org
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation site for Sleep as Android (a sleep tracking, sleep cycle Android app)
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: UrbandroidTeam
 
@@ -54,7 +54,7 @@ asciidoctor:
   template_dir: _templates
   attributes:
     xrefstyle: full
-    imagesdir: /assets/images
+    imagesdir: assets/images
     iconsdir: '{imagesdir}/../icons'
     hardbreaks: true
     icons: ''

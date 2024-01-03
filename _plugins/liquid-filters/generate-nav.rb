@@ -28,7 +28,7 @@ module Jekyll
         ul_contents = ""
 
         active = isPageOrChildrenActive(partialTree)
-        url = '<a class="navigation-list-link ' + (active ? 'active' : '') + '" href="' + partialTree[:url].to_s + '">' + partialTree[:title].to_s + '</a>'
+        url = '<a class="navigation-list-link ' + (active ? 'active' : '') + '" href="' + Jekyll.sites.first.baseurl + partialTree[:url].to_s + '">' + partialTree[:title].to_s + '</a>'
 
         ul_contents << createTag(:li, ['navigation-list-item', active], url)
         if partialTree[:children] && active
