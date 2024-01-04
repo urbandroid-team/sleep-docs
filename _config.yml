@@ -54,7 +54,7 @@ asciidoctor:
   template_dir: _templates
   attributes:
     xrefstyle: full
-    imagesdir: assets/images
+    imagesdir: '{site-baseurl}/assets/images'
     iconsdir: '{imagesdir}/../icons'
     hardbreaks: true
     icons: ''
