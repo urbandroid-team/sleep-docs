@@ -8,11 +8,11 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.8.6"
+gem "jekyll", "4.3.3"
 # gem "jekyll", :git => "https://github.com/jekyll/jekyll.git", :branch => "master"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "just-the-docs", "0.2.5"
+gem "just-the-docs", "0.7.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -23,7 +23,7 @@ gem "just-the-docs", "0.2.5"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem 'hawkins'
+#   gem 'hawkins'
   gem 'jekyll-asciidoc'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
@@ -43,9 +43,8 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-
 gem "webrick", "~> 1.7"
 
 gem 'eventmachine', :git => 'https://github.com/eventmachine/eventmachine.git', tag: 'v1.2.7'
 
-
+gem "rexml"
