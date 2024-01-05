@@ -56,6 +56,7 @@ asciidoctor:
     xrefstyle: full
     imagesdir: '{site-baseurl}/assets/images'
     iconsdir: '{imagesdir}/../icons'
+    relfileprefix: '{site-baseurl}'
     hardbreaks: true
     icons: ''
     icontype: svg
