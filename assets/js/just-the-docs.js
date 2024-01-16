@@ -1,10 +1,10 @@
 // Event handling
 
 function addEvent(el, type, handler) {
-  if (el.attachEvent) el.attachEvent('on' + type, handler); else el.addEventListener(type, handler);
+  if (el && el.attachEvent) el.attachEvent('on' + type, handler); else el.addEventListener(type, handler);
 }
 function removeEvent(el, type, handler) {
-  if (el.detachEvent) el.detachEvent('on' + type, handler); else el.removeEventListener(type, handler);
+  if (el && el.detachEvent) el.detachEvent('on' + type, handler); else el.removeEventListener(type, handler);
 }
 
 // Decode HTML
@@ -42,47 +42,38 @@ function toggleNav() {
 // Site search
 
 function initSearch() {
-  var index = lunr(function () {
-    this.ref('id');
-    this.field('title', { boost: 20 });
-    this.field('content', { boost: 10 });
-    this.field('tags', { boost: 5});
-    this.field('url');
-  });
-
+  let index;
   // Get the generated search_data.json file so lunr.js can search it locally.
 
-  sc = document.getElementsByTagName("script");
-  source = '';
+  let sc = document.getElementsByTagName("script");
+  let source = '';
 
-  for (idx = 0; idx < sc.length; idx++) {
+  let s;
+  for (let idx = 0; idx < sc.length; idx++) {
     s = sc.item(idx);
 
-    if (s.src && s.src.match(/just-the-docs\.js$/)) { source = s.src; }
+    if (s.src && s.src.match(/just-the-docs\.js$/)) {
+      source = s.src;
+    }
   }
 
-  jsPath = source.replace('just-the-docs.js', '');
+  let jsPath = source.replace('just-the-docs.js', '');
 
-  jsonPath = jsPath + 'search-data.json';
+  let jsonPath = jsPath + 'search-data.json';
 
-  var request = new XMLHttpRequest();
+  const request = new XMLHttpRequest();
   request.open('GET', jsonPath, true);
 
   request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
       // Success!
-      var data = JSON.parse(request.responseText);
-      var keys = Object.keys(data);
+      const data = JSON.parse(request.responseText);
+      const keys = Object.keys(data);
 
-      for (var i in data) {
-        index.add({
-          id: data[i].id,
-          title: data[i].title,
-          content: data[i].content,
-          url: data[i].url,
-          tags: data[i].tags
-        });
-      }
+      console.log('data', data)
+
+      index = buildIndex(data)
+
       searchResults(data);
     } else {
       // We reached our target server, but it returned an error
@@ -90,14 +81,41 @@ function initSearch() {
     }
   };
 
-  request.onerror = function () {
+  request.onerror = function (e) {
     // There was a connection error of some sort
-    console.log('There was a connection error');
+    console.log('There was a connection error', e);
   };
 
   request.send();
 
+  function buildIndex(data) {
+    console.log('buildIndex', data)
+
+    return lunr(function(){
+      this.ref('id');
+      this.field('title', { boost: 20 });
+      this.field('content', { boost: 10 });
+      // this.metadataWhitelist = ['position']
+      this.field('tags', {boost: 5});
+      this.field('url');
+
+      for (const i in data) {
+        console.log(data[i])
+        console.log(data[i].title)
+
+        this.add({
+          id: i,
+          title: data[i].title,
+          content: data[i].content,
+          url: data[i].url,
+          tags: data[i].tags
+        });
+      }
+    });
+  }
+
   function searchResults(dataStore) {
+    console.log('searchResults init')
 
     var searchInput = document.querySelector('.js-search-input');
     var searchResults = document.querySelector('.js-search-results');
@@ -118,6 +136,8 @@ function initSearch() {
       }
 
       const query = this.value;
+      console.log('query', query)
+      console.log(this)
 
       searchResults.innerHTML = '';
       searchResults.classList.remove('active');
@@ -125,7 +145,8 @@ function initSearch() {
       if (query === '') {
         hideResults();
       } else {
-        const results = index.search(query);
+        const results = index.search(`${query}~1`);
+        console.log('search results', results)
 
         if (results.length > 0) {
           searchResults.classList.add('active');
@@ -139,15 +160,20 @@ function initSearch() {
 
           for (const i in results) {
             let result = store[results[i].ref]
-            var resultsListItem = document.createElement('li');
-            var resultsLink = document.createElement('a');
-            var resultsUrlDesc = document.createElement('span');
+            const resultsListItem = document.createElement('li');
+            const resultWrapper = document.createElement('div')
+            const resultCategory = document.createElement('div')
+            const resultLinkWrapper = document.createElement('div')
+            const resultsLink = document.createElement('a');
+            const resultsUrlDesc = document.createElement('span');
 
-            var resultsUrl = result.url;
-            var resultsRelUrl = result.relUrl;
-            var resultsTitle = htmlDecode(result.title);
-            var resultsType = result.collection;
-            var resultsTags = result.tags
+            const resultsUrl = result.url;
+            const resultsRelUrl = result.relUrl;
+            resultCategory.innerText = `${htmlDecode(result.doc)}`
+            const resultsTitle = htmlDecode(result.title).replace(/^\d+\./, '')
+            const resultsType = result.collection;
+            const resultsTags = result.tags
+
 
             resultsLink.setAttribute('href', resultsUrl);
             resultsLink.innerText = resultsTitle;
@@ -156,11 +182,15 @@ function initSearch() {
             docsResultsList.classList.add('search-results-list');
 
             resultsListItem.classList.add('search-results-list-item');
+            resultCategory.classList.add('search-results-category');
             resultsLink.classList.add('search-results-link');
             resultsUrlDesc.classList.add('fs-2', 'text-grey-dk-000', 'd-block');
 
             resultsLink.appendChild(resultsUrlDesc);
-            resultsListItem.appendChild(resultsLink);
+            resultsListItem.appendChild(resultWrapper)
+            resultWrapper.appendChild(resultCategory);
+            resultWrapper.appendChild(resultLinkWrapper);
+            resultLinkWrapper.appendChild(resultsLink)
 
             if (resultsType === 'faqs') {
               faqResultsList.appendChild(resultsListItem);

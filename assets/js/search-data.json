@@ -10,7 +10,8 @@
     "url": "{{ page.url | absolute_url }}",
     "relUrl": "{{ page.url }}",
     "collection": "{{ page.collection }}",
-    "tags": "{{ page.tags | join: ', ' }}"
+    "tags": "{{ page.tags | join: ', ' }}",
+    "prdel": "{{ page.tags | join: ', ' }}"
   }
       {% unless forloop.last %},
   {% endunless %}

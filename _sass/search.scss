@@ -93,6 +93,8 @@
   margin-bottom: $sp-1;
   list-style: none;
   @include fs-3;
+  height: 60vh;
+  overflow: auto;
 }
 
 .search-results-list-item {
@@ -100,12 +102,16 @@
   margin: 0;
 }
 
+.search-results-category {
+  font-size: xx-small;
+}
+
 .search-results-link {
   display: block;
-  padding-top: $sp-1;
+  padding-top: 0;
   padding-right: $sp-3;
-  padding-bottom: $sp-1;
-  padding-left: $sp-3;
+  padding-bottom: $sp-3;
+  padding-left: 0;
 
   &:hover {
     color: var(--body-heading-color);

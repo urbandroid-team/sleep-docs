@@ -54,8 +54,9 @@ asciidoctor:
   template_dir: _templates
   attributes:
     xrefstyle: full
-    imagesdir: '{site-baseurl}/assets/images'
-    iconsdir: '{imagesdir}/../icons'
+    imagesdir: '{site-baseurl}/../assets/images'
+    iconsdir: '{site-baseurl}/assets/icons'
+    relfileprefix: '{site-baseurl}'
     hardbreaks: true
     icons: ''
     icontype: svg
