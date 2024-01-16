@@ -13,14 +13,11 @@ _Settings -> Services -> Google Fit_
 == Features
 
 * Upload your sleep data into Google Fit
-* Download 3rd party sleep data from Google Fit into Sleep as Android
-* Heart rate import and export
-* Automatic synchronization of the *#sport* tag based on your fitness activity recorded in Google Fit
 
-NOTE: When enabling the integration, you are asked whether you'd like to synchronize your past records. This is currently limited up to 3 years. All new sleep records are then synchronized with Fit.
+NOTE: When enabling the integration, you are asked whether you'd like to synchronize your past records. This is currently limited up to 3 years. All new sleep records are then send to Google Fit.
 
 [WARNING]
-The app will only sync entries without cloud icon (that were already synced from another cloud service).
+The app will only store entries without cloud icon (that were already synced from another cloud service).
 
 == Sync methods
 
@@ -43,13 +40,6 @@ a|[[google-fit-insert]]
 image::google_fit_day.png[]
 
 |===
-
-
-
-
-NOTE: The *#sport* tag is added when at least 80% of the goal (Steps or Heart points) is achieved during the day.
-
-
 
 [cols="^,^"]
 |===
