@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dashbord home screen
+title: Dashboard home screen
 nav_order: 4
 parent: /ux/0parent.html
 ---

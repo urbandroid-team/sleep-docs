@@ -15,7 +15,7 @@ toc::[]
 
 
 == Chronotype
-*Chronotype* is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark.
+*Chronotype* is a term used to characterise your natural sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark.
 
 [horizontal]
 *Night owl*:: tends to stay up active until late night, usually past midnight, and wake up later. https://en.wikipedia.org/wiki/Night_owl_(person)[Wikipedia].
@@ -23,6 +23,7 @@ toc::[]
 Named after a bird who rises very early in the morning. A human lark is a person who usually gets up early and feels most energetic towards the start of the day. They tend to get tired towards the evening. link:https://en.wikipedia.org/wiki/Lark_(person)[Wikipedia].
 
 NOTE: Your currently detected chronotype is always shown in the left menu if you have at least a month of sleep data.
+
 
 [.text-center]
 image:chrono.png[]
