@@ -10,14 +10,16 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 == Latest version 20240123
 
 *New features*
+
 * Implementing UMP consent gathering as required by GDPR legislation
-* Adding consent management into Settings > Personalization > Privacy
+* Adding consent management into _Settings → Personalization → Privacy_
 * Adding AdMob ads - better integrated with the app
 * Sending alarm details to ALARM_RESCHEDULED automation event
 * Adding Notify for Xiaomi App Gallery support
 * On tabs Add Alarm button moved from toolbar to alarm list
 
 *Fixes*
+
 * Fix for missing home screen shortcuts
 * Fix for inconsistent sleep score on sleep dashboard card and sleep detail
 * Fix for missing regularity on sleep dashboard card
