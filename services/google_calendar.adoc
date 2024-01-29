@@ -36,19 +36,19 @@ Whenever your calendar event collides with your next active alarm, Sleep as Andr
 
 How long before the event will the moved alarm ring? You can set that using the slider below this option.
 
-If you want a specific calendar event to reschedule your alarm by a specific time (overriding the slider), you can do that by writing an expression in the following format in the _title_ or _description_ of the calendar event.
+//If you want a specific calendar event to reschedule your alarm by a specific time (overriding the slider), you can do that by writing an expression in the following format in the _title_ or _description_ of the calendar event.
 
-Examples:
+//Examples:
 
-[horizontal]
-#alarm-30:: advances the alarm for 30 minutes
-#alarm-30m:: advances the alarm for 30 minutes
-#alarm+20:: postpones the alarm for 20 minutes
-#alarm+20h:: postpones the alarm for 20 hours
-#alarm-1h:: advances the alarm for 1 hour
-#alarm+2h30m:: postpones the alarm for 2 hours 30 min
-#alarm+2h30:: postpones the alarm for 2 hours 30 min
-#alarm+2:15:: postpones the alarm for 2 hours 15 min
+//[horizontal]
+//#alarm-30:: advances the alarm for 30 minutes
+//#alarm-30m:: advances the alarm for 30 minutes
+//#alarm+20:: postpones the alarm for 20 minutes
+//#alarm+20h:: postpones the alarm for 20 hours
+//#alarm-1h:: advances the alarm for 1 hour
+//#alarm+2h30m:: postpones the alarm for 2 hours 30 min
+//#alarm+2h30:: postpones the alarm for 2 hours 30 min
+//#alarm+2:15:: postpones the alarm for 2 hours 15 min
 
 You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert the automatic option back to the original alarm time.
 
