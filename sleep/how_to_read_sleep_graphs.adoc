@@ -105,17 +105,12 @@ a|Red sections on your graph indicate that the app did not receive data from sen
 
 [cols="1,2"]
 |===
-a|.Oxygen level (Oximeter) + heart rate
+a|.Breath rate + light level
 image::graph_colored.png[]
 
-.Heart rate + heart rate variability
+.SpO2 data + HR + HRV
 image::hrv.png[]
 
-.Light level + heart rate
-image::light.png[]
-
-.Breath rate (sonar)
-image::sonar_breath_rate.png[]
 
 a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>)
 - *Red line* = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about <</sleep/heart_rate#,heart rate monitoring>>).
