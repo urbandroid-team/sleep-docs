@@ -23,7 +23,7 @@ The list of days is based on the period selection in top right (Week, 14 days, M
 Optionally aggregates by Tags can be expanded by tapping on the button in the top right corner. This will tell you how does your Duration, Deep sleep and Snoring differ, when a certain tag is used to your Sleep score for all nights. The aggregates are calculated for the selected period which can be changed in top right.
 
 
-== Daily sleep duration goal
+== Sleep duration goal
 What is your ideal sleep duration target for a typical day. This is used calculate your _Sleep deficit = Daily sleep duration goal - Average sleep duration for selected period_. Read mode on <</sleep/ideal_daily_sleep#,daily sleep duration goal>>.
 
 [EXAMPLE]
@@ -33,9 +33,6 @@ Your ideal duration is 8 hours. Your average sleep for the last week is 7 and ha
 == Sleep day cutoff
 Sleeps finished after this hour will be considered part of the next day. By default Graphs belong to the same day if their end time belongs to the same day. But this can be modified in case of specific sleeping schedules.
 
-== Irregularity:
-By default *Sleep irregularity* – one of the important dimensions in your <</sleep/sleepscore#, Sleep score>> – uses UTC times to calculate how regular your sleep is. This means travelling to a different time zone or day light saving events will affect your regularity. We believe this is correct as in such events your body will really suffer with less quality sleep. On the other hand if you prefer to keep local times, this is your option.
-
 == Prioritize
 Rearrange your sleep score pie charts, will apply to pie charts on Sleep score and graphs too.
 
@@ -44,6 +41,15 @@ Determined your age with is use for Sleep score and the healthy sleep duration r
 
 == Color palette
 Enables additional color spectrum used for your Sleep Score pie charts. When enabled, each pie chart have assigned color across the whole app.
+
+== Regularity
+By default *Sleep Regularity* – one of the important dimensions in your <</sleep/sleepscore#, Sleep score>> – uses UTC times to calculate how regular your sleep is. This means travelling to a different time zone or day light saving events will affect your regularity. We believe this is correct as in such events your body will really suffer with less quality sleep. On the other hand if you prefer to keep local times, this is your option.
+
+
+
+
+
+
 
 
 //Automatic sleep tagging:: This option allows all automatic tags to be turned off. Sleep graphs can be <</sleep/tags#, Tagged>> with additional lifestyle information. For instance \#sport or \#alcohol. But some tags are calculated automatically for your graphs. Those include your 4 most frequent locations, moon cycle, ambient <</sleep/light_level#, light>> in the room, sensors used and more, see full list of <</sleep/tags/automatic-tags#, automatic tags>>.

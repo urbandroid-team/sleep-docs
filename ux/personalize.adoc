@@ -106,8 +106,6 @@ Time:: All your alarms will be sorted by time regardless on which day are they s
 == Analog time picker[[analog-picker]]
 A round analog clock time picker will be shown when creating new alarms instead of the digital one.
 
-== Material time picker[[material-picker]]
-A round analog clock time picker from Google Material You design.
 
 == Release notes
 If disabled, you won't be seeing release notes card/dialog when Sleep is updated to a new version. To check the release notes at will, tap _Left ☰ menu -> icon:ic_help[] Support -> Release notes_.

@@ -16,42 +16,54 @@ tags:
 toc::[]
 :toclevels: 1
 
+[[morning_screen]]
+== Morning screen
 
-== Sleep graph screen
-The graph screen shows up to three graphs:
+The first screen you see in the morning is *Morning briefing* and it offers you important information at a glance.
 
+
+NOTE: You can customize the screen by swiping away the cards you don't need, or pinning the ones you like the most with a long-press.
+To edit the screen, use the *Hide / Show* button at the bottom or _Settings -> Personalize -> Morning screen_, see details <</ux/personalize#morning_screen_set, here>>.
+
+[horizontal]
+Sleep score:: See details in <</sleep/sleepscore#,sleep score chapter>>. If this options is missing, you have *Hide stats before rating* enabled in _Settings -> Personalize -> Morning screen_
+Rating:: Rate you sleep with stars to add important feedback for stats, or add <</sleep/tags#, tags>>.
+Graph overview:: Simplified hypnogram graph, tap to expand it to the <<graph_explain, full graph>>.
+Noise card:: Simplified noise level graph.
+Sensor card:: Simplified sensor data graph.
+Weather card:: MetNorway or OpenWeather data.
+Can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
+Dismiss:: If you end the tracking before alarm, you can simply dismiss the upcoming alarm.
+
+
+[[graph_explain]]
+== Sleep graph detail, edit screen
+
+The full detailed graph shows all data measured or calculated by the app at once. This screen also allows you to edit the graph, add or remove awakes, or edit the tracking duration.
+
+
+- <<statistics,Statistics>>: sleep score for the whole day
 - <<actigraph,Actigraph>>: your activity or movement during sleep
 - <<hypnogram,Hypnogram>>: your sleep phases
+- <<sensor, Sensor data>>: data from various sensors - HR, HRV, light level, breath rate, SpO2
 - <<noise-graph,Noise graph>>: ambient noise level (when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
-Graph screen also shows <<statistics,statistics>> about your night, along with an option to rate and annotate the record.
 
-The app uses Actigraphy – activity-based sleep tracking – as the method of estimating your sleep phases. We have shown in a study that our approach produces a very good match with Polysonography – the de-facto golder standard for clinical sleep tracking with a fraction of the costs. See link:https://sleep.urbandroid.org/sleep-lab-comparison/[How does Sleep as Android compare to the sleeplab].
+NOTE: You can hide or reveal all the graph elements with the buttons at the bottom. These buttons also serve as a hints - they show you which color, or icon the element uses.
 
-=== Statistics
+
+The app uses Actigraphy – activity-based sleep tracking – as the method of estimating your sleep phases. We have shown in a study that our approach produces a very good match with Polysonography – the de-facto golder standard for clinical sleep tracking with a fraction of the costs. See link:https://sleep.urbandroid.org/sleep-lab-comparison/[How does Sleep as Android compare to the sleep lab].
+
+=== Sleep score
 [cols="1,2"]
 |===
 a|
 .Sleep record statistics
 image::graph_score.png[]
-a|*End date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end and not start?>>
-
-*Share icon*:: sharing resulting graphs with your friends, doctor, or support
-
-*(?)*:: Help button with graph's legend
-
-*(⁝) menu*::
-- Comment - adds a note to your graph
-- Noise - opens the list of recorded files
-- Color palette - changes the look
-- Delete awake - deletes awakes detected by the app
-- Delete - deletes the whole graph
-- Clip to clipboard
-- Undo -reverts changes done to the graph
-
-*Sleep score pie charts*::
-- Sleep score pie charts are scrollable, and their order can be changed.
+a|*Sleep score pie charts*::
+- The small "speedometers" pie charts represent all the metrics measured in a simplified way.
 - Read more details about sleep score in <</sleep/sleepscore#,sleep score chapter>>.
+- Sleep score pie charts are scrollable, and their order can be changed.
 
 |===
 
@@ -61,10 +73,7 @@ a|*End date*:: <</faqs/why_sleep_counts_for_the_end_date#, Why end and not start
 |===
 a|.Actigraph
 image::graph_acti.png[]
-a|*Rating*::
-- Rate your sleep each morning - it will give the app your subjective evaluation for statistics.
-
-*Actigraph*::
+a|*Actigraph*::
 - Shows the intensity of your nightly movements.
 - The higher the peak, the more you’ve been moving.
 
@@ -92,18 +101,7 @@ image::red.png[]
 a|Red sections on your graph indicate that the app did not receive data from sensors at that time. This usually happens when using wearables due to lost connection to the wearable. The phone's accelerometer can also (very rarely) malfunction.
 |===
 
-=== Noise graph
-
-[cols="1,2"]
-|===
-a|.Noise graph
-image::graph_noise.png[]
-a|*The noise graph*::
-- Shows how much noise (sleep talk, snoring, environmental) was there throughout the night.
-- When <</sleep/sound_recognition#,sound recognition>> is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with <<markers-and-icons,icons>>.
-|===
-
-=== Colored lines
+=== Sensor data
 
 [cols="1,2"]
 |===
@@ -126,6 +124,17 @@ a|- *Blue line* = blood oxygen level if you are using oximeter. Blue dots with n
 - *Turquoise (Blue-green) line* = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>).
 - *Dashed line* = smart period prior to alarm time (read more about <</alarms/smart_wake_up#,Smart wake up>>).
 
+|===
+
+=== Noise graph
+
+[cols="1,2"]
+|===
+a|.Noise graph
+image::graph_noise.png[]
+a|*The noise graph*::
+- Shows how much noise (sleep talk, snoring, environmental) was there throughout the night.
+- When <</sleep/sound_recognition#,sound recognition>> is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with <<markers-and-icons,icons>>.
 |===
 
 === Markers and Icons
@@ -153,25 +162,6 @@ icon:ic_action_mic[] Sleep noise recorded
 icon:ic_action_dream[] Lucid dreaming
 
 |===
-
-[[morning_screen]]
-== Morning rating screen
-
-The first screen you see in the morning is *Morning briefing* and it offers you important information at a glance.
-
-NOTE: You can customize the screen in _Settings -> Personalize -> Morning screen_, see details <</ux/personalize#morning_screen_set, here>>.
-
-[horizontal]
-Sleep score:: See details in <</sleep/sleepscore#,sleep score chapter>>.
-Graph overview:: Simplified graph, tap to expand it to the <<graph_explain, full graph>>.
-Noise card:: Simplified noise level graph.
-Sensor card:: Simplified sensor data graph.
-Weather card:: MetNorway or OpenWeather data.
-Can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
-Dismiss:: If you end the tracking before alarm, you can simply dismiss the upcoming alarm.
-Rating:: Rate you sleep with stars to add important feedback for stats, or add <</sleep/tags#, tags>>.
-
-
 
 
 == Guides

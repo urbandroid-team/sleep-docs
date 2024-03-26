@@ -7,7 +7,31 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20240129
+== Latest version 20240220
+
+
+*Redesign*
+
+* Sleep detail, Graph edit and Morning briefing screen
+* Sleep detail and Morning screen is now presented in a dashboard style with removable and pinnable cards
+See https://sleep.urbandroid.org/personalized-sleep-detail-and-morning-briefing/
+* Time pickers both analog and digital and switching to naps
+
+*Features*
+
+* Improved sharing from Detail, Edit, Morning screen, Stats and Charts
+* Search screen graphics
+
+*Fixes*
+
+* Timeline for pinned cards
+* Improved goal target typing
+* Sleep variance is now called Irregularity where SRI is Regularity
+* Several UX fixes
+
+
+== 20240129
+
 
 *New features*
 

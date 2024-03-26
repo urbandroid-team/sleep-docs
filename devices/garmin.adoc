@@ -41,24 +41,27 @@ WARNING: On some watches (mainly Vivoactive 3) there is a long-standing firmware
 
 https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml[List of supported Garmin wearables].
 
-* Garmin D2 air, D2 Airx10, D2 Delta, D2 Delta PX, D2 Delta S
-* Garmin Descent Mk2, Mk2S
+* Garmin Approach S70 42mm, Approach S70 47mm
+* Garmin D2 air, D2 Airx10, D2 Delta, D2 Delta PX, D2 Delta S, D2 Mach1
+* Garmin Descent G1, Descent Mk2, Mk2S
 * Garmin Enduro
-* Garmin Epix 2
+* Garmin Epix 2, Epix 2PRO 42mm, Epix 2PRO 47mm, Epix 2PRO 51mm
 * Garmin Fenix 5, Fenix 5 Plus, Fenix 5S, Fenix 5S Plus, Fenix 5X, Fenix 5X Plus
 * Garmin Fenix 6, Fenix 6 Pro, Fenix 6S, Fenix 6s Pro, Fenix 6x Pro
-* Garmin Fenix 7, Fenix 7S, Fenix 7X, Fenix Chronos
+* Garmin Fenix 7, Fenix 7 Pro, Fenix 7S, Fenix 7S Pro, Fenix 7X, Fenix 7X Pro, Fenix Chronos
 * Garmin Forerunner 245, Forerunner245M
 * Garmin Forerunner 255, Forerunner 255M, Forerunner 255D, Forerunner 255SM
 * Garmin Forerunner 55
 * Garmin Forerunner 645, Forerunner 645M
+* Garmin Forerunner 265, Forerunner 265S
 * Garmin Forerunner 745,
 * Garmin Forerunner 935
 * Garmin Forerunner 945, Forerunner 945 LTE
-* Garmin Forerunner 955
-* Garmin Instinct 2, Instinct 2S
+* Garmin Forerunner 955, Forerunner 955 LTE
+* Garmin Forerunner 965
+* Garmin Instinct 2, Instinct 2S, Instinct Crossover, Instinct 2X
 * Garmin Legacy Hero Captain Marvel, First Avenger
 * Gamin Legacy Saga Darth Vader, Rey
-* Gamin MARQ Adventurer, MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Expedition, MARQ Golfer
-* Garmin Venu, Venu 2, Venu 2 Plus, Venu 2S, Venu D, Venu SQ, Venu SQM
-* Garmin Vivoactive 3, Vivoactive 3M, Vivoactive 3M LTE, Vivoactive 4, Vivoactive 4S
+* Gamin MARQ Adventurer, MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Driver, MARQ Expedition, MARQ Golfer, MARQ2 Aviator
+* Garmin Venu, Venu 2, Venu 2 Plus, Venu 2S, Venu D, Venu SQ, Venu SQ2, Venu SQM, Venu SQ2M
+* Garmin Vivoactive 3, Vivoactive 3M, Vivoactive 3M LTE, Vivoactive 4, Vivoactive 4S, Vivoactive 5

@@ -16,57 +16,69 @@ _Settings -> Personalize -> Privacy_
 toc::[]
 :toclevels: 1
 
-=== Analytics
+== Privacy policy
+
+https://team.urbandroid.org/privacy-policy/[A link] to our Privacy Policy and Data consent policy for all our apps.
+
+== Terms of use
+Detailed terms of use of the Sleep as Android app.
+
+== Analytics
 Allows you to opt-out from anonymous data usage stats.
 The anonymous data are for example - how many users have certain app's version, how many users have certain type of Android, how many users have sonar selected as the sensor...
 
 NOTE: No personally identifiable data is collected even when this option is enabled.
 
-=== Don't personalize ads
+== Don't personalize ads
 Allows you to opt-out from the the Android Ads Personalization; it will take you to the system settings page, where you can turn off this feature.
 
-=== Settings
+NOTE: Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow <</faqs/purchase_not_unlocked#,the guide for unlocking the paid version>>.
+
+== Manage consent
+Options for controlling the personal data for personalized advertising.
+
+NOTE: Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow <</faqs/purchase_not_unlocked#,the guide for unlocking the paid version>>.
+
+== Facebook ads
 Redirects you to the Facebook Ads preferences.
 
-NOTE: The app does not share your personal data.
+NOTE: The app does not share your personal data. Advertisement is present only for the free version of the app after the trial.
 The app only asks to display an unspecified ad, the provider of the advertisement will serve the ad based on the advertising ID, that can be disabled (see Don't personalize ads option above)
 You can read more details at our https://team.urbandroid.org/privacy/[https://team.urbandroid.org/privacy/].
 
 NOTE: Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow <</faqs/purchase_not_unlocked#,the guide for unlocking the paid version>>.
 
-=== SleepCloud:
+== SleepCloud:
 Access to the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&hl=cs&gl=US[SleepCloud addon], if installed and used.
 
-=== Android app data backup
+== Android app data backup
 Allows you to opt-out from the standard Android app data backup service. You can configure the Android backup in _system settings -> Privacy -> Back up_.
 
-=== Local storage backup
+== Local storage backup
 Enables daily local storage, which saves "0/com.urbandroid.sleep/files/sleep-data/sleep-export.zip" file.
 
 NOTE: The location of backup storage path may differ on each Android version. If you go to _Left_ ≡ _menu -> Backup -> Export data_, the app shows you the current storage location on the dialogue.
 
-=== Scoped storage
+== Scoped storage
 Enables https://source.android.com/devices/storage/scoped[Scoped storage]; when enabled, the access of the app is restricted only to its designated folder. Substitutes the older read_storage permission.
 
-=== Google Fit
-Enables *Read only access* for Sleep app in the Google Fit integration.
-
-=== Weather
-Enables weather data gathering for <</sleep/how_to_read_sleep_graphs#morning_screen, morning briefing>> weather tile. The app only checks coarse location (± 5 km).
-
-=== Restore settings
+== Restore settings
 Deletes all your recent changes in the settings, and restore them from the latest backup.
 
-=== Don't store sleep location
+
+== Don't store sleep location
 Opts you out of location data collecting. The app only gathers coarse location (± 5km) for <</sleep/tags#geo,geotagging>>.
 
-=== Reset home location
+== Reset home location
 Resets your current home location - useful when you move.
 
-=== Disable experimental features
+== Weather
+Enables weather data gathering for <</sleep/how_to_read_sleep_graphs#morning_screen, morning briefing>> weather tile. The app only checks coarse location (± 5 km).
+
+== Disable experimental features
 Opt you out from our new experimental features (like new actigraphy data processing, new neuron network for sound classification...).
 
-=== Handle phone calls
+== Handle phone calls
 Mutes alarms and lullabies, and pauses sound recording when in phone call. The phone permission is needed.
 
 
