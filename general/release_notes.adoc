@@ -7,8 +7,35 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20240220
+== Latest version 20240424
 
+*Redesign of Widgets*
+
+* Material design, resizable, dynamic layouts (on Android 12+)
+* More info and features
+* Sleep graph widget now contains: duration, regularity, depth, efficiency
+
+*Features*
+
+* Noise card will show noises for the displayed period chronologically
+
+*Fixes*
+
+* Fix for fallback CAPTCHA for NFC if tapped from NFC Scanner screen
+* Fix for weather text to speech on morning screen
+* Fix to keep editing when adding tags
+* Fix for a crash when adding new tags
+* Fix for ambient light graph title
+* Fix for entering Bedtime goals for 12-hour am/pm times
+* Fix for rare overlaps of sleep time estimates with tracking
+* Fix for repeating alarms made disposable when turned into naps
+* Fix for asking to enable overlay permission when flip to snooze is enabled
+* Fix for single point advice rendering
+* Fix for a rare crash in Morning screen
+* Fix for showing Morning screen when phone is locked
+* Deleting a section of graph will unzoom
+
+== 20240220
 
 *Redesign*
 

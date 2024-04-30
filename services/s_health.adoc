@@ -6,9 +6,9 @@ parent: /services/0parent.html
 ---
 :toc: macro
 
-Allows you to sync data between Sleep as Android and Google Fit.*
+Allows you to sync data between Sleep as Android and Samsung Health
 
-- Automatically export your sleep duration, sleep times, and heart rate to Samsung Health.
+- Automatically export your sleep duration, sleep times to Samsung Health.
 - Automatically import 3rd party sleep duration and heart rate into Sleep.
 - Automatically sync #sport tag based on your fitness activity recorded in Samsung Health.
 - Automatically import walking sessions during the night (considered as awake, not including sleep walking).
