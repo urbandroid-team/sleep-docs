@@ -34,7 +34,7 @@ There are two synchronization methods:
 - *Normal sync*: stores the last 2 weeks of data. Sync happens every time sleep tracking ends or when you manually create a sleep record. Also every time you start the app, if no sync has happened in the last 24 hours and the phone is connected.
 - *Full sync*: stores the last 5 years of data. Can be triggered from Settings > Services > Samsung Health (you need to toggle off and on) > Upload (button in the bottom right corner).
 
-NOTE: Heart rate data are exported/imported only for the past 7 days in both normal and full sync (because they are computationally intensive).
+NOTE: Heart rate data are imported only for the past 7 days in both normal and full sync (because they are computationally intensive).
 
 [WARNING]
 The app will only sync entries without cloud icon (that were already synced from another cloud service).
