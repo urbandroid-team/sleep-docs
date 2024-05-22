@@ -19,7 +19,7 @@ NOTE: Testing sensor is not supported by Garmin wearables and FitBit.
 
 
 ## Where to find it
-_Settings -> Sleep tracking -> Test sensor_
+_Settings -> Sleep tracking -> Wearables -> Test sensor_
 
 
 == How it works

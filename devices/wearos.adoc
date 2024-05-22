@@ -31,7 +31,7 @@ WARNING: Wear OS 3.0 have some implemented limitations for independent apps:
 . Go to app list on your watch, select Play Store.
 . Find *Sleep as Android* and select _Install_.
 . After the companion app is installed, you can enable the connection in _Settings -> Sleep tracking -> Wearables -> Use wearable -> Wear OS_ / _Wear OS 3.0+_.
-. Test the connection in Settings -> Sleep tracking -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
+. Test the connection in Settings -> Sleep tracking -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
 . For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
 
 
