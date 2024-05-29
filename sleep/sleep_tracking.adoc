@@ -153,6 +153,11 @@ https://sleep.urbandroid.org/introducing-sonar-as-sensor/[Read more] about sonar
 .Phone placement when tracking using sonar
 image::tracking-position/sonar.png[]
 
+==== Positioning the phone for sonar tracking
+
+Sonar has relatively weak energy, which means its strength lowers with the distance. Keep the phone as close to you as you can, on a steady surface (a bedside table), pointed towards your body. The phone needs to be above the mattress level, ideally at the level as your body or slightly above (chest level).
+If you aim for breath rate monitoring, point the mic side of the phone towards your chest for optimal "reading" of your breathing movements.
+
 === Using other devices
 You can also track sleep with additional devices like <</devices/sleep_phaser#, Sleep Phaser>> and <</devices/wearables#, wearables>>.
 

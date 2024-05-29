@@ -18,65 +18,71 @@ toc::[]
 
 [cols="2,1"]
 |===
-a|Rate your sleep by tapping on the stars.
+a|Rate your sleep on the morning screen by tapping on the stars.
 
 0 = worst sleep, 5 - best sleep.
 
 NOTE: If you leave the rating untouched, it won't count towards your statistics. If you touch it and drag it to zero, it will count as 0.
-a|image:rate.png[]
+a|image:edit_1.png[]
 
 |===
 
+
+[[tags]]
+== Adding comments and tags
+[cols="1,2"]
+|===
+|Choose any of the available icon tags from the list. With the + button you can also create your own personal tags (\#any_text or #emoji ) - read more in <</sleep/tags#, Tags>>.
+
+Tap on the Comment section, and type anything you would like to save as a comment.
+a|image:edit_2.png[]
+
+|===
+
+
+
 [[add_awake]]
-=== Adding awakes, editing start / end of the tracking
+== Adding awakes, editing start / end of the tracking
 
 [cols="1,2"]
 |===
-a|. Drag across the graph section that you wish to edit.
+a|. From the Morning screen, tap on the Hypnogram to enter the Edit mode.
+. Drag across the graph section that you wish to edit.
 . That section will zoom in for more precise selection with the handles.
 . For fine-grained selection, you can enter adjust the time manually in the upper bar.
 . When the period is selected, tap on the scissors icon in the upper right corner.
 - If at least one end of the selected period is touching the start or end of the graph, the whole period is cut off from the graph (the graph is shortened).
 - When the selected period is within the graph, the period is transformed into awake period, and its duration is subtracted from sleep duration.
+
+
 a|image:edit_3.png[]
 |===
 
 NOTE: If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the <</sleep/statistics#, Stats>> screen and use icon:plus[] _Add sleep_
 
-[[delete_awake]]
-== Deleting awakes
-
-[cols="1,2"]
-|===
-a| *Deleting one awake*
-
-. Drag across the graph section that you wish to edit.
-. That section will zoom in for more precise selection with the handles.
-. For fine-grained selection, you can enter adjust the time manually in the upper bar.
-. When the period is selected, tap on the eye icon in the top right corner.
-. Choose "Delete Awake"
-
-*Deleting all awakes*
-
-. Tap the (⁝) menu button in the top right corner.
-. Choose "Delete Awake"
-
-a|image:delete_awake.gif[]
-
-|===
+//[[delete_awake]]
+//== Deleting awakes
+//
+//[cols="1,2"]
+//|===
+//a| *Deleting one awake*
+//
+//. Drag across the graph section that you wish to edit.
+//. That section will zoom in for more precise selection with the handles.
+//. For fine-grained selection, you can enter adjust the time manually in the upper bar.
+//. When the period is selected, tap on the eye icon in the top right corner.
+//. Choose "Delete Awake"
+//
+//*Deleting all awakes*
+//
+//. Tap the (⁝) menu button in the top right corner.
+//. Choose "Delete Awake"
+//
+//a|image:delete_awake.gif[]
+//
+//|===
 
 
 NOTE: Deleting awakes won't work for paused tracking (there is no sensoric data from that period) and for the awakes manually entered by the user.
 
-== Editing comments and tags
-
-
-[[tags]]
-[cols="1,2"]
-|===
-|Choose any of the available icon tags, or you can also create your own tags - read more in <</sleep/tags#, Tags>>.
-
-Tap on the Comment section, and type anything you would like to save as a comment.
-a|image:edit_2.png[]
-|===
 

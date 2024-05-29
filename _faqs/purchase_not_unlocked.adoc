@@ -24,6 +24,9 @@ NOTE: After the initial purchase, you need to wait for a while (maximum a few ho
 go to “My apps” in the Play Store app in order to refresh, then restart your phone. This is super important.
 . If the app doesn’t seem to unlock, please reinstall the app, this has solved the problem for many users recently. Do not forget to backup your data - see <</services/backup_data#, details here>>.
 
+
+WARNING: Do not use a manual backup!
+
 Another way that seemingly helped recently:
 
 . Uninstall Sleep as Android (<</services/backup_data#, backup your data first!>>).

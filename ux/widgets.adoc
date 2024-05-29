@@ -26,16 +26,15 @@ Starts a tracking and reminds you when to go to bed with colors.Two hours before
 Tapping on tracking widgets initiates sleep tracking.
 
 === Alarm widget
-Shows the time of the next alarm. Its color reflects the day of the week of the next alarm from Monday – Red, to Friday and Weekend – Green, to reflect the usually work week day sentiments :).
-Clicking on it brings you to the Sleep application.
+Shows the time of the next alarm, and the day it is scheduled. When the alarm is scheduled for the next 24 hours, you will see an alarm icon, if the alarm is scheduled for further future, you see the day of the week. Also, the point line shows the days of the week, with the next alarm day highlighted.
+Clicking on it brings you to the Sleep application, if there is no alarm scheduled, it will open the time picker for creating a new alarm.
 
-=== Droid widget (icon)
-Changes appearance depending on time, date, day of the week and other factors. Find out all the droid faces!
-Size of the widget can be changed (min size 1x2).
+=== Bedtime widget
+This widget shows the next alarm time+day, the time left till the bedtine when the bedtime is close, or time left till the alarm (after bedtime). The little droid changes appearance depending on time, date, day of the week and other factors. Find out all the droid faces!
 Tapping on it brings you to the Sleep application.
 
 === Hypnogram widget
-Shows your last hypnogram, opens the last graph.
+Shows your last hypnogram's preview, and sleep duration, opens the last graph.
 
 == Shortcut widgets
 

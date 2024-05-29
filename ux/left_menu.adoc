@@ -42,8 +42,8 @@ To read more about chronotype, see our documentation on
 
 == Sleep as Android section
 
-=== icon:ic_dashboard[] Dashboard
-Opens <</ux/hs_dashboard#,Dashboard>> in Tabs mode, if you do not have Tabs showing.
+// === icon:ic_dashboard[] Dashboard
+// Opens <</ux/hs_dashboard#,Dashboard>> in Tabs mode, if you do not have Tabs showing.
 
 === icon:ic_alarm[] Alarms
 Opens <</homecreen#,List of alarms>> in Dashboard mode.
@@ -54,21 +54,23 @@ Opens <</sleep/charts#,Statistics section>>.
 === icon:ic_action_graph[] Graphs
 Opens <</sleep/sleep_graph#,Graph section>>.
 
-=== icon:ic_action_stats[] Chart
+=== icon:ic_action_stats[] Charts
 Opens <</sleep/charts#,Charts section>>.
-
-=== icon:ic_lightbulb[] Advice
-Opens <</sleep/advice#,Advice>>.
 
 === icon:ic_goal[] Goal
 Opens <</sleep/goals#,Goals>>.
 
+=== icon:ic_lightbulb[] Advice
+Opens <</sleep/advice#,Advice>>.
+
 === icon:ic_action_noise[] Noise
 Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
 
-=== icon:ic_action_lullaby[] Lullaby
+=== icon:ic_action_lullaby[] Lullabies
 A shortcut to <</sleep/lullaby#, lullaby section>>.
 
+=== icon:trophy[] Achievements
+A shortcut to <</sleep/achievements#, Achievement board>>.
 
 == Home screen section
 
@@ -82,24 +84,24 @@ Presents all option in tabs, list of alarm is the main screen, see <</ux/hr_tabs
 Simplified mode without any tracking-related settings, read more in <</ux/hs_alarms_only#,Alarms only mode>> chapter.
 
 
-== Shortcuts section
+//== Shortcuts section
 
-Available only in Tabs home screen mode. All the shortcuts from this menu can be used for creating widgets on main screen screen - see  <</ux/widgets#, how to do it>>.
+//Available only in Tabs home screen mode. All the shortcuts from this menu can be used for creating widgets on main screen screen - see  <</ux/widgets#, how to do it>>.
 
-=== icon:ic_action_track[] Start sleep tracking
-Starts sleep tracking.
+//=== icon:ic_action_track[] Start sleep tracking
+//Starts sleep tracking.
 
-=== icon:ic_action_bedtime[] Sleep X hours
-Starts sleep tracking with and alarm based on your daily sleep duration goal (+ smart period and tracking start delay). See <</sleep/ideal_daily_sleep#,Ideal daily sleep income>> on how to configure this.
+//=== icon:ic_action_bedtime[] Sleep X hours
+//Starts sleep tracking with and alarm based on your daily sleep duration goal (+ smart period and tracking start delay). See <</sleep/ideal_daily_sleep#,Ideal daily sleep income>> on how to configure this.
 
-=== icon:ic_action_snooze[] Nap X min
-Schedules a nap and starts tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied. Nap options are based on your last used naps, see <</sleep/ideal_daily_sleep#,Scheduling a nap alarm>>.
+//=== icon:ic_action_snooze[] Nap X min
+//Schedules a nap and starts tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied. Nap options are based on your last used naps, see <</sleep/ideal_daily_sleep#,Scheduling a nap alarm>>.
 
-=== icon:plus[] Add sleep
-For adding a period of sleep manually, when you forgot to track sleep.
+//=== icon:plus[] Add sleep
+//For adding a period of sleep manually, when you forgot to track sleep.
 
-=== icon:ic_alarm_plus[] Add alarm
-Creates a new alarm.
+//=== icon:ic_alarm_plus[] Add alarm
+//Creates a new alarm.
 
 == Support section
 
@@ -121,12 +123,15 @@ Opens help-assistance dialogue.
 === icon:ic_cloud_upload[] Backup
 Opens back up dialogue - for more details on Back up, see <</services/backup_data#,Backup>>.
 
+=== icon:ic_incognito[] Privacy
+Opens the <</general/privacy#, Privacy section>>
+
 === icon:ic_share_variant[] Tell friends
 You can tell your friends about your experience with Sleep as Android.
 
-=== icon:ic_translate[] Translate app
-Can you help us translating Sleep as Android? Also see <</general/translation#,Translation>>.
+// === icon:ic_translate[] Translate app
+// Can you help us translating Sleep as Android? Also see <</general/translation#,Translation>>.
 
-=== icon:ic_text[] Terms of use
-You can read <</general/terms_of_use#, our terms of use>> here - if you have any question or doubts, please contact us at support@urbandroid.org.
+// === icon:ic_text[] Terms of use
+// You can read <</general/terms_of_use#, our terms of use>> here - if you have any question or doubts, please contact us at support@urbandroid.org.
 
