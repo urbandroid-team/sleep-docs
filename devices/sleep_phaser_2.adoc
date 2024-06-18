@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sleep Phaser v2
+title: Sleep Phaser v2 + v3
 nav_order: 2
 parent: /devices/sleep_phaser.html
 tags:
@@ -10,19 +10,19 @@ tags:
 
 *Sleep Phaser is the ultimate sleep tracking device which allows you to use the potential of Sleep as Android to the max.*
 
-Below is the user guide for Sleep Phaser v2.
+Below is the user guide for Sleep Phaser v2 and v3.
 
 ---
 toc::[]
 :toclevels: 2
 
 == Package contents
-- Sleep Phaser V2
+- Sleep Phaser
 - Charging cable
 - User guide
 
 == Phone requirements
-- Android OS (version 4.3 at least)
+- Android OS (version 5 at least)
 
 == Sleep Phaser description
 A switch with three positions is located at the bottom of the Phaser.
@@ -63,7 +63,7 @@ image:sleepphaser2.png[]]
 
 It's very simple to control the Phaser – just touch the top of the lamp. Light modes switch with every touch.
 
-NOTE: The Phaser turns off the light after 30 minutes.
+NOTE: The Phaser turns off the light after 30 minutes automatically, if not tracking.
 
 // Other functions
 

@@ -34,4 +34,5 @@ WARNING: Wear OS 3.0 have some implemented limitations for independent apps:
 . Test the connection in Settings -> Sleep tracking -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
 . For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
 
-
+WARNING: make sure all the components are excluded from battery optimizations (Sleep, Wear app, Bluetooth). Read details at https://dontkillmyapp.com/.
+MobVoi also has *Essential mode* optimization on some Ticwatch models, that will disrupt the data flow.
