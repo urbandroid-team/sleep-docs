@@ -54,3 +54,17 @@ The list for each voice action is not exhaustive, but the listed phrases are gua
 - "Hey Google, open my last sleep in Sleep."
 - "Hey Google, show last sleep in Sleep."
 - "Hey Google, open last sleep in Sleep."
+
+
+=== Google Assistant on Android 15
+
+Google routines on Android 15 must be allowed in the Google app -> your account -> Settings -> Assistant settings -> Shortcut tab -> find Sleep app -> Add all suggestion options -> go back -> add new suggestions.
+
+[.imgflexblock]
+****
+image::GA_1.png[role="left",title="Google app -> your account -> Settings -> Assistant settings -> Shortcut tab"]
+image::GA_2.png[role="left",title="Find Sleep as Android"]
+image::GA_3.png[role="left",title="Add suggested options and go back"]
+image::GA_5.png[role="left",title="Go back and add new suggested options"]
+
+****

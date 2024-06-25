@@ -25,7 +25,7 @@ Dedicated to be used with Sleep as Android and https://play.google.com/store/app
 
 
 _Settings -> Services -> Smartlight -> Use Sleep Mask_ (both types)
-_Settings -> Services -> Smartlight -> Connect Sleep Mask BlueTooth_ (Only BT Mask)
+_Settings -> Services -> Smartlight -> Connect Sleep Mask V2_ (Only BT Sleep Mask V2)
 
 ---
 toc::[]
@@ -38,7 +38,7 @@ toc::[]
 image::mask1.jpg[]
 
 [[figure-mask-2]]
-.Bluetooth Sleep mask
+.Sleep mask V2 (wireless, connects via BT)
 image::mask2.jpg[]
 
 video::a9tYTJOC3Ss[youtube, align=center, width=400, height=280]
@@ -53,15 +53,15 @@ video::a9tYTJOC3Ss[youtube, align=center, width=400, height=280]
 
 NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light#guide, sunrise alarm>>.
 
-=== How to configure Bluetooth type Sleep Mask
+=== How to configure Bluetooth type Sleep Mask V2
 
 . Power on the Sleep Mask using an ON/OFF switch.
 . On your mobile device, make sure that Bluetooth is enabled and the Sleep app has Location permissiom (required for BT scanning).
 . In Sleep as Android, go to _Settings -> Services -> Smartlight -> Enable_ (at the very top) to enable smartlight functions in the app.
 . Then, scroll down to the Sleep Mask section, tick the *Use SleepMask*.
-. Tap on *Connect Sleep Mask BlueTooth*.
+. Tap on *Connect Sleep Mask V2*.
 . Wait till the Sleep Mask is listed in the dialogue and select it.
-. Now the mask is paired (you will see a BT address below Connect Sleep Mask BlueTooth). The Mask also blinks to confirm the connection.
+. Now the mask is paired (you will see a BT address below Connect Sleep Mask V2). The Mask also blinks to confirm the connection.
 
 NOTE: All smartlight features are enabled automatically now - including anti-snoring alerts, lucid dreaming cues, and <</devices/smart_light/sunrise_alarm_guide#, sunrise alarm>>.
 
