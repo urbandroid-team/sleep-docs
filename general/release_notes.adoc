@@ -7,7 +7,39 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20240424
+== Latest version 20240701
+
+*News*
+
+* Material V3 Sliders
+* Detailed explanation of FREE vs. Premium plan
+* Changes in on-boarding tutorial
+* Latest Play review libraries
+* Many New translations
+* Updated library dependency
+* Update in Spotify API
+
+*New lullabies*
+
+* Bath
+* Scenic noise
+* Bubble wrap ASMR
+* NOTE: you need to update Lullaby Add-on too
+
+*Fixes*
+
+* Fix for lullaby pausing
+* Fix for stopping lullaby from quick settings tile
+* Fix for recoverable auth error in Google Calendar
+* Fix for a rare crash in time picker
+* Fix for repetitive smart alarms during a single sleep tracking
+* Fix in MQTT making clientId not mandatory
+* Fix for goals falsely marked as failed
+* Fix in location selection screen when location permission is not granted
+* Fix for score chart gap
+
+
+== 20240424
 
 *Redesign of Widgets*
 
