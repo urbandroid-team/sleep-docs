@@ -13,7 +13,10 @@ tags:
 - garmin
 ---
 
-Sleep as Android supports a wide variety of smartwatches. Take a look at the list:
+Sleep as Android supports a wide variety of smartwatches.
+
+Our non-binding recommendation at the moment: *TicWatch 5 PRO*, it supports SpO2, HR, HRV (https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/[you can read more about our top pick here]).
+
 
 .Legend for sensors
 
