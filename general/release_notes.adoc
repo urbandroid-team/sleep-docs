@@ -7,7 +7,45 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20240701
+== Latest version 20240808
+
+* Targeting Android 14 (API 34)
+
+*Features*
+
+* Experimental Polar SDK support for Polar 360, Polar Vantage V3, Polar Pacer and Pacer Pro, Polar Ignite 3, Grit X2 Pro
+* WAKE UP CHECK feature for severe sleepyheads
+** After alarm dismiss your are asked if you really are awake
+** If not confirmed withing set time window alarm will ring again
+** Wake up check can be configured for each alarm
+* EDITABLE SHORTCUTS: Define your own shortcuts for starting sleep tracking, adding alarms and lullabies
+* NO ALARM BEDTIME: Bedtime notification even when no alarm is scheduled
+* Option to always force dark theme in morning briefing screen
+* Redesign of adding sleep screen with latest material time/date pickers
+* Better landscape look for tracking screen and lullabies
+* Alarms only will turn off automatic tracking and sleep time estimates
+* CAPTCHA settings made cleaner
+* Check that delayed sound start is smaller then alarm timeout
+* Default settings button on per-alarm CAPTCHA option
+* Tasker Plug-in action to skip next alarm
+* New automation broadcasts SKIP_NEXT_ALARM_ACTION_AUTO and SKIP_NEXT_ALARM_ACTION to skip alarm with/out CAPTCHA
+* ShakeIt CAPTCHA remembers progress for a short time
+
+*FIXES*
+
+* Fix for hiding navigation bar during screen dim in sleep tracking
+* Fix for ad card height
+* Fix for missing sleep score on historic data when transitioning from Free to Premium
+* Vibration mode is set to alarm rather then media
+* Fix for auto start lullaby when tracking ends
+* Fix for a crashing regression in last BETA when setting up an alarm
+* Fix for visible fallback button in NFC Captcha
+* Fix for saving comments when screen turns off
+* Blind fix attempt for Spotify Login problems
+* Asking for new Full screen intent permission
+
+
+== 20240701
 
 *News*
 
