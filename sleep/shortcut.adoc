@@ -14,12 +14,12 @@ tags:
 
 The dashboard shortcut bar is now configurable - you can customize the shortcuts to suit your needs!
 
-image:shortcut_board.png
+image::shortcut_board.png
 
 To customize the shortcut panel, tap the Settings icon in the upper right corner of the panel.
 You can adjust the behavior of the shortcuts, rename them, remove them, or add new ones.
 
-image:shortcut_settings.png
+image::shortcut_settings.png
 
 ## Sleep tracking section
 
