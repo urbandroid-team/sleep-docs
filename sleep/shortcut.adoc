@@ -12,11 +12,11 @@ tags:
 
 ---
 
-The dashboard shortcut bar is now configurable - you can customize the shortcuts to suit your needs!
+The dashboard shortcut card is now configurable - you can customize the shortcuts to suit your needs!
 
 image::shortcut_board.png[]
 
-To customize the shortcut panel, tap the Settings icon in the upper right corner of the panel.
+To customize the shortcut card, tap the Settings icon in the upper right corner of the panel.
 You can adjust the behavior of the shortcuts, rename them, remove them, or add new ones.
 
 image::shortcut_settings.png[]
@@ -38,6 +38,6 @@ Your sleep duration goal is 7 hours but on weekend you wish to sleep 1 hour long
 ## Lullabies section
 
 You can select a specific *lullaby* for the shortcut - the selection here will not change the auto-starting lullaby you have set as your default.
-The lullaby can be either one of the built-in lullabies, or a *guided meditation* (requires a https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[free add-on Lis10 from Play Store], see <</sleep/lullaby/meditation#, details here>>).
+The lullaby can be either one of the built-in lullabies, or have a lullaby with *guided meditation* (requires a https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[free add-on Lis10 from Play Store], see <</sleep/lullaby#meditation, details here>>).
 *Turn off when sleeping* will slowly decrease the media volume after you start falling asleep. The option will not change your default Turn off when sleeping, the duration selected here will only apply to lullabies started with this specific shortcut.
 
