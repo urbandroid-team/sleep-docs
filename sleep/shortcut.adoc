@@ -14,12 +14,12 @@ tags:
 
 The dashboard shortcut bar is now configurable - you can customize the shortcuts to suit your needs!
 
-image::shortcut_board.png
+image::shortcut_board.png[]
 
 To customize the shortcut panel, tap the Settings icon in the upper right corner of the panel.
 You can adjust the behavior of the shortcuts, rename them, remove them, or add new ones.
 
-image::shortcut_settings.png
+image::shortcut_settings.png[]
 
 ## Sleep tracking section
 
@@ -32,7 +32,8 @@ Alarm section for each shortcut allows you to *add alarm* and shift the alarm ti
 So you can add an alarm and pick a *sleep duration* for this shortcut (Sleep duration goal disabled) with the slider.
 Or you can enable *ideal sleep duration* (Sleep duration goal enabled), and either add more time to this ideal goal, or subtract time from this ideal goal for this shortcut (will not change the ideal sleep duration)
 
-Example:: Your sleep duration goal is 7 hours but on weekend you wish to sleep 1 hour longer than normal and you do not know when you get to bed. So you create a shortcut to start tracking and add an alarm in Sleep duration goal + 60 minutes..
+[EXAMPLE]
+Your sleep duration goal is 7 hours but on weekend you wish to sleep 1 hour longer than normal and you do not know when you get to bed. So you create a shortcut to start tracking and add an alarm in Sleep duration goal + 60 minutes..
 
 ## Lullabies section
 

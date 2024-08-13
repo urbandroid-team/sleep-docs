@@ -120,4 +120,4 @@ Things to check before any troubleshooting:
 
 . Make sure to install the latest version of Sleep as Android
 . make sure that you have Location – GPS enabled. For some reason, Android needs this enabled to do a successful Bluetooth Low Energy scan.
-. make sure that you power the Sleep Phraser with at least 1A charger.
+. make sure that you power the Sleep Phaser with at least 1A charger.
