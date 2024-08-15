@@ -49,6 +49,7 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 * Garmin Fenix 5, Fenix 5 Plus, Fenix 5S, Fenix 5S Plus, Fenix 5X, Fenix 5X Plus
 * Garmin Fenix 6, Fenix 6 Pro, Fenix 6S, Fenix 6s Pro, Fenix 6x Pro
 * Garmin Fenix 7, Fenix 7 Pro, Fenix 7S, Fenix 7S Pro, Fenix 7X, Fenix 7X Pro, Fenix Chronos
+* Garmin Forerunner 165, Forerunner 165M
 * Garmin Forerunner 245, Forerunner245M
 * Garmin Forerunner 255, Forerunner 255M, Forerunner 255D, Forerunner 255SM
 * Garmin Forerunner 55
