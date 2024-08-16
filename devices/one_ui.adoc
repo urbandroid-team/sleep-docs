@@ -26,3 +26,11 @@ NOTE: Unfortunately due to limit put for non-Samsung apps, we cannot read SpO2 o
 . For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
 
 NOTE: Make sure the sleep tracking activity is allowed in the background within Wear app in _Galaxy Wear > Watch settings > Apps > Sleep tracking > Allow background activity_.
+
+== Beware of the background restrictions
+
+Some users are experiencing gaps in the data, or lost of the data flow at the end. Make sure all the restrictions are disabled for the Sleep app, Wear app, and Bluetooth (details at https://dontkillmyapp.com/).
+Also, check, if the Sleep app is not put on the *List of sleeping apps* directly inside the Galaxy Wear app:
+
+image::wear_sleeping_list.jpg[]
+
