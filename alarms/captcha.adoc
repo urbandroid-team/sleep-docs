@@ -69,7 +69,8 @@ This option allows you to place a small bet that you will not cheat the CAPTCHA.
 The bet can be refunded at any time directly from the app using the REFUND button.
 If you cheat the CAPTCHA, the bet is lost.
 
-[[wakeup_check]]]
+[[wakeup_check]]
+
 == Wake-up check
 
 Additional check for heavy sleepers - after the alarm goes off, you will be asked if you are really awake with a notification. You have to confirm this notification to prove it!
