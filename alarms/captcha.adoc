@@ -28,22 +28,6 @@ NOTE: You can override your default CAPTCHA settings on each alarm and use a mor
 == CAPTCHA No cheating [[cheat]]
 Prevents CAPTCHA avoidance or  alarm avoidance.
 
-=== Power off protection
-Power off protections hides power-off dialogue so that you cannot restart or turn off the device.
-
-WARNING: Power off protection and Force stop and uninstall protection will overlay the screen to prevent you from cheating the tasks. You cannot use 3rd party scanners (for QR Captcha) or NFC tag CAPTCHA with these options.
-
-=== Force stop and uninstall protection
-This advanced option gives the application Admin privileges to prevent the application from being uninstalled.
-Admin privileges also prevent the system from deleting the application's data.
-
-NOTE: To uninstall the app or to clear the app's data, you need to revoke this option!
-
-=== Wakeup motivation
-This option allows you to place a small bet that you will not cheat the CAPTCHA. This will increase your motivation to wake up!
-The bet can be refunded at any time directly from the app using the REFUND button.
-If you cheat the CAPTCHA, the bet is lost.
-
 == CAPTCHA Difficulty
 Sets the difficulty of the CAPTCHA. How the difficulty is used varies from CAPTCHA to CAPTCHA.
 
@@ -65,6 +49,49 @@ Some CAPTCHAs have additional settings:
 * Editing, adding, and deleting QR codes and NFC tags
 * Selecting tasks for Multi CAPTCHA task
 * Select your mantra for Mirror Text CAPTCHA
+
+== CAPTCHA No cheating [[cheat]]
+Prevents CAPTCHA avoidance or  alarm avoidance.
+
+=== Power off protection
+Power off protections hides power-off dialogue so that you cannot restart or turn off the device.
+
+WARNING: Power off protection and Force stop and uninstall protection will overlay the screen to prevent you from cheating the tasks. You cannot use 3rd party scanners (for QR Captcha) or NFC tag CAPTCHA with these options.
+
+=== Force stop and uninstall protection
+This advanced option gives the application Admin privileges to prevent the application from being uninstalled.
+Admin privileges also prevent the system from deleting the application's data.
+
+NOTE: To uninstall the app or to clear the app's data, you need to revoke this option!
+
+=== Wakeup motivation
+This option allows you to place a small bet that you will not cheat the CAPTCHA. This will increase your motivation to wake up!
+The bet can be refunded at any time directly from the app using the REFUND button.
+If you cheat the CAPTCHA, the bet is lost.
+
+[[wakeup_check]]]
+== Wake-up check
+
+Additional check for heavy sleepers - after the alarm goes off, you will be asked if you are really awake with a notification. You have to confirm this notification to prove it!
+
+After the alarm has gone off and you dismiss it, a notification will appear in your notifications - you need to confirm that you are awake by tapping the "I'm awake!" button on this notification.
+If you do not confirm the notification, the alarm will go off again.
+
+image::wake-up_check.png[]
+
+=== Check after
+How long after tha alarm dismiss the notification appears.
+
+=== Time to confirm
+How much time you have to confirm the notification before the alarm goes off again.
+
+[EXAMPLE]
+The alarm goes off at 06:30 and you dismiss it after 2 minutes. Now you have 10 minutes to slowly get up (10-minute "Check after"). After these 10 minutes a notification is shown. You have five minutes (5-minute "Time to confirm) to find the notification and tap the button.
+You did confirm the notification = the alarm is completely finished.
+You did not confirm the notification = the alarm goes off again, you need to dismiss it and then confirm the notification.
+
+=== Notification ringtone
+Takes you to the system settings with additional settings of the notification behavior. You can configure it to be Silent, change the ringtone, have it override the DND...
 
 == Alarm volume in CAPTCHA
 Mutes or lowers the alarm volume while solving a CAPTCHA.
