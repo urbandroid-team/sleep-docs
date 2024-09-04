@@ -15,7 +15,7 @@ Does your watch support the ConnectIQ platform? https://developer.garmin.com/con
 
 [WARNING]
 We are doing our best to provide a full featured integration for all the different wearable platforms, but on some platforms it is really hard due to various limitations in their APIs.
-We have asked Garmin to give us access to their BT specific API for the good of our users and theirs, but they refused or asked for a huge amount of money to do so.
+We have asked Garmin to give us access to their BT specific API for the good of our users and theirs, but they refused or asked for an absurd amount of money to do so.
 So we have to rely on the buggy IQConnect API with problems that Garmin has not fixed for many years. Because their message queue breaks regularly, we had to implement our own parallel messaging system using HTTP.
 This makes the Garmin integration far from optimal and severely limits our ability to fix problems. The integration is provided "as is".
 
