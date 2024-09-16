@@ -49,12 +49,14 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 
 * Garmin Approach S70 42mm, Approach S70 47mm
 * Garmin D2 air, D2 Airx10, D2 Delta, D2 Delta PX, D2 Delta S, D2 Mach1
-* Garmin Descent G1, Descent Mk2, Mk2S
-* Garmin Enduro
+* Garmin Descent G1, Descent Mk2, Descent Mk2S, Descent Mk3 43mm, Descent Mk3 51mm
+* Garmin Enduro, Enduro 3
 * Garmin Epix 2, Epix 2PRO 42mm, Epix 2PRO 47mm, Epix 2PRO 51mm
 * Garmin fēnix 5, fēnix 5 Plus, fēnix 5S, fēnix 5S Plus, fēnix 5X, fēnix 5X Plus
 * Garmin fēnix 6, fēnix 6 Pro, fēnix 6S, fēnix 6s Pro, fēnix 6x Pro
-* Garmin fēnix 7, fēnix 7 Pro, fēnix 7S, fēnix 7S Pro, fēnix 7X, fēnix 7X Pro, fēnix Chronos
+* Garmin fēnix 7, fēnix 7 Pro, fēnix 7S, fēnix 7S Pro, fēnix 7X, fēnix 7X Pro
+* Garmin fēnix 8 43mm, fēnix 8 47mm, fēnix 8 Solar 47mm, fēnix 8 Solar 51mm
+* Garmin fēnix Chronos
 * Garmin Forerunner 165, Forerunner 165M
 * Garmin Forerunner 245, Forerunner245M
 * Garmin Forerunner 255, Forerunner 255M, Forerunner 255D, Forerunner 255SM
