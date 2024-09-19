@@ -25,8 +25,8 @@ image::assistant_sum.png[]
 
 [.imgflexblock]
 ****
-image::assistant_follow_1.png[role="left",title="Assistent can give you an advice"]
-image::assistant_follow_2.png[role="left",title="explanation"]
+image::assistant_follow_1.png[role="left",title="Assistent can give you an advice,"]
+image::assistant_follow_2.png[role="left",title="explanation,"]
 image::assistant_follow_3.png[role="left",title="or examples"]
 
 ****
