@@ -21,7 +21,7 @@ image::assistant_sum.png[]
 
 . Open the Sleep Assistant from the Assistant card on the Dashboard, or from the Left ≡ menu → Sleep Assistant.
 . Now select one of the predefined questions at the top, and wait for the answer.
-. If you have a follow-up question, you can type it into the conversation, or tap the mic icon and dictate the question.
+. If you have a follow-up question, you can type it into the conversation.
 
 [.imgflexblock]
 ****
