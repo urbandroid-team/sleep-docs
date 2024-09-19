@@ -1,10 +1,10 @@
---
+---
 layout: default
 title: Sleep Assistant
 nav_order: 2
 parent: /sleep/0parent.html
 ---
-:toc: macro
+
 
 The new Sleep Assistant helps you better understand and interpret your data for deeper insights. It uses artificial intelligence to summarize, explain, and interpret your sleep data in natural language.
 It helps you see connections, trends, weaknesses, and strengths in your sleep qualities.
@@ -15,7 +15,7 @@ The Community location is taken from Sleep stats → Community card (so from you
 
 The feature is only active when you specifically interact with the Assistant Droid. The feature is completely optional and you do not need to use it, just swipe away the message card from the dashboard.
 
-image::assistant_sum.png
+image::assistant_sum.png[]
 
 === How to use the Sleep Assistant?
 
