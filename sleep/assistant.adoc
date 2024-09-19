@@ -1,0 +1,32 @@
+--
+layout: default
+title: Sleep Assistant
+nav_order: 2
+parent: /sleep/0parent.html
+---
+:toc: macro
+
+The new Sleep Assistant helps you better understand and interpret your data for deeper insights. It uses artificial intelligence to summarize, explain, and interpret your sleep data in natural language.
+It helps you see connections, trends, weaknesses, and strengths in your sleep qualities.
+
+The data used for analysis is aggregated, so it is completely secure and private. The Sleep Assistant does not read or send any personal information, only the sleep score data.
+
+The Community location is taken from Sleep stats → Community card (so from your system locale). The app only works with "country", so nothing leading to your exact or coarse location.
+
+The feature is only active when you specifically interact with the Assistant Droid. The feature is completely optional and you do not need to use it, just swipe away the message card from the dashboard.
+
+image::assistant_sum.png
+
+=== How to use the Sleep Assistant?
+
+. Open the Sleep Assistant from the news card, or the Left ≡ menu → Sleep Assistant.
+. Now select one of the predefined questions at the top, and wait for the answer.
+. If you have a follow-up question, you can type it into the conversation, or tap the mic icon and dictate the question.
+
+[.imgflexblock]
+****
+image::assistant_follow_1.png[role="left",title="Assistent can give you an advice"]
+image::assistant_follow_2.png[role="left",title="explanation"]
+image::assistant_follow_3.png[role="left",title="or examples"]
+
+****
