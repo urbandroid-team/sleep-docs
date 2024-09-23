@@ -7,7 +7,13 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20240906
+== Latest version 20240922
+
+* Configurable Wake up check repeat limit, default: 2x
+* Tags vs. HRV Gain and Respiratory disturbance analysis
+* Several smaller fixes
+
+20240906
 
 *Features*
 
@@ -17,6 +23,10 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 ** Compare long / short sleep trends
 ** Compare your sleep to others in your country
 ** Ask follow up questions about your sleep
+* Four new lullabies Magic, Strings, Fantasy, Megalith (update the lullaby addon too)
+* Wake up check notification:
+** is hidden at alarm start
+** disabled when notifications are off
 
 *Fixes*
 
@@ -30,6 +40,8 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Fix for adding sleep date selection in some timezones
 * Showing overlap times when adding sleep
 * Fix for purchasing life-time premium
+* Fix for Notify for Xiaomi support
+* Fix for Health Connect binding error
 
 == 20240808
 
