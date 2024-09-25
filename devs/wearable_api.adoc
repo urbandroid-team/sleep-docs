@@ -189,6 +189,8 @@ The data can be sent as a single value or as an array.
     High frequency (every second or so) is expected.
 *** `com.urbandroid.sleep.EXTRA_DATA_SDNN` - short-term heart rate variability.
     Typically once every few minutes.
+*** `com.urbandroid.sleep.EXTRA_DATA_RESP` - respiration rate.
+    Accepted values are 8 - 20.
 
 * *The further extras depend on whether a single value or an array is sent.*
 
