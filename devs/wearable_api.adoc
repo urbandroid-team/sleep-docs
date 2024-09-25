@@ -170,7 +170,7 @@ Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a 
 
 The data are expected to be expressed in number of heart beats per minute. It is not necessary to sample these data so frequently as movement data. Once every few minutes is perfectly fine.
 
-=== Send various body sensors data - HR, RR, SPO2, SDNN
+=== Send various body sensors data - HR, RR, SPO2, SDNN, Respiration rate
 
 * Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
 This is a generic intent to carry data from various sensors.
