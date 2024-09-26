@@ -15,6 +15,8 @@ The Community location is taken from Sleep stats → Community card (so from you
 
 The feature is only active when you specifically interact with the Assistant Droid. The feature is completely optional and you do not need to use it, just swipe away the Assistant card from the dashboard.
 
+NOTE:: The feature is currently supported in https://ai.google.dev/gemini-api/docs/available-regions[regions listed here].
+
 image::assistant_sum.png[]
 
 === How to use the Sleep Assistant?
