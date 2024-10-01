@@ -36,6 +36,7 @@ Disable Alarm (when not currently ringing):: `com.urbandroid.sleep.alarmclock.AL
 * Extras:
 ** alarm_label: String representing a label of alarm to be changed. If there are more such alarms, only one of them is going to be changed (no guarantees which).
 ** alarm_enabled: Boolean saying whether alarm should be enabled or disabled.
+** alarm_id: alarm's unique identifier (int)  - retrievable from <</devs/content_provider_api#,the alarm content provider>>.
 
 Snooze Alarm :: `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE`
 You can send an integer extra to set the snooze duration in minutes (in range from 1 to 60).
