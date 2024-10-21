@@ -15,6 +15,9 @@ The Community location is taken from Sleep stats → Community card (so from you
 
 The feature is only active when you specifically interact with the Assistant Droid. The feature is completely optional and you do not need to use it, just swipe away the Assistant card from the dashboard.
 
+NOTE:: The  assistant does not have access to your individual sleep records in your history, only to your summarized sleep aggregates from last 14 days and your last sleep record from today.
+
+
 
 image::assistant_sum.png[]
 
