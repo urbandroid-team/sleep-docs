@@ -16,7 +16,7 @@ On smartphones, sleep tracking was traditionally a process initiated by a button
 Sleep as Android is different.
 The app offers smart ways to track your sleep automatically similarly to what wearables and smart bands do — using your phone’s activity recognition system.
 
-Sleep app also have a feature for tracking sleep times - *Sleep time estimation*. If you forget to start sleep tracking, the app estimates the most probable times you were sleeping form phone activity recognition engine and Google Sleep aPI, and will ask you next day. You can read more about <</sleep/sleep_time_estimation#,sleep time estimation here>>.
+Sleep app also have a feature for tracking sleep times - *Sleep time estimation*. If you forget to start sleep tracking, the app estimates the most probable times you were sleeping form phone activity recognition engine and Google Sleep API, and will ask you next day. You can read more about <</sleep/sleep_time_estimation#,sleep time estimation here>>.
 
 _Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking -> After fall asleep_
 
