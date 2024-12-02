@@ -151,6 +151,27 @@ a|image::score_pie.png[align="left", width=50%,height=50%]
 |as close to 100% as possible
 |===
 
+
+=== HR
+[cols="1,1"]
+|===
+a|image::hr_pie.png[align="left",width=50%,height=50%]
+|The median heart rate.
+
+|Top Figure
+|The median heart rate.
+
+|Bottom Figure
+|The minimal HR value.
+
+|Healthy range
+|under 55 over 35
+
+
+|===
+
+
+
 === HRV Gain
 [cols="1,1"]
 |===

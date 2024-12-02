@@ -7,13 +7,36 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20240922
+== Latest version 20241122
+
+* New Sleep score measure: Sleeping HR (night’s median heart rate) and Low HR (minimal HR)
+* Sleeping HR and Low HR charts and tag-based analysis
+* HR and HRV Gain cards on the dashboard
+* Sleep score measure order has been reset (sorry)
+* Wake up check notification can be swiped away (in addition to be tapped) to confirm you are awake
+* Sonar sensor test screen refresh
+* Spotify connect onboarding in ringtones
+* Polar SDK: device selection dialog and SDK updated
+* Updated pricing model and discounts
+* Smaller bug fixes across the app
+* Fixes in Sleep assistant
+
+
+== 20241024
+
+* NEW Phases card in sleep detail and morning screen (shows percentages for different sleep phases)
+* Fix for no audio recording when starting from watch and phone screen is off
+* Fix for lullaby volume not limited by settings for some lullabies
+* Fix for a rare crash in noise playback
+* Automation: updating state of alarm with id
+
+== 20240922
 
 * Configurable Wake up check repeat limit, default: 2x
 * Tags vs. HRV Gain and Respiratory disturbance analysis
 * Several smaller fixes
 
-20240906
+== 20240906
 
 *Features*
 

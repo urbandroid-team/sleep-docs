@@ -19,6 +19,9 @@ Sleep as Android can be used to automate your smart devices or other application
 - <</devs/intent_api#,Intent API>>
 - https://developer.android.com/reference/android/provider/AlarmClock[Android Alarm clock API]
 
+NOTE: All automation setups are DIY and you need to make sure the client is properly configured.
+
+
 == Where to find it
 
 _Settings -> Services -> Automation_
