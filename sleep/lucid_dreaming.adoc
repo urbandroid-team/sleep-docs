@@ -33,6 +33,8 @@ Allows you to postpone the first occurrence of lucid cue when the REM is detecte
 == Preview
 Allows you to try the lucid dreaming cue in advance.
 
+NOTE:: In preview tests, both the phone and connected wearable will vibrate, in real life only one will vibrate - if you are using a wearable for sleep tracking, only the wearable will vibrate for lucid cues.
+
 == Ringtone
 Select your sound. A woman voice "You are dreaming" is default.
 

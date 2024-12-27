@@ -12,12 +12,10 @@ We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free 
 
 == FREE Sleep as Android
 
-With free version of Sleep as Android, you get 14 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.
+With free version of Sleep as Android, you get 5 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.
 In addition, the free app shows advertisements.
 
 == FULL Sleep as Android
-
-The full version with unlimited sleep tracking is paid since we are putting considerable amounts of work into the app and it is our main source of income.
 
 There are thee options to get full Sleep as Android:
 1. Unlock stand-alone app
@@ -54,7 +52,7 @@ _Cons_
 Subscription is mainly for users, who are not yet decided if they would benefit from the lifetime purchase.
 The fee is either monthly, or yearly (depending on your choice).
 Both subscription types includes SleepCloud PRO version.
-Yearly subscription has additional week of trial period.
+Yearly subscription has additional extra week of free trial period.
 
 == FREE SleepCloud
 
