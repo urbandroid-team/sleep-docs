@@ -76,7 +76,7 @@ alarm_snooze_clicked:: You have snoozed a ringing alarm.
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-alarm_snooze_canceled:: You have a canceled an alarm that is currently snoozed.
+alarm_snooze_canceled:: You have canceled an alarm that is currently snoozed.
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
