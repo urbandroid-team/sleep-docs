@@ -7,7 +7,28 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20241122
+== Latest version 20250121
+
+*NEWS*
+
+* BETA Google Home API integration:
+** Smartlight BETA (max 100 user limit)
+** Google Home API Automation - turn a device on at bedtime, alarm or wake up
+** BETA: max 100 user limit
+* Wake up check automation event
+* Setup instructions on smartwatch connect screen
+* Advice for HR changes and thresholds
+* Option to reset noise storage path
+
+*Fixes*
+
+* Fix for Polar SDK missing values at end of track
+* Graphs color palette option made more clear
+* Edge-to-edge: fixes on Android 15, menu drawer
+* Fix for charts keeping previous values
+
+
+== 20241122
 
 * New Sleep score measure: Sleeping HR (night’s median heart rate) and Low HR (minimal HR)
 * Sleeping HR and Low HR charts and tag-based analysis
