@@ -7,10 +7,11 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250121
+== Latest version 20250124
 
 *NEWS*
 
+* Edge to edge support (Android 11+)
 * BETA Google Home API integration:
 ** Smartlight BETA (max 100 user limit)
 ** Google Home API Automation - turn a device on at bedtime, alarm or wake up
@@ -19,13 +20,16 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Setup instructions on smartwatch connect screen
 * Advice for HR changes and thresholds
 * Option to reset noise storage path
+* Wake up check automation event
 
 *Fixes*
 
 * Fix for Polar SDK missing values at end of track
+* Fix for Galaxy Watch missing values at end of track (update of Wear OS app needed)
+* Fix for one day inconsistency in sleep debt in charts vs. stats
 * Graphs color palette option made more clear
-* Edge-to-edge: fixes on Android 15, menu drawer
 * Fix for charts keeping previous values
+* Fix for goal progress appearance
 
 
 == 20241122
