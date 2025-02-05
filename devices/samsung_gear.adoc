@@ -9,6 +9,11 @@ tags:
 ---
 :toc:
 
+WARNING::
+Samsung dropped support for the apps on the Tizen Watches. The Tizen wearables can no longer be supported.
+This is an official Samsung announcement:
+"In accordance with internal operating policy, we would like to inform you that we are terminating the content service related to Tizen Watch."
+
 Sleep as Android supports most Samsung wearables, but not all. Please look for your device in <<supported-watches>> below.
 
 ## How to set up
