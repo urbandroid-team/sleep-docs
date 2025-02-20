@@ -7,7 +7,22 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250124
+== Latest version 20250220
+
+*NEWS*
+
+* 9 NEW and 8 RENOVATED high quality lullabies in the lullaby pack
+
+*Fixes*
+
+* Fix for add sleep before and after button on sleep edit screen
+* Fix for FAB offset in tabs on Android 10-
+* Fix for buttons in shortcut edit screen
+* Fix for Spotify lullaby description
+* Fix for tracking restart after alarm dismiss on Wear OS 2.5 and lower (update on your watch)
+* Fix for menu drawer scrolling on some phones
+
+== 20250124
 
 *NEWS*
 
