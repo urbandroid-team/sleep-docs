@@ -13,6 +13,8 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 * Lullaby playlist: play X last used lullabies in order
 * 12 NEW and 11 RENOVATED high quality lullabies in the lullaby pack
+* Wake up time chart (menu > Charts > Trends)
+* Rate sleep later notification (Settings > Personalization > Morning screen)
 * Goal success screen
 * 1 week goal option
 
