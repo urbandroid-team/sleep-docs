@@ -12,7 +12,9 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 *NEWS*
 
 * Lullaby playlist: play X last used lullabies in order
-* 11 NEW and 10 RENOVATED high quality lullabies in the lullaby pack
+* 12 NEW and 11 RENOVATED high quality lullabies in the lullaby pack
+* Goal success screen
+* 1 week goal option
 
 *Fixes*
 
