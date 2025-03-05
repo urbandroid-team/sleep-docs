@@ -24,6 +24,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Fix for FAB offset in tabs on Android 10-
 * Fix for buttons in shortcut edit screen
 * Fix for Spotify lullaby description
+* Fix for lullaby volume down with lullaby playlist
 * Fix for tracking restart after alarm dismiss on Wear OS 2.5 and lower (update on your watch)
 * Fix for menu drawer scrolling on some phones
 
