@@ -70,10 +70,12 @@ Snoozed by user:: `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE_CLICKED_ACTION_A
 Time to bed notification:: `com.urbandroid.sleep.alarmclock.TIME_TO_BED_ALARM_ALERT_AUTO`
 Alarm triggered:: `com.urbandroid.sleep.alarmclock.ALARM_ALERT_START_AUTO`
 Alarm dismissed:: `com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS_AUTO`
+alarm_wake_up_check:: `com.urbandroid.sleep.alarmclock.ALARM_WAKE_UP_CHECK_AUTO`
 Lullaby started:: `com.urbandroid.sleep.ACTION_LULLABY_START_PLAYBACK_AUTO`
 Lullaby stopped:: `com.urbandroid.sleep.ACTION_LULLABY_STOPPED_PLAYBACK_AUTO`
 Lucid dreaming cue:: `com.urbandroid.sleep.LUCID_CUE_ACTION_AUTO`
 NOTE: Make sure <</sleep/lucid_dreaming#,Lucid dreaming>> is enabled in settings
+
 
 Antisnoring sound:: `com.urbandroid.sleep.ANTISNORING_ACTION_AUTO`
 

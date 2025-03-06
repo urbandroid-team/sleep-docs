@@ -116,3 +116,4 @@ sound_event_talk:: Fires when we detect talking.
 sound_event_cough:: Fires when we detect coughing.
 sound_event_baby:: Fires when we detect baby cry.
 sound_event_laugh:: Fires when we detect laughter.
+alarm_wake_up_check:: Fires when the wake-up check notification is triggered.

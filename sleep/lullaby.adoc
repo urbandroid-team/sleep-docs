@@ -58,6 +58,7 @@ Lullaby Add-ons::
 * Frogs in pond
 * Galloping horse
 * Girl singing
+* Gregorian (by Paterm)
 * Hair dryer
 * Heart
 * Jacuzzi

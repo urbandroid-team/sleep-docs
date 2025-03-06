@@ -41,7 +41,6 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Setup instructions on smartwatch connect screen
 * Advice for HR changes and thresholds
 * Option to reset noise storage path
-* Wake up check automation event
 
 *Fixes*
 
