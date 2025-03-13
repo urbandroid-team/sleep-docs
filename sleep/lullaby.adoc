@@ -26,8 +26,8 @@ toc::[]
 
 === Nature
 Built-in lullabies[[nature]]:: are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
-Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack].
-This lullaby extension is free for unlocked Sleep app users.
+Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.lullaby[Sleep Lullaby extension pack]. This lullaby extension is free for unlocked Sleep app users.
+You can purchase the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[ Lullaby extension pack] even if you don't wish to use the full version of Sleep app.
 
 * Whale diving
 * Thunderstorm
