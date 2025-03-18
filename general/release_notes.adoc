@@ -7,7 +7,21 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250220
+== Latest version 20250308
+
+*NEWS*
+
+- Gemini 2.0 model upgrade for AI Sleep assistant
+- Rate sleep later notification shown only for sleeps longer than 50 minutes
+- Gregorian monk lullaby (update lullaby add-on)
+
+*FIXES*
+
+- Fix for last alarm button overlap
+- Fix for edge to edge in landscape with 3 button navigation
+
+
+== 20250220
 
 *NEWS*
 
