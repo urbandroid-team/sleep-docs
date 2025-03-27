@@ -12,53 +12,60 @@ We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free 
 
 == FREE Sleep as Android
 
-With free version of Sleep as Android, you get 5 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.
-In addition, the free app shows advertisements.
+Free version of the app is available on the https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Play Store], or on https://sleep.urbandroid.org/more/download/[our website]. You can use the free version as long as you wish, there are no limits.
+
+With the free version of Sleep as Android, you get a *5-day trial of the fully functional application* to test all its features and explore its possibilities.
+
+- After the trial expires, you *can still use the app for free*, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday).
+- All non-tracking features will work without limits, including slarms, lullabies, CAPTCHAs, bedtime...
+- The free app may display ads after the trial period.
 
 == FULL Sleep as Android
 
 There are thee options to get full Sleep as Android:
-1. Unlock stand-alone app
-2. In-app lifetime Sleep
-3. Subscription for Sleep
+
+1. In-app Sleep Lifetime
+2. Subscription for Sleep
 
 image:premium.png[width=50%]
 
-=== Unlock stand-alone app
+The full version is available only via Play Store purchase.
 
-You can upgrade the app to full version by purchasing the stand-alone https://play.google.com/store/apps/details?id=com.urbandroid.sleep.full.key[Sleep as Android Unlock app on Play Store]. The Unlock app is just a holder of the license, it is installed on top of Sleep as Android so that all your settings and data stay as they are.
+//=== Unlock stand-alone app
 
-_Pros_
-- Purchase recognition never fails. The Unlock app serves as an anchor for the purchase recognition, so as long as you keep the Unlock app  installed, you will have full version.
-- Eligible for sharing via https://support.google.com/families/answer/7007852?hl=en[Google Family Library].
+//You can upgrade the app to full version by purchasing the stand-alone https://play.google.com/store/apps/details?id=com.urbandroid.sleep.full.key[Sleep as Android Unlock app on Play Store]. The Unlock app is just a holder of the license, it is installed on top of Sleep as Android so that all your settings and data stay as they are.
 
-_Cons_
-- You need to install an additional app nad keep it on the phone all the time.
+//_Pros_
+//- Purchase recognition never fails. The Unlock app serves as an anchor for the purchase recognition, so as long as you keep the Unlock app  installed, you will have full version.
+//- Eligible for sharing via https://support.google.com/families/answer/7007852?hl=en[Google Family Library].
+
+//_Cons_
+//- You need to install an additional app nad keep it on the phone all the time.
 
 
-=== In-app lifetime Sleep as Android
+=== In-app Sleep as Android Lifetime
 
-Full app purchased on Play Store via a link from the app is called "in-app".
+A full app purchased on the Play Store through a link from the app is called an "in-app" purchase.
 
-_Pros_
-- You don’t download a separate app
+- Purchase recognition works automatically.
+- If you use multiple Google Accounts, make sure that the account you used to purchase the app is always the primary account in the Play Store app, otherwise Sleep as Android may start acting as a free version (see <</faq/purchase_not_unlocked#, troubleshooting guide>>)
 
-_Cons_
-- You need internet connection to verify your purchase (but this doesn't happen too often and there’s a lot of caching involved)
-- If you are using multiple Google accounts, make sure the account you used to purchase the app is always the primary account in the Play Store app, otherwise Sleep as Android may start acting as free version.
 
 === Subscription for Sleep as Android
 
 Subscription is mainly for users, who are not yet decided if they would benefit from the lifetime purchase.
-The fee is either monthly, or yearly (depending on your choice).
-Both subscription types includes SleepCloud PRO version.
-Yearly subscription has additional extra week of free trial period.
+
+- The fee is either monthly, or yearly (depending on your choice).
+- Both subscription types includes SleepCloud PRO version.
+- Yearly subscription has additional extra week of free trial period.
 
 == FREE SleepCloud
 
-With free version of SleepCloud, you can do backups only once a week. The online account is available without any limits.
+- Automatic updates into the SleepCloud account once a week.
+- The online account is available without any limits.
+- The syncs to the Google Drive and Dropbox are not limited.
 
 == FULL SleepCloud
 
-The full version with unlimited backups is paid since we have to pay for the cloud storage to Google (whose servers we are using). The fee is charged yearly.
-Full SleepCloud version is already included in the monthly subscription plan.
+- Unlimited automatic backups (each time you end the tracking and the phone has connectivity).
+- Full SleepCloud version is already included in the monthly subscription plan.
