@@ -23,7 +23,7 @@ With the free version of Sleep as Android, you get a *5-day trial of the fully f
 
 == FULL Sleep as Android
 
-The full version unlocks all Sleep features.
+The full version unlocks all Sleep features:
 
 - Sleep tracking without limits
 - Smart wakeup without limits
@@ -70,8 +70,10 @@ Subscription is mainly for users, who are not yet decided if they would benefit 
 
 == FREE SleepCloud
 
+SleepCloud is native backup service for Sleep as Android app, available on the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port[Play Store].
+
 - Automatic updates into the SleepCloud account once a week.
-- The online account is available without any limits.
+- The https://sleep-cloud.appspot.com/SleepCloud.html[online account] is available without any limits.
 - The syncs to the Google Drive and Dropbox are not limited.
 
 == FULL SleepCloud
