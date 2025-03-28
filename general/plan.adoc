@@ -14,7 +14,7 @@ We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free 
 
 Free version of the app is available on the https://play.google.com/store/apps/details?id=com.urbandroid.sleep[Play Store], or on https://sleep.urbandroid.org/more/download/[our website].
 
-With the free version of Sleep as Android, you get a *5-day trial of the fully functional application* to test all its features and explore its possibilities.
+With the free version of Sleep as Android, you get a *4-day trial of the fully functional application* to test all its features and explore its possibilities.
 
 - After the trial expires, you *can still use the app for free*, but sleep tracking is limited to every other day (tracking is limited for tracking started on Tuesday and Thursday).
 - Access to graph edits and chart section is limited.
