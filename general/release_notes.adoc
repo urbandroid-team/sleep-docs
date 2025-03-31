@@ -7,7 +7,22 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250308
+== Latest version 20250330
+
+*NEWS*
+
+* Anti-snoring notification (Enable in Settings > Noise recording)
+
+*FIXES*
+
+* Fix for NFC tag scanner closing
+* Fix for looping samples in anti-snoring
+* Fix for phases percentage to total at 100% with missing data
+* Fix for not showing sensor data for sleep without activity data
+* Rare crash after tracking fixed
+
+
+== 20250308
 
 *NEWS*
 
