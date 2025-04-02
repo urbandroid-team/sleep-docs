@@ -12,6 +12,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 *NEWS*
 
 * Anti-snoring notification (Enable in Settings > Noise recording)
+* New tutorial assets
 
 *FIXES*
 
