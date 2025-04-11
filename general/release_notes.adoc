@@ -7,7 +7,14 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250330
+== Latest version 20250411
+
+* Permission rationale screens
+* Fix for Wear OS text overlaps
+* Fix for add sleep buttons under 3-button navbar
+
+
+== 20250330
 
 *NEWS*
 
