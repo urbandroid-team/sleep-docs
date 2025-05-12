@@ -15,7 +15,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Fix for Play Store ownership reporting inconsistency
 * Permission rationale screens
 * Fix for Wear OS text overlaps
-* Fix for add sleep buttons under 3-button navbar
+* Fix for add sleep buttons under the 3-button navbar
 
 
 == 20250411
