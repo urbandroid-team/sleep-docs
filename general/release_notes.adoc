@@ -11,6 +11,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 * Switching to Mulish font for cleaner look (similar to Google Product font)
 * Charts redesign
+* Goal redesign
 * Cleaner menu drawer
 * More accessible Set button when setting alarm times
 * Many UX and design tweaks across the app
