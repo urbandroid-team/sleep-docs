@@ -11,8 +11,9 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 * Bedtime droid images redesign
 * Redesign of the Sleep assistant screen
-* Experimental Live preview feature for Sleep assistant
-* Fix for Garmin integration on Android 15+
+* Check out the revamped CAPTCHAs: Smile, Zombie, ShakeIt and Sheep
+* New CAPTCHA: Wake the droid and Maze
+* Fix for Garmin integration on Android 15+ (update of the addon needed)
 
 == 20250522
 
