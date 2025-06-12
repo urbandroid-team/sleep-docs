@@ -25,7 +25,7 @@ NOTE: Unfortunately due to limit put for non-Samsung apps, we cannot read SpO2 o
 . Test the connection in Settings -> Sleep tracking -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
 . For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
 
-NOTE: Make sure the sleep tracking activity is allowed in the background within Wear app in _Galaxy Wear > Watch settings > Apps > Sleep tracking > Allow background activity_.
+NOTE: Make sure the sleep tracking activity is allowed in the background within Wear app in _Galaxy Wear > Watch settings > Apps > Sleep / Sleep tracking > Allow background activity_.
 
 == Beware of the background restrictions
 
