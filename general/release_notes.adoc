@@ -9,11 +9,13 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 == Latest version 20250606
 
+* Try the NEW Memoji CAPTCHA to test memory in morning, and Wake the Droid and Maze tasks
+* Check out the revamped CAPTCHAs: Smile, Zombie, ShakeIt and Sheep
+* Original tasks are still available in the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack[free CAPTCHA addon]
 * Bedtime droid images redesign
 * Redesign of the Sleep assistant screen
-* Check out the revamped CAPTCHAs: Smile, Zombie, ShakeIt and Sheep
-* New CAPTCHA: Wake the droid and Maze
-* Fix for Garmin integration on Android 15+ (update of the addon needed)
+* Garmin integration is now part of the main app, please uninstall the Garmin add-on app
+* Starting tracking from watch may no longer working on Android 15+
 
 == 20250522
 
