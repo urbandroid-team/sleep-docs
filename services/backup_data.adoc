@@ -81,7 +81,7 @@ Read <</services/sleepcloud#, more about SleepCloud addon and account here>>.
 == Backup to Dropbox or Google Drive
 [[dropbox]][[google_drive]]
 [horizontal]
-Backs up:: Sleep records, Settings, Noise recordings metadata, Alarms
+Backs up:: Sleep records, Settings, Noise recordings metadata, Active alarms
 Does not back up:: Noise recordings
 
 To automatically backup your data to Dropbox or Google Drive:
@@ -99,7 +99,7 @@ image:backup_fail.png[width=200]
 == Backup using Google provided backup cloud
 [[google_backup]]
 [horizontal]
-Backs up:: Sleep records, Settings, Alarms, Noise recordings metadata
+Backs up:: Sleep records, Settings, Active alarms, Noise recordings metadata
 Does not back up:: Noise recordings
 
 Most Android phones support Google provided backup. This is an optional feature and it must be explicitly enabled by the user.
