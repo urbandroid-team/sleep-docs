@@ -28,7 +28,7 @@ This makes the Garmin integration far from optimal and severely limits our abili
 
 . Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Sleep tracking -> Wearables -> Use wearables -> Garmin_.
 . For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables_.
-. To start sleep tracking with your watch, tap _Start tracking_ on the <</ux/homescreen#,Homescreen>> on the phone and then start on the watch.
+. To start sleep tracking, tap _Start tracking_ on the <</ux/homescreen#,Homescreen>> on the phone and then start on the watch.
 
 .If you have troubles with muted vibrations for lucid cues or anti-snoring alerts
 . On your wearable go to _Settings -> System -> Sleep mode_ and disable *DND while sleep*.
