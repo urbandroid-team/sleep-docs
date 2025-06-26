@@ -112,6 +112,10 @@ You can choose lullabies from your Spotify Library
 
 Several SomaFM radios are added by default - all available online radio stations with links https://sleep.urbandroid.org/radio/radio.txt[here]. You can add other radio stations - see <<guide_radio, the guide below>>.
 
+=== Playlists
+
+You can create a playlist from the built-in tracks from the app, and from the Lullaby addon.
+
 == Settings
 [horizontal]
 Preview:: Plays a preview of your current lullaby
