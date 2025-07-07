@@ -140,6 +140,11 @@ If enabled, you must scan all saved codes.
 . Open the settings in _Settings -> Alarms -> CAPTCHA -> Settings_ (the QR CAPTCHA must be set as the default, so the app knows, which additional settings to show).
 . Here you can either *Learn* new codes, or use the icon:ic_action_discard[] trash can to delete the old ones.
 
+==== How to edit NFC tags
+. Go _Settings -> Alarms -> CAPTCHA -> Default CAPTCHA_ and make sure it is set to *NFC CAPTCHA*.
+. Open the settings in _Settings -> Alarms -> CAPTCHA -> Settings_ (the NFC CAPTCHA must be set as the default, so the app knows, which additional settings to show).
+. Here you can either *Learn* new codes, or use the icon:ic_action_discard[] trash can to delete the old ones.
+
 ==== How to solve the task without the code / tag
 If you happen to lose the code, or you cannot solve the NFC and QR CAPTCHA for some reason, there is a fallback task - <<sheep, Sleeping sheep>>.
 The difficulty of this task depends on the difficulty configured for the NFC or QR CAPTCHA in _Settings -> Alarms -> CAPTCHA -> Difficulty_.
