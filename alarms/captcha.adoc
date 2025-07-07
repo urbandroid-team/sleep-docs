@@ -136,7 +136,7 @@ NOTE: Your location must be significantly different from your home (at least 2.5
 If enabled, you must scan all saved codes.
 
 ==== How to edit QR codes
-. Go _Settings -> Alarms -> CAPTCHA -> Default CAPTCHA and make sure it is set to QR CAPTCHA.
+. Go _Settings -> Alarms -> CAPTCHA -> Default CAPTCHA_ and make sure it is set to *QR CAPTCHA*.
 . Open the settings in _Settings -> Alarms -> CAPTCHA -> Settings_ (the QR CAPTCHA must be set as the default, so the app knows, which additional settings to show).
 . Here you can either *Learn* new codes, or use the icon:ic_action_discard[] trash can to delete the old ones.
 
