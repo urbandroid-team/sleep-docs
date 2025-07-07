@@ -2,7 +2,7 @@
 title: How to edit NFC tags
 
 tags:
-  - qr
+  - nfc
   - captcha
 ---
 
