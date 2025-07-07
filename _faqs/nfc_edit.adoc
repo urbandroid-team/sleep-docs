@@ -10,4 +10,4 @@ tags:
 . Open the settings in _Settings -> Alarms -> CAPTCHA -> Settings_ (the NFC CAPTCHA must be set as the default, so the app knows, which additional settings to show).
 . Here you can either *Learn* new codes, or use the icon:ic_action_discard[] trash can to delete the old ones.
 
-image::NFC_edit.png[]
+image::nfc_edit.png[]
