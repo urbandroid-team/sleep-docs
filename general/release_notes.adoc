@@ -7,9 +7,17 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250620
+== Latest version 20250707
 
-* Delete last feature in Memoji CAPTCHA
+* Improved daily view in goal bar chart - now scrollable
+* Y-axis lines for bedtime and fall asleep charts
+* Fix for fonts in chips
+* Updated links to new documentation
+
+
+== 20250620
+
+* Delete last character in Memoji CAPTCHA
 * Do not show watch started notification
 * Graph axis to work better with round corners
 
