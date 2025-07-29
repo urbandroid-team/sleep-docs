@@ -124,7 +124,7 @@ image:import.png[Importing]
 If you wish to import sleep noise files to a new phone, you need to do this manually by copying the folder to the storage on the new phone.
 
 . Save the content of the folder you have as your storage path on the first phone - you can find the storage path at _Settings → Sleep Noise recording → Storage path_.
-. On the new phone, decide a location for your new storage path.
+. On the new phone, decide a location for your new storage path. Choose some accessible location, like Media (don't use Downloads).
 . If you copied the whole folder with *sleep-data* folder, copy the whole folder to the chosen location on the new phone.
 . If you copied only the sound files, create folder *sleep-data* in your chosen location, and inside this folder, create a sub-folder *rec*. And copy the files to this *rec* folder.
 . Choose the storage path on the new phone in _Settings → Sleep Noise recording → Storage path_ to *your_chosen_folder* (not to the *your_chosen_folder\sleep-data\rec\* subfolder).
