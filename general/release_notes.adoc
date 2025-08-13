@@ -7,7 +7,13 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250707
+== Latest version 20250806
+
+* Fixes in wake up chart
+* Fix for weekday chips background
+
+
+== 20250707
 
 * Improved daily view in goal bar chart - now scrollable
 * Y-axis lines for bedtime and fall asleep charts
