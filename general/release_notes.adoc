@@ -7,7 +7,17 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250818
+== Latest version 20250902
+
+* New Bamboo lullaby (addon update needed)
+* Edge to edge fixes
+* Status bar shade on dashboard screen
+* Transparent navigation bar for 3-button
+* Fix for Charts - Actigraph bar width
+* Fixes for alarm sort by time rendering
+
+
+== 20250818
 
 * Bedtime mode warning for battery optimized option
 * Fix for Bar chart with changing with scrolling
