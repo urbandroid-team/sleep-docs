@@ -37,4 +37,5 @@ WARNING: Since Wear OS 3.0, there have been some  limitations implemented for in
 . For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
 
 WARNING: make sure all the components are excluded from battery optimizations (Sleep, Wear app, Bluetooth). Read details at https://dontkillmyapp.com/.
-MobVoi also has *Essential mode* optimization on some Ticwatch models, that will disrupt the data flow.
+MobVoi also has a scheduled *Essential mode* optimization on some Ticwatch models, that will disrupt the data flow.
+OnePlus watches have a scheduled *Hibernation mode* in _Settings -> Battery_, that will disconnect the wearable.
