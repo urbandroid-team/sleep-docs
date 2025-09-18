@@ -87,6 +87,9 @@ alarm_alert_start:: Fires when alarm starts.
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
+alarm_rescheduled:: Fires when the app is saving a new alarm time, different from the previous alarm time  (it allows an external automation system to track the latest set alarm time on Sleep as Android).
+* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
+* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
 alarm_alert_dismiss:: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set).
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
@@ -95,7 +98,7 @@ alarm_skip_next:: Fires when you tap dismiss an alarm from notification before i
 We are sending the following values:
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 * value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-show_skip_next_alarm:: Fires exactly 1 hour before the next alarm is triggered.
+before_alarm:: Fires exactly 1 hour before the next alarm is triggered.
 * value1: UNIX timestamp of the alarm start time, example: "1582719660934"
 rem:: Fires when we estimate the start of REM phase.
 smart_period:: Fires at the start of the smart period.
@@ -117,3 +120,6 @@ sound_event_cough:: Fires when we detect coughing.
 sound_event_baby:: Fires when we detect baby cry.
 sound_event_laugh:: Fires when we detect laughter.
 alarm_wake_up_check:: Fires when the wake-up check notification is triggered.
+alarm_rescheduled:: Fires when the the app is saving the next alarm time (after snoozing, after alarm start, after alarm dismiss).
+jet_lag_start:: Fires when the JetLag prevention feature starts.
+jet_lag_stop:: Fires when the JetLag prevention feature is finished.
