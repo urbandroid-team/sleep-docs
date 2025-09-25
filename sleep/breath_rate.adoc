@@ -32,8 +32,10 @@ image::hrbr.png[]
 toc::[]
 :toclevels: 1
 
+
+[[RDI]]
 == RDI
-*Respiratory Disturbance Index* is the average count of respiratory disturbance episodes per hour.
+Oximeter-derived respiratory disturbance index in this app is the average count of respiratory disturbance episodes per hour. The respiratory disturbances are estimated either from breath rate (sonar, Sleep Phaser) or from blood oxygenation (oximeters, some wearables).
 E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.
 
 RDI (Respiratory Disturbance Index) and AHI (Apnoea Hypopnea Index) correlation is evaluated in link:https://pubmed.ncbi.nlm.nih.gov/10722770/[this article].
