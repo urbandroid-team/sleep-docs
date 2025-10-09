@@ -24,7 +24,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Build with latest API and build tools
 * New library versions
 * Fix for AI card layout
-* Fix for duplicite Before alarm notification channel name
+* Fix for duplicate Before alarm notification channel name
 * Fixing issue with force English and some locale problems
 * Fix for keeping all time period selection in charts
 * Fix for edge to edge in Captcha cheating permission screen
