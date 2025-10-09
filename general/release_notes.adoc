@@ -9,6 +9,29 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 == Latest version 20250926
 
+* Introducing https://play.google.com/store/apps/details?id=com.urbandroid.lifewatch[LifeWatch] - our new app to track and improve your longevity
+* Introducing https://petrnal.gumroad.com/l/aircraft[AirCraft] - our new DIY air cleaner for clear air in your bedroom
+
+*Health Connect*
+
+* Fix in reverted timezone sign
+* Fix for SPO2 and HR import
+* Support for HR / Resting HR writes and reads
+* Fix heart rate permission
+
+*Other*
+
+* Build with latest API and build tools
+* New library versions
+* Fix for AI card layout
+* Fix for duplicite Before alarm notification channel name
+* Fixing issue with force English and some locale problems
+* Fix for keeping all time period selection in charts
+* Fix for edge to edge in Captcha cheating permission screen
+
+
+
+
 * Build with latest API and build tools
 * New library versions
 * Fix for AI card layout
