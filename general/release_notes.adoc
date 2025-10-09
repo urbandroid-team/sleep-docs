@@ -10,7 +10,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 == Latest version 20250926
 
 * Introducing https://play.google.com/store/apps/details?id=com.urbandroid.lifewatch[LifeWatch] - our new app to track and improve your longevity
-* Introducing https://petrnal.gumroad.com/l/aircraft[AirCraft] - our new DIY air cleaner for clear air in your bedroom
+* Introducing https://payhip.com/b/Dc64t[AirCraft] - our new DIY air cleaner for clear air in your bedroom
 
 *Health Connect*
 
