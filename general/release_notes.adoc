@@ -29,25 +29,6 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Fix for keeping all time period selection in charts
 * Fix for edge to edge in Captcha cheating permission screen
 
-
-
-
-* Build with latest API and build tools
-* New library versions
-* Fix for AI card layout
-
-
-* *Health Connect*
- ** Fix in reverted timezone sign
- ** Fix for SPO2 and HR import
- ** Support for HR / Resting HR writes and reads
- ** Fix heart rate permission
-
-* *Other*
- ** Fix for keeping all time period selection in charts
- ** Fix for edge to edge in Captcha cheating permission screen
-
-
 == 20250909
 
 * Fix for frequent geo locations not being updated
