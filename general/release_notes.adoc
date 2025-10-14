@@ -28,6 +28,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Fixing issue with force English and some locale problems
 * Fix for keeping all time period selection in charts
 * Fix for edge to edge in Captcha cheating permission screen
+* Fixing issue with force English and some locale problems
 
 == 20250909
 
