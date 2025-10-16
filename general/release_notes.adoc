@@ -12,12 +12,18 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Introducing https://play.google.com/store/apps/details?id=com.urbandroid.lifewatch[LifeWatch] - our new app to track and improve your longevity
 * Introducing https://payhip.com/aircraft[AirCraft] - our new DIY air cleaner for clear air in your bedroom
 
+*Sleep Assistant*
+
+* using latest Gemini model
+* reverting the use of on-phone Nano model because of insufficient results
+
 *Health Connect*
 
 * Fix in reverted timezone sign
 * Fix for SPO2 and HR import
 * Support for HR / Resting HR writes and reads
 * Fix heart rate permission
+* Fix for asking for permission at start up
 
 *Other*
 
@@ -29,6 +35,8 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Fix for keeping all time period selection in charts
 * Fix for edge to edge in Captcha cheating permission screen
 * Fixing issue with force English and some locale problems
+* Fix in DND mode reversal
+* Fix for graph widget regularity
 
 == 20250909
 
