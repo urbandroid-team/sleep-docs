@@ -130,7 +130,9 @@ NOTE: For security reasons, NFC CAPTCHA always requires unlocking the screen fir
 ==== Only at home
 Allows you to skip CAPTCHA if you are far away from your home, and you forgot the code / tag at home.
 
-NOTE: Your location must be significantly different from your home (at least 2.5 km), as the app does not collect fine location information
+WARNING: Location is saved only with sleep tracking results. So you need at least *5 sleep graphs* with location from the same place.
+
+NOTE: Your location must be significantly different from your home (at least 2.5 km), as the app does not collect fine location information.
 
 ==== Must scan all codes
 If enabled, you must scan all saved codes.
