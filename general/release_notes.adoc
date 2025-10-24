@@ -7,7 +7,31 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20250926
+== Latest version 20251024
+
+*Material 3 Expressive UI elements*
+
+* Progress
+* Sliders
+* Toggles
+
+*Locale*
+
+* Fix for locale issues on Android 15
+* Option in personalization to change language of app on Android 13+
+
+*Health Connect*
+
+* Background permission
+
+*Other*
+
+* Respecting DND mode for text to speech
+* Fix for resetting mute alarm timeout when finding a sleeping sheep
+
+
+
+== 20250926
 
 * Introducing https://play.google.com/store/apps/details?id=com.urbandroid.lifewatch[LifeWatch] - our new app to track and improve your longevity
 * Introducing https://payhip.com/aircraft[AirCraft] - our new DIY air cleaner for clear air in your bedroom
