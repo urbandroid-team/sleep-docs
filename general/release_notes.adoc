@@ -11,7 +11,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 * Fix for 2 o'clock alarms when DLS ends
 * Fix for next alarm card name in morning screen
-* Fix in not speaking in DND
+* Fix in not speaking in the DND
 * Fix in reverting DND to specific previous state
 
 
