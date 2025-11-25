@@ -7,7 +7,15 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20251107
+== Latest version 20251124
+
+*New playback controls in noise playback
+* Expressive icon set
+* Rounded font
+* Week start on Wednesday and Thursday options
+* Fixes for DND reversal with Sleep mode
+
+== 20251107
 
 * Fix for 2 o'clock alarms when DLS ends
 * Fix for next alarm card name in morning screen
