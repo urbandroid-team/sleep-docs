@@ -9,7 +9,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 == Latest version 20251124
 
-*New playback controls in noise playback
+* New playback controls in noise playback
 * Expressive icon set
 * Rounded font
 * Week start on Wednesday and Thursday options
