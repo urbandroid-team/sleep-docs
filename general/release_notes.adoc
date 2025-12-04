@@ -7,7 +7,16 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20251124
+== Latest version 20251203
+
+* Many new translations (if you find any mistakes, please contact support@urbandroid.org, or use Contact us from the Left ≡ menu → (?) Support)
+* Vertical pan for most charts
+* Updated user install info - 31M users
+* Fix for Jumping sheet CAPTCHA on lock screen
+* Fix for backup alarm crash
+
+
+== 20251124
 
 * New playback controls in noise playback
 * Expressive icon set
