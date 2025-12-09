@@ -9,12 +9,14 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 == Latest version 20251203
 
+* Support for Philips HUE Bridge PRO (feedback appreciated)
 * Many new translations (if you find any mistakes, please contact support@urbandroid.org, or use Contact us from the Left ≡ menu → (?) Support)
 * Vertical pan for most charts
 * Updated user install info - 31M users
 * Fix for Jumping sheet CAPTCHA on lock screen
 * Fix for backup alarm crash
-
+* New shortcut icons
+* Widget UI tweaks
 
 == 20251124
 
