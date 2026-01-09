@@ -8,6 +8,8 @@ search_exclude: true
 no_comments: true
 ---
 
+WARNING:: public forum is temporarily under reconstruction.
+
 {% for faq in site.faqs %}
   * link:{{ faq.url | relative_url }}[{{ faq.title }}]
 {% endfor %}
