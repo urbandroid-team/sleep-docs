@@ -5,6 +5,8 @@ nav_order: 206
 //parent: /general/general_info.html
 ---
 
+WARNING:: public forum is temporarily under reconstruction.
+
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
 == Latest version 20251203
