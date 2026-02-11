@@ -13,8 +13,10 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Wake up check - better notification settings, warns on alarm screen
 * Many fixes in Philis HUE PRO bridge integration
 * Fix for powernap alarm postpone
+* Fix for one day delay in goal barchart
 * Fix in daily repeating alarms
 * Fix for Captcha CAPTCHA
+* Adding favourite noises to Media Store album is not optional
 * More interactive onboarding tutorial - like / dislike
 * This is used to prepare a Setup finish card
 * Fix for rare issue with silent alarm
