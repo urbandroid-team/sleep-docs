@@ -86,6 +86,9 @@ How long after tha alarm dismiss the notification appears.
 === Time to confirm
 How much time you have to confirm the notification before the alarm goes off again.
 
+=== Repeat
+How many times the app repeats the alarm, if the wake-up check is not confirmed.
+
 [EXAMPLE]
 The alarm goes off at 06:30 and you dismiss it after 2 minutes. Now you have 10 minutes to slowly get up (10-minute "Check after"). After these 10 minutes a notification is shown. You have five minutes (5-minute "Time to confirm) to find the notification and tap the button.
 You did confirm the notification = the alarm is completely finished.
