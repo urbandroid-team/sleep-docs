@@ -8,7 +8,14 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20260121
+== Latest version 20260225
+
+* Fix for discounted yearly subscription products
+* Fix for Health Connect on Tiramisu and older devices
+* Fix for a service starting crash on Android 14+
+
+
+== 20260121
 
 * Wake up check - better notification settings, warns on alarm screen
 * Many fixes in Philis HUE PRO bridge integration
