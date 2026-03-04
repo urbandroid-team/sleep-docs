@@ -10,7 +10,9 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 == Latest version 20260225
 
-* Pebble is back! Support for repebble.com - new Pebble watches! Tested with Pebble 2 Duo
+* *Pebble is back!* Support for repebble.com - new Pebble watches! Tested with Pebble 2 Duo
+* Integration of new PebbleKit2 for apps from apps.repebble.com
+* Legacy PebbleKit with GadgetBridge or Rebble.io
 * Fix for discounted yearly subscription products
 * Fix for Health Connect on Tiramisu and older devices
 * Fix for a service starting crash on Android 14+
