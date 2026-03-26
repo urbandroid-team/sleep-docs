@@ -8,7 +8,14 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20260313
+== Latest version 20260326
+
+* Major libraries updated to latest version
+* Build definition update to latest standards
+* Project refactor
+* Hopefully not much will break, please report any new issues
+
+== 20260313
 
 * Markup formatting for AI responses
 * Greater freedom in panning and zooming of charts
