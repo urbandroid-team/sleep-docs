@@ -8,7 +8,7 @@ no_comments: true
 ---
 
 - https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&hl=cs&gl=US[SleepCloud]
-- https://www.happy-electronics.eu/shop7/en/21-sleep-as-android[Sleep Phaser]
+- https://happyelectronics.eu/products/sleep-phaser-v3[Sleep Phaser]
 - <</devices/supported_wearable#,Wearables>>
 - https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby&hl=cs&gl=US[Lullabies]
 - <</devices/oximeter#,Oximeter>>
