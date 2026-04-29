@@ -8,7 +8,18 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20260326
+== Latest version 20260427
+
+* New Garmin watch app with many fixes and improvements
+https://apps.garmin.com/apps/a20548cf-647d-4171-b4b0-68ea002748b4
+* Experimental App functions to Start tracking and Create an alarm (should be available on Pixel 10)
+* Fixes on Google Calendar settings screen
+* Fix for awake times calculation
+* Fix in sleep estimate date format
+* Fixes in Garmin app on specific firmwares
+* Overall Sleep score is now based on 3 worst measures to make it more comparable
+
+== 20260326
 
 * Major libraries updated to latest version
 * Build definition update to latest standards
