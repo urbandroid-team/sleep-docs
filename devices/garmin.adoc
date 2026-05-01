@@ -19,56 +19,62 @@ We have asked Garmin to give us access to their BT specific API for the good of 
 So we have to rely on the buggy IQConnect API with problems that Garmin has not fixed for many years. Because their message queue breaks regularly, we had to implement our own parallel messaging system using HTTP.
 This makes the Garmin integration far from optimal and severely limits our ability to fix problems. The integration is provided "as is".
 
-== How to set up
-
-. You will need to install the following apps:
-
-* On the phone: https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&hl=en_US[Sleep Watch starter] from Play Store.
-* On the watch: Install the current version of the watch app https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[thourgh the ConnectIQ Store] (Connect IQ 3.1 and higher).
-
-. Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Sleep tracking -> Wearables -> Use wearables -> Garmin_.
-. For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables_.
-. To start sleep tracking, tap _Start tracking_ on the <</ux/homescreen#,Homescreen>> on the phone and then start on the watch.
-
-.If you have troubles with muted vibrations for lucid cues or anti-snoring alerts
-. On your wearable go to _Settings -> System -> Sleep mode_ and disable *DND while sleep*.
-. Make sure *Status notification* and *Allow vibrations* are enabled on the wearable in _Settings > Smart notification > notifications > Overall usage and apps > Apps_
-
-WARNING: You need to side-load a legacy version of the Sleep app, if your ConnectIQ is less than 3.1. https://sleep.urbandroid.org/more/garmin-legacy-watch-app-downloads/[Look here], find your model and put the corresponding file (Sleep.prg) onto your device, in /GARMIN/APPS folder
-
-
 NOTE: Garmin integration does not support testing the sensor with <</sleep/sleep_tracking#test_sensor,Test sensor>>.
 
-WARNING: On some watches (mainly Vivoactive 3) there is a long-standing firmware issue that prevents you from accepting the starting dialog on the watch. Please start tracking from the watch instead. See <</faqs/garmin_start_dialog_bug#,FAQ: Garmin - Cannot accept start dialog (green tick)>>
+== New version
+
+We heard your feedback regarding Garmin connectivity issues, and we’ve been hard at work on a solution. We are excited to introduce a completely redesigned Garmin integration!
+
+By moving to a new companion app system, we’ve resolved many of the stability issues that plagued the older version. Because the Garmin API can still be a bit unpredictable due to unresolved bugs, we consider this a "transition phase" and appreciate your patience.
+Please, report any troubles via the main Sleep app by using the Left ≡ menu → Support → Report a bug. Thank you.
+
+NOTE: This integration requires *Sleep as Android version 20260429 or newer*.
+
+.Setup Instructions
+
+* *On your phone:* Install https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&hl=en_US[Sleep Watch starter] from the Play Store.
+
+* *On your watch:* Install the the https://apps.garmin.com/apps/a20548cf-647d-4171-b4b0-68ea002748b4[new companion app from the Connect IQ Store].
+
+* *Configure Wearable:* Once both apps are installed, go to _Settings -> Sleep tracking -> Wearables -> Wearables_ and select *Garmin*.
+
+* *Heart Rate:* To include HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables_.
+//* *SpO2* To include HR data on models with SpO2 sensors, enable *Pulse oximeter (Wear OS, Garmin)* in _Settings -> Sleep tracking -> Wearables_.
+
+* *Start Tracking:* You can now initiate sleep tracking directly from your watch or from the phone app. If you don't use the https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&hl=en_US[Sleep Watch starter], you need to start the tracking on both devices.
+
+== Old version
+
+.Setup Instructions
+
+* *On the phone:* https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&hl=en_US[Sleep Watch starter] from Play Store.
+* *On the watch:* Install https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[this old of the companion app].
+* Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Sleep tracking -> Wearables -> Wearables -> Garmin_.
+* For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables_.
+* To start sleep tracking, tap _Start tracking_ on the on the phone and then start on the watch.
+
+
+== Older than 3.1 Connect IQ
+
+You need to side-load a legacy version of the Sleep app, if your ConnectIQ is less than 3.1. https://sleep.urbandroid.org/more/garmin-legacy-watch-app-downloads/[Look here], find your model and put the corresponding file (Sleep.prg) onto your device, in /GARMIN/APPS folder
 
 == Supported watches
 
 https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml[List of supported Garmin wearables].
 
-* Garmin Approach S70 42mm, Approach S70 47mm
-* Garmin D2 air, D2 Airx10, D2 Delta, D2 Delta PX, D2 Delta S, D2 Mach1
-* Garmin Descent G1, Descent Mk2, Descent Mk2S, Descent Mk3 43mm, Descent Mk3 51mm
-* Garmin Enduro, Enduro 3
-* Garmin Epix 2, Epix 2PRO 42mm, Epix 2PRO 47mm, Epix 2PRO 51mm
-* Garmin fēnix 5, fēnix 5 Plus, fēnix 5S, fēnix 5S Plus, fēnix 5X, fēnix 5X Plus
-* Garmin fēnix 6, fēnix 6 Pro, fēnix 6S, fēnix 6s Pro, fēnix 6x Pro
-* Garmin fēnix 7, fēnix 7 Pro, fēnix 7S, fēnix 7S Pro, fēnix 7X, fēnix 7X Pro
-* Garmin fēnix 8 43mm, fēnix 8 47mm, fēnix 8 Solar 47mm, fēnix 8 Solar 51mm
-* Garmin fēnix Chronos
-* Garmin Forerunner 165, Forerunner 165M
-* Garmin Forerunner 245, Forerunner245M
-* Garmin Forerunner 255, Forerunner 255M, Forerunner 255D, Forerunner 255SM
-* Garmin Forerunner 55
-* Garmin Forerunner 645, Forerunner 645M
-* Garmin Forerunner 265, Forerunner 265S
-* Garmin Forerunner 745,
-* Garmin Forerunner 935
-* Garmin Forerunner 945, Forerunner 945 LTE
-* Garmin Forerunner 955, Forerunner 955 LTE
-* Garmin Forerunner 965
-* Garmin Instinct 2, Instinct 2S, Instinct Crossover, Instinct 2X
-* Garmin Legacy Hero Captain Marvel, First Avenger
-* Gamin Legacy Saga Darth Vader, Rey
-* Gamin MARQ Adventurer, MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Driver, MARQ Expedition, MARQ Golfer, MARQ2 Aviator
-* Garmin Venu, Venu 2, Venu 2 Plus, Venu 2S, Venu D, Venu SQ, Venu SQ2, Venu SQM, Venu SQ2M
-* Garmin vívoactive 3, vívoactive 3M, vívoactive 3M LTE, vívoactive 4, vívoactive 4S, vívoactive 5
+== Troubleshooting
+
+* *Connection Issues? Check Your Version:* Ensure you are running *Sleep as Android version 20260429 or later*. The new companion app architecture requires this specific update to communicate correctly.
+
+* *Connection Dropping? Disable Battery Optimizations*: Android’s power management often kills background processes. To ensure a stable connection, disable "Battery Optimization" for the following apps: *Sleep as Android*, *Watch Starter*, *Garmin Connect*, and your system *Bluetooth* app. For device-specific instructions, visit DontKillMyApp.com.
+
+* *Missing Vibrations? Adjust DND Settings?*: If the watch isn't vibrating for alarms:
+1. On the watch, go to _Settings -> System -> Sleep mode_ and disable *DND during sleep*.
+2. Ensure *Status notifications and Vibrations are enabled* under _Settings -> Smart notifications -> Notifications -> Apps_.
+
+* *Backlight Turning On During Sleep?* To prevent the screen from lighting up when you move in bed, navigate to _Settings -> System -> Lighting -> During Activity -> Gesture_ and set it to Off.
+
+NOTE: We recommend keeping "Buttons and Alarms" enabled so the backlight still functions during your morning alarm or regular workouts.
+
+* *Cannot Start Tracking from Phone?*: Due to a long-standing firmware limitation on certain models (specifically the *Vivoactive 3*), the watch may not respond to a "start" command sent from the phone. If the start dialog does not appear, please initiate tracking directly from the watch app instead.
+
