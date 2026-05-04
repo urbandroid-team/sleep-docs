@@ -25,7 +25,7 @@ NOTE: Garmin integration does not support testing the sensor with <</sleep/sleep
 
 We heard your feedback regarding Garmin connectivity issues, and we’ve been hard at work on a solution. We are excited to introduce a completely redesigned Garmin integration!
 
-By moving to a new companion app system, we’ve resolved many of the stability issues that plagued the older version. Because the Garmin API can still be a bit unpredictable due to unresolved bugs, we consider this a "transition phase" and appreciate your patience.
+By moving to a new watch app system, we’ve resolved many of the stability issues that plagued the older version. Because the Garmin API can still be a bit unpredictable due to unresolved bugs, we consider this a "transition phase" and appreciate your patience.
 Please, report any troubles via the main Sleep app by using the Left ≡ menu → Support → Report a bug. Thank you.
 
 NOTE: This integration requires *Sleep as Android version 20260429 or newer*.
@@ -34,7 +34,7 @@ NOTE: This integration requires *Sleep as Android version 20260429 or newer*.
 
 * *On your phone:* Install https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&hl=en_US[Sleep Watch starter] from the Play Store.
 
-* *On your watch:* Install the the https://apps.garmin.com/apps/a20548cf-647d-4171-b4b0-68ea002748b4[new companion app from the Connect IQ Store].
+* *On your watch:* Install the the https://apps.garmin.com/apps/a20548cf-647d-4171-b4b0-68ea002748b4[new watch app from the Connect IQ Store].
 
 * *Configure Wearable:* Once both apps are installed, go to _Settings -> Sleep tracking -> Wearables -> Wearables_ and select *Garmin*.
 
@@ -48,7 +48,7 @@ NOTE: This integration requires *Sleep as Android version 20260429 or newer*.
 .Setup Instructions
 
 * *On the phone:* https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&hl=en_US[Sleep Watch starter] from Play Store.
-* *On the watch:* Install https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[this old of the companion app].
+* *On the watch:* Install https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310[this old version of the watch app].
 * Make sure that all of the apps are installed, and then select _Sleep -> Settings -> Sleep tracking -> Wearables -> Wearables -> Garmin_.
 * For HR data, enable *Heart rate monitoring* in _Settings -> Sleep tracking -> Wearables_.
 * To start sleep tracking, tap _Start tracking_ on the on the phone and then start on the watch.
@@ -64,7 +64,7 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 
 == Troubleshooting
 
-* *Connection Issues? Check Your Version:* Ensure you are running *Sleep as Android version 20260429 or later*. The new companion app architecture requires this specific update to communicate correctly.
+* *Connection Issues? Check Your Version:* Ensure you are running *Sleep as Android version 20260429 or later*. The new watch app architecture requires this specific update to communicate correctly.
 
 * *Connection Dropping? Disable Battery Optimizations*: Android’s power management often kills background processes. To ensure a stable connection, disable "Battery Optimization" for the following apps: *Sleep as Android*, *Watch Starter*, *Garmin Connect*, and your system *Bluetooth* app. For device-specific instructions, visit DontKillMyApp.com.
 
