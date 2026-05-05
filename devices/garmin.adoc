@@ -69,7 +69,7 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 * *Connection Dropping? Disable Battery Optimizations*: Android’s power management often kills background processes. To ensure a stable connection, disable "Battery Optimization" for the following apps: *Sleep as Android*, *Watch Starter*, *Garmin Connect*, and your system *Bluetooth* app. For device-specific instructions, visit DontKillMyApp.com.
 
 * *Vibrations when tracking starts/ends?*: Garmin devices are programmed to vibrate whenever an activity starts or stops. Because our app records your sleep as a formal activity to ensure data accuracy, the watch's firmware triggers this alert automatically.
-** *Enable Do Not Disturb:* Ensure Do Not Disturb is active on your watch (Settings > System > Do Not Disturb).
+** *Enable Do Not Disturb:* Ensure Do Not Disturb is active on your watch (_Settings -> System -> Do Not Disturb_).
 ** *Adjust Vibration Settings: Manually toggle vibrations off in _Settings -> System -> Sounds/Vibration_ on the watch
 
 * *Missing Vibrations? Adjust DND Settings?*: If the watch isn't vibrating for alarms:
