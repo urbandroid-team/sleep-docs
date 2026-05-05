@@ -64,21 +64,34 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 
 == Troubleshooting
 
-* *Connection Issues? Check Your Version:* Ensure you are running *Sleep as Android version 20260429 or later*. The new watch app architecture requires this specific update to communicate correctly.
+=== Connection Issues?
 
-* *Connection Dropping? Disable Battery Optimizations*: Android’s power management often kills background processes. To ensure a stable connection, disable "Battery Optimization" for the following apps: *Sleep as Android*, *Watch Starter*, *Garmin Connect*, and your system *Bluetooth* app. For device-specific instructions, visit DontKillMyApp.com.
+*Check Your Version:* Ensure you are running *Sleep as Android version 20260429 or later*. The new watch app architecture requires this specific update to communicate correctly.
 
-* *Vibrations when tracking starts/ends?*: Garmin devices are programmed to vibrate whenever an activity starts or stops. Because our app records your sleep as a formal activity to ensure data accuracy, the watch's firmware triggers this alert automatically.
-** *Enable Do Not Disturb:* Ensure Do Not Disturb is active on your watch (_Settings -> System -> Do Not Disturb_).
-** *Adjust Vibration Settings: Manually toggle vibrations off in _Settings -> System -> Sounds/Vibration_ on the watch
+=== Connection Dropping?
 
-* *Missing Vibrations? Adjust DND Settings?*: If the watch isn't vibrating for alarms:
+*Disable Battery Optimizations*: Android’s power management often kills background processes. To ensure a stable connection, disable "Battery Optimization" for the following apps: *Sleep as Android*, *Watch Starter*, *Garmin Connect*, and your system *Bluetooth* app. For device-specific instructions, visit DontKillMyApp.com.
+
+=== Vibrations when tracking starts/ends?
+
+Garmin devices are programmed to vibrate whenever an activity starts or stops. Because our app records your sleep as a formal activity to ensure data accuracy, the watch's firmware triggers this alert automatically.
+
+* *Enable Do Not Disturb:* Ensure Do Not Disturb is active on your watch (_Settings -> System -> Do Not Disturb_).
+* *Adjust Vibration Settings:* Manually toggle vibrations off in _Settings -> System -> Sounds/Vibration_ on the watch
+
+=== Missing Vibrations?
+
+*Adjust DND Settings* if the watch isn't vibrating for alarms:
 1. On the watch, go to _Settings -> System -> Sleep mode_ and disable *DND during sleep*.
 2. Ensure *Status notifications and Vibrations are enabled* under _Settings -> Smart notifications -> Notifications -> Apps_.
 
-* *Backlight Turning On During Sleep?* To prevent the screen from lighting up when you move in bed, navigate to _Settings -> System -> Lighting -> During Activity -> Gesture_ and set it to Off.
+=== Backlight Turning On During Sleep?
+
+To prevent the screen from lighting up when you move in bed, navigate to _Settings -> System -> Lighting -> During Activity -> Gesture_ and set it to Off.
 
 NOTE: We recommend keeping "Buttons and Alarms" enabled so the backlight still functions during your morning alarm or regular workouts.
 
-* *Cannot Start Tracking from Phone?*: Due to a long-standing firmware limitation on certain models (specifically the *Vivoactive 3*), the watch may not respond to a "start" command sent from the phone. If the start dialog does not appear, please initiate tracking directly from the watch app instead.
+=== Cannot Start Tracking from Phone?
+
+Due to a long-standing firmware limitation on certain models (specifically the *Vivoactive 3*), the watch may not respond to a "start" command sent from the phone. If the start dialog does not appear, please *initiate tracking directly from the watch app* instead.
 
