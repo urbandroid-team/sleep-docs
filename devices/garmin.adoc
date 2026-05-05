@@ -70,7 +70,7 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 
 * *Vibrations when tracking starts/ends?*: Garmin devices are programmed to vibrate whenever an activity starts or stops. Because our app records your sleep as a formal activity to ensure data accuracy, the watch's firmware triggers this alert automatically.
 ** *Enable Do Not Disturb:* Ensure Do Not Disturb is active on your watch (Settings > System > Do Not Disturb).
-** *Adjust Vibration Settings:/ Manually toggle vibrations off in Settings > System > Sounds/Vibration on the watch
+** *Adjust Vibration Settings: Manually toggle vibrations off in _Settings -> System -> Sounds/Vibration_ on the watch
 
 * *Missing Vibrations? Adjust DND Settings?*: If the watch isn't vibrating for alarms:
 1. On the watch, go to _Settings -> System -> Sleep mode_ and disable *DND during sleep*.
