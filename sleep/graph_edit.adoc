@@ -32,6 +32,8 @@ image:edit_1.png[]
 * *Tags:* Choose from the preset icons or tap the + button to create custom tags (e.g., ++#++medication, ++#++weighted_blanket, or even emojis,like ++#++😊). Learn more in <</sleep/tags#, Tags>>.
 * *Comments:* Tap the comment section to type detailed notes about your night.
 
+NOTE: You can use the icon:ic_action_mic[] Mic icon, and dictate the note instead of typing.
+
 image:edit_2.png[]
 
 
