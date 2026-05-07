@@ -124,7 +124,7 @@ If the screen feels cluttered, you can simplify your view to focus only on the d
 *Pin to Top:* Long-press any card to pin it to the top of your list for quick access.
 
 
-[[trim-guide]]
+[[trim_guide]]
 === The graph is too long
 
 If your tracking ran too long, you can easily trim the beginning or end of the graph to correct your sleep duration.

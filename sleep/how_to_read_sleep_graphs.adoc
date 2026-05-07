@@ -35,14 +35,14 @@ The primary card displays your *Sleep Score* in the top right, underpinned by a 
 * *The Big Picture:* Each dial focuses on one metric (like Duration, Deep Sleep, or Efficiency).
 * *The Details:* Look at the secondary number beneath each label. It provides vital context—like exactly how many minutes of snoring were detected or the gap between your actual sleep and your goal.
 
-Want the full breakdown? Read our <</sleep/sleep_score#,Sleep score guide>> to learn more.
+Want the full breakdown? Read our <</sleep/sleepscore#, Sleep Score giode>> to learn more.
 
 == Subjective Rating & Tags
 
 While sensors track data, *Ratings and Tags* track your life. This is where you connect your daily choices to your nightly recovery.
 
 * *How do you feel?* Tap the stars to record your subjective feelings about your sleep.
-* *Add #Tags:*  <</sleep/tags#,Use tags>> like #coffee, #stress, or #meds. Over time, the app will analyze these to tell you how your lifestyle influences your sleep quality.
+* *Add Tags:*  <</sleep/tags#,Use tags>> like #coffee, #stress, or #meds. Over time, the app will analyze these to tell you how your lifestyle influences your sleep quality.
 
 == Graph and sensor cards
 
@@ -70,11 +70,11 @@ If your graph looks unusual, use the table below to identify the issue and find 
 [cols="1,1,1", options="header"]
 |===
 | What you see | Possible Cause | How to fix it
-| *Red sections* | Sensor data were lost | link:#disable_optimizations[Disable optimizations]
-| *Flat noise graph* | Mic access lost | link:#disable_optimizations_mic[Disable optimizations]
-| *Duration too long* | Tracking wasn't stopped | link:#trim-guide[Trim graph]
-| *Duration too short* | Too many awakes | link:#awake-settings[Adjust sensitivity]
-| *Missed awakes* | Low sensitivity | link:#awake-settings[Adjust sensitivity]
+| *Red sections* | Sensor data were lost | <</sleep/graph_edit#disable_optimizations, Disable optimizations>>
+| *Flat noise graph* | Mic access lost | <</sleep/graph_edit#disable_optimizations_mic, Disable optimizations>>
+| *Duration too long* | Tracking wasn't stopped | <</sleep/graph_edit#trim_guide Trim graph>>
+| *Duration too short* | Too many awakes | <</sleep/graph_edit#awake-settings, Adjust sensitivity>>
+| *Missed awakes* | Low sensitivity | <</sleep/graph_edit#awake-settings, Adjust sensitivity>>
 |===
 
 
@@ -104,11 +104,11 @@ Weather Card:: Current conditions via MetNorway or OpenWeather. (Disable in _Set
 
 The detailed graph view overlays every data point measured or calculated by the app. This is also your editing suite, where you can manually adjust your sleep record.
 
-- <<statistics,Statistics>>: The granular breakdown of your Sleep Score
-- <<actigraph,Actigraph>>: A map of physical activity/movement.
-- <<hypnogram,Hypnogram>>: A visualization of your sleep phases.
-- <<sensor, Sensor Data>>: Vitals including HR, HRV, Light, Breath Rate, and SpO2.
-- <<noise-graph,Noise Graph>>: Ambient sound levels and identified events when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
+- <</sleep/how_to_read_sleep_graphs#score_stats,Statistics>>: The granular breakdown of your Sleep Score
+- <</sleep/how_to_read_sleep_graphs#acti,Actigraph>>: A map of physical activity/movement.
+- <</sleep/how_to_read_sleep_graphs#hypno, Hypnogram>>*: A visualization of your sleep phases.
+- <</sleep/how_to_read_sleep_graphs#sensor, Sensor Data>>: Vitals including HR, HRV, Light, Breath Rate, and SpO2.
+- <</sleep/how_to_read_sleep_graphs#noise, Noise Graph>>: Ambient sound levels and identified events when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
 [NOTE]
 Pro Tip: You can hide or reveal specific graph elements using the buttons at the bottom. These buttons also serve as a legend—the icon and color of the button match the data on the graph.
@@ -119,6 +119,7 @@ Sleep as Android uses link:https://en.wikipedia.org/wiki/Actigraphy[Actigraphy (
 link:https://sleep.urbandroid.org/sleep-lab-comparison/[Read the Sleep Lab Comparison Study].
 
 
+[[score_stats]]
 === Sleep score Statistics
 [cols="1,2"]
 |===
@@ -132,7 +133,7 @@ a|*Sleep score pie charts*::
 - Learn more in the <</sleep/sleepscore#,Sleep Score chapter>>.
 
 |===
-
+[[acti]]
 === Actigraph (Movement)
 
 [cols="1,2"]
@@ -147,7 +148,7 @@ a|*Actigraph*::
 
 |===
 
-
+[[hypno]]
 === Hypnogram (Sleep phases)
 
 [cols="1,2"]
@@ -161,13 +162,13 @@ a|*The hypnogram*::
 - *REM & Light Sleep* (Medium Color): REM is shown at 75% height; Light sleep at 50% height.
 - *Deep Sleep* (Darkest Color): The lowest columns at 25% height.
 
-[IMPORTANT]
+[NOTE]
 Red Sections on the Graph:
-If you see red blocks, it means the app lost sensor data during that window. See <<, for details and solution>>.
+If you see red blocks, it means the app lost sensor data during that window. See <</sleep/graph_edit#disable_optimizations, for details and solution>>.
 
 |===
 
-
+[[sensor]]
 === Sensor Data Lines
 
 [cols="1,2"]
@@ -179,15 +180,15 @@ image::graph_colored.png[]
 image::hrv.png[]
 
 
-a|- *Blue line* = Blood Oxygen (SpO2) level if you are using oximeter. Blue bubbles with numbers indicate maximum and minimum (read more about <</sleep/breath_rate,breath rate monitoring>>)
+a|- *Blue line* = Blood Oxygen (SpO2) level if you are using oximeter. Blue bubbles with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>)
 - *Red line* = Heart Rate (HR) through the night. Red bubbles with numbers inside are the maximum and minimum heart rate (read more about <</sleep/heart_rate#,heart rate monitoring>>).
 - *Violet line* = Heart Rate Variability (HRV). Bubbles with numbers represent local maximum and minimum (read more about https://sleep.urbandroid.org/hrv-tracking/[heart rate variablity]).
 - *Orange line* = Ambient light level in LUX (read more about <</sleep/light_level#,light awake detection>>).
 - *Turquoise (Blue-green) line* = Breath Rate (measured via Sonar or wearable). Bubbles with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>).
-- *Dashed line* = Indicates the *Smart Period* window before your alarm (read more about <</alarms/smart_wake_up#,Smart wake up>>).
+- *Dashed line* = Indicates the *Smart Period* window before your alarm (read more about <</sleep/smart_wake_up#,Smart wake up>>).
 |===
 
-
+[[noise]]
 === Noise graph & Recognition
 
 [cols="1,2"]
