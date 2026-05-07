@@ -51,7 +51,8 @@ Every smartphone is equipped with an accelerometer. This sensor detects movement
 
 For the accelerometer to work, the phone must be *placed directly on the mattress*.
 
-image::tracking-position/accel.png[]
+image::tracking-position/1.png[]
+
 
 The accuracy of measured data depends heavily on how well your bed is able to transmit your movement to the phone.
 
