@@ -18,6 +18,7 @@ image::sleepscore_annotated.png[]
 
 [[figure-sleepscore-chart]]
 .Sleep score in <</sleep/charts#sleep-score, Charts section>>
+
 image::sleepscore.png[]
 
 toc::[]
