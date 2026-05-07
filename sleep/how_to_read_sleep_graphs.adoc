@@ -35,14 +35,14 @@ The primary card displays your *Sleep Score* in the top right, underpinned by a 
 * *The Big Picture:* Each dial focuses on one metric (like Duration, Deep Sleep, or Efficiency).
 * *The Details:* Look at the secondary number beneath each label. It provides vital context—like exactly how many minutes of snoring were detected or the gap between your actual sleep and your goal.
 
-Want the full breakdown? Read our <</sleep/sleep_score, Sleep score guide>> to learn more.
+Want the full breakdown? Read our <</sleep/sleep_score#, Sleep score guide>> to learn more.
 
 == Subjective Rating & Tags
 
 While sensors track data, *Ratings and Tags* track your life. This is where you connect your daily choices to your nightly recovery.
 
 * *How do you feel?* Tap the stars to record your subjective feelings about your sleep.
-* *Add *#Tags*:  <</sleep/tags, Use tags>> like #coffee, #stress, or #meds. Over time, the app will analyze these to tell you how your lifestyle influences your sleep quality.
+* *Add *#Tags*:  <</sleep/tags#, Use tags>> like #coffee, #stress, or #meds. Over time, the app will analyze these to tell you how your lifestyle influences your sleep quality.
 
 == Graph and sensor cards
 
@@ -53,7 +53,7 @@ These cards show the "why" behind your score. They map your movement and sleep p
 * *Sensors*: Dedicated sensor cards visualize your physiological and environmental trends. At a glance, you can track *HR*, *HRV*, *SpO2*, and *breath rate*, as well as changes in room *noise* and *light* levels.
 * *Tap for the Full Picture:* Tap any graph card to open the *Full Graph view*. This overlays all your data onto a single, high-resolution timeline.
 ** *See the Connections:* The full view helps you see the "why" behind your night—for example, how a spike in snoring might have caused a shift from Deep to Light sleep.
-** *Refine & Edit:* The Full Graph is also your <</sleep/sleep/graph_edit, editing suite>>.
+** *Refine & Edit:* The Full Graph is also your <</sleep/sleep/graph_edit#, editing suite>>.
 
 == Something is not right
 
@@ -70,11 +70,11 @@ If your graph looks unusual, use the table below to identify the issue and find 
 [cols="1,1,1", options="header"]
 |===
 | What you see | Possible Cause | How to fix it
-| *Red sections* | Sensor data were lost → | link:#disable_optimizations[Disable optimizations]
-| *Flat noise graph* | Mic access lost → | link:#disable_optimizations_mic[Disable optimizations]
-| *Duration too long* | Tracking wasn't stopped → | link:#trim-guide[Trim graph]
-| *Duration too short* | Too many awakes → | link:#awake-settings[Adjust sensitivity]
-| *Missed awakes* | Low sensitivity → | link:#awake-settings[Adjust sensitivity]
+| *Red sections* | Sensor data were lost | link:#disable_optimizations[Disable optimizations]
+| *Flat noise graph* | Mic access lost | link:#disable_optimizations_mic[Disable optimizations]
+| *Duration too long* | Tracking wasn't stopped | link:#trim-guide[Trim graph]
+| *Duration too short* | Too many awakes | link:#awake-settings[Adjust sensitivity]
+| *Missed awakes* | Low sensitivity | link:#awake-settings[Adjust sensitivity]
 |===
 
 
@@ -90,8 +90,8 @@ You can customize this screen by swiping away cards you don't need or pinning yo
 To edit the layout, use the Hide / Show button at the bottom or navigate to Settings -> Personalize -> Morning screen. See <</ux/personalize#morning_screen_set, more details here>>.
 
 [horizontal]
-Sleep Score:: Your nightly recovery grade. (See the <</sleep/sleepscore, Sleep Score chapter>>). Note: If this is missing, you may have "Hide stats before rating" enabled.
-Rating & Tags:: Rate your sleep with stars or add <</sleep/tags, #tags>> to track lifestyle factors.
+Sleep Score:: Your nightly recovery grade. (See the <</sleep/sleepscore#, Sleep Score chapter>>). Note: If this is missing, you may have "Hide stats before rating" enabled.
+Rating & Tags:: Rate your sleep with stars or add <</sleep/tags#, #tags>> to track lifestyle factors.
 Dismiss Alarm:: If you wake up before your alarm, you can dismiss the upcoming wake-up call directly from here.
 Graph Overview:: A simplified version of your hypnogram. Tap it to expand the <<graph_explain, Full Graph view>>.
 Phases Overview:: A simplified version of your sleep phases progress. Tap it to expand the <<graph_explain, Full Graph view>>
@@ -108,7 +108,7 @@ The detailed graph view overlays every data point measured or calculated by the 
 - <<actigraph,Actigraph>>: A map of physical activity/movement.
 - <<hypnogram,Hypnogram>>: A visualization of your sleep phases.
 - <<sensor, Sensor Data>>: Vitals including HR, HRV, Light, Breath Rate, and SpO2.
-- <<noise-graph,Noise Graph>>: Ambient sound levels and identified events when <</sleep/sleep_noise_recording,noise recording>> is enabled).
+- <<noise-graph,Noise Graph>>: Ambient sound levels and identified events when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
 [NOTE]
 Pro Tip: You can hide or reveal specific graph elements using the buttons at the bottom. These buttons also serve as a legend—the icon and color of the button match the data on the graph.
@@ -129,7 +129,7 @@ a|*Sleep score pie charts*::
 - The small "speedometers"  arcs represent individual metrics like Duration, Deep Sleep, and Efficiency.
 - The more the arc is filled, the closer you are to your healthy range.
 - You can scroll through these dials or change their order in settings.
-- Learn more in the <</sleep/sleepscore, Sleep Score chapter>>.
+- Learn more in the <</sleep/sleepscore#,Sleep Score chapter>>.
 
 |===
 
@@ -143,7 +143,7 @@ a|*Actigraph*::
 - Visualizes the intensity of your movements.
 - High peaks indicate significant movement (tossing and turning).
 - Flat lines indicate periods of stillness, usually corresponding with deeper sleep.
-- Dashed line shows the period of <<sleep//smart_wake_up, Smart wake up>> period.
+- Dashed line shows the period of <</sleep/smart_wake_up#, Smart wake up>> period.
 
 |===
 
@@ -156,7 +156,7 @@ a|.Hypnogram
 image::graph_phase.png[]
 
 a|*The hypnogram*::
-- Maps your <</sleep/sleep_tracking_theory, sleep phase>> progression.
+- Maps your <</sleep/sleep_tracking_theory#, sleep phase>> progression.
 - *Awake* (Lightest Color): The highest columns reaching 100% height.
 - *REM & Light Sleep* (Medium Color): REM is shown at 75% height; Light sleep at 50% height.
 - *Deep Sleep* (Darkest Color): The lowest columns at 25% height.
@@ -180,11 +180,11 @@ image::hrv.png[]
 
 
 a|- *Blue line* = Blood Oxygen (SpO2) level if you are using oximeter. Blue bubbles with numbers indicate maximum and minimum (read more about <</sleep/breath_rate,breath rate monitoring>>)
-- *Red line* = Heart Rate (HR) through the night. Red bubbles with numbers inside are the maximum and minimum heart rate (read more about <</sleep/heart_rate,heart rate monitoring>>).
+- *Red line* = Heart Rate (HR) through the night. Red bubbles with numbers inside are the maximum and minimum heart rate (read more about <</sleep/heart_rate#,heart rate monitoring>>).
 - *Violet line* = Heart Rate Variability (HRV). Bubbles with numbers represent local maximum and minimum (read more about https://sleep.urbandroid.org/hrv-tracking/[heart rate variablity]).
-- *Orange line* = Ambient light level in LUX (read more about <</sleep/light_level,light awake detection>>).
-- *Turquoise (Blue-green) line* = Breath Rate (measured via Sonar or wearable). Bubbles with numbers indicate maximum and minimum (read more about <</sleep/breath_rate,breath rate monitoring>>).
-- *Dashed line* = Indicates the *Smart Period* window before your alarm (read more about <</alarms/smart_wake_up,Smart wake up>>).
+- *Orange line* = Ambient light level in LUX (read more about <</sleep/light_level#,light awake detection>>).
+- *Turquoise (Blue-green) line* = Breath Rate (measured via Sonar or wearable). Bubbles with numbers indicate maximum and minimum (read more about <</sleep/breath_rate#,breath rate monitoring>>).
+- *Dashed line* = Indicates the *Smart Period* window before your alarm (read more about <</alarms/smart_wake_up#,Smart wake up>>).
 |===
 
 
@@ -196,7 +196,7 @@ a|.Noise graph
 image::graph_noise.png[]
 a|*The noise graph*::
 - Tracks volume levels (sleep talking, snoring, or environmental noise).
-- If <</sleep/sound_recognition, Sound Recognition>> is active, the app will automatically tag specific events with <<markers-and-icons,icons>>.
+- If <</sleep/sound_recognition#, Sound Recognition>> is active, the app will automatically tag specific events with <<markers-and-icons,icons>>.
 - To listen to the recorded sounds, select area with the mic icon and tap the Play button in the top right corner.
 |===
 
