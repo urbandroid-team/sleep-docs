@@ -29,7 +29,7 @@ image:edit_1.png[]
 
 === Comments and Tags
 
-* *Tags:* Choose from the preset icons or tap the + button to create custom tags (e.g., #medication, #weighted_blanket, or even emojis,like #😊). Learn more in <</sleep/tags#, Tags>>.
+* *Tags:* Choose from the preset icons or tap the + button to create custom tags (e.g., ++#++medication, ++#++weighted_blanket, or even emojis,like ++#++😊). Learn more in <</sleep/tags#, Tags>>.
 * *Comments:* Tap the comment section to type detailed notes about your night.
 
 image:edit_2.png[]
@@ -108,7 +108,7 @@ Awake detection is a little tricky for actigraphy method. The app monitors light
 
 *Add or Remove Awakes Manually:*
 
-If the app recorded an awake period that didn't happen (or missed one), you can fix it post-sleep: (see <</sleep/sleep/graph_edit#, editing guide>>).
+If the app recorded an awake period that didn't happen (or missed one), you can fix it post-sleep: (see <</sleep/graph_edit#, editing guide>>).
 
 1. Tap on your sleep graph to enter Edit Mode.
 2. Follow our <</sleep/graph_edit#awake_edit, guide for editing the awakes>> to remove or add specific periods from already finished graph.
