@@ -35,14 +35,14 @@ The primary card displays your *Sleep Score* in the top right, underpinned by a 
 * *The Big Picture:* Each dial focuses on one metric (like Duration, Deep Sleep, or Efficiency).
 * *The Details:* Look at the secondary number beneath each label. It provides vital context—like exactly how many minutes of snoring were detected or the gap between your actual sleep and your goal.
 
-Want the full breakdown? Read our <</sleep/sleep_score#, Sleep score guide>> to learn more.
+Want the full breakdown? Read our <</sleep/sleep_score#,Sleep score guide>> to learn more.
 
 == Subjective Rating & Tags
 
 While sensors track data, *Ratings and Tags* track your life. This is where you connect your daily choices to your nightly recovery.
 
 * *How do you feel?* Tap the stars to record your subjective feelings about your sleep.
-* *Add *#Tags*:  <</sleep/tags#, Use tags>> like #coffee, #stress, or #meds. Over time, the app will analyze these to tell you how your lifestyle influences your sleep quality.
+* *Add #Tags:*  <</sleep/tags#,Use tags>> like #coffee, #stress, or #meds. Over time, the app will analyze these to tell you how your lifestyle influences your sleep quality.
 
 == Graph and sensor cards
 
@@ -53,7 +53,7 @@ These cards show the "why" behind your score. They map your movement and sleep p
 * *Sensors*: Dedicated sensor cards visualize your physiological and environmental trends. At a glance, you can track *HR*, *HRV*, *SpO2*, and *breath rate*, as well as changes in room *noise* and *light* levels.
 * *Tap for the Full Picture:* Tap any graph card to open the *Full Graph view*. This overlays all your data onto a single, high-resolution timeline.
 ** *See the Connections:* The full view helps you see the "why" behind your night—for example, how a spike in snoring might have caused a shift from Deep to Light sleep.
-** *Refine & Edit:* The Full Graph is also your <</sleep/sleep/graph_edit#, editing suite>>.
+** *Refine & Edit:* The Full Graph is also your <</sleep/graph_edit#,editing suite>>.
 
 == Something is not right
 
@@ -61,7 +61,7 @@ Sleep tracking is a delicate science! If your results seem off, it’s usually b
 
 *First Aid*
 
-✔️ *Check your setup:* Double-check your phone placement to ensure the sensors can accurately track your rest (<</sleep/sleep/sleep_tracking#guide, see infographic here>>).
+✔️ *Check your setup:* Double-check your phone placement to ensure the sensors can accurately track your rest (<</sleep/sleep_tracking#guide, see infographic here>>).
 
 👉 *Let’s investigate:* If the setup looks good but the graph is still weird, we want to help. Send us your application logs in the morning so we can take a closer look: Left ≡ menu → Support → Report a bug.
 
@@ -93,8 +93,8 @@ To edit the layout, use the Hide / Show button at the bottom or navigate to Sett
 Sleep Score:: Your nightly recovery grade. (See the <</sleep/sleepscore#, Sleep Score chapter>>). Note: If this is missing, you may have "Hide stats before rating" enabled.
 Rating & Tags:: Rate your sleep with stars or add <</sleep/tags#, #tags>> to track lifestyle factors.
 Dismiss Alarm:: If you wake up before your alarm, you can dismiss the upcoming wake-up call directly from here.
-Graph Overview:: A simplified version of your hypnogram. Tap it to expand the <<graph_explain, Full Graph view>>.
-Phases Overview:: A simplified version of your sleep phases progress. Tap it to expand the <<graph_explain, Full Graph view>>
+Graph Overview:: A simplified version of your hypnogram. Tap it to expand the <</sleep/how_to_read_sleep_graphs#graph_explain, Full Graph view>>.
+Phases Overview:: A simplified version of your sleep phases progress. Tap it to expand the <</sleep/how_to_read_sleep_graphs#graph_explain, Full Graph view>>
 Noise Card:: A preview of ambient noise levels recorded during the night.
 Sensor Card:: A summary of vitals (HR, HRV, etc.) measured by your wearable or phone.
 Weather Card:: Current conditions via MetNorway or OpenWeather. (Disable in _Settings -> Personalize -> Morning screen_).

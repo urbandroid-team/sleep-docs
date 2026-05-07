@@ -14,11 +14,11 @@ tags:
 By tracking your sleep, the app enables you to:
 
 * *Visualize:* View a detailed sleep graph for every night.
-* *Monitor:* Track long-term trends with your <<sleep/sleepscore#,sleep score>> and <<sleep/statistics#,statistics>>.
+* *Monitor:* Track long-term trends with your <</sleep/sleepscore#,sleep score>> and <</sleep/statistics#,statistics>>.
 * *Improve:* Set personal goals to enhance your sleep hygiene.
-* *Wake Up Refreshed:* Use <<alarms/smart_wake_up#,smart wake up>> to wake up during your lightest sleep phase.
+* *Wake Up Refreshed:* Use <</alarms/smart_wake_up#,smart wake up>> to wake up during your lightest sleep phase.
 
-NOTE: For the science behind these features, see <<sleep/sleep_tracking_theory#, Sleep tracking theory>>.
+NOTE: For the science behind these features, see <</sleep/sleep_tracking_theory#, Sleep tracking theory>>.
 
 [TIP]
 Find all tracking options in _Settings -> Sleep tracking_.
@@ -94,7 +94,7 @@ image::sleep_tracking_screen_1.png[]
 * *Elapsed Time:* Total duration of the current session.
 * *Progress Bar:* Shows time elapsed vs. your next alarm.
 * *Current Time:* Digital clock for quick reference.
-* *Noise Indicator:* Shows volume levels if <<sleep/sleep_noise_recording#, Noise recording>> is on.
+* *Noise Indicator:* Shows volume levels if <</sleep/sleep_noise_recording#, Noise recording>> is on.
 * *Alarm Info:* Displays your next scheduled wake-up time.
 ** *No alarm:* means there is no alarm for the day. Tap to add a new alarm (opens the alarm time picker)
 ** *Alarm time:* shows the alarm time for the day. Tap to open the per-alarm settings for quick changes.
@@ -119,9 +119,9 @@ Explore advanced automation, battery optimization, and specialized features from
 
 === Automation & Detection
 
-* *<<sleep/automatic_sleep_tracking#, Automatic tracking>>*: Set the app to start and stop tracking based on your schedule or movement.
-* *<<sleep/awake_detection#, Awake detection>>:* Smart algorithms that recognize when you are actually awake vs. just moving in your sleep.
-* *<<sleep/pair_tracking#, Pair tracking>>:* Sync with a partner to filter out their movements from your data.
+* *<</sleep/automatic_sleep_tracking#, Automatic tracking>>*: Set the app to start and stop tracking based on your schedule or movement.
+* *<</sleep/awake_detection#, Awake detection>>:* Smart algorithms that recognize when you are actually awake vs. just moving in your sleep.
+* *<</sleep/pair_tracking#, Pair tracking>>:* Sync with a partner to filter out their movements from your data.
 
 === Battery & Performance
 
@@ -133,7 +133,7 @@ Explore advanced automation, battery optimization, and specialized features from
 
 === Comfort & Environment
 
-* *<<sleep/lullaby#, Lullabies>>*: Play melodies, audiobooks, or white noise that automatically fades out once you fall asleep.
+* *<</sleep/lullaby#, Lullabies>>*: Play melodies, audiobooks, or white noise that automatically fades out once you fall asleep.
 * *Screen Dimming:* Controls the display behavior during the night:
 ** *Disabled* System default timeout applies.
 ** *Dim* Screen darkens but stays active.
@@ -144,7 +144,7 @@ Explore advanced automation, battery optimization, and specialized features from
 
 === Specialized Features
 
-* *<<sleep/lucid_dreaming#, Lucid dreaming>>*: Uses sound or light cues during REM sleep to help you realize you are dreaming.
+* *<</sleep/lucid_dreaming#, Lucid dreaming>>*: Uses sound or light cues during REM sleep to help you realize you are dreaming.
 * *Jet Lag Prevention:* Tools to help shift your circadian rhythm when traveling.
 
 
