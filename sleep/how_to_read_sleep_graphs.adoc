@@ -35,7 +35,7 @@ The primary card displays your *Sleep Score* in the top right, underpinned by a 
 * *The Big Picture:* Each dial focuses on one metric (like Duration, Deep Sleep, or Efficiency).
 * *The Details:* Look at the secondary number beneath each label. It provides vital context—like exactly how many minutes of snoring were detected or the gap between your actual sleep and your goal.
 
-Want the full breakdown? Read our <</sleep/sleepscore#, Sleep Score giode>> to learn more.
+Want the full breakdown? Read our <</sleep/sleepscore#, Sleep Score guide>> to learn more.
 
 == Subjective Rating & Tags
 
@@ -72,7 +72,7 @@ If your graph looks unusual, use the table below to identify the issue and find 
 | What you see | Possible Cause | How to fix it
 | *Red sections* | Sensor data were lost | <</sleep/graph_edit#disable_optimizations, Disable optimizations>>
 | *Flat noise graph* | Mic access lost | <</sleep/graph_edit#disable_optimizations_mic, Disable optimizations>>
-| *Duration too long* | Tracking wasn't stopped | <</sleep/graph_edit#trim_guide Trim graph>>
+| *Duration too long* | Tracking wasn't stopped | <</sleep/graph_edit#trim_guide, Trim graph>>
 | *Duration too short* | Too many awakes | <</sleep/graph_edit#awake-settings, Adjust sensitivity>>
 | *Missed awakes* | Low sensitivity | <</sleep/graph_edit#awake-settings, Adjust sensitivity>>
 |===
@@ -106,7 +106,7 @@ The detailed graph view overlays every data point measured or calculated by the 
 
 - <</sleep/how_to_read_sleep_graphs#score_stats,Statistics>>: The granular breakdown of your Sleep Score
 - <</sleep/how_to_read_sleep_graphs#acti,Actigraph>>: A map of physical activity/movement.
-- <</sleep/how_to_read_sleep_graphs#hypno, Hypnogram>>*: A visualization of your sleep phases.
+- <</sleep/how_to_read_sleep_graphs#hypno, Hypnogram>>: A visualization of your sleep phases.
 - <</sleep/how_to_read_sleep_graphs#sensor, Sensor Data>>: Vitals including HR, HRV, Light, Breath Rate, and SpO2.
 - <</sleep/how_to_read_sleep_graphs#noise, Noise Graph>>: Ambient sound levels and identified events when <</sleep/sleep_noise_recording#,noise recording>> is enabled).
 
