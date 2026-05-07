@@ -14,9 +14,9 @@ tags:
 By tracking your sleep, the app enables you to:
 
 * *Visualize:* View a detailed sleep graph for every night.
-* *Monitor:* Track long-term trends with your <</sleep/sleepscore#,sleep score>> and <</sleep/statistics#,statistics>>.
+* *Monitor:* Track long-term trends with your <</sleep/sleepscore#, Sleep Score>> and <</sleep/statistics#,statistics>>.
 * *Improve:* Set personal goals to enhance your sleep hygiene.
-* *Wake Up Refreshed:* Use <</alarms/smart_wake_up#,smart wake up>> to wake up during your lightest sleep phase.
+* *Wake Up Refreshed:* Use <</sleep/smart_wake_up#,smart wake up>> to wake up during your lightest sleep phase.
 
 NOTE: For the science behind these features, see <</sleep/sleep_tracking_theory#, Sleep tracking theory>>.
 
