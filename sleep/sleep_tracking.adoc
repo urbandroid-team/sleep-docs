@@ -51,7 +51,7 @@ Every smartphone is equipped with an accelerometer. This sensor detects movement
 
 For the accelerometer to work, the phone must be *placed directly on the mattress*.
 
-.Phone placement when tracking using accelerometer
+
 image::tracking-position/accel.jpg[]
 
 The accuracy of measured data depends heavily on how well your bed is able to transmit your movement to the phone.
@@ -68,7 +68,6 @@ https://sleep.urbandroid.org/introducing-sonar-as-sensor/[Read more] about sonar
 
 ==== Positioning the phone for sonar tracking
 
-.Phone placement when tracking using sonar
 image::tracking-position/sonar.png[]
 
 
