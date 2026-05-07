@@ -85,7 +85,7 @@ Ready to go from a sleeper to a sleep expert? This section is for the enthusiast
 
 The first screen you see in the morning is the *Morning Briefing*. It provides a high-level summary of your night before you dive into the details.
 
-[TIP]
+NOTE::
 You can customize this screen by swiping away cards you don't need or pinning your favorites with a long-press.
 To edit the layout, use the Hide / Show button at the bottom or navigate to Settings -> Personalize -> Morning screen. See <</ux/personalize#morning_screen_set, more details here>>.
 
