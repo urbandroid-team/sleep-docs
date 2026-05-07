@@ -69,7 +69,7 @@ https://sleep.urbandroid.org/introducing-sonar-as-sensor/[Read more] about sonar
 
 ==== Positioning the phone for sonar tracking
 
-image::sonar.png[]
+image::sonar.png[Sonar tracking]
 
 
 Because ultrasonic waves lose energy over distance, precise placement is key:
