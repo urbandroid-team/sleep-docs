@@ -1,88 +1,150 @@
 ---
 layout: default
-title: Editing graphs
+title: Editing and refining graphs
 nav_order: 2
 parent: /sleep/0parent.html
 ---
 :toc: macro
 
-*Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.*
+Any sleep record can be adjusted after the tracking ends. Whether you forgot to stop the app, woke up in the middle of the night without the app noticing, or simply want to add a note about your caffeine intake, you can fine-tune your data here.
 
-__On any sleep graph, tap __the pencil icon:ic_pencil[] icon on graphs_
+To enter Edit Mode, tap the pencil the pencil icon:ic_pencil[] icon on any sleep graph.
+
 
 ---
 toc::[]
 :toclevels: 1
 
-== Rating sleep
+== Quick Adjustments: Ratings, Tags, and Comments
 
-[cols="2,1"]
-|===
-a|Rate your sleep on the morning screen by tapping on the stars.
+=== Rating your sleep
+On the morning screen, tap the stars to rate your sleep quality.
 
-0 = worst sleep, 5 - best sleep.
+* *0 stars:* Bad sleep.
+* *5 stars:* Amazing sleep.
 
-NOTE: If you leave the rating untouched, it won't count towards your statistics. If you touch it and drag it to zero, it will count as 0.
-a|image:edit_1.png[]
+NOTE: If you leave the stars untouched, the sleep won't be factored into your long-term "Sleep Quality" statistics. If you manually set it to 0, it counts as a zero-rating.
 
-|===
+image:edit_1.png[]
 
+=== Comments and Tags
 
-[[tags]]
-== Adding comments and tags
-[cols="1,2"]
-|===
-|Choose any of the available icon tags from the list. With the + button you can also create your own personal tags (\#any_text or #emoji ) - read more in <</sleep/tags#, Tags>>.
+* *Tags:* Choose from the preset icons or tap the + button to create custom tags (e.g., #medication, #weighted_blanket, or even emojis,like #😊). Learn more in <</sleep/tags#, Tags>>.
+* *Comments:* Tap the comment section to type detailed notes about your night.
 
-Tap on the Comment section, and type anything you would like to save as a comment.
-a|image:edit_2.png[]
-
-|===
+image:edit_2.png[]
 
 
+== Modifying the Graph (Duration & Awakes)
 
-[[add_awake]]
-== Adding awakes, editing start / end of the tracking
+If the app tracked too much time or missed a period when you were awake, you can manually edit the graph.
 
-[cols="1,2"]
-|===
-a|. From the Morning screen, tap on the Hypnogram to enter the Edit mode.
-. Drag across the graph section that you wish to edit.
-. That section will zoom in for more precise selection with the handles.
-. For fine-grained selection, you can enter adjust the time manually in the upper bar.
-. When the period is selected, tap on the scissors icon in the upper right corner.
-- If at least one end of the selected period is touching the start or end of the graph, the whole period is cut off from the graph (the graph is shortened).
-- When the selected period is within the graph, the period is transformed into awake period, and its duration is subtracted from sleep duration.
+image:edit_3.png[]
 
+=== Trimming the graph
 
-a|image:edit_3.png[]
-|===
+1. *Open the edit mode:* From the Morning screen, tap the pencil icon:ic_pencil[] icon to open the edit mode.
+2. *Select an Area:* Drag your finger across the section of the graph you want to modify.
+3. *Refine:* The section will zoom in. Use the handles to adjust the start/end times precisely. You can also manually type the times in the top bar.
+4. *Apply the Cut:* Tap the scissors icon (✂️) in the top right.
 
-NOTE: If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the <</sleep/statistics#, Stats>> screen and use icon:plus[] _Add sleep_
+What happens next depends on where you cut:
 
-//[[delete_awake]]
-//== Deleting awakes
-//
-//[cols="1,2"]
-//|===
-//a| *Deleting one awake*
-//
-//. Drag across the graph section that you wish to edit.
-//. That section will zoom in for more precise selection with the handles.
-//. For fine-grained selection, you can enter adjust the time manually in the upper bar.
-//. When the period is selected, tap on the eye icon in the top right corner.
-//. Choose "Delete Awake"
-//
-//*Deleting all awakes*
-//
-//. Tap the (⁝) menu button in the top right corner.
-//. Choose "Delete Awake"
-//
-//a|image:delete_awake.gif[]
-//
-//|===
+* *Trimming the edges:* If your selection touches the very beginning or the very end of the graph, that time is deleted (the graph becomes shorter).
+
+* *Splitting the middle:* If you select a section in the middle of your sleep, that section is converted into an Awake period. The time is subtracted from your sleep duration.
 
 
-NOTE: Deleting awakes won't work for paused tracking (there is no sensoric data from that period) and for the awakes manually entered by the user.
+[TIP]
+Made a mistake? Tap the Menu (⁝) button and select Undo. You can revert up to 5 previous changes.
+
+
+[[awake_edit]]
+=== Editing awakes
+
+1. *Open the edit mode:* From the Morning screen, tap the pencil icon:ic_pencil[] icon to open the edit mode.
+2. *Select an Area:* Drag your finger across the section of the graph you want to modify.
+3. *Refine:* The section will zoom in. Use the handles to adjust the start/end times precisely. You can also manually type the times in the top bar.
+4. *Revert or remove the awake:* Tap the open eye icon in the top right, and either choose *add awake* or *delete awake*.
+
+NOTE: Deleting awakes won't work for paused tracking (there is no sensor data from that period) and for the awakes manually entered by the user.
+
+
+[[troubleshooting_graph]]
+== Troubleshooting
+
+[[disable_optimizations]]
+=== Red Blocks (Data Gaps)
+
+*Seeing Red Blocks?* This is the #1 concern for new users. *Red blocks do NOT mean a health emergency.* They simply mean the app lost sensor data.
+
+👉*How to fix it*
+
+Try turning off *Battery Optimization* for our app. Check out dontkillmyapp.com for a quick guide on how to do this for your specific phone model.
+If you are using a wearable, disable the battery optimizations also for all involved apps, including the Bluetooth app. Also, check if the watch does not go into ‘sleep’ mode.
+
+[[disable_optimizations_mic]]
+=== Flat Noise graph
+
+If your noise graph appears as a completely flat line without any fluctuations, it typically indicates that the app lost access to the microphone during the night.
+
+👉 *How to Fix It:*
+
+*Check Device-Specific Settings:* Manufacturers often have aggressive background limits. Visit DontKillMyApp.com for a step-by-step guide tailored to your specific phone model. System-wide features like *Adaptive Battery* can put the microphone to sleep to save power.
+*Avoid Microphone Conflicts:* Most operating systems allow only one app to access the microphone at a time. Make sure other apps that perform sound analysis (like voice recorders or smart assistants) are closed before you start tracking.
+
+[[awake-settings]]
+
+=== Too many or too few awakes detected
+
+Awake detection is a little tricky for actigraphy method. The app monitors light, sound, movement, heart rate, and phone activity to determine when you’re awake. Since every bedroom environment is different, the default sensitivity might need a little fine-tuning.
+
+👉*How to fix it*
+
+*Adjust Detection Sensitivity:*
+
+1. Go to Settings → Sleep Tracking → Awake Detection.
+2. Adjust the sensitivity sliders for individual triggers (like movement or sound) to better match your environment.
+
+*Add or Remove Awakes Manually:*
+
+If the app recorded an awake period that didn't happen (or missed one), you can fix it post-sleep: (see <</sleep/sleep/graph_edit#, editing guide>>).
+
+1. Tap on your sleep graph to enter Edit Mode.
+2. Follow our <</sleep/graph_edit#awake_edit, guide for editing the awakes>> to remove or add specific periods from already finished graph.
+
+
+=== Morning screen shows too much
+
+If the screen feels cluttered, you can simplify your view to focus only on the data that matters most to you.
+
+👉*How to fix it*
+*Remove Cards:* Simply swipe a card away to hide it from your feed.
+*Toggle Visibility:* Tap the Hide/Show button at the bottom of the screen to manage multiple cards at once.
+*Pin to Top:* Long-press any card to pin it to the top of your list for quick access.
+
+
+[[trim-guide]]
+=== The graph is too long
+
+If your tracking ran too long, you can easily trim the beginning or end of the graph to correct your sleep duration.
+
+👉*How to fix it*
+
+1. *Enter Edit Mode:* Tap directly on the sleep graph card you wish to adjust.
+2. *Select the Overlap:* Drag your finger across the section of the graph you want to remove (the "extra" time at the start or end).
+3. *Cut the Data:* Tap the Scissors icon (✂️) in the top-right corner to delete the selected  period.
+
+[TIP]
+Mistakes happen! If you accidentally cut too much, you can revert your changes. Tap the Menu (⁝) button and select Undo. You can go back up to 5 steps.
+
+[[add-missing]]
+=== Missing sleep period
+
+The Edit Mode can only remove or reclassify time. If you forgot to start tracking entirely and want to add a new block of sleep:
+
+1. Go to the _Left ≡ menu → *Graphs*_ or _Left menu ≡ → *Stats screen*_.
+2. Tap the plus icon :icon:plus[] (Add sleep).
+3. Manually enter the start and end times.
 
 

@@ -64,11 +64,11 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 
 == Troubleshooting
 
-=== Connection Issues?
+=== Connection issues?
 
 *Check Your Version:* Ensure you are running *Sleep as Android version 20260429 or later*. The new watch app architecture requires this specific update to communicate correctly.
 
-=== Connection Dropping?
+=== Connection dropping?
 
 *Disable Battery Optimizations*: Android’s power management often kills background processes. To ensure a stable connection, disable "Battery Optimization" for the following apps: *Sleep as Android*, *Watch Starter*, *Garmin Connect*, and your system *Bluetooth* app. For device-specific instructions, visit DontKillMyApp.com.
 
@@ -79,13 +79,13 @@ Garmin devices are programmed to vibrate whenever an activity starts or stops. B
 * *Enable Do Not Disturb:* Ensure Do Not Disturb is active on your watch (_Settings -> System -> Do Not Disturb_).
 * *Adjust Vibration Settings:* Manually toggle vibrations off in _Settings -> System -> Sounds/Vibration_ on the watch
 
-=== Missing Vibrations?
+=== Missing vibrations?
 
 *Adjust DND Settings* if the watch isn't vibrating for alarms:
 1. On the watch, go to _Settings -> System -> Sleep mode_ and disable *DND during sleep*.
 2. Ensure *Status notifications and Vibrations are enabled* under _Settings -> Smart notifications -> Notifications -> Apps_.
 
-=== Backlight Turning On During Sleep?
+=== Backlight turning on during sleep?
 
 To prevent the screen from lighting up when you move in bed, navigate to _Settings -> System -> Lighting -> During Activity -> Gesture_ and set it to Off.
 

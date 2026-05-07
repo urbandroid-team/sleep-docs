@@ -9,157 +9,156 @@ tags:
 :toc: macro
 
 
-*Sleep tracking is a way to objectively measure the quality of your sleep.*
+*Sleep tracking allows you to objectively monitor and analyze the quality of your rest.*
 
 By tracking your sleep, the app enables you to:
 
-. See a sleep graph for every night
-. Monitor your long term sleep quality (with <</sleep/sleepscore#,sleep score>> and <</sleep/statistics#,statistics>> )
-. Set up goals to improve your sleep quality
-. Use <</alarms/smart_wake_up#,smart wake up>> for a pleasant wake up experience
+* *Visualize:* View a detailed sleep graph for every night.
+* *Monitor:* Track long-term trends with your <<sleep/sleepscore#,sleep score>> and <<sleep/statistics#,statistics>>.
+* *Improve:* Set personal goals to enhance your sleep hygiene.
+* *Wake Up Refreshed:* Use <<alarms/smart_wake_up#,smart wake up>> to wake up during your lightest sleep phase.
 
-NOTE: See <</sleep/sleep_tracking_theory#, Sleep tracking theory>> for a more in-depth information on how sleep tracking works.
+NOTE: For the science behind these features, see <<sleep/sleep_tracking_theory#, Sleep tracking theory>>.
 
+[TIP]
+Find all tracking options in _Settings -> Sleep tracking_.
 
-Sleep tracking settings can be found in _Settings -> Sleep tracking_.
 
 ---
 toc::[]
 :toclevels: 1
 
-
-== Awake detection
-See <</sleep/awake_detection#, Awake detection>>
-
-== Automatic sleep tracking
-Options for automatic tracking, see details at <</sleep/automatic_sleep_tracking#,Automatic sleep tracking>>
-//Start sleep tracking:: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-//- More details: <<automatic_sleep_tracking, Automatic sleep tracking>>.
-//Sleep time estimate:: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
-//- On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
-//- On _Save automatically_, the notification saves the sleep record for you automatically
-//- More details: <<sleep_time_estimation,Sleep time estimation>>
-//Use Google Sleep API:: Enables the Sleep API by Google (https://developers.google.com/location-context/sleep[you can read more here]).
-
-== Sensor
-Choose a sensor that will be used for motion tracking when you track using phone (ie. without wearables or Sleep Phaser). Read more about the available <</sleep/sensors#, Sensors>>.
-
-== Wearables
-Chose your wearable as the sleep tracking sensor. See details on <</devices/wearables#,wearables here>>. If wearable is selected and paired, the app will NOT use the phone's sensors.
-
-== Pair tracking
-More details: <</sleep/pair_tracking#,Pair tracking>>.
-
-== Test sensor [[test_sensor]]
-Test if your chosen sensor (Sonar or Accelerometer) is working correctly. See details at <</sleep/sensors#, Sensors chapter>>.
-
-== Lullabies
-Play calming melodies, audiobooks, or meditations to help you fall asleep. Details at <</sleep/lullaby#,Lullabies>>.
-
-== Lucid dreaming
-Technique for controlling the dreams - see <</sleep/lucid_dreaming#, here for more info>>.
-
-== Screen dimming
-Controls what will happen to the phone screen while sleep tracking.
-
-[horizontal]
-Disabled:: Sleep does nothing, your system screen timeout applies
-Dim:: Screen dims, your system screen timeout applies
-Dim with clock:: Screen dims, shows time, your system screen timeout applies
-Always on clock:: Screen dims, shows time, your system timeout DOES NOT apply
-
-WARNING: _Always on clock_ will keep your screen on all night which will significantly affect battery consumption.
-
-== Jet lag prevention
-Technique for controlling the dreams - see <</sleep/lucid_dreaming#, here for more info>>.
-
-== Do not disturb when sleeping
-If checked, do not disturb (DND) mode will be enabled during sleep tracking, and disabled again when sleep tracking ends.
-Note the following special rules:
-
-. If DND was active before sleep tracking started, Sleep will not touch it (ie. it won't disable it in the morning)
-. If DND was activated by Sleep, but you have toggled it during the sleep tracking, Sleep will not touch it again
-
-== Priority mode
-Enables Priority DND - this mode allows using customizable exceptions, for example emergency contacts will get through even when DND is activated.
-
-== Stand-by
-Sleep tracking will be put into standby mode when battery drops under level set here. No further sleep data will be collected. This saves battery for the alarm.
-
-== Battery optimized [[battery-optimized]]
-This option will enable accelerometer sensor batching, if it is available on your phone. This means that the phone  does not have to have CPU awake all night to be able to read data from the sensor.
-
-This feature has no real effect if you're using Sound Recording or Sonar, because these features use audio recording in your device, which isn't possible without keeping the CPU awake all the time anyway.
-
-WARNING: Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
-
-WARNING: Enabling sensor batching may break awake detection.
-
-== Tracking screen
-
-<<sleep-tracking-screen-1>> shows common elements of the tracking screen
-
-. Show the progress of the current sleep track from start to alarm time, is only shown if there is an alarm in the next 24 hours.
-. Elapsed tracking time
-. Current time
-. Top right actions
-- Pausing icon:ic_action_pause[] sleep tracking when you are awake, see <</sleep/awake#, Awake detection>>.
-- Play lullabies icon:ic_action_lullaby[] for faster fall asleep, see <</sleep/lullaby#, Lullabies>>.
-- Stop tracking icon:ic_action_cancel[], this will show a confirmation dialog whether you like to delete the record or save it.
-. If <</sleep/sleep_noise_recording#, Noise recording>> is enabled, you will see an recording indicator, with current volume and the _Recording volume threshold_.
-. Shows your next alarm or a range in case of <</sleep/smart_wake_up#, Smart wake up>> and beneath you can see further instructions depending on your settings
-. Action icon:ic_pencil[] to <</sleep/graph_edit#, comment>> or <</sleep/tags#, tag>> your sleep graph and turn on your flash light icon:ic_flashlight[] to e.g. navigate to the toilet.
-+
-NOTE: In case you have configured <</devices/smart_light#, Smartlight>>, the _Pee-light_ option will use it at minimum brightness (and red if possible) to help you to navigate the room.
-+
-. Running sleep tracking is always indicated in the status bar as an ongoing notification. Even after leaving the tracking screen you can always get back through this notification.
-
-[[sleep-tracking-screen-1]]
-.Sleep tracking screen elements
-image::sleep_tracking_screen_1.png[]
-
-Sliding up the _Stop and Save_ slider will bring up further options show in <<sleep-tracking-screen-2>>.
-
-* _Stop and save_ stops current sleep tracking and immediately saves it. This option is only accessible after the slide to neglect any risk of accidental stop.
-* _Pee-light_ uses your phones flashlight or any connected <</devices/smart_light#, Smartlight>>.
-* _Save battery_ switches sleep tracking into a low power mode. In this mode tracking will consume minimum battery, but <</sleep/sleep_noise_recording#, Noise recording>> will be stopped and no activity will be tracked using <</sleep/sensors#, Sensors>>. This is useful if you don't have much battery but still want to track the time of your sleep.
-
-[[sleep-tracking-screen-2]]
-.Sleep tracking screen elements
-image::sleep_tracking_screen_2.png[]
-
-
 [[guide]]
 == How to track sleep
-Sleep is always tracked using one main sensor and optionally a handful of additional sensors.
 
-=== Using accelerometer
-Accelerometer is present on every phone. It measures its own movement - so the general idea is that your movements during sleep will move the phone.
+To get the most accurate insights into your rest, the app utilizes one primary sensor and optionally a handful of additional sensors.
 
-In case of using accelerometer, the phone has to be on your mattress with you - when you move during the night, phone has to move with you.
+Choose from several sensor options to monitor your sleep.
+
+[cols="1,1,1,1", options="header"]
+|===
+| Sensor type | Position | Pros | Cons
+| *Accelerometer* | On the mattress | Easiest setup, battery efficient | X
+| *Sonar* | Bedside table | Contact-less comfort, breath rate | Battery demanding
+| *Wearable* | Wrist | Maximum accuracy, additional sensors | Extra device
+| *SleepPhaser* | Bedside table | Smart light features, breath rate | Extra device
+|===
+
+=== Accelerometer
+Every smartphone is equipped with an accelerometer. This sensor detects movement; the core principle is that as you shift during sleep, your movements vibrate the mattress, which the phone then records.
+
+==== Positioning the phone for accelerometer tracking
+
+For the accelerometer to work, the phone must be *placed directly on the mattress*.
 
 .Phone placement when tracking using accelerometer
 image::tracking-position/acc.png[]
 
-The accuracy of measured data depends on how well your bed is able to transmit your movement to the phone.
+The accuracy of measured data depends heavily on how well your bed is able to transmit your movement to the phone.
 
 [color-green]#Wearable device# > [color-green]#Arm band# > [color-orange]#Spring mattress# > [color-orange]#Latex# > [color-orange]#Hard foam# > [color-orange]#Soft foam# > [color-red]#Thick slow foam layer# > [color-red]#100% Slow foam#
 
-=== Using sonar
-Sleep as Android enables you to use the phone’s microphone and speaker as a sonar (for range and movement detection using ultrasound). It works on a lot of phones, but not all (some are unable to produce or capture frequencies above human hearing range).
+=== Sonar
+
+Sleep as Android technology turns your phone’s microphone and speaker into a sonar system. By emitting ultrasonic waves, the app detects your movement and respiration through frequency shifts. This allows for *contactless tracking*.
+
+It works on a lot of phones, but not all (some are unable to produce or capture frequencies above human hearing range).
 
 https://sleep.urbandroid.org/introducing-sonar-as-sensor/[Read more] about sonar and how we invented it.
+
+==== Positioning the phone for sonar tracking
 
 .Phone placement when tracking using sonar
 image::tracking-position/sonar.png[]
 
-==== Positioning the phone for sonar tracking
 
-Sonar has relatively weak energy, which means its strength lowers with the distance. Keep the phone as close to you as you can, on a steady surface (a bedside table), pointed towards your body. The phone needs to be above the mattress level, ideally at the level as your body or slightly above (chest level).
-If you aim for breath rate monitoring, point the mic side of the phone towards your chest for optimal "reading" of your breathing movements.
+Because ultrasonic waves lose energy over distance, precise placement is key:
 
-=== Using other devices
-You can also track sleep with additional devices like <</devices/sleep_phaser#, Sleep Phaser>> and <</devices/wearables#, wearables>>.
+* *Surface:* Place the phone on a steady, flat surface (like a bedside table).
+* *Height:* The phone should be at the same level as your body or slightly higher (chest level).
+* *Direction:* Point the bottom of the phone (where the microphone usually sits) directly toward your chest.
+* *Clearance:* Ensure there are no large objects (lamps, water bottles) blocking the "line of sight" between the phone and your body.
+
+=== Other devices
+
+If you prefer not to keep your phone near your bed at all, you can integrate external devices, like <</devices/sleep_phaser#, Sleep Phaser>>, or <</devices/wearables#, wearables>>.
+
+== The Tracking Screen
+
+When tracking is active, the screen provides real-time data and quick actions.
+
+[[sleep-tracking-screen-1]]
+.Tracking screen interface
+image::sleep_tracking_screen_1.png[]
+
+* *Elapsed Time:* Total duration of the current session.
+* *Progress Bar:* Shows time elapsed vs. your next alarm.
+* *Current Time:* Digital clock for quick reference.
+* *Noise Indicator:* Shows volume levels if <<sleep/sleep_noise_recording#, Noise recording>> is on.
+* *Alarm Info:* Displays your next scheduled wake-up time.
+** *No alarm:* means there is no alarm for the day. Tap to add a new alarm (opens the alarm time picker)
+** *Alarm time:* shows the alarm time for the day. Tap to open the per-alarm settings for quick changes.
+* *Quick Actions icons:*
+** icon:ic_action_pause[] *Pause:* Manually pause if you get out of bed.
+** icon:ic_action_cancel[] *Stop:* End the session (requires confirmation).
+** icon:ic_flashlight[] *Night ligh*: Turn on the phone's flashlight or any connected <</devices/smart_light#, Smartlight>> device.
+** icon:ic_action_lullaby[] *Lullabies:* Start soothing sounds.
+* *Stop and save:* Sliding up the _Stop and Save_ pull up menu will bring up further options:
+** icon:ic_flashlight[] *Night ligh*: Turn on the phone's flashlight or any connected <</devices/smart_light#, Smartlight>>. It will use it at minimum brightness (and red if possible) to help you to navigate the room.
+** icon:ic_pencil[] *Tags*: Add tags or notes to the current sleep entry.
+** icon:ic_action_lullaby[] *Lullabies:* Start lullaby sounds.
+** icon:ic_battery_60[] *Save battery*: switches sleep tracking into a low power mode. In this mode tracking will consume minimum battery, but Noise recording>will be stopped and no activity will be tracked using sensors. This is useful if you don't have much battery but still want to track the time of your sleep.
+** icon:ic_action_cancel[] *Stop:* End the current sleep tracking (no confirmation needed).
+
+[TIP]
+Running sleep tracking is always indicated in the status bar as an ongoing notification. Even after leaving the tracking screen you can always get back through this notification.
+
+== 🔍 Deep Dive
+
+Explore advanced automation, battery optimization, and specialized features from _Settings -> Sleep tracking_.
+
+=== Automation & Detection
+
+* *<<sleep/automatic_sleep_tracking#, Automatic tracking>>*: Set the app to start and stop tracking based on your schedule or movement.
+* *<<sleep/awake_detection#, Awake detection>>:* Smart algorithms that recognize when you are actually awake vs. just moving in your sleep.
+* *<<sleep/pair_tracking#, Pair tracking>>:* Sync with a partner to filter out their movements from your data.
+
+=== Battery & Performance
+
+* *Battery optimized:* Enables "sensor batching." This allows the phone's CPU to sleep while the sensor collects data.
+** This is unavailable when using Sonar or Noise Recording.
+** Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
+** May break awake detection on some phones.
+* *Stand-by:* Automatically stops tracking if your battery drops below a specific percentage to ensure your alarm still rings.
+
+=== Comfort & Environment
+
+* *<<sleep/lullaby#, Lullabies>>*: Play melodies, audiobooks, or white noise that automatically fades out once you fall asleep.
+* *Screen Dimming:* Controls the display behavior during the night:
+** *Disabled* System default timeout applies.
+** *Dim* Screen darkens but stays active.
+** *Dim with clock* Shows a dim clock; system timeout applies.
+** *Always on clock* Keeps a dim clock visible all night. (WARNING: High battery usage).
+* *Do Not Disturb (DND)*: Automatically silences notifications when you start tracking.
+** *Priority Mode:* Allows emergency contacts to bypass DND while you sleep.
+
+=== Specialized Features
+
+* *<<sleep/lucid_dreaming#, Lucid dreaming>>*: Uses sound or light cues during REM sleep to help you realize you are dreaming.
+* *Jet Lag Prevention:* Tools to help shift your circadian rhythm when traveling.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

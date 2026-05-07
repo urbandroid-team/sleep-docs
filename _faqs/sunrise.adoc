@@ -1,0 +1,11 @@
+---
+title: Alarm screen is too bright
+
+tags:
+  - alarm
+  - smartlight
+---
+
+Our app can simulate a sunrise using your device's screen backlight - no external smart light systems required. This gradual increase in light level is designed to mimic a natural wake-up cycle.
+
+If this does not suit you, go to _Settings -> Alarms -> Gentle Wake-up_ and disable *Sunrise wake up*.
