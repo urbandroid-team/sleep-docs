@@ -14,6 +14,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 * Report any issue and let us know if everything is working in reviews or via Report a bug (Left ≡ menu → Support → Report a bug, from the main app)
 * The NEW app should improve reliability, battery use and should work well on more models
 * If you have troubles with Garmin please double check the legacy add-on app is uninstalled!
+*-* Fix for starting sleep tracking after Garmin watch app
 
 
 
