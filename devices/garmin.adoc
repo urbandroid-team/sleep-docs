@@ -67,6 +67,7 @@ https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/
 === Connection issues?
 
 *Check Your Version:* Ensure you are running *Sleep as Android version 20260429 or later*. The new watch app architecture requires this specific update to communicate correctly.
+*Check the setup:* Make sure you do NOT have the *Sleep Garmin addon* from the Play Store installed on the phone - it is a legacy app, that can break the connection.
 
 === Connection dropping?
 
