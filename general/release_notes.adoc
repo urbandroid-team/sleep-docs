@@ -8,7 +8,14 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20260519
+== Latest version 20260530
+
+* Animations in tutorial, wearable connect, sleep tracking, alarm and goal
+* Fix for RePebble (new Pebble) HR tracking
+
+
+
+== 20260519
 
 * Please update to https://apps.garmin.com/apps/a20548cf-647d-4171-b4b0-68ea002748b4[Sleep Garmin NEW app on the IQ Connect Store]
 * Report any issue and let us know if everything is working in reviews or via Report a bug (Left ≡ menu → Support → Report a bug, from the main app)

@@ -123,14 +123,6 @@ Explore advanced automation, battery optimization, and specialized features from
 * *<</sleep/awake_detection#, Awake detection>>:* Smart algorithms that recognize when you are actually awake vs. just moving in your sleep.
 * *<</sleep/pair_tracking#, Pair tracking>>:* Sync with a partner to filter out their movements from your data.
 
-=== Battery & Performance
-
-* *Battery optimized:* Enables "sensor batching." This allows the phone's CPU to sleep while the sensor collects data.
-** This is unavailable when using Sonar or Noise Recording.
-** Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
-** May break awake detection on some phones.
-* *Stand-by:* Automatically stops tracking if your battery drops below a specific percentage to ensure your alarm still rings.
-
 === Comfort & Environment
 
 * *<</sleep/lullaby#, Lullabies>>*: Play melodies, audiobooks, or white noise that automatically fades out once you fall asleep.
@@ -146,6 +138,11 @@ Explore advanced automation, battery optimization, and specialized features from
 
 * *<</sleep/lucid_dreaming#, Lucid dreaming>>*: Uses sound or light cues during REM sleep to help you realize you are dreaming.
 * *Jet Lag Prevention:* Tools to help shift your circadian rhythm when traveling.
+* *Battery optimized:* Enables "sensor batching." This allows the phone's CPU to sleep while the sensor collects data.
+** This is unavailable when using Sonar or Noise Recording.
+** Due to Doze mode, starting from Android 6 we need to schedule a user-visible alarm every minute to be able to use sensor batching. This alarm will never ring, but will be visible on your status bar and lockscreen.
+** May break awake detection on some phones.
+* *Stand-by:* Automatically stops tracking if your battery drops below a specific percentage to ensure your alarm still rings.
 
 
 
