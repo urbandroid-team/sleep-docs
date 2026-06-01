@@ -12,7 +12,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 * Animations in tutorial, wearable connect, sleep tracking, alarm and goal
 * Fix for RePebble (new Pebble) HR tracking
-
+* HTTPS for all online radios
 
 
 == 20260519
