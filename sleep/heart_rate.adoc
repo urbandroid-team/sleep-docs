@@ -30,7 +30,7 @@ image::graph_hrv2.png[]
 
 ---
 toc::[]
-:toclevels: 3
+:toclevels: 4
 
 == Setting Up Your Device
 
