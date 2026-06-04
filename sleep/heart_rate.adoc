@@ -8,6 +8,7 @@ tags:
 - wearable
 ---
 :toc: macro
+:toclevels: 4
 
 Tracking your *heart rate* does more than just show a pulse line, it drastically improves your sleep data and makes awake detection far more accurate.
 
@@ -30,7 +31,7 @@ image::graph_hrv2.png[]
 
 ---
 toc::[]
-:toclevels: 4
+
 
 == Setting Up Your Device
 
