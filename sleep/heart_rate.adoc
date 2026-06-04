@@ -9,16 +9,11 @@ tags:
 ---
 :toc: macro
 
+Tracking your *heart rate* does more than just show a pulse line, it drastically improves your sleep data and makes awake detection far more accurate.
+
+If your wearable supports it, the app can also track your *Heart Rate Variability (HRV)*, giving you a deeper look into your nervous system's recovery overnight.
+
 *Heart rate data enhances your sleep tracking data and awake detection.*
-
-If you have a compatible heart rate sensor, you can use it to:
-
-. Gather your heart rate during the night and show it on your sleep graph
-. Have much more precise awake detection
-. If your wearable supports heart rate variability data collection, you will see HRV on your sleep graph too (read https://sleep.urbandroid.org/hrv-tracking/[more about heart rate variability here])
-
-See and example of a heart-rate enabled track in <<graph-hr>> and heart rate variability graph in <<graph-hrv>>.
-
 
 
 [cols="^,^"]
@@ -37,39 +32,38 @@ image::graph_hrv2.png[]
 toc::[]
 :toclevels: 1
 
+== Setting Up Your Device
 
-== HR monitoring for fully integrated devices
+Depending on what you wear to bed, choose one of the three setup paths below:
 
-_Settings -> Wearables -> Heart rate monitoring_
-This regards all devices that we explicitly integrated, such as Pebble, Mi Band, Amazefit, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy. See <</devices/wearables#,Smartwatch and Wearables>> for supported devices.
+=== Fully Integrated Smartwatches
 
-== HR monitoring for devices that support direct HR over BLE (Bluetooth Low Energy)
+For Wear OS, Galaxy Watch, Garmin, Fitbit, Mi Band, Amazfit, Pebble, and other <</devices/wearables#,compatible watches>>.
 
-_Settings -> Wearables -> Bluetooth Smart_
-This regards all other devices that have a HR sensor (such as Polar H7) and may or may not work with your device.
+. Go to _Settings → Wearables → Heart rate monitoring_.
+. Turn the feature on.
 
-NOTE: Do not use this option for HR monitoring with compatible smartwatches such as Pebble, Mi Band, Amazefit, Fitbit, Garmin, Wear OS, Samsung Gear/Galaxy, etc.
+=== Pulse Oximeters
 
-== HR monitoring for a supported oximeter
-If you have an <</devices/oximeter#,oximeter>> connected in _Settings -> Sleep tracking -> Wearables -> Pulse Oximeter_, heart rate will be detected by default.
+For dedicated overnight oximeter devices.
 
-== HRV monitoring
+. Go to _Settings → Sleep tracking → Wearables → Pulse Oximeter (Smart Bluetooth)_.
+. Once connected, heart rate tracking is enabled automatically!
 
-If your wearable supports HRV data collection, it will be enabled automatically with HR monitoring.
+=== Standard Bluetooth Sensors (Direct BLE)
 
+For standalone heart rate chest straps or armbands (like Polar H7) and other non-compatible wearables.
 
+. Go to _Settings → Wearables → Bluetooth Smart_.
+. Toggle this option on to scan and pair your sensor.
 
-== How to tell if the wearable will collect HR
+===  How to Check If Your Wearable is Compatible
 
-Only wearables, that use GATT Heart Rate Profile interface can be connected via BT smart for collecting HR data.
-If you are not sure, if the HR monitoring is possible with your wearable, you can check, if it is compatible directly in the Sleep app.
+Not sure if your watch can send direct heart rate data to our app? You can run a quick check using our Bluetooth scanner:
 
-. Try to pair with your device (this may not be required for all devices and OS versions).
-. Make sure no other app is using your device while sleep tracking.
-. Go to _Settings -> Sleep tracking -> Wearables -> Bluetooth Smart_ and tick this option.
-. The app will start a Bluetooth scanning and lists all nearby devices.
-. If your wearable is listed in BT scanning with a icon:tag_love[] icon, it uses the requi red HR profile
-
+. Make sure your watch is paired with your phone and that no other health or fitness apps are actively using the sensor in the background
+. In the Sleep app, navigate to _Settings → Sleep tracking → Wearables and turn on Bluetooth Smart_
+. The app will scan nearby Bluetooth signals. Look for your device in the list. If it features a icon:tag_love[] *Heart icon* next to its name, it supports the required profile and will track perfectly!
 
 [cols="^"]
 |===
@@ -79,5 +73,11 @@ image::bt_scan.png[]
 
 |===
 
+=== What if my device doesn't have the heart icon?
 
-NOTE: If your wearable is not listed with a heart icon:tag_love[] icon, you need to go around – save HR to Health Connect, S Health, or Google Fit, from where Sleep as Android can download it.
+Don't worry! You can still get your heart rate data into the app. Simply set your watch's native app to sync its data to Health Connect, or Samsung Health. Sleep as Android will automatically download your heart rate data from there after you wake up.
+
+== Tracking Heart Rate Variability (HRV)
+
+If your wearable device is physically capable of collecting HRV data, you don't need to turn on any extra settings. The app will automatically bundle your HRV data into the main heart rate stream and display your HRV graph alongside your standard sleep metrics.
+Want to know what your HRV actually says about your body's recovery? Check out our https://sleep.urbandroid.org/hrv-tracking/[in-depth blog post on how HRV tracking works] and why it matters.
