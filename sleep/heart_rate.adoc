@@ -39,7 +39,7 @@ Depending on what you wear to bed, choose one of the three setup paths below:
 
 For Wear OS, Galaxy Watch, Garmin, Fitbit, Mi Band, Amazfit, Pebble, and other <</devices/wearables#,compatible watches>>.
 
-. Go to _Settings → Wearables → Heart rate monitoring_.
+. Go to _Settings → Sleep tracking → Wearables → Heart rate monitoring_.
 . Turn the feature on.
 
 == Pulse Oximeters
@@ -53,7 +53,7 @@ For dedicated overnight oximeter devices.
 
 For standalone heart rate chest straps or armbands (like Polar H7) and other non-compatible wearables.
 
-. Go to _Settings → Wearables → Bluetooth Smart_.
+. Go to _Settings → Sleep tracking → Wearables → Bluetooth Smart_.
 . Toggle this option on to scan and pair your sensor.
 
 ===  How to Check If Your Wearable is Compatible
