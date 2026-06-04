@@ -57,7 +57,7 @@ For standalone heart rate chest straps or armbands (like Polar H7) and other non
 . Go to _Settings → Wearables → Bluetooth Smart_.
 . Toggle this option on to scan and pair your sensor.
 
-===  How to Check If Your Wearable is Compatible
+====  How to Check If Your Wearable is Compatible
 
 Not sure if your watch can send direct heart rate data to our app? You can run a quick check using our Bluetooth scanner:
 
@@ -73,7 +73,7 @@ image::bt_scan.png[]
 
 |===
 
-=== What if my device doesn't have the heart icon?
+==== What if my device doesn't have the heart icon?
 
 Don't worry! You can still get your heart rate data into the app. Simply set your watch's native app to sync its data to Health Connect, or Samsung Health. Sleep as Android will automatically download your heart rate data from there after you wake up.
 
