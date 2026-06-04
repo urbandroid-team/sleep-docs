@@ -14,7 +14,6 @@ Tracking your *heart rate* does more than just show a pulse line, it drastically
 
 If your wearable supports it, the app can also track your *Heart Rate Variability (HRV)*, giving you a deeper look into your nervous system's recovery overnight.
 
-*Heart rate data enhances your sleep tracking data and awake detection.*
 
 
 [cols="^,^"]
