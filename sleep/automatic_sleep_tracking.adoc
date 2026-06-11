@@ -34,7 +34,7 @@ Sleep as Android will never start sleep tracking without you pressing the _Start
 This is a very simple automatic option which starts sleep tracking at the start of your bedtime. See how is the bedtime determined <</alarms/bedtime_notification#,here>>. This is useful only if you have a very regular sleep schedule.
 
 == Smart period
-Again a simple automation which starts sleep tracking some time before the smart period. The aim of this option is to have a function <</sleep/smart_wake_up#,Smart wake up>> with minimal battery use. Using this option will provide you with incomplete sleep stats.
+A simple automation which starts sleep tracking some time before the smart period. The aim of this option is to have a function <</sleep/smart_wake_up#,Smart wake up>> with minimal battery use. Using this option will provide you with incomplete sleep stats.
 
 NOTE: Sleep tracking starts 45 minutes before the smart period, so the sensor has enough time to gather data for calibration.
 
