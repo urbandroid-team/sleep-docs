@@ -156,7 +156,7 @@ NOTE: You will always be notified when one of your alarms can be rescheduled, wi
 
 == Smart wake up
 
-See <</alarms/smart_wake_up#,Smart wake up>>.
+See <</sleep/smart_wake_up#,Smart wake up>>.
 You can have a different smart period for each alarm - a longer period for weekends, and a shorter period for your workdays.
 
 == Captcha
