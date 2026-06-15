@@ -12,7 +12,7 @@ You can download any older version from https://sleep.urbandroid.org/more/downlo
 
 * Animated Bedtime droid and Owl/Lark avatar
 * More fixes in Garmin integration
-* Fix for analytics consent bug
+* Fix for analytics consent bug in Tutorial
 
 == 20260604
 * Less intrusive animations in Math CAPTCHA - we hear you!
