@@ -7,17 +7,16 @@ jobs:
     name: build-and-deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      # Updated from @v2 to @v4 to fix the Node.js error
+      - uses: actions/checkout@v4
 
-      # Step 1: Build the website files
       - name: Build
         uses: urbandroid-team/jekyll-build-action@8
 
-      # Step 2: Upload the files to your server using FTP
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./_site/  # This is where Jekyll puts the built website
+          local-dir: ./_site/
