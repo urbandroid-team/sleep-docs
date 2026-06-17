@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="256"
+   height="256"
+   sodipodi:docname="tag_sunrise.svg"
+   inkscape:export-filename="/home/petr/project/android-git/Sleep-actionbar2/res/drawable-xxhdpi/ic_action_sunrise.png"
+   inkscape:export-xdpi="33.75"
+   inkscape:export-ydpi="33.75">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 199.988,130.031 c 0,22.086 -17.902,39.989 -39.988,39.989 -22.086,0 -39.988,-17.903 -39.988,-39.989 0,-3.453 0.437,-6.804 1.258,-10 l -20.422,0 c -0.547,3.254 -0.832,6.594 -0.832,10 0,33.129 26.855,59.985 59.984,59.985 33.129,0 59.984,-26.856 59.984,-59.985 0,-3.406 -0.285,-6.746 -0.832,-10 l -20.422,0 c 0.821,3.196 1.258,6.547 1.258,10 z m 9.582,63.68 14.008,14.004 c 4,4 10.301,3.969 14.203,0.066 3.934,-3.929 3.875,-10.261 -0.066,-14.203 L 223.711,179.57 c -4.004,-4 -10.301,-3.968 -14.207,-0.066 -3.93,3.934 -3.871,10.266 0.066,14.207 z m -149.4802,-53.715 19.8086,0 c 5.6563,0 10.0899,-4.476 10.0899,-9.996 0,-5.289 -4.086,-9.562 -9.2774,-9.969 l -21.4414,0 C 54.0117,120.441 50,124.746 50,130 c 0,5.559 4.5195,9.996 10.0898,9.996 z m 200.6332,-19.965 -21.442,0 c -5.261,0.41 -9.269,4.715 -9.269,9.969 0,5.559 4.515,9.996 10.09,9.996 l 19.808,0 c 5.656,0 10.09,-4.476 10.09,-9.996 0,-5.289 -4.086,-9.562 -9.277,-9.969 z M 96.4219,207.715 110.43,193.711 c 4,-4.004 3.968,-10.301 0.066,-14.207 -3.933,-3.93 -10.266,-3.875 -14.2069,0.066 l -14.0039,14.008 c -4,4 -3.9727,10.301 -0.0664,14.203 3.9296,3.93 10.2617,3.875 14.2031,-0.066 z m 53.5821,2.387 0,19.808 c 0,5.656 4.476,10.09 9.996,10.09 5.559,0 9.996,-4.52 9.996,-10.09 l 0,-19.808 c 0,-5.661 -4.476,-10.09 -9.996,-10.09 -5.559,0 -9.996,4.515 -9.996,10.09 z M 100,90 c 0,5.5625 4.488,10 10.023,10 l 99.954,0 C 215.441,100 220,95.5234 220,90 220,84.4375 215.512,80 209.977,80 l -99.954,0 C 104.559,80 100,84.4766 100,90 z"
+         clip-rule="evenodd"
+         id="path20" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath24">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 0,0 320,0 320,320 0,320 0,0 z"
+         id="path26" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.921875"
+     inkscape:cx="-59.661017"
+     inkscape:cy="128"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g12"
+     transform="matrix(1.0297766,0,0,-1.0297766,-36.764256,292.76426)"
+     style="fill:#ffffff;fill-opacity:0.60000002">
+    <g
+       id="g14"
+       style="fill:#ffffff;fill-opacity:0.60000002">
+      <g
+         id="g16"
+         clip-path="url(#clipPath18)"
+         style="fill:#ffffff;fill-opacity:0.60000002">
+        <g
+           id="g22"
+           clip-path="url(#clipPath24)"
+           style="fill:#ffffff;fill-opacity:0.60000002">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 0,30 320,0 0,260 L 0,290 0,30 z"
+             style="fill:#ffffff;fill-opacity:0.60000002;fill-rule:evenodd;stroke:none"
+             id="path28" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

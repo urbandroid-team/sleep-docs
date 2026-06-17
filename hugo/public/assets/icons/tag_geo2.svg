@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="256"
+   height="256"
+   sodipodi:docname="tag_geo1.svg"
+   inkscape:export-filename="/home/petr/project/android-git/Sleep-actionbar2/res/drawable-xxhdpi/tag_geo1.png"
+   inkscape:export-xdpi="22.5"
+   inkscape:export-ydpi="22.5">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1307"
+     inkscape:window-height="744"
+     id="namedview4"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.921875"
+     inkscape:cx="-1.0847458"
+     inkscape:cy="128"
+     inkscape:window-x="59"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#ffffff"
+     d="M 128.1875 0.28125 C 117.39581 0.28125 114.52585 0.64809195 107.1875 2.96875 C 102.5125 4.447158 95.762496 7.3599259 92.1875 9.4375 C 83.84686 14.284575 70.75332 27.378109 65.90625 35.71875 C 55.5173 53.595618 53.52981 77.707381 60.71875 98.84375 C 64.00915 108.51792 67.65846 114.4189 81.9375 133.375 C 99.277496 156.39466 104.04099 164.93524 110.25 183.84375 C 115.25839 199.096 117.97905 214.87436 119.4375 237.46875 L 120.59375 255.71875 L 128.1875 255.71875 L 135.75 255.71875 L 136.96875 236.96875 C 138.41015 214.46577 141.03569 199.25929 146.25 183.375 C 151.86186 166.27965 158.61975 154.21777 173.90625 133.9375 C 195.1516 105.75175 199.6051 94.947209 199.5625 71.71875 C 199.54098 59.9754 199.21212 57.231549 197 50.5625 C 193.01515 38.549101 187.80103 30.143808 178.78125 21.21875 C 169.30423 11.841259 160.94859 6.688043 149.1875 2.96875 C 141.84915 0.64809195 138.97919 0.28125 128.1875 0.28125 z M 126.375 26.90625 C 135.16349 26.90634 141.79578 29.092811 146.28125 33.46875 C 150.80309 37.80839 153.06245 43.295382 153.0625 49.96875 C 153.06245 55.03771 151.80263 60.410188 149.25 66.0625 C 146.73374 71.714914 139.2737 83.719686 126.875 102.0625 L 151.09375 102.0625 L 151.09375 117.15625 L 102.46875 117.15625 L 102.46875 104.53125 C 116.87316 80.973673 125.42642 66.391986 128.125 60.8125 C 130.85999 55.19666 132.21872 50.823719 132.21875 47.6875 C 132.21872 45.280757 131.80746 43.479514 130.96875 42.3125 C 130.16645 41.109169 128.92745 40.531327 127.25 40.53125 C 125.5725 40.531327 124.30746 41.187268 123.46875 42.5 C 122.66646 43.812882 122.28123 46.410613 122.28125 50.3125 L 122.28125 58.71875 L 102.46875 58.71875 L 102.46875 55.5 C 102.46875 50.540569 102.73946 46.656988 103.25 43.8125 C 103.76053 40.931692 104.99432 38.084063 107 35.3125 C 109.00567 32.541101 111.63465 30.453546 114.84375 29.03125 C 118.05282 27.609131 121.88955 26.90634 126.375 26.90625 z "
+     id="path2987" />
+  <text
+     xml:space="preserve"
+     style="font-size:112.02629852px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Condensed"
+     x="-361.50174"
+     y="103.05084"
+     id="text3007"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3009"
+       x="-361.50174"
+       y="103.05084">3</tspan></text>
+</svg>

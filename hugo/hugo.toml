@@ -6,6 +6,10 @@ theme = 'hugo-book'
 disablePathToLower = false
 enableGitInfo = false
 
+# Enable relative URLs for portable builds (works in any subdirectory!)
+relativeURLs = true
+canonifyURLs = false
+
 [markup]
 [markup.goldmark.renderer]
   unsafe = true

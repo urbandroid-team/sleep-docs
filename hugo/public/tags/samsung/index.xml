@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Samsung on Sleep as Android Docs</title><link>/tags/samsung/</link><description>Recent content in Samsung on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/samsung/index.xml" rel="self" type="application/rss+xml"/><item><title>One UI Watch devices</title><link>/devices/one_ui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/one_ui/</guid><description>&lt;p&gt;Sleep tracking with Galaxy Watch model 4 and newer models (running the ONE UI Watch OS) requires a companion app installed from the Play Store on the watch.&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Unfortunately due to limit put for non-Samsung apps, we cannot read SpO2 or HRV from those watches at the moment.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;h2 id="how-to-set-up"&gt;How to set up&lt;a class="anchor" href="#how-to-set-up"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;.On the watch&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure the watch is connected to the phone.&lt;/li&gt;
+&lt;li&gt;Go to app list on your watch, select Play Store.&lt;/li&gt;
+&lt;li&gt;Find &lt;strong&gt;Sleep as Android&lt;/strong&gt; and select &lt;em&gt;Install&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;.On the phone&lt;/p&gt;</description></item><item><title>Samsung Gear / Galaxy Gear</title><link>/devices/samsung_gear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/samsung_gear/</guid><description>&lt;p&gt;Sleep as Android supports most Samsung wearables, but not all. Please look for your device in &lt;a href="#supported-watches"&gt;supported-watches&lt;/a&gt; below.&lt;/p&gt;
+&lt;h2 id="how-to-set-up"&gt;How to set up&lt;a class="anchor" href="#how-to-set-up"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;First, install all the required parts - the Samsung Galaxy Gear integration consists of three parts:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.sleep"&gt;Sleep as Android&lt;/a&gt; on the phone&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung"&gt;Sleep as Android Gear Addon&lt;/a&gt; on the phone&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://galaxy.store/sle"&gt;Sleep as Android - Native Gear Companion&lt;/a&gt; on the watch (install through the Galaxy Gear Store)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Now, you can enable the connection in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearable -&amp;gt; Samsung Gear / Galaxy Watch&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Then test the connection in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Test sensor&lt;/em&gt; - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-set-up-gear-fit-2"&gt;How to set up Gear Fit 2&lt;a class="anchor" href="#how-to-set-up-gear-fit-2"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Galaxy Store suspended our wachface for Gear Fit, and we have to pass their new verification process. The watchface is currently not available. We are sorry for the inconvenience.&lt;/p&gt;</description></item><item><title>Supported wearables - list</title><link>/devices/supported_wearable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/supported_wearable/</guid><description>&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;
+&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href="https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/"&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;.Legend for sensors&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;|===
+|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;
+&lt;p&gt;{% for wearable in site.data.wearables %}
+{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description></item><item><title>Wearables</title><link>/devices/wearables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/wearables/</guid><description>&lt;p&gt;&lt;a id="wearable_setup"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="how-to-set-up-tracking-with-a-wearable"&gt;How to set up tracking with a wearable&lt;a class="anchor" href="#how-to-set-up-tracking-with-a-wearable"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;First of all, make sure your wearable is supported (see the &lt;a href="../../devices/supported_wearable"&gt;table of all integated wearables&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Check if the wearable is connected properly via Bluetooth.&lt;/li&gt;
+&lt;li&gt;Install the required companion apps - this depends on the wearable type, check the &lt;a href="../../devices/supported_wearable"&gt;table below&lt;/a&gt;, or one of the subpages.&lt;/li&gt;
+&lt;li&gt;Select the corresponding option in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearable&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;You can test the connection on some wearables with the Test sensor - see &lt;a href="../../devices/test_sensor"&gt;details about testing the connection here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can find specific guides for each wearable type on the subpages of the Wearable section.&lt;/p&gt;</description></item></channel></rss>

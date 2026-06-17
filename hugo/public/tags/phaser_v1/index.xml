@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phaser_v1 on Sleep as Android Docs</title><link>/tags/phaser_v1/</link><description>Recent content in Phaser_v1 on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/phaser_v1/index.xml" rel="self" type="application/rss+xml"/><item><title>Sleep Phaser v1</title><link>/devices/sleep_phaser_1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/sleep_phaser_1/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep Phaser is the ultimate sleep tracking device which allows you to use the potential of Sleep as Android to the max.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Below is the user guide for Sleep Phaser v1.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="sleep-phaser-description"&gt;Sleep Phaser description&lt;a class="anchor" href="#sleep-phaser-description"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are two touch buttons on the Sleep Phaser.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upper button&lt;/strong&gt;: Toggles the main light.
+It has three states: Full white, middle orange and dim red.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lower button&lt;/strong&gt;: Toggles the base light. This is a very dim light useful for finding your Phaser in an otherwise totally dark room (as is recommended for good sleep hygiene).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="first-start"&gt;First start&lt;a class="anchor" href="#first-start"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Connect your Sleep Phaser to the power supply.&lt;/li&gt;
+&lt;li&gt;Make sure that Bluetooth and Location service (GPS) are turned on.&lt;/li&gt;
+&lt;li&gt;In Sleep as Android, go to Settings &amp;gt; Services -&amp;gt; Smartlight &amp;gt; Sleep Phaser and tap Sleep Phaser disconnected (you can also just search for “sleep phaser”). The app will connect to the nearest Sleep Phaser. This will also unlock your Sleep as Android, if you have the trial version.&lt;/li&gt;
+&lt;li&gt;After a successful connection, you can activate one or more Sleep Phaser functions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Smartlight&lt;/strong&gt;: Enables sunrise alarm. When this option is enabled, the general smartlight options (Pee-light, Lucid dreaming, Anti-Snoring start to apply to Sleep Phaser)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sleep tracking&lt;/strong&gt;: Enables tracking movement and breathing with Sleep Phaser.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start automatically&lt;/strong&gt;: When enabled, sleep tracking will start in a standby mode (on infinite pause) whenever you connect your phone to a charger and Sleep Phaser is in bluetooth range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="sleep-tracking"&gt;Sleep tracking&lt;a class="anchor" href="#sleep-tracking"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Tracking with Sleep Phaser can be started either manually or automatically.&lt;/p&gt;</description></item></channel></rss>
