@@ -1,0 +1,13 @@
+---
+
+layout: default
+title: Automate walkthroughs
+nav_order: 2
+parent: /services/0parent.html
+---
+
+
+.Start sleep tracking with Automate
+Download the flow here: http://llamalab.com/automate/community/flows/13614
+
+Thanks to Percherie!

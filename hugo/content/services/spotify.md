@@ -1,0 +1,30 @@
+---
+
+layout: default
+title: Spotify
+nav_order: 2
+parent: /services/0parent.html
+
+tags:
+- spotify
+---
+
+
+
+## What it does
+
+**Set a Spotify album or playlist as an alarm ringtone.**
+
+
+## Where to find it
+
+_Settings -> Services -> Spotify_
+
+The Spotify app is available on Play Store.
+
+
+## Guide
+
+
+After you enable Spotify in _Settings -> Services_, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm's ringtone or lullabies. See [Ringtone](/alarms/ringtone).
+> **Warning:** Our Spotify integration is all reverse engineered and thus may stop working any time Spotify updates their app.

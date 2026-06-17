@@ -1,0 +1,26 @@
+---
+
+layout: default
+title: Sleep time estimation
+nav_order: 2
+parent: /sleep/0parent.html
+---
+
+
+If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
+
+The next day, a pop-up notification with estimated timings appears.
+
+![](suggestion.png)
+
+_Settings -> Sleep tracking -> Automatic sleep tracking -> Sleep time estimate_
+- **Disabled**: No data from recognition engine are collected.
+- **Manual only**: Sleep time estimation is saved only after you confirm it.
+- **Save automatically**: Sleep time estimation is saved automatically when a tracking is missing the previous night.
+
+
+## How it works
+
+
+The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or [Google Sleep API](https://developers.google.com/location-context/sleep)), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren't tracking.
+> **Note:** This feature requires at least 500 events in sensor batching queue. If you don't see Sleep time estimation listed in the Settings, than your phone does not meet this criteria.

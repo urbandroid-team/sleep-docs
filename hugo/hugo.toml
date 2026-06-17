@@ -1,0 +1,30 @@
+baseURL = '/'
+title = 'Sleep as Android Docs'
+theme = 'hugo-book'
+
+# Configure basic Hugo behavior
+disablePathToLower = false
+enableGitInfo = false
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[markup.highlight]
+  style = 'base16-snazzy'
+
+[params]
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme = 'auto'
+
+  # Render all sections into the navigation menu
+  BookSection = '/'
+
+  # Enable the local search bar
+  BookSearch = true
+
+  # Enable right-side Table of Contents
+  BookToC = true

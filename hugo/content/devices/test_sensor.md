@@ -1,0 +1,39 @@
+---
+
+layout: default
+title: Testing connection with a wearable
+nav_order: 2
+parent: /devices/wearables.html
+tags:
+- wearable
+- tracking
+---
+
+
+
+## What it does
+**Testing sensor gives you confirmation the wearable is connected properly, and the companion app is sending data about your movement.**
+> **Note:** Testing sensor is not supported by Garmin wearables and FitBit.
+
+
+
+## Where to find it
+_Settings -> Sleep tracking -> Wearables -> Test sensor_
+
+
+
+## How it works
+
+During the Test sensor, the app connects to the selected wearable, confirms the proper connection and then shows you the detected movement.
+
+
+<a id="wearable-test"></a>
+.Test sensor (wearable)
+![](test_wearable.png)
+
+When the test sensor is successful, you will see a green graph reacting to your movement (with a short delay, as the data are sent in batches). The graph is labeled "Test sensor: Wearable" - the app is using data from wearable.
+When the test sensor fails, it will fall back into phone's accelerometer or sonar (depending on your choice of sensor). The graph is labeled "Test sensor: Accelerometer / Sonar" - the app is using data from phone's sensor.
+
+<a id="wearable-test_comp"></a>
+.Successful vs failed test of wearable connection
+![](wearable_test.png)

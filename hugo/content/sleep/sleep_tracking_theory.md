@@ -1,0 +1,158 @@
+---
+
+layout: default
+title: Sleep tracking theory
+nav_order: 2
+parent: /sleep/0parent.html
+
+tags:
+ - theory
+ - tracking
+ - graph
+ - sleep_phases
+ - rem
+---
+
+
+
+## What is sleep
+
+
+Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
+
+We expect that when we wake up, we'll feel better than when we went to bed.
+
+But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.
+
+Sleep as Android enables you to track **inputs** and **outcome** of your sleep (the qualities of sleep itself).
+
+
+### Sleep input factors
+
+The state in which you go to sleep, your bedroom environment, fall asleep and awake time, what you do during the day and of course your genetics are all input factors that determine how your sleep outcome is going to turn out.
+
+You can do something about the majority of those input factors in order to steer the outcome towards a healthy sleep.
+
+For that, Sleep as Android gives you tools such as:
+
+* [Tags](/sleep/tags)
+* [Bedtime notifications](/alarms/bedtime_notification)
+* Bedroom [light levels measurement](/sleep/light_level)
+* Bedroom [noise measurement](/sleep/sleep_noise_recording)
+* [Smart alarm](/alarms/smart_wake_up)
+* [Gentle alarm volume increase](/alarms/alarm_settings#gentle_alarm) & [gentle alarm light increase / sunrise alarm](/devices/smart_light#sunrise_alarm_guide)
+
+
+### Sleep outcome
+
+Sleep outcome is the actual shape of your sleep - measured and analyzed. There are several ways to establish the quality of the sleep outcome, which together form a picture of your healthy your sleep is.
+
+So when we want to know how well you sleep, we look at:
+
+* Sleep phases - especially the ratio of deep sleep versus light sleep
+* Duration of your sleep
+* Efficiency, ie. how long you're actually sleeping vs. being in bed
+* Detected snoring duration
+* Your subjective quality rating
+
+Those six dimensions together form your [sleep score](/sleep/sleepscore).
+
+
+## How is sleep tracked
+
+
+Sleep scientists track sleep using two main methods:
+
+- [PSG (polysomnography)](#psg-polysomnography)
+- [Actigraphy](#actigraphy)
+
+
+### PSG (polysomnography)
+
+PSG is the first method used to measure sleep. If you go to a sleep lab, you will with 99% certainty undergo PSG.
+
+This is the 'heavyweight' method - the patient is usually wearing a lots of sensors:
+
+- EEG (to measure brain activity),
+- EOG (to measure eye muscle movements),
+- Actigraphs (to measure overall movement),
+- EKG (to measure heart activity),
+- Pulse oximeter (to measure blood oxygenation level),
+- EMG (to measure other muscle movements),
+- and possibly other sensors.
+
+PSG is regarded as a golden standard in sleep science as it measures the most sleep dimensions.
+
+PSG distinguishes REM sleep and non-REM sleep. Non-REM is further divided into N1, N2, N3 (and previously N4) phases. Sleep phases are largely based on input from EEG. So four major phases characterized by specific EEG patterns are usually recognized today.
+- **N1 (non-REM-1)**: a short transitional stage between sleep and wakefulness.
+- **N2**: mostly light dreamless sleep occupying about 60% of the night.
+- **N3**: the deepest sleep phase. The body is totally relaxed, EEG displays slow regular waves. This stage is believed to play a crucial role in the regenerative processes. Dreaming (so called non-REM dreaming) can occur but is not that common as in REM.
+- **REM**: high likelihood of vivid dreams, muscle paralysis, bursts of rapid eye movements.
+
+The phases alternate in a typical sequence called sleep cycle – from a short N1, via N2, to the deep N3, then a shorter transitory N2, followed by REM, interrupted by brief awake. The cycle repeats several times throughout the night. The pattern is however highly variable. The lengths and exact ordering of the phases differ in each individual case.
+
+The biggest criticism of PSG is that it is too invasive - the patient is not in his home environment and is entangled in lots of wires and other electronics that prevent him from sleeping naturally. This complicates diagnostics.
+
+
+### Actigraphy
+
+There is, obviously, no EEG in a smartphone or common wearables. However, we can monitor a sleeper with sensors that are available in these devices, and it makes perfect sense to analyze the measurements and see if they display any patterns. In Sleep as Android, we focus mostly on detailed monitoring of body movement throughout the night, using a wide range of available sensors (integrated accelerometer, sonar, infrared sensor).
+
+And indeed, there are typically distinct phases of very low physical activity, when the body is completely relaxed, and periods of high activity, when the person is tossing and turning on the bed, rolling, twitching, and jerking.
+
+Thereby in actigraphy, we can define two sleep phases – **light sleep** and **deep sleep**. These phases are shown in hypnograms in Sleep as Android and are used by the app for triggering smart alarms. Let’s call them ACT-phases, as they are based purely on the average short-term amount of physical activity. It’s an objective phenomenon, just like the PSG-phases. We can imagine them as a picture of the same underlying process (sleep) from a different angle. Either picture (PSG-phases, ACT-phases) captures a valid aspect of the reality.
+
+
+### Comparison of PSG to actigraphy
+
+
+Actigraphy uses a different input than PSG and defines sleep phases in its own way.
+
+Both ACT-phases (from actigraphy) and PSG-phases reflect an objective aspect of sleep. One naturally needs to ask if there's any relationship between PSG-phases and ACT-phases.
+
+
+#### Validation of actigraphy done by other teams
+
+
+Several research teams raised similar questions before (See [this one](https://www.researchgate.net/publication/16355093_Rate_and_distribution_of_body_movements_during_sleep_in_Humans), or [this](https://www.ncbi.nlm.nih.gov/pubmed/25669176), or [this](https://www.ncbi.nlm.nih.gov/pubmed/10607067), or [this](https://link.springer.com/article/10.3758/BF03336549)). They measured a bunch of people on a traditional polysomnograph and recorded their physical activity at the same time. (By filming them and then counting the movements manually, or by using accelerometer readings). The published analyses show that there indeed is a significant statistical relationship between PSG-phases and body movements.
+
+
+#### Validation of actigraphy done by us
+
+
+We have measured how accurate Sleep as Android is when compared to a clinical sleep lab and concluded that light and deep sleep measured by our app strongly correspond with sleep phases measured on PSG. Read [an extensive review](https://sleep.urbandroid.org/sleep-lab-comparison/) by our data expert Jan Marek.
+
+
+#### PSG-phases vs ACT-phases
+
+
+Deep sleep ACT-phases detected by our app roughly correspond to N3 and partly N2 PSG-phases.
+Light sleep corresponds to REM, N1, and partly N2.
+
+[cols="1,3"]
+|===
+|PSG-phase |Corresponding movement activity (ACT-phase)
+
+|N3
+|**Deep sleep**
+The least amount of physical activity.
+
+|N2
+|**Deep sleep or light sleep**
+The sleeper spends about half of the night in this phase. Movement intensity is somewhere in between the other phases. Sometimes the physical activity is low, especially when N2 precedes a deep sleep phase, sometimes the activity is higher, before or after N1 or REM phases.
+
+|N1 and REM
+|**Light sleep, REM**
+The body is moving the most. The activity in REM might look surprising at first glance. It is known that large muscles are paralyzed during REM, as vivid dreams typically occur at this stage, and the body must be prevented from acting them out, jumping over the bed, riding a spaceship, fighting space villains. The paralysis is not perfect though, and limbs or trunk often randomly jerk and twitch.
+|===
+
+However, the amount of movements varies greatly, based on age, gender, individual specifics, health, mental state, etc. There is no exact correspondence between such and such movement frequency and a specific sleep phase. The only overall reliable principle is that relatively low activity intervals are mostly N3 or N2, and relatively high activity intervals are likely to be REM, N1, or N2. Any attempt to pinpoint the exact beginning of a sleep phase is subject to a high degree of error and guesswork.
+
+Nonetheless, this is still a useful approach, providing valuable insights with home-made sleep recordings. Large data can be collected cheaply for population-wise studies. Individual sleep enthusiasts may discover their own sleep patterns and possibly devise their own personalized sleep phenomenology.
+
+
+
+## Further reading
+1. [Urbandroid Team: How we measure your dreams](https://sleep.urbandroid.org/how-do-we-measure-your-dreams/)
+1. [Urbandroid Team: How does Sleep as Android compare to the sleep lab](https://sleep.urbandroid.org/sleep-lab-comparison/)
+<!-- == Why track your sleep -->

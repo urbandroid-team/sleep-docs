@@ -1,0 +1,311 @@
+---
+
+---
+
+html, body, .main-content-wrap, .side-bar, .page-header, .site-title, .search-input-wrap, .site-footer {
+  background-color: var(--body-background-color);
+}
+
+.side-bar {
+  position: sticky;
+  top: 0;
+}
+
+a {color: var(--main-color);}
+
+h1 { color: var(--main-color); }
+h2 { margin-top: 2.4em; }
+h3 { margin-top: 2.2em; }
+h4 { margin-top: 2.0em; }
+h5 { margin-top: 1.8em; }
+h6 { margin-top: 1.6em; }
+
+// typography override
+@media (min-width: 31.25rem) {
+  h5, .text-epsilon {
+    font-size: 12px !important;
+  }
+}
+p {
+  font-size: 112px;
+}
+.page-content a {
+  white-space: normal;
+}
+// typography override end
+
+// EMPHASIZES
+em {
+  color: var(--body-text-color-cursive);
+}
+b, strong {
+  font-weight: bold;
+//   color: var(--body-text-color-bold);
+  //filter: brightness(1.5);
+}
+
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+
+.float-right { float: right; }
+.float-left { float: left; }
+.left { float: left }
+.right { float: right }
+.clear { clear: both}
+.clearfix { clear: both}
+
+.image-right {
+  float: right;
+  margin: 0 1em 1em 1em;
+}
+
+.imageblock {
+  text-align: center;
+  max-width: 20em;
+  margin: 0 auto;
+}
+
+.imageblock img {
+  margin-right: 1em;
+}
+.imgflexblock > .content {
+  display: flex;
+  flex-wrap: wrap;
+  img {
+    margin: 0;
+    padding-right: 0.5em;
+    max-width: 20em;
+  }
+  .imageblock {
+    flex-basis: 33%;
+
+  }
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+// TABLES
+table {
+  display: block;
+  overflow-x: auto;
+  box-shadow: none;
+}
+tbody {
+  vertical-align: top;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 12px 112px rgba(0, 0, 0, 0.05);
+  border-color: blue;
+}
+td p:last-child {
+  margin-bottom: 0;
+}
+thead tr:first-of-type th:last-of-type,
+thead tr:first-of-type td:last-of-type,
+tbody:first-child tr:first-of-type th:last-of-type,
+tbody:first-child tr:first-of-type td:last-of-type {
+  //border-top-right-radius: 12px;
+  width: 100%;
+}
+
+
+// LISTSinput
+li p:last-child {
+  margin-bottom: 0;
+}
+
+.navigation-list-item {
+    font-size: large !important;
+}
+
+// MOBILE NAV BUTTON
+.navigation-list-toggle {
+  padding: 0;
+  margin-left: 0.2em;
+  margin-top: 0.25em;
+  line-height: normal;
+  left: 1rem;
+  font-size: 2em;
+  color: var(----body-text-color);
+}
+
+// NAVIGATION CATEGORIES
+
+@function computeCategories($list) {
+  $result: ();
+
+  $result: append($result, nth($list, 1));
+
+  @for $i from 2 through length($list) {
+    $result: append($result, nth($list, $i) + nth($result, ($i) - 1));
+  }
+
+  @return $result;
+}
+
+// How many list items are in each category
+$gaps: 1,2,1,2,1,7;
+
+@each $cat in computeCategories($gaps) {
+  nav > .navigation-list > .navigation-list:nth-child(#{$cat}) {
+    margin-bottom: 1em;
+  }
+}
+
+// SEARCH
+.search {
+  background-color: initial;
+  display: block;
+}
+.js-search-input.search-input {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 2em;
+  padding-right: 0.8em;
+  border-radius: 24px;
+  font-weight: 900;
+  color: var(--body-text-color);
+  background-color: var(--table-background-color);
+
+  &::placeholder {
+    color: var(--body-text-color);
+    font-weight: initial;
+    opacity: 0.5;
+  }
+}
+.search-tags {
+  padding-left: 1rem;
+  font-size: 0.8em;
+  margin-top: -0.5em;
+  opacity: 50%;
+}
+.search-results-link:hover,
+.search-results-link:active,
+.search-results-link:focus
+{
+  //color: #f5f6fa;
+  //background-color: #222126;
+  color: var(--body-background-color);
+  background-color: var(--body-text-color);
+}
+
+
+// SEARCH TABS
+/**
+ * Tabs complementary to generateTabAndReturnContentNode() in just-the-docs.js
+ */
+.tabs {
+	display: flex;
+  flex-wrap: wrap; // make sure it wraps
+  flex-direction: row;
+  // justify-content: space-around;
+}
+.tabs label {
+	order: 1; // Put the labels first
+	display: block;
+	padding: 1.5rem 4rem;
+	// margin-right: 0.2rem;
+	cursor: pointer;
+  // background: #90CAF9;
+  font-weight: bold;
+  transition: background ease 0.2s;
+  flex-grow: 1;
+}
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+	// width: 100%;
+	display: none;
+  padding: 1.5rem;
+  background: var(--table-background-color);
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"] + label {
+  background: var(--body-background-color);
+}
+.tabs input[type="radio"]:checked + label {
+  background: var(--table-background-color);
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+.search-results-wrap.active {
+  background-color: var(--body-heading-color);
+}
+.result-count-badge {
+  vertical-align: super;
+  background-color: var(--main-color);
+  display: inline-block;
+  width: 1.7em;
+  line-height: 1.7em;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 0.6em;
+  margin-left: 0.3em;
+}
+
+@media (max-width: 25em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+// SVG images
+.icon > img {
+  //background-color: #A0A0A050;
+  background-color: #505050;
+  border-radius: 50%;
+  padding: 0.2em;
+  font-size: 2em;
+}
+
+.admonitionblock .icon > img {
+  //background-color: #A0A0A050;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 2em;
+}
+
+// Admonition tables
+.admonitionblock {
+  td.content {
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+table .admonitionblock, .hdlist .admonitionblock {
+  td {
+    background-color: var(--body-background-color);
+  }
+}
+
+ol.breadcrumb-nav-list { margin-left: 0 }
+
+// Colors
+.color-orange { color: orange; font-weight: bold; }
+.color-blue { color: royalblue; font-weight: bold; }
+.color-green { color: forestgreen; font-weight: bold; }
+.color-red { color: indianred; font-weight: bold; }
+
+// !!! Leave at the end !!!!
+@import 'accordion';
+@import 'asciidoc';
+
+@import './adoc-foundation-urbandroid.scss';
+//@import 'asciidoctor.css';
+//@import "adoc-foundation.css";
+
+@media (prefers-color-scheme: dark) {
+  @import './color_schemes/dark';
+}

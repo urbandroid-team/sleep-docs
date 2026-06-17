@@ -1,0 +1,75 @@
+---
+
+layout: default
+title: Tasker walkthroughs
+nav_order: 1
+parent: /services/0parent.html
+---
+
+
+## Create an “Add alarm” widget with Tasker
+Sleep as Android does not offer a widget to add an alarm directly.
+
+How to create one in Tasker?
+1. Fire up Tasker, go to Tasks tab and add a new task (+) named Add alarm
+1. Tap + to add an action, select System > Send Intent
+.. In action, insert com.urbandroid.sleep.alarmclock.SetAlarm
+.. As package, set com.urbandroid.sleep
+.. As target, select Activity
+.. Go back to confirm
+1. Add an icon in the lower right corner
+1. Long press on your desktop and add a Shortcut > Task shortcut and select Add alarm (your new task)
+1. Don’t forget to enable Tasker!
+
+## Integrate Sleep with hueManic
+You can use any of the Sleep as Android’s events in Tasker to start a service com.urbandroid.hue/.ProgramService with following extras:
+
+.to start a program
+- EXTRA_START
+- EXTRA_PROGRAM
+
+.to stop a program
+- EXTRA_STOP
+
+EXTRA_PROGRAM needs to have one of the values:
+
+- DISCO, FIREPLACE, STORM, FIREWORKS, SEA, JUNGLE, TIBET, AURORA, SUNSET, RAINBOW
+
+Example: [See video tutorial here](https://sleep.urbandroid.org/help/huemanic.mp4).
+
+
+### The actual walkthrough
+
+**Tasker > Task > Add task > Choose a name > Plus button > System > Send intent**
+
+- Package: com.urbandroid.hue
+- Class: com.urbandroid.hue.ProgramService
+- Extra: EXTRA_START:start
+- Extra: EXTRA_PROGRAM:DISCO
+- Target: Service
+
+then
+
+**Tasker > Profile > Plus button > Event > Plugin > Sleep > Configuration > Alarm started > Back > Back > Choose your task**
+
+Now make sure Tasker is enabled, hueManic installed and the Disco program will start on your alarm.
+
+Adapt the specific conditions to your needs.
+
+## MiBand : Get notification when alarm starts
+How to have your Mi Band notify you with LED / Vibrations when your alarm ( Sleep as Android ) goes off.. ( Using Mi Band Tools )
+1. **Tasker -> Profile -> Plus button -> Event -> Plugin -> Sleep -> Configuration -> Alarm Started**
+1. Create a task for this event. Notify -> Select any title like ‘AlarmStarted’ which will send a notification in your status bar when alarm is triggered.
+1. Open Mi Band tools and set an alert for Tasker application and filter with the title used earlier, ‘AlarmStarted’ .
+
+_Many thanks to Pratik Jain!_
+
+## Start sleep tracking at a fixed time automatically every day
+Sleep as Android does not have automatic sleep tracking start, but you can easily implement that yourself using Tasker!
+1. Start Tasker
+1. Create a new profile using the **plus button on Profiles tab > Time > Set From and To time to the same time (e.g. 10PM)**
+1. Hit back
+1. Select New task and give it a name
+1. Add an action using the plus button > Plugin > Sleep > tap on the pencil button > select Start sleep tracking.
+1. Hit back three times.
+1. Make sure to activate Tasker (long press in the upper left corner > Enable)

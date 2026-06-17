@@ -1,0 +1,77 @@
+---
+
+layout: default
+title: Widgets
+nav_order: 7
+parent: /ux/0parent.html
+---
+
+
+.You can choose different widgets for your phone's screen, each with different function.
+
+
+---
+
+
+## Widgets
+
+<a id="figure-widgets"></a>
+
+Long press on an empty space on your phone screen -> Widgets -> scroll down until you see Sleep.
+Long press the Sleep as Android icon -> tap icon:widget[] icon -> choose the widget from the list.
+
+![](widgets.png)
+
+
+### Tracking widget
+
+Starts a tracking and reminds you when to go to bed with colors.Two hours before the bedtime, shows the countdown. When you reach bedtime, the widget turns red as a warning that you should go to sleep ASAP.
+Tapping on tracking widgets initiates sleep tracking.
+
+
+### Alarm widget
+
+Shows the time of the next alarm, and the day it is scheduled. When the alarm is scheduled for the next 24 hours, you will see an alarm icon, if the alarm is scheduled for further future, you see the day of the week. Also, the point line shows the days of the week, with the next alarm day highlighted.
+Clicking on it brings you to the Sleep application, if there is no alarm scheduled, it will open the time picker for creating a new alarm.
+
+
+### Bedtime widget
+
+This widget shows the next alarm time+day, the time left till the bedtine when the bedtime is close, or time left till the alarm (after bedtime). The little droid changes appearance depending on time, date, day of the week and other factors. Find out all the droid faces!
+Tapping on it brings you to the Sleep application.
+
+
+### Hypnogram widget
+
+Shows your last hypnogram's preview, and sleep duration, opens the last graph.
+
+
+## Shortcut widgets
+
+
+When long pressing the Sleep icon, you can create new widgets from your shortcuts on shortcut card on [Dashboard](/ux/hs_dashboard).
+<a id="figure-widgets_shortcuts"></a>
+
+![](shortcuts_w_2.png)
+
+
+### Add alarm
+
+Creates a widget for quick access to the dialogue for creating a new alarm.
+
+
+### Nap X min
+
+Creates a nap from your last used nap.
+
+
+### Sleep duration goal
+
+Creates a widget to start tracking to reach your Daily sleep duration goal set in _Settings_ (accounts for sleep tracking delay and smart period, to ensure you really reach the needed sleep income).
+
+
+### Sleep tracking
+
+Starts tracking.
+<!-- == Troubleshooting -->
+<!-- To be used for automatic rendering of related FAQs -->

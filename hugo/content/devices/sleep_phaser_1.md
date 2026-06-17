@@ -1,0 +1,82 @@
+---
+
+layout: default
+title: Sleep Phaser v1
+nav_order: 1
+parent: /devices/sleep_phaser.html
+tags:
+- phaser_v1
+---
+
+
+**Sleep Phaser is the ultimate sleep tracking device which allows you to use the potential of Sleep as Android to the max.**
+
+Below is the user guide for Sleep Phaser v1.
+
+---
+
+
+
+## Sleep Phaser description
+
+There are two touch buttons on the Sleep Phaser.
+- **Upper button**: Toggles the main light.
+It has three states: Full white, middle orange and dim red.
+- **Lower button**: Toggles the base light. This is a very dim light useful for finding your Phaser in an otherwise totally dark room (as is recommended for good sleep hygiene).
+
+
+## First start
+
+1. Connect your Sleep Phaser to the power supply.
+2. Make sure that Bluetooth and Location service (GPS) are turned on.
+3. In Sleep as Android, go to Settings > Services -> Smartlight > Sleep Phaser and tap Sleep Phaser disconnected (you can also just search for “sleep phaser”). The app will connect to the nearest Sleep Phaser. This will also unlock your Sleep as Android, if you have the trial version.
+4. After a successful connection, you can activate one or more Sleep Phaser functions
+- **Smartlight**: Enables sunrise alarm. When this option is enabled, the general smartlight options (Pee-light, Lucid dreaming, Anti-Snoring start to apply to Sleep Phaser)
+- **Sleep tracking**: Enables tracking movement and breathing with Sleep Phaser.
+- **Start automatically**: When enabled, sleep tracking will start in a standby mode (on infinite pause) whenever you connect your phone to a charger and Sleep Phaser is in bluetooth range.
+
+
+## Sleep tracking
+
+Tracking with Sleep Phaser can be started either manually or automatically.
+- **Starting manually**: In Sleep as Android, tap on the moon button. The app will connect to Sleep Phaser and start sleep tracking right away.
+- **Starting automatically**: Whenever you connect your phone to a charger, Sleep checks whether you are in Sleep Phaser’s bluetooth range. If you are (and “Start automatically” is enabled), sleep tracking will show up in a pause mode.
+> **Note:** Once you switch off the lamp, sleep tracking will unpause and will start monitoring your sleep.
+
+
+### Positioning the device
+
+The Phaser scans a 130 degrees wide area.
+
+In case there are more people in the bed, to prevent interference, we recommend positioning the Phaser as seen below. In this way, you get maximum signal from yourself, while the signal from your partner is mostly blocked.
+
+Make sure that the Phaser is open the whole night, so that the arm of the lamp doesn’t block the sensor.
+
+![](sleepphaser_position.png)
+
+
+### Tracking with two Sleep Phasers (pair tracking)
+
+To track two people in one bed with two Phasers (Dual Phasers), make sure to enable Settings > Sleep tracking > Pair tracking on both phones and also tap Find partner simultaneously on both phones.
+
+Position the Phasers as indicated in the image below.
+
+![](sleepphaser_position_pair.png)
+
+Pair tracking cross-checks signals from both Phasers against each other and cleans them out so any signal from your partner is removed from your data.
+For more details, see [Pair tracking](/sleep/pair_tracking).
+
+
+### Controlling the light directly
+
+You can control the light from the [Sleep Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol).
+This app can also alter a few internal settings of the Phaser and do firmware upgrades.
+
+
+## Troubleshooting
+
+Things to check before any troubleshooting:
+
+* make sure to install the latest version of Sleep as > Android (either from Play Store or from here)
+* make sure that you have Location (GPS) enabled – for some reason, Android needs this enabled to do a successful Bluetooth Low Energy scan
+* make sure that you power the Sleep Phaser with at least 1A charger

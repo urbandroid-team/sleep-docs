@@ -1,0 +1,33 @@
+---
+
+layout: default
+title: CSV file documentation
+nav_order: 2
+parent: /devs/0parent.html
+---
+
+
+The sleep-export.csv file is a backup file that contains data from sleep records. Each record is saved onto two lines (manually inserted sleep records), or three lines (sleep records recorded by sleep tracking).
+> **Note:** If you want the data in JSON format, you can use our link:[online converter tool](https://sleep.urbandroid.org/tools/csvtojson/).
+
+* First line contains headers:
+- **Id**: Unique record identificator (timestamp of the record beginning)
+- **Tz**: Timezone
+- **From**: Record beginning datetime
+- **To**: Record end datetime
+- **Sched**: Next scheduled sleep tracking terminating alarm
+- **Hours**: Duration of the sleep record
+- **Rating**: User rating (0.0 – 5.0 with 0.25 step)
+- **Comment**: User comments and tags
+- **Framerate**: unused
+- **Snore**: snoring value (-1: snoring detection was turned off, 0: snoring detection on, no snoring detected)
+- **Noise**: noise average value
+- **Cycles**: sleep cycles measured (-1: manually inserted sleep record)
+- **DeepSleep**: deep sleep aggregated value (-2.0 or -1.0: no hypnogram)
+- **LenAdjust**: adjusts record length in case of any awake period (fall asleep period, pause, awake detection)
+- **Geo**: Hashed value of the geo location
+- **(times)**: see below
+<!-- - -->
+
+* Second line contains values. Under the (times) headers, it contains accelerometric (actigraphic) data aggregated from the given periods.
+* Third line (if present) contains measured noise values throughout the night.

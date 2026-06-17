@@ -1,0 +1,140 @@
+---
+
+layout: default
+title: Notify for Mi Band and Amazfit and Xiaomi & Mi Fitness
+nav_order: 8
+parent: /devices/wearables.html
+tags:
+- miband
+- notify
+- wearable
+---
+
+
+
+Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.
+But thanks to the Notify app, you can use some devices with Sleep app.
+[Notify for Mi Band](https://play.google.com/store/apps/details?id=com.mc.miband1&hl=en), [Notify for Xiaomi & Mi Fitness](https://play.google.com/store/apps/details?id=com.mc.xiaomi1&hl=en) and [Notify for Amazfit & Zepp](https://play.google.com/store/apps/details?id=com.mc.amazfit1&hl=en) are developed by [OneZerobit](https://play.google.com/store/apps/developer?id=OneZeroBit&hl=en).
+
+You can visit Notify app page for [Sleep as Android integration here](http://forum.mibandnotify.com/discussion/20117/sleep-as-android-integration).
+
+
+## Supported Mi Bands <a id="supported_wearables"></a>
+
+
+
+### Notify for Mi Band
+
+
+- Mi Band 1, 1S and 1A
+- Mi Band HRX
+- Mi Band 2
+- Mi Band 3 and 3i
+- Mi Band 4
+- Mi Band 5
+- Mi Band 6
+- Mi Band 7
+
+
+### Notify for Xiaomi and Mi Fitness
+
+
+- Mi Band 7 PRO
+- Mi Band 8
+- Mi Band 8 PRO
+- Xiaomi Watch S1
+- Redmi Band 2
+- Redmi Watch 2+3
+
+
+## Supported Amazfits <a id="supported_wearables"></a>
+
+
+- Amazfit T-Rex
+- Amazfit GTS
+- Amazfit GTR, GTR Lite (47mm & 42mm)
+- Amazfit Verge Lite
+- Amazfit Bip, Bip Lite, Bip S, Bip 3
+- Amazfit Mi Dong Cor
+- Amazfit Arc
+- Amazfit Band 5
+
+
+## How to set up integration in Notify app
+
+
+[cols="^,^"]
+|===
+a|.Switch to the graph tab and tap on the cog icon.
+![](NF_vibr_1.png)
+
+a|.Enable Sleep as Android integration.
+![](NF_enabled.png)
+
+|===
+
+
+
+## How to set up integration in Sleep app
+1. Open _Settings -> Sleep tracking -> Wearables -> Use wearable_.
+1. Choose the correct option from the list.
+1. For HR data enable _Settings -> Sleep tracking -> Wearable -> Heart rate monitoring_.
+> **Note:** Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
+
+
+
+## HR monitoring
+1. Enable collecting HR data by the Sleep app in N&F icon:ic_action_graph[] -> _Sleep_ section icon:ic_cog[] -> _Sleep as Android -> Settings -> Heart monitor_
+1. Enable collecting dat in Sleep app in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
+
+[cols="^,^"]
+|===
+
+a|.Open _Settings_ for Sleep as Android integration.
+![](NF_vibr_2.png)
+
+a|.Notify&Fintess HR data enabled for Sleep
+![](nf_hr1.png)
+
+|===
+
+
+## Button snooze / dismiss
+
+
+
+[cols="^,^"]
+|===
+
+a|.Open _Settings_ for Sleep as Android integration.
+![](NF_vibr_2.png)
+
+a|.Choose the action of the button.
+![](NF_button.png)
+
+|===
+
+
+- **Dismiss** - enables dismissing alarm with the button (dismiss will be confirmed with a vibration)
+- **Snooze** - with two button press, you can snooze the alarm (will be confirmed with a vibration)
+- No action for the button - disable both previous options
+
+
+## Custom vibration pattern
+1. First, enable wearable vibrations in Sleep app in _Settings -> Sleep tracking -> Wearables -> Alarm_.
+1. Open Notify app and enable custom vibrations in Sleep as Android settings section.
+1. Open the vibration settings with the _Vibration_ button.
+1. Adjust the vibration pattern - you can change intensity and duration, and also vibration delay.
+1. Test the resulting vibration pattern with the Play button in the top right corner.
+> **Note:** You can also have a silent alarm with vibrations only, for details, see [the guide](/alarms/alarm_settings/guide))
+
+[cols="^,^"]
+|===
+
+a|.Open _Settings_ for Sleep as Android integration.
+![](NF_vibr_2.png)
+
+a|.Find _Custom vibration_.
+![](NF_vibr_3.png)
+
+|===

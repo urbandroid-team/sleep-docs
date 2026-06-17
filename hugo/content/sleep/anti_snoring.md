@@ -1,0 +1,57 @@
+---
+
+layout: default
+title: Anti-snoring
+nav_order: 2
+parent: /sleep/0parent.html
+tags:
+- sleep_noise_recording
+---
+
+
+**Helps you (or your partner) fight snoring.**
+
+When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking and will react and try to make you stop snoring.
+
+Apart from audible anti-snoring you can also set your [Smartlight](/devices/smart_light#miscellaneous) devices to react to your snoring by flashing.
+> **Warning:** Anti-snoring as well as [Lucid dreaming](/sleep/lucid_dreaming) may disturb you from sleeping.
+
+_Settings -> Sleep noise analysis -> Anti-snoring_
+
+---
+
+
+## Anti-snoring
+
+The options below are shown only if Anti-snoring is enabled.
+- **Sound**: Anti-snoring will play an audio clip on the phone
+- **Vibration**: Vibrates your phone/smartwatch in case of snoring
+- **Both**: will do both sound and vibration
+
+
+## Sound
+
+Set the ringtone for anti-snoring.
+**Default**: tongue clicking - a common sound people do to stop partners from snoring.
+
+
+## Volume
+
+Set volume for the audio clip.
+
+
+## Repeat
+
+Set repeating of the audio clip and vibration for higher efficiency.
+
+
+## Force headphones only
+
+Anti-snoring by default plays through headphones and the phone speaker simultaneously. This option enables you to e.g. not disturb your partner with anti-snoring if you use headphones.
+
+
+## Preview
+
+Check how your set anti-snoring cue behaves.
+> **Note:** We strongly recommend to _Preview_ your settings before using it at night to make sure it is not too prominent to fully wake you up.
+

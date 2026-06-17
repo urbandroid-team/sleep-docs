@@ -1,0 +1,38 @@
+---
+
+layout: default
+title: Wear OS devices
+nav_order: 4
+parent: /devices/wearables.html
+tags:
+- wearos
+- wearable
+---
+
+
+Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.
+
+All Wear OS devices can monitor sleep tracking movement and collect HR.
+
+Some wearables can also collect SpO2 data - for more details, please see the chapter on [oximeters and SpO data](/devices/oximeter). Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.
+If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.
+
+.Supported versions of OS
+
+* Android Wear 1.0
+* Wear OS 2.0
+* Wear OS 3.0 (with some limitations)
+> **Warning:** Wear OS 3.0 have some implemented limitations for independent apps:
+- not all wearables allow reading SpO2 or HRV data (Pixel Watch for example)
+- Bedtime mode will NOT allow vibrations for alarm
+
+
+## How to set up
+1. Make sure the watch is connected to the phone.
+1. Go to app list on your watch, select Play Store.
+1. Find **Sleep as Android** and select _Install_.
+1. After the companion app is installed, you can enable the connection in _Settings -> Sleep tracking -> Wearables -> Use wearable -> Wear OS_ / _Wear OS 3.0+_.
+1. Test the connection in Settings -> Sleep tracking -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
+1. For HR data, enable **Heart rate monitoring** in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
+> **Warning:** make sure all the components are excluded from battery optimizations (Sleep, Wear app, Bluetooth). Read details at https://dontkillmyapp.com/.
+MobVoi also has **Essential mode** optimization on some Ticwatch models, that will disrupt the data flow.

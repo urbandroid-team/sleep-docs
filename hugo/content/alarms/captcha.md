@@ -1,0 +1,225 @@
+---
+
+layout: default
+title: CAPTCHA
+nav_order: 2
+parent: /alarms/0parent.html
+tags:
+- captcha
+---
+
+
+**Gives you a task to solve in order to turn off the alarm.**
+
+CAPTCHAs make sure you wake up on time and don't be late for your daily duties. CAPTCHAs prevent any unintentional alarm dismiss.
+
+- _Settings -> Alarms -> CAPTCHA_
+- _[Alarm-specific settings](/alarms/alarm_settings#per-alarm) -> CAPTCHA_
+
+---
+
+
+## Default CAPTCHA
+
+CAPTCHA for all alarms.
+> **Note:** You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.
+
+
+
+## CAPTCHA No cheating <a id="cheat"></a>
+
+Prevents CAPTCHA avoidance or  alarm avoidance.
+
+
+### Power off protection
+
+Power off protections hides power-off dialogue so that you cannot restart or turn off the device.
+> **Warning:** Power off protection and Force stop and uninstall protection will overlay the screen to prevent you from cheating the tasks. You cannot use 3rd party scanners (for QR Captcha) or NFC tag CAPTCHA with these options.
+
+
+### Force stop and uninstall protection
+
+This advanced option gives the application Admin privileges to prevent the application from being uninstalled.
+Admin privileges also prevent the system from deleting the application's data.
+> **Note:** To uninstall the app or to clear the app's data, you need to revoke this option!
+
+
+### Wakeup motivation
+
+This option allows you to place a small bet that you will not cheat the CAPTCHA. This will increase your motivation to wake up!
+The bet can be refunded at any time directly from the app using the REFUND button.
+If you cheat the CAPTCHA, the bet is lost.
+
+
+## CAPTCHA Difficulty
+
+Sets the difficulty of the CAPTCHA. How the difficulty is used varies from CAPTCHA to CAPTCHA.
+
+[EXAMPLE]
+Math CAPTCHA requires more equations with larger numbers at higher difficulty levels.
+Flag CAPTCHA asks for smaller countries with higher difficulty, and the number of required answers increases.
+> **Note:** Difficulty for QR and NFC CAPTCHA controls the difficulty of the fallback task (Sleeping Sheep).
+
+
+## Preview
+
+See the selected CAPTCHA in action.
+> **Warning:** We strongly recommend that you test each CAPTCHA with the _Preview_ function and use the _Settings_ function before using it in the morning - this could lead to unwanted surprises.
+
+
+## Settings
+
+Some CAPTCHAs have additional settings:
+
+* Editing, adding, and deleting QR codes and NFC tags
+* Selecting tasks for Multi CAPTCHA task
+* Select your mantra for Mirror Text CAPTCHA
+
+
+## Alarm volume in CAPTCHA
+
+Mutes or lowers the alarm volume while solving a CAPTCHA.
+> **Note:** While solving the CAPTCHA, the alarm volume is lowered for 1 minute so that you don't wake your partner with the alarm. You can use the 1 minute to either solve the CAPTCHA or go to another room to solve it.
+To get more time, tap the _+_ icon in the top right corner.
+
+
+## CAPTCHA ADD-on <a id="captcha_addon"></a>
+
+Download a free extension with more CAPTCHA tasks from [Play Store](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack). It has 10 new tasks, including Multi and Random CAPTCHA - they allow you to combine more tasks in one alarm.
+
+
+
+## Guides for CAPTCHA tasks
+
+
+
+### Simple math
+
+Choose the correct answer to a math problem from a list of 4 answers.
+
+
+### Typed math
+
+Type the correct answer to a math problem without a hint.
+
+
+### Sleeping sheep <a id="sheep"></a>
+
+Find an awake sheep hidden in a flock of sleeping sheep.
+
+
+### QR code and NFC tag CAPTCHA
+
+<a id="QR_NFC"></a>
+The QR and NFC CAPTCHAs are the ultimate wake-up solution. You can place a QR code or NFC tag in your bathroom or kitchen. The alarm won't stop until you get out of bed and scan the code/tag.
+> **Warning:** The Power Off and Force Stop and Uninstall protection cannot be used with an NFC tag CAPTCHA or a QR CAPTCHA that uses an external QR scanning application.
+- **QR CAPTCHA**: You can use any barcode or QR code (there are many free online QR code generators).
+- **NFC CAPTCHA**: You can use any credit card, some membership cards or ID cards.
+> **Note:** For security reasons, NFC CAPTCHA always requires unlocking the screen first.
+
+
+#### Only at home
+
+Allows you to skip CAPTCHA if you are far away from your home, and you forgot the code / tag at home.
+> **Note:** Your location must be significantly different from your home (at least 2.5 km), as the app does not collect fine location information
+
+
+#### Must scan all codes
+
+If enabled, you must scan all saved codes.
+
+
+#### How to learn new QR code / NFC tag
+1. Go to _Settings -> Alarms -> CAPTCHA -> Settings_.
+1. Tap on the **Learn** button.
+
+
+#### How to delete a QR code / NFC tag
+1. Go to _Settings -> Alarms -> CAPTCHA -> Settings_.
+1. Tap on the icon:ic_action_discard[] trash can.
+
+
+#### How to solve the task without the code / tag
+
+If you happen to lose the code, or you cannot solve the NFC and QR CAPTCHA for some reason, there is a fallback task - [Sleeping sheep](#sheep).
+The difficulty of this task depends on the difficulty configured for the NFC or QR CAPTCHA in _Settings -> Alarms -> Capcha -> Difficulty_.
+> **Note:** If you are tempted to avoid solving this task by choosing the Sleeping Sheep task instead, increase the difficulty to the highest level.
+If this is still not enough motivation, you can disable this fallback solution in _Settings -> Alarms -> CAPTCHA -> Settings -> Lost code, fallback task_. Use with caution!
+
+
+### Shake it
+
+Shake your phone until the amount of motion displayed on your phone reaches 100%.
+
+
+### Dream diary
+
+Write down your dream (minimum 10 characters for difficulty 1). You can see how many characters you have left before reaching the minimum in the top right corner.
+> **Note:** Dream diary entries are saved in your sleep record comments. If there is no sleep record, they will only be saved to your clipboard - so you can paste them elsewhere.
+
+
+### Say cheese!
+
+Smile at the front camera, with more difficulty you need to cast a more charming smile!
+
+
+### Laugh Out Loud
+
+Laugh into your phone's microphone until the level reaches 100%.
+
+
+
+### Captcha CAPTCHA (CAPTCHA add-on)
+
+Classic CAPTCHA from the early days of the Internet - type in the letters of a distorted picture.
+
+
+### Random CAPTCHA (CAPTCHA add-on)
+
+Solve more tasks every morning, the app will choose 5 of them for you from all the tasks, or you can pre-select the options for the app in _Settings_ of this CAPTCHA, and the app will choose 5 of them.
+
+
+### Multi Captcha (CAPTCHA add-on)
+
+Solve up to 15 selected tasks in a row. You can select the tasks in  in _Settings_ of this CAPTCHA; the order is given by the order you select these tasks.
+
+
+### Mirror text (CAPTCHA add-on)
+
+Read and type a text from a mirror-flipped quote - predefined or your own (configured in _Settings -> Alarms -> CAPTCHA -> Settings_).
+You can choose to Mirror the text, allow online database (with about 75k quotes), configure your own quotes for morning mantras, or as reminders
+
+
+### Jumping sheep (CAPTCHA add-on)
+
+Guide the lost sheep through the fences and wolves to safety - tap to jump over obstacles.
+
+
+### Swearing (CAPTCHA add-on)
+
+Swear your way to dismiss (English only).
+
+
+### Zombie Walk (CAPTCHA add-on)
+
+Walk 14-74 meters with the phone (depending on difficulty).
+> **Note:** If your counter does not increase the step count as you walk, the step counter from the system does not send updates.
+
+
+### Let there be light (CAPTCHA add-on)
+
+Hold your phone up to a light source and hold it until the threshold is reached.
+
+
+### Fun with Flags (CAPTCHA add-on)
+
+Select the correct flag from three options.
+
+
+### Spin around (CAPTCHA add-on)
+
+While holding your thumbs on the on-screen buttons, rotate until you fill in the entire circle.
+> **Note:** If the circle does not seem to respond properly, the system compass may not be calibrated.
+
+
+

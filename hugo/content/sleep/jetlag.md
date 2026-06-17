@@ -1,0 +1,25 @@
+---
+
+layout: default
+title: Jet lag prevention
+nav_order: 2
+parent: /sleep/0parent.html
+---
+
+
+**Prevents jet lag with short flashes of light during the night.**
+
+A link:[2016 study from Stanford University School of Medicine](https://med.stanford.edu/news/all-news/2016/02/study-finds-possible-new-jet-lag-treatment) found that short flashes of light during sleep can shift your melatonine cycle. This can be used to prevent jet lag.
+
+_Settings -> Sleep tracking -> Jet lag prevention_
+
+
+
+## Guide
+
+Before traveling abroad, enable **Jet lag prevention** and set **Target timezone**.
+> **Note:** Each hour of timezone difference requires a day of adjustment. If you travel e.g. 4 timezones away, start 4 days before the departure.
+
+Every night, during sleep tracking, the app will be intermittently flashing. We use 2ms flashes every 15 seconds.
+
+The source of flashes will be the phone's LED or a smartlight if you have it set up (see [Smartlight](/devices/smart_light) to find out how to do that).

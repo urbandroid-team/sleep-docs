@@ -1,0 +1,7 @@
+{{- $src := .Destination -}}
+{{- if not (urls.Parse $src).Scheme -}}
+  {{- if not (strings.Contains $src "/") -}}
+    {{- $src = printf "/assets/images/%s" $src -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />
