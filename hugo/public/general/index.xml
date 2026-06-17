@@ -1,60 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Generals on Sleep as Android Docs</title>
-    <link>//localhost:1313/general/</link>
-    <description>Recent content in Generals on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/general/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Get started with Sleep as Android app</title>
-      <link>//localhost:1313/general/start/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/start/</guid>
-      <description>&lt;h2 id=&#34;why-do-i-need-a-sleep-tracking-app&#34;&gt;Why do I need a sleep tracking app?&lt;a class=&#34;anchor&#34; href=&#34;#why-do-i-need-a-sleep-tracking-app&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Sleep is essential for maintaining optimal health, both physical and mental.&#xA;Consistent sleep monitoring can help you understand the influence of various factors and your lifestyle on your sleep quality, habits and thus your overall health and longevity.&#xA;Important part of this experience is our smart wake up which makes your morning more pleasant. The app triggers the alarm during light sleep when it feels natural - just like waking up without an alarm at all.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Permissions</title>
-      <link>//localhost:1313/general/permissions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/permissions/</guid>
-      <description>&lt;p&gt;Sleep as Android has a lot of functionality, some of which can be only enabled with permissions granted by user. See below on usage details for each permission.&lt;/p&gt;&#xA;&lt;p&gt;[Attributes]&#xA;|===&#xA;|Permission |Google&amp;rsquo;s description |Used by feature | Notes&lt;/p&gt;&#xA;&lt;p&gt;|Contacts / Accounts&#xA;|&#xA;|We have removed this permission since it is not needed anymore by Sleep as Android.&#xA;|&lt;/p&gt;&#xA;&lt;p&gt;|Location &lt;a id=&#34;location&#34;&gt;&lt;/a&gt;&#xA;|Approximate location (network-based), precise location (GPS and network-based)&#xA;a|- &lt;a href=&#34;//localhost:1313/devices/smart_light#guide&#34;&gt;Sunrise wakeup&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/sleep/tags#geo&#34;&gt;Location tagging&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Morning weather&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/sleep/pair_tracking&#34;&gt;Pair tracking&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bluetooth-connected devices, such as &lt;a href=&#34;//localhost:1313/devices/wearables&#34;&gt;wearables&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>//localhost:1313/general/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/privacy/</guid>
-      <description>&lt;p&gt;See &lt;a href=&#34;https://team.urbandroid.org/privacy/&#34;&gt;https://team.urbandroid.org/privacy/&lt;/a&gt; for up-to-date version of Urbandroid&amp;rsquo;s privacy policy that also concerns Sleep as Android.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Allows you to change various privacy options in the app.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Privacy&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy policy&lt;a class=&#34;anchor&#34; href=&#34;#privacy-policy&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://team.urbandroid.org/privacy-policy/&#34;&gt;A link&lt;/a&gt; to our Privacy Policy and Data consent policy for all our apps.&lt;/p&gt;&#xA;&lt;h2 id=&#34;terms-of-use&#34;&gt;Terms of use&lt;a class=&#34;anchor&#34; href=&#34;#terms-of-use&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Detailed terms of use of the Sleep as Android app.&lt;/p&gt;&#xA;&lt;h2 id=&#34;analytics&#34;&gt;Analytics&lt;a class=&#34;anchor&#34; href=&#34;#analytics&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Allows you to opt-out from anonymous data usage stats.&#xA;The anonymous data are for example - how many users have certain app&amp;rsquo;s version, how many users have certain type of Android, how many users have sonar selected as the sensor&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Purchasing the app</title>
-      <link>//localhost:1313/general/plan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/plan/</guid>
-      <description>&lt;p&gt;We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free and premium versions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;free-sleep-as-android&#34;&gt;FREE Sleep as Android&lt;a class=&#34;anchor&#34; href=&#34;#free-sleep-as-android&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;With free version of Sleep as Android, you get 14 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.&#xA;In addition, the free app shows advertisements.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Release notes</title>
-      <link>//localhost:1313/general/release_notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/release_notes/</guid>
-      <description>&lt;p&gt;You can download any older version from &lt;a href=&#34;https://sleep.urbandroid.org/more/download/&#34;&gt;our web here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;latest-version-20240701&#34;&gt;Latest version 20240701&lt;a class=&#34;anchor&#34; href=&#34;#latest-version-20240701&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Material V3 Sliders&lt;/li&gt;&#xA;&lt;li&gt;Detailed explanation of FREE vs. Premium plan&lt;/li&gt;&#xA;&lt;li&gt;Changes in on-boarding tutorial&lt;/li&gt;&#xA;&lt;li&gt;Latest Play review libraries&lt;/li&gt;&#xA;&lt;li&gt;Many New translations&lt;/li&gt;&#xA;&lt;li&gt;Updated library dependency&lt;/li&gt;&#xA;&lt;li&gt;Update in Spotify API&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;New lullabies&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bath&lt;/li&gt;&#xA;&lt;li&gt;Scenic noise&lt;/li&gt;&#xA;&lt;li&gt;Bubble wrap ASMR&lt;/li&gt;&#xA;&lt;li&gt;NOTE: you need to update Lullaby Add-on too&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix for lullaby pausing&lt;/li&gt;&#xA;&lt;li&gt;Fix for stopping lullaby from quick settings tile&lt;/li&gt;&#xA;&lt;li&gt;Fix for recoverable auth error in Google Calendar&lt;/li&gt;&#xA;&lt;li&gt;Fix for a rare crash in time picker&lt;/li&gt;&#xA;&lt;li&gt;Fix for repetitive smart alarms during a single sleep tracking&lt;/li&gt;&#xA;&lt;li&gt;Fix in MQTT making clientId not mandatory&lt;/li&gt;&#xA;&lt;li&gt;Fix for goals falsely marked as failed&lt;/li&gt;&#xA;&lt;li&gt;Fix in location selection screen when location permission is not granted&lt;/li&gt;&#xA;&lt;li&gt;Fix for score chart gap&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;20240424&#34;&gt;20240424&lt;a class=&#34;anchor&#34; href=&#34;#20240424&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Redesign of Widgets&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Terms of use</title>
-      <link>//localhost:1313/general/terms_of_service/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/terms_of_service/</guid>
-      <description>&lt;p&gt;Terms of Service (the “Terms”)&lt;/p&gt;&#xA;&lt;p&gt;In order to use the Sleep as Android and SleepCloud services (the “Service”), you (the “User”) must firstly agree to this Terms. You may not use the Service if you do not accept this Terms. You understand and agree that SleepCloud will treat your use of the Service as acceptance of the Terms from that point onwards.&lt;/p&gt;&#xA;&lt;p&gt;The provider provides this Service AS IS without any guarantees on its functionality, availability or correctness of the provided and stored data. Moreover you acknowledge and agree that SleepCloud is not liable for any loss or damage cause to you by the use of the Service including loss of user data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Translation</title>
-      <link>//localhost:1313/general/translation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/translation/</guid>
-      <description>&lt;p&gt;Sleep as Android is translated to many world languages, thanks to our volunteer translators. We could never do that without you!&lt;/p&gt;&#xA;&lt;h2 id=&#34;can-you-help-us-with-the-translations&#34;&gt;Can you help us with the translations?&lt;a class=&#34;anchor&#34; href=&#34;#can-you-help-us-with-the-translations&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;There are new features added all the time which need new strings, which in turn need to be translated. Can you give us a hand with it? Please ask for permission to access our translation spreadsheets:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1N3CrEP19aB66DBFzONIPooH5dWUW_mU4ENH_MeD1QFU/edit&#34;&gt;Sleep as Android Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Slw1_Z2tN_berThYKivW6KOCNbW1DY-TUWkwclRvnJU/edit&#34;&gt;SleepCloud Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1UCeO0d2_rfjKJLdkPygmEcmnHcLTw9VgdXNHuIpPkeY/edit&#34;&gt;BabySleep Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Jse7DqJr4eNTca6_7rSBchpaX3eU6SgLo9V3ltBio5Q/edit&#34;&gt;Twilight Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1jgE_VaECnMzUmg0apblRLVqg59abJhj30ylZUSF9zb8/edit&#34;&gt;Digital Detox Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We use link:&lt;a href=&#34;https://tts.urbandroid.org/index.html&#34;&gt;Translate the Sheet&lt;/a&gt; to simplify the translation for us and the volunteers.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Generals on Sleep as Android Docs</title><link>/general/</link><description>Recent content in Generals on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/general/index.xml" rel="self" type="application/rss+xml"/><item><title>Get started with Sleep as Android app</title><link>/general/start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/start/</guid><description>&lt;h2 id="why-do-i-need-a-sleep-tracking-app"&gt;Why do I need a sleep tracking app?&lt;a class="anchor" href="#why-do-i-need-a-sleep-tracking-app"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Sleep is essential for maintaining optimal health, both physical and mental.
+Consistent sleep monitoring can help you understand the influence of various factors and your lifestyle on your sleep quality, habits and thus your overall health and longevity.
+Important part of this experience is our smart wake up which makes your morning more pleasant. The app triggers the alarm during light sleep when it feels natural - just like waking up without an alarm at all.&lt;/p&gt;</description></item><item><title>Permissions</title><link>/general/permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/permissions/</guid><description>&lt;p&gt;Sleep as Android has a lot of functionality, some of which can be only enabled with permissions granted by user. See below on usage details for each permission.&lt;/p&gt;
+&lt;p&gt;[Attributes]
+|===
+|Permission |Google&amp;rsquo;s description |Used by feature | Notes&lt;/p&gt;
+&lt;p&gt;|Contacts / Accounts
+|
+|We have removed this permission since it is not needed anymore by Sleep as Android.
+|&lt;/p&gt;
+&lt;p&gt;|Location &lt;a id="location"&gt;&lt;/a&gt;
+|Approximate location (network-based), precise location (GPS and network-based)
+a|- &lt;a href="../devices/smart_light#guide"&gt;Sunrise wakeup&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="../sleep/tags#geo"&gt;Location tagging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Morning weather&lt;/li&gt;
+&lt;li&gt;&lt;a href="../sleep/pair_tracking"&gt;Pair tracking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bluetooth-connected devices, such as &lt;a href="../devices/wearables"&gt;wearables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.&lt;/p&gt;</description></item><item><title>Privacy</title><link>/general/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/privacy/</guid><description>&lt;p&gt;See &lt;a href="https://team.urbandroid.org/privacy/"&gt;https://team.urbandroid.org/privacy/&lt;/a&gt; for up-to-date version of Urbandroid&amp;rsquo;s privacy policy that also concerns Sleep as Android.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Allows you to change various privacy options in the app.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Privacy&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="privacy-policy"&gt;Privacy policy&lt;a class="anchor" href="#privacy-policy"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://team.urbandroid.org/privacy-policy/"&gt;A link&lt;/a&gt; to our Privacy Policy and Data consent policy for all our apps.&lt;/p&gt;
+&lt;h2 id="terms-of-use"&gt;Terms of use&lt;a class="anchor" href="#terms-of-use"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Detailed terms of use of the Sleep as Android app.&lt;/p&gt;
+&lt;h2 id="analytics"&gt;Analytics&lt;a class="anchor" href="#analytics"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Allows you to opt-out from anonymous data usage stats.
+The anonymous data are for example - how many users have certain app&amp;rsquo;s version, how many users have certain type of Android, how many users have sonar selected as the sensor&amp;hellip;&lt;/p&gt;</description></item><item><title>Purchasing the app</title><link>/general/plan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/plan/</guid><description>&lt;p&gt;We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free and premium versions.&lt;/p&gt;
+&lt;h2 id="free-sleep-as-android"&gt;FREE Sleep as Android&lt;a class="anchor" href="#free-sleep-as-android"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;With free version of Sleep as Android, you get 14 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.
+In addition, the free app shows advertisements.&lt;/p&gt;</description></item><item><title>Release notes</title><link>/general/release_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/release_notes/</guid><description>&lt;p&gt;You can download any older version from &lt;a href="https://sleep.urbandroid.org/more/download/"&gt;our web here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="latest-version-20240701"&gt;Latest version 20240701&lt;a class="anchor" href="#latest-version-20240701"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Material V3 Sliders&lt;/li&gt;
+&lt;li&gt;Detailed explanation of FREE vs. Premium plan&lt;/li&gt;
+&lt;li&gt;Changes in on-boarding tutorial&lt;/li&gt;
+&lt;li&gt;Latest Play review libraries&lt;/li&gt;
+&lt;li&gt;Many New translations&lt;/li&gt;
+&lt;li&gt;Updated library dependency&lt;/li&gt;
+&lt;li&gt;Update in Spotify API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;New lullabies&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bath&lt;/li&gt;
+&lt;li&gt;Scenic noise&lt;/li&gt;
+&lt;li&gt;Bubble wrap ASMR&lt;/li&gt;
+&lt;li&gt;NOTE: you need to update Lullaby Add-on too&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix for lullaby pausing&lt;/li&gt;
+&lt;li&gt;Fix for stopping lullaby from quick settings tile&lt;/li&gt;
+&lt;li&gt;Fix for recoverable auth error in Google Calendar&lt;/li&gt;
+&lt;li&gt;Fix for a rare crash in time picker&lt;/li&gt;
+&lt;li&gt;Fix for repetitive smart alarms during a single sleep tracking&lt;/li&gt;
+&lt;li&gt;Fix in MQTT making clientId not mandatory&lt;/li&gt;
+&lt;li&gt;Fix for goals falsely marked as failed&lt;/li&gt;
+&lt;li&gt;Fix in location selection screen when location permission is not granted&lt;/li&gt;
+&lt;li&gt;Fix for score chart gap&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="20240424"&gt;20240424&lt;a class="anchor" href="#20240424"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Redesign of Widgets&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Terms of use</title><link>/general/terms_of_service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/terms_of_service/</guid><description>&lt;p&gt;Terms of Service (the “Terms”)&lt;/p&gt;
+&lt;p&gt;In order to use the Sleep as Android and SleepCloud services (the “Service”), you (the “User”) must firstly agree to this Terms. You may not use the Service if you do not accept this Terms. You understand and agree that SleepCloud will treat your use of the Service as acceptance of the Terms from that point onwards.&lt;/p&gt;
+&lt;p&gt;The provider provides this Service AS IS without any guarantees on its functionality, availability or correctness of the provided and stored data. Moreover you acknowledge and agree that SleepCloud is not liable for any loss or damage cause to you by the use of the Service including loss of user data.&lt;/p&gt;</description></item><item><title>Translation</title><link>/general/translation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/translation/</guid><description>&lt;p&gt;Sleep as Android is translated to many world languages, thanks to our volunteer translators. We could never do that without you!&lt;/p&gt;
+&lt;h2 id="can-you-help-us-with-the-translations"&gt;Can you help us with the translations?&lt;a class="anchor" href="#can-you-help-us-with-the-translations"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are new features added all the time which need new strings, which in turn need to be translated. Can you give us a hand with it? Please ask for permission to access our translation spreadsheets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1N3CrEP19aB66DBFzONIPooH5dWUW_mU4ENH_MeD1QFU/edit"&gt;Sleep as Android Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1Slw1_Z2tN_berThYKivW6KOCNbW1DY-TUWkwclRvnJU/edit"&gt;SleepCloud Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1UCeO0d2_rfjKJLdkPygmEcmnHcLTw9VgdXNHuIpPkeY/edit"&gt;BabySleep Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1Jse7DqJr4eNTca6_7rSBchpaX3eU6SgLo9V3ltBio5Q/edit"&gt;Twilight Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1jgE_VaECnMzUmg0apblRLVqg59abJhj30ylZUSF9zb8/edit"&gt;Digital Detox Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We use link:&lt;a href="https://tts.urbandroid.org/index.html"&gt;Translate the Sheet&lt;/a&gt; to simplify the translation for us and the volunteers.&lt;/p&gt;</description></item></channel></rss>

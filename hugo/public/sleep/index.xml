@@ -1,214 +1,204 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sleep on Sleep as Android Docs</title>
-    <link>//localhost:1313/sleep/</link>
-    <description>Recent content in Sleep on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/sleep/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Achievements</title>
-      <link>//localhost:1313/sleep/achievements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/achievements/</guid>
-      <description>&lt;p&gt;Sleep Achievements are reward badges for your accomplishments and milestones, representing your progress. They give you something to strive for. You can collect them all, and share your accomplishments with your friends.&lt;/p&gt;&#xA;&lt;p&gt;To get started with Achievements, you can either tap on the Achievement card on the Dashboard, or open the section from the Left ≡ menu.&lt;/p&gt;&#xA;&lt;p&gt;Each Achievement requires you to complete certain goals (sleeping enough hours, getting to the bed earlier) to earn points. After you gather enough points, you will earn one of the badges (Bronze, Gold, Diamond).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Advice</title>
-      <link>//localhost:1313/sleep/advice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/advice/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Advice shows your current sleep development at a glance.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can see which dimensions of your sleep have improved or worsened recently, including tips on how to reverse the worsening trends.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Left ☰ menu -&amp;gt; Advice&lt;/em&gt;&#xA;&lt;em&gt;From the &lt;a href=&#34;//localhost:1313/ux/homescreen#advicecard&#34;&gt;Advice&lt;/a&gt; dashboard card&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;general-description&#34;&gt;General description&lt;a class=&#34;anchor&#34; href=&#34;#general-description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Advice watches recent trends in the main sleep dimensions (Duration, Regularity, Deep sleep %, Snoring, Social jet-lag&amp;hellip;).&lt;/p&gt;&#xA;&lt;p&gt;In most cases it compares your last 60 days aggregates to the last 7 days aggregates and look for significant recent worsening or improvements.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Anti-snoring</title>
-      <link>//localhost:1313/sleep/anti_snoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/anti_snoring/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Helps you (or your partner) fight snoring.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking and will react and try to make you stop snoring.&lt;/p&gt;&#xA;&lt;p&gt;Apart from audible anti-snoring you can also set your &lt;a href=&#34;//localhost:1313/devices/smart_light#miscellaneous&#34;&gt;Smartlight&lt;/a&gt; devices to react to your snoring by flashing.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Anti-snoring as well as &lt;a href=&#34;//localhost:1313/sleep/lucid_dreaming&#34;&gt;Lucid dreaming&lt;/a&gt; may disturb you from sleeping.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Anti-snoring&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;anti-snoring&#34;&gt;Anti-snoring&lt;a class=&#34;anchor&#34; href=&#34;#anti-snoring&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The options below are shown only if Anti-snoring is enabled.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Automatic sleep tracking</title>
-      <link>//localhost:1313/sleep/automatic_sleep_tracking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/automatic_sleep_tracking/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Tracks sleep automatically, without the need to manually start it.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;On smartphones, sleep tracking was traditionally a process initiated by a button tap, or by a hard timed trigger.&#xA;Sleep as Android is different.&#xA;The app offers smart ways to track your sleep automatically similarly to what wearables and smart bands do — using your phone’s activity recognition system.&lt;/p&gt;&#xA;&lt;p&gt;Sleep app also have a feature for tracking sleep times - &lt;strong&gt;Sleep time estimation&lt;/strong&gt;. If you forget to start sleep tracking, the app estimates the most probable times you were sleeping form phone activity recognition engine and Google Sleep aPI, and will ask you next day. You can read more about &lt;a href=&#34;//localhost:1313/sleep/sleep_time_estimation&#34;&gt;sleep time estimation here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Awake detection</title>
-      <link>//localhost:1313/sleep/awake_detection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/awake_detection/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Estimates your awake times during sleep tracking using various hints.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Awake detection&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/sleep/sleep_tracking_theory&#34;&gt;Actigraphy&lt;/a&gt; (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. So we use heuristics (hints) that give us a very good and solid view on your awake events.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Breath rate detection &amp; blood oxygen measurement</title>
-      <link>//localhost:1313/sleep/breath_rate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/breath_rate/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Makes use of sensors that can measure either your breath rate (&lt;a href=&#34;//localhost:1313/sleep/sensors#sonar&#34;&gt;sonar&lt;/a&gt;,  &lt;a href=&#34;//localhost:1313/devices/sleep_phaser_2&#34;&gt;Sleep phaser&lt;/a&gt;, and &lt;a href=&#34;https://sleep.urbandroid.org/polar-sleep-tracking/&#34;&gt;Polar H10&lt;/a&gt;), or your blood oxygenation (&lt;a href=&#34;//localhost:1313/devices/oximeter&#34;&gt;oximeter, some wearables&lt;/a&gt;).&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A &lt;strong&gt;turquoise line&lt;/strong&gt; on your sleep graph shows breath rate - see &lt;a href=&#34;#breath-line&#34;&gt;breath-line&lt;/a&gt;.&#xA;A &lt;strong&gt;blue line&lt;/strong&gt; on your graph depicts oxygen data - see &lt;a href=&#34;#spo2-graph&#34;&gt;spo2-graph&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Whenever a significant dip in value occurs, a O2 symbol &lt;img src=&#34;//localhost:1313/assets/icons/ic_action_cpap.svg&#34; alt=&#34;ic_action_cpap&#34;  /&gt;&#xA; will be shown in the graph. This is a &lt;em&gt;breathing disturbance&lt;/em&gt;. From those disturbances, we compute your &lt;a href=&#34;#RDI&#34;&gt;RDI&lt;/a&gt; value. Monitoring breathing disturbances is important for link:&lt;a href=&#34;https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/&#34;&gt;sleep apnea&lt;/a&gt; detection.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Charts / Trends</title>
-      <link>//localhost:1313/sleep/charts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/charts/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Charts enable you to study your sleep from a long-term perspective.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Charts are here to help you find patterns in your sleep and enable you to decide for evidence-based changes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Left ☰ menu -&amp;gt; Charts&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Date range&lt;/strong&gt;: Each chart is computed from data within a certain date range. This range is controlled by the first dropdown menu in the top bar.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tags&lt;/strong&gt;: All charts can be configured to be only computed from sleep records with a certain tag. You can select the tag in the second dropdown menu in the top bar.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;trend&#34;&gt;Trend&lt;a class=&#34;anchor&#34; href=&#34;#trend&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sleep-score&#34;&gt;Sleep score&lt;a class=&#34;anchor&#34; href=&#34;#sleep-score&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;[cols=&amp;ldquo;1,2&amp;rdquo;]&#xA;|===&#xA;a|&lt;img src=&#34;charts/trend/trend_sleepscore.png&#34; alt=&#34;&#34;  /&gt;&#xA;&#xA;a|&lt;strong&gt;Sleep score&lt;/strong&gt; radar chart is another way of looking at your &lt;a href=&#34;//localhost:1313/sleep/sleepscore&#34;&gt;sleep score&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Chronotype, Social jetlag, Sleep Regularity</title>
-      <link>//localhost:1313/sleep/chrono_jetlag/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/chrono_jetlag/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sleep as Android watches your sleep pattern trends and can tell you your chronotype, social-jet-lag and sleep Regularity.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;chronotype&#34;&gt;Chronotype&lt;a class=&#34;anchor&#34; href=&#34;#chronotype&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Chronotype&lt;/strong&gt; is a term used to characterise your natural sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;strong&gt;Night owl&lt;/strong&gt;&lt;/em&gt;: tends to stay up active until late night, usually past midnight, and wake up later. &lt;a href=&#34;https://en.wikipedia.org/wiki/Night_owl_%28person%29&#34;&gt;Wikipedia&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;strong&gt;Morning lark&lt;/strong&gt;&lt;/em&gt;: Named after a bird who rises very early in the morning. A human lark is a person who usually gets up early and feels most energetic towards the start of the day. They tend to get tired towards the evening. link:&lt;a href=&#34;https://en.wikipedia.org/wiki/Lark_%28person%29&#34;&gt;Wikipedia&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Your currently detected chronotype is always shown in the left menu if you have at least a month of sleep data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Editing graphs</title>
-      <link>//localhost:1313/sleep/graph_edit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/graph_edit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;__On any sleep graph, tap _&lt;em&gt;the pencil &lt;img src=&#34;//localhost:1313/assets/icons/ic_pencil.svg&#34; alt=&#34;ic_pencil&#34;  /&gt;&#xA; icon on graphs&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;rating-sleep&#34;&gt;Rating sleep&lt;a class=&#34;anchor&#34; href=&#34;#rating-sleep&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;[cols=&amp;ldquo;2,1&amp;rdquo;]&#xA;|===&#xA;a|Rate your sleep on the morning screen by tapping on the stars.&lt;/p&gt;&#xA;&lt;p&gt;0 = worst sleep, 5 - best sleep.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you leave the rating untouched, it won&amp;rsquo;t count towards your statistics. If you touch it and drag it to zero, it will count as 0.&#xA;a|&lt;img src=&#34;//localhost:1313/assets/images/edit_1.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Goals</title>
-      <link>//localhost:1313/sleep/goals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/goals/</guid>
-      <description>&lt;p&gt;Helps you actively improve your sleep habits.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Left ☰ menu -&amp;gt; Goal&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Goals are free to use – but let’s be honest to ourselves. Motivation to change your habits is much higher if there is something tangible at stake. Let’s say a few dollars.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a id=&#34;goal_start&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-up-a-goal&#34;&gt;Set up a goal&lt;a class=&#34;anchor&#34; href=&#34;#set-up-a-goal&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;In the Goal screen, choose one of the goals you wish to improve over the next 1 month from the list.&lt;/li&gt;&#xA;&lt;li&gt;Adjust the goal with (+) and (-) icons on the sides - the number in the middle of the large bubble will guide you about what is the final goal.&lt;/li&gt;&#xA;&lt;li&gt;Choose your Motivation, if you wish (it is not necessary).  You can try the goal for free, or you can bet a few bucks on yourself - you can bet a smaller wager or a bigger wager. In the US, a small wager is around $2, big wager around $4. When you select the wager and confirm the goal, you will see the exact price and then you can confirm or decline the payment.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[.line-through]#$# = free&lt;/li&gt;&#xA;&lt;li&gt;$ = about $2&lt;/li&gt;&#xA;&lt;li&gt;+++$$+++ = about $4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Tap &lt;strong&gt;Set your goal&lt;/strong&gt; at the bottom.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a id=&#34;adding-goal&#34;&gt;&lt;/a&gt;&#xA;.Adding a new goal&#xA;&lt;img src=&#34;//localhost:1313/assets/images/goal_setup.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Heart rate detection</title>
-      <link>//localhost:1313/sleep/heart_rate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/heart_rate/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Heart rate data enhances your sleep tracking data and awake detection.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you have a compatible heart rate sensor, you can use it to:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Gather your heart rate during the night and show it on your sleep graph&lt;/li&gt;&#xA;&lt;li&gt;Have much more precise awake detection&lt;/li&gt;&#xA;&lt;li&gt;If your wearable supports heart rate variability data collection, you will see HRV on your sleep graph too (read &lt;a href=&#34;https://sleep.urbandroid.org/hrv-tracking/&#34;&gt;more about heart rate variability here&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;See and example of a heart-rate enabled track in &lt;a href=&#34;#graph-hr&#34;&gt;graph-hr&lt;/a&gt; and heart rate variability graph in &lt;a href=&#34;#graph-hrv&#34;&gt;graph-hrv&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to read sleep graphs</title>
-      <link>//localhost:1313/sleep/how_to_read_sleep_graphs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/how_to_read_sleep_graphs/</guid>
-      <description>&lt;p&gt;&lt;a id=&#34;graph_explain&#34;&gt;&lt;/a&gt;&#xA;&lt;strong&gt;Sleep graph is the &lt;a href=&#34;//localhost:1313/sleep/sleep_tracking_theory#sleep-outcome&#34;&gt;main outcome of sleep tracking&lt;/a&gt; - it shows analysed data from all the &lt;a href=&#34;//localhost:1313/sleep/sensors&#34;&gt;sensors&lt;/a&gt; that were used during the night.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a id=&#34;morning_screen&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;morning-screen&#34;&gt;Morning screen&lt;a class=&#34;anchor&#34; href=&#34;#morning-screen&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The first screen you see in the morning is &lt;strong&gt;Morning briefing&lt;/strong&gt; and it offers you important information at a glance.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can customize the screen by swiping away the cards you don&amp;rsquo;t need, or pinning the ones you like the most with a long-press.&#xA;To edit the screen, use the &lt;strong&gt;Hide / Show&lt;/strong&gt; button at the bottom or &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Morning screen&lt;/em&gt;, see details &lt;a href=&#34;//localhost:1313/ux/personalize#morning_screen_set&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Jet lag prevention</title>
-      <link>//localhost:1313/sleep/jetlag/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/jetlag/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Prevents jet lag with short flashes of light during the night.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A link:&lt;a href=&#34;https://med.stanford.edu/news/all-news/2016/02/study-finds-possible-new-jet-lag-treatment&#34;&gt;2016 study from Stanford University School of Medicine&lt;/a&gt; found that short flashes of light during sleep can shift your melatonine cycle. This can be used to prevent jet lag.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Jet lag prevention&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;a class=&#34;anchor&#34; href=&#34;#guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Before traveling abroad, enable &lt;strong&gt;Jet lag prevention&lt;/strong&gt; and set &lt;strong&gt;Target timezone&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Each hour of timezone difference requires a day of adjustment. If you travel e.g. 4 timezones away, start 4 days before the departure.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Light level detection</title>
-      <link>//localhost:1313/sleep/light_level/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/light_level/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Measures the level of ambient light in your bedroom using the ambient light sensor (lux sensor)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Awake detection -&amp;gt; Light&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;You will see light level plotted on your sleep graph (in the same way as heart rates or breath is plotted), in LUX units.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;#dark&lt;/em&gt; tag is added when you have less than 30 lux for at least 90% of the night.&#xA;The &lt;em&gt;#light&lt;/em&gt; tag is added when you have more than 60 lux for at least 33% of the night.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lucid dreaming</title>
-      <link>//localhost:1313/sleep/lucid_dreaming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/lucid_dreaming/</guid>
-      <description>&lt;p&gt;.Lucid dreaming alarm cues will play once the app detects you are dreaming (in REM phase).&lt;/p&gt;&#xA;&lt;p&gt;Even we cannot use an EEG (Electroencephalogram), we still get a very good picture of your REM phases from your activity with a high match rate.&#xA;You can read about how we do it in link:&lt;a href=&#34;https://sleep.urbandroid.org/how-do-we-measure-your-dreams/&#34;&gt;https://sleep.urbandroid.org/how-do-we-measure-your-dreams/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lucid dreaming is a technique which allows to become aware of the fact that you are dreaming in order to gain control over your dreams.&#xA;There are various techniques how to help your mind realize you are dreaming and most of them require some training in advance. The technique we use in Sleep as Android uses audible cues played (ideally in your headphones) during sleep. We play the cues usually towards the end of the deep sleep phases where we expect the most memorable dreaming.  Hearing the familiar audible cues should help you realize that you are dreaming. Please refer to other resources online on how to bed train to induce lucid dreaming and how to train yourself on the audible cues.&#xA;Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments done by this famous physicist.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lullaby</title>
-      <link>//localhost:1313/sleep/lullaby/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/lullaby/</guid>
-      <description>&lt;p&gt;.Plays you a lullaby when you get to bed to help you fall asleep better.&lt;/p&gt;&#xA;&lt;p&gt;For lullabies, you can use built-in &lt;strong&gt;Nature sound&lt;/strong&gt; lullabies, your &lt;strong&gt;own music&lt;/strong&gt;, &lt;strong&gt;Spotify&lt;/strong&gt;, &lt;strong&gt;online radio&lt;/strong&gt;, or you can mix in &lt;strong&gt;binaural beats&lt;/strong&gt;.&#xA;You can listen to your favourite music the whole night, or let the app control the volume and gradually lower it to zero after you started falling asleep with &lt;a href=&#34;#turn_off&#34;&gt;Turn off when sleeping feature&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pair tracking</title>
-      <link>//localhost:1313/sleep/pair_tracking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/pair_tracking/</guid>
-      <description>&lt;p&gt;.Helps you to get a cleaner record of your sleep phases by combining the measurements from your and your partner’s phone, using any combination of sensors.&lt;/p&gt;&#xA;&lt;p&gt;Pair tracking uses two cooperating phones (your and your partner’s) simultaneously to filter out the partner’s activity and obtain clean separate activity records.&lt;/p&gt;&#xA;&lt;p&gt;If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sensors</title>
-      <link>//localhost:1313/sleep/sensors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sensors/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sleep as Android measures your sleep using various sensors. You can use sensors that are in your phone, or purchase additional devices and use their sensors, or use a combination.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;motion-sensors&#34;&gt;Motion sensors&lt;a class=&#34;anchor&#34; href=&#34;#motion-sensors&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Basic sleep tracking is done using a motion sensor.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;accelerometer&#34;&gt;Accelerometer&lt;a class=&#34;anchor&#34; href=&#34;#accelerometer&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see &lt;a href=&#34;//localhost:1313/devices/wearables&#34;&gt;Smartwatch and Wearables&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sonar&#34;&gt;Sonar&lt;a class=&#34;anchor&#34; href=&#34;#sonar&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Our invention — the sonar — brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed. It uses your phone&amp;rsquo;s speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sleep apnea</title>
-      <link>//localhost:1313/sleep/sleep_apnea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleep_apnea/</guid>
-      <description>&lt;h2 id=&#34;get-a-compatible-oximeter-for-respiration-monitoring&#34;&gt;Get a compatible Oximeter for respiration monitoring&lt;a class=&#34;anchor&#34; href=&#34;#get-a-compatible-oximeter-for-respiration-monitoring&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;strong&gt;link:&lt;a href=&#34;https://happyelectronics.eu/products/alert-stresslocator-oximeter&#34;&gt;Buy Pulse Oximeter&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;: Get a Pulse Oximeter compatible with Sleep as Android and suitable for whole night oxygenation monitoring link:&lt;a href=&#34;https://happyelectronics.eu/products/alert-stresslocator-oximeter&#34;&gt;HERE&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/images/oximeter2.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-sleep-apnea&#34;&gt;What is Sleep Apnea?&lt;a class=&#34;anchor&#34; href=&#34;#what-is-sleep-apnea&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Obstructive sleep apnea (OSA) is a disease, which can frequently be difficult to diagnose.&#xA;It’s prevalence in general population is around 2 – 7% [2] (with pessimistic estimates ranging up to 25% in men [3]). More than 80% of the population is not diagnosed[1].&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sleep noise analysis</title>
-      <link>//localhost:1313/sleep/sleep_noise_recording/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleep_noise_recording/</guid>
-      <description>&lt;p&gt;Records significant sounds while you sleep and builds a ambient noise-level graph for the night. It also &lt;a href=&#34;//localhost:1313/sleep/sound_recognition&#34;&gt;classifies the sounds&lt;/a&gt; into categories including snoring, talk, coughing, laughter, baby cry.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;You can check whether the phone is recording on the sleep tracking screen - [color-red]#red ⬤# indicates that the phone is currently recording.&lt;/p&gt;&#xA;&lt;p&gt;On the seek bar to the right you can see current volume level and your &lt;em&gt;Recording volume threshold&lt;/em&gt; which indicates volume to start recording.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sleep score</title>
-      <link>//localhost:1313/sleep/sleepscore/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleepscore/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sleep score is a complete summary of your sleep health.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Sleep score draws a lot of inspiration from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index&#34;&gt;Pittsburgh Sleep Quality Index&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Dashboard - Sleep Score card&lt;/em&gt;&#xA;&lt;em&gt;Left ☰ menu -&amp;gt; Trend -&amp;gt; Trend tab -&amp;gt; Sleep score chart&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;.Sleep Score on the card&#xA;&lt;img src=&#34;//localhost:1313/assets/images/sleepscore_annotated.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a id=&#34;figure-sleepscore-chart&#34;&gt;&lt;/a&gt;&#xA;.Sleep score in &lt;a href=&#34;//localhost:1313/sleep/charts#sleep-score&#34;&gt;Charts section&lt;/a&gt;&#xA;&lt;img src=&#34;//localhost:1313/assets/images/sleepscore.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;//toc&lt;/strong&gt;: []&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- :toclevels: 1 --&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; &lt;em&gt;Settings &amp;gt; Personalize &amp;gt; Stats &amp;gt; Color palette&lt;/em&gt;).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sleep time estimation</title>
-      <link>//localhost:1313/sleep/sleep_time_estimation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleep_time_estimation/</guid>
-      <description>&lt;p&gt;If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.&lt;/p&gt;&#xA;&lt;p&gt;The next day, a pop-up notification with estimated timings appears.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/images/suggestion.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Automatic sleep tracking -&amp;gt; Sleep time estimate&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Disabled&lt;/strong&gt;: No data from recognition engine are collected.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Manual only&lt;/strong&gt;: Sleep time estimation is saved only after you confirm it.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Save automatically&lt;/strong&gt;: Sleep time estimation is saved automatically when a tracking is missing the previous night.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;a class=&#34;anchor&#34; href=&#34;#how-it-works&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or &lt;a href=&#34;https://developers.google.com/location-context/sleep&#34;&gt;Google Sleep API&lt;/a&gt;), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren&amp;rsquo;t tracking.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sleep tracking</title>
-      <link>//localhost:1313/sleep/sleep_tracking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleep_tracking/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sleep tracking is a way to objectively measure the quality of your sleep.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;By tracking your sleep, the app enables you to:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;See a sleep graph for every night&lt;/li&gt;&#xA;&lt;li&gt;Monitor your long term sleep quality (with &lt;a href=&#34;//localhost:1313/sleep/sleepscore&#34;&gt;sleep score&lt;/a&gt; and &lt;a href=&#34;//localhost:1313/sleep/statistics&#34;&gt;statistics&lt;/a&gt; )&lt;/li&gt;&#xA;&lt;li&gt;Set up goals to improve your sleep quality&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;a href=&#34;//localhost:1313/alarms/smart_wake_up&#34;&gt;smart wake up&lt;/a&gt; for a pleasant wake up experience&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; See &lt;a href=&#34;//localhost:1313/sleep/sleep_tracking_theory&#34;&gt;Sleep tracking theory&lt;/a&gt; for a more in-depth information on how sleep tracking works.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sleep tracking theory</title>
-      <link>//localhost:1313/sleep/sleep_tracking_theory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleep_tracking_theory/</guid>
-      <description>&lt;h2 id=&#34;what-is-sleep&#34;&gt;What is sleep&lt;a class=&#34;anchor&#34; href=&#34;#what-is-sleep&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.&lt;/p&gt;&#xA;&lt;p&gt;We expect that when we wake up, we&amp;rsquo;ll feel better than when we went to bed.&lt;/p&gt;&#xA;&lt;p&gt;But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SleepCloud study</title>
-      <link>//localhost:1313/sleep/sleepcloud_study/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleepcloud_study/</guid>
-      <description>&lt;p&gt;[.text-center]&#xA;&lt;img src=&#34;//localhost:1313/assets/images/sleepcloud.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;.“Do early birds and night owls really exist? Will you sleep better if you jump to bed before midnight? How much snoring is too much? How much sleep do we need? Does it really help to have a smart alarm that wakes you up in the light sleep phase?”&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sleep.urbandroid.org/sleepcloud-study/&#34;&gt;Go to SleepCloud study&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;There is too much unknown about the great human mystery – sleep. For the first time in history, everyone has an opportunity to help the research from the comfort of their own homes.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Smart wakeup</title>
-      <link>//localhost:1313/sleep/smart_wake_up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/smart_wake_up/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Looks for the best moment to wake you up for a great morning.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Waking up in light sleep feels natural - like on a weekend, without any alarm.&#xA;In contrast, deep sleep wake up (which is common with ordinary alarm clocks) leads to an unpleasant experience accompanied with feeling of tiredness, sleepiness, disorientation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Smart wake up&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;With smart wake up, you set up a time window (also called Smart wake up period), in which you’d like to be woken up once it is the right moment.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sound recognition</title>
-      <link>//localhost:1313/sleep/sound_recognition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sound_recognition/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Listens to sounds you make during sleep tracking and categorizes them.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Sound recognition&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to &lt;em&gt;Disabled&lt;/em&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Statistics</title>
-      <link>//localhost:1313/sleep/statistics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/statistics/</guid>
-      <description>&lt;p&gt;Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of your &lt;a href=&#34;//localhost:1313/sleep/sleepscore&#34;&gt;Sleep score&lt;/a&gt; aggregated by days or optionally by &lt;a href=&#34;//localhost:1313/sleep/tags&#34;&gt;Tags&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Stats&lt;/em&gt; (settings)&#xA;&lt;em&gt;Left ☰ menu -&amp;gt; Stats&lt;/em&gt;&#xA;&lt;em&gt;&lt;a href=&#34;//localhost:1313/ux/homescreen#sleepscore&#34;&gt;Sleep Score&lt;/a&gt; card&lt;/em&gt; on Dashboard&lt;/p&gt;&#xA;&lt;p&gt;Each row in the Stats screen shows day-aggregated Duration, Deep sleep and Snoring.&#xA;The aggregate is calculated from all tracked sleeps - let&amp;rsquo;s call them &lt;a href=&#34;//localhost:1313/sleep/sleep_graph&#34;&gt;Graphs&lt;/a&gt; in the further text - which belong to the same day.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tags</title>
-      <link>//localhost:1313/sleep/tags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/tags/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Tags allow you to find out how various lifestyle events affect your sleep.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tags can be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;while sleep tracking, by tapping the &lt;img src=&#34;//localhost:1313/assets/icons/ic_pencil.svg&#34; alt=&#34;ic_pencil&#34;  /&gt;&#xA; button&lt;/li&gt;&#xA;&lt;li&gt;in the rating screen, after you finish sleep tracking&lt;/li&gt;&#xA;&lt;li&gt;in any sleep record, by tapping the big &lt;img src=&#34;//localhost:1313/assets/icons/ic_pencil.svg&#34; alt=&#34;ic_pencil&#34;  /&gt;&#xA; button&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also &lt;a href=&#34;//localhost:1313/sleep/graph_edit&#34;&gt;editing tags&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sleep on Sleep as Android Docs</title><link>/sleep/</link><description>Recent content in Sleep on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/sleep/index.xml" rel="self" type="application/rss+xml"/><item><title>Achievements</title><link>/sleep/achievements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/achievements/</guid><description>&lt;p&gt;Sleep Achievements are reward badges for your accomplishments and milestones, representing your progress. They give you something to strive for. You can collect them all, and share your accomplishments with your friends.&lt;/p&gt;
+&lt;p&gt;To get started with Achievements, you can either tap on the Achievement card on the Dashboard, or open the section from the Left ≡ menu.&lt;/p&gt;
+&lt;p&gt;Each Achievement requires you to complete certain goals (sleeping enough hours, getting to the bed earlier) to earn points. After you gather enough points, you will earn one of the badges (Bronze, Gold, Diamond).&lt;/p&gt;</description></item><item><title>Advice</title><link>/sleep/advice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/advice/</guid><description>&lt;p&gt;&lt;strong&gt;Advice shows your current sleep development at a glance.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can see which dimensions of your sleep have improved or worsened recently, including tips on how to reverse the worsening trends.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Left ☰ menu -&amp;gt; Advice&lt;/em&gt;
+&lt;em&gt;From the &lt;a href="../ux/homescreen#advicecard"&gt;Advice&lt;/a&gt; dashboard card&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="general-description"&gt;General description&lt;a class="anchor" href="#general-description"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Advice watches recent trends in the main sleep dimensions (Duration, Regularity, Deep sleep %, Snoring, Social jet-lag&amp;hellip;).&lt;/p&gt;
+&lt;p&gt;In most cases it compares your last 60 days aggregates to the last 7 days aggregates and look for significant recent worsening or improvements.&lt;/p&gt;</description></item><item><title>Anti-snoring</title><link>/sleep/anti_snoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/anti_snoring/</guid><description>&lt;p&gt;&lt;strong&gt;Helps you (or your partner) fight snoring.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking and will react and try to make you stop snoring.&lt;/p&gt;
+&lt;p&gt;Apart from audible anti-snoring you can also set your &lt;a href="../devices/smart_light#miscellaneous"&gt;Smartlight&lt;/a&gt; devices to react to your snoring by flashing.&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Anti-snoring as well as &lt;a href="../sleep/lucid_dreaming"&gt;Lucid dreaming&lt;/a&gt; may disturb you from sleeping.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Anti-snoring&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="anti-snoring"&gt;Anti-snoring&lt;a class="anchor" href="#anti-snoring"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The options below are shown only if Anti-snoring is enabled.&lt;/p&gt;</description></item><item><title>Automatic sleep tracking</title><link>/sleep/automatic_sleep_tracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/automatic_sleep_tracking/</guid><description>&lt;p&gt;&lt;strong&gt;Tracks sleep automatically, without the need to manually start it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On smartphones, sleep tracking was traditionally a process initiated by a button tap, or by a hard timed trigger.
+Sleep as Android is different.
+The app offers smart ways to track your sleep automatically similarly to what wearables and smart bands do — using your phone’s activity recognition system.&lt;/p&gt;
+&lt;p&gt;Sleep app also have a feature for tracking sleep times - &lt;strong&gt;Sleep time estimation&lt;/strong&gt;. If you forget to start sleep tracking, the app estimates the most probable times you were sleeping form phone activity recognition engine and Google Sleep aPI, and will ask you next day. You can read more about &lt;a href="../sleep/sleep_time_estimation"&gt;sleep time estimation here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Awake detection</title><link>/sleep/awake_detection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/awake_detection/</guid><description>&lt;p&gt;&lt;strong&gt;Estimates your awake times during sleep tracking using various hints.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Awake detection&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="../sleep/sleep_tracking_theory"&gt;Actigraphy&lt;/a&gt; (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. So we use heuristics (hints) that give us a very good and solid view on your awake events.&lt;/p&gt;</description></item><item><title>Breath rate detection &amp; blood oxygen measurement</title><link>/sleep/breath_rate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/breath_rate/</guid><description>&lt;p&gt;&lt;strong&gt;Makes use of sensors that can measure either your breath rate (&lt;a href="../sleep/sensors#sonar"&gt;sonar&lt;/a&gt;, &lt;a href="../devices/sleep_phaser_2"&gt;Sleep phaser&lt;/a&gt;, and &lt;a href="https://sleep.urbandroid.org/polar-sleep-tracking/"&gt;Polar H10&lt;/a&gt;), or your blood oxygenation (&lt;a href="../devices/oximeter"&gt;oximeter, some wearables&lt;/a&gt;).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;turquoise line&lt;/strong&gt; on your sleep graph shows breath rate - see &lt;a href="#breath-line"&gt;breath-line&lt;/a&gt;.
+A &lt;strong&gt;blue line&lt;/strong&gt; on your graph depicts oxygen data - see &lt;a href="#spo2-graph"&gt;spo2-graph&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Whenever a significant dip in value occurs, a O2 symbol &lt;img src="../assets/icons/ic_action_cpap.svg" alt="ic_action_cpap" /&gt;
+ will be shown in the graph. This is a &lt;em&gt;breathing disturbance&lt;/em&gt;. From those disturbances, we compute your &lt;a href="#RDI"&gt;RDI&lt;/a&gt; value. Monitoring breathing disturbances is important for link:&lt;a href="https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/"&gt;sleep apnea&lt;/a&gt; detection.&lt;/p&gt;</description></item><item><title>Charts / Trends</title><link>/sleep/charts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/charts/</guid><description>&lt;p&gt;&lt;strong&gt;Charts enable you to study your sleep from a long-term perspective.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Charts are here to help you find patterns in your sleep and enable you to decide for evidence-based changes.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Left ☰ menu -&amp;gt; Charts&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date range&lt;/strong&gt;: Each chart is computed from data within a certain date range. This range is controlled by the first dropdown menu in the top bar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tags&lt;/strong&gt;: All charts can be configured to be only computed from sleep records with a certain tag. You can select the tag in the second dropdown menu in the top bar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="trend"&gt;Trend&lt;a class="anchor" href="#trend"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="sleep-score"&gt;Sleep score&lt;a class="anchor" href="#sleep-score"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;[cols=&amp;ldquo;1,2&amp;rdquo;]
+|===
+a|&lt;img src="charts/trend/trend_sleepscore.png" alt="" /&gt;
+
+a|&lt;strong&gt;Sleep score&lt;/strong&gt; radar chart is another way of looking at your &lt;a href="../sleep/sleepscore"&gt;sleep score&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Chronotype, Social jetlag, Sleep Regularity</title><link>/sleep/chrono_jetlag/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/chrono_jetlag/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep as Android watches your sleep pattern trends and can tell you your chronotype, social-jet-lag and sleep Regularity.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="chronotype"&gt;Chronotype&lt;a class="anchor" href="#chronotype"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Chronotype&lt;/strong&gt; is a term used to characterise your natural sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Night owl&lt;/strong&gt;&lt;/em&gt;: tends to stay up active until late night, usually past midnight, and wake up later. &lt;a href="https://en.wikipedia.org/wiki/Night_owl_%28person%29"&gt;Wikipedia&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Morning lark&lt;/strong&gt;&lt;/em&gt;: Named after a bird who rises very early in the morning. A human lark is a person who usually gets up early and feels most energetic towards the start of the day. They tend to get tired towards the evening. link:&lt;a href="https://en.wikipedia.org/wiki/Lark_%28person%29"&gt;Wikipedia&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Your currently detected chronotype is always shown in the left menu if you have at least a month of sleep data.&lt;/p&gt;</description></item><item><title>Editing graphs</title><link>/sleep/graph_edit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/graph_edit/</guid><description>&lt;p&gt;&lt;strong&gt;Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;__On any sleep graph, tap _&lt;em&gt;the pencil &lt;img src="../assets/icons/ic_pencil.svg" alt="ic_pencil" /&gt;
+ icon on graphs&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="rating-sleep"&gt;Rating sleep&lt;a class="anchor" href="#rating-sleep"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;[cols=&amp;ldquo;2,1&amp;rdquo;]
+|===
+a|Rate your sleep on the morning screen by tapping on the stars.&lt;/p&gt;
+&lt;p&gt;0 = worst sleep, 5 - best sleep.&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you leave the rating untouched, it won&amp;rsquo;t count towards your statistics. If you touch it and drag it to zero, it will count as 0.
+a|&lt;img src="../assets/images/edit_1.png" alt="" /&gt;
+&lt;/p&gt;</description></item><item><title>Goals</title><link>/sleep/goals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/goals/</guid><description>&lt;p&gt;Helps you actively improve your sleep habits.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Left ☰ menu -&amp;gt; Goal&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Goals are free to use – but let’s be honest to ourselves. Motivation to change your habits is much higher if there is something tangible at stake. Let’s say a few dollars.&lt;/p&gt;
+&lt;p&gt;&lt;a id="goal_start"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="set-up-a-goal"&gt;Set up a goal&lt;a class="anchor" href="#set-up-a-goal"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;In the Goal screen, choose one of the goals you wish to improve over the next 1 month from the list.&lt;/li&gt;
+&lt;li&gt;Adjust the goal with (+) and (-) icons on the sides - the number in the middle of the large bubble will guide you about what is the final goal.&lt;/li&gt;
+&lt;li&gt;Choose your Motivation, if you wish (it is not necessary). You can try the goal for free, or you can bet a few bucks on yourself - you can bet a smaller wager or a bigger wager. In the US, a small wager is around $2, big wager around $4. When you select the wager and confirm the goal, you will see the exact price and then you can confirm or decline the payment.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;[.line-through]#$# = free&lt;/li&gt;
+&lt;li&gt;$ = about $2&lt;/li&gt;
+&lt;li&gt;+++$$+++ = about $4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Tap &lt;strong&gt;Set your goal&lt;/strong&gt; at the bottom.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a id="adding-goal"&gt;&lt;/a&gt;
+.Adding a new goal
+&lt;img src="../assets/images/goal_setup.png" alt="" /&gt;
+&lt;/p&gt;</description></item><item><title>Heart rate detection</title><link>/sleep/heart_rate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/heart_rate/</guid><description>&lt;p&gt;&lt;strong&gt;Heart rate data enhances your sleep tracking data and awake detection.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you have a compatible heart rate sensor, you can use it to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gather your heart rate during the night and show it on your sleep graph&lt;/li&gt;
+&lt;li&gt;Have much more precise awake detection&lt;/li&gt;
+&lt;li&gt;If your wearable supports heart rate variability data collection, you will see HRV on your sleep graph too (read &lt;a href="https://sleep.urbandroid.org/hrv-tracking/"&gt;more about heart rate variability here&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;See and example of a heart-rate enabled track in &lt;a href="#graph-hr"&gt;graph-hr&lt;/a&gt; and heart rate variability graph in &lt;a href="#graph-hrv"&gt;graph-hrv&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>How to read sleep graphs</title><link>/sleep/how_to_read_sleep_graphs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/how_to_read_sleep_graphs/</guid><description>&lt;p&gt;&lt;a id="graph_explain"&gt;&lt;/a&gt;
+&lt;strong&gt;Sleep graph is the &lt;a href="../sleep/sleep_tracking_theory#sleep-outcome"&gt;main outcome of sleep tracking&lt;/a&gt; - it shows analysed data from all the &lt;a href="../sleep/sensors"&gt;sensors&lt;/a&gt; that were used during the night.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a id="morning_screen"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="morning-screen"&gt;Morning screen&lt;a class="anchor" href="#morning-screen"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first screen you see in the morning is &lt;strong&gt;Morning briefing&lt;/strong&gt; and it offers you important information at a glance.&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can customize the screen by swiping away the cards you don&amp;rsquo;t need, or pinning the ones you like the most with a long-press.
+To edit the screen, use the &lt;strong&gt;Hide / Show&lt;/strong&gt; button at the bottom or &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Morning screen&lt;/em&gt;, see details &lt;a href="../ux/personalize#morning_screen_set"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Jet lag prevention</title><link>/sleep/jetlag/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/jetlag/</guid><description>&lt;p&gt;&lt;strong&gt;Prevents jet lag with short flashes of light during the night.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A link:&lt;a href="https://med.stanford.edu/news/all-news/2016/02/study-finds-possible-new-jet-lag-treatment"&gt;2016 study from Stanford University School of Medicine&lt;/a&gt; found that short flashes of light during sleep can shift your melatonine cycle. This can be used to prevent jet lag.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Jet lag prevention&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="guide"&gt;Guide&lt;a class="anchor" href="#guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before traveling abroad, enable &lt;strong&gt;Jet lag prevention&lt;/strong&gt; and set &lt;strong&gt;Target timezone&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Each hour of timezone difference requires a day of adjustment. If you travel e.g. 4 timezones away, start 4 days before the departure.&lt;/p&gt;</description></item><item><title>Light level detection</title><link>/sleep/light_level/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/light_level/</guid><description>&lt;p&gt;&lt;strong&gt;Measures the level of ambient light in your bedroom using the ambient light sensor (lux sensor)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Awake detection -&amp;gt; Light&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You will see light level plotted on your sleep graph (in the same way as heart rates or breath is plotted), in LUX units.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;#dark&lt;/em&gt; tag is added when you have less than 30 lux for at least 90% of the night.
+The &lt;em&gt;#light&lt;/em&gt; tag is added when you have more than 60 lux for at least 33% of the night.&lt;/p&gt;</description></item><item><title>Lucid dreaming</title><link>/sleep/lucid_dreaming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/lucid_dreaming/</guid><description>&lt;p&gt;.Lucid dreaming alarm cues will play once the app detects you are dreaming (in REM phase).&lt;/p&gt;
+&lt;p&gt;Even we cannot use an EEG (Electroencephalogram), we still get a very good picture of your REM phases from your activity with a high match rate.
+You can read about how we do it in link:&lt;a href="https://sleep.urbandroid.org/how-do-we-measure-your-dreams/"&gt;https://sleep.urbandroid.org/how-do-we-measure-your-dreams/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lucid dreaming is a technique which allows to become aware of the fact that you are dreaming in order to gain control over your dreams.
+There are various techniques how to help your mind realize you are dreaming and most of them require some training in advance. The technique we use in Sleep as Android uses audible cues played (ideally in your headphones) during sleep. We play the cues usually towards the end of the deep sleep phases where we expect the most memorable dreaming. Hearing the familiar audible cues should help you realize that you are dreaming. Please refer to other resources online on how to bed train to induce lucid dreaming and how to train yourself on the audible cues.
+Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments done by this famous physicist.&lt;/p&gt;</description></item><item><title>Lullaby</title><link>/sleep/lullaby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/lullaby/</guid><description>&lt;p&gt;.Plays you a lullaby when you get to bed to help you fall asleep better.&lt;/p&gt;
+&lt;p&gt;For lullabies, you can use built-in &lt;strong&gt;Nature sound&lt;/strong&gt; lullabies, your &lt;strong&gt;own music&lt;/strong&gt;, &lt;strong&gt;Spotify&lt;/strong&gt;, &lt;strong&gt;online radio&lt;/strong&gt;, or you can mix in &lt;strong&gt;binaural beats&lt;/strong&gt;.
+You can listen to your favourite music the whole night, or let the app control the volume and gradually lower it to zero after you started falling asleep with &lt;a href="#turn_off"&gt;Turn off when sleeping feature&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Pair tracking</title><link>/sleep/pair_tracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/pair_tracking/</guid><description>&lt;p&gt;.Helps you to get a cleaner record of your sleep phases by combining the measurements from your and your partner’s phone, using any combination of sensors.&lt;/p&gt;
+&lt;p&gt;Pair tracking uses two cooperating phones (your and your partner’s) simultaneously to filter out the partner’s activity and obtain clean separate activity records.&lt;/p&gt;
+&lt;p&gt;If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.&lt;/p&gt;</description></item><item><title>Sensors</title><link>/sleep/sensors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sensors/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep as Android measures your sleep using various sensors. You can use sensors that are in your phone, or purchase additional devices and use their sensors, or use a combination.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="motion-sensors"&gt;Motion sensors&lt;a class="anchor" href="#motion-sensors"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Basic sleep tracking is done using a motion sensor.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="accelerometer"&gt;Accelerometer&lt;a class="anchor" href="#accelerometer"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see &lt;a href="../devices/wearables"&gt;Smartwatch and Wearables&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="sonar"&gt;Sonar&lt;a class="anchor" href="#sonar"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Our invention — the sonar — brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed. It uses your phone&amp;rsquo;s speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.&lt;/p&gt;</description></item><item><title>Sleep apnea</title><link>/sleep/sleep_apnea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_apnea/</guid><description>&lt;h2 id="get-a-compatible-oximeter-for-respiration-monitoring"&gt;Get a compatible Oximeter for respiration monitoring&lt;a class="anchor" href="#get-a-compatible-oximeter-for-respiration-monitoring"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;link:&lt;a href="https://happyelectronics.eu/products/alert-stresslocator-oximeter"&gt;Buy Pulse Oximeter&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;: Get a Pulse Oximeter compatible with Sleep as Android and suitable for whole night oxygenation monitoring link:&lt;a href="https://happyelectronics.eu/products/alert-stresslocator-oximeter"&gt;HERE&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="../assets/images/oximeter2.png" alt="" /&gt;
+&lt;/p&gt;
+&lt;h2 id="what-is-sleep-apnea"&gt;What is Sleep Apnea?&lt;a class="anchor" href="#what-is-sleep-apnea"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Obstructive sleep apnea (OSA) is a disease, which can frequently be difficult to diagnose.
+It’s prevalence in general population is around 2 – 7% [2] (with pessimistic estimates ranging up to 25% in men [3]). More than 80% of the population is not diagnosed[1].&lt;/p&gt;</description></item><item><title>Sleep noise analysis</title><link>/sleep/sleep_noise_recording/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_noise_recording/</guid><description>&lt;p&gt;Records significant sounds while you sleep and builds a ambient noise-level graph for the night. It also &lt;a href="../sleep/sound_recognition"&gt;classifies the sounds&lt;/a&gt; into categories including snoring, talk, coughing, laughter, baby cry.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;You can check whether the phone is recording on the sleep tracking screen - [color-red]#red ⬤# indicates that the phone is currently recording.&lt;/p&gt;
+&lt;p&gt;On the seek bar to the right you can see current volume level and your &lt;em&gt;Recording volume threshold&lt;/em&gt; which indicates volume to start recording.&lt;/p&gt;</description></item><item><title>Sleep score</title><link>/sleep/sleepscore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleepscore/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep score is a complete summary of your sleep health.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sleep score draws a lot of inspiration from the &lt;a href="https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index"&gt;Pittsburgh Sleep Quality Index&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dashboard - Sleep Score card&lt;/em&gt;
+&lt;em&gt;Left ☰ menu -&amp;gt; Trend -&amp;gt; Trend tab -&amp;gt; Sleep score chart&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;.Sleep Score on the card
+&lt;img src="../assets/images/sleepscore_annotated.png" alt="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a id="figure-sleepscore-chart"&gt;&lt;/a&gt;
+.Sleep score in &lt;a href="../sleep/charts#sleep-score"&gt;Charts section&lt;/a&gt;
+&lt;img src="../assets/images/sleepscore.png" alt="" /&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;//toc&lt;/strong&gt;: []&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- :toclevels: 1 --&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; &lt;em&gt;Settings &amp;gt; Personalize &amp;gt; Stats &amp;gt; Color palette&lt;/em&gt;).&lt;/p&gt;</description></item><item><title>Sleep time estimation</title><link>/sleep/sleep_time_estimation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_time_estimation/</guid><description>&lt;p&gt;If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.&lt;/p&gt;
+&lt;p&gt;The next day, a pop-up notification with estimated timings appears.&lt;/p&gt;
+&lt;p&gt;&lt;img src="../assets/images/suggestion.png" alt="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Automatic sleep tracking -&amp;gt; Sleep time estimate&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Disabled&lt;/strong&gt;: No data from recognition engine are collected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manual only&lt;/strong&gt;: Sleep time estimation is saved only after you confirm it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Save automatically&lt;/strong&gt;: Sleep time estimation is saved automatically when a tracking is missing the previous night.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-it-works"&gt;How it works&lt;a class="anchor" href="#how-it-works"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or &lt;a href="https://developers.google.com/location-context/sleep"&gt;Google Sleep API&lt;/a&gt;), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren&amp;rsquo;t tracking.&lt;/p&gt;</description></item><item><title>Sleep tracking</title><link>/sleep/sleep_tracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_tracking/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep tracking is a way to objectively measure the quality of your sleep.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;By tracking your sleep, the app enables you to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;See a sleep graph for every night&lt;/li&gt;
+&lt;li&gt;Monitor your long term sleep quality (with &lt;a href="../sleep/sleepscore"&gt;sleep score&lt;/a&gt; and &lt;a href="../sleep/statistics"&gt;statistics&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Set up goals to improve your sleep quality&lt;/li&gt;
+&lt;li&gt;Use &lt;a href="../alarms/smart_wake_up"&gt;smart wake up&lt;/a&gt; for a pleasant wake up experience&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; See &lt;a href="../sleep/sleep_tracking_theory"&gt;Sleep tracking theory&lt;/a&gt; for a more in-depth information on how sleep tracking works.&lt;/p&gt;</description></item><item><title>Sleep tracking theory</title><link>/sleep/sleep_tracking_theory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_tracking_theory/</guid><description>&lt;h2 id="what-is-sleep"&gt;What is sleep&lt;a class="anchor" href="#what-is-sleep"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.&lt;/p&gt;
+&lt;p&gt;We expect that when we wake up, we&amp;rsquo;ll feel better than when we went to bed.&lt;/p&gt;
+&lt;p&gt;But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.&lt;/p&gt;</description></item><item><title>SleepCloud study</title><link>/sleep/sleepcloud_study/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleepcloud_study/</guid><description>&lt;p&gt;[.text-center]
+&lt;img src="../assets/images/sleepcloud.png" alt="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;.“Do early birds and night owls really exist? Will you sleep better if you jump to bed before midnight? How much snoring is too much? How much sleep do we need? Does it really help to have a smart alarm that wakes you up in the light sleep phase?”&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sleep.urbandroid.org/sleepcloud-study/"&gt;Go to SleepCloud study&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is too much unknown about the great human mystery – sleep. For the first time in history, everyone has an opportunity to help the research from the comfort of their own homes.&lt;/p&gt;</description></item><item><title>Smart wakeup</title><link>/sleep/smart_wake_up/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/smart_wake_up/</guid><description>&lt;p&gt;&lt;strong&gt;Looks for the best moment to wake you up for a great morning.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waking up in light sleep feels natural - like on a weekend, without any alarm.
+In contrast, deep sleep wake up (which is common with ordinary alarm clocks) leads to an unpleasant experience accompanied with feeling of tiredness, sleepiness, disorientation.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Smart wake up&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;With smart wake up, you set up a time window (also called Smart wake up period), in which you’d like to be woken up once it is the right moment.&lt;/p&gt;</description></item><item><title>Sound recognition</title><link>/sleep/sound_recognition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sound_recognition/</guid><description>&lt;p&gt;&lt;strong&gt;Listens to sounds you make during sleep tracking and categorizes them.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Sound recognition&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to &lt;em&gt;Disabled&lt;/em&gt;.&lt;/p&gt;</description></item><item><title>Statistics</title><link>/sleep/statistics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/statistics/</guid><description>&lt;p&gt;Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of your &lt;a href="../sleep/sleepscore"&gt;Sleep score&lt;/a&gt; aggregated by days or optionally by &lt;a href="../sleep/tags"&gt;Tags&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Stats&lt;/em&gt; (settings)
+&lt;em&gt;Left ☰ menu -&amp;gt; Stats&lt;/em&gt;
+&lt;em&gt;&lt;a href="../ux/homescreen#sleepscore"&gt;Sleep Score&lt;/a&gt; card&lt;/em&gt; on Dashboard&lt;/p&gt;
+&lt;p&gt;Each row in the Stats screen shows day-aggregated Duration, Deep sleep and Snoring.
+The aggregate is calculated from all tracked sleeps - let&amp;rsquo;s call them &lt;a href="../sleep/sleep_graph"&gt;Graphs&lt;/a&gt; in the further text - which belong to the same day.&lt;/p&gt;</description></item><item><title>Tags</title><link>/sleep/tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/tags/</guid><description>&lt;p&gt;&lt;strong&gt;Tags allow you to find out how various lifestyle events affect your sleep.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tags can be added:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;while sleep tracking, by tapping the &lt;img src="../assets/icons/ic_pencil.svg" alt="ic_pencil" /&gt;
+ button&lt;/li&gt;
+&lt;li&gt;in the rating screen, after you finish sleep tracking&lt;/li&gt;
+&lt;li&gt;in any sleep record, by tapping the big &lt;img src="../assets/icons/ic_pencil.svg" alt="ic_pencil" /&gt;
+ button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also &lt;a href="../sleep/graph_edit"&gt;editing tags&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

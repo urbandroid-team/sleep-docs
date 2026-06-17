@@ -1,81 +1,119 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Alarms on Sleep as Android Docs</title>
-    <link>//localhost:1313/alarms/</link>
-    <description>Recent content in Alarms on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/alarms/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Alarm settings</title>
-      <link>//localhost:1313/alarms/alarm_settings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/alarm_settings/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Alarm settings help you make your wake-up experience refreshing and enjoyable.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/sleep/smart_wake_up&#34;&gt;Smart wake up&lt;/a&gt; wakes you at the right stage of sleep&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#gentle_alarm&#34;&gt;Gentle volume&lt;/a&gt; feature finds the minimum sound to wake you up&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/devices/smart_light&#34;&gt;Smartlight&lt;/a&gt; natural sunrise alarm&lt;/li&gt;&#xA;&lt;li&gt;Make sure you don&amp;rsquo;t oversleep with our &lt;a href=&#34;//localhost:1313/alarms/captcha&#34;&gt;CAPTCHA&lt;/a&gt; feature&lt;/li&gt;&#xA;&lt;li&gt;And many more&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- _Settings -&gt; Alarms_ --&gt;&#xA;&lt;!-- _alarm-specific settings_ --&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a id=&#34;per-alarm&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;alarm-defaults-vs-alarm-specific-per-alarm-settings&#34;&gt;Alarm defaults vs alarm-specific &amp;ldquo;per-alarm&amp;rdquo; settings&lt;a class=&#34;anchor&#34; href=&#34;#alarm-defaults-vs-alarm-specific-per-alarm-settings&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Alarms can be set up in two places because you need a default configuration that controls all alarms and still have the option to create a special alarm with unique behavior.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Backup alarm</title>
-      <link>//localhost:1313/alarms/backup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/backup/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Starts ringing loudly at maximum volume if you ignore your normal alarm.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Backup alarm will start after &lt;a href=&#34;#alarm-timeout&#34;&gt;Alarm timeout&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Backup alarm&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;backup-alarm-duration&#34;&gt;Backup alarm duration&lt;a class=&#34;anchor&#34; href=&#34;#backup-alarm-duration&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Set how long the backup alarm will ring (it will then snooze for your default &lt;em&gt;Snooze Time&lt;/em&gt;, but never less than 10 minutes).&lt;/p&gt;&#xA;&lt;h2 id=&#34;ringtone&#34;&gt;Ringtone&lt;a class=&#34;anchor&#34; href=&#34;#ringtone&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Backup alarm ringtone.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-disable-backup-alarm&#34;&gt;How to disable backup alarm &lt;a id=&#34;backup_disable&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#how-to-disable-backup-alarm&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Back up -&amp;gt; Sound&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Set the ringtone to &lt;em&gt;Silent&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Silent ringtone for backup alarm won&amp;rsquo;t disable vibrations. The backup alarm is the last thing to let you know that the alarm is still going off, so you can react and not fall asleep.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bedtime notification</title>
-      <link>//localhost:1313/alarms/bedtime_notification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/bedtime_notification/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sends you a &amp;ldquo;Time to go to bed!&amp;rdquo; notification before bedtime.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bedtime notification is an effective way to maintain optimal sleep duration or to combat sleep deficit. You can set the alert to go off anywhere from 5 minutes to 2 hours before bedtime, so you&amp;rsquo;ll have plenty of time to get ready for bed.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Bedtime notification&lt;/em&gt;&#xA;&lt;em&gt;per-alarm settings -&amp;gt; Bedtime notification&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The time of your bedtime is calculated as follows:&#xA;&lt;code&gt;bedtime = next alarm time – daily sleep duration goal&lt;/code&gt;&#xA;[EXAMPLE]&#xA;You have set your &lt;a href=&#34;#duration_goal&#34;&gt;Daily sleep duration goal&lt;/a&gt; to 7 hours, and an alarm for 6 AM.&#xA;Your bedtime would be 11 PM.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CAPTCHA</title>
-      <link>//localhost:1313/alarms/captcha/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/captcha/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Gives you a task to solve in order to turn off the alarm.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;CAPTCHAs make sure you wake up on time and don&amp;rsquo;t be late for your daily duties. CAPTCHAs prevent any unintentional alarm dismiss.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;a href=&#34;//localhost:1313/alarms/alarm_settings#per-alarm&#34;&gt;Alarm-specific settings&lt;/a&gt; -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;default-captcha&#34;&gt;Default CAPTCHA&lt;a class=&#34;anchor&#34; href=&#34;#default-captcha&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;CAPTCHA for all alarms.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Create alarm</title>
-      <link>//localhost:1313/alarms/create_alarm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/create_alarm/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Creating new alarms or a naps.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;creating-a-new-alarm&#34;&gt;Creating a new alarm&lt;a class=&#34;anchor&#34; href=&#34;#creating-a-new-alarm&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You can create an alarm by using any of these methods:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Set new alarm card&lt;/strong&gt;: on Dashboard, when there is no active alarm. &lt;img src=&#34;//localhost:1313/assets/images/set_alarm_1.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Alarm icon &lt;img src=&#34;//localhost:1313/assets/icons/ic_alarm_plus.svg&#34; alt=&#34;ic_alarm_plus&#34;  /&gt;&#xA;&lt;/strong&gt;: in the search bar (Tabs layout) &lt;img src=&#34;//localhost:1313/assets/images/set_alarm_2.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Alarm icon &lt;img src=&#34;//localhost:1313/assets/icons/ic_alarm_plus.svg&#34; alt=&#34;ic_alarm_plus&#34;  /&gt;&#xA;&lt;/strong&gt;: on the alarm card (Dashboard layout) &lt;img src=&#34;//localhost:1313/assets/images/set_alarm_3.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Alarm icon widget&lt;/strong&gt;: from the main screen - see &lt;a href=&#34;ux/widgets&#34;&gt;more details about widgets&lt;/a&gt; &lt;img src=&#34;//localhost:1313/assets/images/set_alarm_4.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Shortcut bar on the Dashboard&lt;/strong&gt;: creates a new alarm (with the &lt;em&gt;Delete after ringing&lt;/em&gt; option enabled) and start sleep tracking in one step.&#xA;&lt;img src=&#34;//localhost:1313/assets/images/set_alarm_5.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;editing-the-alarms&#34;&gt;Editing the alarms&lt;a class=&#34;anchor&#34; href=&#34;#editing-the-alarms&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;To quickly edit trigger time of an existing alarm, tap on the time of the alarm.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Naps</title>
-      <link>//localhost:1313/alarms/naps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/naps/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Schedule an alarm to go off &lt;em&gt;after&lt;/em&gt; a certain amount of time instead of &lt;em&gt;at&lt;/em&gt; a certain hour and minute.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;[EXAMPLE]&#xA;Instead of setting the alarm to go off at 7 a.m., you can set it to go off in 15 minutes.&lt;/p&gt;&#xA;&lt;p&gt;Add a new alarm with &lt;img src=&#34;//localhost:1313/assets/icons/ic_alarm_plus.svg&#34; alt=&#34;ic_alarm_plus&#34;  /&gt;&#xA; -&amp;gt; NAP button. You can choose naps from 1 minute to 10 hours.&lt;/p&gt;&#xA;&lt;p&gt;[.imgflexblock]&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/images/alarm_nap.png&#34; alt=&#34;&#34;  /&gt;&#xA;&#xA;&lt;img src=&#34;//localhost:1313/assets/images/alarm_nap_2.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; By default, nap alarms are deleted after they go off, but you can uncheck the &lt;a href=&#34;//localhost:1313/alarms/alarm_settings#alarm_delete&#34;&gt;Delete after ringing&lt;/a&gt; option in Alarm settings.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Polyphasic sleeping</title>
-      <link>//localhost:1313/alarms/polyphasic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/polyphasic/</guid>
-      <description>&lt;p&gt;Polyphasic sleep is the practice of sleeping in several shorter periods over the course of 24 hours (as opposed to the more common monophasic sleep with one long period of sleep).&#xA;This type of sleep practice requires some special settings.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;Bedtime Notification&lt;/strong&gt; is normally scheduled based on the alarm time and the daily sleep income. Polyphasic sleep naps require a bedtime notification that is not based on the daily amount of sleep, but on the amount of sleep specific to that nap.&#xA;This target sleep duration can be set in the per-alarm setting, where you can select the length of sleep duration for the alarm and also adjust the bedtime notification time.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Power nap</title>
-      <link>//localhost:1313/alarms/power_nap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/power_nap/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Power nap is a special case of &lt;a href=&#34;//localhost:1313/alarms/smart_wake_up&#34;&gt;Smart wake-up&lt;/a&gt;  for situations when you do not have a specific time to wake up, but you prefer to sleep at least a certain time and then wake up softly after your current sleep cycle ends.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;EXAMPLE&lt;/strong&gt;: Let&amp;rsquo;s say it&amp;rsquo;s the weekend and you can wake up any time after 10:00. If you schedule a power nap alarm for 10:00, it will look for the best time to wake you up between 10:00 and 11:00.[]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can take a nap of at least 20 minutes, but let Sleep as Android find your best time afterwards, so Power Nap will make sure you sleep at least 20 minutes and find your best time in 20 + 59 minutes.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Snooze</title>
-      <link>//localhost:1313/alarms/snooze/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/snooze/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Snooze will delay your wake up if you do not feel rested at alarm time.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After hitting a snooze button on the alarm screen, you get an additional period of sleep, and the alarm time is postponed.&#xA;You can also limit snoozing in several ways to prevent oversleeping.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Snooze&lt;/em&gt;&#xA;&lt;em&gt;Alarm-specific settings&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;[EXAMPLE]&#xA;The alarm goes off at 5:30, and it wakes you up at 5:33.&#xA;But you decide to have some more sleep for a few minutes and you hit the 10 snooze button.&#xA;The alarm goes off again at 5:43 (5:33 + 10 minutes snooze).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sound</title>
-      <link>//localhost:1313/alarms/ringtone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/ringtone/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Changes how your alarms sound.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Choose any music or sounds from a built-in nature sounds library, from your device storage or use online radios or streaming services such as Spotify for even more enjoyable mornings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Sound&lt;/em&gt;&#xA;&lt;em&gt;per-alarm settings -&amp;gt; Sound&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;nature&#34;&gt;Nature&lt;a class=&#34;anchor&#34; href=&#34;#nature&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A great selection of nature sounds by Sleep (birds, ocean, storm&amp;hellip;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;phone&#34;&gt;Phone&lt;a class=&#34;anchor&#34; href=&#34;#phone&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You can pick any music file from your storage.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ringtones&lt;/strong&gt;: sounds labeled as ringtones from your system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: tagged as a music by the system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: all sound files, that were not tagged as a music by the system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Any other own file&lt;/strong&gt;: you can manually choose any other file from your internal or external storage you did not find listed.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;how-to-add-your-own-song-or-sound-file&#34;&gt;How to add your own song or sound file &lt;a id=&#34;guide_song&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#how-to-add-your-own-song-or-sound-file&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Switch to &lt;strong&gt;Phone&lt;/strong&gt; tab at the top.&lt;/li&gt;&#xA;&lt;li&gt;Tap on the folder icon &lt;img src=&#34;//localhost:1313/assets/icons/ic_folder.svg&#34; alt=&#34;ic_folder&#34;  /&gt;&#xA; in the upper right corner.&lt;/li&gt;&#xA;&lt;li&gt;Select a file in your file browser.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Make sure the file is available and the app has permission for accessing that folder. On newer Android versions, the safest folder is Media. Downloads folder is not recommended.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alarms on Sleep as Android Docs</title><link>/alarms/</link><description>Recent content in Alarms on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/alarms/index.xml" rel="self" type="application/rss+xml"/><item><title>Alarm settings</title><link>/alarms/alarm_settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/alarm_settings/</guid><description>&lt;p&gt;&lt;strong&gt;Alarm settings help you make your wake-up experience refreshing and enjoyable.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="../sleep/smart_wake_up"&gt;Smart wake up&lt;/a&gt; wakes you at the right stage of sleep&lt;/li&gt;
+&lt;li&gt;&lt;a href="#gentle_alarm"&gt;Gentle volume&lt;/a&gt; feature finds the minimum sound to wake you up&lt;/li&gt;
+&lt;li&gt;&lt;a href="../devices/smart_light"&gt;Smartlight&lt;/a&gt; natural sunrise alarm&lt;/li&gt;
+&lt;li&gt;Make sure you don&amp;rsquo;t oversleep with our &lt;a href="../alarms/captcha"&gt;CAPTCHA&lt;/a&gt; feature&lt;/li&gt;
+&lt;li&gt;And many more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- _Settings -&gt; Alarms_ --&gt;
+&lt;!-- _alarm-specific settings_ --&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a id="per-alarm"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="alarm-defaults-vs-alarm-specific-per-alarm-settings"&gt;Alarm defaults vs alarm-specific &amp;ldquo;per-alarm&amp;rdquo; settings&lt;a class="anchor" href="#alarm-defaults-vs-alarm-specific-per-alarm-settings"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Alarms can be set up in two places because you need a default configuration that controls all alarms and still have the option to create a special alarm with unique behavior.&lt;/p&gt;</description></item><item><title>Backup alarm</title><link>/alarms/backup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/backup/</guid><description>&lt;p&gt;&lt;strong&gt;Starts ringing loudly at maximum volume if you ignore your normal alarm.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Backup alarm will start after &lt;a href="#alarm-timeout"&gt;Alarm timeout&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Backup alarm&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="backup-alarm-duration"&gt;Backup alarm duration&lt;a class="anchor" href="#backup-alarm-duration"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Set how long the backup alarm will ring (it will then snooze for your default &lt;em&gt;Snooze Time&lt;/em&gt;, but never less than 10 minutes).&lt;/p&gt;
+&lt;h2 id="ringtone"&gt;Ringtone&lt;a class="anchor" href="#ringtone"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Backup alarm ringtone.&lt;/p&gt;
+&lt;h3 id="how-to-disable-backup-alarm"&gt;How to disable backup alarm &lt;a id="backup_disable"&gt;&lt;/a&gt;&lt;a class="anchor" href="#how-to-disable-backup-alarm"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Back up -&amp;gt; Sound&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Set the ringtone to &lt;em&gt;Silent&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Silent ringtone for backup alarm won&amp;rsquo;t disable vibrations. The backup alarm is the last thing to let you know that the alarm is still going off, so you can react and not fall asleep.&lt;/p&gt;</description></item><item><title>Bedtime notification</title><link>/alarms/bedtime_notification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/bedtime_notification/</guid><description>&lt;p&gt;&lt;strong&gt;Sends you a &amp;ldquo;Time to go to bed!&amp;rdquo; notification before bedtime.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bedtime notification is an effective way to maintain optimal sleep duration or to combat sleep deficit. You can set the alert to go off anywhere from 5 minutes to 2 hours before bedtime, so you&amp;rsquo;ll have plenty of time to get ready for bed.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Bedtime notification&lt;/em&gt;
+&lt;em&gt;per-alarm settings -&amp;gt; Bedtime notification&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The time of your bedtime is calculated as follows:
+&lt;code&gt;bedtime = next alarm time – daily sleep duration goal&lt;/code&gt;
+[EXAMPLE]
+You have set your &lt;a href="#duration_goal"&gt;Daily sleep duration goal&lt;/a&gt; to 7 hours, and an alarm for 6 AM.
+Your bedtime would be 11 PM.&lt;/p&gt;</description></item><item><title>CAPTCHA</title><link>/alarms/captcha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/captcha/</guid><description>&lt;p&gt;&lt;strong&gt;Gives you a task to solve in order to turn off the alarm.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CAPTCHAs make sure you wake up on time and don&amp;rsquo;t be late for your daily duties. CAPTCHAs prevent any unintentional alarm dismiss.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href="../alarms/alarm_settings#per-alarm"&gt;Alarm-specific settings&lt;/a&gt; -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="default-captcha"&gt;Default CAPTCHA&lt;a class="anchor" href="#default-captcha"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;CAPTCHA for all alarms.&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.&lt;/p&gt;</description></item><item><title>Create alarm</title><link>/alarms/create_alarm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/create_alarm/</guid><description>&lt;p&gt;&lt;strong&gt;Creating new alarms or a naps.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="creating-a-new-alarm"&gt;Creating a new alarm&lt;a class="anchor" href="#creating-a-new-alarm"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can create an alarm by using any of these methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Set new alarm card&lt;/strong&gt;: on Dashboard, when there is no active alarm. &lt;img src="../assets/images/set_alarm_1.png" alt="" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alarm icon &lt;img src="../assets/icons/ic_alarm_plus.svg" alt="ic_alarm_plus" /&gt;
+&lt;/strong&gt;: in the search bar (Tabs layout) &lt;img src="../assets/images/set_alarm_2.png" alt="" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alarm icon &lt;img src="../assets/icons/ic_alarm_plus.svg" alt="ic_alarm_plus" /&gt;
+&lt;/strong&gt;: on the alarm card (Dashboard layout) &lt;img src="../assets/images/set_alarm_3.png" alt="" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alarm icon widget&lt;/strong&gt;: from the main screen - see &lt;a href="ux/widgets"&gt;more details about widgets&lt;/a&gt; &lt;img src="../assets/images/set_alarm_4.png" alt="" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shortcut bar on the Dashboard&lt;/strong&gt;: creates a new alarm (with the &lt;em&gt;Delete after ringing&lt;/em&gt; option enabled) and start sleep tracking in one step.
+&lt;img src="../assets/images/set_alarm_5.png" alt="" /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="editing-the-alarms"&gt;Editing the alarms&lt;a class="anchor" href="#editing-the-alarms"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;To quickly edit trigger time of an existing alarm, tap on the time of the alarm.&lt;/p&gt;</description></item><item><title>Naps</title><link>/alarms/naps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/naps/</guid><description>&lt;p&gt;&lt;strong&gt;Schedule an alarm to go off &lt;em&gt;after&lt;/em&gt; a certain amount of time instead of &lt;em&gt;at&lt;/em&gt; a certain hour and minute.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[EXAMPLE]
+Instead of setting the alarm to go off at 7 a.m., you can set it to go off in 15 minutes.&lt;/p&gt;
+&lt;p&gt;Add a new alarm with &lt;img src="../assets/icons/ic_alarm_plus.svg" alt="ic_alarm_plus" /&gt;
+ -&amp;gt; NAP button. You can choose naps from 1 minute to 10 hours.&lt;/p&gt;
+&lt;p&gt;[.imgflexblock]&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src="../assets/images/alarm_nap.png" alt="" /&gt;
+
+&lt;img src="../assets/images/alarm_nap_2.png" alt="" /&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; By default, nap alarms are deleted after they go off, but you can uncheck the &lt;a href="../alarms/alarm_settings#alarm_delete"&gt;Delete after ringing&lt;/a&gt; option in Alarm settings.&lt;/p&gt;</description></item><item><title>Polyphasic sleeping</title><link>/alarms/polyphasic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/polyphasic/</guid><description>&lt;p&gt;Polyphasic sleep is the practice of sleeping in several shorter periods over the course of 24 hours (as opposed to the more common monophasic sleep with one long period of sleep).
+This type of sleep practice requires some special settings.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Bedtime Notification&lt;/strong&gt; is normally scheduled based on the alarm time and the daily sleep income. Polyphasic sleep naps require a bedtime notification that is not based on the daily amount of sleep, but on the amount of sleep specific to that nap.
+This target sleep duration can be set in the per-alarm setting, where you can select the length of sleep duration for the alarm and also adjust the bedtime notification time.&lt;/p&gt;</description></item><item><title>Power nap</title><link>/alarms/power_nap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/power_nap/</guid><description>&lt;p&gt;&lt;strong&gt;Power nap is a special case of &lt;a href="../alarms/smart_wake_up"&gt;Smart wake-up&lt;/a&gt; for situations when you do not have a specific time to wake up, but you prefer to sleep at least a certain time and then wake up softly after your current sleep cycle ends.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;EXAMPLE&lt;/strong&gt;: Let&amp;rsquo;s say it&amp;rsquo;s the weekend and you can wake up any time after 10:00. If you schedule a power nap alarm for 10:00, it will look for the best time to wake you up between 10:00 and 11:00.[]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can take a nap of at least 20 minutes, but let Sleep as Android find your best time afterwards, so Power Nap will make sure you sleep at least 20 minutes and find your best time in 20 + 59 minutes.&lt;/p&gt;</description></item><item><title>Snooze</title><link>/alarms/snooze/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/snooze/</guid><description>&lt;p&gt;&lt;strong&gt;Snooze will delay your wake up if you do not feel rested at alarm time.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After hitting a snooze button on the alarm screen, you get an additional period of sleep, and the alarm time is postponed.
+You can also limit snoozing in several ways to prevent oversleeping.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Snooze&lt;/em&gt;
+&lt;em&gt;Alarm-specific settings&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[EXAMPLE]
+The alarm goes off at 5:30, and it wakes you up at 5:33.
+But you decide to have some more sleep for a few minutes and you hit the 10 snooze button.
+The alarm goes off again at 5:43 (5:33 + 10 minutes snooze).&lt;/p&gt;</description></item><item><title>Sound</title><link>/alarms/ringtone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/ringtone/</guid><description>&lt;p&gt;&lt;strong&gt;Changes how your alarms sound.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Choose any music or sounds from a built-in nature sounds library, from your device storage or use online radios or streaming services such as Spotify for even more enjoyable mornings.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Sound&lt;/em&gt;
+&lt;em&gt;per-alarm settings -&amp;gt; Sound&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="nature"&gt;Nature&lt;a class="anchor" href="#nature"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A great selection of nature sounds by Sleep (birds, ocean, storm&amp;hellip;)&lt;/p&gt;
+&lt;h2 id="phone"&gt;Phone&lt;a class="anchor" href="#phone"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can pick any music file from your storage.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ringtones&lt;/strong&gt;: sounds labeled as ringtones from your system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: tagged as a music by the system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: all sound files, that were not tagged as a music by the system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Any other own file&lt;/strong&gt;: you can manually choose any other file from your internal or external storage you did not find listed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="how-to-add-your-own-song-or-sound-file"&gt;How to add your own song or sound file &lt;a id="guide_song"&gt;&lt;/a&gt;&lt;a class="anchor" href="#how-to-add-your-own-song-or-sound-file"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Switch to &lt;strong&gt;Phone&lt;/strong&gt; tab at the top.&lt;/li&gt;
+&lt;li&gt;Tap on the folder icon &lt;img src="../assets/icons/ic_folder.svg" alt="ic_folder" /&gt;
+ in the upper right corner.&lt;/li&gt;
+&lt;li&gt;Select a file in your file browser.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Make sure the file is available and the app has permission for accessing that folder. On newer Android versions, the safest folder is Media. Downloads folder is not recommended.&lt;/p&gt;</description></item></channel></rss>
