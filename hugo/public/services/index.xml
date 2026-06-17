@@ -1,192 +1,116 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connected services on Sleep as Android Docs</title><link>/services/</link><description>Recent content in Connected services on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/services/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate walkthroughs</title><link>/services/automate_walkthroughs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/automate_walkthroughs/</guid><description>&lt;p&gt;.Start sleep tracking with Automate
-Download the flow here: &lt;a href="http://llamalab.com/automate/community/flows/13614"&gt;http://llamalab.com/automate/community/flows/13614&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Thanks to Percherie!&lt;/p&gt;</description></item><item><title>Automation</title><link>/services/automation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/automation/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Sleep as Android can be used to automate your smart devices or other applications through various services:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="../services/ifttt"&gt;IFTTT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../services/mqtt"&gt;MQTT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../services/custom_webhooks"&gt;Custom webhooks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../services/tasker_automate"&gt;Tasker or Tasker-compatible apps like Automate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="../devs/intent_api"&gt;Intent API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://developer.android.com/reference/android/provider/AlarmClock"&gt;Android Alarm clock API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="options"&gt;Options&lt;a class="anchor" href="#options"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Events&lt;/strong&gt;: Set events that will be sent from Sleep as Android to each automation service.&lt;/li&gt;
-&lt;li&gt;&lt;a href="#events"&gt;More details&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;.Tasker&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tasker&lt;/strong&gt;: Enable or disable Tasker integration.&lt;/li&gt;
-&lt;li&gt;&lt;a href="../services/tasker_automate"&gt;More details&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;.IFTTT&lt;/p&gt;</description></item><item><title>Backup</title><link>/services/backup_data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/backup_data/</guid><description>&lt;p&gt;&lt;strong&gt;Make sure to never lose your data with either local manual backup or automated cloud backup.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Left&lt;/em&gt; ≡ &lt;em&gt;menu -&amp;gt; Backup&lt;/em&gt;
-&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Cloud backup&lt;/em&gt;
-&lt;em&gt;Settings -&amp;gt; Privacy -&amp;gt; Backup&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;// Google Drive&lt;/strong&gt;: See &lt;a href="#google_drive"&gt;Google Drive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;// Dropbox&lt;/strong&gt;: See &lt;a href="#dropbox"&gt;Dropbox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="local-backup"&gt;Local backup&lt;a class="anchor" href="#local-backup"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a id="local_backup"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Backs up&lt;/strong&gt;: Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Does not back up&lt;/strong&gt;: Inactive alarms&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version, based on &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Privacy -&amp;gt; Storage path&lt;/em&gt;).&lt;/p&gt;</description></item><item><title>Custom webhooks</title><link>/services/custom_webhooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/custom_webhooks/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Allows you to POST events from Sleep as Android to a custom URL endpoint.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; Webhooks&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="guide"&gt;Guide&lt;a class="anchor" href="#guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="setup"&gt;Setup&lt;a class="anchor" href="#setup"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Enable the &lt;em&gt;Webhooks&lt;/em&gt; option&lt;/li&gt;
-&lt;li&gt;Tap the URL option and fill in the URL of your server/application, including &lt;em&gt;http://&lt;/em&gt; or &lt;em&gt;https://&lt;/em&gt; .&lt;/li&gt;
-&lt;li&gt;Tap ok. It&amp;rsquo;s done!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="format-of-the-post-request"&gt;Format of the POST request&lt;a class="anchor" href="#format-of-the-post-request"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;On every event, Sleep as Android will POST a request with a JSON body in the following format:&lt;/p&gt;</description></item><item><title>Google Assistant App Actions</title><link>/services/google_app_actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/google_app_actions/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Control Sleep as Android with voice using Google Assistant.&lt;/p&gt;
-&lt;h2 id="guide"&gt;Guide&lt;a class="anchor" href="#guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="supported-voice-actions"&gt;Supported voice actions&lt;a class="anchor" href="#supported-voice-actions"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The list for each voice action is not exhaustive, but the listed phrases are guaranteed to work.&lt;/p&gt;
-&lt;h4 id="start-sleep-tracking"&gt;Start sleep tracking&lt;a class="anchor" href="#start-sleep-tracking"&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;Hey Google, open Sleep start tracking.&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;Hey Google, open start tracking in Sleep.&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;Hey Google, open tracking in Sleep.&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;Hey Google, open sleep tracking in Sleep.&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;Hey Google, show Sleep start tracking.&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;Hey Google, show start tracking in Sleep.&amp;rdquo;&lt;/p&gt;</description></item><item><title>Google Calendar</title><link>/services/google_calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/google_calendar/</guid><description>&lt;p&gt;&lt;strong&gt;Connects your alarms and sleep data to Google Calendar&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Google Calendar&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Google Calendar needs to be installed on your device, and Android version has to be at least 4.0.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="disable-repeating-alarms-on-holiday"&gt;Disable repeating alarms on holiday&lt;a class="anchor" href="#disable-repeating-alarms-on-holiday"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Allows you to skip repeating alarms on public holiday by confirming the notification.
-Whenever the app finds a public holiday in the calendar, you get a notification with an option to skip the alarm.&lt;/p&gt;</description></item><item><title>Google Fit</title><link>/services/google_fit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/google_fit/</guid><description>&lt;p&gt;Allows you to synchronize data between Sleep as Android and Google Fit.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Google Fit&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="features"&gt;Features&lt;a class="anchor" href="#features"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Upload your sleep data into Google Fit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; When enabling the integration, you are asked whether you&amp;rsquo;d like to synchronize your past records. This is currently limited up to 3 years. All new sleep records are then send to Google Fit.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;[WARNING]
-The app will only store entries without cloud icon (that were already synced from another cloud service).&lt;/p&gt;</description></item><item><title>Health Connect</title><link>/services/health_connect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/health_connect/</guid><description>&lt;p&gt;Allows you to synchronize data between Sleep as Android and Health Connect.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Export of your sleep phases from Sleep&lt;/li&gt;
-&lt;li&gt;Import of 3rd party sleep data into Sleep&lt;/li&gt;
-&lt;li&gt;Exchanging data about resting HR&lt;/li&gt;
-&lt;li&gt;Exchanging data about SpO2 data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Health Connect&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Health Connect service is still in BETA.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;h2 id="how-to-connect-to--health-connect"&gt;How to connect to Health Connect&lt;a class="anchor" href="#how-to-connect-to--health-connect"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;[.imgflexblock]&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src="../assets/images/hc_1.png" alt="" /&gt;
-
-&lt;img src="../assets/images/hc_2.png" alt="" /&gt;
-
-&lt;img src="../assets/images/hc_3.png" alt="" /&gt;
-
-&lt;img src="../assets/images/hc_5.png" alt="" /&gt;
-
-&lt;img src="../assets/images/hc_4.png" alt="" /&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;[WARNING]
-You need a version from our web installed to access SpO2 data, the version deployed by the Play Store cannot read them - this issue has been reported to Health Connect support. Get the app from our &lt;a href="https://sleep.urbandroid.org/more/download/"&gt;download page&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>IFTTT</title><link>/services/ifttt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/ifttt/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Allows you to use Sleep as Android as a trigger for IFTTT tasks.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We use the link:&lt;a href="https://ifttt.com/maker_webhooks"&gt;IFTTT Webhooks (formerly Maker)&lt;/a&gt; channel to send triggers/events from Sleep as Android.&lt;/p&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; IFTTT&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;When you enable the option, you will be taken to its settings.&lt;/p&gt;
-&lt;h2 id="guide"&gt;Guide&lt;a class="anchor" href="#guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="setup"&gt;Setup&lt;a class="anchor" href="#setup"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;In &lt;em&gt;Settings -&amp;gt; Services -&amp;gt; IFTTT&lt;/em&gt;, tap on &lt;em&gt;Retrieve&lt;/em&gt;. An IFTTT login screen will show up below.&lt;/li&gt;
-&lt;li&gt;Enter your email and password and tap &lt;em&gt;Sign in&lt;/em&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Don&amp;rsquo;t use Google/Facebook login. It doesn&amp;rsquo;t work when the web browser window is embedded inside our app.
-If you don&amp;rsquo;t want to fill your email/password inside our app, you can copy the needed ID from your own browser. Check &lt;a href="https://ifttt.com/services/maker_webhooks/settings"&gt;https://ifttt.com/services/maker_webhooks/settings&lt;/a&gt; – the ID is in the page&amp;rsquo;s URL, after /use/)&lt;/p&gt;</description></item><item><title>MQTT</title><link>/services/mqtt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/mqtt/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Allows you to publish events from Sleep as Android to any MQTT broker.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; MQTT&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="guide"&gt;Guide&lt;a class="anchor" href="#guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="setup"&gt;Setup&lt;a class="anchor" href="#setup"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Enable the &lt;em&gt;MQTT&lt;/em&gt; option&lt;/li&gt;
-&lt;li&gt;Tap the URL option and fill in the URL of the MQTT broker, including &lt;em&gt;mqtt://&lt;/em&gt; or &lt;em&gt;mqtts://&lt;/em&gt; .&lt;/li&gt;
-&lt;li&gt;Tap ok.&lt;/li&gt;
-&lt;li&gt;(Optional) If you want to customize the client ID under which the app will connect to the MQTT Broker, you can do so by tapping &lt;em&gt;Client ID&lt;/em&gt; option. By default, this is &amp;ldquo;SleepAsAndroid&amp;rdquo; and should be fine in case you&amp;rsquo;re the only one publishing to the broker through Sleep as Android.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="format-of-the-post-request"&gt;Format of the POST request&lt;a class="anchor" href="#format-of-the-post-request"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;On every event, Sleep as Android will publish a message to &lt;em&gt;SleepAsAndroid&lt;/em&gt; topic in the following format:&lt;/p&gt;</description></item><item><title>Samsung Health</title><link>/services/s_health/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/s_health/</guid><description>&lt;p&gt;Allows you to sync data between Sleep as Android and Samsung Health&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatically export your sleep duration, sleep times to Samsung Health.&lt;/li&gt;
-&lt;li&gt;Automatically import 3rd party sleep duration and heart rate into Sleep.&lt;/li&gt;
-&lt;li&gt;Automatically sync #sport tag based on your fitness activity recorded in Samsung Health.&lt;/li&gt;
-&lt;li&gt;Automatically import walking sessions during the night (considered as awake, not including sleep walking).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Samsung Health&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="how-to-connect-to-samsung-health"&gt;How to connect to Samsung Health&lt;a class="anchor" href="#how-to-connect-to-samsung-health"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;[.imgflexblock]&lt;/p&gt;</description></item><item><title>SleepCloud</title><link>/services/sleepcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/sleepcloud/</guid><description>&lt;h2 id="what-it-is"&gt;What it is&lt;a class="anchor" href="#what-it-is"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;A dashboard and a storage place for your sleep data.&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You need &lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port"&gt;SleepCloud Backup add-on&lt;/a&gt; installed on your phone.
-In order to use SleepCloud, you need to have a valid Google account and grant us a permission to use this account when connecting to the cloud.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;&lt;a href="../generalterms_of_service"&gt;Terms of service are here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Sleep -&amp;gt; Settings -&amp;gt; Privacy -&amp;gt; SleepCloud&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Online account at directly at &lt;a href="https://sleep-cloud.appspot.com/SleepCloud.html"&gt;https://sleep-cloud.appspot.com/SleepCloud.html&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="features"&gt;Features&lt;a class="anchor" href="#features"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Free SleepCloud service automatically initiates back up once a week.&lt;/p&gt;</description></item><item><title>Spotify</title><link>/services/spotify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/spotify/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Set a Spotify album or playlist as an alarm ringtone.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Spotify&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The Spotify app is available on Play Store.&lt;/p&gt;
-&lt;h2 id="guide"&gt;Guide&lt;a class="anchor" href="#guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;After you enable Spotify in &lt;em&gt;Settings -&amp;gt; Services&lt;/em&gt;, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm&amp;rsquo;s ringtone or lullabies. See &lt;a href="../alarms/ringtone"&gt;Ringtone&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Tasker walkthroughs</title><link>/services/tasker_walkthroughs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/tasker_walkthroughs/</guid><description>&lt;h2 id="create-an-add-alarm-widget-with-tasker"&gt;Create an “Add alarm” widget with Tasker&lt;a class="anchor" href="#create-an-add-alarm-widget-with-tasker"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Sleep as Android does not offer a widget to add an alarm directly.&lt;/p&gt;
-&lt;p&gt;How to create one in Tasker?&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Fire up Tasker, go to Tasks tab and add a new task (+) named Add alarm&lt;/li&gt;
-&lt;li&gt;Tap + to add an action, select System &amp;gt; Send Intent
-.. In action, insert com.urbandroid.sleep.alarmclock.SetAlarm
-.. As package, set com.urbandroid.sleep
-.. As target, select Activity
-.. Go back to confirm&lt;/li&gt;
-&lt;li&gt;Add an icon in the lower right corner&lt;/li&gt;
-&lt;li&gt;Long press on your desktop and add a Shortcut &amp;gt; Task shortcut and select Add alarm (your new task)&lt;/li&gt;
-&lt;li&gt;Don’t forget to enable Tasker!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="integrate-sleep-with-huemanic"&gt;Integrate Sleep with hueManic&lt;a class="anchor" href="#integrate-sleep-with-huemanic"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You can use any of the Sleep as Android’s events in Tasker to start a service com.urbandroid.hue/.ProgramService with following extras:&lt;/p&gt;</description></item><item><title>Tasker, Automate</title><link>/services/tasker_automate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/tasker_automate/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Tasker and Automate are automation tools for Android.&lt;/p&gt;
-&lt;!-- Sleep as Android by default includes a plugin for both Tasker and Automate. --&gt;
-&lt;p&gt;After setup, you can react to &lt;strong&gt;events&lt;/strong&gt; that happen in Sleep as Android (such as &lt;em&gt;alarm was dismissed&lt;/em&gt;), and you can call &lt;strong&gt;actions&lt;/strong&gt; (such as &lt;em&gt;start sleep tracking&lt;/em&gt;).&lt;/p&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Sleep as Android -&amp;gt; Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; Tasker&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;You need to have either &lt;a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm"&gt;Tasker&lt;/a&gt; or &lt;a href="https://play.google.com/store/apps/details?id=com.llamalab.automate"&gt;Automate&lt;/a&gt; installed.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Connected services on Sleep as Android Docs</title>
+    <link>//localhost:1313/services/</link>
+    <description>Recent content in Connected services on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate walkthroughs</title>
+      <link>//localhost:1313/services/automate_walkthroughs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/automate_walkthroughs/</guid>
+      <description>&lt;p&gt;.Start sleep tracking with Automate&#xA;Download the flow here: &lt;a href=&#34;http://llamalab.com/automate/community/flows/13614&#34;&gt;http://llamalab.com/automate/community/flows/13614&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thanks to Percherie!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>//localhost:1313/services/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/automation/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Sleep as Android can be used to automate your smart devices or other applications through various services:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../services/ifttt&#34;&gt;IFTTT&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../services/mqtt&#34;&gt;MQTT&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../services/custom_webhooks&#34;&gt;Custom webhooks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../services/tasker_automate&#34;&gt;Tasker or Tasker-compatible apps like Automate&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../devs/intent_api&#34;&gt;Intent API&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.android.com/reference/android/provider/AlarmClock&#34;&gt;Android Alarm clock API&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;options&#34;&gt;Options&lt;a class=&#34;anchor&#34; href=&#34;#options&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Events&lt;/strong&gt;: Set events that will be sent from Sleep as Android to each automation service.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#events&#34;&gt;More details&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;.Tasker&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tasker&lt;/strong&gt;: Enable or disable Tasker integration.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../services/tasker_automate&#34;&gt;More details&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;.IFTTT&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Backup</title>
+      <link>//localhost:1313/services/backup_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/backup_data/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Make sure to never lose your data with either local manual backup or automated cloud backup.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Left&lt;/em&gt; ≡ &lt;em&gt;menu -&amp;gt; Backup&lt;/em&gt;&#xA;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Cloud backup&lt;/em&gt;&#xA;&lt;em&gt;Settings -&amp;gt; Privacy -&amp;gt; Backup&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;// Google Drive&lt;/strong&gt;: See &lt;a href=&#34;#google_drive&#34;&gt;Google Drive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;// Dropbox&lt;/strong&gt;: See &lt;a href=&#34;#dropbox&#34;&gt;Dropbox&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;local-backup&#34;&gt;Local backup&lt;a class=&#34;anchor&#34; href=&#34;#local-backup&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a id=&#34;local_backup&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backs up&lt;/strong&gt;: Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Does not back up&lt;/strong&gt;: Inactive alarms&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version, based on &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Privacy -&amp;gt; Storage path&lt;/em&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom webhooks</title>
+      <link>//localhost:1313/services/custom_webhooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/custom_webhooks/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Allows you to POST events from Sleep as Android to a custom URL endpoint.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; Webhooks&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;a class=&#34;anchor&#34; href=&#34;#guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;a class=&#34;anchor&#34; href=&#34;#setup&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Enable the &lt;em&gt;Webhooks&lt;/em&gt; option&lt;/li&gt;&#xA;&lt;li&gt;Tap the URL option and fill in the URL of your server/application, including &lt;em&gt;http://&lt;/em&gt; or &lt;em&gt;https://&lt;/em&gt; .&lt;/li&gt;&#xA;&lt;li&gt;Tap ok. It&amp;rsquo;s done!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;format-of-the-post-request&#34;&gt;Format of the POST request&lt;a class=&#34;anchor&#34; href=&#34;#format-of-the-post-request&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;On every event, Sleep as Android will POST a request with a JSON body in the following format:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Assistant App Actions</title>
+      <link>//localhost:1313/services/google_app_actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/google_app_actions/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Control Sleep as Android with voice using Google Assistant.&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;a class=&#34;anchor&#34; href=&#34;#guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;supported-voice-actions&#34;&gt;Supported voice actions&lt;a class=&#34;anchor&#34; href=&#34;#supported-voice-actions&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The list for each voice action is not exhaustive, but the listed phrases are guaranteed to work.&lt;/p&gt;&#xA;&lt;h4 id=&#34;start-sleep-tracking&#34;&gt;Start sleep tracking&lt;a class=&#34;anchor&#34; href=&#34;#start-sleep-tracking&#34;&gt;#&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;ldquo;Hey Google, open Sleep start tracking.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;ldquo;Hey Google, open start tracking in Sleep.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;ldquo;Hey Google, open tracking in Sleep.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;ldquo;Hey Google, open sleep tracking in Sleep.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;ldquo;Hey Google, show Sleep start tracking.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;ldquo;Hey Google, show start tracking in Sleep.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Calendar</title>
+      <link>//localhost:1313/services/google_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/google_calendar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Connects your alarms and sleep data to Google Calendar&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Google Calendar&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Google Calendar needs to be installed on your device, and Android version has to be at least 4.0.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;disable-repeating-alarms-on-holiday&#34;&gt;Disable repeating alarms on holiday&lt;a class=&#34;anchor&#34; href=&#34;#disable-repeating-alarms-on-holiday&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Allows you to skip repeating alarms on public holiday by confirming the notification.&#xA;Whenever the app finds a public holiday in the calendar, you get a notification with an option to skip the alarm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Fit</title>
+      <link>//localhost:1313/services/google_fit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/google_fit/</guid>
+      <description>&lt;p&gt;Allows you to synchronize data between Sleep as Android and Google Fit.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Google Fit&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;a class=&#34;anchor&#34; href=&#34;#features&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upload your sleep data into Google Fit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; When enabling the integration, you are asked whether you&amp;rsquo;d like to synchronize your past records. This is currently limited up to 3 years. All new sleep records are then send to Google Fit.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;p&gt;[WARNING]&#xA;The app will only store entries without cloud icon (that were already synced from another cloud service).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Health Connect</title>
+      <link>//localhost:1313/services/health_connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/health_connect/</guid>
+      <description>&lt;p&gt;Allows you to synchronize data between Sleep as Android and Health Connect.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Export of your sleep phases from Sleep&lt;/li&gt;&#xA;&lt;li&gt;Import of 3rd party sleep data into Sleep&lt;/li&gt;&#xA;&lt;li&gt;Exchanging data about resting HR&lt;/li&gt;&#xA;&lt;li&gt;Exchanging data about SpO2 data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Health Connect&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Health Connect service is still in BETA.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;h2 id=&#34;how-to-connect-to--health-connect&#34;&gt;How to connect to  Health Connect&lt;a class=&#34;anchor&#34; href=&#34;#how-to-connect-to--health-connect&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;[.imgflexblock]&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../assets/images/hc_1.png&#34; alt=&#34;&#34;  /&gt;&#xA;&#xA;&lt;img src=&#34;../assets/images/hc_2.png&#34; alt=&#34;&#34;  /&gt;&#xA;&#xA;&lt;img src=&#34;../assets/images/hc_3.png&#34; alt=&#34;&#34;  /&gt;&#xA;&#xA;&lt;img src=&#34;../assets/images/hc_5.png&#34; alt=&#34;&#34;  /&gt;&#xA;&#xA;&lt;img src=&#34;../assets/images/hc_4.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;[WARNING]&#xA;You need a version from our web installed to access SpO2 data, the version deployed by the Play Store cannot read them - this issue has been reported to Health Connect support. Get the app from our &lt;a href=&#34;https://sleep.urbandroid.org/more/download/&#34;&gt;download page&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IFTTT</title>
+      <link>//localhost:1313/services/ifttt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/ifttt/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Allows you to use Sleep as Android as a trigger for IFTTT tasks.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We use the link:&lt;a href=&#34;https://ifttt.com/maker_webhooks&#34;&gt;IFTTT Webhooks (formerly Maker)&lt;/a&gt; channel to send triggers/events from Sleep as Android.&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; IFTTT&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;When you enable the option, you will be taken to its settings.&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;a class=&#34;anchor&#34; href=&#34;#guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;a class=&#34;anchor&#34; href=&#34;#setup&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;In &lt;em&gt;Settings -&amp;gt; Services -&amp;gt; IFTTT&lt;/em&gt;, tap on &lt;em&gt;Retrieve&lt;/em&gt;. An IFTTT login screen will show up below.&lt;/li&gt;&#xA;&lt;li&gt;Enter your email and password and tap &lt;em&gt;Sign in&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Don&amp;rsquo;t use Google/Facebook login. It doesn&amp;rsquo;t work when the web browser window is embedded inside our app.&#xA;If you don&amp;rsquo;t want to fill your email/password inside our app, you can copy the needed ID from your own browser. Check &lt;a href=&#34;https://ifttt.com/services/maker_webhooks/settings&#34;&gt;https://ifttt.com/services/maker_webhooks/settings&lt;/a&gt; – the ID is in the page&amp;rsquo;s URL, after /use/)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MQTT</title>
+      <link>//localhost:1313/services/mqtt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/mqtt/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Allows you to publish events from Sleep as Android to any MQTT broker.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; MQTT&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;a class=&#34;anchor&#34; href=&#34;#guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;a class=&#34;anchor&#34; href=&#34;#setup&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Enable the &lt;em&gt;MQTT&lt;/em&gt; option&lt;/li&gt;&#xA;&lt;li&gt;Tap the URL option and fill in the URL of the MQTT broker, including &lt;em&gt;mqtt://&lt;/em&gt; or &lt;em&gt;mqtts://&lt;/em&gt; .&lt;/li&gt;&#xA;&lt;li&gt;Tap ok.&lt;/li&gt;&#xA;&lt;li&gt;(Optional) If you want to customize the client ID under which the app will connect to the MQTT Broker, you can do so by tapping &lt;em&gt;Client ID&lt;/em&gt; option. By default, this is &amp;ldquo;SleepAsAndroid&amp;rdquo; and should be fine in case you&amp;rsquo;re the only one publishing to the broker through Sleep as Android.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;format-of-the-post-request&#34;&gt;Format of the POST request&lt;a class=&#34;anchor&#34; href=&#34;#format-of-the-post-request&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;On every event, Sleep as Android will publish a message to &lt;em&gt;SleepAsAndroid&lt;/em&gt; topic in the following format:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Samsung Health</title>
+      <link>//localhost:1313/services/s_health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/s_health/</guid>
+      <description>&lt;p&gt;Allows you to sync data between Sleep as Android and Samsung Health&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatically export your sleep duration, sleep times to Samsung Health.&lt;/li&gt;&#xA;&lt;li&gt;Automatically import 3rd party sleep duration and heart rate into Sleep.&lt;/li&gt;&#xA;&lt;li&gt;Automatically sync #sport tag based on your fitness activity recorded in Samsung Health.&lt;/li&gt;&#xA;&lt;li&gt;Automatically import walking sessions during the night (considered as awake, not including sleep walking).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Samsung Health&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-connect-to-samsung-health&#34;&gt;How to connect to Samsung Health&lt;a class=&#34;anchor&#34; href=&#34;#how-to-connect-to-samsung-health&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;[.imgflexblock]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SleepCloud</title>
+      <link>//localhost:1313/services/sleepcloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/sleepcloud/</guid>
+      <description>&lt;h2 id=&#34;what-it-is&#34;&gt;What it is&lt;a class=&#34;anchor&#34; href=&#34;#what-it-is&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;A dashboard and a storage place for your sleep data.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You need &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&#34;&gt;SleepCloud Backup add-on&lt;/a&gt; installed on your phone.&#xA;In order to use SleepCloud, you need to have a valid Google account and grant us a permission to use this account when connecting to the cloud.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;p&gt;&lt;a href=&#34;../generalterms_of_service&#34;&gt;Terms of service are here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Sleep -&amp;gt; Settings -&amp;gt; Privacy -&amp;gt; SleepCloud&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Online account at directly at &lt;a href=&#34;https://sleep-cloud.appspot.com/SleepCloud.html&#34;&gt;https://sleep-cloud.appspot.com/SleepCloud.html&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;a class=&#34;anchor&#34; href=&#34;#features&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Free SleepCloud service automatically initiates back up once a week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spotify</title>
+      <link>//localhost:1313/services/spotify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/spotify/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Set a Spotify album or playlist as an alarm ringtone.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Spotify&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Spotify app is available on Play Store.&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;a class=&#34;anchor&#34; href=&#34;#guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;After you enable Spotify in &lt;em&gt;Settings -&amp;gt; Services&lt;/em&gt;, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm&amp;rsquo;s ringtone or lullabies. See &lt;a href=&#34;../alarms/ringtone&#34;&gt;Ringtone&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tasker walkthroughs</title>
+      <link>//localhost:1313/services/tasker_walkthroughs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/tasker_walkthroughs/</guid>
+      <description>&lt;h2 id=&#34;create-an-add-alarm-widget-with-tasker&#34;&gt;Create an “Add alarm” widget with Tasker&lt;a class=&#34;anchor&#34; href=&#34;#create-an-add-alarm-widget-with-tasker&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Sleep as Android does not offer a widget to add an alarm directly.&lt;/p&gt;&#xA;&lt;p&gt;How to create one in Tasker?&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fire up Tasker, go to Tasks tab and add a new task (+) named Add alarm&lt;/li&gt;&#xA;&lt;li&gt;Tap + to add an action, select System &amp;gt; Send Intent&#xA;.. In action, insert com.urbandroid.sleep.alarmclock.SetAlarm&#xA;.. As package, set com.urbandroid.sleep&#xA;.. As target, select Activity&#xA;.. Go back to confirm&lt;/li&gt;&#xA;&lt;li&gt;Add an icon in the lower right corner&lt;/li&gt;&#xA;&lt;li&gt;Long press on your desktop and add a Shortcut &amp;gt; Task shortcut and select Add alarm (your new task)&lt;/li&gt;&#xA;&lt;li&gt;Don’t forget to enable Tasker!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;integrate-sleep-with-huemanic&#34;&gt;Integrate Sleep with hueManic&lt;a class=&#34;anchor&#34; href=&#34;#integrate-sleep-with-huemanic&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You can use any of the Sleep as Android’s events in Tasker to start a service com.urbandroid.hue/.ProgramService with following extras:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tasker, Automate</title>
+      <link>//localhost:1313/services/tasker_automate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/tasker_automate/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Tasker and Automate are automation tools for Android.&lt;/p&gt;&#xA;&lt;!-- Sleep as Android by default includes a plugin for both Tasker and Automate. --&gt;&#xA;&lt;p&gt;After setup, you can react to &lt;strong&gt;events&lt;/strong&gt; that happen in Sleep as Android (such as &lt;em&gt;alarm was dismissed&lt;/em&gt;), and you can call &lt;strong&gt;actions&lt;/strong&gt; (such as &lt;em&gt;start sleep tracking&lt;/em&gt;).&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sleep as Android -&amp;gt; Settings -&amp;gt; Services -&amp;gt; Automation -&amp;gt; Tasker&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;You need to have either &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&#34;&gt;Tasker&lt;/a&gt; or &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.llamalab.automate&#34;&gt;Automate&lt;/a&gt; installed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
