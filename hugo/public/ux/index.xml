@@ -1,98 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>User interface on Sleep as Android Docs</title><link>/ux/</link><description>Recent content in User interface on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/ux/index.xml" rel="self" type="application/rss+xml"/><item><title>Alarms only mode</title><link>/ux/hs_alarms_only/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/hs_alarms_only/</guid><description>&lt;p&gt;&lt;strong&gt;Alarms only&lt;/strong&gt; mode, is a special, simplified mode, when you are using only alarms and do not care about the tracking at all.
-The main screen shows list of your alarms.&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; This mode affects also settings appearance (hides all sleep tracking related options) and the &lt;a href="../ux/left_menu"&gt;Left ☰ menu&lt;/a&gt; (hides sleep tracking related options, if there are no tracking history).&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;&lt;em&gt;Left&lt;/em&gt; ☰ &lt;em&gt;menu -&amp;gt; Home screen section -&amp;gt; Alarms only&lt;/em&gt;
-&lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Home screen&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Dashboard home screen</title><link>/ux/hs_dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/hs_dashboard/</guid><description>&lt;p&gt;&lt;strong&gt;Dashboard home screen&lt;/strong&gt; is designed to give you just the info you need at a glance. If you find anything irrelevant - just swipe the card away to create space for relevant content.&lt;/p&gt;
-&lt;p&gt;If you use some of the cards frequently, &lt;em&gt;long press&lt;/em&gt; to pin it to the top.&lt;/p&gt;
-&lt;p&gt;[EXAMPLE]
-Do you use Shortcuts to start naps or sleep tracking with an ideal alarm every day? Just pin the Shortcut card to top
-Are you working on an active Goal? Just pin it to always see your latest progress.&lt;/p&gt;</description></item><item><title>Left ☰ menu</title><link>/ux/left_menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/left_menu/</guid><description>&lt;p&gt;&lt;strong&gt;Left ☰ menu is an expandable menu for easy navigation and quick access to features.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Tap ☰ icon in the upper left corner or swipe from the left to expand the menu.&lt;/p&gt;
-&lt;p&gt;[NOTE]
-On phones with gesture navigation you need to tap and hold instead of the swipe to access the menu.&lt;/p&gt;
-&lt;p&gt;The content of the Left menu might be influenced by the type of home screen.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;In &lt;strong&gt;Tabs home screen&lt;/strong&gt;, the options shown as tabs are hidden. If Dashboard tab is disabled, shortcuts are added to the Left menu.&lt;/li&gt;
-&lt;li&gt;In &lt;strong&gt;Alarms only mode&lt;/strong&gt;, the tracking related features are hidden, if there is no tracking history.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2 id="chronotype"&gt;Chronotype&lt;a class="anchor" href="#chronotype"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Based on your sleep patterns in tracking history, the app will determine your chronotype and shows you the icon in the Left menu - either you are morning lark, or night owl.&lt;/p&gt;</description></item><item><title>Personalization</title><link>/ux/personalize/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/personalize/</guid><description>&lt;p&gt;&lt;strong&gt;Allows you to choose color of the graphs, theme, sort your alarms&amp;hellip; and much more.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Personalize&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="stats"&gt;Stats&lt;a class="anchor" href="#stats"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;See &lt;a href="../sleep/statistics"&gt;Statistics chapter&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="privacy"&gt;Privacy&lt;a class="anchor" href="#privacy"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;See &lt;a href="../general/privacy"&gt;Privacy chapter&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="home-screen"&gt;Home screen&lt;a class="anchor" href="#home-screen"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Chooses the Home screen mode (&lt;a href="../ux/hs_dashboard"&gt;Dashboard&lt;/a&gt;, &lt;a href="../ux/hs_tabs"&gt;Tabs&lt;/a&gt;. or &lt;a href="../ux/hs_alarms_only"&gt;Alarms only&lt;/a&gt;).&lt;/p&gt;
-&lt;h2 id="show-tabs"&gt;Show Tabs&lt;a class="anchor" href="#show-tabs"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).&lt;/p&gt;
-&lt;p&gt;&lt;a id="morning_screen_set"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="morning-screen"&gt;Morning screen&lt;a class="anchor" href="#morning-screen"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You can choose from three screen you see in the morning after tracking, or you can disable the morning screen completely:&lt;/p&gt;</description></item><item><title>Search</title><link>/ux/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/search/</guid><description>&lt;p&gt;&lt;strong&gt;Finds you anything inside Sleep as Android. Settings, documentation, alarms, sleep records&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We are aware that Sleep as Android is a very complex app. If you need anything done, then search is your best friend.
-That is why you find it on almost every screen inside Sleep as Android - in the top bar.&lt;/p&gt;
-&lt;p&gt;Search will search through:&lt;/p&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;&lt;/th&gt;
- &lt;th&gt;What can it find&lt;/th&gt;
- &lt;th&gt;What can you search by&lt;/th&gt;
- &lt;th&gt;Example query&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Anything inside the settings - tapping takes you to the specific settings screen and emphasizes the searched option&lt;/td&gt;
- &lt;td&gt;- Option name&lt;br&gt;- Option description&lt;br&gt;- Various aliases&lt;br&gt;&lt;br&gt;Just try what comes to your mind.&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;eng&lt;/strong&gt; - find the &amp;ldquo;Force English&amp;rdquo; option to switch language&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Looks through this documentation&lt;/td&gt;
- &lt;td&gt;Documentation chapter names&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;search&lt;/strong&gt; - finds you this page&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Alarm&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Looks through active and inactive alarms&lt;/td&gt;
- &lt;td&gt;Alarm time&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;2:50&lt;/strong&gt; - finds you alarms that occur at 2:50&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Add-ons&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Looks through add-ons for Sleep as Android&lt;/td&gt;
- &lt;td&gt;Add-on name&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;cap&lt;/strong&gt; - finds the Captcha pack add-on&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Graphs&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Looks through your sleep records&lt;/td&gt;
- &lt;td&gt;- Sleep record date&lt;br&gt;- Time&lt;br&gt;- Comment&lt;br&gt;- Tags&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;watch&lt;/strong&gt; - finds all records that have been created with a smartwatch&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Noise&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Looks through your sleep noise recordings&lt;/td&gt;
- &lt;td&gt;- Date&lt;br&gt;- Comment&lt;br&gt;- Tags&lt;/td&gt;
- &lt;td&gt;&lt;strong&gt;talk&lt;/strong&gt; - finds all recordings with #talk detected&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Tabs home screen</title><link>/ux/hs_tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/hs_tabs/</guid><description>&lt;p&gt;&lt;strong&gt;Tabs home screen&lt;/strong&gt; shows different screens in Tabs - easily accessible and editable.&lt;/p&gt;
-&lt;p&gt;The tabs available can be edited, so you can hide the ones you don&amp;rsquo;t use. The tabs showing will be hidden from the &lt;a href="../ux/left_menu"&gt;Left ☰ menu&lt;/a&gt;. Alarms tab is always visible.&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The app remembers where you left the app the last time - and this tab will be shown as the first screen the next time you open the app again.&lt;/p&gt;</description></item><item><title>Widgets</title><link>/ux/widgets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/widgets/</guid><description>&lt;p&gt;.You can choose different widgets for your phone&amp;rsquo;s screen, each with different function.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="widgets"&gt;Widgets&lt;a class="anchor" href="#widgets"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a id="figure-widgets"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Long press on an empty space on your phone screen -&amp;gt; Widgets -&amp;gt; scroll down until you see Sleep.
-Long press the Sleep as Android icon -&amp;gt; tap icon:widget[] icon -&amp;gt; choose the widget from the list.&lt;/p&gt;
-&lt;p&gt;&lt;img src="../assets/images/widgets.png" alt="" /&gt;
-&lt;/p&gt;
-&lt;h3 id="tracking-widget"&gt;Tracking widget&lt;a class="anchor" href="#tracking-widget"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Starts a tracking and reminds you when to go to bed with colors.Two hours before the bedtime, shows the countdown. When you reach bedtime, the widget turns red as a warning that you should go to sleep ASAP.
-Tapping on tracking widgets initiates sleep tracking.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User interface on Sleep as Android Docs</title>
+    <link>//localhost:1313/ux/</link>
+    <description>Recent content in User interface on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/ux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alarms only mode</title>
+      <link>//localhost:1313/ux/hs_alarms_only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ux/hs_alarms_only/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Alarms only&lt;/strong&gt; mode, is a special, simplified  mode, when you are using only alarms and do not care about the tracking at all.&#xA;The main screen shows list of your alarms.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; This mode affects also settings appearance (hides all sleep tracking related options) and the &lt;a href=&#34;../ux/left_menu&#34;&gt;Left ☰ menu&lt;/a&gt; (hides sleep tracking related options, if there are no tracking history).&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;p&gt;&lt;em&gt;Left&lt;/em&gt; ☰ &lt;em&gt;menu -&amp;gt; Home screen section -&amp;gt; Alarms only&lt;/em&gt;&#xA;&lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Home screen&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dashboard home screen</title>
+      <link>//localhost:1313/ux/hs_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ux/hs_dashboard/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Dashboard home screen&lt;/strong&gt; is designed to give you just the info you need at a glance. If you find anything irrelevant - just swipe the card away to create space for relevant content.&lt;/p&gt;&#xA;&lt;p&gt;If you use some of the cards frequently, &lt;em&gt;long press&lt;/em&gt; to pin it to the top.&lt;/p&gt;&#xA;&lt;p&gt;[EXAMPLE]&#xA;Do you use Shortcuts to start naps or sleep tracking with an ideal alarm every day? Just pin the Shortcut card to top&#xA;Are you working on an active Goal? Just pin it to always see your latest progress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Left ☰ menu</title>
+      <link>//localhost:1313/ux/left_menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ux/left_menu/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Left ☰ menu is an expandable menu for easy navigation and quick access to features.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tap ☰ icon in the upper left corner or swipe from the left to expand the menu.&lt;/p&gt;&#xA;&lt;p&gt;[NOTE]&#xA;On phones with gesture navigation you need to tap and hold instead of the swipe to access the menu.&lt;/p&gt;&#xA;&lt;p&gt;The content of the Left menu might be influenced by the type of home screen.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;In &lt;strong&gt;Tabs home screen&lt;/strong&gt;, the options shown as tabs are hidden. If Dashboard tab is disabled, shortcuts are added to the Left menu.&lt;/li&gt;&#xA;&lt;li&gt;In &lt;strong&gt;Alarms only mode&lt;/strong&gt;, the tracking related features are hidden, if there is no tracking history.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;chronotype&#34;&gt;Chronotype&lt;a class=&#34;anchor&#34; href=&#34;#chronotype&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Based on your sleep patterns in tracking history, the app will determine your chronotype and shows you the icon in the Left menu - either you are morning lark, or night owl.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Personalization</title>
+      <link>//localhost:1313/ux/personalize/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ux/personalize/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Allows you to choose color of the graphs, theme, sort your alarms&amp;hellip; and much more.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Personalize&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;stats&#34;&gt;Stats&lt;a class=&#34;anchor&#34; href=&#34;#stats&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;See &lt;a href=&#34;../sleep/statistics&#34;&gt;Statistics chapter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;a class=&#34;anchor&#34; href=&#34;#privacy&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;See &lt;a href=&#34;../general/privacy&#34;&gt;Privacy chapter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;home-screen&#34;&gt;Home screen&lt;a class=&#34;anchor&#34; href=&#34;#home-screen&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Chooses the Home screen mode (&lt;a href=&#34;../ux/hs_dashboard&#34;&gt;Dashboard&lt;/a&gt;,  &lt;a href=&#34;../ux/hs_tabs&#34;&gt;Tabs&lt;/a&gt;. or  &lt;a href=&#34;../ux/hs_alarms_only&#34;&gt;Alarms only&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;h2 id=&#34;show-tabs&#34;&gt;Show Tabs&lt;a class=&#34;anchor&#34; href=&#34;#show-tabs&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a id=&#34;morning_screen_set&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;morning-screen&#34;&gt;Morning screen&lt;a class=&#34;anchor&#34; href=&#34;#morning-screen&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You can choose from three screen you see in the morning after tracking, or you can disable the morning screen completely:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>//localhost:1313/ux/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ux/search/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Finds you anything inside Sleep as Android. Settings, documentation, alarms, sleep records&amp;hellip;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We are aware that Sleep as Android is a very complex app. If you need anything done, then search is your best friend.&#xA;That is why you find it on almost every screen inside Sleep as Android - in the top bar.&lt;/p&gt;&#xA;&lt;p&gt;Search will search through:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;What can it find&lt;/th&gt;&#xA;          &lt;th&gt;What can you search by&lt;/th&gt;&#xA;          &lt;th&gt;Example query&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Anything inside the settings - tapping takes you to the specific settings screen and emphasizes the searched option&lt;/td&gt;&#xA;          &lt;td&gt;- Option name&lt;br&gt;- Option description&lt;br&gt;- Various aliases&lt;br&gt;&lt;br&gt;Just try what comes to your mind.&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;eng&lt;/strong&gt; - find the &amp;ldquo;Force English&amp;rdquo; option to switch language&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Looks through this documentation&lt;/td&gt;&#xA;          &lt;td&gt;Documentation chapter names&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;search&lt;/strong&gt; - finds you this page&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Alarm&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Looks through active and inactive alarms&lt;/td&gt;&#xA;          &lt;td&gt;Alarm time&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;2:50&lt;/strong&gt; - finds you alarms that occur at 2:50&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Add-ons&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Looks through add-ons for Sleep as Android&lt;/td&gt;&#xA;          &lt;td&gt;Add-on name&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;cap&lt;/strong&gt; - finds the Captcha pack add-on&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Graphs&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Looks through your sleep records&lt;/td&gt;&#xA;          &lt;td&gt;- Sleep record date&lt;br&gt;- Time&lt;br&gt;- Comment&lt;br&gt;- Tags&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;watch&lt;/strong&gt; - finds all records that have been created with a smartwatch&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Noise&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Looks through your sleep noise recordings&lt;/td&gt;&#xA;          &lt;td&gt;- Date&lt;br&gt;- Comment&lt;br&gt;- Tags&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;talk&lt;/strong&gt; - finds all recordings with #talk detected&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Tabs home screen</title>
+      <link>//localhost:1313/ux/hs_tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ux/hs_tabs/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Tabs home screen&lt;/strong&gt; shows different screens in Tabs - easily accessible and editable.&lt;/p&gt;&#xA;&lt;p&gt;The tabs available can be edited, so you can hide the ones you don&amp;rsquo;t use. The tabs showing will be hidden from the &lt;a href=&#34;../ux/left_menu&#34;&gt;Left ☰ menu&lt;/a&gt;. Alarms tab is always visible.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The app remembers where you left the app the last time - and this tab will be shown as the first screen the next time you open the app again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Widgets</title>
+      <link>//localhost:1313/ux/widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ux/widgets/</guid>
+      <description>&lt;p&gt;.You can choose different widgets for your phone&amp;rsquo;s screen, each with different function.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;widgets&#34;&gt;Widgets&lt;a class=&#34;anchor&#34; href=&#34;#widgets&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a id=&#34;figure-widgets&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long press on an empty space on your phone screen -&amp;gt; Widgets -&amp;gt; scroll down until you see Sleep.&#xA;Long press the Sleep as Android icon -&amp;gt; tap icon:widget[] icon -&amp;gt; choose the widget from the list.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../assets/images/widgets.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;tracking-widget&#34;&gt;Tracking widget&lt;a class=&#34;anchor&#34; href=&#34;#tracking-widget&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Starts a tracking and reminds you when to go to bed with colors.Two hours before the bedtime, shows the countdown. When you reach bedtime, the widget turns red as a warning that you should go to sleep ASAP.&#xA;Tapping on tracking widgets initiates sleep tracking.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
