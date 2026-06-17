@@ -1,0 +1,108 @@
+---
+
+layout: default
+title: Privacy
+nav_order: 201
+//parent: /general/general_info.html
+---
+
+
+See [https://team.urbandroid.org/privacy/](https://team.urbandroid.org/privacy/) for up-to-date version of Urbandroid's privacy policy that also concerns Sleep as Android.
+
+**Allows you to change various privacy options in the app.**
+
+_Settings -> Personalize -> Privacy_
+
+---
+
+
+## Privacy policy
+
+
+[A link](https://team.urbandroid.org/privacy-policy/) to our Privacy Policy and Data consent policy for all our apps.
+
+
+## Terms of use
+
+Detailed terms of use of the Sleep as Android app.
+
+
+## Analytics
+
+Allows you to opt-out from anonymous data usage stats.
+The anonymous data are for example - how many users have certain app's version, how many users have certain type of Android, how many users have sonar selected as the sensor...
+> **Note:** No personally identifiable data is collected even when this option is enabled.
+
+
+## Don't personalize ads
+
+Allows you to opt-out from the the Android Ads Personalization; it will take you to the system settings page, where you can turn off this feature.
+> **Note:** Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow [the guide for unlocking the paid version](/faqs/purchase_not_unlocked).
+
+
+## Manage consent
+
+Options for controlling the personal data for personalized advertising.
+> **Note:** Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow [the guide for unlocking the paid version](/faqs/purchase_not_unlocked).
+
+
+## Facebook ads
+
+Redirects you to the Facebook Ads preferences.
+> **Note:** The app does not share your personal data. Advertisement is present only for the free version of the app after the trial.
+The app only asks to display an unspecified ad, the provider of the advertisement will serve the ad based on the advertising ID, that can be disabled (see Don't personalize ads option above)
+You can read more details at our [https://team.urbandroid.org/privacy/](https://team.urbandroid.org/privacy/).
+> **Note:** Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow [the guide for unlocking the paid version](/faqs/purchase_not_unlocked).
+
+
+## SleepCloud:
+
+Access to the [SleepCloud addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&hl=cs&gl=US), if installed and used.
+
+
+## Android app data backup
+
+Allows you to opt-out from the standard Android app data backup service. You can configure the Android backup in _system settings -> Privacy -> Back up_.
+
+
+## Local storage backup
+
+Enables daily local storage, which saves "0/com.urbandroid.sleep/files/sleep-data/sleep-export.zip" file.
+> **Note:** The location of backup storage path may differ on each Android version. If you go to _Left_ ≡ _menu -> Backup -> Export data_, the app shows you the current storage location on the dialogue.
+
+
+## Scoped storage
+
+Enables [Scoped storage](https://source.android.com/devices/storage/scoped); when enabled, the access of the app is restricted only to its designated folder. Substitutes the older read_storage permission.
+
+
+## Restore settings
+
+Deletes all your recent changes in the settings, and restore them from the latest backup.
+
+
+
+## Don't store sleep location
+
+Opts you out of location data collecting. The app only gathers coarse location (± 5km) for [geotagging](/sleep/tags#geo).
+
+
+## Reset home location
+
+Resets your current home location - useful when you move.
+
+
+## Weather
+
+Enables weather data gathering for [morning briefing](/sleep/how_to_read_sleep_graphs#morning_screen) weather tile. The app only checks coarse location (± 5 km).
+
+
+## Disable experimental features
+
+Opt you out from our new experimental features (like new actigraphy data processing, new neuron network for sound classification...).
+
+
+## Handle phone calls
+
+Mutes alarms and lullabies, and pauses sound recording when in phone call. The phone permission is needed.
+

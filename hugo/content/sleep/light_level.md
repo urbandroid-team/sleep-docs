@@ -1,0 +1,24 @@
+---
+
+layout: default
+title: Light level detection
+nav_order: 2
+parent: /sleep/0parent.html
+---
+
+
+**Measures the level of ambient light in your bedroom using the ambient light sensor (lux sensor)**
+
+_Settings -> Sleep tracking -> Awake detection -> Light_
+
+You will see light level plotted on your sleep graph (in the same way as heart rates or breath is plotted), in LUX units.
+
+The _#dark_ tag is added when you have less than 30 lux for at least 90% of the night.
+The _#light_ tag is added when you have more than 60 lux for at least 33% of the night.
+
+
+If there is disturbing light (see the table below for details) after sunset, we consider it as an Awake period.
+- **Medium sensitivity (default)**: Light after sunset over 60 LUX is considered Awake
+- **Low sensitivity**: Light after sunset over 90 LUX is considered Awake
+- **High sensitivity**: Light after sunset over 30 LUX is considered Awake
+> **Note:** Light measurement also plays a role in link:/sleep/automatic_sleep_tracking[Automatic sleep tracking].

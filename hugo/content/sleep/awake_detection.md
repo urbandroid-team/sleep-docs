@@ -1,0 +1,124 @@
+---
+
+layout: default
+title: Awake detection
+nav_order: 2
+parent: /sleep/0parent.html
+tags:
+- tracking
+---
+
+
+**Estimates your awake times during sleep tracking using various hints.**
+
+_Settings -> Sleep tracking -> Awake detection_
+
+---
+
+
+[Actigraphy](/sleep/sleep_tracking_theory) (the method we use for sleep tracking) is not powerful enough to distinguish you being awake and laying still in the bed and not moving or being on the toilet without any nearby sensor. So we use heuristics (hints) that give us a very good and solid view on your awake events.
+
+Awake hints:
+
+* Significant movement
+* Light after sunset
+* Heart rate from wearables
+* Talking or baby crying
+* Use of phone
+
+We then use awake events to measure **sleep efficiency** (_= time sleeping / time tracking_) - an important dimension in your [sleep score](/sleep/sleepscore).
+> **Note:** Awake time is subtracted from your overall sleep **duration** - another important [Sleep score](/sleep/sleepscore) measure.
+> **Note:** In case the app makes a mistake in detecting your awake periods, you can  edit your sleep graph ex-post in order to correct your wake up or before fall asleep periods - check our guide how to [add the missing awakes](/sleep/graph_edit#add_awake), or [revert the false-positive awake](/sleep/graph_edit#delete_awake) from your graph.
+
+
+
+
+<a id="awake-detection-settings"></a>
+<!-- .Awake detection settings -->
+<!-- ![](awake_detection_settings.png) -->
+
+
+## Movement intensity
+
+Movement intensity awake detection is based on **significant activity** measured by a motion detection sensor e.g. Accelerometer in phone or on a wearable, Sonar, Sleep phaser... see [Sensors](/sleep/sensors)
+- **Low sensitivity**: movement intensity is over ~0.25G for phone, ~0.4G for wearable
+- **Medium sensitivity**: movement intensity is over ~0.15G for phone, ~0.25G for wearable
+- **High sensitivity**: movement intensity is over ~0.1G for phone, ~0.2G for wearable
+
+
+## Heart rate monitoring
+
+When using a heart rate sensor, you give Sleep very precise information about your awake times. During sleep, your heart beats approximately 10 BPM slower than when awake.
+> **Note:** The app supports most Bluetooth heart rate devices via BLE, and various smartwatches. Please refer to [Wearables](/devices/wearables) for more details.
+- **Low sensitivity**: current HR is over ~1.25*median HR
+- **Medium sensitivity**: current HR is over ~1.15*median HR
+- **High sensitivity**: current HR is over ~median HR
+
+
+## Light
+
+**Ambient light** in your bedroom after sunset is another hint of you being awake. We use the sensor on the phone for light tracking. If there is a disturbing light after sunset (value depends on set sensitivity), we consider it as an Awake hint.
+- **Low sensitivity**: light over 90 lux
+- **Medium sensitivity**: light over 60 lux
+- **High sensitivity**: light over 30 lux
+> **Note:** The #dark icon:ic_lightbulb_off[] tag is added to graph when you have less than 30 lux for at least 90% of the night.
+The #light icon:ic_lightbulb[] tag is added to graph when you have more than 60 lux for at least 33% of the night.
+
+
+## Talk
+
+Various sounds like talking, baby cry, etc. (see [Sound recognition](/sleep/sound_recognition)), may indicate you are awake. Because every microphone is different, and every environment has different acoustics, it would be impossible to balance all these specifics automatically.
+
+* By setting to **lower sensitivity**, you tell the app to only mark the period as awake if we are quite sure about classification of the sound.
+* **Higher sensitivity** means that also sounds where we are less sure about their classification should mark an awake period.
+> **Note:** The awake detection for talk starts 45 minutes after beginning of tracking and 1 hour before alarm for automatic tracking.
+For manual tracking starts, it is triggered after at least 4 talk-like or other events in last minute.
+
+
+## Snooze
+
+Turns any snooze or pause result into awake.
+
+
+## Awake when using phone
+
+This option adds Awake when the phone is held in upright position, there is minimum hand shaking and screen is on.
+> **Note:** With all settings we require the screen to be on for longer than your _Phone settings -> Display -> Screen timeout_. This is because your phone's screen may turn on by other unconscious event such as the phone is fully charged etc...
+- **Low sensitivity**: only screen on
+- **Medium sensitivity**: screen on, or position of the phone is unusual
+- **High sensitivity**: screen on, or position is unusual, or phone acceleration is unusual
+
+
+## Pause
+
+
+
+### Delayed sleep tracking
+
+Configures automatic pause time at sleep tracking start if you know your typical fall asleep time.
+
+
+### Flip to pause
+
+Allows you to add 5 min pause by flipping your phone from the back to the display or other way around.
+
+
+### Pause button
+
+Available from sleep tracking screen, see [pause-trackig](#pause-trackig).
+
+* Displays the time left,
+* Finished without your further interaction,
+* You may add +5 minutes anytime.
+
+
+### Volume / camera buttons effect
+
+Adds 5 minutes every time your press the volume of camera buttons
+> **Note:** When screen off - press the power button and than one of the volume buttons or camera button.
+
+
+<a id="pause-trackig"></a>
+.Pause tracking from the tracking screen
+![](pause_tracking.png)
+

@@ -1,0 +1,18 @@
+---
+
+layout: default
+title: Pebble
+nav_order: 10
+parent: /devices/wearables.html
+tags:
+- pebble
+- wearable
+---
+
+
+
+## How to set up
+
+
+Please side-load the PDB file:
+[https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw](https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw) on your Pebble watch

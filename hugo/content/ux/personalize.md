@@ -1,0 +1,144 @@
+---
+
+layout: default
+title: Personalization
+nav_order: 2
+parent: /ux/0parent.html
+---
+
+
+**Allows you to choose color of the graphs, theme, sort your alarms... and much more.**
+
+_Settings -> Personalize_
+
+---
+
+
+## Stats
+
+
+See [Statistics chapter](/sleep/statistics).
+
+
+## Privacy
+
+
+See [Privacy chapter](/general/privacy).
+
+
+## Home screen
+
+Chooses the Home screen mode ([Dashboard](/ux/hs_dashboard),  [Tabs](/ux/hs_tabs). or  [Alarms only](/ux/hs_alarms_only)).
+
+
+## Show Tabs
+
+Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).
+
+<a id="morning_screen_set"></a>
+
+## Morning screen
+
+
+You can choose from three screen you see in the morning after tracking, or you can disable the morning screen completely:
+- **Morning briefing**: See [the chapter on Morning screen](/sleep/how_to_read_sleep_graphs#morning_screen).
+- **Graphs**: The app opens the full graph directly.
+- **Dashboard**: The app opens the main screen of the app.
+- **Disabled**: No screen is opened when you finish the tracking.
+
+You can further customize the the morning briefing:
+- **Weather**: Hides the weather tile.
+- **Automatic sleep tagging**: Enables [automatic tags](/sleep/tags#tags_auto).
+- **Hide stats before rating**: Will hide the sleep tracking results till you rate your sleep - enable if you feel that seing the results may influence your rating.
+
+
+## Theme
+
+You can choose a theme (background color of the app):
+- **Automatic (Android OS)**: Follows the switching of changing dark / light themes by your system.
+- **Automatic (Bedtime)**: Uses dark theme between bedtime and sunrise.
+- **Night owl**: Dark theme (black background, white font) all the time.
+- **Morning lark**: Light theme (white background, black font) all the time.
+- **Device settings**: Follows your system settings.
+
+
+## Color palette (Graphs)
+
+You can choose 7 different color palettes for your graphs:
+
+
+<video src="color.mp4" width="400" autoplay muted loop controls></video>
+- **Default**: The current default on new installations (a color may vary!).
+- **Teal**: Teal really is the best color, it's cyan-tiffically proven.
+- **Green**: Yoda green forever!
+- **Blue**: Feeling blue?
+- **Purple**: Been born in the purple?
+- **Miscellaneous**: A combination of blue, teal, and yellow, to match your colorful personality.
+- **Legacy**: Original graph palette from the good old times.
+
+
+## Screen transition animations
+
+Disables animations (for search bar, bar, graphs, stats...)
+
+<a id="tts"></a>
+
+## Text to speech
+
+If enabled, Sleep will tell you when it’s **time to go to bed**, wish you **goodnight** when you start sleep tracking, tell you **it’s time to wake up** when the alarm rings, and tell you **weather** in the morning, after you dismiss the alarm.
+
+The app uses the system TTS engine. You can change your preferred voice in the _system settings -> Accessibility -> Text-to-speech output_.
+
+
+## Force English
+
+Set app language to English, regardless of your system locale.
+
+
+
+## Temperature
+
+Choose temperature units for weather, **Default** option follows your system.
+
+
+## Start week on
+
+Choose which day is the first day of a week, **Device detauls** option follows you system locale.
+
+
+
+## Time format
+
+Choose the format of the time in the app:
+- **Device default**: Uses the format set in system settings
+- **13:00**: 24 hour time format
+- **1:00**: 12 hour time format
+- **1:00 PM**: AM / PM format
+
+
+## Alarm sorting
+
+Sort alarms in alarm list based either on time or day.
+- **Day**: Default value, alarms are sorted based on they day
+- **Time**: All your alarms will be sorted by time regardless on which day are they scheduled to ring.
+
+
+## Analog time picker <a id="analog-picker"></a>
+
+A round analog clock time picker will be shown when creating new alarms instead of the digital one.
+
+
+
+## Release notes
+
+If disabled, you won't be seeing release notes card/dialog when Sleep is updated to a new version. To check the release notes at will, tap _Left ☰ menu -> icon:ic_help[] Support -> Release notes_.
+
+
+## Show advanced settings
+
+All advanced Settings are expanded on all settings screens.
+
+
+## Hide droid avatar
+
+Hides the Droid on the home screen. It's probably not the Droid you were looking for.

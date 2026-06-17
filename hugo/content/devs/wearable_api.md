@@ -1,0 +1,283 @@
+---
+
+layout: default
+title: Wearable integration API
+nav_order: 2
+parent: /devs/0parent.html
+
+---
+
+
+
+## Who is the API intended for
+
+
+If there is a 3rd party wearable you’d like to see integrated with Sleep, that does have some usable API and is not integrated yet, you have 2 options:
+1. Write us about the watch, and we’ll evaluate how useful and feasible would it be to integrate the watch with our application. if we are convinced it is feasible and many users would benefit from it, we’ll do the integration ourselves.
+1. Integrate the watch yourself. You can even make your own paid add-on to Sleep if you want, we have no objections against this!
+
+____
+> **Note:** Due to intent restrictions in Android API levels &gt; 26, we explicitly need to whitelist your package in Sleep if you want to use the API. Let us know at link:mailto:&#105;n&#102;&#x6f;&#x40;&#x75;&#x72;&#98;&#x61;&#x6e;d&#114;&#x6f;&#105;d&#46;&#111;&#114;g[&#105;n&#102;&#x6f;&#x40;&#x75;&#x72;&#98;&#x61;&#x6e;d&#114;&#x6f;&#105;d&#46;&#111;&#114;g], we’ll be glad to do that!
+
+____
+
+This section gives you necessary information about the integration hooks in our application.
+
+
+## High level overview
+
+
+Any newly integrated devices will likely need some device-specific communication channel. You should write a separate android app (add-on) that will do 2 things:
+
+* communicate with the wearable you're integrating
+* communicate with Sleep As Android via standard android intents
+
+
+## Initiating connection to phone
+
+
+When a phone needs to connect to your watch (start of tracking, alarm, ..) it first checks whether the wearable is connected. It will issue the following intent:
+
+`com.urbandroid.sleep.watch.CHECK_CONNECTED`
+
+The intent is issued periodically every five seconds until a positive reply is issued or 2-minute timeout has passed. You should listen to this intent and reply with the following intent when the wearable is connected and ready to be used:
+
+`com.urbandroid.sleep.watch.CONFIRM_CONNECTED`
+
+After this exchange the phone is ready to use the wearable for further actions.
+
+
+## Initiating connection from watch
+
+
+Watch can automatically establish the connection with the phone application by sending some sleep movement data, see later. When this is done, the tracking on phone is automatically started and the connection between the watch and phone is prepared to receive further updates.
+
+
+## Commands from phone
+
+
+There is a fixed set of commands sent from the phone to the watch you need to implement. You do not need to implement all of them, if you do not need all the features.
+
+
+### Start movement tracking
+
+
+* Intent: `com.urbandroid.sleep.watch.START_TRACKING`
+* Extras:
+** `DO_HR_MONITORING`: enables Hear rate and HRV monitoring on the device
+** `DO_OXIMETER_MONITORING`: enables oximetry monitoring on the device
+
+
+### Stop movement tracking
+
+
+* Intent: `com.urbandroid.sleep.watch.STOP_TRACKING`
+
+
+
+### Pause tracking
+
+
+* Intent: `com.urbandroid.sleep.watch.SET_PAUSE`
+* Extras:
+** **TIMESTAMP** (long): Timestamp in milliseconds that tells the watch till when the pause should last. It can be in the future, which means pause is still active, or in the past, which means pause should be terminated.When the pause is received, the watch should note the pause end-time. Till then, no tracking needs to be performed, but values of 0.0 should still be sent. It is advisable to show to a user the tracking is paused and indication of remaining pause time. User should be also given an option to extend or terminate the pause.
+If the pause expires naturally on phone, i.e. its time runs out, there is no notification to the watch about pause being over! Only if user prematurely finishes the pause, watch is notified (by sending `com.urbandroid.sleep.watch.SET_PAUSE` with timestamp 0).
+
+
+### Suspend tracking
+
+
+* Intent: `com.urbandroid.sleep.watch.SET_SUSPENDED`
+* Extras:
+** **SUSPENDED** (bool): Whether the tracking is suspended or not. This is a complementary intent to `com.urbandroid.sleep.watch.SET_PAUSE`. If you do not intend to show any pause indication or allow user to control pausing, you can just listen to `com.urbandroid.sleep.watch.SET_SUSPENDED`. It is set to true when pause starts and set to false when the pause is over.
+
+
+### Set batch size
+
+
+* Intent: `com.urbandroid.sleep.watch.SET_BATCH_SIZE`
+* Extras:
+** **SIZE** (long): Desired batch size.
+
+
+### Start alarm
+
+
+* Intent: `com.urbandroid.sleep.watch.START_ALARM`
+* Extras:
+** **DELAY** (int): Desired delay in millisecond after how long should the alarm start. Value can be also -1, which means that wearable alarm is set to "disabled" in Sleep as Android and the watch should not vibrate (it may display an alarm screen if applicable).
+
+
+### Stop alarm
+
+
+* Intent: `com.urbandroid.sleep.watch.STOP_ALARM`
+
+
+### Set alarm
+
+
+* Intent: `com.urbandroid.sleep.watch.UPDATE_ALARM`
+* Extras:
+** **HOUR** (int): Hour of day, when the next alarm will ring.
+** **MINUTE** (int): Minute of an hour, when the next alarm will ring.
+** **TIMESTAMP** (long): Timestamp (in ms), when the next alarm will ring.
+
+
+### Show notification
+
+
+* Intent: `com.urbandroid.sleep.watch.SHOW_NOTIFICATION`
+* Extras:
+**TITLE** (string): Title of the notification to be shown.
+**TEXT** (string): Text of the notification.
+
+This intent is used to show a generic notification on the watch. It is not required for tracking or alarm to work.
+
+
+### Hint
+
+
+* Intent: `com.urbandroid.sleep.watch.HINT`
+* Extras:
+**REPEAT** (int): How many times should the hint signal be repeated.
+
+Used by watch to send a non-textual notification to user, typically implemented as a short vibration. In case of vibration, the _REPEAT_ extra tells the watch how many times show it vibrate. This command is send for example by lucid dreaming or anti-snoring features.
+
+
+## Commands from watch
+
+
+In this section we list a set of intents that can be sent to our application. Not all of them need to be implemented.
+
+____
+
+**Important:** Each intent has to be an explicit intent, sent to package **com.urbandroid.sleep**.
+
+____
+
+
+### Send movement data
+
+
+* Intent: `com.urbandroid.sleep.watch.DATA_UPDATE`
+* Extras:
+** **MAX_RAW_DATA** (float array): Array containing a geometric average of latest MAX values from the watch.
+
+Sleep As Android expects to receive data aggregated per 10 seconds intervals. The values to be aggregated should be changes in raw accelerometer data expressed in m/s2.
+
+For each sampled value, sum up acceleration change along all axes to get a single value. You should aggregate the 10 seconds maximum of the data. For efficiency, we suggest you do the aggregation on the watch and send only aggregated values to the phone – but that’s up to you.
+
+You should keep aggregating data as they come and send them to Sleep when you have enough aggregated values (as many as was requested by Sleep in `com.urbandroid.sleep.watch.SET_BATCH_SIZE` command).
+You can however send the data later and the collection algorithm in Sleep as Android should handle it.
+
+Values should be sent even if sleep tracking is paused.
+
+Pseudo code to handle the data aggregation:
+
+```
+on_sensor_change() {
+
+  x = sensor.x;
+  y = sensor.y;
+  z = sensor.z;
+
+  max_raw = sqrt((x * x) + (y * y) + (z * z));
+  if (max_raw > current_max_raw_data) {
+    current_max_raw_data = max_raw;
+  }
+
+  lastX = x;
+  lastY = y;
+  lastZ = z;
+}
+```
+Every 10 seconds, add the `current_max_data_raw` to a batch array. Then after a batch period send the batch array to Sleep as Android. Batch period is by default 120 seconds, but Sleep sometimes needs to change it and sends a `com.urbandroid.sleep.watch.SET_BATCH_SIZE` command.
+
+
+### Send heart rate data
+
+
+* Intent: `com.urbandroid.sleep.watch.HR_DATA_UPDATE`
+* Extra:
+** **DATA** (float array): Array containing latest heart rate values. Data should come in order in which they were received.
+
+The data are expected to be expressed in number of heart beats per minute. It is not necessary to sample these data so frequently as movement data. Once every few minutes is perfectly fine.
+
+
+### Send various body sensors data - HR, RR, SPO2, SDNN
+
+
+* Intent: `com.urbandroid.sleep.ACTION_EXTRA_DATA_UPDATE`
+This is a generic intent to carry data from various sensors.
+The data can be sent as a single value or as an array.
+
+* Extras:
+** **Data type marker.** Presence of a particular marker determines what kind of data is carried.
+   If only a single value is sent, it is stored directly in this extra. For an array, see later.
+   One of the following markers must be present:
+*** `com.urbandroid.sleep.EXTRA_DATA_HR` - heart rate in beats per minute.
+    The frequency does not need to be high, once a minute is fine.
+*** `com.urbandroid.sleep.EXTRA_DATA_RR` - R-R intervals in milliseconds,
+    i.e. time intervals between consecutive heart beats.
+    These data need to be reliable. Every R-R interval should be sent.
+*** `com.urbandroid.sleep.EXTRA_DATA_SPO2` - blood oxygenation measure.
+    High frequency (every second or so) is expected.
+*** `com.urbandroid.sleep.EXTRA_DATA_SDNN` - short-term heart rate variability.
+    Typically once every few minutes.
+
+* **The further extras depend on whether a single value or an array is sent.**
+
+** **Single value case**
+*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the measurement.
+    Long - unix timestamp in millis.
+*** The value is stored directly in the marker extra as a float.
+
+** **Array case**
+*** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP` - optional. The time of the last measurement.
+    Long - unix timestamp in millis.
+*** `com.urbandroid.sleep.EXTRA_DATA_FRAMERATE` - optional. Long, millis.
+    The default is 1000 (i.e. 1 second)
+*** `com.urbandroid.sleep.EXTRA_DATA_BATCH` - the data - float array.
+
+* **Single value extras example:**
+** `com.urbandroid.sleep.EXTRA_DATA_SPO2: 97`
+** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000`
+
+* **Array extras example:**
+** `com.urbandroid.sleep.EXTRA_DATA_SPO2: true`
+** `com.urbandroid.sleep.EXTRA_DATA_TIMESTAMP: 1611089609000`
+** `com.urbandroid.sleep.EXTRA_DATA_FRAMERATE: 2000`
+** `com.urbandroid.sleep.EXTRA_DATA_BATCH: [97.0f, 98.0f, 99.9f, 90.0f]`
+
+
+### Pause from watch
+
+
+* Intent: `com.urbandroid.sleep.watch.PAUSE_FROM_WATCH`
+
+Adds 5 minutes to current pause time.
+
+
+### Resume from watch
+
+
+* Intent: `com.urbandroid.sleep.watch.RESUME_FROM_WATCH`
+
+Terminate current pause.
+
+
+### Snooze from watch
+
+
+* Intent: `com.urbandroid.sleep.watch.SNOOZE_FROM_WATCH`
+
+Snooze current alarm.
+
+
+### Dismiss from watch
+
+
+* Intent: `com.urbandroid.sleep.watch.DISMISS_FROM_WATCH`
+
+Dismiss current alarm. If there is a captcha enabled for current alarm, it will be displayed on the phone and has to be solved there. After the captcha is solved, the phone will send the STOP_ALARM action.

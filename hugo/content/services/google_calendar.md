@@ -1,0 +1,63 @@
+---
+
+layout: default
+title: Google Calendar
+nav_order: 2
+parent: /services/0parent.html
+---
+
+
+**Connects your alarms and sleep data to Google Calendar**
+
+_Settings -> Services -> Google Calendar_
+
+Google Calendar needs to be installed on your device, and Android version has to be at least 4.0.
+
+---
+
+
+
+## Disable repeating alarms on holiday
+
+Allows you to skip repeating alarms on public holiday by confirming the notification.
+Whenever the app finds a public holiday in the calendar, you get a notification with an option to skip the alarm.
+
+[NOTE]
+
+#### Most users should have already subscribed public holidays to their calendar. If this is not your case, do this:
+
+
+- click the little downward arrow under “other calendars” on the left side of the default calendar view (beside “add”).
+- click on “browse interesting calendars” and you should be able to see and subscribe to _Public holidays_.
+
+See also [Google Calendar support](https://support.google.com/calendar/answer/6084659?co=GENIE.Platform%3DDesktop&hl=en&oco=0).
+
+#### == Reschedule alarms
+
+Whenever your calendar event collides with your next active alarm, Sleep as Android will move that alarm to an earlier time.
+
+How long before the event will the moved alarm ring? You can set that using the slider below this option.
+<!-- If you want a specific calendar event to reschedule your alarm by a specific time (overriding the slider), you can do that by writing an expression in the following format in the _title_ or _description_ of the calendar event. -->
+<!-- Examples: -->
+<!-- [horizontal] -->
+- **//#alarm-30**: advances the alarm for 30 minutes
+- **//#alarm-30m**: advances the alarm for 30 minutes
+- **//#alarm+20**: postpones the alarm for 20 minutes
+- **//#alarm+20h**: postpones the alarm for 20 hours
+- **//#alarm-1h**: advances the alarm for 1 hour
+- **//#alarm+2h30m**: postpones the alarm for 2 hours 30 min
+- **//#alarm+2h30**: postpones the alarm for 2 hours 30 min
+- **//#alarm+2:15**: postpones the alarm for 2 hours 15 min
+
+You will always get a notification whenever any of your alarms is going to be rescheduled, with an option to revert the automatic option back to the original alarm time.
+
+
+## Add Sleep data to calendar
+
+If enabled, your sleep records will be synced into your Google Calendar.
+On first sync, your current sleep records up to 1 year old will be loaded into the calendar.
+
+.Google Calendar entry
+![](calendar.png)
+> **Note:** The app used a "sleep" calendar in the past, but due to the recent change in Permissions, we had to redesign the integration to match new Google requirements. The app will no longer sync the data to this "sleep" calendar, but will start syncing data to the new "Sleep as Android" Calendar.
+You can still keep the old "sleep" Calendar archived, you just need to deactivate it. The first manual sync to the new calendar will sync all data from the phone up to one year back to the new Sleep as Android calendar.

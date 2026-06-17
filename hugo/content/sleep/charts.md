@@ -1,0 +1,575 @@
+---
+
+layout: default
+title: Charts / Trends
+nav_order: 2
+parent: /sleep/0parent.html
+---
+
+
+**Charts enable you to study your sleep from a long-term perspective.**
+
+Charts are here to help you find patterns in your sleep and enable you to decide for evidence-based changes.
+
+_Left ☰ menu -> Charts_
+- **Date range**: Each chart is computed from data within a certain date range. This range is controlled by the first dropdown menu in the top bar.
+- **Tags**: All charts can be configured to be only computed from sleep records with a certain tag. You can select the tag in the second dropdown menu in the top bar.
+
+---
+
+
+## Trend
+
+
+
+### Sleep score
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_sleepscore.png)
+a|**Sleep score** radar chart is another way of looking at your [sleep score](/sleep/sleepscore).
+
+- You can fill each of the sleep score section with up to 5 points. The more points you have in a given section, the more healthy that dimension of your sleep is.
+
+**How should it look?**
+
+The more the merrier - goal is of course to fill up that chart completely!
+|===
+
+
+### Deficit
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_deficit.png)
+a|**Deficit** chart is useful for tracking your sleep deficit.
+
+
+- If you sleep less then your [Daily sleep duration goal](/sleep/ideal_daily_sleep), the Deficit/Surplus line will be negative on that day. If you sleep more, it will be positive.
+
+- The most interesting point of the deficit chart is the rightmost point of this line. If it's red, it means that you have a sleep debt currently. If it's green, you are oversleeping your target.
+
+**How should it look?**
+
+You should strive to have zero sleep deficit, so ideally all of the lines should aim to be close to 0.
+|===
+
+
+### Duration
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_duration.png)
+a|**Duration** chart shows you the evolution of your sleep lengths.
+<!-- * **Dark green line**: Shows all-time average duration. -->
+<!-- * **Light green line**: -->
+
+- The line either shows actual duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher).
+** Actual duration: Each point corresponds to the sleep duration on that day.
+** 30-day average: Each point on this line is the average sleep duration of that day and each day in the past 30 days from it.
+[EXAMPLE]
+The point at 30 May is the average of sleep durations from 1 May through 30 May.
+The point at 4 May is the average of sleep duration from 5 April through 4 May.
+
+**How should it look?**
+
+The chart should not have many extremes (regular, periodic chart is normal).
+|===
+
+
+### Regularity
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_irregularity.png)
+a|**Regularity** chart shows you how much is your sleep irregular.
+
+- The higher the line is, the more irregular your sleep is.
+
+
+**How should it look?**
+
+While some irregularity is normal, you should strive to keep it to minimum - keep the line at low values.
+|===
+
+
+<a id="chart_sri"></a>
+
+
+### Regularity index
+
+[cols="1,2"]
+|===
+a|![](charts/trend/charts_sri.png)
+a|**Regularity Index** chart shows you the Sleep regularity Index.
+
+- The SRI index is [explained here](/sleep/chrono_jetlag#sri).
+
+**How should it look?**
+
+Ideally, your SRI is kept high close to 100%. The SRI of 100 means your asleep and awake times where absolutely identical between two consecutive days. Values above 80 are considered as regular sleep.
+
+|===
+
+
+<a id="chart_sri_dif"></a>
+
+
+### Regularity index (+/-)
+
+[cols="1,2"]
+|===
+a|![](charts/trend/chart_sri_dif.png)
+a|**Regularity Index (+/-)** chart shows you the increase/decrease of the Sleep regularity Index from your average ([see details about SRI here](/sleep/chrono_jetlag#sri)).
+
+* **Blue columns**: Increase
+* **Red columns**: Decrease
+
+**How should it look?**
+
+Your ideal graph shows minimum fluctuations, no significant increases or decreases.
+|===
+
+
+### Deep sleep %
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_deepsleep_percentage.png)
+a|**Deep sleep %** chart shows you how your deep sleep percentage has been changing recently – effectively how well did you sleep.
+
+- Deep sleep percentage means "a portion of your sleep duration when you've been in deep sleep". So if you had an 8-hour slumber, 50% deep sleep percentage would mean 4 hours in deep sleep. So what this graph shows is how effectively are you able to sleep.
+<!-- * **Deep blue line**: Either shows actual deep sleep percentage (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher). -->
+<!-- * **Deep green line**: Shows all-time average deep sleep percentage. -->
+
+**How should it look?**
+
+The average should be kept over 30%.
+|===
+
+
+### Deep sleep
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_deepsleep.png)
+a|**Deep sleep** chart shows you how your deep sleep duration has been changing recently.
+
+- This graph shows how many hours of deep sleep have you been getting recently.
+<!-- * **Deep blue line**: Either shows actual deep sleep duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher) -->
+<!-- * **Deep green line**: Shows all-time average deep sleep duration. -->
+
+**How should it look?**
+
+The graph should not have many spikes - ideally should be regular, flat line, above 2 hours.
+|===
+
+
+### Awake
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_awake.png)
+a|**Awake** chart shows you how much you've been waking up during your sleep.
+
+- This graph shows a sum of awakes for all the tracking during each day.
+<!-- * **Light green line**: Either shows actual awake duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher) -->
+<!-- * **Deep green line**: Shows all-time average awake during sleep. -->
+
+**How should it look?**
+
+In an ideal world, you should not wake up at all during sleep -this means a flat line at the bottom.
+|===
+
+
+### Efficiency
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_efficiency.png)
+a|**Efficiency** chart shows the ratio of actually sleeping when you're in bed (sleep duration to tracking duration).
+
+- If you are in the bed for 8 hours, but only sleep 6 hours (2hours of awakes), your efficiency is 75%.
+<!-- * **Light green line**: Either shows actual efficiency (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher). -->
+<!-- * **Deep green line**: Shows all-time average of efficiency of your sleep. -->
+
+**How should it look?**
+
+Ideally a line reaching the 100% value most of the times.
+|===
+
+
+### Snoring %
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_snoring_percentage.png)
+a|**Snoring percentage** chart shows how much of the time you sleep did you spend snoring.
+
+- Shows the the ratio between time you snore during the tracking and the sleep duration.
+<!-- * **Violet line**: Either shows actual snoring percentage (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher). -->
+<!-- * **Deep green line**: Shows all-time average snoring percentage. -->
+
+**How should it look?**
+
+Ideally a flat line close to 0%.
+|===
+
+
+### Snoring
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_snoring.png)
+a|**Snoring** chart shows how much time did you spend snoring.
+
+- Shows the total duration of detected snoring from the tracking for each day.
+<!-- * **Violet line**: Either shows actual sum of snoring duration (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher). -->
+<!-- * **Deep green line**: Shows all-time average snoring duration. -->
+
+**How should it look?**
+
+Ideally a flat line close to 0 minutes.
+|===
+
+
+### Graphs
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_graphs.png)
+a|**Graphs**, or "sleep bars", show the intensity of movement during sleep.
+
+- Each bar is one sleep.
+- At the bottom, the charts start with 12PM and go up to the next 12PM.
+- The greener the bar is at any given point, the more intensive movement there was.
+
+**How should it look?**
+
+As the sleep bars are just another view at the actigraph, they should ideally follow the same rules as the actigraph: they should show regular sleep cycles that get shorter towards the end of the sleep.
+|===
+
+
+### Fall asleep hour
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_fall_asleep_hour.png)
+a|**Fall asleep hour** chart shows when you've been going to bed.
+
+- This graph shows when the sleep tracking starts.
+<!-- * **Light green line**: Either shows actual hour when you started sleep tracking (when date range is quarter-year or lower) on a given day or a 30-day average (when date range is half-year or higher). -->
+<!-- * **Dark green line**: Shows all-time average. -->
+
+**How should it look?**
+
+Ideally a flat line with minimum spikes.
+|===
+
+
+### Smart wakeup
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_smart_wakeup.png)
+a|**Smart wakeup** shows how many minutes before the set alarm did smart wake up wake you up.
+
+- This graph represents the efficiency of smart wake up for you.
+<!-- * **Light green line**: Shows how many minutes before the set alarm did smart wakeup wake you up at the given day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher). -->
+<!-- * **Deep green line**: Shows all-time average. -->
+
+**How should it look?**
+
+It should be consistently between zero and your set smart period. If it's at one of the extremes, you should [adjust the smart wakeup sensitivity](/alarms/smart_wake_up#sensitivity).
+|===
+
+
+### Snooze
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_snooze.png)
+a|**Snooze** chart shows how many minutes you've been snoozing your alarm.
+
+- If you feel you might need help with limiting your snoozing, try snooze limits in _Settings -> Alarms -> Snooze_ (you can limit count of snooze, or total allowed snooze time).
+<!-- * **Light green line**: Shows the actual snooze duration for each day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher). -->
+<!-- * **Deep green line**: Shows all-time average of your snoozing. -->
+
+**How should it look?**
+
+There are no hard and fast rules on snoozing, but it sure is a sign of a strong willpower to keep it at zero.
+|===
+
+
+### HRV
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_hrv.png)
+a|**HRV** chart shows total amount of heart rate variability throughout the entire night, including all the local minima and maxima.
+
+- More about [HRV here](https://sleep.urbandroid.org/hrv-tracking/).
+<!-- * **Purple line**: Shows Total HRV for - SDANN (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).. -->
+<!-- * **Deep green line**: Shows all-time average. -->
+
+**How should it look?**
+
+Generally, the higher the better, but ideal HRV is highly individual - your age, gender, fitness level, and fitness activity play the key roles. You should be looking for increasing trend in your HRV data.
+
+
+|===
+
+
+
+### HRV Gain
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_hrv_gain.png)
+a|**HRV gain** chart shows the difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after).
+
+- More about [HRV here](https://sleep.urbandroid.org/hrv-tracking/).
+<!-- * **Purple line**: Shows HRV gain for given day. -->
+<!-- * **Red line**: Shows HRV loss for given day. -->
+
+**How should it look?**
+It should be consistently in the purple positive spectrum.
+|===
+
+
+
+### HRV Before wake up
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_hrv_before_wake.png)
+a|**HRV Before wake up** chart shows HRV before wake up for given day (when date range is quarter-year or lower) or a 30-day average (when date range is half-year or higher).
+
+- More about [HRV here](https://sleep.urbandroid.org/hrv-tracking/).
+
+**How should it look?**
+Like HRV, HRV before wake up is highly individual measure, higher numbers are more favourable.
+
+|===
+
+
+
+### Respiratory disturbances
+
+[cols="1,2"]
+|===
+a|![](charts/trend/trend_respiratory_disturbance.png)
+a|**Respiratory disturbances** chart shows the sum of the respiratory disturbances.
+
+- More about [respiratory disturbances here](/sleep/breath_rate#rdi).
+- Values above 10 are considered as a mild respiratory disturbance.
+
+**How should it look?**
+
+Ideally, there are almost no respiratory disturbance during you sleep, so a flat line reaching close to zero.
+|===
+
+
+
+
+## Tags
+
+This section shows you characteristics of all sleeps that have a certain tag. You can for example find out whether your snoring is higher on sleeps that have an #alcohol tag, or whether rating is higher on sleeps with #sport tag.
+
+Each chart also includes the average value of all your sleeps for reference.
+> **Warning:** This section shows only sleeps that have _at least one tag_.
+> **Note:** You can further filter the sleeps by another tag in the top menu!
+
+
+### Duration
+
+[cols="1,2"]
+|===
+a|![](charts/tags/duration.png)
+|Shows average durations (in hours) of sleeps with a certain tag.
+
+|===
+
+
+### Deep sleep %
+
+[cols="1,2"]
+|===
+a|![](charts/tags/deepsleep_percentage.png)
+|Shows average deep sleep percentage of sleeps with a certain tag.
+
+|===
+
+
+
+### Rating
+
+[cols="1,2"]
+|===
+a|![](charts/tags/rating.png)
+|Shows average rating of sleeps with a certain tag.
+|===
+
+
+### Snoring
+<!-- [cols="1,2"] -->
+|===
+<!-- a|![](charts/tags/snoring.png) -->
+|Shows average snoring durations (in minutes) of sleeps with a certain tag.
+|===
+
+
+### Awake
+
+[cols="1,2"]
+|===
+a|![](charts/tags/awake.png)
+|Shows average awake durations (in minutes) of sleeps with a certain tag.
+|===
+
+
+## Chronotype
+
+Chronotype is a term used to characterise your sleep patterns. It is a spectrum ranging from 100% night owl to 100% morning lark. [Read more on Chronotype](/sleep/chrono_jetlag#chronotype).
+> **Note:** Chronotype statistics need least a month of sleep data.
+
+
+### Mid-sleep hour
+
+[cols="1,2"]
+|===
+a|![](charts/chronotype/midsleephour.png)
+a|Shows where your all-time average mid-sleep hour stands in comparison to other people (data taken from SleepCloud). Your mid-sleep hour is highlighted.
+
+If your mid-sleep hour is more to the right, you are a night owl. If it's more to the left, you're a morning lark.
+|===
+
+
+### Chronotype trend
+
+[cols="1,2"]
+|===
+a|![](charts/chronotype/chronotype_trend.png)
+a|Shows the evolution of your chronotype. If you switched chronotypes at some point, there might've been some specific event like job change etc.
+|===
+
+
+### Social jetlag clusters
+
+[cols="1,2"]
+|===
+a|![](charts/chronotype/jetlag_clusters.png)
+a|Shows your sleeps as points in an XY graph, in order to find your social jet lag.
+
+* In sleeps more to the left, you woke up earlier. While in sleeps to the right, you woke up later.
+* Sleeps towards the top are longer, while sleeps towards the bottom are shorter.
+
+Most importantly, the sleeps are divided into two clusters - **Working days** and **Free days** ([see explanation](/sleep/chrono_jetlag#workdays-and-weekend-days))
+
+**How should it look?**
+
+Ideally, the two clusters should be very close together, indicating that your social jet lag is very low.
+|===
+
+
+### Social jetlag
+
+[cols="1,2"]
+|===
+a|![](charts/chronotype/jetlag.png)
+a|Shows you mid-sleep hour on free days and workdays, and your social jet lag.
+
+**How should it look?**
+
+Ideally, the two leftmost bars should be very similar in height, so your social jet lag would be very low.
+|===
+
+
+## Advice
+
+
+
+### Fall asleep hour regression model
+
+[cols="1,2"]
+|===
+a|![](charts/advice/fall_asleep_regression.png)
+a|**Fall asleep hour regression model** is a chart that helps you decide when you should go to sleep. The aim of this chart is to show you how changes in your fall asleep hour will affect your rating and deep sleep %.
+
+How do we know that? A regression model takes the existing (historical) data, filters out outliers (i.e. extreme values) and then finds a mathematical formula that best fits that data. On the basis of this formula, it is possible to statistically predict future behavior.
+
+You can see two sets of points, and up to two curves.
+
+* **Blue points**: Those are average values of your deep sleep % for a given fall asleep hour.
+* **Blue curve**: Best-fit prediction function that shows what deep sleep % will you have for any given fall asleep hour.
+
+* **Orange points**: Those are average values of your rating for a given fall asleep hour.
+* **Orange curve**: Best-fit prediction function that shows what rating will you have for any given fall asleep hour.
+
+.What to do with this?
+Take a look at the curve (either blue or orange) and focus on the maximum point or points. At what position (what fall asleep hour) it is? You should go to bed at this hour in order to maximize your deep sleep % (in case of blue line) or rating (in case of orange line).
+|===
+
+
+### Duration regression model
+
+[cols="1,2"]
+|===
+a|![](charts/advice/duration_regression.png)
+a|**Duration regression model** is a chart that gives you advice on how long should you sleep. The aim of this chart is to show you how changes in your sleep duration hour will affect your rating and deep sleep %.
+
+How do we know that? A regression model takes the existing (historical) data, filters out outliers (i.e. extreme values) and then finds a mathematical formula that best fits that data. On the basis of this formula, it is possible to statistically predict future behavior.
+
+You can see two sets of points, and up to two curves.
+
+* **Blue points**: Those are average values of your deep sleep % for a given sleep duration.
+* **Blue curve**: Best-fit prediction function that shows what deep sleep % will you have for any given sleep duration.
+
+* **Orange points**: Those are average values of your rating for a given sleep duration.
+* **Orange curve**: Best-fit prediction function that shows what rating will you have for any given sleep duration.
+
+.What to do with this?
+Take a look at the curve (either blue or orange) and focus on the maximum point or points. At what position (what sleep duration) it is? You should try to sleep for that long in order to maximize your deep sleep % (in case of blue line) or rating (in case of orange line).
+|===
+
+
+### Fall asleep hour vs. deep sleep % / rating
+<!-- [cols="1,2"] -->
+|===
+<!-- a|![](charts/advice/fall_asleep_vs_deep.png) -->
+a|Shows you average values of deep sleep % / rating for sleeps that started at a given fall asleep hour.
+|===
+
+
+#### Fall asleep hour vs. sleep duration
+<!-- [cols="1,2"] -->
+|===
+<!-- a|![](charts/advice/fall_asleep_vs_duration.png) -->
+a|Shows you average values of sleep duration for sleeps that started at a given fall asleep hour.
+|===
+
+
+#### Weekday vs. deep sleep % / rating
+<!-- [cols="1,2"] -->
+|===
+<!-- a|![](charts/advice/weekday_vs_deep.png) -->
+a|Shows you average values of deep sleep % / rating for sleeps that started at a given day.
+|===
+
+
+#### Weekday vs. sleep duration
+<!-- [cols="1,2"] -->
+|===
+<!-- a|![](charts/advice/weekday_vs_duration.png) -->
+a|Shows you average values of sleep duration for sleeps that started at a given day.
+|===
+
+
+#### Fall asleep hour vs. snoring
+<!-- [cols="1,2"] -->
+|===
+<!-- a|![](charts/advice/fall_asleep_vs_snoring.png) -->
+a|Shows you average values of snoring for sleeps that started at a given fall asleep hour.
+|===
+<!-- === Goal -->
+<!-- TODO: -->
