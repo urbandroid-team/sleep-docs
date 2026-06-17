@@ -1,22 +1,1808 @@
-<!doctype html><html lang=en dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="What is sleep# Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="What is sleep# Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
 We expect that when we wake up, we’ll feel better than when we went to bed.
 But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.
-"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#2e3440"><meta name=color-scheme content="light dark"><meta property="og:url" content="/sleep/sleep_tracking_theory/"><meta property="og:site_name" content="Sleep as Android Docs"><meta property="og:title" content="Sleep tracking theory"><meta property="og:description" content="What is sleep# Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/sleep/sleep_tracking_theory/">
+  <meta property="og:site_name" content="Sleep as Android Docs">
+  <meta property="og:title" content="Sleep tracking theory">
+  <meta property="og:description" content="What is sleep# Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
 We expect that when we wake up, we’ll feel better than when we went to bed.
-But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="sleep"><meta itemprop=name content="Sleep tracking theory"><meta itemprop=description content="What is sleep# Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
+But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="sleep">
+
+
+  <meta itemprop="name" content="Sleep tracking theory">
+  <meta itemprop="description" content="What is sleep# Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.
 We expect that when we wake up, we’ll feel better than when we went to bed.
-But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively."><meta itemprop=wordCount content="1338"><title>Sleep tracking theory • Sleep as Android Docs</title><link rel=icon href=../../favicon.png><link rel=manifest href=../../manifest.json><link rel=canonical href=../../sleep/sleep_tracking_theory/><link rel=stylesheet href=../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css><script defer type=module src=../../en.search.min.67c6bf5f3c7764aa0d9f0adff70d54ce40666f5e1d3075fced8780416c8cf680.js></script></head><body dir=ltr class="book-kind-page book-type-sleep book-layout-default"><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=../../><span>Sleep as Android Docs</span></a></h2><div class="book-search hidden"><input id=book-search-input type=text placeholder=Search aria-label=Search maxlength=64><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=../../about/>About</a></li><li><a href=../../addons/>Addons</a></li><li><a>Alarms</a><ul><li><a href=../../alarms/alarm_settings/>Alarm settings</a></li><li><a href=../../alarms/backup/>Backup alarm</a></li><li><a href=../../alarms/bedtime_notification/>Bedtime notification</a></li><li><a href=../../alarms/captcha/>CAPTCHA</a></li><li><a href=../../alarms/create_alarm/>Create alarm</a></li><li><a href=../../alarms/naps/>Naps</a></li><li><a href=../../alarms/polyphasic/>Polyphasic sleeping</a></li><li><a href=../../alarms/power_nap/>Power nap</a></li><li><a href=../../alarms/snooze/>Snooze</a></li><li><a href=../../alarms/ringtone/>Sound</a></li></ul></li><li><a>Connected devices</a><ul><li><a href=../../devices/garmin/>Garmin</a></li><li><a href=../../devices/notify/>Notify for Mi Band and Amazfit and Xiaomi & Mi Fitness</a></li><li><a href=../../devices/one_ui/>One UI Watch devices</a></li><li><a href=../../devices/oximeter/>Oximeter</a></li><li><a href=../../devices/pebble/>Pebble</a></li><li><a href=../../devices/samsung_gear/>Samsung Gear / Galaxy Gear</a></li><li><a href=../../devices/sleep_mask/>Sleep mask</a></li><li><a href=../../devices/sleep_phaser_1/>Sleep Phaser v1</a></li><li><a href=../../devices/sleep_phaser_2/>Sleep Phaser v2 + v3</a></li><li><a href=../../devices/smart_light/>Smartlight</a></li><li><a href=../../devices/supported_wearable/>Supported wearables - list</a></li><li><a href=../../devices/test_sensor/>Testing connection with a wearable</a></li><li><a href=../../devices/tools/>Tools & Mi Band and Amazfit</a></li><li><a href=../../devices/wearos/>Wear OS devices</a></li><li><a href=../../devices/wearables/>Wearables</a></li></ul></li><li><a>Connected services</a><ul><li><a href=../../services/automate_walkthroughs/>Automate walkthroughs</a></li><li><a href=../../services/automation/>Automation</a></li><li><a href=../../services/backup_data/>Backup</a></li><li><a href=../../services/custom_webhooks/>Custom webhooks</a></li><li><a href=../../services/google_app_actions/>Google Assistant App Actions</a></li><li><a href=../../services/google_calendar/>Google Calendar</a></li><li><a href=../../services/google_fit/>Google Fit</a></li><li><a href=../../services/health_connect/>Health Connect</a></li><li><a href=../../services/ifttt/>IFTTT</a></li><li><a href=../../services/mqtt/>MQTT</a></li><li><a href=../../services/s_health/>Samsung Health</a></li><li><a href=../../services/sleepcloud/>SleepCloud</a></li><li><a href=../../services/spotify/>Spotify</a></li><li><a href=../../services/tasker_walkthroughs/>Tasker walkthroughs</a></li><li><a href=../../services/tasker_automate/>Tasker, Automate</a></li></ul></li><li><a href=../../devs/>For developers</a><ul><li><a href=../../devs/captcha_api/>CAPTCHA API</a></li><li><a href=../../devs/content_provider_api/>Content provider API</a></li><li><a href=../../devs/csv/>CSV file documentation</a></li><li><a href=../../devs/intent_api/>Intent API</a></li><li><a href=../../devs/sleepcloud_api/>SleepCloud Storage API</a></li><li><a href=../../devs/wearable_api/>Wearable integration API</a></li></ul></li><li><a>Generals</a><ul><li><a href=../../general/start/>Get started with Sleep as Android app</a></li><li><a href=../../general/permissions/>Permissions</a></li><li><a href=../../general/privacy/>Privacy</a></li><li><a href=../../general/plan/>Purchasing the app</a></li><li><a href=../../general/release_notes/>Release notes</a></li><li><a href=../../general/terms_of_service/>Terms of use</a></li><li><a href=../../general/translation/>Translation</a></li></ul></li><li><a>Sleep</a><ul><li><a href=../../sleep/achievements/>Achievements</a></li><li><a href=../../sleep/advice/>Advice</a></li><li><a href=../../sleep/anti_snoring/>Anti-snoring</a></li><li><a href=../../sleep/automatic_sleep_tracking/>Automatic sleep tracking</a></li><li><a href=../../sleep/awake_detection/>Awake detection</a></li><li><a href=../../sleep/breath_rate/>Breath rate detection & blood oxygen measurement</a></li><li><a href=../../sleep/charts/>Charts / Trends</a></li><li><a href=../../sleep/chrono_jetlag/>Chronotype, Social jetlag, Sleep Regularity</a></li><li><a href=../../sleep/graph_edit/>Editing graphs</a></li><li><a href=../../sleep/goals/>Goals</a></li><li><a href=../../sleep/heart_rate/>Heart rate detection</a></li><li><a href=../../sleep/how_to_read_sleep_graphs/>How to read sleep graphs</a></li><li><a href=../../sleep/jetlag/>Jet lag prevention</a></li><li><a href=../../sleep/light_level/>Light level detection</a></li><li><a href=../../sleep/lucid_dreaming/>Lucid dreaming</a></li><li><a href=../../sleep/lullaby/>Lullaby</a></li><li><a href=../../sleep/pair_tracking/>Pair tracking</a></li><li><a href=../../sleep/sensors/>Sensors</a></li><li><a href=../../sleep/sleep_apnea/>Sleep apnea</a></li><li><a href=../../sleep/sleep_noise_recording/>Sleep noise analysis</a></li><li><a href=../../sleep/sleepscore/>Sleep score</a></li><li><a href=../../sleep/sleep_time_estimation/>Sleep time estimation</a></li><li><a href=../../sleep/sleep_tracking/>Sleep tracking</a></li><li><a href=../../sleep/sleep_tracking_theory/ class=active>Sleep tracking theory</a></li><li><a href=../../sleep/sleepcloud_study/>SleepCloud study</a></li><li><a href=../../sleep/smart_wake_up/>Smart wakeup</a></li><li><a href=../../sleep/sound_recognition/>Sound recognition</a></li><li><a href=../../sleep/statistics/>Statistics</a></li><li><a href=../../sleep/tags/>Tags</a></li></ul></li><li><a href=../../template/>Sleep tracking</a></li><li><a href=../../tags/>TAGS</a></li><li><a>User interface</a><ul><li><a href=../../ux/hs_alarms_only/>Alarms only mode</a></li><li><a href=../../ux/hs_dashboard/>Dashboard home screen</a></li><li><a href=../../ux/left_menu/>Left ☰ menu</a></li><li><a href=../../ux/personalize/>Personalization</a></li><li><a href=../../ux/search/>Search</a></li><li><a href=../../ux/hs_tabs/>Tabs home screen</a></li><li><a href=../../ux/widgets/>Widgets</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class="book-header hidden"><div class="flex align-center justify-between"><label for=menu-control><img src=../../icons/menu.svg class=book-icon alt=Menu></label><h3>Sleep tracking theory</h3><label for=toc-control><img src=../../icons/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class=hidden><nav id=TableOfContents><ul><li><ul><li><a href=#what-is-sleep>What is sleep</a><ul><li><a href=#sleep-input-factors>Sleep input factors</a></li><li><a href=#sleep-outcome>Sleep outcome</a></li></ul></li><li><a href=#how-is-sleep-tracked>How is sleep tracked</a><ul><li><a href=#psg-polysomnography>PSG (polysomnography)</a></li><li><a href=#actigraphy>Actigraphy</a></li><li><a href=#comparison-of-psg-to-actigraphy>Comparison of PSG to actigraphy</a></li></ul></li><li><a href=#further-reading>Further reading</a></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><h2 id=what-is-sleep>What is sleep<a class=anchor href=#what-is-sleep>#</a></h2><p>Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.</p><p>We expect that when we wake up, we&rsquo;ll feel better than when we went to bed.</p><p>But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.</p><p>Sleep as Android enables you to track <strong>inputs</strong> and <strong>outcome</strong> of your sleep (the qualities of sleep itself).</p><h3 id=sleep-input-factors>Sleep input factors<a class=anchor href=#sleep-input-factors>#</a></h3><p>The state in which you go to sleep, your bedroom environment, fall asleep and awake time, what you do during the day and of course your genetics are all input factors that determine how your sleep outcome is going to turn out.</p><p>You can do something about the majority of those input factors in order to steer the outcome towards a healthy sleep.</p><p>For that, Sleep as Android gives you tools such as:</p><ul><li><a href=../../sleep/tags>Tags</a></li><li><a href=../../alarms/bedtime_notification>Bedtime notifications</a></li><li>Bedroom <a href=../../sleep/light_level>light levels measurement</a></li><li>Bedroom <a href=../../sleep/sleep_noise_recording>noise measurement</a></li><li><a href=../../alarms/smart_wake_up>Smart alarm</a></li><li><a href=../../alarms/alarm_settings#gentle_alarm>Gentle alarm volume increase</a> & <a href=../../devices/smart_light#sunrise_alarm_guide>gentle alarm light increase / sunrise alarm</a></li></ul><h3 id=sleep-outcome>Sleep outcome<a class=anchor href=#sleep-outcome>#</a></h3><p>Sleep outcome is the actual shape of your sleep - measured and analyzed. There are several ways to establish the quality of the sleep outcome, which together form a picture of your healthy your sleep is.</p><p>So when we want to know how well you sleep, we look at:</p><ul><li>Sleep phases - especially the ratio of deep sleep versus light sleep</li><li>Duration of your sleep</li><li>Efficiency, ie. how long you&rsquo;re actually sleeping vs. being in bed</li><li>Detected snoring duration</li><li>Your subjective quality rating</li></ul><p>Those six dimensions together form your <a href=../../sleep/sleepscore>sleep score</a>.</p><h2 id=how-is-sleep-tracked>How is sleep tracked<a class=anchor href=#how-is-sleep-tracked>#</a></h2><p>Sleep scientists track sleep using two main methods:</p><ul><li><a href=#psg-polysomnography>PSG (polysomnography)</a></li><li><a href=#actigraphy>Actigraphy</a></li></ul><h3 id=psg-polysomnography>PSG (polysomnography)<a class=anchor href=#psg-polysomnography>#</a></h3><p>PSG is the first method used to measure sleep. If you go to a sleep lab, you will with 99% certainty undergo PSG.</p><p>This is the &lsquo;heavyweight&rsquo; method - the patient is usually wearing a lots of sensors:</p><ul><li>EEG (to measure brain activity),</li><li>EOG (to measure eye muscle movements),</li><li>Actigraphs (to measure overall movement),</li><li>EKG (to measure heart activity),</li><li>Pulse oximeter (to measure blood oxygenation level),</li><li>EMG (to measure other muscle movements),</li><li>and possibly other sensors.</li></ul><p>PSG is regarded as a golden standard in sleep science as it measures the most sleep dimensions.</p><p>PSG distinguishes REM sleep and non-REM sleep. Non-REM is further divided into N1, N2, N3 (and previously N4) phases. Sleep phases are largely based on input from EEG. So four major phases characterized by specific EEG patterns are usually recognized today.</p><ul><li><strong>N1 (non-REM-1)</strong>: a short transitional stage between sleep and wakefulness.</li><li><strong>N2</strong>: mostly light dreamless sleep occupying about 60% of the night.</li><li><strong>N3</strong>: the deepest sleep phase. The body is totally relaxed, EEG displays slow regular waves. This stage is believed to play a crucial role in the regenerative processes. Dreaming (so called non-REM dreaming) can occur but is not that common as in REM.</li><li><strong>REM</strong>: high likelihood of vivid dreams, muscle paralysis, bursts of rapid eye movements.</li></ul><p>The phases alternate in a typical sequence called sleep cycle – from a short N1, via N2, to the deep N3, then a shorter transitory N2, followed by REM, interrupted by brief awake. The cycle repeats several times throughout the night. The pattern is however highly variable. The lengths and exact ordering of the phases differ in each individual case.</p><p>The biggest criticism of PSG is that it is too invasive - the patient is not in his home environment and is entangled in lots of wires and other electronics that prevent him from sleeping naturally. This complicates diagnostics.</p><h3 id=actigraphy>Actigraphy<a class=anchor href=#actigraphy>#</a></h3><p>There is, obviously, no EEG in a smartphone or common wearables. However, we can monitor a sleeper with sensors that are available in these devices, and it makes perfect sense to analyze the measurements and see if they display any patterns. In Sleep as Android, we focus mostly on detailed monitoring of body movement throughout the night, using a wide range of available sensors (integrated accelerometer, sonar, infrared sensor).</p><p>And indeed, there are typically distinct phases of very low physical activity, when the body is completely relaxed, and periods of high activity, when the person is tossing and turning on the bed, rolling, twitching, and jerking.</p><p>Thereby in actigraphy, we can define two sleep phases – <strong>light sleep</strong> and <strong>deep sleep</strong>. These phases are shown in hypnograms in Sleep as Android and are used by the app for triggering smart alarms. Let’s call them ACT-phases, as they are based purely on the average short-term amount of physical activity. It’s an objective phenomenon, just like the PSG-phases. We can imagine them as a picture of the same underlying process (sleep) from a different angle. Either picture (PSG-phases, ACT-phases) captures a valid aspect of the reality.</p><h3 id=comparison-of-psg-to-actigraphy>Comparison of PSG to actigraphy<a class=anchor href=#comparison-of-psg-to-actigraphy>#</a></h3><p>Actigraphy uses a different input than PSG and defines sleep phases in its own way.</p><p>Both ACT-phases (from actigraphy) and PSG-phases reflect an objective aspect of sleep. One naturally needs to ask if there&rsquo;s any relationship between PSG-phases and ACT-phases.</p><h4 id=validation-of-actigraphy-done-by-other-teams>Validation of actigraphy done by other teams<a class=anchor href=#validation-of-actigraphy-done-by-other-teams>#</a></h4><p>Several research teams raised similar questions before (See <a href=https://www.researchgate.net/publication/16355093_Rate_and_distribution_of_body_movements_during_sleep_in_Humans>this one</a>, or <a href=https://www.ncbi.nlm.nih.gov/pubmed/25669176>this</a>, or <a href=https://www.ncbi.nlm.nih.gov/pubmed/10607067>this</a>, or <a href=https://link.springer.com/article/10.3758/BF03336549>this</a>). They measured a bunch of people on a traditional polysomnograph and recorded their physical activity at the same time. (By filming them and then counting the movements manually, or by using accelerometer readings). The published analyses show that there indeed is a significant statistical relationship between PSG-phases and body movements.</p><h4 id=validation-of-actigraphy-done-by-us>Validation of actigraphy done by us<a class=anchor href=#validation-of-actigraphy-done-by-us>#</a></h4><p>We have measured how accurate Sleep as Android is when compared to a clinical sleep lab and concluded that light and deep sleep measured by our app strongly correspond with sleep phases measured on PSG. Read <a href=https://sleep.urbandroid.org/sleep-lab-comparison/>an extensive review</a> by our data expert Jan Marek.</p><h4 id=psg-phases-vs-act-phases>PSG-phases vs ACT-phases<a class=anchor href=#psg-phases-vs-act-phases>#</a></h4><p>Deep sleep ACT-phases detected by our app roughly correspond to N3 and partly N2 PSG-phases.
-Light sleep corresponds to REM, N1, and partly N2.</p><p>[cols=&ldquo;1,3&rdquo;]
+But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.">
+  <meta itemprop="wordCount" content="1338">
+
+<title>Sleep tracking theory • Sleep as Android Docs</title>
+<link rel="icon" href="../../favicon.png" >
+<link rel="manifest" href="../../manifest.json">
+<link rel="canonical" href="//localhost:1313/sleep/sleep_tracking_theory/">
+<link rel="stylesheet" href="../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css" integrity="sha256-SPM9Wj6z0AQ3A6GAYQMqLZuouXWpjjEYj69nqsk6i0Q=" crossorigin="anonymous">
+
+
+  <script defer type="module" src="../../en.search.min.67c6bf5f3c7764aa0d9f0adff70d54ce40666f5e1d3075fced8780416c8cf680.js" integrity="sha256-Z8a/Xzx3ZKoNnwrf9w1UzkBmb14dMHX87YeAQWyM9oA=" crossorigin="anonymous"></script>
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-sleep book-layout-default">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="../../"><span>Sleep as Android Docs</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../about/" class="">
+      About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../addons/" class="">
+      Addons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Alarms</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/alarm_settings/" class="">
+      Alarm settings</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/backup/" class="">
+      Backup alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/bedtime_notification/" class="">
+      Bedtime notification</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/captcha/" class="">
+      CAPTCHA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/create_alarm/" class="">
+      Create alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/naps/" class="">
+      Naps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/polyphasic/" class="">
+      Polyphasic sleeping</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/power_nap/" class="">
+      Power nap</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/snooze/" class="">
+      Snooze</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/ringtone/" class="">
+      Sound</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected devices</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/garmin/" class="">
+      Garmin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/notify/" class="">
+      Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/one_ui/" class="">
+      One UI Watch devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/oximeter/" class="">
+      Oximeter</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/pebble/" class="">
+      Pebble</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/samsung_gear/" class="">
+      Samsung Gear / Galaxy Gear</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_mask/" class="">
+      Sleep mask</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_1/" class="">
+      Sleep Phaser v1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_2/" class="">
+      Sleep Phaser v2 &#43; v3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/smart_light/" class="">
+      Smartlight</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/supported_wearable/" class="">
+      Supported wearables - list</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/test_sensor/" class="">
+      Testing connection with a wearable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/tools/" class="">
+      Tools &amp; Mi Band and Amazfit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearos/" class="">
+      Wear OS devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearables/" class="">
+      Wearables</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected services</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automate_walkthroughs/" class="">
+      Automate walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automation/" class="">
+      Automation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/backup_data/" class="">
+      Backup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/custom_webhooks/" class="">
+      Custom webhooks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_app_actions/" class="">
+      Google Assistant App Actions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_calendar/" class="">
+      Google Calendar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_fit/" class="">
+      Google Fit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/health_connect/" class="">
+      Health Connect</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/ifttt/" class="">
+      IFTTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/mqtt/" class="">
+      MQTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/s_health/" class="">
+      Samsung Health</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/sleepcloud/" class="">
+      SleepCloud</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/spotify/" class="">
+      Spotify</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_walkthroughs/" class="">
+      Tasker walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_automate/" class="">
+      Tasker, Automate</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/" class="">
+      For developers</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/captcha_api/" class="">
+      CAPTCHA API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/content_provider_api/" class="">
+      Content provider API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/csv/" class="">
+      CSV file documentation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/intent_api/" class="">
+      Intent API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/sleepcloud_api/" class="">
+      SleepCloud Storage API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/wearable_api/" class="">
+      Wearable integration API</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Generals</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/start/" class="">
+      Get started with Sleep as Android app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/permissions/" class="">
+      Permissions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/privacy/" class="">
+      Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/plan/" class="">
+      Purchasing the app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/release_notes/" class="">
+      Release notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/terms_of_service/" class="">
+      Terms of use</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/translation/" class="">
+      Translation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Sleep</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/achievements/" class="">
+      Achievements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/advice/" class="">
+      Advice</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/anti_snoring/" class="">
+      Anti-snoring</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/automatic_sleep_tracking/" class="">
+      Automatic sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/awake_detection/" class="">
+      Awake detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/breath_rate/" class="">
+      Breath rate detection &amp; blood oxygen measurement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/charts/" class="">
+      Charts / Trends</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/chrono_jetlag/" class="">
+      Chronotype, Social jetlag, Sleep Regularity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/graph_edit/" class="">
+      Editing graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/goals/" class="">
+      Goals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/heart_rate/" class="">
+      Heart rate detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/how_to_read_sleep_graphs/" class="">
+      How to read sleep graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/jetlag/" class="">
+      Jet lag prevention</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/light_level/" class="">
+      Light level detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lucid_dreaming/" class="">
+      Lucid dreaming</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lullaby/" class="">
+      Lullaby</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/pair_tracking/" class="">
+      Pair tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sensors/" class="">
+      Sensors</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_apnea/" class="">
+      Sleep apnea</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_noise_recording/" class="">
+      Sleep noise analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepscore/" class="">
+      Sleep score</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_time_estimation/" class="">
+      Sleep time estimation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking_theory/" class="active">
+      Sleep tracking theory</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepcloud_study/" class="">
+      SleepCloud study</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/smart_wake_up/" class="">
+      Smart wakeup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sound_recognition/" class="">
+      Sound recognition</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/statistics/" class="">
+      Statistics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/tags/" class="">
+      Tags</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../template/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../tags/" class="">
+      TAGS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      User interface</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_alarms_only/" class="">
+      Alarms only mode</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_dashboard/" class="">
+      Dashboard home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/left_menu/" class="">
+      Left ☰ menu</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/personalize/" class="">
+      Personalization</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/search/" class="">
+      Search</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_tabs/" class="">
+      Tabs home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/widgets/" class="">
+      Widgets</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Sleep tracking theory</h3>
+
+  <label for="toc-control">
+    
+    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#what-is-sleep">What is sleep</a>
+          <ul>
+            <li><a href="#sleep-input-factors">Sleep input factors</a></li>
+            <li><a href="#sleep-outcome">Sleep outcome</a></li>
+          </ul>
+        </li>
+        <li><a href="#how-is-sleep-tracked">How is sleep tracked</a>
+          <ul>
+            <li><a href="#psg-polysomnography">PSG (polysomnography)</a></li>
+            <li><a href="#actigraphy">Actigraphy</a></li>
+            <li><a href="#comparison-of-psg-to-actigraphy">Comparison of PSG to actigraphy</a></li>
+          </ul>
+        </li>
+        <li><a href="#further-reading">Further reading</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="what-is-sleep">What is sleep<a class="anchor" href="#what-is-sleep">#</a></h2>
+<p>Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.</p>
+<p>We expect that when we wake up, we&rsquo;ll feel better than when we went to bed.</p>
+<p>But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.</p>
+<p>Sleep as Android enables you to track <strong>inputs</strong> and <strong>outcome</strong> of your sleep (the qualities of sleep itself).</p>
+<h3 id="sleep-input-factors">Sleep input factors<a class="anchor" href="#sleep-input-factors">#</a></h3>
+<p>The state in which you go to sleep, your bedroom environment, fall asleep and awake time, what you do during the day and of course your genetics are all input factors that determine how your sleep outcome is going to turn out.</p>
+<p>You can do something about the majority of those input factors in order to steer the outcome towards a healthy sleep.</p>
+<p>For that, Sleep as Android gives you tools such as:</p>
+<ul>
+<li><a href="../../sleep/tags">Tags</a></li>
+<li><a href="../../alarms/bedtime_notification">Bedtime notifications</a></li>
+<li>Bedroom <a href="../../sleep/light_level">light levels measurement</a></li>
+<li>Bedroom <a href="../../sleep/sleep_noise_recording">noise measurement</a></li>
+<li><a href="../../alarms/smart_wake_up">Smart alarm</a></li>
+<li><a href="../../alarms/alarm_settings#gentle_alarm">Gentle alarm volume increase</a> &amp; <a href="../../devices/smart_light#sunrise_alarm_guide">gentle alarm light increase / sunrise alarm</a></li>
+</ul>
+<h3 id="sleep-outcome">Sleep outcome<a class="anchor" href="#sleep-outcome">#</a></h3>
+<p>Sleep outcome is the actual shape of your sleep - measured and analyzed. There are several ways to establish the quality of the sleep outcome, which together form a picture of your healthy your sleep is.</p>
+<p>So when we want to know how well you sleep, we look at:</p>
+<ul>
+<li>Sleep phases - especially the ratio of deep sleep versus light sleep</li>
+<li>Duration of your sleep</li>
+<li>Efficiency, ie. how long you&rsquo;re actually sleeping vs. being in bed</li>
+<li>Detected snoring duration</li>
+<li>Your subjective quality rating</li>
+</ul>
+<p>Those six dimensions together form your <a href="../../sleep/sleepscore">sleep score</a>.</p>
+<h2 id="how-is-sleep-tracked">How is sleep tracked<a class="anchor" href="#how-is-sleep-tracked">#</a></h2>
+<p>Sleep scientists track sleep using two main methods:</p>
+<ul>
+<li><a href="#psg-polysomnography">PSG (polysomnography)</a></li>
+<li><a href="#actigraphy">Actigraphy</a></li>
+</ul>
+<h3 id="psg-polysomnography">PSG (polysomnography)<a class="anchor" href="#psg-polysomnography">#</a></h3>
+<p>PSG is the first method used to measure sleep. If you go to a sleep lab, you will with 99% certainty undergo PSG.</p>
+<p>This is the &lsquo;heavyweight&rsquo; method - the patient is usually wearing a lots of sensors:</p>
+<ul>
+<li>EEG (to measure brain activity),</li>
+<li>EOG (to measure eye muscle movements),</li>
+<li>Actigraphs (to measure overall movement),</li>
+<li>EKG (to measure heart activity),</li>
+<li>Pulse oximeter (to measure blood oxygenation level),</li>
+<li>EMG (to measure other muscle movements),</li>
+<li>and possibly other sensors.</li>
+</ul>
+<p>PSG is regarded as a golden standard in sleep science as it measures the most sleep dimensions.</p>
+<p>PSG distinguishes REM sleep and non-REM sleep. Non-REM is further divided into N1, N2, N3 (and previously N4) phases. Sleep phases are largely based on input from EEG. So four major phases characterized by specific EEG patterns are usually recognized today.</p>
+<ul>
+<li><strong>N1 (non-REM-1)</strong>: a short transitional stage between sleep and wakefulness.</li>
+<li><strong>N2</strong>: mostly light dreamless sleep occupying about 60% of the night.</li>
+<li><strong>N3</strong>: the deepest sleep phase. The body is totally relaxed, EEG displays slow regular waves. This stage is believed to play a crucial role in the regenerative processes. Dreaming (so called non-REM dreaming) can occur but is not that common as in REM.</li>
+<li><strong>REM</strong>: high likelihood of vivid dreams, muscle paralysis, bursts of rapid eye movements.</li>
+</ul>
+<p>The phases alternate in a typical sequence called sleep cycle – from a short N1, via N2, to the deep N3, then a shorter transitory N2, followed by REM, interrupted by brief awake. The cycle repeats several times throughout the night. The pattern is however highly variable. The lengths and exact ordering of the phases differ in each individual case.</p>
+<p>The biggest criticism of PSG is that it is too invasive - the patient is not in his home environment and is entangled in lots of wires and other electronics that prevent him from sleeping naturally. This complicates diagnostics.</p>
+<h3 id="actigraphy">Actigraphy<a class="anchor" href="#actigraphy">#</a></h3>
+<p>There is, obviously, no EEG in a smartphone or common wearables. However, we can monitor a sleeper with sensors that are available in these devices, and it makes perfect sense to analyze the measurements and see if they display any patterns. In Sleep as Android, we focus mostly on detailed monitoring of body movement throughout the night, using a wide range of available sensors (integrated accelerometer, sonar, infrared sensor).</p>
+<p>And indeed, there are typically distinct phases of very low physical activity, when the body is completely relaxed, and periods of high activity, when the person is tossing and turning on the bed, rolling, twitching, and jerking.</p>
+<p>Thereby in actigraphy, we can define two sleep phases – <strong>light sleep</strong> and <strong>deep sleep</strong>. These phases are shown in hypnograms in Sleep as Android and are used by the app for triggering smart alarms. Let’s call them ACT-phases, as they are based purely on the average short-term amount of physical activity. It’s an objective phenomenon, just like the PSG-phases. We can imagine them as a picture of the same underlying process (sleep) from a different angle. Either picture (PSG-phases, ACT-phases) captures a valid aspect of the reality.</p>
+<h3 id="comparison-of-psg-to-actigraphy">Comparison of PSG to actigraphy<a class="anchor" href="#comparison-of-psg-to-actigraphy">#</a></h3>
+<p>Actigraphy uses a different input than PSG and defines sleep phases in its own way.</p>
+<p>Both ACT-phases (from actigraphy) and PSG-phases reflect an objective aspect of sleep. One naturally needs to ask if there&rsquo;s any relationship between PSG-phases and ACT-phases.</p>
+<h4 id="validation-of-actigraphy-done-by-other-teams">Validation of actigraphy done by other teams<a class="anchor" href="#validation-of-actigraphy-done-by-other-teams">#</a></h4>
+<p>Several research teams raised similar questions before (See <a href="https://www.researchgate.net/publication/16355093_Rate_and_distribution_of_body_movements_during_sleep_in_Humans">this one</a>, or <a href="https://www.ncbi.nlm.nih.gov/pubmed/25669176">this</a>, or <a href="https://www.ncbi.nlm.nih.gov/pubmed/10607067">this</a>, or <a href="https://link.springer.com/article/10.3758/BF03336549">this</a>). They measured a bunch of people on a traditional polysomnograph and recorded their physical activity at the same time. (By filming them and then counting the movements manually, or by using accelerometer readings). The published analyses show that there indeed is a significant statistical relationship between PSG-phases and body movements.</p>
+<h4 id="validation-of-actigraphy-done-by-us">Validation of actigraphy done by us<a class="anchor" href="#validation-of-actigraphy-done-by-us">#</a></h4>
+<p>We have measured how accurate Sleep as Android is when compared to a clinical sleep lab and concluded that light and deep sleep measured by our app strongly correspond with sleep phases measured on PSG. Read <a href="https://sleep.urbandroid.org/sleep-lab-comparison/">an extensive review</a> by our data expert Jan Marek.</p>
+<h4 id="psg-phases-vs-act-phases">PSG-phases vs ACT-phases<a class="anchor" href="#psg-phases-vs-act-phases">#</a></h4>
+<p>Deep sleep ACT-phases detected by our app roughly correspond to N3 and partly N2 PSG-phases.
+Light sleep corresponds to REM, N1, and partly N2.</p>
+<p>[cols=&ldquo;1,3&rdquo;]
 |===
-|PSG-phase |Corresponding movement activity (ACT-phase)</p><p>|N3
+|PSG-phase |Corresponding movement activity (ACT-phase)</p>
+<p>|N3
 |<strong>Deep sleep</strong>
-The least amount of physical activity.</p><p>|N2
+The least amount of physical activity.</p>
+<p>|N2
 |<strong>Deep sleep or light sleep</strong>
-The sleeper spends about half of the night in this phase. Movement intensity is somewhere in between the other phases. Sometimes the physical activity is low, especially when N2 precedes a deep sleep phase, sometimes the activity is higher, before or after N1 or REM phases.</p><p>|N1 and REM
+The sleeper spends about half of the night in this phase. Movement intensity is somewhere in between the other phases. Sometimes the physical activity is low, especially when N2 precedes a deep sleep phase, sometimes the activity is higher, before or after N1 or REM phases.</p>
+<p>|N1 and REM
 |<strong>Light sleep, REM</strong>
 The body is moving the most. The activity in REM might look surprising at first glance. It is known that large muscles are paralyzed during REM, as vivid dreams typically occur at this stage, and the body must be prevented from acting them out, jumping over the bed, riding a spaceship, fighting space villains. The paralysis is not perfect though, and limbs or trunk often randomly jerk and twitch.
-|===</p><p>However, the amount of movements varies greatly, based on age, gender, individual specifics, health, mental state, etc. There is no exact correspondence between such and such movement frequency and a specific sleep phase. The only overall reliable principle is that relatively low activity intervals are mostly N3 or N2, and relatively high activity intervals are likely to be REM, N1, or N2. Any attempt to pinpoint the exact beginning of a sleep phase is subject to a high degree of error and guesswork.</p><p>Nonetheless, this is still a useful approach, providing valuable insights with home-made sleep recordings. Large data can be collected cheaply for population-wise studies. Individual sleep enthusiasts may discover their own sleep patterns and possibly devise their own personalized sleep phenomenology.</p><h2 id=further-reading>Further reading<a class=anchor href=#further-reading>#</a></h2><ol><li><a href=https://sleep.urbandroid.org/how-do-we-measure-your-dreams/>Urbandroid Team: How we measure your dreams</a></li><li><a href=https://sleep.urbandroid.org/sleep-lab-comparison/>Urbandroid Team: How does Sleep as Android compare to the sleep lab</a></li></ol></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div></div><div></div></div><div class="flex flex-wrap justify-between"><span><a href=../../sleep/sleep_tracking/ class="flex align-center"><img src=../../icons/backward.svg class=book-icon alt=Backward>
-<span>Sleep tracking</span>
-</a></span><span><a href=../../sleep/sleepcloud_study/ class="flex align-center"><span>SleepCloud study</span>
-<img src=../../icons/forward.svg class=book-icon alt=Forward></a></span></div><div class=book-comments></div><script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#what-is-sleep>What is sleep</a><ul><li><a href=#sleep-input-factors>Sleep input factors</a></li><li><a href=#sleep-outcome>Sleep outcome</a></li></ul></li><li><a href=#how-is-sleep-tracked>How is sleep tracked</a><ul><li><a href=#psg-polysomnography>PSG (polysomnography)</a></li><li><a href=#actigraphy>Actigraphy</a></li><li><a href=#comparison-of-psg-to-actigraphy>Comparison of PSG to actigraphy</a></li></ul></li><li><a href=#further-reading>Further reading</a></li></ul></li></ul></nav></div></aside></main></body></html>
+|===</p>
+<p>However, the amount of movements varies greatly, based on age, gender, individual specifics, health, mental state, etc. There is no exact correspondence between such and such movement frequency and a specific sleep phase. The only overall reliable principle is that relatively low activity intervals are mostly N3 or N2, and relatively high activity intervals are likely to be REM, N1, or N2. Any attempt to pinpoint the exact beginning of a sleep phase is subject to a high degree of error and guesswork.</p>
+<p>Nonetheless, this is still a useful approach, providing valuable insights with home-made sleep recordings. Large data can be collected cheaply for population-wise studies. Individual sleep enthusiasts may discover their own sleep patterns and possibly devise their own personalized sleep phenomenology.</p>
+<h2 id="further-reading">Further reading<a class="anchor" href="#further-reading">#</a></h2>
+<ol>
+<li><a href="https://sleep.urbandroid.org/how-do-we-measure-your-dreams/">Urbandroid Team: How we measure your dreams</a></li>
+<li><a href="https://sleep.urbandroid.org/sleep-lab-comparison/">Urbandroid Team: How does Sleep as Android compare to the sleep lab</a></li>
+</ol>
+<!-- == Why track your sleep --></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="../../sleep/sleep_tracking/" class="flex align-center">
+        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Sleep tracking</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="../../sleep/sleepcloud_study/" class="flex align-center">
+        <span>SleepCloud study</span>
+        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#what-is-sleep">What is sleep</a>
+          <ul>
+            <li><a href="#sleep-input-factors">Sleep input factors</a></li>
+            <li><a href="#sleep-outcome">Sleep outcome</a></li>
+          </ul>
+        </li>
+        <li><a href="#how-is-sleep-tracked">How is sleep tracked</a>
+          <ul>
+            <li><a href="#psg-polysomnography">PSG (polysomnography)</a></li>
+            <li><a href="#actigraphy">Actigraphy</a></li>
+            <li><a href="#comparison-of-psg-to-actigraphy">Comparison of PSG to actigraphy</a></li>
+          </ul>
+        </li>
+        <li><a href="#further-reading">Further reading</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

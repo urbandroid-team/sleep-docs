@@ -1,15 +1,1709 @@
-<!doctype html><html lang=en dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
 The next day, a pop-up notification with estimated timings appears.
-Settings -> Sleep tracking -> Automatic sleep tracking -> Sleep time estimate
+Settings -&gt; Sleep tracking -&gt; Automatic sleep tracking -&gt; Sleep time estimate
 Disabled: No data from recognition engine are collected. Manual only: Sleep time estimation is saved only after you confirm it. Save automatically: Sleep time estimation is saved automatically when a tracking is missing the previous night. How it works# The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or Google Sleep API), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren’t tracking.
-"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#2e3440"><meta name=color-scheme content="light dark"><meta property="og:url" content="/sleep/sleep_time_estimation/"><meta property="og:site_name" content="Sleep as Android Docs"><meta property="og:title" content="Sleep time estimation"><meta property="og:description" content="If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/sleep/sleep_time_estimation/">
+  <meta property="og:site_name" content="Sleep as Android Docs">
+  <meta property="og:title" content="Sleep time estimation">
+  <meta property="og:description" content="If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
 The next day, a pop-up notification with estimated timings appears.
-Settings -> Sleep tracking -> Automatic sleep tracking -> Sleep time estimate
-Disabled: No data from recognition engine are collected. Manual only: Sleep time estimation is saved only after you confirm it. Save automatically: Sleep time estimation is saved automatically when a tracking is missing the previous night. How it works# The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or Google Sleep API), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren’t tracking."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="sleep"><meta itemprop=name content="Sleep time estimation"><meta itemprop=description content="If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
+Settings -&gt; Sleep tracking -&gt; Automatic sleep tracking -&gt; Sleep time estimate
+Disabled: No data from recognition engine are collected. Manual only: Sleep time estimation is saved only after you confirm it. Save automatically: Sleep time estimation is saved automatically when a tracking is missing the previous night. How it works# The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or Google Sleep API), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren’t tracking.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="sleep">
+
+
+  <meta itemprop="name" content="Sleep time estimation">
+  <meta itemprop="description" content="If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.
 The next day, a pop-up notification with estimated timings appears.
-Settings -> Sleep tracking -> Automatic sleep tracking -> Sleep time estimate
-Disabled: No data from recognition engine are collected. Manual only: Sleep time estimation is saved only after you confirm it. Save automatically: Sleep time estimation is saved automatically when a tracking is missing the previous night. How it works# The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or Google Sleep API), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren’t tracking."><meta itemprop=wordCount content="172"><title>Sleep time estimation • Sleep as Android Docs</title><link rel=icon href=../../favicon.png><link rel=manifest href=../../manifest.json><link rel=canonical href=../../sleep/sleep_time_estimation/><link rel=stylesheet href=../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css><script defer type=module src=../../en.search.min.67c6bf5f3c7764aa0d9f0adff70d54ce40666f5e1d3075fced8780416c8cf680.js></script></head><body dir=ltr class="book-kind-page book-type-sleep book-layout-default"><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=../../><span>Sleep as Android Docs</span></a></h2><div class="book-search hidden"><input id=book-search-input type=text placeholder=Search aria-label=Search maxlength=64><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=../../about/>About</a></li><li><a href=../../addons/>Addons</a></li><li><a>Alarms</a><ul><li><a href=../../alarms/alarm_settings/>Alarm settings</a></li><li><a href=../../alarms/backup/>Backup alarm</a></li><li><a href=../../alarms/bedtime_notification/>Bedtime notification</a></li><li><a href=../../alarms/captcha/>CAPTCHA</a></li><li><a href=../../alarms/create_alarm/>Create alarm</a></li><li><a href=../../alarms/naps/>Naps</a></li><li><a href=../../alarms/polyphasic/>Polyphasic sleeping</a></li><li><a href=../../alarms/power_nap/>Power nap</a></li><li><a href=../../alarms/snooze/>Snooze</a></li><li><a href=../../alarms/ringtone/>Sound</a></li></ul></li><li><a>Connected devices</a><ul><li><a href=../../devices/garmin/>Garmin</a></li><li><a href=../../devices/notify/>Notify for Mi Band and Amazfit and Xiaomi & Mi Fitness</a></li><li><a href=../../devices/one_ui/>One UI Watch devices</a></li><li><a href=../../devices/oximeter/>Oximeter</a></li><li><a href=../../devices/pebble/>Pebble</a></li><li><a href=../../devices/samsung_gear/>Samsung Gear / Galaxy Gear</a></li><li><a href=../../devices/sleep_mask/>Sleep mask</a></li><li><a href=../../devices/sleep_phaser_1/>Sleep Phaser v1</a></li><li><a href=../../devices/sleep_phaser_2/>Sleep Phaser v2 + v3</a></li><li><a href=../../devices/smart_light/>Smartlight</a></li><li><a href=../../devices/supported_wearable/>Supported wearables - list</a></li><li><a href=../../devices/test_sensor/>Testing connection with a wearable</a></li><li><a href=../../devices/tools/>Tools & Mi Band and Amazfit</a></li><li><a href=../../devices/wearos/>Wear OS devices</a></li><li><a href=../../devices/wearables/>Wearables</a></li></ul></li><li><a>Connected services</a><ul><li><a href=../../services/automate_walkthroughs/>Automate walkthroughs</a></li><li><a href=../../services/automation/>Automation</a></li><li><a href=../../services/backup_data/>Backup</a></li><li><a href=../../services/custom_webhooks/>Custom webhooks</a></li><li><a href=../../services/google_app_actions/>Google Assistant App Actions</a></li><li><a href=../../services/google_calendar/>Google Calendar</a></li><li><a href=../../services/google_fit/>Google Fit</a></li><li><a href=../../services/health_connect/>Health Connect</a></li><li><a href=../../services/ifttt/>IFTTT</a></li><li><a href=../../services/mqtt/>MQTT</a></li><li><a href=../../services/s_health/>Samsung Health</a></li><li><a href=../../services/sleepcloud/>SleepCloud</a></li><li><a href=../../services/spotify/>Spotify</a></li><li><a href=../../services/tasker_walkthroughs/>Tasker walkthroughs</a></li><li><a href=../../services/tasker_automate/>Tasker, Automate</a></li></ul></li><li><a href=../../devs/>For developers</a><ul><li><a href=../../devs/captcha_api/>CAPTCHA API</a></li><li><a href=../../devs/content_provider_api/>Content provider API</a></li><li><a href=../../devs/csv/>CSV file documentation</a></li><li><a href=../../devs/intent_api/>Intent API</a></li><li><a href=../../devs/sleepcloud_api/>SleepCloud Storage API</a></li><li><a href=../../devs/wearable_api/>Wearable integration API</a></li></ul></li><li><a>Generals</a><ul><li><a href=../../general/start/>Get started with Sleep as Android app</a></li><li><a href=../../general/permissions/>Permissions</a></li><li><a href=../../general/privacy/>Privacy</a></li><li><a href=../../general/plan/>Purchasing the app</a></li><li><a href=../../general/release_notes/>Release notes</a></li><li><a href=../../general/terms_of_service/>Terms of use</a></li><li><a href=../../general/translation/>Translation</a></li></ul></li><li><a>Sleep</a><ul><li><a href=../../sleep/achievements/>Achievements</a></li><li><a href=../../sleep/advice/>Advice</a></li><li><a href=../../sleep/anti_snoring/>Anti-snoring</a></li><li><a href=../../sleep/automatic_sleep_tracking/>Automatic sleep tracking</a></li><li><a href=../../sleep/awake_detection/>Awake detection</a></li><li><a href=../../sleep/breath_rate/>Breath rate detection & blood oxygen measurement</a></li><li><a href=../../sleep/charts/>Charts / Trends</a></li><li><a href=../../sleep/chrono_jetlag/>Chronotype, Social jetlag, Sleep Regularity</a></li><li><a href=../../sleep/graph_edit/>Editing graphs</a></li><li><a href=../../sleep/goals/>Goals</a></li><li><a href=../../sleep/heart_rate/>Heart rate detection</a></li><li><a href=../../sleep/how_to_read_sleep_graphs/>How to read sleep graphs</a></li><li><a href=../../sleep/jetlag/>Jet lag prevention</a></li><li><a href=../../sleep/light_level/>Light level detection</a></li><li><a href=../../sleep/lucid_dreaming/>Lucid dreaming</a></li><li><a href=../../sleep/lullaby/>Lullaby</a></li><li><a href=../../sleep/pair_tracking/>Pair tracking</a></li><li><a href=../../sleep/sensors/>Sensors</a></li><li><a href=../../sleep/sleep_apnea/>Sleep apnea</a></li><li><a href=../../sleep/sleep_noise_recording/>Sleep noise analysis</a></li><li><a href=../../sleep/sleepscore/>Sleep score</a></li><li><a href=../../sleep/sleep_time_estimation/ class=active>Sleep time estimation</a></li><li><a href=../../sleep/sleep_tracking/>Sleep tracking</a></li><li><a href=../../sleep/sleep_tracking_theory/>Sleep tracking theory</a></li><li><a href=../../sleep/sleepcloud_study/>SleepCloud study</a></li><li><a href=../../sleep/smart_wake_up/>Smart wakeup</a></li><li><a href=../../sleep/sound_recognition/>Sound recognition</a></li><li><a href=../../sleep/statistics/>Statistics</a></li><li><a href=../../sleep/tags/>Tags</a></li></ul></li><li><a href=../../template/>Sleep tracking</a></li><li><a href=../../tags/>TAGS</a></li><li><a>User interface</a><ul><li><a href=../../ux/hs_alarms_only/>Alarms only mode</a></li><li><a href=../../ux/hs_dashboard/>Dashboard home screen</a></li><li><a href=../../ux/left_menu/>Left ☰ menu</a></li><li><a href=../../ux/personalize/>Personalization</a></li><li><a href=../../ux/search/>Search</a></li><li><a href=../../ux/hs_tabs/>Tabs home screen</a></li><li><a href=../../ux/widgets/>Widgets</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class="book-header hidden"><div class="flex align-center justify-between"><label for=menu-control><img src=../../icons/menu.svg class=book-icon alt=Menu></label><h3>Sleep time estimation</h3><label for=toc-control><img src=../../icons/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class=hidden><nav id=TableOfContents><ul><li><ul><li><a href=#how-it-works>How it works</a></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><p>If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.</p><p>The next day, a pop-up notification with estimated timings appears.</p><p><img src=../../assets/images/suggestion.png alt></p><p><em>Settings -> Sleep tracking -> Automatic sleep tracking -> Sleep time estimate</em></p><ul><li><strong>Disabled</strong>: No data from recognition engine are collected.</li><li><strong>Manual only</strong>: Sleep time estimation is saved only after you confirm it.</li><li><strong>Save automatically</strong>: Sleep time estimation is saved automatically when a tracking is missing the previous night.</li></ul><h2 id=how-it-works>How it works<a class=anchor href=#how-it-works>#</a></h2><p>The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or <a href=https://developers.google.com/location-context/sleep>Google Sleep API</a>), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren&rsquo;t tracking.</p><blockquote class=book-hint><p><strong>Note:</strong> This feature requires at least 500 events in sensor batching queue. If you don&rsquo;t see Sleep time estimation listed in the Settings, than your phone does not meet this criteria.</p></blockquote></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div></div><div></div></div><div class="flex flex-wrap justify-between"><span><a href=../../sleep/sleepscore/ class="flex align-center"><img src=../../icons/backward.svg class=book-icon alt=Backward>
-<span>Sleep score</span>
-</a></span><span><a href=../../sleep/sleep_tracking/ class="flex align-center"><span>Sleep tracking</span>
-<img src=../../icons/forward.svg class=book-icon alt=Forward></a></span></div><div class=book-comments></div><script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#how-it-works>How it works</a></li></ul></li></ul></nav></div></aside></main></body></html>
+Settings -&gt; Sleep tracking -&gt; Automatic sleep tracking -&gt; Sleep time estimate
+Disabled: No data from recognition engine are collected. Manual only: Sleep time estimation is saved only after you confirm it. Save automatically: Sleep time estimation is saved automatically when a tracking is missing the previous night. How it works# The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or Google Sleep API), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren’t tracking.">
+  <meta itemprop="wordCount" content="172">
+
+<title>Sleep time estimation • Sleep as Android Docs</title>
+<link rel="icon" href="../../favicon.png" >
+<link rel="manifest" href="../../manifest.json">
+<link rel="canonical" href="//localhost:1313/sleep/sleep_time_estimation/">
+<link rel="stylesheet" href="../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css" integrity="sha256-SPM9Wj6z0AQ3A6GAYQMqLZuouXWpjjEYj69nqsk6i0Q=" crossorigin="anonymous">
+
+
+  <script defer type="module" src="../../en.search.min.67c6bf5f3c7764aa0d9f0adff70d54ce40666f5e1d3075fced8780416c8cf680.js" integrity="sha256-Z8a/Xzx3ZKoNnwrf9w1UzkBmb14dMHX87YeAQWyM9oA=" crossorigin="anonymous"></script>
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-sleep book-layout-default">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="../../"><span>Sleep as Android Docs</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../about/" class="">
+      About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../addons/" class="">
+      Addons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Alarms</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/alarm_settings/" class="">
+      Alarm settings</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/backup/" class="">
+      Backup alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/bedtime_notification/" class="">
+      Bedtime notification</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/captcha/" class="">
+      CAPTCHA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/create_alarm/" class="">
+      Create alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/naps/" class="">
+      Naps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/polyphasic/" class="">
+      Polyphasic sleeping</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/power_nap/" class="">
+      Power nap</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/snooze/" class="">
+      Snooze</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/ringtone/" class="">
+      Sound</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected devices</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/garmin/" class="">
+      Garmin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/notify/" class="">
+      Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/one_ui/" class="">
+      One UI Watch devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/oximeter/" class="">
+      Oximeter</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/pebble/" class="">
+      Pebble</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/samsung_gear/" class="">
+      Samsung Gear / Galaxy Gear</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_mask/" class="">
+      Sleep mask</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_1/" class="">
+      Sleep Phaser v1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_2/" class="">
+      Sleep Phaser v2 &#43; v3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/smart_light/" class="">
+      Smartlight</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/supported_wearable/" class="">
+      Supported wearables - list</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/test_sensor/" class="">
+      Testing connection with a wearable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/tools/" class="">
+      Tools &amp; Mi Band and Amazfit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearos/" class="">
+      Wear OS devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearables/" class="">
+      Wearables</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected services</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automate_walkthroughs/" class="">
+      Automate walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automation/" class="">
+      Automation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/backup_data/" class="">
+      Backup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/custom_webhooks/" class="">
+      Custom webhooks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_app_actions/" class="">
+      Google Assistant App Actions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_calendar/" class="">
+      Google Calendar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_fit/" class="">
+      Google Fit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/health_connect/" class="">
+      Health Connect</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/ifttt/" class="">
+      IFTTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/mqtt/" class="">
+      MQTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/s_health/" class="">
+      Samsung Health</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/sleepcloud/" class="">
+      SleepCloud</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/spotify/" class="">
+      Spotify</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_walkthroughs/" class="">
+      Tasker walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_automate/" class="">
+      Tasker, Automate</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/" class="">
+      For developers</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/captcha_api/" class="">
+      CAPTCHA API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/content_provider_api/" class="">
+      Content provider API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/csv/" class="">
+      CSV file documentation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/intent_api/" class="">
+      Intent API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/sleepcloud_api/" class="">
+      SleepCloud Storage API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/wearable_api/" class="">
+      Wearable integration API</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Generals</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/start/" class="">
+      Get started with Sleep as Android app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/permissions/" class="">
+      Permissions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/privacy/" class="">
+      Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/plan/" class="">
+      Purchasing the app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/release_notes/" class="">
+      Release notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/terms_of_service/" class="">
+      Terms of use</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/translation/" class="">
+      Translation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Sleep</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/achievements/" class="">
+      Achievements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/advice/" class="">
+      Advice</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/anti_snoring/" class="">
+      Anti-snoring</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/automatic_sleep_tracking/" class="">
+      Automatic sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/awake_detection/" class="">
+      Awake detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/breath_rate/" class="">
+      Breath rate detection &amp; blood oxygen measurement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/charts/" class="">
+      Charts / Trends</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/chrono_jetlag/" class="">
+      Chronotype, Social jetlag, Sleep Regularity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/graph_edit/" class="">
+      Editing graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/goals/" class="">
+      Goals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/heart_rate/" class="">
+      Heart rate detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/how_to_read_sleep_graphs/" class="">
+      How to read sleep graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/jetlag/" class="">
+      Jet lag prevention</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/light_level/" class="">
+      Light level detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lucid_dreaming/" class="">
+      Lucid dreaming</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lullaby/" class="">
+      Lullaby</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/pair_tracking/" class="">
+      Pair tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sensors/" class="">
+      Sensors</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_apnea/" class="">
+      Sleep apnea</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_noise_recording/" class="">
+      Sleep noise analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepscore/" class="">
+      Sleep score</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_time_estimation/" class="active">
+      Sleep time estimation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking_theory/" class="">
+      Sleep tracking theory</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepcloud_study/" class="">
+      SleepCloud study</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/smart_wake_up/" class="">
+      Smart wakeup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sound_recognition/" class="">
+      Sound recognition</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/statistics/" class="">
+      Statistics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/tags/" class="">
+      Tags</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../template/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../tags/" class="">
+      TAGS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      User interface</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_alarms_only/" class="">
+      Alarms only mode</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_dashboard/" class="">
+      Dashboard home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/left_menu/" class="">
+      Left ☰ menu</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/personalize/" class="">
+      Personalization</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/search/" class="">
+      Search</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_tabs/" class="">
+      Tabs home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/widgets/" class="">
+      Widgets</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Sleep time estimation</h3>
+
+  <label for="toc-control">
+    
+    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#how-it-works">How it works</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p>If you forget to start sleep tracking we can use your phone activity recognition engine and try to estimate you sleep duration.</p>
+<p>The next day, a pop-up notification with estimated timings appears.</p>
+<p><img src="../../assets/images/suggestion.png" alt=""  />
+</p>
+<p><em>Settings -&gt; Sleep tracking -&gt; Automatic sleep tracking -&gt; Sleep time estimate</em></p>
+<ul>
+<li><strong>Disabled</strong>: No data from recognition engine are collected.</li>
+<li><strong>Manual only</strong>: Sleep time estimation is saved only after you confirm it.</li>
+<li><strong>Save automatically</strong>: Sleep time estimation is saved automatically when a tracking is missing the previous night.</li>
+</ul>
+<h2 id="how-it-works">How it works<a class="anchor" href="#how-it-works">#</a></h2>
+<p>The sleep time suggestion feature is built on completely different basis than sleep tracking itself. Google provides an API (Google Activity Transition API or <a href="https://developers.google.com/location-context/sleep">Google Sleep API</a>), that tells us in which state your phone has been at different times - and we use that currently experimentally to try to assess your sleep time if you weren&rsquo;t tracking.</p>
+<blockquote class='book-hint '>
+<p><strong>Note:</strong> This feature requires at least 500 events in sensor batching queue. If you don&rsquo;t see Sleep time estimation listed in the Settings, than your phone does not meet this criteria.</p>
+</blockquote></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="../../sleep/sleepscore/" class="flex align-center">
+        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Sleep score</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="../../sleep/sleep_tracking/" class="flex align-center">
+        <span>Sleep tracking</span>
+        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#how-it-works">How it works</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
