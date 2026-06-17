@@ -5,6 +5,7 @@ theme = 'hugo-book'
 # Configure basic Hugo behavior
 disablePathToLower = false
 enableGitInfo = false
+disableKinds = ["taxonomy", "term"]
 
 # Enable relative URLs for portable builds (works in any subdirectory!)
 relativeURLs = true

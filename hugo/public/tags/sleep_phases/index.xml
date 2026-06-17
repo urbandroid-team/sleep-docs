@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sleep_phases on Sleep as Android Docs</title>
-    <link>//localhost:1313/tags/sleep_phases/</link>
-    <description>Recent content in Sleep_phases on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/tags/sleep_phases/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sleep tracking theory</title>
-      <link>//localhost:1313/sleep/sleep_tracking_theory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleep_tracking_theory/</guid>
-      <description>&lt;h2 id=&#34;what-is-sleep&#34;&gt;What is sleep&lt;a class=&#34;anchor&#34; href=&#34;#what-is-sleep&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.&lt;/p&gt;&#xA;&lt;p&gt;We expect that when we wake up, we&amp;rsquo;ll feel better than when we went to bed.&lt;/p&gt;&#xA;&lt;p&gt;But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sleep_phases on Sleep as Android Docs</title><link>/tags/sleep_phases/</link><description>Recent content in Sleep_phases on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/sleep_phases/index.xml" rel="self" type="application/rss+xml"/><item><title>Sleep tracking theory</title><link>/sleep/sleep_tracking_theory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_tracking_theory/</guid><description>&lt;h2 id="what-is-sleep"&gt;What is sleep&lt;a class="anchor" href="#what-is-sleep"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.&lt;/p&gt;
+&lt;p&gt;We expect that when we wake up, we&amp;rsquo;ll feel better than when we went to bed.&lt;/p&gt;
+&lt;p&gt;But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.&lt;/p&gt;</description></item></channel></rss>

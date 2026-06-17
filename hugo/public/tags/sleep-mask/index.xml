@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sleep Mask on Sleep as Android Docs</title>
-    <link>//localhost:1313/tags/sleep-mask/</link>
-    <description>Recent content in Sleep Mask on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/tags/sleep-mask/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sleep mask</title>
-      <link>//localhost:1313/devices/sleep_mask/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/devices/sleep_mask/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sleep mask makes your sleep light stimulated. It can help you fall sleep faster, wake up better and help you with snoring or lucid dreaming.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dedicated to be used with Sleep as Android and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.mind&#34;&gt;Mindroid&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://sleepmask.urbandroid.org/&#34;&gt;Learn more&lt;/a&gt; on a dedicated website.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://happyelectronics.eu/&#34;&gt;Get it&lt;/a&gt; from Happy Electronics.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sunrise alarm: from low red to full yellow, no more annoying alarm sounds&lt;/li&gt;&#xA;&lt;li&gt;Lucid dreaming: learn to control and remember your dreams&lt;/li&gt;&#xA;&lt;li&gt;Anti-snoring&lt;/li&gt;&#xA;&lt;li&gt;Comfortable to wear all night&lt;/li&gt;&#xA;&lt;li&gt;Light stimulated lullabies for faster fall asleep (CAUTION: Wired version only, Wireless version only supports lullabies through &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.mind&#34;&gt;Mindroid app&lt;/a&gt; with Sleep program)&lt;/li&gt;&#xA;&lt;li&gt;More light stimulation programs with &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.mind&#34;&gt;Mindroid app&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Smartlight -&amp;gt; Use Sleep Mask&lt;/em&gt; (both types)&#xA;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Smartlight -&amp;gt; Connect Sleep Mask V2&lt;/em&gt; (Only BT Sleep Mask V2)&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sleep Mask on Sleep as Android Docs</title><link>/tags/sleep-mask/</link><description>Recent content in Sleep Mask on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/sleep-mask/index.xml" rel="self" type="application/rss+xml"/><item><title>Sleep mask</title><link>/devices/sleep_mask/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/sleep_mask/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep mask makes your sleep light stimulated. It can help you fall sleep faster, wake up better and help you with snoring or lucid dreaming.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dedicated to be used with Sleep as Android and &lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.mind"&gt;Mindroid&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sleepmask.urbandroid.org/"&gt;Learn more&lt;/a&gt; on a dedicated website.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://happyelectronics.eu/"&gt;Get it&lt;/a&gt; from Happy Electronics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Sunrise alarm: from low red to full yellow, no more annoying alarm sounds&lt;/li&gt;
+&lt;li&gt;Lucid dreaming: learn to control and remember your dreams&lt;/li&gt;
+&lt;li&gt;Anti-snoring&lt;/li&gt;
+&lt;li&gt;Comfortable to wear all night&lt;/li&gt;
+&lt;li&gt;Light stimulated lullabies for faster fall asleep (CAUTION: Wired version only, Wireless version only supports lullabies through &lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.mind"&gt;Mindroid app&lt;/a&gt; with Sleep program)&lt;/li&gt;
+&lt;li&gt;More light stimulation programs with &lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.mind"&gt;Mindroid app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Smartlight -&amp;gt; Use Sleep Mask&lt;/em&gt; (both types)
+&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Smartlight -&amp;gt; Connect Sleep Mask V2&lt;/em&gt; (Only BT Sleep Mask V2)&lt;/p&gt;</description></item></channel></rss>

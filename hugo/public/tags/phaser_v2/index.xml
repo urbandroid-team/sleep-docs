@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Phaser_v2 on Sleep as Android Docs</title>
-    <link>//localhost:1313/tags/phaser_v2/</link>
-    <description>Recent content in Phaser_v2 on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/tags/phaser_v2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sleep Phaser v2 &#43; v3</title>
-      <link>//localhost:1313/devices/sleep_phaser_2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/devices/sleep_phaser_2/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sleep Phaser is the ultimate sleep tracking device which allows you to use the potential of Sleep as Android to the max.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Below is the user guide for Sleep Phaser v2 and v3.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;package-contents&#34;&gt;Package contents&lt;a class=&#34;anchor&#34; href=&#34;#package-contents&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sleep Phaser&lt;/li&gt;&#xA;&lt;li&gt;Charging cable&lt;/li&gt;&#xA;&lt;li&gt;User guide&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;phone-requirements&#34;&gt;Phone requirements&lt;a class=&#34;anchor&#34; href=&#34;#phone-requirements&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Android OS (version 5 at least)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;sleep-phaser-description&#34;&gt;Sleep Phaser description&lt;a class=&#34;anchor&#34; href=&#34;#sleep-phaser-description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A switch with three positions is located at the bottom of the Phaser.&lt;/p&gt;&#xA;&lt;p&gt;|===&lt;/p&gt;&#xA;&lt;p&gt;a|&lt;img src=&#34;../../assets/images/sleepphaser2_bottom.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;a|. Charging via charging cable&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phaser_v2 on Sleep as Android Docs</title><link>/tags/phaser_v2/</link><description>Recent content in Phaser_v2 on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/phaser_v2/index.xml" rel="self" type="application/rss+xml"/><item><title>Sleep Phaser v2 + v3</title><link>/devices/sleep_phaser_2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/sleep_phaser_2/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep Phaser is the ultimate sleep tracking device which allows you to use the potential of Sleep as Android to the max.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Below is the user guide for Sleep Phaser v2 and v3.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="package-contents"&gt;Package contents&lt;a class="anchor" href="#package-contents"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sleep Phaser&lt;/li&gt;
+&lt;li&gt;Charging cable&lt;/li&gt;
+&lt;li&gt;User guide&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="phone-requirements"&gt;Phone requirements&lt;a class="anchor" href="#phone-requirements"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Android OS (version 5 at least)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="sleep-phaser-description"&gt;Sleep Phaser description&lt;a class="anchor" href="#sleep-phaser-description"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A switch with three positions is located at the bottom of the Phaser.&lt;/p&gt;
+&lt;p&gt;|===&lt;/p&gt;
+&lt;p&gt;a|&lt;img src="../../assets/images/sleepphaser2_bottom.png" alt="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;a|. Charging via charging cable&lt;/p&gt;</description></item></channel></rss>

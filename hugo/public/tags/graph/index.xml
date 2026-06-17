@@ -1,32 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Graph on Sleep as Android Docs</title>
-    <link>//localhost:1313/tags/graph/</link>
-    <description>Recent content in Graph on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/tags/graph/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to read sleep graphs</title>
-      <link>//localhost:1313/sleep/how_to_read_sleep_graphs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/how_to_read_sleep_graphs/</guid>
-      <description>&lt;p&gt;&lt;a id=&#34;graph_explain&#34;&gt;&lt;/a&gt;&#xA;&lt;strong&gt;Sleep graph is the &lt;a href=&#34;../../sleep/sleep_tracking_theory#sleep-outcome&#34;&gt;main outcome of sleep tracking&lt;/a&gt; - it shows analysed data from all the &lt;a href=&#34;../../sleep/sensors&#34;&gt;sensors&lt;/a&gt; that were used during the night.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a id=&#34;morning_screen&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;morning-screen&#34;&gt;Morning screen&lt;a class=&#34;anchor&#34; href=&#34;#morning-screen&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The first screen you see in the morning is &lt;strong&gt;Morning briefing&lt;/strong&gt; and it offers you important information at a glance.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can customize the screen by swiping away the cards you don&amp;rsquo;t need, or pinning the ones you like the most with a long-press.&#xA;To edit the screen, use the &lt;strong&gt;Hide / Show&lt;/strong&gt; button at the bottom or &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Morning screen&lt;/em&gt;, see details &lt;a href=&#34;../../ux/personalize#morning_screen_set&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sleep tracking theory</title>
-      <link>//localhost:1313/sleep/sleep_tracking_theory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/sleep_tracking_theory/</guid>
-      <description>&lt;h2 id=&#34;what-is-sleep&#34;&gt;What is sleep&lt;a class=&#34;anchor&#34; href=&#34;#what-is-sleep&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.&lt;/p&gt;&#xA;&lt;p&gt;We expect that when we wake up, we&amp;rsquo;ll feel better than when we went to bed.&lt;/p&gt;&#xA;&lt;p&gt;But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tags</title>
-      <link>//localhost:1313/sleep/tags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/tags/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Tags allow you to find out how various lifestyle events affect your sleep.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tags can be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;while sleep tracking, by tapping the icon:ic_pencil[] button&lt;/li&gt;&#xA;&lt;li&gt;in the rating screen, after you finish sleep tracking&lt;/li&gt;&#xA;&lt;li&gt;in any sleep record, by tapping the big icon:ic_pencil[] button&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also &lt;a href=&#34;../../sleep/graph_edit&#34;&gt;editing tags&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Graph on Sleep as Android Docs</title><link>/tags/graph/</link><description>Recent content in Graph on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/graph/index.xml" rel="self" type="application/rss+xml"/><item><title>How to read sleep graphs</title><link>/sleep/how_to_read_sleep_graphs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/how_to_read_sleep_graphs/</guid><description>&lt;p&gt;&lt;a id="graph_explain"&gt;&lt;/a&gt;
+&lt;strong&gt;Sleep graph is the &lt;a href="../../sleep/sleep_tracking_theory#sleep-outcome"&gt;main outcome of sleep tracking&lt;/a&gt; - it shows analysed data from all the &lt;a href="../../sleep/sensors"&gt;sensors&lt;/a&gt; that were used during the night.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a id="morning_screen"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="morning-screen"&gt;Morning screen&lt;a class="anchor" href="#morning-screen"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first screen you see in the morning is &lt;strong&gt;Morning briefing&lt;/strong&gt; and it offers you important information at a glance.&lt;/p&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can customize the screen by swiping away the cards you don&amp;rsquo;t need, or pinning the ones you like the most with a long-press.
+To edit the screen, use the &lt;strong&gt;Hide / Show&lt;/strong&gt; button at the bottom or &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Morning screen&lt;/em&gt;, see details &lt;a href="../../ux/personalize#morning_screen_set"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Sleep tracking theory</title><link>/sleep/sleep_tracking_theory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_tracking_theory/</guid><description>&lt;h2 id="what-is-sleep"&gt;What is sleep&lt;a class="anchor" href="#what-is-sleep"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Simply put, sleep is something we do when we are tired in order to get un-tired. Human bodies are constructed in a way that they need a certain period of sleep after a certain period of activity.&lt;/p&gt;
+&lt;p&gt;We expect that when we wake up, we&amp;rsquo;ll feel better than when we went to bed.&lt;/p&gt;
+&lt;p&gt;But all sleep is not the same. Whether you have a healthy sleep and feel energetic or tired during the day is a result of many factors that go together or fight against each other. In order to understand why we sleep better or worse, we need to gain deeper understanding of the factors that affect sleep, and also be able to measure sleep objectively.&lt;/p&gt;</description></item><item><title>Tags</title><link>/sleep/tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/tags/</guid><description>&lt;p&gt;&lt;strong&gt;Tags allow you to find out how various lifestyle events affect your sleep.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tags can be added:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;while sleep tracking, by tapping the icon:ic_pencil[] button&lt;/li&gt;
+&lt;li&gt;in the rating screen, after you finish sleep tracking&lt;/li&gt;
+&lt;li&gt;in any sleep record, by tapping the big icon:ic_pencil[] button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also &lt;a href="../../sleep/graph_edit"&gt;editing tags&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

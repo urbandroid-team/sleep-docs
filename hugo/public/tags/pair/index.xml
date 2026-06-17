@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pair on Sleep as Android Docs</title>
-    <link>//localhost:1313/tags/pair/</link>
-    <description>Recent content in Pair on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/tags/pair/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pair tracking</title>
-      <link>//localhost:1313/sleep/pair_tracking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/sleep/pair_tracking/</guid>
-      <description>&lt;p&gt;.Helps you to get a cleaner record of your sleep phases by combining the measurements from your and your partner’s phone, using any combination of sensors.&lt;/p&gt;&#xA;&lt;p&gt;Pair tracking uses two cooperating phones (your and your partner’s) simultaneously to filter out the partner’s activity and obtain clean separate activity records.&lt;/p&gt;&#xA;&lt;p&gt;If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pair on Sleep as Android Docs</title><link>/tags/pair/</link><description>Recent content in Pair on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/pair/index.xml" rel="self" type="application/rss+xml"/><item><title>Pair tracking</title><link>/sleep/pair_tracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/pair_tracking/</guid><description>&lt;p&gt;.Helps you to get a cleaner record of your sleep phases by combining the measurements from your and your partner’s phone, using any combination of sensors.&lt;/p&gt;
+&lt;p&gt;Pair tracking uses two cooperating phones (your and your partner’s) simultaneously to filter out the partner’s activity and obtain clean separate activity records.&lt;/p&gt;
+&lt;p&gt;If you do not sleep alone in your bed, tossing and turning of your partner may affect your activity measurement (hence sleep phases detection, hence smart alarm and other sleep-phase dependent features). While the interference usually isn’t too big, in certain conditions it may be enough to mix up sleep phases in your sleep record.&lt;/p&gt;</description></item></channel></rss>
