@@ -1,23 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ringtone on Sleep as Android Docs</title><link>/tags/ringtone/</link><description>Recent content in Ringtone on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/ringtone/index.xml" rel="self" type="application/rss+xml"/><item><title>Sound</title><link>/alarms/ringtone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/ringtone/</guid><description>&lt;p&gt;&lt;strong&gt;Changes how your alarms sound.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Choose any music or sounds from a built-in nature sounds library, from your device storage or use online radios or streaming services such as Spotify for even more enjoyable mornings.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Sound&lt;/em&gt;
-&lt;em&gt;per-alarm settings -&amp;gt; Sound&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="nature"&gt;Nature&lt;a class="anchor" href="#nature"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;A great selection of nature sounds by Sleep (birds, ocean, storm&amp;hellip;)&lt;/p&gt;
-&lt;h2 id="phone"&gt;Phone&lt;a class="anchor" href="#phone"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You can pick any music file from your storage.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ringtones&lt;/strong&gt;: sounds labeled as ringtones from your system&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: tagged as a music by the system&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: all sound files, that were not tagged as a music by the system&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Any other own file&lt;/strong&gt;: you can manually choose any other file from your internal or external storage you did not find listed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="how-to-add-your-own-song-or-sound-file"&gt;How to add your own song or sound file &lt;a id="guide_song"&gt;&lt;/a&gt;&lt;a class="anchor" href="#how-to-add-your-own-song-or-sound-file"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Switch to &lt;strong&gt;Phone&lt;/strong&gt; tab at the top.&lt;/li&gt;
-&lt;li&gt;Tap on the folder icon icon:ic_folder[] in the upper right corner.&lt;/li&gt;
-&lt;li&gt;Select a file in your file browser.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Make sure the file is available and the app has permission for accessing that folder. On newer Android versions, the safest folder is Media. Downloads folder is not recommended.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ringtone on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/ringtone/</link>
+    <description>Recent content in Ringtone on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/ringtone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sound</title>
+      <link>//localhost:1313/alarms/ringtone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/alarms/ringtone/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Changes how your alarms sound.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Choose any music or sounds from a built-in nature sounds library, from your device storage or use online radios or streaming services such as Spotify for even more enjoyable mornings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Sound&lt;/em&gt;&#xA;&lt;em&gt;per-alarm settings -&amp;gt; Sound&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;nature&#34;&gt;Nature&lt;a class=&#34;anchor&#34; href=&#34;#nature&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A great selection of nature sounds by Sleep (birds, ocean, storm&amp;hellip;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;phone&#34;&gt;Phone&lt;a class=&#34;anchor&#34; href=&#34;#phone&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You can pick any music file from your storage.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ringtones&lt;/strong&gt;: sounds labeled as ringtones from your system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: tagged as a music by the system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Your Music&lt;/strong&gt;: all sound files, that were not tagged as a music by the system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Any other own file&lt;/strong&gt;: you can manually choose any other file from your internal or external storage you did not find listed.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;how-to-add-your-own-song-or-sound-file&#34;&gt;How to add your own song or sound file &lt;a id=&#34;guide_song&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#how-to-add-your-own-song-or-sound-file&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Switch to &lt;strong&gt;Phone&lt;/strong&gt; tab at the top.&lt;/li&gt;&#xA;&lt;li&gt;Tap on the folder icon &lt;img src=&#34;//localhost:1313/assets/icons/ic_folder.svg&#34; alt=&#34;ic_folder&#34;  /&gt;&#xA; in the upper right corner.&lt;/li&gt;&#xA;&lt;li&gt;Select a file in your file browser.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Make sure the file is available and the app has permission for accessing that folder. On newer Android versions, the safest folder is Media. Downloads folder is not recommended.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

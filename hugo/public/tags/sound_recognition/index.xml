@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sound_recognition on Sleep as Android Docs</title><link>/tags/sound_recognition/</link><description>Recent content in Sound_recognition on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/sound_recognition/index.xml" rel="self" type="application/rss+xml"/><item><title>Sound recognition</title><link>/sleep/sound_recognition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sound_recognition/</guid><description>&lt;p&gt;&lt;strong&gt;Listens to sounds you make during sleep tracking and categorizes them.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Sound recognition&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to &lt;em&gt;Disabled&lt;/em&gt;.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sound_recognition on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/sound_recognition/</link>
+    <description>Recent content in Sound_recognition on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/sound_recognition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sound recognition</title>
+      <link>//localhost:1313/sleep/sound_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sleep/sound_recognition/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Listens to sounds you make during sleep tracking and categorizes them.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Sound recognition&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to &lt;em&gt;Disabled&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

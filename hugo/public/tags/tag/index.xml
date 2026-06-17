@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tag on Sleep as Android Docs</title><link>/tags/tag/</link><description>Recent content in Tag on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/tag/index.xml" rel="self" type="application/rss+xml"/><item><title>Tags</title><link>/sleep/tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/tags/</guid><description>&lt;p&gt;&lt;strong&gt;Tags allow you to find out how various lifestyle events affect your sleep.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Tags can be added:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;while sleep tracking, by tapping the icon:ic_pencil[] button&lt;/li&gt;
-&lt;li&gt;in the rating screen, after you finish sleep tracking&lt;/li&gt;
-&lt;li&gt;in any sleep record, by tapping the big icon:ic_pencil[] button&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also &lt;a href="../../sleep/graph_edit"&gt;editing tags&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/tag/</link>
+    <description>Recent content in Tag on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tags</title>
+      <link>//localhost:1313/sleep/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sleep/tags/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Tags allow you to find out how various lifestyle events affect your sleep.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tags can be added:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;while sleep tracking, by tapping the &lt;img src=&#34;//localhost:1313/assets/icons/ic_pencil.svg&#34; alt=&#34;ic_pencil&#34;  /&gt;&#xA; button&lt;/li&gt;&#xA;&lt;li&gt;in the rating screen, after you finish sleep tracking&lt;/li&gt;&#xA;&lt;li&gt;in any sleep record, by tapping the big &lt;img src=&#34;//localhost:1313/assets/icons/ic_pencil.svg&#34; alt=&#34;ic_pencil&#34;  /&gt;&#xA; button&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with #. Emoji also count as tags. See also &lt;a href=&#34;//localhost:1313/sleep/graph_edit&#34;&gt;editing tags&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

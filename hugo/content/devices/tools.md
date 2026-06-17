@@ -61,7 +61,7 @@ The Tools app is ready to use with Sleep app, you do not need to enable the inte
 
 Check your HR settings in the Mi Fit app.
 When the Mi Band is in **Sleep Assistant** HR mode in Mi Fit, it doesn’t feed the HR data to Mi Band Tools / Sleep as Android. When it is in regular HR tracking mode (24-hour), it works.
-1. Enable _Heart Rate Monitor_ in T&MB _Left_ ☰ _menu -> Heart Rate_ -> icon:ic_cog[] -> _Heart Rate monitor_
+1. Enable _Heart Rate Monitor_ in T&MB _Left_ ☰ _menu -> Heart Rate_ -> ![ic_cog](/assets/icons/ic_cog.svg) -> _Heart Rate monitor_
 
 [cols="^"]
 |===

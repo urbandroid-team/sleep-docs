@@ -136,7 +136,7 @@ If enabled, you must scan all saved codes.
 
 #### How to delete a QR code / NFC tag
 1. Go to _Settings -> Alarms -> CAPTCHA -> Settings_.
-1. Tap on the icon:ic_action_discard[] trash can.
+1. Tap on the ![ic_action_discard](/assets/icons/ic_action_discard.svg) trash can.
 
 
 #### How to solve the task without the code / tag

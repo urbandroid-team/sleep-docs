@@ -12,13 +12,19 @@
   </url><url>
     <loc>//localhost:1313/sleep/advice/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/alarm/</loc>
+  </url><url>
     <loc>//localhost:1313/alarms/alarm_settings/</loc>
   </url><url>
     <loc>//localhost:1313/alarms/</loc>
   </url><url>
     <loc>//localhost:1313/ux/hs_alarms_only/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/amazfit/</loc>
+  </url><url>
     <loc>//localhost:1313/sleep/anti_snoring/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/automagic/</loc>
   </url><url>
     <loc>//localhost:1313/services/automate_walkthroughs/</loc>
   </url><url>
@@ -30,15 +36,21 @@
   </url><url>
     <loc>//localhost:1313/services/backup_data/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/backup/</loc>
+  </url><url>
     <loc>//localhost:1313/alarms/backup/</loc>
   </url><url>
     <loc>//localhost:1313/alarms/bedtime_notification/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/breath_rate/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/captcha/</loc>
+  </url><url>
     <loc>//localhost:1313/alarms/captcha/</loc>
   </url><url>
     <loc>//localhost:1313/devs/captcha_api/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/charts/</loc>
   </url><url>
@@ -60,9 +72,15 @@
   </url><url>
     <loc>//localhost:1313/sleep/graph_edit/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/fitbit/</loc>
+  </url><url>
     <loc>//localhost:1313/devs/</loc>
   </url><url>
     <loc>//localhost:1313/devices/garmin/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/garmin/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/gear/</loc>
   </url><url>
     <loc>//localhost:1313/general/</loc>
   </url><url>
@@ -76,17 +94,23 @@
   </url><url>
     <loc>//localhost:1313/services/google_fit/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/graph/</loc>
+  </url><url>
     <loc>//localhost:1313/services/health_connect/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/heart_rate/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/how_to_read_sleep_graphs/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/hr/</loc>
+  </url><url>
     <loc>//localhost:1313/services/ifttt/</loc>
   </url><url>
     <loc>//localhost:1313/devs/intent_api/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/jetlag/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/language/</loc>
   </url><url>
     <loc>//localhost:1313/ux/left_menu/</loc>
   </url><url>
@@ -96,9 +120,19 @@
   </url><url>
     <loc>//localhost:1313/sleep/lullaby/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/lullaby/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/mi-band/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/miband/</loc>
+  </url><url>
     <loc>//localhost:1313/services/mqtt/</loc>
   </url><url>
     <loc>//localhost:1313/alarms/naps/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/noise/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/notify/</loc>
   </url><url>
     <loc>//localhost:1313/devices/notify/</loc>
   </url><url>
@@ -106,23 +140,49 @@
   </url><url>
     <loc>//localhost:1313/devices/oximeter/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/oximeter/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/pair/</loc>
+  </url><url>
     <loc>//localhost:1313/sleep/pair_tracking/</loc>
   </url><url>
     <loc>//localhost:1313/devices/pebble/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/pebble/</loc>
   </url><url>
     <loc>//localhost:1313/general/permissions/</loc>
   </url><url>
     <loc>//localhost:1313/ux/personalize/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/phaser_v1/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/phaser_v2/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/pinetime/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/polar/</loc>
+  </url><url>
     <loc>//localhost:1313/alarms/polyphasic/</loc>
   </url><url>
     <loc>//localhost:1313/alarms/power_nap/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/powernap/</loc>
+  </url><url>
     <loc>//localhost:1313/general/privacy/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/purchase/</loc>
   </url><url>
     <loc>//localhost:1313/general/plan/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/recording/</loc>
+  </url><url>
     <loc>//localhost:1313/general/release_notes/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/rem/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/ringtone/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/samsung/</loc>
   </url><url>
     <loc>//localhost:1313/devices/samsung_gear/</loc>
   </url><url>
@@ -137,6 +197,8 @@
     <loc>//localhost:1313/sleep/sleep_apnea/</loc>
   </url><url>
     <loc>//localhost:1313/devices/sleep_mask/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/sleep-mask/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/sleep_noise_recording/</loc>
   </url><url>
@@ -156,6 +218,10 @@
   </url><url>
     <loc>//localhost:1313/sleep/sleep_tracking_theory/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/sleep_noise_recording/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/sleep_phases/</loc>
+  </url><url>
     <loc>//localhost:1313/services/sleepcloud/</loc>
   </url><url>
     <loc>//localhost:1313/devs/sleepcloud_api/</loc>
@@ -168,17 +234,25 @@
   </url><url>
     <loc>//localhost:1313/alarms/snooze/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/sonar/</loc>
+  </url><url>
     <loc>//localhost:1313/alarms/ringtone/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/sound_recognition/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/sound_recognition/</loc>
+  </url><url>
     <loc>//localhost:1313/services/spotify/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/spotify/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/statistics/</loc>
   </url><url>
     <loc>//localhost:1313/devices/supported_wearable/</loc>
   </url><url>
     <loc>//localhost:1313/ux/hs_tabs/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/tag/</loc>
   </url><url>
     <loc>//localhost:1313/sleep/tags/</loc>
   </url><url>
@@ -192,7 +266,13 @@
   </url><url>
     <loc>//localhost:1313/devices/test_sensor/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/theory/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/tools/</loc>
+  </url><url>
     <loc>//localhost:1313/devices/tools/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/tracking/</loc>
   </url><url>
     <loc>//localhost:1313/general/translation/</loc>
   </url><url>
@@ -200,10 +280,18 @@
   </url><url>
     <loc>//localhost:1313/devices/wearos/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/wearable/</loc>
+  </url><url>
     <loc>//localhost:1313/devs/wearable_api/</loc>
   </url><url>
     <loc>//localhost:1313/devices/wearables/</loc>
   </url><url>
+    <loc>//localhost:1313/tags/wearables/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/wearos/</loc>
+  </url><url>
     <loc>//localhost:1313/ux/widgets/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/xiaomi/</loc>
   </url>
 </urlset>

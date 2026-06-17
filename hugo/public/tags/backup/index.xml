@@ -1,30 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Backup on Sleep as Android Docs</title><link>/tags/backup/</link><description>Recent content in Backup on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/backup/index.xml" rel="self" type="application/rss+xml"/><item><title>Backup</title><link>/services/backup_data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/backup_data/</guid><description>&lt;p&gt;&lt;strong&gt;Make sure to never lose your data with either local manual backup or automated cloud backup.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Left&lt;/em&gt; ≡ &lt;em&gt;menu -&amp;gt; Backup&lt;/em&gt;
-&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Cloud backup&lt;/em&gt;
-&lt;em&gt;Settings -&amp;gt; Privacy -&amp;gt; Backup&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;// Google Drive&lt;/strong&gt;: See &lt;a href="#google_drive"&gt;Google Drive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;// Dropbox&lt;/strong&gt;: See &lt;a href="#dropbox"&gt;Dropbox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="local-backup"&gt;Local backup&lt;a class="anchor" href="#local-backup"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a id="local_backup"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Backs up&lt;/strong&gt;: Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Does not back up&lt;/strong&gt;: Inactive alarms&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version, based on &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Privacy -&amp;gt; Storage path&lt;/em&gt;).&lt;/p&gt;</description></item><item><title>Backup alarm</title><link>/alarms/backup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/backup/</guid><description>&lt;p&gt;&lt;strong&gt;Starts ringing loudly at maximum volume if you ignore your normal alarm.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Backup alarm will start after &lt;a href="#alarm-timeout"&gt;Alarm timeout&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Backup alarm&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="backup-alarm-duration"&gt;Backup alarm duration&lt;a class="anchor" href="#backup-alarm-duration"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Set how long the backup alarm will ring (it will then snooze for your default &lt;em&gt;Snooze Time&lt;/em&gt;, but never less than 10 minutes).&lt;/p&gt;
-&lt;h2 id="ringtone"&gt;Ringtone&lt;a class="anchor" href="#ringtone"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Backup alarm ringtone.&lt;/p&gt;
-&lt;h3 id="how-to-disable-backup-alarm"&gt;How to disable backup alarm &lt;a id="backup_disable"&gt;&lt;/a&gt;&lt;a class="anchor" href="#how-to-disable-backup-alarm"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Go to &lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Back up -&amp;gt; Sound&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Set the ringtone to &lt;em&gt;Silent&lt;/em&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Silent ringtone for backup alarm won&amp;rsquo;t disable vibrations. The backup alarm is the last thing to let you know that the alarm is still going off, so you can react and not fall asleep.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/backup/</link>
+    <description>Recent content in Backup on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backup</title>
+      <link>//localhost:1313/services/backup_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/backup_data/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Make sure to never lose your data with either local manual backup or automated cloud backup.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Left&lt;/em&gt; ≡ &lt;em&gt;menu -&amp;gt; Backup&lt;/em&gt;&#xA;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Cloud backup&lt;/em&gt;&#xA;&lt;em&gt;Settings -&amp;gt; Privacy -&amp;gt; Backup&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;// Google Drive&lt;/strong&gt;: See &lt;a href=&#34;#google_drive&#34;&gt;Google Drive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;// Dropbox&lt;/strong&gt;: See &lt;a href=&#34;#dropbox&#34;&gt;Dropbox&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;local-backup&#34;&gt;Local backup&lt;a class=&#34;anchor&#34; href=&#34;#local-backup&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a id=&#34;local_backup&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backs up&lt;/strong&gt;: Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Does not back up&lt;/strong&gt;: Inactive alarms&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version, based on &lt;em&gt;Settings -&amp;gt; Personalize -&amp;gt; Privacy -&amp;gt; Storage path&lt;/em&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Backup alarm</title>
+      <link>//localhost:1313/alarms/backup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/alarms/backup/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Starts ringing loudly at maximum volume if you ignore your normal alarm.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Backup alarm will start after &lt;a href=&#34;#alarm-timeout&#34;&gt;Alarm timeout&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; Backup alarm&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;backup-alarm-duration&#34;&gt;Backup alarm duration&lt;a class=&#34;anchor&#34; href=&#34;#backup-alarm-duration&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Set how long the backup alarm will ring (it will then snooze for your default &lt;em&gt;Snooze Time&lt;/em&gt;, but never less than 10 minutes).&lt;/p&gt;&#xA;&lt;h2 id=&#34;ringtone&#34;&gt;Ringtone&lt;a class=&#34;anchor&#34; href=&#34;#ringtone&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Backup alarm ringtone.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-disable-backup-alarm&#34;&gt;How to disable backup alarm &lt;a id=&#34;backup_disable&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#how-to-disable-backup-alarm&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;em&gt;Settings -&amp;gt; Alarm default settings -&amp;gt; Back up -&amp;gt; Sound&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Set the ringtone to &lt;em&gt;Silent&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Silent ringtone for backup alarm won&amp;rsquo;t disable vibrations. The backup alarm is the last thing to let you know that the alarm is still going off, so you can react and not fall asleep.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

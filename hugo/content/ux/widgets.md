@@ -18,7 +18,7 @@ parent: /ux/0parent.html
 <a id="figure-widgets"></a>
 
 Long press on an empty space on your phone screen -> Widgets -> scroll down until you see Sleep.
-Long press the Sleep as Android icon -> tap icon:widget[] icon -> choose the widget from the list.
+Long press the Sleep as Android icon -> tap ![widget](/assets/icons/widget.svg) icon -> choose the widget from the list.
 
 ![](widgets.png)
 

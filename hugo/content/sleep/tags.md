@@ -14,9 +14,9 @@ tags:
 
 Tags can be added:
 
-- while sleep tracking, by tapping the icon:ic_pencil[] button
+- while sleep tracking, by tapping the ![ic_pencil](/assets/icons/ic_pencil.svg) button
 - in the rating screen, after you finish sleep tracking
-- in any sleep record, by tapping the big icon:ic_pencil[] button
+- in any sleep record, by tapping the big ![ic_pencil](/assets/icons/ic_pencil.svg) button
 
 You can add tags to any sleep record by including it in the comment section of the record. Any word can become a tag if you prefix it with \#. Emoji also count as tags. See also [editing tags](/sleep/graph_edit).
 
@@ -34,25 +34,25 @@ You can choose from the list of pre-defined tags with icons, which include the m
 |===
 a|Icon tags
 
-a|icon:ic_action_food[] #food
-icon:ic_walk[] #sport
-icon:ic_martini[] #alcohol
-icon:ic_action_stress[] #stress
-icon:ic_action_lullaby[] #caffeine
-icon:ic_action_love[] #love
-icon:ic_action_med[] #med
-icon:ic_action_dream[] #dream
-icon:ic_action_talk[] #talk
-icon:ic_action_noise[] #snore
-icon:ic_action_laugh[] #laugh
-icon:ic_action_sick[] #sick
-icon:ic_action_work[] #work
-icon:ic_action_cpap[] #cpap
-icon:ic_action_baby[] #baby
-icon:ic_action_mic[] #note
-icon:ic_dream_good[] #gooddream
-icon:ic_dream_bad[] #baddream
-icon:ic_action_menses[]#menses
+a|![ic_action_food](/assets/icons/ic_action_food.svg) #food
+![ic_walk](/assets/icons/ic_walk.svg) #sport
+![ic_martini](/assets/icons/ic_martini.svg) #alcohol
+![ic_action_stress](/assets/icons/ic_action_stress.svg) #stress
+![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) #caffeine
+![ic_action_love](/assets/icons/ic_action_love.svg) #love
+![ic_action_med](/assets/icons/ic_action_med.svg) #med
+![ic_action_dream](/assets/icons/ic_action_dream.svg) #dream
+![ic_action_talk](/assets/icons/ic_action_talk.svg) #talk
+![ic_action_noise](/assets/icons/ic_action_noise.svg) #snore
+![ic_action_laugh](/assets/icons/ic_action_laugh.svg) #laugh
+![ic_action_sick](/assets/icons/ic_action_sick.svg) #sick
+![ic_action_work](/assets/icons/ic_action_work.svg) #work
+![ic_action_cpap](/assets/icons/ic_action_cpap.svg) #cpap
+![ic_action_baby](/assets/icons/ic_action_baby.svg) #baby
+![ic_action_mic](/assets/icons/ic_action_mic.svg) #note
+![ic_dream_good](/assets/icons/ic_dream_good.svg) #gooddream
+![ic_dream_bad](/assets/icons/ic_dream_bad.svg) #baddream
+![ic_action_menses](/assets/icons/ic_action_menses.svg)#menses
 |===
 
 
@@ -65,28 +65,28 @@ Some tags are calculated and added to your sleep record automatically. You can t
 |===
 a|Automatically added tags
 
-a|icon:ic_action_newmoon[] \#newmoon (that night was new moon)
-icon:ic_action_fullmoon[] #fullmoon (that night was full moon)
-icon:ic_action_rain[] #rain (rainy weather report)
-icon:ic_action_storm[] #storm (stormy weather report)
-icon:ic_cloud[] #cloudy (cloudy weather report)
-icon:ic_action_cold[] #cold (temperature below 5°C)
-icon:ic_action_hot[] #hot (temperature over 28°C)
-icon:ic_action_watch[] #watch (tracking with [wearable](devices/wearables))
-icon:ic_action_home[] \#home (tracking at home (most tracked location))
-icon:ic_action_geo0[] #geo00 (tracking at 2nd most tracked location)
-icon:ic_action_geo1[] #geo01 (tracking at 3rd most tracked location)
-icon:ic_action_geo2[] #geo02 (tracking at 4th most tracked location)
-icon:ic_action_geo3[] #geo03 (tracking at 5th most tracked location)
-icon:ic_cloud_upload[] #cloud (this sleep record originates from a cloud service)
-icon:ic_action_lullaby[] #lullaby (tracking with [lullaby](/sleep/lullaby) running)
-icon:ic_sonar[] \#sonar (tracking with [Sonar](/sleep/sensors#sonar))
-icon:ic_sleep_phaser[] #phaser (tracking with [Sleep Phaser](/devices/sleep_phaser))
-icon:ic_pair[] \#pair ([pair tracking](/sleep/pair_tracking) was active)
-icon:ic_automagic[] \#auto ([automatic tracking](/sleep/automatic_sleep_tracking))
-icon:ic_lightbulb_off[] \#dark (less than 30 lux for at least 90% of the night, see [Light level tracking](/sleep/light_level))
-icon:ic_lightbulb[] \#light (more than 60 lux for at least 33% of the night, see [Light level tracking](/sleep/light_level))
-icon:ic_walk[] \#sport (when at least 80% of the goal (Steps or Heart points) is achieved during the day, see [Google Fit](/services/google_fit))
+a|![ic_action_newmoon](/assets/icons/ic_action_newmoon.svg) \#newmoon (that night was new moon)
+![ic_action_fullmoon](/assets/icons/ic_action_fullmoon.svg) #fullmoon (that night was full moon)
+![ic_action_rain](/assets/icons/ic_action_rain.svg) #rain (rainy weather report)
+![ic_action_storm](/assets/icons/ic_action_storm.svg) #storm (stormy weather report)
+![ic_cloud](/assets/icons/ic_cloud.svg) #cloudy (cloudy weather report)
+![ic_action_cold](/assets/icons/ic_action_cold.svg) #cold (temperature below 5°C)
+![ic_action_hot](/assets/icons/ic_action_hot.svg) #hot (temperature over 28°C)
+![ic_action_watch](/assets/icons/ic_action_watch.svg) #watch (tracking with [wearable](devices/wearables))
+![ic_action_home](/assets/icons/ic_action_home.svg) \#home (tracking at home (most tracked location))
+![ic_action_geo0](/assets/icons/ic_action_geo0.svg) #geo00 (tracking at 2nd most tracked location)
+![ic_action_geo1](/assets/icons/ic_action_geo1.svg) #geo01 (tracking at 3rd most tracked location)
+![ic_action_geo2](/assets/icons/ic_action_geo2.svg) #geo02 (tracking at 4th most tracked location)
+![ic_action_geo3](/assets/icons/ic_action_geo3.svg) #geo03 (tracking at 5th most tracked location)
+![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) #cloud (this sleep record originates from a cloud service)
+![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) #lullaby (tracking with [lullaby](/sleep/lullaby) running)
+![ic_sonar](/assets/icons/ic_sonar.svg) \#sonar (tracking with [Sonar](/sleep/sensors#sonar))
+![ic_sleep_phaser](/assets/icons/ic_sleep_phaser.svg) #phaser (tracking with [Sleep Phaser](/devices/sleep_phaser))
+![ic_pair](/assets/icons/ic_pair.svg) \#pair ([pair tracking](/sleep/pair_tracking) was active)
+![ic_automagic](/assets/icons/ic_automagic.svg) \#auto ([automatic tracking](/sleep/automatic_sleep_tracking))
+![ic_lightbulb_off](/assets/icons/ic_lightbulb_off.svg) \#dark (less than 30 lux for at least 90% of the night, see [Light level tracking](/sleep/light_level))
+![ic_lightbulb](/assets/icons/ic_lightbulb.svg) \#light (more than 60 lux for at least 33% of the night, see [Light level tracking](/sleep/light_level))
+![ic_walk](/assets/icons/ic_walk.svg) \#sport (when at least 80% of the goal (Steps or Heart points) is achieved during the day, see [Google Fit](/services/google_fit))
 |===
 
 <a id="geo"></a>
@@ -120,7 +120,7 @@ If you use a wearable or sonar, a #watch or #sonar tag will appear on your graph
 ### Automatic sleep tracking
 
 
-If sleep tracking was started automatically for your (you did not hit the _icon:ic_action_track[] Sleep tracking_ button) an #auto tag will be added.
+If sleep tracking was started automatically for your (you did not hit the _![ic_action_track](/assets/icons/ic_action_track.svg) Sleep tracking_ button) an #auto tag will be added.
 
 You can see more on this feature [here](/sleep/automatic_sleep_tracking).
 

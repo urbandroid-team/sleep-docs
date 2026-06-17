@@ -10,7 +10,7 @@ https://github.com/alex-shpak/hugo-book
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Makes use of sensors that can measure either your breath rate (sonar, Sleep phaser, and Polar H10), or your blood oxygenation (oximeter, some wearables).
 A turquoise line on your sleep graph shows breath rate - see breath-line. A blue line on your graph depicts oxygen data - see spo2-graph.
-Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a breathing disturbance. From those disturbances, we compute your RDI value. Monitoring breathing disturbances is important for link:sleep apnea detection.
+Whenever a significant dip in value occurs, a O2 symbol will be shown in the graph. This is a breathing disturbance. From those disturbances, we compute your RDI value. Monitoring breathing disturbances is important for link:sleep apnea detection.
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
@@ -19,26 +19,30 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   <meta property="og:title" content="Breath rate detection & blood oxygen measurement">
   <meta property="og:description" content="Makes use of sensors that can measure either your breath rate (sonar, Sleep phaser, and Polar H10), or your blood oxygenation (oximeter, some wearables).
 A turquoise line on your sleep graph shows breath rate - see breath-line. A blue line on your graph depicts oxygen data - see spo2-graph.
-Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a breathing disturbance. From those disturbances, we compute your RDI value. Monitoring breathing disturbances is important for link:sleep apnea detection.">
+Whenever a significant dip in value occurs, a O2 symbol will be shown in the graph. This is a breathing disturbance. From those disturbances, we compute your RDI value. Monitoring breathing disturbances is important for link:sleep apnea detection.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="sleep">
+    <meta property="article:tag" content="Tracking">
+    <meta property="article:tag" content="Oximeter">
+    <meta property="article:tag" content="Sonar">
 
 
   <meta itemprop="name" content="Breath rate detection & blood oxygen measurement">
   <meta itemprop="description" content="Makes use of sensors that can measure either your breath rate (sonar, Sleep phaser, and Polar H10), or your blood oxygenation (oximeter, some wearables).
 A turquoise line on your sleep graph shows breath rate - see breath-line. A blue line on your graph depicts oxygen data - see spo2-graph.
-Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a breathing disturbance. From those disturbances, we compute your RDI value. Monitoring breathing disturbances is important for link:sleep apnea detection.">
-  <meta itemprop="wordCount" content="457">
+Whenever a significant dip in value occurs, a O2 symbol will be shown in the graph. This is a breathing disturbance. From those disturbances, we compute your RDI value. Monitoring breathing disturbances is important for link:sleep apnea detection.">
+  <meta itemprop="wordCount" content="456">
+  <meta itemprop="keywords" content="Tracking,Oximeter,Sonar">
 
 <title>Breath rate detection &amp; blood oxygen measurement • Sleep as Android Docs</title>
-<link rel="icon" href="../../favicon.png" >
-<link rel="manifest" href="../../manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="//localhost:1313/sleep/breath_rate/">
-<link rel="stylesheet" href="../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css" integrity="sha256-SPM9Wj6z0AQ3A6GAYQMqLZuouXWpjjEYj69nqsk6i0Q=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.98c83e4c8e1c8661368bcb29bbaf4dcc9d31b8164f76aae322d82d86a9750c65.css" integrity="sha256-mMg&#43;TI4chmE2i8spu69NzJ0xuBZPdqrjItgthql1DGU=" crossorigin="anonymous">
 
 
-  <script defer type="module" src="../../en.search.min.f4340c7a3e60bf441df3d4b22fdd507c6caab8ceb62bf60a2ea039d093ff2b74.js" integrity="sha256-9DQMej5gv0Qd89SyL91QfGyquM62K/YKLqA50JP/K3Q=" crossorigin="anonymous"></script>
+  <script defer type="module" src="/en.search.min.67c6bf5f3c7764aa0d9f0adff70d54ce40666f5e1d3075fced8780416c8cf680.js" integrity="sha256-Z8a/Xzx3ZKoNnwrf9w1UzkBmb14dMHX87YeAQWyM9oA=" crossorigin="anonymous"></script>
 
   
 </head>
@@ -52,7 +56,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
     
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="../../"><span>Sleep as Android Docs</span>
+  <a class="flex align-center" href="/"><span>Sleep as Android Docs</span>
   </a>
 </h2>
 
@@ -86,7 +90,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../about/" class="">
+    <a href="/about/" class="">
       About</a>
   
 
@@ -100,7 +104,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../addons/" class="">
+    <a href="/addons/" class="">
       Addons</a>
   
 
@@ -128,7 +132,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/alarm_settings/" class="">
+    <a href="/alarms/alarm_settings/" class="">
       Alarm settings</a>
   
 
@@ -142,7 +146,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/backup/" class="">
+    <a href="/alarms/backup/" class="">
       Backup alarm</a>
   
 
@@ -156,7 +160,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/bedtime_notification/" class="">
+    <a href="/alarms/bedtime_notification/" class="">
       Bedtime notification</a>
   
 
@@ -170,7 +174,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/captcha/" class="">
+    <a href="/alarms/captcha/" class="">
       CAPTCHA</a>
   
 
@@ -184,7 +188,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/create_alarm/" class="">
+    <a href="/alarms/create_alarm/" class="">
       Create alarm</a>
   
 
@@ -198,7 +202,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/naps/" class="">
+    <a href="/alarms/naps/" class="">
       Naps</a>
   
 
@@ -212,7 +216,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/polyphasic/" class="">
+    <a href="/alarms/polyphasic/" class="">
       Polyphasic sleeping</a>
   
 
@@ -226,7 +230,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/power_nap/" class="">
+    <a href="/alarms/power_nap/" class="">
       Power nap</a>
   
 
@@ -240,7 +244,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/snooze/" class="">
+    <a href="/alarms/snooze/" class="">
       Snooze</a>
   
 
@@ -254,7 +258,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../alarms/ringtone/" class="">
+    <a href="/alarms/ringtone/" class="">
       Sound</a>
   
 
@@ -287,7 +291,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/garmin/" class="">
+    <a href="/devices/garmin/" class="">
       Garmin</a>
   
 
@@ -301,7 +305,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/notify/" class="">
+    <a href="/devices/notify/" class="">
       Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</a>
   
 
@@ -315,7 +319,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/one_ui/" class="">
+    <a href="/devices/one_ui/" class="">
       One UI Watch devices</a>
   
 
@@ -329,7 +333,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/oximeter/" class="">
+    <a href="/devices/oximeter/" class="">
       Oximeter</a>
   
 
@@ -343,7 +347,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/pebble/" class="">
+    <a href="/devices/pebble/" class="">
       Pebble</a>
   
 
@@ -357,7 +361,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/samsung_gear/" class="">
+    <a href="/devices/samsung_gear/" class="">
       Samsung Gear / Galaxy Gear</a>
   
 
@@ -371,7 +375,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/sleep_mask/" class="">
+    <a href="/devices/sleep_mask/" class="">
       Sleep mask</a>
   
 
@@ -387,7 +391,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/sleep_phaser_1/" class="">
+    <a href="/devices/sleep_phaser_1/" class="">
       Sleep Phaser v1</a>
   
 
@@ -401,7 +405,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/sleep_phaser_2/" class="">
+    <a href="/devices/sleep_phaser_2/" class="">
       Sleep Phaser v2 &#43; v3</a>
   
 
@@ -415,7 +419,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/smart_light/" class="">
+    <a href="/devices/smart_light/" class="">
       Smartlight</a>
   
 
@@ -429,7 +433,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/supported_wearable/" class="">
+    <a href="/devices/supported_wearable/" class="">
       Supported wearables - list</a>
   
 
@@ -443,7 +447,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/test_sensor/" class="">
+    <a href="/devices/test_sensor/" class="">
       Testing connection with a wearable</a>
   
 
@@ -457,7 +461,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/tools/" class="">
+    <a href="/devices/tools/" class="">
       Tools &amp; Mi Band and Amazfit</a>
   
 
@@ -471,7 +475,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/wearos/" class="">
+    <a href="/devices/wearos/" class="">
       Wear OS devices</a>
   
 
@@ -485,7 +489,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devices/wearables/" class="">
+    <a href="/devices/wearables/" class="">
       Wearables</a>
   
 
@@ -518,7 +522,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/automate_walkthroughs/" class="">
+    <a href="/services/automate_walkthroughs/" class="">
       Automate walkthroughs</a>
   
 
@@ -532,7 +536,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/automation/" class="">
+    <a href="/services/automation/" class="">
       Automation</a>
   
 
@@ -546,7 +550,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/backup_data/" class="">
+    <a href="/services/backup_data/" class="">
       Backup</a>
   
 
@@ -560,7 +564,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/custom_webhooks/" class="">
+    <a href="/services/custom_webhooks/" class="">
       Custom webhooks</a>
   
 
@@ -574,7 +578,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/google_app_actions/" class="">
+    <a href="/services/google_app_actions/" class="">
       Google Assistant App Actions</a>
   
 
@@ -588,7 +592,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/google_calendar/" class="">
+    <a href="/services/google_calendar/" class="">
       Google Calendar</a>
   
 
@@ -602,7 +606,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/google_fit/" class="">
+    <a href="/services/google_fit/" class="">
       Google Fit</a>
   
 
@@ -616,7 +620,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/health_connect/" class="">
+    <a href="/services/health_connect/" class="">
       Health Connect</a>
   
 
@@ -630,7 +634,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/ifttt/" class="">
+    <a href="/services/ifttt/" class="">
       IFTTT</a>
   
 
@@ -644,7 +648,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/mqtt/" class="">
+    <a href="/services/mqtt/" class="">
       MQTT</a>
   
 
@@ -658,7 +662,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/s_health/" class="">
+    <a href="/services/s_health/" class="">
       Samsung Health</a>
   
 
@@ -672,7 +676,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/sleepcloud/" class="">
+    <a href="/services/sleepcloud/" class="">
       SleepCloud</a>
   
 
@@ -686,7 +690,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/spotify/" class="">
+    <a href="/services/spotify/" class="">
       Spotify</a>
   
 
@@ -700,7 +704,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/tasker_walkthroughs/" class="">
+    <a href="/services/tasker_walkthroughs/" class="">
       Tasker walkthroughs</a>
   
 
@@ -714,7 +718,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../services/tasker_automate/" class="">
+    <a href="/services/tasker_automate/" class="">
       Tasker, Automate</a>
   
 
@@ -733,7 +737,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devs/" class="">
+    <a href="/devs/" class="">
       For developers</a>
   
 
@@ -747,7 +751,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devs/captcha_api/" class="">
+    <a href="/devs/captcha_api/" class="">
       CAPTCHA API</a>
   
 
@@ -761,7 +765,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devs/content_provider_api/" class="">
+    <a href="/devs/content_provider_api/" class="">
       Content provider API</a>
   
 
@@ -775,7 +779,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devs/csv/" class="">
+    <a href="/devs/csv/" class="">
       CSV file documentation</a>
   
 
@@ -789,7 +793,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devs/intent_api/" class="">
+    <a href="/devs/intent_api/" class="">
       Intent API</a>
   
 
@@ -803,7 +807,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devs/sleepcloud_api/" class="">
+    <a href="/devs/sleepcloud_api/" class="">
       SleepCloud Storage API</a>
   
 
@@ -817,7 +821,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../devs/wearable_api/" class="">
+    <a href="/devs/wearable_api/" class="">
       Wearable integration API</a>
   
 
@@ -850,7 +854,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../general/start/" class="">
+    <a href="/general/start/" class="">
       Get started with Sleep as Android app</a>
   
 
@@ -864,7 +868,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../general/permissions/" class="">
+    <a href="/general/permissions/" class="">
       Permissions</a>
   
 
@@ -878,7 +882,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../general/privacy/" class="">
+    <a href="/general/privacy/" class="">
       Privacy</a>
   
 
@@ -892,7 +896,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../general/plan/" class="">
+    <a href="/general/plan/" class="">
       Purchasing the app</a>
   
 
@@ -906,7 +910,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../general/release_notes/" class="">
+    <a href="/general/release_notes/" class="">
       Release notes</a>
   
 
@@ -920,7 +924,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../general/terms_of_service/" class="">
+    <a href="/general/terms_of_service/" class="">
       Terms of use</a>
   
 
@@ -934,7 +938,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../general/translation/" class="">
+    <a href="/general/translation/" class="">
       Translation</a>
   
 
@@ -967,7 +971,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/achievements/" class="">
+    <a href="/sleep/achievements/" class="">
       Achievements</a>
   
 
@@ -981,7 +985,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/advice/" class="">
+    <a href="/sleep/advice/" class="">
       Advice</a>
   
 
@@ -995,7 +999,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/anti_snoring/" class="">
+    <a href="/sleep/anti_snoring/" class="">
       Anti-snoring</a>
   
 
@@ -1009,7 +1013,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/automatic_sleep_tracking/" class="">
+    <a href="/sleep/automatic_sleep_tracking/" class="">
       Automatic sleep tracking</a>
   
 
@@ -1023,7 +1027,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/awake_detection/" class="">
+    <a href="/sleep/awake_detection/" class="">
       Awake detection</a>
   
 
@@ -1037,7 +1041,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/breath_rate/" class="active">
+    <a href="/sleep/breath_rate/" class="active">
       Breath rate detection &amp; blood oxygen measurement</a>
   
 
@@ -1051,7 +1055,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/charts/" class="">
+    <a href="/sleep/charts/" class="">
       Charts / Trends</a>
   
 
@@ -1065,7 +1069,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/chrono_jetlag/" class="">
+    <a href="/sleep/chrono_jetlag/" class="">
       Chronotype, Social jetlag, Sleep Regularity</a>
   
 
@@ -1079,7 +1083,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/graph_edit/" class="">
+    <a href="/sleep/graph_edit/" class="">
       Editing graphs</a>
   
 
@@ -1093,7 +1097,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/goals/" class="">
+    <a href="/sleep/goals/" class="">
       Goals</a>
   
 
@@ -1107,7 +1111,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/heart_rate/" class="">
+    <a href="/sleep/heart_rate/" class="">
       Heart rate detection</a>
   
 
@@ -1121,7 +1125,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/how_to_read_sleep_graphs/" class="">
+    <a href="/sleep/how_to_read_sleep_graphs/" class="">
       How to read sleep graphs</a>
   
 
@@ -1135,7 +1139,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/jetlag/" class="">
+    <a href="/sleep/jetlag/" class="">
       Jet lag prevention</a>
   
 
@@ -1149,7 +1153,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/light_level/" class="">
+    <a href="/sleep/light_level/" class="">
       Light level detection</a>
   
 
@@ -1163,7 +1167,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/lucid_dreaming/" class="">
+    <a href="/sleep/lucid_dreaming/" class="">
       Lucid dreaming</a>
   
 
@@ -1177,7 +1181,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/lullaby/" class="">
+    <a href="/sleep/lullaby/" class="">
       Lullaby</a>
   
 
@@ -1191,7 +1195,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/pair_tracking/" class="">
+    <a href="/sleep/pair_tracking/" class="">
       Pair tracking</a>
   
 
@@ -1205,7 +1209,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sensors/" class="">
+    <a href="/sleep/sensors/" class="">
       Sensors</a>
   
 
@@ -1219,7 +1223,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sleep_apnea/" class="">
+    <a href="/sleep/sleep_apnea/" class="">
       Sleep apnea</a>
   
 
@@ -1233,7 +1237,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sleep_noise_recording/" class="">
+    <a href="/sleep/sleep_noise_recording/" class="">
       Sleep noise analysis</a>
   
 
@@ -1247,7 +1251,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sleepscore/" class="">
+    <a href="/sleep/sleepscore/" class="">
       Sleep score</a>
   
 
@@ -1261,7 +1265,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sleep_time_estimation/" class="">
+    <a href="/sleep/sleep_time_estimation/" class="">
       Sleep time estimation</a>
   
 
@@ -1275,7 +1279,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sleep_tracking/" class="">
+    <a href="/sleep/sleep_tracking/" class="">
       Sleep tracking</a>
   
 
@@ -1289,7 +1293,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sleep_tracking_theory/" class="">
+    <a href="/sleep/sleep_tracking_theory/" class="">
       Sleep tracking theory</a>
   
 
@@ -1303,7 +1307,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sleepcloud_study/" class="">
+    <a href="/sleep/sleepcloud_study/" class="">
       SleepCloud study</a>
   
 
@@ -1317,7 +1321,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/smart_wake_up/" class="">
+    <a href="/sleep/smart_wake_up/" class="">
       Smart wakeup</a>
   
 
@@ -1331,7 +1335,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/sound_recognition/" class="">
+    <a href="/sleep/sound_recognition/" class="">
       Sound recognition</a>
   
 
@@ -1345,7 +1349,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/statistics/" class="">
+    <a href="/sleep/statistics/" class="">
       Statistics</a>
   
 
@@ -1359,7 +1363,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../sleep/tags/" class="">
+    <a href="/sleep/tags/" class="">
       Tags</a>
   
 
@@ -1378,7 +1382,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../template/" class="">
+    <a href="/template/" class="">
       Sleep tracking</a>
   
 
@@ -1392,7 +1396,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../tags/" class="">
+    <a href="/tags/" class="">
       TAGS</a>
   
 
@@ -1420,7 +1424,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../ux/hs_alarms_only/" class="">
+    <a href="/ux/hs_alarms_only/" class="">
       Alarms only mode</a>
   
 
@@ -1434,7 +1438,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../ux/hs_dashboard/" class="">
+    <a href="/ux/hs_dashboard/" class="">
       Dashboard home screen</a>
   
 
@@ -1448,7 +1452,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../ux/left_menu/" class="">
+    <a href="/ux/left_menu/" class="">
       Left ☰ menu</a>
   
 
@@ -1462,7 +1466,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../ux/personalize/" class="">
+    <a href="/ux/personalize/" class="">
       Personalization</a>
   
 
@@ -1476,7 +1480,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../ux/search/" class="">
+    <a href="/ux/search/" class="">
       Search</a>
   
 
@@ -1490,7 +1494,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../ux/hs_tabs/" class="">
+    <a href="/ux/hs_tabs/" class="">
       Tabs home screen</a>
   
 
@@ -1504,7 +1508,7 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
   
 
   
-    <a href="../../ux/widgets/" class="">
+    <a href="/ux/widgets/" class="">
       Widgets</a>
   
 
@@ -1548,14 +1552,14 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
   <h3>Breath rate detection &amp; blood oxygen measurement</h3>
 
   <label for="toc-control">
     
-    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
@@ -1589,17 +1593,18 @@ Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] wi
 
       
       
-  <article class="markdown book-article"><p><strong>Makes use of sensors that can measure either your breath rate (<a href="../../sleep/sensors#sonar">sonar</a>,  <a href="../../devices/sleep_phaser_2">Sleep phaser</a>, and <a href="https://sleep.urbandroid.org/polar-sleep-tracking/">Polar H10</a>), or your blood oxygenation (<a href="../../devices/oximeter">oximeter, some wearables</a>).</strong></p>
+  <article class="markdown book-article"><p><strong>Makes use of sensors that can measure either your breath rate (<a href="/sleep/sensors#sonar">sonar</a>,  <a href="/devices/sleep_phaser_2">Sleep phaser</a>, and <a href="https://sleep.urbandroid.org/polar-sleep-tracking/">Polar H10</a>), or your blood oxygenation (<a href="/devices/oximeter">oximeter, some wearables</a>).</strong></p>
 <p>A <strong>turquoise line</strong> on your sleep graph shows breath rate - see <a href="#breath-line">breath-line</a>.
 A <strong>blue line</strong> on your graph depicts oxygen data - see <a href="#spo2-graph">spo2-graph</a>.</p>
-<p>Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a <em>breathing disturbance</em>. From those disturbances, we compute your <a href="#RDI">RDI</a> value. Monitoring breathing disturbances is important for link:<a href="https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/">sleep apnea</a> detection.</p>
+<p>Whenever a significant dip in value occurs, a O2 symbol <img src="/assets/icons/ic_action_cpap.svg" alt="ic_action_cpap"  />
+ will be shown in the graph. This is a <em>breathing disturbance</em>. From those disturbances, we compute your <a href="#RDI">RDI</a> value. Monitoring breathing disturbances is important for link:<a href="https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/">sleep apnea</a> detection.</p>
 <p><a id="breath-line"></a>
 .Breath-rates in sleep graph
-<img src="../../assets/images/breath_rate.png" alt=""  />
+<img src="/assets/images/breath_rate.png" alt=""  />
 </p>
 <p><a id="spo2-graph"></a>
 .SPO2 data in sleep graph
-<img src="../../assets/images/hrbr.png" alt=""  />
+<img src="/assets/images/hrbr.png" alt=""  />
 </p>
 <hr>
 <h2 id="rdi">RDI<a class="anchor" href="#rdi">#</a></h2>
@@ -1612,18 +1617,18 @@ E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.</p
 <li><strong>30 and more</strong>: RDI over 30 is considered severe. We recommend to consult your doctor.</li>
 </ul>
 <h2 id="sonar-breath-rate-tracking">Sonar breath rate tracking<a class="anchor" href="#sonar-breath-rate-tracking">#</a></h2>
-<p>Sonar can measure your abdominal movements and thus estimate your breath rate, if the signal is strong enough. With the <a href="../../sleep/sensors#sonar">Sonar</a>, no actions is required - you will automatically see breath rates on your sleep graph.</p>
+<p>Sonar can measure your abdominal movements and thus estimate your breath rate, if the signal is strong enough. With the <a href="/sleep/sensors#sonar">Sonar</a>, no actions is required - you will automatically see breath rates on your sleep graph.</p>
 <h2 id="sleep-phaser-breath-rate-tracking">Sleep phaser breath rate tracking<a class="anchor" href="#sleep-phaser-breath-rate-tracking">#</a></h2>
-<p><a href="../../devices/sleep_phaser_2">Sleep phaser</a> can also measure your abdominal movements for estimating your breath rate.
+<p><a href="/devices/sleep_phaser_2">Sleep phaser</a> can also measure your abdominal movements for estimating your breath rate.
 No actions is required - you will automatically see breath rates if the overall setting in your bedroom and the device in use reach the required level of sensitivity.</p>
 <h2 id="oximeter-spo2-monitoring">Oximeter SpO2 monitoring<a class="anchor" href="#oximeter-spo2-monitoring">#</a></h2>
-<p>By using <a href="../../devices/oximeter">Oximeter</a> or wearable, we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:<a href="https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/">Sleep apnea</a>.</p>
+<p>By using <a href="/devices/oximeter">Oximeter</a> or wearable, we can track blood oxygenation levels (SPO2) directly. Oximeters provide a better - more precise - respiratory issues tracking. They can even hint on some severe issues such as the link:<a href="https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/">Sleep apnea</a>.</p>
 <p><em>Settings -&gt; Sleep tracking -&gt; Wearables -&gt; Pulse oximeter (Bluetooth)</em></p>
 <h2 id="wearables-spo2-monitoring">Wearables SpO2 monitoring<a class="anchor" href="#wearables-spo2-monitoring">#</a></h2>
-<p>Reads SpO2 data from a wearable connected in <a href="../../devices/wearables/wearable_setup">Use wearable</a>.</p>
+<p>Reads SpO2 data from a wearable connected in <a href="/devices/wearables/wearable_setup">Use wearable</a>.</p>
 <p><em>Settings -&gt; Sleep tracking -&gt; Wearables -&gt; Pulse oximeter (Wear OS, Garmin..)</em></p>
 <blockquote class='book-hint '>
-<p><strong>Warning:</strong> Not all wearables provide SpO2 data to our app. Check the <a href="../../devices/supported_wearable">compatibility table</a>.</p>
+<p><strong>Warning:</strong> Not all wearables provide SpO2 data to our app. Check the <a href="/devices/supported_wearable">compatibility table</a>.</p>
 </blockquote><h2 id="low-breath-rate-alarm">Low breath rate alarm<a class="anchor" href="#low-breath-rate-alarm">#</a></h2>
 <p>If enabled, this will wake you up if you have a low breathing rate (or blood oxygen level) for a while. You can configure the sound, vibrations, or both.</p>
 <p><em>Settings -&gt; Sleep tracking -&gt; Wearbales -&gt; Low breath rate alarm</em></p>
@@ -1650,17 +1655,17 @@ No actions is required - you will automatically see breath rates if the overall 
 <div class="flex flex-wrap justify-between">
     <span>
     
-      <a href="../../sleep/awake_detection/" class="flex align-center">
-        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+      <a href="/sleep/awake_detection/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
         <span>Awake detection</span>
       </a>
     
     </span>
     <span>
     
-      <a href="../../sleep/charts/" class="flex align-center">
+      <a href="/sleep/charts/" class="flex align-center">
         <span>Charts / Trends</span>
-        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>
     
     </span>

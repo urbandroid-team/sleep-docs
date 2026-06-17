@@ -110,9 +110,9 @@ You can play your recordings from three places within the app.
 
 #### Play sound directly from the graph
 
-* A period on the graph with sound recording is marked with icon:ic_action_mic[] icon.
+* A period on the graph with sound recording is marked with ![ic_action_mic](/assets/icons/ic_action_mic.svg) icon.
 * When you drag over the graph period with mic icon and select the period (it will be highlighted).
-* You can play the sound recorded at that time with icon:ic_action_play[] in the top right corner.
+* You can play the sound recorded at that time with ![ic_action_play](/assets/icons/ic_action_play.svg) in the top right corner.
 
 ![](rec_play.gif)
 <!-- == How to… -->

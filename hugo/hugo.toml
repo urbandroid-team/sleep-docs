@@ -1,6 +1,10 @@
 baseURL = '/'
 title = 'Sleep as Android Docs'
-theme = 'hugo-book'
+
+# Configure the theme using Hugo Modules (Hugo will automatically download it!)
+[module]
+  [[module.imports]]
+    path = "github.com/alex-shpak/hugo-book"
 
 # Configure basic Hugo behavior
 disablePathToLower = false

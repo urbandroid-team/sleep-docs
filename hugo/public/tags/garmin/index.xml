@@ -1,38 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Garmin on Sleep as Android Docs</title><link>/tags/garmin/</link><description>Recent content in Garmin on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/garmin/index.xml" rel="self" type="application/rss+xml"/><item><title>Garmin</title><link>/devices/garmin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/garmin/</guid><description>&lt;p&gt;Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform.&lt;/p&gt;
-&lt;p&gt;Does your watch support the ConnectIQ platform? &lt;a href="https://developer.garmin.com/connect-iq/compatible-devices/"&gt;check here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="how-to-set-up"&gt;How to set up&lt;a class="anchor" href="#how-to-set-up"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You will need to install the following apps:&lt;/p&gt;
-&lt;p&gt;.On the phone&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"&gt;Garmin Addon for Sleep as Android&lt;/a&gt; from Play Store.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&amp;amp;hl=en_US"&gt;Sleep Watch starter&lt;/a&gt; from Play Store.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;.On the watch&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install the current version of the watch app &lt;a href="https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"&gt;thourgh the ConnectIQ Store&lt;/a&gt; (Connect IQ 3.1 and higher).&lt;/li&gt;
-&lt;li&gt;Make sure that all of the apps are installed, and then select &lt;em&gt;Sleep -&amp;gt; Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearables -&amp;gt; Garmin&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;For HR data, enable &lt;strong&gt;Heart rate monitoring&lt;/strong&gt; in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;To start sleep tracking with your watch, tap &lt;em&gt;Start tracking&lt;/em&gt; on the &lt;a href="../../ux/homescreen"&gt;Homescreen&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;.If you have troubles with muted vibrations for lucid cues or anti-snoring alerts&lt;/p&gt;</description></item><item><title>Supported wearables - list</title><link>/devices/supported_wearable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/supported_wearable/</guid><description>&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;
-&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href="https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/"&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;.Legend for sensors&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;|===
-|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;
-&lt;p&gt;{% for wearable in site.data.wearables %}
-{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description></item><item><title>Wearables</title><link>/devices/wearables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/wearables/</guid><description>&lt;p&gt;&lt;a id="wearable_setup"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="how-to-set-up-tracking-with-a-wearable"&gt;How to set up tracking with a wearable&lt;a class="anchor" href="#how-to-set-up-tracking-with-a-wearable"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;First of all, make sure your wearable is supported (see the &lt;a href="../../devices/supported_wearable"&gt;table of all integated wearables&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Check if the wearable is connected properly via Bluetooth.&lt;/li&gt;
-&lt;li&gt;Install the required companion apps - this depends on the wearable type, check the &lt;a href="../../devices/supported_wearable"&gt;table below&lt;/a&gt;, or one of the subpages.&lt;/li&gt;
-&lt;li&gt;Select the corresponding option in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearable&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;You can test the connection on some wearables with the Test sensor - see &lt;a href="../../devices/test_sensor"&gt;details about testing the connection here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;You can find specific guides for each wearable type on the subpages of the Wearable section.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Garmin on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/garmin/</link>
+    <description>Recent content in Garmin on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/garmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garmin</title>
+      <link>//localhost:1313/devices/garmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/garmin/</guid>
+      <description>&lt;p&gt;Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform.&lt;/p&gt;&#xA;&lt;p&gt;Does your watch support the ConnectIQ platform? &lt;a href=&#34;https://developer.garmin.com/connect-iq/compatible-devices/&#34;&gt;check here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-set-up&#34;&gt;How to set up&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You will need to install the following apps:&lt;/p&gt;&#xA;&lt;p&gt;.On the phone&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin&#34;&gt;Garmin Addon for Sleep as Android&lt;/a&gt; from Play Store.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&amp;amp;hl=en_US&#34;&gt;Sleep Watch starter&lt;/a&gt; from Play Store.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;.On the watch&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install the current version of the watch app &lt;a href=&#34;https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310&#34;&gt;thourgh the ConnectIQ Store&lt;/a&gt; (Connect IQ 3.1 and higher).&lt;/li&gt;&#xA;&lt;li&gt;Make sure that all of the apps are installed, and then select &lt;em&gt;Sleep -&amp;gt; Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearables -&amp;gt; Garmin&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;For HR data, enable &lt;strong&gt;Heart rate monitoring&lt;/strong&gt; in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;To start sleep tracking with your watch, tap &lt;em&gt;Start tracking&lt;/em&gt; on the &lt;a href=&#34;//localhost:1313/ux/homescreen&#34;&gt;Homescreen&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;.If you have troubles with muted vibrations for lucid cues or anti-snoring alerts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Supported wearables - list</title>
+      <link>//localhost:1313/devices/supported_wearable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/supported_wearable/</guid>
+      <description>&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;&#xA;&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href=&#34;https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/&#34;&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;.Legend for sensors&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;|===&#xA;|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;&#xA;&lt;p&gt;{% for wearable in site.data.wearables %}&#xA;{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wearables</title>
+      <link>//localhost:1313/devices/wearables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/wearables/</guid>
+      <description>&lt;p&gt;&lt;a id=&#34;wearable_setup&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-set-up-tracking-with-a-wearable&#34;&gt;How to set up tracking with a wearable&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up-tracking-with-a-wearable&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;First of all, make sure your wearable is supported (see the &lt;a href=&#34;//localhost:1313/devices/supported_wearable&#34;&gt;table of all integated wearables&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Check if the wearable is connected properly via Bluetooth.&lt;/li&gt;&#xA;&lt;li&gt;Install the required companion apps - this depends on the wearable type, check the  &lt;a href=&#34;//localhost:1313/devices/supported_wearable&#34;&gt;table below&lt;/a&gt;, or one of the subpages.&lt;/li&gt;&#xA;&lt;li&gt;Select the corresponding option in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearable&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;You can test the connection on some wearables with the Test sensor - see &lt;a href=&#34;//localhost:1313/devices/test_sensor&#34;&gt;details about testing the connection here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;You can find specific guides for each wearable type on the subpages of the Wearable section.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

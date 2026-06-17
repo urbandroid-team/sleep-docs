@@ -9,7 +9,7 @@ parent: /sleep/0parent.html
 
 **Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.**
 
-__On any sleep graph, tap __the pencil icon:ic_pencil[] icon on graphs_
+__On any sleep graph, tap __the pencil ![ic_pencil](/assets/icons/ic_pencil.svg) icon on graphs_
 
 ---
 
@@ -61,7 +61,7 @@ a|. From the Morning screen, tap on the Hypnogram to enter the Edit mode.
 
 a|![](edit_3.png)
 |===
-> **Note:** If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the [Stats](/sleep/statistics) screen and use icon:plus[] _Add sleep_
+> **Note:** If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the [Stats](/sleep/statistics) screen and use ![plus](/assets/icons/plus.svg) _Add sleep_
 <!-- <a id="delete_awake"></a> -->
 <!-- == Deleting awakes -->
 <!-- //[cols="1,2"] -->

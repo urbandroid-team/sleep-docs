@@ -18,7 +18,7 @@ tags:
 A **turquoise line** on your sleep graph shows breath rate - see [breath-line](#breath-line).
 A **blue line** on your graph depicts oxygen data - see [spo2-graph](#spo2-graph).
 
-Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your [RDI](#RDI) value. Monitoring breathing disturbances is important for link:[sleep apnea](https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/) detection.
+Whenever a significant dip in value occurs, a O2 symbol ![ic_action_cpap](/assets/icons/ic_action_cpap.svg) will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your [RDI](#RDI) value. Monitoring breathing disturbances is important for link:[sleep apnea](https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/) detection.
 
 <a id="breath-line"></a>
 .Breath-rates in sleep graph

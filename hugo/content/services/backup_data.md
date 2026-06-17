@@ -47,9 +47,9 @@ You can also open the CSV file on your computer (e.g. in Excel) for your own ana
 ### How to import / export in the app - manually
 
 You an also do a manual export/import process:
-1. Go to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_, and make sure the dialog says "successful".
+1. Go to the _Left_ ☰ _menu -> ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) Backup -> Export_, and make sure the dialog says "successful".
 1. Copy the directory you see on the dialogue to your new phone's SD card.
-1. Install Sleep as Android on the new phone and immediately go to _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Import_.
+1. Install Sleep as Android on the new phone and immediately go to _Left_ ☰ _menu -> ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) Backup -> Import_.
 > **Note:** If you don't import immediately, the app will replace your `sleep-export.zip` file after the next sleep record is created. The old `sleep-export.zip` file will be renamed to `sleep-export.backup.zip`. See [solution](/faqs/backup_data_not_imported_immediately).
 
 
@@ -58,7 +58,7 @@ You an also do a manual export/import process:
 ### How to share the manually created backup
 
 For even easier migrating to a new phone, you can use your email, or cloud storage (like)
-1. Go to the _Left_ ☰ _menu -> icon:ic_cloud_upload[] Backup -> Export_.
+1. Go to the _Left_ ☰ _menu -> ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) Backup -> Export_.
 1. When a dialogue "Successful backup to your local storage" appears, choose "Share" button.
 1. Now, you can choose your email client, and the backup zip file is attached to the body of a new email.
 1. Send it to yourself.

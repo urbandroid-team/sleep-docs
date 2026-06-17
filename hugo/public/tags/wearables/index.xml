@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wearables on Sleep as Android Docs</title><link>/tags/wearables/</link><description>Recent content in Wearables on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/wearables/index.xml" rel="self" type="application/rss+xml"/><item><title>Supported wearables - list</title><link>/devices/supported_wearable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/supported_wearable/</guid><description>&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;
-&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href="https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/"&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;.Legend for sensors&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;|===
-|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;
-&lt;p&gt;{% for wearable in site.data.wearables %}
-{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wearables on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/wearables/</link>
+    <description>Recent content in Wearables on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/wearables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supported wearables - list</title>
+      <link>//localhost:1313/devices/supported_wearable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/supported_wearable/</guid>
+      <description>&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;&#xA;&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href=&#34;https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/&#34;&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;.Legend for sensors&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;|===&#xA;|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;&#xA;&lt;p&gt;{% for wearable in site.data.wearables %}&#xA;{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

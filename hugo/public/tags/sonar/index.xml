@@ -1,11 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sonar on Sleep as Android Docs</title><link>/tags/sonar/</link><description>Recent content in Sonar on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/sonar/index.xml" rel="self" type="application/rss+xml"/><item><title>Breath rate detection &amp; blood oxygen measurement</title><link>/sleep/breath_rate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/breath_rate/</guid><description>&lt;p&gt;&lt;strong&gt;Makes use of sensors that can measure either your breath rate (&lt;a href="../../sleep/sensors#sonar"&gt;sonar&lt;/a&gt;, &lt;a href="../../devices/sleep_phaser_2"&gt;Sleep phaser&lt;/a&gt;, and &lt;a href="https://sleep.urbandroid.org/polar-sleep-tracking/"&gt;Polar H10&lt;/a&gt;), or your blood oxygenation (&lt;a href="../../devices/oximeter"&gt;oximeter, some wearables&lt;/a&gt;).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;strong&gt;turquoise line&lt;/strong&gt; on your sleep graph shows breath rate - see &lt;a href="#breath-line"&gt;breath-line&lt;/a&gt;.
-A &lt;strong&gt;blue line&lt;/strong&gt; on your graph depicts oxygen data - see &lt;a href="#spo2-graph"&gt;spo2-graph&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a &lt;em&gt;breathing disturbance&lt;/em&gt;. From those disturbances, we compute your &lt;a href="#RDI"&gt;RDI&lt;/a&gt; value. Monitoring breathing disturbances is important for link:&lt;a href="https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/"&gt;sleep apnea&lt;/a&gt; detection.&lt;/p&gt;</description></item><item><title>Sensors</title><link>/sleep/sensors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sensors/</guid><description>&lt;p&gt;&lt;strong&gt;Sleep as Android measures your sleep using various sensors. You can use sensors that are in your phone, or purchase additional devices and use their sensors, or use a combination.&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="motion-sensors"&gt;Motion sensors&lt;a class="anchor" href="#motion-sensors"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Basic sleep tracking is done using a motion sensor.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id="accelerometer"&gt;Accelerometer&lt;a class="anchor" href="#accelerometer"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see &lt;a href="../../devices/wearables"&gt;Smartwatch and Wearables&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id="sonar"&gt;Sonar&lt;a class="anchor" href="#sonar"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Our invention — the sonar — brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed. It uses your phone&amp;rsquo;s speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sonar on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/sonar/</link>
+    <description>Recent content in Sonar on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/sonar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breath rate detection &amp; blood oxygen measurement</title>
+      <link>//localhost:1313/sleep/breath_rate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sleep/breath_rate/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Makes use of sensors that can measure either your breath rate (&lt;a href=&#34;//localhost:1313/sleep/sensors#sonar&#34;&gt;sonar&lt;/a&gt;,  &lt;a href=&#34;//localhost:1313/devices/sleep_phaser_2&#34;&gt;Sleep phaser&lt;/a&gt;, and &lt;a href=&#34;https://sleep.urbandroid.org/polar-sleep-tracking/&#34;&gt;Polar H10&lt;/a&gt;), or your blood oxygenation (&lt;a href=&#34;//localhost:1313/devices/oximeter&#34;&gt;oximeter, some wearables&lt;/a&gt;).&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A &lt;strong&gt;turquoise line&lt;/strong&gt; on your sleep graph shows breath rate - see &lt;a href=&#34;#breath-line&#34;&gt;breath-line&lt;/a&gt;.&#xA;A &lt;strong&gt;blue line&lt;/strong&gt; on your graph depicts oxygen data - see &lt;a href=&#34;#spo2-graph&#34;&gt;spo2-graph&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Whenever a significant dip in value occurs, a O2 symbol &lt;img src=&#34;//localhost:1313/assets/icons/ic_action_cpap.svg&#34; alt=&#34;ic_action_cpap&#34;  /&gt;&#xA; will be shown in the graph. This is a &lt;em&gt;breathing disturbance&lt;/em&gt;. From those disturbances, we compute your &lt;a href=&#34;#RDI&#34;&gt;RDI&lt;/a&gt; value. Monitoring breathing disturbances is important for link:&lt;a href=&#34;https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/&#34;&gt;sleep apnea&lt;/a&gt; detection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sensors</title>
+      <link>//localhost:1313/sleep/sensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sleep/sensors/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Sleep as Android measures your sleep using various sensors. You can use sensors that are in your phone, or purchase additional devices and use their sensors, or use a combination.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;motion-sensors&#34;&gt;Motion sensors&lt;a class=&#34;anchor&#34; href=&#34;#motion-sensors&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Basic sleep tracking is done using a motion sensor.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;accelerometer&#34;&gt;Accelerometer&lt;a class=&#34;anchor&#34; href=&#34;#accelerometer&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see &lt;a href=&#34;//localhost:1313/devices/wearables&#34;&gt;Smartwatch and Wearables&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sonar&#34;&gt;Sonar&lt;a class=&#34;anchor&#34; href=&#34;#sonar&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Our invention — the sonar — brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed. It uses your phone&amp;rsquo;s speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
