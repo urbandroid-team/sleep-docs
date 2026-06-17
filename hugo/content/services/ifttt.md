@@ -53,4 +53,4 @@ If you don't want to fill your email/password inside our app, you can copy the n
 
 - [Turn off Philips Hue when sleep tracking starts](https://ifttt.com/recipes/405744-sleep-as-android-turn-off-all-philips-hue-lights-when-starting-sleep-tracking)
 <!-- FAQS: -->
-<!-- can't get into settings!!! -> you should disable and enable -->
+<!-- can'themes get into settings!!! -> you should disable and enable -->
