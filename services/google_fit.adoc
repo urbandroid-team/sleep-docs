@@ -10,6 +10,10 @@ Allows you to synchronize data between Sleep as Android and Google Fit.
 
 _Settings -> Services -> Google Fit_
 
+[WARNING]
+The Google Fit APIs is no longer support by Google. Please, use <</services/health_connect#, Health Connect service>> instead.
+
+
 == Features
 
 * Upload your sleep data into Google Fit

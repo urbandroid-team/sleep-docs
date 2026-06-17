@@ -41,6 +41,8 @@ You can check the Tools app https://help.mibandtools.com/knowledge_base/categori
 
 The Tools app is ready to use with Sleep app, you do not need to enable the integration.
 
+NOTE:: Check all DND modes on the wearable, they may prevent the alarm vibrations!
+
 == How to set up integration in Sleep app
 
 . Open _Settings -> Sleep tracking -> Wearables -> Use wearable_.

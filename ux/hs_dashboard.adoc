@@ -88,16 +88,19 @@ Shows your active <</sleep/goals#, Goal>> progress. There are two progress bars 
 
 
 == Shortcuts card [[shortcut]]
-A mini-board with shortcuts.
+A mini-board with shortcuts. The shortcuts can be configured, se details at <</sleep/shortcuts#,Shortcut section>>,
+
+=== Default shortcuts
+
 [horizontal]
-icon:ic_action_bedtime[] Sleep X hour:: Starts sleep tracking with and alarm based on your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>> (+ smart period and tracking start delay).
-icon:ic_action_snooze[] Nap:: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
-icon:plus[] Add sleep:: For adding a period of sleep manually, when you forgot tracking.
-icon:plus[] Add goal:_: for adding a new goal (<</sleep/goals#, read more about Goals>>).
-* icon:ic_action_lullaby[] Lullabies: A quick access to the lullabies.
-+
-NOTE: You can create a shortcut (Add alarm, Nap, Sleep X hours and Sleep tracking) widget for your main screen (<</ux/widgets#, see here for details>>).
-+
+icon:ic_action_bedtime[] Sleep X hour:: Starts sleep tracking with and alarm based on your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>> (+ smart period).
+icon:ic_action_bedtime[] Sleep Y hour:: Starts sleep tracking with and alarm based on your <</sleep/ideal_daily_sleep#,Daily sleep duration goal>> (+ smart period + tracking start delay).
+icon:ic_action_snooze[] Nap:: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied. The board shows your last three used naps, it will be automatically updated after you create a new nap alarm.
+
+
+/+
+/NOTE: You can create a shortcut (Add alarm, Nap, Sleep X hours and Sleep tracking) widget for your main screen (<</ux/widgets#, see here for details>>).
+/+
 
 Add-on card::
 A short presentation of our add-ons, compatible devices or our other apps.

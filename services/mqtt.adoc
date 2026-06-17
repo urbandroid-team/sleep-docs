@@ -16,7 +16,7 @@ _Settings -> Services -> Automation -> MQTT_
 
 === Setup
 . Enable the _MQTT_ option
-. Tap the URL option and fill in the URL of the MQTT broker, including _mqtt://_ or _mqtts://_ .
+. Tap the URL option and fill in the URL of the MQTT broker, including _mqtt://_ or _mqtts://_ or tcp://.
 . Tap ok.
 . (Optional) If you want to customize the client ID under which the app will connect to the MQTT Broker, you can do so by tapping _Client ID_ option. By default, this is "SleepAsAndroid" and should be fine in case you're the only one publishing to the broker through Sleep as Android.
 

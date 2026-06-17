@@ -1,0 +1,43 @@
+---
+layout: default
+title: Shortcuts
+nav_order: 2
+parent: /sleep/0parent.html
+tags:
+- tracking
+- ui
+- alarm
+- nap
+- lullaby
+
+---
+
+The dashboard shortcut card is now configurable - you can customize the shortcuts to suit your needs!
+
+image::shortcut_board.png[]
+
+To customize the shortcut card, tap the Settings icon in the upper right corner of the panel.
+You can adjust the behavior of the shortcuts, rename them, remove them, or add new ones.
+
+image::shortcut_settings.png[]
+
+## Sleep tracking section
+
+You can enable *sleep tracking* for the shortcut, it will follow your sleep tracking configuration and start the manual tracking.
+There is also an option to enable *save battery* for this tracking - this means no data, no sound recording, only sleep times. This option will not enable battery saving for all tracking, only for the tracking started with this shortcut.
+
+## Alarm section
+
+Alarm section for each shortcut allows you to *add alarm* and shift the alarm time after or before the ideal sleep duration.
+So you can add an alarm and pick a *sleep duration* for this shortcut (Sleep duration goal disabled) with the slider.
+Or you can enable *ideal sleep duration* (Sleep duration goal enabled), and either add more time to this ideal goal, or subtract time from this ideal goal for this shortcut (will not change the ideal sleep duration)
+
+[EXAMPLE]
+Your sleep duration goal is 7 hours but on weekend you wish to sleep 1 hour longer than normal and you do not know when you get to bed. So you create a shortcut to start tracking and add an alarm in Sleep duration goal + 60 minutes..
+
+## Lullabies section
+
+You can select a specific *lullaby* for the shortcut - the selection here will not change the auto-starting lullaby you have set as your default.
+The lullaby can be either one of the built-in lullabies, or have a lullaby with *guided meditation* (requires a https://play.google.com/store/apps/details?id=com.urbandroid.lis10&hl=en_US&gl=US[free add-on Lis10 from Play Store], see <</sleep/lullaby#meditation, details here>>).
+*Turn off when sleeping* will slowly decrease the media volume after you start falling asleep. The option will not change your default Turn off when sleeping, the duration selected here will only apply to lullabies started with this specific shortcut.
+

@@ -156,7 +156,7 @@ NOTE: You will always be notified when one of your alarms can be rescheduled, wi
 
 == Smart wake up
 
-See <</alarms/smart_wake_up#,Smart wake up>>.
+See <</sleep/smart_wake_up#,Smart wake up>>.
 You can have a different smart period for each alarm - a longer period for weekends, and a shorter period for your workdays.
 
 == Captcha
@@ -191,6 +191,8 @@ Disabled:: Alarm sounds at the system's alarm stream volume (or media stream if 
 30 seconds:: A brief period of increased sound followed by sound at the current system volume.
 1-24 minutes:: Sets how long it takes to reach the maximum volume; the longer the time, the slower the volume increases and the longer it takes to reach the maximum.
 
+NOTE: Gentle volume timer starts when the alarm starts, it is not postponed by the Delayed sound start.
+
 === Vibrate
 Enables phone vibrations (not to be confused with wearable vibrations).
 
@@ -206,6 +208,8 @@ You may want to give <</devices/smart_light#,Smartlight>> or vibrations a chance
 [horizontal]
 Disabled:: Sound starts at alarm time.
 30 seconds - 24 minutes:: Sound starts after the set time.
+
+NOTE: Delayed sound start will not postponed the start of the gentle volume increase.
 
 === Play alarm in silent profile
 The alarm sound overrides the phone's silent mode.

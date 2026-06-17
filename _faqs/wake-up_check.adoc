@@ -1,0 +1,17 @@
+---
+title: Alarm goes off again after dismiss
+tags:
+  - alarms
+  - CAPTCHA
+
+---
+
+If your alarms go off again several minutes after you has just dismissed them, check, if the <<sleep-tracking-screen-1/alarms/captcha/wakeup_check#, Wake-up check>> feature is not enabled in _Settings → Alarms → CAPTCHA → Wake-up check_ or in _per-alarm settings → CAPTCHA → Wake-up check_.
+
+This feature requires a confirmation of the Wake-up check notification. If you don't confirm it, the alarm is triggered again.
+
+image:wake-up_check.png[]
+
+If you want to use this feature, but you do not see the Notifications, check the configuration of the notification behavior in the _system settings →  Apps →  Sleep as Android →  Notifications →  Weak up check_.
+
+The default configuration of the notification is "silent" (it is supposed to be part of the quest, so you need to confirm you are woken up by opening the notification actively). But you can change this if it will suit you better. The notification can have sound or vibrations, or also a pop-up notification.

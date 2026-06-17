@@ -13,9 +13,9 @@ tags:
 For lullabies, you can use built-in *Nature sound* lullabies, your *own music*, *Spotify*, *online radio*, or you can mix in *binaural beats*.
 You can listen to your favourite music the whole night, or let the app control the volume and gradually lower it to zero after you started falling asleep with <<turn_off, Turn off when sleeping feature>>.
 
-_Settings -> Lullaby_
-_Left_ ≡ _menu -> Lullaby_
-icon:ic_action_lullaby[] _icon on the tracking screen_
+_Settings -> Lullaby_ (for general settings)
+_Left_ ≡ _menu -> Lullaby_ (for choosing a lullaby)
+icon:ic_action_lullaby[] _icon on the tracking screen_ (for choosing a lullaby)
 
 ---
 
@@ -26,7 +26,8 @@ toc::[]
 
 === Nature
 Built-in lullabies[[nature]]:: are composed of repetitive sounds making your brain tired and sleepy, and sudden sounds for complete and rich experience stimulating your fantasy.
-Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[Sleep Lullaby extension pack].
+Five lullabies are build in for free, five additional lullabies available after unlocking the app and many more with the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.lullaby[Sleep Lullaby extension pack]. This lullaby extension is free for unlocked Sleep app users.
+You can purchase the https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby[ Lullaby extension pack] even if you don't wish to use the full version of Sleep app.
 
 * Whale diving
 * Thunderstorm
@@ -39,44 +40,66 @@ Five lullabies are build in for free, five additional lullabies available after 
 * Old clock
 * Chants of Tibet
 Lullaby Add-ons::
-* Summer night
-* Frogs in pond
-* North wind
-* Jungle
-* Lava cake
-* Galloping horse
-* Sheep counting
-* Wind chimes
-* Om chant
-* Temple bells
-* Flute
-* Tribal drums
-* Piano
-* Cat purr
-* Steam train
-* NASA Saturn "sound"
-* Submarine
-* War march
-* Musicbox
 * Baby in belly
-* Girl singing
-* Choir
-* Slow breath
-* Spaceship
+* Bath
 * Brown noise
-* Pink noise
-* Forest
-* Baby Doppler
-* Heart
+* Bubble wrap ASMR
+* Bush calling
+* Candy ASMR
 * Car
-* Fireworks
+* Cat purr
+* Chill out (by Valerie Vivegnis)
+* Chois
+* Exploration
 * Fan
-* Hairdryer
+* Fantasy
+* Fireworks
+* Flute
+* Forest
+* Frogs in pond
+* Galloping horse
+* Girl singing
+* Gregorian (by Paterm)
+* Hair dryer
+* Heart
+* Jacuzzi
+* Jungle
+* Lava lake
+* Magic
+* Medieval tavern
+* Meditation (by Universfield)
+* Megalith
+* Music Box
+* NASA Saturn "sound"
+* North Wind
+* Om chant
+* Piano (by Gustavo Alivera)
+* Pink Noise
+* Planet Nine
+* Rain Drop
+* Rain stick
+* Reading ASMR
+* Restaurant
+* Sauna
+* Sheep counting
 * Shower
 * Shush
-* Vacuum cleaner
+* Siren
+* Slow breath
+* Solfeggio
+* Spaceship
+* Steam train
+* Strings
+* Submarine
+* Summer night
+* Temple bells
+* Tribal drums
+* Vaccum cleaner
+* Viking
+* War march
 * Washing machine
-* Restaurant
+* Wind chimes
+
 
 === Spotify
 
@@ -89,9 +112,15 @@ You can choose lullabies from your Spotify Library
 
 Several SomaFM radios are added by default - all available online radio stations with links https://sleep.urbandroid.org/radio/radio.txt[here]. You can add other radio stations - see <<guide_radio, the guide below>>.
 
+=== Playlists
+
+You can create a playlist from the built-in tracks from the app, and from the Lullaby addon.
+
 == Settings
 [horizontal]
 Preview:: Plays a preview of your current lullaby
+Playlist:: Allows you to play several tracks in order. The app will choose you last X lullaby.
+Timeout:: A timeout of individual tracks in the playlist. The app will play one track for x minute, and then will switch to the next in the order. If *disable*, the app will loop one track.
 Turn off when sleeping [[turn_off]]:: Controls the system-wide volume level and turns it gradually down when you fall asleep.
 NOTE: This feature only works when Sleep tracking is active.
  * Works with built-in lullabies and any sound player app or service.
@@ -138,7 +167,7 @@ https://play.google.com/store/apps/details?id=com.urbandroid.mind[Mindroid]
 
 .Advanced
 [horizontal]
-Turn off WiFi after lullaby:: Turns off the WiFi signal once the volume reaches zero. For online radios and streaming services.
+Turn off WiFi after lullaby:: Turns off the WiFi signal once the volume reaches zero. For online radios and streaming services. Available only for older Android versions.
 
 == Guides
 

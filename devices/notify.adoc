@@ -31,7 +31,8 @@ You can visit Notify app page for http://forum.mibandnotify.com/discussion/20117
 - Mi Band 7
 
 === Notify for Xiaomi and Mi Fitness
-
+- Mi Band 10
+- Mi Band 9, 9 PRO
 - Mi Band 7 PRO
 - Mi Band 8
 - Mi Band 8 PRO
@@ -39,16 +40,19 @@ You can visit Notify app page for http://forum.mibandnotify.com/discussion/20117
 - Redmi Band 2
 - Redmi Watch 2+3
 
-== Supported Amazfits[[supported_wearables]]
+== Supported Amazfits [[supported_wearables]]
 
-- Amazfit T-Rex
-- Amazfit GTS
-- Amazfit GTR, GTR Lite (47mm & 42mm)
+- Amazfit T-Rex 1/Pro/2/Ultra
+- Amazfit GTS, GTS 2/3/4
+- Amazfit GTR
+- Amazfit GTR Lite (47mm & 42mm), GTR 1/2/3/4/5
 - Amazfit Verge Lite
-- Amazfit Bip, Bip Lite, Bip S, Bip 3
-- Amazfit Mi Dong Cor
-- Amazfit Arc
+- Amazfit Bip, Bip Lite, Bip S, Bip 3, Bip 5, Bip 6
 - Amazfit Band 5
+- Zepp E Circle, Zepp E Square,
+- Amazfit Active 1/2
+- Amazfit Balance
+
 
 == How to set up integration in Notify app
 

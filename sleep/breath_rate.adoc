@@ -19,6 +19,7 @@ A *blue line* on your graph depicts oxygen data - see <<spo2-graph>>.
 
 Whenever a significant dip in value occurs, a O2 symbol icon:ic_action_cpap[] will be shown in the graph. This is a _breathing disturbance_. From those disturbances, we compute your <<RDI>> value. Monitoring breathing disturbances is important for link:https://sleep.urbandroid.org/sleep-apnea-pulse-oximetry/[sleep apnea] detection.
 
+
 [[breath-line]]
 .Breath-rates in sleep graph
 image::breath_rate.png[]
@@ -31,9 +32,13 @@ image::hrbr.png[]
 toc::[]
 :toclevels: 1
 
+
+[[RDI]]
 == RDI
-*Respiratory Disturbance Index* is the average count of respiratory disturbance episodes per hour.
+Oximeter-derived respiratory disturbance index in this app is the average count of respiratory disturbance episodes per hour. The respiratory disturbances are estimated either from breath rate (sonar, Sleep Phaser) or from blood oxygenation (oximeters, some wearables).
 E.g. if you stop breathing once per every hour of your sleep, RDI would be 1.
+
+RDI (Respiratory Disturbance Index) and AHI (Apnoea Hypopnea Index) correlation is evaluated in link:https://pubmed.ncbi.nlm.nih.gov/10722770/[this article].
 
 [horizontal]
 0 - 10:: RDI under 10 is considered normal, some of the disturbance events measure may be faults of the sensor and how tight the sensor is around your finger for instance.

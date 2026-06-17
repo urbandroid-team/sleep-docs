@@ -35,7 +35,7 @@ Test:: Test connection to your bulb by flashing it.
 Turn off:: Force turning off your connected bulb.
 
 == Sleep Phaser
-Section for controlling your link:http://sleepphaser.urbandroid.org/[Sleep Phaser].
+Section for controlling your link:https://happyelectronics.eu/products/sleep-phaser-v3[Sleep Phaser].
 For complete manual for Sleep Phaser, see <</devices/sleep_phaser#,Sleep Phaser chapter>>.
 
 Tap *Sleep Phaser Disconnected* to connect your Sleep Phaser with the app.

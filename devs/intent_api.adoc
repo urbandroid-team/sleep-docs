@@ -36,6 +36,7 @@ Disable Alarm (when not currently ringing):: `com.urbandroid.sleep.alarmclock.AL
 * Extras:
 ** alarm_label: String representing a label of alarm to be changed. If there are more such alarms, only one of them is going to be changed (no guarantees which).
 ** alarm_enabled: Boolean saying whether alarm should be enabled or disabled.
+** alarm_id: alarm's unique identifier (int)  - retrievable from <</devs/content_provider_api#,the alarm content provider>>.
 
 Snooze Alarm :: `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE`
 You can send an integer extra to set the snooze duration in minutes (in range from 1 to 60).
@@ -69,10 +70,12 @@ Snoozed by user:: `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE_CLICKED_ACTION_A
 Time to bed notification:: `com.urbandroid.sleep.alarmclock.TIME_TO_BED_ALARM_ALERT_AUTO`
 Alarm triggered:: `com.urbandroid.sleep.alarmclock.ALARM_ALERT_START_AUTO`
 Alarm dismissed:: `com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS_AUTO`
+alarm_wake_up_check:: `com.urbandroid.sleep.alarmclock.ALARM_WAKE_UP_CHECK_AUTO`
 Lullaby started:: `com.urbandroid.sleep.ACTION_LULLABY_START_PLAYBACK_AUTO`
 Lullaby stopped:: `com.urbandroid.sleep.ACTION_LULLABY_STOPPED_PLAYBACK_AUTO`
 Lucid dreaming cue:: `com.urbandroid.sleep.LUCID_CUE_ACTION_AUTO`
 NOTE: Make sure <</sleep/lucid_dreaming#,Lucid dreaming>> is enabled in settings
+
 
 Antisnoring sound:: `com.urbandroid.sleep.ANTISNORING_ACTION_AUTO`
 

@@ -45,6 +45,8 @@ Anti-snoring by default plays through headphones and the phone speaker simultane
 == Preview
 Check how your set anti-snoring cue behaves.
 
+NOTE:: In preview tests, both the phone and connected wearable will vibrate, in real life only one will vibrate - if you are using a wearable for sleep tracking, only the wearable will vibrate for anti-snoring alerts.
+
 NOTE: We strongly recommend to _Preview_ your settings before using it at night to make sure it is not too prominent to fully wake you up.
 
 

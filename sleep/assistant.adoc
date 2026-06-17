@@ -1,0 +1,38 @@
+---
+layout: default
+title: Sleep Assistant
+nav_order: 2
+parent: /sleep/0parent.html
+---
+
+
+The new Sleep Assistant helps you better understand and interpret your data for deeper insights. It uses artificial intelligence to summarize, explain, and interpret your sleep data in natural language.
+It helps you see connections, trends, weaknesses, and strengths in your sleep qualities.
+
+The data used for analysis is aggregated, so it is completely secure and private. The Sleep Assistant does not read or send any personal information, only the sleep score data.
+
+The Community location is taken from Sleep stats → Community card (so from your system locale). The app only works with "country", so nothing leading to your exact or coarse location.
+
+The feature is only active when you specifically interact with the Assistant Droid. The feature is completely optional and you do not need to use it, just swipe away the Assistant card from the dashboard.
+
+NOTE:: The  assistant does not have access to your individual sleep records in your history, only to your summarized sleep aggregates from last 14 days and your last sleep record from today.
+
+
+
+image::assistant_sum.png[]
+
+NOTE: The feature is currently supported in https://ai.google.dev/gemini-api/docs/available-regions[regions listed here].
+
+=== How to use the Sleep Assistant?
+
+. Open the Sleep Assistant from the Assistant card on the Dashboard, or from the Left ≡ menu → Sleep Assistant.
+. Now select one of the predefined questions at the top, and wait for the answer.
+. If you have a follow-up question, you can type it into the conversation.
+
+[.imgflexblock]
+****
+image::assistant_follow_1.png[role="left",title="Assistent can give you an advice,"]
+image::assistant_follow_2.png[role="left",title="explanation,"]
+image::assistant_follow_3.png[role="left",title="or examples."]
+
+****

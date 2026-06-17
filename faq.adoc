@@ -8,6 +8,7 @@ search_exclude: true
 no_comments: true
 ---
 
+
 {% for faq in site.faqs %}
   * link:{{ faq.url | relative_url }}[{{ faq.title }}]
 {% endfor %}
