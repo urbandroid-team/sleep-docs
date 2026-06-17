@@ -55,8 +55,8 @@ All theme parameters are set under `[params]` in your site config. Every paramet
   # Enable portable markdown links to resolve relative .md links to Hugo URLs.
   # Lets you write [text](./other.md) instead of Hugo's relref shortcode.
   #   false     - disabled, relative .md links not resolved
-  #   'warning' - enabled, prints a build warning if linked page doesn't exist
-  #   'error'   - enabled, fails the build if linked page doesn't exist
+  #   'warning' - enabled, prints a build warning if linked page doesn'themes exist
+  #   'error'   - enabled, fails the build if linked page doesn'themes exist
   BookPortableLinks = false
 
   # /!\ Experimental, may change or be removed.
