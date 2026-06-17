@@ -1,18 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Language on Sleep as Android Docs</title>
-    <link>//localhost:1313/tags/language/</link>
-    <description>Recent content in Language on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/tags/language/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Translation</title>
-      <link>//localhost:1313/general/translation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/general/translation/</guid>
-      <description>&lt;p&gt;Sleep as Android is translated to many world languages, thanks to our volunteer translators. We could never do that without you!&lt;/p&gt;&#xA;&lt;h2 id=&#34;can-you-help-us-with-the-translations&#34;&gt;Can you help us with the translations?&lt;a class=&#34;anchor&#34; href=&#34;#can-you-help-us-with-the-translations&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;There are new features added all the time which need new strings, which in turn need to be translated. Can you give us a hand with it? Please ask for permission to access our translation spreadsheets:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1N3CrEP19aB66DBFzONIPooH5dWUW_mU4ENH_MeD1QFU/edit&#34;&gt;Sleep as Android Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Slw1_Z2tN_berThYKivW6KOCNbW1DY-TUWkwclRvnJU/edit&#34;&gt;SleepCloud Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1UCeO0d2_rfjKJLdkPygmEcmnHcLTw9VgdXNHuIpPkeY/edit&#34;&gt;BabySleep Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Jse7DqJr4eNTca6_7rSBchpaX3eU6SgLo9V3ltBio5Q/edit&#34;&gt;Twilight Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;link:&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1jgE_VaECnMzUmg0apblRLVqg59abJhj30ylZUSF9zb8/edit&#34;&gt;Digital Detox Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We use link:&lt;a href=&#34;https://tts.urbandroid.org/index.html&#34;&gt;Translate the Sheet&lt;/a&gt; to simplify the translation for us and the volunteers.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Language on Sleep as Android Docs</title><link>/tags/language/</link><description>Recent content in Language on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/language/index.xml" rel="self" type="application/rss+xml"/><item><title>Translation</title><link>/general/translation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/translation/</guid><description>&lt;p&gt;Sleep as Android is translated to many world languages, thanks to our volunteer translators. We could never do that without you!&lt;/p&gt;
+&lt;h2 id="can-you-help-us-with-the-translations"&gt;Can you help us with the translations?&lt;a class="anchor" href="#can-you-help-us-with-the-translations"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are new features added all the time which need new strings, which in turn need to be translated. Can you give us a hand with it? Please ask for permission to access our translation spreadsheets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1N3CrEP19aB66DBFzONIPooH5dWUW_mU4ENH_MeD1QFU/edit"&gt;Sleep as Android Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1Slw1_Z2tN_berThYKivW6KOCNbW1DY-TUWkwclRvnJU/edit"&gt;SleepCloud Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1UCeO0d2_rfjKJLdkPygmEcmnHcLTw9VgdXNHuIpPkeY/edit"&gt;BabySleep Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1Jse7DqJr4eNTca6_7rSBchpaX3eU6SgLo9V3ltBio5Q/edit"&gt;Twilight Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;link:&lt;a href="https://docs.google.com/spreadsheets/d/1jgE_VaECnMzUmg0apblRLVqg59abJhj30ylZUSF9zb8/edit"&gt;Digital Detox Translation Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We use link:&lt;a href="https://tts.urbandroid.org/index.html"&gt;Translate the Sheet&lt;/a&gt; to simplify the translation for us and the volunteers.&lt;/p&gt;</description></item></channel></rss>

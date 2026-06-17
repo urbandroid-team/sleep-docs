@@ -1,18 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Powernap on Sleep as Android Docs</title>
-    <link>//localhost:1313/tags/powernap/</link>
-    <description>Recent content in Powernap on Sleep as Android Docs</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/tags/powernap/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Power nap</title>
-      <link>//localhost:1313/alarms/power_nap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/alarms/power_nap/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Power nap is a special case of &lt;a href=&#34;../../alarms/smart_wake_up&#34;&gt;Smart wake-up&lt;/a&gt;  for situations when you do not have a specific time to wake up, but you prefer to sleep at least a certain time and then wake up softly after your current sleep cycle ends.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;EXAMPLE&lt;/strong&gt;: Let&amp;rsquo;s say it&amp;rsquo;s the weekend and you can wake up any time after 10:00. If you schedule a power nap alarm for 10:00, it will look for the best time to wake you up between 10:00 and 11:00.[]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can take a nap of at least 20 minutes, but let Sleep as Android find your best time afterwards, so Power Nap will make sure you sleep at least 20 minutes and find your best time in 20 + 59 minutes.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Powernap on Sleep as Android Docs</title><link>/tags/powernap/</link><description>Recent content in Powernap on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/powernap/index.xml" rel="self" type="application/rss+xml"/><item><title>Power nap</title><link>/alarms/power_nap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/power_nap/</guid><description>&lt;p&gt;&lt;strong&gt;Power nap is a special case of &lt;a href="../../alarms/smart_wake_up"&gt;Smart wake-up&lt;/a&gt; for situations when you do not have a specific time to wake up, but you prefer to sleep at least a certain time and then wake up softly after your current sleep cycle ends.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;EXAMPLE&lt;/strong&gt;: Let&amp;rsquo;s say it&amp;rsquo;s the weekend and you can wake up any time after 10:00. If you schedule a power nap alarm for 10:00, it will look for the best time to wake you up between 10:00 and 11:00.[]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can take a nap of at least 20 minutes, but let Sleep as Android find your best time afterwards, so Power Nap will make sure you sleep at least 20 minutes and find your best time in 20 + 59 minutes.&lt;/p&gt;</description></item></channel></rss>
