@@ -1,44 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miband on Sleep as Android Docs</title><link>/tags/miband/</link><description>Recent content in Miband on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/miband/index.xml" rel="self" type="application/rss+xml"/><item><title>Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</title><link>/devices/notify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/notify/</guid><description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.
-But thanks to the Notify app, you can use some devices with Sleep app.
-&lt;a href="https://play.google.com/store/apps/details?id=com.mc.miband1&amp;amp;hl=en"&gt;Notify for Mi Band&lt;/a&gt;, &lt;a href="https://play.google.com/store/apps/details?id=com.mc.xiaomi1&amp;amp;hl=en"&gt;Notify for Xiaomi &amp;amp; Mi Fitness&lt;/a&gt; and &lt;a href="https://play.google.com/store/apps/details?id=com.mc.amazfit1&amp;amp;hl=en"&gt;Notify for Amazfit &amp;amp; Zepp&lt;/a&gt; are developed by &lt;a href="https://play.google.com/store/apps/developer?id=OneZeroBit&amp;amp;hl=en"&gt;OneZerobit&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can visit Notify app page for &lt;a href="http://forum.mibandnotify.com/discussion/20117/sleep-as-android-integration"&gt;Sleep as Android integration here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="supported-mi-bands"&gt;Supported Mi Bands &lt;a id="supported_wearables"&gt;&lt;/a&gt;&lt;a class="anchor" href="#supported-mi-bands"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="notify-for-mi-band"&gt;Notify for Mi Band&lt;a class="anchor" href="#notify-for-mi-band"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mi Band 1, 1S and 1A&lt;/li&gt;
-&lt;li&gt;Mi Band HRX&lt;/li&gt;
-&lt;li&gt;Mi Band 2&lt;/li&gt;
-&lt;li&gt;Mi Band 3 and 3i&lt;/li&gt;
-&lt;li&gt;Mi Band 4&lt;/li&gt;
-&lt;li&gt;Mi Band 5&lt;/li&gt;
-&lt;li&gt;Mi Band 6&lt;/li&gt;
-&lt;li&gt;Mi Band 7&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="notify-for-xiaomi-and-mi-fitness"&gt;Notify for Xiaomi and Mi Fitness&lt;a class="anchor" href="#notify-for-xiaomi-and-mi-fitness"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mi Band 7 PRO&lt;/li&gt;
-&lt;li&gt;Mi Band 8&lt;/li&gt;
-&lt;li&gt;Mi Band 8 PRO&lt;/li&gt;
-&lt;li&gt;Xiaomi Watch S1&lt;/li&gt;
-&lt;li&gt;Redmi Band 2&lt;/li&gt;
-&lt;li&gt;Redmi Watch 2+3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="supported-amazfits"&gt;Supported Amazfits &lt;a id="supported_wearables"&gt;&lt;/a&gt;&lt;a class="anchor" href="#supported-amazfits"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazfit T-Rex&lt;/li&gt;
-&lt;li&gt;Amazfit GTS&lt;/li&gt;
-&lt;li&gt;Amazfit GTR, GTR Lite (47mm &amp;amp; 42mm)&lt;/li&gt;
-&lt;li&gt;Amazfit Verge Lite&lt;/li&gt;
-&lt;li&gt;Amazfit Bip, Bip Lite, Bip S, Bip 3&lt;/li&gt;
-&lt;li&gt;Amazfit Mi Dong Cor&lt;/li&gt;
-&lt;li&gt;Amazfit Arc&lt;/li&gt;
-&lt;li&gt;Amazfit Band 5&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="how-to-set-up-integration-in-notify-app"&gt;How to set up integration in Notify app&lt;a class="anchor" href="#how-to-set-up-integration-in-notify-app"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;[cols=&amp;quot;^,^&amp;quot;]
-|===
-a|.Switch to the graph tab and tap on the cog icon.
-&lt;img src="../../assets/images/NF_vibr_1.png" alt="" /&gt;
-&lt;/p&gt;</description></item><item><title>Tools &amp; Mi Band and Amazfit</title><link>/devices/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/tools/</guid><description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools &amp;amp; MiBand and Tools &amp;amp; Amazfit app, you can use some devices with Sleep app.
-&lt;a href="https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"&gt;Tools &amp;amp; Mi Band&lt;/a&gt; and &lt;a href="https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"&gt;Tools &amp;amp; Amazfit&lt;/a&gt; are developed by &lt;a href="https://play.google.com/store/apps/developer?id=Tools&amp;#43;%26&amp;#43;Wearables&amp;#43;Ltd"&gt;Tools &amp;amp; Wearables Ltd.&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can check the Tools app &lt;a href="https://help.mibandtools.com/knowledge_base/categories/mi-band-tools-faq-frequently-asked-questions"&gt;page with FAQs&lt;/a&gt;, page for &lt;a href="https://help.mibandtools.com/knowledge_base/topics/sleep-as-android"&gt;Sleep as Android integration for Mi Bands&lt;/a&gt;, and page for &lt;a href="https://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"&gt;Sleep as Android integration for Amazfit&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miband on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/miband/</link>
+    <description>Recent content in Miband on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/miband/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</title>
+      <link>//localhost:1313/devices/notify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/notify/</guid>
+      <description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.&#xA;But thanks to the Notify app, you can use some devices with Sleep app.&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.miband1&amp;amp;hl=en&#34;&gt;Notify for Mi Band&lt;/a&gt;, &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.xiaomi1&amp;amp;hl=en&#34;&gt;Notify for Xiaomi &amp;amp; Mi Fitness&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.amazfit1&amp;amp;hl=en&#34;&gt;Notify for Amazfit &amp;amp; Zepp&lt;/a&gt; are developed by &lt;a href=&#34;https://play.google.com/store/apps/developer?id=OneZeroBit&amp;amp;hl=en&#34;&gt;OneZerobit&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You can visit Notify app page for &lt;a href=&#34;http://forum.mibandnotify.com/discussion/20117/sleep-as-android-integration&#34;&gt;Sleep as Android integration here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;supported-mi-bands&#34;&gt;Supported Mi Bands &lt;a id=&#34;supported_wearables&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#supported-mi-bands&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;notify-for-mi-band&#34;&gt;Notify for Mi Band&lt;a class=&#34;anchor&#34; href=&#34;#notify-for-mi-band&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mi Band 1, 1S and 1A&lt;/li&gt;&#xA;&lt;li&gt;Mi Band HRX&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 2&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 3 and 3i&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 4&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 5&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 6&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 7&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;notify-for-xiaomi-and-mi-fitness&#34;&gt;Notify for Xiaomi and Mi Fitness&lt;a class=&#34;anchor&#34; href=&#34;#notify-for-xiaomi-and-mi-fitness&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mi Band 7 PRO&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 8&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 8 PRO&lt;/li&gt;&#xA;&lt;li&gt;Xiaomi Watch S1&lt;/li&gt;&#xA;&lt;li&gt;Redmi Band 2&lt;/li&gt;&#xA;&lt;li&gt;Redmi Watch 2+3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;supported-amazfits&#34;&gt;Supported Amazfits &lt;a id=&#34;supported_wearables&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#supported-amazfits&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Amazfit T-Rex&lt;/li&gt;&#xA;&lt;li&gt;Amazfit GTS&lt;/li&gt;&#xA;&lt;li&gt;Amazfit GTR, GTR Lite (47mm &amp;amp; 42mm)&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Verge Lite&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Bip, Bip Lite, Bip S, Bip 3&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Mi Dong Cor&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Arc&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Band 5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-to-set-up-integration-in-notify-app&#34;&gt;How to set up integration in Notify app&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up-integration-in-notify-app&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;[cols=&amp;quot;^,^&amp;quot;]&#xA;|===&#xA;a|.Switch to the graph tab and tap on the cog icon.&#xA;&lt;img src=&#34;../../assets/images/NF_vibr_1.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools &amp; Mi Band and Amazfit</title>
+      <link>//localhost:1313/devices/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/tools/</guid>
+      <description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools &amp;amp; MiBand and Tools &amp;amp; Amazfit app, you can use some devices with Sleep app.&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools&#34;&gt;Tools &amp;amp; Mi Band&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools&#34;&gt;Tools &amp;amp; Amazfit&lt;/a&gt; are developed by &lt;a href=&#34;https://play.google.com/store/apps/developer?id=Tools&amp;#43;%26&amp;#43;Wearables&amp;#43;Ltd&#34;&gt;Tools &amp;amp; Wearables Ltd.&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You can check the Tools app &lt;a href=&#34;https://help.mibandtools.com/knowledge_base/categories/mi-band-tools-faq-frequently-asked-questions&#34;&gt;page with FAQs&lt;/a&gt;, page for &lt;a href=&#34;https://help.mibandtools.com/knowledge_base/topics/sleep-as-android&#34;&gt;Sleep as Android integration for Mi Bands&lt;/a&gt;, and page for &lt;a href=&#34;https://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit&#34;&gt;Sleep as Android integration for Amazfit&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

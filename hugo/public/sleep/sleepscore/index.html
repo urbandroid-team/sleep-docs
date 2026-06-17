@@ -1,80 +1,1955 @@
-<!doctype html><html lang=en dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Sleep score is a complete summary of your sleep health.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sleep score is a complete summary of your sleep health.
 Sleep score draws a lot of inspiration from the Pittsburgh Sleep Quality Index.
-Dashboard - Sleep Score card Left ☰ menu -> Trend -> Trend tab -> Sleep score chart
-.Sleep Score on the card .Sleep score in Charts section //toc: [] Note: You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; Settings > Personalize > Stats > Color palette).
-"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#2e3440"><meta name=color-scheme content="light dark"><meta property="og:url" content="/sleep/sleepscore/"><meta property="og:site_name" content="Sleep as Android Docs"><meta property="og:title" content="Sleep score"><meta property="og:description" content="Sleep score is a complete summary of your sleep health.
+Dashboard - Sleep Score card Left ☰ menu -&gt; Trend -&gt; Trend tab -&gt; Sleep score chart
+.Sleep Score on the card .Sleep score in Charts section //toc: [] Note: You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; Settings &gt; Personalize &gt; Stats &gt; Color palette).
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/sleep/sleepscore/">
+  <meta property="og:site_name" content="Sleep as Android Docs">
+  <meta property="og:title" content="Sleep score">
+  <meta property="og:description" content="Sleep score is a complete summary of your sleep health.
 Sleep score draws a lot of inspiration from the Pittsburgh Sleep Quality Index.
-Dashboard - Sleep Score card Left ☰ menu -> Trend -> Trend tab -> Sleep score chart
-.Sleep Score on the card .Sleep score in Charts section //toc: [] Note: You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; Settings > Personalize > Stats > Color palette)."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="sleep"><meta itemprop=name content="Sleep score"><meta itemprop=description content="Sleep score is a complete summary of your sleep health.
+Dashboard - Sleep Score card Left ☰ menu -&gt; Trend -&gt; Trend tab -&gt; Sleep score chart
+.Sleep Score on the card .Sleep score in Charts section //toc: [] Note: You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; Settings &gt; Personalize &gt; Stats &gt; Color palette).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="sleep">
+
+
+  <meta itemprop="name" content="Sleep score">
+  <meta itemprop="description" content="Sleep score is a complete summary of your sleep health.
 Sleep score draws a lot of inspiration from the Pittsburgh Sleep Quality Index.
-Dashboard - Sleep Score card Left ☰ menu -> Trend -> Trend tab -> Sleep score chart
-.Sleep Score on the card .Sleep score in Charts section //toc: [] Note: You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; Settings > Personalize > Stats > Color palette)."><meta itemprop=wordCount content="720"><title>Sleep score • Sleep as Android Docs</title><link rel=icon href=../../favicon.png><link rel=manifest href=../../manifest.json><link rel=canonical href=../../sleep/sleepscore/><link rel=stylesheet href=../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css><script defer type=module src=../../en.search.min.f4340c7a3e60bf441df3d4b22fdd507c6caab8ceb62bf60a2ea039d093ff2b74.js></script></head><body dir=ltr class="book-kind-page book-type-sleep book-layout-default"><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=../../><span>Sleep as Android Docs</span></a></h2><div class="book-search hidden"><input id=book-search-input type=text placeholder=Search aria-label=Search maxlength=64><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=../../about/>About</a></li><li><a href=../../addons/>Addons</a></li><li><a>Alarms</a><ul><li><a href=../../alarms/alarm_settings/>Alarm settings</a></li><li><a href=../../alarms/backup/>Backup alarm</a></li><li><a href=../../alarms/bedtime_notification/>Bedtime notification</a></li><li><a href=../../alarms/captcha/>CAPTCHA</a></li><li><a href=../../alarms/create_alarm/>Create alarm</a></li><li><a href=../../alarms/naps/>Naps</a></li><li><a href=../../alarms/polyphasic/>Polyphasic sleeping</a></li><li><a href=../../alarms/power_nap/>Power nap</a></li><li><a href=../../alarms/snooze/>Snooze</a></li><li><a href=../../alarms/ringtone/>Sound</a></li></ul></li><li><a>Connected devices</a><ul><li><a href=../../devices/garmin/>Garmin</a></li><li><a href=../../devices/notify/>Notify for Mi Band and Amazfit and Xiaomi & Mi Fitness</a></li><li><a href=../../devices/one_ui/>One UI Watch devices</a></li><li><a href=../../devices/oximeter/>Oximeter</a></li><li><a href=../../devices/pebble/>Pebble</a></li><li><a href=../../devices/samsung_gear/>Samsung Gear / Galaxy Gear</a></li><li><a href=../../devices/sleep_mask/>Sleep mask</a></li><li><a href=../../devices/sleep_phaser_1/>Sleep Phaser v1</a></li><li><a href=../../devices/sleep_phaser_2/>Sleep Phaser v2 + v3</a></li><li><a href=../../devices/smart_light/>Smartlight</a></li><li><a href=../../devices/supported_wearable/>Supported wearables - list</a></li><li><a href=../../devices/test_sensor/>Testing connection with a wearable</a></li><li><a href=../../devices/tools/>Tools & Mi Band and Amazfit</a></li><li><a href=../../devices/wearos/>Wear OS devices</a></li><li><a href=../../devices/wearables/>Wearables</a></li></ul></li><li><a>Connected services</a><ul><li><a href=../../services/automate_walkthroughs/>Automate walkthroughs</a></li><li><a href=../../services/automation/>Automation</a></li><li><a href=../../services/backup_data/>Backup</a></li><li><a href=../../services/custom_webhooks/>Custom webhooks</a></li><li><a href=../../services/google_app_actions/>Google Assistant App Actions</a></li><li><a href=../../services/google_calendar/>Google Calendar</a></li><li><a href=../../services/google_fit/>Google Fit</a></li><li><a href=../../services/health_connect/>Health Connect</a></li><li><a href=../../services/ifttt/>IFTTT</a></li><li><a href=../../services/mqtt/>MQTT</a></li><li><a href=../../services/s_health/>Samsung Health</a></li><li><a href=../../services/sleepcloud/>SleepCloud</a></li><li><a href=../../services/spotify/>Spotify</a></li><li><a href=../../services/tasker_walkthroughs/>Tasker walkthroughs</a></li><li><a href=../../services/tasker_automate/>Tasker, Automate</a></li></ul></li><li><a href=../../devs/>For developers</a><ul><li><a href=../../devs/captcha_api/>CAPTCHA API</a></li><li><a href=../../devs/content_provider_api/>Content provider API</a></li><li><a href=../../devs/csv/>CSV file documentation</a></li><li><a href=../../devs/intent_api/>Intent API</a></li><li><a href=../../devs/sleepcloud_api/>SleepCloud Storage API</a></li><li><a href=../../devs/wearable_api/>Wearable integration API</a></li></ul></li><li><a>Generals</a><ul><li><a href=../../general/start/>Get started with Sleep as Android app</a></li><li><a href=../../general/permissions/>Permissions</a></li><li><a href=../../general/privacy/>Privacy</a></li><li><a href=../../general/plan/>Purchasing the app</a></li><li><a href=../../general/release_notes/>Release notes</a></li><li><a href=../../general/terms_of_service/>Terms of use</a></li><li><a href=../../general/translation/>Translation</a></li></ul></li><li><a>Sleep</a><ul><li><a href=../../sleep/achievements/>Achievements</a></li><li><a href=../../sleep/advice/>Advice</a></li><li><a href=../../sleep/anti_snoring/>Anti-snoring</a></li><li><a href=../../sleep/automatic_sleep_tracking/>Automatic sleep tracking</a></li><li><a href=../../sleep/awake_detection/>Awake detection</a></li><li><a href=../../sleep/breath_rate/>Breath rate detection & blood oxygen measurement</a></li><li><a href=../../sleep/charts/>Charts / Trends</a></li><li><a href=../../sleep/chrono_jetlag/>Chronotype, Social jetlag, Sleep Regularity</a></li><li><a href=../../sleep/graph_edit/>Editing graphs</a></li><li><a href=../../sleep/goals/>Goals</a></li><li><a href=../../sleep/heart_rate/>Heart rate detection</a></li><li><a href=../../sleep/how_to_read_sleep_graphs/>How to read sleep graphs</a></li><li><a href=../../sleep/jetlag/>Jet lag prevention</a></li><li><a href=../../sleep/light_level/>Light level detection</a></li><li><a href=../../sleep/lucid_dreaming/>Lucid dreaming</a></li><li><a href=../../sleep/lullaby/>Lullaby</a></li><li><a href=../../sleep/pair_tracking/>Pair tracking</a></li><li><a href=../../sleep/sensors/>Sensors</a></li><li><a href=../../sleep/sleep_apnea/>Sleep apnea</a></li><li><a href=../../sleep/sleep_noise_recording/>Sleep noise analysis</a></li><li><a href=../../sleep/sleepscore/ class=active>Sleep score</a></li><li><a href=../../sleep/sleep_time_estimation/>Sleep time estimation</a></li><li><a href=../../sleep/sleep_tracking/>Sleep tracking</a></li><li><a href=../../sleep/sleep_tracking_theory/>Sleep tracking theory</a></li><li><a href=../../sleep/sleepcloud_study/>SleepCloud study</a></li><li><a href=../../sleep/smart_wake_up/>Smart wakeup</a></li><li><a href=../../sleep/sound_recognition/>Sound recognition</a></li><li><a href=../../sleep/statistics/>Statistics</a></li><li><a href=../../sleep/tags/>Tags</a></li></ul></li><li><a href=../../template/>Sleep tracking</a></li><li><a href=../../tags/>TAGS</a></li><li><a>User interface</a><ul><li><a href=../../ux/hs_alarms_only/>Alarms only mode</a></li><li><a href=../../ux/hs_dashboard/>Dashboard home screen</a></li><li><a href=../../ux/left_menu/>Left ☰ menu</a></li><li><a href=../../ux/personalize/>Personalization</a></li><li><a href=../../ux/search/>Search</a></li><li><a href=../../ux/hs_tabs/>Tabs home screen</a></li><li><a href=../../ux/widgets/>Widgets</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class="book-header hidden"><div class="flex align-center justify-between"><label for=menu-control><img src=../../icons/menu.svg class=book-icon alt=Menu></label><h3>Sleep score</h3><label for=toc-control><img src=../../icons/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class=hidden><nav id=TableOfContents><ul><li><ul><li><a href=#sleep-score-dimensions>Sleep score dimensions</a><ul><li></li><li><a href=#sleep-score>Sleep Score</a></li><li><a href=#hrv-gain>HRV Gain</a></li><li><a href=#breath-disturbances>Breath disturbances</a></li><li><a href=#regularity>Regularity</a></li><li><a href=#deep-sleep>Deep Sleep</a></li><li><a href=#duration>Duration</a></li><li><a href=#efficiency>Efficiency</a></li><li><a href=#rating>Rating</a></li><li><a href=#snoring>Snoring</a></li></ul></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><p><strong>Sleep score is a complete summary of your sleep health.</strong></p><p>Sleep score draws a lot of inspiration from the <a href=https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index>Pittsburgh Sleep Quality Index</a>.</p><p><em>Dashboard - Sleep Score card</em>
-<em>Left ☰ menu -> Trend -> Trend tab -> Sleep score chart</em></p><p>.Sleep Score on the card
-<img src=../../assets/images/sleepscore_annotated.png alt></p><p><a id=figure-sleepscore-chart></a>.Sleep score in <a href=../../sleep/charts#sleep-score>Charts section</a>
-<img src=../../assets/images/sleepscore.png alt></p><hr><ul><li><strong>//toc</strong>: []</li></ul><blockquote class=book-hint><p><strong>Note:</strong> You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; <em>Settings > Personalize > Stats > Color palette</em>).</p></blockquote><p>If you see you are consistently behind some target for any of your dimensions, you can setup <a href=../../sleep/goals>goals</a>. For instance you are sleeping just 6:00 on average which is quite bad for an adult, so you can setup a goal to increase your sleep duration to at least 6:30 and the app will guide you gradually to achieve that goal&mldr;
-The app will point out some notable trends and also suggest some changes in the <a href=sleep/advice>Advice section</a>.</p><h2 id=sleep-score-dimensions>Sleep score dimensions<a class=anchor href=#sleep-score-dimensions>#</a></h2><p>There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range.
-The app combines all dimensions into one &ldquo;Sleep Score&rdquo; for simplification.</p><p>[NOTE]</p><h4><a id=note-age></a><a class=anchor href=#>#</a></h4><p>Healthy durations are adjusted according to your age as defined in <em>Settings -> Stats -> Year of birth</em></p><ul><li>General or not set (6.5 - 9)</li><li>School age (9 - 11)</li><li>Teenager (8 - 10),</li><li>Young (7 - 9)</li><li>Elderly (6 - 9)</li></ul><h4 id=if-youre-in-the-healthy-range-for-a-certain-dimension-it-lights-up-green-and-you-get-one-point-every-line-can-also-turn-red-if-the-values-are-in-a-very-unfavourable-range>If you’re in the healthy range for a certain dimension, it lights up green and you get one point. Every line can also turn red if the values are in a very unfavourable range.<a class=anchor href=#if-youre-in-the-healthy-range-for-a-certain-dimension-it-lights-up-green-and-you-get-one-point-every-line-can-also-turn-red-if-the-values-are-in-a-very-unfavourable-range>#</a></h4><blockquote class=book-hint><p><strong>Note:</strong> If you are missing some charts, it means you do not have the required sensor, or the app does not have enough data to estimate it. If your irregularity pie chart is missing, there are probably gaps in the graphs. You can consider <a href=../../sleep/automatic_sleep_tracking>Automatic tracking start</a> or <a href=../../sleep/sleep_time_estimation>Sleep time estimation</a> features, if you often forget to start the tracking.</p></blockquote><h3 id=sleep-score>Sleep Score<a class=anchor href=#sleep-score>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+Dashboard - Sleep Score card Left ☰ menu -&gt; Trend -&gt; Trend tab -&gt; Sleep score chart
+.Sleep Score on the card .Sleep score in Charts section //toc: [] Note: You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; Settings &gt; Personalize &gt; Stats &gt; Color palette).">
+  <meta itemprop="wordCount" content="720">
+
+<title>Sleep score • Sleep as Android Docs</title>
+<link rel="icon" href="../../favicon.png" >
+<link rel="manifest" href="../../manifest.json">
+<link rel="canonical" href="//localhost:1313/sleep/sleepscore/">
+<link rel="stylesheet" href="../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css" integrity="sha256-SPM9Wj6z0AQ3A6GAYQMqLZuouXWpjjEYj69nqsk6i0Q=" crossorigin="anonymous">
+
+
+  <script defer type="module" src="../../en.search.min.f4340c7a3e60bf441df3d4b22fdd507c6caab8ceb62bf60a2ea039d093ff2b74.js" integrity="sha256-9DQMej5gv0Qd89SyL91QfGyquM62K/YKLqA50JP/K3Q=" crossorigin="anonymous"></script>
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-sleep book-layout-default">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="../../"><span>Sleep as Android Docs</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../about/" class="">
+      About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../addons/" class="">
+      Addons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Alarms</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/alarm_settings/" class="">
+      Alarm settings</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/backup/" class="">
+      Backup alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/bedtime_notification/" class="">
+      Bedtime notification</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/captcha/" class="">
+      CAPTCHA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/create_alarm/" class="">
+      Create alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/naps/" class="">
+      Naps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/polyphasic/" class="">
+      Polyphasic sleeping</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/power_nap/" class="">
+      Power nap</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/snooze/" class="">
+      Snooze</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/ringtone/" class="">
+      Sound</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected devices</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/garmin/" class="">
+      Garmin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/notify/" class="">
+      Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/one_ui/" class="">
+      One UI Watch devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/oximeter/" class="">
+      Oximeter</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/pebble/" class="">
+      Pebble</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/samsung_gear/" class="">
+      Samsung Gear / Galaxy Gear</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_mask/" class="">
+      Sleep mask</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_1/" class="">
+      Sleep Phaser v1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_2/" class="">
+      Sleep Phaser v2 &#43; v3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/smart_light/" class="">
+      Smartlight</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/supported_wearable/" class="">
+      Supported wearables - list</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/test_sensor/" class="">
+      Testing connection with a wearable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/tools/" class="">
+      Tools &amp; Mi Band and Amazfit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearos/" class="">
+      Wear OS devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearables/" class="">
+      Wearables</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected services</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automate_walkthroughs/" class="">
+      Automate walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automation/" class="">
+      Automation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/backup_data/" class="">
+      Backup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/custom_webhooks/" class="">
+      Custom webhooks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_app_actions/" class="">
+      Google Assistant App Actions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_calendar/" class="">
+      Google Calendar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_fit/" class="">
+      Google Fit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/health_connect/" class="">
+      Health Connect</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/ifttt/" class="">
+      IFTTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/mqtt/" class="">
+      MQTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/s_health/" class="">
+      Samsung Health</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/sleepcloud/" class="">
+      SleepCloud</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/spotify/" class="">
+      Spotify</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_walkthroughs/" class="">
+      Tasker walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_automate/" class="">
+      Tasker, Automate</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/" class="">
+      For developers</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/captcha_api/" class="">
+      CAPTCHA API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/content_provider_api/" class="">
+      Content provider API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/csv/" class="">
+      CSV file documentation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/intent_api/" class="">
+      Intent API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/sleepcloud_api/" class="">
+      SleepCloud Storage API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/wearable_api/" class="">
+      Wearable integration API</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Generals</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/start/" class="">
+      Get started with Sleep as Android app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/permissions/" class="">
+      Permissions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/privacy/" class="">
+      Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/plan/" class="">
+      Purchasing the app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/release_notes/" class="">
+      Release notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/terms_of_service/" class="">
+      Terms of use</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/translation/" class="">
+      Translation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Sleep</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/achievements/" class="">
+      Achievements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/advice/" class="">
+      Advice</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/anti_snoring/" class="">
+      Anti-snoring</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/automatic_sleep_tracking/" class="">
+      Automatic sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/awake_detection/" class="">
+      Awake detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/breath_rate/" class="">
+      Breath rate detection &amp; blood oxygen measurement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/charts/" class="">
+      Charts / Trends</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/chrono_jetlag/" class="">
+      Chronotype, Social jetlag, Sleep Regularity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/graph_edit/" class="">
+      Editing graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/goals/" class="">
+      Goals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/heart_rate/" class="">
+      Heart rate detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/how_to_read_sleep_graphs/" class="">
+      How to read sleep graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/jetlag/" class="">
+      Jet lag prevention</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/light_level/" class="">
+      Light level detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lucid_dreaming/" class="">
+      Lucid dreaming</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lullaby/" class="">
+      Lullaby</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/pair_tracking/" class="">
+      Pair tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sensors/" class="">
+      Sensors</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_apnea/" class="">
+      Sleep apnea</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_noise_recording/" class="">
+      Sleep noise analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepscore/" class="active">
+      Sleep score</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_time_estimation/" class="">
+      Sleep time estimation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking_theory/" class="">
+      Sleep tracking theory</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepcloud_study/" class="">
+      SleepCloud study</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/smart_wake_up/" class="">
+      Smart wakeup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sound_recognition/" class="">
+      Sound recognition</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/statistics/" class="">
+      Statistics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/tags/" class="">
+      Tags</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../template/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../tags/" class="">
+      TAGS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      User interface</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_alarms_only/" class="">
+      Alarms only mode</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_dashboard/" class="">
+      Dashboard home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/left_menu/" class="">
+      Left ☰ menu</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/personalize/" class="">
+      Personalization</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/search/" class="">
+      Search</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_tabs/" class="">
+      Tabs home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/widgets/" class="">
+      Widgets</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Sleep score</h3>
+
+  <label for="toc-control">
+    
+    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#sleep-score-dimensions">Sleep score dimensions</a>
+          <ul>
+            <li></li>
+            <li><a href="#sleep-score">Sleep Score</a></li>
+            <li><a href="#hrv-gain">HRV Gain</a></li>
+            <li><a href="#breath-disturbances">Breath disturbances</a></li>
+            <li><a href="#regularity">Regularity</a></li>
+            <li><a href="#deep-sleep">Deep Sleep</a></li>
+            <li><a href="#duration">Duration</a></li>
+            <li><a href="#efficiency">Efficiency</a></li>
+            <li><a href="#rating">Rating</a></li>
+            <li><a href="#snoring">Snoring</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p><strong>Sleep score is a complete summary of your sleep health.</strong></p>
+<p>Sleep score draws a lot of inspiration from the <a href="https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index">Pittsburgh Sleep Quality Index</a>.</p>
+<p><em>Dashboard - Sleep Score card</em>
+<em>Left ☰ menu -&gt; Trend -&gt; Trend tab -&gt; Sleep score chart</em></p>
+<p>.Sleep Score on the card
+<img src="../../assets/images/sleepscore_annotated.png" alt=""  />
+</p>
+<p><a id="figure-sleepscore-chart"></a>
+.Sleep score in <a href="../../sleep/charts#sleep-score">Charts section</a>
+<img src="../../assets/images/sleepscore.png" alt=""  />
+</p>
+<hr>
+<ul>
+<li><strong>//toc</strong>: []</li>
+</ul>
+<!-- :toclevels: 1 -->
+<blockquote class='book-hint '>
+<p><strong>Note:</strong> You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; <em>Settings &gt; Personalize &gt; Stats &gt; Color palette</em>).</p>
+</blockquote><p>If you see you are consistently behind some target for any of your dimensions, you can setup <a href="../../sleep/goals">goals</a>. For instance you are sleeping just 6:00 on average which is quite bad for an adult, so you can setup a goal to increase your sleep duration to at least 6:30 and the app will guide you gradually to achieve that goal&hellip;
+The app will point out some notable trends and also suggest some changes in the <a href="sleep/advice">Advice section</a>.</p>
+<h2 id="sleep-score-dimensions">Sleep score dimensions<a class="anchor" href="#sleep-score-dimensions">#</a></h2>
+<p>There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range.
+The app combines all dimensions into one &ldquo;Sleep Score&rdquo; for simplification.</p>
+<!-- [cols="^,<,<,<,<", options="header"] -->
+<!-- |=== -->
+<!-- |Dimension -->
+<!-- |Explanation -->
+<!-- |Top figure -->
+<!-- |Bottom figure -->
+<!-- |Healthy / Unfavourable range -->
+<!-- a|![](score_pie.png) -->
+<!-- **Sleep Score** -->
+<!-- |Overall score combining all your other sleep metrics. -->
+<!-- |Percentage of the score (0,100). -->
+<!-- | -->
+<!-- |Healthy: as close to 100% as possible -->
+<!-- Unfavourable: -->
+<!-- a|![](hrv_pie.png) -->
+<!-- **HRV gain** -->
+<!-- |The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details [here](https://sleep.urbandroid.org/hrv-tracking/)). -->
+<!-- |Difference between hrv after and hrv before. -->
+<!-- |HRV after (the last low activity period before awake up). -->
+<!-- |Healthy: over 2 -->
+<!-- Unfavourable: under -5 -->
+<!-- a|![](BR_pie.png) -->
+<!-- **Breath disturbances** -->
+<!-- |Breathing disturbance episodes per hour, read more about this topic [here](/sleep/sleep_apnea) and [here](/sleep/breath_rate). -->
+<!-- |Average breathing disturbance episodes per hour. -->
+<!-- | -->
+<!-- |Healthy: under 10 -->
+<!-- Unfavourable: over 20 -->
+<!-- a|![](irregularity_pie.png) -->
+<!-- **Regularity** -->
+<!-- |How regular your sleep is. [Variance](https://en.wikipedia.org/wiki/Variance) of your mid-sleep hour and Sleep Regularity Index. -->
+<!-- |Deviation of sleep duration and mid sleep hour. -->
+<!-- |SRI, [more details here](/sleep/chrono_jetlag#sri) -->
+<!-- |Healthy: under 0.5 hours for regularity, over 80 for SRI. -->
+<!-- Unfavourable: over 1 hour, less then 60 for SRI -->
+<!-- a|![](deepsleep_pie.png) -->
+<!-- **Deep Sleep** -->
+<!-- |How long you've been in deep sleep compared to the total sleep duration. -->
+<!-- |Average % of deep sleep -->
+<!-- |Duration -->
+<!-- |Healthy: over 30% -->
+<!-- Unfavourable: under 20% -->
+<!-- a|![](duration_pie.png) -->
+<!-- **Duration** -->
+<!-- |How long have you been sleeping. -->
+<!-- |Average duration -->
+<!-- |Deficit or surplus -->
+<!-- |Healthy: 6.5 hours to 8.5 hours, see [how this differs with age](#note-age) -->
+<!-- Unfavourable: less than 6.5 hours, or more than 8.5 hours -->
+<!-- a|![](efficiency_pie.png) -->
+<!-- **Efficiency** -->
+<!-- |How long you've been actually sleeping vs. being in bed. -->
+<!-- |Sleep/awake ratio in % -->
+<!-- |Average duration of awakes -->
+<!-- |Healthy: over 95% -->
+<!-- Unfavourable: under 85% -->
+<!-- a|![](rating_pie.png) -->
+<!-- **Rating** -->
+<!-- |Your average subjective rating. -->
+<!-- |Your average rating -->
+<!-- |Max rating -->
+<!-- |Healthy: over 3.5 stars -->
+<!-- Unfavourable: under 2 stars -->
+<!-- a|![](snoring_pie.png) -->
+<!-- **Snoring** -->
+<!-- |How long you've been snoring compared to the total sleep duration. -->
+<!-- |Average % of snoring -->
+<!-- |Total duration of snoring -->
+<!-- |Healthy: under 3% -->
+<!-- Unfavourable: over 10% -->
+<!-- |=== -->
+<p>[NOTE]</p>
+<h4 id=""><a id="note-age"></a><a class="anchor" href="#">#</a></h4>
+<p>Healthy durations are adjusted according to your age as defined in <em>Settings -&gt; Stats -&gt; Year of birth</em></p>
+<ul>
+<li>General or not set (6.5 - 9)</li>
+<li>School age (9 - 11)</li>
+<li>Teenager (8 - 10),</li>
+<li>Young (7 - 9)</li>
+<li>Elderly (6 - 9)</li>
+</ul>
+<h4 id="if-youre-in-the-healthy-range-for-a-certain-dimension-it-lights-up-green-and-you-get-one-point-every-line-can-also-turn-red-if-the-values-are-in-a-very-unfavourable-range">If you’re in the healthy range for a certain dimension, it lights up green and you get one point. Every line can also turn red if the values are in a very unfavourable range.<a class="anchor" href="#if-youre-in-the-healthy-range-for-a-certain-dimension-it-lights-up-green-and-you-get-one-point-every-line-can-also-turn-red-if-the-values-are-in-a-very-unfavourable-range">#</a></h4>
+<blockquote class='book-hint '>
+<p><strong>Note:</strong> If you are missing some charts, it means you do not have the required sensor, or the app does not have enough data to estimate it. If your irregularity pie chart is missing, there are probably gaps in the graphs. You can consider <a href="../../sleep/automatic_sleep_tracking">Automatic tracking start</a> or <a href="../../sleep/sleep_time_estimation">Sleep time estimation</a> features, if you often forget to start the tracking.</p>
+</blockquote><h3 id="sleep-score">Sleep Score<a class="anchor" href="#sleep-score">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/score_pie.png alt>
-|Overall score combining all your other sleep metrics.</p><p>|Figure
-|Percentage of the score (0,100).</p><p>|Healthy range
+a|<img src="../../assets/images/score_pie.png" alt=""  />
+
+|Overall score combining all your other sleep metrics.</p>
+<p>|Figure
+|Percentage of the score (0,100).</p>
+<p>|Healthy range
 |as close to 100% as possible
-|===</p><h3 id=hrv-gain>HRV Gain<a class=anchor href=#hrv-gain>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+|===</p>
+<h3 id="hrv-gain">HRV Gain<a class="anchor" href="#hrv-gain">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/hrv_pie.png alt>
-|The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details <a href=https://sleep.urbandroid.org/hrv-tracking/>here</a>).</p><p>|Top Figure
-|Difference between hrv after and hrv before.</p><p>|Bottom Figure
-|HRV after (the last low activity period before awake up).</p><p>|Healthy range
-|over 2</p><p>|Unfavourable range
-|under -5</p><p>|===</p><h3 id=breath-disturbances>Breath disturbances<a class=anchor href=#breath-disturbances>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+a|<img src="../../assets/images/hrv_pie.png" alt=""  />
+
+|The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details <a href="https://sleep.urbandroid.org/hrv-tracking/">here</a>).</p>
+<p>|Top Figure
+|Difference between hrv after and hrv before.</p>
+<p>|Bottom Figure
+|HRV after (the last low activity period before awake up).</p>
+<p>|Healthy range
+|over 2</p>
+<p>|Unfavourable range
+|under -5</p>
+<p>|===</p>
+<h3 id="breath-disturbances">Breath disturbances<a class="anchor" href="#breath-disturbances">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/BR_pie.png alt>
-|Breathing disturbance episodes per hour, read more about this topic <a href=../../sleep/sleep_apnea>here</a> and <a href=../../sleep/breath_rate>here</a>.</p><p>|Top Figure
-|Average breathing disturbance episodes per hour.</p><p>|Healthy range
-|under 10</p><p>|Unfavourable range
-|under over 20</p><p>|===</p><h3 id=regularity>Regularity<a class=anchor href=#regularity>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+a|<img src="../../assets/images/BR_pie.png" alt=""  />
+
+|Breathing disturbance episodes per hour, read more about this topic <a href="../../sleep/sleep_apnea">here</a> and <a href="../../sleep/breath_rate">here</a>.</p>
+<p>|Top Figure
+|Average breathing disturbance episodes per hour.</p>
+<p>|Healthy range
+|under 10</p>
+<p>|Unfavourable range
+|under over 20</p>
+<p>|===</p>
+<h3 id="regularity">Regularity<a class="anchor" href="#regularity">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/irregularity_pie.png alt>
-|How regular your sleep is. <a href=../../sleep/chrono_jetlag#sri>Sleep Regularity Index, SRI</a> and <a href=https://en.wikipedia.org/wiki/Variance>Variance</a> of your mid-sleep hour.</p><p>|Top Figure
-|SRI, <a href=../../sleep/chrono_jetlag#sri>more details here</a></p><p>|Bottom Figure
-|Deviation of sleep duration and mid sleep hour</p><p>|Healthy range
-|Over 80 for SRI and under 0.5 hours for regularity</p><p>|Unfavourable range
-|Less then 60 for SRI, over 1 hour fpr mid sleep hour variance</p><p>|===</p><h3 id=deep-sleep>Deep Sleep<a class=anchor href=#deep-sleep>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+a|<img src="../../assets/images/irregularity_pie.png" alt=""  />
+
+|How regular your sleep is. <a href="../../sleep/chrono_jetlag#sri">Sleep Regularity Index, SRI</a> and <a href="https://en.wikipedia.org/wiki/Variance">Variance</a> of your mid-sleep hour.</p>
+<p>|Top Figure
+|SRI, <a href="../../sleep/chrono_jetlag#sri">more details here</a></p>
+<p>|Bottom Figure
+|Deviation of sleep duration and mid sleep hour</p>
+<p>|Healthy range
+|Over 80 for SRI and under 0.5 hours for regularity</p>
+<p>|Unfavourable range
+|Less then 60 for SRI, over 1 hour fpr mid sleep hour variance</p>
+<p>|===</p>
+<h3 id="deep-sleep">Deep Sleep<a class="anchor" href="#deep-sleep">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/deepsleep_pie.png alt>
-|How long you&rsquo;ve been in deep sleep compared to the total sleep duration.</p><p>|Top Figure
-|Average % of deep sleep</p><p>|Bottom Figure
-|Duration of deep sleep phases</p><p>|Healthy range
-|over 30%</p><p>|Unfavourable range
-|under 20%</p><p>|===</p><h3 id=duration>Duration<a class=anchor href=#duration>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+a|<img src="../../assets/images/deepsleep_pie.png" alt=""  />
+
+|How long you&rsquo;ve been in deep sleep compared to the total sleep duration.</p>
+<p>|Top Figure
+|Average % of deep sleep</p>
+<p>|Bottom Figure
+|Duration of deep sleep phases</p>
+<p>|Healthy range
+|over 30%</p>
+<p>|Unfavourable range
+|under 20%</p>
+<p>|===</p>
+<h3 id="duration">Duration<a class="anchor" href="#duration">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/duration_pie.png alt>
-|How long have you been sleeping.</p><p>|Top Figure
-|Total sum of all your sleep phases of the day.</p><p>|Bottom Figure
-|Deficit or surplus from your sleep daily goal.</p><p>|Healthy range
-|6.5 hours to 8.5 hours, see <a href=#note-age>how this differs with age</a></p><p>|Unfavourable range
-|less than 6.5 hours, or more than 8.5 hours</p><p>|===</p><h3 id=efficiency>Efficiency<a class=anchor href=#efficiency>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+a|<img src="../../assets/images/duration_pie.png" alt=""  />
+
+|How long have you been sleeping.</p>
+<p>|Top Figure
+|Total sum of all your sleep phases of the day.</p>
+<p>|Bottom Figure
+|Deficit or surplus from your sleep daily goal.</p>
+<p>|Healthy range
+|6.5 hours to 8.5 hours, see <a href="#note-age">how this differs with age</a></p>
+<p>|Unfavourable range
+|less than 6.5 hours, or more than 8.5 hours</p>
+<p>|===</p>
+<h3 id="efficiency">Efficiency<a class="anchor" href="#efficiency">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/efficiency_pie.png alt>
-|How long you&rsquo;ve been actually sleeping vs. being in bed.</p><p>|Top Figure
-|Sleep/awake ratio in %</p><p>|Bottom Figure
-|Duration of awake periods</p><p>|Healthy range
-|over 95%</p><p>|Unfavourable range
-|under 85%</p><p>|===</p><h3 id=rating>Rating<a class=anchor href=#rating>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+a|<img src="../../assets/images/efficiency_pie.png" alt=""  />
+
+|How long you&rsquo;ve been actually sleeping vs. being in bed.</p>
+<p>|Top Figure
+|Sleep/awake ratio in %</p>
+<p>|Bottom Figure
+|Duration of awake periods</p>
+<p>|Healthy range
+|over 95%</p>
+<p>|Unfavourable range
+|under 85%</p>
+<p>|===</p>
+<h3 id="rating">Rating<a class="anchor" href="#rating">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/rating_pie.png alt>
-|Your average subjective rating.</p><p>|Top Figure
-|Your rating</p><p>|Healthy range
-|over 3.5 stars</p><p>|Unfavourable range
-|under 2 stars</p><p>|===</p><h3 id=snoring>Snoring<a class=anchor href=#snoring>#</a></h3><p>[cols=&ldquo;1,1&rdquo;]
+a|<img src="../../assets/images/rating_pie.png" alt=""  />
+
+|Your average subjective rating.</p>
+<p>|Top Figure
+|Your rating</p>
+<p>|Healthy range
+|over 3.5 stars</p>
+<p>|Unfavourable range
+|under 2 stars</p>
+<p>|===</p>
+<h3 id="snoring">Snoring<a class="anchor" href="#snoring">#</a></h3>
+<p>[cols=&ldquo;1,1&rdquo;]
 |===
-a|<img src=../../assets/images/snoring_pie.png alt>
-|How long you&rsquo;ve been snoring compared to the total sleep duration.</p><p>|Top Figure
-|Percentage of your snoring</p><p>|Bottom Figure
-|Total duration of snoring</p><p>|Healthy range
-|under 3%</p><p>|Unfavourable range
-|over 10%</p><p>|===</p></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div></div><div></div></div><div class="flex flex-wrap justify-between"><span><a href=../../sleep/sleep_noise_recording/ class="flex align-center"><img src=../../icons/backward.svg class=book-icon alt=Backward>
-<span>Sleep noise analysis</span>
-</a></span><span><a href=../../sleep/sleep_time_estimation/ class="flex align-center"><span>Sleep time estimation</span>
-<img src=../../icons/forward.svg class=book-icon alt=Forward></a></span></div><div class=book-comments></div><script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#sleep-score-dimensions>Sleep score dimensions</a><ul><li></li><li><a href=#sleep-score>Sleep Score</a></li><li><a href=#hrv-gain>HRV Gain</a></li><li><a href=#breath-disturbances>Breath disturbances</a></li><li><a href=#regularity>Regularity</a></li><li><a href=#deep-sleep>Deep Sleep</a></li><li><a href=#duration>Duration</a></li><li><a href=#efficiency>Efficiency</a></li><li><a href=#rating>Rating</a></li><li><a href=#snoring>Snoring</a></li></ul></li></ul></li></ul></nav></div></aside></main></body></html>
+a|<img src="../../assets/images/snoring_pie.png" alt=""  />
+
+|How long you&rsquo;ve been snoring compared to the total sleep duration.</p>
+<p>|Top Figure
+|Percentage of your snoring</p>
+<p>|Bottom Figure
+|Total duration of snoring</p>
+<p>|Healthy range
+|under 3%</p>
+<p>|Unfavourable range
+|over 10%</p>
+<p>|===</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="../../sleep/sleep_noise_recording/" class="flex align-center">
+        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Sleep noise analysis</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="../../sleep/sleep_time_estimation/" class="flex align-center">
+        <span>Sleep time estimation</span>
+        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#sleep-score-dimensions">Sleep score dimensions</a>
+          <ul>
+            <li></li>
+            <li><a href="#sleep-score">Sleep Score</a></li>
+            <li><a href="#hrv-gain">HRV Gain</a></li>
+            <li><a href="#breath-disturbances">Breath disturbances</a></li>
+            <li><a href="#regularity">Regularity</a></li>
+            <li><a href="#deep-sleep">Deep Sleep</a></li>
+            <li><a href="#duration">Duration</a></li>
+            <li><a href="#efficiency">Efficiency</a></li>
+            <li><a href="#rating">Rating</a></li>
+            <li><a href="#snoring">Snoring</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

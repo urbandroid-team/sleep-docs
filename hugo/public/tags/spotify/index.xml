@@ -1,7 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spotify on Sleep as Android Docs</title><link>/tags/spotify/</link><description>Recent content in Spotify on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/spotify/index.xml" rel="self" type="application/rss+xml"/><item><title>Spotify</title><link>/services/spotify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/spotify/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Set a Spotify album or playlist as an alarm ringtone.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Spotify&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The Spotify app is available on Play Store.&lt;/p&gt;
-&lt;h2 id="guide"&gt;Guide&lt;a class="anchor" href="#guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;After you enable Spotify in &lt;em&gt;Settings -&amp;gt; Services&lt;/em&gt;, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm&amp;rsquo;s ringtone or lullabies. See &lt;a href="../../alarms/ringtone"&gt;Ringtone&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spotify on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/spotify/</link>
+    <description>Recent content in Spotify on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spotify</title>
+      <link>//localhost:1313/services/spotify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/spotify/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Set a Spotify album or playlist as an alarm ringtone.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Services -&amp;gt; Spotify&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Spotify app is available on Play Store.&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide&#34;&gt;Guide&lt;a class=&#34;anchor&#34; href=&#34;#guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;After you enable Spotify in &lt;em&gt;Settings -&amp;gt; Services&lt;/em&gt;, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm&amp;rsquo;s ringtone or lullabies. See &lt;a href=&#34;../../alarms/ringtone&#34;&gt;Ringtone&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

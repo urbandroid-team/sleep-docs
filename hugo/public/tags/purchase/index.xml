@@ -1,7 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Purchase on Sleep as Android Docs</title><link>/tags/purchase/</link><description>Recent content in Purchase on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/purchase/index.xml" rel="self" type="application/rss+xml"/><item><title>Get started with Sleep as Android app</title><link>/general/start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/start/</guid><description>&lt;h2 id="why-do-i-need-a-sleep-tracking-app"&gt;Why do I need a sleep tracking app?&lt;a class="anchor" href="#why-do-i-need-a-sleep-tracking-app"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Sleep is essential for maintaining optimal health, both physical and mental.
-Consistent sleep monitoring can help you understand the influence of various factors and your lifestyle on your sleep quality, habits and thus your overall health and longevity.
-Important part of this experience is our smart wake up which makes your morning more pleasant. The app triggers the alarm during light sleep when it feels natural - just like waking up without an alarm at all.&lt;/p&gt;</description></item><item><title>Purchasing the app</title><link>/general/plan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/general/plan/</guid><description>&lt;p&gt;We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free and premium versions.&lt;/p&gt;
-&lt;h2 id="free-sleep-as-android"&gt;FREE Sleep as Android&lt;a class="anchor" href="#free-sleep-as-android"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;With free version of Sleep as Android, you get 14 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.
-In addition, the free app shows advertisements.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Purchase on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/purchase/</link>
+    <description>Recent content in Purchase on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/purchase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get started with Sleep as Android app</title>
+      <link>//localhost:1313/general/start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/general/start/</guid>
+      <description>&lt;h2 id=&#34;why-do-i-need-a-sleep-tracking-app&#34;&gt;Why do I need a sleep tracking app?&lt;a class=&#34;anchor&#34; href=&#34;#why-do-i-need-a-sleep-tracking-app&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Sleep is essential for maintaining optimal health, both physical and mental.&#xA;Consistent sleep monitoring can help you understand the influence of various factors and your lifestyle on your sleep quality, habits and thus your overall health and longevity.&#xA;Important part of this experience is our smart wake up which makes your morning more pleasant. The app triggers the alarm during light sleep when it feels natural - just like waking up without an alarm at all.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Purchasing the app</title>
+      <link>//localhost:1313/general/plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/general/plan/</guid>
+      <description>&lt;p&gt;We offer two intertwined apps - Sleep as Android and SleepCloud. Both have free and premium versions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;free-sleep-as-android&#34;&gt;FREE Sleep as Android&lt;a class=&#34;anchor&#34; href=&#34;#free-sleep-as-android&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;With free version of Sleep as Android, you get 14 day trial of full working app to test all its features and functionality. After the trial expires, you can still use the app for free, but sleep tracking features are limited to every other day (tracking is limited for tracking started on Tuesday and Thursday). All non-tracking features work without limits.&#xA;In addition, the free app shows advertisements.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

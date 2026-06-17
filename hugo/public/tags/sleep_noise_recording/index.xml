@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sleep_noise_recording on Sleep as Android Docs</title><link>/tags/sleep_noise_recording/</link><description>Recent content in Sleep_noise_recording on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/sleep_noise_recording/index.xml" rel="self" type="application/rss+xml"/><item><title>Anti-snoring</title><link>/sleep/anti_snoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/anti_snoring/</guid><description>&lt;p&gt;&lt;strong&gt;Helps you (or your partner) fight snoring.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking and will react and try to make you stop snoring.&lt;/p&gt;
-&lt;p&gt;Apart from audible anti-snoring you can also set your &lt;a href="../../devices/smart_light#miscellaneous"&gt;Smartlight&lt;/a&gt; devices to react to your snoring by flashing.&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Anti-snoring as well as &lt;a href="../../sleep/lucid_dreaming"&gt;Lucid dreaming&lt;/a&gt; may disturb you from sleeping.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Anti-snoring&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="anti-snoring"&gt;Anti-snoring&lt;a class="anchor" href="#anti-snoring"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The options below are shown only if Anti-snoring is enabled.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sleep_noise_recording on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/sleep_noise_recording/</link>
+    <description>Recent content in Sleep_noise_recording on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/sleep_noise_recording/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anti-snoring</title>
+      <link>//localhost:1313/sleep/anti_snoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sleep/anti_snoring/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Helps you (or your partner) fight snoring.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;When enabled, Anti-snoring looks for snoring sounds while you are sleep tracking and will react and try to make you stop snoring.&lt;/p&gt;&#xA;&lt;p&gt;Apart from audible anti-snoring you can also set your &lt;a href=&#34;../../devices/smart_light#miscellaneous&#34;&gt;Smartlight&lt;/a&gt; devices to react to your snoring by flashing.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Anti-snoring as well as &lt;a href=&#34;../../sleep/lucid_dreaming&#34;&gt;Lucid dreaming&lt;/a&gt; may disturb you from sleeping.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis -&amp;gt; Anti-snoring&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;anti-snoring&#34;&gt;Anti-snoring&lt;a class=&#34;anchor&#34; href=&#34;#anti-snoring&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The options below are shown only if Anti-snoring is enabled.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

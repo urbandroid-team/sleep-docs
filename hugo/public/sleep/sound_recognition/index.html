@@ -1,18 +1,1754 @@
-<!doctype html><html lang=en dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Listens to sounds you make during sleep tracking and categorizes them.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Listens to sounds you make during sleep tracking and categorizes them.
 When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.
-Settings -> Sleep noise analysis -> Sound recognition
+Settings -&gt; Sleep noise analysis -&gt; Sound recognition
 You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to Disabled.
-"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#2e3440"><meta name=color-scheme content="light dark"><meta property="og:url" content="/sleep/sound_recognition/"><meta property="og:site_name" content="Sleep as Android Docs"><meta property="og:title" content="Sound recognition"><meta property="og:description" content="Listens to sounds you make during sleep tracking and categorizes them.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/sleep/sound_recognition/">
+  <meta property="og:site_name" content="Sleep as Android Docs">
+  <meta property="og:title" content="Sound recognition">
+  <meta property="og:description" content="Listens to sounds you make during sleep tracking and categorizes them.
 When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.
-Settings -> Sleep noise analysis -> Sound recognition
-You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to Disabled."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="sleep"><meta property="article:tag" content="Sound_recognition"><meta itemprop=name content="Sound recognition"><meta itemprop=description content="Listens to sounds you make during sleep tracking and categorizes them.
+Settings -&gt; Sleep noise analysis -&gt; Sound recognition
+You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to Disabled.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="sleep">
+    <meta property="article:tag" content="Sound_recognition">
+
+
+  <meta itemprop="name" content="Sound recognition">
+  <meta itemprop="description" content="Listens to sounds you make during sleep tracking and categorizes them.
 When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.
-Settings -> Sleep noise analysis -> Sound recognition
-You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to Disabled."><meta itemprop=wordCount content="667"><meta itemprop=keywords content="Sound_recognition"><title>Sound recognition • Sleep as Android Docs</title><link rel=icon href=../../favicon.png><link rel=manifest href=../../manifest.json><link rel=canonical href=../../sleep/sound_recognition/><link rel=stylesheet href=../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css><script defer type=module src=../../en.search.min.f4340c7a3e60bf441df3d4b22fdd507c6caab8ceb62bf60a2ea039d093ff2b74.js></script></head><body dir=ltr class="book-kind-page book-type-sleep book-layout-default"><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=../../><span>Sleep as Android Docs</span></a></h2><div class="book-search hidden"><input id=book-search-input type=text placeholder=Search aria-label=Search maxlength=64><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=../../about/>About</a></li><li><a href=../../addons/>Addons</a></li><li><a>Alarms</a><ul><li><a href=../../alarms/alarm_settings/>Alarm settings</a></li><li><a href=../../alarms/backup/>Backup alarm</a></li><li><a href=../../alarms/bedtime_notification/>Bedtime notification</a></li><li><a href=../../alarms/captcha/>CAPTCHA</a></li><li><a href=../../alarms/create_alarm/>Create alarm</a></li><li><a href=../../alarms/naps/>Naps</a></li><li><a href=../../alarms/polyphasic/>Polyphasic sleeping</a></li><li><a href=../../alarms/power_nap/>Power nap</a></li><li><a href=../../alarms/snooze/>Snooze</a></li><li><a href=../../alarms/ringtone/>Sound</a></li></ul></li><li><a>Connected devices</a><ul><li><a href=../../devices/garmin/>Garmin</a></li><li><a href=../../devices/notify/>Notify for Mi Band and Amazfit and Xiaomi & Mi Fitness</a></li><li><a href=../../devices/one_ui/>One UI Watch devices</a></li><li><a href=../../devices/oximeter/>Oximeter</a></li><li><a href=../../devices/pebble/>Pebble</a></li><li><a href=../../devices/samsung_gear/>Samsung Gear / Galaxy Gear</a></li><li><a href=../../devices/sleep_mask/>Sleep mask</a></li><li><a href=../../devices/sleep_phaser_1/>Sleep Phaser v1</a></li><li><a href=../../devices/sleep_phaser_2/>Sleep Phaser v2 + v3</a></li><li><a href=../../devices/smart_light/>Smartlight</a></li><li><a href=../../devices/supported_wearable/>Supported wearables - list</a></li><li><a href=../../devices/test_sensor/>Testing connection with a wearable</a></li><li><a href=../../devices/tools/>Tools & Mi Band and Amazfit</a></li><li><a href=../../devices/wearos/>Wear OS devices</a></li><li><a href=../../devices/wearables/>Wearables</a></li></ul></li><li><a>Connected services</a><ul><li><a href=../../services/automate_walkthroughs/>Automate walkthroughs</a></li><li><a href=../../services/automation/>Automation</a></li><li><a href=../../services/backup_data/>Backup</a></li><li><a href=../../services/custom_webhooks/>Custom webhooks</a></li><li><a href=../../services/google_app_actions/>Google Assistant App Actions</a></li><li><a href=../../services/google_calendar/>Google Calendar</a></li><li><a href=../../services/google_fit/>Google Fit</a></li><li><a href=../../services/health_connect/>Health Connect</a></li><li><a href=../../services/ifttt/>IFTTT</a></li><li><a href=../../services/mqtt/>MQTT</a></li><li><a href=../../services/s_health/>Samsung Health</a></li><li><a href=../../services/sleepcloud/>SleepCloud</a></li><li><a href=../../services/spotify/>Spotify</a></li><li><a href=../../services/tasker_walkthroughs/>Tasker walkthroughs</a></li><li><a href=../../services/tasker_automate/>Tasker, Automate</a></li></ul></li><li><a href=../../devs/>For developers</a><ul><li><a href=../../devs/captcha_api/>CAPTCHA API</a></li><li><a href=../../devs/content_provider_api/>Content provider API</a></li><li><a href=../../devs/csv/>CSV file documentation</a></li><li><a href=../../devs/intent_api/>Intent API</a></li><li><a href=../../devs/sleepcloud_api/>SleepCloud Storage API</a></li><li><a href=../../devs/wearable_api/>Wearable integration API</a></li></ul></li><li><a>Generals</a><ul><li><a href=../../general/start/>Get started with Sleep as Android app</a></li><li><a href=../../general/permissions/>Permissions</a></li><li><a href=../../general/privacy/>Privacy</a></li><li><a href=../../general/plan/>Purchasing the app</a></li><li><a href=../../general/release_notes/>Release notes</a></li><li><a href=../../general/terms_of_service/>Terms of use</a></li><li><a href=../../general/translation/>Translation</a></li></ul></li><li><a>Sleep</a><ul><li><a href=../../sleep/achievements/>Achievements</a></li><li><a href=../../sleep/advice/>Advice</a></li><li><a href=../../sleep/anti_snoring/>Anti-snoring</a></li><li><a href=../../sleep/automatic_sleep_tracking/>Automatic sleep tracking</a></li><li><a href=../../sleep/awake_detection/>Awake detection</a></li><li><a href=../../sleep/breath_rate/>Breath rate detection & blood oxygen measurement</a></li><li><a href=../../sleep/charts/>Charts / Trends</a></li><li><a href=../../sleep/chrono_jetlag/>Chronotype, Social jetlag, Sleep Regularity</a></li><li><a href=../../sleep/graph_edit/>Editing graphs</a></li><li><a href=../../sleep/goals/>Goals</a></li><li><a href=../../sleep/heart_rate/>Heart rate detection</a></li><li><a href=../../sleep/how_to_read_sleep_graphs/>How to read sleep graphs</a></li><li><a href=../../sleep/jetlag/>Jet lag prevention</a></li><li><a href=../../sleep/light_level/>Light level detection</a></li><li><a href=../../sleep/lucid_dreaming/>Lucid dreaming</a></li><li><a href=../../sleep/lullaby/>Lullaby</a></li><li><a href=../../sleep/pair_tracking/>Pair tracking</a></li><li><a href=../../sleep/sensors/>Sensors</a></li><li><a href=../../sleep/sleep_apnea/>Sleep apnea</a></li><li><a href=../../sleep/sleep_noise_recording/>Sleep noise analysis</a></li><li><a href=../../sleep/sleepscore/>Sleep score</a></li><li><a href=../../sleep/sleep_time_estimation/>Sleep time estimation</a></li><li><a href=../../sleep/sleep_tracking/>Sleep tracking</a></li><li><a href=../../sleep/sleep_tracking_theory/>Sleep tracking theory</a></li><li><a href=../../sleep/sleepcloud_study/>SleepCloud study</a></li><li><a href=../../sleep/smart_wake_up/>Smart wakeup</a></li><li><a href=../../sleep/sound_recognition/ class=active>Sound recognition</a></li><li><a href=../../sleep/statistics/>Statistics</a></li><li><a href=../../sleep/tags/>Tags</a></li></ul></li><li><a href=../../template/>Sleep tracking</a></li><li><a href=../../tags/>TAGS</a></li><li><a>User interface</a><ul><li><a href=../../ux/hs_alarms_only/>Alarms only mode</a></li><li><a href=../../ux/hs_dashboard/>Dashboard home screen</a></li><li><a href=../../ux/left_menu/>Left ☰ menu</a></li><li><a href=../../ux/personalize/>Personalization</a></li><li><a href=../../ux/search/>Search</a></li><li><a href=../../ux/hs_tabs/>Tabs home screen</a></li><li><a href=../../ux/widgets/>Widgets</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class="book-header hidden"><div class="flex align-center justify-between"><label for=menu-control><img src=../../icons/menu.svg class=book-icon alt=Menu></label><h3>Sound recognition</h3><label for=toc-control><img src=../../icons/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class=hidden><nav id=TableOfContents><ul><li><ul><li><a href=#icontag_snore_new-snoring>icon:tag_snore_new[] Snoring</a></li><li><a href=#iconic_action_talk-talk>icon:ic_action_talk[] Talk</a></li><li><a href=#iconic_action_sick-sickness>icon:ic_action_sick[] Sickness</a></li><li><a href=#iconic_action_baby-baby-crying>icon:ic_action_baby[] Baby crying</a></li><li><a href=#iconic_action_laugh-laughter>icon:ic_action_laugh[] Laughter</a></li><li><a href=#under-the-hood>Under the hood</a></li><li><a href=#help-us-improve-sound-recognition>Help us improve sound recognition</a><ul><li></li></ul></li></ul></li><li><a href=#>[.text-center] <img src=new_sound_recognition_share.png alt></a></li></ul></nav></aside></header><article class="markdown book-article"><p><strong>Listens to sounds you make during sleep tracking and categorizes them.</strong></p><p>When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.</p><p><em>Settings -> Sleep noise analysis -> Sound recognition</em></p><p>You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to <em>Disabled</em>.</p><blockquote class=book-hint><p><strong>Note:</strong> Some users complained that snoring detection was too sensitive and sometimes marked non-snoring noises as snoring. For others, it was not sensitive enough and it used to miss part of their snoring. Indeed, every microphone is different, every environment has different acoustics, it is nearly impossible to balance all these specifics automatically.
-Using these sensitivity options, everyone can tune the classifier so that it fits his needs and his specifics.</p></blockquote><hr><h2 id=icontag_snore_new-snoring>icon:tag_snore_new[] Snoring<a class=anchor href=#icontag_snore_new-snoring>#</a></h2><p>Common snoring isn’t dangerous for your health, but may decrease the efficiency of your and your partner’s sleep. According to various sleep studies, 30% of the population are occasional snorers. But snoring may indicate more several respiratory issues such as the OSA – obstructive sleep apnea. Recent evidence show this dangerous disorder is greatly under-diagnosed and prevalence may reach up to 10% in population.</p><h2 id=iconic_action_talk-talk>icon:ic_action_talk[] Talk<a class=anchor href=#iconic_action_talk-talk>#</a></h2><p>When you talk from your sleep, we tag the recording with #talk, and you can listen to the wisdom of your dreams in the morning.</p><h2 id=iconic_action_sick-sickness>icon:ic_action_sick[] Sickness<a class=anchor href=#iconic_action_sick-sickness>#</a></h2><p>We detect coughing, sneezing and the like, and mark them as #sick. This may give you an early alert of an incoming sickness.</p><h2 id=iconic_action_baby-baby-crying>icon:ic_action_baby[] Baby crying<a class=anchor href=#iconic_action_baby-baby-crying>#</a></h2><p>See how much was your sleep disturbed by your crying #baby.</p><h2 id=iconic_action_laugh-laughter>icon:ic_action_laugh[] Laughter<a class=anchor href=#iconic_action_laugh-laughter>#</a></h2><p>A funny bonus feature. Indeed some people #laugh heavily from their sleep.</p><h2 id=under-the-hood>Under the hood<a class=anchor href=#under-the-hood>#</a></h2><p>We are using convolution neural networks, a state-of-the-art machine perception technique.</p><p>The algorithm learns from real-world sound samples. We gave it thousands of diverse recordings, and told it “this one is snore”, “this one is cough”, “that one is just meaningless noise”, etc. The algorithm gradually learns specifics of the individual categories and then can recognize new, unheard sounds.</p><p>The more samples it receives during the training phase, the better it works. It is truly hard to imagine how many different kinds of snores or coughs or various background noises and disturbances there are out there.</p><p>We first deployed neural networks for snore/talk detection in 2017, and we have gone a long way since then. Driven by real-world performance feedback, we redesigned the internals of the network in 2019, we enhanced the way how we extract data from the microphone input, and we substantially extended the training data set. We believe it will bring a better classification accuracy in most cases.</p><h2 id=help-us-improve-sound-recognition>Help us improve sound recognition<a class=anchor href=#help-us-improve-sound-recognition>#</a></h2><p>We collected a database of several thousand recordings by our means, and we would like to collect way more of them, from more diverse sources. This is where we are kindly asking you, our user, for help.</p><p>You can send us your samples straight from the app. We will collect all these recordings, verify them manually, and use them to improve the algorithm.</p><p>And if you really feel like having some fun with our app, you do not need to record only your sleep sounds. Just start sleep tracking anywhere, record any sounds in your surroundings, and if our app classifies them wrong, please, send them to us. The more varied collection of samples we receive, the better.</p><p>Thank you in advance for any contributions.</p><p>[NOTE]</p><h4 id=when-you-listen-to-a-recording-and-it-is-classified-incorrectly-you-can-manually-add-the-missing-tag-or-remove-the-wrong-tag-by-tapping-the-respective-button-at-the-player-screen>When you listen to a recording, and it is classified incorrectly, you can manually add the missing tag or remove the wrong tag by tapping the respective button at the player screen.<a class=anchor href=#when-you-listen-to-a-recording-and-it-is-classified-incorrectly-you-can-manually-add-the-missing-tag-or-remove-the-wrong-tag-by-tapping-the-respective-button-at-the-player-screen>#</a></h4><p>When you are leaving the player (and if the recording is longer than 30 s), we detect the changed tags and pop up a dialog, where we ask you to share the audio with us.</p><p>If you agree, the app will send it to us by e-mail.</p><h1>[.text-center]
-<img src=../../assets/images/new_sound_recognition_share.png alt>
-<a class=anchor href=#>#</a></h1></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div></div><div></div></div><div class="flex flex-wrap justify-between"><span><a href=../../sleep/smart_wake_up/ class="flex align-center"><img src=../../icons/backward.svg class=book-icon alt=Backward>
-<span>Smart wakeup</span>
-</a></span><span><a href=../../sleep/statistics/ class="flex align-center"><span>Statistics</span>
-<img src=../../icons/forward.svg class=book-icon alt=Forward></a></span></div><div class=book-comments></div><script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#icontag_snore_new-snoring>icon:tag_snore_new[] Snoring</a></li><li><a href=#iconic_action_talk-talk>icon:ic_action_talk[] Talk</a></li><li><a href=#iconic_action_sick-sickness>icon:ic_action_sick[] Sickness</a></li><li><a href=#iconic_action_baby-baby-crying>icon:ic_action_baby[] Baby crying</a></li><li><a href=#iconic_action_laugh-laughter>icon:ic_action_laugh[] Laughter</a></li><li><a href=#under-the-hood>Under the hood</a></li><li><a href=#help-us-improve-sound-recognition>Help us improve sound recognition</a><ul><li></li></ul></li></ul></li><li><a href=#>[.text-center] <img src=new_sound_recognition_share.png alt></a></li></ul></nav></div></aside></main></body></html>
+Settings -&gt; Sleep noise analysis -&gt; Sound recognition
+You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to Disabled.">
+  <meta itemprop="wordCount" content="667">
+  <meta itemprop="keywords" content="Sound_recognition">
+
+<title>Sound recognition • Sleep as Android Docs</title>
+<link rel="icon" href="../../favicon.png" >
+<link rel="manifest" href="../../manifest.json">
+<link rel="canonical" href="//localhost:1313/sleep/sound_recognition/">
+<link rel="stylesheet" href="../../book.min.48f33d5a3eb3d0043703a18061032a2d9ba8b975a98e31188faf67aac93a8b44.css" integrity="sha256-SPM9Wj6z0AQ3A6GAYQMqLZuouXWpjjEYj69nqsk6i0Q=" crossorigin="anonymous">
+
+
+  <script defer type="module" src="../../en.search.min.f4340c7a3e60bf441df3d4b22fdd507c6caab8ceb62bf60a2ea039d093ff2b74.js" integrity="sha256-9DQMej5gv0Qd89SyL91QfGyquM62K/YKLqA50JP/K3Q=" crossorigin="anonymous"></script>
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-sleep book-layout-default">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="../../"><span>Sleep as Android Docs</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../about/" class="">
+      About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../addons/" class="">
+      Addons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Alarms</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/alarm_settings/" class="">
+      Alarm settings</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/backup/" class="">
+      Backup alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/bedtime_notification/" class="">
+      Bedtime notification</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/captcha/" class="">
+      CAPTCHA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/create_alarm/" class="">
+      Create alarm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/naps/" class="">
+      Naps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/polyphasic/" class="">
+      Polyphasic sleeping</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/power_nap/" class="">
+      Power nap</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/snooze/" class="">
+      Snooze</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../alarms/ringtone/" class="">
+      Sound</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected devices</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/garmin/" class="">
+      Garmin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/notify/" class="">
+      Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/one_ui/" class="">
+      One UI Watch devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/oximeter/" class="">
+      Oximeter</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/pebble/" class="">
+      Pebble</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/samsung_gear/" class="">
+      Samsung Gear / Galaxy Gear</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_mask/" class="">
+      Sleep mask</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_1/" class="">
+      Sleep Phaser v1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/sleep_phaser_2/" class="">
+      Sleep Phaser v2 &#43; v3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/smart_light/" class="">
+      Smartlight</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/supported_wearable/" class="">
+      Supported wearables - list</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/test_sensor/" class="">
+      Testing connection with a wearable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/tools/" class="">
+      Tools &amp; Mi Band and Amazfit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearos/" class="">
+      Wear OS devices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devices/wearables/" class="">
+      Wearables</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Connected services</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automate_walkthroughs/" class="">
+      Automate walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/automation/" class="">
+      Automation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/backup_data/" class="">
+      Backup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/custom_webhooks/" class="">
+      Custom webhooks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_app_actions/" class="">
+      Google Assistant App Actions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_calendar/" class="">
+      Google Calendar</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/google_fit/" class="">
+      Google Fit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/health_connect/" class="">
+      Health Connect</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/ifttt/" class="">
+      IFTTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/mqtt/" class="">
+      MQTT</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/s_health/" class="">
+      Samsung Health</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/sleepcloud/" class="">
+      SleepCloud</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/spotify/" class="">
+      Spotify</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_walkthroughs/" class="">
+      Tasker walkthroughs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../services/tasker_automate/" class="">
+      Tasker, Automate</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/" class="">
+      For developers</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/captcha_api/" class="">
+      CAPTCHA API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/content_provider_api/" class="">
+      Content provider API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/csv/" class="">
+      CSV file documentation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/intent_api/" class="">
+      Intent API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/sleepcloud_api/" class="">
+      SleepCloud Storage API</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../devs/wearable_api/" class="">
+      Wearable integration API</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Generals</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/start/" class="">
+      Get started with Sleep as Android app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/permissions/" class="">
+      Permissions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/privacy/" class="">
+      Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/plan/" class="">
+      Purchasing the app</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/release_notes/" class="">
+      Release notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/terms_of_service/" class="">
+      Terms of use</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../general/translation/" class="">
+      Translation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Sleep</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/achievements/" class="">
+      Achievements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/advice/" class="">
+      Advice</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/anti_snoring/" class="">
+      Anti-snoring</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/automatic_sleep_tracking/" class="">
+      Automatic sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/awake_detection/" class="">
+      Awake detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/breath_rate/" class="">
+      Breath rate detection &amp; blood oxygen measurement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/charts/" class="">
+      Charts / Trends</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/chrono_jetlag/" class="">
+      Chronotype, Social jetlag, Sleep Regularity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/graph_edit/" class="">
+      Editing graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/goals/" class="">
+      Goals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/heart_rate/" class="">
+      Heart rate detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/how_to_read_sleep_graphs/" class="">
+      How to read sleep graphs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/jetlag/" class="">
+      Jet lag prevention</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/light_level/" class="">
+      Light level detection</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lucid_dreaming/" class="">
+      Lucid dreaming</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/lullaby/" class="">
+      Lullaby</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/pair_tracking/" class="">
+      Pair tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sensors/" class="">
+      Sensors</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_apnea/" class="">
+      Sleep apnea</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_noise_recording/" class="">
+      Sleep noise analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepscore/" class="">
+      Sleep score</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_time_estimation/" class="">
+      Sleep time estimation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleep_tracking_theory/" class="">
+      Sleep tracking theory</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sleepcloud_study/" class="">
+      SleepCloud study</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/smart_wake_up/" class="">
+      Smart wakeup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/sound_recognition/" class="active">
+      Sound recognition</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/statistics/" class="">
+      Statistics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../sleep/tags/" class="">
+      Tags</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../template/" class="">
+      Sleep tracking</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../tags/" class="">
+      TAGS</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      User interface</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_alarms_only/" class="">
+      Alarms only mode</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_dashboard/" class="">
+      Dashboard home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/left_menu/" class="">
+      Left ☰ menu</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/personalize/" class="">
+      Personalization</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/search/" class="">
+      Search</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/hs_tabs/" class="">
+      Tabs home screen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="../../ux/widgets/" class="">
+      Widgets</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Sound recognition</h3>
+
+  <label for="toc-control">
+    
+    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#icontag_snore_new-snoring">icon:tag_snore_new[] Snoring</a></li>
+        <li><a href="#iconic_action_talk-talk">icon:ic_action_talk[] Talk</a></li>
+        <li><a href="#iconic_action_sick-sickness">icon:ic_action_sick[] Sickness</a></li>
+        <li><a href="#iconic_action_baby-baby-crying">icon:ic_action_baby[] Baby crying</a></li>
+        <li><a href="#iconic_action_laugh-laughter">icon:ic_action_laugh[] Laughter</a></li>
+        <li><a href="#under-the-hood">Under the hood</a></li>
+        <li><a href="#help-us-improve-sound-recognition">Help us improve sound recognition</a>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">[.text-center] <img src="new_sound_recognition_share.png" alt=""></a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p><strong>Listens to sounds you make during sleep tracking and categorizes them.</strong></p>
+<p>When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.</p>
+<p><em>Settings -&gt; Sleep noise analysis -&gt; Sound recognition</em></p>
+<p>You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to <em>Disabled</em>.</p>
+<blockquote class='book-hint '>
+<p><strong>Note:</strong> Some users complained that snoring detection was too sensitive and sometimes marked non-snoring noises as snoring. For others, it was not sensitive enough and it used to miss part of their snoring. Indeed, every microphone is different, every environment has different acoustics, it is nearly impossible to balance all these specifics automatically.
+Using these sensitivity options, everyone can tune the classifier so that it fits his needs and his specifics.</p>
+</blockquote><hr>
+<h2 id="icontag_snore_new-snoring">icon:tag_snore_new[] Snoring<a class="anchor" href="#icontag_snore_new-snoring">#</a></h2>
+<p>Common snoring isn’t dangerous for your health, but may decrease the efficiency of your and your partner’s sleep. According to various sleep studies, 30% of the population are occasional snorers. But snoring may indicate more several respiratory issues such as the OSA – obstructive sleep apnea. Recent evidence show this dangerous disorder is greatly under-diagnosed and prevalence may reach up to 10% in population.</p>
+<h2 id="iconic_action_talk-talk">icon:ic_action_talk[] Talk<a class="anchor" href="#iconic_action_talk-talk">#</a></h2>
+<p>When you talk from your sleep, we tag the recording with #talk, and you can listen to the wisdom of your dreams in the morning.</p>
+<h2 id="iconic_action_sick-sickness">icon:ic_action_sick[] Sickness<a class="anchor" href="#iconic_action_sick-sickness">#</a></h2>
+<p>We detect coughing, sneezing and the like, and mark them as #sick. This may give you an early alert of an incoming sickness.</p>
+<h2 id="iconic_action_baby-baby-crying">icon:ic_action_baby[] Baby crying<a class="anchor" href="#iconic_action_baby-baby-crying">#</a></h2>
+<p>See how much was your sleep disturbed by your crying #baby.</p>
+<h2 id="iconic_action_laugh-laughter">icon:ic_action_laugh[] Laughter<a class="anchor" href="#iconic_action_laugh-laughter">#</a></h2>
+<p>A funny bonus feature. Indeed some people #laugh heavily from their sleep.</p>
+<h2 id="under-the-hood">Under the hood<a class="anchor" href="#under-the-hood">#</a></h2>
+<p>We are using convolution neural networks, a state-of-the-art machine perception technique.</p>
+<p>The algorithm learns from real-world sound samples. We gave it thousands of diverse recordings, and told it “this one is snore”, “this one is cough”, “that one is just meaningless noise”, etc. The algorithm gradually learns specifics of the individual categories and then can recognize new, unheard sounds.</p>
+<p>The more samples it receives during the training phase, the better it works. It is truly hard to imagine how many different kinds of snores or coughs or various background noises and disturbances there are out there.</p>
+<p>We first deployed neural networks for snore/talk detection in 2017, and we have gone a long way since then. Driven by real-world performance feedback, we redesigned the internals of the network in 2019, we enhanced the way how we extract data from the microphone input, and we substantially extended the training data set. We believe it will bring a better classification accuracy in most cases.</p>
+<h2 id="help-us-improve-sound-recognition">Help us improve sound recognition<a class="anchor" href="#help-us-improve-sound-recognition">#</a></h2>
+<p>We collected a database of several thousand recordings by our means, and we would like to collect way more of them, from more diverse sources.  This is where we are kindly asking you, our user, for help.</p>
+<p>You can send us your samples straight from the app. We will collect all these recordings, verify them manually, and use them to improve the algorithm.</p>
+<p>And if you really feel like having some fun with our app, you do not need to record only your sleep sounds. Just start sleep tracking anywhere, record any sounds in your surroundings, and if our app classifies them wrong, please, send them to us. The more varied collection of samples we receive, the better.</p>
+<p>Thank you in advance for any contributions.</p>
+<p>[NOTE]</p>
+<h4 id="when-you-listen-to-a-recording-and-it-is-classified-incorrectly-you-can-manually-add-the-missing-tag-or-remove-the-wrong-tag-by-tapping-the-respective-button-at-the-player-screen">When you listen to a recording, and it is classified incorrectly, you can manually add the missing tag or remove the wrong tag by tapping the respective button at the player screen.<a class="anchor" href="#when-you-listen-to-a-recording-and-it-is-classified-incorrectly-you-can-manually-add-the-missing-tag-or-remove-the-wrong-tag-by-tapping-the-respective-button-at-the-player-screen">#</a></h4>
+<p>When you are leaving the player (and if the recording is longer than 30 s), we detect the changed tags and pop up a dialog, where we ask you to share the audio with us.</p>
+<p>If you agree, the app will send it to us by e-mail.</p>
+<h1 id="">[.text-center]
+<img src="../../assets/images/new_sound_recognition_share.png" alt=""  />
+<a class="anchor" href="#">#</a></h1>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="../../sleep/smart_wake_up/" class="flex align-center">
+        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Smart wakeup</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="../../sleep/statistics/" class="flex align-center">
+        <span>Statistics</span>
+        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#icontag_snore_new-snoring">icon:tag_snore_new[] Snoring</a></li>
+        <li><a href="#iconic_action_talk-talk">icon:ic_action_talk[] Talk</a></li>
+        <li><a href="#iconic_action_sick-sickness">icon:ic_action_sick[] Sickness</a></li>
+        <li><a href="#iconic_action_baby-baby-crying">icon:ic_action_baby[] Baby crying</a></li>
+        <li><a href="#iconic_action_laugh-laughter">icon:ic_action_laugh[] Laughter</a></li>
+        <li><a href="#under-the-hood">Under the hood</a></li>
+        <li><a href="#help-us-improve-sound-recognition">Help us improve sound recognition</a>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">[.text-center] <img src="new_sound_recognition_share.png" alt=""></a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
