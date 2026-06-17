@@ -1,25 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wearos on Sleep as Android Docs</title><link>/tags/wearos/</link><description>Recent content in Wearos on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/wearos/index.xml" rel="self" type="application/rss+xml"/><item><title>Supported wearables - list</title><link>/devices/supported_wearable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/supported_wearable/</guid><description>&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;
-&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href="https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/"&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;.Legend for sensors&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;|===
-|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;
-&lt;p&gt;{% for wearable in site.data.wearables %}
-{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description></item><item><title>Wear OS devices</title><link>/devices/wearos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/wearos/</guid><description>&lt;p&gt;Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.&lt;/p&gt;
-&lt;p&gt;All Wear OS devices can monitor sleep tracking movement and collect HR.&lt;/p&gt;
-&lt;p&gt;Some wearables can also collect SpO2 data - for more details, please see the chapter on &lt;a href="../../devices/oximeter"&gt;oximeters and SpO data&lt;/a&gt;. Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.
-If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.&lt;/p&gt;</description></item><item><title>Wearables</title><link>/devices/wearables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/wearables/</guid><description>&lt;p&gt;&lt;a id="wearable_setup"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="how-to-set-up-tracking-with-a-wearable"&gt;How to set up tracking with a wearable&lt;a class="anchor" href="#how-to-set-up-tracking-with-a-wearable"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;First of all, make sure your wearable is supported (see the &lt;a href="../../devices/supported_wearable"&gt;table of all integated wearables&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Check if the wearable is connected properly via Bluetooth.&lt;/li&gt;
-&lt;li&gt;Install the required companion apps - this depends on the wearable type, check the &lt;a href="../../devices/supported_wearable"&gt;table below&lt;/a&gt;, or one of the subpages.&lt;/li&gt;
-&lt;li&gt;Select the corresponding option in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearable&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;You can test the connection on some wearables with the Test sensor - see &lt;a href="../../devices/test_sensor"&gt;details about testing the connection here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;You can find specific guides for each wearable type on the subpages of the Wearable section.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wearos on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/wearos/</link>
+    <description>Recent content in Wearos on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/wearos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supported wearables - list</title>
+      <link>//localhost:1313/devices/supported_wearable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/supported_wearable/</guid>
+      <description>&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;&#xA;&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href=&#34;https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/&#34;&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;.Legend for sensors&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;|===&#xA;|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;&#xA;&lt;p&gt;{% for wearable in site.data.wearables %}&#xA;{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wear OS devices</title>
+      <link>//localhost:1313/devices/wearos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/wearos/</guid>
+      <description>&lt;p&gt;Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.&lt;/p&gt;&#xA;&lt;p&gt;All Wear OS devices can monitor sleep tracking movement and collect HR.&lt;/p&gt;&#xA;&lt;p&gt;Some wearables can also collect SpO2 data - for more details, please see the chapter on &lt;a href=&#34;//localhost:1313/devices/oximeter&#34;&gt;oximeters and SpO data&lt;/a&gt;. Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.&#xA;If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wearables</title>
+      <link>//localhost:1313/devices/wearables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/wearables/</guid>
+      <description>&lt;p&gt;&lt;a id=&#34;wearable_setup&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-set-up-tracking-with-a-wearable&#34;&gt;How to set up tracking with a wearable&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up-tracking-with-a-wearable&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;First of all, make sure your wearable is supported (see the &lt;a href=&#34;//localhost:1313/devices/supported_wearable&#34;&gt;table of all integated wearables&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Check if the wearable is connected properly via Bluetooth.&lt;/li&gt;&#xA;&lt;li&gt;Install the required companion apps - this depends on the wearable type, check the  &lt;a href=&#34;//localhost:1313/devices/supported_wearable&#34;&gt;table below&lt;/a&gt;, or one of the subpages.&lt;/li&gt;&#xA;&lt;li&gt;Select the corresponding option in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearable&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;You can test the connection on some wearables with the Test sensor - see &lt;a href=&#34;//localhost:1313/devices/test_sensor&#34;&gt;details about testing the connection here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;You can find specific guides for each wearable type on the subpages of the Wearable section.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -123,12 +123,12 @@ This feature has no real effect if you're using Sound Recording or Sonar, becaus
 1. Elapsed tracking time
 1. Current time
 1. Top right actions
-- Pausing icon:ic_action_pause[] sleep tracking when you are awake, see [Awake detection](/sleep/awake).
-- Play lullabies icon:ic_action_lullaby[] for faster fall asleep, see [Lullabies](/sleep/lullaby).
-- Stop tracking icon:ic_action_cancel[], this will show a confirmation dialog whether you like to delete the record or save it.
+- Pausing ![ic_action_pause](/assets/icons/ic_action_pause.svg) sleep tracking when you are awake, see [Awake detection](/sleep/awake).
+- Play lullabies ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) for faster fall asleep, see [Lullabies](/sleep/lullaby).
+- Stop tracking ![ic_action_cancel](/assets/icons/ic_action_cancel.svg), this will show a confirmation dialog whether you like to delete the record or save it.
 1. If [Noise recording](/sleep/sleep_noise_recording) is enabled, you will see an recording indicator, with current volume and the _Recording volume threshold_.
 1. Shows your next alarm or a range in case of [Smart wake up](/sleep/smart_wake_up) and beneath you can see further instructions depending on your settings
-1. Action icon:ic_pencil[] to [comment](/sleep/graph_edit) or [tag](/sleep/tags) your sleep graph and turn on your flash light icon:ic_flashlight[] to e.g. navigate to the toilet.
+1. Action ![ic_pencil](/assets/icons/ic_pencil.svg) to [comment](/sleep/graph_edit) or [tag](/sleep/tags) your sleep graph and turn on your flash light ![ic_flashlight](/assets/icons/ic_flashlight.svg) to e.g. navigate to the toilet.
 
 > **Note:** In case you have configured [Smartlight](/devices/smart_light), the _Pee-light_ option will use it at minimum brightness (and red if possible) to help you to navigate the room.
 

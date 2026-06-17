@@ -37,7 +37,7 @@ You can pick any music file from your storage.
 
 ### How to add your own song or sound file <a id="guide_song"></a>
 1. Switch to **Phone** tab at the top.
-1. Tap on the folder icon icon:ic_folder[] in the upper right corner.
+1. Tap on the folder icon ![ic_folder](/assets/icons/ic_folder.svg) in the upper right corner.
 1. Select a file in your file browser.
 > **Warning:** Make sure the file is available and the app has permission for accessing that folder. On newer Android versions, the safest folder is Media. Downloads folder is not recommended.
 <!-- {{< youtube TWXKkFV2zS4 >}} -->
@@ -78,12 +78,12 @@ You can create a playlist of your liking, from any combination of sounds from al
 ### How to manage your own playlists <a id="guide_playlist"></a>
 1. Switch the tab at top to **Playlist** (at the end).
 1. By ticking the box next to the songs' name, choose each file you wish to have in the playlist.
-1. You can play the preview with the icon:ic_action_play[] button on the control panel (bar for volume will change the volume of the reply).
+1. You can play the preview with the ![ic_action_play](/assets/icons/ic_action_play.svg) button on the control panel (bar for volume will change the volume of the reply).
 1. You can change the order of the played songs,by tapping on the icon to change the playback mode.
-- **icon:is_playlist_loop1[]**: one song looping, the app will play each day a new song from the list, looping it
-- **icon:ic_playlist_inorder[]**: ordered list, you can see the order next to the songs' names
-- **icon:ic_playlist_shuffle[]**: shuffled, songs are playing in a random order
-- **icon:ic_action_discard[]**: reverts the selection, so you can start over.
+- **![is_playlist_loop1](/assets/icons/is_playlist_loop1.svg)**: one song looping, the app will play each day a new song from the list, looping it
+- **![ic_playlist_inorder](/assets/icons/ic_playlist_inorder.svg)**: ordered list, you can see the order next to the songs' names
+- **![ic_playlist_shuffle](/assets/icons/ic_playlist_shuffle.svg)**: shuffled, songs are playing in a random order
+- **![ic_action_discard](/assets/icons/ic_action_discard.svg)**: reverts the selection, so you can start over.
 <!-- {{< youtube Dr9EnzTFHY4 >}} -->
 
 

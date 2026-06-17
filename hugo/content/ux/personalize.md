@@ -131,7 +131,7 @@ A round analog clock time picker will be shown when creating new alarms instead 
 
 ## Release notes
 
-If disabled, you won't be seeing release notes card/dialog when Sleep is updated to a new version. To check the release notes at will, tap _Left ☰ menu -> icon:ic_help[] Support -> Release notes_.
+If disabled, you won't be seeing release notes card/dialog when Sleep is updated to a new version. To check the release notes at will, tap _Left ☰ menu -> ![ic_help](/assets/icons/ic_help.svg) Support -> Release notes_.
 
 
 ## Show advanced settings

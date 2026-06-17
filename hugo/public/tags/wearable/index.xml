@@ -1,89 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wearable on Sleep as Android Docs</title><link>/tags/wearable/</link><description>Recent content in Wearable on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/wearable/index.xml" rel="self" type="application/rss+xml"/><item><title>Garmin</title><link>/devices/garmin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/garmin/</guid><description>&lt;p&gt;Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform.&lt;/p&gt;
-&lt;p&gt;Does your watch support the ConnectIQ platform? &lt;a href="https://developer.garmin.com/connect-iq/compatible-devices/"&gt;check here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="how-to-set-up"&gt;How to set up&lt;a class="anchor" href="#how-to-set-up"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You will need to install the following apps:&lt;/p&gt;
-&lt;p&gt;.On the phone&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin"&gt;Garmin Addon for Sleep as Android&lt;/a&gt; from Play Store.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&amp;amp;hl=en_US"&gt;Sleep Watch starter&lt;/a&gt; from Play Store.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;.On the watch&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install the current version of the watch app &lt;a href="https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310"&gt;thourgh the ConnectIQ Store&lt;/a&gt; (Connect IQ 3.1 and higher).&lt;/li&gt;
-&lt;li&gt;Make sure that all of the apps are installed, and then select &lt;em&gt;Sleep -&amp;gt; Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearables -&amp;gt; Garmin&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;For HR data, enable &lt;strong&gt;Heart rate monitoring&lt;/strong&gt; in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;To start sleep tracking with your watch, tap &lt;em&gt;Start tracking&lt;/em&gt; on the &lt;a href="../../ux/homescreen"&gt;Homescreen&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;.If you have troubles with muted vibrations for lucid cues or anti-snoring alerts&lt;/p&gt;</description></item><item><title>Heart rate detection</title><link>/sleep/heart_rate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/heart_rate/</guid><description>&lt;p&gt;&lt;strong&gt;Heart rate data enhances your sleep tracking data and awake detection.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If you have a compatible heart rate sensor, you can use it to:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Gather your heart rate during the night and show it on your sleep graph&lt;/li&gt;
-&lt;li&gt;Have much more precise awake detection&lt;/li&gt;
-&lt;li&gt;If your wearable supports heart rate variability data collection, you will see HRV on your sleep graph too (read &lt;a href="https://sleep.urbandroid.org/hrv-tracking/"&gt;more about heart rate variability here&lt;/a&gt;)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;See and example of a heart-rate enabled track in &lt;a href="#graph-hr"&gt;graph-hr&lt;/a&gt; and heart rate variability graph in &lt;a href="#graph-hrv"&gt;graph-hrv&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</title><link>/devices/notify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/notify/</guid><description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.
-But thanks to the Notify app, you can use some devices with Sleep app.
-&lt;a href="https://play.google.com/store/apps/details?id=com.mc.miband1&amp;amp;hl=en"&gt;Notify for Mi Band&lt;/a&gt;, &lt;a href="https://play.google.com/store/apps/details?id=com.mc.xiaomi1&amp;amp;hl=en"&gt;Notify for Xiaomi &amp;amp; Mi Fitness&lt;/a&gt; and &lt;a href="https://play.google.com/store/apps/details?id=com.mc.amazfit1&amp;amp;hl=en"&gt;Notify for Amazfit &amp;amp; Zepp&lt;/a&gt; are developed by &lt;a href="https://play.google.com/store/apps/developer?id=OneZeroBit&amp;amp;hl=en"&gt;OneZerobit&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can visit Notify app page for &lt;a href="http://forum.mibandnotify.com/discussion/20117/sleep-as-android-integration"&gt;Sleep as Android integration here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="supported-mi-bands"&gt;Supported Mi Bands &lt;a id="supported_wearables"&gt;&lt;/a&gt;&lt;a class="anchor" href="#supported-mi-bands"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="notify-for-mi-band"&gt;Notify for Mi Band&lt;a class="anchor" href="#notify-for-mi-band"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mi Band 1, 1S and 1A&lt;/li&gt;
-&lt;li&gt;Mi Band HRX&lt;/li&gt;
-&lt;li&gt;Mi Band 2&lt;/li&gt;
-&lt;li&gt;Mi Band 3 and 3i&lt;/li&gt;
-&lt;li&gt;Mi Band 4&lt;/li&gt;
-&lt;li&gt;Mi Band 5&lt;/li&gt;
-&lt;li&gt;Mi Band 6&lt;/li&gt;
-&lt;li&gt;Mi Band 7&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="notify-for-xiaomi-and-mi-fitness"&gt;Notify for Xiaomi and Mi Fitness&lt;a class="anchor" href="#notify-for-xiaomi-and-mi-fitness"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mi Band 7 PRO&lt;/li&gt;
-&lt;li&gt;Mi Band 8&lt;/li&gt;
-&lt;li&gt;Mi Band 8 PRO&lt;/li&gt;
-&lt;li&gt;Xiaomi Watch S1&lt;/li&gt;
-&lt;li&gt;Redmi Band 2&lt;/li&gt;
-&lt;li&gt;Redmi Watch 2+3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="supported-amazfits"&gt;Supported Amazfits &lt;a id="supported_wearables"&gt;&lt;/a&gt;&lt;a class="anchor" href="#supported-amazfits"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazfit T-Rex&lt;/li&gt;
-&lt;li&gt;Amazfit GTS&lt;/li&gt;
-&lt;li&gt;Amazfit GTR, GTR Lite (47mm &amp;amp; 42mm)&lt;/li&gt;
-&lt;li&gt;Amazfit Verge Lite&lt;/li&gt;
-&lt;li&gt;Amazfit Bip, Bip Lite, Bip S, Bip 3&lt;/li&gt;
-&lt;li&gt;Amazfit Mi Dong Cor&lt;/li&gt;
-&lt;li&gt;Amazfit Arc&lt;/li&gt;
-&lt;li&gt;Amazfit Band 5&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="how-to-set-up-integration-in-notify-app"&gt;How to set up integration in Notify app&lt;a class="anchor" href="#how-to-set-up-integration-in-notify-app"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;[cols=&amp;quot;^,^&amp;quot;]
-|===
-a|.Switch to the graph tab and tap on the cog icon.
-&lt;img src="../../assets/images/NF_vibr_1.png" alt="" /&gt;
-&lt;/p&gt;</description></item><item><title>One UI Watch devices</title><link>/devices/one_ui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/one_ui/</guid><description>&lt;p&gt;Sleep tracking with Galaxy Watch model 4 and newer models (running the ONE UI Watch OS) requires a companion app installed from the Play Store on the watch.&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Unfortunately due to limit put for non-Samsung apps, we cannot read SpO2 or HRV from those watches at the moment.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;h2 id="how-to-set-up"&gt;How to set up&lt;a class="anchor" href="#how-to-set-up"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;.On the watch&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Make sure the watch is connected to the phone.&lt;/li&gt;
-&lt;li&gt;Go to app list on your watch, select Play Store.&lt;/li&gt;
-&lt;li&gt;Find &lt;strong&gt;Sleep as Android&lt;/strong&gt; and select &lt;em&gt;Install&lt;/em&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;.On the phone&lt;/p&gt;</description></item><item><title>Pebble</title><link>/devices/pebble/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/pebble/</guid><description>&lt;h2 id="how-to-set-up"&gt;How to set up&lt;a class="anchor" href="#how-to-set-up"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Please side-load the PDB file:
-&lt;a href="https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw"&gt;https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw&lt;/a&gt; on your Pebble watch&lt;/p&gt;</description></item><item><title>Testing connection with a wearable</title><link>/devices/test_sensor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/test_sensor/</guid><description>&lt;h2 id="what-it-does"&gt;What it does&lt;a class="anchor" href="#what-it-does"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Testing sensor gives you confirmation the wearable is connected properly, and the companion app is sending data about your movement.&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Testing sensor is not supported by Garmin wearables and FitBit.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;h2 id="where-to-find-it"&gt;Where to find it&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Test sensor&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="how-it-works"&gt;How it works&lt;a class="anchor" href="#how-it-works"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;During the Test sensor, the app connects to the selected wearable, confirms the proper connection and then shows you the detected movement.&lt;/p&gt;</description></item><item><title>Tools &amp; Mi Band and Amazfit</title><link>/devices/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/tools/</guid><description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools &amp;amp; MiBand and Tools &amp;amp; Amazfit app, you can use some devices with Sleep app.
-&lt;a href="https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"&gt;Tools &amp;amp; Mi Band&lt;/a&gt; and &lt;a href="https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"&gt;Tools &amp;amp; Amazfit&lt;/a&gt; are developed by &lt;a href="https://play.google.com/store/apps/developer?id=Tools&amp;#43;%26&amp;#43;Wearables&amp;#43;Ltd"&gt;Tools &amp;amp; Wearables Ltd.&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can check the Tools app &lt;a href="https://help.mibandtools.com/knowledge_base/categories/mi-band-tools-faq-frequently-asked-questions"&gt;page with FAQs&lt;/a&gt;, page for &lt;a href="https://help.mibandtools.com/knowledge_base/topics/sleep-as-android"&gt;Sleep as Android integration for Mi Bands&lt;/a&gt;, and page for &lt;a href="https://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit"&gt;Sleep as Android integration for Amazfit&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Wear OS devices</title><link>/devices/wearos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/wearos/</guid><description>&lt;p&gt;Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.&lt;/p&gt;
-&lt;p&gt;All Wear OS devices can monitor sleep tracking movement and collect HR.&lt;/p&gt;
-&lt;p&gt;Some wearables can also collect SpO2 data - for more details, please see the chapter on &lt;a href="../../devices/oximeter"&gt;oximeters and SpO data&lt;/a&gt;. Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.
-If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wearable on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/wearable/</link>
+    <description>Recent content in Wearable on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/wearable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garmin</title>
+      <link>//localhost:1313/devices/garmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/garmin/</guid>
+      <description>&lt;p&gt;Sleep as Android integrates Garmin wearables that support the ConnectIQ (CIQ) platform.&lt;/p&gt;&#xA;&lt;p&gt;Does your watch support the ConnectIQ platform? &lt;a href=&#34;https://developer.garmin.com/connect-iq/compatible-devices/&#34;&gt;check here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-set-up&#34;&gt;How to set up&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You will need to install the following apps:&lt;/p&gt;&#xA;&lt;p&gt;.On the phone&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.sleep.garmin&#34;&gt;Garmin Addon for Sleep as Android&lt;/a&gt; from Play Store.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter&amp;amp;hl=en_US&#34;&gt;Sleep Watch starter&lt;/a&gt; from Play Store.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;.On the watch&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install the current version of the watch app &lt;a href=&#34;https://apps.garmin.com/en-US/apps/e80a4793-f5a3-44c7-bd7f-52a97f5d8310&#34;&gt;thourgh the ConnectIQ Store&lt;/a&gt; (Connect IQ 3.1 and higher).&lt;/li&gt;&#xA;&lt;li&gt;Make sure that all of the apps are installed, and then select &lt;em&gt;Sleep -&amp;gt; Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Use wearables -&amp;gt; Garmin&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;For HR data, enable &lt;strong&gt;Heart rate monitoring&lt;/strong&gt; in &lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;To start sleep tracking with your watch, tap &lt;em&gt;Start tracking&lt;/em&gt; on the &lt;a href=&#34;//localhost:1313/ux/homescreen&#34;&gt;Homescreen&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;.If you have troubles with muted vibrations for lucid cues or anti-snoring alerts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Heart rate detection</title>
+      <link>//localhost:1313/sleep/heart_rate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sleep/heart_rate/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Heart rate data enhances your sleep tracking data and awake detection.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you have a compatible heart rate sensor, you can use it to:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Gather your heart rate during the night and show it on your sleep graph&lt;/li&gt;&#xA;&lt;li&gt;Have much more precise awake detection&lt;/li&gt;&#xA;&lt;li&gt;If your wearable supports heart rate variability data collection, you will see HRV on your sleep graph too (read &lt;a href=&#34;https://sleep.urbandroid.org/hrv-tracking/&#34;&gt;more about heart rate variability here&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;See and example of a heart-rate enabled track in &lt;a href=&#34;#graph-hr&#34;&gt;graph-hr&lt;/a&gt; and heart rate variability graph in &lt;a href=&#34;#graph-hrv&#34;&gt;graph-hrv&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</title>
+      <link>//localhost:1313/devices/notify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/notify/</guid>
+      <description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.&#xA;But thanks to the Notify app, you can use some devices with Sleep app.&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.miband1&amp;amp;hl=en&#34;&gt;Notify for Mi Band&lt;/a&gt;, &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.xiaomi1&amp;amp;hl=en&#34;&gt;Notify for Xiaomi &amp;amp; Mi Fitness&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.amazfit1&amp;amp;hl=en&#34;&gt;Notify for Amazfit &amp;amp; Zepp&lt;/a&gt; are developed by &lt;a href=&#34;https://play.google.com/store/apps/developer?id=OneZeroBit&amp;amp;hl=en&#34;&gt;OneZerobit&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You can visit Notify app page for &lt;a href=&#34;http://forum.mibandnotify.com/discussion/20117/sleep-as-android-integration&#34;&gt;Sleep as Android integration here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;supported-mi-bands&#34;&gt;Supported Mi Bands &lt;a id=&#34;supported_wearables&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#supported-mi-bands&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;notify-for-mi-band&#34;&gt;Notify for Mi Band&lt;a class=&#34;anchor&#34; href=&#34;#notify-for-mi-band&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mi Band 1, 1S and 1A&lt;/li&gt;&#xA;&lt;li&gt;Mi Band HRX&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 2&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 3 and 3i&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 4&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 5&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 6&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 7&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;notify-for-xiaomi-and-mi-fitness&#34;&gt;Notify for Xiaomi and Mi Fitness&lt;a class=&#34;anchor&#34; href=&#34;#notify-for-xiaomi-and-mi-fitness&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mi Band 7 PRO&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 8&lt;/li&gt;&#xA;&lt;li&gt;Mi Band 8 PRO&lt;/li&gt;&#xA;&lt;li&gt;Xiaomi Watch S1&lt;/li&gt;&#xA;&lt;li&gt;Redmi Band 2&lt;/li&gt;&#xA;&lt;li&gt;Redmi Watch 2+3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;supported-amazfits&#34;&gt;Supported Amazfits &lt;a id=&#34;supported_wearables&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#supported-amazfits&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Amazfit T-Rex&lt;/li&gt;&#xA;&lt;li&gt;Amazfit GTS&lt;/li&gt;&#xA;&lt;li&gt;Amazfit GTR, GTR Lite (47mm &amp;amp; 42mm)&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Verge Lite&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Bip, Bip Lite, Bip S, Bip 3&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Mi Dong Cor&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Arc&lt;/li&gt;&#xA;&lt;li&gt;Amazfit Band 5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-to-set-up-integration-in-notify-app&#34;&gt;How to set up integration in Notify app&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up-integration-in-notify-app&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;[cols=&amp;quot;^,^&amp;quot;]&#xA;|===&#xA;a|.Switch to the graph tab and tap on the cog icon.&#xA;&lt;img src=&#34;//localhost:1313/assets/images/NF_vibr_1.png&#34; alt=&#34;&#34;  /&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>One UI Watch devices</title>
+      <link>//localhost:1313/devices/one_ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/one_ui/</guid>
+      <description>&lt;p&gt;Sleep tracking with Galaxy Watch model 4 and newer models (running the ONE UI Watch OS) requires a companion app installed from the Play Store on the watch.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Unfortunately due to limit put for non-Samsung apps, we cannot read SpO2 or HRV from those watches at the moment.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;h2 id=&#34;how-to-set-up&#34;&gt;How to set up&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;.On the watch&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Make sure the watch is connected to the phone.&lt;/li&gt;&#xA;&lt;li&gt;Go to app list on your watch, select Play Store.&lt;/li&gt;&#xA;&lt;li&gt;Find &lt;strong&gt;Sleep as Android&lt;/strong&gt; and select &lt;em&gt;Install&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;.On the phone&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pebble</title>
+      <link>//localhost:1313/devices/pebble/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/pebble/</guid>
+      <description>&lt;h2 id=&#34;how-to-set-up&#34;&gt;How to set up&lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Please side-load the PDB file:&#xA;&lt;a href=&#34;https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw&#34;&gt;https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw&lt;/a&gt; on your Pebble watch&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing connection with a wearable</title>
+      <link>//localhost:1313/devices/test_sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/test_sensor/</guid>
+      <description>&lt;h2 id=&#34;what-it-does&#34;&gt;What it does&lt;a class=&#34;anchor&#34; href=&#34;#what-it-does&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Testing sensor gives you confirmation the wearable is connected properly, and the companion app is sending data about your movement.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Testing sensor is not supported by Garmin wearables and FitBit.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to find it&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep tracking -&amp;gt; Wearables -&amp;gt; Test sensor&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;a class=&#34;anchor&#34; href=&#34;#how-it-works&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;During the Test sensor, the app connects to the selected wearable, confirms the proper connection and then shows you the detected movement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools &amp; Mi Band and Amazfit</title>
+      <link>//localhost:1313/devices/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/tools/</guid>
+      <description>&lt;p&gt;Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools &amp;amp; MiBand and Tools &amp;amp; Amazfit app, you can use some devices with Sleep app.&#xA;&lt;a href=&#34;https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools&#34;&gt;Tools &amp;amp; Mi Band&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools&#34;&gt;Tools &amp;amp; Amazfit&lt;/a&gt; are developed by &lt;a href=&#34;https://play.google.com/store/apps/developer?id=Tools&amp;#43;%26&amp;#43;Wearables&amp;#43;Ltd&#34;&gt;Tools &amp;amp; Wearables Ltd.&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You can check the Tools app &lt;a href=&#34;https://help.mibandtools.com/knowledge_base/categories/mi-band-tools-faq-frequently-asked-questions&#34;&gt;page with FAQs&lt;/a&gt;, page for &lt;a href=&#34;https://help.mibandtools.com/knowledge_base/topics/sleep-as-android&#34;&gt;Sleep as Android integration for Mi Bands&lt;/a&gt;, and page for &lt;a href=&#34;https://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit&#34;&gt;Sleep as Android integration for Amazfit&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wear OS devices</title>
+      <link>//localhost:1313/devices/wearos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devices/wearos/</guid>
+      <description>&lt;p&gt;Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.&lt;/p&gt;&#xA;&lt;p&gt;All Wear OS devices can monitor sleep tracking movement and collect HR.&lt;/p&gt;&#xA;&lt;p&gt;Some wearables can also collect SpO2 data - for more details, please see the chapter on &lt;a href=&#34;//localhost:1313/devices/oximeter&#34;&gt;oximeters and SpO data&lt;/a&gt;. Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.&#xA;If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

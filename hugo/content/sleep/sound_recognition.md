@@ -22,31 +22,31 @@ Using these sensitivity options, everyone can tune the classifier so that it fit
 ---
 
 
-## icon:tag_snore_new[] Snoring
+## ![tag_snore_new](/assets/icons/tag_snore_new.svg) Snoring
 
 
 Common snoring isn’t dangerous for your health, but may decrease the efficiency of your and your partner’s sleep. According to various sleep studies, 30% of the population are occasional snorers. But snoring may indicate more several respiratory issues such as the OSA – obstructive sleep apnea. Recent evidence show this dangerous disorder is greatly under-diagnosed and prevalence may reach up to 10% in population.
 
 
-## icon:ic_action_talk[] Talk
+## ![ic_action_talk](/assets/icons/ic_action_talk.svg) Talk
 
 
 When you talk from your sleep, we tag the recording with #talk, and you can listen to the wisdom of your dreams in the morning.
 
 
-## icon:ic_action_sick[] Sickness
+## ![ic_action_sick](/assets/icons/ic_action_sick.svg) Sickness
 
 
 We detect coughing, sneezing and the like, and mark them as #sick. This may give you an early alert of an incoming sickness.
 
 
-## icon:ic_action_baby[] Baby crying
+## ![ic_action_baby](/assets/icons/ic_action_baby.svg) Baby crying
 
 
 See how much was your sleep disturbed by your crying #baby.
 
 
-## icon:ic_action_laugh[] Laughter
+## ![ic_action_laugh](/assets/icons/ic_action_laugh.svg) Laughter
 
 
 A funny bonus feature. Indeed some people #laugh heavily from their sleep.

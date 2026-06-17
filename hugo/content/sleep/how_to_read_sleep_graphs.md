@@ -142,23 +142,23 @@ Besides deep sleep, REM phase and light sleep, there are several other events de
 [cols="1,2"]
 |===
 a|Icons on Actigraph
-a|icon:ic_action_pause[] Tracking paused
-icon:ic_action_time[] Alarm / snoozed alarm
-icon:ic_action_sunrise[] Sunrise / sunset
-icon:ic_action_noise[] Snoring event
-icon:ic_action_cpap[] Low breath rate detected (Apnea event)
-icon:ic_battery_60[] Low battery (switching to stand-by mode)
+a|![ic_action_pause](/assets/icons/ic_action_pause.svg) Tracking paused
+![ic_action_time](/assets/icons/ic_action_time.svg) Alarm / snoozed alarm
+![ic_action_sunrise](/assets/icons/ic_action_sunrise.svg) Sunrise / sunset
+![ic_action_noise](/assets/icons/ic_action_noise.svg) Snoring event
+![ic_action_cpap](/assets/icons/ic_action_cpap.svg) Low breath rate detected (Apnea event)
+![ic_battery_60](/assets/icons/ic_battery_60.svg) Low battery (switching to stand-by mode)
 |===
 
 [cols="1,2"]
 |===
 a|Icons on Noise graph
-a|icon:ic_action_talk[] Sleep talking
-icon:ic_action_sick[] Cough and sneeze
-icon:ic_action_baby[] Baby cry
-icon:ic_action_laugh[]Laugh
-icon:ic_action_mic[] Sleep noise recorded
-icon:ic_action_dream[] Lucid dreaming
+a|![ic_action_talk](/assets/icons/ic_action_talk.svg) Sleep talking
+![ic_action_sick](/assets/icons/ic_action_sick.svg) Cough and sneeze
+![ic_action_baby](/assets/icons/ic_action_baby.svg) Baby cry
+![ic_action_laugh](/assets/icons/ic_action_laugh.svg)Laugh
+![ic_action_mic](/assets/icons/ic_action_mic.svg) Sleep noise recorded
+![ic_action_dream](/assets/icons/ic_action_dream.svg) Lucid dreaming
 
 |===
 

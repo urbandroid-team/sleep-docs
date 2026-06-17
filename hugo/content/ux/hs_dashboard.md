@@ -36,7 +36,7 @@ Shows you the first next active alarm.
 - You can see the alarm time and day of the week, when the very next alarm is scheduled at first glance:
 ![](alarm_card_next_new.png)
 - Simple tapping on alarm time opens dialogue for changing the alarm time.
-- Tapping on icon:ic_alarm_plus[] opens the dialogue for creating a new alarm.
+- Tapping on ![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) opens the dialogue for creating a new alarm.
 - Tapping on any other place of the card opens [list of all alarms](#alarm_list)
 - Alarm card has also a special function - you can skip next alarm (or cancel skipping the alarm), edit alarm or delete alarm directly from this card by long pressing on it.
 
@@ -112,11 +112,11 @@ Shows your active [Goal](/sleep/goals) progress. There are two progress bars one
 ## Shortcuts card <a id="shortcut"></a>
 
 A mini-board with shortcuts.
-- **icon:ic_action_bedtime[] Sleep X hour**: Starts sleep tracking with and alarm based on your [Daily sleep duration goal](/sleep/ideal_daily_sleep) (+ smart period and tracking start delay).
-- **icon:ic_action_snooze[] Nap**: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
-- **icon:plus[] Add sleep**: For adding a period of sleep manually, when you forgot tracking.
-icon:plus[] Add goal:_: for adding a new goal ([read more about Goals](/sleep/goals)).
-* icon:ic_action_lullaby[] Lullabies: A quick access to the lullabies.
+- **![ic_action_bedtime](/assets/icons/ic_action_bedtime.svg) Sleep X hour**: Starts sleep tracking with and alarm based on your [Daily sleep duration goal](/sleep/ideal_daily_sleep) (+ smart period and tracking start delay).
+- **![ic_action_snooze](/assets/icons/ic_action_snooze.svg) Nap**: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
+- **![plus](/assets/icons/plus.svg) Add sleep**: For adding a period of sleep manually, when you forgot tracking.
+![plus](/assets/icons/plus.svg) Add goal:_: for adding a new goal ([read more about Goals](/sleep/goals)).
+* ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) Lullabies: A quick access to the lullabies.
 
 > **Note:** You can create a shortcut (Add alarm, Nap, Sleep X hours and Sleep tracking) widget for your main screen ([see here for details](/ux/widgets)).
 

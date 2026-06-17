@@ -16,7 +16,7 @@ You can listen to your favourite music the whole night, or let the app control t
 
 _Settings -> Lullaby_
 _Left_ ≡ _menu -> Lullaby_
-icon:ic_action_lullaby[] _icon on the tracking screen_
+![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) _icon on the tracking screen_
 
 ---
 
@@ -112,7 +112,7 @@ Meditation lullabies requires a [free add-on Lis10 from Play Store](https://play
 The addon is a text-to-speech editor, that gives you a full freedom of the content. You can adjust the meditation to fit your needs.
 The addon provides a few samples, but you are free to edit them or create your own meditations.
 - **Meditation**: When enabled, the mediation will start automatically if the lullaby starts.
-> **Note:** You need to have the lullaby automatic start enabled, or start the lullaby manually from the tracking screen with the icon:ic_action_lullaby[xs] icon in the top right corner.
+> **Note:** You need to have the lullaby automatic start enabled, or start the lullaby manually from the tracking screen with the ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) icon in the top right corner.
 - **Session**: * Meditation Daytime
  * Meditation Fall Asleep
  * Wim Hof Inspired Breathing Exercise

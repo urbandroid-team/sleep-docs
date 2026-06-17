@@ -74,7 +74,7 @@ Sleep as Android supports link:[StressLocator pulse oximeters](https://happyelec
 
 In the morning Sleep as Android determines your RDI with the related severity scoring. Score over RDI >15 per hour is considered as a significant warning sign and visiting a sleep lab is highly recommended.
 
-The blue line shown in graph is SpO2 curve. Every significant dip in SpO2 is marked by a O2 icon:ic_action_cpap[] symbol. This indicates 1 breathing disturbance episode. Every such sign contributes 1/(sleep length hours) to the RDI.
+The blue line shown in graph is SpO2 curve. Every significant dip in SpO2 is marked by a O2 ![ic_action_cpap](/assets/icons/ic_action_cpap.svg) symbol. This indicates 1 breathing disturbance episode. Every such sign contributes 1/(sleep length hours) to the RDI.
 > **Warning:** The use of Sleep as Android does not contain or constitute, and should not be interpreted as, medical advice or opinion. We are not licensed medical professionals, and we are not in the business of providing medical advice. You should always consult a qualified and licensed medical professional prior to beginning or modifying your sleep or lifestyle habits. Your use of this App does not create a doctor-patient relationship between you and the provider.
 
 For details please refer to [Oximeter](/devices/oximeter) and [SPO2 and breath rates](/sleep/breath_rate)

@@ -11,7 +11,7 @@ parent: /alarms/0parent.html
 [EXAMPLE]
 Instead of setting the alarm to go off at 7 a.m., you can set it to go off in 15 minutes.
 
-Add a new alarm with icon:ic_alarm_plus[] -> NAP button. You can choose naps from 1 minute to 10 hours.
+Add a new alarm with ![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) -> NAP button. You can choose naps from 1 minute to 10 hours.
 
 
 

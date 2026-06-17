@@ -84,7 +84,7 @@ a|.Enable Sleep as Android integration.
 
 
 ## HR monitoring
-1. Enable collecting HR data by the Sleep app in N&F icon:ic_action_graph[] -> _Sleep_ section icon:ic_cog[] -> _Sleep as Android -> Settings -> Heart monitor_
+1. Enable collecting HR data by the Sleep app in N&F ![ic_action_graph](/assets/icons/ic_action_graph.svg) -> _Sleep_ section ![ic_cog](/assets/icons/ic_cog.svg) -> _Sleep as Android -> Settings -> Heart monitor_
 1. Enable collecting dat in Sleep app in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
 
 [cols="^,^"]

@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recording on Sleep as Android Docs</title><link>/tags/recording/</link><description>Recent content in Recording on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/recording/index.xml" rel="self" type="application/rss+xml"/><item><title>Sleep noise analysis</title><link>/sleep/sleep_noise_recording/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/sleep/sleep_noise_recording/</guid><description>&lt;p&gt;Records significant sounds while you sleep and builds a ambient noise-level graph for the night. It also &lt;a href="../../sleep/sound_recognition"&gt;classifies the sounds&lt;/a&gt; into categories including snoring, talk, coughing, laughter, baby cry.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;You can check whether the phone is recording on the sleep tracking screen - [color-red]#red ⬤# indicates that the phone is currently recording.&lt;/p&gt;
-&lt;p&gt;On the seek bar to the right you can see current volume level and your &lt;em&gt;Recording volume threshold&lt;/em&gt; which indicates volume to start recording.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recording on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/recording/</link>
+    <description>Recent content in Recording on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/recording/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sleep noise analysis</title>
+      <link>//localhost:1313/sleep/sleep_noise_recording/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sleep/sleep_noise_recording/</guid>
+      <description>&lt;p&gt;Records significant sounds while you sleep and builds a ambient noise-level graph for the night. It also &lt;a href=&#34;//localhost:1313/sleep/sound_recognition&#34;&gt;classifies the sounds&lt;/a&gt; into categories including snoring, talk, coughing, laughter, baby cry.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Settings -&amp;gt; Sleep noise analysis&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;You can check whether the phone is recording on the sleep tracking screen - [color-red]#red ⬤# indicates that the phone is currently recording.&lt;/p&gt;&#xA;&lt;p&gt;On the seek bar to the right you can see current volume level and your &lt;em&gt;Recording volume threshold&lt;/em&gt; which indicates volume to start recording.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

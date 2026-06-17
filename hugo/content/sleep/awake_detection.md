@@ -61,8 +61,8 @@ When using a heart rate sensor, you give Sleep very precise information about yo
 - **Low sensitivity**: light over 90 lux
 - **Medium sensitivity**: light over 60 lux
 - **High sensitivity**: light over 30 lux
-> **Note:** The #dark icon:ic_lightbulb_off[] tag is added to graph when you have less than 30 lux for at least 90% of the night.
-The #light icon:ic_lightbulb[] tag is added to graph when you have more than 60 lux for at least 33% of the night.
+> **Note:** The #dark ![ic_lightbulb_off](/assets/icons/ic_lightbulb_off.svg) tag is added to graph when you have less than 30 lux for at least 90% of the night.
+The #light ![ic_lightbulb](/assets/icons/ic_lightbulb.svg) tag is added to graph when you have more than 60 lux for at least 33% of the night.
 
 
 ## Talk

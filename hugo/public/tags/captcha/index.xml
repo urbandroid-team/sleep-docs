@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Captcha on Sleep as Android Docs</title><link>/tags/captcha/</link><description>Recent content in Captcha on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/tags/captcha/index.xml" rel="self" type="application/rss+xml"/><item><title>CAPTCHA</title><link>/alarms/captcha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/alarms/captcha/</guid><description>&lt;p&gt;&lt;strong&gt;Gives you a task to solve in order to turn off the alarm.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;CAPTCHAs make sure you wake up on time and don&amp;rsquo;t be late for your daily duties. CAPTCHAs prevent any unintentional alarm dismiss.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href="../../alarms/alarm_settings#per-alarm"&gt;Alarm-specific settings&lt;/a&gt; -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="default-captcha"&gt;Default CAPTCHA&lt;a class="anchor" href="#default-captcha"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;CAPTCHA for all alarms.&lt;/p&gt;
-&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Captcha on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/captcha/</link>
+    <description>Recent content in Captcha on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/captcha/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAPTCHA</title>
+      <link>//localhost:1313/alarms/captcha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/alarms/captcha/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Gives you a task to solve in order to turn off the alarm.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;CAPTCHAs make sure you wake up on time and don&amp;rsquo;t be late for your daily duties. CAPTCHAs prevent any unintentional alarm dismiss.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Settings -&amp;gt; Alarms -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;a href=&#34;//localhost:1313/alarms/alarm_settings#per-alarm&#34;&gt;Alarm-specific settings&lt;/a&gt; -&amp;gt; CAPTCHA&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;default-captcha&#34;&gt;Default CAPTCHA&lt;a class=&#34;anchor&#34; href=&#34;#default-captcha&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;CAPTCHA for all alarms.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can override your default CAPTCHA settings on each alarm and use a more difficult CAPTCHA on special occasions (e.g. exams) or an easier CAPTCHA on the weekends.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

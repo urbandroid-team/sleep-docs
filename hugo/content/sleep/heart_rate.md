@@ -74,7 +74,7 @@ If you are not sure, if the HR monitoring is possible with your wearable, you ca
 1. Make sure no other app is using your device while sleep tracking.
 1. Go to _Settings -> Sleep tracking -> Wearables -> Bluetooth Smart_ and tick this option.
 1. The app will start a Bluetooth scanning and lists all nearby devices.
-1. If your wearable is listed in BT scanning with a icon:tag_love[] icon, it uses the requi red HR profile
+1. If your wearable is listed in BT scanning with a ![tag_love](/assets/icons/tag_love.svg) icon, it uses the requi red HR profile
 
 
 [cols="^"]
@@ -84,4 +84,4 @@ a|<a id="br_scan"></a>
 ![](bt_scan.png)
 
 |===
-> **Note:** If your wearable is not listed with a heart icon:tag_love[] icon, you need to go around – save HR to Health Connect, S Health, or Google Fit, from where Sleep as Android can download it.
+> **Note:** If your wearable is not listed with a heart ![tag_love](/assets/icons/tag_love.svg) icon, you need to go around – save HR to Health Connect, S Health, or Google Fit, from where Sleep as Android can download it.
