@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2995"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="tag_sport_new.svg"
+   inkscape:export-filename="/home/petr/project/android-git/Sleep-actionbar2/res/drawable-xxhdpi/tag_sport.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs2997">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3157"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="23.003359"
+     inkscape:cy="27.832857"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1307"
+     inkscape:window-height="744"
+     inkscape:window-x="59"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3000">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1020.3622)">
+    <path
+       style="fill:#ffffff"
+       d="m 4.5481354,1044.7994 c -0.7103634,-0.9452 -1.4754171,-2.7558 -1.7001259,-4.0237 -0.2247087,-1.2678 -0.7923565,-2.3052 -1.2614477,-2.3052 -0.4690846,0 -1.021065,-0.5433 -1.22662586,-1.2072 -0.50260118,-1.6233 0.17416744,-3.6211 1.22662586,-3.6211 0.4690912,0 1.036739,-1.0375 1.2614477,-2.3055 0.6815413,-3.8457 2.6102978,-5.7415 5.8411092,-5.7415 2.3049153,0 3.1065833,0.405 4.1951423,2.1201 0.740146,1.1662 1.345719,2.6147 1.345719,3.2189 0,1.8223 -1.113097,0.5459 -2.040942,-1.6026 -1.084424,-2.5112 -2.202883,-1.8356 -3.4998477,0.6171 -1.4114747,2.6699 -1.3812761,9.6014 0.053629,12.3156 1.0316633,1.3579 1.5765577,1.922 2.7998457,0.8386 1.733947,-2.6951 2.946649,-3.7561 2.349972,-1.2131 -1.074796,4.5806 -6.0625855,5.6606 -9.3445297,2.909 z m 14.9092396,-0.4245 c -0.747907,-1.1783 -1.531245,-2.9889 -1.74076,-4.0236 -0.339594,-1.6766 -0.756047,-1.8808 -3.837917,-1.8808 -2.881561,0 -3.525286,-0.2668 -3.867304,-1.6023 -0.6528176,-2.5491 0.161428,-3.226 3.880667,-3.226 3.303597,0 3.502075,-0.1178 3.889784,-2.3055 0.68154,-3.8457 2.610297,-5.7415 5.841109,-5.7415 2.304913,0 3.10658,0.405 4.19514,2.1201 0.740147,1.1662 1.345721,2.6147 1.345721,3.2189 0,1.8462 -1.276801,0.7053 -2.061865,-1.4302 -0.912593,-2.4823 -2.11081,-2.0234 -3.420346,0.2937 -2.037838,3.6059 -0.813328,14.3057 1.637164,14.3057 0.344523,0 1.515465,-1.0776 1.922243,-2.1842 0.785065,-2.1354 1.922804,-2.5873 1.922804,-0.7409 0,0.6042 -0.605574,2.0527 -1.345721,3.2188 -1.085742,1.7108 -1.89198,2.1203 -4.173305,2.1203 -2.288753,0 -3.086719,-0.4081 -4.187414,-2.1425 z m 5.810656,-8.3187 c 0,-2.3605 0.07215,-2.414 3.246486,-2.414 3.174342,0 3.246484,0.053 3.246484,2.414 0,2.3604 -0.07215,2.4143 -3.246484,2.4143 -3.174341,0 -3.246486,-0.053 -3.246486,-2.4143 z"
+       id="path11436"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscsssssssccscccssssssssssssssscsssss" />
+  </g>
+</svg>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sleep as Android Docs</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Sleep as Android Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alarm</title>
+      <link>//localhost:1313/tags/alarm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/alarm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazfit</title>
+      <link>//localhost:1313/tags/amazfit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/amazfit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automagic</title>
+      <link>//localhost:1313/tags/automagic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/automagic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backup</title>
+      <link>//localhost:1313/tags/backup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/backup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Captcha</title>
+      <link>//localhost:1313/tags/captcha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/captcha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fitbit</title>
+      <link>//localhost:1313/tags/fitbit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/fitbit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Garmin</title>
+      <link>//localhost:1313/tags/garmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/garmin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gear</title>
+      <link>//localhost:1313/tags/gear/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/gear/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph</title>
+      <link>//localhost:1313/tags/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/graph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hr</title>
+      <link>//localhost:1313/tags/hr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/hr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Language</title>
+      <link>//localhost:1313/tags/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lullaby</title>
+      <link>//localhost:1313/tags/lullaby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/lullaby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mi Band</title>
+      <link>//localhost:1313/tags/mi-band/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/mi-band/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Miband</title>
+      <link>//localhost:1313/tags/miband/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/miband/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noise</title>
+      <link>//localhost:1313/tags/noise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/noise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notify</title>
+      <link>//localhost:1313/tags/notify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/notify/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oximeter</title>
+      <link>//localhost:1313/tags/oximeter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/oximeter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pair</title>
+      <link>//localhost:1313/tags/pair/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/pair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pebble</title>
+      <link>//localhost:1313/tags/pebble/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/pebble/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phaser_v1</title>
+      <link>//localhost:1313/tags/phaser_v1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/phaser_v1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phaser_v2</title>
+      <link>//localhost:1313/tags/phaser_v2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/phaser_v2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pinetime</title>
+      <link>//localhost:1313/tags/pinetime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/pinetime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polar</title>
+      <link>//localhost:1313/tags/polar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/polar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powernap</title>
+      <link>//localhost:1313/tags/powernap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/powernap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Purchase</title>
+      <link>//localhost:1313/tags/purchase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/purchase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recording</title>
+      <link>//localhost:1313/tags/recording/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/recording/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rem</title>
+      <link>//localhost:1313/tags/rem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/rem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ringtone</title>
+      <link>//localhost:1313/tags/ringtone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/ringtone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Samsung</title>
+      <link>//localhost:1313/tags/samsung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/samsung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sleep Mask</title>
+      <link>//localhost:1313/tags/sleep-mask/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/sleep-mask/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sleep_noise_recording</title>
+      <link>//localhost:1313/tags/sleep_noise_recording/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/sleep_noise_recording/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sleep_phases</title>
+      <link>//localhost:1313/tags/sleep_phases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/sleep_phases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sonar</title>
+      <link>//localhost:1313/tags/sonar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/sonar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sound_recognition</title>
+      <link>//localhost:1313/tags/sound_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/sound_recognition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spotify</title>
+      <link>//localhost:1313/tags/spotify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/spotify/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag</title>
+      <link>//localhost:1313/tags/tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/tag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theory</title>
+      <link>//localhost:1313/tags/theory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>//localhost:1313/tags/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tracking</title>
+      <link>//localhost:1313/tags/tracking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/tracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wearable</title>
+      <link>//localhost:1313/tags/wearable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/wearable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wearables</title>
+      <link>//localhost:1313/tags/wearables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/wearables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wearos</title>
+      <link>//localhost:1313/tags/wearos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/wearos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xiaomi</title>
+      <link>//localhost:1313/tags/xiaomi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/xiaomi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
