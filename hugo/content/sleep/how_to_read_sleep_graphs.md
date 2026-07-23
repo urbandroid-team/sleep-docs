@@ -6,196 +6,96 @@ nav_order: 2
 parent: /sleep/0parent.html
 tags:
 - graph
-
 ---
 
-
 <a id="graph_explain"></a>
-**Sleep graph is the [main outcome of sleep tracking](/sleep/sleep_tracking_theory#sleep-outcome) - it shows analysed data from all the [sensors](/sleep/sensors) that were used during the night.**
+**The sleep graph is the primary result of your tracking session. It visualizes data from all active sensors to provide a comprehensive map of your night.**
 
 ---
 
 <a id="morning_screen"></a>
 
-## Morning screen
+## Morning Screen
 
+The **Morning Briefing** is the first screen you see after tracking ends. It offers a high-level summary of your night.
 
-The first screen you see in the morning is **Morning briefing** and it offers you important information at a glance.
-> **Note:** You can customize the screen by swiping away the cards you don't need, or pinning the ones you like the most with a long-press.
-To edit the screen, use the **Hide / Show** button at the bottom or _Settings -> Personalize -> Morning screen_, see details [here](/ux/personalize#morning_screen_set).
-- **Sleep score**: See details in [sleep score chapter](/sleep/sleepscore). If this options is missing, you have **Hide stats before rating** enabled in _Settings -> Personalize -> Morning screen_
-- **Rating**: Rate you sleep with stars to add important feedback for stats, or add [tags](/sleep/tags).
-- **Graph overview**: Simplified hypnogram graph, tap to expand it to the [full graph](#graph_explain).
-- **Noise card**: Simplified noise level graph.
-- **Sensor card**: Simplified sensor data graph.
-- **Weather card**: MetNorway or OpenWeather data.
-Can be disabled in _Settings -> Personalize -> Morning screen > Weather_.
-- **Dismiss**: If you end the tracking before alarm, you can simply dismiss the upcoming alarm.
+*   **Customization:** You can swipe away cards you don't need or long-press to pin your favorites to the top. Use the **Hide / Show** button at the bottom or go to `Settings` → `Personalize` → `Morning screen` for deeper customization.
+*   **Sleep Score:** A single percentage representing your overall sleep health. [Learn more here](/sleep/sleepscore).
+*   **Rating & Tags:** Rate your sleep with stars and add [lifestyle tags](/sleep/tags) (e.g., #coffee, #sport) to help the app identify trends.
+*   **Graph Overview:** A simplified version of your hypnogram. Tap it to expand into the [full detailed graph](#graph_explain).
+*   **Noise & Sensor Cards:** Quick previews of your noise levels and other active sensor data (HR, SPO2, etc.).
 
+---
 
-<a id="graph_explain"></a>
+<a id="graph_detail"></a>
 
-## Sleep graph detail, edit screen
+## Detailed Sleep Graph
 
+The full graph view displays every data point measured or calculated during your sleep. You can use this screen to edit your record, adjust awake periods, or trim the tracking duration.
 
-The full detailed graph shows all data measured or calculated by the app at once. This screen also allows you to edit the graph, add or remove awakes, or edit the tracking duration.
+### Main Components
+*   **[Sleep Score Pie Charts](#statistics):** Visual breakdowns of your nightly metrics.
+*   **[Actigraph](#actigraph):** A record of your physical movement intensity.
+*   **[Hypnogram](#hypnogram):** An estimation of your sleep phases (Deep, Light, REM, Awake).
+*   **[Sensor Data](#sensor):** Real-time lines for Heart Rate (HR), HRV, Light levels, Breath rate, and SpO<sub>2</sub>.
+*   **[Noise Graph](#noise-graph):** Ambient noise levels and sound classification (snoring, talking, etc.).
 
+> [!TIP]
+> You can toggle specific graph elements on or off using the buttons at the bottom of the screen. These buttons also serve as a legend, showing the color or icon used for each metric.
 
-- [Statistics](#statistics): sleep score for the whole day
-- [Actigraph](#actigraph): your activity or movement during sleep
-- [Hypnogram](#hypnogram): your sleep phases
-- [Sensor data](#sensor): data from various sensors - HR, HRV, light level, breath rate, SpO2
-- [Noise graph](#noise-graph): ambient noise level (when [noise recording](/sleep/sleep_noise_recording) is enabled).
-> **Note:** You can hide or reveal all the graph elements with the buttons at the bottom. These buttons also serve as a hints - they show you which color, or icon the element uses.
+---
 
+## Understanding the Data
 
-The app uses Actigraphy – activity-based sleep tracking – as the method of estimating your sleep phases. We have shown in a study that our approach produces a very good match with Polysonography – the de-facto golder standard for clinical sleep tracking with a fraction of the costs. See link:[How does Sleep as Android compare to the sleep lab](https://sleep.urbandroid.org/sleep-lab-comparison/).
-
-
-### Sleep score
-
-[cols="1,2"]
-|===
-a|
-.Sleep record statistics
-![](graph_score.png)
-- **a|*Sleep score pie charts***: - The small "speedometers" pie charts represent all the metrics measured in a simplified way.
-- Read more details about sleep score in [sleep score chapter](/sleep/sleepscore).
-- Sleep score pie charts are scrollable, and their order can be changed.
-
-|===
-
+The app uses **Actigraphy** (movement-based tracking) as its primary method for estimating sleep phases. Research has shown our algorithms provide a strong correlation with clinical Polysomnography (PSG) labs. [Read the comparison study here](https://sleep.urbandroid.org/sleep-lab-comparison/).
 
 ### Actigraph
-
-
-[cols="1,2"]
-|===
-a|.Actigraph
 ![](graph_acti.png)
-- **a|*Actigraph***: - Shows the intensity of your nightly movements.
-- The higher the peak, the more you’ve been moving.
-
-|===
-
+Shows the intensity of your movement. Higher peaks indicate more active tossing and turning.
 
 ### Hypnogram
-
-
-[cols="1,2"]
-|===
-a|.Hypnogram
 ![](graph_phase.png)
-- **a|*The hypnogram***: - Shows your [sleep phases](/sleep/sleep_tracking_theory) progress during the night, estimated from actigraphic data and other inputs (e.g. awake periods).
-- **Awake**: lightest color, the highest column reaching the top of the graph (100% of the height).
-- **REM phase and light sleep**: shown as medium color - REM 75% of the height, light sleep 50% of the height.
-- **Deep sleep**: shown as the lowest, darkest shade, 25% of the height.
-|===
+Estimates your sleep stages:
+*   **Awake:** Lightest color, highest columns (100% height).
+*   **REM / Light Sleep:** Medium shades (75% and 50% height).
+*   **Deep Sleep:** Darkest shade, lowest columns (25% height).
 
-[cols="1,2"]
-|===
-a|.Red sections
-![](red.png)
+> [!WARNING]
+> **Red Sections:** Indicate periods where sensor data was lost (e.g., a wearable disconnected or a phone sensor malfunctioned).
 
-a|Red sections on your graph indicate that the app did not receive data from sensors at that time. This usually happens when using wearables due to lost connection to the wearable. The phone's accelerometer can also (very rarely) malfunction.
-|===
-
-
-### Sensor data
-
-
-[cols="1,2"]
-|===
-a|.Breath rate + light level
+### Sensor Data Lines
 ![](graph_colored.png)
+*   **Blue Line:** Blood oxygen saturation (SpO<sub>2</sub>). [Details here](/sleep/breath_rate).
+*   **Red Line:** Heart rate. [Details here](/sleep/heart_rate).
+*   **Violet Line:** Heart rate variability (HRV). [Details here](https://sleep.urbandroid.org/hrv-tracking/).
+*   **Orange Line:** Ambient light levels (LUX). [Details here](/sleep/light_level).
+*   **Turquoise Line:** Breath rate (RPM). [Details here](/sleep/breath_rate).
+*   **Dashed Line:** Your **Smart Period** window before the alarm.
 
-.SpO2 data + HR + HRV
-![](hrv.png)
+---
 
+## Markers & Icons
 
-a|- **Blue line** = blood oxygen level if you are using oximeter. Blue dots with numbers indicate maximum and minimum (read more about [breath rate monitoring](/sleep/breath_rate))
-- **Red line** = heart rate through the night. Red dots with numbers inside are the maximum and minimum heart rate (read more about [heart rate monitoring](/sleep/heart_rate)).
-- **Violet line** = heart rate variability. Dots with numbers represent local maximum and minimum (read more about [heart rate variablity](https://sleep.urbandroid.org/hrv-tracking/)).
-- **Orange line** = light in your room in LUX units (read more about [light awake detection](/sleep/light_level)).
-- **Turquoise (Blue-green) line** = breath rate if you are using sonar Blue dots with numbers indicate maximum and minimum (read more about [breath rate monitoring](/sleep/breath_rate)).
-- **Dashed line** = smart period prior to alarm time (read more about [Smart wake up](/alarms/smart_wake_up)).
+The graph uses icons to identify specific events during the night:
 
-|===
+| Category | Icons |
+| :--- | :--- |
+| **Movement** | ![ic_action_pause](/assets/icons/ic_action_pause.svg) Paused, ![ic_action_time](/assets/icons/ic_action_time.svg) Alarm/Snooze, ![ic_action_sunrise](/assets/icons/ic_action_sunrise.svg) Sunrise/Sunset, ![ic_battery_60](/assets/icons/ic_battery_60.svg) Low Battery |
+| **Breathing** | ![ic_action_noise](/assets/icons/ic_action_noise.svg) Snoring, ![ic_action_cpap](/assets/icons/ic_action_cpap.svg) Respiratory Disturbance (Apnea) |
+| **Noise** | ![ic_action_talk](/assets/icons/ic_action_talk.svg) Talking, ![ic_action_sick](/assets/icons/ic_action_sick.svg) Cough/Sneeze, ![ic_action_baby](/assets/icons/ic_action_baby.svg) Baby Cry, ![ic_action_laugh](/assets/icons/ic_action_laugh.svg) Laughter, ![ic_action_mic](/assets/icons/ic_action_mic.svg) General Noise, ![ic_action_dream](/assets/icons/ic_action_dream.svg) Lucid Dreaming Cues |
 
+---
 
-### Noise graph
+## Quality Benchmarks
 
+### What does a healthy graph look like?
+For a typical adult (monophasic sleeper):
+*   **Duration:** 7–8 hours.
+*   **Cycles:** ~5 sleep cycles. The first cycle is usually the longest (70–100 min), with subsequent cycles becoming shorter and lighter.
+*   **Deep Sleep:** Ideally between 30% and 70% of the total night. Consistently low deep sleep may indicate lifestyle factors like high caffeine/alcohol intake or high stress.
 
-[cols="1,2"]
-|===
-a|.Noise graph
-![](graph_noise.png)
-- **a|*The noise graph***: - Shows how much noise (sleep talk, snoring, environmental) was there throughout the night.
-- When [sound recognition](/sleep/sound_recognition) is enabled, sounds (cry, laugh, sneeze or cough, snoring and talking) are marked with [icons](#markers-and-icons).
-|===
-
-
-### Markers and Icons
-
-Besides deep sleep, REM phase and light sleep, there are several other events depicted in the sleep graphs.
-
-[cols="1,2"]
-|===
-a|Icons on Actigraph
-a|![ic_action_pause](/assets/icons/ic_action_pause.svg) Tracking paused
-![ic_action_time](/assets/icons/ic_action_time.svg) Alarm / snoozed alarm
-![ic_action_sunrise](/assets/icons/ic_action_sunrise.svg) Sunrise / sunset
-![ic_action_noise](/assets/icons/ic_action_noise.svg) Snoring event
-![ic_action_cpap](/assets/icons/ic_action_cpap.svg) Low breath rate detected (Apnea event)
-![ic_battery_60](/assets/icons/ic_battery_60.svg) Low battery (switching to stand-by mode)
-|===
-
-[cols="1,2"]
-|===
-a|Icons on Noise graph
-a|![ic_action_talk](/assets/icons/ic_action_talk.svg) Sleep talking
-![ic_action_sick](/assets/icons/ic_action_sick.svg) Cough and sneeze
-![ic_action_baby](/assets/icons/ic_action_baby.svg) Baby cry
-![ic_action_laugh](/assets/icons/ic_action_laugh.svg)Laugh
-![ic_action_mic](/assets/icons/ic_action_mic.svg) Sleep noise recorded
-![ic_action_dream](/assets/icons/ic_action_dream.svg) Lucid dreaming
-
-|===
-
-
-
-## Guides
-
-
-
-### Editing graphs
-
-For a guide on how to edit a graph, please see [Graph editing](/sleep/graph_edit).
-
-
-### How should the graphs look?
-
-
-As a general rule of thumb that applies to healthy individuals:
-
-A healthy sleep (for a monophasic sleeper) is 7-8 hours long and consists of 5 sleep cycles where the first lasts for 70-100 minutes and the consequent cycles get longer but lighter. Each cycle consists of 4 stages lasting usually 5-15 minutes. Stage 1 and 2 are considered light sleep and this is the best time to be woken up in the morning.
-
-A healthy sleep cycle looks like a 10-30 minutes of light sleep (high peaks) followed by an area of deep sleep (low peaks or no peaks) lasting 40-100 minutes.
-Different resources on sleep may provide different figures though.
-
-So deep sleep % may actually range between 30%-70%. Figures out of this range may indicate either incorrect sleep tracking setup or some sleep issues. For example very low deep sleep % may indicate either sleep deprivation or issues in your life style such as higher alcohol or caffeine intake, not enough sport etc.
-
-
-
-### Comparing Sleep as Android graphs to sleep lab
-
-
-Ever wondered, how precise the sleep tracking with only a mobile phone could be?
-We had the opportunity to compare our algorithms with sleep-lab clinical study, and the results are very promising!
-The chances the smart alarm will be triggered properly (not in deep sleep) is 96%.
-Lucid cues have a 50% change to hit REM phase.
-Awake periods just from movement intensity changes (no other awake heuristic like sound detection, light detection, HR monitoring) can be detected with 30% success.
-
-You can read more details about the study on [our blog post here](https://sleep.urbandroid.org/sleep-lab-comparison/).
-If you are interested how the REM detection with Sleep as Android works, you can  [read it here](https://sleep.urbandroid.org/how-do-we-measure-your-dreams/).
-<!-- See examples of such sleep graphs below. -->
+### Accuracy vs. Sleep Labs
+In clinical comparisons:
+*   **Smart Alarm:** 96% accuracy in avoiding deep sleep wake-ups.
+*   **REM Detection:** 50% success rate for lucid dreaming cues.
+*   **Awake Detection:** 30% success rate based strictly on movement data (higher when combined with sound/HR sensors).

@@ -6,82 +6,50 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+**Control Sleep as Android using only your voice with Google Assistant integration.**
 
+By using App Actions, you can start tracking, manage alarms, and review your sleep history without ever touching your phone.
 
+---
 
-## What it does
+## Supported Voice Commands
 
-Control Sleep as Android with voice using Google Assistant.
+The following phrases are guaranteed to work. You can use either **"open"** or **"show"** with any of the commands below.
 
+### Start Sleep Tracking
+*   *"Hey Google, open Sleep start tracking."*
+*   *"Hey Google, start tracking in Sleep."*
+*   *"Hey Google, show sleep tracking in Sleep."*
 
-## Guide
+### Stop Sleep Tracking
+*   *"Hey Google, stop tracking in Sleep."*
+*   *"Hey Google, end sleep tracking in Sleep."*
+*   *"Hey Google, finish tracking in Sleep."*
 
+### Manage Alarms
+*   *"Hey Google, show my alarms in Sleep."*
+*   *"Hey Google, open alarms list in Sleep."*
+*   *"Hey Google, show alarms in Sleep."*
 
+### View Sleep History
+*   *"Hey Google, show my last sleep in Sleep."*
+*   *"Hey Google, open last sleep in Sleep."*
 
-### Supported voice actions
+---
 
+## Troubleshooting: Google Assistant on Android 15
 
-The list for each voice action is not exhaustive, but the listed phrases are guaranteed to work.
+On devices running Android 15, you must manually enable Sleep as Android within the Google Assistant shortcut settings:
 
+1.  Open the **Google app**.
+2.  Tap your **Profile icon** ➔ `Settings`.
+3.  Navigate to `Google Assistant` ➔ `Assistant settings`.
+4.  Open the **Shortcuts** tab.
+5.  Locate **Sleep as Android** in the list and tap **Add** for all recommended options.
 
-#### Start sleep tracking
-
-
-- "Hey Google, open Sleep start tracking."
-- "Hey Google, open start tracking in Sleep."
-- "Hey Google, open tracking in Sleep."
-- "Hey Google, open sleep tracking in Sleep."
-
-- "Hey Google, show Sleep start tracking."
-- "Hey Google, show start tracking in Sleep."
-- "Hey Google, show tracking in Sleep."
-- "Hey Google, show sleep tracking in Sleep."
-
-
-#### Stop sleep tracking
-
-
-- "Hey Google, open Sleep stop tracking."
-- "Hey Google, open end sleep tracking in Sleep."
-- "Hey Google, open finish tracking in Sleep."
-- "Hey Google, open end tracking in Sleep."
-
-- "Hey Google, show Sleep stop tracking."
-- "Hey Google, show end sleep tracking in Sleep."
-- "Hey Google, show finish tracking in Sleep."
-- "Hey Google, show end tracking in Sleep."
-
-
-#### Open alarms list
-
-
-- "Hey Google, show alarms in Sleep."
-- "Hey Google, show my alarms in Sleep."
-- "Hey Google, open alarms in Sleep."
-- "Hey Google, open alarms list in Sleep."
-- "Hey Google, show my alarms list in Sleep."
-
-
-#### Show your last sleep
-
-
-- "Hey Google, show my last sleep in Sleep."
-- "Hey Google, open my last sleep in Sleep."
-- "Hey Google, show last sleep in Sleep."
-- "Hey Google, open last sleep in Sleep."
-
-
-
-### Google Assistant on Android 15
-
-
-Google routines on Android 15 must be allowed in the Google app -> your account -> Settings -> Assistant settings -> Shortcut tab -> find Sleep app -> Add all suggestion options -> go back -> add new suggestions.
-
-[.imgflexblock]
-****
-![](GA_1.png)
-![](GA_2.png)
-![](GA_3.png)
-![](GA_5.png)
-
-****
+<div class="imgflexblock"><div class="content">
+  <img src="/assets/images/GA_1.png" />
+  <img src="/assets/images/GA_2.png" />
+  <img src="/assets/images/GA_3.png" />
+  <img src="/assets/images/GA_5.png" />
+</div></div>

@@ -6,127 +6,108 @@ nav_order: 4
 parent: /ux/0parent.html
 ---
 
+The **Dashboard** is designed to give you exactly what you need at a glance. It uses a dynamic card-based layout that adapts to your daily routine, letting you quickly review your sleep health and control your alarms.
 
+**Declutter your view:** If a card isn’t relevant to you, simply swipe it away to make room for other content. You can always bring it back later.
 
-**Dashboard home screen** is designed to give you just the info you need at a glance. If you find anything irrelevant - just swipe the card away to create space for relevant content.
+**Prioritize what matters:** Long-press any card to pin it to the top of your dashboard for quick access.
 
-If you use some of the cards frequently, _long press_ to pin it to the top.
-
-[EXAMPLE]
-Do you use Shortcuts to start naps or sleep tracking with an ideal alarm every day? Just pin the Shortcut card to top
-Are you working on an active Goal? Just pin it to always see your latest progress.
+> **Example:**
+> Do you use Shortcuts to start naps or sleep tracking with an ideal alarm every day? Just pin the **Shortcuts card** to the top.
+> Are you working on an active Goal? Pin the **Goal card** to always see your latest progress.
 
 <a id="figure-dashboard"></a>
-.The whole Dashboard with all cards visible.
+**The Dashboard with all cards visible**
 ![](dashboard_violet.png)
 
-Other home screen types are [Alarms only](/ux/hs_alarms_only) mode and [Tabs](/ux/hs_tabs).
-
-_Left_ ☰ _menu -> Home screen section -> Dashboard_
-_Settings -> Personalize -> Home screen_
+**Menu Paths:**
+*   **Left ☰ menu** → **Home screen layout** → **Dashboard**
+*   **Settings** → **Personalize** → **Home screen**
 
 ---
 
+## Dashboard Cards Explained
 
+### Alarm Card
+Displays your next scheduled active alarm, showing the time and day of the week.
+*   **Quick Edit:** Tap the alarm time to open a dialog to change it.
+*   **Add New:** Tap the **![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) Plus icon** to create a new alarm.
+*   **View All:** Tap anywhere else on the card to open your complete list of alarms.
+*   **Quick Actions:** Long-press the card to skip the next alarm (or undo a skip), edit it, or delete it entirely without opening the main list.
 
-## Alarm card
+### Tutorial Card
+A step-by-step guide designed to help new users explore and configure the app's powerful sleep-tracking features.
+*   **Navigate:** Swipe the card to view the next feature or tip.
+*   **Take Action:** Tap the card to jump directly to the settings page for that feature.
 
-Shows you the first next active alarm.
+### Bedtime / Alarm Card
+A dynamic countdown card that changes depending on the time of day:
+*   **Before Bedtime:** If you are within 4 hours of your scheduled bedtime, the card displays a countdown showing how much time you have left before you should head to bed.
+*   **After Bedtime:** Once your bedtime has passed, the card automatically shifts to show a countdown to your next scheduled morning alarm.
 
-- You can see the alarm time and day of the week, when the very next alarm is scheduled at first glance:
-![](alarm_card_next_new.png)
-- Simple tapping on alarm time opens dialogue for changing the alarm time.
-- Tapping on ![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) opens the dialogue for creating a new alarm.
-- Tapping on any other place of the card opens [list of all alarms](#alarm_list)
-- Alarm card has also a special function - you can skip next alarm (or cancel skipping the alarm), edit alarm or delete alarm directly from this card by long pressing on it.
-
-
-## Tutorial card
-
-Simple guide through all the available features in the app to help our new users navigate in the app.
-
-- Swiping the card will show you next list.
-- Taping on the card will reveal the presented feature in the settings.
-
-
-## Bedtime / alarm card
-
-Shows either time left to your bedtime, or time left to the alarm time.
-
-- If the current time is before the bedtime (and the bedtime is closer than 4 hours), the bedtime card will show you time left till the bedtime.
-- If the current time is after the bedtime, the card shows the time left till the alarm.
 ![](bedtime_card.png)
 
+### News Card
+A temporary card that only appears when there are important updates, new version release notes, or critical announcements.
 
-## News card
+### Best of Noises Card
+Features a curated selection of the most distinct or interesting sounds recorded during your last sleep session.
+*   **Playback:** Tap the card to play back the recorded sound clips (such as snoring, talking, or ambient noise).
 
-Temporary card shown only during important events, release notes, or with a crucial message.
+### Sleep Score Card <a id="sleepscore"></a>
+Displays your average overall [Sleep score](/sleep/sleepscore) calculated from your last 14 days of tracked sleep.
+*   **Deep Dive:** Tap this card to open your detailed sleep statistics (see [Stats](/sleep/statistics)).
 
+### Graphs Card
+Shows a preview of your recent sleep graphs from the [Charts section](/sleep/charts).
+*   **Browse:** Swipe left or right to cycle through recent nights.
+*   **Open:** Tap the card to open the [detailed view](/sleep/how_to_read_sleep_graphs) of the most recent graph.
 
-## Best of noises card
+### Noise Card
+Displays a summary of your latest noise recordings.
 
-Shows you the selection of the best sounds recorded last night.
+### Charts Card
+Provides quick access to your long-term sleep trends.
+*   **Browse:** Swipe through different chart categories.
+*   **Open:** Tap to enter the full [Charts section](/sleep/charts).
 
-- Tapping this card plays the set of noises.
+### Advice Card <a id="advicecard"></a>
+Shows a rotating selection of tips from the [Advice section](/sleep/advice). Tap the card to see more personalized insights.
 
+### Goal Card <a id="goalcard"></a>
+Tracks your progress toward an active [Sleep Goal](/sleep/goals). It features two progress bars showing percentage completion and time-based progress.
+*   **Open:** Tapping this card opens the [Advice section](/sleep/advice) for tips on meeting your goal.
 
-## Sleep score card <a id="sleepscore"></a>
+### Shortcuts Card <a id="shortcut"></a>
+A quick-access panel for common tasks:
+*   **![ic_action_bedtime](/assets/icons/ic_action_bedtime.svg) Sleep X hour:** Starts sleep tracking with an alarm based on your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
+*   **![ic_action_snooze](/assets/icons/ic_action_snooze.svg) Nap:** Starts a tracked nap session using your default smart period settings.
+*   **![plus](/assets/icons/plus.svg) Add Sleep:** Manually log a sleep period you forgot to track.
+*   **![plus](/assets/icons/plus.svg) Add Goal:** Set a new [Sleep Goal](/sleep/goals).
+*   **![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) Lullabies:** Instant access to the lullaby player.
 
-Shows [Sleep score](/sleep/sleepscore) based on the recent 14 days.
-- Tapping on this card opens Stats (see [Stats](/sleep/statistics))
+> [!NOTE]
+> You can also turn any of these shortcuts into a standalone [home screen widget](/ux/widgets).
 
+### Add-on Card
+A showcase of available extensions, compatible devices, and other apps from our team. Tapping it opens a full list of add-ons.
 
-## Graphs card
-
-Shows you graphs from the [Charts section](/sleep/charts).
-
-- You can swipe through the graphs, right ↔ left.
-- Tapping this card opens the last graph. See ([How to read sleep graphs](/sleep/how_to_read_sleep_graphs)).
-
-
-## Noise card
-
-Shows latest noise recordings.
-
-
-## Charts card
-
-Shows you graphs from the [Charts section](/sleep/charts).
-- You can swipe through the different categories, right ↔ left.
-- Tapping on this card opens [Charts section](/sleep/charts).
-
-
-## Advice card <a id="advicecard"></a>
-
-Shows a random advice from the [Advice section](/sleep/advice). More advice will show up when tapping on the card.
-
-
-## Goal card <a id="goalcard"></a>
-
-Shows your active [Goal](/sleep/goals) progress. There are two progress bars one shows percentages of completion and the other time progress. With some goals, the card can advice you what needs to be the next value to keep you on track to successfully finish the goal.
-
-- Tapping on this card opens [Advice section](/sleep/Advice).
-
-
-
-## Shortcuts card <a id="shortcut"></a>
-
-A mini-board with shortcuts.
-- **![ic_action_bedtime](/assets/icons/ic_action_bedtime.svg) Sleep X hour**: Starts sleep tracking with and alarm based on your [Daily sleep duration goal](/sleep/ideal_daily_sleep) (+ smart period and tracking start delay).
-- **![ic_action_snooze](/assets/icons/ic_action_snooze.svg) Nap**: Starts a nap with tracking; smart period from _Settings -> Sleep tracking -> Smart wake up -> Nap smart period_ is applied.
-- **![plus](/assets/icons/plus.svg) Add sleep**: For adding a period of sleep manually, when you forgot tracking.
-![plus](/assets/icons/plus.svg) Add goal:_: for adding a new goal ([read more about Goals](/sleep/goals)).
-* ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) Lullabies: A quick access to the lullabies.
-
-> **Note:** You can create a shortcut (Add alarm, Nap, Sleep X hours and Sleep tracking) widget for your main screen ([see here for details](/ux/widgets)).
-
-- **Add-on card**: A short presentation of our add-ons, compatible devices or our other apps.
-* Tapping this card opens list of add-ons and other applications made by our team.
+---
 
 ## Guide
-- **How to hide a card on Dashboard**: Any card can be simple swipe away from the dashboard. You can also use the Hide / Show button at the bottom of Dashboard.
-- **How to pin a card to top position**: If you long press the card, it is pinned to the top position on the Dashboard. This option works on all cards except Alarm card and Chart card.
+
+*   **How to hide a card:** Swipe any card to the side to remove it. You can manage visible cards using the **Hide / Show** button at the bottom of the Dashboard.
+*   **How to pin a card:** Long-press any card to lock it to the top of your Dashboard.
+    *(Note: The Alarm and Chart cards cannot be pinned as they have fixed positions).*
 
 <a id="figure-dashboard-edit"></a>
-.The Dashboard editing.
+**The Dashboard editing mode**
 ![](editing_dashboard.gif)
+
+
+## Other Layout Options
+
+If the Dashboard layout isn't the best fit for your workflow, you can switch to:
+
+*   [**Tabs**](/ux/hs_tabs): A classic interface with swipeable tabs at the top.
+*   [**Alarms only mode**](/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.

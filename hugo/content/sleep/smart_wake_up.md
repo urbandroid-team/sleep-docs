@@ -9,47 +9,48 @@ tags:
 - alarm
 ---
 
+**Smart Wake-up identifies the perfect moment to wake you up so you can start your day feeling refreshed.**
 
-**Looks for the best moment to wake you up for a great morning.**
+Waking up during light sleep feels natural—similar to waking up without an alarm on a weekend. In contrast, being woken up during deep sleep often causes "sleep inertia," leaving you feeling tired, groggy, and disoriented.
 
-Waking up in light sleep feels natural - like on a weekend, without any alarm.
-In contrast, deep sleep wake up (which is common with ordinary alarm clocks) leads to an unpleasant experience accompanied with feeling of tiredness, sleepiness, disorientation.
-
-_Settings -> Alarms -> Smart wake up_
-
-With smart wake up, you set up a time window (also called Smart wake up period), in which you’d like to be woken up once it is the right moment.
-
-[EXAMPLE]
-Alarm time: 8:00
-Smart period: 30 minutes (default)
-Sleep as Android will wake you between 7:30-8:00, once you are in light sleep for some time. The scheduled alarm time (8:00) is considered as the last possible wake up time.
-> **Note:** Smart wake up feature requires sleep tracking to be running, so the app can detect your sleep phases. If you don't want to run sleep tracking the whole night, see the Smart period option on [Automatic sleep tracking](/sleep/automatic_sleep_tracking).
-
+**Menu Path:** `Settings` → `Alarms` → `Smart wake up`
 
 ---
 
+## How it Works
 
-## Smart period
+When you enable Smart Wake-up, you define a **Smart period** (a time window before your set alarm). During this window, the app monitors your movement to detect light sleep.
 
-Set the smart period - time window before alarm to be awoken in.
-- **Disabled**: Alarm goes off exactly at alarm time
-- **Power nap**: Special type of smart period which wakes you after the alarm time, see [Power nap](/alarms/power_nap)
+> **Example:**
+> *   **Alarm Time:** 8:00 AM
+> *   **Smart Period:** 30 minutes (default)
+> *   **Result:** The app will wake you between 7:30 AM and 8:00 AM once it detects you are in a light sleep phase. Your set alarm time (8:00 AM) remains the absolute latest possible wake-up time.
 
+> [!NOTE]
+> Smart Wake-up requires active sleep tracking to detect your sleep phases. If you prefer not to track all night, you can use the **Smart Period** option with [Automatic Sleep Tracking](/sleep/automatic_sleep_tracking).
 
-## Nap smart period
+---
 
-Sets a smart period for naps with tracking and naps from shortcuts.
-- **Disabled**: Alarm goes off at alarm nap time
-- **Power nap**: See [Power nap](/alarms/power_nap)
+## Core Options
 
-<a id="sensitivity"></a>
+### Smart Period
+Choose the duration of the wake-up window before your alarm.
+*   **Disabled:** The alarm triggers exactly at the set time.
+*   **Duration:** Select from 5 minutes up to several hours.
+*   **Power Nap:** A special mode that wakes you *after* the alarm time. [Learn more here](/alarms/power_nap).
 
-## Movement sensitivity
+### Nap Smart Period
+Sets the wake-up window specifically for naps started via shortcuts or the tracking screen.
+*   **Disabled:** The nap alarm triggers exactly when the timer ends.
+*   **Power Nap:** Applies the same logic as the main alarm power nap mode.
 
-Adjusts sensitivity of smart alarm. With less sensitivity, you need more noticeable movement to trigger alarm.
+### Movement Sensitivity <a id="sensitivity"></a>
+Adjusts how much movement is required to trigger the alarm.
+*   **High Sensitivity:** Small movements can trigger the wake-up.
+*   **Low Sensitivity:** Requires more pronounced body movement.
 
+### Not Before Sleep Goal
+Prevents the alarm from triggering until you have reached your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal) or your originally scheduled alarm time.
 
-## Not before sleep goal
-
-Does not allow the alarm to ring before reaching either [daily sleep duration goal](/sleep/ideal_daily_sleep) or alarm time.
-> **Warning:** In some cases this option can render Smart wake up ineffective. It can lead to ignoring the smart period for the sake of reaching sleep duration goal.
+> [!WARNING]
+> This option can sometimes make Smart Wake-up ineffective, as the app may be forced to ignore light sleep phases in favor of meeting your duration target.

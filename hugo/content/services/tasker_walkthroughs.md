@@ -6,70 +6,55 @@ nav_order: 1
 parent: /services/0parent.html
 ---
 
+**Explore common use cases and step-by-step guides for automating Sleep as Android using Tasker.**
 
-## Create an “Add alarm” widget with Tasker
-Sleep as Android does not offer a widget to add an alarm directly.
+---
 
-How to create one in Tasker?
-1. Fire up Tasker, go to Tasks tab and add a new task (+) named Add alarm
-1. Tap + to add an action, select System > Send Intent
-.. In action, insert com.urbandroid.sleep.alarmclock.SetAlarm
-.. As package, set com.urbandroid.sleep
-.. As target, select Activity
-.. Go back to confirm
-1. Add an icon in the lower right corner
-1. Long press on your desktop and add a Shortcut > Task shortcut and select Add alarm (your new task)
-1. Don’t forget to enable Tasker!
+## Create an "Add Alarm" Widget
+While Sleep as Android offers many widgets, you can create a custom one-tap "Add Alarm" button using Tasker:
 
-## Integrate Sleep with hueManic
-You can use any of the Sleep as Android’s events in Tasker to start a service com.urbandroid.hue/.ProgramService with following extras:
+1.  Open **Tasker** and navigate to the **Tasks** tab.
+2.  Tap **(+)** and name your task *"Add Alarm"*.
+3.  Add an action: `System` ➔ `Send Intent`.
+    *   **Action:** `com.urbandroid.sleep.alarmclock.SetAlarm`
+    *   **Package:** `com.urbandroid.sleep`
+    *   **Target:** `Activity`
+4.  Assign an icon to the task (bottom-right corner).
+5.  On your phone's home screen, add a **Tasker Task Shortcut** and select your new *"Add Alarm"* task.
 
-.to start a program
-- EXTRA_START
-- EXTRA_PROGRAM
+---
 
-.to stop a program
-- EXTRA_STOP
+## Automate Light Shows with hueManic
+Use Sleep as Android events to trigger party or relaxation modes in our **[hueManic](https://play.google.com/store/apps/details?id=com.urbandroid.hue)** app.
 
-EXTRA_PROGRAM needs to have one of the values:
+### The Setup Walkthrough
+1.  **Tasker Task:** Add action `System` ➔ `Send Intent`.
+    *   **Package:** `com.urbandroid.hue`
+    *   **Class:** `com.urbandroid.hue.ProgramService`
+    *   **Extras:**
+        *   `EXTRA_START:start`
+        *   `EXTRA_PROGRAM:DISCO` (Options: `FIREPLACE`, `STORM`, `SEA`, `JUNGLE`, `AURORA`)
+    *   **Target:** `Service`
+2.  **Tasker Profile:** Add `Event` ➔ `Plugin` ➔ `Sleep`.
+    *   **Configuration:** Select `Alarm started`.
+3.  Link the Profile to your new hueManic Task.
 
-- DISCO, FIREPLACE, STORM, FIREWORKS, SEA, JUNGLE, TIBET, AURORA, SUNSET, RAINBOW
+[**Watch the video tutorial here**](https://sleep.urbandroid.org/help/huemanic.mp4)
 
-Example: [See video tutorial here](https://sleep.urbandroid.org/help/huemanic.mp4).
+---
 
+## Mi Band: LED/Vibration Alerts for Alarms
+If you use **[Mi Band Tools](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools)**, you can bridge Sleep as Android alarms to your band:
 
-### The actual walkthrough
+1.  **Tasker Profile:** `Event` ➔ `Plugin` ➔ `Sleep` ➔ `Alarm Started`.
+2.  **Task:** Add action `Alert` ➔ `Notify`. Set the title to *"SleepAlarm"*.
+3.  **Mi Band Tools:** Create a new alert for the Tasker app and filter it to only trigger for the title *"SleepAlarm"*.
 
-**Tasker > Task > Add task > Choose a name > Plus button > System > Send intent**
+---
 
-- Package: com.urbandroid.hue
-- Class: com.urbandroid.hue.ProgramService
-- Extra: EXTRA_START:start
-- Extra: EXTRA_PROGRAM:DISCO
-- Target: Service
+## Auto-Start Sleep Tracking Every Night
+You can schedule Sleep as Android to begin tracking at a specific time automatically:
 
-then
-
-**Tasker > Profile > Plus button > Event > Plugin > Sleep > Configuration > Alarm started > Back > Back > Choose your task**
-
-Now make sure Tasker is enabled, hueManic installed and the Disco program will start on your alarm.
-
-Adapt the specific conditions to your needs.
-
-## MiBand : Get notification when alarm starts
-How to have your Mi Band notify you with LED / Vibrations when your alarm ( Sleep as Android ) goes off.. ( Using Mi Band Tools )
-1. **Tasker -> Profile -> Plus button -> Event -> Plugin -> Sleep -> Configuration -> Alarm Started**
-1. Create a task for this event. Notify -> Select any title like ‘AlarmStarted’ which will send a notification in your status bar when alarm is triggered.
-1. Open Mi Band tools and set an alert for Tasker application and filter with the title used earlier, ‘AlarmStarted’ .
-
-_Many thanks to Pratik Jain!_
-
-## Start sleep tracking at a fixed time automatically every day
-Sleep as Android does not have automatic sleep tracking start, but you can easily implement that yourself using Tasker!
-1. Start Tasker
-1. Create a new profile using the **plus button on Profiles tab > Time > Set From and To time to the same time (e.g. 10PM)**
-1. Hit back
-1. Select New task and give it a name
-1. Add an action using the plus button > Plugin > Sleep > tap on the pencil button > select Start sleep tracking.
-1. Hit back three times.
-1. Make sure to activate Tasker (long press in the upper left corner > Enable)
+1.  **Tasker Profile:** `Time` ➔ Set **From** and **To** to your target bedtime (e.g., 10:00 PM).
+2.  **Task:** Add action `Plugin` ➔ `Sleep` ➔ Tap the **Pencil icon** ➔ Select `Start sleep tracking`.
+3.  Ensure Tasker is enabled.

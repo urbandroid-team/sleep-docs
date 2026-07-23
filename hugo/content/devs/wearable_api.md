@@ -17,7 +17,7 @@ If there is a 3rd party wearable you’d like to see integrated with Sleep, tha
 1. Integrate the watch yourself. You can even make your own paid add-on to Sleep if you want, we have no objections against this!
 
 ____
-> **Note:** Due to intent restrictions in Android API levels &gt; 26, we explicitly need to whitelist your package in Sleep if you want to use the API. Let us know at link:mailto:&#105;n&#102;&#x6f;&#x40;&#x75;&#x72;&#98;&#x61;&#x6e;d&#114;&#x6f;&#105;d&#46;&#111;&#114;g[&#105;n&#102;&#x6f;&#x40;&#x75;&#x72;&#98;&#x61;&#x6e;d&#114;&#x6f;&#105;d&#46;&#111;&#114;g], we’ll be glad to do that!
+> **Note:** Due to intent restrictions in Android API levels > 26, we explicitly need to whitelist your package in Sleep if you want to use the API. Let us know at [support@urbandroid.org](mailto:support@urbandroid.org), we’ll be glad to do that!
 
 ____
 

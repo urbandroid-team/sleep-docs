@@ -9,30 +9,62 @@ tags:
 - wearable
 ---
 
+**Connect any Wear OS (formerly Android Wear) smartwatch to track movement, monitor heart rate, and wake up with gentle wrist vibrations.**
 
-Sleep tracking with Wear OS device requires a companion app installed from the Play Store on the watch.
+Sleep as Android supports the full range of Wear OS versions, from legacy models to the latest Wear OS 3.0+ devices (including Pixel Watch and TicWatch).
 
-All Wear OS devices can monitor sleep tracking movement and collect HR.
+---
 
-Some wearables can also collect SpO2 data - for more details, please see the chapter on [oximeters and SpO data](/devices/oximeter). Currently, Ticwatch Pro 3, Ticwatch E 3, and Fossil Gen 6, have integrated SpO2 data.
-If you have a Wear OS-based wearable with Spo2 sensor, that is not on the list, please let us know. We can adjust the parameters and integrate the sensor on other watches too.
+## Supported Versions
 
-.Supported versions of OS
+*   **Wear OS 3.0 & 4.0:** Supported (Note: Some platform limitations apply).
+*   **Wear OS 2.0:** Fully supported.
+*   **Android Wear 1.0:** Supported.
 
-* Android Wear 1.0
-* Wear OS 2.0
-* Wear OS 3.0 (with some limitations)
-> **Warning:** Wear OS 3.0 have some implemented limitations for independent apps:
-- not all wearables allow reading SpO2 or HRV data (Pixel Watch for example)
-- Bedtime mode will NOT allow vibrations for alarm
+> [!WARNING]
+> **Wear OS 3.0+ Limitations:**
+> *   **Bedtime Mode:** On many Wear OS 3.0+ devices, enabling the system "Bedtime Mode" may suppress background vibrations for third-party alarms.
+> *   **Sensor Access:** Not all manufacturers allow third-party access to raw **SpO<sub>2</sub>** or **HRV** data (e.g., Pixel Watch).
 
+---
 
-## How to set up
-1. Make sure the watch is connected to the phone.
-1. Go to app list on your watch, select Play Store.
-1. Find **Sleep as Android** and select _Install_.
-1. After the companion app is installed, you can enable the connection in _Settings -> Sleep tracking -> Wearables -> Use wearable -> Wear OS_ / _Wear OS 3.0+_.
-1. Test the connection in Settings -> Sleep tracking -> Wearables -> Test sensor - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
-1. For HR data, enable **Heart rate monitoring** in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
-> **Warning:** make sure all the components are excluded from battery optimizations (Sleep, Wear app, Bluetooth). Read details at https://dontkillmyapp.com/.
-MobVoi also has **Essential mode** optimization on some Ticwatch models, that will disrupt the data flow.
+## Setup Guide
+
+To get started, you must install the companion app on your watch:
+
+1.  **Watch Installation:**
+    *   Ensure your watch is connected to your phone.
+    *   Open the **Play Store** on your watch.
+    *   Search for **Sleep as Android** and tap **Install**.
+2.  **App Configuration:**
+    *   Open Sleep as Android on your phone.
+    *   Go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables`.
+    *   Select **Wear OS** (or **Wear OS 3.0+** for newer models).
+3.  **Test Connection:**
+    *   Go to `Settings` → `Sleep tracking` → `Wearables` → `Test sensor`.
+    *   Move your wrist; you should see a green graph reacting (a slight delay is normal).
+4.  **Enable Heart Rate:**
+    *   In the phone app, go to `Settings` → `Sleep tracking` → `Wearables`.
+    *   Toggle on **Heart rate monitoring**.
+
+---
+
+## ❓ FAQ & Troubleshooting
+
+<details>
+<summary><strong>Why are SpO<sub>2</sub> or HRV data missing?</strong></summary>
+
+Currently, continuous SpO<sub>2</sub> tracking is verified on **TicWatch Pro 3**, **TicWatch E3**, and **Fossil Gen 6**.
+
+If your watch has the hardware but data isn't showing, please send us a debug log (`Left ≡ Menu` → `Support` → `Report a bug`). We can often add support for new models if we have the technical details from your logs.
+</details>
+
+<details>
+<summary><strong>Why is the connection dropping or showing red gaps on the graph?</strong></summary>
+
+This is usually caused by aggressive battery management.
+1.  **Exclude from Optimization:** Ensure **Sleep as Android**, your watch's **companion app** (e.g., Pixel Watch app), and **Bluetooth services** are excluded from battery optimization.
+2.  **TicWatch Users:** Disable "Essential Mode" or "Smart Mode" optimizations that might kill background data flow.
+
+For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+</details>

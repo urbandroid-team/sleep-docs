@@ -6,111 +6,64 @@ nav_order: 2
 parent: /devices/0parent.html
 ---
 
+**Enhance your sleep environment and wake-up experience by integrating your smart lighting.**
 
-**Uses your smartlight to enhance your sleep experience**
+Sleep as Android can control compatible bulbs and devices to simulate a natural sunrise, provide a gentle nightlight, or offer visual cues for advanced features.
 
-Features:
+**Menu Path:** `Settings` → `Services` → `Smartlight`
 
-- Sunrise-like wakeup
-- Pee-light
-- Jet lag prevention with light
-- Lucid dreaming and anti-snoring cues with light
+---
 
-_Settings -> Services -> Smartlight_
+## Supported Devices
 
+### Philips Hue & IKEA Trådfri
+Connect your smart bulbs to enable room-wide light effects.
+*   **Setup:** Tap **Philips HUE, IKEA Trådfri (Disconnected)** to scan and link your bulbs.
+*   **Test:** Flash your bulbs to verify the connection.
+*   **Note:** The newer IKEA **Dirigera hub** is currently **not supported**.
 
+### Sleep Phaser
+The [Sleep Phaser](/devices/sleep_phaser) is our custom bedside lamp designed specifically for this app.
+*   **Smartlight:** Use the Phaser for sunrise alarms and nightlight cues.
+*   **Sleep Tracking:** Use the Phaser's PIR sensor for contactless movement tracking.
+*   **Automation:** Enable **Start automatically** to prepare tracking as soon as you charge your phone near the lamp.
+> [!NOTE]
+> On Android 8+, the [Watch / Phaser Starter](https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter) app is required for automatic start.
 
+### Sleep Mask
+Enable **Use Sleep Mask** to use your [Sleep Mask](https://happyelectronics.eu/collections/biofeedback) as a personal smartlight for sunrise and lucid dreaming cues.
 
-## Use smartlight
+---
 
-Enables smartlight support.
+## Light Features
 
+*   **Maximum Intensity:** Sets a brightness cap (e.g., 80%) to prevent the sunrise alarm from being too startling.
+*   **Nightlight (Pee-light):** Automatically turns on a dim red light when you pause tracking, helping you navigate the room without disrupting your sleep state.
+*   **Lucid Dreaming:** Flashes the light when REM sleep is detected to provide a subtle visual cue inside your dream.
+*   **Anti-snoring:** Flashes the light when snoring is detected to encourage a change in sleeping position.
+*   **Keep Light Up After:** Choose if the light should stay on after you snooze or dismiss your alarm.
+*   **Sunrise (Phone Screen):** Uses your phone’s display as a dedicated smartlight source.
 
+---
 
-## Philips HUE, IKEA Trådfri
+## Guide: Setting Up a Sunrise Alarm <a id="sunrise_alarm_guide"></a>
 
+A true sunrise alarm starts brightening the room *before* the audio alarm begins.
 
-Tap **Philips HUE, IKEA Trådfri Disconnected** to connect your HUE or Trådfri.
-> **Note:** Dirigera hub is not supported!
-- **Test**: Test connection to your bulb by flashing it.
-- **Turn off**: Force turning off your connected bulb.
+1.  Enable your preferred light source in the **Smartlight** settings.
+2.  Go to `Settings` → `Alarms` → `Gentle wakeup` → `Delayed alarm sound start`.
+3.  Set a delay (e.g., 10 minutes).
 
+### How it Works:
+> **Example 1: Sunrise with Delayed Sound**
+> *   **Sound Delay:** 3 minutes.
+> *   **Behavior:** At alarm time, the light turns on at minimum brightness and reaches 100% over 3 minutes. The audio only starts *after* these 3 minutes.
 
-## Sleep Phaser
+> **Example 2: Sunrise with Gentle Volume (No Delay)**
+> *   **Gentle Volume Duration:** 24 minutes.
+> *   **Behavior:** The light and the (initially silent) audio start together. The light will take the full 24 minutes to reach maximum brightness.
 
-Section for controlling your link:[Sleep Phaser](http://sleepphaser.urbandroid.org/).
-For complete manual for Sleep Phaser, see [Sleep Phaser chapter](/devices/sleep_phaser).
+---
 
-Tap **Sleep Phaser Disconnected** to connect your Sleep Phaser with the app.
-- **Smartlight**: Use your connected Sleep Phaser as a smartlight. Sleep Phaser doesn't care about the topmost "Use smartlight" setting in this category.
-- **Sleep tracking**: Use your connected Sleep Phaser's PIR sensor as a sensor for sleep tracking.
-- **Start automatically**: Start tracking automatically when you start charging your phone while your Sleep Phaser is in Bluetooth range.
-> **Note:** On Android 8 and later, you need to have [Watch / Phaser Starter for Sleep as Android](https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter) installed in order for this to work.
-
-
-
-
-## Sleep Mask
-- **Use Sleep Mask**: Enable to use your [Sleep Mask](https://www.happy-electronics.eu/shop/en/home/32-sleep-mask-for-sleep-as-android.html) as a smartlight.
-
-
-## Maximum intensity
-
-Set a a global limit for brightness a smartlight would be allowed to achieve when controlled by Sleep. This is useful for sunrise alarm where 100% might be too bright for some people.
-
-
-## Nightlight
-
-If this is set, a pause in sleep tracking will turn on a red light on your set smartlight. If this is set to "Tracking is paused", the pee-light will be on for the whole pause.
-
-
-## Lucid dreaming
-
-Use smartlight as a cue for lucid dreaming. When your REM phase is detected, your set light will flash.
-
-
-## Anti-snoring
-
-Use smartlight as a cue for anti-snoring. When snoring is detected, your set light will flash. See
-
-
-## Keep light up after
-
-Set whether the light should stay on after dismissing alarm, snoozing alarm or both. Or none.
-
-
-## Sunrise
-
-Enable to use your phone's screen as a smartlight for the sunrise alarm. See [the guide below](#sunrise_alarm_guide) on how to configure this in your settings.
-
-
-## Wake up with flashlight
-
-If enabled, your phone's flashlight will be flashing during alarm.
-> **Warning:** Might be unreliable on some phones.
-
-
-## Guide
-
-
-<a id="sunrise_alarm_guide"></a>
-
-
-### How to setup sunrise alarm (sunrise-like wakeup)
-1. Enable _Settings -> Services -> Smartlight -> Enabled_.
-1. Select your smartlight:
-* Use phone's screen as a smartlight: Enable _Settings -> Services -> Smartlight -> Sunrise_ or _Settings -> Alarms -> Gentle wakeup -> Sunrise_.
-* Use a smartbulb as a smartlight: Connect using _Settings -> Services -> Smartlight -> Philips HUE, IKEA Trådfri (disconnected)_
-* Use Sleep Phaser as a smartlight: Connect using _Settings -> Services -> Smartlight -> Sleep Phaser (disconnected)_ and enable _Smartlight_ right under it.
-* Use cable-type Sleep Mask as a smartlight: Connect using _Smartlight -> Use Sleep Mask_.
-
-After you've done the above steps to connect and enable the smartlight of your choice, all of your alarms will turn on the smartlight when they start ringing. Now, to have a truly sunrise wakeup, you probably want the smartlight to turn on _before_ the alarm rings.
-
-To set that up, head to _Settings -> Alarms -> Gentle wakeup -> Delayed alarm sound start_ and set it to some period. At the time of the alarm, only the smartlight will turn on at the lowest brightness and gradually brighten up until the set period passes. Then the alarm starts ringing.
-
-Without the delayed sound start, you can control the speed of sun-rise effect by changing the period of [Gentle volume](/alarm/alarm_settings/gentle_alarm). The longer the period is, the longer it takes to get from dark to full light.
-
-
-[EXAMPLE]
-**Sunrise alarm with delayed sound** - start of the alarm sound is set for 3 minutes = the light level will start increasing from alarm time, till the start of the sound. So after 3 minutes, the smart lights will be at the highest brightness. Duration of gentle volume does not play any role.
-**Sunrise alarm with gentle volume increase, sound not delayed** - gentle volume increase is set to 24 minutes = the light level will start increase from alarm time, and it will take 24 minutes to reach the highest brightness.
+> [!WARNING]
+> **Flashlight Wake-up:** While the app can flash your phone's camera LED, this feature may be unreliable on some device models due to system-level camera restrictions.

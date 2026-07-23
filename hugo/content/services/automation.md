@@ -9,109 +9,67 @@ nav_order: 1
 parent: /services/0parent.html
 ---
 
+**Sleep as Android can be used to automate your smart home devices or other applications through a variety of integration services.**
 
+Whether you want to dim the lights when you start tracking or start your coffee machine when your alarm is dismissed, our automation hooks provide the flexibility you need.
 
-## What it does
+---
 
+## Supported Services
 
-Sleep as Android can be used to automate your smart devices or other applications through various services:
+| Service | Description | Learn More |
+| :--- | :--- | :--- |
+| **IFTTT** | Connect with hundreds of web services and IoT devices. | [IFTTT Guide](/services/ifttt) |
+| **MQTT** | Publish real-time events to your local smart home broker. | [MQTT Guide](/services/mqtt) |
+| **Webhooks** | Send HTTP requests to any custom URL or API endpoint. | [Webhooks Guide](/services/custom_webhooks) |
+| **Tasker / Automate** | Use powerful Android-native automation apps. | [Tasker Guide](/services/tasker_automate) |
+| **Intent API** | Integrate directly with other Android apps via Intents. | [Intent API Guide](/devs/intent_api) |
+| **System Alarms** | Use the standard Android Alarm Clock API. | [Android Docs](https://developer.android.com/reference/android/provider/AlarmClock) |
 
-- [IFTTT](/services/ifttt)
-- [MQTT](/services/mqtt)
-- [Custom webhooks](/services/custom_webhooks)
-- [Tasker or Tasker-compatible apps like Automate](/services/tasker_automate)
-- [Intent API](/devs/intent_api)
-- [Android Alarm clock API](https://developer.android.com/reference/android/provider/AlarmClock)
+**Menu Path:** `Settings` → `Services` → `Automation`
 
+---
 
-## Where to find it
-
-
-_Settings -> Services -> Automation_
-
-
-## Options
-- **Events**: Set events that will be sent from Sleep as Android to each automation service.
-- [More details](#events)
-
-.Tasker
-- **Tasker**: Enable or disable Tasker integration.
-- [More details](/services/tasker_automate)
-
-.IFTTT
-- **IFTTT**: Enable or disable IFTTT integration.
-- [More details](/services/ifttt)
-
-.Webhooks
-- **Webhooks**: Enable or disable custom webhooks integration.
-- [More details](/services/custom_webhooks)
-- **URL**: Set URL of your custom webhooks endpoint.
-
-.MQTT
-- **MQTT**: Enable or disable MQTT integration.
-- [More details](/services/mqtt)
-- **URL**: Set URL of your MQTT broker.
-- **Client ID**: Set client ID under which Sleep as Android will connect to the MQTT broker. Warning: You cannot have multiple devices connecting under the same Client ID to the same broker. Default: "SleepAsAndroid"
-
-.Intent API
-- **Intent API**: Enable or disable intent API.
-- [More details](/devs/intent_api)
-
-
-## Guide
-
-
+## Core Options
 
 ### Events
+Select which specific Sleep as Android events are broadcast to your chosen automation services. You can toggle individual events in `Settings` → `Services` → `Automation` → `Events`.
 
-The events that will be sent to each automation service can be toggled in _Settings -> Services -> Automation -> Events_.
+---
 
-The events are:
-- **sleep_tracking_started**: ...
-- **sleep_tracking_stopped**: ...
-- **sleep_tracking_paused**: ...
-- **sleep_tracking_resumed**: ...
-- **alarm_snooze_clicked**: You have snoozed a ringing alarm.
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-- **alarm_snooze_canceled**: You have a canceled an alarm that is currently snoozed.
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-- **time_to_bed_alarm_alert**: Fires when you get a bedtime notification.
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time (the alarm which triggered the bedtime notification, based on your [ideal daily sleep target](/sleep/ideal_daily_sleep)), example: "1582719660934"
-- **alarm_alert_start**: Fires when alarm starts.
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-- **alarm_alert_dismiss**: Fires when you dismiss alarm (after you solve CAPTCHA, if it’s set).
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-- **alarm_skip_next**: Fires when you tap dismiss an alarm from notification before it actually rings.
-We are sending the following values:
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-* value2: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-- **show_skip_next_alarm**: Fires exactly 1 hour before the next alarm is triggered.
-* value1: UNIX timestamp of the alarm start time, example: "1582719660934"
-- **rem**: Fires when we estimate the start of REM phase.
-- **smart_period**: Fires at the start of the smart period.
-- **before_smart_period**: Fires 45 minutes before the start of smart period.
-We are sending the following value:
-* value: alarm label, example: "label" (Any tabs and newline characters in the label will be removed before sending)
-- **lullaby_start**: Fires when lullaby starts playing.
-- **lullaby_stop**: Fires when lullaby is stopped (either manually or automatically).
-- **lullaby_volume_down**: Fires when we detect you fell asleep and starting lowering the volume of lullabies.
-- **deep_sleep**: Fires when we detect you going into deep sleep phase. Warning: This may result in lots of events during the night and may not exactly fit the resulting sleep graph as we can only detect phases reliably from whole-night data.
-- **light_sleep**: Fires when we detect you going into light sleep phase. Warning: This may result in lots of events during the night and may not exactly fit the resulting sleep graph as we can only detect phases reliably from whole-night data.
-- **awake**: Fires when we detect you woke up.
-- **not_awake**: Fires when we detect you fell asleep.
-- **apnea_alarm**: Fires when we detect a significant dip in your oxygen levels.
-- **antisnoring**: Fires when antisnoring is triggered.
-- **sound_event_snore**: Fires when we detect snoring.
-- **sound_event_talk**: Fires when we detect talking.
-- **sound_event_cough**: Fires when we detect coughing.
-- **sound_event_baby**: Fires when we detect baby cry.
-- **sound_event_laugh**: Fires when we detect laughter.
+## Automation Events <a id="events"></a>
+
+The following events can be used as triggers in your automation routines. Many events include extra data points (`value1`, `value2`, etc.) such as timestamps or alarm labels.
+
+| Event Name | Trigger Moment | Extra Data Provided |
+| :--- | :--- | :--- |
+| `sleep_tracking_started` | When a tracking session begins. | |
+| `sleep_tracking_stopped` | When a tracking session ends. | |
+| `sleep_tracking_paused` | When tracking is manually paused. | |
+| `sleep_tracking_resumed` | When tracking resumes after a pause. | |
+| `alarm_alert_start` | When any alarm starts ringing. | `value1`: Alarm time (UNIX), `value2`: Label |
+| `alarm_alert_dismiss` | When an alarm is fully dismissed. | `value1`: Alarm time (UNIX), `value2`: Label |
+| `alarm_snooze_clicked` | When you tap the snooze button. | `value1`: Alarm time (UNIX), `value2`: Label |
+| `alarm_snooze_canceled` | When a snoozed alarm is dismissed. | `value1`: Alarm time (UNIX), `value2`: Label |
+| `alarm_skip_next` | When you dismiss a pre-alarm notification. | `value1`: Alarm time (UNIX), `value2`: Label |
+| `time_to_bed_alarm_alert`| When a bedtime reminder triggers. | `value1`: Alarm time (UNIX) |
+| `rem` | Estimated start of a REM phase. | |
+| `deep_sleep` | Entry into deep sleep. | *(Frequent events)* |
+| `light_sleep` | Entry into light sleep. | *(Frequent events)* |
+| `awake` / `not_awake` | When the app detects you waking/sleeping. | |
+| `smart_period` | Start of the smart wake-up window. | |
+| `before_smart_period` | 45 minutes before the smart window. | `value`: Alarm label |
+| `lullaby_start` / `stop` | When lullaby playback changes. | |
+| `apnea_alarm` | Significant oxygen/breath rate drop. | |
+| `antisnoring` | When anti-snoring cues trigger. | |
+
+### Sound Recognition Events
+The following events fire when specific sounds are classified (requires **Sound Recognition** to be active):
+*   `sound_event_snore`
+*   `sound_event_talk`
+*   `sound_event_cough`
+*   `sound_event_baby`
+*   `sound_event_laugh`
+
+> [!WARNING]
+> **Sleep Phase Events:** Events like `deep_sleep` and `light_sleep` may fire many times throughout the night. Because sleep phases are best calculated looking at the whole night of data, real-time "instant" detections may differ slightly from the final morning graph.

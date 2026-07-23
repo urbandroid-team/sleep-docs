@@ -11,93 +11,115 @@ tags:
 ---
 
 
-
-Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open. But thanks to the Tools & MiBand and Tools & Amazfit app, you can use some devices with Sleep app.
-[Tools & Mi Band](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools) and [Tools & Amazfit](https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools) are developed by [Tools & Wearables Ltd.](https://play.google.com/store/apps/developer?id=Tools+%26+Wearables+Ltd).
-
-You can check the Tools app [page with FAQs](https://help.mibandtools.com/knowledge_base/categories/mi-band-tools-faq-frequently-asked-questions), page for [Sleep as Android integration for Mi Bands](https://help.mibandtools.com/knowledge_base/topics/sleep-as-android), and page for [Sleep as Android integration for Amazfit](https://help.amazfittools.com/knowledge_base/topics/sleep-as-android-amazfit).
+Because Xiaomi and Amazfit do not provide an open API for direct integration, **Sleep as Android** connects to these wearables using third-party bridge apps: **[Tools & Mi Band](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools)** and **[Tools & Amazfit](https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools)** (developed by *[Tools & Wearables](https://play.google.com/store/apps/developer?id=Tools+%26+Wearables)*).
 
 
-## Supported Mi Bands <a id="supported_wearables"></a>
+
+## Supported Devices
+
+### Supported Xiaomi Mi Bands
+* Mi Band 1, 1.0, 1A
+* Mi Band 2, 3, 4, 5, 6, 7
+
+### Supported Amazfit Devices
+* **GTS Series:** GTS, GTS 2, GTS 2e, GTS 2 mini, GTS 3
+* **GTR Series:** GTR, GTR 2, GTR 2e, GTR 3, GTR 3 Pro
+* **Bip Series:** Bip, Bip Lite, Bip S
+* **Cor Series:** Cor, Cor 2
+* **Band / Other:** Band 5, Band 6, Band 7, Arc, Verge Lite
+* **T-Rex Series:** T-Rex, T-Rex Pro
+
+> [!NOTE]
+> For additional information, visit the official [Tools & Wearables FAQ](https://help.mibandtools.com/help_center/).
 
 
-- Mi Band 1. 1.0, 1A
-- Mi Band 2
-- Mi Band 3
-- Mi Band 4
-- Mi Band 5
-- Mi Band 6
-- Mi Band 7
+## Setup Guide
+
+Connecting your band takes just a few quick steps across both apps:
+
+### Step 1: Configure the Tools App
+* The **[Tools & Mi Band](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools)** or **[Tools & Amazfit](https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools)** app is pre-configured to work with Sleep as Android out of the box — no initial toggles are needed!
+
+> [!WARNING]
+> Make sure all **Do Not Disturb (DND)** modes on your wearable are turned off or scheduled properly during sleep, as active DND modes can block alarm vibrations.
+
+### Step 2: Configure Sleep as Android
+1. Open **Sleep as Android** on your phone.
+2. Go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables`.
+3. Select your corresponding Tools app (**Tools & Mi Band** or **Tools & Amazfit**) from the list.
+4. *(Optional)* To track heart rate, toggle on **Heart rate monitoring** in the same menu.
+
+> [!NOTE]
+> Sensor data is analyzed continuously in real time. Keep Bluetooth turned on on your phone throughout the night.
+
+## Setting Up Heart Rate (HR) Monitoring
+
+To ensure accurate, continuous heart rate readings during sleep tracking, check both your official band app and the Tools app:
+
+1. **Official App Setting (Mi Fitness / Zepp):** Ensure your band is set to **regular 24-hour HR tracking mode**.
+   * *Avoid using "Sleep Assistant HR" mode in the official app, as it prevents external apps like Tools from accessing HR data.*
+2. **Tools App Setting:**
+   * Open the Tools app menu (**☰** in the top left).
+   * Navigate to **Heart Rate** and tap the **Settings icon (⚙️)**.
+   * Enable **Heart Rate Monitor**.
+
+## Using Wristband Buttons to Snooze or Dismiss Alarms
+
+You can use the physical button or touch button on your band to control your alarm:
+
+1. Open the Tools app menu (**☰**).
+2. Go to **Settings → Sleep as Android → Mi Band / Amazfit Button Action**.
+3. Select your preferred action:
+   * **None:** Button will not affect the alarm.
+   * **Snooze:** Pressing the button snoozes your phone alarm.
+   * **Dismiss:** Pressing the button turns off the alarm.
 
 
-## Supported Amazfits <a id="supported_wearables"></a>
+## Customizing Alarm Vibrations
 
+You can customize the pattern, length, and frequency of alarm vibrations on your band:
 
-- Amazfit GTS, GTS 2, GTS 2E, GTS 2 mini, GTS 3
-- Amazfit GTR, GTR 2, GTR 2E, GTR 3, GTR 3 PRO
-- Amazfit Bip, Bit Lite, Bip S
-- Amazfit Cor, Cor 2
-- Amazfit Arc
-- Amazfit Band 5, 6, 7
-- Amazfit T-Rex, T-Rex PRO
-- Amazfit Verge Lite
+### 1. Enable Priority Override
+Pull down your phone's notification bar, locate the **Tools app status bar notification**, and tap the **first icon** until you enter Priority Override mode (indicated by an **exclamation mark !** icon).
 
+### 2. Enable Wearable Alarms in Sleep as Android
+Open **Sleep as Android** and go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and enable wearable vibrations.
 
-## How to set up integration in Tools app
+### 3. Customize Patterns in the Tools App
+1. Open the Tools app menu (**☰**).
+2. Go to **Settings → Sleep as Android → Custom vibration**.
+3. Adjust the **vibration count**, **duration**, and **delay between vibrations**.
+4. Tap **Test vibration** to preview your pattern.
 
+---
 
-The Tools app is ready to use with Sleep app, you do not need to enable the integration.
+## ❓ FAQ & Troubleshooting
 
+<details>
+<summary><strong>How do I set up a silent alarm that vibrates only on my wearable?</strong></summary>
 
-## How to set up integration in Sleep app
-1. Open _Settings -> Sleep tracking -> Wearables -> Use wearable_.
-1. Choose the correct option from the list.
-1. For HR data enable _Settings -> Sleep tracking -> Wearable -> Heart rate monitoring_.
-> **Note:** Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
+Want a quiet wake-up call? Here is how to set your alarm to vibrate on your watch first:
 
+1. Choose your sound preference:
+    * **Silent:** In the specific alarm's settings, go to Sound and select Silent.
+    * **Vibration first, sound later:** Go to `Settings` → `Alarms` → `Sound delay`.
+2. Turn on watch vibrations: Go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and choose **From start**.
 
-## HR monitoring
+> [!TIP]
+> We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
+</details>
 
+<details>
+<summary><strong>Why does my connection keep dropping or show red gaps on the sleep graph?</strong></summary>
 
-Check your HR settings in the Mi Fit app.
-When the Mi Band is in **Sleep Assistant** HR mode in Mi Fit, it doesn’t feed the HR data to Mi Band Tools / Sleep as Android. When it is in regular HR tracking mode (24-hour), it works.
-1. Enable _Heart Rate Monitor_ in T&MB _Left_ ☰ _menu -> Heart Rate_ -> ![ic_cog](/assets/icons/ic_cog.svg) -> _Heart Rate monitor_
+If you see red sections on your sleep graph, it means the connection between your phone and wearable dropped during the night. This is almost always caused by Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
 
-[cols="^"]
-|===
-a|<a id="tmb_hr"></a>
-.Enabled HR monitoring in Tools&MiBand app
-![](tmb_hr.png)
+**How to fix it:**
+You must exclude **all** involved components from background battery optimization on your phone:
+1. **Sleep as Android**
+2. Your bridge app (**Tools & Mi Band** or **Tools & Amazfit**)
+3. Your official band companion app (**Mi Fitness**, **Zepp**, or **Mi Fit**)
+4. **Bluetooth system services**
 
-|===
-
-
-## Button snooze / dismiss
-
-
-In _Left_ ☰ _menu -> Settings -> Sleep as Android -> Mi Band Button Action_
-
-- **None** - the button will not have any effect on alarm
-- **Dismiss**
-- **Snooze**
-
-
-## Custom vibrations
-1. First, enable wearable vibrations in Sleep app in _Settings -> Wearables -> Alarm_.
-1. Enable priority override mode for MiBand Tools app: pull down the notification bar, and on the MiBand Tools status bar notification, press the first icon multiple times, until you enter priority override mode = you will se an exclamation mark.
-1. In Mi Band Tools app: _Left_ ☰ _menu -> Settings -> Sleep as Android -> Custom vibration_ adjust the vibrations. You can set vibration count and length, and delay between vibrations.
-1. Test the resulting vibration pattern with _Test vibration_.
-> **Note:** You can also have a silent alarm with vibrations only, for details, see [the guide](/alarms/alarm_settings/guide))
-
-[cols="^,^,^"]
-|===
-a|.From the Left ☰ menu, choose _Settings_.
-![](TMB_vibr_1.png)
-
-a|.Find _Sleep as Android_ section.
-![](TMB_vibr_2.png)
-
-a|.Find _Custom vibration_.
-![](TMB_vibr_3.png)
-
-|===
+For step-by-step, device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+</details>

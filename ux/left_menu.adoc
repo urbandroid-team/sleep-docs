@@ -10,8 +10,7 @@ parent: /ux/0parent.html
 
 Tap ☰ icon in the upper left corner or swipe from the left to expand the menu.
 
-[NOTE]
-On phones with gesture navigation you need to tap and hold instead of the swipe to access the menu.
+NOTE: On phones with gesture navigation you need to tap and hold instead of the swipe to access the menu.
 
 The content of the Left menu might be influenced by the type of home screen.
 
@@ -31,7 +30,8 @@ NOTE: The app needs to have at least one month of sleep data.
 Your chronotype is then represented by a banner at the very top of the Left ☰ menu.
 
 [[figure-chronotypes]]
-.Chronotypes banner
+*Chronotypes banner*
+
 image:chrono.png[width=30%]
 
 According to the research of professor https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/ref=mt_hardcover?_encoding=UTF8&me=&qid=[Till Roenneberg],  people are born with a chronotype, and  everyone is somewhere on the spectrum from owl 100% to 100% lark. Our <</sleep/sleepcloud_study#,SleepCloud study>> also came to the same conclusion.
@@ -42,46 +42,50 @@ To read more about chronotype, see our documentation on
 
 == Sleep as Android section
 
-// === icon:ic_dashboard[] Dashboard
-// Opens <</ux/hs_dashboard#,Dashboard>> in Tabs mode, if you do not have Tabs showing.
+[cols="1,4", options="header"]
+|===
+| Icon | Description
 
-=== icon:ic_alarm[] Alarms
-Opens <</homecreen#,List of alarms>> in Dashboard mode.
+| icon:ic_alarm[] | *Alarms*: Opens <</homecreen#,List of alarms>> in Dashboard mode.
+| icon:ic_timelapse[] | *Stats*: Opens <</sleep/charts#,Statistics section>>.
+| icon:ic_action_graph[] | *Graphs*: Opens <</sleep/sleep_graph#,Graph section>> in Dashboard mode.
+| icon:ic_action_stats[] | *Charts*: Opens <</sleep/charts#,Charts section>>.
+| icon:ic_action_noise[] | *Noise*: Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
+|===
 
-=== icon:ic_timelapse[] Stats
-Opens <</sleep/charts#,Statistics section>>.
+== Improve section
 
-=== icon:ic_action_graph[] Graphs
-Opens <</sleep/sleep_graph#,Graph section>>.
+[cols="1,4", options="header"]
+|===
+| Icon | Description
 
-=== icon:ic_action_stats[] Charts
-Opens <</sleep/charts#,Charts section>>.
+| icon:ic_goal[] | *Goal*: Opens <</sleep/goals#,Goals>>.
+| icon:ic_lightbulb[] | *Advice*: Opens <</sleep/advice#,Advice>>.
+| icon:trophy[] | *Achievements*: A shortcut to <</sleep/achievements#, Achievement board>>.
+| icon:ic_droid[] | *Sleep Assistant*: Opens <</sleep/assistant#,Sleep Assistant>>.
+|===
 
-=== icon:ic_goal[] Goal
-Opens <</sleep/goals#,Goals>>.
+== Start section
 
-=== icon:ic_lightbulb[] Advice
-Opens <</sleep/advice#,Advice>>.
+[cols="1,4a", options="header"]
+|===
+| Icon | Description
+| icon:ic_cloud_upload[] | *Shortcuts*: Opens Shortcut section. For more details on Shortcuts, see <</services/backup_data#,Backup>>.
+| icon:ic_action_lullaby[] | *Lullabies*: A shortcut to <</sleep/lullaby#, lullaby section>>.
+| icon:ic_cloud_upload[] | *Backup*: Opens back up dialogue. For more details on Back up, see <</services/backup_data#,Backup>>.
+|===
 
-=== icon:ic_action_noise[] Noise
-Opens <</sleep/sleep_noise_recording#,Noise recording section>>.
-
-=== icon:ic_action_lullaby[] Lullabies
-A shortcut to <</sleep/lullaby#, lullaby section>>.
-
-=== icon:trophy[] Achievements
-A shortcut to <</sleep/achievements#, Achievement board>>.
 
 == Home screen section
 
-=== icon:ic_dashboard[] Dashboard
-Presents all options in cards, see <</ux/hs_dashboard#, details about Dashboard>>.
+[cols="1,4", options="header"]
+|===
+| Icon | Description
 
-=== icon:ic_tab[] Tabs
-Presents all option in tabs, list of alarm is the main screen, see <</ux/hr_tabs#,details about Tabs>>.
-
-=== icon:ic_action_track_off_white[] Alarms only
-Simplified mode without any tracking-related settings, read more in <</ux/hs_alarms_only#,Alarms only mode>> chapter.
+| icon:ic_dashboard[] | *Dashboard*: Presents all options in cards, see <</ux/hs_dashboard#, details about Dashboard>>.
+| icon:ic_tab[] | *Tabs*: Presents all option in tabs, list of alarm is the main screen, see <</ux/hr_tabs#,details about Tabs>>.
+| icon:ic_action_track_off_white[] | *Alarms only*: Simplified mode without any tracking-related settings, read more in <</ux/hs_alarms_only#,Alarms only mode>> chapter.
+|===
 
 
 //== Shortcuts section
@@ -103,12 +107,14 @@ Simplified mode without any tracking-related settings, read more in <</ux/hs_ala
 //=== icon:ic_alarm_plus[] Add alarm
 //Creates a new alarm.
 
+
 == Support section
 
+[cols="1,4a", options="header"]
+|===
+| Icon | Description
 
-=== icon:ic_help_q[] Support
-Opens help-assistance dialogue.
-
+| icon:ic_help[] |
 [horizontal]
  icon:ic_information[] Documentation:: Opens this online documentation at https://docs.sleep.urbandroid.org/.
  icon:ic_information[] FAQ:: Opens Frequently Asked Question section in the documentation - you can use the search box at the top to find the answer to your questions.
@@ -118,16 +124,12 @@ Opens help-assistance dialogue.
  icon:ic_help[] Contact support:: Opens mailto:support@urbandroid.org[a mail to our support email support@urbandroid.org].
  icon:ic_gift[] Release notes:: Opens <</general/release_notes#,Release notes>> with Latest changes in Sleep and new added features.
  icon:ic_bug[] Report a bug:: Generates an application log that can be shared with our support team to help you with any issue. Don't hesitate to tell us what's not working properly. We're eager to fix it!
- icon:ic_bug[]Send a wearable report:: Generates a log for debugging troubles with some wearables - Garmin, Samsung.
+ icon:ic_bug[]Send a wearable report:: Generates a log for debugging troubles with some wearables (Garmin, Samsung).
 
-=== icon:ic_cloud_upload[] Backup
-Opens back up dialogue - for more details on Back up, see <</services/backup_data#,Backup>>.
-
-=== icon:ic_incognito[] Privacy
-Opens the <</general/privacy#, Privacy section>>
-
-=== icon:ic_share_variant[] Tell friends
-You can tell your friends about your experience with Sleep as Android.
+| icon:ic_cloud_upload[] | *Backup*: Opens back up dialogue. For more details on Back up, see <</services/backup_data#,Backup>>.
+| icon:ic_incognito[] | *Privacy*: Opens the <</general/privacy#, Privacy section>>
+| icon:ic_share_variant[] | *Tell friends*: You can tell your friends about your experience with Sleep as Android.
+|===
 
 // === icon:ic_translate[] Translate app
 // Can you help us translating Sleep as Android? Also see <</general/translation#,Translation>>.

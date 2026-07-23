@@ -10,131 +10,101 @@ tags:
 - wearable
 ---
 
+Pairing your Xiaomi Mi Band or Amazfit wearable with Sleep as Android allows you to track movement, monitor heart rate, and wake up softly with gentle wrist vibrations.
+
+To bridge Sleep as Android with your wearable, we rely on the third-party **Notify** companion app series (developed by *Matteo from [OneZerobit](https://play.google.com/store/apps/developer?id=OneZeroBit&)*):
+* **[Notify for Mi Band](https://play.google.com/store/apps/details?id=com.mc.miband1)**
+* **[Notify for Xiaomi & Mi Fitness](https://play.google.com/store/apps/details?id=com.mc.xiaomi1)**
+* **[Notify for Amazfit & Zepp](https://play.google.com/store/apps/details?id=com.mc.amazfit1)**
+
+> ⚠️ **Important:** Sleep as Android connects to these wearables using third-party companion apps, because Xiaomi and Amazfit devices do not provide an open API for direct integration.
+
+## Supported Devices
+
+### 1. Supported Xiaomi Mi Bands & Watches
+* **Notify for Mi Band:** Mi Band 1, 1S, 1A, HRX, 2, 3, 3i, 4, 5, 6, 7
+* **Notify for Xiaomi & Mi Fitness:** Mi Band 8, 8 Pro, 9, 9 Pro, 10, Mi Band 7 Pro, Redmi Band 2, Redmi Watch 2/3, Xiaomi Watch S1
+
+### 2. Supported Amazfit & Zepp Devices
+* **Notify for Amazfit & Zepp:**
+  * **Bip Series:** Bip, Bip Lite, Bip S, Bip 3, Bip 5, Bip 6
+  * **GTS & GTR Series:** GTS, GTS 2/3/4, GTR, GTR Lite, GTR 1/2/3/4/5
+  * **T-Rex Series:** T-Rex 1, Pro, 2, Ultra
+  * **Other Models:** Amazfit Band 5, Active 1/2, Balance, Verge Lite, Zepp E Circle/Square
+
+## Setup Guide
+
+Connecting your device takes just a few quick steps across both apps:
+
+### Step 1: Enable Integration in the Notify App
+1. Open your **Notify** app on your phone.
+2. Switch to the **Sleep / Graph tab** and tap the **Settings (⚙️ / Cog)** icon.
+3. Locate the **Sleep as Android** section and toggle **Enable integration** on.
+
+> ⚠️ **Important:** Make sure all **Do Not Disturb (DND)** modes on your wearable are turned off or scheduled properly during sleep, as active DND modes can block alarm vibrations.
+
+### Step 2: Enable Integration in Sleep as Android
+1. Open **Sleep as Android** on your phone.
+2. Go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables`.
+3. Select **Notify for Mi Band / Amazfit / Xiaomi** from the list.
+4. *(Optional)* To track heart rate, enable **Heart rate monitoring** under `Settings` → `Sleep tracking` → `Wearables`.
+
+> 📌 **Note:** Sensor data is analyzed continuously in real time. Keep Bluetooth turned on on your phone throughout the night.
+
+## Heart Rate (HR) Monitoring
+
+To enable continuous heart rate monitoring during sleep tracking:
+
+1. In your **Notify app**, go to the **Sleep section → Sleep as Android → Settings**.
+2. Enable **Heart Rate Monitor**.
+3. In **Sleep as Android**, go to `Settings`️ → `Sleep tracking` → `Wearables` and turn on **Heart rate monitoring**.
+
+## Using Wristband Buttons to Snooze or Dismiss Alarms
+
+You can use the button or touch sensor on your band to control your phone alarm:
+
+1. Open the **Notify app** and go to **Sleep as Android settings**.
+2. Choose your preferred **Button action**:
+   * **Dismiss:** Pressing the button dismisses the alarm (confirmed with a vibration on your band).
+   * **Snooze:** Pressing the button twice snoozes the alarm (confirmed with a vibration).
+   * **No action:** Disables button actions for alarms.
+
+## Customizing Alarm Vibrations
+
+1. In **Sleep as Android**, go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and enable wearable vibrations.
+2. In your **Notify app**, go to **Sleep as Android settings** and enable **Custom vibration**.
+3. Tap **Vibration settings** to adjust intensity, length, and delay between vibrations.
+4. Tap the **Play / Test** button to preview your pattern on your watch.
+
+---
+
+## ❓ Frequently Asked Questions & Troubleshooting
+
+<details>
+<summary><strong>Why is my connection dropping or showing red gaps on the sleep graph?</strong></summary>
+
+If you see red sections on your sleep graph, Android background power management is likely terminating either Bluetooth, Sleep as Android, or the Notify app during the night.
+
+**How to fix it:**
+Exclude all of the following from Android battery optimization / power saving:
+1. **Sleep as Android**
+2. Your **Notify companion app**
+3. Your official band app (such as **Mi Fitness** or **Zepp**)
+4. **Bluetooth System Services**
+
+For step-by-step instructions for your specific phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+</details>
 
 
-Sleep as Android does not have direct integration with Mi Bands and Amazfit, because the API necessary for integration is not open.
-But thanks to the Notify app, you can use some devices with Sleep app.
-[Notify for Mi Band](https://play.google.com/store/apps/details?id=com.mc.miband1&hl=en), [Notify for Xiaomi & Mi Fitness](https://play.google.com/store/apps/details?id=com.mc.xiaomi1&hl=en) and [Notify for Amazfit & Zepp](https://play.google.com/store/apps/details?id=com.mc.amazfit1&hl=en) are developed by [OneZerobit](https://play.google.com/store/apps/developer?id=OneZeroBit&hl=en).
+<details>
+<summary><strong>How do I set up a silent alarm with vibrations only on my band?</strong></summary>
 
-You can visit Notify app page for [Sleep as Android integration here](http://forum.mibandnotify.com/discussion/20117/sleep-as-android-integration).
+Want a quiet wake-up call? Here is how to set your alarm to vibrate on your watch first:
+1. Choose your sound preference:
+    * **Silent:** In the specific alarm's settings, go to Sound and select Silent.
+    * **Vibration first, sound later:** Go to `Settings` → `Alarms` → `Sound delay`.
+2. Turn on watch vibrations: Go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and choose **From start**.
 
-
-## Supported Mi Bands <a id="supported_wearables"></a>
-
-
-
-### Notify for Mi Band
-
-
-- Mi Band 1, 1S and 1A
-- Mi Band HRX
-- Mi Band 2
-- Mi Band 3 and 3i
-- Mi Band 4
-- Mi Band 5
-- Mi Band 6
-- Mi Band 7
-
-
-### Notify for Xiaomi and Mi Fitness
-
-
-- Mi Band 7 PRO
-- Mi Band 8
-- Mi Band 8 PRO
-- Xiaomi Watch S1
-- Redmi Band 2
-- Redmi Watch 2+3
-
-
-## Supported Amazfits <a id="supported_wearables"></a>
-
-
-- Amazfit T-Rex
-- Amazfit GTS
-- Amazfit GTR, GTR Lite (47mm & 42mm)
-- Amazfit Verge Lite
-- Amazfit Bip, Bip Lite, Bip S, Bip 3
-- Amazfit Mi Dong Cor
-- Amazfit Arc
-- Amazfit Band 5
-
-
-## How to set up integration in Notify app
-
-
-[cols="^,^"]
-|===
-a|.Switch to the graph tab and tap on the cog icon.
-![](NF_vibr_1.png)
-
-a|.Enable Sleep as Android integration.
-![](NF_enabled.png)
-
-|===
-
-
-
-## How to set up integration in Sleep app
-1. Open _Settings -> Sleep tracking -> Wearables -> Use wearable_.
-1. Choose the correct option from the list.
-1. For HR data enable _Settings -> Sleep tracking -> Wearable -> Heart rate monitoring_.
-> **Note:** Sleep tracking collects data the whole night and they are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
-
-
-
-## HR monitoring
-1. Enable collecting HR data by the Sleep app in N&F ![ic_action_graph](/assets/icons/ic_action_graph.svg) -> _Sleep_ section ![ic_cog](/assets/icons/ic_cog.svg) -> _Sleep as Android -> Settings -> Heart monitor_
-1. Enable collecting dat in Sleep app in _Settings -> Sleep tracking -> Wearables -> Heart rate monitoring_.
-
-[cols="^,^"]
-|===
-
-a|.Open _Settings_ for Sleep as Android integration.
-![](NF_vibr_2.png)
-
-a|.Notify&Fintess HR data enabled for Sleep
-![](nf_hr1.png)
-
-|===
-
-
-## Button snooze / dismiss
-
-
-
-[cols="^,^"]
-|===
-
-a|.Open _Settings_ for Sleep as Android integration.
-![](NF_vibr_2.png)
-
-a|.Choose the action of the button.
-![](NF_button.png)
-
-|===
-
-
-- **Dismiss** - enables dismissing alarm with the button (dismiss will be confirmed with a vibration)
-- **Snooze** - with two button press, you can snooze the alarm (will be confirmed with a vibration)
-- No action for the button - disable both previous options
-
-
-## Custom vibration pattern
-1. First, enable wearable vibrations in Sleep app in _Settings -> Sleep tracking -> Wearables -> Alarm_.
-1. Open Notify app and enable custom vibrations in Sleep as Android settings section.
-1. Open the vibration settings with the _Vibration_ button.
-1. Adjust the vibration pattern - you can change intensity and duration, and also vibration delay.
-1. Test the resulting vibration pattern with the Play button in the top right corner.
-> **Note:** You can also have a silent alarm with vibrations only, for details, see [the guide](/alarms/alarm_settings/guide))
-
-[cols="^,^"]
-|===
-
-a|.Open _Settings_ for Sleep as Android integration.
-![](NF_vibr_2.png)
-
-a|.Find _Custom vibration_.
-![](NF_vibr_3.png)
-
-|===
+> [!TIP]
+> We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
+</details>

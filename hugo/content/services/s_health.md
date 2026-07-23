@@ -7,38 +7,48 @@ parent: /services/0parent.html
 ---
 
 
-Allows you to sync data between Sleep as Android and Samsung Health
+Sync data seamlessly between **Sleep as Android** and **Samsung Health** to get a complete picture of your rest and activity.
 
-- Automatically export your sleep duration, sleep times to Samsung Health.
-- Automatically import 3rd party sleep duration and heart rate into Sleep.
-- Automatically sync #sport tag based on your fitness activity recorded in Samsung Health.
-- Automatically import walking sessions during the night (considered as awake, not including sleep walking).
+## What It Does
 
-_Settings -> Services -> Samsung Health_
+*   **Automatic Export:** Sends your sleep duration and sleep times directly to Samsung Health.
+*   **Smart Import:** Pulls third-party sleep duration and heart rate data back into Sleep as Android.
+*   **Activity Tracking:** Automatically tags your sleep with a `#sport` tag if you recorded a fitness activity in Samsung Health earlier that day.
+*   **Nighttime Activity:** Imports any walking sessions detected during the night (which are categorized as "awake" time, not sleepwalking).
 
+> 📍 **Find it in the app:** Go to `Settings` → `Services` → `Samsung Health`
 
-## How to connect to Samsung Health
+## How to Connect to Samsung Health
 
+Follow the visual steps below to link your accounts:
 
-[.imgflexblock]
-****
-![](shealth/2.png)
-![](shealth/3.png)
-![](shealth/4.png)
-![](shealth/5.png)
-![](shealth/6.png)
-![](shealth/8.png)
-****
+<div class="imgflexblock"><div class="content">
+  <img src="/assets/images/shealth/2.png" />
+  <img src="/assets/images/shealth/3.png" />
+  <img src="/assets/images/shealth/4.png" />
+  <img src="/assets/images/shealth/5.png" />
+  <img src="/assets/images/shealth/6.png" />
+  <img src="/assets/images/shealth/8.png" />
+</div></div>
 
+## Data Synchronization
 
-## Synchronization
+Sleep as Android uses two different methods to keep your data up to date:
 
+### Normal Sync
+*   **Data Window:** Stores the last 2 weeks of data.
+*   **When it happens:**
+    *   Every time a sleep tracking session ends.
+    *   When you manually create a sleep record.
+    *   When you open the app (if a sync hasn't occurred in the last 24 hours and your phone is connected to the internet).
 
-There are two synchronization methods:
+### Full Sync
+*   **Data Window:** Stores up to the last 5 years of data.
+*   **When it happens:** You must trigger this manually.
+*   **How to trigger it:** Go to `Settings` → `Services` → `Samsung Health`, toggle the service off and back on, and then tap the **Upload** button in the bottom right corner.
 
-- **Normal sync**: stores the last 2 weeks of data. Sync happens every time sleep tracking ends or when you manually create a sleep record. Also every time you start the app, if no sync has happened in the last 24 hours and the phone is connected.
-- **Full sync**: stores the last 5 years of data. Can be triggered from Settings > Services > Samsung Health (you need to toggle off and on) > Upload (button in the bottom right corner).
-> **Note:** Heart rate data are imported only for the past 7 days in both normal and full sync (because they are computationally intensive).
+> [!NOTE]
+> **Heart Rate Data:** Because processing heart rate data is computationally intensive, it is only imported for the **past 7 days** during both Normal and Full syncs.
 
-[WARNING]
-The app will only sync entries without cloud icon (that were already synced from another cloud service).
+> [!WARNING]
+> The app will only sync local entries. Any entries marked with a cloud icon (meaning they were already synced from another cloud service) will be skipped to prevent duplication.

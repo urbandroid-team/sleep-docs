@@ -6,51 +6,39 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+**Connect Sleep as Android with hundreds of other services and smart devices using IFTTT.**
 
+We use the [**IFTTT Webhooks**](https://ifttt.com/maker_webhooks) channel to send real-time triggers from Sleep as Android to your IFTTT recipes.
 
-## What it does
+**Menu Path:** `Settings` → `Services` → `Automation` → `IFTTT`
 
-**Allows you to use Sleep as Android as a trigger for IFTTT tasks.**
+---
 
-We use the link:[IFTTT Webhooks (formerly Maker)](https://ifttt.com/maker_webhooks) channel to send triggers/events from Sleep as Android.
+## Setup Guide
 
+To link your account and start building recipes:
 
-## Where to find it
+1.  Navigate to `Settings` → `Services` → `IFTTT` and tap **Retrieve**.
+2.  An IFTTT login screen will appear. Enter your email and password to sign in.
+    > [!WARNING]
+    > **Login Issues:** Do not use Google or Facebook login. These methods are often blocked when using the embedded browser within the app.
 
-_Settings -> Services -> Automation -> IFTTT_
+    > [!TIP]
+    > **Manual ID Entry:** If you prefer not to log in through the app, you can manually copy your Webhook ID from a desktop browser at [IFTTT Webhook Settings](https://ifttt.com/services/maker_webhooks/settings). The ID is the string at the end of your unique URL.
 
-When you enable the option, you will be taken to its settings.
+3.  Once the "IFTTT connected" message appears, go to the [IFTTT Create Page](https://ifttt.com/create).
+4.  **The Trigger (If This):**
+    *   Search for **Webhooks** and select **Receive a web request**.
+    *   Enter the exact name of a [Sleep as Android event](#events) (e.g., `alarm_alert_start`).
+5.  **The Action (Then That):** Choose the service you want to control (e.g., Philips Hue, smart plugs, or your thermostat).
 
+---
 
-## Guide
+## Events Sent to IFTTT
 
+Sleep as Android can trigger IFTTT tasks for various moments throughout the night. For a full list of supported event names and the data they carry, [**see our Automation Events guide here**](/services/automation#events).
 
-
-### Setup
-
-1. In _Settings -> Services -> IFTTT_, tap on _Retrieve_. An IFTTT login screen will show up below.
-2. Enter your email and password and tap _Sign in_.
-
-> **Note:** Don't use Google/Facebook login. It doesn't work when the web browser window is embedded inside our app.
-If you don't want to fill your email/password inside our app, you can copy the needed ID from your own browser. Check https://ifttt.com/services/maker_webhooks/settings – the ID is in the page's URL, after /use/)
-
-3. Your ID gets loaded automatically and “IFTTT connected” message will appear.
-4. Now you can add IFTTT recipes on the [IFTTT create page](https://ifttt.com/myrecipes/personal/new).
-  - Click on _+THIS_ and select _Webhooks > Receive a web request_.
-  - In the “event name” field, type one of the events below. Click _Create trigger_.
-  - Click on _+THAT_ and choose your desired action.
-
-> **Note:** In _+THAT_, you can also add variables (or "ingredients" as IFTTT calls them) from the event. For example with alarm_alert_start, we are sending the alarm timestamp and label.
-
-
-
-### Events that Sleep as Android posts to IFTTT
-
-[See here](/services/automation#events).
-
-
-### Example recipes
-
-- [Turn off Philips Hue when sleep tracking starts](https://ifttt.com/recipes/405744-sleep-as-android-turn-off-all-philips-hue-lights-when-starting-sleep-tracking)
-<!-- FAQS: -->
-<!-- can'themes get into settings!!! -> you should disable and enable -->
+### Example Recipes
+*   [**Morning Routine:** Turn on your Philips Hue lights when your alarm starts.](https://ifttt.com/recipes/405744-sleep-as-android-turn-off-all-philips-hue-lights-when-starting-sleep-tracking)
+*   **Coffee Prep:** Start your smart coffee maker when you dismiss your alarm.
+*   **Silence the House:** Mute your smart home notifications when you start sleep tracking.

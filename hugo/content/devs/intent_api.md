@@ -4,69 +4,67 @@ layout: default
 title: Intent API
 nav_order: 2
 parent: /devs/0parent.html
+---
+
+**Automate your sleep-related tasks or integrate your own apps with Sleep as Android using our flexible Intent API.**
+
+This API allows developers and enthusiasts to trigger actions within Sleep as Android or react to real-time sleep events using automation tools like [Tasker](/services/tasker_automate).
+
+> **Example:**
+> [Let Google Text To Speech announce your alarm time](https://sites.google.com/site/jmaathuis/android/tasker/sleep-as-android/let-google-text-to-speech-say-on-which-time-your-alarm-goes)
 
 ---
 
+## Action Intents (Control Sleep)
 
+These intents allow your app or automation script to control Sleep as Android features.
 
-## Who is the API intended for
+> [!WARNING]
+> For actions to work via intents, you **must** set the `com.urbandroid.sleep` package on each intent.
 
-This API is intended for individuals who want to automate their sleep related tasks as well as developers who'd like to implement apps or services integration with Sleep as Android.
+### Broadcasts
+*   **Start Sleep Tracking:** `com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK`
+    *   *Extra (Boolean):* `START_IN_BATTERY_SAVING_MODE = true` (Optional: logs time only, no graph).
+*   **Start Tracking with Ideal Alarm:** `com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK_WITH_IDEAL_ALARM_ACTION`
+*   **Stop Sleep Tracking:** `com.urbandroid.sleep.alarmclock.STOP_SLEEP_TRACK`
+*   **Pause Tracking (5 min):** `com.urbandroid.sleep.ACTION_PAUSE_TRACKING`
+*   **Disable Alarm (Not Ringing):** `com.urbandroid.sleep.alarmclock.ALARM_STATE_CHANGE`
+    *   *Extra (String):* `alarm_label` — The label of the alarm to change.
+    *   *Extra (Boolean):* `alarm_enabled` — Set to `false` to disable.
+*   **Snooze Alarm:** `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE`
+    *   *Extra (Integer):* `extra_snooze_time` — Duration in minutes (1–60).
+*   **Dismiss Alarm:** `com.urbandroid.sleep.alarmclock.ALARM_DISMISS_CAPTCHA`
+*   **Stop Lullaby:** `com.urbandroid.sleep.ACTION_LULLABY_STOP_PLAYBACK`
+*   **Request Backup Sync:** `com.urbandroid.sleep.REQUEST_SYNC` (Triggers CSV export and cloud backup).
 
-You can automate most aspects of Sleep as Android and integrate it with other services or apps on your phone using common automation software such as Tasker for example.
+### Services
+*   **Start Lullaby:** Start a Service with package `com.urbandroid.sleep` and class `com.urbandroid.sleep.media.lullaby.LullabyService`.
+    *   *Extra (String):* `extra_lullaby` — The internal name of the lullaby.
+    *   *Internal Names:* `WHITENOISE`, `WHALE`, `STORM`, `STREAM`, `CAVE`, `FIREPLACE`, `SEA`, `WIND`, `CLOCK`, `FROGS`, `CHIMES`, `OM`, `BELLS`, `FLUTE`, `PIANO`, `CAT`, `NASA`, `JUNGLE`, `TIBET`, etc.
 
-[EXAMPLE]
-link:[Let Google Text To Speech say on which time your alarm goes](https://sites.google.com/site/jmaathuis/android/tasker/sleep-as-android/let-google-text-to-speech-say-on-which-time-your-alarm-goes)
+---
 
+## Event Intents (React to Sleep)
 
-## Action intents to control Sleep
-> **Warning:** For actions to work via intents, you need to set `com.urbandroid.sleep` package on each intent.
+Sleep as Android broadcasts these events so other apps can react when your sleep state changes.
 
-.Broadcasts
-- **Start sleep tracking**: `com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK`
-* Optional extra to start in battery saving mode:
-** START_IN_BATTERY_SAVING_MODE = true
-- **Start sleep tracking + set an alarm for ideal sleep length**: `com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK_WITH_IDEAL_ALARM_ACTION`
-- **Stop sleep tracking**: `com.urbandroid.sleep.alarmclock.STOP_SLEEP_TRACK`
-- **Pause sleep tracking for 5 minutes**: `com.urbandroid.sleep.ACTION_PAUSE_TRACKING`
-- **Disable Alarm (when not currently ringing)**: `com.urbandroid.sleep.alarmclock.ALARM_STATE_CHANGE`
-* Extras:
-** alarm_label: String representing a label of alarm to be changed. If there are more such alarms, only one of them is going to be changed (no guarantees which).
-** alarm_enabled: Boolean saying whether alarm should be enabled or disabled.
-- **Snooze Alarm**: `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE`
-You can send an integer extra to set the snooze duration in minutes (in range from 1 to 60).
-EXTRA NAME: extra_snooze_time
-- **Dismiss Alarm**: `com.urbandroid.sleep.alarmclock.ALARM_DISMISS_CAPTCHA`
-- **Stop Lullaby**: `com.urbandroid.sleep.ACTION_LULLABY_STOP_PLAYBACK`
-- **Request Backup**: `com.urbandroid.sleep.REQUEST_SYNC`
-Starts the backup sync – export a CSV file, backup to Sleepcloud, Dropbox and Google Drive if connected. See [Backup data](/services/backup_data).
+> [!NOTE]
+> **Runtime Receivers Required:** Due to Android system restrictions, you must use dynamic/runtime receivers. Receivers defined only in `AndroidManifest.xml` will not receive these broadcasts.
 
-.Services
-- **Lullaby start**: Start a Service with package `com.urbandroid.sleep` and class `com.urbandroid.sleep.media.lullaby.LullabyService`
-EXTRA: extra_lullaby = “lullaby name”…
-Lullaby names:
-NONE, WHITENOISE, WHALE, STORM, STREAM, CAVE, FIREPLACE, SEA, WIND, CLOCK, TIBER, NIGHT, FROGS, HORSE, SHEEP, CHIMES, OM, BELLS, FLUTE, PIANO, CAT, TRAIN, MARCH, MUSICBOX, BABY, GIRL, SUB, NASA, LAVA, JUNGLE, TIBET, BABY, SCIFI, CHOR, BREATH…
-
-
-## Events emitted by Sleep
-> **Note:** To receive the events, you need to use run-time receivers (receivers defined only in AndroidManifest.xml won’t work).
-Direct receiving of broadcast intents stopped working in late 2018 due to Android restrictions on implicit intents.
-- **Sleep tracking started**: `com.urbandroid.sleep.alarmclock.SLEEP_TRACKING_STARTED_AUTO`
-- **Sleep tracking stopped**: `com.urbandroid.sleep.alarmclock.SLEEP_TRACKING_STOPPED_AUTO`
-- **Deep sleep phase started**: `com.urbandroid.sleep.TRACKING_DEEP_SLEEP_AUTO`
-- **Light sleep phase started**: `com.urbandroid.sleep.TRACKING_LIGHT_SLEEP_AUTO`
-- **Snoozed by user**: `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE_CLICKED_ACTION_AUTO`
-- **Time to bed notification**: `com.urbandroid.sleep.alarmclock.TIME_TO_BED_ALARM_ALERT_AUTO`
-- **Alarm triggered**: `com.urbandroid.sleep.alarmclock.ALARM_ALERT_START_AUTO`
-- **Alarm dismissed**: `com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS_AUTO`
-- **Lullaby started**: `com.urbandroid.sleep.ACTION_LULLABY_START_PLAYBACK_AUTO`
-- **Lullaby stopped**: `com.urbandroid.sleep.ACTION_LULLABY_STOPPED_PLAYBACK_AUTO`
-- **Lucid dreaming cue**: `com.urbandroid.sleep.LUCID_CUE_ACTION_AUTO`
-> **Note:** Make sure [Lucid dreaming](/sleep/lucid_dreaming) is enabled in settings
-- **Antisnoring sound**: `com.urbandroid.sleep.ANTISNORING_ACTION_AUTO`
-- **Audio recognition**: `com.urbandroid.sleep.audio.SOUND_EVENT_AUTO`
-* No more than 1 intent per 30 s gets broadcasted.
-* Extras:
-** TIMESTAMP – Unix epoch millis
-** SOUND_CLASS – one of “SNORE”, “TALK”, “COUGH”, “BABY”, “LAUGH”
-- **Start of smart period**: `com.urbandroid.sleep.SMART_PERIOD_AUTO`
+*   **Sleep Tracking Started:** `com.urbandroid.sleep.alarmclock.SLEEP_TRACKING_STARTED_AUTO`
+*   **Sleep Tracking Stopped:** `com.urbandroid.sleep.alarmclock.SLEEP_TRACKING_STOPPED_AUTO`
+*   **Deep Sleep Phase Started:** `com.urbandroid.sleep.TRACKING_DEEP_SLEEP_AUTO`
+*   **Light Sleep Phase Started:** `com.urbandroid.sleep.TRACKING_LIGHT_SLEEP_AUTO`
+*   **Snoozed by User:** `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE_CLICKED_ACTION_AUTO`
+*   **Time to Bed Notification:** `com.urbandroid.sleep.alarmclock.TIME_TO_BED_ALARM_ALERT_AUTO`
+*   **Alarm Triggered:** `com.urbandroid.sleep.alarmclock.ALARM_ALERT_START_AUTO`
+*   **Alarm Dismissed:** `com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS_AUTO`
+*   **Lullaby Started:** `com.urbandroid.sleep.ACTION_LULLABY_START_PLAYBACK_AUTO`
+*   **Lullaby Stopped:** `com.urbandroid.sleep.ACTION_LULLABY_STOPPED_PLAYBACK_AUTO`
+*   **Lucid Dreaming Cue:** `com.urbandroid.sleep.LUCID_CUE_ACTION_AUTO` (Requires [Lucid Dreaming](/sleep/lucid_dreaming) enabled).
+*   **Anti-snoring Sound:** `com.urbandroid.sleep.ANTISNORING_ACTION_AUTO`
+*   **Audio Recognition:** `com.urbandroid.sleep.audio.SOUND_EVENT_AUTO`
+    *   *Frequency:* Max once per 30 seconds.
+    *   *Extra (Long):* `TIMESTAMP` — Unix epoch millis.
+    *   *Extra (String):* `SOUND_CLASS` — One of: `SNORE`, `TALK`, `COUGH`, `BABY`, `LAUGH`.
+*   **Start of Smart Period:** `com.urbandroid.sleep.SMART_PERIOD_AUTO` (Fires at the start of the wake-up window).

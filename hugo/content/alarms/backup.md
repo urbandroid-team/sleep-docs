@@ -8,56 +8,48 @@ tags:
 - backup
 ---
 
+**The Backup Alarm is a fail-safe feature that triggers a loud, maximum-volume alarm if you ignore your primary alarm.**
 
-**Starts ringing loudly at maximum volume if you ignore your normal alarm.**
+This ensures that even if you are an exceptionally heavy sleeper or accidentally sleep through your regular ringtone, you won't miss your wake-up call.
 
-Backup alarm will start after [Alarm timeout](#alarm-timeout).
-
-_Settings -> Alarms -> Backup alarm_
+**Menu Path:** `Settings` → `Alarms` → `Backup alarm`
 
 ---
 
+## Core Options
 
+### Backup Alarm Duration
+Sets how long the backup alarm will ring. Once this duration expires, the alarm will automatically snooze for your default *Snooze Time* (but never less than 10 minutes).
 
+### Ringtone
+Choose the sound for your backup alarm.
 
-## Backup alarm duration
+> [!NOTE]
+> **How to disable the backup alarm:** <a id="backup_disable"></a>
+> 1. Go to `Settings` → `Alarms` → `Backup alarm` → `Sound`.
+> 2. Set the ringtone to **Silent**.
+>
+> *Note:* Selecting a silent ringtone for the backup alarm will **not** disable vibrations. The backup alarm is designed as a last resort to ensure you wake up.
 
-Set how long the backup alarm will ring (it will then snooze for your default _Snooze Time_, but never less than 10 minutes).
+### Alarm Timeout <a id="alarm-timeout"></a>
+Defines the period of inactivity (ignoring the normal alarm) after which the backup alarm will trigger.
 
+### Repeat
+Sets the maximum number of times the backup alarm can repeat its cycle. After this limit is reached, no further alarms will sound for that session.
 
-## Ringtone
+---
 
-Backup alarm ringtone.
+## How it Works (Example)
 
-
-### How to disable backup alarm <a id="backup_disable"></a>
-1. Go to _Settings -> Alarm default settings -> Back up -> Sound_.
-1. Set the ringtone to _Silent_.
-> **Note:** Silent ringtone for backup alarm won't disable vibrations. The backup alarm is the last thing to let you know that the alarm is still going off, so you can react and not fall asleep.
-
-
-## Alarm timeout <a id="alarm-timeout"></a>
-
-Time after which the backup alarm will ring if you ignore your normal alarm.
-
-
-## Repeat
-
-Maximum number of times the alarm can be repeated. After that, no alarm will ring.
-
-
-[EXAMPLE]
-
-#### Alarm time: 7:00
-
-Backup alarm duration: 2 minutes
-Alarm timeout: 10 minutes
-This is what happens if you don't interact with the alarm:
-
-- 7:00 – alarm starts
-- 7:10 – backup alarm starts (full volume, duration 2 minutes)
-- 7:12 – automatically snoozes (for 10 minutes, as your default snooze time is 10 minutes)
-- 7:22 – backup alarm starts again
-
-…and so on, based on the number of repetitions.
-====
+> **Example:**
+> *   **Primary Alarm Time:** 7:00 AM
+> *   **Backup Alarm Duration:** 2 minutes
+> *   **Alarm Timeout:** 10 minutes
+>
+> **Timeline of events (if no interaction):**
+> 1.  **7:00 AM:** Primary alarm starts ringing.
+> 2.  **7:10 AM:** Primary alarm times out; the **Backup Alarm** starts (full volume).
+> 3.  **7:12 AM:** Backup alarm finishes its 2-minute duration and automatically snoozes for 10 minutes.
+> 4.  **7:22 AM:** Backup alarm starts again.
+>
+> This cycle continues until you dismiss the alarm or reach the maximum number of repeats.

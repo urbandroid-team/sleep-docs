@@ -6,38 +6,38 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+**Push real-time sleep events directly to your own server, web application, or API endpoint using Custom Webhooks.**
 
+Webhooks are one of our most flexible automation tools, allowing you to integrate Sleep as Android into any platform that can receive HTTP POST requests.
 
-## What it does
+**Menu Path:** `Settings` → `Services` → `Automation` → `Webhooks`
 
-**Allows you to POST events from Sleep as Android to a custom URL endpoint.**
+---
 
+## Setup Guide
 
-## Where to find it
+To start receiving events on your server:
 
-_Settings -> Services -> Automation -> Webhooks_
+1.  **Enable Webhooks:** Toggle the **Webhooks** option in the automation menu.
+2.  **Configure URL:** Tap the **URL** option and enter the full destination address (including `http://` or `https://`).
+3.  **Test:** Trigger an event (like starting a tracking session) to verify your server receives the data.
 
+---
 
-## Guide
+## Data Format
 
+Whenever a [sleep event](/services/automation#events) occurs, Sleep as Android sends an HTTP POST request with a JSON body.
 
-
-### Setup
-1. Enable the _Webhooks_ option
-1. Tap the URL option and fill in the URL of your server/application, including _http://_ or _https://_ .
-1. Tap ok. It's done!
-
-
-### Format of the POST request
-
-On every event, Sleep as Android will POST a request with a JSON body in the following format:
-
-```
+### Payload Example:
+```json
 {
     "event" : "event_name",
-    "value1" : "",
-    "value2" : "",
-    "value3" : ""
+    "value1" : "data_point_1",
+    "value2" : "data_point_2",
+    "value3" : "data_point_3"
 }
 ```
-The `event` field will have a value of one of the [event names](/services/automation#events). The `valueX` fields will be only present if not empty.
+
+*   **`event`:** The name of the triggered event (see the full list of [event names here](/services/automation#events)).
+*   **`valueX`:** Contextual information related to the event. These fields are omitted if no data is available for that specific event.
+*   **Content-Type:** The request is sent with `application/json`.

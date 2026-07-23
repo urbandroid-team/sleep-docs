@@ -6,60 +6,62 @@ nav_order: 2
 parent: /alarms/0parent.html
 ---
 
-
-**Creating new alarms or a naps.**
-
----
+Setting up an alarm in **Sleep as Android** gives you complete control over your wake-up routine—whether you need a simple daily alarm, a quick nap timer, or a highly customized schedule.
 
 
+## Ways to Create a New Alarm
 
-## Creating a new alarm
+You can create a new alarm from several places within the app depending on your layout preference:
 
+* **From the Dashboard:**
+    Tap the ![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) button at the top of the screen on the alarm card.
 
-You can create an alarm by using any of these methods:
-- **Set new alarm card**: on Dashboard, when there is no active alarm. ![](set_alarm_1.png)
-- **Alarm icon ![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg)**: in the search bar (Tabs layout) ![](set_alarm_2.png)
-- **Alarm icon ![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg)**: on the alarm card (Dashboard layout) ![](set_alarm_3.png)
-- **Alarm icon widget**: from the main screen - see [more details about widgets](ux/widgets) ![](set_alarm_4.png)
-- **Shortcut bar on the Dashboard**: creates a new alarm (with the _Delete after ringing_ option enabled) and start sleep tracking in one step.
-![](set_alarm_5.png)
+* **From the Tabs layout:**
+    Tap the **(![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) Add Alarm)** button located in the top left, on the Alarms tab.
 
+* **From the Alarms only layout:**
+    Tap the **(![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) Add Alarm)** button located in the bottom right corner.
 
-## Editing the alarms
+* **From Your Phone's Home Screen:**
+  Add the **Alarm Icon Widget** to your home screen for quick, one-tap creation. [(Learn more about widgets)](/ux/widgets)
 
-To quickly edit trigger time of an existing alarm, tap on the time of the alarm.
+* **Quick Sleep Tracking & Instant Alarm:**
+  Use the **Shortcut Bar** on the Dashboard. This automatically creates a single-use alarm (with *Delete after ringing* enabled) and starts sleep tracking in one smooth step. For more details about Shortcuts, check out the [Dashboard](/ux/hs_dashboard#shortcut) chapter.
 
-To edit [Alarm-specific](/alarms/alarm_settings#per-alarm) settings of your alarm, tap anywhere else than the the alarm time or the alarm switch button.
+## Options for Entering the Alarm Time
 
-<a id="figure-edit-alarm"></a>
-.Edit alarm time
-![](alarm_edit.png)
-> **Note:** All options in the  [per-alarm](/alarms/alarm_settings#per-alarm) will override the settings default for other alarms, and are applied to this alarm only. If you wish to change all alarms, go to _Settings → Alarms_.
+When setting or updating an alarm time, you have several input styles and smart wake-up features to choose from:
 
-<a id="time_picker"></a>
+### Time Pickers
+Select the picker interface that suits your preference:
+*   **Analog Clock Picker** (Default)
+*   **Wheel Time Picker**
+*   **Material YOU picker**
 
+*How to switch styles:* Go to `Settings` → `Personalize` → `Analog time picker`.
 
-## Options for entering the alarm time
-- **Time picker**: You can choose between analog clock time picker (default) and wheel time picker and Material You time picker (This can be configured in <</ux/personalize#analog-picker,_Settings -> Personalize -> Analog time picker_>> or at <</ux/personalize#material-picker,_Settings -> Personalize -> Material time picker_>>).
-- **Voice**: Use the mic icon ![ic_action_mic](/assets/icons/ic_action_mic.svg) and then say the time aloud. Google speech recognition will fill in the time.
-- **Keyboard**: Use the e.g. **700** text field and type the time in HHMM format.
-- **Wake up at the next sunrise**: Use the ![ic_action_sunrise](/assets/icons/ic_action_sunrise.svg) button - the alarm will be scheduled for your local sunrise time.
-> **Note:** Location permission is needed for sunrise alarms.
-- **Wake up at an ideal time**: Tap on the ![ic_target](/assets/icons/ic_target.svg) button or **GOAL** button. The time is scheduled to reach your [Daily sleep duration goal](/sleep/ideal_daily_sleep).
+### Voice Input
+Tap the **![ic_action_mic](/assets/icons/ic_action_mic.svg) Microphone icon** and speak your wake-up time aloud (e.g., *"Seven thirty AM"*). Powered by Google Speech Recognition.
 
+### Keyboard Entry
+Tap the numerical text box and type your target time directly in 24-hour **HHMM** format (for example, type `0700` for 7:00 AM).
 
-<a id="figure-new-alarm"></a>
+### Advanced Alarm Time Options
 
+* **Sunrise Alarm:** Tap the **![ic_action_sunrise](/assets/icons/ic_action_sunrise.svg) Sunrise icon** to automatically sync your alarm time to your local sunrise time.
+  > [!NOTE]
+  > Requires location permissions enabled on your device.
 
-[cols="1,1,1"]
-|===
-a| .Analogue time picker
-![](time_picker_a.png)
+* **Sleep Goal Alarm:** Tap the **![ic_target](/assets/icons/ic_target.svg)** target button. The app will calculate your ideal wake-up time based on when you go to bed to help you hit your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
 
-a| .Wheel time picker
-![](time_picker_b.png)
+## Editing & Managing Alarms
 
-a| .Material YOU picker
-![](time_picker_c.png)
+Managing your current alarms is fast and simple:
 
-|===
+* **Change the Time:** Tap directly on the **time** displayed on the alarm card to open the time picker.
+* **Customize Alarm Settings:** Tap **anywhere else** on the alarm card (outside the time display and toggle switch) to open its individual settings—such as ringtones, CAPTCHAs, or custom snooze options.
+* **Deleting an alarm:** Long-press on the alarm you want to remove, then choose **Delete**, or in the per-alarm settings, tap the **Delete** button at the bottom.
+* **Skip Next Instance:** If you have a recurring alarm set for tomorrow morning but have the day off, you can use the **Skip next** feature. Long-press the alarm card and choose **Skip next**.
+
+> [!TIP]
+> **Global vs. Per-Alarm Settings:** Customizing settings directly on an alarm card overrides your app default settings for **that specific alarm only**. If you want to change default settings for *all* alarms, go to `Settings` → `Alarms`.

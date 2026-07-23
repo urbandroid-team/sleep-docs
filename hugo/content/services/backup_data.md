@@ -8,126 +8,131 @@ tags:
 parent: /services/0parent.html
 ---
 
-
-**Make sure to never lose your data with either local manual backup or automated cloud backup.**
-
-_Left_ ≡ _menu -> Backup_
-_Settings -> Services -> Cloud backup_
-_Settings -> Privacy -> Backup_
+Never lose your sleep tracking history, alarms, or customized settings! Sleep as Android offers both **automated cloud backup** and **manual local export** options so you can safely transfer your data when upgrading or resetting your phone.
 
 ---
-- **// Google Drive**: See [Google Drive](#google_drive)
-- **// Dropbox**: See [Dropbox](#dropbox)
+
+## Quick Comparison: What gets backed up?
+
+| Backup Method | Sleep Records | App Settings | Active Alarms | Noise Metadata | Audio Files | Recommended For |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Google One System Backup** | ✅ | ✅ | ✅ | ✅ | ❌ | Automatic full phone restores |
+| **SleepCloud** *(Recommended)* | ✅ | ✅ | ✅ | ✅ | ❌ | Effortless cloud sync & web access |
+| **Google Drive / Dropbox** | ✅ | ✅ | ✅ | ✅ | ❌ | Storing backups in your own cloud |
+| **Manual Export (ZIP/CSV)** | ✅ | ✅ | ✅ | ✅ | ❌ | Offline backups & file sharing |
+| **Manual Sound Copy** | ❌ | ❌ | ❌ | ❌ | ✅ | Transferring actual sleep audio recordings |
+
+> [!NOTE]
+> Inactive alarms are never saved during backups. Audio recording files (`.m4a`/`.oggr`) are large and must be transferred manually if you wish to keep them.
+
+---
+
+## Automated Cloud Backups (Recommended)
+
+Automated backups protect your data continuously in the background without needing manual exports.
+
+### Option A: SleepCloud Add-on *(Best overall)*
+
+[SleepCloud](/services/sleepcloud) is designed specifically for Sleep as Android. It provides effortless cloud syncing, web dashboard access, and seamless data restoration on new devices.
+
+1. Install the **[SleepCloud Backup](https://play.google.com/store/search?q=sleepcloud&c=apps)** add-on from Google Play.
+2. In Sleep as Android, open `Settings` → `Services` → `Cloud backup`.
+3. Sign in to your account and enable backup.
 
 
+### Option B: Google Drive or Dropbox
+If you prefer storing your data in your personal cloud account:
 
-## Local backup
+1. Install the  **[SleepCloud Backup](https://play.google.com/store/search?q=sleepcloud&c=apps)** add-on add-on.
+2. Go to `Settings` → `Services` → `Cloud backup`.
+3. Select **Google Drive** or **Dropbox** and follow the authorization prompt.
 
-<a id="local_backup"></a>
-- **Backs up**: Sleep records, Settings, Noise recordings, Noise recordings metadata, Active alarms
-- **Does not back up**: Inactive alarms
+The app will automatically create a designated folder (`Sleep as Android` on Google Drive or `Sleep Cloud Backup` on Dropbox) to keep your files safe.
 
-Your data are being backed up on a daily basis to a dedicated folder on your phone (the exact location depends on the Android version, based on _Settings -> Personalize -> Privacy -> Storage path_).
-
-You can also start local backup manually using _Left_ ☰ _menu -> Backup -> Export data_.
-> **Warning:** Do not use if you plan to reinstall the application or delete the application data!
-If you want to use manual backup for these purposes, tap the SHARE button in the dialog and save the file to another location, attach it to an email, or save it to a cloud service.
-
-What is backed up in this folder:
-- **/rec folder**: Contains all your recorded noise files.
-- **noise.json**: Noise metadata
-- **prefs.xml**: Settings
-- **sleep-export.csv**: Latest sleep data
-- **sleep-export.backup.csv**: Sleep data from the previous backup
-- **ZIP file**: all the above (except /rec folder) are zipped up here for easy sharing
-
-You can also open the CSV file on your computer (e.g. in Excel) for your own analysis of the sleep tracking data. The structure of the CSV file is [documented here](/devs/csv).
+> [!WARNING]
+> If a cloud backup fails, you will receive a notification in your status bar. If issues persist, feel free to reach out to our team at **support@urbandroid.org**.
 
 
-### How to import / export in the app - manually
+## 2. Manual Backup & File Sharing
 
-You an also do a manual export/import process:
-1. Go to the _Left_ ☰ _menu -> ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) Backup -> Export_, and make sure the dialog says "successful".
-1. Copy the directory you see on the dialogue to your new phone's SD card.
-1. Install Sleep as Android on the new phone and immediately go to _Left_ ☰ _menu -> ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) Backup -> Import_.
-> **Note:** If you don't import immediately, the app will replace your `sleep-export.zip` file after the next sleep record is created. The old `sleep-export.zip` file will be renamed to `sleep-export.backup.zip`. See [solution](/faqs/backup_data_not_imported_immediately).
+If you prefer offline backups or want to transfer your data directly via email or message app, you can generate a local backup file at any time.
 
+### How to Create & Share a Manual Backup
 
-<a id="csv_export"></a>
+1. Open the `Left ≡ menu` → `Backup` → `Export data`.
+2. Once you see the **"Backup Successful"** message, tap **Share**.
+3. Choose your preferred app:
+   * **Email:** Send the generated `.zip` attachment to yourself.
+   * **Cloud / Messaging:** Save it directly to Google Drive, or local storage.
 
-### How to share the manually created backup
+> [!NOTE]
+> By default, manual backups are saved to scoped storage—the most secure location available, fully isolated and protected by the system. You can select a custom location via location in `Settings` → `Personalize` → `Privacy` → `Storage path`, though using scoped storage is strongly recommended for optimal data protection.
 
-For even easier migrating to a new phone, you can use your email, or cloud storage (like)
-1. Go to the _Left_ ☰ _menu -> ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) Backup -> Export_.
-1. When a dialogue "Successful backup to your local storage" appears, choose "Share" button.
-1. Now, you can choose your email client, and the backup zip file is attached to the body of a new email.
-1. Send it to yourself.
-1. Open the email client on your new phone, open the email, and tap on the attachment.
-1. You will be asked which data you wish to import - select all types of data you wish to import, and submit - [see how it looks like](#manual_import).
+> [!CAUTION]
+> Do **not** rely purely on a local folder backup if you plan to uninstall the app or factory reset your device! Uninstalling Android apps erases their local storage folder. Always use the **Share** button to send the file off your device first, or choose an alternative location for sharing (for example, Media folder).
 
+### How to Restore a Manual Backup on a New Phone
 
+1. Install **Sleep as Android** on your new phone and make sure you granted all permissions,
+2. Locate your exported `.zip` file (in your email attachment, file manager, or cloud storage) and **tap on it**.
+3. Select **Sleep as Android** when prompted to open the file.
+4. Choose the data types you wish to restore (History, Settings, Alarms) and confirm.
 
-## Backup to SleepCloud (recommended)
+Alternatively, you can restore manually inside the app:
+1. Place the `sleep-export.zip` file into the app's local storage path on your new device.
+2. Open the `Left ≡ menu` → `Backup` → `Import data`.
 
-<a id="sleepcloud_backup"></a>
-- **Backs up**: Sleep records, Settings, Active alarms, Noise recordings metadata
-- **Does not back up**: Noise recordings, Inactive alarms
+## Transferring Sleep Audio Recordings
 
-Recommended backup service. It stores data in our own cloud designed for Sleep as Android. It has several unique features not present in other backup methods.
+Because noise recording files (`/rec` folder) are large, they are not included in cloud or zipped backups. To move your actual recorded audio to a new phone:
 
-Read [more about SleepCloud addon and account here](/services/sleepcloud).
+1. **Locate audio on your old phone:** Check **Settings → Sleep noise recording → Storage path** to find where your audio files are stored.
+2. **Copy the folder:** Connect your old phone to a computer or use a file manager to copy the `sleep-data/rec` folder.
+3. **Move to your new phone:**
+   * On your new phone, create a folder structure in an accessible location (e.g., `Documents` or `Media` — *avoid `Downloads`*):
+     ```text
+     YourFolder/sleep-data/rec/
+     ```
+   * Paste your copied audio files into the `rec` folder.
+4. **Update app settings:** Open Sleep as Android on the new phone and navigate to `Settings` → ``Sleep noise recording → `Storage path`. Set the path to `YourFolder` (select the parent directory, **not** the `/rec` subfolder).
+5. **Sync:** Import your general sleep backup. The app will automatically pair your audio metadata with the copied audio files.
 
+---
 
-## Backup to Dropbox or Google Drive
+## Android System Backup (Google One)
 
-<a id="dropbox"></a><a id="google_drive"></a>
-- **Backs up**: Sleep records, Settings, Noise recordings metadata, Alarms
-- **Does not back up**: Noise recordings
+Most modern Android devices include automatic system backups powered by Google One.
 
-To automatically backup your data to Dropbox or Google Drive:
-1. Install [SleepCloud Backup add-on](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port).
-1. Go to _Sleep -> Settings -> Services -> Cloud backup_ and connect either _Google Drive_ or _Dropbox_.
+* **To enable:** Open your phone's `System Settings` → `System` → `Backup` (or `Google` → `Backup`) and turn on **Backup by Google One**.
+* **To force an immediate backup:** Tap **Back up now**.
 
-* The back up service will create a **Sleep as Android** folder within the Google Drive storage, and **Sleep Cloud Backup** folder within the DropBox service.
+> [!TIP]
+> While Google One is convenient when migrating to a brand-new phone during initial Android setup, we strongly recommend using **SleepCloud** or **Manual Export** as your primary backup strategy for guaranteed reliability.
 
-![Google Drive last back up](drive.png)
-![DropBox last back up](dropbox.png)
-> **Note:** If the backup to a cloud service fails, you will see a notification in the notification center. If this happens, please contact support@urbandroid.org.
-![](backup_fail.png)
+---
 
+## ❓ FAQs & Troubleshooting
 
-## Backup using Google provided backup cloud
+<details>
+<summary><strong>My old backup file disappeared after a new sleep track. How do I recover it?</strong></summary>
 
-<a id="google_backup"></a>
-- **Backs up**: Sleep records, Settings, Alarms, Noise recordings metadata
-- **Does not back up**: Noise recordings
+If you place a `sleep-export.zip` file onto a new device but track a night of sleep *before* importing, the app automatically renames your old backup to `sleep-export.backup.zip` so it isn't lost.
 
-Most Android phones support Google provided backup. This is an optional feature and it must be explicitly enabled by the user.
-> **Note:** We recommend using other methods, preferably [SleepCloud](#sleepcloud_backup), to backup your sleep records, as we have no direct control over initiation of Google backup so it may not work in all cases. This method is NOT meant to be used for synchronization of data or settings across phones.
-1. Enable Backup to Google One in  _System Settings -> System -> Backup_ (might be hidden under Advanced options) -> _Back up by Google One_ - the system will backup to a Google cloud automatically in background, or you can force immediate back up with "Back up now" button.
-1. In case you have developer tools available, you can force Google backup and restore to get reliable results. To force the backup, you can run “adb backup -f sleep-backup.bk com.urbandroid.sleep” when the old device is connected and to upload the backup to a new device run “adb restore sleep-backup.bk”.
+To restore the original data:
+1. Open your phone's File Manager and locate the app's backup folder.
+2. Delete the newly created `sleep-export.zip`.
+3. Rename `sleep-export.backup.zip` back to `sleep-export.zip`.
+4. Open Sleep as Android and go to **☰ → Backup → Import data**.
+</details>
 
-![Google One backup](system_backup.png)
+<details>
+<summary><strong>Can I analyze my raw sleep data on a PC?</strong></summary>
 
+Yes! When you perform a manual export, the resulting `.zip` file contains `sleep-export.csv`. You can open this CSV file in Microsoft Excel, Google Sheets, or any data analysis tool to explore your raw sleep metrics. The CSV file is [documented here](/devs/csv).
+</details>
 
-## Import data from email, Google Drive, Dropbox
+<details>
+<summary><strong>Restoring data failed, I see error messages...</strong></summary>
 
-
-If you tap on the CSV or ZIP file that was exported from Sleep (anywhere - in your email attachment, Drive, Dropbox, file manager), the system will offer to open it with Sleep as Android. This will import the included sleep records.
-
-<a id="manual_import"></a>
-![Importing](import.png)
-
-
-## Import sleep noise files
-
-
-If you wish to import sleep noise files to a new phone, you need to do this manually by copying the folder to the storage on the new phone.
-1. Save the content of the folder you have as your storage path on the first phone - you can find the storage path at _Settings → Sleep Noise recording → Storage path_.
-1. On the new phone, decide a location for your new storage path.
-1. If you copied the whole folder with **sleep-data** folder, copy the whole folder to the chosen location on the new phone.
-1. If you copied only the sound files, create folder **sleep-data** in your chosen location, and inside this folder, create a sub-folder **rec**. And copy the files to this **rec** folder.
-1. Choose the storage path on the new phone in _Settings → Sleep Noise recording → Storage path_ to **your_chosen_folder** (not to the **your_chosen_folder\sleep-data\rec\** subfolder).
-1. Sync the backup file - the sound meta-data will pair with the files copied.
-> **Note:** The actual sound files should be in **your_chosen_folder\sleep-data\rec\**.
-
+If you run into any issues during the backup or restore process, please reach out to us at support@urbandroid.org. We're always here to help!
+</details>

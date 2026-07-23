@@ -6,33 +6,42 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+**SleepCloud is a dedicated dashboard and secure storage space for your sleep data.**
 
+It provides a centralized place to back up your records, synchronize settings across multiple devices, and view detailed analysis through a convenient web interface.
 
-## What it is
+---
 
-**A dashboard and a storage place for your sleep data.**
-> **Note:** You need [SleepCloud Backup add-on](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port) installed on your phone.
-In order to use SleepCloud, you need to have a valid Google account and grant us a permission to use this account when connecting to the cloud.
+## Getting Started
 
-[Terms of service are here](/generalterms_of_service).
+To use SleepCloud, you must have the **[SleepCloud Backup add-on](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port)** installed on your phone.
 
+In order to connect, you will need to grant Sleep as Android permission to use your Google account for secure authentication and cloud storage.
 
-## Where to find it
+> [!NOTE]
+> For more information on data usage, please review our [Terms of Service](/general/terms_of_service).
 
+---
 
-* _Sleep -> Settings -> Privacy -> SleepCloud_
-* Online account at directly at https://sleep-cloud.appspot.com/SleepCloud.html.
+## Where to Find It
 
+*   **In the App:** `Settings` → `Personalize` → `Privacy` → `SleepCloud`
+*   **On the Web:** Visit your account directly at **[sleep-cloud.appspot.com](https://sleep-cloud.appspot.com/SleepCloud.html)**.
 
-## Features
+---
 
+## Key Features
 
-* Free SleepCloud service automatically initiates back up once a week.
-* The paid PRO version automatically initiates backup when some relevant change happens (a new graph was added, an old graph was edited, etc.). You can force backup using _Left_ ≡ _menu -> Backup -> Upload to Cloud_.
+*   **Effortless Sync:** Unlike general cloud storage services, SleepCloud perform a full two-way synchronization. This includes updating existing records and deleting entries across all your connected devices.
+*   **Web Dashboard:** View, analyze, and modify your sleep data from any computer by logging into your online account.
+*   **Setting Synchronization:** Automatically syncs all app settings, including active alarms. If you get a new phone, your entire configuration is downloaded instantly.
+*   **Data Efficiency:** Uses highly optimized communication protocols to ensure it consumes the least amount of data compared to other sync services.
 
-* You can view and modify your data online, by visiting [your SleepCloud account](https://sleep-cloud.appspot.com/SleepCloud.html).
-* Unlike other services, it does a full synchronization of records including deleting/updating of existing records. This makes it the most suitable service to synchronize data among multiple devices.
-* It uses optimized communication protocols, so it consumes least data of all services.
-* Synchronizes all of your settings (including active alarms), so if you get a new phone, just install SleepCloud backup and all your settings will be downloaded along with the records. It works in an inobtrusive way, so if you’ve changed any of the settings on the new phone already, they won’t get overwritten.
+### Automation Tiers
+
+| Tier | Backup Behavior |
+| :--- | :--- |
+| **Free** | Automatically initiates a backup once per week. |
+| **PRO (Paid)** | Automatically initiates a backup whenever a change occurs (e.g., adding a new graph or editing an old one). You can also force an immediate backup via `Left ≡ Menu` → `Backup` → `Upload to Cloud`. |
 
 ![](sleepcloud_preview.png)

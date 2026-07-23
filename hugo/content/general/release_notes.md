@@ -3,35 +3,33 @@
 layout: default
 title: Release notes
 nav_order: 206
-//parent: /general/general_info.html
 ---
 
+**Keep track of the latest improvements, new features, and bug fixes in Sleep as Android.**
 
-You can download any older version from [our web here](https://sleep.urbandroid.org/more/download/).
+You can download any older version from [our website here](https://sleep.urbandroid.org/more/download/).
 
+---
 
 ## Latest version 20240701
 
-
-**News**
-
+### News
 * Material V3 Sliders
 * Detailed explanation of FREE vs. Premium plan
 * Changes in on-boarding tutorial
 * Latest Play review libraries
-* Many New translations
-* Updated library dependency
-* Update in Spotify API
+* Many new translations
+* Updated library dependencies
+* Update to Spotify API
 
-**New lullabies**
-
+### New Lullabies
 * Bath
 * Scenic noise
 * Bubble wrap ASMR
-* NOTE: you need to update Lullaby Add-on too
+> [!NOTE]
+> You must also update the **Lullaby Add-on** to access these new tracks.
 
-**Fixes**
-
+### Fixes
 * Fix for lullaby pausing
 * Fix for stopping lullaby from quick settings tile
 * Fix for recoverable auth error in Google Calendar

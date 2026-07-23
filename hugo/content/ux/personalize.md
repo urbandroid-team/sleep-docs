@@ -28,12 +28,15 @@ See [Privacy chapter](/general/privacy).
 
 ## Home screen
 
-Chooses the Home screen mode ([Dashboard](/ux/hs_dashboard),  [Tabs](/ux/hs_tabs). or  [Alarms only](/ux/hs_alarms_only)).
+Choose your preferred layout mode for the app's main view:
 
+| Option | Behavior |
+| :--- | :--- |
+| [**Dashboard**](/ux/hs_dashboard) | Displays features as a series of quick-glance cards. |
+| [**Tabs**](/ux/hs_tabs) | Organizes the main features into swipeable tabs at the top. |
+| [**Alarms only**](/ux/hs_alarms_only) | Minimalist mode focusing strictly on alarm management. |
 
-## Show Tabs
-
-Only For Tabs Homescreen, allows you to add Tabs (alarm tab is always displayed).
+*   **Show Tabs:** *(Available only for Tabs Home Screen)* Allows you to select which specific navigation tabs are visible. Note that the **Alarms** tab is always displayed.
 
 <a id="morning_screen_set"></a>
 
@@ -67,7 +70,7 @@ You can choose a theme (background color of the app):
 You can choose 7 different color palettes for your graphs:
 
 
-<video src="color.mp4" width="400" autoplay muted loop controls></video>
+<video src="/assets/videos/color.mp4" width="400" autoplay muted loop controls></video>
 - **Default**: The current default on new installations (a color may vary!).
 - **Teal**: Teal really is the best color, it's cyan-tiffically proven.
 - **Green**: Yoda green forever!

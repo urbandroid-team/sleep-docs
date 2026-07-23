@@ -6,20 +6,32 @@ nav_order: 6
 parent: /ux/0parent.html
 ---
 
+**Alarms Only Mode** is a streamlined interface designed for users who strictly use Sleep as Android for its advanced alarm features and do not require sleep tracking or data analysis.
 
-**Alarms only** mode, is a special, simplified  mode, when you are using only alarms and do not care about the tracking at all.
-The main screen shows list of your alarms.
-> **Warning:** This mode affects also settings appearance (hides all sleep tracking related options) and the [Left ☰ menu](/ux/left_menu) (hides sleep tracking related options, if there are no tracking history).
+When this mode is active, your home screen is dedicated entirely to your alarm list, providing a clean and distraction-free experience.
 
-_Left_ ☰ _menu -> Home screen section -> Alarms only_
-_Settings -> Personalize -> Home screen_
+> [!WARNING]
+> Enabling this mode hides all sleep-tracking related features from the **Settings** menu and the **Left ☰ menu** (unless you have existing sleep history).
 
-Other home screen types are [Dashboard](/ux/hs_dashboard) and [Tabs](/ux/hs_tabs).
+**Menu Paths:**
+*   **Left ☰ menu** → **Home screen layout** → **Alarms only**
+*   **Settings** → **Personalize** → **Home screen**
 
-<a id="figure-new-alarm"></a>
-.Alarms only mode look
+---
+
+## Features & Behavior
+
+*   **Minimalist Interface:** All tracking-related cards, tabs, and buttons are removed, leaving your alarms as the primary focus.
+*   **Simplified Settings:** The app hides tracking-related configuration options (like wearables, sonar, or movement sensitivity) to make managing your wake-up routine easier.
+*   **Essential Support:** You still have full access to advanced alarm tools like [CAPTCHAs](/alarms/captcha), [Gentle Volume](/alarms/alarm_settings#gentle_alarm), and [Backup Alarms](/alarms/backup).
+
+<a id="figure-alarms-only"></a>
+**Alarms only mode interface**
 ![](alarms_only.png)
 
+## Other Layout Options
 
+If you find this mode too restrictive, you can choose from our more feature-rich home screen styles:
 
-
+*   [**Dashboard**](/ux/hs_dashboard): A unified card-based overview of both alarms and sleep data.
+*   [**Tabs**](/ux/hs_tabs): A classic interface with separate, swipeable navigation tabs.

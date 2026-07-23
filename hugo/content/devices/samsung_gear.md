@@ -9,48 +9,70 @@ tags:
 - gear
 ---
 
+> ‼️ **Warning**: Samsung has officially ended support for all Tizen-powered smartwatches. Because of this platform shutdown, our apps can no longer support Tizen wearables. <br>
+**Official statement from Samsung:**
+In accordance with internal operating policy, we would like to inform you that we are terminating the content service related to Tizen Watch."
 
-Sleep as Android supports most Samsung wearables, but not all. Please look for your device in [supported-watches](#supported-watches) below.
-
-## How to set up
-1. First, install all the required parts - the Samsung Galaxy Gear integration consists of three parts:
-
-- [Sleep as Android](https://play.google.com/store/apps/details?id=com.urbandroid.sleep) on the phone
-- [Sleep as Android Gear Addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung) on the phone
-- [Sleep as Android - Native Gear Companion](https://galaxy.store/sle) on the watch (install through the Galaxy Gear Store)
-
-1. Now, you can enable the connection in _Settings -> Sleep tracking -> Wearables -> Use wearable -> Samsung Gear / Galaxy Watch_.
-1. Then test the connection in _Settings -> Sleep tracking -> Wearables -> Test sensor_ - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
-
-## How to set up Gear Fit 2
-> **Warning:** Galaxy Store suspended our wachface for Gear Fit, and we have to pass their new verification process. The watchface is currently not available. We are sorry for the inconvenience.
+> ⚠️ **Important Notice**
+> This page applies **only to legacy Samsung wearables running Tizen OS** (such as Galaxy Watch, Galaxy Watch 3, Gear S2, Gear S3, and Gear Sport).
+>
+> If you are using a **Galaxy Watch 4, Watch 5, Watch 6, Watch 7, or Watch Ultra** running **Wear OS / One UI Watch**, please head over to our **[One UI Watch Devices Guide](/devices/one_ui)** for setup instructions.
 
 
-Samsung Gear Fit 2 is the only exception - to track sleep using Gear Fit 2 with Sleep as Android, you have to install and set up our addon on the phone and our app on the watch (actually a watchface).
+## Supported Legacy Devices (Tizen OS)
 
-The steps to follow are:
-1. Install [Sleep as Android Gear Addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung) on the phone.
-1. Install [Sleep as Android for Gear Fit 2 watch face](https://galaxystore.samsung.com/geardetail/com.urbandroid.sleep.gearfit) on the Galaxy Store using your Galaxy Wearable app.
-1. Now, you can enable the connection in _Settings -> Sleep tracking -> Wearables -> Use wearable -> Samsung Gear / Galaxy Watch_.
-1. Then test the connection in _Settings -> Sleep tracking -> Wearables -> Test sensor_ - you should see a graph reacting to your movement (a short delay is normal, data are sent in batches).
-> **Note:** Whenever you want to do sleep tracking, switch the watchface on your Gear Fit 2 to the Sleep watchface, and double tap to start tracking. It would actually work even without switching to the watchface (so you can start tracking from the phone), but you won't have any way to stop it from the watch, and alarm will have to be stopped from the phone in that case. So I recommend switching to the Sleep watchface.
-To switch the watchface, just long tap on the current watchface.
+* Samsung Galaxy Watch 3
+* Samsung Galaxy Watch (Original)
+* Samsung Gear S2 & Gear S3
+* Samsung Gear Sport
 
-If you are interested in some background stories and explanations on why it works this way, check out [this link](https://sleep.urbandroid.org/sleep-%E2%9D%A4-gear-fit-2/) or for more technical information check out [this link](https://medium.com/@roundedeverett/how-to-develop-apps-for-samsung-gear-fit-2-16119801da1b).
+## Setup Guide
 
-## Supported watches
+> 🛑 **Important Note on App Availability:**
+> Samsung has officially **shut down the Tizen Galaxy Store**. It is no longer possible to download or install new watch applications on Tizen devices.
+> **This integration will only work if you already have the Sleep as Android Gear a installed on your watch.**
 
-{% for wearable in site.data.wearables %}
-  {% if wearable['Support /<br>sensors'] contains 'YES' and wearable.Vendor == 'Samsung' %}
-      * {{ wearable.Vendor }} - {{ wearable.Device}}
-  {% endif %}
-{% endfor %}
+### Step 1: Install Required Companion Apps
+1. **On your phone:** Install the **[Sleep as Android Gear Addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung)** from the Google Play Store or Galaxy Store.
+2. Ensure the **Sleep as Android** watch app is already installed on your Tizen watch.
 
-## Unsupported watches
-> **Note:** This list may not be exhaustive.
+### Step 2: Enable Integration in Sleep as Android
+1. Open **Sleep as Android** on your phone.
+2. Go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables`.
+3. Select **Samsung Gear / Galaxy Watch**.
+4. *(Optional)* Toggle on **Heart rate monitoring** under **Settings ⚙️ → Sleep tracking → Wearables** to include HR data during tracking.
 
-{% for wearable in site.data.wearables %}
-  {% if wearable['Support /<br>sensors'] contains 'NO' and wearable.Vendor == 'Samsung' %}
-     * {{ wearable.Vendor }} - {{ wearable.Device}}
-  {% endif %}
-{% endfor %}
+---
+
+## ❓ FAQ & Troubleshooting
+
+<details>
+<summary><strong>Why is my watch stuck on "Start tracking"?</strong></summary>
+
+If the watch app displays a "Start tracking" screen and fails to initiate the session, try the following steps:
+
+1. **Verify Phone Addon:** Ensure the **[Sleep as Android Gear Addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung)** is installed on your phone and updated to the latest version.
+2. **Launch the Addon Manually:** If the addon was force-closed by the system, open the **Google Play Store**, search for the **Sleep as Android Gear Addon** page, and tap **Open** to manually restart its background service.
+3. **Disable Battery Optimization:** Exclude all involved components from Android battery saver/optimization settings:
+   * Sleep as Android
+   * Sleep as Android Gear Addon
+   * Samsung Accessory Services / Galaxy Wearable
+   * System Bluetooth settings
+
+   *For device-specific guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).*
+</details>
+
+<details>
+<summary><strong>Why does tracking start unexpectedly by itself?</strong></summary>
+
+* **Watch App Trigger:** Opening or tapping the Sleep as Android icon on your watch starts sleep tracking immediately.
+* **Automatic Tracking Setting:** Check if automatic tracking is turned on in `Settings` → `Sleep tracking` → `Automatic sleep tracking` → `Start sleep tracking`.
+</details>
+
+<details>
+<summary><strong>Why does my watch connection drop during the night?</strong></summary>
+
+If you see red sections on your sleep graph, it means the connection between your phone and wearable dropped during the night. This is almost always caused by Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
+
+Legacy Tizen connections rely heavily on background communication between Samsung Accessory Services and the Sleep addon. Make sure **Bluetooth**, **Galaxy Wearable**, **Samsung Accessory Services**, and **Sleep as Android** are all set to **"Unrestricted" / "Don't optimize"** in your phone's battery settings. Visit [DontKillMyApp.com](https://dontkillmyapp.com/) website for guides specific to your phone.
+</details>

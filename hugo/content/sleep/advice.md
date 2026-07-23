@@ -6,82 +6,45 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
-
 **Advice shows your current sleep development at a glance.**
 
-You can see which dimensions of your sleep have improved or worsened recently, including tips on how to reverse the worsening trends.
+You can see which dimensions of your sleep have improved or worsened recently, including tips on how to reverse worsening trends.
 
-_Left ☰ menu -> Advice_
-_From the [Advice](/ux/homescreen#advicecard) dashboard card_
+**Menu Path:** `Left ☰ Menu` → `Advice` (or via the **Advice** dashboard card)
 
 ---
 
+## General Description
 
-## General description
+Advice monitors recent trends in critical sleep dimensions (Duration, Regularity, Deep sleep %, Snoring, Social Jet-lag, etc.).
 
-Advice watches recent trends in the main sleep dimensions (Duration, Regularity, Deep sleep %, Snoring, Social jet-lag...).
+In most cases, it compares your **last 60 days** of aggregate data to the **last 7 days** to identify significant recent changes. It also checks whether your data falls within healthy bounds established by public health studies.
 
-In most cases it compares your last 60 days aggregates to the last 7 days aggregates and look for significant recent worsening or improvements.
+## Watched Dimensions
 
-For some dimensions there are further checks, such as whether your data are within bounds set by public health studies.
-<!-- //For some dimensions there are checks to be within bounds set by public medical studies. -->
-<!-- //Advice also looks at your tags and tells you when there is an increased occurrence of e.g. #alcohol as a caution or #sport as good trend. -->
-<!-- //Advice also compares your sleep figures with the average data measured by the app for your peers in your country. -->
+| Dimension | Checks |
+| :--- | :--- |
+| **Duration** | <ul><li>Recent improvement or worsening (last 7 days vs. last 60 days).</li><li>Healthy bounds for your age: General (6.5–9h), School age (9–11h), Teenager (8–10h), Young adult (7–9h), Elderly (6–9h).</li><li>Consistency with your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).</li><li>Comparison to average data in your country.</li></ul> |
+| **Regularity** | <ul><li>Recent improvement or worsening.</li><li>Healthy bounds for the 60-day average (ideally under 20 minutes variance).</li><li>National comparisons.</li></ul> |
+| **Regularity Index** | <ul><li>5-point shift in the last 7 days compared to the previous month.</li><li>Healthy (over 80) vs. unhealthy (under 60) benchmarks.</li></ul> |
+| **Deep Sleep %** | <ul><li>Recent shifts in deep sleep ratios.</li><li>Healthy bounds for the 60-day average (typically 25% – 75%).</li></ul> |
+| **Snoring** | <ul><li>Frequency shifts.</li><li>Warnings for sessions exceeding 30 or 60 minutes.</li><li>National comparisons.</li></ul> |
+| **Social Jet-lag** | <ul><li>60-day average check (ideally under 1 hour variance between work and off days).</li></ul> |
 
-
-## Watched dimensions
-
-
-[cols="1,3"]
-|===
-|Dimension |Checks
-
-|Duration
-a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
-* Is it in healthy bounds for your age? General (6.5 - 9), school age (9 - 11), teenager (8 - 10), young (7 - 9), elderly (6 - 9).
-* Does it meets your [Daily sleep duration goal](/sleep/ideal_daily_sleep)?
-* How does it compare to others in your country?
+> [!TIP]
+> You can configure your age for more accurate duration benchmarks in `Settings` → `Sleep` → `Stats` → `Year of birth`.
 
 
-|Regularity
-a|* Has it recently improved or worsened? (last 7 days compared to last 60 days)
-* Is it in healthy bounds for last 60 days average (1 hour - 20 minutes)?
-* How does it compare to others in your country?
+## Types of Advice Cards
 
-|Regularity index
-a|* Has it recently improved or worsened? (5-point change in last 7 days compared to the last month)
-* Is it in healthy bounds (over 80) or unhealthy bounds (less then 60) for the last month ?
-
-|Deep sleep %
-a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
-* Is it in healthy bounds for last 60 days average (25% - 75%)?
-
-|Snoring
-a|* Has it recently improved or worsened? (last 7 days compared to last 60 days).
-* Warns if over 30 minutes, and a more severe warning over 60 minutes.
-* How does it compare to others in your country?
-
-|Social jet-lag
-a|* Is it in healthy bounds for last 60 days average (1 hour - 20 minutes)?
-
-[NOTE]
-
-### Your age for the duration healthy bounds can be configured in _Settings -> Sleep -> Stats -> Year of birth_
-
-
-### |===
-
-
-
-## Types of advice cards
-- **[color-green]#Congrats#**: Shows an improvement in a given dimension.
-- **[color-red]#Caution#**: Shows a worsening with tips on how to improve and links to setup [Goals](/sleep/goals).
-- **Neutral**: Not clearly a positive or negative message. E.g. if other people in your country are getting less sleep it is not directly a positive or negative message. Or if your custom tag e.g. #work is occurring a lot lately we cannot say it is good or bad.
-
+*   <span style="color: #2e7d32; font-weight: bold;">Congrats:</span> Highlights a positive improvement in a specific sleep dimension.
+*   <span style="color: #c62828; font-weight: bold;">Caution:</span> Identifies worsening trends with tips on how to improve and links to set up [Sleep Goals](/sleep/goals).
+*   **Neutral:** Provides contextual data that isn't strictly positive or negative (e.g., comparing your duration to your country's average).
 
 ## Examples
-- **[color-green]#Congrats#**: Your SNORING is down by 5 minutes lately.
-- **[color-red]#Caution#**: Your DURATION is down by 30 minutes lately.
-- **Neutral**: Others in your country are getting 54 minutes more DURATION.
-- **[color-red]#Caution#**: Your SNORING is over 50 minutes.
-- **[color-green]#Congrats#**: Your IRREGULARITY is under 20 minutes.
+
+*   <span style="color: #2e7d32; font-weight: bold;">Congrats:</span> Your SNORING is down by 5 minutes lately.
+*   <span style="color: #c62828; font-weight: bold;">Caution:</span> Your DURATION is down by 30 minutes lately.
+*   **Neutral:** Others in your country are getting 54 minutes more DURATION.
+*   <span style="color: #c62828; font-weight: bold;">Caution:</span> Your SNORING is over 50 minutes.
+*   <span style="color: #2e7d32; font-weight: bold;">Congrats:</span> Your IRREGULARITY is under 20 minutes.

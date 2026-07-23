@@ -12,8 +12,8 @@ The tabs available can be edited, so you can hide the ones you don't use. The ta
 
 NOTE: The app remembers where you left the app the last time - and this tab will be shown as the first screen the next time you open the app again.
 
-_Left_ ☰ _menu -> Home screen section -> Tabs_
-_Settings -> Personalize -> Home screen_
+`Left ☰ menu` → `Home screen section` → `Tabs`
+`Settings` → `Personalize` → `Home screen`
 
 
 [[figure-tabs]]

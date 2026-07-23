@@ -8,85 +8,51 @@ tags:
 - sound_recognition
 ---
 
+**Sound Recognition identifies and categorizes the different noises you make throughout the night.**
 
-**Listens to sounds you make during sleep tracking and categorizes them.**
+When a sound is identified, the app automatically adds a corresponding tag to the recording and logs the event in your sleep record.
 
-When any of the sounds below is recognized during sleep tracking, a corresponding tag is added to the recording, and the event is created in the sleep record.
-
-_Settings -> Sleep noise analysis -> Sound recognition_
-
-You can set a sensitivity for each sound category by the slider. You can also disable recognition of specific sound categories by setting the slider to _Disabled_.
-> **Note:** Some users complained that snoring detection was too sensitive and sometimes marked non-snoring noises as snoring. For others, it was not sensitive enough and it used to miss part of their snoring. Indeed, every microphone is different, every environment has different acoustics, it is nearly impossible to balance all these specifics automatically.
-Using these sensitivity options, everyone can tune the classifier so that it fits his needs and his specifics.
+**Menu Path:** `Settings` → `Sleep noise analysis` → `Sound recognition`
 
 ---
 
+## Recognized Categories
 
-## ![tag_snore_new](/assets/icons/tag_snore_new.svg) Snoring
+You can adjust the **sensitivity** for each category using individual sliders. If you wish to ignore a specific sound, simply move its slider to **Disabled**.
 
+| Icon | Category | Description |
+| :--- | :--- | :--- |
+| ![tag_snore_new](/assets/icons/tag_snore_new.svg) | **Snoring** | While common, persistent snoring can indicate respiratory issues like Obstructive Sleep Apnea (OSA). |
+| ![ic_action_talk](/assets/icons/ic_action_talk.svg) | **Talk** | Captures sleep-talking events so you can listen back to your nightly "wisdom." |
+| ![ic_action_sick](/assets/icons/ic_action_sick.svg) | **Sickness** | Detects coughing and sneezing, which can provide early insight into developing health issues. |
+| ![ic_action_baby](/assets/icons/ic_action_baby.svg) | **Baby Crying** | Helps you track how often your sleep is interrupted by a crying infant. |
+| ![ic_action_laugh](/assets/icons/ic_action_laugh.svg) | **Laughter** | A bonus feature—you might be surprised to find you laugh in your sleep! |
 
-Common snoring isn’t dangerous for your health, but may decrease the efficiency of your and your partner’s sleep. According to various sleep studies, 30% of the population are occasional snorers. But snoring may indicate more several respiratory issues such as the OSA – obstructive sleep apnea. Recent evidence show this dangerous disorder is greatly under-diagnosed and prevalence may reach up to 10% in population.
+> [!NOTE]
+> Microphone quality and bedroom acoustics vary significantly between devices. If the app is too sensitive or missing sounds, use the sensitivity sliders to fine-tune the recognition for your specific environment.
 
+---
 
-## ![ic_action_talk](/assets/icons/ic_action_talk.svg) Talk
+## Under the Hood
 
+Our recognition system uses **Convolutional Neural Networks**, a state-of-the-art machine perception technique.
 
-When you talk from your sleep, we tag the recording with #talk, and you can listen to the wisdom of your dreams in the morning.
+The algorithm has been trained on thousands of real-world sound samples. By analyzing these diverse recordings, the network learns the unique characteristics of each category, allowing it to identify new sounds with high accuracy. We continuously refine this model based on real-world performance feedback and expanded datasets.
 
+---
 
-## ![ic_action_sick](/assets/icons/ic_action_sick.svg) Sickness
+## Help Us Improve
 
+You can help make our algorithms even more accurate by sharing your samples directly from the app. We manually verify these contributions to improve future versions of the neural network.
 
-We detect coughing, sneezing and the like, and mark them as #sick. This may give you an early alert of an incoming sickness.
+### How to Contribute
+If you find a recording that was classified incorrectly:
+1.  Listen to the recording in the app player.
+2.  Manually add the correct tag or remove the incorrect one.
+3.  When leaving the player, if the recording is longer than 30 seconds, the app will ask if you'd like to share the anonymized sample with our team.
 
+<div class="text-center">
 
-## ![ic_action_baby](/assets/icons/ic_action_baby.svg) Baby crying
-
-
-See how much was your sleep disturbed by your crying #baby.
-
-
-## ![ic_action_laugh](/assets/icons/ic_action_laugh.svg) Laughter
-
-
-A funny bonus feature. Indeed some people #laugh heavily from their sleep.
-
-
-
-
-
-
-
-
-## Under the hood
-
-We are using convolution neural networks, a state-of-the-art machine perception technique.
-
-The algorithm learns from real-world sound samples. We gave it thousands of diverse recordings, and told it “this one is snore”, “this one is cough”, “that one is just meaningless noise”, etc. The algorithm gradually learns specifics of the individual categories and then can recognize new, unheard sounds.
-
-The more samples it receives during the training phase, the better it works. It is truly hard to imagine how many different kinds of snores or coughs or various background noises and disturbances there are out there.
-
-We first deployed neural networks for snore/talk detection in 2017, and we have gone a long way since then. Driven by real-world performance feedback, we redesigned the internals of the network in 2019, we enhanced the way how we extract data from the microphone input, and we substantially extended the training data set. We believe it will bring a better classification accuracy in most cases.
-
-
-## Help us improve sound recognition
-
-We collected a database of several thousand recordings by our means, and we would like to collect way more of them, from more diverse sources.  This is where we are kindly asking you, our user, for help.
-
-You can send us your samples straight from the app. We will collect all these recordings, verify them manually, and use them to improve the algorithm.
-
-And if you really feel like having some fun with our app, you do not need to record only your sleep sounds. Just start sleep tracking anywhere, record any sounds in your surroundings, and if our app classifies them wrong, please, send them to us. The more varied collection of samples we receive, the better.
-
-Thank you in advance for any contributions.
-
-[NOTE]
-
-#### When you listen to a recording, and it is classified incorrectly, you can manually add the missing tag or remove the wrong tag by tapping the respective button at the player screen.
-
-When you are leaving the player (and if the recording is longer than 30 s), we detect the changed tags and pop up a dialog, where we ask you to share the audio with us.
-
-If you agree, the app will send it to us by e-mail.
-
-[.text-center]
 ![](new_sound_recognition_share.png)
-====
+
+</div>

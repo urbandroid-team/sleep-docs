@@ -19,24 +19,33 @@ tags:
   - polar
 ---
 
+**Integrating a smartwatch or fitness tracker with Sleep as Android allows you to track body movement and heart rate more accurately, directly from your wrist.**
 
-<a id="wearable_setup"></a>
+The app supports a wide range of devices including Wear OS, Garmin, Samsung Galaxy Watch, Mi Band, Amazfit, and more.
 
+---
 
-## How to set up tracking with a wearable
-1. First of all, make sure your wearable is supported (see the [table of all integated wearables](/devices/supported_wearable)).
-1. Check if the wearable is connected properly via Bluetooth.
-1. Install the required companion apps - this depends on the wearable type, check the  [table below](/devices/supported_wearable), or one of the subpages.
-1. Select the corresponding option in _Settings -> Sleep tracking -> Wearables -> Use wearable_.
-1. You can test the connection on some wearables with the Test sensor - see [details about testing the connection here](/devices/test_sensor).
+## Setup Guide <a id="wearable_setup"></a>
 
-You can find specific guides for each wearable type on the subpages of the Wearable section.
-> **Note:** Sleep tracking collects data the whole night and the data are analyzed in real-time. This means the watch must stay connected with BT during sleep tracking.
+1.  **Check Compatibility:** Ensure your device is supported. [See the list of integrated wearables here](/devices/supported_wearable).
+2.  **Bluetooth Connection:** Confirm your watch is actively connected to your phone via its official companion app (e.g., Garmin Connect, Galaxy Wearable, or Zepp).
+3.  **Install Bridge Apps:** Most wearables require a small "bridge" app or watch component. See the specific page for your device in the sidebar for details.
+4.  **Activate in Sleep:** Go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables` and select your device type.
+5.  **Verify:** We highly recommend running a [Sensor Test](/devices/test_sensor) to confirm data is flowing correctly before your first night.
 
+> [!NOTE]
+> Sleep data is analyzed in real-time. To ensure accurate graphs and smart alarms, your phone's **Bluetooth must remain active** and connected to the watch throughout the entire night.
 
+---
 
-## Create an alarm only as vibrations on watch (no sound, delayed sound)
-1. Set the alarm silent (_[Alarm-specific settings](#per-alarm) -> Sound -> Silent_) or set the delay on sound (_Settings -> Alarms -> Sound delay_).
-1. Enable wearable vibrations (_Settings -> Sleep tracking -> Wearables -> Vibrate_).
+## Silent Wrist Alarms
 
-> **Note:** We highly recommend to set a sound delay instead of setting the alarm silent, especially when backup alarm is silent too.
+You can configure your alarm to vibrate on your wrist only, providing a quiet wake-up call that won't disturb your partner.
+
+1.  **Sound Preference:**
+    *   **Silent:** In the specific alarm's settings, go to **Sound** and select **Silent**.
+    *   **Vibration First:** Go to `Settings` → `Alarms` → `Sound delay` to have the watch vibrate for several minutes before the phone audio kicks in.
+2.  **Enable Vibrations:** Go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and choose **From start**.
+
+> [!TIP]
+> We strongly recommend using **Sound Delay** rather than complete silence. This ensures your phone acts as an audio safety net in case your watch battery dies or the Bluetooth connection drops during the night.

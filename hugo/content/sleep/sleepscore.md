@@ -6,311 +6,81 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
+**Sleep score is a comprehensive summary of your sleep health.**
 
-**Sleep score is a complete summary of your sleep health.**
+The Sleep Score draws inspiration from the [Pittsburgh Sleep Quality Index](https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index). It combines multiple data points into a single percentage to give you a quick overview of your rest quality.
 
-Sleep score draws a lot of inspiration from the [Pittsburgh Sleep Quality Index](https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index).
-
-_Dashboard - Sleep Score card_
-_Left ☰ menu -> Trend -> Trend tab -> Sleep score chart_
-
-.Sleep Score on the card
-![](sleepscore_annotated.png)
-
-<a id="figure-sleepscore-chart"></a>
-.Sleep score in [Charts section](/sleep/charts#sleep-score)
-![](sleepscore.png)
-
+**Where to find it:**
+*   **Dashboard:** See the **Sleep Score** card.
+*   **Charts:** Go to `Left ☰ Menu` → `Charts` → `Trend tab` → `Sleep score chart`.
 
 ---
-- **//toc**: []
-<!-- :toclevels: 1 -->
-> **Note:** You can choose between colors matching your theme, or color-coding (each dimension has its own color across the whole app; _Settings > Personalize > Stats > Color palette_).
 
+## Sleep Score Dimensions
 
-If you see you are consistently behind some target for any of your dimensions, you can setup [goals](/sleep/goals). For instance you are sleeping just 6:00 on average which is quite bad for an adult, so you can setup a goal to increase your sleep duration to at least 6:30 and the app will guide you gradually to achieve that goal...
-The app will point out some notable trends and also suggest some changes in the [Advice section](sleep/advice).
+Sleep quality is calculated across eight distinct dimensions. Each dimension has established "healthy" and "unfavorable" ranges. If your data falls within the healthy range, the dimension lights up green and contributes one point to your daily score.
 
+| Dimension | Description | Healthy Range | Unfavorable Range |
+| :--- | :--- | :--- | :--- |
+| **Overall Score** | Combined result of all other metrics. | Close to 100% | Under 50% |
+| **Duration** | Total amount of time spent sleeping. | 6.5h – 8.5h (adjusted for age) | Under 6.5h or Over 9h |
+| **Regularity** | Consistency of sleep/wake times and SRI. | SRI > 80, Variance < 30m | SRI < 60, Variance > 1h |
+| **Deep Sleep %** | Portion of sleep spent in the deep phase. | Over 30% | Under 20% |
+| **Efficiency** | Ratio of actual sleep to time in bed. | Over 95% | Under 85% |
+| **HRV Gain** | Recovery measure via Heart Rate Variability. | Over +2 | Under -5 |
+| **Disturbances** | Breathing disturbance episodes per hour. | Under 10 | Over 20 |
+| **Snoring** | Ratio of snoring duration to sleep duration. | Under 3% | Over 10% |
+| **Rating** | Your subjective morning sleep rating. | Over 3.5 Stars | Under 2 Stars |
 
-## Sleep score dimensions
+---
 
+## Dimension Breakdown
 
-There are eight dimensions that contribute to sleep quality. Each of the dimensions has a healthy range and an unhealthy range.
-The app combines all dimensions into one "Sleep Score" for simplification.
-<!-- [cols="^,<,<,<,<", options="header"] -->
-<!-- |=== -->
-<!-- |Dimension -->
-<!-- |Explanation -->
-<!-- |Top figure -->
-<!-- |Bottom figure -->
-<!-- |Healthy / Unfavourable range -->
-<!-- a|![](score_pie.png) -->
-<!-- **Sleep Score** -->
-<!-- |Overall score combining all your other sleep metrics. -->
-<!-- |Percentage of the score (0,100). -->
-<!-- | -->
-<!-- |Healthy: as close to 100% as possible -->
-<!-- Unfavourable: -->
-<!-- a|![](hrv_pie.png) -->
-<!-- **HRV gain** -->
-<!-- |The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details [here](https://sleep.urbandroid.org/hrv-tracking/)). -->
-<!-- |Difference between hrv after and hrv before. -->
-<!-- |HRV after (the last low activity period before awake up). -->
-<!-- |Healthy: over 2 -->
-<!-- Unfavourable: under -5 -->
-<!-- a|![](BR_pie.png) -->
-<!-- **Breath disturbances** -->
-<!-- |Breathing disturbance episodes per hour, read more about this topic [here](/sleep/sleep_apnea) and [here](/sleep/breath_rate). -->
-<!-- |Average breathing disturbance episodes per hour. -->
-<!-- | -->
-<!-- |Healthy: under 10 -->
-<!-- Unfavourable: over 20 -->
-<!-- a|![](irregularity_pie.png) -->
-<!-- **Regularity** -->
-<!-- |How regular your sleep is. [Variance](https://en.wikipedia.org/wiki/Variance) of your mid-sleep hour and Sleep Regularity Index. -->
-<!-- |Deviation of sleep duration and mid sleep hour. -->
-<!-- |SRI, [more details here](/sleep/chrono_jetlag#sri) -->
-<!-- |Healthy: under 0.5 hours for regularity, over 80 for SRI. -->
-<!-- Unfavourable: over 1 hour, less then 60 for SRI -->
-<!-- a|![](deepsleep_pie.png) -->
-<!-- **Deep Sleep** -->
-<!-- |How long you've been in deep sleep compared to the total sleep duration. -->
-<!-- |Average % of deep sleep -->
-<!-- |Duration -->
-<!-- |Healthy: over 30% -->
-<!-- Unfavourable: under 20% -->
-<!-- a|![](duration_pie.png) -->
-<!-- **Duration** -->
-<!-- |How long have you been sleeping. -->
-<!-- |Average duration -->
-<!-- |Deficit or surplus -->
-<!-- |Healthy: 6.5 hours to 8.5 hours, see [how this differs with age](#note-age) -->
-<!-- Unfavourable: less than 6.5 hours, or more than 8.5 hours -->
-<!-- a|![](efficiency_pie.png) -->
-<!-- **Efficiency** -->
-<!-- |How long you've been actually sleeping vs. being in bed. -->
-<!-- |Sleep/awake ratio in % -->
-<!-- |Average duration of awakes -->
-<!-- |Healthy: over 95% -->
-<!-- Unfavourable: under 85% -->
-<!-- a|![](rating_pie.png) -->
-<!-- **Rating** -->
-<!-- |Your average subjective rating. -->
-<!-- |Your average rating -->
-<!-- |Max rating -->
-<!-- |Healthy: over 3.5 stars -->
-<!-- Unfavourable: under 2 stars -->
-<!-- a|![](snoring_pie.png) -->
-<!-- **Snoring** -->
-<!-- |How long you've been snoring compared to the total sleep duration. -->
-<!-- |Average % of snoring -->
-<!-- |Total duration of snoring -->
-<!-- |Healthy: under 3% -->
-<!-- Unfavourable: over 10% -->
-<!-- |=== -->
+### Sleep Score Overview
+![](score_pie.png)
+The primary indicator of your nightly success. A higher percentage reflects better overall alignment across all tracked metrics.
 
+### Duration <a id="note-age"></a>
+![](duration_pie.png)
+Healthy targets are automatically adjusted based on your age (set in `Settings` → `Stats` → `Year of birth`):
+*   **School Age (9-11):** 9 – 11 hours
+*   **Teenager (12-18):** 8 – 10 hours
+*   **Young Adult (18-25):** 7 – 9 hours
+*   **Adult:** 6.5 – 9 hours
+*   **Elderly (65+):** 6 – 9 hours
 
-[NOTE]
-
-####  <a id="note-age"></a>
-
-Healthy durations are adjusted according to your age as defined in _Settings -> Stats -> Year of birth_
-
-* General or not set (6.5 - 9)
-* School age (9 - 11)
-* Teenager (8 - 10),
-* Young (7 - 9)
-* Elderly (6 - 9)
-
-#### If you’re in the healthy range for a certain dimension, it lights up green and you get one point. Every line can also turn red if the values are in a very unfavourable range.
-> **Note:** If you are missing some charts, it means you do not have the required sensor, or the app does not have enough data to estimate it. If your irregularity pie chart is missing, there are probably gaps in the graphs. You can consider [Automatic tracking start](/sleep/automatic_sleep_tracking) or [Sleep time estimation](/sleep/sleep_time_estimation) features, if you often forget to start the tracking.
-
-
-### Sleep Score
-
-[cols="1,1"]
-|===
-a|![](score_pie.png)
-|Overall score combining all your other sleep metrics.
-
-|Figure
-|Percentage of the score (0,100).
-
-|Healthy range
-|as close to 100% as possible
-|===
-
-
-### HRV Gain
-
-[cols="1,1"]
-|===
-a|![](hrv_pie.png)
-|The difference between your HRV measured during the first low activity period (hrv before) of your sleep and the HRV measure at the last low activity period before awake up (hrv after) (see details [here](https://sleep.urbandroid.org/hrv-tracking/)).
-
-|Top Figure
-|Difference between hrv after and hrv before.
-
-|Bottom Figure
-|HRV after (the last low activity period before awake up).
-
-|Healthy range
-|over 2
-
-|Unfavourable range
-|under -5
-
-|===
-
-
-
-### Breath disturbances
-
-[cols="1,1"]
-|===
-a|![](BR_pie.png)
-|Breathing disturbance episodes per hour, read more about this topic [here](/sleep/sleep_apnea) and [here](/sleep/breath_rate).
-
-|Top Figure
-|Average breathing disturbance episodes per hour.
-
-|Healthy range
-|under 10
-
-|Unfavourable range
-|under over 20
-
-|===
-
-
-### Regularity
-
-[cols="1,1"]
-|===
-a|![](irregularity_pie.png)
-|How regular your sleep is. [Sleep Regularity Index, SRI](/sleep/chrono_jetlag#sri) and [Variance](https://en.wikipedia.org/wiki/Variance) of your mid-sleep hour.
-
-|Top Figure
-|SRI, [more details here](/sleep/chrono_jetlag#sri)
-
-|Bottom Figure
-|Deviation of sleep duration and mid sleep hour
-
-|Healthy range
-|Over 80 for SRI and under 0.5 hours for regularity
-
-|Unfavourable range
-|Less then 60 for SRI, over 1 hour fpr mid sleep hour variance
-
-|===
-
+### Regularity (SRI)
+![](irregularity_pie.png)
+Measures how consistent your sleep patterns are between consecutive days. The **Sleep Regularity Index (SRI)** accounts for naps and polyphasic patterns. [Learn more here](/sleep/chrono_jetlag#sri).
 
 ### Deep Sleep
-
-[cols="1,1"]
-|===
-a|![](deepsleep_pie.png)
-|How long you've been in deep sleep compared to the total sleep duration.
-
-|Top Figure
-|Average % of deep sleep
-
-|Bottom Figure
-|Duration of deep sleep phases
-
-|Healthy range
-|over 30%
-
-|Unfavourable range
-|under 20%
-
-|===
-
-
-
-### Duration
-
-[cols="1,1"]
-|===
-a|![](duration_pie.png)
-|How long have you been sleeping.
-
-|Top Figure
-|Total sum of all your sleep phases of the day.
-
-|Bottom Figure
-|Deficit or surplus from your sleep daily goal.
-
-|Healthy range
-|6.5 hours to 8.5 hours, see [how this differs with age](#note-age)
-
-|Unfavourable range
-|less than 6.5 hours, or more than 8.5 hours
-
-|===
-
-
+![](deepsleep_pie.png)
+Focuses on the restorative "Deep Sleep" phase. If your deep sleep is consistently low, consider reviewing your sleep hygiene or using the [Advice section](/sleep/advice).
 
 ### Efficiency
+![](efficiency_pie.png)
+Measures how effectively you use your time in bed. A low efficiency score often indicates long periods of being awake during the night.
 
-[cols="1,1"]
-|===
-a|![](efficiency_pie.png)
-|How long you've been actually sleeping vs. being in bed.
+### HRV Gain
+![](hrv_pie.png)
+Compares your HRV at the beginning of the night to the period just before waking up. A positive gain indicates physical recovery. [Learn more about HRV here](https://sleep.urbandroid.org/hrv-tracking/).
 
-|Top Figure
-|Sleep/awake ratio in %
-
-|Bottom Figure
-|Duration of awake periods
-
-|Healthy range
-|over 95%
-
-|Unfavourable range
-|under 85%
-
-|===
-
-
-
-### Rating
-
-
-[cols="1,1"]
-|===
-a|![](rating_pie.png)
-|Your average subjective rating.
-
-|Top Figure
-|Your rating
-
-|Healthy range
-|over 3.5 stars
-
-|Unfavourable range
-|under 2 stars
-
-|===
-
+### Breath Disturbances
+![](BR_pie.png)
+Tracks breathing pauses or shallow breathing episodes. High values may be a warning sign for sleep apnea. [Learn more here](/sleep/sleep_apnea).
 
 ### Snoring
+![](snoring_pie.png)
+Tracks the duration of detected snoring. If snoring is high, you might want to try [Anti-snoring cues](/sleep/anti_snoring).
 
-[cols="1,1"]
-|===
-a|![](snoring_pie.png)
-|How long you've been snoring compared to the total sleep duration.
+### Rating
+![](rating_pie.png)
+Your subjective feedback. This is a critical weight in the sleep score, as personal feeling often catches what sensors cannot.
 
-|Top Figure
-|Percentage of your snoring
+---
 
-|Bottom Figure
-|Total duration of snoring
+> [!TIP]
+> If you are consistently falling behind in a specific dimension, you can set a **[Sleep Goal](/sleep/goals)**. The app will then provide targeted guidance to help you improve that specific area of your rest.
 
-|Healthy range
-|under 3%
-
-|Unfavourable range
-|over 10%
-
-|===
+> [!NOTE]
+> If a specific chart is missing (e.g., SRI), it may be due to gaps in your tracking data. Consider enabling [Automatic Sleep Tracking](/sleep/automatic_sleep_tracking) to ensure more consistent data collection.

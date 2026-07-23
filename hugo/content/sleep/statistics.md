@@ -6,59 +6,44 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
+**Statistics provide day-by-day and tag-based aggregates of your most critical sleep metrics.**
 
+Review your average duration, deep sleep percentage, and snoring frequency to understand how your habits impact your rest over time.
 
-Statistics show the most important dimensions (Duration, Deep sleep, Snoring) of your [Sleep score](/sleep/sleepscore) aggregated by days or optionally by [Tags](/sleep/tags).
+**Menu Paths:**
+*   `Left ☰ Menu` → `Stats`
+*   `Dashboard` → Tap the **[Sleep Score](/sleep/sleepscore)** card
+*   **Settings:** `Settings` → `Personalize` → `Stats`
 
-_Settings -> Personalize -> Stats_ (settings)
-_Left ☰ menu -> Stats_
-_[Sleep Score](/ux/homescreen#sleepscore) card_ on Dashboard
+---
 
-Each row in the Stats screen shows day-aggregated Duration, Deep sleep and Snoring.
-The aggregate is calculated from all tracked sleeps - let's call them [Graphs](/sleep/sleep_graph) in the further text - which belong to the same day.
+## The Stats Screen
 
-A special row shows your country and aggregated Duration, Deep sleep and Snoring for your fellow citizens.
+The main statistics view provides a breakdown of your performance over a selected period (Week, 14 days, Month, etc.).
 
-The list of days is based on the period selection in top right (Week, 14 days, Month...) but is limited to last 30 days.
+*   **Daily Aggregates:** Each row displays the combined duration, deep sleep, and snoring for all tracking sessions belonging to that day.
+*   **Community Benchmark:** A special row compares your personal aggregates against the national average for your country.
+*   **Tag Analysis:** Tap the icon in the top-right corner to expand aggregates by **[Tags](/sleep/tags)**. This allows you to see how specific lifestyle factors (e.g., `#sport` vs. `#alcohol`) affect your core metrics.
 
-Optionally aggregates by Tags can be expanded by tapping on the button in the top right corner. This will tell you how does your Duration, Deep sleep and Snoring differ, when a certain tag is used to your Sleep score for all nights. The aggregates are calculated for the selected period which can be changed in top right.
+---
 
+## Configuration Options
 
+### Sleep Duration Goal
+Defines your target sleep duration for a typical day. This is used to calculate your **Sleep Deficit**.
+> **Example:** If your goal is **8 hours** and your average sleep for the past week was **7.5 hours**, the app will report a weekly sleep deficit of **30 minutes**.
 
-## Sleep duration goal
+### Sleep Day Cutoff
+Determines the hour at which a sleep session is assigned to the next calendar day. By default, sleep records belong to the day they end, but this can be customized to fit unique schedules.
 
-What is your ideal sleep duration target for a typical day. This is used calculate your _Sleep deficit = Daily sleep duration goal - Average sleep duration for selected period_. Read mode on [daily sleep duration goal](/sleep/ideal_daily_sleep).
+### Prioritize Metrics
+Allows you to rearrange the order of your sleep score pie charts. Changes here are reflected across the entire app, including the Dashboard and individual graphs.
 
-[EXAMPLE]
-Your ideal duration is 8 hours. Your average sleep for the last week is 7 and half hours. So your weekly sleep deficit is 30 minutes.[]
+### Year of Birth
+Used to determine your age, which adjusts the "healthy range" benchmarks for your [Sleep Score](/sleep/sleepscore).
 
+### Color Palette
+Enables a unique color spectrum for sleep score pie charts. When active, each dimension (e.g., Deep Sleep, Efficiency) uses a consistent assigned color throughout the app.
 
-
-## Sleep day cutoff
-
-Sleeps finished after this hour will be considered part of the next day. By default Graphs belong to the same day if their end time belongs to the same day. But this can be modified in case of specific sleeping schedules.
-
-
-## Prioritize
-
-Rearrange your sleep score pie charts, will apply to pie charts on Sleep score and graphs too.
-
-
-## Year of birth
-
-Determined your age with is use for Sleep score and the healthy sleep duration ranges, see [Sleep score](/sleep/sleepscore) for details.
-
-
-## Color palette
-
-Enables additional color spectrum used for your Sleep Score pie charts. When enabled, each pie chart have assigned color across the whole app.
-
-
-## Regularity
-
-By default **Sleep Regularity** – one of the important dimensions in your [Sleep score](/sleep/sleepscore) – uses UTC times to calculate how regular your sleep is. This means travelling to a different time zone or day light saving events will affect your regularity. We believe this is correct as in such events your body will really suffer with less quality sleep. On the other hand if you prefer to keep local times, this is your option.
-- **//Automatic sleep tagging**: This option allows all automatic tags to be turned off. Sleep graphs can be [Tagged](/sleep/tags) with additional lifestyle information. For instance \#sport or \#alcohol. But some tags are calculated automatically for your graphs. Those include your 4 most frequent locations, moon cycle, ambient [light](/sleep/light_level) in the room, sensors used and more, see full list of [automatic tags](/sleep/tags/automatic-tags).
-- **//Show the rating screen after tracking**: Enables automatic loading of the rating screen right after you finish the tracking.
-- **// Hide stats before rating**: Hides the sleep tracking results before you rate the sleep.
-
-
+### Regularity Calculation
+By default, **Sleep Regularity** is calculated using **UTC time**. This correctly reflects the physiological strain caused by time zone shifts or Daylight Saving changes. You can switch this to **Local Time** if you prefer to ignore these shifts in your statistics.

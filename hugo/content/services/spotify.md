@@ -10,21 +10,29 @@ tags:
 ---
 
 
+Waking up to your favorite music is easy with our **Spotify** integration. You can set any Spotify album or playlist as your morning alarm ringtone or your evening lullaby.
 
-## What it does
+---
 
-**Set a Spotify album or playlist as an alarm ringtone.**
+## How to Set It Up
+
+Make sure you have the official **[Spotify app](https://play.google.com/store/apps/details?id=com.spotify.music&)** installed on your phone, then follow these steps:
+
+1. Navigate to `Settings` → `Services` → `Spotify` and enable the feature.
+2. Sleep as Android will ask you to connect your Spotify account.
+3. Once connected, the app will sync your saved albums and playlists.
+4. You can now select them directly when choosing an alarm sound or lullaby (see [Ringtone settings](/alarms/ringtone) for details).
+
+> [!WARNING]
+> **Important Notice:** Because Spotify does not provide an official tool for third-party alarms, this integration relies on custom workarounds.
 
 
-## Where to find it
+## ❓ FAQs & Troubleshooting
 
-_Settings -> Services -> Spotify_
+<details>
+<summary><strong>My selected Spotify playlist or album isn't playing (or it plays the wrong one)</strong></summary>
 
-The Spotify app is available on Play Store.
-
-
-## Guide
-
-
-After you enable Spotify in _Settings -> Services_, Sleep as Android will connect to your Spotify account to be able to download information about your saved albums and playlists. Then you can set up one of those as your alarm's ringtone or lullabies. See [Ringtone](/alarms/ringtone).
-> **Warning:** Our Spotify integration is all reverse engineered and thus may stop working any time Spotify updates their app.
+* **Locked Screen Limitation:** If your phone is locked when the alarm goes off, Android's security restrictions may prevent Sleep as Android from forcing Spotify to change playlists. When this happens, Spotify will simply resume playing whatever song or playlist you last listened to. We are looking for a workaround, but it remains a current technical limitation.
+* **VPN Interruption:** If you use a VPN on your phone, it may block Spotify from loading and streaming your music online when the alarm triggers.
+* **App Updates:** If Spotify recently updated and the integration broke completely, please hang tight! Our team works quickly to update the app and restore compatibility.
+</details>

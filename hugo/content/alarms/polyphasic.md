@@ -6,18 +6,28 @@ nav_order: 20
 parent: /alarms/0parent.html
 ---
 
+**Polyphasic sleep** is the practice of sleeping in multiple shorter bursts over a 24-hour period, rather than one long block (monophasic sleep). Because these sessions are shorter and occur throughout the day, they require unique notification and goal settings.
 
-Polyphasic sleep is the practice of sleeping in several shorter periods over the course of 24 hours (as opposed to the more common monophasic sleep with one long period of sleep).
-This type of sleep practice requires some special settings.
 
-The **Bedtime Notification** is normally scheduled based on the alarm time and the daily sleep income. Polyphasic sleep naps require a bedtime notification that is not based on the daily amount of sleep, but on the amount of sleep specific to that nap.
-This target sleep duration can be set in the per-alarm setting, where you can select the length of sleep duration for the alarm and also adjust the bedtime notification time.
-> **Note:** The per-alarm sleep goal does not affect your daily sleep income, because you still need to reach the sum of sleep and naps each day.
-1. Open per-alarm settings from _Left_ ☰ _menu_ -> _Alarms_, and select the alarm you need to adjust.
-1. Tap the Bedtime notification tile and uncheck the Application settings (checked by default).
-1. Choose the sleep duration goal (20 minutes - 13 hours and 30 minutes) with the slider or from the drop-down menu list.
-1. Adjust the timing for the bedtime notification, if necessary.
-1. Confirm with the Save button at the bottom.
+## Bedtime Notifications for Naps
+
+Normally, bedtime notifications are calculated globally based on your main alarm and daily sleep goal. For polyphasic sleepers, each individual nap needs its own specific reminder.
+
+You can override the global defaults for any specific alarm to set a nap-specific duration and notification window.
+
+> [!NOTE]
+> Setting a per-alarm sleep goal only affects that specific alarm's notifications; it does not change your overall [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
+
+## How to Set Up a Polyphasic Nap
+
+1. Open the list of alarms and select the specific alarm you want to customize.
+2. Tap the **Bedtime notification** card.
+3. Uncheck **Application settings** (this is enabled by default).
+4. **Set Duration:** Use the slider or drop-down menu to set your sleep duration goal for this specific nap (ranging from 20 minutes to 13.5 hours).
+5. **Adjust Reminder:** Choose how many minutes before this bedtime you want to be notified.
+6. Tap **Save** at the bottom to confirm.
+
+
 <!-- [cols="1,1,1"] -->
 <!-- |=== -->
 <!-- a| .Disable the Application settings.<a id="polyphasic_target"></a> -->

@@ -3,21 +3,37 @@
 layout: default
 title: Terms of use
 nav_order: 204
-//parent: /general/general_info.html
 ---
 
-Terms of Service (the “Terms”)
+# Terms of Service
 
-In order to use the Sleep as Android and SleepCloud services (the “Service”), you (the “User”) must firstly agree to this Terms. You may not use the Service if you do not accept this Terms. You understand and agree that SleepCloud will treat your use of the Service as acceptance of the Terms from that point onwards.
+**Please read these terms carefully before using the Sleep as Android and SleepCloud services.**
 
-The provider provides this Service AS IS without any guarantees on its functionality, availability or correctness of the provided and stored data. Moreover you acknowledge and agree that SleepCloud is not liable for any loss or damage cause to you by the use of the Service including loss of user data.
+By using the Sleep as Android and SleepCloud services (the “Service”), you (the “User”) agree to these Terms. If you do not accept these Terms, you may not use the Service. Your continued use of the Service constitutes acceptance of these Terms.
 
-Provider of the service will not store any personal information of the user other than the information needed to authenticate the users into the service. Provider of the service reserves the right to use the data provided by the users in any way including the right to perform different data analysis on the provided data by the provider or by any delegated 3rd party under the condition that the data has been formerly properly anonymized. You agree that the provider of this service can freely use or publish any results derivated from the provided data.
+---
 
-The provision of this Service is for free, but may become billable any time later on with an written notice.
+## 1. Disclaimer of Warranties
+The Service is provided **"AS IS"** and **"AS AVAILABLE"** without any guarantees regarding its functionality, availability, or the correctness of the data provided or stored.
 
-You acknowledge that the provider of this service reserves the right to change this terms any time later on with a written notice.
+## 2. Limitation of Liability
+You acknowledge and agree that the provider is not liable for any loss or damage caused by your use of the Service, including but not limited to the loss of user data.
 
-You agree to hold harmless and indemnify the provider of this service from and against any third party claim arising from or in any way related to your use of the service, violation of this terms or any other actions connected with use of this service, including any liability or expense arising from all claims, losses, damages (actual and consequential), suits, judgments, litigation costs and attorneys’ fees, of every kind and nature. In such a case, we will provide you with written notice of such claim, suit or action.
+## 3. Data Usage & Privacy
+The provider will not store any personal information other than what is necessary for user authentication. The provider reserves the right to perform data analysis on anonymized user data and to use or publish any results derived from such analysis.
 
-The provider provides this Service for you to track, manage, and share your sleep and lifestyle data. THIS SERVICE DOES NOT CONTAIN OR CONSTITUTE, AND SHOULD NOT BE INTERPRETED AS, MEDICAL ADVICE OR OPINION. We are not licensed medical professionals, and we are not in the business of providing medical advice. You should always consult a qualified and licensed medical professional prior to beginning or modifying your sleep or lifestyle habits. Your use of this service or the mobile application does not create a doctor-patient relationship between you and the provider.
+## 4. Service Fees
+The current provision of this Service is free of charge. However, the provider reserves the right to introduce fees for the Service at any time with prior written notice.
+
+## 5. Changes to Terms
+The provider reserves the right to modify these Terms at any time. Users will be notified of significant changes via written notice (e.g., in-app announcement or website update).
+
+## 6. Indemnification
+You agree to hold harmless and indemnify the provider from any third-party claims, losses, or damages (including legal fees) arising from your use of the Service or your violation of these Terms.
+
+---
+
+## 🛑 MEDICAL DISCLAIMER
+
+**THIS SERVICE DOES NOT CONSTITUTE MEDICAL ADVICE.**
+The provider is not a licensed medical professional. The data tracked and shared via this App is for informational purposes only. You should always consult a qualified and licensed medical professional before beginning or modifying your sleep or lifestyle habits. Your use of this service does not create a doctor-patient relationship.

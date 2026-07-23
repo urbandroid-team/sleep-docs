@@ -6,7 +6,7 @@ parent: /ux/0parent.html
 ---
 :toc: macro
 
-.You can choose different widgets for your phone's screen, each with different function.
+*You can choose different widgets for your phone's screen, each with different function.*
 
 
 ---

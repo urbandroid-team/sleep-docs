@@ -89,6 +89,8 @@ GEM
     rexml (3.2.6)
     rouge (4.4.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.80.3-x64-mingw-ucrt)
+      google-protobuf (~> 4.28)
     sass-embedded (1.80.3-x64-mingw32)
       google-protobuf (~> 4.28)
     sass-embedded (1.80.3-x86_64-linux-gnu)
@@ -106,9 +108,11 @@ GEM
     tzinfo-data (1.2023.4)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
+    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
+  x64-mingw-ucrt
   x64-mingw32
   x86_64-linux
 
@@ -127,6 +131,7 @@ DEPENDENCIES
   slim (~> 3.0.7)
   thread_safe (~> 0.3.5)
   tzinfo-data
+  wdm (~> 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH

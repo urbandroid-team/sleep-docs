@@ -1,84 +1,79 @@
 ---
 
 layout: default
-title: Tasker, Automate
+title: "Automation: Tasker, Automate"
 nav_order: 2
 has_children: true
 parent: /services/0parent.html
 ---
 
 
+**[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)** and **[Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate)** are powerful automation tools for Android. By pairing them with Sleep as Android, you can build custom routines around your sleep.
 
-## What it does
+You can set your phone to react to sleep events (like turning off your smart lights when an alarm is dismissed) or trigger sleep actions using other apps (like starting sleep tracking automatically when you put your phone on its wireless charger).
 
-Tasker and Automate are automation tools for Android.
-<!-- Sleep as Android by default includes a plugin for both Tasker and Automate. -->
+---
 
-After setup, you can react to **events** that happen in Sleep as Android (such as _alarm was dismissed_), and you can call **actions** (such as _start sleep tracking_).
+## Setup & Requirements
 
+To get started, make sure you have either **[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)** or **[Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate)** installed on your device.
 
-## Where to find it
+You can find the integration settings inside Sleep as Android here:
 
-**Sleep as Android -> Settings -> Services -> Automation -> Tasker**
-
-You need to have either [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) or [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate) installed.
-
-
-## Guide
+> ⚙️ **`Settings` → `Services` → `Automation`**
 
 
-This page offers a guide for Tasker.Automate has a little different interface but the concepts are the same.
+## Setting Up Events (React to Sleep as Android)
 
-[NOTE]
+Events allow your phone to trigger other apps or phone settings when something happens in Sleep as Android.
 
-#### [Take a look at Tasker walkthroughs](/services/tasker_walkthroughs)
+### How to set up an Event in Tasker:
 
+1. Open **Tasker**, go to the **Profiles** tab, and tap the **(+)** button.
+2. Give your new profile a name.
+3. Choose **Event → Plugin → Sleep**, then tap the **Configuration (pencil icon)** and select your event.
+4. Go back and select the task you want to run when that event happens.
 
-[Take a look at Automate walkthroughs](/services/automate_walkthroughs)
+### Available Events:
 
-#### === Events
+* **Sleep tracking started / stopped / paused / resumed**
+* **Alarm started**
+* **Snooze (alarm):** Fires when you hit snooze on a ringing alarm.
+* **Dismiss (alarm):** Fires after you successfully turn off a ringing alarm (and pass any required CAPTCHAs). This also fires if you dismiss an alarm while it is currently snoozed.
+* **Snooze canceled:** Fires if you dismiss the alarm entirely while it is actively snoozing.
+* **Bedtime:** Fires the exact moment your scheduled bedtime occurs.
+* **~REM:** Triggered when the app detects you entering a REM sleep phase.
+* **Smart period:** Fires 45 minutes before your smart wake-up window starts (used by the app to gather final sleep cycle data).
+* **Audio recognition:** Fires when the app detects a specific sound (snoring, talking, coughing, laughing, or a baby crying). *Requires audio recognition to be active; caps at one event every 30 seconds.*
+* **Anti-Snoring:** Fires when the app detects snoring and triggers an anti-snoring action (vibration, sound, or both). *Requires anti-snoring features to be turned on.*
 
+## Setting Up Actions (Control Sleep as Android)
 
-To react to an event in Sleep as Android, do the following:
-1. Start Tasker
-1. Go to Profile tab and tap (+) button
-1. Give a name to your profile
-1. Tap Event > Plugin > Sleep > Configuration (pencil) > [your chosen event]
-1. Go back
-1. Select the task that should be run when the event happens
+Actions allow outside triggers on your phone to control what Sleep as Android does.
 
-You can use any of these events from Sleep as Android and link them to any actions on your phone:
-- **Sleep tracking started**: ...
-- **Sleep tracking stopped**: ...
-- **Sleep tracking paused**: ...
-- **Sleep tracking resumed**: ...
-- **Snooze (alarm)**: the user has snoozed a ringing alarm
-- **Bedtime**: the bedtime has just occured
-- **Alarm started**: ...
-- **Dismiss (alarm)**: the user has dismissed a ringing alarm AND solved the CAPTCHA if present. This event will also be fired when alarm has been dismissed while snoozed
-- **Snooze canceled**: alarm has been dismissed while snoozed
-- **~REM**: the REM phase has been detected. More on REM phase detection here.
-- **Audio recognition**: Sleep as Android has detected one of the supported sounds: snoring, talk, coughing, laughter, baby crying. The maximum frequency of the event is once per 30s. Audio recognition has to be active for this event to work.
-- **Anti-Snoring**: Sleep as Android has detected snoring and executed an anti-snoring action (vibration or tongue click or both). Anti-snoring has to be active for this event to work.
-- **Smart period**: fires 45 minutes before smart period starts (to gather data for the smart period)
+### How to set up an Action in Tasker:
 
+1. Open **Tasker**, go to the **Tasks** tab, and tap the **(+)** button.
+2. Give your new task a name.
+3. Tap the **(+)** button inside the task → **Plugin → Sleep**, then tap the **Configuration (pencil icon)** and select your action.
+4. Go back to save it.
 
-### Actions
+### Available Actions:
 
-To triger an action in Sleep as Android, do the following:
-1. Start Tasker
-1. Go to Tasks tab and tap (+) button
-1. Give a name to your task
-1. Tap (+) button > Plugin > Sleep > Configuration (pencil) > [your chosen task]
-1. Go back
+* **Start sleep tracking**
+* **Start sleep tracking: Save battery:** Starts tracking immediately, but turns off the live movement graph to save battery life (logs time only).
+* **Stop Sleep tracking**
+* **Snooze (alarm) / Dismiss (alarm)**
+* **Play lullaby / Stop lullaby**
+* **Sleep tracking: ideal sleep time:** Automatically schedules a new alarm based on your long-term *Daily Sleep Duration Goal* (using your default alarm settings) and immediately begins sleep tracking.
 
-You can use any events on your phone and trigger Sleep as Android's actions with them.Sleep provides these actions:
-- **Start sleep tracking**: ...
-- **Start sleep tracking: Save battery (no graph, just time)**: ...
-- **Stop Sleep tracking**: ...
-- **Snooze (alarm)**: ...
-- **Dismiss (alarm)**: ...
-- **Play lullaby**: ...
-- **Stop lullaby**: ...
-- **Sleep tracking: ideal sleep time**: to create a new alarm for your Daily sleep duration goal sleep time (with alarm default settings) and start sleep tracking immediately
-> **Note:** You can also add new alarm with System > Set Alarm action.
+> [!TIP]
+> If you just want to create a standard alarm without launching sleep tracking, you can use Tasker's built-in **System → Set Alarm** action instead.
+
+---
+
+### Need Inspiration?
+
+Check out our community walkthroughs for step-by-step automation ideas:
+* 🚀 [Tasker Walkthroughs Examples](/services/tasker_walkthroughs)
+* 🤖 [Automate Walkthroughs Examples](/services/automate_walkthroughs)

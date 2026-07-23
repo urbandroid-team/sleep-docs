@@ -3,106 +3,78 @@
 layout: default
 title: Privacy
 nav_order: 201
-//parent: /general/general_info.html
 ---
 
+**Manage your data, ad preferences, and tracking settings to protect your privacy.**
 
-See [https://team.urbandroid.org/privacy/](https://team.urbandroid.org/privacy/) for up-to-date version of Urbandroid's privacy policy that also concerns Sleep as Android.
+Sleep as Android is designed with privacy in mind. For the most up-to-date details on how we handle your data, please see the [Official Urbandroid Privacy Policy](https://team.urbandroid.org/privacy/).
 
-**Allows you to change various privacy options in the app.**
-
-_Settings -> Personalize -> Privacy_
+**Menu Path:** `Settings` → `Personalize` → `Privacy`
 
 ---
 
+## Data & Usage
 
-## Privacy policy
+### Analytics
+Allows you to opt-out of anonymous usage statistics. These statistics help us understand aggregate trends, such as which Android versions are most common or which sensors (like Sonar) are most popular.
+> [!NOTE]
+> No personally identifiable information (PII) is ever collected, even when analytics are enabled.
 
+### Disable Experimental Features
+Opts you out of early-access features, such as new actigraphy processing algorithms or advanced neural networks for sound classification.
 
-[A link](https://team.urbandroid.org/privacy-policy/) to our Privacy Policy and Data consent policy for all our apps.
+### Disable Sleep Location
+Prevents the app from collecting location data.
+> [!NOTE]
+> The app only ever uses **coarse location** (±5 km accuracy) for [geotagging](/sleep/tags#geo) and home location detection; your exact address is never stored.
 
+### Reset Home Location
+Clears your currently identified "home" baseline. Use this if you have moved to a new house to ensure "Only at Home" features (like CAPTCHA bypass) work correctly.
 
-## Terms of use
+---
 
-Detailed terms of use of the Sleep as Android app.
+## Advertisements
 
+> [!TIP]
+> Ads are **only** present in the free version of the app after the initial trial period has expired. If you see ads in a premium or unlocked version, please see our [FAQ for troubleshooting purchases](/faqs/purchase_not_unlocked).
 
-## Analytics
+### Don't Personalize Ads
+Redirects you to the Android system settings where you can opt-out of interest-based ad targeting across all apps.
 
-Allows you to opt-out from anonymous data usage stats.
-The anonymous data are for example - how many users have certain app's version, how many users have certain type of Android, how many users have sonar selected as the sensor...
-> **Note:** No personally identifiable data is collected even when this option is enabled.
+### Manage Consent
+Provides options to control how your personal data is used for advertising purposes (GDPR/CCPA compliance).
 
+### Facebook Ads
+Redirects you to your Facebook account's ad preference settings.
 
-## Don't personalize ads
+---
 
-Allows you to opt-out from the the Android Ads Personalization; it will take you to the system settings page, where you can turn off this feature.
-> **Note:** Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow [the guide for unlocking the paid version](/faqs/purchase_not_unlocked).
+## Backup & Storage
 
+### SleepCloud
+Quick access to manage your [SleepCloud](/services/sleepcloud) account and synchronization settings.
 
-## Manage consent
+### Android App Data Backup
+Toggle to opt-in or out of the standard Google/Android system backup service. You can manage these global backups in your phone's `System Settings` → `Google` → `Backup`.
 
-Options for controlling the personal data for personalized advertising.
-> **Note:** Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow [the guide for unlocking the paid version](/faqs/purchase_not_unlocked).
+### Local Storage Backup
+Enables daily local backups saved as a `sleep-export.zip` file.
+*   **Path:** Typically `/Android/data/com.urbandroid.sleep/files/sleep-data/`.
+*   **Note:** You can view the exact current path by going to the `Left ☰ Menu` → `Backup` → `Export data`.
 
+### Scoped Storage
+Enables the modern [Android Scoped Storage](https://source.android.com/devices/storage/scoped) standard. This restricts the app's access to only its own designated folder, enhancing security and removing the need for broad storage permissions.
 
-## Facebook ads
+---
 
-Redirects you to the Facebook Ads preferences.
-> **Note:** The app does not share your personal data. Advertisement is present only for the free version of the app after the trial.
-The app only asks to display an unspecified ad, the provider of the advertisement will serve the ad based on the advertising ID, that can be disabled (see Don't personalize ads option above)
-You can read more details at our [https://team.urbandroid.org/privacy/](https://team.urbandroid.org/privacy/).
-> **Note:** Ads are only present in the free version past the trial. If you see any ads in the premium app, please follow [the guide for unlocking the paid version](/faqs/purchase_not_unlocked).
+## System Integration
 
+### Handle Phone Calls
+When enabled, the app automatically mutes alarms/lullabies and pauses sound recording if you are in an active phone call.
+> *Requires the "Phone" permission.*
 
-## SleepCloud:
+### Weather
+Enables coarse location checks to provide the weather forecast on your [Morning Briefing](/sleep/how_to_read_sleep_graphs#morning_screen).
 
-Access to the [SleepCloud addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&hl=cs&gl=US), if installed and used.
-
-
-## Android app data backup
-
-Allows you to opt-out from the standard Android app data backup service. You can configure the Android backup in _system settings -> Privacy -> Back up_.
-
-
-## Local storage backup
-
-Enables daily local storage, which saves "0/com.urbandroid.sleep/files/sleep-data/sleep-export.zip" file.
-> **Note:** The location of backup storage path may differ on each Android version. If you go to _Left_ ≡ _menu -> Backup -> Export data_, the app shows you the current storage location on the dialogue.
-
-
-## Scoped storage
-
-Enables [Scoped storage](https://source.android.com/devices/storage/scoped); when enabled, the access of the app is restricted only to its designated folder. Substitutes the older read_storage permission.
-
-
-## Restore settings
-
-Deletes all your recent changes in the settings, and restore them from the latest backup.
-
-
-
-## Don't store sleep location
-
-Opts you out of location data collecting. The app only gathers coarse location (± 5km) for [geotagging](/sleep/tags#geo).
-
-
-## Reset home location
-
-Resets your current home location - useful when you move.
-
-
-## Weather
-
-Enables weather data gathering for [morning briefing](/sleep/how_to_read_sleep_graphs#morning_screen) weather tile. The app only checks coarse location (± 5 km).
-
-
-## Disable experimental features
-
-Opt you out from our new experimental features (like new actigraphy data processing, new neuron network for sound classification...).
-
-
-## Handle phone calls
-
-Mutes alarms and lullabies, and pauses sound recording when in phone call. The phone permission is needed.
-
+### Restore Settings
+Resets all app settings to their values from the most recent backup. **Warning:** This will overwrite any changes you have made since the last backup was created.

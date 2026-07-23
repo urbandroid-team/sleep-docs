@@ -58,7 +58,7 @@ Device settings:: Follows your system settings.
 == Color palette (Graphs)
 You can choose 7 different color palettes for your graphs:
 
-video::color.mp4[width=400, options=autoplay]
+video::/assets/videos/color.mp4[width=400, options="autoplay,loop,muted"]
 
 [horizontal]
 Default:: The current default on new installations (a color may vary!).

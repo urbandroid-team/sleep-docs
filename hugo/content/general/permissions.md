@@ -3,148 +3,32 @@
 layout: default
 title: Permissions
 nav_order: 202
-//parent: /general/general_info.html
 ---
 
+**To provide its comprehensive suite of features, Sleep as Android requires specific system permissions. Below is a detailed breakdown of how and why each permission is used.**
 
-Sleep as Android has a lot of functionality, some of which can be only enabled with permissions granted by user. See below on usage details for each permission.
+---
 
-[Attributes]
-|===
-|Permission |Google's description |Used by feature | Notes
+| Permission | Feature(s) Using This | Why it's needed |
+| :--- | :--- | :--- |
+| **Microphone** | <ul><li>[Sleep noise recording](/sleep/sleep_noise_recording)</li><li>[Sonar tracking](/sleep/sensors#sonar)</li></ul> | Required to analyze sleep sounds (snoring, talking) or to use ultrasonic waves for contactless movement tracking. |
+| **Location** <a id="location"></a> | <ul><li>[Sunrise wakeup](/devices/smart_light#guide)</li><li>[Geotagging](/sleep/tags#geo)</li><li>[Pair tracking](/sleep/pair_tracking)</li><li>Bluetooth wearables</li></ul> | Used to detect local sunrise times and weather. **Note:** Coarse location (±5 km) is used for tags. Precise location is required by Android to scan for Bluetooth/BLE devices. |
+| **Camera** | <ul><li>[CAPTCHA tasks](/alarms/captcha)</li><li>Flashlight cues</li><li>Pee-light</li></ul> | Used to scan QR codes/barcodes for CAPTCHAs, or to detect your smile. Also required to control the physical flashlight for visual alerts. |
+| **Storage / Media** | <ul><li>[Backup & Restore](/services/backup_data)</li><li>Sound recording</li></ul> | Used to export your sleep data to CSV and to store your nightly audio recordings on your device. |
+| **Nearby Devices / Bluetooth** | <ul><li>Smartwatches</li><li>[Sleep Phaser](/devices/sleep_phaser)</li><li>[Oximeters](/devices/oximeter)</li></ul> | Required to communicate with and collect data from external hardware and wearables. |
+| **Body Sensors** | [Heart rate monitoring](/sleep/heart_rate) | Required to read real-time pulse and HRV data from your smartwatch or chest strap. |
+| **Phone / Call Info** | Alarms & Recording | Used to automatically mute alarms or pause recording if you are currently on an active phone call. |
+| **Calendar** | [Google Calendar](/services/google_calendar) | Allows the app to automatically skip alarms on public holidays or reschedule them based on your upcoming events. |
+| **Display over other apps** | [Fullscreen alarms](/alarms/alarm_settings) | Required for the alarm screen to appear over your lock screen. Also necessary for Spotify to launch during an alarm. |
+| **Notifications** | Alerts | Required to send you "Time to go to bed" reminders and "Are you still awake?" checks. |
+| **Battery Optimization (Ignore)** | Sleep Tracking | Essential for preventing the system from killing the app in the middle of the night. [Learn more at DontKillMyApp.com](https://dontkillmyapp.com). |
 
-|Contacts / Accounts
-|
-|We have removed this permission since it is not needed anymore by Sleep as Android.
-|
+---
 
-|Location <a id="location"></a>
-|Approximate location (network-based), precise location (GPS and network-based)
-a|- [Sunrise wakeup](/devices/smart_light#guide)
-- [Location tagging](/sleep/tags#geo)
-- Morning weather
-- [Pair tracking](/sleep/pair_tracking)
-- Bluetooth-connected devices, such as [wearables](/devices/wearables)
+## Technical & Other Permissions
 
-a|We use approximate location (network-based) to implement some of the cool location based features. We gather the location data and make them more coarse to +/- 5 km.
-
-For all of this, we would be okay with _approximate location_ permission. However for _bluetooth connecting_ and _pair tracking_ features, we have to also ask for _precise location_.
-
-You can completely opt-out from location storing in _Settings -> Miscellaneous_.
-
-|Microphone
-|Record audio
-a|- [Sleep noise recording](/sleep/sleep_noise_recording)
-- [Sonar](/sleep/sensors#sonar)
-|This permission is needed to access sounds form your microphone so that features such as [Sleep noise recording](/sleep/sleep_noise_recording) or [Sonar](/sleep/sensors#sonar).
-
-|Photos/Media/Files or Storage
-|Read the contents of your USB storage, modify or delete the contents of your USB storage
-a|- [Sleep noise recording](/sleep/sleep_noise_recording)
-- [Backup](/services/backup_data)
-|We don’t touch your photos. We use this permission to export your sleep data to a CSV file (can be disabled in _Settings -> Privacy -> Local backup_) or to store noise recordings on the SD card.
-
-|Camera
-|Take pictures and videos
-a|- Some [Captcha tasks](/alarms/captcha)
-- Pee light
-- [Jet lag prevention](/sleep/jetlag)
-|This is used by QR Captcha in order to scan barcodes / QR codes and to toggle flashlight in several features. Also the Smile [CAPTCHA](/alarms/captcha) uses this to detect your smile to dismiss your alarm in the morning.
-
-|Wearable sensors/Activity data
-|Body sensors (like heart rate monitors)
-|[Heart rate monitoring](/sleep/heart_rate)
-|Enables you to use heart rate trackers along with Sleep as Android
-
-|Phone
-|Read phone status and identity
-|_Privacy -> Handle phone calls_
-|Used to stop lullabies or recording when you get into a phone call.
-
-|Device ID & call information
-|Read phone status and identity
-|Alarm
-|Used to stop ringing the alarm when you're in-call.
-
-|Device & app history
-|Retrieve running apps
-|
-|
-
-|Calendar
-|Read calendar events plus confidential information, add or modify calendar events and send email to guests without owners' knowledge
-| [Google Calendar](/services/google_calendar)
-|Allows the app to reschedule alarms according to calendar events and public holidays, if you configure it to do so.
-
-|Wi-Fi connection information
-|View Wi-Fi connections
-|Online radio alarm, IFTTT, Spotify, Smartlight
-|Used to check whether WiFi is available.
-
-|Other
-|Receive data from Internet
-|Lots of features such as online radios, weather reports, backup etc.
-|
-
-|Other
-|Connect and disconnect from Wi-Fi
-|Online radio alarm, IFTTT, Spotify, Smartlight
-|Used while sleep tracking to briefly connect to Wi-Fi for features that you set up.
-
-|Other
-|View network connections
-|
-|
-
-|Other
-|Pair with Bluetooth devices
-|Oximeter, Sleep Phaser
-|Used to directly connect to Bluetooth devices.
-
-|Other
-|Access Bluetooth settings
-|Oximeter, Sleep Phaser
-|Used to directly connect to Bluetooth devices.
-
-|Other
-|Control Near Field Communication
-|NFC Captcha
-|Required for the NFC Captcha - to stop an alarm by scanning a NFC code
-
-|Other
-|Control vibration
-|Alarm
-|Allows alarms, lucid cues and anti-snoring to vibrate
-
-|Other
-|Draw over other apps
-|Alarms
-|Allows the app to start a full screen alarm window even on Android 10. Also this is required to be able to start Spotify alarms.
-
-|Other
-|Run at startup
-|Alarms
-|To be able to trigger your alarms after the device reboots.
-
-|Other
-|Control flashlight
-a|- Pee light
-- [Jet lag prevention](/sleep/jetlag)
-|
-
-|Other
-|Prevent device from sleeping
-|Sleep tracking
-|We need to read data from sensors for the whole night. If the device goes to sleep, we cannot read data from sensors.
-
-|Other
-|Disable your screen lock
-|
-|
-
-|Other
-|Full network access
-|
-|
-
-|===
+*   **Near Field Communication (NFC):** Used exclusively for the [NFC CAPTCHA task](/alarms/captcha).
+*   **Run at startup:** Ensures your scheduled alarms remain active even after your phone reboots.
+*   **Prevent device from sleeping (Wakelock):** Keeps the app active so sensors can continue reading data throughout the entire night.
+*   **Full network access:** Used for cloud backups, online radio streams, and weather updates.
+*   **Vibration control:** Allows the app to trigger haptic feedback for alarms and cues.
