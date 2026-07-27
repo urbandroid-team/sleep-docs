@@ -22,7 +22,7 @@ toc::[]
 
 When you wake up, look for these three check for these three signs of healthy sleep first:
 
-* *The Sleep Score:* (0–100%) Your overall recovery. Aim for 85%+.
+* *The Sleep Score:* (0–100%) Your overall recovery. Aim for 85%+ and green color (= healthy range).
 * *The Shape:* A healthy night looks like a "rollercoaster": valleys of Deep Sleep transitioning into peaks of Light sleep and REM.
 * *Duration and Regularity:* The "Quantity" and "Rhythm." Did you hit your time goal? Did you stick to your usual bedtime?
 
@@ -33,6 +33,7 @@ The primary card displays your *Sleep Score* in the top right, underpinned by a 
 * *Sleep Score:*  The Sleep Score is your ultimate nightly summary, condensing all your sensor data into a single percentage - the higher the better.
 * *Filling the Arcs:* Think of these as progress rings. The closer the color fills the circle, the closer you are to your optimal goal.
 * *The Big Picture:* Each dial focuses on one metric (like Duration, Deep Sleep, or Efficiency).
+* *Color coding:* Green indicates a score in the healthy range, while red highlights a score in an unfavorable range.
 * *The Details:* Look at the secondary number beneath each label. It provides vital context—like exactly how many minutes of snoring were detected or the gap between your actual sleep and your goal.
 
 Want the full breakdown? Read our <</sleep/sleepscore#, Sleep Score guide>> to learn more.
