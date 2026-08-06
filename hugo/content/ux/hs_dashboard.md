@@ -6,6 +6,9 @@ nav_order: 4
 parent: /ux/0parent.html
 ---
 
+# Dashboard home screen
+
+
 The **Dashboard** is designed to give you exactly what you need at a glance. It uses a dynamic card-based layout that adapts to your daily routine, letting you quickly review your sleep health and control your alarms.
 
 **Declutter your view:** If a card isn’t relevant to you, simply swipe it away to make room for other content. You can always bring it back later.
@@ -24,7 +27,6 @@ The **Dashboard** is designed to give you exactly what you need at a glance. It 
 *   **Left ☰ menu** → **Home screen layout** → **Dashboard**
 *   **Settings** → **Personalize** → **Home screen**
 
----
 
 ## Dashboard Cards Explained
 
@@ -92,9 +94,8 @@ A quick-access panel for common tasks:
 ### Add-on Card
 A showcase of available extensions, compatible devices, and other apps from our team. Tapping it opens a full list of add-ons.
 
----
 
-## Guide
+## Guides
 
 *   **How to hide a card:** Swipe any card to the side to remove it. You can manage visible cards using the **Hide / Show** button at the bottom of the Dashboard.
 *   **How to pin a card:** Long-press any card to lock it to the top of your Dashboard.
@@ -111,3 +112,4 @@ If the Dashboard layout isn't the best fit for your workflow, you can switch to:
 
 *   [**Tabs**](/ux/hs_tabs): A classic interface with swipeable tabs at the top.
 *   [**Alarms only mode**](/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.
+

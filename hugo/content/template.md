@@ -1,39 +1,20 @@
 ---
-
-layout: default
-title: Sleep tracking
-nav_order: 2
-parent: /docs/sleep_advanced
+title: Content Template
+draft: true
 ---
 
+# Feature Name
 
+**One sentence summary of the feature.**
 
-## What it does
-
-**One sentence summary**
-<!-- [Optional] Longer text describing the feature -->
-
+---
 
 ## Where to find it
-<!-- Where to find the feature's settings and other related settings used to enable the feature, optionally with description -->
-<!-- EXAMPLE: _Settings -> Wearables -> Use wearables_ -->
-
+*   **Menu Path:** `Settings` → `Category` → `Feature`
 
 ## Options
-<!-- Describe all the feature's options, see other docs pages for formatting -->
-<!-- EXAMPLE: -->
-- **Smart wake up**: See link:../alarms/smart_wake_up.html[Smart wake up]
-- **Awake detection**: See [Awake detection]
-
-.Automatic sleep tracking
-- **Start sleep tracking**: Set to something other than _Manual only_ to enable automatic sleep tracking start.
-- More details: link:automatic_sleep_tracking.html[Automatic sleep tracking].
-- **// Sleep time estimate**: Do you forget to track your sleep? Enable this to receive sleep length estimates in a notification every day without you doing anything.
-- On _Manual only_, you'll receive a notification that you have to confirm in order to create the sleep record
-- On _Save automatically_, the notification saves the sleep record for you automatically
-- More details: link:sleep_time_estimation.html[Sleep time estimation]
-<!-- EXAMPLE END -->
-
+*   **Option 1:** Description.
+*   **Option 2:** Description.
 
 ## Guide
-<!-- Free form description on how to use the feature, various quirks and best practices -->
+Detailed instructions and best practices.

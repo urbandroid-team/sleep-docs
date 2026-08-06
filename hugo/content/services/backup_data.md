@@ -8,6 +8,9 @@ tags:
 parent: /services/0parent.html
 ---
 
+# Backup
+
+
 Never lose your sleep tracking history, alarms, or customized settings! Sleep as Android offers both **automated cloud backup** and **manual local export** options so you can safely transfer your data when upgrading or resetting your phone.
 
 ---
@@ -97,8 +100,6 @@ Because noise recording files (`/rec` folder) are large, they are not included i
 4. **Update app settings:** Open Sleep as Android on the new phone and navigate to `Settings` → ``Sleep noise recording → `Storage path`. Set the path to `YourFolder` (select the parent directory, **not** the `/rec` subfolder).
 5. **Sync:** Import your general sleep backup. The app will automatically pair your audio metadata with the copied audio files.
 
----
-
 ## Android System Backup (Google One)
 
 Most modern Android devices include automatic system backups powered by Google One.
@@ -116,23 +117,26 @@ Most modern Android devices include automatic system backups powered by Google O
 <details>
 <summary><strong>My old backup file disappeared after a new sleep track. How do I recover it?</strong></summary>
 
-If you place a `sleep-export.zip` file onto a new device but track a night of sleep *before* importing, the app automatically renames your old backup to `sleep-export.backup.zip` so it isn't lost.
-
-To restore the original data:
-1. Open your phone's File Manager and locate the app's backup folder.
-2. Delete the newly created `sleep-export.zip`.
-3. Rename `sleep-export.backup.zip` back to `sleep-export.zip`.
-4. Open Sleep as Android and go to **☰ → Backup → Import data**.
+* **Reason:** The app automatically renames old backups to prevent data loss if a new tracking session begins before an import.
+* 👉  *Fix:*
+    1. Open your phone's File Manager and locate the app's backup folder.
+    2. Delete the newly created `sleep-export.zip`.
+    3. Rename `sleep-export.backup.zip` back to `sleep-export.zip`.
+    4. Open Sleep as Android and go to **☰ → Backup → Import data**.
 </details>
 
 <details>
 <summary><strong>Can I analyze my raw sleep data on a PC?</strong></summary>
 
-Yes! When you perform a manual export, the resulting `.zip` file contains `sleep-export.csv`. You can open this CSV file in Microsoft Excel, Google Sheets, or any data analysis tool to explore your raw sleep metrics. The CSV file is [documented here](/devs/csv).
+* **Reason:** Desire for deep data analysis outside the app.
+* 👉  *Fix:* **Yes.** Manual exports include a `sleep-export.csv` file inside the `.zip`. You can open this in Excel or Google Sheets. See our [CSV documentation](/devs/csv) for field details.
 </details>
 
 <details>
 <summary><strong>Restoring data failed, I see error messages...</strong></summary>
 
-If you run into any issues during the backup or restore process, please reach out to us at support@urbandroid.org. We're always here to help!
+* **Reason:** File permissions, corrupted ZIP, or version mismatch.
+* 👉  *Fix:* Reach out to us at **support@urbandroid.org** with a description of the error and your device model. We'll help you recover your data.
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

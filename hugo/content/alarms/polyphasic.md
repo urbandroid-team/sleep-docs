@@ -6,6 +6,9 @@ nav_order: 20
 parent: /alarms/0parent.html
 ---
 
+# Polyphasic sleeping
+
+
 **Polyphasic sleep** is the practice of sleeping in multiple shorter bursts over a 24-hour period, rather than one long block (monophasic sleep). Because these sessions are shorter and occur throughout the day, they require unique notification and goal settings.
 
 
@@ -27,6 +30,7 @@ You can override the global defaults for any specific alarm to set a nap-specifi
 5. **Adjust Reminder:** Choose how many minutes before this bedtime you want to be notified.
 6. Tap **Save** at the bottom to confirm.
 
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
 
 <!-- [cols="1,1,1"] -->
 <!-- |=== -->
@@ -37,3 +41,4 @@ You can override the global defaults for any specific alarm to set a nap-specifi
 <!-- //a| .Adjust the per-alarm duration goal. -->
 <!-- ![](polyphasic_target3.png) -->
 <!-- //|=== -->
+

@@ -6,6 +6,9 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+# Google Assistant App Actions
+
+
 **Control Sleep as Android using only your voice with Google Assistant integration.**
 
 By using App Actions, you can start tracking, manage alarms, and review your sleep history without ever touching your phone.
@@ -53,3 +56,4 @@ On devices running Android 15, you must manually enable Sleep as Android within 
   <img src="/assets/images/GA_3.png" />
   <img src="/assets/images/GA_5.png" />
 </div></div>
+

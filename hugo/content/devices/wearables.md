@@ -19,6 +19,9 @@ tags:
   - polar
 ---
 
+# Wearables
+
+
 **Integrating a smartwatch or fitness tracker with Sleep as Android allows you to track body movement and heart rate more accurately, directly from your wrist.**
 
 The app supports a wide range of devices including Wear OS, Garmin, Samsung Galaxy Watch, Mi Band, Amazfit, and more.
@@ -49,3 +52,5 @@ You can configure your alarm to vibrate on your wrist only, providing a quiet wa
 
 > [!TIP]
 > We strongly recommend using **Sound Delay** rather than complete silence. This ensures your phone acts as an audio safety net in case your watch battery dies or the Bluetooth connection drops during the night.
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

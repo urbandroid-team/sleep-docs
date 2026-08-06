@@ -5,6 +5,9 @@ title: Terms of use
 nav_order: 204
 ---
 
+# Terms of use
+
+
 # Terms of Service
 
 **Please read these terms carefully before using the Sleep as Android and SleepCloud services.**
@@ -37,3 +40,5 @@ You agree to hold harmless and indemnify the provider from any third-party claim
 
 **THIS SERVICE DOES NOT CONSTITUTE MEDICAL ADVICE.**
 The provider is not a licensed medical professional. The data tracked and shared via this App is for informational purposes only. You should always consult a qualified and licensed medical professional before beginning or modifying your sleep or lifestyle habits. Your use of this service does not create a doctor-patient relationship.
+
+*Need further help or more information? Contact us via `Left ☰ Menu` → `Support` → `Report a bug` or `Contact support` or use the `(?) Help` button on any Settings page → `Contact support`.*

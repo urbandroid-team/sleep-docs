@@ -6,142 +6,83 @@ nav_order: 2
 parent: /ux/0parent.html
 ---
 
+# Personalization
 
-**Allows you to choose color of the graphs, theme, sort your alarms... and much more.**
 
-_Settings -> Personalize_
+**Personalization settings allow you to customize the visual style of your graphs, choose your preferred home screen layout, manage your themes, and more.**
+
 
 ---
 
+## Key Settings Explained
 
-## Stats
+Navigate to `Settings` → `Personalize` to tailor the app to your preferences:
 
+| Setting | What it Does | Options / Behavior |
+| :--- | :--- | :--- |
+| **Stats** | Access your long-term sleep statistics. | Direct link to the [Statistics chapter](sleep/statistics). |
+| **Privacy** | Manage data collection and ad preferences. | Direct link to the [Privacy chapter](/general/privacy). |
+| **Home screen** | Choose your preferred layout mode for the app's main view. | **[Dashboard](/ux/hs_dashboard)**, **[Tabs](/ux/hs_tabs)**, or **[Alarms only](/ux/hs_alarms_only)**. |
+| **[Morning screen](#morning_screen_set)** | Choose which screen appears after you finish tracking. | **[Morning briefing](/sleep/how_to_read_sleep_graphs#morning_screen)**, **Graphs**, **Dashboard**, or **Disabled**. |
+| **Theme** | Set the background color and font style of the app. | **Automatic**, **Night owl**, **Morning lark**, or **Device settings**. |
+| **[Color palette](#color_palette)** | Select a color scheme for your sleep graphs. | 7 schemes available. |
+| **Animations** | Enable or disable screen transition animations and CAPTCHA emojis. | Toggle OFF for a faster, minimalist feel. |
+| **[Text to speech](#tts)** | Audible bedtime reminders, greetings, and weather. | Uses the system TTS engine and accessibility settings. |
+| **Language** | Overrides your phone's system language. | Sets the app language regardless of the system language. |
+| **Temperature** | Sets the units for weather displays. | **Celsius**, **Fahrenheit**, or **System default**. |
+| **Start week on** | Choose the first day of the week for calendars. | **Monday**, *Wednesday**, **Thursday**, **Friday**, **Saturday**, **Sunday**, or **System default*. |
+| **Time format** | Choose how clock times are displayed. | **24h**, **12h**, **AM/PM**, or **System default**. |
+| **Alarm sorting** | Sets the order of alarms in your list. | Sort by **Day** (Default) or by **Time**. |
+| **[Analog picker](#analog-picker)**| Switches the alarm creation interface. | Uses a round analog clock face instead of digital input. |
+| **Release notes** | Controls update notifications. | Toggle the "What's new" card after app updates. |
+| **Advanced settings** | Expands hidden options. | Keeps all advanced settings expanded by default. |
+| **Hide droid avatar** | Removes the mascot. | Hides the Droid mascot from the home screen. |
 
-See [Statistics chapter](/sleep/statistics).
+---
 
+## Detailed Feature Breakdown
 
-## Privacy
+### Home screen customizations
 
-
-See [Privacy chapter](/general/privacy).
-
-
-## Home screen
-
-Choose your preferred layout mode for the app's main view:
-
-| Option | Behavior |
-| :--- | :--- |
-| [**Dashboard**](/ux/hs_dashboard) | Displays features as a series of quick-glance cards. |
-| [**Tabs**](/ux/hs_tabs) | Organizes the main features into swipeable tabs at the top. |
-| [**Alarms only**](/ux/hs_alarms_only) | Minimalist mode focusing strictly on alarm management. |
-
-*   **Show Tabs:** *(Available only for Tabs Home Screen)* Allows you to select which specific navigation tabs are visible. Note that the **Alarms** tab is always displayed.
 
 <a id="morning_screen_set"></a>
 
-## Morning screen
+### Morning Screen Customization
 
+If you use the **Morning Briefing**, you can further customize which tiles are visible:
+*   **Weather:** Toggle the weather forecast tile.
+*   **Automatic sleep tagging:** Enables [automatic tags](/sleep/tags#tags_auto).
+*   **Hide stats before rating:** This will hide your sleep results until you provide a subjective rating—useful if you feel seeing the data might influence your score.
 
-You can choose from three screen you see in the morning after tracking, or you can disable the morning screen completely:
-- **Morning briefing**: See [the chapter on Morning screen](/sleep/how_to_read_sleep_graphs#morning_screen).
-- **Graphs**: The app opens the full graph directly.
-- **Dashboard**: The app opens the main screen of the app.
-- **Disabled**: No screen is opened when you finish the tracking.
+<a id="color_palette"></a>
 
-You can further customize the the morning briefing:
-- **Weather**: Hides the weather tile.
-- **Automatic sleep tagging**: Enables [automatic tags](/sleep/tags#tags_auto).
-- **Hide stats before rating**: Will hide the sleep tracking results till you rate your sleep - enable if you feel that seing the results may influence your rating.
+### Color Palette (Graphs)
 
+You can choose from 7 different color palettes to match your personality.
 
-## Theme
+<div style="text-align: center;">
+  <video src="/assets/videos/color.mp4" width="400" autoplay muted loop controls></video>
+</div>
 
-You can choose a theme (background color of the app):
-- **Automatic (Android OS)**: Follows the switching of changing dark / light themes by your system.
-- **Automatic (Bedtime)**: Uses dark theme between bedtime and sunrise.
-- **Night owl**: Dark theme (black background, white font) all the time.
-- **Morning lark**: Light theme (white background, black font) all the time.
-- **Device settings**: Follows your system settings.
-
-
-## Color palette (Graphs)
-
-You can choose 7 different color palettes for your graphs:
-
-
-<video src="/assets/videos/color.mp4" width="400" autoplay muted loop controls></video>
-- **Default**: The current default on new installations (a color may vary!).
-- **Teal**: Teal really is the best color, it's cyan-tiffically proven.
-- **Green**: Yoda green forever!
-- **Blue**: Feeling blue?
-- **Purple**: Been born in the purple?
-- **Miscellaneous**: A combination of blue, teal, and yellow, to match your colorful personality.
-- **Legacy**: Original graph palette from the good old times.
-
-
-## Screen transition animations
-
-Disables animations (for search bar, bar, graphs, stats...)
+*   **Default:** The balanced, modern default (color may vary).
+*   **Teal:** Cyan-tiffically proven to be a great color.
+*   **Green:** Yoda green forever!
+*   **Blue:** Feeling blue?
+*   **Miscellaneous:** A vibrant combination of blue, teal, and yellow.
+*   **Legacy:** The original palette from the good old times.
 
 <a id="tts"></a>
 
-## Text to speech
+### Text to Speech
 
-If enabled, Sleep will tell you when it’s **time to go to bed**, wish you **goodnight** when you start sleep tracking, tell you **it’s time to wake up** when the alarm rings, and tell you **weather** in the morning, after you dismiss the alarm.
+If enabled, Sleep will announce when it’s **time to bed**, wish you **goodnight**, and read the **weather** and **time to wake up** in the morning after you dismiss your alarm.
 
-The app uses the system TTS engine. You can change your preferred voice in the _system settings -> Accessibility -> Text-to-speech output_.
+> [!NOTE]
+> The app uses your system TTS engine. You can change your preferred voice in your phone's *System Settings → Accessibility → Text-to-speech output*.
 
+<a id="analog-picker"></a>
 
-## Force English
+### Analog Time Picker
 
-Set app language to English, regardless of your system locale.
+By default, new alarms are created using a digital input. If you prefer a more tactile feel, enabling the **Analog time picker** provides a round clock interface for setting your wake-up time.
 
-
-
-## Temperature
-
-Choose temperature units for weather, **Default** option follows your system.
-
-
-## Start week on
-
-Choose which day is the first day of a week, **Device detauls** option follows you system locale.
-
-
-
-## Time format
-
-Choose the format of the time in the app:
-- **Device default**: Uses the format set in system settings
-- **13:00**: 24 hour time format
-- **1:00**: 12 hour time format
-- **1:00 PM**: AM / PM format
-
-
-## Alarm sorting
-
-Sort alarms in alarm list based either on time or day.
-- **Day**: Default value, alarms are sorted based on they day
-- **Time**: All your alarms will be sorted by time regardless on which day are they scheduled to ring.
-
-
-## Analog time picker <a id="analog-picker"></a>
-
-A round analog clock time picker will be shown when creating new alarms instead of the digital one.
-
-
-
-## Release notes
-
-If disabled, you won't be seeing release notes card/dialog when Sleep is updated to a new version. To check the release notes at will, tap _Left ☰ menu -> ![ic_help](/assets/icons/ic_help.svg) Support -> Release notes_.
-
-
-## Show advanced settings
-
-All advanced Settings are expanded on all settings screens.
-
-
-## Hide droid avatar
-
-Hides the Droid on the home screen. It's probably not the Droid you were looking for.

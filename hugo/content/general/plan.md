@@ -7,6 +7,9 @@ tags:
 - purchase
 ---
 
+# Purchasing the app
+
+
 **We offer two intertwined apps — Sleep as Android and SleepCloud — each with free and premium versions to fit your needs.**
 
 ---
@@ -47,7 +50,7 @@ You can choose the method that best fits your preference:
 *   **Cons:** Requires keeping an additional small app installed on your phone.
 
 #### **Option B: In-App Lifetime Purchase**
-*   **Pros:** No secondary app download required.
+*   **Pros:** No secondary app download required. Promotional discounts are offered regularly.
 *   **Cons:** Requires an internet connection for occasional license verification. If you use multiple Google Accounts, the purchasing account must remain the primary account in the Play Store to avoid reverting to the free version.
 
 ---
@@ -63,3 +66,4 @@ You can choose the method that best fits your preference:
 
 > [!NOTE]
 > The Full SleepCloud version requires a small yearly fee to cover the costs of secure cloud storage on Google servers.
+

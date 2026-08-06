@@ -8,6 +8,9 @@ tags:
 - oximeter
 ---
 
+# Oximeter
+
+
 Monitoring blood oxygen saturation (SpO<sub>2</sub>) and heart rate throughout the night helps track your sleep quality and detects potential respiratory disturbances such as sleep apnea. **Sleep as Android** supports dedicated standalone pulse oximeters as well as select compatible smartwatches.
 
 
@@ -31,7 +34,6 @@ Due to manufacturer restrictions, third-party access to raw SpO<sub>2</sub> stre
 > **Have a Wear OS watch with SpO<sub>2</sub> that isn't listed?**
 > If your watch supports SpO<sub>2</sub> hardware but Sleep as Android doesn't collect it yet, send us a debug log via `Left ≡ Menu` → `Support` → `Report a bug` so we can investigate adding support for your model!
 
-
 ## Features
 
 Tracking SpO<sub>2</sub> is one of the most effective ways to identify **breath disturbance episodes**—moments when breathing slows down or pauses (such as during sleep apnea events). For a deeper dive into breathing analysis, visit our [Breath Rate & Disturbance Guide](/sleep/breath_rate).
@@ -43,8 +45,6 @@ Tracking SpO<sub>2</sub> is one of the most effective ways to identify **breath 
 <a id="spo2-graph"></a>
 **Resulting sleep graph with SpO<sub>2</sub> data**
 ![](hrbr.png)
-
----
 
 ## Setup Guide
 
@@ -61,18 +61,22 @@ Tracking SpO<sub>2</sub> is one of the most effective ways to identify **breath 
 
 ---
 
-## ❓ Frequently Asked Questions & Troubleshooting
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why is SpO<sub>2</sub> data missing or showing gaps on my sleep graph?</strong></summary>
 
-Continuous SpO<sub>2</sub> monitoring requires an uninterrupted Bluetooth connection. If data drops out:
-1. Ensure the oximeter or watch remains securely positioned on your finger or wrist.
-2. Exclude **Sleep as Android**, **Bluetooth System Services**, and any watch companion apps from phone battery optimizations (visit [DontKillMyApp.com](https://dontkillmyapp.com/) for guides).
+* **Reason:** Interrupted Bluetooth connection or position shifts.
+* 👉  *Fix:*
+    1. Ensure the oximeter or watch remains securely positioned.
+    2. Exclude **Sleep as Android**, **Bluetooth System Services**, and any watch companion apps from phone battery optimizations (visit [DontKillMyApp.com](https://dontkillmyapp.com/) for guides).
 </details>
 
 <details>
 <summary><strong>Does my phone need to stay connected via Bluetooth all night?</strong></summary>
 
-Yes. Sleep as Android processes SpO<sub>2</sub> and heart rate data in real time throughout the night to power features like the Low Breath Rate Alarm.
+* **Reason:** Real-time data processing for health alerts.
+* 👉  *Fix:* **Yes.** Sleep as Android processes SpO<sub>2</sub> and heart rate data in real time to power safety features like the Low Breath Rate Alarm.
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

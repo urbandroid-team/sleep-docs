@@ -6,6 +6,9 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+# Health Connect
+
+
 This guide will help you connect **Sleep as Android** with Google's **Health Connect** platform. By enabling this integration, you can easily centralize your health data and keep your favorite fitness, wellness, and sleep ecosystem fully synchronized.
 
 > 🚀 **Beta Feature Note:** The Health Connect service is currently in **BETA**, we are waiting for Google to release the stable version.
@@ -43,3 +46,5 @@ Connecting your data takes just a few quick steps:
   <img src="/assets/images/hc_5.png" />
   <img src="/assets/images/hc_4.png" />
 </div></div>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

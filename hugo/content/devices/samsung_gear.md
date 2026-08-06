@@ -9,9 +9,14 @@ tags:
 - gear
 ---
 
-> ‼️ **Warning**: Samsung has officially ended support for all Tizen-powered smartwatches. Because of this platform shutdown, our apps can no longer support Tizen wearables. <br>
-**Official statement from Samsung:**
-In accordance with internal operating policy, we would like to inform you that we are terminating the content service related to Tizen Watch."
+# Samsung Gear / Galaxy Gear
+
+
+> [!WARNING]
+> Samsung has officially ended support for all Tizen-powered smartwatches. Because of this platform shutdown, our apps can no longer support Tizen wearables. <br>
+>
+>**Official statement from Samsung:**
+>In accordance with internal operating policy, we would like to inform you that we are terminating the content service related to Tizen Watch."
 
 > ⚠️ **Important Notice**
 > This page applies **only to legacy Samsung wearables running Tizen OS** (such as Galaxy Watch, Galaxy Watch 3, Gear S2, Gear S3, and Gear Sport).
@@ -28,8 +33,9 @@ In accordance with internal operating policy, we would like to inform you that w
 
 ## Setup Guide
 
-> 🛑 **Important Note on App Availability:**
+> [!WARNING]
 > Samsung has officially **shut down the Tizen Galaxy Store**. It is no longer possible to download or install new watch applications on Tizen devices.
+>
 > **This integration will only work if you already have the Sleep as Android Gear a installed on your watch.**
 
 ### Step 1: Install Required Companion Apps
@@ -44,35 +50,31 @@ In accordance with internal operating policy, we would like to inform you that w
 
 ---
 
-## ❓ FAQ & Troubleshooting
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why is my watch stuck on "Start tracking"?</strong></summary>
 
-If the watch app displays a "Start tracking" screen and fails to initiate the session, try the following steps:
-
-1. **Verify Phone Addon:** Ensure the **[Sleep as Android Gear Addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung)** is installed on your phone and updated to the latest version.
-2. **Launch the Addon Manually:** If the addon was force-closed by the system, open the **Google Play Store**, search for the **Sleep as Android Gear Addon** page, and tap **Open** to manually restart its background service.
-3. **Disable Battery Optimization:** Exclude all involved components from Android battery saver/optimization settings:
-   * Sleep as Android
-   * Sleep as Android Gear Addon
-   * Samsung Accessory Services / Galaxy Wearable
-   * System Bluetooth settings
-
-   *For device-specific guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).*
+* **Reason:** Phone addon service is not running or battery optimization is killing the process.
+* 👉  *Fix:*
+    1.  **Verify Phone Addon:** Ensure the **[Sleep as Android Gear Addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung)** is installed and updated.
+    2.  **Launch Addon Manually:** Open the **Google Play Store**, find the addon page, and tap **Open** to restart the service.
+    3.  **Disable Battery Optimization:** Exclude Sleep as Android, the addon, and Galaxy Wearable from optimization (visit [DontKillMyApp.com](https://dontkillmyapp.com/)).
 </details>
 
 <details>
 <summary><strong>Why does tracking start unexpectedly by itself?</strong></summary>
 
-* **Watch App Trigger:** Opening or tapping the Sleep as Android icon on your watch starts sleep tracking immediately.
-* **Automatic Tracking Setting:** Check if automatic tracking is turned on in `Settings` → `Sleep tracking` → `Automatic sleep tracking` → `Start sleep tracking`.
+* **Reason:** Watch app trigger or automatic start settings.
+* 👉  *Fix:*
+    * **Watch App Trigger:** Opening or tapping the watch app icon starts tracking immediately.
+    * **Automatic Tracking:** Check <code>Settings ➔ Sleep tracking ➔ Automatic sleep tracking ➔ Start sleep tracking</code>.
 </details>
 
 <details>
 <summary><strong>Why does my watch connection drop during the night?</strong></summary>
 
-If you see red sections on your sleep graph, it means the connection between your phone and wearable dropped during the night. This is almost always caused by Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
-
-Legacy Tizen connections rely heavily on background communication between Samsung Accessory Services and the Sleep addon. Make sure **Bluetooth**, **Galaxy Wearable**, **Samsung Accessory Services**, and **Sleep as Android** are all set to **"Unrestricted" / "Don't optimize"** in your phone's battery settings. Visit [DontKillMyApp.com](https://dontkillmyapp.com/) website for guides specific to your phone.
+* **Reason:** Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
+* 👉  *Fix:* Set **Bluetooth**, **Galaxy Wearable**, **Samsung Accessory Services**, and **Sleep as Android** to **"Unrestricted" / "Don't optimize"** in your phone's battery settings. Visit [DontKillMyApp.com](https://dontkillmyapp.com/) for guides.
 </details>
+

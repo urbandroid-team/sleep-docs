@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: Sensors
 nav_order: 2
@@ -9,119 +8,106 @@ tags:
 - sonar
 ---
 
+# Sensors
 
-**Sleep as Android measures your sleep using various sensors. You can use sensors that are in your phone, or purchase additional devices and use their sensors, or use a combination.**
+
+To deliver accurate sleep phase graphs, smart alarms, and respiration monitoring, **Sleep as Android** relies on input from motion, body, and environmental sensors. You can use built-in smartphone sensors, pair external hardware like wearables or SleepPhaser, or combine multiple inputs for maximum tracking accuracy.
 
 ---
 
+## Motion Sensors
 
-
-## Motion sensors
-
-**Basic sleep tracking is done using a motion sensor.**
-
+Motion tracking is the core foundation of sleep phase estimation.
 
 ### Accelerometer
+*   **What it is:** Uses the phone's internal motion sensor.
+*   **Placement:** Placed directly on the mattress. As you move during sleep, vibrations travel through the mattress to the phone.
+*   **Pros & Cons:** Simple setup and very battery-efficient, but accuracy depends heavily on your mattress type (e.g., spring mattresses transmit motion better than thick memory foam).
 
-Can be either in the phone or in a connected wearable. If you want to track motion using a wearable, see [Smartwatch and Wearables](/devices/wearables).
+### Sonar (Contactless) <a id="sonar"></a>
+*   **What it is:** A revolutionary feature developed by the Urbandroid team that turns your phone into a contactless motion detector.
+*   **How it works:** The phone emits ultrasonic sound waves (silent to human ears) from its speaker and records reflected sound waves using its microphone. Even subtle chest or body movements distort the signal, allowing the app to track sleep phases and breathing rate without anything touching you or your bed.
+*   **Requirements & Notes:**
+    *   Must be placed on a nightstand oriented toward your chest.
+    *   Does **not** work while wired or Bluetooth headphones are connected.
+    *   You can adjust Signal Sensitivity and Frequency under Sensor Testing.
 
+### Passive Infrared (PIR / SleepPhaser)
+*   **What it is:** Hardware sensor embedded inside the [**SleepPhaser**](/devices/sleep_phaser) smart lamp.
+*   **How it works:** Reads heat and body movement from a distance. It offers contactless tracking while keeping phone radiation away from your head.
 
-### Sonar
+---
 
-Our invention — the sonar — brings contact-less motion tracking. No more need for a device attached to your wrist or in the bed. It uses your phone's speaker and microphone to sense movement in the near surroundings. Can be used only on the phone. Can detect breath rate in ideal conditions.
+## Body & Vital Sensors
 
-You don’t need any new hardware for that – everything is already in your smartphone: microphone, speaker, and required computing power.
+### Heart Rate (HR) & Heart Rate Variability (HRV)
+Measured via paired smartwatches, fitness bands, or chest straps. Heart rate dips and spikes help the app distinguish true sleep phases from calm awake states. [Read more about HR tracking](/sleep/heart_rate).
 
-Sonar can use different frequencies, you can change the frequency in Test sensor section - see [sonar testing section](#sonar_testing) bellow.
+### Breath Rate & Blood Oxygen (SpO2)
+*   **Breath Rate:** Calculated via **Sonar**, [**SleepPhaser**](/devices/sleep_phaser_2), or supported [**wearables**](/devices/supported_wearable). Tracks breaths per minute (RPM) to flag restlessness, snoring, or potential sleep apnea symptoms.
+*   **SpO2:** Measured via compatible smartwatch optical sensors to detect nocturnal oxygen dips. [Read more about Breath rate and SpO2](/sleep/breath_rate).
 
-During tracking with sonar the phone produces ultrasonic signal (which cannot be heard by most). Even tiny movements distort the reflected signal which allows us to track them when we record them with the microphone.
+---
 
-On many devices Sonar tracking is so precise we are even able to track your abdominal movements and display your [Breath-rate](/sleep/breath_rate) in the sleep graph.
-> **Note:** Sonar won't work with connected headphones.
-> **Warning:** The sonar sensor might not work on Android 11, when the tracking is started automatically due to changes in the permissions - apps running in the background cannot ask for the mic.
-To workaround this we would need to have the "Draw over other apps permission" and start a transparent short lived screen before we start the sleep tracking service.
-Please see the history of the issue here:
-https://issuetracker.google.com/issues/162913367
-- **Sensitivity**: The slider changes the strength - the higher the sensitivity, the higher the strength
-- **Frequency**: Choice of different frequency of the sonar signal
+## Environmental Sensors
 
+### Light Level Sensor
+Uses the phone's ambient light sensor (lux sensor) to log room illumination overnight and detect light-driven awake periods. [Read more about Light level tracking](/sleep/light_level).
 
-### PIR
+---
 
-Passive infrared sensor is mounted on the [Sleep Phaser](/devices/sleep_phaser) and can detect breath rate in addition to coarse movement.
+## Sensor Testing & Diagnostics
 
-See [How to track sleep](/sleep/sleep_tracking#how-to-track-sleep) for details on optimal setup of your sensor in the bedroom for best results.
+Before tracking, you can test if a sensor is functioning properly on your phone:
 
+**How to open:** Go to <code>Settings → Sleep tracking → Test sensor</code>.
 
+### Test Modes
+*   **Accelerometer Test:** Displays a real-time graph responding to phone movement.
+*   **Sonar Test:** Displays a live green wave graph showing signal strength. Use this screen to test whether your smartphone hardware supports ultrasonic generation.
+    *   **Sensitivity Slider:** Increases or decreases the sonar emission strength. Keep it as high as possible.
+    *   **Frequency Selector:** Switch frequencies if your microphone/speaker performs better at specific ultrasonic ranges.
+*   **Wearable Sensor Test:** Verifies live data transfer from connected smartwatches or bands.
 
-## Body sensors
+---
 
+## ❓ FAQs & Troubleshooting <a id="sonar_faq"></a>
 
+<details>
+<summary><strong>Is Sonar tracking safe for my health?</strong></summary>
 
-### Heart rate sensors
+**Yes, absolutely.** Ultrasound is completely safe when emitted at normal volumes. Sleep as Android uses low-volume ultrasound near 20 kHz at around 40 dB, which is softer than a normal conversational voice. It does not produce ultrasound powerful enough to cause hearing damage or health issues.
+</details>
 
-**Heart rate is used to better distinguish awake state.**
+<details>
+<summary><strong>Is Sonar safe for pets (cats, dogs, or other animals)?</strong></summary>
 
-See [Heart rate](/sleep/heart_rate) docs.
+ **Yes.** The signal sounds like a soft, constant background hum to pets that can hear it, similar to a refrigerator buzz. It is not harmful. If your pet seems sensitive, try switching the Sonar frequency under <code>Settings ➔ Sleep tracking ➔ Test sensor</code>.
+</details>
 
+<details>
+<summary><strong>Can Sonar damage my phone's speaker or microphone?</strong></summary>
 
-## Breath rate / SpO~2~ sensors
+**No.** Sonar uses standard audio stream frequencies (18 kHz–22 kHz) that fall at the upper limit of human hearing. This places virtually no extra stress on your hardware compared to playing normal music.
+</details>
 
-**Breath rate detection is used to monitor healthy levels of breathing and tries to catch early signs of breathing disturbances.**
+<details>
+<summary><strong>Why do I hear strange clicking, chirping, or buzzing noises when using Sonar?</strong></summary>
 
-See [Breath rate](/sleep/breath_rate) docs.
+* **Reason:** Hardware limitations or audio processing/equalization by phone firmware.
+* 👉  *Fix:*
+    1.  Disable sound-enhancing features (Equalizers, Dolby, etc.) in your phone's **Sound** or **Accessibility** settings.
+    2.  In the Sleep app, go to <code>Settings ➔ Sleep tracking ➔ Test sensor</code> and select a different **Frequency** until you find one that is silent.
+    3.  If still audible, lower the **Sensitivity slider** slightly.
+</details>
 
+<details>
+<summary><strong>Why is my Sonar graph flat or unresponsive during the test?</strong></summary>
 
-## Light level sensors
+* **Reason:** Connected headphones or unsupported frequencies.
+* 👉  *Fix:* Ensure no headphones (wired or Bluetooth) are connected. If the graph remains flat, switch the Sonar frequency in the test settings or boost the sensitivity slider.
+</details>
 
-**Ambient light sensors that are present in nearly every smartphone measure the level of ambient light in your bedroom.**
-
-See [Light level detection](/sleep/light_level) docs.
-
-
-## Testing sensor
-
-
-_Settings -> Sleep tracking -> Test sensor_
-
-You can test sensor function - we recommend testing it especially when using sonar, to make sure sonar is supported on your device.
-You should see a green graph, reacting to your movement. The label of the graph tells you, which sensor is used for this test - this sensor will be used during the sleep tracking.
-
-
-### Accelerometer testing
-
-
-Accelerometer sensor is a system sensor, so there are rarely issues with this sensors.
-
-<a id="test-sensor-accel"></a>
-.Successful accelerometer test
-![](accel_test.png)
-
-
-<a id="sonar_testing"></a>
-
-### Sonar testing
-
-Sonar testing screen allows you to test the capability of your phone to produce the signal, the strength of the sonar signal, and also changing the sonar properties - the frequency and the sensitivity.
-
-Sonar testing screen is always labelled as "Testing sensor: Sonar".
-- **Sensitivity**: The slider changes the strength - the higher the sensitivity, the higher the strength
-- **Frequency**: Choice of different frequency of the sonar signal
-- **Signal strength**: The number you see in the middle of the screen is strength of the signal - the higher th better.
-
-<a id="test-sensor-sonar-ok"></a>
-.Successful sonar test
-![](sonar_test.png)
-
-
-<a id="test-sensor-sonar-fail"></a>
-.UNsuccessful sonar test
-![](sonar_test_fail.png)]
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
 
 
-
-
-
-
-
-### Wearable sensor testing

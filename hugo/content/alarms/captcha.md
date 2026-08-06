@@ -8,6 +8,9 @@ tags:
 - captcha
 ---
 
+# CAPTCHA
+
+
 
  If you struggle with oversleeping, hitting snooze on autopilot, or turning off your alarm while half-asleep, CAPTCHAs are your best friend.
 
@@ -20,7 +23,7 @@ A CAPTCHA is a mini-task or puzzle you must solve before your alarm turns off. B
 > [!TIP]
 > You can keep a standard, easy CAPTCHA for your daily routine, but set a more challenging task (like QR/NFC or hard math) for high-stakes mornings like exam or travel days!
 
-## Core Options & Configuration
+## Key Settings Explained
 
 | Option | What it does |
 | :--- | :--- |
@@ -29,9 +32,12 @@ A CAPTCHA is a mini-task or puzzle you must solve before your alarm turns off. B
 | **Preview** | Lets you test-run a CAPTCHA in real-time. **We strongly recommend testing new tasks with Preview before relying on them in the morning!** |
 | **Settings** | Configuration panel for specific CAPTCHAs (e.g., adding/deleting QR/NFC tags, selecting tasks for Multi-CAPTCHA, or custom quotes for Mirror Text). |
 | **Alarm Volume in CAPTCHA** | Automatically lowers or mutes the alarm for 1 minute while you solve the task so you don't disturb your household. Need more time? Tap the `+` button in the top-right corner during the task. |
+| **["No Cheating" Protection](#no_cheating)** | Options to prevent outsmarting the alarm, including Power Off and Uninstall protection. |
+| **[Wake-Up Check](#wake_up_check)** | A safety net notification sent after alarm dismissal to ensure you stay awake. |
 
+<a id="no_cheating"></a>
 
-## "No Cheating" Protection Options
+### "No Cheating" Protection Options
 
 If you find yourself trying to outsmart your alarm, these anti-cheating features will keep you accountable:
 
@@ -41,7 +47,9 @@ If you find yourself trying to outsmart your alarm, these anti-cheating features
   * ⚠️ *Compatibility Note:* Power Off and Force Stop protections cannot be combined with external 3rd-party QR scanners or NFC tasks.
 * **Wakeup Motivation (Betting):** Place a small monetary bet that you won't cheat. If you wake up and complete the CAPTCHA, your bet remains intact (refundable anytime in the app). If you cheat, the bet is lost!
 
-## Wake-Up Check (For Heavy Sleepers)
+<a id="wake_up_check"></a>
+
+### Wake-Up Check (For Heavy Sleepers)
 
 Ever solved a CAPTCHA and immediately fell back asleep? **Wake-Up Check** acts as your safety net.
 
@@ -98,33 +106,57 @@ Enhance your morning routine by installing the free [**CAPTCHA Add-on** from the
 | **Zombie Walk** | Walk between 14 to 74 meters with your phone to prove you are out of bed. |
 | **Let There Be Light** | Point your camera toward a bright light source until the brightness threshold is met. |
 
-## ❓ Frequently Asked Questions & Troubleshooting
+---
+
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>How do I uninstall the app if Uninstall Protection is enabled?</strong></summary>
 
-If you enabled **Force stop and uninstall protection**, the app is granted Device Administrator permissions. To uninstall:
-1. Go to `Settings` ➔ `Alarms` ➔ `CAPTCHA` ➔ `CAPTCHA No Cheating` and turn off **Force stop and uninstall protection**.
-2. Alternatively, go to your phone's `System Settings` ➔ `Security` ➔ `Device Administrators` and revoke privileges for Sleep as Android.
-3. You can now uninstall normally.
+* **Reason:** If you enabled **Force stop and uninstall protection**, the app is granted Device Administrator permissions.
+* 👉  *Fix:*
+    1. Go to <code>Settings ➔ Alarms ➔ CAPTCHA ➔ CAPTCHA No Cheating</code> and turn off **Force stop and uninstall protection**.
+    2. Alternatively, go to your phone's <code>System Settings ➔ Security ➔ Device Administrators</code> and revoke privileges for Sleep as Android.
+    3. You can now uninstall normally.
 </details>
 
 <details>
 <summary><strong>Why didn't my QR Code scanner work?</strong></summary>
 
-* Third-party QR scanners cannot run while **Power Off Protection** or **Uninstall Protection** is active.
-* If scanning fails, try switching to a native scanner like Google Lens or Barcode Scanner.
-* Reset scanner defaults in `System Settings` ➔ `Apps` ➔ `Sleep` ➔ `Clear Defaults`. Then test the scanner in the `Preview` menu and choose *"Always"* when prompted.
+* **Reason:** Third-party QR scanners cannot run while **Power Off Protection** or **Uninstall Protection** is active.
+* 👉  *Fix:*
+    * If scanning fails, try switching to a native scanner like Google Lens or Barcode Scanner.
+    * Reset scanner defaults in <code>System Settings ➔ Apps ➔ Sleep ➔ Clear Defaults</code>. Then test the scanner in the `Preview` menu and choose *"Always"* when prompted.
 </details>
 
 <details>
 <summary><strong>Why did CAPTCHA trigger when I was away from home?</strong></summary>
 
-The **"Only at Home"** feature relies on broad location checks (at least 2.5–5 km away) to protect your privacy. It also requires a history of at least 5 recorded sleep graphs at your home location.
+* **Reason:** The **"Only at Home"** feature relies on broad location checks (at least 2.5–5 km away) to protect your privacy. It also requires a history of at least 5 recorded sleep graphs at your home location.
+* 👉  *Fix:* Ensure you have at least 5 tracked sleep graphs from your home location to establish your baseline.
+</details>
+
+<details>
+<summary><strong>Why does the alarm go off again after I already dismissed it?</strong></summary>
+
+* **Reason:** This is caused by an unconfirmed **[Wake-up Check](#wake_up_check)**. If you don't tap "I'm awake!" on the notification within the time limit, the alarm starts ringing again.
+* 👉  *Fix:*
+    * Disable the feature in <code>Settings ➔ Alarms ➔ CAPTCHA ➔ Wake-up check</code>.
+    * Alternatively, ensure the notification is visible: go to your phone's <code>System Settings ➔ Apps ➔ Sleep ➔ Notifications ➔ Wake-up Check</code> and ensure it is set to **Pop-up** (or **Urgent**), not silent, and can override **Do Not Disturb**.
+</details>
+
+<details>
+<summary><strong>Can I set different tasks for different alarms?</strong></summary>
+
+**Yes.** You can choose different tasks for each individual alarm, e.g., harder tasks for workdays and something fun for weekends.
+
+* 👉  *Fix:* Open any individual alarm ➔ `Alarm settings` ➔ `CAPTCHA` and select your preferred task for that alarm.
 </details>
 
 <details>
 <summary><strong>Can I set individual difficulty levels for each alarm?</strong></summary>
 
-Currently, difficulty levels are set globally under the Default CAPTCHA menu. You can quickly jump to global settings from any alarm using the shortcut button in the alarm settings menu.
-</details>
+**No**. At the moment, the difficulty levels are set globally under the Default CAPTCHA menu.
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
+

@@ -5,6 +5,9 @@ nav_order: 1
 parent: /ux/_index.html
 ---
 
+# Search
+
+
 **Finds you anything inside Sleep as Android. Settings, documentation, alarms, sleep records...**
 
 The global search tool is your fastest way to find anything inside Sleep as Android. Located right in the top bar of almost every screen, it lets you quickly track down settings, documentation, alarms, history, and more.
@@ -21,3 +24,4 @@ Search will search through:
 | **Add-ons** | Looks through add-ons for Sleep as Android | Add-on name | **cap** - finds the Captcha pack add-on |
 | **Graphs** | Looks through your sleep records | <ul><li>Sleep record date</li><li>Time</li><li>Comment</li><li>Tags</li></ul> | **watch** - finds all records that have been created with a smartwatch |
 | **Noise** | Looks through your sleep noise recordings | <ul><li>Date</li><li>Comment</li><li>Tags</li></ul> | **talk** - finds all recordings with #talk detected |
+

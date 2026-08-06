@@ -8,48 +8,64 @@ tags:
 - pair
 ---
 
-**Pair tracking helps you get a cleaner record of your sleep phases by filtering out your partner's movement.**
+# Pair tracking
 
-When sharing a bed, your partner's tossing and turning can interfere with your sleep tracking data, potentially affecting sleep phase detection and smart alarm accuracy. Pair tracking uses two cooperating phones simultaneously to identify and discount cross-interference, resulting in clean, separate activity records for both sleepers.
 
-**Menu Path:** `Settings` → `Sleep tracking` → `Pair tracking`
+When two people share a bed, one partner's tossing and turning can register on the other's phone or sensor. This "crossover" movement can confuse sleep phase algorithms, leading to less accurate graphs, smart alarms, and awake detection.
+
+**Pair Tracking** solves this by letting both partner phones communicate with each other throughout the night. By comparing motion data from both sides of the bed in real time, the app mathematically filters out your partner's movements, giving both of you a clean, accurate record of your own sleep.
+
+
+## How It Works
+
+1. **Dual Signal Recording:** Both phones track sleep using their own sensors (phone accelerometer, Sonar, Wearables, or SleepPhaser).
+2. **Real-Time Data Exchange:** Throughout the night, the two phones connect and exchange activity data.
+3. **Signal Filtering:** Each phone subtracts the partner's movement profile from its own measurement to isolate your true sleep cycles.
+4. **Fallback Protection:** If one phone loses connection or power, tracking continues locally without interruption.
+
+> 🏷️ **Note:** Nights tracked with this feature active are automatically tagged with **`#pair`** in your sleep history.
+
+
+## Step-by-Step Setup Guide
+
+### 1. Enable Feature
+On both phones, go to:
+`Settings` → `Sleep tracking` → Check `Pair tracking`.
+
+### 2. Pair the Devices
+1. Ensure both phones have **Bluetooth / Wi-Fi** enabled.
+2. On both phones simultaneously, tap **`Find partner`** (under `Settings` → `Sleep tracking` → `Pair tracking`).
+3. Wait a few seconds while the phones discover each other.
+4. Once paired, a unique shared secret code will appear at the bottom of the screen to confirm the connection.
+
+> 💡 **Troubleshooting Tip:** If pairing fails on the first attempt, make sure both devices are unlocked and tap *`Find partner`* again.
+
+### 3. Going to Bed
+* Start sleep tracking as you normally would on your respective sides of the bed.
+* **No simultaneous start required:** You and your partner do not need to press "Start Tracking" at the exact same second.
+
 
 ---
 
-## Setup Guide
+## ❓ FAQs & Troubleshooting
 
-To begin using pair tracking, you must link both devices:
+<details>
+<summary><strong>Does Pair Tracking drain extra battery?</strong></summary>
 
-1.  Open **Sleep as Android** on both phones and navigate to `Settings` → `Sleep tracking`.
-2.  Enable **Pair tracking** on both devices.
-3.  Tap **Find partner** on both phones simultaneously.
+The battery impact is negligible. However, if you are traveling or sleeping alone temporarily, you can disable Pair Tracking in Settings to save a small amount of energy.
+</details>
 
-<a id="figure-pair_tracking_1"></a>
-**Finding a partner**
-![](pair_1.png)
+<details>
+<summary><strong>What if my pet sleeps in the bed with us?</strong></summary>
 
-The phones will search for each other and attempt to establish a secure link.
+Pair Tracking filters movement between two cooperating phones only. It cannot filter out pets, unless your pet has own phone with Sleep as Android. To avoid pet-related movement spikes, we recommend using a **wearable device on your wrist**, which only records movement on your side.
+</details>
 
-<a id="figure-pair_tracking_2"></a>
-**Searching for available partner**
-![](pair_2.png)
+<details>
+<summary><strong>Do both phones need to use the same sensor method?</strong></summary>
 
-> [!TIP]
-> If pairing does not succeed on the first attempt, please try once or twice more.
+ **No.** Pair Tracking works seamlessly with any combination of sensors—for instance, one partner can use Sonar while the other uses a smartwatch or accelerometer.
+</details>
 
-Once paired, you will see a unique identification string (shared secret) at the bottom of the screen. This ensures the phones only exchange data with each other.
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
 
-<a id="figure-pair_tracking_3"></a>
-**Pairing successful**
-![](pair_3.png)
-
-## How it Works
-
-When you go to bed, start sleep tracking as you normally would. Your partner does the same. There is no need to start at the exact same time.
-
-During the night, the phones communicate periodically to exchange activity data. By comparing the two datasets, the app can subtract the partner's vibrations from your graph. If one phone becomes unreachable (e.g., battery dies or Bluetooth drops), the other phone seamlessly reverts to its local data for that period.
-
-> [!NOTE]
-> Sleep records using this feature are automatically tagged with `#pair` and display the ![ic_pair](/assets/icons/ic_pair.svg) icon.
-
-If you are sleeping alone temporarily, you can disable pair tracking to save a small amount of battery, though the impact of leaving it on is negligible.

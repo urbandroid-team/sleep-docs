@@ -7,6 +7,9 @@ tags:
 - language
 ---
 
+# Translation
+
+
 Sleep as Android is translated into many world languages, thanks to our incredible community of volunteer translators. We could never achieve this without your help!
 
 ## Can you help us with translations?
@@ -20,3 +23,4 @@ As we add new features, we frequently need help translating new text strings. If
 *   [**Digital Detox** Translation Spreadsheet](https://docs.google.com/spreadsheets/d/1jgE_VaECnMzUmg0apblRLVqg59abJhj30ylZUSF9zb8/edit)
 
 We use [**Translate the Sheet**](https://tts.urbandroid.org/index.html) to streamline the process for our volunteers.
+

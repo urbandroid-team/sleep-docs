@@ -6,6 +6,9 @@ nav_order: 2
 parent: /devs/0parent.html
 ---
 
+# Intent API
+
+
 **Automate your sleep-related tasks or integrate your own apps with Sleep as Android using our flexible Intent API.**
 
 This API allows developers and enthusiasts to trigger actions within Sleep as Android or react to real-time sleep events using automation tools like [Tasker](/services/tasker_automate).
@@ -68,3 +71,4 @@ Sleep as Android broadcasts these events so other apps can react when your sleep
     *   *Extra (Long):* `TIMESTAMP` — Unix epoch millis.
     *   *Extra (String):* `SOUND_CLASS` — One of: `SNORE`, `TALK`, `COUGH`, `BABY`, `LAUGH`.
 *   **Start of Smart Period:** `com.urbandroid.sleep.SMART_PERIOD_AUTO` (Fires at the start of the wake-up window).
+

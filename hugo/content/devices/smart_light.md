@@ -6,6 +6,9 @@ nav_order: 2
 parent: /devices/0parent.html
 ---
 
+# Smartlight
+
+
 **Enhance your sleep environment and wake-up experience by integrating your smart lighting.**
 
 Sleep as Android can control compatible bulbs and devices to simulate a natural sunrise, provide a gentle nightlight, or offer visual cues for advanced features.
@@ -67,3 +70,5 @@ A true sunrise alarm starts brightening the room *before* the audio alarm begins
 
 > [!WARNING]
 > **Flashlight Wake-up:** While the app can flash your phone's camera LED, this feature may be unreliable on some device models due to system-level camera restrictions.
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

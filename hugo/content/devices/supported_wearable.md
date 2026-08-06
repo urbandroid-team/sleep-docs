@@ -14,6 +14,9 @@ tags:
 - garmin
 ---
 
+# Supported wearables - list
+
+
 
 Sleep as Android supports a wide variety of smartwatches.
 
@@ -43,3 +46,4 @@ Our top-pick at the moment: **TicWatch 5 PRO**, it supports SpO2, HR, HRV ([you 
 {% endfor %}
 
 |===
+

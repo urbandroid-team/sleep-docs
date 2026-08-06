@@ -6,6 +6,9 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
+# Statistics
+
+
 **Statistics provide day-by-day and tag-based aggregates of your most critical sleep metrics.**
 
 Review your average duration, deep sleep percentage, and snoring frequency to understand how your habits impact your rest over time.
@@ -47,3 +50,4 @@ Enables a unique color spectrum for sleep score pie charts. When active, each di
 
 ### Regularity Calculation
 By default, **Sleep Regularity** is calculated using **UTC time**. This correctly reflects the physiological strain caused by time zone shifts or Daylight Saving changes. You can switch this to **Local Time** if you prefer to ignore these shifts in your statistics.
+

@@ -10,6 +10,9 @@ tags:
 - wearable
 ---
 
+# Notify for Mi Band and Amazfit and Xiaomi & Mi Fitness
+
+
 Pairing your Xiaomi Mi Band or Amazfit wearable with Sleep as Android allows you to track movement, monitor heart rate, and wake up softly with gentle wrist vibrations.
 
 To bridge Sleep as Android with your wearable, we rely on the third-party **Notify** companion app series (developed by *Matteo from [OneZerobit](https://play.google.com/store/apps/developer?id=OneZeroBit&)*):
@@ -17,7 +20,8 @@ To bridge Sleep as Android with your wearable, we rely on the third-party **Noti
 * **[Notify for Xiaomi & Mi Fitness](https://play.google.com/store/apps/details?id=com.mc.xiaomi1)**
 * **[Notify for Amazfit & Zepp](https://play.google.com/store/apps/details?id=com.mc.amazfit1)**
 
-> ⚠️ **Important:** Sleep as Android connects to these wearables using third-party companion apps, because Xiaomi and Amazfit devices do not provide an open API for direct integration.
+> [!WARNING]
+> Sleep as Android connects to these wearables using third-party companion apps, because Xiaomi and Amazfit devices do not provide an open API for direct integration.
 
 ## Supported Devices
 
@@ -78,33 +82,33 @@ You can use the button or touch sensor on your band to control your phone alarm:
 
 ---
 
-## ❓ Frequently Asked Questions & Troubleshooting
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why is my connection dropping or showing red gaps on the sleep graph?</strong></summary>
 
-If you see red sections on your sleep graph, Android background power management is likely terminating either Bluetooth, Sleep as Android, or the Notify app during the night.
+* **Reason:** Android background power management terminating communication between apps.
+* 👉  *Fix:* Exclude all of the following from Android battery optimization / power saving:
+    1. **Sleep as Android**
+    2. Your **Notify companion app**
+    3. Your official band app (such as **Mi Fitness** or **Zepp**)
+    4. **Bluetooth System Services**
 
-**How to fix it:**
-Exclude all of the following from Android battery optimization / power saving:
-1. **Sleep as Android**
-2. Your **Notify companion app**
-3. Your official band app (such as **Mi Fitness** or **Zepp**)
-4. **Bluetooth System Services**
-
-For step-by-step instructions for your specific phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+    For step-by-step instructions for your specific phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 </details>
-
 
 <details>
 <summary><strong>How do I set up a silent alarm with vibrations only on my band?</strong></summary>
 
-Want a quiet wake-up call? Here is how to set your alarm to vibrate on your watch first:
-1. Choose your sound preference:
-    * **Silent:** In the specific alarm's settings, go to Sound and select Silent.
-    * **Vibration first, sound later:** Go to `Settings` → `Alarms` → `Sound delay`.
-2. Turn on watch vibrations: Go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and choose **From start**.
+* **Reason:** Desire for a discreet wake-up call.
+* 👉  *Fix:*
+    1. Choose your sound preference:
+        * **Silent:** In the specific alarm's settings, go to **Sound** and select **Silent**.
+        * **Vibration first, sound later:** Go to `Settings` → `Alarms` → `Sound delay`.
+    2. Turn on watch vibrations: Go to <code>Settings ➔ Sleep tracking ➔ Wearables ➔ Alarm</code> and choose **From start**.
 
-> [!TIP]
-> We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
+    > [!TIP]
+    > We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

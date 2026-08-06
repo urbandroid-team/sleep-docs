@@ -6,6 +6,9 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+# Samsung Health
+
+
 
 Sync data seamlessly between **Sleep as Android** and **Samsung Health** to get a complete picture of your rest and activity.
 
@@ -52,3 +55,5 @@ Sleep as Android uses two different methods to keep your data up to date:
 
 > [!WARNING]
 > The app will only sync local entries. Any entries marked with a cloud icon (meaning they were already synced from another cloud service) will be skipped to prevent duplication.
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

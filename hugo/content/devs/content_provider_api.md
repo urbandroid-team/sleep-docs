@@ -7,6 +7,9 @@ parent: /devs/0parent.html
 
 ---
 
+# Content provider API
+
+
 
 ## Features
 Sleep as Android exposes content providers so you can:

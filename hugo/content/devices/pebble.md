@@ -9,6 +9,9 @@ tags:
 - wearable
 ---
 
+# Pebble
+
+
 **Although Pebble is no longer officially supported by its manufacturer, Sleep as Android continues to support these classic devices.**
 
 ---
@@ -20,3 +23,4 @@ To use your Pebble watch with Sleep as Android, you must manually install (sidel
 1.  **Download the Watch App:** Download the `.pbw` file to your phone: [SleepAsPebble-20170113.pbw](https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw).
 2.  **Sideload:** Open the downloaded file using your Pebble companion app to install it on the watch.
 3.  **App Configuration:** In Sleep as Android, go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables` and select **Pebble**.
+

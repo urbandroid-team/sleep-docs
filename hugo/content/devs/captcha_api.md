@@ -6,6 +6,9 @@ nav_order: 2
 parent: /devs/0parent.html
 
 ---
+
+# CAPTCHA API
+
 <!-- :toc: -->
 
 ## API guide

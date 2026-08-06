@@ -6,11 +6,13 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+# Google Calendar
+
+
 **Sync your alarms and sleep data with Google Calendar to manage your schedule and track your rest automatically.**
 
 **Menu Path:** `Settings` → `Services` → `Google Calendar`
 
----
 
 ## Disable Repeating Alarms on Holidays
 
@@ -48,3 +50,6 @@ When enabled, your nightly sleep sessions are exported directly to your Google C
 
 > [!NOTE]
 > **Old "Sleep" Calendar:** Due to permission changes, the app no longer uses the legacy "sleep" calendar. You can safely deactivate or archive the old calendar and rely on the new "Sleep as Android" calendar for all future syncs.
+
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

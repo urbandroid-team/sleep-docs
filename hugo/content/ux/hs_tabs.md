@@ -6,6 +6,9 @@ nav_order: 5
 parent: /ux/0parent.html
 ---
 
+# Tabs home screen
+
+
 The **Tabs home screen** layout organizes the app's primary features into easily accessible, swipeable tabs at the top of your screen.
 
 You can fully customize which tabs are visible to match your daily routine. To keep your interface clean, any tab you choose to display on the home screen is automatically hidden from the Left ☰ menu. Note that the Alarms tab is essential and will always remain visible.
@@ -40,3 +43,4 @@ If the tabbed interface isn't a perfect fit for your workflow, you can choose fr
 
 *   [**Dashboard**](/ux/hs_dashboard): A single, unified overview card layout.
 *   [**Alarms only mode**](/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.
+

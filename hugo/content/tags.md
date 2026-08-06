@@ -1,38 +1,14 @@
 ---
-
-layout: page
-title: TAGS
-permalink: /tags/
-no_troubleshooting: true
-exclude_from_nav: true
-search_exclude: true
-no_comments: true
+title: Tags
+type: docs
 ---
 
+## Documentation Tags
 
+This page lists tags used across the Sleep as Android documentation to help you find related topics.
 
-### FAQ tags
+### FAQ Tags
+*Currently unavailable in Hugo layout.*
 
-
-{% assign faqtags = "" | split:"/" %}
-
-{% for faq in site.faqs %}
-  {% assign faqtags = faqtags | concat: faq.tags %}
-{% endfor %}
-
-{{ faqtags | uniq | sort | join: ", " }}
-
-
-### PAGE tags
-
-
-{% assign pagetags = "" | split:"/" %}
-
-{% for page in site.pages %}
-  {% if page.tags %}
-    {% assign tagsar = page.tags  %}
-    {% assign pagetags = pagetags | concat: tagsar %}
-  {% endif %}
-{% endfor %}
-
-{{ pagetags | uniq | sort | join: ", " }}
+### Page Tags
+*Currently unavailable in Hugo layout.*

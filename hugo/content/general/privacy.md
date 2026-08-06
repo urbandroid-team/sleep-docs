@@ -5,13 +5,14 @@ title: Privacy
 nav_order: 201
 ---
 
+# Privacy
+
+
 **Manage your data, ad preferences, and tracking settings to protect your privacy.**
 
 Sleep as Android is designed with privacy in mind. For the most up-to-date details on how we handle your data, please see the [Official Urbandroid Privacy Policy](https://team.urbandroid.org/privacy/).
 
 **Menu Path:** `Settings` → `Personalize` → `Privacy`
-
----
 
 ## Data & Usage
 
@@ -31,7 +32,6 @@ Prevents the app from collecting location data.
 ### Reset Home Location
 Clears your currently identified "home" baseline. Use this if you have moved to a new house to ensure "Only at Home" features (like CAPTCHA bypass) work correctly.
 
----
 
 ## Advertisements
 
@@ -47,7 +47,6 @@ Provides options to control how your personal data is used for advertising purpo
 ### Facebook Ads
 Redirects you to your Facebook account's ad preference settings.
 
----
 
 ## Backup & Storage
 
@@ -65,8 +64,6 @@ Enables daily local backups saved as a `sleep-export.zip` file.
 ### Scoped Storage
 Enables the modern [Android Scoped Storage](https://source.android.com/devices/storage/scoped) standard. This restricts the app's access to only its own designated folder, enhancing security and removing the need for broad storage permissions.
 
----
-
 ## System Integration
 
 ### Handle Phone Calls
@@ -78,3 +75,5 @@ Enables coarse location checks to provide the weather forecast on your [Morning 
 
 ### Restore Settings
 Resets all app settings to their values from the most recent backup. **Warning:** This will overwrite any changes you have made since the last backup was created.
+
+*Need further help or more information? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug` or `Contact support** or use the `(?) Help` button → `Contact support→ `.*

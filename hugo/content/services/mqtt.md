@@ -6,6 +6,9 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+# MQTT
+
+
 **Connect Sleep as Android to your smart home ecosystem by publishing real-time sleep events to any MQTT broker.**
 
 Integrating with MQTT allows you to trigger highly customized routines in platforms like **Home Assistant**, **OpenHAB**, or **Node-RED** based on your sleep states.
@@ -47,3 +50,4 @@ Whenever a [sleep event](/services/automation#events) occurs (e.g., tracking sta
 ## Community Recipes & Guides
 
 *   🚀 [**OpenHAB Integration:**](https://community.openhab.org/t/sleep-as-android-and-mqtt/115556) A comprehensive guide by Russ on how to integrate Sleep as Android with OpenHAB using MQTT.
+

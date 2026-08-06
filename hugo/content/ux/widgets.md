@@ -6,6 +6,9 @@ nav_order: 7
 parent: /ux/0parent.html
 ---
 
+# Widgets
+
+
 
 **Sleep as Android offers a variety of home screen widgets and shortcut widgets to give you quick access to tracking, alarms, and your recent sleep data.**
 
@@ -96,3 +99,4 @@ A lightweight, single-purpose shortcut that instantly starts a standard sleep tr
 
 <!-- == Troubleshooting -->
 <!-- To be used for automatic rendering of related FAQs -->
+

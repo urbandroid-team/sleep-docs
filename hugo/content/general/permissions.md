@@ -5,6 +5,9 @@ title: Permissions
 nav_order: 202
 ---
 
+# Permissions
+
+
 **To provide its comprehensive suite of features, Sleep as Android requires specific system permissions. Below is a detailed breakdown of how and why each permission is used.**
 
 ---
@@ -32,3 +35,5 @@ nav_order: 202
 *   **Prevent device from sleeping (Wakelock):** Keeps the app active so sensors can continue reading data throughout the entire night.
 *   **Full network access:** Used for cloud backups, online radio streams, and weather updates.
 *   **Vibration control:** Allows the app to trigger haptic feedback for alarms and cues.
+
+*Need further help or more information? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug` or `Contact support** or use the `(?) Help` button → `Contact support→ `.*

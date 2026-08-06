@@ -6,6 +6,9 @@ nav_order: 2
 parent: /devs/0parent.html
 ---
 
+# SleepCloud Storage API
+
+
 
 ## Who is the API intended for
 SleepCloud API is designed for 3rd party services integration. Using the API, your service can fetch latest Sleep data of a user who granted a permission to the service using OAuth2 authentication.

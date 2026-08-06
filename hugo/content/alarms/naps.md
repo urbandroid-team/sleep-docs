@@ -6,6 +6,9 @@ nav_order: 2
 parent: /alarms/0parent.html
 ---
 
+# Naps
+
+
 Need a quick power-up or a short afternoon rest? The **Naps** feature lets you set a timer-based alarm that rings after a specific duration (e.g., in 20 minutes) rather than at a specific time of day (e.g., at 2:15 PM).
 
 
@@ -35,3 +38,5 @@ Nap durations can be customized anywhere from **1 minute up to 10 hours**.
 * **Reusing Nap Alarms:** If you take the same quick nap regularly and want to keep it saved, you can turn off automatic deletion:
   * Open the specific nap's settings.
   * Uncheck **Delete after ringing**.
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

@@ -7,6 +7,9 @@ parent: /devs/0parent.html
 
 ---
 
+# Wearable integration API
+
+
 
 
 ## Who is the API intended for

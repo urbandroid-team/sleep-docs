@@ -6,56 +6,60 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
-**Sleep as Android monitors your long-term patterns to identify your natural chronotype, social jet-lag, and sleep regularity.**
+# Chronotype, Social jetlag, Sleep Regularity
 
----
 
-## Chronotype
+Understanding your natural sleep rhythms is one of the most effective ways to improve your energy, focus, and overall health. Sleep as Android analyzes your sleep habits over time to calculate your **Chronotype**, track **Social Jetlag**, and measure your **Sleep Regularity Index (SRI)**.
 
-**Chronotype** describes your innate circadian rhythm. It is a spectrum ranging from 100% Night Owl to 100% Morning Lark.
 
-*   **Night Owl:** Tends to stay active late into the night (usually past midnight) and prefers waking up later. [Learn more on Wikipedia](https://en.wikipedia.org/wiki/Night_owl_(person)).
-*   **Morning Lark:** Tends to rise early, feels most energetic at the start of the day, and tires in the evening. [Learn more on Wikipedia](https://en.wikipedia.org/wiki/Lark_(person)).
+## Quick Reference Summary
 
-> [!NOTE]
-> Your detected chronotype is displayed in the **Left ☰ Menu** once you have recorded at least **one month** of sleep data.
+* **[Night Owl](https://en.wikipedia.org/wiki/Night_owl_(person):** Performs best late in the day and naturally sleeps later.
+* **[Morning Lark](https://en.wikipedia.org/wiki/Lark_(person)  :** Thrives early in the morning and naturally wakes up early.
+* **[Social Jetlag](https://www.amazon.com/gp/product/0674065859/):** The shift between your workday schedule and your weekend sleep rhythm.
+* **Sleep Regularity Index (SRI):** A score from 0–100 showing how consistent your sleep schedule is day-to-day.
 
-<div class="text-center">
 
-![](chrono.png)
+## Chronotype: Your Natural Body Clock
 
-</div>
+Your **chronotype** describes your body's natural preference for when to sleep and wake up. Rather than just labeling you a "night person" or "morning person," Sleep as Android places you on a personalized spectrum ranging from **100% Night Owl** to **100% Morning Lark**.
 
-You can also view your chronotype trends in the [Charts section](/sleep/charts#chronotype).
+```
+[ Early Morning ] <--- Morning Lark (5 to 1) --- Average --- Night Owl (1 to 5) ---> [ Late Night ]
+```
 
-### Chronotype Levels
+### How Chronotype is Measured
+Your chronotype is determined by your **Mid-Sleep Hour** - the exact midpoint between the time you fall asleep and the time you wake up.
 
-We categorize the population into 10 groups (Morning Lark 5 to 1, Night Owl 1 to 5) based on your average **mid-sleep hour** (the midpoint between your bedtime and wake-up time). For example, if you sleep from 10:00 PM to 6:00 AM, your mid-sleep hour is 2:00 AM.
+> **Example:** If you sleep from 11:00 PM to 7:00 AM, your mid-sleep hour is **3:00 AM**.
 
-> **Example:**
-> **Morning Lark 3** indicates that you rise early and your mid-sleep hour deviates from the population average less than 70% of the population (placing you in the 30th percentile).
+### Chronotype Levels Explained
+We divide sleep patterns into 10 detailed categories based on population averages:
+* **Morning Lark (Levels 1 to 5):** You fall asleep and wake up earlier than the average population. Level 5 represents the earliest 10% of morning risers.
+* **Night Owl (Levels 1 to 5):** You sleep and wake up later than average. Level 5 represents the latest 10% of late sleepers.
+
+> 📌 **Where to find it:** Once you have recorded at least 30 days of sleep data, your detected chronotype appears automatically in the `Left ☰ menu` and under `Charts` → `Chronotype`.
 
 <a id="figure-chrono-level"></a>
 **Chronotype Owl/Lark levels**
 ![](chrono_level.png)
 
-A **Morning Lark 5** represents a more extreme early riser (10th percentile), with a mid-sleep hour significantly earlier than the average.
+## Social Jetlag
 
-## Social Jet Lag
+**Social Jetlag** occurs when your work or social schedule forces you to wake up at times that clash with your body's natural clock.
 
-Social jet lag is a term pioneered by Dr. Till Roenneberg in his book [Internal Time](https://www.amazon.com/gp/product/0674065859/). it refers to the discrepancy between your biological clock (your natural chronotype) and your social clock (work or school schedules). Shifting your sleep patterns between workdays and weekends creates a physiological tension similar to crossing time zones.
+* **On workdays:** You might use alarms to wake up early for work or school.
+* **On free days/weekends:** You naturally revert to your body's preferred sleep rhythm.
 
-<a id="figure-chrono-social-jl"></a>
-**Social jet lag visualization**
-![](chrono_social_jl.png)
+This constant shifting back and forth creates a strain on your body similar to flying across time zones every week, hence the term "jetlag".
 
-You can find your social jet lag metrics on the **Chronotype** tab in the [Charts section](/sleep/charts).
+<a id="free_vs_work"></a>
+### How We Identify Workdays vs. Free Days
+Sleep as Android automatically detects your routine through smart clustering:
+1. **Smart Clustering:** The app analyzes your mid-sleep hours and sleep durations to find two distinct groups of sleep patterns. The larger group is labeled "work days," and the smaller group is labeled "free days."
+2. **Calendar Default:** If your sleep pattern is so consistent that no distinct clusters exist (e.g., you sleep at the same time every day), the app defaults to standard weekends (Saturday/Sunday).
 
-### Workdays vs. Free Days
-
-Sleep as Android doesn't just rely on the calendar; it analyzes your history to identify "work-like" and "weekend-like" clusters.
-
-We cluster your data based on mid-sleep hour and duration to find two distinct patterns. The larger cluster is treated as workdays, and the smaller as free days. If your sleep is perfectly consistent throughout the week, the app reverts to standard calendar definitions (Saturday/Sunday as free days).
+> 💡 **Goal:** Lowering your Social Jetlag score by keeping weekend and weekday bedtimes closer together helps reduce daytime fatigue and brain fog.
 
 <a id="figure-chrono-weekdays"></a>
 **Clustering of workdays vs. weekend days**
@@ -64,20 +68,46 @@ We cluster your data based on mid-sleep hour and duration to find two distinct p
 <a id="regularity"></a>
 <a id="sri"></a>
 
-## Sleep Regularity Index (SRI)
 
-Consistency is key to health. Research suggests sleep regularity can even [impact biological aging](https://www.sciencedirect.com/science/article/abs/pii/S2352721823001687).
+## Sleep Regularity Index (SRI) <a id="sri"></a>
+Consistency is key to quality sleep. The **Sleep Regularity Index (SRI)** measures how likely you are to be in the same state (asleep or awake) at any given time 24 hours apart.
 
-The **Sleep Regularity Index (SRI)** measures the probability that you are in the same state (asleep or awake) at any two points exactly 24 hours apart.
-*   **Range:** 0–100 (100 is perfectly regular).
-*   **Healthy Range:** Values above **80** are considered regular.
-*   **Versatility:** SRI accounts for naps, fragmented sleep, and polyphasic patterns.
+```
+       0 = Completely irregular sleep schedule
+     100 = Perfect consistency every single day
+```
 
-Monitoring your SRI can help identify risks for [mortality](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10153326/) and [academic performance issues](https://www.nature.com/articles/s41598-017-03171-4).
+### Why Sleep Regularity Matters
+Research shows that high sleep regularity is strongly linked to:
+* **Better Health:** [Reduced risk of long-term health complications](https://www.google.com/search?q=https://doi.org/10.1038/s41598-018-32402-5) and [improved metabolic health](https://doi.org/10.2337/dc19-0596).
+* **[Mental Performance](https://www.nature.com/articles/s41598-017-03171-4):** Enhanced focus, memory, and academic or work performance.
+* **[Healthy Aging](https://www.sciencedirect.com/science/article/abs/pii/S2352721823001687):** Stable circadian rhythms support [overall longevity](https://doi.org/10.1093/sleep/zsad253).
 
-### Where to find Regularity
+Unlike basic average duration, SRI accounts for night awakenings, daytime naps, and non-standard schedules (such as shift work or polyphasic sleep).
 
-Regularity is displayed as:
-1.  The bottom metric on your [Sleep Score](/sleep/sleepscore).
-2.  Long-term trends in the [Charts section](/sleep/charts).
-3.  Targeted insights in the [Advice section](/sleep/advice).
+> 📊 **Where to find it:**<br>
+>    1.  The bottom metric on your [Sleep Score](/sleep/sleepscore).
+>    2.  Long-term trends in the [Charts section](/sleep/charts).
+>    3.  Targeted insights in the [Advice section](/sleep/advice).
+
+
+---
+
+## ❓ FAQs & Troubleshooting
+
+<details>
+ <summary><strong>Can I change my Chronotype?</strong></summary>
+Your chronotype is largely genetic, but it naturally shifts with age (teenagers lean owl; older adults lean lark). While you can't completely change your biology, practicing consistent light exposure and good sleep hygiene can help adjust your schedule within reasonable bounds.
+</details>
+
+<details>
+ <summary><strong>Why is my Social Jetlag score so high?</strong></summary>
+A high score usually means you are catching up on missed sleep or staying up much later on weekends compared to workdays. Try keeping your weekend wake-up times within 1 hour of your weekday alarm to lower this score.
+</details>
+
+<details>
+ <summary><strong>What is a good Sleep Regularity Index (SRI) score?</strong></summary>
+Aim for an SRI score of **75 or higher**. Scores above 85 indicate excellent circadian stability!
+</details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

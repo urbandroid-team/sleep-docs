@@ -6,60 +6,59 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
+# Lucid dreaming
 
-.Lucid dreaming alarm cues will play once the app detects you are dreaming (in REM phase).
 
-Even we cannot use an EEG (Electroencephalogram), we still get a very good picture of your REM phases from your activity with a high match rate.
-You can read about how we do it in link:[https://sleep.urbandroid.org/how-do-we-measure-your-dreams/](https://sleep.urbandroid.org/how-do-we-measure-your-dreams/)
+Lucid dreaming is a technique where you become conscious and aware that you are dreaming while still asleep, giving you the ability to guide and control your dream experience. **Sleep as Android** helps induce lucid dreams by playing subtle audio cues and gentle vibrations directly during your **REM (Rapid Eye Movement)** sleep phase—the state where your most vivid and memorable dreams occur.
 
-Lucid dreaming is a technique which allows to become aware of the fact that you are dreaming in order to gain control over your dreams.
-There are various techniques how to help your mind realize you are dreaming and most of them require some training in advance. The technique we use in Sleep as Android uses audible cues played (ideally in your headphones) during sleep. We play the cues usually towards the end of the deep sleep phases where we expect the most memorable dreaming.  Hearing the familiar audible cues should help you realize that you are dreaming. Please refer to other resources online on how to bed train to induce lucid dreaming and how to train yourself on the audible cues.
-Richard Feynman’s Surely You’re Joking, Mr. Feynman! contains a very nice description of a set of lucid dreaming experiments done by this famous physicist.
+## How It Works
 
-_Settings -> Sleep tracking -> Lucid dreaming_
-_Settings -> Services -> Smart light -> Lucid dreaming_
+Although smartphones and wearables do not record brainwaves directly (EEG), Sleep as Android tracks movement and sleep patterns to [estimate your sleep cycles](https://sleep.urbandroid.org/how-do-we-measure-your-dreams/) and identify **REM phases** with [high accuracy](https://sleep.urbandroid.org/sleep-lab-comparison/).
+
+1. **REM Detection:** The app monitors your sleep activity to detect when you enter a dreaming phase.
+2. **Cue Delivery:** Once REM sleep is detected, the app plays a familiar audio cue, gentle vibration, or light flashes.
+3. **Dream Awareness:** Hearing or feeling the cue while dreaming acts as a "reality check," helping your conscious mind realize you are inside a dream without waking you up.
+
+> 💡 **Training Tip:** Audio cues work best when paired with daytime mental prep. Practice reality checks during the day whenever you hear your chosen cue sound so your brain recognizes it automatically while dreaming.
+
+## How to Enable Lucid Dreaming
+
+* **Audio & Vibration Settings:** Go to `Settings` → `Sleep tracking` → `Lucid dreaming`.
+* **Light Cue Settings (Optional):** Go to `Settings` → `Services` → `Smart light` → `Lucid dreaming` (requires a connected [Smartlight](/devices/smart_light), [Sleep Phaser](/devices/sleep_phaser_2) or [Sleep Mask](/devices/sleep_mask).).
+
+## Configuration Options
+
+| Setting | Description |
+| :--- | :--- |
+| **Sensitivity** | Adjusts how quickly or strictly cues trigger based on sleep phase progression. Lower sensitivity if cues trigger while you are still awake. |
+| **Later** | Delays the first cue after REM is detected, allowing you to settle deeper into the dream phase. |
+| **Preview** | Plays a test cue so you can adjust volume and feel. *(Note: During preview, both phone and wearable vibrate; during actual sleep, only your wearable will vibrate if connected)*. |
+| **Ringtone** | Choose your audio prompt. Default: A soft voice saying *"You are dreaming"*. |
+| **Vibrate** | Enables haptic cues. If a wearable is paired, vibrations are sent only to your wrist to avoid waking a partner. |
+| **Volume** | Sets cue loudness. Keep this low enough to enter your subconscious without waking you up. |
+| **Force Headphones Only** | Routes audio exclusively to connected headphones rather than the main speaker. |
+| **Repeat** | Sets how many times the sound or vibration repeats per cycle. |
 
 ---
 
+## ❓ FAQs & Troubleshooting
 
+<details>
+<summary><b>Why am I hearing cues while I am still awake?</b></summary>
+<br>
+If cues trigger while you are still trying to fall asleep, reduce the <b>Sensitivity</b> setting or increase the <b>Later</b> delay option so the app gives you more time to reach deep/REM sleep before starting.
+</details>
 
-## Sensitivity
+<details>
+<summary><b>Should I use headphones or phone speakers?</b></summary>
+<br>
+Headphones provide a clearer audio cue without disturbing others. If using headphones, enable <b>Force Headphones Only</b> and run a test preview prior to sleeping to verify your device's Do Not Disturb (DND) settings don't block media audio.
+</details>
 
-Changes the sensitivity of lucid cues triggering based on the progress of the sleep phases before.
+<details>
+<summary><b>Will my wearable vibrate instead of my phone?</b></summary>
+<br>
+Yes! When tracking sleep with a supported smartwatch or fitness tracker, tactile vibration cues are automatically routed to your wrist.
+</details>
 
-
-## Later
-
-Allows you to postpone the first occurrence of lucid cue when the REM is detected.
-
-
-
-## Preview
-
-Allows you to try the lucid dreaming cue in advance.
-
-
-## Ringtone
-
-Select your sound. A woman voice "You are dreaming" is default.
-
-
-## Vibrate
-
-Enables vibrations upon lucid dreaming cues. If a wearable is connected, the cues will vibrate only on the wearable.
-
-
-## Volume
-
-Selects volume for sound cue.
-
-
-## Force headphones only
-
-Can force the alarm sound output to media stream, so the alarm is audible only in your headphones (not through the device speaker).
-> **Note:** Please, test it before using it, on some devices the alarm output may be silenced due to DND or other settings, and not all phones support this feature.
-
-
-## Repeat
-
-Sets the number of repetitions for audio (and vibrations if enabled).
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

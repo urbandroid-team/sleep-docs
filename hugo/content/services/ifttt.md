@@ -6,6 +6,9 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+# IFTTT
+
+
 **Connect Sleep as Android with hundreds of other services and smart devices using IFTTT.**
 
 We use the [**IFTTT Webhooks**](https://ifttt.com/maker_webhooks) channel to send real-time triggers from Sleep as Android to your IFTTT recipes.
@@ -42,3 +45,4 @@ Sleep as Android can trigger IFTTT tasks for various moments throughout the nigh
 *   [**Morning Routine:** Turn on your Philips Hue lights when your alarm starts.](https://ifttt.com/recipes/405744-sleep-as-android-turn-off-all-philips-hue-lights-when-starting-sleep-tracking)
 *   **Coffee Prep:** Start your smart coffee maker when you dismiss your alarm.
 *   **Silence the House:** Mute your smart home notifications when you start sleep tracking.
+

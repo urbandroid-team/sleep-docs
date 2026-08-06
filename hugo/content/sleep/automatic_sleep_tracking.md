@@ -10,71 +10,108 @@ tags:
 
 ---
 
+# Automatic sleep tracking
 
-**Tracks sleep automatically, without the need to manually start it.**
 
-On smartphones, sleep tracking was traditionally a process initiated by a button tap, or by a hard timed trigger.
-Sleep as Android is different.
-The app offers smart ways to track your sleep automatically similarly to what wearables and smart bands do — using your phone’s activity recognition system.
+**Automatic Sleep Tracking** allows **Sleep as Android** to record your sleep hands-free—without needing to manually tap the start button each night.
 
-Sleep app also have a feature for tracking sleep times - **Sleep time estimation**. If you forget to start sleep tracking, the app estimates the most probable times you were sleeping form phone activity recognition engine and Google Sleep aPI, and will ask you next day. You can read more about [sleep time estimation here](/sleep/sleep_time_estimation).
+By taking advantage of your phone's motion sensors, ambient background activity, and advanced machine learning algorithms (such as the Google Sleep API and Activity Transition API), the app can intelligently detect when you fall asleep and wake up.
 
-_Settings -> Sleep tracking -> Automatic sleep tracking -> Start sleep tracking -> After fall asleep_
-> **Warning:** If you do not see this option your phone probably does not support activity tracking in background. This is based on the phone hardware, more specifically the SoC's sensor batching queue size.
+## How to Enable Automatic Sleep Tracking
+
+To configure how and when automatic tracking starts:
+1. Open `Settings` → `Sleep tracking` → `Automatic sleep tracking`.
+2. Tap `Start sleep tracking to select your preferred trigger mode.
+
+> ⚠️ **Hardware Compatibility Note**
+> If you don't see this setting, your smartphone's system or chip (SoC) may not support background activity tracking or sensor batching.
+
+## Start Modes Explained
+
+You can choose from four start modes depending on how much automation you prefer:
+
+### Manual Only (Default)
+Sleep tracking will **never** start automatically. Tracking only begins when you manually tap the **Moon (🌙) icon** on your phone's home screen, start tracking from your wearable, or tap a home screen widget.
+
+### Bedtime
+Tracking automatically starts at the beginning of your scheduled **Bedtime**.
+* **Best for:** Users with strict, highly consistent sleep routines.
+
+### Smart Period
+Tracking starts 45 minutes before your scheduled **Smart Wake-up** window.
+* **Best for:** Minimizing overnight phone battery drain while ensuring Smart Alarm functions properly.
+* **Trade-off:** Provides incomplete overnight sleep statistics because it only monitors the end of your sleep cycle.
+
+### After Fall Asleep (Recommended)
+Our most intelligent tracking mode. Developed by Urbandroid, this algorithm uses unique algorithms combined with Google's Activity Transition and Sleep APIs along with your personal habits to detect when you've gone to bed.
+
+* **Identifies Probable Sleep Windows:** The app analyzes your typical bedtime patterns (defaulting to 8 PM – 7 AM) alongside your scheduled alarms and sleep history. This window is computed for each day individually
+* **Monitors Phone Activity:** With the help of system activity data, the app analyzes if the phone's activity suggests sleeping or active awake.
+* **Initiates Tracking:** When still activity is confirmed, tracking begins automatically using your configured sensors (wearable, sonar, or accelerometer).
+* **Verifies Awake State:** The app keeps checking if you are awake (e.g., screen turned on, device held upright, movement detected, or speech recognized). If awake activity is detected within the first 45 minutes, tracking cancels cleanly without saving false records.
+
+> 💡 **Tips for Optimal Accuracy:**
+> * **Give Manual Hints:** Tapping the moon button occasionally helps the AI algorithm learn your routine faster.
+> * **Charging with Sonar:** If using **Sonar** tracking, automatic start will only run while your phone is plugged in to conserve battery.
+
+## Charging Conditions
+
+To prevent unexpected battery drain overnight, you can specify charging requirements that must be met before automatic tracking begins.
+
+To set your preference, go to `Settings` → `Sleep tracking` → `Automatic sleep tracking` → `Phone needs to be charging`.
+
+Choose from the following options:
+* **For Sonar:** Automatic tracking will only start if the phone is plugged in *when using Sonar tracking*, as Sonar consumes more battery power.
+* **Always:** Automatic tracking will **only** start if your phone is plugged in, regardless of which sensor method you use.
+* **Never:** Automatic tracking will start as soon as sleep is detected, whether your phone is plugged in or running on battery.
+
+<a id="sleep_time_estimation"></a>
+## Sleep Time Estimation
+
+If you forget to start sleep tracking altogether, **Sleep Time Estimation** acts as a backup safety net.
+
+Instead of tracking real-time sensor movement throughout the night, the app uses your phone’s Activity Recognition Engine and Google Sleep API to evaluate when your phone was idle, estimating the time you were asleep.
+
+![](suggestion.png)
+
+
+### Sleep Time Estimation Options
+
+Navigate to `Settings` → `Sleep tracking` → `Automatic sleep tracking` → `Sleep time estimate`. You can choose one of three modes:
+* **Disabled:** Disables background activity data collection.
+* **Manual Only (Recommended):** The next day, a pop-up notification appears displaying your estimated sleep duration. The estimate is saved to your history **only** if you review and confirm it.
+* **Save Automatically:** If sleep tracking was missed the previous night, the estimated sleep duration is saved automatically without prompting for confirmation.
+
+> ℹ️ **Note:** Sleep Time Estimation provides basic duration records only. Because active sensors were not running, it cannot generate detailed hypnograms, movement actigraphy, or noise recordings.
 
 ---
 
+## ❓ FAQs & Troubleshooting
 
+<details>
+<summary><strong>Why isn't automatic sleep tracking or estimation available on my phone?</strong></summary>
+* **Hardware Requirements:** Both *After Fall Asleep* and *Sleep Time Estimation* require phone hardware capable of background activity detection and a sensor batching queue of at least 500 events. If your device lacks this capability, these settings will not appear.
+* **Permissions & Restrictions:** Ensure motion/activity permissions are granted under system settings and that background battery optimizations are disabled for *Sleep as Android*. For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+</details>
 
-## Manual only
+<details>
+<summary><strong>Why isn't automatic sleep tracking starting?</strong></summary>
+* Check if your phone has background restrictions or battery optimizations applied to *Sleep as Android*. For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+* Ensure motion/activity permissions are granted in `System Settings` → `Apps` → `Sleep as Android` → `Permissions`.
+* If using Sonar, confirm your phone is connected to a charger.
+</details>
 
-Sleep as Android will never start sleep tracking without you pressing the _Start sleep tracking_ button with the moon icon, from the wearable, or with a tracking widget.
+<details>
+<summary><strong>Why did tracking start by itself when I wasn't sleeping?</strong></summary>
+* Check if a connected smartwatch accidentally triggered a start command.
+* If you prefer full manual control, change the setting to **Manual Only**.
+* If the tracking keeps running for some time without recognizing the awakes and automatically terminating the tracking attempt, use the `Left ≡ menu` → `Support` → `Report a bug`, and send us your application logs.
+</details>
 
+<details>
+<summary><strong>Does automatic tracking drain a lot of battery during the day?</strong></summary>
+Standard background activity monitoring uses minimal battery consumption.
+</details>
 
-## Bedtime
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
 
-This is a very simple automatic option which starts sleep tracking at the start of your bedtime. See how is the bedtime determined [here](/alarms/bedtime_notification). This is useful only if you have a very regular sleep schedule.
-
-
-## Smart period
-
-Again a simple automation which starts sleep tracking some time before the smart period. The aim of this option is to have a function [Smart wake-up](/alarms/smart_wake_up) with minimal battery use. Using this option will provide you with incomplete sleep stats.
-> **Note:** Sleep tracking starts 45 minutes before the smart period, so the sensor has enough time to gather data for calibration.
-
-
-## After fall asleep
-
-This is the **most advanced automatic option** where all the sophistication goes in. It uses input from your phone's activity recognition engine and uses your common sleep habits for different days of week to find the sleep times for you.
-
-Automatic start after fall asleep is a breakthrough method invented by Urbandroid which uses Google Activity Transition API or [Google Sleep API](https://developers.google.com/location-context/sleep) as a base to detect when you’ve gone to bed to start sleep tracking.
-
-First, we need to find intervals when it is most probable that you’d be sleeping. By default, the interval we use is 8PM to 7AM, but this will shift over time to reflect your habits.
-
-Because the algorithm learns from your typical patterns it is a good idea to help it from time to time and if you have the chance press the moon button just to give it an extra hint to improve accuracy.
-
-There are several factors that play into how the intervals are found out:
-1. Your activity
-Google’s Activity Transition API
-1. Your sleep history
-We’re looking for regularities – for example “when do you usually go to sleep on Tuesdays”.
-1. Your alarm
-Setting an alarm gives the app a very important hint on when you might be sleeping. We subtract your ideal sleep time from your alarm time and check whether this time is +-4 hours from the interval suggested by the other factors.
-
-We expect your sleep to be somewhere in this interval +/- an hour or two.
-
-So when we have found out the most probable sleep interval, we can zoom in and look at your activity with a little more precision to find when exactly do you go to sleep.
-
-Every 15 minutes during the previously detected “probable sleep interval”, we check the state of your phone in the Google Transition API, and if we detect a still state, we start a sleep tracking service, using whatever sensors you have configured (accelerometer, sonar, wearables, …).
-
-Also every 15 minutes we do corrections based on your activity and either stop the current sleep tracking without saving or add awake intervals if we already track for long enough (at least 45 minutes).
-
-Automatic tracking attempts are stopped quickly (~half a minute) after we recognized you are probably still awake if one of the following holds:
-
-* Awake-like activity on the phone sensor
-
-* Your phone has screen on, is in upright orientation probably hold in hands as there is a subtle shake
-
-* Awake-like activity on the watch sensor if smart watch is connected and in reach
-
-* Noise recording (and snoring detection) is enabled and talking is detected
-> **Warning:** When using Sonar automatic sleep tracking (after fall asleep) only starts when the phone is charging. The reason for this is battery consumption which is usually high with sonar.

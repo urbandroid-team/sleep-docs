@@ -10,19 +10,25 @@ tags:
 - sonar
 ---
 
-**Monitor your breathing and blood oxygen saturation to detect respiratory issues like sleep apnea.**
+# Breath rate detection & blood oxygen measurement
 
-Sleep as Android uses advanced sensors to track these metrics:
-*   **Breath Rate:** Measured via [Sonar](/sleep/sensors#sonar), [Sleep Phaser](/devices/sleep_phaser_2), or [Polar H10](https://sleep.urbandroid.org/polar-sleep-tracking/).
-*   **Blood Oxygen (SpO<sub>2</sub>):** Measured via a standalone [Bluetooth Oximeter](/devices/oximeter) or compatible smartwatch.
 
----
+Tracking your breathing and oxygen levels during sleep provides valuable insights into your sleep quality and overall respiratory health. This guide explains how Sleep as Android measures breath rate and SpO₂, how to read your graph, and how to configure your tracking setup.
 
-## Visualizing Data in the Graph
+## Quick Reference Guide
 
-*   **Turquoise Line:** Represents your **Breath Rate** (breaths per minute).
-*   **Blue Line:** Represents your **SpO<sub>2</sub>** (oxygen saturation percentage).
-*   **Breathing Disturbance:** Marked by the O2 ![ic_action_cpap](/assets/icons/ic_action_cpap.svg) icon. This appears whenever a significant dip in oxygen or breath rate is detected.
+* **Turquoise Line** = **Breath Rate** (breaths per minute)
+* **Blue Line** = **Blood Oxygen Level (SpO₂)**
+* **O₂ Icon** = **Breathing Disturbance** (a temporary drop in breathing or oxygen levels)
+* **RDI (Respiratory Disturbance Index)** = Average count of breathing disturbance episodes per hour
+
+## Reading Your Sleep Graph
+
+Sleep as Android displays your breathing and oxygen metrics directly alongside your sleep cycles:
+
+1. **Breath Rate (Turquoise Line):** Visualizes your breathing frequency throughout the night (measured via Sonar, Sleep Phaser, or compatible chest sensors).
+2. **Blood Oxygen / SpO₂ (Blue Line):** Shows oxygen saturation levels collected from a connected oximeter or smartwatch.
+3. **Breathing Disturbance Markers (O₂ Symbol):** Marks significant drops in oxygen or breathing rate. Frequent markers contribute to your overall **RDI score**.
 
 <a id="breath-line"></a>
 **Breath rates on the sleep graph**
@@ -32,43 +38,82 @@ Sleep as Android uses advanced sensors to track these metrics:
 **SpO<sub>2</sub> data on the sleep graph**
 ![](hrbr.png)
 
----
+## Understanding RDI (Respiratory Disturbance Index) <a id="rdi"></a>
 
-## Respiratory Disturbance Index (RDI) <a id="rdi"></a>
+RDI measures how many times per hour your breathing was interrupted or noticeably slowed down. Monitoring RDI is essential for detecting potential sleep issues such as **[sleep apnea](/sleep/sleep_apnea)**.
 
-The **RDI** is the average number of breathing disturbance episodes detected per hour. It is a critical indicator of sleep quality and potential health issues.
+### RDI Score Breakdown
 
-| RDI Score | Classification | Action Recommended |
+| RDI Range | Level | What It Means & Recommended Action |
 | :--- | :--- | :--- |
-| **0 – 10** | **Normal** | Likely caused by minor movements or sensor fit. |
-| **10 – 15** | **Mild** | Repeat measurements to ensure accuracy. |
-| **15 – 30** | **Moderate** | A potential warning sign. Verify with repeated tracks. |
-| **30+** | **Severe** | **We strongly recommend consulting a doctor.** |
+| **0 – 10** | **Normal** | Typical breathing. Occasional minor dips can occur due to sensor movement or position changes. |
+| **10 – 15** | **Mild** | Mild breathing disturbances detected. We recommend tracking across consecutive nights to verify. |
+| **15 – 30** | **Moderate** | Moderate disturbances. Consider adjusting sleeping position and monitoring regularly. |
+| **30+** | **Severe** | Significant breathing disturbances. **We strongly recommend consulting a medical professional.** |
 
----
+> 💡 **Tip:** Always evaluate your RDI over several nights. A single night with elevated disturbances can be caused by a loose sensor, temporary illness, or physical obstruction.
 
-## Tracking Methods
+## Tracking Options: Breath Rate
 
-### Sonar & Sleep Phaser
-Both [Sonar](/sleep/sensors#sonar) and [Sleep Phaser](/devices/sleep_phaser_2) use ultrasonic or infrared waves to detect the subtle movement of your chest and abdomen. No extra setup is required; if the signal is strong enough, the data appears automatically on your graph.
+You don't need extra wearables to start tracking your breath rate. Sleep as Android offers multiple measurement methods:
 
-### Pulse Oximeters
-Standalone oximeters provide the most precise SpO<sub>2</sub> tracking. They are highly recommended if you suspect [Sleep Apnea](/sleep/sleep_apnea).
-*   **Path:** `Settings` → `Sleep tracking` → `Wearables` → `Pulse oximeter (Bluetooth)`
+### [Sonar](/devices/sonar)
+* **How it works:** Uses your smartphone’s speaker and microphone to emit ultrasonic signals that track subtle chest and abdominal movements.
 
-### Compatible Smartwatches
-Select Wear OS and Garmin wearables can also provide SpO<sub>2</sub> data.
-*   **Path:** `Settings` → `Sleep tracking` → `Wearables` → `Pulse oximeter (Wear OS, Garmin..)`
-> [!WARNING]
-> Not all wearables support third-party SpO<sub>2</sub> streaming. Check the [compatibility table](/devices/supported_wearable) for details.
 
----
+### [Sleep Phaser](/devices/sleep_phaser_2)
+* **How it works:** A smart bedside lamp with contactless sensors that track breathing movements without touching you.
+
+
+### Chest Straps (e.g., Polar H10)
+* **How it works:** Uses chest strap sensors for precise respiration and heart-rate tracking.
+
+## Tracking Options: Blood Oxygen (SpO₂)
+
+Direct SpO₂ tracking provides higher accuracy and deeper insights into potential sleep apnea.
+
+### Bluetooth Pulse Oximeters
+Dedicated pulse oximeters offer continuous, precise oxygen monitoring. Check the full guide on compatible oximeters in the [chapter about oximeter](/devices/oximeter).)
+* **Navigation Path:**
+  `Settings` → `Sleep tracking` → `Wearables` → `Pulse oximeter (Bluetooth)`
+
+### Smartwatches & Wearables (Wear OS, Garmin, etc.)
+Reads SpO₂ data directly from supported smartwatches.
+* **Navigation Path:**
+  `Settings` → `Sleep tracking` → `Wearables` → `Pulse oximeter (Wear OS, Garmin...)`
+
+> ⚠️ **Note:** Device compatibility varies by manufacturer. Check our [official compatibility table](/devices/supported_wearable) if your wearable is not sending SpO₂ data.
 
 ## Low Breath Rate Alarm
 
-This safety feature wakes you up if your breathing rate or oxygen saturation remains dangerously low for a sustained period. This encourages you to change positions and resume normal breathing.
+For peace of mind, you can set a safety alarm that triggers if your breathing rate or oxygen saturation falls below safe thresholds for an extended period.
 
-**Menu Path:** `Settings` → `Sleep tracking` → `Wearables` → `Low breath rate alarm`
+* **Navigation Path:**
+  `Settings` → `Sleep tracking` → `Wearables` → `Low breath rate alarm`
+* **Customization:** Choose sound, vibration, or both.
 
 > [!WARNING]
-> This alert is designed to be very loud and prominent for your safety. Use with caution.
+This alarm is intentionally loud and prominent to ensure it successfully wakes you up in case of significant breathing drops.
+
+---
+
+## ❓ FAQs & Troubleshooting
+
+<details>
+ <summary><strong>What should I do if my RDI score is high or concerning?</strong></summary>
+First, don't panic! A high score on a single night can be caused by temporary factors like a loose sensor, sleeping position, alcohol consumption, or nasal congestion.
+
+Here are the recommended steps to take:
+1. **Track for a few consecutive nights:** Verify if the high score is a recurring pattern or just an isolated event or sensor artifact.
+2. **Check your hardware setup:** Ensure your phone or wearable is positioned correctly and your oximeter strap isn't loose.
+3. **Try adjusting your sleep habits:** Sleeping on your back often increases breathing disturbances; try sleeping on your side.
+4. **Consult a medical professional:** If your RDI consistently remains above 15 (or if you experience symptoms like daytime fatigue, waking up gasping, or loud snoring), share your sleep graphs with a doctor or sleep specialist for a proper medical evaluation.
+</details>
+
+<details>
+ <summary><strong>Why do I see temporary disturbance dips?</strong></summary>
+Disruptions can sometimes be caused by hardware factors—such as an oximeter slipping on your finger or a smartwatch losing skin contact during movement. Re-measuring over multiple nights helps filter out sensor artifacts.
+</details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
+

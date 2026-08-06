@@ -6,6 +6,9 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
+# SleepCloud
+
+
 **SleepCloud is a dedicated dashboard and secure storage space for your sleep data.**
 
 It provides a centralized place to back up your records, synchronize settings across multiple devices, and view detailed analysis through a convenient web interface.
@@ -28,7 +31,6 @@ In order to connect, you will need to grant Sleep as Android permission to use y
 *   **In the App:** `Settings` → `Personalize` → `Privacy` → `SleepCloud`
 *   **On the Web:** Visit your account directly at **[sleep-cloud.appspot.com](https://sleep-cloud.appspot.com/SleepCloud.html)**.
 
----
 
 ## Key Features
 
@@ -45,3 +47,5 @@ In order to connect, you will need to grant Sleep as Android permission to use y
 | **PRO (Paid)** | Automatically initiates a backup whenever a change occurs (e.g., adding a new graph or editing an old one). You can also force an immediate backup via `Left ≡ Menu` → `Backup` → `Upload to Cloud`. |
 
 ![](sleepcloud_preview.png)
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

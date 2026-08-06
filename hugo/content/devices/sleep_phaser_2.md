@@ -8,6 +8,9 @@ tags:
 - phaser_v2
 ---
 
+# Sleep Phaser v2 + v3
+
+
 **Sleep Phaser v2 & v3** is our second-generation smart bedside lamp designed specifically for Sleep as Android. It tracks your sleep non-invasively using a **Passive Infrared (PIR) motion sensor**, provides sunrise alarm lighting, and automatically unlocks the full premium version of Sleep as Android!
 
 ## Key Features & Enhancements
@@ -92,24 +95,24 @@ In addition to lighting controls, the app allows you to adjust internal Phaser s
 
 ---
 
-## ❓ FAQ & Troubleshooting
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why isn't Sleep as Android connecting to my Sleep Phaser?</strong></summary>
 
-Check the following basic requirements:
-1. **Enable Location (GPS):** Android requires Location/GPS services turned on to execute a successful Bluetooth Low Energy (BLE) scan.
-2. **Power Adapter:** Ensure the Phaser is powered by a wall charger capable of providing at least **1A**.
-3. **Reset Connection:**
-   * End sleep tracking and force-close Sleep as Android.
-   * Toggle Bluetooth off and on in your phone's settings.
-   * Unplug the Sleep Phaser from power for 5 seconds and plug it back in.
-   * Reopen Sleep as Android and start sleep tracking.
-4. Check, if the Phaser connects to the native app [Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz..sleepphasercontrol)
+* **Reason:** Missing permissions, power issues, or Bluetooth interference.
+* 👉  *Fix:*
+    1. **Enable Location (GPS):** Android requires Location turned on for Bluetooth Low Energy (BLE) scans.
+    2. **Power Adapter:** Ensure your wall charger provides at least **1A**.
+    3. **Reset Connection:** Force-close the app, toggle Bluetooth, and power-cycle the Phaser (unplug for 5s).
+    4. Test connection with the [Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol) app.
 </details>
 
 <details>
 <summary><strong>What should I do if the light button is unresponsive?</strong></summary>
 
-If the top button doesn't respond after plugging the unit in, it may have briefly entered bootloader mode. Unplug the power cable, wait 10 seconds, and plug it back in. If you need deeper adjustments or firmware updates, you can use the standalone **[Sleep Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz..sleepphasercontrol)** app.
+* **Reason:** Device potentially in bootloader mode.
+* 👉  *Fix:* Unplug the power cable, wait 10 seconds, and plug it back in. For firmware updates, use the standalone **[Sleep Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol)** app.
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

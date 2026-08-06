@@ -9,6 +9,9 @@ nav_order: 1
 parent: /services/0parent.html
 ---
 
+# Automation
+
+
 **Sleep as Android can be used to automate your smart home devices or other applications through a variety of integration services.**
 
 Whether you want to dim the lights when you start tracking or start your coffee machine when your alarm is dismissed, our automation hooks provide the flexibility you need.
@@ -73,3 +76,4 @@ The following events fire when specific sounds are classified (requires **Sound 
 
 > [!WARNING]
 > **Sleep Phase Events:** Events like `deep_sleep` and `light_sleep` may fire many times throughout the night. Because sleep phases are best calculated looking at the whole night of data, real-time "instant" detections may differ slightly from the final morning graph.
+

@@ -6,6 +6,9 @@ nav_order: 3
 parent: /ux/0parent.html
 ---
 
+# Left ☰ menu
+
+
 The **Left ☰ menu** is your central hub for navigation and quick access to all of Sleep as Android's powerful features.
 
 Tap the **☰ icon** in the upper left corner or **swipe from the left** to expand the menu.
@@ -67,3 +70,4 @@ To learn more, see our documentation on [Social Jetlag & Regularity](/sleep/chro
 | ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) | [**Backup:**](/services/backup_data) Cloud sync and manual data export. |
 | ![ic_incognito](/assets/icons/ic_incognito.svg) | [**Privacy:**](/general/privacy) Configure data protection and sharing settings. |
 | ![ic_share_variant](/assets/icons/ic_share_variant.svg) | **Tell Friends:** Share your Sleep as Android experience. |
+

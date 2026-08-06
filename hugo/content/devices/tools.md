@@ -10,24 +10,35 @@ tags:
 - wearable
 ---
 
+# Tools & Mi Band and Amazfit
 
-Because Xiaomi and Amazfit do not provide an open API for direct integration, **Sleep as Android** connects to these wearables using third-party bridge apps: **[Tools & Mi Band](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools)** and **[Tools & Amazfit](https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools)** (developed by *[Tools & Wearables](https://play.google.com/store/apps/developer?id=Tools+%26+Wearables)*).
+
+
+Using **Tools & Mi Band** or **Tools & Amazfit** with Sleep as Android unlocks advanced sleep tracking features, heart rate monitoring, and tactile alarm vibrations on your Xiaomi or Amazfit wearable.
+
+To connect Sleep as Android with your device, we integrate via the third-party **Tools** companion app series (developed by *[Tools & Wearables](https://play.google.com/store/apps/developer?id=Tools+%26+Wearables)*):
+* **[Tools & Mi Band](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools)**
+* **[Tools & Amazfit](https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools)**
+
+> [!WARNING]
+> Because Xiaomi and Amazfit wearables do not provide an open API for direct integration, Sleep as Android relies on these third-party bridge apps to communicate with your device.
+
 
 
 
 ## Supported Devices
 
-### Supported Xiaomi Mi Bands
-* Mi Band 1, 1.0, 1A
-* Mi Band 2, 3, 4, 5, 6, 7
+### 1. Supported Xiaomi Mi Bands
+* **Tools & Mi Band:** Mi Band 1, 1.0, 1A, 2, 3, 4, 5, 6, 7
 
-### Supported Amazfit Devices
-* **GTS Series:** GTS, GTS 2, GTS 2e, GTS 2 mini, GTS 3
-* **GTR Series:** GTR, GTR 2, GTR 2e, GTR 3, GTR 3 Pro
-* **Bip Series:** Bip, Bip Lite, Bip S
-* **Cor Series:** Cor, Cor 2
-* **Band / Other:** Band 5, Band 6, Band 7, Arc, Verge Lite
-* **T-Rex Series:** T-Rex, T-Rex Pro
+### 2. Supported Amazfit Devices
+* **Tools & Amazfit:**
+  * **GTS Series:** GTS, GTS 2, GTS 2e, GTS 2 mini, GTS 3
+  * **GTR Series:** GTR, GTR 2, GTR 2e, GTR 3, GTR 3 Pro
+  * **Bip Series:** Bip, Bip Lite, Bip S
+  * **Cor Series:** Cor, Cor 2
+  * **T-Rex Series:** T-Rex, T-Rex Pro
+  * **Other Models:** Band 5, Band 6, Band 7, Arc, Verge Lite
 
 > [!NOTE]
 > For additional information, visit the official [Tools & Wearables FAQ](https://help.mibandtools.com/help_center/).
@@ -93,33 +104,33 @@ Open **Sleep as Android** and go to `Settings` → `Sleep tracking` → `Wearabl
 
 ---
 
-## ❓ FAQ & Troubleshooting
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>How do I set up a silent alarm that vibrates only on my wearable?</strong></summary>
 
-Want a quiet wake-up call? Here is how to set your alarm to vibrate on your watch first:
+* **Reason:** Desire for a quiet wake-up call without disturbing others.
+* 👉  *Fix:*
+    1. Choose your sound preference:
+        * **Silent:** In the specific alarm's settings, go to **Sound** and select **Silent**.
+        * **Vibration first, sound later:** Go to <code>Settings ➔ Alarms ➔ Sound delay</code>.
+    2. Turn on watch vibrations: Go to <code>Settings ➔ Sleep tracking ➔ Wearables ➔ Alarm</code> and choose **From start**.
 
-1. Choose your sound preference:
-    * **Silent:** In the specific alarm's settings, go to Sound and select Silent.
-    * **Vibration first, sound later:** Go to `Settings` → `Alarms` → `Sound delay`.
-2. Turn on watch vibrations: Go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and choose **From start**.
-
-> [!TIP]
-> We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
+    > [!TIP]
+    > We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
 </details>
 
 <details>
 <summary><strong>Why does my connection keep dropping or show red gaps on the sleep graph?</strong></summary>
 
-If you see red sections on your sleep graph, it means the connection between your phone and wearable dropped during the night. This is almost always caused by Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
+* **Reason:** Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
+* 👉  *Fix:* Exclude **all** involved components from background battery optimization on your phone:
+    1. **Sleep as Android**
+    2. Your bridge app (**Tools & Mi Band** or **Tools & Amazfit**)
+    3. Your official band companion app (**Mi Fitness**, **Zepp**, or **Mi Fit**)
+    4. **Bluetooth system services**
 
-**How to fix it:**
-You must exclude **all** involved components from background battery optimization on your phone:
-1. **Sleep as Android**
-2. Your bridge app (**Tools & Mi Band** or **Tools & Amazfit**)
-3. Your official band companion app (**Mi Fitness**, **Zepp**, or **Mi Fit**)
-4. **Bluetooth system services**
-
-For step-by-step, device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+    For step-by-step, device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

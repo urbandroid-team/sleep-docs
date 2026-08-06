@@ -6,6 +6,9 @@ nav_order: 6
 parent: /ux/0parent.html
 ---
 
+# Alarms only mode
+
+
 **Alarms Only Mode** is a streamlined interface designed for users who strictly use Sleep as Android for its advanced alarm features and do not require sleep tracking or data analysis.
 
 When this mode is active, your home screen is dedicated entirely to your alarm list, providing a clean and distraction-free experience.
@@ -35,3 +38,4 @@ If you find this mode too restrictive, you can choose from our more feature-rich
 
 *   [**Dashboard**](/ux/hs_dashboard): A unified card-based overview of both alarms and sleep data.
 *   [**Tabs**](/ux/hs_tabs): A classic interface with separate, swipeable navigation tabs.
+

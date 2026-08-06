@@ -1,9 +1,11 @@
 ---
-
 layout: default
 title: Release notes
 nav_order: 206
 ---
+
+# Release notes
+
 
 **Keep track of the latest improvements, new features, and bug fixes in Sleep as Android.**
 
@@ -11,18 +13,454 @@ You can download any older version from [our website here](https://sleep.urbandr
 
 ---
 
-## Latest version 20240701
+## Latest version 20260616
+
+* Fix for recent AND regression
+
+
+## 20260609
+
+* Animated Bedtime droid and Owl/Lark avatar
+* More fixes in Garmin integration
+* Fix for analytics consent bug in Tutorial
+
+## 20260604
+* Less intrusive animations in Math CAPTCHA - we hear you!
+* Fixes in setting backup dir
+
+
+## 20260530
+
+* Animations in tutorial, wearable connect, sleep tracking, alarm and goal
+* Fix for RePebble (new Pebble) HR tracking
+* HTTPS for all online radios
+
+
+## 20260519
+
+* Please update to [Sleep Garmin NEW app on the IQ Connect Store](https://apps.garmin.com/apps/a20548cf-647d-4171-b4b0-68ea002748b4)
+* Report any issue and let us know if everything is working in reviews or via Report a bug (Left ≡ menu → Support → Report a bug, from the main app)
+* The NEW app should improve reliability, battery use and should work well on more models
+* If you have troubles with Garmin please double check the legacy add-on app is uninstalled!
+* Fix for starting sleep tracking after Garmin watch app
+
+
+
+## 20260429
+
+* New Garmin watch app with many fixes and improvements
+https://apps.garmin.com/apps/a20548cf-647d-4171-b4b0-68ea002748b4
+* Experimental App functions to Start tracking and Create an alarm (should be available on Pixel 10)
+* Fixes on Google Calendar settings screen
+* Fix for awake times calculation
+* Fix in sleep estimate date format
+* Fixes in Garmin app on specific firmwares
+* Overall Sleep score is now based on 3 worst measures to make it more comparable
+
+## 20260326
+
+* Major libraries updated to latest version
+* Build definition update to latest standards
+* Project refactor
+* Hopefully not much will break, please report any new issues
+
+## 20260313
+
+* Markup formatting for AI responses
+* Greater freedom in panning and zooming of charts
+* Voice input for AI follow up questions
+
+
+## 20260225
+
+* **Pebble is back!** Support for repebble.com - new Pebble watches! Tested with Pebble 2 Duo
+* Integration of new PebbleKit2 for apps from apps.repebble.com
+* Legacy PebbleKit with GadgetBridge or Rebble.io
+* Fix for discounted yearly subscription products
+* Fix for Health Connect on Tiramisu and older devices
+* Fix for a service starting crash on Android 14+
+
+
+## 20260121
+
+* Wake up check - better notification settings, warns on alarm screen
+* Many fixes in Philis HUE PRO bridge integration
+* Fix for powernap alarm postpone
+* Fix for one day delay in goal barchart
+* Fix in daily repeating alarms
+* Fix for Captcha CAPTCHA
+* Adding favourite noises to Media Store album is not optional
+* More interactive onboarding tutorial - like / dislike
+* This is used to prepare a Setup finish card
+* Fix for rare issue with silent alarm
+* Anti snoring notification channel fix
+* Rare crashing bug fixes
+* Fix for reverting volume in Sonar sensor test
+* New promotion system
+
+
+## 20251203
+
+* Support for Philips HUE Bridge PRO (feedback appreciated)
+* Many new translations (if you find any mistakes, please contact support@urbandroid.org, or use Contact us from the Left ≡ menu → (?) Support)
+* Vertical pan for most charts
+* Updated user install info - 31M users
+* Fix for Jumping sheet CAPTCHA on lock screen
+* Fix for backup alarm crash
+* New shortcut icons
+* Widget UI tweaks
+
+## 20251124
+
+* New playback controls in noise playback
+* Expressive icon set
+* Rounded font
+* Week start on Wednesday and Thursday options
+* Fixes for DND reversal with Sleep mode
+
+## 20251107
+
+* Fix for 2 o'clock alarms when DLS ends
+* Fix for next alarm card name in morning screen
+* Fix in not speaking in the DND
+* Fix in reverting DND to specific previous state
+
+
+## 20251024
+
+### Material 3 Expressive UI elements
+
+* Progress
+* Sliders
+* Toggles
+
+### Locale
+
+* Fix for locale issues on Android 15
+* Option in personalization to change language of app on Android 13+
+
+### Health Connect
+
+* Background permission
+
+### Other
+
+* Respecting DND mode for text to speech
+* Fix for resetting mute alarm timeout when finding a sleeping sheep
+
+
+
+## 20250926
+
+* Introducing [LifeWatch](https://play.google.com/store/apps/details?id=com.urbandroid.lifewatch) - our new app to track and improve your longevity
+* Introducing [AirCraft](https://payhip.com/aircraft) - our new DIY air cleaner for clear air in your bedroom
+
+### Sleep Assistant
+
+* using latest Gemini model
+* reverting the use of on-phone Nano model because of insufficient results
+
+### Health Connect
+
+* Fix in reverted timezone sign
+* Fix for SPO2 and HR import
+* Support for HR / Resting HR writes and reads
+* Fix heart rate permission
+* Fix for asking for permission at start up
+
+### Other
+
+* Build with latest API and build tools
+* New library versions
+* Fix for AI card layout
+* Fix for duplicate Before alarm notification channel name
+* Fixing issue with force English and some locale problems
+* Fix for keeping all time period selection in charts
+* Fix for edge to edge in Captcha cheating permission screen
+* Fixing issue with force English and some locale problems
+* Fix in DND mode reversal
+* Fix for graph widget regularity
+
+## 20250909
+
+* Fix for frequent geo locations not being updated
+* Fix for Health Connect and Samsung Health timezone in New Zeeland and similar (GMT+12 and GMT-12)
+* Fix Health Connect import in Menu > Backup > Download from Health Connect
+* Jet-lag prevention automation events
+* Latest API level target requirement for Wear OS
+* Visual fixes
+* Fix for the day in future toast
+* Potential fix for weather reloading
+* Fixes in documentation links in settings
+
+
+## 20250903
+
+* New Bamboo lullaby (addon update needed)
+* Support for vertical zoom in some charts
+* Edge to edge fixes
+* Status bar shade on dashboard screen
+* Transparent navigation bar for 3-button
+* Fix for Charts - Actigraph bar width
+* Fixes for alarm sort by time rendering
+* AI Sleep assistant is only allowed on versions from Play Store
+* Adjust tag button width
+
+
+## 20250818
+
+* Bedtime mode warning for battery optimized option
+* Fix for Bar chart with changing with scrolling
+* Fixes in wake up chart
+* Fix for weekday chips background
+
+
+## 20250806
+
+* Fixes in wake up chart
+* Fix for weekday chips background
+
+
+## 20250707
+
+* Improved daily view in goal bar chart - now scrollable
+* Y-axis lines for bedtime and fall asleep charts
+* Fix for fonts in chips
+* Updated links to new documentation
+
+
+## 20250620
+
+* Delete last character in Memoji CAPTCHA
+* Do not show watch started notification
+* Graph axis to work better with round corners
+
+## 20250606
+
+* Try the NEW Memoji CAPTCHA to test memory in morning, and Wake the Droid and Maze tasks
+* Check out the revamped CAPTCHAs: Smile, Zombie, ShakeIt and Sheep
+* Original tasks are still available in the [free CAPTCHA addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack)
+* Bedtime droid images redesign
+* Redesign of the Sleep assistant screen
+* Garmin integration is now part of the main app, please uninstall the Garmin add-on app
+* Starting tracking from watch may no longer working on Android 15+
+
+## 20250522
+
+* Switching to Mulish font for cleaner look (similar to Google Product font)
+* Charts redesign
+* Goal redesign
+* Cleaner menu drawer
+* More accessible Set button when setting alarm times
+* Many UX and design tweaks across the app
+* Search bar and toolbar redesign
+* Read more for policy rationale
+* Privacy policy link on Health Connect rationale
+
+## 20250505
+
+* Fix for repeated wake up check
+* Fix for a crash in nap selection
+* Improved automatic tracking reliability
+* Fix for Play Store ownership reporting inconsistency
+* Permission rationale screens
+* Fix for Wear OS text overlaps
+* Fix for add sleep buttons under the 3-button navbar
+
+
+## 20250411
+
+* Permission rationale screens
+* Fix for Wear OS text overlaps
+* Fix for add sleep buttons under 3-button navbar
+
+
+## 20250330
 
 ### News
+
+* Anti-snoring notification (Enable in Settings > Noise recording)
+* New tutorial assets
+
+### Fixes
+
+* Fix for NFC tag scanner closing
+* Fix for looping samples in anti-snoring
+* Fix for phases percentage to total at 100% with missing data
+* Fix for not showing sensor data for sleep without activity data
+* Rare crash after tracking fixed
+
+
+## 20250308
+
+### News
+
+- Gemini 2.0 model upgrade for AI Sleep assistant
+- Rate sleep later notification shown only for sleeps longer than 50 minutes
+- Gregorian monk lullaby (update lullaby add-on)
+
+### Fixes
+
+- Fix for last alarm button overlap
+- Fix for edge to edge in landscape with 3 button navigation
+
+
+## 20250220
+
+### News
+
+* Lullaby playlist: play X last used lullabies in order
+* 12 NEW and 11 RENOVATED high quality lullabies in the lullaby pack
+* Wake up time chart (menu > Charts > Trends)
+* Rate sleep later notification (Settings > Personalization > Morning screen)
+* Goal success screen
+* 1 week goal option
+
+### Fixes
+
+* Fix for add sleep before and after button on sleep edit screen
+* Fix for FAB offset in tabs on Android 10-
+* Fix for buttons in shortcut edit screen
+* Fix for Spotify lullaby description
+* Fix for lullaby volume down with lullaby playlist
+* Fix for tracking restart after alarm dismiss on Wear OS 2.5 and lower (update on your watch)
+* Fix for menu drawer scrolling on some phones
+
+## 20250124
+
+### News
+
+* Edge to edge support (Android 11+)
+* BETA Google Home API integration:
+  * Smartlight BETA (max 100 user limit)
+  * Google Home API Automation - turn a device on at bedtime, alarm or wake up
+  * BETA: max 100 user limit
+* Wake up check automation event
+* Setup instructions on smartwatch connect screen
+* Advice for HR changes and thresholds
+* Option to reset noise storage path
+
+### Fixes
+
+* Fix for Polar SDK missing values at end of track
+* Fix for Galaxy Watch missing values at end of track (update of Wear OS app needed)
+* Fix for one day inconsistency in sleep debt in charts vs. stats
+* Graphs color palette option made more clear
+* Fix for charts keeping previous values
+* Fix for goal progress appearance
+
+
+## 20241122
+
+* New Sleep score measure: Sleeping HR (night’s median heart rate) and Low HR (minimal HR)
+* Sleeping HR and Low HR charts and tag-based analysis
+* HR and HRV Gain cards on the dashboard
+* Sleep score measure order has been reset (sorry)
+* Wake up check notification can be swiped away (in addition to be tapped) to confirm you are awake
+* Sonar sensor test screen refresh
+* Spotify connect onboarding in ringtones
+* Polar SDK: device selection dialog and SDK updated
+* Updated pricing model and discounts
+* Smaller bug fixes across the app
+* Fixes in Sleep assistant
+
+
+## 20241024
+
+* NEW Phases card in sleep detail and morning screen (shows percentages for different sleep phases)
+* Fix for no audio recording when starting from watch and phone screen is off
+* Fix for lullaby volume not limited by settings for some lullabies
+* Fix for a rare crash in noise playback
+* Automation: updating state of alarm with id
+
+## 20240922
+
+* Configurable Wake up check repeat limit, default: 2x
+* Tags vs. HRV Gain and Respiratory disturbance analysis
+* Several smaller fixes
+
+## 20240906
+
+### Features
+
+* AI Sleep Assistant BETA. Ask AI about your sleep:
+  * Summary of your sleep score results
+  * Today sleep compared to sleep score
+  * Compare long / short sleep trends
+  * Compare your sleep to others in your country
+  * Ask follow up questions about your sleep
+* Four new lullabies Magic, Strings, Fantasy, Megalith (update the lullaby addon too)
+* Wake up check notification:
+  * is hidden at alarm start
+  * disabled when notifications are off
+
+### Fixes
+
+* Patch for incompatibility of PebbleKit lib with Android 14
+* Fix for wake up check with "delete after ringing" alarms
+* Better explained Free vs. Premium
+* Fix to show new add sleep screen for everyone
+* Fix for Y-axis in Tag charts
+* Fix for a crash when starting lullabies
+* Fix for a missing permission related service type crash
+* Fix for adding sleep date selection in some timezones
+* Showing overlap times when adding sleep
+* Fix for purchasing life-time premium
+* Fix for Notify for Xiaomi support
+* Fix for Health Connect binding error
+
+## 20240808
+
+* Targeting Android 14 (API 34)
+
+### Features
+
+* Experimental Polar SDK support for Polar 360, Polar Vantage V3, Polar Pacer and Pacer Pro, Polar Ignite 3, Grit X2 Pro
+* WAKE UP CHECK feature for severe sleepyheads
+  * After alarm dismiss your are asked if you really are awake
+  * If not confirmed withing set time window alarm will ring again
+  * Wake up check can be configured for each alarm
+* EDITABLE SHORTCUTS: Define your own shortcuts for starting sleep tracking, adding alarms and lullabies
+* NO ALARM BEDTIME: Bedtime notification even when no alarm is scheduled
+* Option to always force dark theme in morning briefing screen
+* Redesign of adding sleep screen with latest material time/date pickers
+* Better landscape look for tracking screen and lullabies
+* Alarms only will turn off automatic tracking and sleep time estimates
+* CAPTCHA settings made cleaner
+* Check that delayed sound start is smaller then alarm timeout
+* Default settings button on per-alarm CAPTCHA option
+* Tasker Plug-in action to skip next alarm
+* New automation broadcasts SKIP_NEXT_ALARM_ACTION_AUTO and SKIP_NEXT_ALARM_ACTION to skip alarm with/out CAPTCHA
+* ShakeIt CAPTCHA remembers progress for a short time
+
+### Fixes
+
+* Fix for hiding navigation bar during screen dim in sleep tracking
+* Fix for ad card height
+* Fix for missing sleep score on historic data when transitioning from Free to Premium
+* Vibration mode is set to alarm rather then media
+* Fix for auto start lullaby when tracking ends
+* Fix for a crashing regression in last BETA when setting up an alarm
+* Fix for visible fallback button in NFC Captcha
+* Fix for saving comments when screen turns off
+* Blind fix attempt for Spotify Login problems
+* Asking for new Full screen intent permission
+
+
+## 20240701
+
+### News
+
 * Material V3 Sliders
 * Detailed explanation of FREE vs. Premium plan
 * Changes in on-boarding tutorial
 * Latest Play review libraries
-* Many new translations
-* Updated library dependencies
-* Update to Spotify API
+* Many New translations
+* Updated library dependency
+* Update in Spotify API
 
-### New Lullabies
+### New lullabies
+
 * Bath
 * Scenic noise
 * Bubble wrap ASMR
@@ -30,6 +468,7 @@ You can download any older version from [our website here](https://sleep.urbandr
 > You must also update the **Lullaby Add-on** to access these new tracks.
 
 ### Fixes
+
 * Fix for lullaby pausing
 * Fix for stopping lullaby from quick settings tile
 * Fix for recoverable auth error in Google Calendar
@@ -41,21 +480,19 @@ You can download any older version from [our website here](https://sleep.urbandr
 * Fix for score chart gap
 
 
-
 ## 20240424
 
-
-**Redesign of Widgets**
+### Redesign of Widgets
 
 * Material design, resizable, dynamic layouts (on Android 12+)
 * More info and features
 * Sleep graph widget now contains: duration, regularity, depth, efficiency
 
-**Features**
+### Features
 
 * Noise card will show noises for the displayed period chronologically
 
-**Fixes**
+### Fixes
 
 * Fix for fallback CAPTCHA for NFC if tapped from NFC Scanner screen
 * Fix for weather text to speech on morning screen
@@ -71,23 +508,21 @@ You can download any older version from [our website here](https://sleep.urbandr
 * Fix for showing Morning screen when phone is locked
 * Deleting a section of graph will unzoom
 
-
 ## 20240220
 
-
-**Redesign**
+### Redesign
 
 * Sleep detail, Graph edit and Morning briefing screen
 * Sleep detail and Morning screen is now presented in a dashboard style with removable and pinnable cards
 See https://sleep.urbandroid.org/personalized-sleep-detail-and-morning-briefing/
 * Time pickers both analog and digital and switching to naps
 
-**Features**
+### Features
 
 * Improved sharing from Detail, Edit, Morning screen, Stats and Charts
 * Search screen graphics
 
-**Fixes**
+### Fixes
 
 * Timeline for pinned cards
 * Improved goal target typing
@@ -95,12 +530,10 @@ See https://sleep.urbandroid.org/personalized-sleep-detail-and-morning-briefing/
 * Several UX fixes
 
 
-
 ## 20240129
 
 
-
-**New features**
+### New features
 
 * Noise list facelift
 * Use of vector drawables for action icons for smaller APK
@@ -112,7 +545,7 @@ See https://sleep.urbandroid.org/personalized-sleep-detail-and-morning-briefing/
 * Adding Notify for Xiaomi App Gallery support
 * Better validations for typed goal targets
 
-**Fixes**
+### Fixes
 
 * Fix for negative values in Snooze chart
 * Fix for entering Regularity goal values by typing
@@ -127,30 +560,26 @@ See https://sleep.urbandroid.org/personalized-sleep-detail-and-morning-briefing/
 * Fix for suspending vibrations in CAPTCHA with silent alarm
 * Fix for shortcut ideal sleep + half of smart period
 
-
 ## 20240111
 
-
-**News**
+### News
 
 * Noise playback screen redesign
 * News card to promote Achievements
 
-**Fixes**
+### Fixes
 
 * Fix for volume with gentle volume increase set to 30 seconds
 
-
 ## 20231221
 
-
-**Sleep regularity index**
+### Sleep regularity index
 
 * Default Regularity measure in Sleep Score
 * Now also used in Goals
 * Default in Chart card
 
-**New Goals**
+### New Goals
 
 * Goal type selection screen
 * Goal charts to better indicate progress
@@ -158,12 +587,12 @@ See https://sleep.urbandroid.org/personalized-sleep-detail-and-morning-briefing/
 * Redesign of Goal target and Goal detail screens
 * Redesign of goal card on dashboard
 
-**Achievements**
+### Achievements
 
 * New motivation to explore features in the app and earn badges
 * Dashboard card
 
-**Charts**
+### Charts
 
 * Different Bedtime and Fall asleep time charts
 Settings
@@ -171,16 +600,14 @@ Settings
 * Smartlight settings reorganized
 * New Gentle wake up settings screen
 
-**Fixes**
+### Fixes
 
 * Fix for a glitch in noise cards layout
 * Fix for Spotify volume jump in case of Gentle volume 30 seconds up to device volume
 
-
 ## 20231023
 
-
-**Features**
+### Features
 
 * Sleep Regularity Index (SRI) now accounts for any awake intervals withing sleep records
 * You can choose start day for non-weekly Alarm schedules
@@ -193,7 +620,7 @@ Settings
 * Adding support for [Notify & Fitness for Xiaomi](https://play.google.com/store/apps/details?id=com.mc.xiaomi1): Mi Band 8, Mi Band 8 Pro, Xiaomi Watch S1, Mi Band 7 Pro, Redmi Band 2, Redmi Watch 3, Redmi Watch 2
 
 
-**Bug fixes**
+### Bug fixes
 
 * Fix for sleep time estimated notification being shown with automatic save mode
 * Fix for disabled Snooze after alarm time
@@ -215,40 +642,36 @@ Settings
 
 
 
-
 ## 20231001
 
-
-**NEWS**
+### NEWS
 
 * Experimental Sleep Regularity Index calculation: Sleep Score card, Charts and Advice (Many thanks to Jeff Huang, Ji Won contribution)
 * Health Connect Android 14 migration
 
-* New sound noise files features
-** Storing AAC noise recordings in M4A container which allows adding meta data
-** Tagging sleep noises stored in media library with metadata: author, album… (both OGG and M4A)
-** Sleep as Android Album art for M4A and OGG
-** You can find your newly starred noises is the “Best of Noises” album by “Sleep as Android” in your favorite music player
-** Migration of older starred noises to the new album can be done manually by removing star and re-adding
-** Migration to new phone: backup of Android Media Store through Google One, or manual copy of /Music/Sleep
+### New sound noise files features
+* Storing AAC noise recordings in M4A container which allows adding meta data
+* Tagging sleep noises stored in media library with metadata: author, album… (both OGG and M4A)
+* Sleep as Android Album art for M4A and OGG
+* You can find your newly starred noises is the “Best of Noises” album by “Sleep as Android” in your favorite music player
+* Migration of older starred noises to the new album can be done manually by removing star and re-adding
+* Migration to new phone: backup of Android Media Store through Google One, or manual copy of /Music/Sleep
 
 
-**Fixes and updates**
+### Fixes and updates
 * Fix for a regression in IKEA Tradfri integration
 * Fix for Drive, Dropbox backup not working when local storage backup is off in: [Settings – Privacy]
 * Fix for a sleep score rendering glitch on the Sleep Score card
 
-
 ## 20230810
 
-
-**NEWS**
+### NEWS
 
 * Targeting Android 13 API level
 * Support for per-app language settings on Android 13+
 * Migration to latest build tools
 
-**Fixes and updates**
+### Fixes and updates
 
 * Next alarm is shown above weather on the morning screen
 * Fix in MQTT and potentially other automation tasks, if more tasks were triggered at once some may have got missing
@@ -263,16 +686,14 @@ Settings
 * Fix for last used lullaby not updated
 * Hiding WiFi control settings on Android Q+ as this is no more possible, thanks Google!
 
-
 ## 20230621
 
-
-**NEWS**
+### NEWS
 
 * Day of month alarm scheduling (e.g. alarm every 5th day of the month)
 
 
-**Fixes and updates**
+### Fixes and updates
 
 * Hiding WiFi control settings on Android Q+ as this is no more possible, thanks Google!
 * Fix for alarm dismiss from notification on Android 12+
@@ -288,11 +709,9 @@ Settings
 * On-boarding for the full screen alarm option for better alarm usability
 
 
-
 ## 20230505
 
-
-**NEWS**
+### NEWS
 
 * HealthConnect SPO2 and HR sync
 * Allow up to “repeat every 16 days” for non-weekly schedules to support 4×4 DuPont system
@@ -304,16 +723,14 @@ Settings
  ** Candy ASMR
  ** Reading ASMR
 
-**Fixes**
+### Fixes
 
 * Fix to update smart period if changed after sleep tracking start
 * Health Connect fixes, permissions indicator, edit button leads to Health Connect configuration
 * Fix for purchasing the yearly plan
 * Keep sleep tracking and alarm notification persistent even on Android 13
 
-
 ## 20230415
-
 
 - Material 3 Status bar scrim when scrolling
 - Better power dialog hiding in CAPTCHA anti-cheating
@@ -336,11 +753,9 @@ Settings
 - Charts redesign: period adaptive axis and chart type
 - Fixes in Garmin and Gear Wearable add-ons – updating to latest API level
 
-
 ## 20230303
 
-
-**Sleep score**
+### Sleep score
 
 - Score quality percentage calculated from all sleep dimensions
 - Pie chart redesign
@@ -348,7 +763,7 @@ Settings
 - Sleep score color option in _Settings > Personalization > Stats > Sleep Score > Color palette_
 
 
-**Other design changes**
+### Other design changes
 
 - Charts redesign: period adaptive axis and chart type
 - Bedtime settings redesign to better explain how it works
@@ -356,7 +771,7 @@ Settings
 - Morning screen settings screen in Settings > Personalization with four option (Morning briefing, tracked graph, dashboard or nothing after tracking)
 - Captcha preview dialog on alarm screen
 
-**Fixes**
+### Fixes
 
 - Fixes in Garmin and Gear Wearable add-ons – updating to latest API level
 - Fix for Polar accel readings after new firmware update
@@ -365,18 +780,16 @@ Settings
 - Smooth scrolling of alarm name title
 - Fixes in translations
 
-
 ## 20230119
 
-
-**Alarm screen redesign**
+### Alarm screen redesign
 
 - Repeat days selection directly on alarm detail screen
 - Card look for sound and smart period in alarm and app settings
 - New adjustment controls fro next alarm time
 - Alarm label edit in alarm title
 
-**Lullabies + Spotify updates**
+### Lullabies + Spotify updates
 
 - Support for Spotify liked songs in Lullabies and ringtones for Premium users
 - Fix for recent nature lullaby update
@@ -385,7 +798,7 @@ Settings
 - Color-coding for Spotify lullabies without album art and for radios
 - Fix for lock screen in lullabies
 
-**And more…**
+### And more…
 
 - Aerated UI tweaks on most screens
 - Fix in navbar color in tabbed view with custom color palette
@@ -393,9 +806,7 @@ Settings
 - Changes in Premium screen, adding Yearly plan option
 - Many new translations
 
-
 ## 20221101
-
 
 - If you are using odd / even week alarms, they may have got reversed due to a bug, please double check your alarm schedules
 - Pixel Watch support: new wearable option for Wear OS 3.0+
@@ -433,9 +844,7 @@ Settings
 - Search bar in alarm list
 
 
-
 ## 20220830
-
 
 - Android 12 target API level
 - Toggleable graph legend: allows you to select exactly the view of your data you want
@@ -453,9 +862,7 @@ Settings
 - Gentle vibration on PineTime
 - Slovak and Greek translations
 
-
 ## 20220707
-
 
 - Experimental PineTime (https://www.pine64.org/pinetime/) support (InfiniTime 1.9.0+ firmware is required)
 - PineTime supports: accel sleep tracking, heart rate, lucid dreaming and anti-snoring, alarms
@@ -477,9 +884,7 @@ Settings
 - Fix for odd/even weeks confusion
 - Lis10 meditations now support top 10 world languages
 
-
 ## 20220609
-
 – EXECUTIVE SUMMARY: Better Spotify and Meditation lullaby
 – New Spotify integration using remote play: more reliable, works for Spotify Premium users, should always play the selected playlists
 – To use new Spotify remote play you need to re-authenticate in Settings > Service > Spotify or tapping on tethe news card
@@ -490,18 +895,14 @@ Settings
 – Fixing volume indicator in alarm when directly accessing system volume (e.g. Spotify)
 – Workaround for CAPTCHA cheating protection crash on some Samsung Android 12 devices related to accessibility service
 
-
 ## 20220516
-
 – HOTFIX release for recent crashes on Android 12L and 13 – Android BETA program
 – Fix for CAPTCHA cheating protection to use full potential of Accessibility Service
 – New material design time picker for 12-hour locales
 – Support for Notify and Fitness on Huawei phones
 – Fix for some colors in dark mode
 
-
 ## 20220322
-
 – Fix for a widget size regression
 – Preview dialog for CAPTCHA
 – Calendar integration: Fix for reschedule alarm notification texts
@@ -511,9 +912,7 @@ Settings
 – Various smaller bug fixes
 – Updates in Swedish, French, Portuguese, Spanish…Many thanks!
 
-
 ## 20220222
-
 – Visual improvements in on-boarding screens
 – More color aligned backgrounds and images
 – Nicer droid images
@@ -525,9 +924,7 @@ Settings
 – Fix for Spotify lullaby playback crash
 – Several other smaller bug fixes
 
-
 ## 20220118
-
 – Improve CAPTCHA cheating protection though Accessibility Service
 – New walk-through tutorial for CAPTCHA cheating permissions
 – If you want to prevent any cheating of CAPTCHA please enable Settings > Accessibility service > Sleep as Android
@@ -550,9 +947,7 @@ Settings
 – Fix for MET Norway forecasts
 – Not closing lullaby dialog when playing lullaby in preview
 
-
 ## 20220114
-
 – Fix for Settings > Alarm > Disable screen orientation changes setting
 – Improved look of alarm screen in landscape on phones
 – Improve CAPTCHA cheating protection though Accessibility Service
@@ -570,9 +965,7 @@ Settings
 – Fine tuning apnea alarm thresholds
 – Fix for mute ringtone when using lucid dreaming
 
-
 ## 20211216
-
 – Material V3 Bottom navigation in Home screen: Tabs and in Charts
 – Try out new visual for Tabs, use menu drawer > Home screen > Tabs and let us know!
 – New way to select available tabs (menu drawer > Home screen > Tabs > Pencil)
@@ -611,9 +1004,7 @@ Settings
 – Changes in lullaby turn off time propagates into currently running lullaby
 – Notification when alarms won’t trigger in case of app being background restricted
 
-
 ## 20211012
-
 – Fix for add/remove awake buttons menu color in graph detail
 – Lullaby is back in the menu drawer and removed from shortcuts, many thanks for your feedback on this
 – NFC and QR Code CAPTCHA fallback when you loose the code/tag now depends on set difficulty and starts at 50 sheep
@@ -634,9 +1025,7 @@ Settings
 – Gentle volume increase – disabled option reverted to minimal volume up with an addition of 30 seconds option up to current system volume
 – Better Bedtime info formatting in Japanese
 
-
 ## 20211001
-
 – Google Fit Fix: Quick fix for missing sensitive scope permission after Google Fit privacy update
 – Privacy policy dialog before connecting to Google Fit
 – Some Google Fit features such as profile sync or automatic #sport tag has been reverted due to Google privacy requirements
@@ -652,9 +1041,7 @@ Settings
 – Delayed sound start now resets to beginning of the alarm song
 – Dialog asking for update to latest version of the app has been removed
 
-
 ## 20210910
-
 – Galaxy Watch 4: dedicated option in Settings > Wearables
 – SPO2 on Galaxy Watch 4 is currently not possible 🙁 see
 https://shorturl.at/hvNR8
@@ -674,9 +1061,7 @@ https://shorturl.at/hvNR8
 – Automation bedtime event is not send when tracking is already running
 – Fixed glitches in bottom sheet on tracking screen
 
-
 ## 20210808
-
 – Android 12: Material YOU Theme using system colors from wallpaper (Force other colors in Settings > Personalization > Color palette)
 – Android 12: Splash Screen API implemented with animated sun/moon
 – Card round corners (Material You style)
@@ -695,9 +1080,7 @@ https://shorturl.at/hvNR8
 – Potential fix for very rare crash in Settings screens
 – Bigger update in Latin Spanish translation
 
-
 ## 20210616
-
 – use on non-sensitive scopes for Google Calendar Sync (Setting > Services > Google Calendar)
 * fixes the “App is blocked” issue for new users
 * instead of the “Sleep” calendar now data will be stored in the app created “Sleep as Android” calendar
@@ -712,9 +1095,7 @@ https://shorturl.at/hvNR8
 – Fix for disabled slider color
 – Big update in Spanish localization (many thanks!)
 
-
 ## 20210525
-
 – Material Components theme – improved visual appearance of many default components – more Material look
 – New material design time picker (needs enabling in Settings > Personalization > Material Time Picker)
 – Rounded corners for dialogs
@@ -732,9 +1113,7 @@ https://shorturl.at/hvNR8
 – Fix in Sleep Score pie views in extremely large font settings
 – Updates in German, Italian and Albanian translation (big thanks!)
 
-
 ## 20210517
-
 – Material Components theme – improved visual appearance of many default components – more Material look
 – New material design time picker
 – Consistent styling of dialogs and menus with theme colors
@@ -748,9 +1127,7 @@ https://shorturl.at/hvNR8
 – Fix in Sleep Score pie views in extremely low DPI screens
 – Updates in German, Italian and Albanian translation (big thanks!)
 
-
 ## 20210505
-
 – Other people stats updated with latest data from 2020 and 2021
 – News card promoting Other people stats
 – Fix for rare cases when Unlock app is not recognized
@@ -762,9 +1139,7 @@ https://shorturl.at/hvNR8
 – Faster loading of main screen fix
 – Big update in Hungarian and Romanian (Big thanks to Dora)
 
-
 ## 20210430
-
 – 4th generation of sound recognition neural networks: Networks are an order bigger with higher success rare in problematic environments and on problematic devices
 – More improvements in new sound classification – fixes for some breath types being misclassified as snoring
 – Charts > Advice shows efficiency bars in addition to deep sleep and rating
@@ -781,9 +1156,7 @@ https://shorturl.at/hvNR8
 – Bigger update in Hungarian (many thanks)
 
 
-
 ## 20210423
-
 – Teal color palette (aka Color palette: Theme) is now default option
 – Color platte (Settings > Personalization) now affect more UI elements
 – Different Color themes are now more fine-tunes
@@ -806,9 +1179,7 @@ https://shorturl.at/hvNR8
 – Fix for fine location requirement when using SleepPhaser on new Android versions to make BT devices visible
 – Chinese translations (big thanks!)
 
-
 ## 20210419
-
 – Teal color palette (aka Color palette: Theme) is now default option
 – Color platte (Settings > Personalization) now affect more UI elements
 – Different Color themes are now more fine-tunes
@@ -828,9 +1199,7 @@ https://shorturl.at/hvNR8
 – Fix for fine location requirement when using SleepPhaser on new Android versions to make BT devices visible
 – Chinese translations (big thanks!)
 
-
 ## 20210403
-
 – Redesign of Stats, Charts and SleepScore
 – Integration with new Google Sleep API for more precise sleep time estimates and automatic sleep tracking with minimal battery impact
 – Fix for “Force English” in combination with be-weekly alarm schedules. If you use both options, please check your alarms!!!
@@ -876,9 +1245,7 @@ https://shorturl.at/hvNR8
 – Update in Arabic, Norwegian, Danish, German, Indonesian and more (Many thanks)
 
 
-
 ## 20210226
-
 
 – Integration with new Google Sleep API for more precise sleep time estimates and automatic sleep tracking with minimal battery impact
 – Experimental Google Assistant app actions added (open/start/stop tracking, alarms, dashboard)
@@ -903,9 +1270,7 @@ https://shorturl.at/hvNR8
 – Fix crash in app startup in Belorussian localization
 – Update in Arabic, Norwegian and Danish (Many thanks)
 
-
 ## 20210118
-
 – New beginners’ tutorial card explaining all features and linking to settings
 – HRV tracking: See how well does sleep rest your body (supported on: Stresslocator oximeters, Polar OH1 and H10, Some Wear OS devices) more at https://sleep.urbandroid.org/hrv-tracking/
 – Fix for a rare issue when the next alarm card does not react to touch
@@ -934,9 +1299,7 @@ https://shorturl.at/hvNR8
 – Fix for duplicate Google Calendar Sleep events (old duplicate events must be cleaned manually)
 – Updates in Spanish, German, French, Chinese (HK).. big thanks to our contributors!
 
-
 ## 20201010
-
 
 – Fix in using fallback OGG recording as default, so now MediaCodec M4A should be default again resulting in lower battery consumption
 – Fixes in battery consumption when syncing starred noises to media library but there are errors
@@ -957,9 +1320,7 @@ https://shorturl.at/hvNR8
 – Fallback option of QR/Barcode Code. If you loose your code there is hope!
 – Bigger Portuguese update (big thanks)
 
-
 ## 20200828
-
 – Brand new CAPTCHA cheating protection:
 * to make working make sure to grant the app permission to ‘Draw over other apps’
 * This feature won’t let you out of the alarm screen without completing CAPTCHA
@@ -974,9 +1335,7 @@ https://issuetracker.google.com/issues/162913367
 – new in-app review API integration
 – new like this app dialog
 
-
 ## 20200804
-
 – Fix for automatic sleep tracking issues because of too sensitive activity recognition
 – Fix for white theme to use light navbar
 – Sunrise effect using screen-backlight is now default on the alarm screen (turn off in Settings > Alarms > Alarm screen)
@@ -1020,9 +1379,7 @@ https://issuetracker.google.com/issues/162913367
 – Fix in refund of CAPTCHA cheating wager
 – Big update in Farsi (Persian) and Latvian texts and more new translations (Big thanks)
 
-
 ## Version 20200717
-
 – Fix for automatic sleep tracking issues because of too sensitive activity recognition
 – Fix for white theme to use light navbar
 – Sunrise effect using screen-backlight is now default on the alarm screen (turn off in Settings > Alarms > Alarm screen)
@@ -1056,9 +1413,7 @@ https://issuetracker.google.com/issues/162913367
 – Fix in refund of CAPTCHA cheating wager
 – Big update in Farsi (Persian) texts and more new translations (Big thanks)
 
-
 ## Version 20200606
-
 – Fix for long waiting times in noise playback in case of a slow SD card
 – Recording does not get paused because of lullaby if lullaby does not have a timeout
 – Fixes in keeping order in default ordered playlists, indicator of next song and order in playlist screen
@@ -1091,9 +1446,7 @@ https://issuetracker.google.com/issues/162913367
 – Fix for sleep time estimate notification shown twice
 – Farsi translation (Big thanks!)
 
-
 ## Version 20200505
-
 – CAPTCHA Cheating Protection! Allows you to set a wager on not cheating CAPTCHA in _Settings -> CAPTCHA -> Cheating protection_
 – Goal wagers are now in-app purchases which can be refunded directly from the app in first 7 days or when completed
 – Workaround for time format in text to speech
@@ -1123,9 +1476,7 @@ https://issuetracker.google.com/issues/162913367
 – Fix for HR tracker connectivity restarting
 – Updates in translations e.g. big update in Arabic translation and more
 
-
 ## Version 20200330
-
 – Awake detection improvements – greater hit rate, works also with Sonar and Sleep Phaser! Please report any false positives.
 – Copying starred noises to local MediaStore (On devices with scoped storage)
 – New App data backup: increases backup size from 5 MB to 25 MB – ought to be enough for anybody 🙂
@@ -1165,9 +1516,7 @@ https://issuetracker.google.com/issues/162913367
 – Fix for a race in “Track without” smart watch option when starting tracking which may result in empty graph
 – Fix for asking for permission when doing an data import
 
-
 ## Version 20200228
-
 – IMPORTANT Fix for missing sleep sessions in Google Fit and Samsung Health, please go to Settings > Services and resync to make sure all data is in the service!
 – Experimental IKEA Trådfri support in Settings > Smart light
 – Prevent escaping CAPTCHA now works on all screens
@@ -1201,9 +1550,7 @@ https://issuetracker.google.com/issues/162913367
 – Fix for not showing Spotify when choosing a ringtone for lucid dreaming and anti-snoring
 – Updates in many different languages (big thanks to our contributors!)
 
-
 ## Version 20200102
-
 – Last sleep card now shows all your sleeps for the day
 – Many improvements in Goals: advice on next target, sqrt guideline, better use of space in charts
 – Better scheduling of sleep times suggestions – ideally just after expected sleep time

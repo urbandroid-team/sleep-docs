@@ -1,13 +1,7 @@
 ---
-
-layout: page
 title: About
-permalink: /about/
-no_troubleshooting: true
-exclude_from_nav: true
 ---
 
+This is the user manual for **Sleep as Android**, the #1 sleep tracking app for Android.
 
-This is the user manual for the #1 sleep tracking Android app **Sleep as Android**.
-
-[Get the app here](https://play.google.com/store/apps/details?id=com.urbandroid.sleep).
+[**Get the app on Google Play**](https://play.google.com/store/apps/details?id=com.urbandroid.sleep)

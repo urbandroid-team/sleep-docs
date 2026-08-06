@@ -7,6 +7,9 @@ has_children: true
 parent: /services/0parent.html
 ---
 
+# Automation: Tasker, Automate
+
+
 
 **[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)** and **[Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate)** are powerful automation tools for Android. By pairing them with Sleep as Android, you can build custom routines around your sleep.
 
@@ -77,3 +80,4 @@ Actions allow outside triggers on your phone to control what Sleep as Android do
 Check out our community walkthroughs for step-by-step automation ideas:
 * 🚀 [Tasker Walkthroughs Examples](/services/tasker_walkthroughs)
 * 🤖 [Automate Walkthroughs Examples](/services/automate_walkthroughs)
+

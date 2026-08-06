@@ -9,6 +9,9 @@ tags:
 - wearable
 ---
 
+# One UI Watch devices
+
+
 > [!NOTE]
 > **Device Compatibility Note:**
 > This guide applies to **modern Samsung Galaxy Watches running Wear OS / One UI Watch** (Galaxy Watch 4, Watch 5, Watch 6, Watch 7, Watch FE, and Watch Ultra).
@@ -68,68 +71,58 @@ To prevent Samsung's One UI software or Android power management from disconnect
 
 ---
 
-## ❓ Frequently Asked Questions & Troubleshooting
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why does my watch only vibrate once when the alarm starts?</strong></summary>
 
-This is an intentional feature! One UI Watch uses progressive gentle vibrations to prevent sudden wake-up shocks:
-* Starts with **1 short vibration**.
-* Another vibration occurs **30 seconds later**.
-* Next vibration after **20 seconds**, steadily increasing in frequency.
-* Becomes continuous after a few minutes.
-
-> [!TIP]
-> You can enable a delayed alarm sound on your phone as an audio backup via `Settings` → `Alarms` → `Gentle wakeup` → `Delayed alarm sound start`.
+* **Reason:** One UI Watch uses progressive gentle vibrations to prevent sudden wake-up shocks.
+* 👉  *Fix:* This is an intentional feature. It starts with 1 short vibration, another 30 seconds later, then after 20 seconds, steadily increasing in frequency until it becomes continuous. You can enable a delayed alarm sound on your phone as an audio backup via <code>Settings ➔ Alarms ➔ Gentle wakeup ➔ Delayed alarm sound start</code>.
 </details>
 
 <details>
 <summary><strong>Why are SpO<sub>2</sub> or HRV data missing from my Galaxy Watch?</strong></summary>
 
-Samsung restricts third-party developers from directly accessing raw **blood oxygen SpO<sub>2</sub>** and **Heart Rate Variability (HRV)** sensor streams in real-time during third-party sleep tracking on One UI Watch devices.
-
-While Sleep as Android cannot collect real-time SpO<sub>2</sub> or HRV directly from the watch sensors during the night, **you can sync these metrics via Health Connect!**
-
-#### Syncing Missing Data via Health Connect
-If Samsung Health records your SpO<sub>2</sub> or HRV data natively overnight, you can bridge this data into Sleep as Android after waking up:
-
-1. Enable SpO<sub>2</sub> / HRV tracking inside the official **Samsung Health** app.
-2. Connect both Samsung Health and Sleep as Android to Android's **Health Connect** framework.
-3. Sleep as Android will automatically import the missing health metrics from Health Connect after your sleep session ends.
-
-> For full step-by-step setup instructions, visit our [Health Connect Integration Guide](/services/health_connect).
+* **Reason:** Samsung restricts third-party developers from directly accessing raw **blood oxygen SpO<sub>2</sub>** and **Heart Rate Variability (HRV)** sensor streams in real-time.
+* 👉  *Fix:* You can sync these metrics via Health Connect!
+    1. Enable SpO<sub>2</sub> / HRV tracking inside the official **Samsung Health** app.
+    2. Connect both Samsung Health and Sleep as Android to Android's **Health Connect** framework.
+    3. Sleep as Android will automatically import the health metrics after your sleep session ends. [Full instructions here](/services/health_connect).
 </details>
 
 <details>
 <summary><strong>Why does sleep tracking start unexpectedly?</strong></summary>
 
-* **Watch App Launch:** Opening the Sleep as Android app on your watch starts sleep tracking immediately.
-* **Automatic Sleep Tracking:** Check if automatic start is active in `Settings` → `Sleep tracking` → `Automatic sleep tracking` → `Start sleep tracking`.
+* **Reason:** Watch app launch or automatic start setting.
+* 👉  *Fix:*
+    * **Watch App Launch:** Opening the app on your watch starts tracking immediately.
+    * **Automatic Sleep Tracking:** Check if automatic start is active in <code>Settings ➔ Sleep tracking ➔ Automatic sleep tracking ➔ Start sleep tracking</code>.
 </details>
 
 <details>
-<summary><strong>I want silent alarm, only vibrating on wearable. How do I do that?</strong></summary>
+<summary><strong>I want a silent alarm, only vibrating on wearable. How do I do that?</strong></summary>
 
-Want a quiet wake-up call? Here is how to set your alarm to vibrate on your watch first:
-1. Choose your sound preference:
-    * **Silent:** In the specific alarm's settings, go to Sound and select Silent.
-    * **Vibration first, sound later:** Go to `Settings` → `Alarms` → `Sound delay`.
-2. Turn on watch vibrations: Go to `Settings` → `Sleep tracking` → `Wearables` → `Alarm` and choose **From start**.
+* **Reason:** Desire for a discreet wake-up call.
+* 👉  *Fix:*
+    1. Choose your sound preference:
+        * **Silent:** In the specific alarm's settings, go to **Sound** and select **Silent**.
+        * **Vibration first, sound later:** Go to <code>Settings ➔ Alarms ➔ Sound delay</code>.
+    2. Turn on watch vibrations: Go to <code>Settings ➔ Sleep tracking ➔ Wearables ➔ Alarm</code> and choose **From start**.
 
-> [!TIP]
-> We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
+    > [!TIP]
+    > We recommend using a delayed sound rather than complete silence as a safety net.
 </details>
 
 <details>
 <summary><strong>Why does my connection keep dropping or show red gaps on the sleep graph?</strong></summary>
 
-If you see red sections on your sleep graph, it means the connection between your phone and wearable dropped during the night. This is almost always caused by Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
+* **Reason:** Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
+* 👉  *Fix:* Exclude **all** involved components from background battery optimization on your phone:
+    1. **Sleep as Android**
+    2. Your official band companion app, **Galaxy Wear app**
+    3. **Bluetooth system services**
 
-**How to fix it:**
-You must exclude **all** involved components from background battery optimization on your phone:
-1. **Sleep as Android**
-2. Your official band companion app, **Galaxy Wear app**
-3. **Bluetooth system services**
-
-For step-by-step, device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+    For step-by-step, device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

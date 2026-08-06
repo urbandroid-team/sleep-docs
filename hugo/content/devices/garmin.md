@@ -9,14 +9,20 @@ tags:
 - wearable
 ---
 
+# Garmin
+
+
 
 Integrating your **Garmin** wearable with Sleep as Android allows you to collect continuous movement data, heart rate (HR), and wake up gently with wrist vibrations. Sleep as Android supports Garmin watches that run on the **[Connect IQ (CIQ)](https://developer.garmin.com/connect-iq/compatible-devices/)** platform.
 
 [Full List of supported Garmin wearables](https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml)
 
-> ⚠️ **Important Notice**: We do our best to offer full-featured support for every wearable out there! However, some platforms make integration trickier than others. <br>
+> [!WARNING]
+We do our best to offer full-featured support for every wearable out there! However, some platforms make integration trickier than others. <br>
+>
 > Due to licensing restrictions, we can't access Garmin specialized APIs and we have to rely on Garmin's Connect IQ platform to communicate with your watch. <br>
 > Because Connect IQ has long-standing bugs (like message queues frequently freezing) we built a custom HTTP system to keep data syncing as reliably as possible. Even with this workaround, Garmin's API limitations mean the integration isn't as smooth as we'd like, and our ability to fix watch-side issues is very limited. <br>
+>
 > As a result, the Garmin integration is provided "as is." We truly appreciate your understanding!
 
 ## Setup Instructions
@@ -64,38 +70,42 @@ If your Garmin watch is no longer receiving firmware updates and supports Connec
 
 ---
 
-## ❓ Troubleshooting & FAQs
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why does the backlight turn on when I move my wrist at night?</strong></summary>
 
-Garmin devices have a system-wide gesture setting that automatically activates the screen backlight upon wrist movement during active tracking.
-
-**How to turn it off:**
-* On your watch, go to `Settings` → `System` → `Lighting` → `During Activity` → `Gesture` and set it to **Off**. This prevents wrist movements from lighting up the room while keeping backlight functionality intact for button presses and alarms.
+* **Reason:** Garmin devices have a system-wide gesture setting that automatically activates the screen backlight upon wrist movement during active tracking.
+* 👉  *Fix:* On your watch, go to `Settings` → `System` → `Lighting` → `During Activity` → `Gesture` and set it to **Off**. This prevents wrist movements from lighting up the room while keeping backlight functionality intact for button presses and alarms.
 </details>
 
 <details>
 <summary><strong>Why does my watch vibrate whenever sleep tracking starts or ends even if "Vibe once connected" is turned off?</strong></summary>
 
-Garmin watches are programmed by default to vibrate whenever an exercise or activity starts or stops. Because Sleep as Android runs as a formal activity to ensure accurate data logging, the watch firmware triggers this vibration automatically.
-
-**Workarounds:**
-* **Do Not Disturb:** Turn on **Do Not Disturb** mode on your watch prior to sleeping (`Settings` → `System` → `Do Not Disturb`).
-* **Toggle System Vibrations:** Temporarily disable vibrations in `Settings` → `System` → `Sounds/Vibration` on your watch.
+* **Reason:** Garmin watches are programmed by default to vibrate whenever an exercise or activity starts or stops. Sleep as Android runs as a formal activity to ensure accurate data logging.
+* 👉  *Fix:*
+    * **Do Not Disturb:** Turn on **Do Not Disturb** mode on your watch prior to sleeping (<code>Settings ➔ System ➔ Do Not Disturb</code>).
+    * **Toggle System Vibrations:** Temporarily disable vibrations in <code>Settings ➔ System ➔ Sounds/Vibration</code> on your watch.
 </details>
 
 <details>
 <summary><strong>What should I do if the connection keeps dropping or show red gaps on the graph?</strong></summary>
 
-Connection drops during the night are almost always caused by Android background power management terminating communication between apps.
+* **Reason:** Android background power management terminating communication between apps.
+* 👉  *Fix:* Disable background battery optimization on your phone for **all** of the following apps:
+    1. **Sleep as Android**
+    2. **Sleep Watch Starter**
+    3. **Garmin Connect**
+    4. **Bluetooth System Services**
 
-**How to fix it:**
-Disable background battery optimization on your phone for **all** of the following apps:
-1. **Sleep as Android**
-2. **Sleep Watch Starter**
-3. **Garmin Connect**
-4. **Bluetooth System Services**
-
-For device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+    For device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 </details>
+
+<details>
+<summary><strong>Why doesn't sleep tracking launch on my watch when I start it on my phone?</strong></summary>
+
+* **Reason:** On some Garmin models, the remote launch feature may fail due to firmware limitations or background restrictions, even with the companion app installed.
+* 👉  *Fix:* Ensure you have **[Sleep Watch Starter](https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter)** installed on your phone. If the watch app still doesn't open automatically, you must manually start the tracking: first initiate tracking on your **phone**, and then immediately open and start the **Sleep as Android** app on your **watch**.
+</details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

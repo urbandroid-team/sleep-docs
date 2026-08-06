@@ -6,6 +6,9 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
+# Editing graphs
+
+
 
 **Any sleep graph can be further edited. You can rate the sleep, add additional awake periods, cut excess time, and add tags or comments.**
 
@@ -79,3 +82,4 @@ a|![](edit_3.png)
 <!-- //|=== -->
 > **Note:** Deleting awakes won't work for paused tracking (there is no sensoric data from that period) and for the awakes manually entered by the user.
 
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

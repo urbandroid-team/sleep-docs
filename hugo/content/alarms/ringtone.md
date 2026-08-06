@@ -8,6 +8,9 @@ tags:
 - ringtone
 ---
 
+# Alarm sound
+
+
 Wake up your way! **Sleep as Android** lets you choose from built-in nature sounds, local audio files, online radio stations, or streaming platforms like Spotify to make your mornings as pleasant or energizing as you need.
 
 
@@ -68,37 +71,49 @@ Mix and match sounds from all previous categories into a unified custom playlist
 2. Check the box next to any tracks or sounds you wish to include.
 3. Use the **Play** ![ic_action_play](/assets/icons/ic_action_play.svg) button to preview tracks.
 4. Choose your playback style using the mode toggle icon:
-   * **![is_playlist_loop1](/assets/icons/is_playlist_loop1.svg) Loop One:** Cycles through the list, playing one new track each morning.
-   * **![ic_playlist_inorder](/assets/icons/ic_playlist_inorder.svg) In Order:** Plays tracks in the sequential order listed.
-   * **![ic_playlist_shuffle](/assets/icons/ic_playlist_shuffle.svg) Shuffle:** Plays your selected tracks in a random order.
-   * **![ic_action_discard](/assets/icons/ic_action_discard.svg) Discard:** Clears your current selections.
+
+| Icon | Mode | Description |
+| :--- | :--- | :--- |
+| ![is_playlist_loop1](/assets/icons/is_playlist_loop1.svg) | **Loop One** | Cycles through the list, playing one new track each morning. |
+| ![ic_playlist_inorder](/assets/icons/ic_playlist_inorder.svg) | **In Order** | Plays tracks in the sequential order listed. |
+| ![ic_playlist_shuffle](/assets/icons/ic_playlist_shuffle.svg) | **Shuffle** | Plays your selected tracks in a random order. |
+| ![ic_action_discard](/assets/icons/ic_action_discard.svg) | **Discard** | Clears your current selections. |
 
 
 ## Silent Alarm
-*Available only in [per-alarm settings](/alarms/alarm_settings#per-alarm).*
+*Available only in [per-alarm settings](/alarms/alarm_settings#per_alarm).*
 Enables silent wake-ups using vibrations only (ideal when wearing a smartwatch or sleeping next to a partner).
 
+---
 
-## ❓ Frequently Asked Questions & Troubleshooting
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why is my alarm sound too quiet?</strong></summary>
 
-* **Gentle Volume Increase is enabled:** If gentle wake-up is turned on, the alarm starts at zero volume and slowly ramps up. Check **Settings → Alarms → Gentle wake up → Gentle volume**. Lowering this setting to 1 minute will bring the volume to max much faster.
-* **Low media volume:** If you are not using Gentle Volume, check your device's volume settings. Press your phone's physical volume button and make sure the **Alarm/Ringtone volume slider** is set to an adequate level.
+* **Reason:** Gentle Volume Increase is enabled or low media volume.
+* 👉  *Fix:*
+    *   If gentle wake-up is turned on, the alarm starts at zero volume and slowly ramps up. Check **Settings → Alarms → Gentle wake up → Gentle volume**. Lowering this setting to 1 minute will bring the volume to max much faster.
+    *   Check your device's volume settings. Press your phone's physical volume button and make sure the **Alarm/Ringtone volume slider** is set to an adequate level.
 </details>
 
 <details>
 <summary><strong>Why didn't my selected ringtone play?</strong></summary>
 
-* **File missing or permissions revoked:** If playing a local file, ensure the file wasn't moved, deleted, or stored on an unmounted SD card. Verify that Sleep as Android has storage access permissions.
-* **Network issues (Spotify/Radio):** If an online service fails to respond within 30 seconds due to network issues, the app automatically plays a built-in fallback ringtone so you don't oversleep.
-* **Locked device limitations:** If Spotify fails to change playlists while the device screen is locked, it will default to playing your last opened playlist or track.
+* **Reason:** File missing, permissions revoked, network issues, or locked device limitations.
+* 👉  *Fix:*
+    *   If playing a local file, ensure the file wasn't moved, deleted, or stored on an unmounted SD card. Verify that Sleep as Android has storage access permissions.
+    *   If an online service fails to respond within 30 seconds due to network issues, the app automatically plays a built-in fallback ringtone so you don't oversleep.
+    *   If Spotify fails to change playlists while the device screen is locked, it will default to playing your last opened playlist or track.
 </details>
 
 <details>
 <summary><strong>Why is my Silent Alarm playing a sound?</strong></summary>
 
-* **Battery Optimization interference:** If battery saver features restrict the app in the background, vibration drivers may fail to trigger. To ensure you still wake up, the app automatically falls back to a built-in ringing sound. Disable battery optimizations via **Settings → Sleep tracking → Battery optimized**.
-* **Device rebooted recently:** If your phone restarted and remains locked at the credential screen (Direct Boot state), the app cannot access encrypted custom ringtones or vibration profiles. It will sound a built-in fallback ringtone to ensure you don't miss your alarm.
+* **Reason:** Battery Optimization interference or device rebooted recently.
+* 👉  *Fix:*
+    *   If battery saver features restrict the app in the background, vibration drivers may fail to trigger. To ensure you still wake up, the app automatically falls back to a built-in ringing sound. Disable battery optimizations via **Settings → Sleep tracking → Battery optimized**.
+    *   If your phone restarted and remains locked at the credential screen (Direct Boot state), the app cannot access encrypted custom ringtones or vibration profiles. It will sound a built-in fallback ringtone to ensure you don't miss your alarm.
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

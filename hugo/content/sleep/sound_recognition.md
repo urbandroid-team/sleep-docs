@@ -8,51 +8,84 @@ tags:
 - sound_recognition
 ---
 
-**Sound Recognition identifies and categorizes the different noises you make throughout the night.**
+# Sound recognition
 
-When a sound is identified, the app automatically adds a corresponding tag to the recording and logs the event in your sleep record.
 
-**Menu Path:** `Settings` → `Sleep noise analysis` → `Sound recognition`
+**Sleep as Android** isn't just about tracking your sleep movement, it can also analyze the sounds you make during the night, automatically categorize them, and tag them on your sleep graph.
 
----
+Whether you want to monitor snoring, catch sleep-talking, or see how often a crying baby wakes you up, this guide will help you get the most out of Sound Recognition.
 
-## Recognized Categories
 
-You can adjust the **sensitivity** for each category using individual sliders. If you wish to ignore a specific sound, simply move its slider to **Disabled**.
+## What Is Sound Recognition?
 
-| Icon | Category | Description |
+During sleep tracking, Sleep as Android analyzes background audio and automatically identifies specific types of sounds. When a sound is recognized, the app:
+* Adds a hashtag (like `#snore` or `#talk`) to your sleep recording.
+* Creates an event marker on your sleep chart so you can pinpoint exactly when it happened.
+
+## Recognized Sound Categories <a id="snoring"></a>
+
+| Category | Tag | What It Detects & Why It Matters |
 | :--- | :--- | :--- |
-| ![tag_snore_new](/assets/icons/tag_snore_new.svg) | **Snoring** | While common, persistent snoring can indicate respiratory issues like Obstructive Sleep Apnea (OSA). |
-| ![ic_action_talk](/assets/icons/ic_action_talk.svg) | **Talk** | Captures sleep-talking events so you can listen back to your nightly "wisdom." |
-| ![ic_action_sick](/assets/icons/ic_action_sick.svg) | **Sickness** | Detects coughing and sneezing, which can provide early insight into developing health issues. |
-| ![ic_action_baby](/assets/icons/ic_action_baby.svg) | **Baby Crying** | Helps you track how often your sleep is interrupted by a crying infant. |
-| ![ic_action_laugh](/assets/icons/ic_action_laugh.svg) | **Laughter** | A bonus feature—you might be surprised to find you laugh in your sleep! |
+| **Snoring** | `#snore` | Tracks snoring events. Regular snoring can reduce sleep quality for you and your partner, and may sometimes indicate Obstructive Sleep Apnea (OSA). |
+| **Sleep Talk** | `#talk` | Records sleep talking so you can listen back in the morning to hear what you were saying! |
+| **Sickness** | `#sick` | Detects coughing and sneezing, giving you early insight into potential health changes or illness. |
+| **Baby Crying** | `#baby` | Helps you track how often your sleep was disrupted by a crying baby. |
+| **Laughter** | `#laugh` | A fun bonus feature that catches unexpected chuckles or laughter while dreaming. |
 
-> [!NOTE]
-> Microphone quality and bedroom acoustics vary significantly between devices. If the app is too sensitive or missing sounds, use the sensitivity sliders to fine-tune the recognition for your specific environment.
+
+## How to Adjust Sound & Sensitivity Settings
+
+Every room is different, and every phone microphone handles sound uniquely. If the app is missing sounds or being too sensitive, you can easily fine-tune it:
+
+1. Open `Settings` in Sleep as Android.
+2. Tap `Sleep noise analysis` → `Sound recognition`.
+3. Use the **sliders** to adjust sensitivity for each individual sound category.
+4. To turn off recognition for a specific sound entirely, slide it all the way to **Disabled**.
+
+> **💡 Quick Tip:** If snoring detection flags normal room noises as snoring (or misses snoring altogether), simply adjust the Snoring slider up or down until it matches your room setup.
+
+
+## How It Works Behind the Scenes
+
+Sleep as Android uses **Convolutional Neural Networks (CNNs)**, a form of artificial intelligence trained on thousands of real-world sound samples.
+
+* The algorithms are taught by listening to thousands of labeled audio clips (e.g., *"this is a cough"*, *"this is a snore"*, *"this is a fan"*).
+* Over time, it learns the unique acoustic patterns of each sound so it can recognize new, unheard sounds on your phone.
+* We continuously train and improve the neural network model to increase accuracy across different environments and device hardware.
+
+
+## Help Us Make Sound Recognition Better!
+
+You can help make our algorithms smarter directly from the app! If the app misclassifies a recording:
+
+1. Open the audio player in the app to listen to your sound recording.
+2. **Fix the tags:** Tap the correct icon to add missing tags or remove incorrect ones.
+3. **Share the sample:** If a change is made to the sound class, the app may ask if you'd like to share the misclassified clip with us.
+4. Tapping **Yes** prepares an email with the audio attachment sent directly to our team at `support@urbandroid.org`.
+
+We manually review these real-world samples to re-train the algorithm and improve accuracy for everyone.
 
 ---
 
-## Under the Hood
+## ❓ FAQs & Troubleshooting
 
-Our recognition system uses **Convolutional Neural Networks**, a state-of-the-art machine perception technique.
+<details>
+<summary><strong>The graph shows a sound was detected, but there is no audio recording. Why?</strong></summary>
 
-The algorithm has been trained on thousands of real-world sound samples. By analyzing these diverse recordings, the network learns the unique characteristics of each category, allowing it to identify new sounds with high accuracy. We continuously refine this model based on real-world performance feedback and expanded datasets.
+If you see a sound icon on your noise graph but cannot play the audio, try these two fixes:
 
----
+* **Adjust the Volume Threshold:**
+  Go to <code>Settings ➔ Sleep noise analysis ➔ Recording volume threshold</code>. Lower the percentage (default is 15%).
+  * *Lower threshold* = records quieter sounds.
+  * *Higher threshold* = only records louder sounds.
+* **Reset the Storage Path:**
+  Go to <code>Settings ➔ Sleep noise analysis ➔ Storage path</code> and tap **RESET**.
+</details>
 
-## Help Us Improve
+<details>
+<summary><strong>What should I do if a sound was tagged incorrectly?</strong></summary>
 
-You can help make our algorithms even more accurate by sharing your samples directly from the app. We manually verify these contributions to improve future versions of the neural network.
+You can easily fix tags by editing the recording's comment section or tapping the sound category icons directly inside the audio player screen. You can also email misclassified clips with details on what changed to **support@urbandroid.org**.
+</details>
 
-### How to Contribute
-If you find a recording that was classified incorrectly:
-1.  Listen to the recording in the app player.
-2.  Manually add the correct tag or remove the incorrect one.
-3.  When leaving the player, if the recording is longer than 30 seconds, the app will ask if you'd like to share the anonymized sample with our team.
-
-<div class="text-center">
-
-![](new_sound_recognition_share.png)
-
-</div>
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

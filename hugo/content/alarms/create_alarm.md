@@ -6,6 +6,9 @@ nav_order: 2
 parent: /alarms/0parent.html
 ---
 
+# Create alarm
+
+
 Setting up an alarm in **Sleep as Android** gives you complete control over your wake-up routine—whether you need a simple daily alarm, a quick nap timer, or a highly customized schedule.
 
 
@@ -65,3 +68,5 @@ Managing your current alarms is fast and simple:
 
 > [!TIP]
 > **Global vs. Per-Alarm Settings:** Customizing settings directly on an alarm card overrides your app default settings for **that specific alarm only**. If you want to change default settings for *all* alarms, go to `Settings` → `Alarms`.
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

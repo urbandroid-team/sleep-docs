@@ -6,25 +6,20 @@ nav_order: 2
 parent: /sleep/0parent.html
 ---
 
-Monitoring for respiratory disturbances is a key feature of **Sleep as Android**. By using a compatible pulse oximeter, you can identify potential signs of obstructive sleep apnea (OSA) from the comfort of your own home.
+# Sleep apnea
 
-> [!IMPORTANT]
-> **Get a compatible Oximeter:** To enable respiratory monitoring, you need a high-precision sensor. You can [**Buy a compatible Pulse Oximeter here**](https://happyelectronics.eu/products/alert-stresslocator-oximeter).
 
-![](oximeter2.png)
-
----
-
-## What is Sleep Apnea?
-
-**Obstructive Sleep Apnea (OSA)** is a serious disorder where breathing repeatedly stops and starts during the night. Because it occurs while you sleep, up to 80% of the population remains undiagnosed.
-
-> [!NOTE]
-> Sleep apnea causes drops in blood oxygen levels, which can lead to daytime fatigue, hypertension, cardiovascular issues, and a significantly increased risk of early death.
+**Sleep Apnea** (specifically Obstructive Sleep Apnea, or OSA) is a common sleep disorder where breathing repeatedly stops and starts throughout the night. These pauses reduce blood oxygen levels, fragment your sleep, and place extra stress on your heart.
 
 <a id="apnea-anatomy"></a>
 **Sleep apnea anatomy**
-![](apnea_anatomy.png)
+<div style="text-align: center;">
+  <img src="/assets/images/apnea_anatomy.png" alt="Sleep apnea anatomy" style="max-width: 400px; width: 100%;" />
+</div>
+
+**Sleep as Android** helps you keep an eye on your respiratory health overnight. Using non-contact acoustic sensors, phone microphones, or connected wearables, the app monitors your breath rate, detects temporary pauses in breathing, and flags potential risk indicators on your sleep charts.
+
+> ⚠️ **Important Medical Disclaimer:** Sleep as Android is a sleep tracking app, **not a medical device**. It does not diagnose sleep apnea. However, it serves as an early screening tool to help you identify symptoms and gather data to share with your physician or sleep specialist.
 
 
 ## Why Home Pre-Screening Matters
@@ -35,32 +30,74 @@ Home pre-screening using **Pulse Oximetry** provides a convenient, cost-effectiv
 
 <a id="apnea-rdi"></a>
 **RDI compared to clinical Sleep Lab data**
-![](apnea_rdi.png)
+<div style="text-align: center;">
+  <img src="/assets/images/apnea_rdi.png" alt="RDI compared to clinical Sleep Lab data" style="max-width: 400px; width: 100%;" />
+</div>
+
+## How Sleep as Android Monitors Breathing
+
+The app uses advanced signal processing to analyze your respiratory rhythm while you sleep:
+
+* **Oximeters:** Get a [Pulse Oximeter](https://happyelectronics.eu/products/alert-stresslocator-oximeter) compatible with Sleep as Android and suitable for whole night oxygenation monitoring.
+* **[Sonar Tracking](/sleep/sensors#sonar) (Contactless):** Emits silent ultrasonic soundwaves from your phone's speaker to bounce off your chest, measuring micro-movements to calculate your Breaths Per Minute (RPM). This value is calculated automatically from the data, you don't need to enable it specifically.
+* **Wearables:** Pairs with smartwatches and their SpO2 sensors to record continuous heart rate and blood oxygen saturation levels. Follow the guide for [wearable tracking](/sleep/wearable_tracking).
+* **Audio & Snoring Analytics:** Uses your phone's microphone to detect snoring, choking sounds, or sudden gasping after pauses. Read more details about Sound recognition in [this chapter](/sleep/sound_recognition).)
 
 
-## Using Sleep as Android for Pre-Screening
 
-Sleep as Android supports [**StressLocator pulse oximeters**](https://happyelectronics.eu/collections/biofeedback) for continuous overnight monitoring.
+## Identifying Apnea Indicators in Your Charts
 
-### Setup Guide
-1.  **Pair Device:** Link your StressLocator oximeter to your phone via Bluetooth.
-2.  **Enable Tracking:** Go to `Settings` → `Sleep tracking` → `Wearables` and check **Pulse oximeter (Bluetooth)**.
-3.  **Position Sensor:** Place the sensor on your finger before starting sleep tracking.
+When reviewing your overnight sleep graphs, look for the following patterns:
 
-<a id="pulse-oximeter"></a>
-**Proper pulse oximeter usage**
-![](oximeter.jpg)
+* **Breathing Rate Spikes & Dips:** Healthy adult resting breath rate is typically **12–20 breaths per minute**. Sharp drops followed by a spike may indicate temporary breath pauses.
+* **Oxygen Desaturation (SpO2 Drops):** Drops in blood oxygen levels below **90%** often accompany apnea events.
+* **Micro-Arousals & Motion:** Sudden spikes in motion or micro-awakes immediately following a quiet period often mean your body briefly jolted awake to resume breathing.
 
-### Interpreting Results
-In the morning, the app calculates your **RDI** score:
-*   **Significant Warning:** An RDI score over **15 per hour** is a strong indicator of sleep-disordered breathing. We highly recommend visiting a qualified sleep professional if you see consistent scores in this range.
-*   **The SpO<sub>2</sub> Curve:** On your sleep graph, oxygen saturation is shown as a blue line. Significant dips are marked with the O2 ![ic_action_cpap](/assets/icons/ic_action_cpap.svg) symbol, indicating a breathing disturbance episode.
 
-> [!WARNING]
-> **Medical Disclaimer:** Sleep as Android is not a medical device. This information is for educational purposes only and does not constitute medical advice or a doctor-patient relationship. Always consult a licensed medical professional before making changes to your health routine.
+## Suspect You Might Have Sleep Apnea?
+
+If your graphs show frequent breathing disruptions or if you wake up feeling chronically exhausted, dry-mouthed, or sore-throated, you should consult a healthcare provider.
+
+### Official Medical Screening Tool (STOP-BANG)
+Before seeing a doctor, you can take a scientifically validated, free screening questionnaire used by sleep clinics worldwide:
+
+* 📋 **[Harvard Division of Sleep Medicine – Sleep Apnea Self-Evaluation](https://sleep.hms.harvard.edu/education-training/public-education/sleep-and-health-education-program/sleep-health-education-32)**
+* 📋 **[American Academy of Sleep Medicine – STOP-BANG Questionnaire Guide](https://sleepeducation.org/what-is-the-stop-bang-questionnaire/)**
+
+This 8-question self-test evaluates common risk factors (Snoring, Daytime Tiredness, Observed Breathing Pauses, High Blood Pressure, BMI, Age, Neck Size, and Gender). Sharing your score alongside your Sleep as Android charts can help your doctor decide if an official sleep study (Polysomnography) is needed.
+
 
 ---
 
+## ❓ FAQs & Troubleshooting
+
+<details>
+<summary><strong>Can Sleep as Android officially diagnose me with Sleep Apnea?</strong></summary>
+
+**No.** A formal medical diagnosis requires a clinical overnight sleep study (polysomnography). Sleep as Android acts as an early warning/screening tool to alert you to potential patterns.
+</details>
+
+<details>
+<summary><strong>What should I show my doctor?</strong></summary>
+
+You can share your sleep history with your doctor via:
+    1. **Online Read-Only Link (Recommended):** Generate a secure, read-only link via your <a href="/services/sleepcloud">SleepCloud</a> account. This lets your doctor inspect your graphs, breath rate trends, and audio recordings.
+    2. **Screenshots:** Export your sleep charts showing your **Breath Rate (RPM)**, **Snoring logs**, and **SpO2 graphs**.
+</details>
+
+<details>
+<summary><strong>Why is my breathing rate graph missing or showing flat lines?</strong></summary>
+
+* **Reason:** Sensor orientation or connectivity issues.
+* 👉  *Fix:*
+    * If using **Sonar**, ensure your phone's speaker/microphone is oriented toward your chest and no headphones are connected.
+    * If using a **wearable**, ensure the band is snug so the optical sensors can read pulse and respiration data reliably.
+    * For more details, see the <a href="/sleep/sensors#sonar_testing">sonar troubleshooting</a> and <a href="/devices/wearables">wearable brand</a> sections.
+</details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
+
+<!---
 ## References
 
 1.  T. Young et al., “Estimation of the clinically diagnosed proportion of sleep apnea syndrome in middle-aged men and women.,” *Sleep*, 1997.
@@ -68,3 +105,4 @@ In the morning, the app calculates your **RDI** score:
 3.  N. Marshall et al., “Sleep apnea as an independent risk factor for all-cause mortality,” *Sleep*, 2008.
 4.  L.-W. Hang et al., “Validation of overnight oximetry to diagnose patients with moderate to severe obstructive sleep apnea,” *BMC Pulmonary Medicine*, 2015.
 5.  Vazquez et al., “Automated analysis of digital oximetry in the diagnosis of obstructive sleep apnoea,” *Thorax*, 2000.
+--->

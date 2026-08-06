@@ -8,6 +8,9 @@ tags:
 - sleep mask
 ---
 
+# Sleep mask
+
+
 **Enhance your sleep using light stimulation. The Sleep Mask helps you fall asleep faster, wake up naturally, and master lucid dreaming.**
 
 Designed specifically for use with **Sleep as Android** and **[Mindroid](https://play.google.com/store/apps/details?id=com.urbandroid.mind)**.
@@ -56,3 +59,5 @@ Designed specifically for use with **Sleep as Android** and **[Mindroid](https:/
 
 > [!WARNING]
 > The app cannot maintain simultaneous Bluetooth connections to both a Sleep Mask V2 and a **Sleep Phaser**.
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

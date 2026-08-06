@@ -1,19 +1,15 @@
 ---
-
-layout: page
-title: Addons
-permalink: /addons/
-no_troubleshooting: true
-nav_order: 60
-no_comments: true
+title: Add-ons
+weight: 60
 ---
 
+Enhance your Sleep as Android experience with these official add-ons and compatible services:
 
-- [SleepCloud](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port&hl=cs&gl=US)
-- [Sleep Phaser](https://www.happy-electronics.eu/shop7/en/21-sleep-as-android)
-- [Wearables](/devices/supported_wearable)
-- [Lullabies](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby&hl=cs&gl=US)
-- [Oximeter](/devices/oximeter)
-- [CAPTCHA](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack&hl=cs&gl=US)
-- [Sleep Mask](https://www.happy-electronics.eu/shop7/en/21-sleep-as-android)
-- [Mindroid](https://play.google.com/store/apps/details?id=com.urbandroid.mind)
+*   [**SleepCloud**](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.port): Cloud backup and synchronization.
+*   [**Sleep Phaser**](https://www.happy-electronics.eu/shop/en/21-sleep-as-android): Contactless smart bedside lamp.
+*   [**Wearables**](/devices/supported_wearable): Smartwatch and fitness tracker integrations.
+*   [**Lullabies**](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.lullaby): Extra high-quality soundscapes.
+*   [**Oximeter**](/devices/oximeter): Continuous SpO<sub>2</sub> monitoring.
+*   [**CAPTCHA Pack**](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.captchapack): More puzzles to wake you up.
+*   [**Sleep Mask**](https://www.happy-electronics.eu/shop/en/21-sleep-as-android): Light stimulation for sleep and lucid dreaming.
+*   [**Mindroid**](https://play.google.com/store/apps/details?id=com.urbandroid.mind): Binaural beat stimulation.

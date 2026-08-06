@@ -8,6 +8,9 @@ tags:
 - phaser_v1
 ---
 
+# Sleep Phaser v1
+
+
 
 **Sleep Phaser 1** is a smart bedside lamp designed to maximize your **Sleep as Android** experience. It tracks your sleep non-invasively using a **PIR (Passive Infrared) motion sensor**.
 
@@ -76,25 +79,24 @@ If you and your partner both use Sleep Phasers on opposite nightstands:
 
 ---
 
-## ❓ Troubleshooting & FAQs
+## ❓ FAQs & Troubleshooting
 
 <details>
 <summary><strong>Why won't Sleep as Android connect to my Sleep Phaser?</strong></summary>
 
-If the app fails to detect your Phaser, try these quick steps:
-
-1. **Check Location Services:** Ensure **Location** is turned on on your phone. Android requires location access to perform Bluetooth Low Energy (BLE) scans.
-2. **Check Charger Power:** Make sure the Phaser is plugged into a wall adapter supplying at least **1A / 5V**.
-3. **Restart Connection:**
-   * End sleep tracking and force-close the Sleep as Android app.
-   * Toggle Bluetooth off and on in your phone's settings.
-   * Unplug the Phaser from power for 5 seconds and plug it back in.
-   * Reopen Sleep as Android and test the connection.
-4. Check if the Phaser connects to the native app [Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz..sleepphasercontrol)
+* **Reason:** Missing permissions, insufficient power, or connection glithces.
+* 👉  *Fix:*
+    1. **Check Location Services:** Ensure **Location** is turned on (required for BLE scans).
+    2. **Check Charger Power:** Ensure at least **1A / 5V** power supply.
+    3. **Restart Connection:** Force-close the app, toggle Bluetooth, and power-cycle the Phaser (unplug for 5s).
+    4. Test connection with the native [Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol) app.
 </details>
 
 <details>
 <summary><strong>What if the top button doesn't work and the Phaser won't connect?</strong></summary>
 
-If the main light button is unresponsive while the bottom base light still turns on, the device may have slipped into bootloader mode after power-up. Unplug the power cable, wait 10 seconds, and plug it back in. If the issue persists, a quick firmware reupload via the [Sleep Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol) app may be required.
+* **Reason:** Device potentially in bootloader mode.
+* 👉  *Fix:* Unplug the power cable, wait 10 seconds, and plug it back in. If the issue persists, perform a firmware reupload via the [Sleep Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol) app.
 </details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

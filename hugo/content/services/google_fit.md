@@ -6,54 +6,62 @@ nav_order: 2
 parent: /services/0parent.html
 ---
 
-**Synchronize your rest and activity data by connecting Sleep as Android with Google Fit.**
+# Google Fit
 
-**Menu Path:** `Settings` → `Services` → `Google Fit`
 
----
+Allow *Sleep as Android* to synchronize your sleep tracking sessions, heart rate, and activity goals with **Google Fit**.
+
+> [!WARNING]
+> Google has deprecated the **Google Fit APIs**. For current and future sync compatibility, we strongly recommend using **Health Connect** instead.<br>
+>
+> 👉 See our [Health Connect Setup Guide](/docs/services/health_connect.html) to migrate your sync.
+
+
+## Where to Find Settings
+
+To configure Google Fit integration:<br>
+Navigate to `Settings` → `Services` → `Google Fit`.
+
 
 ## Features
 
-*   **Export Sleep Data:** Automatically uploads your sleep sessions to Google Fit.
-*   **Historical Sync:** When first enabled, the app can sync past records from up to **3 years** ago.
-*   **Activity Sync:** Automatically tags your sleep records with a `#sport` tag if you reached at least 80% of your activity goals in Google Fit that day.
+* **Sleep Sessions Upload:** Synchronizes your sleep tracking sessions and sleep phases directly to Google Fit.
+* **Past Records Backfill:** When enabling the integration for the first time, you can upload past sleep logs (up to 3 years of history).
+* **Heart Rate Sync:** Transmits heart rate data recorded during sleep sessions.
+* **Goal & Tag Sync:** Syncs fitness and activity goals into Sleep as Android as tagged entries (e.g., `#sport`).
 
-> [!WARNING]
-> To prevent duplicates, the app only syncs local entries. Any records marked with a **cloud icon** (previously synced from another service) will be skipped.
 
----
+## Sync Methods
 
-## Synchronization Methods
+Sleep as Android uses two methods to synchronize data with Google Fit:
 
-### Normal Sync
-*   **Window:** Last 2 weeks.
-*   **Frequency:** Triggers after every sleep session, when creating a manual record, or upon app launch (if no sync occurred in the last 24 hours).
+| Sync Type | Time Period Covered | How It Triggers |
+| :--- | :--- | :--- |
+| **Normal Sync** | Past **2 weeks** | Runs automatically when sleep tracking finishes, when a record is manually created, or upon opening the app (if no sync occurred in 24 hours). |
+| **Full Sync** | Past **3 years** | Triggered manually under `Settings` → `Services` → `Google Fit` (toggle Off and On, then tap the `**Upload**` button). |
 
-### Full Sync
-*   **Window:** Up to the last 3 years.
-*   **How to trigger:** Go to `Settings` → `Services` → `Google Fit`. Toggle the service off and then on again, then tap the **Upload** button in the bottom-right corner.
-
-> [!NOTE]
-> **Heart Rate Data:** Because processing HR data is computationally intensive, it is only imported for the **past 7 days** during both Normal and Full syncs.
+> **⏱️ Heart Rate Exception:** Due to high data volume, heart rate data is synchronized only for the past **7 days** during both Normal and Full Syncs.
 
 ---
 
-## Visualizing Data
+## ❓ FAQs & Troubleshooting
 
-<div class="imgflexblock"><div class="content">
+<details>
+<summary><strong>Should I use Google Fit?</strong></summary>
+* **Recommendation:** You should use **Health Connect**. Google Fit is being phased out by Google, while Health Connect is Android's new central health data platform.
+</details>
 
-<img src="/assets/images/google_fit_month.png" alt="Monthly view" />
-<img src="/assets/images/google_fit_day.png" alt="Daily view" />
+<details>
+<summary><strong> Why are duplicate sleep entries showing up in Google Fit?</strong></summary>
+* This can occur if another cloud backup service or third-party sleep app is syncing the same session into Google Fit. *Sleep as Android* automatically filters out entries that were already synced from another cloud service (marked without a cloud icon) to minimize duplicates.
+</details>
 
-</div></div>
 
-**Left:** Monthly sleep overview in Google Fit. **Right:** Detailed view of a single night.
+<details>
+<summary><strong>Why isn't heart rate data older than 7 days showing up in Google Fit?</strong></summary>
+* Heart rate measurements produce large datasets. To maintain smooth performance and avoid quota limits, heart rate syncing is restricted to the most recent **7 days**.
+</details>
 
-<div class="imgflexblock"><div class="content">
 
-<img src="/assets/images/google_fit1.png" alt="Fit goals" />
-<img src="/assets/images/google_fit2.png" alt="Sleep tags" />
+*Need assistance? Reach out via **Left Menu ☰ → Support → Report a bug**.*
 
-</div></div>
-
-**Left:** Reaching activity goals in Google Fit. **Right:** Automatic `#sport` tags applied to your sleep records in response.
