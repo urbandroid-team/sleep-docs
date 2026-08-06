@@ -1,132 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>User Interface on Sleep as Android Docs</title><link>/ux/</link><description>Recent content in User Interface on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/ux/index.xml" rel="self" type="application/rss+xml"/><item><title>Alarms only mode</title><link>/ux/hs_alarms_only/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/hs_alarms_only/</guid><description>&lt;h1 id="alarms-only-mode"&gt;Alarms only mode&lt;a class="anchor" href="#alarms-only-mode"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Alarms Only Mode&lt;/strong&gt; is a streamlined interface designed for users who strictly use Sleep as Android for its advanced alarm features and do not require sleep tracking or data analysis.&lt;/p&gt;
-&lt;p&gt;When this mode is active, your home screen is dedicated entirely to your alarm list, providing a clean and distraction-free experience.&lt;/p&gt;
-&lt;blockquote class='book-hint warning'&gt;
-&lt;p&gt;Enabling this mode hides all sleep-tracking related features from the &lt;strong&gt;Settings&lt;/strong&gt; menu and the &lt;strong&gt;Left ☰ menu&lt;/strong&gt; (unless you have existing sleep history).&lt;/p&gt;</description></item><item><title>Dashboard home screen</title><link>/ux/hs_dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/hs_dashboard/</guid><description>&lt;h1 id="dashboard-home-screen"&gt;Dashboard home screen&lt;a class="anchor" href="#dashboard-home-screen"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;The &lt;strong&gt;Dashboard&lt;/strong&gt; is designed to give you exactly what you need at a glance. It uses a dynamic card-based layout that adapts to your daily routine, letting you quickly review your sleep health and control your alarms.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Declutter your view:&lt;/strong&gt; If a card isn’t relevant to you, simply swipe it away to make room for other content. You can always bring it back later.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Prioritize what matters:&lt;/strong&gt; Long-press any card to pin it to the top of your dashboard for quick access.&lt;/p&gt;</description></item><item><title>Left ☰ menu</title><link>/ux/left_menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/left_menu/</guid><description>&lt;h1 id="left--menu"&gt;Left ☰ menu&lt;a class="anchor" href="#left--menu"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;The &lt;strong&gt;Left ☰ menu&lt;/strong&gt; is your central hub for navigation and quick access to all of Sleep as Android&amp;rsquo;s powerful features.&lt;/p&gt;
-&lt;p&gt;Tap the &lt;strong&gt;☰ icon&lt;/strong&gt; in the upper left corner or &lt;strong&gt;swipe from the left&lt;/strong&gt; to expand the menu.&lt;/p&gt;
-&lt;blockquote class='book-hint note'&gt;
-&lt;p&gt;On phones with gesture navigation, you may need to &lt;strong&gt;tap and hold&lt;/strong&gt; the edge for a second before swiping to access the menu.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;The content of the Left menu adapts based on your chosen home screen:&lt;/p&gt;</description></item><item><title>Personalization</title><link>/ux/personalize/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/personalize/</guid><description>&lt;h1 id="personalization"&gt;Personalization&lt;a class="anchor" href="#personalization"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Personalization settings allow you to customize the visual style of your graphs, choose your preferred home screen layout, manage your themes, and more.&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="key-settings-explained"&gt;Key Settings Explained&lt;a class="anchor" href="#key-settings-explained"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Navigate to &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Personalize&lt;/code&gt; to tailor the app to your preferences:&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th style="text-align: left"&gt;Setting&lt;/th&gt;
-					&lt;th style="text-align: left"&gt;What it Does&lt;/th&gt;
-					&lt;th style="text-align: left"&gt;Options / Behavior&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Stats&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Access your long-term sleep statistics.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Direct link to the &lt;a href="sleep/statistics"&gt;Statistics chapter&lt;/a&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Privacy&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Manage data collection and ad preferences.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Direct link to the &lt;a href="../general/privacy"&gt;Privacy chapter&lt;/a&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Home screen&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Choose your preferred layout mode for the app&amp;rsquo;s main view.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;&lt;a href="../ux/hs_dashboard"&gt;Dashboard&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href="../ux/hs_tabs"&gt;Tabs&lt;/a&gt;&lt;/strong&gt;, or &lt;strong&gt;&lt;a href="../ux/hs_alarms_only"&gt;Alarms only&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;&lt;a href="#morning_screen_set"&gt;Morning screen&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Choose which screen appears after you finish tracking.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;&lt;a href="../sleep/how_to_read_sleep_graphs#morning_screen"&gt;Morning briefing&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;Graphs&lt;/strong&gt;, &lt;strong&gt;Dashboard&lt;/strong&gt;, or &lt;strong&gt;Disabled&lt;/strong&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Theme&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Set the background color and font style of the app.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Automatic&lt;/strong&gt;, &lt;strong&gt;Night owl&lt;/strong&gt;, &lt;strong&gt;Morning lark&lt;/strong&gt;, or &lt;strong&gt;Device settings&lt;/strong&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;&lt;a href="#color_palette"&gt;Color palette&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Select a color scheme for your sleep graphs.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;7 schemes available.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Animations&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Enable or disable screen transition animations and CAPTCHA emojis.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Toggle OFF for a faster, minimalist feel.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;&lt;a href="#tts"&gt;Text to speech&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Audible bedtime reminders, greetings, and weather.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Uses the system TTS engine and accessibility settings.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Overrides your phone&amp;rsquo;s system language.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Sets the app language regardless of the system language.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Temperature&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Sets the units for weather displays.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Celsius&lt;/strong&gt;, &lt;strong&gt;Fahrenheit&lt;/strong&gt;, or &lt;strong&gt;System default&lt;/strong&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Start week on&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Choose the first day of the week for calendars.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Monday&lt;/strong&gt;, &lt;em&gt;Wednesday&lt;/em&gt;*, &lt;strong&gt;Thursday&lt;/strong&gt;, &lt;strong&gt;Friday&lt;/strong&gt;, &lt;strong&gt;Saturday&lt;/strong&gt;, &lt;strong&gt;Sunday&lt;/strong&gt;, or *&lt;em&gt;System default&lt;/em&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Time format&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Choose how clock times are displayed.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;24h&lt;/strong&gt;, &lt;strong&gt;12h&lt;/strong&gt;, &lt;strong&gt;AM/PM&lt;/strong&gt;, or &lt;strong&gt;System default&lt;/strong&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Alarm sorting&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Sets the order of alarms in your list.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Sort by &lt;strong&gt;Day&lt;/strong&gt; (Default) or by &lt;strong&gt;Time&lt;/strong&gt;.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;&lt;a href="#analog-picker"&gt;Analog picker&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Switches the alarm creation interface.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Uses a round analog clock face instead of digital input.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Release notes&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Controls update notifications.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Toggle the &amp;ldquo;What&amp;rsquo;s new&amp;rdquo; card after app updates.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Advanced settings&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Expands hidden options.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Keeps all advanced settings expanded by default.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td style="text-align: left"&gt;&lt;strong&gt;Hide droid avatar&lt;/strong&gt;&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Removes the mascot.&lt;/td&gt;
-					&lt;td style="text-align: left"&gt;Hides the Droid mascot from the home screen.&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h2 id="detailed-feature-breakdown"&gt;Detailed Feature Breakdown&lt;a class="anchor" href="#detailed-feature-breakdown"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="home-screen-customizations"&gt;Home screen customizations&lt;a class="anchor" href="#home-screen-customizations"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a id="morning_screen_set"&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Search</title><link>/ux/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/search/</guid><description>&lt;h1 id="search"&gt;Search&lt;a class="anchor" href="#search"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Finds you anything inside Sleep as Android. Settings, documentation, alarms, sleep records&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The global search tool is your fastest way to find anything inside Sleep as Android. Located right in the top bar of almost every screen, it lets you quickly track down settings, documentation, alarms, history, and more.&lt;/p&gt;
-&lt;p&gt;Because Sleep as Android offers a deep and comprehensive set of features, using the search bar is often the quickest shortcut to get things done.&lt;/p&gt;</description></item><item><title>Tabs home screen</title><link>/ux/hs_tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/hs_tabs/</guid><description>&lt;h1 id="tabs-home-screen"&gt;Tabs home screen&lt;a class="anchor" href="#tabs-home-screen"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;The &lt;strong&gt;Tabs home screen&lt;/strong&gt; layout organizes the app&amp;rsquo;s primary features into easily accessible, swipeable tabs at the top of your screen.&lt;/p&gt;
-&lt;p&gt;You can fully customize which tabs are visible to match your daily routine. To keep your interface clean, any tab you choose to display on the home screen is automatically hidden from the Left ☰ menu. Note that the Alarms tab is essential and will always remain visible.&lt;/p&gt;</description></item><item><title>Widgets</title><link>/ux/widgets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ux/widgets/</guid><description>&lt;h1 id="widgets"&gt;Widgets&lt;a class="anchor" href="#widgets"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Sleep as Android offers a variety of home screen widgets and shortcut widgets to give you quick access to tracking, alarms, and your recent sleep data.&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="standard-widgets"&gt;Standard Widgets&lt;a class="anchor" href="#standard-widgets"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a id="figure-widgets"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;To add a widget to your home screen:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Method 1:&lt;/strong&gt; Long-press an empty space on your phone&amp;rsquo;s home screen → select &lt;strong&gt;Widgets&lt;/strong&gt; → scroll down to &lt;strong&gt;Sleep&lt;/strong&gt; and select the widget you&amp;rsquo;d like to add.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Method 2:&lt;/strong&gt; Long-press the &lt;strong&gt;Sleep as Android&lt;/strong&gt; app icon → tap the &lt;strong&gt;widget icon&lt;/strong&gt; → choose your desired widget from the list.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="../assets/images/widgets.png" alt="" /&gt;
-&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>User Interface on Sleep as Android Docs</title>
+		<link>//localhost:1313/ux/</link>
+		<description>Recent content in User Interface on Sleep as Android Docs</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<atom:link href="//localhost:1313/ux/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Alarms only mode</title>
+				<link>//localhost:1313/ux/hs_alarms_only/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/ux/hs_alarms_only/</guid>
+				<description>&lt;h1 id=&#34;alarms-only-mode&#34;&gt;Alarms only mode&lt;a class=&#34;anchor&#34; href=&#34;#alarms-only-mode&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Alarms Only Mode&lt;/strong&gt; is a streamlined interface designed for users who strictly use Sleep as Android for its advanced alarm features and do not require sleep tracking or data analysis.&lt;/p&gt;&#xA;&lt;p&gt;When this mode is active, your home screen is dedicated entirely to your alarm list, providing a clean and distraction-free experience.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;Enabling this mode hides all sleep-tracking related features from the &lt;strong&gt;Settings&lt;/strong&gt; menu and the &lt;strong&gt;Left ☰ menu&lt;/strong&gt; (unless you have existing sleep history).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dashboard home screen</title>
+				<link>//localhost:1313/ux/hs_dashboard/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/ux/hs_dashboard/</guid>
+				<description>&lt;h1 id=&#34;dashboard-home-screen&#34;&gt;Dashboard home screen&lt;a class=&#34;anchor&#34; href=&#34;#dashboard-home-screen&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;The &lt;strong&gt;Dashboard&lt;/strong&gt; is designed to give you exactly what you need at a glance. It uses a dynamic card-based layout that adapts to your daily routine, letting you quickly review your sleep health and control your alarms.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Declutter your view:&lt;/strong&gt; If a card isn’t relevant to you, simply swipe it away to make room for other content. You can always bring it back later.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Prioritize what matters:&lt;/strong&gt; Long-press any card to pin it to the top of your dashboard for quick access.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Left ☰ menu</title>
+				<link>//localhost:1313/ux/left_menu/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/ux/left_menu/</guid>
+				<description>&lt;h1 id=&#34;left--menu&#34;&gt;Left ☰ menu&lt;a class=&#34;anchor&#34; href=&#34;#left--menu&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;The &lt;strong&gt;Left ☰ menu&lt;/strong&gt; is your central hub for navigation and quick access to all of Sleep as Android&amp;rsquo;s powerful features.&lt;/p&gt;&#xA;&lt;p&gt;Tap the &lt;strong&gt;☰ icon&lt;/strong&gt; in the upper left corner or &lt;strong&gt;swipe from the left&lt;/strong&gt; to expand the menu.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint note&#39;&gt;&#xD;&#xA;&lt;p&gt;On phones with gesture navigation, you may need to &lt;strong&gt;tap and hold&lt;/strong&gt; the edge for a second before swiping to access the menu.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;The content of the Left menu adapts based on your chosen home screen:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Personalization</title>
+				<link>//localhost:1313/ux/personalize/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/ux/personalize/</guid>
+				<description>&lt;h1 id=&#34;personalization&#34;&gt;Personalization&lt;a class=&#34;anchor&#34; href=&#34;#personalization&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Personalization settings allow you to customize the visual style of your graphs, choose your preferred home screen layout, manage your themes, and more.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;key-settings-explained&#34;&gt;Key Settings Explained&lt;a class=&#34;anchor&#34; href=&#34;#key-settings-explained&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Navigate to &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Personalize&lt;/code&gt; to tailor the app to your preferences:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th style=&#34;text-align: left&#34;&gt;Setting&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th style=&#34;text-align: left&#34;&gt;What it Does&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th style=&#34;text-align: left&#34;&gt;Options / Behavior&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Stats&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Access your long-term sleep statistics.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Direct link to the &lt;a href=&#34;sleep/statistics&#34;&gt;Statistics chapter&lt;/a&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Privacy&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Manage data collection and ad preferences.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Direct link to the &lt;a href=&#34;../general/privacy&#34;&gt;Privacy chapter&lt;/a&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Home screen&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Choose your preferred layout mode for the app&amp;rsquo;s main view.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;../ux/hs_dashboard&#34;&gt;Dashboard&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&#34;../ux/hs_tabs&#34;&gt;Tabs&lt;/a&gt;&lt;/strong&gt;, or &lt;strong&gt;&lt;a href=&#34;../ux/hs_alarms_only&#34;&gt;Alarms only&lt;/a&gt;&lt;/strong&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;#morning_screen_set&#34;&gt;Morning screen&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Choose which screen appears after you finish tracking.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;../sleep/how_to_read_sleep_graphs#morning_screen&#34;&gt;Morning briefing&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;Graphs&lt;/strong&gt;, &lt;strong&gt;Dashboard&lt;/strong&gt;, or &lt;strong&gt;Disabled&lt;/strong&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Theme&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Set the background color and font style of the app.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Automatic&lt;/strong&gt;, &lt;strong&gt;Night owl&lt;/strong&gt;, &lt;strong&gt;Morning lark&lt;/strong&gt;, or &lt;strong&gt;Device settings&lt;/strong&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;#color_palette&#34;&gt;Color palette&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Select a color scheme for your sleep graphs.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;7 schemes available.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Animations&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Enable or disable screen transition animations and CAPTCHA emojis.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Toggle OFF for a faster, minimalist feel.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;#tts&#34;&gt;Text to speech&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Audible bedtime reminders, greetings, and weather.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Uses the system TTS engine and accessibility settings.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Overrides your phone&amp;rsquo;s system language.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Sets the app language regardless of the system language.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Temperature&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Sets the units for weather displays.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Celsius&lt;/strong&gt;, &lt;strong&gt;Fahrenheit&lt;/strong&gt;, or &lt;strong&gt;System default&lt;/strong&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Start week on&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Choose the first day of the week for calendars.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Monday&lt;/strong&gt;, &lt;em&gt;Wednesday&lt;/em&gt;*, &lt;strong&gt;Thursday&lt;/strong&gt;, &lt;strong&gt;Friday&lt;/strong&gt;, &lt;strong&gt;Saturday&lt;/strong&gt;, &lt;strong&gt;Sunday&lt;/strong&gt;, or *&lt;em&gt;System default&lt;/em&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Time format&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Choose how clock times are displayed.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;24h&lt;/strong&gt;, &lt;strong&gt;12h&lt;/strong&gt;, &lt;strong&gt;AM/PM&lt;/strong&gt;, or &lt;strong&gt;System default&lt;/strong&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Alarm sorting&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Sets the order of alarms in your list.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Sort by &lt;strong&gt;Day&lt;/strong&gt; (Default) or by &lt;strong&gt;Time&lt;/strong&gt;.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;#analog-picker&#34;&gt;Analog picker&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Switches the alarm creation interface.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Uses a round analog clock face instead of digital input.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Release notes&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Controls update notifications.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Toggle the &amp;ldquo;What&amp;rsquo;s new&amp;rdquo; card after app updates.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Advanced settings&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Expands hidden options.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Keeps all advanced settings expanded by default.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Hide droid avatar&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Removes the mascot.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: left&#34;&gt;Hides the Droid mascot from the home screen.&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;detailed-feature-breakdown&#34;&gt;Detailed Feature Breakdown&lt;a class=&#34;anchor&#34; href=&#34;#detailed-feature-breakdown&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;home-screen-customizations&#34;&gt;Home screen customizations&lt;a class=&#34;anchor&#34; href=&#34;#home-screen-customizations&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;&lt;a id=&#34;morning_screen_set&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Search</title>
+				<link>//localhost:1313/ux/search/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/ux/search/</guid>
+				<description>&lt;h1 id=&#34;search&#34;&gt;Search&lt;a class=&#34;anchor&#34; href=&#34;#search&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Finds you anything inside Sleep as Android. Settings, documentation, alarms, sleep records&amp;hellip;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The global search tool is your fastest way to find anything inside Sleep as Android. Located right in the top bar of almost every screen, it lets you quickly track down settings, documentation, alarms, history, and more.&lt;/p&gt;&#xA;&lt;p&gt;Because Sleep as Android offers a deep and comprehensive set of features, using the search bar is often the quickest shortcut to get things done.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tabs home screen</title>
+				<link>//localhost:1313/ux/hs_tabs/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/ux/hs_tabs/</guid>
+				<description>&lt;h1 id=&#34;tabs-home-screen&#34;&gt;Tabs home screen&lt;a class=&#34;anchor&#34; href=&#34;#tabs-home-screen&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;The &lt;strong&gt;Tabs home screen&lt;/strong&gt; layout organizes the app&amp;rsquo;s primary features into easily accessible, swipeable tabs at the top of your screen.&lt;/p&gt;&#xA;&lt;p&gt;You can fully customize which tabs are visible to match your daily routine. To keep your interface clean, any tab you choose to display on the home screen is automatically hidden from the Left ☰ menu. Note that the Alarms tab is essential and will always remain visible.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Widgets</title>
+				<link>//localhost:1313/ux/widgets/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/ux/widgets/</guid>
+				<description>&lt;h1 id=&#34;widgets&#34;&gt;Widgets&lt;a class=&#34;anchor&#34; href=&#34;#widgets&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Sleep as Android offers a variety of home screen widgets and shortcut widgets to give you quick access to tracking, alarms, and your recent sleep data.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;standard-widgets&#34;&gt;Standard Widgets&lt;a class=&#34;anchor&#34; href=&#34;#standard-widgets&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;&lt;a id=&#34;figure-widgets&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To add a widget to your home screen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Method 1:&lt;/strong&gt; Long-press an empty space on your phone&amp;rsquo;s home screen → select &lt;strong&gt;Widgets&lt;/strong&gt; → scroll down to &lt;strong&gt;Sleep&lt;/strong&gt; and select the widget you&amp;rsquo;d like to add.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Method 2:&lt;/strong&gt; Long-press the &lt;strong&gt;Sleep as Android&lt;/strong&gt; app icon → tap the &lt;strong&gt;widget icon&lt;/strong&gt; → choose your desired widget from the list.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../assets/images/widgets.png&#34; alt=&#34;&#34;  /&gt;&#xD;&#xA;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

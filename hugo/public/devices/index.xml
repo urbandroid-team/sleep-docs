@@ -1,141 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connected Devices on Sleep as Android Docs</title><link>/devices/</link><description>Recent content in Connected Devices on Sleep as Android Docs</description><generator>Hugo</generator><language>en</language><atom:link href="/devices/index.xml" rel="self" type="application/rss+xml"/><item><title>Garmin</title><link>/devices/garmin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/garmin/</guid><description>&lt;h1 id="garmin"&gt;Garmin&lt;a class="anchor" href="#garmin"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Integrating your &lt;strong&gt;Garmin&lt;/strong&gt; wearable with Sleep as Android allows you to collect continuous movement data, heart rate (HR), and wake up gently with wrist vibrations. Sleep as Android supports Garmin watches that run on the &lt;strong&gt;&lt;a href="https://developer.garmin.com/connect-iq/compatible-devices/"&gt;Connect IQ (CIQ)&lt;/a&gt;&lt;/strong&gt; platform.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml"&gt;Full List of supported Garmin wearables&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote class='book-hint warning'&gt;
-&lt;p&gt;We do our best to offer full-featured support for every wearable out there! However, some platforms make integration trickier than others. &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Due to licensing restrictions, we can&amp;rsquo;t access Garmin specialized APIs and we have to rely on Garmin&amp;rsquo;s Connect IQ platform to communicate with your watch. &lt;br&gt;
-Because Connect IQ has long-standing bugs (like message queues frequently freezing) we built a custom HTTP system to keep data syncing as reliably as possible. Even with this workaround, Garmin&amp;rsquo;s API limitations mean the integration isn&amp;rsquo;t as smooth as we&amp;rsquo;d like, and our ability to fix watch-side issues is very limited. &lt;br&gt;&lt;/p&gt;</description></item><item><title>Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</title><link>/devices/notify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/notify/</guid><description>&lt;h1 id="notify-for-mi-band-and-amazfit-and-xiaomi--mi-fitness"&gt;Notify for Mi Band and Amazfit and Xiaomi &amp;amp; Mi Fitness&lt;a class="anchor" href="#notify-for-mi-band-and-amazfit-and-xiaomi--mi-fitness"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Pairing your Xiaomi Mi Band or Amazfit wearable with Sleep as Android allows you to track movement, monitor heart rate, and wake up softly with gentle wrist vibrations.&lt;/p&gt;
-&lt;p&gt;To bridge Sleep as Android with your wearable, we rely on the third-party &lt;strong&gt;Notify&lt;/strong&gt; companion app series (developed by &lt;em&gt;Matteo from &lt;a href="https://play.google.com/store/apps/developer?id=OneZeroBit&amp;amp;"&gt;OneZerobit&lt;/a&gt;&lt;/em&gt;):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.mc.miband1"&gt;Notify for Mi Band&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.mc.xiaomi1"&gt;Notify for Xiaomi &amp;amp; Mi Fitness&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.mc.amazfit1"&gt;Notify for Amazfit &amp;amp; Zepp&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class='book-hint warning'&gt;
-&lt;p&gt;Sleep as Android connects to these wearables using third-party companion apps, because Xiaomi and Amazfit devices do not provide an open API for direct integration.&lt;/p&gt;</description></item><item><title>One UI Watch devices</title><link>/devices/one_ui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/one_ui/</guid><description>&lt;h1 id="one-ui-watch-devices"&gt;One UI Watch devices&lt;a class="anchor" href="#one-ui-watch-devices"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote class='book-hint note'&gt;
-&lt;p&gt;&lt;strong&gt;Device Compatibility Note:&lt;/strong&gt;
-This guide applies to &lt;strong&gt;modern Samsung Galaxy Watches running Wear OS / One UI Watch&lt;/strong&gt; (Galaxy Watch 4, Watch 5, Watch 6, Watch 7, Watch FE, and Watch Ultra).&lt;/p&gt;
-&lt;p&gt;If you are using an &lt;strong&gt;older Samsung watch running Tizen OS&lt;/strong&gt; (such as Galaxy Watch 3, Gear S3, or Gear Sport), please head over to our &lt;strong&gt;&lt;a href="../devices/samsung_gear"&gt;Legacy Samsung Gear / Galaxy Watch Guide&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Oximeter</title><link>/devices/oximeter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/oximeter/</guid><description>&lt;h1 id="oximeter"&gt;Oximeter&lt;a class="anchor" href="#oximeter"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Monitoring blood oxygen saturation (SpO&lt;sub&gt;2&lt;/sub&gt;) and heart rate throughout the night helps track your sleep quality and detects potential respiratory disturbances such as sleep apnea. &lt;strong&gt;Sleep as Android&lt;/strong&gt; supports dedicated standalone pulse oximeters as well as select compatible smartwatches.&lt;/p&gt;
-&lt;h2 id="supported-oximeters--devices"&gt;Supported Oximeters &amp;amp; Devices&lt;a class="anchor" href="#supported-oximeters--devices"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="1-dedicated-standalone-oximeters"&gt;1. Dedicated Standalone Oximeters&lt;a class="anchor" href="#1-dedicated-standalone-oximeters"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BerryMed Pulse Oximeters:&lt;/strong&gt; Specifically models equipped with custom Bluetooth LE (BTLE) firmware. These provide continuous, high-precision overnight monitoring.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Availability:&lt;/strong&gt; You can &lt;a href="https://happyelectronics.eu/products/alert-stresslocator-oximeter"&gt;&lt;strong&gt;Buy a compatible Pulse Oximeter here&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="2-smartwatches--wearables"&gt;2. Smartwatches &amp;amp; Wearables&lt;a class="anchor" href="#2-smartwatches--wearables"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Due to manufacturer restrictions, third-party access to raw SpO&lt;sub&gt;2&lt;/sub&gt; streams varies across platforms:&lt;/p&gt;</description></item><item><title>Pebble</title><link>/devices/pebble/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/pebble/</guid><description>&lt;h1 id="pebble"&gt;Pebble&lt;a class="anchor" href="#pebble"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Although Pebble is no longer officially supported by its manufacturer, Sleep as Android continues to support these classic devices.&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="setup-guide"&gt;Setup Guide&lt;a class="anchor" href="#setup-guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;To use your Pebble watch with Sleep as Android, you must manually install (sideload) the watch application:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Download the Watch App:&lt;/strong&gt; Download the &lt;code&gt;.pbw&lt;/code&gt; file to your phone: &lt;a href="https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw"&gt;SleepAsPebble-20170113.pbw&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sideload:&lt;/strong&gt; Open the downloaded file using your Pebble companion app to install it on the watch.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;App Configuration:&lt;/strong&gt; In Sleep as Android, go to &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Sleep tracking&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; and select &lt;strong&gt;Pebble&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Samsung Gear / Galaxy Gear</title><link>/devices/samsung_gear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/samsung_gear/</guid><description>&lt;h1 id="samsung-gear--galaxy-gear"&gt;Samsung Gear / Galaxy Gear&lt;a class="anchor" href="#samsung-gear--galaxy-gear"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote class='book-hint warning'&gt;
-&lt;p&gt;Samsung has officially ended support for all Tizen-powered smartwatches. Because of this platform shutdown, our apps can no longer support Tizen wearables. &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Official statement from Samsung:&lt;/strong&gt;
-In accordance with internal operating policy, we would like to inform you that we are terminating the content service related to Tizen Watch.&amp;quot;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote class='book-hint '&gt;
-&lt;p&gt;⚠️ &lt;strong&gt;Important Notice&lt;/strong&gt;
-This page applies &lt;strong&gt;only to legacy Samsung wearables running Tizen OS&lt;/strong&gt; (such as Galaxy Watch, Galaxy Watch 3, Gear S2, Gear S3, and Gear Sport).&lt;/p&gt;</description></item><item><title>Sleep mask</title><link>/devices/sleep_mask/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/sleep_mask/</guid><description>&lt;h1 id="sleep-mask"&gt;Sleep mask&lt;a class="anchor" href="#sleep-mask"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Enhance your sleep using light stimulation. The Sleep Mask helps you fall asleep faster, wake up naturally, and master lucid dreaming.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Designed specifically for use with &lt;strong&gt;Sleep as Android&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.urbandroid.mind"&gt;Mindroid&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Sunrise Alarm:&lt;/strong&gt; Gently transitions from low red to full yellow, waking you up without jarring sounds.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Master Your Dreams:&lt;/strong&gt; Use light cues to trigger and remember &lt;a href="../sleep/lucid_dreaming"&gt;Lucid Dreaming&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Anti-snoring:&lt;/strong&gt; Provides gentle visual cues to encourage position shifts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fast Fall-Asleep:&lt;/strong&gt; Use light-stimulated lullabies and Mindroid programs.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class='book-hint tip'&gt;
-&lt;p&gt;&lt;strong&gt;Get the Mask:&lt;/strong&gt; You can purchase the mask from &lt;strong&gt;&lt;a href="https://happyelectronics.eu/collections/biofeedback"&gt;Happy Electronics&lt;/a&gt;&lt;/strong&gt;. For more technical details, visit our &lt;strong&gt;&lt;a href="http://sleepmask.urbandroid.org/"&gt;dedicated Sleep Mask website&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Sleep Phaser</title><link>/devices/sleep_phaser/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/sleep_phaser/</guid><description>&lt;h1 id="sleep-phaser"&gt;Sleep Phaser&lt;a class="anchor" href="#sleep-phaser"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;The Sleep Phaser is a custom-built smart bedside lamp designed to maximize your Sleep as Android experience.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It provides high-precision, contactless sleep tracking using an integrated infrared sensor, along with powerful sunrise alarm lighting and automatic app unlocking.&lt;/p&gt;
-&lt;h3 id="select-your-version"&gt;Select your version:&lt;a class="anchor" href="#select-your-version"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="../devices/sleep_phaser_2"&gt;&lt;strong&gt;Sleep Phaser v2 &amp;amp; v3:&lt;/strong&gt;&lt;/a&gt; Our latest generation with a top-mounted touch button and refined design.&lt;/li&gt;
-&lt;li&gt;&lt;a href="../devices/sleep_phaser_1"&gt;&lt;strong&gt;Sleep Phaser v1:&lt;/strong&gt;&lt;/a&gt; The original classic design with dual touch controls.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Sleep Phaser v1</title><link>/devices/sleep_phaser_1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/sleep_phaser_1/</guid><description>&lt;h1 id="sleep-phaser-v1"&gt;Sleep Phaser v1&lt;a class="anchor" href="#sleep-phaser-v1"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Sleep Phaser 1&lt;/strong&gt; is a smart bedside lamp designed to maximize your &lt;strong&gt;Sleep as Android&lt;/strong&gt; experience. It tracks your sleep non-invasively using a &lt;strong&gt;PIR (Passive Infrared) motion sensor&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id="what-sleep-phaser-can-do"&gt;What Sleep Phaser Can Do&lt;a class="anchor" href="#what-sleep-phaser-can-do"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Contactless Motion &amp;amp; Breath Tracking:&lt;/strong&gt; Built-in PIR sensor detects body movement and breathing without requiring anything in your bed or on your wrist.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="../devices/smart_light"&gt;Sunrise &amp;amp; Smart Light&lt;/a&gt;:&lt;/strong&gt; Gently wakes you up with a warm sunrise emulation and supports nightlight/pee-light, anti-snoring, and lucid dreaming visual cues.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="controls--light-modes"&gt;Controls &amp;amp; Light Modes&lt;a class="anchor" href="#controls--light-modes"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Sleep Phaser v1 features &lt;strong&gt;two touch buttons&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Sleep Phaser v2 + v3</title><link>/devices/sleep_phaser_2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/sleep_phaser_2/</guid><description>&lt;h1 id="sleep-phaser-v2--v3"&gt;Sleep Phaser v2 + v3&lt;a class="anchor" href="#sleep-phaser-v2--v3"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Sleep Phaser v2 &amp;amp; v3&lt;/strong&gt; is our second-generation smart bedside lamp designed specifically for Sleep as Android. It tracks your sleep non-invasively using a &lt;strong&gt;Passive Infrared (PIR) motion sensor&lt;/strong&gt;, provides sunrise alarm lighting, and automatically unlocks the full premium version of Sleep as Android!&lt;/p&gt;
-&lt;h2 id="key-features--enhancements"&gt;Key Features &amp;amp; Enhancements&lt;a class="anchor" href="#key-features--enhancements"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Top Touch Button:&lt;/strong&gt; Designed with a base-centered, tip-resistant body and a single, easy-to-hit touch button located on top of the lamp.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contactless Tracking:&lt;/strong&gt; Built-in PIR sensor detects body movement and breathing without requiring anything in your bed or on your body.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sunrise &amp;amp; Smartlight Capabilities:&lt;/strong&gt; Wakes you up naturally with a soft sunrise emulation and supports nightlight, anti-snoring, and lucid dreaming visual cues.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="light-controls--modes"&gt;Light Controls &amp;amp; Modes&lt;a class="anchor" href="#light-controls--modes"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Controlling your Sleep Phaser v2/v3 is simple—just tap the touch sensor on the &lt;strong&gt;top of the lamp&lt;/strong&gt;. Each tap cycles through the main light modes:&lt;/p&gt;</description></item><item><title>Smartlight</title><link>/devices/smart_light/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/smart_light/</guid><description>&lt;h1 id="smartlight"&gt;Smartlight&lt;a class="anchor" href="#smartlight"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Enhance your sleep environment and wake-up experience by integrating your smart lighting.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sleep as Android can control compatible bulbs and devices to simulate a natural sunrise, provide a gentle nightlight, or offer visual cues for advanced features.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Menu Path:&lt;/strong&gt; &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Services&lt;/code&gt; → &lt;code&gt;Smartlight&lt;/code&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="supported-devices"&gt;Supported Devices&lt;a class="anchor" href="#supported-devices"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="philips-hue--ikea-trådfri"&gt;Philips Hue &amp;amp; IKEA Trådfri&lt;a class="anchor" href="#philips-hue--ikea-tr%c3%a5dfri"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Connect your smart bulbs to enable room-wide light effects.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Setup:&lt;/strong&gt; Tap &lt;strong&gt;Philips HUE, IKEA Trådfri (Disconnected)&lt;/strong&gt; to scan and link your bulbs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Test:&lt;/strong&gt; Flash your bulbs to verify the connection.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; The newer IKEA &lt;strong&gt;Dirigera hub&lt;/strong&gt; is currently &lt;strong&gt;not supported&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="sleep-phaser"&gt;Sleep Phaser&lt;a class="anchor" href="#sleep-phaser"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The &lt;a href="../devices/sleep_phaser"&gt;Sleep Phaser&lt;/a&gt; is our custom bedside lamp designed specifically for this app.&lt;/p&gt;</description></item><item><title>Supported wearables - list</title><link>/devices/supported_wearable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/supported_wearable/</guid><description>&lt;h1 id="supported-wearables---list"&gt;Supported wearables - list&lt;a class="anchor" href="#supported-wearables---list"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;
-&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href="https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/"&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;.Legend for sensors&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;|===
-|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;
-&lt;p&gt;{% for wearable in site.data.wearables %}
-{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description></item><item><title>Testing connection with a wearable</title><link>/devices/test_sensor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/test_sensor/</guid><description>&lt;h1 id="testing-connection-with-a-wearable"&gt;Testing connection with a wearable&lt;a class="anchor" href="#testing-connection-with-a-wearable"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;The &lt;strong&gt;Test Sensor&lt;/strong&gt; tool gives you quick, real-time visual confirmation that your wearable device is properly connected to your phone and actively sending movement data to Sleep as Android.&lt;/p&gt;
-&lt;blockquote class='book-hint warning'&gt;
-&lt;p&gt;The Test Sensor feature is supported for most wearables, but is &lt;strong&gt;not supported&lt;/strong&gt; for Garmin and Fitbit devices due to platform restrictions.&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id="where-to-find-it"&gt;Where to Find It&lt;a class="anchor" href="#where-to-find-it"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;To open the test tool in the app: &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Sleep tracking&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; → &lt;code&gt;Test sensor&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Tools &amp; Mi Band and Amazfit</title><link>/devices/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/tools/</guid><description>&lt;h1 id="tools--mi-band-and-amazfit"&gt;Tools &amp;amp; Mi Band and Amazfit&lt;a class="anchor" href="#tools--mi-band-and-amazfit"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Using &lt;strong&gt;Tools &amp;amp; Mi Band&lt;/strong&gt; or &lt;strong&gt;Tools &amp;amp; Amazfit&lt;/strong&gt; with Sleep as Android unlocks advanced sleep tracking features, heart rate monitoring, and tactile alarm vibrations on your Xiaomi or Amazfit wearable.&lt;/p&gt;
-&lt;p&gt;To connect Sleep as Android with your device, we integrate via the third-party &lt;strong&gt;Tools&lt;/strong&gt; companion app series (developed by &lt;em&gt;&lt;a href="https://play.google.com/store/apps/developer?id=Tools&amp;#43;%26&amp;#43;Wearables"&gt;Tools &amp;amp; Wearables&lt;/a&gt;&lt;/em&gt;):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools"&gt;Tools &amp;amp; Mi Band&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools"&gt;Tools &amp;amp; Amazfit&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class='book-hint warning'&gt;
-&lt;p&gt;Because Xiaomi and Amazfit wearables do not provide an open API for direct integration, Sleep as Android relies on these third-party bridge apps to communicate with your device.&lt;/p&gt;</description></item><item><title>Wear OS devices</title><link>/devices/wearos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/wearos/</guid><description>&lt;h1 id="wear-os-devices"&gt;Wear OS devices&lt;a class="anchor" href="#wear-os-devices"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Connect any Wear OS (formerly Android Wear) smartwatch to track movement, monitor heart rate, and wake up with gentle wrist vibrations.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sleep as Android supports the full range of Wear OS versions, from legacy models to the latest Wear OS 3.0+ devices (including Pixel Watch and TicWatch).&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="supported-versions"&gt;Supported Versions&lt;a class="anchor" href="#supported-versions"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Wear OS 3.0 &amp;amp; 4.0:&lt;/strong&gt; Supported (Note: Some platform limitations apply).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wear OS 2.0:&lt;/strong&gt; Fully supported.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Android Wear 1.0:&lt;/strong&gt; Supported.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote class='book-hint warning'&gt;
-&lt;p&gt;&lt;strong&gt;Wear OS 3.0+ Limitations:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Wearables</title><link>/devices/wearables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/devices/wearables/</guid><description>&lt;h1 id="wearables"&gt;Wearables&lt;a class="anchor" href="#wearables"&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Integrating a smartwatch or fitness tracker with Sleep as Android allows you to track body movement and heart rate more accurately, directly from your wrist.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The app supports a wide range of devices including Wear OS, Garmin, Samsung Galaxy Watch, Mi Band, Amazfit, and more.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="setup-guide"&gt;Setup Guide &lt;a id="wearable_setup"&gt;&lt;/a&gt;&lt;a class="anchor" href="#setup-guide"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Check Compatibility:&lt;/strong&gt; Ensure your device is supported. &lt;a href="../devices/supported_wearable"&gt;See the list of integrated wearables here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bluetooth Connection:&lt;/strong&gt; Confirm your watch is actively connected to your phone via its official companion app (e.g., Garmin Connect, Galaxy Wearable, or Zepp).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Install Bridge Apps:&lt;/strong&gt; Most wearables require a small &amp;ldquo;bridge&amp;rdquo; app or watch component. See the specific page for your device in the sidebar for details.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Activate in Sleep:&lt;/strong&gt; Go to &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Sleep tracking&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; and select your device type.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Verify:&lt;/strong&gt; We highly recommend running a &lt;a href="../devices/test_sensor"&gt;Sensor Test&lt;/a&gt; to confirm data is flowing correctly before your first night.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote class='book-hint note'&gt;
-&lt;p&gt;Sleep data is analyzed in real-time. To ensure accurate graphs and smart alarms, your phone&amp;rsquo;s &lt;strong&gt;Bluetooth must remain active&lt;/strong&gt; and connected to the watch throughout the entire night.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Connected Devices on Sleep as Android Docs</title>
+		<link>//localhost:1313/devices/</link>
+		<description>Recent content in Connected Devices on Sleep as Android Docs</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<atom:link href="//localhost:1313/devices/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Garmin</title>
+				<link>//localhost:1313/devices/garmin/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/garmin/</guid>
+				<description>&lt;h1 id=&#34;garmin&#34;&gt;Garmin&lt;a class=&#34;anchor&#34; href=&#34;#garmin&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Integrating your &lt;strong&gt;Garmin&lt;/strong&gt; wearable with Sleep as Android allows you to collect continuous movement data, heart rate (HR), and wake up gently with wrist vibrations. Sleep as Android supports Garmin watches that run on the &lt;strong&gt;&lt;a href=&#34;https://developer.garmin.com/connect-iq/compatible-devices/&#34;&gt;Connect IQ (CIQ)&lt;/a&gt;&lt;/strong&gt; platform.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/urbandroid-team/Sleep-as-Android-Garmin-Addon/master/SleepGarmin-watch2/manifest.xml&#34;&gt;Full List of supported Garmin wearables&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;We do our best to offer full-featured support for every wearable out there! However, some platforms make integration trickier than others. &lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Due to licensing restrictions, we can&amp;rsquo;t access Garmin specialized APIs and we have to rely on Garmin&amp;rsquo;s Connect IQ platform to communicate with your watch. &lt;br&gt;&#xA;Because Connect IQ has long-standing bugs (like message queues frequently freezing) we built a custom HTTP system to keep data syncing as reliably as possible. Even with this workaround, Garmin&amp;rsquo;s API limitations mean the integration isn&amp;rsquo;t as smooth as we&amp;rsquo;d like, and our ability to fix watch-side issues is very limited. &lt;br&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Notify for Mi Band and Amazfit and Xiaomi &amp; Mi Fitness</title>
+				<link>//localhost:1313/devices/notify/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/notify/</guid>
+				<description>&lt;h1 id=&#34;notify-for-mi-band-and-amazfit-and-xiaomi--mi-fitness&#34;&gt;Notify for Mi Band and Amazfit and Xiaomi &amp;amp; Mi Fitness&lt;a class=&#34;anchor&#34; href=&#34;#notify-for-mi-band-and-amazfit-and-xiaomi--mi-fitness&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Pairing your Xiaomi Mi Band or Amazfit wearable with Sleep as Android allows you to track movement, monitor heart rate, and wake up softly with gentle wrist vibrations.&lt;/p&gt;&#xA;&lt;p&gt;To bridge Sleep as Android with your wearable, we rely on the third-party &lt;strong&gt;Notify&lt;/strong&gt; companion app series (developed by &lt;em&gt;Matteo from &lt;a href=&#34;https://play.google.com/store/apps/developer?id=OneZeroBit&amp;amp;&#34;&gt;OneZerobit&lt;/a&gt;&lt;/em&gt;):&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.miband1&#34;&gt;Notify for Mi Band&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.xiaomi1&#34;&gt;Notify for Xiaomi &amp;amp; Mi Fitness&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mc.amazfit1&#34;&gt;Notify for Amazfit &amp;amp; Zepp&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;Sleep as Android connects to these wearables using third-party companion apps, because Xiaomi and Amazfit devices do not provide an open API for direct integration.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>One UI Watch devices</title>
+				<link>//localhost:1313/devices/one_ui/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/one_ui/</guid>
+				<description>&lt;h1 id=&#34;one-ui-watch-devices&#34;&gt;One UI Watch devices&lt;a class=&#34;anchor&#34; href=&#34;#one-ui-watch-devices&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;blockquote class=&#39;book-hint note&#39;&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Device Compatibility Note:&lt;/strong&gt;&#xA;This guide applies to &lt;strong&gt;modern Samsung Galaxy Watches running Wear OS / One UI Watch&lt;/strong&gt; (Galaxy Watch 4, Watch 5, Watch 6, Watch 7, Watch FE, and Watch Ultra).&lt;/p&gt;&#xA;&lt;p&gt;If you are using an &lt;strong&gt;older Samsung watch running Tizen OS&lt;/strong&gt; (such as Galaxy Watch 3, Gear S3, or Gear Sport), please head over to our &lt;strong&gt;&lt;a href=&#34;../devices/samsung_gear&#34;&gt;Legacy Samsung Gear / Galaxy Watch Guide&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Oximeter</title>
+				<link>//localhost:1313/devices/oximeter/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/oximeter/</guid>
+				<description>&lt;h1 id=&#34;oximeter&#34;&gt;Oximeter&lt;a class=&#34;anchor&#34; href=&#34;#oximeter&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Monitoring blood oxygen saturation (SpO&lt;sub&gt;2&lt;/sub&gt;) and heart rate throughout the night helps track your sleep quality and detects potential respiratory disturbances such as sleep apnea. &lt;strong&gt;Sleep as Android&lt;/strong&gt; supports dedicated standalone pulse oximeters as well as select compatible smartwatches.&lt;/p&gt;&#xA;&lt;h2 id=&#34;supported-oximeters--devices&#34;&gt;Supported Oximeters &amp;amp; Devices&lt;a class=&#34;anchor&#34; href=&#34;#supported-oximeters--devices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;1-dedicated-standalone-oximeters&#34;&gt;1. Dedicated Standalone Oximeters&lt;a class=&#34;anchor&#34; href=&#34;#1-dedicated-standalone-oximeters&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;BerryMed Pulse Oximeters:&lt;/strong&gt; Specifically models equipped with custom Bluetooth LE (BTLE) firmware. These provide continuous, high-precision overnight monitoring.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Availability:&lt;/strong&gt; You can &lt;a href=&#34;https://happyelectronics.eu/products/alert-stresslocator-oximeter&#34;&gt;&lt;strong&gt;Buy a compatible Pulse Oximeter here&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-smartwatches--wearables&#34;&gt;2. Smartwatches &amp;amp; Wearables&lt;a class=&#34;anchor&#34; href=&#34;#2-smartwatches--wearables&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Due to manufacturer restrictions, third-party access to raw SpO&lt;sub&gt;2&lt;/sub&gt; streams varies across platforms:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pebble</title>
+				<link>//localhost:1313/devices/pebble/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/pebble/</guid>
+				<description>&lt;h1 id=&#34;pebble&#34;&gt;Pebble&lt;a class=&#34;anchor&#34; href=&#34;#pebble&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Although Pebble is no longer officially supported by its manufacturer, Sleep as Android continues to support these classic devices.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;setup-guide&#34;&gt;Setup Guide&lt;a class=&#34;anchor&#34; href=&#34;#setup-guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;To use your Pebble watch with Sleep as Android, you must manually install (sideload) the watch application:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Download the Watch App:&lt;/strong&gt; Download the &lt;code&gt;.pbw&lt;/code&gt; file to your phone: &lt;a href=&#34;https://sleep.urbandroid.org/wp-content/uploads/release/SleepAsPebble-20170113.pbw&#34;&gt;SleepAsPebble-20170113.pbw&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sideload:&lt;/strong&gt; Open the downloaded file using your Pebble companion app to install it on the watch.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;App Configuration:&lt;/strong&gt; In Sleep as Android, go to &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Sleep tracking&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; and select &lt;strong&gt;Pebble&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Samsung Gear / Galaxy Gear</title>
+				<link>//localhost:1313/devices/samsung_gear/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/samsung_gear/</guid>
+				<description>&lt;h1 id=&#34;samsung-gear--galaxy-gear&#34;&gt;Samsung Gear / Galaxy Gear&lt;a class=&#34;anchor&#34; href=&#34;#samsung-gear--galaxy-gear&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;Samsung has officially ended support for all Tizen-powered smartwatches. Because of this platform shutdown, our apps can no longer support Tizen wearables. &lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Official statement from Samsung:&lt;/strong&gt;&#xA;In accordance with internal operating policy, we would like to inform you that we are terminating the content service related to Tizen Watch.&amp;quot;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote class=&#39;book-hint &#39;&gt;&#xD;&#xA;&lt;p&gt;⚠️ &lt;strong&gt;Important Notice&lt;/strong&gt;&#xA;This page applies &lt;strong&gt;only to legacy Samsung wearables running Tizen OS&lt;/strong&gt; (such as Galaxy Watch, Galaxy Watch 3, Gear S2, Gear S3, and Gear Sport).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sleep mask</title>
+				<link>//localhost:1313/devices/sleep_mask/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/sleep_mask/</guid>
+				<description>&lt;h1 id=&#34;sleep-mask&#34;&gt;Sleep mask&lt;a class=&#34;anchor&#34; href=&#34;#sleep-mask&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Enhance your sleep using light stimulation. The Sleep Mask helps you fall asleep faster, wake up naturally, and master lucid dreaming.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Designed specifically for use with &lt;strong&gt;Sleep as Android&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.urbandroid.mind&#34;&gt;Mindroid&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sunrise Alarm:&lt;/strong&gt; Gently transitions from low red to full yellow, waking you up without jarring sounds.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Master Your Dreams:&lt;/strong&gt; Use light cues to trigger and remember &lt;a href=&#34;../sleep/lucid_dreaming&#34;&gt;Lucid Dreaming&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Anti-snoring:&lt;/strong&gt; Provides gentle visual cues to encourage position shifts.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fast Fall-Asleep:&lt;/strong&gt; Use light-stimulated lullabies and Mindroid programs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint tip&#39;&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Get the Mask:&lt;/strong&gt; You can purchase the mask from &lt;strong&gt;&lt;a href=&#34;https://happyelectronics.eu/collections/biofeedback&#34;&gt;Happy Electronics&lt;/a&gt;&lt;/strong&gt;. For more technical details, visit our &lt;strong&gt;&lt;a href=&#34;http://sleepmask.urbandroid.org/&#34;&gt;dedicated Sleep Mask website&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sleep Phaser</title>
+				<link>//localhost:1313/devices/sleep_phaser/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/sleep_phaser/</guid>
+				<description>&lt;h1 id=&#34;sleep-phaser&#34;&gt;Sleep Phaser&lt;a class=&#34;anchor&#34; href=&#34;#sleep-phaser&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;The Sleep Phaser is a custom-built smart bedside lamp designed to maximize your Sleep as Android experience.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It provides high-precision, contactless sleep tracking using an integrated infrared sensor, along with powerful sunrise alarm lighting and automatic app unlocking.&lt;/p&gt;&#xA;&lt;h3 id=&#34;select-your-version&#34;&gt;Select your version:&lt;a class=&#34;anchor&#34; href=&#34;#select-your-version&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../devices/sleep_phaser_2&#34;&gt;&lt;strong&gt;Sleep Phaser v2 &amp;amp; v3:&lt;/strong&gt;&lt;/a&gt; Our latest generation with a top-mounted touch button and refined design.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../devices/sleep_phaser_1&#34;&gt;&lt;strong&gt;Sleep Phaser v1:&lt;/strong&gt;&lt;/a&gt; The original classic design with dual touch controls.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Sleep Phaser v1</title>
+				<link>//localhost:1313/devices/sleep_phaser_1/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/sleep_phaser_1/</guid>
+				<description>&lt;h1 id=&#34;sleep-phaser-v1&#34;&gt;Sleep Phaser v1&lt;a class=&#34;anchor&#34; href=&#34;#sleep-phaser-v1&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Sleep Phaser 1&lt;/strong&gt; is a smart bedside lamp designed to maximize your &lt;strong&gt;Sleep as Android&lt;/strong&gt; experience. It tracks your sleep non-invasively using a &lt;strong&gt;PIR (Passive Infrared) motion sensor&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-sleep-phaser-can-do&#34;&gt;What Sleep Phaser Can Do&lt;a class=&#34;anchor&#34; href=&#34;#what-sleep-phaser-can-do&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Contactless Motion &amp;amp; Breath Tracking:&lt;/strong&gt; Built-in PIR sensor detects body movement and breathing without requiring anything in your bed or on your wrist.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../devices/smart_light&#34;&gt;Sunrise &amp;amp; Smart Light&lt;/a&gt;:&lt;/strong&gt; Gently wakes you up with a warm sunrise emulation and supports nightlight/pee-light, anti-snoring, and lucid dreaming visual cues.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;controls--light-modes&#34;&gt;Controls &amp;amp; Light Modes&lt;a class=&#34;anchor&#34; href=&#34;#controls--light-modes&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Sleep Phaser v1 features &lt;strong&gt;two touch buttons&lt;/strong&gt;:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sleep Phaser v2 &#43; v3</title>
+				<link>//localhost:1313/devices/sleep_phaser_2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/sleep_phaser_2/</guid>
+				<description>&lt;h1 id=&#34;sleep-phaser-v2--v3&#34;&gt;Sleep Phaser v2 + v3&lt;a class=&#34;anchor&#34; href=&#34;#sleep-phaser-v2--v3&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Sleep Phaser v2 &amp;amp; v3&lt;/strong&gt; is our second-generation smart bedside lamp designed specifically for Sleep as Android. It tracks your sleep non-invasively using a &lt;strong&gt;Passive Infrared (PIR) motion sensor&lt;/strong&gt;, provides sunrise alarm lighting, and automatically unlocks the full premium version of Sleep as Android!&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features--enhancements&#34;&gt;Key Features &amp;amp; Enhancements&lt;a class=&#34;anchor&#34; href=&#34;#key-features--enhancements&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Top Touch Button:&lt;/strong&gt; Designed with a base-centered, tip-resistant body and a single, easy-to-hit touch button located on top of the lamp.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Contactless Tracking:&lt;/strong&gt; Built-in PIR sensor detects body movement and breathing without requiring anything in your bed or on your body.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sunrise &amp;amp; Smartlight Capabilities:&lt;/strong&gt; Wakes you up naturally with a soft sunrise emulation and supports nightlight, anti-snoring, and lucid dreaming visual cues.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;light-controls--modes&#34;&gt;Light Controls &amp;amp; Modes&lt;a class=&#34;anchor&#34; href=&#34;#light-controls--modes&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Controlling your Sleep Phaser v2/v3 is simple—just tap the touch sensor on the &lt;strong&gt;top of the lamp&lt;/strong&gt;. Each tap cycles through the main light modes:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Smartlight</title>
+				<link>//localhost:1313/devices/smart_light/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/smart_light/</guid>
+				<description>&lt;h1 id=&#34;smartlight&#34;&gt;Smartlight&lt;a class=&#34;anchor&#34; href=&#34;#smartlight&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Enhance your sleep environment and wake-up experience by integrating your smart lighting.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Sleep as Android can control compatible bulbs and devices to simulate a natural sunrise, provide a gentle nightlight, or offer visual cues for advanced features.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Menu Path:&lt;/strong&gt; &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Services&lt;/code&gt; → &lt;code&gt;Smartlight&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;supported-devices&#34;&gt;Supported Devices&lt;a class=&#34;anchor&#34; href=&#34;#supported-devices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;philips-hue--ikea-trådfri&#34;&gt;Philips Hue &amp;amp; IKEA Trådfri&lt;a class=&#34;anchor&#34; href=&#34;#philips-hue--ikea-tr%c3%a5dfri&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Connect your smart bulbs to enable room-wide light effects.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Setup:&lt;/strong&gt; Tap &lt;strong&gt;Philips HUE, IKEA Trådfri (Disconnected)&lt;/strong&gt; to scan and link your bulbs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Test:&lt;/strong&gt; Flash your bulbs to verify the connection.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; The newer IKEA &lt;strong&gt;Dirigera hub&lt;/strong&gt; is currently &lt;strong&gt;not supported&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sleep-phaser&#34;&gt;Sleep Phaser&lt;a class=&#34;anchor&#34; href=&#34;#sleep-phaser&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;The &lt;a href=&#34;../devices/sleep_phaser&#34;&gt;Sleep Phaser&lt;/a&gt; is our custom bedside lamp designed specifically for this app.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Supported wearables - list</title>
+				<link>//localhost:1313/devices/supported_wearable/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/supported_wearable/</guid>
+				<description>&lt;h1 id=&#34;supported-wearables---list&#34;&gt;Supported wearables - list&lt;a class=&#34;anchor&#34; href=&#34;#supported-wearables---list&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Sleep as Android supports a wide variety of smartwatches.&lt;/p&gt;&#xA;&lt;p&gt;Our top-pick at the moment: &lt;strong&gt;TicWatch 5 PRO&lt;/strong&gt;, it supports SpO2, HR, HRV (&lt;a href=&#34;https://sleep.urbandroid.org/we-finally-have-a-new-king-of-smart-watch/&#34;&gt;you can read more about our top pick here&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;.Legend for sensors&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;↝&lt;/strong&gt;: Movement detected from the wearables&amp;rsquo; accelerometer&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;❤&lt;/strong&gt;: Heart rate (HR)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;💟&lt;/strong&gt;: Heart rate variability (HRV)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;◌&lt;/strong&gt;: Blood oxygen saturation (SpO2)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;|===&#xA;|Manufacturer |Device |Supported sensors |Notes&lt;/p&gt;&#xA;&lt;p&gt;{% for wearable in site.data.wearables %}&#xA;{% if wearable[&amp;lsquo;Support /&lt;br&gt;sensors&amp;rsquo;] contains &amp;lsquo;YES&amp;rsquo; %}&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Testing connection with a wearable</title>
+				<link>//localhost:1313/devices/test_sensor/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/test_sensor/</guid>
+				<description>&lt;h1 id=&#34;testing-connection-with-a-wearable&#34;&gt;Testing connection with a wearable&lt;a class=&#34;anchor&#34; href=&#34;#testing-connection-with-a-wearable&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;The &lt;strong&gt;Test Sensor&lt;/strong&gt; tool gives you quick, real-time visual confirmation that your wearable device is properly connected to your phone and actively sending movement data to Sleep as Android.&lt;/p&gt;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;The Test Sensor feature is supported for most wearables, but is &lt;strong&gt;not supported&lt;/strong&gt; for Garmin and Fitbit devices due to platform restrictions.&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&#34;where-to-find-it&#34;&gt;Where to Find It&lt;a class=&#34;anchor&#34; href=&#34;#where-to-find-it&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;To open the test tool in the app: &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Sleep tracking&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; → &lt;code&gt;Test sensor&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tools &amp; Mi Band and Amazfit</title>
+				<link>//localhost:1313/devices/tools/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/tools/</guid>
+				<description>&lt;h1 id=&#34;tools--mi-band-and-amazfit&#34;&gt;Tools &amp;amp; Mi Band and Amazfit&lt;a class=&#34;anchor&#34; href=&#34;#tools--mi-band-and-amazfit&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Using &lt;strong&gt;Tools &amp;amp; Mi Band&lt;/strong&gt; or &lt;strong&gt;Tools &amp;amp; Amazfit&lt;/strong&gt; with Sleep as Android unlocks advanced sleep tracking features, heart rate monitoring, and tactile alarm vibrations on your Xiaomi or Amazfit wearable.&lt;/p&gt;&#xA;&lt;p&gt;To connect Sleep as Android with your device, we integrate via the third-party &lt;strong&gt;Tools&lt;/strong&gt; companion app series (developed by &lt;em&gt;&lt;a href=&#34;https://play.google.com/store/apps/developer?id=Tools&amp;#43;%26&amp;#43;Wearables&#34;&gt;Tools &amp;amp; Wearables&lt;/a&gt;&lt;/em&gt;):&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools&#34;&gt;Tools &amp;amp; Mi Band&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools&#34;&gt;Tools &amp;amp; Amazfit&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;Because Xiaomi and Amazfit wearables do not provide an open API for direct integration, Sleep as Android relies on these third-party bridge apps to communicate with your device.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wear OS devices</title>
+				<link>//localhost:1313/devices/wearos/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/wearos/</guid>
+				<description>&lt;h1 id=&#34;wear-os-devices&#34;&gt;Wear OS devices&lt;a class=&#34;anchor&#34; href=&#34;#wear-os-devices&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Connect any Wear OS (formerly Android Wear) smartwatch to track movement, monitor heart rate, and wake up with gentle wrist vibrations.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Sleep as Android supports the full range of Wear OS versions, from legacy models to the latest Wear OS 3.0+ devices (including Pixel Watch and TicWatch).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;supported-versions&#34;&gt;Supported Versions&lt;a class=&#34;anchor&#34; href=&#34;#supported-versions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Wear OS 3.0 &amp;amp; 4.0:&lt;/strong&gt; Supported (Note: Some platform limitations apply).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Wear OS 2.0:&lt;/strong&gt; Fully supported.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Android Wear 1.0:&lt;/strong&gt; Supported.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote class=&#39;book-hint warning&#39;&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Wear OS 3.0+ Limitations:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wearables</title>
+				<link>//localhost:1313/devices/wearables/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/devices/wearables/</guid>
+				<description>&lt;h1 id=&#34;wearables&#34;&gt;Wearables&lt;a class=&#34;anchor&#34; href=&#34;#wearables&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Integrating a smartwatch or fitness tracker with Sleep as Android allows you to track body movement and heart rate more accurately, directly from your wrist.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The app supports a wide range of devices including Wear OS, Garmin, Samsung Galaxy Watch, Mi Band, Amazfit, and more.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;setup-guide&#34;&gt;Setup Guide &lt;a id=&#34;wearable_setup&#34;&gt;&lt;/a&gt;&lt;a class=&#34;anchor&#34; href=&#34;#setup-guide&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Check Compatibility:&lt;/strong&gt; Ensure your device is supported. &lt;a href=&#34;../devices/supported_wearable&#34;&gt;See the list of integrated wearables here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bluetooth Connection:&lt;/strong&gt; Confirm your watch is actively connected to your phone via its official companion app (e.g., Garmin Connect, Galaxy Wearable, or Zepp).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Install Bridge Apps:&lt;/strong&gt; Most wearables require a small &amp;ldquo;bridge&amp;rdquo; app or watch component. See the specific page for your device in the sidebar for details.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Activate in Sleep:&lt;/strong&gt; Go to &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Sleep tracking&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; → &lt;code&gt;Wearables&lt;/code&gt; and select your device type.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Verify:&lt;/strong&gt; We highly recommend running a &lt;a href=&#34;../devices/test_sensor&#34;&gt;Sensor Test&lt;/a&gt; to confirm data is flowing correctly before your first night.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote class=&#39;book-hint note&#39;&gt;&#xD;&#xA;&lt;p&gt;Sleep data is analyzed in real-time. To ensure accurate graphs and smart alarms, your phone&amp;rsquo;s &lt;strong&gt;Bluetooth must remain active&lt;/strong&gt; and connected to the watch throughout the entire night.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
