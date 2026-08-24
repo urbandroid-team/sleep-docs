@@ -10,7 +10,7 @@ tags:
 # Purchasing the app
 
 
-**We offer two intertwined apps — Sleep as Android and SleepCloud — each with free and premium versions to fit your needs.**
+**We offer two intertwined apps - Sleep as Android and SleepCloud - each with free and premium versions to fit your needs.**
 
 ---
 
@@ -20,7 +20,7 @@ The free version is perfect for testing the app's core capabilities before commi
 
 | Feature | Free Version Capability |
 | :--- | :--- |
-| **Trial Period** | 14 days of full, unrestricted access to all features. |
+| **Trial Period** | Unrestricted access to all features, ao you can test the full potential of the app. |
 | **Sleep Tracking** | After the trial, tracking is limited to every other day (active on Mon, Wed, Fri, Sat, Sun; limited on Tue, Thu). |
 | **Non-Tracking Features** | Alarms, Lullabies, CAPTCHAs, and Bedtime notifications work without limits. |
 | **Advertisements** | The free app includes advertisements after the trial period expires. |

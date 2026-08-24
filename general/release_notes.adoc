@@ -8,7 +8,21 @@ nav_order: 206
 
 You can download any older version from https://sleep.urbandroid.org/more/download/[our web here].
 
-== Latest version 20260609
+== Latest version 20260816
+
+* Only asking to rate sleep if you did not already
+* Latest Gemini AI models for Sleep assistant
+* Pebble app build for Pebble Time 2, Round 2 and Duo
+* Latest Billing and Ads library
+* Warning to turn off Pebble Watch > Settings > System > Stand-by when using Pebble tracking
+*  Fix for loophole in Math CAPTCHAs
+* Fix for crash in alarm ringtone selection
+
+== 20260616
+- Fix for recent ANR regression
+
+
+== 20260609
 
 * Animated Bedtime droid and Owl/Lark avatar
 * More fixes in Garmin integration
