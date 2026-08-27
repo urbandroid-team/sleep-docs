@@ -1,6 +1,7 @@
 baseURL = '/'
 title = 'Sleep as Android Docs'
 theme = 'hugo-book'
+uglyURLs = true
 
 # Configure basic Hugo behavior
 disablePathToLower = false
