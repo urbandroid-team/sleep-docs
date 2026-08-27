@@ -1,3 +1,2 @@
 @echo off
-cd hugo
-hugo --cleanDestinationDir --minify
+rd /s /q hugo\public
