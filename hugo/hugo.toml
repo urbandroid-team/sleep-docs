@@ -27,7 +27,7 @@ canonifyURLs = false
   BookTheme = 'auto'
 
   # Render all sections into the navigation menu
-  BookSection = '/'
+  BookSection = 'docs'
 
   # Enable the local search bar
   BookSearch = true
