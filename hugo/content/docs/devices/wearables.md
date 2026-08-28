@@ -30,11 +30,11 @@ The app supports a wide range of devices including Wear OS, Garmin, Samsung Gala
 
 ## Setup Guide <a id="wearable_setup"></a>
 
-1.  **Check Compatibility:** Ensure your device is supported. [See the list of integrated wearables here](/devices/supported_wearable).
+1.  **Check Compatibility:** Ensure your device is supported. [See the list of integrated wearables here](/docs/devices/supported_wearable).
 2.  **Bluetooth Connection:** Confirm your watch is actively connected to your phone via its official companion app (e.g., Garmin Connect, Galaxy Wearable, or Zepp).
 3.  **Install Bridge Apps:** Most wearables require a small "bridge" app or watch component. See the specific page for your device in the sidebar for details.
 4.  **Activate in Sleep:** Go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables` and select your device type.
-5.  **Verify:** We highly recommend running a [Sensor Test](/devices/test_sensor) to confirm data is flowing correctly before your first night.
+5.  **Verify:** We highly recommend running a [Sensor Test](/docs/devices/test_sensor) to confirm data is flowing correctly before your first night.
 
 > [!NOTE]
 > Sleep data is analyzed in real-time. To ensure accurate graphs and smart alarms, your phone's **Bluetooth must remain active** and connected to the watch throughout the entire night.

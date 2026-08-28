@@ -13,22 +13,22 @@ weight: 40
 ## Home Screen Layouts
 Choose the layout that best fits how you use the app.
 
-*   [**Dashboard**](/ux/hs_dashboard): A modern, card-based overview of your sleep health and next alarms.
-*   [**Tabs**](/ux/hs_tabs): A classic interface with separate, swipeable sections.
-*   [**Alarms Only Mode**](/ux/hs_alarms_only): A minimalist, distraction-free interface for those who don't need tracking.
+*   [**Dashboard**](/docs/ux/hs_dashboard): A modern, card-based overview of your sleep health and next alarms.
+*   [**Tabs**](/docs/ux/hs_tabs): A classic interface with separate, swipeable sections.
+*   [**Alarms Only Mode**](/docs/ux/hs_alarms_only): A minimalist, distraction-free interface for those who don't need tracking.
 
 ---
 
 ## Customization & Search
 Make the app yours with themes, colors, and powerful search tools.
 
-*   [**Personalization**](/ux/personalize): Adjust themes, color palettes, and morning screen behavior.
-*   [**Search**](/ux/search): Find any setting, documentation, or historical record instantly.
+*   [**Personalization**](/docs/ux/personalize): Adjust themes, color palettes, and morning screen behavior.
+*   [**Search**](/docs/ux/search): Find any setting, documentation, or historical record instantly.
 
 ---
 
 ## Navigation & Widgets
 Quickly access features from within the app or directly from your phone's home screen.
 
-*   [**Left ☰ Menu**](/ux/left_menu): Your central hub for all app features and support tools.
-*   [**Widgets**](/ux/widgets): Add tracking and alarm controls directly to your phone's home screen.
+*   [**Left ☰ Menu**](/docs/ux/left_menu): Your central hub for all app features and support tools.
+*   [**Widgets**](/docs/ux/widgets): Add tracking and alarm controls directly to your phone's home screen.

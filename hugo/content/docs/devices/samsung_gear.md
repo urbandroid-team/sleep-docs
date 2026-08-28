@@ -21,7 +21,7 @@ tags:
 > ⚠️ **Important Notice**
 > This page applies **only to legacy Samsung wearables running Tizen OS** (such as Galaxy Watch, Galaxy Watch 3, Gear S2, Gear S3, and Gear Sport).
 >
-> If you are using a **Galaxy Watch 4, Watch 5, Watch 6, Watch 7, or Watch Ultra** running **Wear OS / One UI Watch**, please head over to our **[One UI Watch Devices Guide](/devices/one_ui)** for setup instructions.
+> If you are using a **Galaxy Watch 4, Watch 5, Watch 6, Watch 7, or Watch Ultra** running **Wear OS / One UI Watch**, please head over to our **[One UI Watch Devices Guide](/docs/devices/one_ui)** for setup instructions.
 
 
 ## Supported Legacy Devices (Tizen OS)

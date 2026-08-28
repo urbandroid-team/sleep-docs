@@ -15,7 +15,7 @@ Review your average duration, deep sleep percentage, and snoring frequency to un
 
 **Menu Paths:**
 *   `Left ☰ Menu` → `Stats`
-*   `Dashboard` → Tap the **[Sleep Score](/sleep/sleepscore)** card
+*   `Dashboard` → Tap the **[Sleep Score](/docs/sleep/sleepscore)** card
 *   **Settings:** `Settings` → `Personalize` → `Stats`
 
 ---
@@ -26,7 +26,7 @@ The main statistics view provides a breakdown of your performance over a selecte
 
 *   **Daily Aggregates:** Each row displays the combined duration, deep sleep, and snoring for all tracking sessions belonging to that day.
 *   **Community Benchmark:** A special row compares your personal aggregates against the national average for your country.
-*   **Tag Analysis:** Tap the icon in the top-right corner to expand aggregates by **[Tags](/sleep/tags)**. This allows you to see how specific lifestyle factors (e.g., `#sport` vs. `#alcohol`) affect your core metrics.
+*   **Tag Analysis:** Tap the icon in the top-right corner to expand aggregates by **[Tags](/docs/sleep/tags)**. This allows you to see how specific lifestyle factors (e.g., `#sport` vs. `#alcohol`) affect your core metrics.
 
 ---
 
@@ -43,7 +43,7 @@ Determines the hour at which a sleep session is assigned to the next calendar da
 Allows you to rearrange the order of your sleep score pie charts. Changes here are reflected across the entire app, including the Dashboard and individual graphs.
 
 ### Year of Birth
-Used to determine your age, which adjusts the "healthy range" benchmarks for your [Sleep Score](/sleep/sleepscore).
+Used to determine your age, which adjusts the "healthy range" benchmarks for your [Sleep Score](/docs/sleep/sleepscore).
 
 ### Color Palette
 Enables a unique color spectrum for sleep score pie charts. When active, each dimension (e.g., Deep Sleep, Efficiency) uses a consistent assigned color throughout the app.

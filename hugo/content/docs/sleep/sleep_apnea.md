@@ -39,9 +39,9 @@ Home pre-screening using **Pulse Oximetry** provides a convenient, cost-effectiv
 The app uses advanced signal processing to analyze your respiratory rhythm while you sleep:
 
 * **Oximeters:** Get a [Pulse Oximeter](https://happyelectronics.eu/products/alert-stresslocator-oximeter) compatible with Sleep as Android and suitable for whole night oxygenation monitoring.
-* **[Sonar Tracking](/sleep/sensors#sonar) (Contactless):** Emits silent ultrasonic soundwaves from your phone's speaker to bounce off your chest, measuring micro-movements to calculate your Breaths Per Minute (RPM). This value is calculated automatically from the data, you don't need to enable it specifically.
-* **Wearables:** Pairs with smartwatches and their SpO2 sensors to record continuous heart rate and blood oxygen saturation levels. Follow the guide for [wearable tracking](/sleep/wearable_tracking).
-* **Audio & Snoring Analytics:** Uses your phone's microphone to detect snoring, choking sounds, or sudden gasping after pauses. Read more details about Sound recognition in [this chapter](/sleep/sound_recognition).)
+* **[Sonar Tracking](/docs/sleep/sensors#sonar) (Contactless):** Emits silent ultrasonic soundwaves from your phone's speaker to bounce off your chest, measuring micro-movements to calculate your Breaths Per Minute (RPM). This value is calculated automatically from the data, you don't need to enable it specifically.
+* **Wearables:** Pairs with smartwatches and their SpO2 sensors to record continuous heart rate and blood oxygen saturation levels. Follow the guide for [wearable tracking](/docs/sleep/wearable_tracking).
+* **Audio & Snoring Analytics:** Uses your phone's microphone to detect snoring, choking sounds, or sudden gasping after pauses. Read more details about Sound recognition in [this chapter](/docs/sleep/sound_recognition).)
 
 
 

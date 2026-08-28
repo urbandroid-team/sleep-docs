@@ -10,7 +10,7 @@ tags:
 # Awake detection
 
 
-While [Actigraphy](/sleep/sleep_tracking_theory) (the method we use for sleep tracking) is excellent at distinguishing deep sleep from light sleep, it can struggle to detect brief periods of wakefulness. To handle this, we rely on smart heuristics to accurately log when you're awake.
+While [Actigraphy](/docs/sleep/sleep_tracking_theory) (the method we use for sleep tracking) is excellent at distinguishing deep sleep from light sleep, it can struggle to detect brief periods of wakefulness. To handle this, we rely on smart heuristics to accurately log when you're awake.
 
 This guide explains how **Awake Detection** works in Sleep as Android, how to customize its sensitivity, and how to troubleshoot common setup issues.
 
@@ -21,10 +21,10 @@ When you start sleep tracking, the app doesn't just measure total tracking time,
 
 **Awake Detection** monitors subtle cues during the night (like movement, light, or heart rate) to identify moments when you are awake. If you briefly wake up to grab a glass of water, turn on a light, or toss and turn, the app automatically logs these periods as "awake time" on your sleep graph.
 
-We then use awake events to measure **sleep efficiency** (*= time sleeping / time tracking*) - an important dimension in your [sleep score](/sleep/sleepscore).
+We then use awake events to measure **sleep efficiency** (*= time sleeping / time tracking*) - an important dimension in your [sleep score](/docs/sleep/sleepscore).
 
 > [!NOTE]
-> Awake time is subtracted from your overall sleep **duration** - another important [Sleep score](/sleep/sleepscore) measure.
+> Awake time is subtracted from your overall sleep **duration** - another important [Sleep score](/docs/sleep/sleepscore) measure.
 
 ## How It Works
 

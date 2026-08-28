@@ -23,11 +23,11 @@ Welcome to the official documentation for **Sleep as Android**, your smart alarm
 
 ## Explore the Documentation
 
-*   [**Getting Started**](/general/start): New to the app? Start here.
-*   [**Alarms & Naps**](/alarms/alarm_settings): Configure your wake-up routine.
-*   [**Sleep Tracking**](/sleep/sleep_tracking): Learn how we measure your sleep.
-*   [**Connected Devices**](/devices/wearables): Set up your smartwatch or Sleep Phaser.
-*   [**Connected Services**](/services/): Integrate with Google Fit, Health Connect, or IFTTT.
+*   [**Getting Started**](/docs/general/start): New to the app? Start here.
+*   [**Alarms & Naps**](/docs/alarms/alarm_settings): Configure your wake-up routine.
+*   [**Sleep Tracking**](/docs/sleep/sleep_tracking): Learn how we measure your sleep.
+*   [**Connected Devices**](/docs/devices/wearables): Set up your smartwatch or Sleep Phaser.
+*   [**Connected Services**](/docs/services/): Integrate with Google Fit, Health Connect, or IFTTT.
 
 ---
 

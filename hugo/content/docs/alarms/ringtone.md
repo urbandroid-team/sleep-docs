@@ -81,7 +81,7 @@ Mix and match sounds from all previous categories into a unified custom playlist
 
 
 ## Silent Alarm
-*Available only in [per-alarm settings](/alarms/alarm_settings#per_alarm).*
+*Available only in [per-alarm settings](/docs/alarms/alarm_settings#per_alarm).*
 Enables silent wake-ups using vibrations only (ideal when wearing a smartwatch or sleeping next to a partner).
 
 ---

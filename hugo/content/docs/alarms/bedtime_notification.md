@@ -78,7 +78,7 @@ You can set custom bedtime notifications for individual naps:
 3. Set a specific **sleep duration goal** for that nap (from 20 minutes to 13.5 hours).
 4. Adjust the notification timing and tap **Save**.
 
-For more details on Polyphasic sleep schedule support, please visit the [Polyphasic sleeping chapter](/alarms/polyphasic).
+For more details on Polyphasic sleep schedule support, please visit the [Polyphasic sleeping chapter](/docs/alarms/polyphasic).
 
 ## Sleep Duration Goals by Age
 

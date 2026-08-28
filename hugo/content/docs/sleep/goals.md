@@ -121,7 +121,7 @@ This timeline progress shows your progress (the human) vs the time.  If your hum
 ** Red columns - you did not met hte goal on a give day.
 * Average value progress:
 ** The **orange** line shows your target, where you want to get.
-<!-- * The [color-green]#green# line is the guideline. To maximize change for a successful goal and to make your transition smooth we recommend to try to keep under or over the guideline at all times depending whether your try to increase or decrease aon of your sleep [Dimensions](/sleep/sleepscore). -->
+<!-- * The [color-green]#green# line is the guideline. To maximize change for a successful goal and to make your transition smooth we recommend to try to keep under or over the guideline at all times depending whether your try to increase or decrease aon of your sleep [Dimensions](/docs/sleep/sleepscore). -->
 ** The line in accent color shows your current average value of the dimension you are trying to change. The points on the line represents one day.
 <!-- + -->
 <!-- NOTE: Before the start of the goal we show a 30 days rolling average of the measure you try to change. But after we show the average from only the values after in the goal time range. This means at the beginning the values will probably be quite bumpy before they start to converge into more stable values. -->

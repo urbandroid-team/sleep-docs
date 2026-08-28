@@ -15,7 +15,7 @@ Rather than relying on a single metric, Sleep as Android evaluates your sleep ac
 
 ## Where to Find Your Sleep Score
 
-- **Morning screen:** Right after waking up, you can evaluate your Sleep Score on the [Morning screen](/sleep/how_to_read_sleep_graphs#morning_screen).
+- **Morning screen:** Right after waking up, you can evaluate your Sleep Score on the [Morning screen](/docs/sleep/how_to_read_sleep_graphs#morning_screen).
 - **Main Dashboard:** Located on the **Sleep Score** card  on the main screen.
 - **Charts & Trends:** Open `Left ☰ menu` → `Trend` → `Trend tab` → `Sleep score chart`.
 
@@ -89,7 +89,7 @@ Measures how much of your time in bed was actually spent sleeping vs. lying awak
 - **Unfavourable:** **< 85%**. A low efficiency score often indicates long periods of being awake during the night.
 
 ### Regularity
-Measures consistency in your sleep schedule based on the **[Sleep Regularity Index (SRI)](/sleep/chrono_jetlag#sri)** and mid-sleep hour variance.
+Measures consistency in your sleep schedule based on the **[Sleep Regularity Index (SRI)](/docs/sleep/chrono_jetlag#sri)** and mid-sleep hour variance.
 - **Top Value:** Sleep Regularity Index (SRI) score.
 - **Bottom Value:** Mid-sleep hour deviation.
 - **Healthy Target:** SRI **> 80** and mid-sleep variance **< 0.5 hours**.
@@ -112,14 +112,14 @@ Tracks recovery by comparing your Heart Rate Variability (HRV) during your first
 Tracks breathing pauses or disruptions per hour.
 - **Top Value:** Average breathing disturbance index (episodes/hour).
 - **Healthy Target:** **< 10 episodes/hr**.
-- **Unfavourable:** **> 20 episodes/hr**. High values may be a warning sign for [sleep apnea](/sleep/sleep_apnea).
+- **Unfavourable:** **> 20 episodes/hr**. High values may be a warning sign for [sleep apnea](/docs/sleep/sleep_apnea).
 
 ### Snoring
-Calculates how long you were [snoring](/sleep/sound_recognition#snoring) relative to your total sleep duration.
+Calculates how long you were [snoring](/docs/sleep/sound_recognition#snoring) relative to your total sleep duration.
 - **Top Value:** Percentage of night spent snoring.
 - **Bottom Value:** Total snoring duration.
 - **Healthy Target:** **< 3%**.
-- **Unfavourable:** **> 10%**. If snoring is high, you might want to try [Anti-snoring cues](/sleep/anti_snoring)
+- **Unfavourable:** **> 10%**. If snoring is high, you might want to try [Anti-snoring cues](/docs/sleep/anti_snoring)
 
 ### Subjective Rating
 Your self-reported sleep rating given upon waking. This is a critical weight in the sleep score, as personal feeling often catches what sensors cannot.
@@ -129,7 +129,7 @@ Your self-reported sleep rating given upon waking. This is a critical weight in 
 
 ## Improving Your Sleep Score
 
-- **Set Sleep Goals:** If you consistently miss a target (e.g., sleeping only 6 hours when you need 7.5 hours), go to the **[Goals](/sleep/goals)** section to build gradual sleep habits.
+- **Set Sleep Goals:** If you consistently miss a target (e.g., sleeping only 6 hours when you need 7.5 hours), go to the **[Goals](/docs/sleep/goals)** section to build gradual sleep habits.
 - **Check the Advice Section:** The app automatically detects patterns in your dimensions and provides personalized tips under `Left ☰ Menu` → `Advice`.
 
 ---

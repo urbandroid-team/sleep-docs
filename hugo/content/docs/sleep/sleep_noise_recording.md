@@ -31,8 +31,8 @@ Navigate to `Settings`️ → `Sleep noise analysis` to customize your experienc
 
 | Setting | What it Does | Recommended Setup |
 | :--- | :--- | :--- |
-| **[Sound recognition](/sleep/sound_recognition)** | Analyzes audio to identify snoring, talking, coughing, laughing, or baby crying. | **ON** for detailed breakdown. |
-| **[Anti-snoring](/sleep/anti_snoring)** | Plays subtle cues (vibration or soft sound) to prompt you to change sleeping position when snoring is detected. | **ON** if you want to curb snoring. |
+| **[Sound recognition](/docs/sleep/sound_recognition)** | Analyzes audio to identify snoring, talking, coughing, laughing, or baby crying. | **ON** for detailed breakdown. |
+| **[Anti-snoring](/docs/sleep/anti_snoring)** | Plays subtle cues (vibration or soft sound) to prompt you to change sleeping position when snoring is detected. | **ON** if you want to curb snoring. |
 | **Record sleep noises** | Automatically saves audio snippets when noise triggers are met. | **ON** to save clips. |
 | **Recording volume threshold** | Sets the minimum volume needed to trigger a recording. | **15% – 25%** (Default is 15%). |
 | **Best of sleep album** | Saves a copy of the favourite sound recordings (marked with a star) itno the local media storage | **ON** if you like to have alternative access to the saved sounds. |

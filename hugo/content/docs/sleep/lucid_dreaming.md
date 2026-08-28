@@ -24,7 +24,7 @@ Although smartphones and wearables do not record brainwaves directly (EEG), Slee
 ## How to Enable Lucid Dreaming
 
 * **Audio & Vibration Settings:** Go to `Settings` → `Sleep tracking` → `Lucid dreaming`.
-* **Light Cue Settings (Optional):** Go to `Settings` → `Services` → `Smart light` → `Lucid dreaming` (requires a connected [Smartlight](/devices/smart_light), [Sleep Phaser](/devices/sleep_phaser_2) or [Sleep Mask](/devices/sleep_mask).).
+* **Light Cue Settings (Optional):** Go to `Settings` → `Services` → `Smart light` → `Lucid dreaming` (requires a connected [Smartlight](/docs/devices/smart_light), [Sleep Phaser](/docs/devices/sleep_phaser_2) or [Sleep Mask](/docs/devices/sleep_mask).).
 
 ## Configuration Options
 

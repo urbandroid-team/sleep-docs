@@ -33,9 +33,9 @@ Based on your tracking history, the app automatically determines your **chronoty
 **Chronotypes banner**
 ![](chrono.png)
 
-According to research by Professor [Till Roenneberg](https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/), chronotypes are innate, with everyone falling somewhere on the spectrum between 100% Owl and 100% Lark. Our [SleepCloud study](/sleep/sleepcloud_study) reached the same conclusion.
+According to research by Professor [Till Roenneberg](https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/), chronotypes are innate, with everyone falling somewhere on the spectrum between 100% Owl and 100% Lark. Our [SleepCloud study](/docs/sleep/sleepcloud_study) reached the same conclusion.
 
-To learn more, see our documentation on [Social Jetlag & Regularity](/sleep/chrono_jetlag).
+To learn more, see our documentation on [Social Jetlag & Regularity](/docs/sleep/chrono_jetlag).
 
 
 ## Sleep as Android Section
@@ -43,31 +43,31 @@ To learn more, see our documentation on [Social Jetlag & Regularity](/sleep/chro
 | Icon | Description |
 | :--- | :--- |
 | ![ic_alarm](/assets/icons/ic_alarm.svg) | **Alarms:** Opens your complete list of alarms. |
-| ![ic_timelapse](/assets/icons/ic_timelapse.svg) | **Stats:** Opens long-term [Statistics and Trends](/sleep/charts). |
-| ![ic_action_graph](/assets/icons/ic_action_graph.svg) | **Graphs:** View your [latest sleep tracking records](/sleep/sleep_graph). |
-| ![ic_action_stats](/assets/icons/ic_action_stats.svg) | **Charts:** Deep dive into specific [sleep quality metrics](/sleep/charts). |
-| ![ic_goal](/assets/icons/ic_goal.svg) | **Goal:** Track your progress toward active [Sleep Goals](/sleep/goals). |
-| ![ic_lightbulb](/assets/icons/ic_lightbulb.svg) | **Advice:** Get personalized insights from the [Advice section](/sleep/advice). |
-| ![ic_action_noise](/assets/icons/ic_action_noise.svg) | **Noise:** Review [recorded sleep noises](/sleep/sleep_noise_recording) (snoring, talking, etc.). |
-| ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) | **Lullabies:** Quick access to the [Lullaby player](/sleep/lullaby). |
-| ![trophy](/assets/icons/trophy.svg) | **Achievements:** View your unlocked [Sleep Achievements](/sleep/achievements). |
+| ![ic_timelapse](/assets/icons/ic_timelapse.svg) | **Stats:** Opens long-term [Statistics and Trends](/docs/sleep/charts). |
+| ![ic_action_graph](/assets/icons/ic_action_graph.svg) | **Graphs:** View your [latest sleep tracking records](/docs/sleep/sleep_graph). |
+| ![ic_action_stats](/assets/icons/ic_action_stats.svg) | **Charts:** Deep dive into specific [sleep quality metrics](/docs/sleep/charts). |
+| ![ic_goal](/assets/icons/ic_goal.svg) | **Goal:** Track your progress toward active [Sleep Goals](/docs/sleep/goals). |
+| ![ic_lightbulb](/assets/icons/ic_lightbulb.svg) | **Advice:** Get personalized insights from the [Advice section](/docs/sleep/advice). |
+| ![ic_action_noise](/assets/icons/ic_action_noise.svg) | **Noise:** Review [recorded sleep noises](/docs/sleep/sleep_noise_recording) (snoring, talking, etc.). |
+| ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) | **Lullabies:** Quick access to the [Lullaby player](/docs/sleep/lullaby). |
+| ![trophy](/assets/icons/trophy.svg) | **Achievements:** View your unlocked [Sleep Achievements](/docs/sleep/achievements). |
 
 
 ## Home Screen Section
 
 | Icon | Description |
 | :--- | :--- |
-| ![ic_dashboard](/assets/icons/ic_dashboard.svg) | [**Dashboard:**](/ux/hs_dashboard) A unified card-based overview. |
-| ![ic_tab](/assets/icons/ic_tab.svg) | [**Tabs:**](/ux/hs_tabs) A customizable tabbed interface. |
-| ![ic_action_track_off_white](/assets/icons/ic_action_track_off_white.svg) | [**Alarms Only:**](/ux/hs_alarms_only) A minimalist, alarm-focused mode. |
+| ![ic_dashboard](/assets/icons/ic_dashboard.svg) | [**Dashboard:**](/docs/ux/hs_dashboard) A unified card-based overview. |
+| ![ic_tab](/assets/icons/ic_tab.svg) | [**Tabs:**](/docs/ux/hs_tabs) A customizable tabbed interface. |
+| ![ic_action_track_off_white](/assets/icons/ic_action_track_off_white.svg) | [**Alarms Only:**](/docs/ux/hs_alarms_only) A minimalist, alarm-focused mode. |
 
 
 ## Support Section
 
 | Icon | Description |
 | :--- | :--- |
-| ![ic_help_q](/assets/icons/ic_help_q.svg) | **Support:** Opens the main help dialogue containing: <ul><li>**Documentation:** View this online guide.</li><li>**FAQ:** Search for answers to common questions.</li><li>**Tutorial:** Restart the app walkthrough.</li><li>**Forum:** Visit our [community forum](https://forum.urbandroid.org).</li><li>**Contact Support:** Email our team at [support@urbandroid.org](mailto:support@urbandroid.org).</li><li>**Release Notes:** View the [latest changes](/general/release_notes).</li><li>**Report a Bug:** Generate a debug log for our team.</li></ul> |
-| ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) | [**Backup:**](/services/backup_data) Cloud sync and manual data export. |
-| ![ic_incognito](/assets/icons/ic_incognito.svg) | [**Privacy:**](/general/privacy) Configure data protection and sharing settings. |
+| ![ic_help_q](/assets/icons/ic_help_q.svg) | **Support:** Opens the main help dialogue containing: <ul><li>**Documentation:** View this online guide.</li><li>**FAQ:** Search for answers to common questions.</li><li>**Tutorial:** Restart the app walkthrough.</li><li>**Forum:** Visit our [community forum](https://forum.urbandroid.org).</li><li>**Contact Support:** Email our team at [support@urbandroid.org](mailto:support@urbandroid.org).</li><li>**Release Notes:** View the [latest changes](/docs/general/release_notes).</li><li>**Report a Bug:** Generate a debug log for our team.</li></ul> |
+| ![ic_cloud_upload](/assets/icons/ic_cloud_upload.svg) | [**Backup:**](/docs/services/backup_data) Cloud sync and manual data export. |
+| ![ic_incognito](/assets/icons/ic_incognito.svg) | [**Privacy:**](/docs/general/privacy) Configure data protection and sharing settings. |
 | ![ic_share_variant](/assets/icons/ic_share_variant.svg) | **Tell Friends:** Share your Sleep as Android experience. |
 

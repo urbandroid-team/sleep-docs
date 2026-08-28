@@ -68,7 +68,7 @@ To add a widget to your home screen:
 
 ## Shortcut widgets
 
-You can turn any of the shortcuts from your [Dashboard's](/ux/hs_dashboard) shortcut card into a standalone home screen widget. To do this, long-press the Sleep as Android app icon and drag the desired shortcut onto your home screen.
+You can turn any of the shortcuts from your [Dashboard's](/docs/ux/hs_dashboard) shortcut card into a standalone home screen widget. To do this, long-press the Sleep as Android app icon and drag the desired shortcut onto your home screen.
 
 <a id="figure-widgets_shortcuts"></a>
 
@@ -87,7 +87,7 @@ Launches a nap session using your last-used duration and immediately begins slee
 
 ### Sleep duration goal
 
-Starts sleep tracking with a target tailored to your [Daily sleep duration goal](/alarms/alarm_settings#duration_goal) (configured in Settings).
+Starts sleep tracking with a target tailored to your [Daily sleep duration goal](/docs/alarms/alarm_settings#duration_goal) (configured in Settings).
 
 > [!NOTE]
 > This automatically accounts for your configured sleep tracking delay and smart period buffer, ensuring you get the exact amount of actual sleep your body needs.

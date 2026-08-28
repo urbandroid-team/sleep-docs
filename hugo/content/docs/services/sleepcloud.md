@@ -22,7 +22,7 @@ To use SleepCloud, you must have the **[SleepCloud Backup add-on](https://play.g
 In order to connect, you will need to grant Sleep as Android permission to use your Google account for secure authentication and cloud storage.
 
 > [!NOTE]
-> For more information on data usage, please review our [Terms of Service](/general/terms_of_service).
+> For more information on data usage, please review our [Terms of Service](/docs/general/terms_of_service).
 
 ---
 

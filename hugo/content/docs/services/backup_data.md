@@ -36,7 +36,7 @@ Automated backups protect your data continuously in the background without needi
 
 ### Option A: SleepCloud Add-on *(Best overall)*
 
-[SleepCloud](/services/sleepcloud) is designed specifically for Sleep as Android. It provides effortless cloud syncing, web dashboard access, and seamless data restoration on new devices.
+[SleepCloud](/docs/services/sleepcloud) is designed specifically for Sleep as Android. It provides effortless cloud syncing, web dashboard access, and seamless data restoration on new devices.
 
 1. Install the **[SleepCloud Backup](https://play.google.com/store/search?q=sleepcloud&c=apps)** add-on from Google Play.
 2. In Sleep as Android, open `Settings` → `Services` → `Cloud backup`.
@@ -129,7 +129,7 @@ Most modern Android devices include automatic system backups powered by Google O
 <summary><strong>Can I analyze my raw sleep data on a PC?</strong></summary>
 
 * **Reason:** Desire for deep data analysis outside the app.
-* 👉  *Fix:* **Yes.** Manual exports include a `sleep-export.csv` file inside the `.zip`. You can open this in Excel or Google Sheets. See our [CSV documentation](/devs/csv) for field details.
+* 👉  *Fix:* **Yes.** Manual exports include a `sleep-export.csv` file inside the `.zip`. You can open this in Excel or Google Sheets. See our [CSV documentation](/docs/devs/csv) for field details.
 </details>
 
 <details>

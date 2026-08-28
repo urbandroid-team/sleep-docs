@@ -37,7 +37,7 @@ These brief pulses pass through your closed eyelids to shift your melatonin cycl
 
 The app will deliver light flashes using your choice of hardware:
 * **Phone Camera LED:** Flashes directly from your phone's built-in light.
-* **[Smartlights](/devices/smart_light) / [SleepPhaser](/devices/sleep_phaser_2):** Uses connected smart lamps to illuminate the room gently.
+* **[Smartlights](/docs/devices/smart_light) / [SleepPhaser](/docs/devices/sleep_phaser_2):** Uses connected smart lamps to illuminate the room gently.
 
 ---
 

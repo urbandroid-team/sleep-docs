@@ -26,14 +26,14 @@ Charts help you identify patterns in your sleep, allowing you to make evidence-b
 <div style="text-align: center;">
   <img src="/assets/images/charts/trend/trend_sleepscore.png" alt="Sleep Score" style="max-width: 400px; width: 100%;" />
 </div>
-The **Sleep Score** radar chart provides a multi-dimensional view of your [Sleep Score](/sleep/sleepscore). Each section represents a different health metric and can earn up to 5 points. The goal is to fill the entire chart!
+The **Sleep Score** radar chart provides a multi-dimensional view of your [Sleep Score](/docs/sleep/sleepscore). Each section represents a different health metric and can earn up to 5 points. The goal is to fill the entire chart!
 
 ### Deficit
 <div style="text-align: center;">
   <img src="/assets/images/charts/trend/trend_deficit.png" alt="Deficit" style="max-width: 400px; width: 100%;" />
 </div>
 The **Deficit** chart tracks your accumulated sleep debt.
-*   **Negative Values:** Occur on days when you sleep less than your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
+*   **Negative Values:** Occur on days when you sleep less than your [Daily Sleep Duration Goal](/docs/alarms/bedtime_notification#duration_goal).
 *   **Positive Values:** Indicate a sleep surplus.
 *   **The Red/Green Indicator:** The rightmost point of the line indicates your current state. Red means you have a sleep debt; green means you are currently meeting or exceeding your target.
 
@@ -58,7 +58,7 @@ The **Regularity** chart measures consistency. A higher line indicates more irre
 <div style="text-align: center;">
   <img src="/assets/images/charts/trend/charts_sri.png" alt="Regularity Index (SRI)" style="max-width: 400px; width: 100%;" />
 </div>
-This chart displays your **Sleep Regularity Index**. An SRI of 100% means your sleep/wake times were identical between consecutive days. Values above 80% are considered healthy. [Read more on SRI here](/sleep/chrono_jetlag#sri).
+This chart displays your **Sleep Regularity Index**. An SRI of 100% means your sleep/wake times were identical between consecutive days. Values above 80% are considered healthy. [Read more on SRI here](/docs/sleep/chrono_jetlag#sri).
 
 ### Regularity Index (+/-) <a id="chart_sri_dif"></a>
 <div style="text-align: center;">
@@ -123,13 +123,13 @@ Tracks when your sleep tracking sessions typically begin. Look for a flat line w
 <div style="text-align: center;">
   <img src="/assets/images/charts/trend/trend_smart_wakeup.png" alt="Smart Wake-Up" style="max-width: 400px; width: 100%;" />
 </div>
-Shows how many minutes before your set alarm the app woke you up. If this is consistently at 0 or at your maximum period, you may need to [adjust your sensitivity](/alarms/smart_wake_up#sensitivity).
+Shows how many minutes before your set alarm the app woke you up. If this is consistently at 0 or at your maximum period, you may need to [adjust your sensitivity](/docs/alarms/smart_wake_up#sensitivity).
 
 ### Snooze
 <div style="text-align: center;">
   <img src="/assets/images/charts/trend/trend_snooze.png" alt="Snooze" style="max-width: 400px; width: 100%;" />
 </div>
-Tracks how many minutes you spend snoozing each morning. To help lower this value, try setting [Snooze Limits](/alarms/snooze).
+Tracks how many minutes you spend snoozing each morning. To help lower this value, try setting [Snooze Limits](/docs/alarms/snooze).
 
 ### HRV (Heart Rate Variability)
 <div style="text-align: center;">
@@ -153,7 +153,7 @@ Tracks your HRV specifically in the period before you wake up. Higher numbers in
 <div style="text-align: center;">
   <img src="/assets/images/charts/trend/trend_respiratory_disturbance.png" alt="Respiratory Disturbances" style="max-width: 400px; width: 100%;" />
 </div>
-The sum of detected respiratory disturbances (RDI). Values above 10 indicate potential issues. Ideally, this line should remain close to **0**. [Learn more here](/sleep/breath_rate#rdi).
+The sum of detected respiratory disturbances (RDI). Values above 10 indicate potential issues. Ideally, this line should remain close to **0**. [Learn more here](/docs/sleep/breath_rate#rdi).
 
 
 ---
@@ -193,7 +193,7 @@ Average awake duration for tagged records.
 
 ## Chronotype
 
-Chronotype represents your natural sleep pattern on the spectrum between 100% Night Owl and 100% Morning Lark. [Learn more here](/sleep/chrono_jetlag#chronotype).
+Chronotype represents your natural sleep pattern on the spectrum between 100% Night Owl and 100% Morning Lark. [Learn more here](/docs/sleep/chrono_jetlag#chronotype).
 
 > [!NOTE]
 > Chronotype statistics require at least **one month** of tracked data.
@@ -214,7 +214,7 @@ Tracks how your chronotype evolves over time.
 <div style="text-align: center;">
   <img src="/assets/images/charts/chronotype/jetlag_clusters.png" alt="Social Jetlag Clusters" style="max-width: 400px; width: 100%;" />
 </div>
-Maps individual sleep sessions to identify [Social Jetlag](/sleep/chrono_jetlag#workdays-and-weekend-days).
+Maps individual sleep sessions to identify [Social Jetlag](/docs/sleep/chrono_jetlag#workdays-and-weekend-days).
 *   **Horizontal axis:** Wake-up time (Left = earlier, Right = later).
 *   **Vertical axis:** Duration (Top = longer, Bottom = shorter).
 *   **Clusters:** Working days vs. Free days. Ideally, these clusters should be close together.

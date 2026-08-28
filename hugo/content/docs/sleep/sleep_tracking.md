@@ -15,12 +15,12 @@ tags:
 By tracking your sleep, the app enables you to:
 
 *   **Visualize:** View a detailed sleep graph for every night.
-*   **Monitor:** Track long-term trends with your [Sleep Score](/sleep/sleepscore) and [Statistics](/sleep/statistics).
-*   **Improve:** Set personal [goals](/sleep/goals) to enhance your sleep hygiene.
-*   **Wake Up Refreshed:** Use [Smart Wake Up](/sleep/smart_wake_up) to wake up during your lightest sleep phase.
+*   **Monitor:** Track long-term trends with your [Sleep Score](/docs/sleep/sleepscore) and [Statistics](/docs/sleep/statistics).
+*   **Improve:** Set personal [goals](/docs/sleep/goals) to enhance your sleep hygiene.
+*   **Wake Up Refreshed:** Use [Smart Wake Up](/docs/sleep/smart_wake_up) to wake up during your lightest sleep phase.
 
 > [!TIP]
-> For the science behind these features, see [Sleep Tracking Theory](/sleep/sleep_tracking_theory).
+> For the science behind these features, see [Sleep Tracking Theory](/docs/sleep/sleep_tracking_theory).
 
 
 ## How to Track Sleep
@@ -86,7 +86,7 @@ Because ultrasonic waves lose energy over distance, precise placement is key:
 
 ### Other Devices
 
-If you prefer not to keep your phone near your bed at all, you can integrate external devices like the [Sleep Phaser](/devices/sleep_phaser) or [Wearables](/devices/wearables).
+If you prefer not to keep your phone near your bed at all, you can integrate external devices like the [Sleep Phaser](/docs/devices/sleep_phaser) or [Wearables](/docs/devices/wearables).
 
 
 ## The Tracking Screen
@@ -102,10 +102,10 @@ When tracking is active, the screen provides real-time data and quick actions.
 | **1️⃣** | **Progress Bar** | Shows time elapsed vs. your next alarm. |
 | **2️⃣** | **Elapsed Time** | Total duration of the current session. |
 | **3️⃣** | **Current Time** | Digital clock for quick reference. |
-| **4️⃣** | **Quick Actions** | <ul><li>![Pause](/assets/icons/ic_action_pause.svg) **Pause:** Manually pause tracking.</li><li>![Lullabies](/assets/icons/ic_action_lullaby.svg) **[Lullabies:](/sleep/lullaby)** Start soothing sounds.</li><li>![Stop](/assets/icons/ic_action_cancel.svg) **Stop:** End the session (requires confirmation).</li></ul> |
-| **5️⃣** | **Noise Indicator** | Shows volume levels if [Noise Recording](/sleep/sleep_noise_recording) is on. |
+| **4️⃣** | **Quick Actions** | <ul><li>![Pause](/assets/icons/ic_action_pause.svg) **Pause:** Manually pause tracking.</li><li>![Lullabies](/assets/icons/ic_action_lullaby.svg) **[Lullabies:](/docs/sleep/lullaby)** Start soothing sounds.</li><li>![Stop](/assets/icons/ic_action_cancel.svg) **Stop:** End the session (requires confirmation).</li></ul> |
+| **5️⃣** | **Noise Indicator** | Shows volume levels if [Noise Recording](/docs/sleep/sleep_noise_recording) is on. |
 | **6️⃣** | **Alarm Info** | Displays your next scheduled wake-up time. Tap to add or edit alarms. |
-| **7️⃣** | **Pull up menu** | <ul><li>![Flashlight](/assets/icons/ic_flashlight.svg) **Night light:** Turn on flashlight or [Smartlight](/devices/smart_light).</li><li>![Tags](/assets/icons/ic_pencil.svg) **Tags:** Add tags or notes to the entry.</li></ul> |
+| **7️⃣** | **Pull up menu** | <ul><li>![Flashlight](/assets/icons/ic_flashlight.svg) **Night light:** Turn on flashlight or [Smartlight](/docs/devices/smart_light).</li><li>![Tags](/assets/icons/ic_pencil.svg) **Tags:** Add tags or notes to the entry.</li></ul> |
 
 
 ### Pull up menu
@@ -119,10 +119,10 @@ Sliding up the *Pull up menu* menu will bring up further options:
 | Option | Description |
 | :--- | :--- |
 | **![Stop](/assets/icons/ic_action_cancel.svg) Stop** | End the current sleep tracking (no confirmation needed). |
-| **![Flashlight](/assets/icons/ic_flashlight.svg) Night light** | Turn on the phone's flashlight or any connected [Smartlight](/devices/smart_light). It will use it at minimum brightness (and red if possible) to help you navigate the room. |
-| **![Tags](/assets/icons/ic_pencil.svg) Tags** | Add [tags](/sleep/tags) or notes to the current sleep entry. |
-| **![Lullabies](/assets/icons/ic_action_lullaby.svg) Lullabies** | Start [lullaby sounds](/sleep/lullaby). |
-| **![Save battery](/assets/icons/ic_battery_60.svg) Save battery** | Switches sleep tracking into a low power mode. In this mode, tracking will consume minimum battery, but [Noise Recording](/sleep/sleep_noise_recording) will be stopped and no activity will be tracked using sensors. Useful if you don't have much battery but still want to track your sleep time. |
+| **![Flashlight](/assets/icons/ic_flashlight.svg) Night light** | Turn on the phone's flashlight or any connected [Smartlight](/docs/devices/smart_light). It will use it at minimum brightness (and red if possible) to help you navigate the room. |
+| **![Tags](/assets/icons/ic_pencil.svg) Tags** | Add [tags](/docs/sleep/tags) or notes to the current sleep entry. |
+| **![Lullabies](/assets/icons/ic_action_lullaby.svg) Lullabies** | Start [lullaby sounds](/docs/sleep/lullaby). |
+| **![Save battery](/assets/icons/ic_battery_60.svg) Save battery** | Switches sleep tracking into a low power mode. In this mode, tracking will consume minimum battery, but [Noise Recording](/docs/sleep/sleep_noise_recording) will be stopped and no activity will be tracked using sensors. Useful if you don't have much battery but still want to track your sleep time. |
 
 
 ## Key Settings Explained
@@ -130,25 +130,25 @@ Sliding up the *Pull up menu* menu will bring up further options:
 Explore advanced automation, battery optimization, and specialized features in <code>Settings → Sleep tracking</code>.
 
 ### Awake Detection
-Smart algorithms that recognize when you are actually awake vs. just moving in your sleep. [Learn more in our Awake Detection guide](/sleep/awake_detection).
+Smart algorithms that recognize when you are actually awake vs. just moving in your sleep. [Learn more in our Awake Detection guide](/docs/sleep/awake_detection).
 
 ### Automatic Tracking
-Set the app to start and stop tracking based on your schedule or movement using [Automatic Tracking](/sleep/automatic_sleep_tracking).
+Set the app to start and stop tracking based on your schedule or movement using [Automatic Tracking](/docs/sleep/automatic_sleep_tracking).
 
 ### Sensor
-Choose the [sensor](/sleep/sensors) that will be used for motion tracking when you track using your phone (i.e., without wearables or Sleep Phaser).
+Choose the [sensor](/docs/sleep/sensors) that will be used for motion tracking when you track using your phone (i.e., without wearables or Sleep Phaser).
 
 ### Wearables
-Choose your [wearable](/devices/wearables) as the sleep tracking sensor. If a wearable is selected and paired, the app will not use the phone's built-in sensors.
+Choose your [wearable](/docs/devices/wearables) as the sleep tracking sensor. If a wearable is selected and paired, the app will not use the phone's built-in sensors.
 
 ### Pair Tracking
-[Sync with a partner](/sleep/pair_tracking) to filter out their movements from your data and obtain a cleaner sleep record.
+[Sync with a partner](/docs/sleep/pair_tracking) to filter out their movements from your data and obtain a cleaner sleep record.
 
 ### Lullabies
-Play melodies, audiobooks, or white noise that automatically fades out once the app detects you have fallen asleep. Read more about [Lullabies](/sleep/lullaby).
+Play melodies, audiobooks, or white noise that automatically fades out once the app detects you have fallen asleep. Read more about [Lullabies](/docs/sleep/lullaby).
 
 ### Lucid Dreaming
-Uses sound or light cues during REM sleep to help you realize you are dreaming without waking you up. See [Lucid Dreaming](/sleep/lucid_dreaming).
+Uses sound or light cues during REM sleep to help you realize you are dreaming without waking you up. See [Lucid Dreaming](/docs/sleep/lucid_dreaming).
 
 ### Jet Lag Prevention
 Tools to help shift your circadian rhythm when traveling across time zones.

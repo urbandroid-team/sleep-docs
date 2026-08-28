@@ -33,7 +33,7 @@ Motion tracking is the core foundation of sleep phase estimation.
     *   You can adjust Signal Sensitivity and Frequency under Sensor Testing.
 
 ### Passive Infrared (PIR / SleepPhaser)
-*   **What it is:** Hardware sensor embedded inside the [**SleepPhaser**](/devices/sleep_phaser) smart lamp.
+*   **What it is:** Hardware sensor embedded inside the [**SleepPhaser**](/docs/devices/sleep_phaser) smart lamp.
 *   **How it works:** Reads heat and body movement from a distance. It offers contactless tracking while keeping phone radiation away from your head.
 
 ---
@@ -41,18 +41,18 @@ Motion tracking is the core foundation of sleep phase estimation.
 ## Body & Vital Sensors
 
 ### Heart Rate (HR) & Heart Rate Variability (HRV)
-Measured via paired smartwatches, fitness bands, or chest straps. Heart rate dips and spikes help the app distinguish true sleep phases from calm awake states. [Read more about HR tracking](/sleep/heart_rate).
+Measured via paired smartwatches, fitness bands, or chest straps. Heart rate dips and spikes help the app distinguish true sleep phases from calm awake states. [Read more about HR tracking](/docs/sleep/heart_rate).
 
 ### Breath Rate & Blood Oxygen (SpO2)
-*   **Breath Rate:** Calculated via **Sonar**, [**SleepPhaser**](/devices/sleep_phaser_2), or supported [**wearables**](/devices/supported_wearable). Tracks breaths per minute (RPM) to flag restlessness, snoring, or potential sleep apnea symptoms.
-*   **SpO2:** Measured via compatible smartwatch optical sensors to detect nocturnal oxygen dips. [Read more about Breath rate and SpO2](/sleep/breath_rate).
+*   **Breath Rate:** Calculated via **Sonar**, [**SleepPhaser**](/docs/devices/sleep_phaser_2), or supported [**wearables**](/docs/devices/supported_wearable). Tracks breaths per minute (RPM) to flag restlessness, snoring, or potential sleep apnea symptoms.
+*   **SpO2:** Measured via compatible smartwatch optical sensors to detect nocturnal oxygen dips. [Read more about Breath rate and SpO2](/docs/sleep/breath_rate).
 
 ---
 
 ## Environmental Sensors
 
 ### Light Level Sensor
-Uses the phone's ambient light sensor (lux sensor) to log room illumination overnight and detect light-driven awake periods. [Read more about Light level tracking](/sleep/light_level).
+Uses the phone's ambient light sensor (lux sensor) to log room illumination overnight and detect light-driven awake periods. [Read more about Light level tracking](/docs/sleep/light_level).
 
 ---
 

@@ -22,7 +22,7 @@ Make sure you have the official **[Spotify app](https://play.google.com/store/ap
 1. Navigate to `Settings` → `Services` → `Spotify` and enable the feature.
 2. Sleep as Android will ask you to connect your Spotify account.
 3. Once connected, the app will sync your saved albums and playlists.
-4. You can now select them directly when choosing an alarm sound or lullaby (see [Ringtone settings](/alarms/ringtone) for details).
+4. You can now select them directly when choosing an alarm sound or lullaby (see [Ringtone settings](/docs/alarms/ringtone) for details).
 
 > [!WARNING]
 > Because Spotify does not provide an official tool for third-party alarms, this integration relies on custom workarounds, and reverse-engineering.

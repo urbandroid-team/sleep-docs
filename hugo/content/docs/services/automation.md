@@ -22,11 +22,11 @@ Whether you want to dim the lights when you start tracking or start your coffee 
 
 | Service | Description | Learn More |
 | :--- | :--- | :--- |
-| **IFTTT** | Connect with hundreds of web services and IoT devices. | [IFTTT Guide](/services/ifttt) |
-| **MQTT** | Publish real-time events to your local smart home broker. | [MQTT Guide](/services/mqtt) |
-| **Webhooks** | Send HTTP requests to any custom URL or API endpoint. | [Webhooks Guide](/services/custom_webhooks) |
-| **Tasker / Automate** | Use powerful Android-native automation apps. | [Tasker Guide](/services/tasker_automate) |
-| **Intent API** | Integrate directly with other Android apps via Intents. | [Intent API Guide](/devs/intent_api) |
+| **IFTTT** | Connect with hundreds of web services and IoT devices. | [IFTTT Guide](/docs/services/ifttt) |
+| **MQTT** | Publish real-time events to your local smart home broker. | [MQTT Guide](/docs/services/mqtt) |
+| **Webhooks** | Send HTTP requests to any custom URL or API endpoint. | [Webhooks Guide](/docs/services/custom_webhooks) |
+| **Tasker / Automate** | Use powerful Android-native automation apps. | [Tasker Guide](/docs/services/tasker_automate) |
+| **Intent API** | Integrate directly with other Android apps via Intents. | [Intent API Guide](/docs/devs/intent_api) |
 | **System Alarms** | Use the standard Android Alarm Clock API. | [Android Docs](https://developer.android.com/reference/android/provider/AlarmClock) |
 
 **Menu Path:** `Settings` → `Services` → `Automation`

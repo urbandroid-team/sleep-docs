@@ -41,6 +41,6 @@ You can easily customize your tab layout to only show the features you need. The
 
 If the tabbed interface isn't a perfect fit for your workflow, you can choose from our other home screen styles:
 
-*   [**Dashboard**](/ux/hs_dashboard): A single, unified overview card layout.
-*   [**Alarms only mode**](/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.
+*   [**Dashboard**](/docs/ux/hs_dashboard): A single, unified overview card layout.
+*   [**Alarms only mode**](/docs/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.
 

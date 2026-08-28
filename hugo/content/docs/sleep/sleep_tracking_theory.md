@@ -32,12 +32,12 @@ You can do something about the majority of those input factors in order to steer
 
 For that, Sleep as Android gives you tools such as:
 
-* [Tags](/sleep/tags)
-* [Bedtime notifications](/alarms/bedtime_notification)
-* Bedroom [light levels measurement](/sleep/light_level)
-* Bedroom [noise measurement](/sleep/sleep_noise_recording)
-* [Smart alarm](/alarms/smart_wake_up)
-* [Gentle alarm volume increase](/alarms/alarm_settings#gentle_alarm) & [gentle alarm light increase / sunrise alarm](/devices/smart_light#sunrise_alarm_guide)
+* [Tags](/docs/sleep/tags)
+* [Bedtime notifications](/docs/alarms/bedtime_notification)
+* Bedroom [light levels measurement](/docs/sleep/light_level)
+* Bedroom [noise measurement](/docs/sleep/sleep_noise_recording)
+* [Smart alarm](/docs/alarms/smart_wake_up)
+* [Gentle alarm volume increase](/docs/alarms/alarm_settings#gentle_alarm) & [gentle alarm light increase / sunrise alarm](/docs/devices/smart_light#sunrise_alarm_guide)
 
 ### Sleep outcome
 
@@ -51,7 +51,7 @@ So when we want to know how well you sleep, we look at:
 * Detected snoring duration
 * Your subjective quality rating
 
-Those six dimensions together form your [sleep score](/sleep/sleepscore).
+Those six dimensions together form your [sleep score](/docs/sleep/sleepscore).
 
 ## How is sleep tracked
 

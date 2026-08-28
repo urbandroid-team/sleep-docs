@@ -37,7 +37,7 @@ a|![](edit_1.png)
 
 [cols="1,2"]
 |===
-|Choose any of the available icon tags from the list. With the + button you can also create your own personal tags (\#any_text or #emoji ) - read more in [Tags](/sleep/tags).
+|Choose any of the available icon tags from the list. With the + button you can also create your own personal tags (\#any_text or #emoji ) - read more in [Tags](/docs/sleep/tags).
 
 Tap on the Comment section, and type anything you would like to save as a comment.
 a|![](edit_2.png)
@@ -64,7 +64,7 @@ a|. From the Morning screen, tap on the Hypnogram to enter the Edit mode.
 
 a|![](edit_3.png)
 |===
-> **Note:** If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the [Stats](/sleep/statistics) screen and use ![plus](/assets/icons/plus.svg) _Add sleep_
+> **Note:** If you are missing any sleep time (you want to add time rather then subtract) you can add your missing time as a new record. To do this please go to the list of Graphs _Left_ ☰ _menu -> Graphs_ or to the [Stats](/docs/sleep/statistics) screen and use ![plus](/assets/icons/plus.svg) _Add sleep_
 <!-- <a id="delete_awake"></a> -->
 <!-- == Deleting awakes -->
 <!-- //[cols="1,2"] -->

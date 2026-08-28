@@ -39,7 +39,7 @@ To link your account and start building recipes:
 
 ## Events Sent to IFTTT
 
-Sleep as Android can trigger IFTTT tasks for various moments throughout the night. For a full list of supported event names and the data they carry, [**see our Automation Events guide here**](/services/automation#events).
+Sleep as Android can trigger IFTTT tasks for various moments throughout the night. For a full list of supported event names and the data they carry, [**see our Automation Events guide here**](/docs/services/automation#events).
 
 ### Example Recipes
 *   [**Morning Routine:** Turn on your Philips Hue lights when your alarm starts.](https://ifttt.com/recipes/405744-sleep-as-android-turn-off-all-philips-hue-lights-when-starting-sleep-tracking)

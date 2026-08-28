@@ -63,7 +63,7 @@ Sleep as Android supports heart rate monitoring across a wide range of smartwatc
 Many Bluetooth pulse oximeters transmit both **Blood Oxygen (SpO₂)** and **Heart Rate** simultaneously.
 *   Navigate to:
     `Settings` → `Sleep tracking` → `Wearables` → `Pulse oximeter (Bluetooth)`
-    For more details on oximeters, please refer to [this guide](/devices/oximeter).
+    For more details on oximeters, please refer to [this guide](/docs/devices/oximeter).
 
 > [!NOTE] How to tell if your wearable will collect HR
 > Only wearables that use the standard GATT Heart Rate Profile can be connected via **Bluetooth Smart** for direct data collection.
@@ -97,7 +97,7 @@ HRV measures the subtle time differences between consecutive heartbeats. A highe
 <details>
 <summary><strong>Does heart rate tracking drain my battery?</strong></summary>
 
-Continuous Bluetooth streaming consumes slightly more battery than standard motion tracking. If preserving battery has higher priority to you than real-time HR data in Sleep app, you can let Sleep app sync the data from the native app by using the [Health Connect](/services/health_connect) or [Samsung Health](/services/s_health).
+Continuous Bluetooth streaming consumes slightly more battery than standard motion tracking. If preserving battery has higher priority to you than real-time HR data in Sleep app, you can let Sleep app sync the data from the native app by using the [Health Connect](/docs/services/health_connect) or [Samsung Health](/docs/services/s_health).
 When the tracking is terminated, the app will sync the data and will re-evaluate the awake detection.
 </details>
 

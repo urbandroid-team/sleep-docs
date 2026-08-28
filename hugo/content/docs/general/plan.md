@@ -57,7 +57,7 @@ You can choose the method that best fits your preference:
 
 ## SleepCloud Backup
 
-[SleepCloud](/services/sleepcloud) is our native backup and synchronization service.
+[SleepCloud](/docs/services/sleepcloud) is our native backup and synchronization service.
 
 | Tier | Backup Frequency | Features |
 | :--- | :--- | :--- |

@@ -86,9 +86,9 @@ Research shows that high sleep regularity is strongly linked to:
 Unlike basic average duration, SRI accounts for night awakenings, daytime naps, and non-standard schedules (such as shift work or polyphasic sleep).
 
 > 📊 **Where to find it:**<br>
->    1.  The bottom metric on your [Sleep Score](/sleep/sleepscore).
->    2.  Long-term trends in the [Charts section](/sleep/charts).
->    3.  Targeted insights in the [Advice section](/sleep/advice).
+>    1.  The bottom metric on your [Sleep Score](/docs/sleep/sleepscore).
+>    2.  Long-term trends in the [Charts section](/docs/sleep/charts).
+>    3.  Targeted insights in the [Advice section](/docs/sleep/advice).
 
 
 ---
