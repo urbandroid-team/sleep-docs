@@ -20,9 +20,7 @@ The goal of your first night is to find the "perfect window" to wake up. The res
 
 <a id="apnea-anatomy"></a>
 **Phone placement**
-<div style="text-align: center;">
-  <img src="/assets/images/position.png" alt="Phone position" style="max-width: 400px; width: 100%;" />
-</div>
+![Phone position](/assets/images/position.png)
 
 ## Your First Morning ☀️
 

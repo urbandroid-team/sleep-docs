@@ -29,8 +29,8 @@ Designed specifically for use with **Sleep as Android** and **[Mindroid](https:/
 
 <div class="imgflexblock"><div class="content">
 
-<img src="/assets/images/mask1.jpg" alt="Cable type mask" />
-<img src="/assets/images/mask2.jpg" alt="Wireless Bluetooth mask" />
+![Cable type mask](/assets/images/mask1.jpg)
+![Wireless Bluetooth mask](/assets/images/mask2.jpg)
 
 </div></div>
 
