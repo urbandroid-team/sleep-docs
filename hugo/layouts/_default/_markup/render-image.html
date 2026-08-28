@@ -3,5 +3,6 @@
   {{- if not (strings.Contains $src "/") -}}
     {{- $src = printf "/assets/images/%s" $src -}}
   {{- end -}}
+  {{- $src = printf "/docs/%s" (strings.TrimPrefix "/docs/" (strings.TrimPrefix "/" $src)) -}}
 {{- end -}}
 <img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />

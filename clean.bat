@@ -1,2 +1,2 @@
 @echo off
-rd /s /q hugo\public
+rd /s /q public\docs
