@@ -34,14 +34,14 @@ What am I looking at?
 *   **Tap for Details:** Tap any graph card to open the **Full Graph view**. This overlays all your data onto a single timeline to help you see connections.
 
 > [!TIP]
-> Want a full breakdown of your Morning screen? Read our [Morning Screen Guide](/docs/sleep/how_to_read_sleep_graphs#morning_screen) to learn more.
+> Want a full breakdown of your Morning screen? Read our [Morning Screen Guide](/sleep/how_to_read_sleep_graphs#morning_screen) to learn more.
 
 
 ## Choose Your Tracking Style
 
-*   **Standard:** Phone on the mattress for [accelerometer](/docs/sleep/sensors#accelerometer) tracking.
-*   **Contactless:** [Try Sonar](/docs/sleep/sensors#sonar), best for nightstands.
-*   **Wearables:** Connect [your Smartwatch](/docs/devices/supported_wearable).
+*   **Standard:** Phone on the mattress for [accelerometer](/sleep/sensors#accelerometer) tracking.
+*   **Contactless:** [Try Sonar](/sleep/sensors#sonar), best for nightstands.
+*   **Wearables:** Connect [your Smartwatch](/devices/supported_wearable).
 
 
 ## Explore Possibilities
@@ -50,10 +50,10 @@ Sleep fuels everything you do—your health, your mood, and your energy. Trackin
 
 ### Advanced Features to Explore
 
-*   **[CAPTCHAs](/docs/alarms/captcha):** Stop oversleeping by requiring a task to be solved before the alarm turns off.
-*   **[Lullabies](/docs/sleep/lullaby):** Fall asleep faster with natural soundscapes or white noise.
-*   **[Automatic Tracking](/docs/sleep/automatic_sleep_tracking):** Let the app start tracking for you so you never forget a night.
-*   **[Cloud Backup](/docs/services/backup_data):** Keep your data safe and synced across devices with SleepCloud.
+*   **[CAPTCHAs](/alarms/captcha):** Stop oversleeping by requiring a task to be solved before the alarm turns off.
+*   **[Lullabies](/sleep/lullaby):** Fall asleep faster with natural soundscapes or white noise.
+*   **[Automatic Tracking](/sleep/automatic_sleep_tracking):** Let the app start tracking for you so you never forget a night.
+*   **[Cloud Backup](/services/backup_data):** Keep your data safe and synced across devices with SleepCloud.
 
 Think of this app as your *personal sleep laboratory.* You can keep it simple with our "plug and play" defaults or dive deep into advanced tools like snoring detection, shift-work support, and dynamic lullabies.
 
@@ -70,7 +70,7 @@ Sleep is a fundamental pillar of health. Consistent monitoring helps you underst
 
 To build a 360-degree map of your night, Sleep as Android analyzes data from several sources:
 
-*   **Movement:** Uses your [movement sensors](/docs/sleep/sensors) to estimate sleep phases via **actigraphy**.
+*   **Movement:** Uses your [movement sensors](/sleep/sensors) to estimate sleep phases via **actigraphy**.
 *   **Vitals:** Collects heart rate (HR), variability (HRV), and blood oxygen (SpO<sub>2</sub>).
 *   **Environment:** Monitors ambient light and noise levels (snoring, talking, or disturbances).
 *   **Lifestyle:** Uses your custom `#tags` to correlate daily activities with nightly results.

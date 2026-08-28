@@ -26,7 +26,7 @@ Connect your smart bulbs to enable room-wide light effects.
 *   **Note:** The newer IKEA **Dirigera hub** is currently **not supported**.
 
 ### Sleep Phaser
-The [Sleep Phaser](/docs/devices/sleep_phaser) is our custom bedside lamp designed specifically for this app.
+The [Sleep Phaser](/devices/sleep_phaser) is our custom bedside lamp designed specifically for this app.
 *   **Smartlight:** Use the Phaser for sunrise alarms and nightlight cues.
 *   **Sleep Tracking:** Use the Phaser's PIR sensor for contactless movement tracking.
 *   **Automation:** Enable **Start automatically** to prepare tracking as soon as you charge your phone near the lamp.

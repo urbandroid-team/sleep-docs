@@ -57,13 +57,13 @@ Features a curated selection of the most distinct or interesting sounds recorded
 *   **Playback:** Tap the card to play back the recorded sound clips (such as snoring, talking, or ambient noise).
 
 ### Sleep Score Card <a id="sleepscore"></a>
-Displays your average overall [Sleep score](/docs/sleep/sleepscore) calculated from your last 14 days of tracked sleep.
-*   **Deep Dive:** Tap this card to open your detailed sleep statistics (see [Stats](/docs/sleep/statistics)).
+Displays your average overall [Sleep score](/sleep/sleepscore) calculated from your last 14 days of tracked sleep.
+*   **Deep Dive:** Tap this card to open your detailed sleep statistics (see [Stats](/sleep/statistics)).
 
 ### Graphs Card
-Shows a preview of your recent sleep graphs from the [Charts section](/docs/sleep/charts).
+Shows a preview of your recent sleep graphs from the [Charts section](/sleep/charts).
 *   **Browse:** Swipe left or right to cycle through recent nights.
-*   **Open:** Tap the card to open the [detailed view](/docs/sleep/how_to_read_sleep_graphs) of the most recent graph.
+*   **Open:** Tap the card to open the [detailed view](/sleep/how_to_read_sleep_graphs) of the most recent graph.
 
 ### Noise Card
 Displays a summary of your latest noise recordings.
@@ -71,25 +71,25 @@ Displays a summary of your latest noise recordings.
 ### Charts Card
 Provides quick access to your long-term sleep trends.
 *   **Browse:** Swipe through different chart categories.
-*   **Open:** Tap to enter the full [Charts section](/docs/sleep/charts).
+*   **Open:** Tap to enter the full [Charts section](/sleep/charts).
 
 ### Advice Card <a id="advicecard"></a>
-Shows a rotating selection of tips from the [Advice section](/docs/sleep/advice). Tap the card to see more personalized insights.
+Shows a rotating selection of tips from the [Advice section](/sleep/advice). Tap the card to see more personalized insights.
 
 ### Goal Card <a id="goalcard"></a>
-Tracks your progress toward an active [Sleep Goal](/docs/sleep/goals). It features two progress bars showing percentage completion and time-based progress.
-*   **Open:** Tapping this card opens the [Advice section](/docs/sleep/advice) for tips on meeting your goal.
+Tracks your progress toward an active [Sleep Goal](/sleep/goals). It features two progress bars showing percentage completion and time-based progress.
+*   **Open:** Tapping this card opens the [Advice section](/sleep/advice) for tips on meeting your goal.
 
 ### Shortcuts Card <a id="shortcut"></a>
 A quick-access panel for common tasks:
-*   **![ic_action_bedtime](/assets/icons/ic_action_bedtime.svg) Sleep X hour:** Starts sleep tracking with an alarm based on your [Daily Sleep Duration Goal](/docs/alarms/bedtime_notification#duration_goal).
+*   **![ic_action_bedtime](/assets/icons/ic_action_bedtime.svg) Sleep X hour:** Starts sleep tracking with an alarm based on your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
 *   **![ic_action_snooze](/assets/icons/ic_action_snooze.svg) Nap:** Starts a tracked nap session using your default smart period settings.
 *   **![plus](/assets/icons/plus.svg) Add Sleep:** Manually log a sleep period you forgot to track.
-*   **![plus](/assets/icons/plus.svg) Add Goal:** Set a new [Sleep Goal](/docs/sleep/goals).
+*   **![plus](/assets/icons/plus.svg) Add Goal:** Set a new [Sleep Goal](/sleep/goals).
 *   **![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) Lullabies:** Instant access to the lullaby player.
 
 > [!NOTE]
-> You can also turn any of these shortcuts into a standalone [home screen widget](/docs/ux/widgets).
+> You can also turn any of these shortcuts into a standalone [home screen widget](/ux/widgets).
 
 ### Add-on Card
 A showcase of available extensions, compatible devices, and other apps from our team. Tapping it opens a full list of add-ons.
@@ -110,6 +110,6 @@ A showcase of available extensions, compatible devices, and other apps from our 
 
 If the Dashboard layout isn't the best fit for your workflow, you can switch to:
 
-*   [**Tabs**](/docs/ux/hs_tabs): A classic interface with swipeable tabs at the top.
-*   [**Alarms only mode**](/docs/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.
+*   [**Tabs**](/ux/hs_tabs): A classic interface with swipeable tabs at the top.
+*   [**Alarms only mode**](/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.
 

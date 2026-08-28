@@ -14,7 +14,7 @@ Allow *Sleep as Android* to synchronize your sleep tracking sessions, heart rate
 > [!WARNING]
 > Google has deprecated the **Google Fit APIs**. For current and future sync compatibility, we strongly recommend using **Health Connect** instead.<br>
 >
-> 👉 See our [Health Connect Setup Guide](/docs/services/health_connect.html) to migrate your sync.
+> 👉 See our [Health Connect Setup Guide](/services/health_connect.html) to migrate your sync.
 
 
 ## Where to Find Settings

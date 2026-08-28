@@ -11,7 +11,7 @@ tags:
 # Power nap
 
 
-**Power Nap** is a specialized version of [Smart Wake Up](/docs/sleep/smart_wake_up). It's designed for situations where you don't have a strict wake-up time, but want to ensure you get a minimum amount of rest and wake up feeling refreshed at the end of a sleep cycle.
+**Power Nap** is a specialized version of [Smart Wake Up](/sleep/smart_wake_up). It's designed for situations where you don't have a strict wake-up time, but want to ensure you get a minimum amount of rest and wake up feeling refreshed at the end of a sleep cycle.
 
 
 ## How it Works

@@ -33,9 +33,9 @@ Built-in lullabies blend repetitive background sounds with gentle, subtle accent
 
 ## Custom Playlists & External Media
 * **Playlists:** Combine multiple built-in tracks into a continuous rotation. The playlist will pick the lullaby based on the last used tracks and will change the melody after 10 minutes.
-* **[Spotify](/docs/sleep/lullaby#spotify_guide):** Stream music, relaxing audio, or sleep playlists directly from your Spotify library.
-* **Online Radio:** Play live ambient streams (e.g., SomaFM stations included by default, or [add your custom URL](/docs/sleep/lullaby#guide_radio).
-* **External Players:** Use your preferred player (audiobooks, podcasts, YouTube Music) alongside Sleep as Android with **[Turn off when sleeping](/docs/sleep/lullaby#turn_off)** feature.
+* **[Spotify](/sleep/lullaby#spotify_guide):** Stream music, relaxing audio, or sleep playlists directly from your Spotify library.
+* **Online Radio:** Play live ambient streams (e.g., SomaFM stations included by default, or [add your custom URL](/sleep/lullaby#guide_radio).
+* **External Players:** Use your preferred player (audiobooks, podcasts, YouTube Music) alongside Sleep as Android with **[Turn off when sleeping](/sleep/lullaby#turn_off)** feature.
 
 ## Guided Meditation
 Incorporate text-to-speech guided meditations directly into your bedtime routine.
@@ -75,7 +75,7 @@ You can also configure stimulating binaural beats into your alarm sound to boost
 ## How-To Guides
 
 ### How to Set Up Spotify Lullabies <a id="lullaby_spotify"></a>
-1. **Configure Spotify Connection:** Go to `Settings` → `Services` → `Spotify` and authorize Sleep as Android to link with your Spotify account. *(For detailed integration instructions, see our [/services/spotify#spotify_set_up](/docs/services/spotify#spotify_set_up) guide).*
+1. **Configure Spotify Connection:** Go to `Settings` → `Services` → `Spotify` and authorize Sleep as Android to link with your Spotify account. *(For detailed integration instructions, see our [/services/spotify#spotify_set_up](/services/spotify#spotify_set_up) guide).*
 2. **Select Spotify Lullaby:** Open `Left ≡ Menu` → `Lullabies` and switch to the **Spotify** tab.
 3. **Pick Your Playlist:** Browse your saved playlists or albums and tap to select the one you want to play at bedtime.
 

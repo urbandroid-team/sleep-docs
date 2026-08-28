@@ -78,6 +78,6 @@ Actions allow outside triggers on your phone to control what Sleep as Android do
 ### Need Inspiration?
 
 Check out our community walkthroughs for step-by-step automation ideas:
-* 🚀 [Tasker Walkthroughs Examples](/docs/services/tasker_walkthroughs)
-* 🤖 [Automate Walkthroughs Examples](/docs/services/automate_walkthroughs)
+* 🚀 [Tasker Walkthroughs Examples](/services/tasker_walkthroughs)
+* 🤖 [Automate Walkthroughs Examples](/services/automate_walkthroughs)
 

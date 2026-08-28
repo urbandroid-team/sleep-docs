@@ -29,7 +29,7 @@ To start receiving events on your server:
 
 ## Data Format
 
-Whenever a [sleep event](/docs/services/automation#events) occurs, Sleep as Android sends an HTTP POST request with a JSON body.
+Whenever a [sleep event](/services/automation#events) occurs, Sleep as Android sends an HTTP POST request with a JSON body.
 
 ### Payload Example:
 ```json
@@ -41,7 +41,7 @@ Whenever a [sleep event](/docs/services/automation#events) occurs, Sleep as Andr
 }
 ```
 
-*   **`event`:** The name of the triggered event (see the full list of [event names here](/docs/services/automation#events)).
+*   **`event`:** The name of the triggered event (see the full list of [event names here](/services/automation#events)).
 *   **`valueX`:** Contextual information related to the event. These fields are omitted if no data is available for that specific event.
 *   **Content-Type:** The request is sent with `application/json`.
 

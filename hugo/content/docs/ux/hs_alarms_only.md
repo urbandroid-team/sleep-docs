@@ -26,7 +26,7 @@ When this mode is active, your home screen is dedicated entirely to your alarm l
 
 *   **Minimalist Interface:** All tracking-related cards, tabs, and buttons are removed, leaving your alarms as the primary focus.
 *   **Simplified Settings:** The app hides tracking-related configuration options (like wearables, sonar, or movement sensitivity) to make managing your wake-up routine easier.
-*   **Essential Support:** You still have full access to advanced alarm tools like [CAPTCHAs](/docs/alarms/captcha), [Gentle Volume](/docs/alarms/alarm_settings#gentle_alarm), and [Backup Alarms](/docs/alarms/backup).
+*   **Essential Support:** You still have full access to advanced alarm tools like [CAPTCHAs](/alarms/captcha), [Gentle Volume](/alarms/alarm_settings#gentle_alarm), and [Backup Alarms](/alarms/backup).
 
 <a id="figure-alarms-only"></a>
 **Alarms only mode interface**
@@ -36,6 +36,6 @@ When this mode is active, your home screen is dedicated entirely to your alarm l
 
 If you find this mode too restrictive, you can choose from our more feature-rich home screen styles:
 
-*   [**Dashboard**](/docs/ux/hs_dashboard): A unified card-based overview of both alarms and sleep data.
-*   [**Tabs**](/docs/ux/hs_tabs): A classic interface with separate, swipeable navigation tabs.
+*   [**Dashboard**](/ux/hs_dashboard): A unified card-based overview of both alarms and sleep data.
+*   [**Tabs**](/ux/hs_tabs): A classic interface with separate, swipeable navigation tabs.
 

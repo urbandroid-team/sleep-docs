@@ -16,7 +16,7 @@ tags:
 Designed specifically for use with **Sleep as Android** and **[Mindroid](https://play.google.com/store/apps/details?id=com.urbandroid.mind)**.
 
 *   **Sunrise Alarm:** Gently transitions from low red to full yellow, waking you up without jarring sounds.
-*   **Master Your Dreams:** Use light cues to trigger and remember [Lucid Dreaming](/docs/sleep/lucid_dreaming).
+*   **Master Your Dreams:** Use light cues to trigger and remember [Lucid Dreaming](/sleep/lucid_dreaming).
 *   **Anti-snoring:** Provides gentle visual cues to encourage position shifts.
 *   **Fast Fall-Asleep:** Use light-stimulated lullabies and Mindroid programs.
 

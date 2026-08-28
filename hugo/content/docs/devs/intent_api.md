@@ -11,7 +11,7 @@ parent: /devs/0parent.html
 
 **Automate your sleep-related tasks or integrate your own apps with Sleep as Android using our flexible Intent API.**
 
-This API allows developers and enthusiasts to trigger actions within Sleep as Android or react to real-time sleep events using automation tools like [Tasker](/docs/services/tasker_automate).
+This API allows developers and enthusiasts to trigger actions within Sleep as Android or react to real-time sleep events using automation tools like [Tasker](/services/tasker_automate).
 
 > **Example:**
 > [Let Google Text To Speech announce your alarm time](https://sites.google.com/site/jmaathuis/android/tasker/sleep-as-android/let-google-text-to-speech-say-on-which-time-your-alarm-goes)
@@ -64,7 +64,7 @@ Sleep as Android broadcasts these events so other apps can react when your sleep
 *   **Alarm Dismissed:** `com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS_AUTO`
 *   **Lullaby Started:** `com.urbandroid.sleep.ACTION_LULLABY_START_PLAYBACK_AUTO`
 *   **Lullaby Stopped:** `com.urbandroid.sleep.ACTION_LULLABY_STOPPED_PLAYBACK_AUTO`
-*   **Lucid Dreaming Cue:** `com.urbandroid.sleep.LUCID_CUE_ACTION_AUTO` (Requires [Lucid Dreaming](/docs/sleep/lucid_dreaming) enabled).
+*   **Lucid Dreaming Cue:** `com.urbandroid.sleep.LUCID_CUE_ACTION_AUTO` (Requires [Lucid Dreaming](/sleep/lucid_dreaming) enabled).
 *   **Anti-snoring Sound:** `com.urbandroid.sleep.ANTISNORING_ACTION_AUTO`
 *   **Audio Recognition:** `com.urbandroid.sleep.audio.SOUND_EVENT_AUTO`
     *   *Frequency:* Max once per 30 seconds.

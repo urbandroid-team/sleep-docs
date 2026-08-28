@@ -26,10 +26,10 @@ You can create a new alarm from several places within the app depending on your 
     Tap the **(![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) Add Alarm)** button located in the bottom right corner.
 
 * **From Your Phone's Home Screen:**
-  Add the **Alarm Icon Widget** to your home screen for quick, one-tap creation. [(Learn more about widgets)](/docs/ux/widgets)
+  Add the **Alarm Icon Widget** to your home screen for quick, one-tap creation. [(Learn more about widgets)](/ux/widgets)
 
 * **Quick Sleep Tracking & Instant Alarm:**
-  Use the **Shortcut Bar** on the Dashboard. This automatically creates a single-use alarm (with *Delete after ringing* enabled) and starts sleep tracking in one smooth step. For more details about Shortcuts, check out the [Dashboard](/docs/ux/hs_dashboard#shortcut) chapter.
+  Use the **Shortcut Bar** on the Dashboard. This automatically creates a single-use alarm (with *Delete after ringing* enabled) and starts sleep tracking in one smooth step. For more details about Shortcuts, check out the [Dashboard](/ux/hs_dashboard#shortcut) chapter.
 
 ## Options for Entering the Alarm Time
 
@@ -55,7 +55,7 @@ Tap the numerical text box and type your target time directly in 24-hour **HHMM*
   > [!NOTE]
   > Requires location permissions enabled on your device.
 
-* **Sleep Goal Alarm:** Tap the **![ic_target](/assets/icons/ic_target.svg)** target button. The app will calculate your ideal wake-up time based on when you go to bed to help you hit your [Daily Sleep Duration Goal](/docs/alarms/bedtime_notification#duration_goal).
+* **Sleep Goal Alarm:** Tap the **![ic_target](/assets/icons/ic_target.svg)** target button. The app will calculate your ideal wake-up time based on when you go to bed to help you hit your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
 
 ## Editing & Managing Alarms
 

@@ -30,7 +30,7 @@ To start publishing events to your broker:
 
 ## Data Format
 
-Whenever a [sleep event](/docs/services/automation#events) occurs (e.g., tracking starts, or an alarm is snoozed), Sleep as Android publishes a JSON message to the **`SleepAsAndroid`** topic.
+Whenever a [sleep event](/services/automation#events) occurs (e.g., tracking starts, or an alarm is snoozed), Sleep as Android publishes a JSON message to the **`SleepAsAndroid`** topic.
 
 ### Message Payload Example:
 ```json
@@ -42,7 +42,7 @@ Whenever a [sleep event](/docs/services/automation#events) occurs (e.g., trackin
 }
 ```
 
-*   **`event`:** The name of the triggered event (see the full list of [event names here](/docs/services/automation#events)).
+*   **`event`:** The name of the triggered event (see the full list of [event names here](/services/automation#events)).
 *   **`valueX`:** Contextual data associated with the event (e.g., alarm labels or timestamps). These fields are only included if data is available.
 
 ---

@@ -16,7 +16,7 @@ tags:
 > **Device Compatibility Note:**
 > This guide applies to **modern Samsung Galaxy Watches running Wear OS / One UI Watch** (Galaxy Watch 4, Watch 5, Watch 6, Watch 7, Watch FE, and Watch Ultra).
 >
-> If you are using an **older Samsung watch running Tizen OS** (such as Galaxy Watch 3, Gear S3, or Gear Sport), please head over to our **[Legacy Samsung Gear / Galaxy Watch Guide](/docs/devices/samsung_gear)**.
+> If you are using an **older Samsung watch running Tizen OS** (such as Galaxy Watch 3, Gear S3, or Gear Sport), please head over to our **[Legacy Samsung Gear / Galaxy Watch Guide](/devices/samsung_gear)**.
 
 ## Supported One UI Watch Models
 
@@ -36,7 +36,7 @@ tags:
 
 > [!WARNING]
 > **Platform Limitations on One UI Watch:**
-> Samsung restricts third-party app access to raw **SpO<sub>2</sub> (blood oxygen)** and **HRV (Heart Rate Variability)** sensors on One UI Watch devices. These metrics cannot currently be streamed directly to third-party sleep tracking apps, however you can use [Health Connect](/docs/services/health_connect) to sync the missing data for the graph.
+> Samsung restricts third-party app access to raw **SpO<sub>2</sub> (blood oxygen)** and **HRV (Heart Rate Variability)** sensors on One UI Watch devices. These metrics cannot currently be streamed directly to third-party sleep tracking apps, however you can use [Health Connect](/services/health_connect) to sync the missing data for the graph.
 
 
 ## Step-by-Step Setup Guide
@@ -87,7 +87,7 @@ To prevent Samsung's One UI software or Android power management from disconnect
 * 👉  *Fix:* You can sync these metrics via Health Connect!
     1. Enable SpO<sub>2</sub> / HRV tracking inside the official **Samsung Health** app.
     2. Connect both Samsung Health and Sleep as Android to Android's **Health Connect** framework.
-    3. Sleep as Android will automatically import the health metrics after your sleep session ends. [Full instructions here](/docs/services/health_connect).
+    3. Sleep as Android will automatically import the health metrics after your sleep session ends. [Full instructions here](/services/health_connect).
 </details>
 
 <details>

@@ -28,7 +28,7 @@ We do our best to offer full-featured support for every wearable out there! Howe
 ## Setup Instructions
 
 > [!NOTE]
-> Garmin integration does not support testing the sensor with [Test sensor](/docs/sleep/sleep_tracking#test_sensor).
+> Garmin integration does not support testing the sensor with [Test sensor](/sleep/sleep_tracking#test_sensor).
 
 ### Choosing the Right Garmin Watch App Version
 

@@ -309,8 +309,8 @@ If you want to rename or clean up a tag across your entire sleep history:
 
 The real magic of tagging happens in your analytics:
 
-- **[Charts](/docs/sleep/charts):** Filter your sleep graphs by tag to view specific nights side-by-side.
-- **[Statistics](/docs/sleep/statistics):** Open the `Stats` screen and expand the `Tags` section.
+- **[Charts](/sleep/charts):** Filter your sleep graphs by tag to view specific nights side-by-side.
+- **[Statistics](/sleep/statistics):** Open the `Stats` screen and expand the `Tags` section.
 
 Here, you can compare your overall baseline metrics (such as average sleep duration, deep sleep percentage, or snoring count) against nights with a specific tag.
 

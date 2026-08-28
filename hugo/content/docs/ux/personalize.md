@@ -20,10 +20,10 @@ Navigate to `Settings` → `Personalize` to tailor the app to your preferences:
 
 | Setting | What it Does | Options / Behavior |
 | :--- | :--- | :--- |
-| **Stats** | Access your long-term sleep statistics. | Direct link to the [Statistics chapter](/docs/sleep/statistics). |
-| **Privacy** | Manage data collection and ad preferences. | Direct link to the [Privacy chapter](/docs/general/privacy). |
-| **Home screen** | Choose your preferred layout mode for the app's main view. | **[Dashboard](/docs/ux/hs_dashboard)**, **[Tabs](/docs/ux/hs_tabs)**, or **[Alarms only](/docs/ux/hs_alarms_only)**. |
-| **[Morning screen](#morning_screen_set)** | Choose which screen appears after you finish tracking. | **[Morning briefing](/docs/sleep/how_to_read_sleep_graphs#morning_screen)**, **Graphs**, **Dashboard**, or **Disabled**. |
+| **Stats** | Access your long-term sleep statistics. | Direct link to the [Statistics chapter](/sleep/statistics). |
+| **Privacy** | Manage data collection and ad preferences. | Direct link to the [Privacy chapter](/general/privacy). |
+| **Home screen** | Choose your preferred layout mode for the app's main view. | **[Dashboard](/ux/hs_dashboard)**, **[Tabs](/ux/hs_tabs)**, or **[Alarms only](/ux/hs_alarms_only)**. |
+| **[Morning screen](#morning_screen_set)** | Choose which screen appears after you finish tracking. | **[Morning briefing](/sleep/how_to_read_sleep_graphs#morning_screen)**, **Graphs**, **Dashboard**, or **Disabled**. |
 | **Theme** | Set the background color and font style of the app. | **Automatic**, **Night owl**, **Morning lark**, or **Device settings**. |
 | **[Color palette](#color_palette)** | Select a color scheme for your sleep graphs. | 7 schemes available. |
 | **Animations** | Enable or disable screen transition animations and CAPTCHA emojis. | Toggle OFF for a faster, minimalist feel. |
@@ -51,7 +51,7 @@ Navigate to `Settings` → `Personalize` to tailor the app to your preferences:
 
 If you use the **Morning Briefing**, you can further customize which tiles are visible:
 *   **Weather:** Toggle the weather forecast tile.
-*   **Automatic sleep tagging:** Enables [automatic tags](/docs/sleep/tags#tags_auto).
+*   **Automatic sleep tagging:** Enables [automatic tags](/sleep/tags#tags_auto).
 *   **Hide stats before rating:** This will hide your sleep results until you provide a subjective rating—useful if you feel seeing the data might influence your score.
 
 <a id="color_palette"></a>

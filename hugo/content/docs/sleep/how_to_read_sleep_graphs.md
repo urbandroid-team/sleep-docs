@@ -40,7 +40,7 @@ The primary card displays your **Sleep Score** in the top right, supported by co
 * **Secondary Indicators:** Look at the secondary numbers beneath each label for vital context—such as exact minutes of snoring detected or the gap between actual sleep and your goal.
 * **Color coding:** Green number indicates a score in the healthy range, while red highlights a score in an unfavorable range.
 
-Need a full breakdown? Read our [Sleep Score guide](/docs/sleep/sleepscore) to learn more.
+Need a full breakdown? Read our [Sleep Score guide](/sleep/sleepscore) to learn more.
 
 > **Note:** If your Sleep Score card is missing, you may have *"Hide stats before rating"* enabled in settings.
 
@@ -115,7 +115,7 @@ The Full Graph view also serves as an editing suite:
 * **Trim Graph:** Adjust start and end times if tracking started too early or was left running.
 * **Undo Changes:** An **Undo** banner appears whenever you make edits (up to 5 actions can be reverted). Alternatively, go to `⋮ Menu` (in the top right corner of each graph) → `Undo`.
 
-Full guide for graph editing is available in [this section](/docs/sleep/graph_edit).
+Full guide for graph editing is available in [this section](/sleep/graph_edit).
 
 ## Something is not right
 
@@ -123,7 +123,7 @@ Sleep tracking is a delicate science! If your results seem off, it’s usually b
 
 ### First Aid
 
-✔️ **Check your setup:** Double-check your phone placement to ensure the sensors can accurately track your rest ([see infographic here](/docs/sleep/sleep_tracking#guide)).
+✔️ **Check your setup:** Double-check your phone placement to ensure the sensors can accurately track your rest ([see infographic here](/sleep/sleep_tracking#guide)).
 
 👉 **Let’s investigate:** If the setup looks good but the graph is still weird, we want to help. Send us your application logs in the morning so we can take a closer look: `Left ☰ Menu` → `Support` → `Report a bug`.
 
@@ -131,11 +131,11 @@ If your graph looks unusual, use the table below to identify the issue and find 
 
 | What you see | Possible Cause | How to fix it |
 | :--- | :--- | :--- |
-| **Red sections** | Sensor data were lost | [Disable optimizations](/docs/sleep/graph_edit#disable_optimizations) |
-| **Flat noise graph** | Mic access lost | [Disable optimizations](/docs/sleep/graph_edit#disable_optimizations_mic) |
-| **Duration too long** | Tracking wasn't stopped | [Trim graph](/docs/sleep/graph_edit#trim_guide) |
-| **Duration too short** | Too many awakes | [Adjust sensitivity](/docs/sleep/graph_edit#awake-settings) or [add missing sleep](/docs/sleep/graph_edit#add_sleep) |
-| **Missed awakes** | Low sensitivity | [Adjust sensitivity](/docs/sleep/graph_edit#awake-settings) |
+| **Red sections** | Sensor data were lost | [Disable optimizations](/sleep/graph_edit#disable_optimizations) |
+| **Flat noise graph** | Mic access lost | [Disable optimizations](/sleep/graph_edit#disable_optimizations_mic) |
+| **Duration too long** | Tracking wasn't stopped | [Trim graph](/sleep/graph_edit#trim_guide) |
+| **Duration too short** | Too many awakes | [Adjust sensitivity](/sleep/graph_edit#awake-settings) or [add missing sleep](/sleep/graph_edit#add_sleep) |
+| **Missed awakes** | Low sensitivity | [Adjust sensitivity](/sleep/graph_edit#awake-settings) |
 
 ## ❓ FAQs & Troubleshooting
 
@@ -191,14 +191,14 @@ For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 <details>
 <summary><strong>My sleep start or end time is wrong. Can I fix it?</strong></summary>
 
-* Yes! Tap on any graph card to open the **Full Graph / Edit Screen**. From there, you can crop or trim the start and end times of your tracking session to reflect when you actually fell asleep or woke up. See full guide at [this chapter](/docs/sleep/graph_edit).
+* Yes! Tap on any graph card to open the **Full Graph / Edit Screen**. From there, you can crop or trim the start and end times of your tracking session to reflect when you actually fell asleep or woke up. See full guide at [this chapter](/sleep/graph_edit).
 </details>
 
 
 <details>
 <summary><strong>What do the blue O<sub>2</sub> bubbles on my graph mean?</strong></summary>
 
-* An **O<sub>2</sub> icon** ![O2 icon](/assets/icons/ic_action_cpap.svg) indicates a **desaturation event** (a temporary drop in blood oxygen levels). Frequent drops contribute to your **[Respiratory Disturbance Index (RDI)](/docs/sleep/breath_rate#rdi)**, which can be an early indicator of sleep apnea.
+* An **O<sub>2</sub> icon** ![O2 icon](/assets/icons/ic_action_cpap.svg) indicates a **desaturation event** (a temporary drop in blood oxygen levels). Frequent drops contribute to your **[Respiratory Disturbance Index (RDI)](/sleep/breath_rate#rdi)**, which can be an early indicator of sleep apnea.
 </details>
 
 

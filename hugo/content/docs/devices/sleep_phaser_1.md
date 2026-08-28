@@ -17,7 +17,7 @@ tags:
 ## What Sleep Phaser Can Do
 
 * **Contactless Motion & Breath Tracking:** Built-in PIR sensor detects body movement and breathing without requiring anything in your bed or on your wrist.
-* **[Sunrise & Smart Light](/docs/devices/smart_light):** Gently wakes you up with a warm sunrise emulation and supports nightlight/pee-light, anti-snoring, and lucid dreaming visual cues.
+* **[Sunrise & Smart Light](/devices/smart_light):** Gently wakes you up with a warm sunrise emulation and supports nightlight/pee-light, anti-snoring, and lucid dreaming visual cues.
 
 ## Controls & Light Modes
 

@@ -32,18 +32,18 @@ These settings define the baseline behavior across all alarms set in `Settings` 
 
 | Setting | Description |
 | :--- | :--- |
-| **[Smart wake up](/docs/sleep/smart_wake_up)** | By detecting light sleep within your wake-up window, the app catches the perfect moment to wake you up. |
-| **[CAPTCHA](/docs/alarms/captcha)** | Select a mandatory CAPTCHA task to solve before turning alarms. Perfect solution for heavy sleepers. |
-| **[Sound](/docs/alarms/ringtone)** | Pick the perfect melody for perfect mornings. |
+| **[Smart wake up](/sleep/smart_wake_up)** | By detecting light sleep within your wake-up window, the app catches the perfect moment to wake you up. |
+| **[CAPTCHA](/alarms/captcha)** | Select a mandatory CAPTCHA task to solve before turning alarms. Perfect solution for heavy sleepers. |
+| **[Sound](/alarms/ringtone)** | Pick the perfect melody for perfect mornings. |
 | **[Gentle Wake up](#gentle_wake_up)** | A combination of features for a peaceful wake-up, including gradual volume ramp-up, independent vibration timing, and sunrise light emulation (via phone screen or external smart bulbs). |
-| **[Bedtime notification](/docs/alarms/bedtime_notification)** | Sends you a reminder to get ready for sleep in time. |
-| **[Snooze](/docs/alarms_snooze)** | Lets you temporarily delay your wake-up. |
+| **[Bedtime notification](/alarms/bedtime_notification)** | Sends you a reminder to get ready for sleep in time. |
+| **[Snooze](/alarms_snooze)** | Lets you temporarily delay your wake-up. |
 | **Fullscreen alarm** | Ensures alarms display full-screen over the lockscreen instead of appearing as a small heads-up notification banner. <br>*Requires granting the **Display / Draw over other apps** permission in System Settings.* |
 | **Flip to snooze** | Turn your phone face-down (or face-up) to instantly snooze the alarm. |
 | **Long press** | Requires holding down the Dismiss button for several seconds to prevent accidental turn-offs while half-asleep. |
 | **No screen orientation changes** | Locks the screen orientation during an active alarm to prevent accidental touches or premature snoozing caused by screen rotation. |
 | **Volume or camera button effect** | Reassign physical device buttons to snooze or dismiss. |
-| **[Backup alarm](/docs/alarms/backup)** | Fail-safe alarm that triggers if your main alarm is left unhandled. |
+| **[Backup alarm](/alarms/backup)** | Fail-safe alarm that triggers if your main alarm is left unhandled. |
 | **Alarm timeout** | Sets how long your alarm will ring without a response before the application realizes you haven't woken up. Once time runs out, it automatically switches to a high-volume Backup Alarm. |
 | **Alarm output** | You can force audio through media sound stream into headphones to keep your wake-up routine private. ⚠️ Test first! |
 
@@ -61,13 +61,13 @@ These features can be tailored individually inside each alarm card to fit specif
 | **Repeat Rules** | Choose between weekly repeats, bi-weekly schedules (*Odd / Even weeks*), or non-weekly day intervals (e.g., *Every 3rd day*). |
 | **Repeat** | Select which days of the week the alarm should trigger (e.g., Weekdays, Weekends, or specific days). |
 | **Next Alarm Date** | Temporarily change the exact date of the next occurrence (e.g., shift tomorrow's 6:00 AM alarm to 8:00 AM for a single day—it automatically reverts afterward). |
-| **[Smart period](/docs/sleep/smart_wake_up )** | Adjust the smart wake-up period for this alarm. Use a wider window for workdays and a tighter or disabled window for weekends. |
-| **[CAPTCHA](/docs/alarms/captcha)** | Require a specific puzzle or task (Math, QR code, NFC, etc.) to dismiss high-importance alarms. |
-| **[Wake up check](/docs/alarms/captcha#wake_up_check)** | Acts as a safety net by asking *"Are you still awake?"* shortly after you've dismissed the alarm. |
-| **[Sound](/docs/alarms/ringtone)** | Select the ringtone, custom music, online stream, or Spotify playlist for this specific alarm. |
+| **[Smart period](/sleep/smart_wake_up )** | Adjust the smart wake-up period for this alarm. Use a wider window for workdays and a tighter or disabled window for weekends. |
+| **[CAPTCHA](/alarms/captcha)** | Require a specific puzzle or task (Math, QR code, NFC, etc.) to dismiss high-importance alarms. |
+| **[Wake up check](/alarms/captcha#wake_up_check)** | Acts as a safety net by asking *"Are you still awake?"* shortly after you've dismissed the alarm. |
+| **[Sound](/alarms/ringtone)** | Select the ringtone, custom music, online stream, or Spotify playlist for this specific alarm. |
 | **[Gentle Volume](#gentle_volume)** | Ramps audio up gradually from zero to maximum loudness over a duration ranging from 30 seconds to 24 minutes. |
-| **[Bedtime notification](/docs/alarms/bedtime_notification)** | Sends you a friendly *"Time to go to bed!"* reminder so you have enough time to wind down and get ready for sleep. |
-| **[Snooze](/docs/alarms/snooze)** | Cap the total number of allowed snoozes or maximum snooze duration for this alarm. |
+| **[Bedtime notification](/alarms/bedtime_notification)** | Sends you a friendly *"Time to go to bed!"* reminder so you have enough time to wind down and get ready for sleep. |
+| **[Snooze](/alarms/snooze)** | Cap the total number of allowed snoozes or maximum snooze duration for this alarm. |
 | **Terminate tracking** | Automatically ends current sleep tracking when the alarm is dismissed. |
 | **Delete After Ringing** | Automatically deletes the alarm card completely once dismissed. *(Enabled by default for Naps).* |
 

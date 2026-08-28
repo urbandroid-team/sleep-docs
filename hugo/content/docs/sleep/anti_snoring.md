@@ -14,7 +14,7 @@ tags:
 
 The **Anti-snoring** feature monitors for snoring sounds while you track your sleep and uses gentle audio cues or subtle vibrations to prompt you (or your partner) to change positions and stop snoring.
 
-In addition to audio and vibration alerts, you can also set compatible **[Smartlight](/docs/devices/smart_light)** devices to flash when snoring is detected.
+In addition to audio and vibration alerts, you can also set compatible **[Smartlight](/devices/smart_light)** devices to flash when snoring is detected.
 
 > ⚠️ **Warning**
 > Anti-snoring prompts (similar to Lucid Dreaming features) can interrupt your sleep. We strongly recommend using the **Preview** function before sleeping to ensure the intensity isn't too strong.

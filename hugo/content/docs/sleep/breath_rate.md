@@ -40,7 +40,7 @@ Sleep as Android displays your breathing and oxygen metrics directly alongside y
 
 ## Understanding RDI (Respiratory Disturbance Index) <a id="rdi"></a>
 
-RDI measures how many times per hour your breathing was interrupted or noticeably slowed down. Monitoring RDI is essential for detecting potential sleep issues such as **[sleep apnea](/docs/sleep/sleep_apnea)**.
+RDI measures how many times per hour your breathing was interrupted or noticeably slowed down. Monitoring RDI is essential for detecting potential sleep issues such as **[sleep apnea](/sleep/sleep_apnea)**.
 
 ### RDI Score Breakdown
 
@@ -57,11 +57,11 @@ RDI measures how many times per hour your breathing was interrupted or noticeabl
 
 You don't need extra wearables to start tracking your breath rate. Sleep as Android offers multiple measurement methods:
 
-### [Sonar](/docs/devices/sonar)
+### [Sonar](/devices/sonar)
 * **How it works:** Uses your smartphone’s speaker and microphone to emit ultrasonic signals that track subtle chest and abdominal movements.
 
 
-### [Sleep Phaser](/docs/devices/sleep_phaser_2)
+### [Sleep Phaser](/devices/sleep_phaser_2)
 * **How it works:** A smart bedside lamp with contactless sensors that track breathing movements without touching you.
 
 
@@ -73,7 +73,7 @@ You don't need extra wearables to start tracking your breath rate. Sleep as Andr
 Direct SpO₂ tracking provides higher accuracy and deeper insights into potential sleep apnea.
 
 ### Bluetooth Pulse Oximeters
-Dedicated pulse oximeters offer continuous, precise oxygen monitoring. Check the full guide on compatible oximeters in the [chapter about oximeter](/docs/devices/oximeter).)
+Dedicated pulse oximeters offer continuous, precise oxygen monitoring. Check the full guide on compatible oximeters in the [chapter about oximeter](/devices/oximeter).)
 * **Navigation Path:**
   `Settings` → `Sleep tracking` → `Wearables` → `Pulse oximeter (Bluetooth)`
 
@@ -82,7 +82,7 @@ Reads SpO₂ data directly from supported smartwatches.
 * **Navigation Path:**
   `Settings` → `Sleep tracking` → `Wearables` → `Pulse oximeter (Wear OS, Garmin...)`
 
-> ⚠️ **Note:** Device compatibility varies by manufacturer. Check our [official compatibility table](/docs/devices/supported_wearable) if your wearable is not sending SpO₂ data.
+> ⚠️ **Note:** Device compatibility varies by manufacturer. Check our [official compatibility table](/devices/supported_wearable) if your wearable is not sending SpO₂ data.
 
 ## Low Breath Rate Alarm
 

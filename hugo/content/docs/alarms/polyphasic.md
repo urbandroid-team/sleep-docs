@@ -19,7 +19,7 @@ Normally, bedtime notifications are calculated globally based on your main alarm
 You can override the global defaults for any specific alarm to set a nap-specific duration and notification window.
 
 > [!NOTE]
-> Setting a per-alarm sleep goal only affects that specific alarm's notifications; it does not change your overall [Daily Sleep Duration Goal](/docs/alarms/bedtime_notification#duration_goal).
+> Setting a per-alarm sleep goal only affects that specific alarm's notifications; it does not change your overall [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
 
 ## How to Set Up a Polyphasic Nap
 

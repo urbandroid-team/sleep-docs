@@ -28,7 +28,7 @@ When you enable Smart Wake-up, you define a **Smart period** (a time window befo
 > *   **Result:** The app will wake you between 7:30 AM and 8:00 AM once it detects you are in a light sleep phase. Your set alarm time (8:00 AM) remains the absolute latest possible wake-up time.
 
 > [!NOTE]
-> Smart Wake-up requires active sleep tracking to detect your sleep phases. If you prefer not to track all night, you can use the **Smart Period** option with [Automatic Sleep Tracking](/docs/sleep/automatic_sleep_tracking).
+> Smart Wake-up requires active sleep tracking to detect your sleep phases. If you prefer not to track all night, you can use the **Smart Period** option with [Automatic Sleep Tracking](/sleep/automatic_sleep_tracking).
 
 ## Key Settings Explained
 
@@ -36,7 +36,7 @@ When you enable Smart Wake-up, you define a **Smart period** (a time window befo
 Choose the duration of the wake-up window before your alarm.
 *   **Disabled:** The alarm triggers exactly at the set time.
 *   **Duration:** Select from 5 minutes up to several hours.
-*   **Power Nap:** A special mode that wakes you *after* the alarm time. [Learn more here](/docs/alarms/power_nap).
+*   **Power Nap:** A special mode that wakes you *after* the alarm time. [Learn more here](/alarms/power_nap).
 
 ### Nap Smart Period
 Sets the wake-up window specifically for naps started via shortcuts or the tracking screen.
@@ -49,7 +49,7 @@ Adjusts how much movement is required to trigger the alarm.
 *   **Low Sensitivity:** Requires more pronounced body movement.
 
 ### Not Before My Sleep Goal
-Prevents the alarm from triggering until you have reached your [Daily Sleep Duration Goal](/docs/alarms/bedtime_notification#duration_goal) or your originally scheduled alarm time.
+Prevents the alarm from triggering until you have reached your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal) or your originally scheduled alarm time.
 
 > [!WARNING]
 > This option can sometimes make Smart Wake-up ineffective, as the app may be forced to ignore light sleep phases in favor of meeting your duration target.
@@ -80,7 +80,7 @@ Prevents the alarm from triggering until you have reached your [Daily Sleep Dura
 * **Cause A: Movement sensitivity is set too low.** The app isn't detecting enough movement to register light sleep.
   * *Fix:* Increase sensitivity under `Settings` → `Alarms` → `Smart wake up` → `Movement intensity`.
 * **Cause B: Sleep tracking isn't running.** Smart Wakeup requires active sensor data to estimate sleep stages.
-  * *Fix:* Ensure sleep tracking is running during the night, or use **[Automatic Tracking](/docs/sleep/automatic_sleep_tracking)**.
+  * *Fix:* Ensure sleep tracking is running during the night, or use **[Automatic Tracking](/sleep/automatic_sleep_tracking)**.
 * **Cause C: Sleep Goal enforcement conflict.** If you have `**Not Before My Sleep Goal**` enabled, the app may prioritize hitting your daily goal over ringing early over ringing earlier during the optimzal moment.
 </details>
 
@@ -89,8 +89,8 @@ Prevents the alarm from triggering until you have reached your [Daily Sleep Dura
 
 * **Cause:** Movement from a partner sharing the bed can inadvertently trigger your phone's motion sensor or sonar.
 * **Fix:**
-  * Enable **[Pair Tracking](/docs/sleep/pair_tracking)** so both phones can cross-reference movement and filter out partner motion.
-  * Use a **[wearable device](/docs/devices/supported_wearable)** for sleep tracking, as it only measures *your* personal body movement.
+  * Enable **[Pair Tracking](/sleep/pair_tracking)** so both phones can cross-reference movement and filter out partner motion.
+  * Use a **[wearable device](/devices/supported_wearable)** for sleep tracking, as it only measures *your* personal body movement.
 </details>
 
 <details>
