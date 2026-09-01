@@ -39,7 +39,7 @@ Advice feedback is broken down into three simple card types:
 * **Congrats**
   Celebrates positive sleep developments (e.g., *"Your snoring is down by 5 minutes lately"* or *"Your sleep irregularity is under 20 minutes"*).
 * **Caution**
-  Highlights areas that need attention and provides actionable recommendations or links to set up [Goals](https://sleep.urbandroid.org/docs/sleep/goals.html) (e.g., *"Your duration is down by 30 minutes lately"* or *"Your snoring is over 50 minutes"*).
+  Highlights areas that need attention and provides actionable recommendations or links to set up [Goals](https://sleep.urbandroid.org/sleep/goals.html) (e.g., *"Your duration is down by 30 minutes lately"* or *"Your snoring is over 50 minutes"*).
 * **Neutral**
   Provides insightful context or observational data that isn't directly good or bad (e.g., *"Others in your country are getting 54 minutes more sleep duration"* or patterns linked to custom tags).
 

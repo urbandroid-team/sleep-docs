@@ -9,13 +9,12 @@
   {{- $path = strings.TrimSuffix "/_index" $path -}}
   {{- $path = strings.TrimSuffix "/" $path -}}
 
-  {{- /* Look up page in current context, or try /docs/ prefix, or root lookup */ -}}
+  {{- /* Remove legacy /docs/ prefix from lookup path if present */ -}}
+  {{- $path = strings.TrimPrefix "/docs/" (printf "/%s" (strings.TrimPrefix "/" $path)) -}}
+  {{- $path = strings.TrimPrefix "/" $path -}}
+
+  {{- /* Look up page in current context, or root lookup */ -}}
   {{- $targetPage := .Page.GetPage $path -}}
-  {{- if not $targetPage -}}
-    {{- if not (strings.HasPrefix $path "/docs") -}}
-      {{- $targetPage = .Page.GetPage (printf "/docs/%s" (strings.TrimPrefix "/" $path)) -}}
-    {{- end -}}
-  {{- end -}}
   {{- if not $targetPage -}}
     {{- $targetPage = .Page.Site.GetPage $path -}}
   {{- end -}}
@@ -26,6 +25,12 @@
     {{- $destination = (.Page.Resources.Get $path).RelPermalink -}}
   {{- else if resources.Get $path -}}
     {{- $destination = (resources.Get $path).RelPermalink -}}
+  {{- else -}}
+    {{- /* Fallback to root-relative path if page lookup fails */ -}}
+    {{- $destination = printf "/%s" $path -}}
+    {{- if not (strings.Contains $path ".") -}}
+      {{- $destination = printf "%s.html" $destination -}}
+    {{- end -}}
   {{- end -}}
 
   {{- with $url.RawQuery -}}

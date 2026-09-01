@@ -18,7 +18,7 @@ The goal of your first night is to find the "perfect window" to wake up. The res
 *   ✔️ **Start Tracking:** Tap the <code><img src="/assets/icons/ic_action_track.svg" style="height: 1.2em; vertical-align: middle; margin-right: 4px;" />Start sleep tracking</code> button on the main screen.
 *   ✔️ **Place Phone:** Place the phone on your mattress, screen down, and ensure Do Not Disturb (DND) is on.
 
-<a id="apnea-anatomy"></a>
+<a id="phone_placement"></a>
 **Phone placement**
 ![Phone position](/assets/images/position.png)
 
