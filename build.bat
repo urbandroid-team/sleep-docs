@@ -1,4 +1,4 @@
 @echo off
 cd hugo
-hugo --minify --cleanDestinationDir
+hugo --minify
 pause
