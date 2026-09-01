@@ -1,16 +1,15 @@
-baseURL = '/docs/'
+baseURL = '/'
 title = 'Sleep as Android Docs'
 theme = 'hugo-book'
 uglyURLs = true
-publishDir = '../public/docs'
 
 # Configure basic Hugo behavior
 disablePathToLower = false
 enableGitInfo = false
 disableKinds = ["taxonomy", "term"]
 
-# Disable relative URLs to ensure paths are absolute from root
-relativeURLs = false
+# Enable relative URLs to ensure assets and links work in any environment
+relativeURLs = true
 canonifyURLs = false
 
 [markup]
