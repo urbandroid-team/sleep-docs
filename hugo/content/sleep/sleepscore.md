@@ -28,11 +28,9 @@ Each metric is represented by a circular **progress ring** (or *tachometer* disp
 - **Green numbers:** Indicates that a specific metric falls within the **healthy target range**.
 - **Red numbers:** Highlights metrics that are in an **unfavourable range** requiring attention.
 
-> *Custom Colors Tip:** You can choose between app-theme colors or distinct metric color-coding via `Settings` → `Personalize` → `Stats` → `Color palette`.
+> **Custom Colors Tip:** You can choose between app-theme colors or distinct metric color-coding via `Settings` → `Personalize` → `Stats` → `Color palette`.
 
 > **⚡ Metric Priority Tip:** If certain metrics matter more to you than others, you can rearrange their display order via `Settings` → `Personalize` → `Stats` → `Prioritize`.
-
-> **💡 Note on Missing Metrics:** If a specific dimension card/chart is missing, your device may l
 
 
 ## The Sleep Score Dimensions
@@ -41,22 +39,25 @@ Here is a quick overview of the metrics:
 
 | Dimension | Description | Healthy Range | Unfavorable Range |
 | :--- | :--- | :--- | :--- |
-| **Overall Score** | Combined result of all other metrics. | Close to 100% | Under 50% |
-| **Duration** | Total amount of time spent sleeping. | 6.5h – 9h (adjusted for age) | Under 6.5h or Over 9h |
-| **Regularity** | Consistency of sleep/wake times and SRI. | SRI > 80, Variance < 30m | SRI < 60, Variance > 1h |
-| **Deep Sleep %** | Portion of sleep spent in the deep phase. | Over 30% | Under 20% |
-| **Efficiency** | Ratio of actual sleep to time in bed. | Over 95% | Under 85% |
-| **HR** | Resting median heart rate (bpm). | 35-55 | Over 60 |
-| **HRV Gain** | Recovery measure via Heart Rate Variability. | Over +2 | Under -5 |
-| **Disturbances** | Breathing disturbance episodes per hour. | Under 10 | Over 20 |
-| **Snoring** | Ratio of snoring duration to sleep duration. | Under 3% | Over 10% |
-| **Rating** | Your subjective morning sleep rating. | Over 3.5 Stars | Under 2 Stars |
+| **[Overall Score](#overall_score)** | Combined result of all other metrics. | Close to 100% | Under 50% |
+| **[Duration](#duration)** | Total amount of time spent sleeping. | 6.5h – 9h (adjusted for age) | Under 6.5h or Over 9h |
+| **[Regularity](#regularity)** | Consistency of sleep/wake times and SRI. | SRI > 80, Variance < 30m | SRI < 60, Variance > 1h |
+| **[Deep Sleep %](#deep_sleep)** | Portion of sleep spent in the deep phase. | Over 30% | Under 20% |
+| **[Efficiency](#efficiency)** | Ratio of actual sleep to time in bed. | Over 95% | Under 85% |
+| **[HR](#hr)** | Resting median heart rate (bpm). | 35-55 | Over 60 |
+| **[HRV Gain](#hrv_gain)** | Recovery measure via Heart Rate Variability. | Over +2 | Under -5 |
+| **[Disturbances](#disturbances)** | Breathing disturbance episodes per hour. | Under 10 | Over 20 |
+| **[Snoring](#snoring)** | Ratio of snoring duration to sleep duration. | Under 3% | Over 10% |
+| **[Rating](#rating)** | Your subjective morning sleep rating. | Over 3.5 Stars | Under 2 Stars |
+
+<a id="overall_score"></a>
 
 ### Overall Score
 Combines all available metrics into one easy-to-read percentage.
 - **Values Shown:** Overall score percentage ($0–100\%$).
 - **Target Goal:** As close to **100%** as possible.
 
+<a id="duration"></a>
 
 ### Duration
 Measures total time spent sleeping compared to your daily sleep goal.
@@ -73,6 +74,7 @@ Measures total time spent sleeping compared to your daily sleep goal.
 > - **Young Adult:** 7.0 – 9.0 hrs
 > - **Elderly:** 6.0 – 9.0 hrs
 
+<a id="deep_sleep"></a>
 
 ### Deep Sleep
 Evaluates how much time you spent in restorative deep sleep phases.
@@ -81,12 +83,16 @@ Evaluates how much time you spent in restorative deep sleep phases.
 - **Healthy Target:** **> 30%** of total sleep.
 - **Unfavourable:** **< 20%**.
 
+<a id="efficiency"></a>
+
 ### Efficiency
 Measures how much of your time in bed was actually spent sleeping vs. lying awake.
 - **Top Value:** Sleep-to-awake ratio percentage.
 - **Bottom Value:** Total time spent awake during the night.
 - **Healthy Target:** **> 95%**.
 - **Unfavourable:** **< 85%**. A low efficiency score often indicates long periods of being awake during the night.
+
+<a id="regularity"></a>
 
 ### Regularity
 Measures consistency in your sleep schedule based on the **[Sleep Regularity Index (SRI)](/sleep/chrono_jetlag#sri)** and mid-sleep hour variance.
@@ -95,11 +101,15 @@ Measures consistency in your sleep schedule based on the **[Sleep Regularity Ind
 - **Healthy Target:** SRI **> 80** and mid-sleep variance **< 0.5 hours**.
 - **Unfavourable:** SRI **< 60** or mid-sleep variance **> 1.0 hour**.
 
+<a id="hr"></a>
+
 ### Heart Rate (HR)
 Tracks your resting median heart rate while sleeping.
 - **Top Value:** Median heart rate (bpm).
 - **Bottom Value:** Minimum heart rate reached during the night.
 - **Healthy Target:** **35 – 55 bpm**.
+
+<a id="hrv_gain"></a>
 
 ### HRV Gain
 Tracks recovery by comparing your Heart Rate Variability (HRV) during your first low-activity period to your last low-activity period before waking.
@@ -108,11 +118,15 @@ Tracks recovery by comparing your Heart Rate Variability (HRV) during your first
 - **Healthy Target:** Gain **> 2**. A positive gain indicates good physical recovery.
 - **Unfavourable:** Gain **< -5**.
 
+<a id="disturbances"></a>
+
 ### Breath Disturbances
 Tracks breathing pauses or disruptions per hour.
 - **Top Value:** Average breathing disturbance index (episodes/hour).
 - **Healthy Target:** **< 10 episodes/hr**.
 - **Unfavourable:** **> 20 episodes/hr**. High values may be a warning sign for [sleep apnea](/sleep/sleep_apnea).
+
+<a id="snoring"></a>
 
 ### Snoring
 Calculates how long you were [snoring](/sleep/sound_recognition#snoring) relative to your total sleep duration.
@@ -120,6 +134,8 @@ Calculates how long you were [snoring](/sleep/sound_recognition#snoring) relativ
 - **Bottom Value:** Total snoring duration.
 - **Healthy Target:** **< 3%**.
 - **Unfavourable:** **> 10%**. If snoring is high, you might want to try [Anti-snoring cues](/sleep/anti_snoring)
+
+<a id="rating"></a>
 
 ### Subjective Rating
 Your self-reported sleep rating given upon waking. This is a critical weight in the sleep score, as personal feeling often catches what sensors cannot.
@@ -159,4 +175,3 @@ Your self-reported sleep rating given upon waking. This is a critical weight in 
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
-

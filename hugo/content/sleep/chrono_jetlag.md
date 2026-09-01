@@ -14,8 +14,8 @@ Understanding your natural sleep rhythms is one of the most effective ways to im
 
 ## Quick Reference Summary
 
-* **[Night Owl](https://en.wikipedia.org/wiki/Night_owl_(person):** Performs best late in the day and naturally sleeps later.
-* **[Morning Lark](https://en.wikipedia.org/wiki/Lark_(person)  :** Thrives early in the morning and naturally wakes up early.
+* **[Night Owl](https://en.wikipedia.org/wiki/Night_owl_(person)):** Performs best late in the day and naturally sleeps later.
+* **[Morning Lark](https://en.wikipedia.org/wiki/Lark_(person)):** Thrives early in the morning and naturally wakes up early.
 * **[Social Jetlag](https://www.amazon.com/gp/product/0674065859/):** The shift between your workday schedule and your weekend sleep rhythm.
 * **Sleep Regularity Index (SRI):** A score from 0–100 showing how consistent your sleep schedule is day-to-day.
 
@@ -40,9 +40,9 @@ We divide sleep patterns into 10 detailed categories based on population average
 
 > 📌 **Where to find it:** Once you have recorded at least 30 days of sleep data, your detected chronotype appears automatically in the `Left ☰ menu` and under `Charts` → `Chronotype`.
 
-<a id="figure-chrono-level"></a>
-**Chronotype Owl/Lark levels**
-![](chrono_level.png)
+<div style="text-align: center;">
+  <img src="/assets/images/chrono_level.png" alt="Chronotype Owl/Lark levels" style="max-width: 400px; width: 100%;" />
+</div>
 
 ## Social Jetlag
 
@@ -61,9 +61,9 @@ Sleep as Android automatically detects your routine through smart clustering:
 
 > 💡 **Goal:** Lowering your Social Jetlag score by keeping weekend and weekday bedtimes closer together helps reduce daytime fatigue and brain fog.
 
-<a id="figure-chrono-weekdays"></a>
-**Clustering of workdays vs. weekend days**
-![](chrono_weekdays.png)
+<div style="text-align: center;">
+  <img src="/assets/images/chrono_weekdays.png" alt="Clustering of workdays vs. weekend days" style="max-width: 400px; width: 100%;" />
+</div>
 
 <a id="regularity"></a>
 <a id="sri"></a>
@@ -86,9 +86,9 @@ Research shows that high sleep regularity is strongly linked to:
 Unlike basic average duration, SRI accounts for night awakenings, daytime naps, and non-standard schedules (such as shift work or polyphasic sleep).
 
 > 📊 **Where to find it:**<br>
->    1.  The bottom metric on your [Sleep Score](/sleep/sleepscore).
->    2.  Long-term trends in the [Charts section](/sleep/charts).
->    3.  Targeted insights in the [Advice section](/sleep/advice).
+>    1.  The bottom metric on your [Sleep Score](/sleep/sleepscore.html).
+>    2.  Long-term trends in the [Charts section](/sleep/charts.html).
+>    3.  Targeted insights in the [Advice section](/sleep/advice.html).
 
 
 ---

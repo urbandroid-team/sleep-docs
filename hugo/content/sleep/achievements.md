@@ -79,4 +79,4 @@ Not at all. Achievements are strictly personal milestones designed to guide you 
 
 ## Need Help?
 - Visit our [User Forum](https://forum.urbandroid.org) to discuss features and share tips with the community, or contact us directly at [**support@urbandroid.org**](mailto:support@urbandroid.org).
-- Check out [Goals & Sleep Score](https://sleep.urbandroid.org/docs/sleep/goals.html) for more ways to optimize your sleep routine.
+- Check out [Goals & Sleep Score](https://sleep.urbandroid.org/sleep/goals.html) for more ways to optimize your sleep routine.

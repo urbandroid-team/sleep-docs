@@ -9,7 +9,7 @@ disablePathToLower = false
 enableGitInfo = false
 disableKinds = ["taxonomy", "term"]
 
-# Enable relative URLs for portable builds (works in any subdirectory!)
+# Disable relative URLs to ensure paths are absolute from root
 relativeURLs = false
 canonifyURLs = false
 

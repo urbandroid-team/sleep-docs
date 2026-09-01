@@ -1,8 +1,15 @@
 {{- $src := .Destination -}}
 {{- if not (urls.Parse $src).Scheme -}}
+  {{- /* 1. Remove leading slash and legacy /docs/ prefix */ -}}
+  {{- $src = strings.TrimPrefix "/" $src -}}
+  {{- $src = strings.TrimPrefix "docs/" $src -}}
+
+  {{- /* 2. If it's a simple filename (no slashes), prepend assets/images/ */ -}}
   {{- if not (strings.Contains $src "/") -}}
-    {{- $src = printf "/assets/images/%s" $src -}}
+    {{- $src = printf "assets/images/%s" $src -}}
   {{- end -}}
-  {{- $src = printf "/docs/%s" (strings.TrimPrefix "/docs/" (strings.TrimPrefix "/" $src)) -}}
+
+  {{- /* 3. Prepend leading slash to make it root-relative */ -}}
+  {{- $src = printf "/%s" $src -}}
 {{- end -}}
 <img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />

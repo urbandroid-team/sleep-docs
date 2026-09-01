@@ -14,7 +14,7 @@ tags:
 
 > [!NOTE]
 > **Device Compatibility Note:**
-> This guide applies to **modern Samsung Galaxy Watches running Wear OS / One UI Watch** (Galaxy Watch 4, Watch 5, Watch 6, Watch 7, Watch FE, and Watch Ultra).
+> This guide applies to **modern Samsung Galaxy Watches running Wear OS / One UI Watch** (Galaxy Watch 4, Watch 5, Watch 6, Watch 7, Watch 8, Watch 9,Watch FE, and Watch Ultra).
 >
 > If you are using an **older Samsung watch running Tizen OS** (such as Galaxy Watch 3, Gear S3, or Gear Sport), please head over to our **[Legacy Samsung Gear / Galaxy Watch Guide](/devices/samsung_gear)**.
 
@@ -24,6 +24,8 @@ tags:
 * Samsung Galaxy Watch 5 / Watch 5 Pro
 * Samsung Galaxy Watch 6 / Watch 6 Classic
 * Samsung Galaxy Watch 7 / Watch Ultra
+* Samsung Galaxy Watch 8 / Watch 8 Classic
+* Samsung Galaxy Watch 9 / Watch Ultra 2
 * Samsung Galaxy Watch FE
 
 

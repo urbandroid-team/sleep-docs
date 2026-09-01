@@ -14,15 +14,24 @@ You can download any older version from [our website here](https://sleep.urbandr
 ---
 
 
-## Latest version 20260816
+## Latest version 20260828
 
+* New Documentation website
+* More visual fixes in score pies
+* Fixes in Garmin integration
+
+## 20260816
+
+* Health Connect sync in foreground, handling the new history data permission
 * Only asking to rate sleep if you did not already
 * Latest Gemini AI models for Sleep assistant
 * Pebble app build for Pebble Time 2, Round 2 and Duo
-* Latest Billing and Ads library
 * Warning to turn off Pebble Watch > Settings > System > Stand-by when using Pebble tracking
-*  Fix for loophole in Math CAPTCHAs
+* Latest Billing and Ads library
+* Fix for loophole in Math CAPTCHAs
 * Fix for crash in alarm ringtone selection
+* Fix for too dense hear rate data - crash in export
+* Fix for adding and deleting awake intervals in graph detail
 
 ## 20260616
 
