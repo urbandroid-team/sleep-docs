@@ -5,4 +5,4 @@
   {{- end -}}
   {{- $src = printf "/docs/%s" (strings.TrimPrefix "/docs/" (strings.TrimPrefix "/" $src)) -}}
 {{- end -}}
-<img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}" {{ end }}style="max-width: min(500px, 100%); height: auto; display: block; margin: 1rem auto;" />
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />

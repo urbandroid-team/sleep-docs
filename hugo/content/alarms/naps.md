@@ -30,7 +30,8 @@ Nap durations can be customized anywhere from **1 minute up to 10 hours**.
 
 
 ![](/assets/images/alarm_nap.png)
-  ![](/assets/images/alarm_nap_2.png)
+
+![](/assets/images/alarm_nap_2.png)
 
 
 

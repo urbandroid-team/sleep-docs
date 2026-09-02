@@ -1,0 +1,30 @@
+/*
+  Custom Stylesheet for Sleep as Android Documentation
+  This file is automatically compiled directly into the main book.css stylesheet by Hugo/Sass.
+*/
+
+/* 1. Standalone image (only child in its paragraph) */
+p:has(> img:only-child) {
+  text-align: center;
+}
+
+p:has(> img:only-child) img {
+  max-width: unquote("min(500px, 100%)");
+  display: block;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* 2. Inline image (paragraph contains text or other siblings around the image) */
+p:not(:has(> img:only-child)) img {
+  display: inline-block;
+  height: 1.2em;
+  vertical-align: -0.15em;
+}
+
+// Example custom styling:
+.markdown img:not(.book-icon) {
+  height: auto;
+}
