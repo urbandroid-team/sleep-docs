@@ -20,9 +20,10 @@ The goal of your first night is to find the "perfect window" to wake up. The res
 
 <a id="phone_placement"></a>
 **Phone placement**
+
 ![Phone position](/assets/images/position.png)
 
-## Your First Morning ☀️
+## Your First Morning ☀️ 
 
 What am I looking at?
 
