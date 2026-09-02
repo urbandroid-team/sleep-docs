@@ -25,14 +25,16 @@ Sync data seamlessly between **Sleep as Android** and **Samsung Health** to get 
 
 Follow the visual steps below to link your accounts:
 
-<div class="imgflexblock"><div class="content">
-  <img src="/docs/assets/images/shealth/2.png" />
-  <img src="/docs/assets/images/shealth/3.png" />
-  <img src="/docs/assets/images/shealth/4.png" />
-  <img src="/docs/assets/images/shealth/5.png" />
-  <img src="/docs/assets/images/shealth/6.png" />
-  <img src="/docs/assets/images/shealth/8.png" />
-</div></div>
+
+
+![](/assets/images/shealth/2.png)
+  ![](/assets/images/shealth/3.png)
+  ![](/assets/images/shealth/4.png)
+  ![](/assets/images/shealth/5.png)
+  ![](/assets/images/shealth/6.png)
+  ![](/assets/images/shealth/8.png)
+
+
 
 ## Data Synchronization
 

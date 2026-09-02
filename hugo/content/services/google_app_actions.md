@@ -50,10 +50,12 @@ On devices running Android 15, you must manually enable Sleep as Android within 
 4.  Open the **Shortcuts** tab.
 5.  Locate **Sleep as Android** in the list and tap **Add** for all recommended options.
 
-<div class="imgflexblock"><div class="content">
-  <img src="/docs/assets/images/GA_1.png" />
-  <img src="/docs/assets/images/GA_2.png" />
-  <img src="/docs/assets/images/GA_3.png" />
-  <img src="/docs/assets/images/GA_5.png" />
-</div></div>
+
+
+![](/assets/images/GA_1.png)
+  ![](/assets/images/GA_2.png)
+  ![](/assets/images/GA_3.png)
+  ![](/assets/images/GA_5.png)
+
+
 

@@ -20,9 +20,7 @@ Rate your sleep on the morning screen by tapping on the stars.
 *   **0** = worst sleep
 *   **5** = best sleep
 
-<div style="text-align: center;">
-  <img src="/docs/assets/images/edit_1.png" alt="Rating sleep" style="max-width: 400px; width: 100%;" />
-</div>
+![Rating sleep](/assets/images/edit_1.png)
 
 > [!NOTE]
 > If you leave the rating untouched, it won't count towards your statistics. If you touch it and drag it to zero, it will count as 0.
@@ -37,9 +35,7 @@ Choose any of the available icon tags from the list. With the **(+)** button you
 
 Tap on the **Comment** section to type anything you would like to save as a note.
 
-<div style="text-align: center;">
-  <img src="/docs/assets/images/edit_2.png" alt="Adding tags and comments" style="max-width: 400px; width: 100%;" />
-</div>
+![Adding tags and comments](/assets/images/edit_2.png)
 
 ---
 
@@ -56,9 +52,7 @@ Tap on the **Comment** section to type anything you would like to save as a note
 *   **Trimming:** If at least one end of the selected period touches the start or end of the graph, the whole period is cut off (the graph is shortened).
 *   **Adding Awake:** When the selected period is within the graph, the period is transformed into an **awake period**, and its duration is subtracted from the total sleep duration.
 
-<div style="text-align: center;">
-  <img src="/docs/assets/images/edit_3.png" alt="Trimming and adding awakes" style="max-width: 400px; width: 100%;" />
-</div>
+![Trimming and adding awakes](/assets/images/edit_3.png)
 
 > [!NOTE]
 > If you are missing an entire sleep record, you can add it manually. Go to **Left ☰ Menu → Graphs** or the [**Statistics**](/sleep/statistics) screen and use the **(+) Add sleep** ![plus](/assets/icons/plus.svg) button.

@@ -27,12 +27,12 @@ Designed specifically for use with **Sleep as Android** and **[Mindroid](https:/
 
 ## Mask Types
 
-<div class="imgflexblock"><div class="content">
+
 
 ![Cable type mask](/assets/images/mask1.jpg)
 ![Wireless Bluetooth mask](/assets/images/mask2.jpg)
 
-</div></div>
+
 
 **Left:** Original wired version. **Right:** V2 Wireless (Bluetooth) version.
 

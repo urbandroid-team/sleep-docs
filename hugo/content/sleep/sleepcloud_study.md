@@ -10,9 +10,7 @@ parent: /sleep/0parent.html
 
 
 
-<div style="text-align: center;">
-  <img src="/docs/assets/images/sleepcloud.png" alt="SleepCloud" style="max-width: 400px; width: 100%;" />
-</div>
+![SleepCloud](/assets/images/sleepcloud.png)
 
 Sleep remains one of the greatest mysteries of human health and behavior.
 *Do early birds and night owls really exist? Is full moon affecting your sleep quality? Will you sleep better if you jump to bed before midnight? How much snoring is too much? How much sleep do we need? Does it really help to have a smart alarm that wakes you up in the light sleep phase?*
