@@ -23,8 +23,3 @@ p:not(:has(> img:only-child)) img {
   height: 1.2em;
   vertical-align: -0.15em;
 }
-
-// Example custom styling:
-.markdown img:not(.book-icon) {
-  height: auto;
-}
