@@ -41,7 +41,7 @@ We divide sleep patterns into 10 detailed categories based on population average
 > 📌 **Where to find it:** Once you have recorded at least 30 days of sleep data, your detected chronotype appears automatically in the `Left ☰ menu` and under `Charts` → `Chronotype`.
 
 <div style="text-align: center;">
-  <img src="/assets/images/chrono_level.png" alt="Chronotype Owl/Lark levels" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/chrono_level.png" alt="Chronotype Owl/Lark levels" style="max-width: 400px; width: 100%;" />
 </div>
 
 ## Social Jetlag
@@ -62,7 +62,7 @@ Sleep as Android automatically detects your routine through smart clustering:
 > 💡 **Goal:** Lowering your Social Jetlag score by keeping weekend and weekday bedtimes closer together helps reduce daytime fatigue and brain fog.
 
 <div style="text-align: center;">
-  <img src="/assets/images/chrono_weekdays.png" alt="Clustering of workdays vs. weekend days" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/chrono_weekdays.png" alt="Clustering of workdays vs. weekend days" style="max-width: 400px; width: 100%;" />
 </div>
 
 <a id="regularity"></a>

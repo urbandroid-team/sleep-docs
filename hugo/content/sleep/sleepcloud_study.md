@@ -11,7 +11,7 @@ parent: /sleep/0parent.html
 
 
 <div style="text-align: center;">
-  <img src="/assets/images/sleepcloud.png" alt="SleepCloud" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/sleepcloud.png" alt="SleepCloud" style="max-width: 400px; width: 100%;" />
 </div>
 
 Sleep remains one of the greatest mysteries of human health and behavior.

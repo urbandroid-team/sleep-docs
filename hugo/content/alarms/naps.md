@@ -28,8 +28,8 @@ Nap durations can be customized anywhere from **1 minute up to 10 hours**.
 4. Save the nap to start the countdown!
 
 <div class="imgflexblock"><div class="content">
-  <img src="/assets/images/alarm_nap.png" />
-  <img src="/assets/images/alarm_nap_2.png" />
+  <img src="/docs/assets/images/alarm_nap.png" />
+  <img src="/docs/assets/images/alarm_nap_2.png" />
 </div></div>
 
 ## Managing Nap Settings

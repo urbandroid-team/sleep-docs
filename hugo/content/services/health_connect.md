@@ -40,11 +40,11 @@ Connecting your data takes just a few quick steps:
 4. **All Set!** Once completed, you can safely return to your main settings. Health Connect is now active and will work in the background.
 
 <div class="imgflexblock"><div class="content">
-  <img src="/assets/images/hc_1.png" />
-  <img src="/assets/images/hc_2.png" />
-  <img src="/assets/images/hc_3.png" />
-  <img src="/assets/images/hc_5.png" />
-  <img src="/assets/images/hc_4.png" />
+  <img src="/docs/assets/images/hc_1.png" />
+  <img src="/docs/assets/images/hc_2.png" />
+  <img src="/docs/assets/images/hc_3.png" />
+  <img src="/docs/assets/images/hc_5.png" />
+  <img src="/docs/assets/images/hc_4.png" />
 </div></div>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

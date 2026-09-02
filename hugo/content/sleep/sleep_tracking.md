@@ -45,7 +45,7 @@ Every smartphone is equipped with an accelerometer. This sensor detects movement
 For the accelerometer to work, the phone must be **placed directly on the mattress**.
 
 <div style="text-align: center;">
-  <img src="/assets/images/accel_new.png" alt="Accelerometer tracking" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/accel_new.png" alt="Accelerometer tracking" style="max-width: 400px; width: 100%;" />
 </div>
 
 The accuracy of measured data depends heavily on how well your bed is able to transmit your movement to the phone:
@@ -73,7 +73,7 @@ It works on many phones, but not all (some are unable to produce or capture freq
 #### Positioning the Phone for Sonar Tracking
 
 <div style="text-align: center;">
-  <img src="/assets/images/sonar_new.png" alt="Sonar tracking" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/sonar_new.png" alt="Sonar tracking" style="max-width: 400px; width: 100%;" />
 </div>
 
 Because ultrasonic waves lose energy over distance, precise placement is key:
@@ -94,7 +94,7 @@ If you prefer not to keep your phone near your bed at all, you can integrate ext
 When tracking is active, the screen provides real-time data and quick actions.
 
 <div style="text-align: center;">
-  <img src="/assets/images/sleep_tracking_screen_1.png" alt="Tracking screen interface" style="max-width: 300px; width: 100%;" />
+  <img src="/docs/assets/images/sleep_tracking_screen_1.png" alt="Tracking screen interface" style="max-width: 300px; width: 100%;" />
 </div>
 
 | | Element | Description |
@@ -113,7 +113,7 @@ When tracking is active, the screen provides real-time data and quick actions.
 Sliding up the *Pull up menu* menu will bring up further options:
 
 <div style="text-align: center;">
-  <img src="/assets/images/sleep_tracking_screen_2.png" alt="Stop and save options" style="max-width: 300px; width: 100%;" />
+  <img src="/docs/assets/images/sleep_tracking_screen_2.png" alt="Stop and save options" style="max-width: 300px; width: 100%;" />
 </div>
 
 | Option | Description |

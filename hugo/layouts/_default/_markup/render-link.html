@@ -1,0 +1,40 @@
+{{- $destination := .Destination -}}
+{{- $url := urls.Parse .Destination -}}
+
+{{- if and (not $url.IsAbs) (not (strings.HasPrefix .Destination "#")) (not (strings.HasPrefix .Destination "mailto:")) -}}
+  {{- $path := $url.Path -}}
+  {{- $path = strings.TrimPrefix "./" $path -}}
+  {{- $path = strings.TrimSuffix ".md" $path -}}
+  {{- $path = strings.TrimSuffix ".html" $path -}}
+  {{- $path = strings.TrimSuffix "/_index" $path -}}
+  {{- $path = strings.TrimSuffix "/" $path -}}
+
+  {{- $targetPage := .Page.GetPage $path -}}
+  {{- if not $targetPage -}}
+    {{- if not (strings.HasPrefix $path "/docs") -}}
+      {{- $targetPage = .Page.GetPage (printf "/docs/%s" (strings.TrimPrefix "/" $path)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $targetPage -}}
+    {{- $targetPage = .Page.Site.GetPage $path -}}
+  {{- end -}}
+
+  {{- if $targetPage -}}
+    {{- $destination = $targetPage.RelPermalink -}}
+  {{- else if .Page.Resources.Get $path -}}
+    {{- $destination = (.Page.Resources.Get $path).RelPermalink -}}
+  {{- else if resources.Get $path -}}
+    {{- $destination = (resources.Get $path).RelPermalink -}}
+  {{- else if strings.HasPrefix .Destination "/" -}}
+    {{- $destination = printf "/docs/%s" (strings.TrimPrefix "/docs/" (strings.TrimPrefix "/" .Destination)) -}}
+  {{- end -}}
+
+  {{- with $url.RawQuery -}}
+    {{- $destination = print $destination "?" . -}}
+  {{- end -}}
+  {{- with $url.Fragment -}}
+    {{- $destination = print $destination "#" . -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /**/ -}}

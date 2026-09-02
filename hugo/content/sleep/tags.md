@@ -47,82 +47,82 @@ Sleep as Android includes a curated collection of built-in icon tags for common 
     <tr>
       <td rowspan="5" style="vertical-align: top;"><strong>Diet & Lifestyle</strong></td>
       <td><code>#food</code></td>
-      <td><img src="/assets/icons/ic_action_food.svg" alt="food" /></td>
+      <td><img src="/docs/assets/icons/ic_action_food.svg" alt="food" /></td>
     </tr>
     <tr>
       <td><code>#caffeine</code></td>
-      <td><img src="/assets/icons/ic_action_lullaby.svg" alt="caffeine" /></td>
+      <td><img src="/docs/assets/icons/ic_action_lullaby.svg" alt="caffeine" /></td>
     </tr>
     <tr>
       <td><code>#alcohol</code></td>
-      <td><img src="/assets/icons/ic_martini.svg" alt="alcohol" /></td>
+      <td><img src="/docs/assets/icons/ic_martini.svg" alt="alcohol" /></td>
     </tr>
     <tr>
       <td><code>#med</code></td>
-      <td><img src="/assets/icons/ic_action_med.svg" alt="med" /></td>
+      <td><img src="/docs/assets/icons/ic_action_med.svg" alt="med" /></td>
     </tr>
     <tr>
       <td><code>#cpap</code></td>
-      <td><img src="/assets/icons/ic_action_cpap.svg" alt="cpap" /></td>
+      <td><img src="/docs/assets/icons/ic_action_cpap.svg" alt="cpap" /></td>
     </tr>
     <tr>
       <td rowspan="5" style="vertical-align: top;"><strong>Activity & Work</strong></td>
       <td><code>#sport</code></td>
-      <td><img src="/assets/icons/ic_walk.svg" alt="sport" /></td>
+      <td><img src="/docs/assets/icons/ic_walk.svg" alt="sport" /></td>
     </tr>
     <tr>
       <td><code>#work</code></td>
-      <td><img src="/assets/icons/ic_action_work.svg" alt="work" /></td>
+      <td><img src="/docs/assets/icons/ic_action_work.svg" alt="work" /></td>
     </tr>
     <tr>
       <td><code>#love</code></td>
-      <td><img src="/assets/icons/ic_action_love.svg" alt="love" /></td>
+      <td><img src="/docs/assets/icons/ic_action_love.svg" alt="love" /></td>
     </tr>
     <tr>
       <td><code>#laugh</code></td>
-      <td><img src="/assets/icons/ic_action_laugh.svg" alt="laugh" /></td>
+      <td><img src="/docs/assets/icons/ic_action_laugh.svg" alt="laugh" /></td>
     </tr>
     <tr>
       <td><code>#talk</code></td>
-      <td><img src="/assets/icons/ic_action_talk.svg" alt="talk" /></td>
+      <td><img src="/docs/assets/icons/ic_action_talk.svg" alt="talk" /></td>
     </tr>
     <tr>
       <td rowspan="5" style="vertical-align: top;"><strong>State & Health</strong></td>
       <td><code>#stress</code></td>
-      <td><img src="/assets/icons/ic_action_stress.svg" alt="stress" /></td>
+      <td><img src="/docs/assets/icons/ic_action_stress.svg" alt="stress" /></td>
     </tr>
     <tr>
       <td><code>#sick</code></td>
-      <td><img src="/assets/icons/ic_action_sick.svg" alt="sick" /></td>
+      <td><img src="/docs/assets/icons/ic_action_sick.svg" alt="sick" /></td>
     </tr>
     <tr>
       <td><code>#baby</code></td>
-      <td><img src="/assets/icons/ic_action_baby.svg" alt="baby" /></td>
+      <td><img src="/docs/assets/icons/ic_action_baby.svg" alt="baby" /></td>
     </tr>
     <tr>
       <td><code>#snore</code></td>
-      <td><img src="/assets/icons/ic_action_noise.svg" alt="snore" /></td>
+      <td><img src="/docs/assets/icons/ic_action_noise.svg" alt="snore" /></td>
     </tr>
     <tr>
       <td><code>#menses</code></td>
-      <td><img src="/assets/icons/ic_action_menses.svg" alt="menses" /></td>
+      <td><img src="/docs/assets/icons/ic_action_menses.svg" alt="menses" /></td>
     </tr>
     <tr>
       <td rowspan="4" style="vertical-align: top;"><strong>Dreams & Notes</strong></td>
       <td><code>#dream</code></td>
-      <td><img src="/assets/icons/ic_action_dream.svg" alt="dream" /></td>
+      <td><img src="/docs/assets/icons/ic_action_dream.svg" alt="dream" /></td>
     </tr>
     <tr>
       <td><code>#gooddream</code></td>
-      <td><img src="/assets/icons/ic_dream_good.svg" alt="gooddream" /></td>
+      <td><img src="/docs/assets/icons/ic_dream_good.svg" alt="gooddream" /></td>
     </tr>
     <tr>
       <td><code>#baddream</code></td>
-      <td><img src="/assets/icons/ic_dream_bad.svg" alt="baddream" /></td>
+      <td><img src="/docs/assets/icons/ic_dream_bad.svg" alt="baddream" /></td>
     </tr>
     <tr>
       <td><code>#note</code></td>
-      <td><img src="/assets/icons/ic_action_mic.svg" alt="note" /></td>
+      <td><img src="/docs/assets/icons/ic_action_mic.svg" alt="note" /></td>
     </tr>
   </tbody>
 </table>
@@ -161,116 +161,116 @@ Sleep as Android can tag conditions automatically using your device's sensors an
       <td rowspan="7" style="vertical-align: top;"><strong>Weather</strong></td>
       <td><code>#newmoon</code></td>
       <td>Logged during the 3 days around a new moon.</td>
-      <td><img src="/assets/icons/ic_action_newmoon.svg" alt="newmoon" /></td>
+      <td><img src="/docs/assets/icons/ic_action_newmoon.svg" alt="newmoon" /></td>
     </tr>
     <tr>
       <td><code>#fullmoon</code></td>
       <td>Logged during the 3 days around a full moon.</td>
-      <td><img src="/assets/icons/ic_action_fullmoon.svg" alt="fullmoon" /></td>
+      <td><img src="/docs/assets/icons/ic_action_fullmoon.svg" alt="fullmoon" /></td>
     </tr>
     <tr>
       <td><code>#rain</code></td>
       <td>Logged based on local weather reports.</td>
-      <td><img src="/assets/icons/ic_action_rain.svg" alt="rain" /></td>
+      <td><img src="/docs/assets/icons/ic_action_rain.svg" alt="rain" /></td>
     </tr>
     <tr>
       <td><code>#storm</code></td>
       <td>Logged based on local weather reports.</td>
-      <td><img src="/assets/icons/ic_action_storm.svg" alt="storm" /></td>
+      <td><img src="/docs/assets/icons/ic_action_storm.svg" alt="storm" /></td>
     </tr>
     <tr>
       <td><code>#cloudy</code></td>
       <td>Logged based on local weather reports.</td>
-      <td><img src="/assets/icons/ic_cloud.svg" alt="cloudy" /></td>
+      <td><img src="/docs/assets/icons/ic_cloud.svg" alt="cloudy" /></td>
     </tr>
     <tr>
       <td><code>#cold</code></td>
       <td>Temp below 5°C (41°F).</td>
-      <td><img src="/assets/icons/ic_action_cold.svg" alt="cold" /></td>
+      <td><img src="/docs/assets/icons/ic_action_cold.svg" alt="cold" /></td>
     </tr>
     <tr>
       <td><code>#hot</code></td>
       <td>Temp above 28°C (82°F).</td>
-      <td><img src="/assets/icons/ic_action_hot.svg" alt="hot" /></td>
+      <td><img src="/docs/assets/icons/ic_action_hot.svg" alt="hot" /></td>
     </tr>
     <tr>
       <td rowspan="2" style="vertical-align: top;"><strong>Environment</strong></td>
       <td><code>#dark</code></td>
       <td>Significant periods of darkness during the night.</td>
-      <td><img src="/assets/icons/ic_lightbulb_off.svg" alt="dark" /></td>
+      <td><img src="/docs/assets/icons/ic_lightbulb_off.svg" alt="dark" /></td>
     </tr>
     <tr>
       <td><code>#light</code></td>
       <td>Significant periods of light during the night.</td>
-      <td><img src="/assets/icons/ic_lightbulb.svg" alt="light" /></td>
+      <td><img src="/docs/assets/icons/ic_lightbulb.svg" alt="light" /></td>
     </tr>
     <tr>
       <td rowspan="7" style="vertical-align: top;"><strong>Devices</strong></td>
       <td><code>#watch</code></td>
       <td>Tracking with a wearable.</td>
-      <td><img src="/assets/icons/ic_action_watch.svg" alt="watch" /></td>
+      <td><img src="/docs/assets/icons/ic_action_watch.svg" alt="watch" /></td>
     </tr>
     <tr>
       <td><code>#sonar</code></td>
       <td>Tracking with Sonar technology.</td>
-      <td><img src="/assets/icons/ic_sonar.svg" alt="sonar" /></td>
+      <td><img src="/docs/assets/icons/ic_sonar.svg" alt="sonar" /></td>
     </tr>
     <tr>
       <td><code>#phaser</code></td>
       <td>Tracking with Sleep Phaser.</td>
-      <td><img src="/assets/icons/ic_sleep_phaser.svg" alt="phaser" /></td>
+      <td><img src="/docs/assets/icons/ic_sleep_phaser.svg" alt="phaser" /></td>
     </tr>
     <tr>
       <td><code>#pair</code></td>
       <td>Pair tracking active.</td>
-      <td><img src="/assets/icons/ic_pair.svg" alt="pair" /></td>
+      <td><img src="/docs/assets/icons/ic_pair.svg" alt="pair" /></td>
     </tr>
     <tr>
       <td><code>#auto</code></td>
       <td>Session started automatically.</td>
-      <td><img src="/assets/icons/ic_automagic.svg" alt="auto" /></td>
+      <td><img src="/docs/assets/icons/ic_automagic.svg" alt="auto" /></td>
     </tr>
     <tr>
       <td><code>#lullaby</code></td>
       <td>Lullaby was running during tracking.</td>
-      <td><img src="/assets/icons/ic_action_lullaby.svg" alt="lullaby" /></td>
+      <td><img src="/docs/assets/icons/ic_action_lullaby.svg" alt="lullaby" /></td>
     </tr>
     <tr>
       <td><code>#cloud</code></td>
       <td>Record imported from cloud.</td>
-      <td><img src="/assets/icons/ic_cloud_upload.svg" alt="cloud" /></td>
+      <td><img src="/docs/assets/icons/ic_cloud_upload.svg" alt="cloud" /></td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><strong>Activity</strong></td>
       <td><code>#sport</code></td>
       <td>Reached at least 80% of daily movement goal.</td>
-      <td><img src="/assets/icons/ic_walk.svg" alt="sport" /></td>
+      <td><img src="/docs/assets/icons/ic_walk.svg" alt="sport" /></td>
     </tr>
     <tr>
       <td rowspan="5" style="vertical-align: top;"><strong>Location</strong></td>
       <td><code>#home</code></td>
       <td>Your primary/most frequent sleep location.</td>
-      <td><img src="/assets/icons/ic_action_home.svg" alt="home" /></td>
+      <td><img src="/docs/assets/icons/ic_action_home.svg" alt="home" /></td>
     </tr>
     <tr>
       <td><code>#geo00</code></td>
       <td>Secondary location 1.</td>
-      <td><img src="/assets/icons/ic_action_geo0.svg" alt="geo00" /></td>
+      <td><img src="/docs/assets/icons/ic_action_geo0.svg" alt="geo00" /></td>
     </tr>
     <tr>
       <td><code>#geo01</code></td>
       <td>Secondary location 2.</td>
-      <td><img src="/assets/icons/ic_action_geo0.svg" alt="geo01" /></td>
+      <td><img src="/docs/assets/icons/ic_action_geo0.svg" alt="geo01" /></td>
     </tr>
     <tr>
       <td><code>#geo02</code></td>
       <td>Secondary location 3.</td>
-      <td><img src="/assets/icons/ic_action_geo0.svg" alt="geo02" /></td>
+      <td><img src="/docs/assets/icons/ic_action_geo0.svg" alt="geo02" /></td>
     </tr>
     <tr>
       <td><code>#geo03</code></td>
       <td>Secondary location 4.</td>
-      <td><img src="/assets/icons/ic_action_geo0.svg" alt="geo03" /></td>
+      <td><img src="/docs/assets/icons/ic_action_geo0.svg" alt="geo03" /></td>
     </tr>
   </tbody>
 </table>

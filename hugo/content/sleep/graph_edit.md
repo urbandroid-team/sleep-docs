@@ -21,7 +21,7 @@ Rate your sleep on the morning screen by tapping on the stars.
 *   **5** = best sleep
 
 <div style="text-align: center;">
-  <img src="/assets/images/edit_1.png" alt="Rating sleep" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/edit_1.png" alt="Rating sleep" style="max-width: 400px; width: 100%;" />
 </div>
 
 > [!NOTE]
@@ -38,7 +38,7 @@ Choose any of the available icon tags from the list. With the **(+)** button you
 Tap on the **Comment** section to type anything you would like to save as a note.
 
 <div style="text-align: center;">
-  <img src="/assets/images/edit_2.png" alt="Adding tags and comments" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/edit_2.png" alt="Adding tags and comments" style="max-width: 400px; width: 100%;" />
 </div>
 
 ---
@@ -57,7 +57,7 @@ Tap on the **Comment** section to type anything you would like to save as a note
 *   **Adding Awake:** When the selected period is within the graph, the period is transformed into an **awake period**, and its duration is subtracted from the total sleep duration.
 
 <div style="text-align: center;">
-  <img src="/assets/images/edit_3.png" alt="Trimming and adding awakes" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/edit_3.png" alt="Trimming and adding awakes" style="max-width: 400px; width: 100%;" />
 </div>
 
 > [!NOTE]
