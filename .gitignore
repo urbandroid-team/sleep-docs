@@ -1,8 +1,3 @@
-_site
-.sass-cache
-.jekyll-metadata
-
-deploy.sh
-liveserve.sh
+public
 
 \.idea/
