@@ -19,17 +19,38 @@ You can create a new alarm from several places within the app depending on your 
 * **From the Dashboard:**
     Tap the ![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) button at the top of the screen on the alarm card.
 
+    <a id="dashboard_alarm"></a>
+
+    ![Create alarm from main Dashboard](/assets/images/dashboard_alarm.png)
+
 * **From the Tabs layout:**
     Tap the **(![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) Add Alarm)** button located in the top left, on the Alarms tab.
+
+    <a id="tabs_alarm"></a>
+
+    ![Create alarm from main Tabs](/assets/images/tabs_alarm.png)
 
 * **From the Alarms only layout:**
     Tap the **(![ic_alarm_plus](/assets/icons/ic_alarm_plus.svg) Add Alarm)** button located in the bottom right corner.
 
+    <a id="alarms_only_alarm"></a>
+
+    ![Create alarm from main Alarms only main page](/assets/images/alarms_only_alarm.png)
+
+
 * **From Your Phone's Home Screen:**
   Add the **Alarm Icon Widget** to your home screen for quick, one-tap creation. [(Learn more about widgets)](/ux/widgets)
 
+  <a id="widget_alarm"></a>
+
+  ![Create alarm from widgets](/assets/images/widget_alarm.png)
+
 * **Quick Sleep Tracking & Instant Alarm:**
   Use the **Shortcut Bar** on the Dashboard. This automatically creates a single-use alarm (with *Delete after ringing* enabled) and starts sleep tracking in one smooth step. For more details about Shortcuts, check out the [Dashboard](/ux/hs_dashboard#shortcut) chapter.
+
+  <a id="shortcut_alarm"></a>
+
+  ![Create alarm from Shortcut board on Dashboard](/assets/images/shortcut_alarm.png)
 
 ## Options for Entering the Alarm Time
 
@@ -56,6 +77,12 @@ Tap the numerical text box and type your target time directly in 24-hour **HHMM*
   > Requires location permissions enabled on your device.
 
 * **Sleep Goal Alarm:** Tap the **![ic_target](/assets/icons/ic_target.svg)** target button. The app will calculate your ideal wake-up time based on when you go to bed to help you hit your [Daily Sleep Duration Goal](/alarms/bedtime_notification#duration_goal).
+
+  <a id="new_alarm_options"></a>
+
+  ![New alarm options icons](/assets/images/new_alarm_options.png)
+
+
 
 ## Editing & Managing Alarms
 

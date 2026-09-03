@@ -29,6 +29,7 @@ When you start the sensor test, Sleep as Android attempts to establish a live co
 
 <a id="wearable-test"></a>
 **Successful sensor test (wearable)**
+
 ![](test_wearable.png)
 
 ## What to Look For on the Graph
@@ -42,6 +43,7 @@ When you start the sensor test, Sleep as Android attempts to establish a live co
 
 <a id="wearable-test_comp"></a>
 **Successful vs failed test of wearable connection**
+
 ![](wearable_test.png)
 
 ---

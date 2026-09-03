@@ -66,6 +66,10 @@ A true sunrise alarm starts brightening the room *before* the audio alarm begins
 > *   **Gentle Volume Duration:** 24 minutes.
 > *   **Behavior:** The light and the (initially silent) audio start together. The light will take the full 24 minutes to reach maximum brightness.
 
+  <a id="sunrise_alarm_screen"></a>
+
+  ![Alarm screen with sunrise effect](/assets/images/sunrise_alarm.png)
+
 ---
 
 > [!WARNING]
