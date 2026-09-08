@@ -21,6 +21,7 @@ The **Dashboard** is designed to give you exactly what you need at a glance. It 
 
 <a id="figure-dashboard"></a>
 **The Dashboard with all cards visible**
+
 ![](dashboard_violet.png)
 
 **Menu Paths:**

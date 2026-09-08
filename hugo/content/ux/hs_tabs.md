@@ -17,6 +17,11 @@ You can fully customize which tabs are visible to match your daily routine. To k
 > **Smart Return:** Sleep as Android remembers exactly where you left off. The next time you open the app, it will automatically display the last tab you were actively viewing.
 
 
+<div style="text-align: center;">
+  <video src="../assets/videos/tabs.mp4" width="400" autoplay muted loop controls></video>
+</div>
+
+
 ## Configuration Paths
 
 You can switch to the Tabs layout or customize your active tabs using either of these paths:

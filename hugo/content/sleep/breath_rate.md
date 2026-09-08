@@ -30,13 +30,27 @@ Sleep as Android displays your breathing and oxygen metrics directly alongside y
 2. **Blood Oxygen / SpO₂ (Blue Line):** Shows oxygen saturation levels collected from a connected oximeter or smartwatch.
 3. **Breathing Disturbance Markers (O₂ Symbol):** Marks significant drops in oxygen or breathing rate. Frequent markers contribute to your overall **RDI score**.
 
-<a id="breath-line"></a>
-**Breath rates on the sleep graph**
-![](breath_rate.png)
 
-<a id="spo2-graph"></a>
-**SpO<sub>2</sub> data on the sleep graph**
-![](hrbr.png)
+<a id="spo2-graph-morning"></a>
+**SpO<sub>2</sub>, HR, and HRV data cards on the graph overview**
+
+![](spo2_morning.png)
+
+<a id="spo2-graph-detail"></a>
+**SpO<sub>2</sub> data on the sleep graph detail**
+
+![](spo2_full.png)
+
+<a id="spo2-dip"></a>
+**SpO<sub>2</sub> dips and breathing disturbances (marked as O<sub>2</sub> icons) on the sleep graph detail**
+
+![](spo2_full_dip.png)
+
+
+<a id="breath-line"></a>
+**Breath rates on the sleep detail**
+
+![](breath_rate.png)
 
 ## Understanding RDI (Respiratory Disturbance Index) <a id="rdi"></a>
 

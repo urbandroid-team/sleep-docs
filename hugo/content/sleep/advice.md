@@ -43,4 +43,10 @@ Advice feedback is broken down into three simple card types:
 * **Neutral**
   Provides insightful context or observational data that isn't directly good or bad (e.g., *"Others in your country are getting 54 minutes more sleep duration"* or patterns linked to custom tags).
 
+
+<a id="advice_caution"></a>
+**Example of advice**
+
+![](advice_caution.png)
+
 *Need help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

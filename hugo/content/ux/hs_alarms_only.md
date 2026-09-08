@@ -30,6 +30,7 @@ When this mode is active, your home screen is dedicated entirely to your alarm l
 
 <a id="figure-alarms-only"></a>
 **Alarms only mode interface**
+
 ![](alarms_only.png)
 
 ## Other Layout Options

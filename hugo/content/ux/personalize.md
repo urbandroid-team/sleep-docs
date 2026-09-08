@@ -61,7 +61,7 @@ If you use the **Morning Briefing**, you can further customize which tiles are v
 You can choose from 7 different color palettes to match your personality.
 
 <div style="text-align: center;">
-  <video src="/assets/videos/color.mp4" width="400" autoplay muted loop controls></video>
+  <video src="../assets/videos/color.mp4" width="400" autoplay muted loop controls></video>
 </div>
 
 *   **Default:** The balanced, modern default (color may vary).

@@ -29,6 +29,9 @@ To bridge Sleep as Android with your wearable, we rely on the third-party **Noti
 * **Notify for Mi Band:** Mi Band 1, 1S, 1A, HRX, 2, 3, 3i, 4, 5, 6, 7
 * **Notify for Xiaomi & Mi Fitness:** Mi Band 8, 8 Pro, 9, 9 Pro, 10, Mi Band 7 Pro, Redmi Band 2, Redmi Watch 2/3, Xiaomi Watch S1
 
+> [!Note]
+> The models in the line Active cannot be supported due to the blocked movement data stream in real-time.
+
 ### 2. Supported Amazfit & Zepp Devices
 * **Notify for Amazfit & Zepp:**
   * **Bip Series:** Bip, Bip Lite, Bip S, Bip 3, Bip 5, Bip 6
