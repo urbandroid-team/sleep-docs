@@ -100,7 +100,7 @@ In-app purchases are strictly tied to the specific Google account used at the ti
 **Step 1: Remove the app from the unpurchased account**
 
 1. Uninstall **Sleep as Android** from your phone (make sure your [data is backed up first](/services/backup)!).
-2. Open the **Play Store** app, tap your **Profile Icon** (top right) $\rightarrow$ **Manage apps & device** $\rightarrow$ **Manage** tab.
+2. Open the **Play Store** app, tap your **Profile Icon** (top right) → **Manage apps & device** → **Manage** tab.
 3. Switch the filter from "Installed" to **"Not installed"**.
 4. Find **Sleep as Android** in the list and remove it by tapping the **Trash/Cross icon**. <br>
 *(Note: If you don't see it, switch to your other Google accounts in the Play Store app and repeat this step).*
