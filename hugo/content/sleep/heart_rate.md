@@ -42,6 +42,17 @@ When heart rate tracking is enabled, your cardiovascular metrics overlay directl
 > **Where to find it:** Tap any sleep graph card on your Dashboard to expand the **Graph view** and see HR/HRV layered alongside your sleep phases and actigraph.
 
 
+<a id="hr-graph-cards"></a>
+**HR and HRV data cards on the graph overview**
+
+![](hr_cards.png)
+
+<a id="hr-graph-details"></a>
+**HR and HRV data cards on the graph detail**
+
+![](hr_detail.png)
+
+
 ## Setting Up Heart Rate Tracking
 
 Sleep as Android supports heart rate monitoring across a wide range of smartwatches, fitness bands, chest straps, and pulse oximeters.

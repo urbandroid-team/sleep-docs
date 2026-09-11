@@ -13,6 +13,7 @@ parent: /sleep/0parent.html
 
 <a id="apnea-anatomy"></a>
 **Sleep apnea anatomy**
+
 ![Sleep apnea anatomy](/assets/images/apnea_anatomy.png)
 
 **Sleep as Android** helps you keep an eye on your respiratory health overnight. Using non-contact acoustic sensors, phone microphones, or connected wearables, the app monitors your breath rate, detects temporary pauses in breathing, and flags potential risk indicators on your sleep charts.
@@ -28,6 +29,7 @@ Home pre-screening using **Pulse Oximetry** provides a convenient, cost-effectiv
 
 <a id="apnea-rdi"></a>
 **RDI compared to clinical Sleep Lab data**
+
 ![RDI compared to clinical Sleep Lab data](/assets/images/apnea_rdi.png)
 
 ## How Sleep as Android Monitors Breathing

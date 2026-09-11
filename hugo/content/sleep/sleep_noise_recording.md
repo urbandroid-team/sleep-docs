@@ -23,7 +23,8 @@ When enabled, Sleep Noise Analysis:
 
 <a id="noise-recording-screen"></a>
 **Recording in progress on the tracking screen**
-![](recording/ss_noise_recording.png)
+
+![Recording on tracking screen](/assets/images/recording_screen.png)
 
 ## Key Settings Explained
 
