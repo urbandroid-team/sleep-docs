@@ -20,7 +20,7 @@ The free version is perfect for testing the app's core capabilities before commi
 
 | Feature | Free Version Capability |
 | :--- | :--- |
-| **Trial Period** | Unrestricted access to all features, ao you can test the full potential of the app. |
+| **Trial Period** | Unrestricted access to all features, so you can test the full potential of the app. |
 | **Sleep Tracking** | After the trial, tracking is limited to every other day (active on Mon, Wed, Fri, Sat, Sun; limited on Tue, Thu). |
 | **Non-Tracking Features** | Alarms, Lullabies, CAPTCHAs, and Bedtime notifications work without limits. |
 | **Advertisements** | The free app includes advertisements after the trial period expires. |
@@ -67,19 +67,13 @@ You can choose the method that best fits your preference:
 > [!NOTE]
 > The Full SleepCloud version requires a small yearly fee to cover the costs of secure cloud storage on Google servers.
 
-
-
 ---
 
-## ❓ FAQs & Troubleshooting
-
-
-<details>
- <summary><strong>Why did my app switch back to the trial version after I bought it?</strong></summary>
+## How to restore the full version
 
 If the app is suddenly showing the trial version, Google Play is likely having trouble recognizing your license.
 
-Before trying the steps below, **please [backup your sleep history](/services/backup)** so you don't lose any data.
+Before trying the steps below, **please [backup your sleep history](/services/backup_data.html)** so you don't lose any data.
 
 To fix this, check which type of purchase you made and follow the matching steps below:
 
@@ -99,10 +93,13 @@ In-app purchases are strictly tied to the specific Google account used at the ti
 
 **Step 1: Remove the app from the unpurchased account**
 
-1. Uninstall **Sleep as Android** from your phone (make sure your [data is backed up first](/services/backup)!).
-2. Open the **Play Store** app, tap your **Profile Icon** (top right) → **Manage apps & device** → **Manage** tab.
-3. Switch the filter from "Installed" to **"Not installed"**.
-4. Find **Sleep as Android** in the list and remove it by tapping the **Trash/Cross icon**. <br>
+1. **[Backup your sleep history](/services/backup_data.html):** Before you proceed, make sure your data is backed up so you don't lose any sleep records.
+   > [!WARNING]
+   > Do **not** use local manual backup for this process! Uninstalling the app will erase its local storage. Please use a cloud backup or use the "Share" option to send the backup file off your device (e.g., to your email or cloud drive).
+2. Uninstall **Sleep as Android** from your phone.
+3. Open the **Play Store** app, tap your **Profile Icon** (top right) → **Manage apps & device** → **Manage** tab.
+4. Switch the filter from "Installed" to **"Not installed"**.
+5. Find **Sleep as Android** in the list and remove it by tapping the **Trash/Cross icon**. <br>
 *(Note: If you don't see it, switch to your other Google accounts in the Play Store app and repeat this step).*
 
 **Step 2: Reinstall under the correct account**
@@ -116,4 +113,3 @@ Once downloaded, open the app on your phone. It should now recognize your purcha
 ### Still having trouble?
 
 If your purchase is still not recognized, please send us a bug report directly from the app: go to **`Left ☰ Menu` → `Support` → `Report a bug`** and send your application logs. Our support team will be happy to help!
-
