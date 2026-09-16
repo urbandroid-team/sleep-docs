@@ -44,9 +44,9 @@ When enabled, your nightly sleep sessions are exported directly to your Google C
 *   **Initial Sync:** On the first activation, the app will upload sleep history from up to one year ago.
 *   **Calendar Name:** The app creates and uses a dedicated **"Sleep as Android"** calendar.
 
-<a id="figure-calendar-entry"></a>
-**Google Calendar sleep entry**
-![](calendar.png)
+<div style="text-align: center;">
+  <img src="/assets/images/calendar.png" alt="Google Calendar sleep entry" style="max-width: 400px; width: 100%;" />
+</div>
 
 > [!NOTE]
 > **Old "Sleep" Calendar:** Due to permission changes, the app no longer uses the legacy "sleep" calendar. You can safely deactivate or archive the old calendar and rely on the new "Sleep as Android" calendar for all future syncs.

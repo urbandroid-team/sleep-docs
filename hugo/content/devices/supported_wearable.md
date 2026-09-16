@@ -37,7 +37,7 @@ tags:
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Mobvoi** | TicWatch Pro 5, Pro 3, E3 | ↝ ❤ 💟 ◌ | [YES](https://play.google.com/store/apps/details?id=com.urbandroid.sleep) | [Wear OS](/devices/wearos.html) | **Full Support.** Includes continuous SpO2 and HRV tracking. |
 | **Wear OS** | Other Wear OS watches | ↝ ❤ | [YES](https://play.google.com/store/apps/details?id=com.urbandroid.sleep) | [Wear OS](/devices/wearos.html) | SpO2 and HRV data is currently restricted by Google for 3rd party apps. |
-| **Pebble** | All models, new and old | ↝ ❤ | [YES](https://apps.repebble.com/sleep-as-android_52b77e12dfa4228e8200000a) | [Pebble](/devices/pebble.html) | Pebble is still supported! HR available on models with HR sensor. |
+| **Pebble** | All models, new and old | ↝ ❤ 💟 | [YES](https://apps.repebble.com/sleep-as-android_52b77e12dfa4228e8200000a) | [Pebble](/devices/pebble.html) | Pebble is still supported! HR and HRV available on models with HR sensor. |
 | **Google** | Pixel Watch 1, 2, 3 | ↝ ❤ | [YES](https://play.google.com/store/apps/details?id=com.urbandroid.sleep) | [Wear OS](/devices/wearos.html) | SpO2 and HRV data is currently restricted by Google for 3rd party apps. |
 | **Polar** | H10, OH1, Vantage, Pacer, Ignite | ❤ 💟 | NO | [Wearables](/devices/wearables.html#polar) | High-precision tracking via [Polar BT](https://sleep.urbandroid.org/polar-sleep-tracking) or [Polar SDK](https://github.com/polarofficial/polar-ble-sdk/blob/master/documentation/UsingSDKWithWatches.md). |
 | **Samsung** | Galaxy Watch 4 through 9 | ↝ ❤ | [YES](https://play.google.com/store/apps/details?id=com.urbandroid.sleep) | [One UI](/devices/one_ui.html) | SpO2 and HRV data is currently restricted by Google for 3rd party apps. |
