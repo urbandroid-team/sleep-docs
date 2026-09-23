@@ -51,7 +51,7 @@ tags:
 ### Step 2: Enable Integration in Sleep as Android
 1. Open **Sleep as Android** on your phone.
 2. Go to `Settings` → `Sleep tracking` → `Wearables` → `Wearables`.
-3. Select **Wear OS / Wear OS 3.0+**.
+3. Select **Samsung Galaxy Watch**.
 
 ### Step 3: Test the Connection
 1. Go to `Settings` → `Sleep tracking` → `Wearables` → `Test sensor`.
