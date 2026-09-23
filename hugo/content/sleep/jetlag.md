@@ -44,13 +44,17 @@ The app will deliver light flashes using your choice of hardware:
 ## ❓ FAQs & Troubleshooting
 
 <details>
- <summary><strong>Will the light flashes wake me up?</strong></summary>
+<summary><strong>Will the light flashes wake me up?</strong></summary>
+
 No. The 2-millisecond light pulses are short enough that your brain processes the light cues to adjust your circadian rhythm without causing you to wake up.
+
 </details>
 
 <details>
- <summary><strong>Do I keep it on during my entire trip?</strong></summary>
+<summary><strong>Do I keep it on during my entire trip?</strong></summary>
+
 No. You only need to run Jet Lag Prevention in the days leading up to your flight until your
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

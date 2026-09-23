@@ -49,7 +49,7 @@ The sleep-export.csv file is a backup file that contains data from sleep records
     </tr>
     <tr>
       <td><strong>Rating</strong></td>
-      <td>User rating (0.0 – 5.0 with 0.25 step)</td>
+      <td>User rating (0.0 - 5.0 with 0.25 step)</td>
     </tr>
     <tr>
       <td><strong>Comment</strong></td>

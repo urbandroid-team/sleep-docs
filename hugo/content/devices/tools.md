@@ -49,7 +49,7 @@ To connect Sleep as Android with your device, we integrate via the third-party *
 Connecting your band takes just a few quick steps across both apps:
 
 ### Step 1: Configure the Tools App
-* The **[Tools & Mi Band](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools)** or **[Tools & Amazfit](https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools)** app is pre-configured to work with Sleep as Android out of the box — no initial toggles are needed!
+* The **[Tools & Mi Band](https://play.google.com/store/apps/details?id=cz.zdenekhorak.mibandtools)** or **[Tools & Amazfit](https://play.google.com/store/apps/details?id=cz.zdenekhorak.amazfittools)** app is pre-configured to work with Sleep as Android out of the box - no initial toggles are needed!
 
 > [!WARNING]
 > Make sure all **Do Not Disturb (DND)** modes on your wearable are turned off or scheduled properly during sleep, as active DND modes can block alarm vibrations.
@@ -118,6 +118,7 @@ Open **Sleep as Android** and go to `Settings` → `Sleep tracking` → `Wearabl
 
     > [!TIP]
     > We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
+
 </details>
 
 <details>
@@ -131,6 +132,7 @@ Open **Sleep as Android** and go to `Settings` → `Sleep tracking` → `Wearabl
     4. **Bluetooth system services**
 
     For step-by-step, device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

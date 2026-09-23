@@ -59,6 +59,7 @@ To get started, you must install the companion app on your watch:
 
 * **Reason:** Manufacturer restrictions on third-party access to raw sensor streams.
 * 👉  *Fix:* Currently, continuous SpO<sub>2</sub> tracking is verified on **TicWatch Pro 3**, **TicWatch E3**, and **Fossil Gen 6**. If your watch has the hardware but data isn't showing, please send us a debug log (<code>Left ≡ Menu ➔ Support ➔ Report a bug</code>).
+
 </details>
 
 <details>
@@ -69,6 +70,7 @@ To get started, you must install the companion app on your watch:
     1.  **Exclude from Optimization:** Ensure **Sleep as Android**, your watch's **companion app**, and **Bluetooth services** are excluded from battery optimization.
     2.  **TicWatch Users:** Disable "Essential Mode" or "Smart Mode" optimizations.
     For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

@@ -53,7 +53,7 @@ public static final String LENGTH = "length";
     }
 }
 ```
-To query the content provider (only select is supported – no update or delete):
+To query the content provider (only select is supported - no update or delete):
 
 
 ```java

@@ -104,25 +104,31 @@ Allows you to add 5 min pause by flipping your phone from the back to the displa
 ## ❓ FAQs & Troubleshooting
 
 <details>
- <summary><strong>The graph shows I was awake, but I was sleeping!</strong></summary>
-*   **Lower awake detection sensitivity:** Go to <code>Settings ➔ Sleep tracking ➔ Awake detection</code>, and adjust the sliders. If you are not sure which awake detection needs adjusting, use the <code>Left ☰ menu ➔ Support ➔ Report a bug</code>, and send us your application logs.
+<summary><strong>The graph shows I was awake, but I was sleeping!</strong></summary>
+
+* **Lower awake detection sensitivity:** Go to `Settings` ➔ `Sleep tracking` ➔ `Awake detection`, and adjust the sliders. If you are not sure which awake detection needs adjusting, use `Left ☰ menu` ➔ `Support` ➔ `Report a bug`, and send us your application logs.
 * **Fix the finished graph:** You can revert the awakes the app estimated from the finished graphs - either all of them at once, or individually.
     * Open the graph and tap the pencil icon to open edit mode.
-    * In the edit screen, tap the (⁝) button in the top right corner → **Delete awake**, and the app will revert all estimated awakes (except pauses and delayed tracking start).
-    * Or swipe across the edit screen to select the period you wish to edit, and tap the eye icon in the top right corner → **Delete awake** - this will only revert the awakes within the selected, highlighted section.
+    * In the edit screen, tap the **(⁝) Menu** button in the top right corner → **Delete awake**, and the app will revert all estimated awakes (except pauses and delayed tracking start).
+    * Or swipe across the edit screen to select the period you wish to edit, and tap the **eye icon** in the top right corner → **Delete awake** - this will only revert the awakes within the selected, highlighted section.
+
 </details>
 
 <details>
- <summary><strong>The graph shows I was sleeping, but I was awake!</strong></summary>
-*   **Increase awake detection sensitivity:** Go to <code>Settings ➔ Sleep tracking ➔ Awake detection</code>, and adjust the sliders to a higher sensitivity.
+<summary><strong>The graph shows I was sleeping, but I was awake!</strong></summary>
+
+* **Increase awake detection sensitivity:** Go to `Settings` ➔ `Sleep tracking` ➔ `Awake detection`, and adjust the sliders to a higher sensitivity.
 * **Fix the finished graph:** You can add awakes to the finished graphs.
     * Open the graph and tap the pencil icon to open edit mode.
-    * Swipe across the edit screen to select the period you wish to edit, and tap the eye icon in the top right corner → **Add awake** - this will add the awakes within the selected, highlighted section. The app will also recalculate the sleep duration.
+    * Swipe across the edit screen to select the period you wish to edit, and tap the **eye icon** in the top right corner → **Add awake** - this will add the awakes within the selected, highlighted section. The app will also recalculate the sleep duration.
+
 </details>
 
 <details>
- <summary><strong>I want tracking time to match sleep duration exactly.</strong></summary>
-* Go to **Settings ➔ Sleep tracking ➔ Awake detection** and turn the feature off completely.
+<summary><strong>I want tracking time to match sleep duration exactly.</strong></summary>
+
+* Go to `Settings` ➔ `Sleep tracking` ➔ `Awake detection` and turn the feature off completely.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

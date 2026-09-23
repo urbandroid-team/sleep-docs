@@ -36,7 +36,7 @@ Clears your currently identified "home" baseline. Use this if you have moved to 
 ## Advertisements
 
 > [!TIP]
-> Ads are **only** present in the free version of the app after the initial trial period has expired. If you see ads in a premium or unlocked version, please see our [FAQ for troubleshooting purchases](/faqs/purchase_not_unlocked).
+> Ads are **only** present in the free version of the app after the initial trial period has expired. If you see ads in a premium or unlocked version, please see our [FAQ for troubleshooting purchases](/faqs/purchase_not_recognized.html).
 
 ### Don't Personalize Ads
 Redirects you to the Android system settings where you can opt-out of interest-based ad targeting across all apps.

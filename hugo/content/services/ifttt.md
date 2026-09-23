@@ -37,6 +37,7 @@ To link your account and start building recipes:
 
 ---
 
+<a id="events"></a>
 ## Events Sent to IFTTT
 
 Sleep as Android can trigger IFTTT tasks for various moments throughout the night. For a full list of supported event names and the data they carry, [**see our Automation Events guide here**](/services/automation#events).

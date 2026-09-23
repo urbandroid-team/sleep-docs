@@ -38,8 +38,8 @@ The app uses advanced signal processing to analyze your respiratory rhythm while
 
 * **Oximeters:** Get a [Pulse Oximeter](https://happyelectronics.eu/products/alert-stresslocator-oximeter) compatible with Sleep as Android and suitable for whole night oxygenation monitoring.
 * **[Sonar Tracking](/sleep/sensors#sonar) (Contactless):** Emits silent ultrasonic soundwaves from your phone's speaker to bounce off your chest, measuring micro-movements to calculate your Breaths Per Minute (RPM). This value is calculated automatically from the data, you don't need to enable it specifically.
-* **Wearables:** Pairs with smartwatches and their SpO2 sensors to record continuous heart rate and blood oxygen saturation levels. Follow the guide for [wearable tracking](/sleep/wearable_tracking).
-* **Audio & Snoring Analytics:** Uses your phone's microphone to detect snoring, choking sounds, or sudden gasping after pauses. Read more details about Sound recognition in [this chapter](/sleep/sound_recognition).)
+* **Wearables:** Pairs with smartwatches and their SpO2 sensors to record continuous heart rate and blood oxygen saturation levels. Follow the guide for [wearable tracking](/devices/wearables.html).
+* **Audio & Snoring Analytics:** Uses your phone's microphone to detect snoring, choking sounds, or sudden gasping after pauses. Read more details about Sound recognition in [this chapter](/sleep/sound_recognition).
 
 
 
@@ -47,7 +47,7 @@ The app uses advanced signal processing to analyze your respiratory rhythm while
 
 When reviewing your overnight sleep graphs, look for the following patterns:
 
-* **Breathing Rate Spikes & Dips:** Healthy adult resting breath rate is typically **12–20 breaths per minute**. Sharp drops followed by a spike may indicate temporary breath pauses.
+* **Breathing Rate Spikes & Dips:** Healthy adult resting breath rate is typically **12-20 breaths per minute**. Sharp drops followed by a spike may indicate temporary breath pauses.
 * **Oxygen Desaturation (SpO2 Drops):** Drops in blood oxygen levels below **90%** often accompany apnea events.
 * **Micro-Arousals & Motion:** Sudden spikes in motion or micro-awakes immediately following a quiet period often mean your body briefly jolted awake to resume breathing.
 
@@ -59,8 +59,8 @@ If your graphs show frequent breathing disruptions or if you wake up feeling chr
 ### Official Medical Screening Tool (STOP-BANG)
 Before seeing a doctor, you can take a scientifically validated, free screening questionnaire used by sleep clinics worldwide:
 
-* 📋 **[Harvard Division of Sleep Medicine – Sleep Apnea Self-Evaluation](https://sleep.hms.harvard.edu/education-training/public-education/sleep-and-health-education-program/sleep-health-education-32)**
-* 📋 **[American Academy of Sleep Medicine – STOP-BANG Questionnaire Guide](https://sleepeducation.org/what-is-the-stop-bang-questionnaire/)**
+* 📋 **[Harvard Division of Sleep Medicine - Sleep Apnea Self-Evaluation](https://sleep.hms.harvard.edu/education-training/public-education/sleep-and-health-education-program/sleep-health-education-32)**
+* 📋 **[American Academy of Sleep Medicine - STOP-BANG Questionnaire Guide](https://sleepeducation.org/what-is-the-stop-bang-questionnaire/)**
 
 This 8-question self-test evaluates common risk factors (Snoring, Daytime Tiredness, Observed Breathing Pauses, High Blood Pressure, BMI, Age, Neck Size, and Gender). Sharing your score alongside your Sleep as Android charts can help your doctor decide if an official sleep study (Polysomnography) is needed.
 
@@ -73,14 +73,16 @@ This 8-question self-test evaluates common risk factors (Snoring, Daytime Tiredn
 <summary><strong>Can Sleep as Android officially diagnose me with Sleep Apnea?</strong></summary>
 
 **No.** A formal medical diagnosis requires a clinical overnight sleep study (polysomnography). Sleep as Android acts as an early warning/screening tool to alert you to potential patterns.
+
 </details>
 
 <details>
 <summary><strong>What should I show my doctor?</strong></summary>
 
 You can share your sleep history with your doctor via:
-    1. **Online Read-Only Link (Recommended):** Generate a secure, read-only link via your <a href="/services/sleepcloud">SleepCloud</a> account. This lets your doctor inspect your graphs, breath rate trends, and audio recordings.
-    2. **Screenshots:** Export your sleep charts showing your **Breath Rate (RPM)**, **Snoring logs**, and **SpO2 graphs**.
+1. **Online Read-Only Link (Recommended):** Generate a secure, read-only link via your [SleepCloud](/services/sleepcloud.html) account. This lets your doctor inspect your graphs, breath rate trends, and audio recordings.
+2. **Screenshots:** Export your sleep charts showing your **Breath Rate (RPM)**, **Snoring logs**, and **SpO2 graphs**.
+
 </details>
 
 <details>
@@ -90,7 +92,8 @@ You can share your sleep history with your doctor via:
 * 👉  *Fix:*
     * If using **Sonar**, ensure your phone's speaker/microphone is oriented toward your chest and no headphones are connected.
     * If using a **wearable**, ensure the band is snug so the optical sensors can read pulse and respiration data reliably.
-    * For more details, see the <a href="/sleep/sensors#sonar_testing">sonar troubleshooting</a> and <a href="/devices/wearables">wearable brand</a> sections.
+    * For more details, see the [sonar troubleshooting](/sleep/sensors.html#sonar_testing) and [wearable brand](/devices/wearables.html) sections.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

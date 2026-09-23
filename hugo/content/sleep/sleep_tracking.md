@@ -7,7 +7,7 @@ tags:
 - tracking
 ---
 
-# Sleep tracking
+# Sleep tracking <a id="guide"></a>
 
 
 **Sleep tracking allows you to objectively monitor and analyze the quality of your rest.**

@@ -36,8 +36,8 @@ These settings define the baseline behavior across all alarms set in `Settings` 
 | **[CAPTCHA](/alarms/captcha)** | Select a mandatory CAPTCHA task to solve before turning alarms. Perfect solution for heavy sleepers. |
 | **[Sound](/alarms/ringtone)** | Pick the perfect melody for perfect mornings. |
 | **[Gentle Wake up](#gentle_wake_up)** | A combination of features for a peaceful wake-up, including gradual volume ramp-up, independent vibration timing, and sunrise light emulation (via phone screen or external smart bulbs). |
-| **[Bedtime notification](/alarms/bedtime_notification)** | Sends you a reminder to get ready for sleep in time. |
-| **[Snooze](/alarms_snooze)** | Lets you temporarily delay your wake-up. |
+| **[Bedtime notification](/alarms/bedtime_notification)** <a id="duration_goal"></a> | Sends you a reminder to get ready for sleep in time. |
+| **[Snooze](/alarms/snooze.html)** | Lets you temporarily delay your wake-up. |
 | **Fullscreen alarm** | Ensures alarms display full-screen over the lockscreen instead of appearing as a small heads-up notification banner. <br>*Requires granting the **Display / Draw over other apps** permission in System Settings.* |
 | **Flip to snooze** | Turn your phone face-down (or face-up) to instantly snooze the alarm. |
 | **Long press** | Requires holding down the Dismiss button for several seconds to prevent accidental turn-offs while half-asleep. |
@@ -60,8 +60,8 @@ These features can be tailored individually inside each alarm card to fit specif
 | **Time Picker** | Choose your preferred clock interface: *Wheel picker*, *Analogue clock picker*, or the native *Material YOU picker*. |
 | **Repeat Rules** | Choose between weekly repeats, bi-weekly schedules (*Odd / Even weeks*), or non-weekly day intervals (e.g., *Every 3rd day*). |
 | **Repeat** | Select which days of the week the alarm should trigger (e.g., Weekdays, Weekends, or specific days). |
-| **Next Alarm Date** | Temporarily change the exact date of the next occurrence (e.g., shift tomorrow's 6:00 AM alarm to 8:00 AM for a single day—it automatically reverts afterward). |
-| **[Smart period](/sleep/smart_wake_up )** | Adjust the smart wake-up period for this alarm. Use a wider window for workdays and a tighter or disabled window for weekends. |
+| **Next Alarm Date** | Temporarily change the exact date of the next occurrence (e.g., shift tomorrow's 6:00 AM alarm to 8:00 AM for a single day - it automatically reverts afterward). |
+| **[Smart period](/sleep/smart_wake_up)** | Adjust the smart wake-up period for this alarm. Use a wider window for workdays and a tighter or disabled window for weekends. |
 | **[CAPTCHA](/alarms/captcha)** | Require a specific puzzle or task (Math, QR code, NFC, etc.) to dismiss high-importance alarms. |
 | **[Wake up check](/alarms/captcha#wake_up_check)** | Acts as a safety net by asking *"Are you still awake?"* shortly after you've dismissed the alarm. |
 | **[Sound](/alarms/ringtone)** | Select the ringtone, custom music, online stream, or Spotify playlist for this specific alarm. |
@@ -72,17 +72,17 @@ These features can be tailored individually inside each alarm card to fit specif
 | **Delete After Ringing** | Automatically deletes the alarm card completely once dismissed. *(Enabled by default for Naps).* |
 
 <a id="gentle_wake_up"></a>
-
+<a id="gentle_alarm"></a>
 ## Gentle Wake-Up options
 
 <a id="gentle_volume"></a>
 *   **Gentle volume:** Starts the alarm at minimum volume and gradually ramps up to maximum loudness over a set period.
     *   **Disabled:** Rings immediately at maximum volume.
     *   **30 Seconds:** Short initial burst, then reaches system volume.
-    *   **1 – 24 Minutes:** Gradually increases volume over your selected timeframe.
-*   **Delayed Sound:** Delays the start of audio (30 sec – 24 min) to give silent wake-up methods (smartlights, sunrise backlight, or wearable vibrations) a head start.
+    *   **1 - 24 Minutes:** Gradually increases volume over your selected timeframe.
+*   **Delayed Sound:** Delays the start of audio (30 sec - 24 min) to give silent wake-up methods (smartlights, sunrise backlight, or wearable vibrations) a head start.
 *   **Play in Silent Profile:** Ensures alarm audio plays even if your phone is set to Silent or Do Not Disturb (DND).
-*   **Vibrate:** Configure phone vibration timing independently from audio (*Disabled*, *From start*, *After 30 seconds*, or delayed *1–24 minutes*).
+*   **Vibrate:** Configure phone vibration timing independently from audio (*Disabled*, *From start*, *After 30 seconds*, or delayed *1-24 minutes*).
 *   **Vibrations wearables:** Set vibrations on your watch to start with the alarm, or with a delay.
 *   **Sunrise Wake-Up:** Gradually brightens your screen with warm light before the alarm rings to simulate a natural sunrise.
 *   **Flashlight Wake-Up:** Flashes your camera’s LED light repeatedly when the alarm rings.
@@ -97,6 +97,7 @@ These features can be tailored individually inside each alarm card to fit specif
 
 * **Reason:** **Smart Wake-Up** is active. The app tracks sleep movement and rings early if it detects light sleep.
 * 👉  *Fix:* Shorten or disable the Smart Period inside the specific alarm settings or under <code>Settings ➔ Alarms ➔ Smart wake up</code>.
+
 </details>
 
 <details>
@@ -104,6 +105,7 @@ These features can be tailored individually inside each alarm card to fit specif
 
 * **Reason:** You have **Sunrise Wake-Up** enabled on that alarm.
 * 👉  *Fix:* Turn this off in <code>Alarm settings ➔ Gentle Wake-up ➔ Sunrise wake up</code>.
+
 </details>
 
 <details>
@@ -111,6 +113,7 @@ These features can be tailored individually inside each alarm card to fit specif
 
 * **Reason:** If **Delayed Sound** is configured alongside **Gentle Volume**, the gentle volume timer starts running silently when the alarm begins.
 * 👉  *Fix:* Check if the sound delay is long; the volume curve may already reach maximum level by the time the audio stream starts.
+
 </details>
 
 <details>
@@ -118,6 +121,7 @@ These features can be tailored individually inside each alarm card to fit specif
 
 * **Reason:** Android system behavior for background apps.
 * 👉  *Fix:* Enable **Fullscreen Alarm** under global <code>Settings ➔ Alarms ➔ Fullscreen alarm</code> and ensure you grant the **Draw over other apps** permission when prompted by Android system preferences.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

@@ -36,7 +36,7 @@ For that, Sleep as Android gives you tools such as:
 * [Bedtime notifications](/alarms/bedtime_notification)
 * Bedroom [light levels measurement](/sleep/light_level)
 * Bedroom [noise measurement](/sleep/sleep_noise_recording)
-* [Smart alarm](/alarms/smart_wake_up)
+* [Smart alarm](/sleep/smart_wake_up.html)
 * [Gentle alarm volume increase](/alarms/alarm_settings#gentle_alarm) & [gentle alarm light increase / sunrise alarm](/devices/smart_light#sunrise_alarm_guide)
 
 ### Sleep outcome
@@ -83,7 +83,7 @@ PSG distinguishes REM sleep and non-REM sleep. Non-REM is further divided into N
 - **N3**: the deepest sleep phase. The body is totally relaxed, EEG displays slow regular waves. This stage is believed to play a crucial role in the regenerative processes. Dreaming (so called non-REM dreaming) can occur but is not that common as in REM.
 - **REM**: high likelihood of vivid dreams, muscle paralysis, bursts of rapid eye movements.
 
-The phases alternate in a typical sequence called sleep cycle – from a short N1, via N2, to the deep N3, then a shorter transitory N2, followed by REM, interrupted by brief awake. The cycle repeats several times throughout the night. The pattern is however highly variable. The lengths and exact ordering of the phases differ in each individual case.
+The phases alternate in a typical sequence called sleep cycle - from a short N1, via N2, to the deep N3, then a shorter transitory N2, followed by REM, interrupted by brief awake. The cycle repeats several times throughout the night. The pattern is however highly variable. The lengths and exact ordering of the phases differ in each individual case.
 
 The biggest criticism of PSG is that it is too invasive - the patient is not in his home environment and is entangled in lots of wires and other electronics that prevent him from sleeping naturally. This complicates diagnostics.
 
@@ -93,7 +93,7 @@ There is, obviously, no EEG in a smartphone or common wearables. However, we can
 
 And indeed, there are typically distinct phases of very low physical activity, when the body is completely relaxed, and periods of high activity, when the person is tossing and turning on the bed, rolling, twitching, and jerking.
 
-Thereby in actigraphy, we can define two sleep phases – **light sleep** and **deep sleep**. These phases are shown in hypnograms in Sleep as Android and are used by the app for triggering smart alarms. Let’s call them ACT-phases, as they are based purely on the average short-term amount of physical activity. It’s an objective phenomenon, just like the PSG-phases. We can imagine them as a picture of the same underlying process (sleep) from a different angle. Either picture (PSG-phases, ACT-phases) captures a valid aspect of the reality.
+Thereby in actigraphy, we can define two sleep phases - **light sleep** and **deep sleep**. These phases are shown in hypnograms in Sleep as Android and are used by the app for triggering smart alarms. Let’s call them ACT-phases, as they are based purely on the average short-term amount of physical activity. It’s an objective phenomenon, just like the PSG-phases. We can imagine them as a picture of the same underlying process (sleep) from a different angle. Either picture (PSG-phases, ACT-phases) captures a valid aspect of the reality.
 
 ### Comparison of PSG to actigraphy
 

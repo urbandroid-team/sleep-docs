@@ -11,7 +11,7 @@ title: Sonar tracking (Contactless)
 **Yes.** The signal sounds like a soft, constant background hum (similar to a refrigerator buzz) to pets that can hear higher frequencies. It is not harmful or stressful for animals. If your pet seems particularly sensitive, you can try switching the Sonar frequency under `Settings` ➔ `Sleep tracking` ➔ `Sensor` ➔ `Sonar settings`.
 
 ### 3. Can Sonar damage my phone's speaker or microphone?
-**No.** Sonar uses standard audio stream frequencies (18 kHz–22 kHz) that are at the upper limit of human hearing. This places no extra stress on your hardware compared to playing normal music or using voice calls.
+**No.** Sonar uses standard audio stream frequencies (18 kHz-22 kHz) that are at the upper limit of human hearing. This places no extra stress on your hardware compared to playing normal music or using voice calls.
 
 ### 4. I can hear the Sonar (Chirping or Clicking)
 Sonar tracking uses ultrasonic frequencies that should be above the range of human hearing. If you can hear a chirping, clicking, or high-pitched hum, it's usually due to hardware or processing limitations.

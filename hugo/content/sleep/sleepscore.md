@@ -40,7 +40,7 @@ Here is a quick overview of the metrics:
 | Dimension | Description | Healthy Range | Unfavorable Range |
 | :--- | :--- | :--- | :--- |
 | **[Overall Score](#overall_score)** | Combined result of all other metrics. | Close to 100% | Under 50% |
-| **[Duration](#duration)** | Total amount of time spent sleeping. | 6.5h – 9h (adjusted for age) | Under 6.5h or Over 9h |
+| **[Duration](#duration)** | Total amount of time spent sleeping. | 6.5h - 9h (adjusted for age) | Under 6.5h or Over 9h |
 | **[Regularity](#regularity)** | Consistency of sleep/wake times and SRI. | SRI > 80, Variance < 30m | SRI < 60, Variance > 1h |
 | **[Deep Sleep %](#deep_sleep)** | Portion of sleep spent in the deep phase. | Over 30% | Under 20% |
 | **[Efficiency](#efficiency)** | Ratio of actual sleep to time in bed. | Over 95% | Under 85% |
@@ -54,7 +54,7 @@ Here is a quick overview of the metrics:
 
 ### Overall Score
 Combines all available metrics into one easy-to-read percentage.
-- **Values Shown:** Overall score percentage ($0–100\%$).
+- **Values Shown:** Overall score percentage ($0-100\%$).
 - **Target Goal:** As close to **100%** as possible.
 
 <a id="duration"></a>
@@ -68,11 +68,11 @@ Measures total time spent sleeping compared to your daily sleep goal.
 > [!NOTE]
 > **Age-Adjusted Healthy Duration Targets:**
 > Set your birth year under `Settings` → `Stats` → `Year of birth` to automatically tailor healthy targets:
-> - **General / Default:** 6.5 – 9.0 hrs
-> - **School Age:** 9.0 – 11.0 hrs
-> - **Teenager:** 8.0 – 10.0 hrs
-> - **Young Adult:** 7.0 – 9.0 hrs
-> - **Elderly:** 6.0 – 9.0 hrs
+> - **General / Default:** 6.5 - 9.0 hrs
+> - **School Age:** 9.0 - 11.0 hrs
+> - **Teenager:** 8.0 - 10.0 hrs
+> - **Young Adult:** 7.0 - 9.0 hrs
+> - **Elderly:** 6.0 - 9.0 hrs
 
 <a id="deep_sleep"></a>
 
@@ -107,7 +107,7 @@ Measures consistency in your sleep schedule based on the **[Sleep Regularity Ind
 Tracks your resting median heart rate while sleeping.
 - **Top Value:** Median heart rate (bpm).
 - **Bottom Value:** Minimum heart rate reached during the night.
-- **Healthy Target:** **35 – 55 bpm**.
+- **Healthy Target:** **35 - 55 bpm**.
 
 <a id="hrv_gain"></a>
 
@@ -153,25 +153,28 @@ Your self-reported sleep rating given upon waking. This is a critical weight in 
 ## ❓ FAQs & Troubleshooting
 
 <details>
- <summary><strong>Why is a specific score card or chart missing?</strong></summary>
+<summary><strong>Why is a specific score card or chart missing?</strong></summary>
 
 * **Reason:** Your phone or wearable may lack the required sensor, or there wasn't enough continuous data collected during the night.
 * 👉  *Fix:* Ensure all required sensors are paired properly. For example, if your **Regularity** chart is missing, gaps in tracking are likely the cause.
+
 </details>
 
 <details>
- <summary><strong>How can I change the order of the metrics?</strong></summary>
+<summary><strong>How can I change the order of the metrics?</strong></summary>
 
 * If the default layout doesn't match your priorities, you can prioritize the metrics that matter most to you.
 * 👉  *Fix:* Go to `Settings`→ `Personalize` → `Stats` → `Prioritize` and drag the metrics into your preferred order.
+
 </details>
 
 
 <details>
- <summary><strong>Can I change the colors of the progress rings?</strong></summary>
+<summary><strong>Can I change the colors of the progress rings?</strong></summary>
 
 * Yes, you can choose whether dimensions share app-theme colors or use unique color codes.
 * 👉 *Fix:* Navigate to `Settings`️ → `Personalize` → `Stats` → `Color palette` to select your preferred color scheme.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

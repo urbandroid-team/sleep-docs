@@ -80,15 +80,16 @@ You can set custom bedtime notifications for individual naps:
 
 For more details on Polyphasic sleep schedule support, please visit the [Polyphasic sleeping chapter](/alarms/polyphasic).
 
+<a id="duration_goal"></a>
 ## Sleep Duration Goals by Age
 
 The ideal amount of daily sleep varies by age group. Recommended targets based on Mayo Clinic guidelines include:
 
-* **General / Healthy Adults:** 7 – 9 hours
-* **Elderly:** 6 – 9 hours
-* **Young Adults:** 7 – 9 hours
-* **Teenagers:** 8 – 10 hours
-* **School-Age Children:** 9 – 11 hours
+* **General / Healthy Adults:** 7 - 9 hours
+* **Elderly:** 6 - 9 hours
+* **Young Adults:** 7 - 9 hours
+* **Teenagers:** 8 - 10 hours
+* **School-Age Children:** 9 - 11 hours
 
 > [!TIP]
 > If you provide your age under `Settings` ➔ `Stats`, the app automatically adjusts your target ideal sleep score calculations accordingly. This information is stored locally on your device and is never shared.
@@ -106,6 +107,7 @@ The ideal amount of daily sleep varies by age group. Recommended targets based o
     * If **Smart Bedtime** is enabled, the app schedules your bedtime up to **45 minutes earlier** to help you catch up on sleep debt.
     * Smart Bedtime also subtracts your Smart Wake-Up window and configured tracking start delay from the bedtime calculation.
     * If you prefer fixed notifications, disable **Smart Bedtime** under <code>Settings ➔ Alarms ➔ Bedtime notification</code>.
+
 </details>
 
 <details>
@@ -117,6 +119,7 @@ The ideal amount of daily sleep varies by age group. Recommended targets based o
     * If you manually start sleep tracking before the notification is scheduled, the app suppresses the alert.
     * Verify that alerts are turned on under your device's <code>System Settings ➔ Apps ➔ Sleep ➔ Notifications ➔ Bedtime notification</code>.
     * Make sure Sleep as Android is excluded from aggressive battery optimization on your device.
+
 </details>
 
 <details>
@@ -128,6 +131,7 @@ The ideal amount of daily sleep varies by age group. Recommended targets based o
     2. Set a test alarm time to equal your **Sleep Goal + 8 minutes**.
     3. Wait **3 minutes** for the notification to trigger.
     4. If it fails to appear, send us an application log via <code>Left ≡ Menu ➔ Support ➔ Report a bug</code>.
+
 </details>
 
 

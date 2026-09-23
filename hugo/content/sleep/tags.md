@@ -142,6 +142,7 @@ Want to log *how much* or *how long*? You can track frequency by adding `_Nx` to
 - **Increase count:** Tap the tag icon multiple times.
 - **Remove tag:** Long-press the tag icon.
 
+<a id="tags_auto"></a>
 ### Automatically Added Tags
 Sleep as Android can tag conditions automatically using your device's sensors and location services.
 
@@ -275,6 +276,7 @@ Sleep as Android can tag conditions automatically using your device's sensors an
   </tbody>
 </table>
 
+<a id="geo"></a>
 #### Smart Location Tags
 The app identifies up to 4 primary locations you frequent over a 1-year window.
 *How location processing works:*

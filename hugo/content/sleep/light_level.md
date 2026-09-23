@@ -52,21 +52,24 @@ Go to `Settings` → `Sleep tracking` → `Awake detection` → `Light`.
 ## ❓ FAQs & Troubleshooting
 
 <details>
-<summary><b>Do I need to turn light tracking on before sleeping?</b></summary>
-<br>
+<summary><strong>Do I need to turn light tracking on before sleeping?</strong></summary>
+
 No, ambient light recording is active by default as long as sleep tracking is running.
+
 </details>
 
 <details>
-<summary><b>Will screen brightness during alarms mess up my night's data?</b></summary>
-<br>
+<summary><strong>Will screen brightness during alarms mess up my night's data?</strong></summary>
+
 No. The sensor measures environmental room brightness. Sudden screen activations when an alarm rings happen at the end of tracking and will not distort your overnight sleep data.
+
 </details>
 
 <details>
-<summary><b>Can I track light levels if my phone is face-down?</b></summary>
-<br>
+<summary><strong>Can I track light levels if my phone is face-down?</strong></summary>
+
 No. The ambient light sensor requires direct exposure to the room's light. If the screen is face-down, the sensor will be covered and cannot accurately measure room brightness.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

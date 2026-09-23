@@ -53,18 +53,21 @@ On both phones, go to:
 <summary><strong>Does Pair Tracking drain extra battery?</strong></summary>
 
 The battery impact is negligible. However, if you are traveling or sleeping alone temporarily, you can disable Pair Tracking in Settings to save a small amount of energy.
+
 </details>
 
 <details>
 <summary><strong>What if my pet sleeps in the bed with us?</strong></summary>
 
 Pair Tracking filters movement between two cooperating phones only. It cannot filter out pets, unless your pet has own phone with Sleep as Android. To avoid pet-related movement spikes, we recommend using a **wearable device on your wrist**, which only records movement on your side.
+
 </details>
 
 <details>
 <summary><strong>Do both phones need to use the same sensor method?</strong></summary>
 
- **No.** Pair Tracking works seamlessly with any combination of sensors—for instance, one partner can use Sonar while the other uses a smartwatch or accelerometer.
+**No.** Pair Tracking works seamlessly with any combination of sensors - for instance, one partner can use Sonar while the other uses a smartwatch or accelerometer.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

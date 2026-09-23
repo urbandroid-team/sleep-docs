@@ -69,7 +69,7 @@ If you prefer offline backups or want to transfer your data directly via email o
    * **Cloud / Messaging:** Save it directly to Google Drive, or local storage.
 
 > [!NOTE]
-> By default, manual backups are saved to scoped storage—the most secure location available, fully isolated and protected by the system. You can select a custom location via location in `Settings` → `Personalize` → `Privacy` → `Storage path`, though using scoped storage is strongly recommended for optimal data protection.
+> By default, manual backups are saved to scoped storage - the most secure location available, fully isolated and protected by the system. You can select a custom location via location in `Settings` → `Personalize` → `Privacy` → `Storage path`, though using scoped storage is strongly recommended for optimal data protection.
 
 > [!CAUTION]
 > Do **not** rely purely on a local folder backup if you plan to uninstall the app or factory reset your device! Uninstalling Android apps erases their local storage folder. Always use the **Share** button to send the file off your device first, or choose an alternative location for sharing (for example, Media folder).
@@ -92,7 +92,7 @@ Because noise recording files (`/rec` folder) are large, they are not included i
 1. **Locate audio on your old phone:** Check **Settings → Sleep noise recording → Storage path** to find where your audio files are stored.
 2. **Copy the folder:** Connect your old phone to a computer or use a file manager to copy the `sleep-data/rec` folder.
 3. **Move to your new phone:**
-   * On your new phone, create a folder structure in an accessible location (e.g., `Documents` or `Media` — *avoid `Downloads`*):
+   * On your new phone, create a folder structure in an accessible location (e.g., `Documents` or `Media` - *avoid `Downloads`*):
      ```text
      YourFolder/sleep-data/rec/
      ```
@@ -123,6 +123,7 @@ Most modern Android devices include automatic system backups powered by Google O
     2. Delete the newly created `sleep-export.zip`.
     3. Rename `sleep-export.backup.zip` back to `sleep-export.zip`.
     4. Open Sleep as Android and go to **☰ → Backup → Import data**.
+
 </details>
 
 <details>
@@ -130,6 +131,7 @@ Most modern Android devices include automatic system backups powered by Google O
 
 * **Reason:** Desire for deep data analysis outside the app.
 * 👉  *Fix:* **Yes.** Manual exports include a `sleep-export.csv` file inside the `.zip`. You can open this in Excel or Google Sheets. See our [CSV documentation](/devs/csv) for field details.
+
 </details>
 
 <details>
@@ -137,6 +139,7 @@ Most modern Android devices include automatic system backups powered by Google O
 
 * **Reason:** File permissions, corrupted ZIP, or version mismatch.
 * 👉  *Fix:* Reach out to us at **support@urbandroid.org** with a description of the error and your device model. We'll help you recover your data.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

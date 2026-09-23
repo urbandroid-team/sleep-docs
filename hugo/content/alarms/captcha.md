@@ -68,7 +68,7 @@ Place a QR code or NFC tag in your kitchen or bathroom. The alarm will not shut 
   1. Set your Default CAPTCHA to **QR Code** or **NFC Tag**.
   2. Open `Settings` ➔ `Alarms` ➔ `CAPTCHA` ➔ `Settings`.
   3. Tap **Learn new code/tag** and scan your item (any grocery item barcode, custom QR code, or NFC credit/ID card works).
-* **"Only at Home" Smart Feature:** Automatically bypasses the code requirement if you are traveling (at least 2.5 km – 5 km away from home). *Requires at least 5 tracked sleep graphs from your home location to establish your baseline.*
+* **"Only at Home" Smart Feature:** Automatically bypasses the code requirement if you are traveling (at least 2.5 km - 5 km away from home). *Requires at least 5 tracked sleep graphs from your home location to establish your baseline.*
 * **Fallback Task (Sleeping Sheep):** If you lose your tag or code, tap the fallback option to solve a high-difficulty *Sleeping Sheep* task instead. You can customize or disable this fallback under `CAPTCHA Settings` ➔ `Lost code fallback`.
 
 
@@ -118,6 +118,7 @@ Enhance your morning routine by installing the free [**CAPTCHA Add-on** from the
     1. Go to <code>Settings ➔ Alarms ➔ CAPTCHA ➔ CAPTCHA No Cheating</code> and turn off **Force stop and uninstall protection**.
     2. Alternatively, go to your phone's <code>System Settings ➔ Security ➔ Device Administrators</code> and revoke privileges for Sleep as Android.
     3. You can now uninstall normally.
+
 </details>
 
 <details>
@@ -127,13 +128,15 @@ Enhance your morning routine by installing the free [**CAPTCHA Add-on** from the
 * 👉  *Fix:*
     * If scanning fails, try switching to a native scanner like Google Lens or Barcode Scanner.
     * Reset scanner defaults in <code>System Settings ➔ Apps ➔ Sleep ➔ Clear Defaults</code>. Then test the scanner in the `Preview` menu and choose *"Always"* when prompted.
+
 </details>
 
 <details>
 <summary><strong>Why did CAPTCHA trigger when I was away from home?</strong></summary>
 
-* **Reason:** The **"Only at Home"** feature relies on broad location checks (at least 2.5–5 km away) to protect your privacy. It also requires a history of at least 5 recorded sleep graphs at your home location.
+* **Reason:** The **"Only at Home"** feature relies on broad location checks (at least 2.5-5 km away) to protect your privacy. It also requires a history of at least 5 recorded sleep graphs at your home location.
 * 👉  *Fix:* Ensure you have at least 5 tracked sleep graphs from your home location to establish your baseline.
+
 </details>
 
 <details>
@@ -143,6 +146,7 @@ Enhance your morning routine by installing the free [**CAPTCHA Add-on** from the
 * 👉  *Fix:*
     * Disable the feature in <code>Settings ➔ Alarms ➔ CAPTCHA ➔ Wake-up check</code>.
     * Alternatively, ensure the notification is visible: go to your phone's <code>System Settings ➔ Apps ➔ Sleep ➔ Notifications ➔ Wake-up Check</code> and ensure it is set to **Pop-up** (or **Urgent**), not silent, and can override **Do Not Disturb**.
+
 </details>
 
 <details>
@@ -151,12 +155,15 @@ Enhance your morning routine by installing the free [**CAPTCHA Add-on** from the
 **Yes.** You can choose different tasks for each individual alarm, e.g., harder tasks for workdays and something fun for weekends.
 
 * 👉  *Fix:* Open any individual alarm ➔ `Alarm settings` ➔ `CAPTCHA` and select your preferred task for that alarm.
+
 </details>
 
 <details>
 <summary><strong>Can I set individual difficulty levels for each alarm?</strong></summary>
 
 **No**. At the moment, the difficulty levels are set globally under the Default CAPTCHA menu.
+
+</details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
 

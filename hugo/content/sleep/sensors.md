@@ -64,7 +64,7 @@ Before tracking, you can test if a sensor is functioning properly on your phone:
 
 ### Test Modes
 *   **Accelerometer Test:** Displays a real-time graph responding to phone movement.
-*   **Sonar Test:** Displays a live green wave graph showing signal strength. Use this screen to test whether your smartphone hardware supports ultrasonic generation.
+*   **Sonar Test:** <a id="sonar_testing"></a> Displays a live green wave graph showing signal strength. Use this screen to test whether your smartphone hardware supports ultrasonic generation.
     *   **Sensitivity Slider:** Increases or decreases the sonar emission strength. Keep it as high as possible.
     *   **Frequency Selector:** Switch frequencies if your microphone/speaker performs better at specific ultrasonic ranges.
 *   **Wearable Sensor Test:** Verifies live data transfer from connected smartwatches or bands.
@@ -77,18 +77,21 @@ Before tracking, you can test if a sensor is functioning properly on your phone:
 <summary><strong>Is Sonar tracking safe for my health?</strong></summary>
 
 **Yes, absolutely.** Ultrasound is completely safe when emitted at normal volumes. Sleep as Android uses low-volume ultrasound near 20 kHz at around 40 dB, which is softer than a normal conversational voice. It does not produce ultrasound powerful enough to cause hearing damage or health issues.
+
 </details>
 
 <details>
 <summary><strong>Is Sonar safe for pets (cats, dogs, or other animals)?</strong></summary>
 
- **Yes.** The signal sounds like a soft, constant background hum to pets that can hear it, similar to a refrigerator buzz. It is not harmful. If your pet seems sensitive, try switching the Sonar frequency under <code>Settings ➔ Sleep tracking ➔ Test sensor</code>.
+**Yes.** The signal sounds like a soft, constant background hum to pets that can hear it, similar to a refrigerator buzz. It is not harmful. If your pet seems sensitive, try switching the Sonar frequency under <code>Settings ➔ Sleep tracking ➔ Test sensor</code>.
+
 </details>
 
 <details>
 <summary><strong>Can Sonar damage my phone's speaker or microphone?</strong></summary>
 
-**No.** Sonar uses standard audio stream frequencies (18 kHz–22 kHz) that fall at the upper limit of human hearing. This places virtually no extra stress on your hardware compared to playing normal music.
+**No.** Sonar uses standard audio stream frequencies (18 kHz-22 kHz) that fall at the upper limit of human hearing. This places virtually no extra stress on your hardware compared to playing normal music.
+
 </details>
 
 <details>
@@ -99,6 +102,7 @@ Before tracking, you can test if a sensor is functioning properly on your phone:
     1.  Disable sound-enhancing features (Equalizers, Dolby, etc.) in your phone's **Sound** or **Accessibility** settings.
     2.  In the Sleep app, go to <code>Settings ➔ Sleep tracking ➔ Test sensor</code> and select a different **Frequency** until you find one that is silent.
     3.  If still audible, lower the **Sensitivity slider** slightly.
+
 </details>
 
 <details>
@@ -106,6 +110,7 @@ Before tracking, you can test if a sensor is functioning properly on your phone:
 
 * **Reason:** Connected headphones or unsupported frequencies.
 * 👉  *Fix:* Ensure no headphones (wired or Bluetooth) are connected. If the graph remains flat, switch the Sonar frequency in the test settings or boost the sensitivity slider.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

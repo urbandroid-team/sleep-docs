@@ -169,7 +169,7 @@ ____
 
 Sleep As Android expects to receive data aggregated per 10 seconds intervals. The values to be aggregated should be changes in raw accelerometer data expressed in m/s2.
 
-For each sampled value, sum up acceleration change along all axes to get a single value. You should aggregate the 10 seconds maximum of the data. For efficiency, we suggest you do the aggregation on the watch and send only aggregated values to the phone – but that’s up to you.
+For each sampled value, sum up acceleration change along all axes to get a single value. You should aggregate the 10 seconds maximum of the data. For efficiency, we suggest you do the aggregation on the watch and send only aggregated values to the phone - but that’s up to you.
 
 You should keep aggregating data as they come and send them to Sleep when you have enough aggregated values (as many as was requested by Sleep in `com.urbandroid.sleep.watch.SET_BATCH_SIZE` command).
 You can however send the data later and the collection algorithm in Sleep as Android should handle it.

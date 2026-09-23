@@ -21,8 +21,8 @@ The **Morning Briefing** (or Morning Screen) is your personal sleep dashboard - 
 
 ### What You See First
 When you wake up, check for three signs of healthy sleep:
-* **The Sleep Score (0–100%):** Your overall recovery grade (aim for **85%+**).
-* **The Shape:** A healthy night looks like a "rollercoaster"—valleys of Deep Sleep transitioning into peaks of Light sleep and REM.
+* **The Sleep Score (0-100%):** Your overall recovery grade (aim for **85%+**).
+* **The Shape:** A healthy night looks like a "rollercoaster" - valleys of Deep Sleep transitioning into peaks of Light sleep and REM.
 * **Duration & Regularity:** Did you hit your time goal? Did you stick to your usual bedtime?
 
 ### Customizing & Organizing Your Cards
@@ -35,9 +35,9 @@ You can tailor the Morning Screen to show only the information you care about mo
 
 ### The Sleep Score Card
 The primary card displays your **Sleep Score** in the top right, supported by colorful progress rings representing health pillars.
-* **Filling the Arcs:** Think of these as progress rings—the closer the color fills the circle, the closer you are to your optimal goal.
+* **Filling the Arcs:** Think of these as progress rings - the closer the color fills the circle, the closer you are to your optimal goal.
 * **Individual Metrics:** Each dial focuses on a key pillar (Duration, Deep Sleep, Efficiency, Regularity).
-* **Secondary Indicators:** Look at the secondary numbers beneath each label for vital context—such as exact minutes of snoring detected or the gap between actual sleep and your goal.
+* **Secondary Indicators:** Look at the secondary numbers beneath each label for context - such as exact minutes of snoring detected or the gap between actual sleep and your goal.
 * **Color coding:** Green number indicates a score in the healthy range, while red highlights a score in an unfavorable range.
 
 Need a full breakdown? Read our [Sleep Score guide](/sleep/sleepscore) to learn more.
@@ -142,8 +142,9 @@ If your graph looks unusual, use the table below to identify the issue and find 
 <details>
 <summary><strong>What does a "healthy" sleep graph look like?</strong></summary>
 
-* A healthy night of monophasic sleep typically looks like a **"rollercoaster"** across 7–8 hours.
+* A healthy night of monophasic sleep typically looks like a **"rollercoaster"** across 7-8 hours.
 * It consists of repeating 90-minute sleep cycles that start with **Deep Sleep** (valleys at the base) and transition into **Light Sleep / REM** (peaks towards the top).
+
 </details>
 
 
@@ -153,6 +154,7 @@ If your graph looks unusual, use the table below to identify the issue and find 
 * **Cause A: Active Awake Heuristics.** If options like *Awake when using phone* or *Screen on* are enabled, picking up or unlocking your phone during the night can mark a period as awake.
 * **Cause B: High noise/movement sensitivity.** Constant background noise, a running fan, or bed movement from a partner can cause the app to misclassify sleep as wakefulness.
   * *Fix:* Check your settings under **Settings ⚙️ → Sleep tracking → Awake detection** or adjust **Sensitivity**.
+
 </details>
 
 
@@ -165,6 +167,7 @@ If your graph looks unusual, use the table below to identify the issue and find 
 * **Turquoise Line:** Breath Rate measured via Sonar or a connected wearable.
 * **Orange Line:** Ambient room light measured in LUX.
 * **Dashed Vertical Line:** Marks the start of your **Smart Period** window before your alarm.
+
 </details>
 
 
@@ -176,6 +179,7 @@ This is usually caused by aggressive battery management.
 2. If you are using a connected wearable, check your watch's **companion app** (e.g., Pixel Watch app), and **Bluetooth services** for battery optimization.
 
 For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+
 </details>
 
 
@@ -185,6 +189,7 @@ For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 
 * Look for the **![mic](/assets/icons/ic_action_mic.svg) Microphone icon** along the timeline.
 * Drag across the graph to highlight the desired time period, then tap the **Play icon** in the top right corner to replay the recorded audio snippet.
+
 </details>
 
 
@@ -192,6 +197,7 @@ For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 <summary><strong>My sleep start or end time is wrong. Can I fix it?</strong></summary>
 
 * Yes! Tap on any graph card to open the **Full Graph / Edit Screen**. From there, you can crop or trim the start and end times of your tracking session to reflect when you actually fell asleep or woke up. See full guide at [this chapter](/sleep/graph_edit).
+
 </details>
 
 
@@ -199,6 +205,7 @@ For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 <summary><strong>What do the blue O<sub>2</sub> bubbles on my graph mean?</strong></summary>
 
 * An **O<sub>2</sub> icon** ![O2 icon](/assets/icons/ic_action_cpap.svg) indicates a **desaturation event** (a temporary drop in blood oxygen levels). Frequent drops contribute to your **[Respiratory Disturbance Index (RDI)](/sleep/breath_rate#rdi)**, which can be an early indicator of sleep apnea.
+
 </details>
 
 
@@ -206,6 +213,7 @@ For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
 <summary><strong>Why is one of my sensor lines missing (e.g., HR, HRV, or SpO<sub>2</sub>)?</strong></summary>
 
 * Sensor lines only appear if a compatible wearable or external device (like a pulse oximeter or chest strap) was connected during tracking, or if Sonar was active for breath tracking. Ensure your wearable is properly paired and configured under `Settings` → `Wearables`.
+
 </details>
 
 

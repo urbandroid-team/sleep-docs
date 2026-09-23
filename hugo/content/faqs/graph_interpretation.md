@@ -5,7 +5,7 @@ title: Understanding your sleep graphs
 # Understanding your sleep graphs
 
 ### 1. What does a "healthy" sleep graph look like?
-A healthy night of monophasic sleep typically looks like a **"rollercoaster"** across 7–8 hours.
+A healthy night of monophasic sleep typically looks like a **"rollercoaster"** across 7-8 hours.
 *   It consists of repeating **90-minute sleep cycles**.
 *   Cycles start with **Deep Sleep** (valleys at the base of the graph).
 *   Cycles transition into **Light Sleep / REM** (peaks towards the top).

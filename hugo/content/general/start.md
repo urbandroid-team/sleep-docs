@@ -27,7 +27,7 @@ The goal of your first night is to find the "perfect window" to wake up. The res
 
 What am I looking at?
 
-*   **Sleep Score:** Your ultimate nightly summary, condensing all sensor data into a single percentage—the higher the better.
+*   **Sleep Score:** Your ultimate nightly summary, condensing all sensor data into a single percentage - the higher the better.
 *   **The Big Picture:** Each dial focuses on one metric (Duration, Deep Sleep, etc.). Think of these as progress rings; the further the color fills the circle, the closer you are to your optimal goal.
 *   **Decoding the Graph:** The *Hypnogram* and *Phases* cards visualize your sleep journey as a timeline. The height of the graph represents your sleep depth, from Deep Sleep at the base up to Awake at the peak.
 *   **Tap for Details:** Tap any graph card to open the **Full Graph view**. This overlays all your data onto a single timeline to help you see connections.
@@ -45,7 +45,7 @@ What am I looking at?
 
 ## Explore Possibilities
 
-Sleep fuels everything you do—your health, your mood, and your energy. Tracking your rest is a journey of *discovery*, revealing how daily habits like a late coffee or a workout impact your recovery.
+Sleep fuels everything you do: your health, your mood, and your energy. Tracking your rest is a journey of *discovery*, revealing how daily habits like a late coffee or a workout impact your recovery.
 
 ### Advanced Features to Explore
 

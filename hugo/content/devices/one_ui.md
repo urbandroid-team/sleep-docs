@@ -80,6 +80,7 @@ To prevent Samsung's One UI software or Android power management from disconnect
 
 * **Reason:** One UI Watch uses progressive gentle vibrations to prevent sudden wake-up shocks.
 * 👉  *Fix:* This is an intentional feature. It starts with 1 short vibration, another 30 seconds later, then after 20 seconds, steadily increasing in frequency until it becomes continuous. You can enable a delayed alarm sound on your phone as an audio backup via <code>Settings ➔ Alarms ➔ Gentle wakeup ➔ Delayed alarm sound start</code>.
+
 </details>
 
 <details>
@@ -90,6 +91,7 @@ To prevent Samsung's One UI software or Android power management from disconnect
     1. Enable SpO<sub>2</sub> / HRV tracking inside the official **Samsung Health** app.
     2. Connect both Samsung Health and Sleep as Android to Android's **Health Connect** framework.
     3. Sleep as Android will automatically import the health metrics after your sleep session ends. [Full instructions here](/services/health_connect).
+
 </details>
 
 <details>
@@ -99,6 +101,7 @@ To prevent Samsung's One UI software or Android power management from disconnect
 * 👉  *Fix:*
     * **Watch App Launch:** Opening the app on your watch starts tracking immediately.
     * **Automatic Sleep Tracking:** Check if automatic start is active in <code>Settings ➔ Sleep tracking ➔ Automatic sleep tracking ➔ Start sleep tracking</code>.
+
 </details>
 
 <details>
@@ -113,6 +116,7 @@ To prevent Samsung's One UI software or Android power management from disconnect
 
     > [!TIP]
     > We recommend using a delayed sound rather than complete silence as a safety net.
+
 </details>
 
 <details>
@@ -125,6 +129,7 @@ To prevent Samsung's One UI software or Android power management from disconnect
     3. **Bluetooth system services**
 
     For step-by-step, device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

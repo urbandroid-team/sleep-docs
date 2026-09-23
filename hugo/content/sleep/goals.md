@@ -70,13 +70,17 @@ You can track your progress anytime from the `Left ☰ menu` → `Goals` or dire
 ## ❓ FAQs & Troubleshooting
 
 <details>
- <summary><strong>Do I lose my wager if I miss my bedtime once?</strong></summary>
+<summary><strong>Do I lose my wager if I miss my bedtime once?</strong></summary>
+
 **No.** Missing a single night will not forfeit your goal. Goal success is based on your cumulative 30-day average, not daily perfection. As long as your overall balance stays positive at the end of the month, you pass.
+
 </details>
 
 <details>
- <summary><strong>Where does my wager go?</strong></summary>
+<summary><strong>Where does my wager go?</strong></summary>
+
 Wagers are powered by Google Play in-app purchases. Placing a wager adds financial incentive to help form habits, but you can always select the free tier if you prefer not to bet. If you finish your goal sucessfully, the goal will be credited to your Google Play account.
+
 </details>
 
 *Need help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

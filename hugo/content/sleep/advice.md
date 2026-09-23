@@ -23,7 +23,7 @@ Advice analyzes key areas of your sleep health, comparing your **recent 7-day av
 
 | Category | What it Analyzes |
 | :--- | :--- |
-| **Duration** | • Recent increases or decreases in nightly sleep time.<br>• Healthy ranges based on your age (e.g., 7–9 hrs for adults).<br>• Alignment with your personal daily sleep goal.<br>• Comparison to average sleep duration in your country. |
+| **Duration** | • Recent increases or decreases in nightly sleep time.<br>• Healthy ranges based on your age (e.g., 7-9 hrs for adults).<br>• Alignment with your personal daily sleep goal.<br>• Comparison to average sleep duration in your country. |
 | **Regularity** | • Recent shift in bedtime and wake-time consistency.<br>• 60-day average consistency bounds (ideal: within 20 mins to 1 hour).<br>• National benchmark comparisons. |
 | **Regularity Index** | • 5-point changes in bedtime consistency over the last 30 days.<br>• Monthly target scores (Healthy: >80, Attention needed: <60). |
 | **Deep Sleep %** | • Recent shifts in high-restoration deep sleep phases.<br>• Target baseline range (25% to 75% of total sleep). |

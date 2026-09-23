@@ -52,7 +52,7 @@ Navigate to `Settings` → `Personalize` to tailor the app to your preferences:
 If you use the **Morning Briefing**, you can further customize which tiles are visible:
 *   **Weather:** Toggle the weather forecast tile.
 *   **Automatic sleep tagging:** Enables [automatic tags](/sleep/tags#tags_auto).
-*   **Hide stats before rating:** This will hide your sleep results until you provide a subjective rating—useful if you feel seeing the data might influence your score.
+*   **Hide stats before rating:** This will hide your sleep results until you provide a subjective rating - useful if you feel seeing the data might influence your score.
 
 <a id="color_palette"></a>
 

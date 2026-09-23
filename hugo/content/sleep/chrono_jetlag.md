@@ -17,9 +17,10 @@ Understanding your natural sleep rhythms is one of the most effective ways to im
 * **[Night Owl](https://en.wikipedia.org/wiki/Night_owl_(person)):** Performs best late in the day and naturally sleeps later.
 * **[Morning Lark](https://en.wikipedia.org/wiki/Lark_(person)):** Thrives early in the morning and naturally wakes up early.
 * **[Social Jetlag](https://www.amazon.com/gp/product/0674065859/):** The shift between your workday schedule and your weekend sleep rhythm.
-* **Sleep Regularity Index (SRI):** A score from 0–100 showing how consistent your sleep schedule is day-to-day.
+* **Sleep Regularity Index (SRI):** A score from 0-100 showing how consistent your sleep schedule is day-to-day.
 
 
+<a id="chronotype"></a>
 ## Chronotype: Your Natural Body Clock
 
 Your **chronotype** describes your body's natural preference for when to sleep and wake up. Rather than just labeling you a "night person" or "morning person," Sleep as Android places you on a personalized spectrum ranging from **100% Night Owl** to **100% Morning Lark**.
@@ -52,6 +53,7 @@ We divide sleep patterns into 10 detailed categories based on population average
 This constant shifting back and forth creates a strain on your body similar to flying across time zones every week, hence the term "jetlag".
 
 <a id="free_vs_work"></a>
+<a id="workdays-and-weekend-days"></a>
 ### How We Identify Workdays vs. Free Days
 Sleep as Android automatically detects your routine through smart clustering:
 1. **Smart Clustering:** The app analyzes your mid-sleep hours and sleep durations to find two distinct groups of sleep patterns. The larger group is labeled "work days," and the smaller group is labeled "free days."
@@ -92,18 +94,24 @@ Unlike basic average duration, SRI accounts for night awakenings, daytime naps, 
 ## ❓ FAQs & Troubleshooting
 
 <details>
- <summary><strong>Can I change my Chronotype?</strong></summary>
+<summary><strong>Can I change my Chronotype?</strong></summary>
+
 Your chronotype is largely genetic, but it naturally shifts with age (teenagers lean owl; older adults lean lark). While you can't completely change your biology, practicing consistent light exposure and good sleep hygiene can help adjust your schedule within reasonable bounds.
+
 </details>
 
 <details>
- <summary><strong>Why is my Social Jetlag score so high?</strong></summary>
+<summary><strong>Why is my Social Jetlag score so high?</strong></summary>
+
 A high score usually means you are catching up on missed sleep or staying up much later on weekends compared to workdays. Try keeping your weekend wake-up times within 1 hour of your weekday alarm to lower this score.
+
 </details>
 
 <details>
- <summary><strong>What is a good Sleep Regularity Index (SRI) score?</strong></summary>
+<summary><strong>What is a good Sleep Regularity Index (SRI) score?</strong></summary>
+
 Aim for an SRI score of **75 or higher**. Scores above 85 indicate excellent circadian stability!
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

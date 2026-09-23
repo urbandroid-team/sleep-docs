@@ -31,7 +31,7 @@ Rate your sleep on the morning screen by tapping on the stars.
 
 ## Adding Comments and Tags
 
-Choose any of the available icon tags from the list. With the **(+)** button you can also create your own personal tags (`#any_text` or `#emoji`) — read more in [Tags](/sleep/tags).
+Choose any of the available icon tags from the list. With the **(+)** button you can also create your own personal tags (`#any_text` or `#emoji`) - read more in [Tags](/sleep/tags).
 
 Tap on the **Comment** section to type anything you would like to save as a note.
 
@@ -40,6 +40,8 @@ Tap on the **Comment** section to type anything you would like to save as a note
 ---
 
 <a id="add_awake"></a>
+<a id="trim_guide"></a>
+<a id="awake-settings"></a>
 
 ## Adding Awakes and Trimming the Graph
 
@@ -54,7 +56,7 @@ Tap on the **Comment** section to type anything you would like to save as a note
 
 ![Trimming and adding awakes](/assets/images/edit_3.png)
 
-> [!NOTE]
+> [!NOTE] <a id="add_sleep"></a> <a id="disable_optimizations"></a> <a id="disable_optimizations_mic"></a>
 > If you are missing an entire sleep record, you can add it manually. Go to **Left ☰ Menu → Graphs** or the [**Statistics**](/sleep/statistics) screen and use the **(+) Add sleep** ![plus](/assets/icons/plus.svg) button.
 
 ---

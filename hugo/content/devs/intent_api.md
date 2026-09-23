@@ -32,17 +32,17 @@ These intents allow your app or automation script to control Sleep as Android fe
 *   **Stop Sleep Tracking:** `com.urbandroid.sleep.alarmclock.STOP_SLEEP_TRACK`
 *   **Pause Tracking (5 min):** `com.urbandroid.sleep.ACTION_PAUSE_TRACKING`
 *   **Disable Alarm (Not Ringing):** `com.urbandroid.sleep.alarmclock.ALARM_STATE_CHANGE`
-    *   *Extra (String):* `alarm_label` — The label of the alarm to change.
-    *   *Extra (Boolean):* `alarm_enabled` — Set to `false` to disable.
+    *   *Extra (String):* `alarm_label` - The label of the alarm to change.
+    *   *Extra (Boolean):* `alarm_enabled` - Set to `false` to disable.
 *   **Snooze Alarm:** `com.urbandroid.sleep.alarmclock.ALARM_SNOOZE`
-    *   *Extra (Integer):* `extra_snooze_time` — Duration in minutes (1–60).
+    *   *Extra (Integer):* `extra_snooze_time` - Duration in minutes (1-60).
 *   **Dismiss Alarm:** `com.urbandroid.sleep.alarmclock.ALARM_DISMISS_CAPTCHA`
 *   **Stop Lullaby:** `com.urbandroid.sleep.ACTION_LULLABY_STOP_PLAYBACK`
 *   **Request Backup Sync:** `com.urbandroid.sleep.REQUEST_SYNC` (Triggers CSV export and cloud backup).
 
 ### Services
 *   **Start Lullaby:** Start a Service with package `com.urbandroid.sleep` and class `com.urbandroid.sleep.media.lullaby.LullabyService`.
-    *   *Extra (String):* `extra_lullaby` — The internal name of the lullaby.
+    *   *Extra (String):* `extra_lullaby` - The internal name of the lullaby.
     *   *Internal Names:* `WHITENOISE`, `WHALE`, `STORM`, `STREAM`, `CAVE`, `FIREPLACE`, `SEA`, `WIND`, `CLOCK`, `FROGS`, `CHIMES`, `OM`, `BELLS`, `FLUTE`, `PIANO`, `CAT`, `NASA`, `JUNGLE`, `TIBET`, etc.
 
 ---
@@ -68,7 +68,7 @@ Sleep as Android broadcasts these events so other apps can react when your sleep
 *   **Anti-snoring Sound:** `com.urbandroid.sleep.ANTISNORING_ACTION_AUTO`
 *   **Audio Recognition:** `com.urbandroid.sleep.audio.SOUND_EVENT_AUTO`
     *   *Frequency:* Max once per 30 seconds.
-    *   *Extra (Long):* `TIMESTAMP` — Unix epoch millis.
-    *   *Extra (String):* `SOUND_CLASS` — One of: `SNORE`, `TALK`, `COUGH`, `BABY`, `LAUGH`.
+    *   *Extra (Long):* `TIMESTAMP` - Unix epoch millis.
+    *   *Extra (String):* `SOUND_CLASS` - One of: `SNORE`, `TALK`, `COUGH`, `BABY`, `LAUGH`.
 *   **Start of Smart Period:** `com.urbandroid.sleep.SMART_PERIOD_AUTO` (Fires at the start of the wake-up window).
 

@@ -21,9 +21,9 @@ Whether you prefer calming nature soundscapes, binaural beats, guided meditation
 
 You can choose, customize, and start lullabies from three places in the app:
 
-* **General Settings:** Go to ` Settings`  → ` Sleep tracking` → `Lullabies` .
-* **Left Navigation Menu:** Tap `Left ≡ Menu` → ` Lullabies`  to pick tracks or playlists.
-* **Sleep Tracking Screen:** Tap the ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg)`Lullaby icon** directly on the tracking screen to toggle or choose music.
+* **General Settings:** Go to `Settings` → `Sleep tracking` → `Lullabies`.
+* **Left Navigation Menu:** Tap `Left ≡ Menu` → `Lullabies` to pick tracks or playlists.
+* **Sleep Tracking Screen:** Tap the ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) **Lullaby icon** directly on the tracking screen to toggle or choose music.
 
 
 ## Built-In Nature & Ambient Sounds
@@ -33,7 +33,7 @@ Built-in lullabies blend repetitive background sounds with gentle, subtle accent
 
 ## Custom Playlists & External Media
 * **Playlists:** Combine multiple built-in tracks into a continuous rotation. The playlist will pick the lullaby based on the last used tracks and will change the melody after 10 minutes.
-* **[Spotify](/sleep/lullaby#spotify_guide):** Stream music, relaxing audio, or sleep playlists directly from your Spotify library.
+* **[Spotify](/sleep/lullaby#lullaby_spotify):** Stream music, relaxing audio, or sleep playlists directly from your Spotify library.
 * **Online Radio:** Play live ambient streams (e.g., SomaFM stations included by default, or [add your custom URL](/sleep/lullaby#guide_radio).
 * **External Players:** Use your preferred player (audiobooks, podcasts, YouTube Music) alongside Sleep as Android with **[Turn off when sleeping](/sleep/lullaby#turn_off)** feature.
 
@@ -80,7 +80,7 @@ You can also configure stimulating binaural beats into your alarm sound to boost
 3. **Pick Your Playlist:** Browse your saved playlists or albums and tap to select the one you want to play at bedtime.
 
 ### How to Play Your Own Music/Audiobooks <a id="turn_off"></a>
-1. Enable `Settings` →  ` Sleep tracking` → `Lullabies` → `Turn off when sleeping` and set a minimum playback duration (e.g., 15–30 minutes).
+1. Enable `Settings` →  ` Sleep tracking` → `Lullabies` → `Turn off when sleeping` and set a minimum playback duration (e.g., 15-30 minutes).
 2. Open your preferred app (Audible, Spotify, Podcast app) and start playback.
 3. Start **Sleep Tracking** in Sleep as Android.
 4. Once the app detects you have fallen asleep, it will automatically lower the media volume gradually.
@@ -96,17 +96,19 @@ You can also configure stimulating binaural beats into your alarm sound to boost
 ## ❓ FAQs & Troubleshooting
 
 <details>
-<summary><b>Why does the volume drop soon after I start tracking?</b></summary>
-<br>
+<summary><strong>Why does the volume drop soon after I start tracking?</strong></summary>
+
 If your lullaby or external audio volume drops unexpectedly soon after starting tracking, check the following potential causes:
-1. <b>"Turn Off When Sleeping" is enabled:</b> Sleep as Android lowers system-wide media volume when it senses you're falling asleep. Go to `Settings` → `Sleep tracking` → `Lullabies` → `Turn off when sleeping` and increase the minimum playback duration (e.g., 20–30 minutes) or set it to disabled.
-2. <b>System Do Not Disturb (DND) or Bedtime/Sleep Mode blocking media:</b> Your phone's system settings (Android DND, Digital Wellbeing, or Samsung Sleep Mode) might be configured to mute media audio when tracking begins. Check your device's <b>Do Not Disturb</b> or <b>Modes & Routines</b> to ensure media playback is allowed while DND or Sleep Mode is active.
+1. **"Turn Off When Sleeping" is enabled:** Sleep as Android lowers system-wide media volume when it senses you're falling asleep. Go to `Settings` → `Sleep tracking` → `Lullabies` → `Turn off when sleeping` and increase the minimum playback duration (e.g., 20-30 minutes) or set it to disabled.
+2. **System Do Not Disturb (DND) or Bedtime/Sleep Mode blocking media:** Your phone's system settings (Android DND, Digital Wellbeing, or Samsung Sleep Mode) might be configured to mute media audio when tracking begins. Check your device's **Do Not Disturb** or **Modes & Routines** to ensure media playback is allowed while DND or Sleep Mode is active.
+
 </details>
 
 <details>
-<summary><b>Can I use binaural beats through phone speakers?</b></summary>
-<br>
+<summary><strong>Can I use binaural beats through phone speakers?</strong></summary>
+
 No. Binaural beats work by sending slightly different frequencies to each ear, which requires stereo headphones or earbuds to produce the desired brainwave effect.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

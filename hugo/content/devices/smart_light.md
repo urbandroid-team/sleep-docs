@@ -49,7 +49,7 @@ Enable **Use Sleep Mask** to use your [Sleep Mask](https://happyelectronics.eu/c
 
 ---
 
-## Guide: Setting Up a Sunrise Alarm <a id="sunrise_alarm_guide"></a>
+## Guide: Setting Up a Sunrise Alarm <a id="sunrise_alarm_guide"></a> <a id="guide"></a>
 
 A true sunrise alarm starts brightening the room *before* the audio alarm begins.
 

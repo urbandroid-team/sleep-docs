@@ -84,6 +84,7 @@ This setting works hand-in-hand with our **Smart Wake Up** feature. It completel
 
 * **Reason:** You reached your snooze limit or Maximum total snooze time. Or snoozing is disabled once your scheduled alarm time is reached.
 * 👉  *Fix:* Check if **Snooze limit** or **Maximum total snooze time** is enabled. Once these thresholds are met, the Snooze button is hidden to prevent oversleeping. If you are past your scheduled alarm time and **Snooze after alarm time** is disabled, snoozing is disabled.
+
 </details>
 
 <details>
@@ -94,6 +95,7 @@ This setting works hand-in-hand with our **Smart Wake Up** feature. It completel
     *   Check the individual **Alarm-specific settings** to ensure it isn't overriding your global preferences (<code>Settings ➔ Alarms ➔ Snooze</code>).
     *   If your remaining allowed total snooze time is shorter than your default snooze duration, the button will adjust to fit only the time you have left.
     *   Check if **Halve the snooze** is enabled. This feature cuts each consecutive snooze duration in half (e.g., 20 min → 10 min → 5 min...).
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

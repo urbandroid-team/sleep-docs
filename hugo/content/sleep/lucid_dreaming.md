@@ -9,7 +9,7 @@ parent: /sleep/0parent.html
 # Lucid dreaming
 
 
-Lucid dreaming is a technique where you become conscious and aware that you are dreaming while still asleep, giving you the ability to guide and control your dream experience. **Sleep as Android** helps induce lucid dreams by playing subtle audio cues and gentle vibrations directly during your **REM (Rapid Eye Movement)** sleep phase—the state where your most vivid and memorable dreams occur.
+Lucid dreaming is a technique where you become conscious and aware that you are dreaming while still asleep, giving you the ability to guide and control your dream experience. **Sleep as Android** helps induce lucid dreams by playing subtle audio cues and gentle vibrations directly during your **REM (Rapid Eye Movement)** sleep phase - the state where your most vivid and memorable dreams occur.
 
 ## How It Works
 
@@ -44,21 +44,24 @@ Although smartphones and wearables do not record brainwaves directly (EEG), Slee
 ## ❓ FAQs & Troubleshooting
 
 <details>
-<summary><b>Why am I hearing cues while I am still awake?</b></summary>
-<br>
-If cues trigger while you are still trying to fall asleep, reduce the <b>Sensitivity</b> setting or increase the <b>Later</b> delay option so the app gives you more time to reach deep/REM sleep before starting.
+<summary><strong>Why am I hearing cues while I am still awake?</strong></summary>
+
+If cues trigger while you are still trying to fall asleep, reduce the **Sensitivity** setting or increase the **Later** delay option so the app gives you more time to reach deep/REM sleep before starting.
+
 </details>
 
 <details>
-<summary><b>Should I use headphones or phone speakers?</b></summary>
-<br>
-Headphones provide a clearer audio cue without disturbing others. If using headphones, enable <b>Force Headphones Only</b> and run a test preview prior to sleeping to verify your device's Do Not Disturb (DND) settings don't block media audio.
+<summary><strong>Should I use headphones or phone speakers?</strong></summary>
+
+Headphones provide a clearer audio cue without disturbing others. If using headphones, enable **Force Headphones Only** and run a test preview prior to sleeping to verify your device's Do Not Disturb (DND) settings don't block media audio.
+
 </details>
 
 <details>
-<summary><b>Will my wearable vibrate instead of my phone?</b></summary>
-<br>
+<summary><strong>Will my wearable vibrate instead of my phone?</strong></summary>
+
 Yes! When tracking sleep with a supported smartwatch or fitness tracker, tactile vibration cues are automatically routed to your wrist.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

@@ -95,6 +95,7 @@ Enables silent wake-ups using vibrations only (ideal when wearing a smartwatch o
 * 👉  *Fix:*
     *   If gentle wake-up is turned on, the alarm starts at zero volume and slowly ramps up. Check **Settings → Alarms → Gentle wake up → Gentle volume**. Lowering this setting to 1 minute will bring the volume to max much faster.
     *   Check your device's volume settings. Press your phone's physical volume button and make sure the **Alarm/Ringtone volume slider** is set to an adequate level.
+
 </details>
 
 <details>
@@ -105,6 +106,7 @@ Enables silent wake-ups using vibrations only (ideal when wearing a smartwatch o
     *   If playing a local file, ensure the file wasn't moved, deleted, or stored on an unmounted SD card. Verify that Sleep as Android has storage access permissions.
     *   If an online service fails to respond within 30 seconds due to network issues, the app automatically plays a built-in fallback ringtone so you don't oversleep.
     *   If Spotify fails to change playlists while the device screen is locked, it will default to playing your last opened playlist or track.
+
 </details>
 
 <details>
@@ -114,6 +116,7 @@ Enables silent wake-ups using vibrations only (ideal when wearing a smartwatch o
 * 👉  *Fix:*
     *   If battery saver features restrict the app in the background, vibration drivers may fail to trigger. To ensure you still wake up, the app automatically falls back to a built-in ringing sound. Disable battery optimizations via **Settings → Sleep tracking → Battery optimized**.
     *   If your phone restarted and remains locked at the credential screen (Direct Boot state), the app cannot access encrypted custom ringtones or vibration profiles. It will sound a built-in fallback ringtone to ensure you don't miss your alarm.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

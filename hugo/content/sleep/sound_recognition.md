@@ -80,12 +80,14 @@ If you see a sound icon on your noise graph but cannot play the audio, try these
   * *Higher threshold* = only records louder sounds.
 * **Reset the Storage Path:**
   Go to <code>Settings ➔ Sleep noise analysis ➔ Storage path</code> and tap **RESET**.
+
 </details>
 
 <details>
 <summary><strong>What should I do if a sound was tagged incorrectly?</strong></summary>
 
 You can easily fix tags by editing the recording's comment section or tapping the sound category icons directly inside the audio player screen. You can also email misclassified clips with details on what changed to **support@urbandroid.org**.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

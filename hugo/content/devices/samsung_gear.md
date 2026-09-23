@@ -60,6 +60,7 @@ tags:
     1.  **Verify Phone Addon:** Ensure the **[Sleep as Android Gear Addon](https://play.google.com/store/apps/details?id=com.urbandroid.sleep.addon.generic.samsung)** is installed and updated.
     2.  **Launch Addon Manually:** Open the **Google Play Store**, find the addon page, and tap **Open** to restart the service.
     3.  **Disable Battery Optimization:** Exclude Sleep as Android, the addon, and Galaxy Wearable from optimization (visit [DontKillMyApp.com](https://dontkillmyapp.com/)).
+
 </details>
 
 <details>
@@ -69,6 +70,7 @@ tags:
 * 👉  *Fix:*
     * **Watch App Trigger:** Opening or tapping the watch app icon starts tracking immediately.
     * **Automatic Tracking:** Check <code>Settings ➔ Sleep tracking ➔ Automatic sleep tracking ➔ Start sleep tracking</code>.
+
 </details>
 
 <details>
@@ -76,5 +78,6 @@ tags:
 
 * **Reason:** Android's background battery optimizations aggressively closing apps or killing Bluetooth connections.
 * 👉  *Fix:* Set **Bluetooth**, **Galaxy Wearable**, **Samsung Accessory Services**, and **Sleep as Android** to **"Unrestricted" / "Don't optimize"** in your phone's battery settings. Visit [DontKillMyApp.com](https://dontkillmyapp.com/) for guides.
+
 </details>
 

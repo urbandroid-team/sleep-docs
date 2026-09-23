@@ -43,6 +43,7 @@ To get started, you must install the **Sleep as Android** watch app on your Pebb
     1.  Ensure your Pebble is successfully connected in your management app.
     2.  Check that **Sleep as Android**, your **Pebble management app**, and the system **Bluetooth app** are excluded from Android battery optimization.  For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
     3.  Try restarting both your phone and your watch.
+
 </details>
 
 <details>
@@ -53,6 +54,7 @@ To get started, you must install the **Sleep as Android** watch app on your Pebb
     1.  **Exclude from Optimization:** Ensure **Sleep as Android**, your watch's **companion app**, and **Bluetooth services** are excluded from battery optimization.
     2.  **TicWatch Users:** Disable "Essential Mode" or "Smart Mode" optimizations.
     For detailed guides, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+
 </details>
 
 *Need further help? Contact us via **`Left ≡ Menu` → `Support` → `Report a bug`**.*

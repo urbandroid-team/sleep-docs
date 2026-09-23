@@ -44,7 +44,7 @@ To learn more, see our documentation on [Social Jetlag & Regularity](/sleep/chro
 | :--- | :--- |
 | ![ic_alarm](/assets/icons/ic_alarm.svg) | **Alarms:** Opens your complete list of alarms. |
 | ![ic_timelapse](/assets/icons/ic_timelapse.svg) | **Stats:** Opens long-term [Statistics and Trends](/sleep/charts). |
-| ![ic_action_graph](/assets/icons/ic_action_graph.svg) | **Graphs:** View your [latest sleep tracking records](/sleep/sleep_graph). |
+| ![ic_action_graph](/assets/icons/ic_action_graph.svg) | **Graphs:** View your [latest sleep tracking records](/sleep/how_to_read_sleep_graphs.html). |
 | ![ic_action_stats](/assets/icons/ic_action_stats.svg) | **Charts:** Deep dive into specific [sleep quality metrics](/sleep/charts). |
 | ![ic_goal](/assets/icons/ic_goal.svg) | **Goal:** Track your progress toward active [Sleep Goals](/sleep/goals). |
 | ![ic_lightbulb](/assets/icons/ic_lightbulb.svg) | **Advice:** Get personalized insights from the [Advice section](/sleep/advice). |

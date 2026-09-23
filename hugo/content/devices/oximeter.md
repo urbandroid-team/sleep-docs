@@ -36,7 +36,7 @@ Due to manufacturer restrictions, third-party access to raw SpO<sub>2</sub> stre
 
 ## Features
 
-Tracking SpO<sub>2</sub> is one of the most effective ways to identify **breath disturbance episodes**—moments when breathing slows down or pauses (such as during sleep apnea events). For a deeper dive into breathing analysis, visit our [Breath Rate & Disturbance Guide](/sleep/breath_rate).
+Tracking SpO<sub>2</sub> is one of the most effective ways to identify **breath disturbance episodes**-moments when breathing slows down or pauses (such as during sleep apnea events). For a deeper dive into breathing analysis, visit our [Breath Rate & Disturbance Guide](/sleep/breath_rate).
 
 *   **Continuous Logging:** View detailed graphs matching oxygen drops alongside movement and heart rate spikes.
 *   **Low Breath Rate Alarm:** Triggers a vibration or alarm on your phone or wearable if a significant drop in oxygen levels is detected.
@@ -70,6 +70,7 @@ Tracking SpO<sub>2</sub> is one of the most effective ways to identify **breath 
 * 👉  *Fix:*
     1. Ensure the oximeter or watch remains securely positioned.
     2. Exclude **Sleep as Android**, **Bluetooth System Services**, and any watch companion apps from phone battery optimizations (visit [DontKillMyApp.com](https://dontkillmyapp.com/) for guides).
+
 </details>
 
 <details>
@@ -77,6 +78,7 @@ Tracking SpO<sub>2</sub> is one of the most effective ways to identify **breath 
 
 * **Reason:** Real-time data processing for health alerts.
 * 👉  *Fix:* **Yes.** Sleep as Android processes SpO<sub>2</sub> and heart rate data in real time to power safety features like the Low Breath Rate Alarm.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

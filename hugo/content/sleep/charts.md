@@ -1,4 +1,4 @@
-    ---
+---
 
 layout: default
 title: Charts / Trends
@@ -121,7 +121,7 @@ Tracks when your sleep tracking sessions typically begin. Look for a flat line w
 
 ![Smart Wake-Up](/assets/images/charts/trend/trend_smart_wakeup.png)
 
-Shows how many minutes before your set alarm the app woke you up. If this is consistently at 0 or at your maximum period, you may need to [adjust your sensitivity](/alarms/smart_wake_up#sensitivity).
+Shows how many minutes before your set alarm the app woke you up. If this is consistently at 0 or at your maximum period, you may need to [adjust your sensitivity](/sleep/smart_wake_up.html).
 
 ### Snooze
 
@@ -200,7 +200,7 @@ Chronotype represents your natural sleep pattern on the spectrum between 100% Ni
 
 ![Mid-Sleep Hour](/assets/images/charts/chronotype/midsleephour.png)
 
-Shows your all-time average mid-sleep hour compared to the global average. Your position is highlighted—points further right indicate a Night Owl tendency.
+Shows your all-time average mid-sleep hour compared to the global average. Your position is highlighted-points further right indicate a Night Owl tendency.
 
 ### Chronotype Trend
 

@@ -97,12 +97,14 @@ If your graph does not show the red HR line, check the following:
 1.  Verify that **Use wearable** is configured correctly to match your watch in <code>Settings ➔ Sleep tracking ➔ Wearables</code>.
 2.  Check if another health app on your phone or watch is maintaining an exclusive lock on your sensor.
 3.  If using Wear OS or Galaxy Watch, ensure continuous heart rate measurement is enabled in your watch's system settings.
+
 </details>
 
 <details>
 <summary><strong>What is Heart Rate Variability (HRV) and why is higher usually better?</strong></summary>
 
 HRV measures the subtle time differences between consecutive heartbeats. A higher HRV indicates that your autonomic nervous system is responsive and balanced (indicating low stress and good recovery). A sudden drop in overnight HRV can be an early signal of physical exhaustion, onset of illness, or high stress levels.
+
 </details>
 
 <details>
@@ -110,6 +112,7 @@ HRV measures the subtle time differences between consecutive heartbeats. A highe
 
 Continuous Bluetooth streaming consumes slightly more battery than standard motion tracking. If preserving battery has higher priority to you than real-time HR data in Sleep app, you can let Sleep app sync the data from the native app by using the [Health Connect](/services/health_connect) or [Samsung Health](/services/s_health).
 When the tracking is terminated, the app will sync the data and will re-evaluate the awake detection.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

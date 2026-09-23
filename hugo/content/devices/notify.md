@@ -98,6 +98,7 @@ You can use the button or touch sensor on your band to control your phone alarm:
     4. **Bluetooth System Services**
 
     For step-by-step instructions for your specific phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+
 </details>
 
 <details>
@@ -112,6 +113,7 @@ You can use the button or touch sensor on your band to control your phone alarm:
 
     > [!TIP]
     > We recommend using a delayed sound rather than complete silence as a safety net, especially if your backup alarm is also set to silent.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

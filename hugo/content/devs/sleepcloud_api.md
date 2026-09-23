@@ -46,7 +46,7 @@ This is the only supported operation. It returns user’s JSON formatted sleep d
 
 > **Warning:** Request for all records can be throttled.
 
-- **actigraph**: Set `true` to retrieve actigraphs – recording of user activity during the night
+- **actigraph**: Set `true` to retrieve actigraphs - recording of user activity during the night
 - **labels**: Set `true` to retrieve hypnogram data and other labelled events, such as sleep phases, alarms, snoring etc.
 - **tags**: Set `true` to retrieve lifestyle tagging such as: caffeine, alcohol, love, medication, sport…
 - **comments**: Set `true` to retrieve user custom comments about the record

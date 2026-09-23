@@ -18,7 +18,7 @@ Whether you are looking to build a consistent bedtime routine or simply want an 
 Achievements are digital milestone badges unlocked as you use the app. They serve two main purposes:
 
 1. **Building Healthy Habits:** Recognize your progress when maintaining consistent bedtimes, reaching sleep goals, or tracking continuously.
-2. **Exploring Features:** Learn about helpful features—like CAPTCHA alarms, lullabies, sonar tracking, or sleep noise analysis—as you naturally use them.
+2. **Exploring Features:** Learn about helpful features - like CAPTCHA alarms, lullabies, sonar tracking, or sleep noise analysis - as you naturally use them.
 
 > 💡 **Your Sleep, Your Choice**
 > Achievements are completely optional! If you prefer a streamlined, distraction-free dashboard, you can easily dismiss or hide the Achievements card at any time.
@@ -57,20 +57,26 @@ Celebrating your sleep improvement can keep you motivated:
 
 <details>
 <summary><strong>Can I hide or disable Achievements?</strong></summary>
+
 Yes! If you do not want to see Achievements on your dashboard:
 - Simply **swipe left** on the Achievements card to dismiss it.
 - Alternatively, scroll to the bottom, tap the <code>Hide / Show</code> button and untick the Achievement option.
 ize → Dashboard** and uncheck the **Achievements** card.
+
 </details>
 
 <details>
 <summary><strong>I can't find Achievements on the main screen?</strong></summary>
+
 If the Achievement card is not visible, scroll down to the bottom, tap the <code>Hide / Show</code> button and check the **Achievements** card.
+
 </details>
 
 <details>
 <summary><strong>Do Achievements turn sleep into a competition?</strong></summary>
+
 Not at all. Achievements are strictly personal milestones designed to guide you through app features and encourage positive habits. Sleep recovery is individual, so focus only on what works best for your health.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

@@ -28,7 +28,7 @@ We do our best to offer full-featured support for every wearable out there! Howe
 ## Setup Instructions
 
 > [!NOTE]
-> Garmin integration does not support testing the sensor with [Test sensor](/sleep/sleep_tracking#test_sensor).
+> Garmin integration does not support testing the sensor with [Test sensor](/devices/test_sensor.html).
 
 ### Choosing the Right Garmin Watch App Version
 
@@ -77,6 +77,7 @@ If your Garmin watch is no longer receiving firmware updates and supports Connec
 
 * **Reason:** Garmin devices have a system-wide gesture setting that automatically activates the screen backlight upon wrist movement during active tracking.
 * 👉  *Fix:* On your watch, go to `Settings` → `System` → `Lighting` → `During Activity` → `Gesture` and set it to **Off**. This prevents wrist movements from lighting up the room while keeping backlight functionality intact for button presses and alarms.
+
 </details>
 
 <details>
@@ -86,6 +87,7 @@ If your Garmin watch is no longer receiving firmware updates and supports Connec
 * 👉  *Fix:*
     * **Do Not Disturb:** Turn on **Do Not Disturb** mode on your watch prior to sleeping (<code>Settings ➔ System ➔ Do Not Disturb</code>).
     * **Toggle System Vibrations:** Temporarily disable vibrations in <code>Settings ➔ System ➔ Sounds/Vibration</code> on your watch.
+
 </details>
 
 <details>
@@ -99,6 +101,7 @@ If your Garmin watch is no longer receiving firmware updates and supports Connec
     4. **Bluetooth System Services**
 
     For device-specific instructions for your phone manufacturer, visit [DontKillMyApp.com](https://dontkillmyapp.com/).
+
 </details>
 
 <details>
@@ -106,6 +109,7 @@ If your Garmin watch is no longer receiving firmware updates and supports Connec
 
 * **Reason:** On some Garmin models, the remote launch feature may fail due to firmware limitations or background restrictions, even with the companion app installed.
 * 👉  *Fix:* Ensure you have **[Sleep Watch Starter](https://play.google.com/store/apps/details?id=com.urbandroid.watchsleepstarter)** installed on your phone. If the watch app still doesn't open automatically, you must manually start the tracking: first initiate tracking on your **phone**, and then immediately open and start the **Sleep as Android** app on your **watch**.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

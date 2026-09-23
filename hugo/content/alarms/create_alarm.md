@@ -9,7 +9,7 @@ parent: /alarms/0parent.html
 # Create alarm
 
 
-Setting up an alarm in **Sleep as Android** gives you complete control over your wake-up routine—whether you need a simple daily alarm, a quick nap timer, or a highly customized schedule.
+Setting up an alarm in **Sleep as Android** gives you complete control over your wake-up routine - whether you need a simple daily alarm, a quick nap timer, or a highly customized schedule.
 
 
 ## Ways to Create a New Alarm
@@ -89,7 +89,7 @@ Tap the numerical text box and type your target time directly in 24-hour **HHMM*
 Managing your current alarms is fast and simple:
 
 * **Change the Time:** Tap directly on the **time** displayed on the alarm card to open the time picker.
-* **Customize Alarm Settings:** Tap **anywhere else** on the alarm card (outside the time display and toggle switch) to open its individual settings—such as ringtones, CAPTCHAs, or custom snooze options.
+* **Customize Alarm Settings:** Tap **anywhere else** on the alarm card (outside the time display and toggle switch) to open its individual settings, such as ringtones, CAPTCHAs, or custom snooze options.
 * **Deleting an alarm:** Long-press on the alarm you want to remove, then choose **Delete**, or in the per-alarm settings, tap the **Delete** button at the bottom.
 * **Skip Next Instance:** If you have a recurring alarm set for tomorrow morning but have the day off, you can use the **Skip next** feature. Long-press the alarm card and choose **Skip next**.
 

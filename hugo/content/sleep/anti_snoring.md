@@ -36,7 +36,7 @@ Choose how the app should alert you:
 * **Both:** Plays the audio clip and triggers vibration simultaneously.
 
 ### Sound
-* **Default Sound:** *Tongue Clicking* — a universally recognized prompt used to gently disrupt snoring.
+* **Default Sound:** *Tongue Clicking* - a universally recognized prompt used to gently disrupt snoring.
 * **Custom Ringtone:** Choose a preferred audio cue.
 
 ### Volume
@@ -63,24 +63,30 @@ Use the **Preview** option to test your alert configuration before going to bed.
 
 <details>
 <summary><strong>Why is Anti-snoring not working or giving alerts?</strong></summary>
+
 If anti-snoring alerts or vibrations are not triggering, check these common device blocks:
 * **Do Not Disturb (DND) Mode on Phone:** System Do Not Disturb settings can suppress notification sounds or alerts. Ensure *Sleep as Android* is added to your DND exception list, or adjust app notification settings to allow alerts during DND.
 * **Bedtime / Theater / Sleep Mode on Watch:** Many smartwatches automatically silence or block all haptic vibrations when set to Bedtime, Theater, or Do Not Disturb mode. Check your smartwatch settings to ensure app vibrations are allowed during sleep tracking.
 * **Check Microphone Permissions:** Ensure Sleep as Android has permission to access your microphone in your phone's system settings.
 * **Phone Placement:** Position your phone nearby with the microphone clear, ensuring it isn't muffled by pillows, blankets, or heavy cases.
 * **Check Sleep Noise Analysis:** Ensure that **Sleep noise analysis** is enabled under `Settings` → `Sleep noise analysis`.
+
 </details>
 
 
 <details>
 <summary><strong>My phone and watch both vibrate during preview, but only my watch vibrates at night</strong></summary>
+
 * **This is intentional:** The preview triggers vibration on all connected hardware to test functionality. During actual tracking, vibrations are routed exclusively to your wearable to keep night alerts quiet.
+
 </details>
 
 <details>
 <summary><strong>Anti-snoring keeps waking me up completely</strong></summary>
+
 * **Lower the volume or repeat count:** Reduce the volume slider or lower the repetition frequency in `Settings` → `Sleep noise analysis` → `Anti-snoring`.
 * **Switch to Vibration:** Try using wearable vibration instead of audio prompts for a gentler nudge.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

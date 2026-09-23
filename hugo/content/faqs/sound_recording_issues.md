@@ -12,7 +12,7 @@ If your noise graph shows data but no individual audio clips were saved, check t
 
 ### 2. Too many short or constant recordings (e.g., fan noise)
 *   **Reason:** The volume threshold is too low.
-*   👉 **Fix:** Increase the threshold to **25%–35%** under `Settings` ➔ `Sleep noise analysis` ➔ `Recording volume threshold`.
+*   👉 **Fix:** Increase the threshold to **25%-35%** under `Settings` ➔ `Sleep noise analysis` ➔ `Recording volume threshold`.
 
 ### 3. Weird chirping or sonar noise in recordings
 If you hear feedback or high-pitched artifacts:

@@ -60,9 +60,9 @@ RDI measures how many times per hour your breathing was interrupted or noticeabl
 
 | RDI Range | Level | What It Means & Recommended Action |
 | :--- | :--- | :--- |
-| **0 – 10** | **Normal** | Typical breathing. Occasional minor dips can occur due to sensor movement or position changes. |
-| **10 – 15** | **Mild** | Mild breathing disturbances detected. We recommend tracking across consecutive nights to verify. |
-| **15 – 30** | **Moderate** | Moderate disturbances. Consider adjusting sleeping position and monitoring regularly. |
+| **0 - 10** | **Normal** | Typical breathing. Occasional minor dips can occur due to sensor movement or position changes. |
+| **10 - 15** | **Mild** | Mild breathing disturbances detected. We recommend tracking across consecutive nights to verify. |
+| **15 - 30** | **Moderate** | Moderate disturbances. Consider adjusting sleeping position and monitoring regularly. |
 | **30+** | **Severe** | Significant breathing disturbances. **We strongly recommend consulting a medical professional.** |
 
 > 💡 **Tip:** Always evaluate your RDI over several nights. A single night with elevated disturbances can be caused by a loose sensor, temporary illness, or physical obstruction.
@@ -71,7 +71,7 @@ RDI measures how many times per hour your breathing was interrupted or noticeabl
 
 You don't need extra wearables to start tracking your breath rate. Sleep as Android offers multiple measurement methods:
 
-### [Sonar](/devices/sonar)
+### [Sonar](/faqs/sonar_faq.html)
 * **How it works:** Uses your smartphone’s speaker and microphone to emit ultrasonic signals that track subtle chest and abdominal movements.
 
 
@@ -114,7 +114,8 @@ This alarm is intentionally loud and prominent to ensure it successfully wakes y
 ## ❓ FAQs & Troubleshooting
 
 <details>
- <summary><strong>What should I do if my RDI score is high or concerning?</strong></summary>
+<summary><strong>What should I do if my RDI score is high or concerning?</strong></summary>
+
 First, don't panic! A high score on a single night can be caused by temporary factors like a loose sensor, sleeping position, alcohol consumption, or nasal congestion.
 
 Here are the recommended steps to take:
@@ -122,11 +123,14 @@ Here are the recommended steps to take:
 2. **Check your hardware setup:** Ensure your phone or wearable is positioned correctly and your oximeter strap isn't loose.
 3. **Try adjusting your sleep habits:** Sleeping on your back often increases breathing disturbances; try sleeping on your side.
 4. **Consult a medical professional:** If your RDI consistently remains above 15 (or if you experience symptoms like daytime fatigue, waking up gasping, or loud snoring), share your sleep graphs with a doctor or sleep specialist for a proper medical evaluation.
+
 </details>
 
 <details>
- <summary><strong>Why do I see temporary disturbance dips?</strong></summary>
-Disruptions can sometimes be caused by hardware factors—such as an oximeter slipping on your finger or a smartwatch losing skin contact during movement. Re-measuring over multiple nights helps filter out sensor artifacts.
+<summary><strong>Why do I see temporary disturbance dips?</strong></summary>
+
+Disruptions can sometimes be caused by hardware factors - such as an oximeter slipping on your finger or a smartwatch losing skin contact during movement. Re-measuring over multiple nights helps filter out sensor artifacts.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*

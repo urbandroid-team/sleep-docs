@@ -21,7 +21,7 @@ tags:
 
 ## Light Controls & Modes
 
-Controlling your Sleep Phaser v2/v3 is simple—just tap the touch sensor on the **top of the lamp**. Each tap cycles through the main light modes:
+Controlling your Sleep Phaser v2/v3 is simple - just tap the touch sensor on the **top of the lamp**. Each tap cycles through the main light modes:
 
 1. **Full White** (Bright reading light)
 2. **Moderate Orange** (Warm evening light)
@@ -106,6 +106,7 @@ In addition to lighting controls, the app allows you to adjust internal Phaser s
     2. **Power Adapter:** Ensure your wall charger provides at least **1A**.
     3. **Reset Connection:** Force-close the app, toggle Bluetooth, and power-cycle the Phaser (unplug for 5s).
     4. Test connection with the [Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol) app.
+
 </details>
 
 <details>
@@ -113,6 +114,7 @@ In addition to lighting controls, the app allows you to adjust internal Phaser s
 
 * **Reason:** Device potentially in bootloader mode.
 * 👉  *Fix:* Unplug the power cable, wait 10 seconds, and plug it back in. For firmware updates, use the standalone **[Sleep Phaser Remote Control](https://play.google.com/store/apps/details?id=com.hecz.sleepphasercontrol)** app.
+
 </details>
 
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
