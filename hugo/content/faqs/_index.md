@@ -51,6 +51,7 @@ Find quick answers to common questions and troubleshooting steps for **Sleep as 
 
 ### 📊 Graphs
 *   [**Understanding sleep graphs**](/faqs/graph_interpretation.html)
+*   [**Tracking ends suddenly during the night**](/faqs/tracking_ends_overnight.html)
 *   [**Red gaps in the sleep graph**](/faqs/red_gaps.html)
 *   [**Incorrect awake detection (false or missed)**](/faqs/incorrect_awake_detection.html)
 *   [**Graph duration**](/faqs/graph_duration.html)
