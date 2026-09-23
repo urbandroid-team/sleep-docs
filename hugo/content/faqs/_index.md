@@ -4,7 +4,7 @@ bookCollapseSection: true
 weight: 80
 ---
 
-# Frequently Asked Questions
+# Frequently Asked Questions and Troubleshooting
 
 Find quick answers to common questions and troubleshooting steps for **Sleep as Android**, organized by category.
 
@@ -14,50 +14,48 @@ Find quick answers to common questions and troubleshooting steps for **Sleep as 
 
 <div style="flex: 1; min-width: 300px;">
 
+### 💾 General
+*   [**Purchase not recognized**](/faqs/purchase_not_recognized.html)
+*   [**Backup & Data Recovery**](/faqs/backup_faq.html)
+*   [**I cannot uninstall the app**](/faqs/uninstall_protection.html)
+
 ### ⏰ Alarms & Bedtime
 *   [**Alarms not ringing**](/faqs/alarms_not_ringing.html)
 *   [**Incorrect ringtone**](/faqs/alarm_sound_issues.html)
 *   [**Alarm volume (too loud or quiet)**](/faqs/alarm_volume.html)
-*   [**Smart Wake-up issues**](/faqs/smart_wakeup.html)
-*   [**Snooze button & duration**](/faqs/snooze.html)
-*   [**Bedtime notification issues**](/faqs/bedtime_notification.html)
-
-### 🧩 CAPTCHAs
-*   [**CAPTCHAs issues**](/faqs/captcha_issues.html)
+*   [**Smart Wake-up (too early or too late)**](/faqs/smart_wakeup.html)
+*   [**Snooze buttons & duration**](/faqs/snooze.html)
+*   [**Bedtime notification**](/faqs/bedtime_notification.html)
 
 ### 💤 Special Features
+*   [**Sound recording**](/faqs/sound_recording_issues.html)
+*   [**CAPTCHAs**](/faqs/captcha_issues.html)
 *   [**Lucid Dreaming**](/faqs/lucid_dreaming_faq.html)
-*   [**Lullaby issues**](/faqs/lullaby_faq.html)
-*   [**Anti-snoring issues**](/faqs/anti_snoring_faq.html)
+*   [**Lullaby**](/faqs/lullaby_faq.html)
+*   [**Anti-snoring**](/faqs/anti_snoring_faq.html)
 *   [**Goals**](/faqs/wager_faq.html)
-
-### 💾 General
-*   [**Backup & Data Recovery**](/faqs/backup_faq.html)
-*   [**I cannot uninstall the app**](/faqs/uninstall_protection.html)
 
 </div>
 
 <div style="flex: 1; min-width: 300px;">
 
 ### ⌚ Sensors & Wearables
-*   [**Sonar (Contactless) tracking**](/faqs/sonar_faq.html)
 *   [**Automatic sleep tracking**](/faqs/auto_tracking_faq.html)
 *   [**Wearable connectivity & compatibility**](/faqs/wearable_faq.html)
+*   [**Sonar tracking**](/faqs/sonar_faq.html)
 
 ### ❤️ Health & Vitals
 *   [**Heart Rate (HR) & HRV**](/faqs/hr_hrv_issues.html)
 *   [**Oxygen (SpO2) & Breathing**](/faqs/spo2_breathing_issues.html)
-*   [**Sleep Score & Customization**](/faqs/sleep_score_customization.html)
 *   [**Chronotype & Regularity**](/faqs/chronotype_regularity.html)
 
 ### 📊 Graphs
 *   [**Understanding sleep graphs**](/faqs/graph_interpretation.html)
 *   [**Red gaps in the sleep graph**](/faqs/red_gaps.html)
 *   [**Incorrect awake detection (false or missed)**](/faqs/incorrect_awake_detection.html)
-*   [**Graph duration issues**](/faqs/graph_duration.html)
+*   [**Graph duration**](/faqs/graph_duration.html)
+*   [**Sleep Score & Customization**](/faqs/sleep_score_customization.html)
 
-### 🎙️ Sound Recording
-*   [**Recording issues**](/faqs/sound_recording_issues.html)
 
 </div>
 
