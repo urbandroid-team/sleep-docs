@@ -14,7 +14,22 @@ You can download any older version from [our website here](https://sleep.urbandr
 ---
 
 
-## Latest version 20260901
+## Latest version 20260923
+
+* Filtering formatting marks from AI Assistant text to speech
+* Fix for score layout in sleep details
+* Fixed exception handling in Google Home integration
+* Fix for a collision of BT HR services when using Polar SDK for tracking
+
+
+## 20260916
+
+* Native IKEA Dirigera support Settings - Service - Smartlight
+* Fixes for HR and HRV on Pebble to get data from whole night
+* Pause lullaby volume down when tracking is paused
+
+
+## 20260901
 
 * Targeting Android 16 APIs
 
