@@ -24,7 +24,7 @@ You can download any older version from [our website here](https://sleep.urbandr
 
 ## 20260916
 
-* Native IKEA Dirigera support Settings - Service - Smartlight
+* Native IKEA Dirigera support Settings → Service → Smartlight
 * Fixes for HR and HRV on Pebble to get data from whole night
 * Pause lullaby volume down when tracking is paused
 
