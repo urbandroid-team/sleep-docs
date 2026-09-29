@@ -20,6 +20,8 @@ You can download any older version from [our website here](https://sleep.urbandr
 * Fix for score layout in sleep details
 * Fixed exception handling in Google Home integration
 * Fix for a collision of BT HR services when using Polar SDK for tracking
+* Several icons in Settings improved
+* Nicer layout of Tutorial card
 
 
 ## 20260916
