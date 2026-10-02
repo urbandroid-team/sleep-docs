@@ -23,7 +23,7 @@ tags:
 
 Controlling your Sleep Phaser v2/v3 is simple - just tap the touch sensor on the **top of the lamp**. Each tap cycles through the main light modes:
 
-1. **Full White** (Bright reading light)
+1. **Full White** (Bright reading light with V2, White light with V3)
 2. **Moderate Orange** (Warm evening light)
 3. **Dark Red** (Dim, non-disruptive night light)
 4. **Off**
