@@ -111,4 +111,14 @@ No. Binaural beats work by sending slightly different frequencies to each ear, w
 
 </details>
 
+<details>
+<summary><strong>Why did my lullaby stop playing suddenly during the night?</strong></summary>
+
+If your lullaby stopped unexpectedly during the night, it is usually due to Android background restrictions:
+* **Battery Optimization:** System-level battery optimization terminated the app's background process overnight.
+* **Intentional Safety Behavior:** Even when Sleep as Android recovers and resumes sleep tracking automatically, the app intentionally does **not** restart lullaby audio. This prevents sudden music or audio from startling or waking you up while sleeping.
+* 👉 **Fix:** Exclude **Sleep as Android** from battery optimization. Visit **[DontKillMyApp.com](https://dontkillmyapp.com/)** for step-by-step instructions for your phone model.
+
+</details>
+
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
