@@ -14,7 +14,12 @@ You can download any older version from [our website here](https://sleep.urbandr
 ---
 
 
-## Latest version 20260923
+## Latest version 20261006
+* Fix for audio ads in free version
+* Experimental alpha version of SleepSync service
+
+
+## 20260923
 
 * Filtering formatting marks from AI Assistant text to speech
 * Fix for score layout in sleep details

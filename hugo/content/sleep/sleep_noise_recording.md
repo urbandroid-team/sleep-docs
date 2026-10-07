@@ -77,25 +77,21 @@ You can listen to your saved sleep noises in **three simple ways**:
 ## ❓ FAQs & Troubleshooting
 
 <details>
-<summary><strong>No recordings appear in the morning</strong></summary>
+<summary><strong>No sound recordings and flat noise graph (no data recorded)</strong></summary>
 
-* **Reason A: Threshold is set too high.** The app only records sounds louder than your threshold.
-  * 👉 *Fix:* Go to `Settings` → `Sleep noise analysis` → `Recording volume threshold` and slide it down a little.
-* **Reason B: Microphone conflict with another app.** On Android, only one app can access the microphone at a time. If another app running in the background (such as a voice assistant, white noise generator, or audio analyzer) is actively using the mic, **Sleep as Android** will be blocked from recording.
-  * 👉 *Fix:* Close other audio-recording or voice-activated apps before going to sleep, or check active mic permissions under your phone's `System settings` → `Security & Privacy` → `Permission Manager` → `Microphone.
-* **Reason C: Storage path issue.** The app couldn't save the audio files.
-  * 👉 *Fix:* Go to `Settings` → `Sleep noise analysis` → `Storage path` and tap `Reset`.
-* **Reason D: System microphone permissions blocked.**
-  * 👉 *Fix:* Check your phone's system settings to ensure *Sleep as Android* has microphone permissions enabled. If your Noise Graph
+If your noise graph shows a flat line with no fluctuations and no audio clips were saved, the app was blocked from accessing the microphone:
+* **Missing Microphone Permission:** Ensure *Sleep as Android* has microphone permissions enabled in your phone's `System Settings` → `Apps` → `Sleep` → `Permissions`.
+* **Microphone Conflict (Lost Access):** On Android, only one app can access the microphone at a time. If another background app (voice assistant, white noise generator, or call recorder) is actively using the mic, *Sleep as Android* will lose mic access. Close other audio-recording or voice-activated apps before tracking.
+* **Background Launch Restrictions (Android 11+):** If tracking starts automatically, Android prevents background mic access. Grant the **Display over other apps** (Draw over other apps) permission so the app can initialize the microphone from the background.
 
 </details>
 
 <details>
-<summary><strong>Noise recording fails when tracking starts automatically (Android 11+)</strong></summary>
+<summary><strong>Noise graph shows sound data, but no audio clips recorded</strong></summary>
 
-* **Reason:** Starting with Android 11, the system restricts apps running in the background from accessing the microphone. If sleep tracking is launched automatically, Android prevents the app from capturing audio in the background.
-* 👉 **Fix:** Grant the **Draw over other apps** (Display over other apps) permission to *Sleep as Android* when prompted. This permits the app to launch a temporary transparent overlay screen when auto-tracking starts, allowing microphone access to function normally.
-* *Technical details:* For more context on this Android platform change, check the [Android Issue Tracker](https://issuetracker.google.com/issues/162913367).
+If the noise graph displays sound fluctuations or icons, but no audio clips were recorded or saved:
+* **Volume Threshold Too High:** The app only records audio when sound levels exceed your threshold. Go to `Settings` → `Sleep noise analysis` → `Recording volume threshold` and lower it (e.g., to 15% or 20%).
+* **Storage Path Issue:** The app could not write audio files to storage. Go to `Settings` → `Sleep noise analysis` → `Storage path` and tap `Reset`.
 
 </details>
 
