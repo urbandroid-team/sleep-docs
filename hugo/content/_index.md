@@ -23,7 +23,7 @@ Welcome to the official documentation for **Sleep as Android**, your smart alarm
 
 ## Explore the Documentation
 
-*   [**Getting Started**](/general/start): New to the app? Start here.
+*   [**Getting Started**](/getting_started/start.html): New to the app? Start here.
 *   [**Alarms & Naps**](/alarms/alarm_settings): Configure your wake-up routine.
 *   [**Sleep Tracking**](/sleep/sleep_tracking): Learn how we measure your sleep.
 *   [**Connected Devices**](/devices/wearables): Set up your smartwatch or Sleep Phaser.

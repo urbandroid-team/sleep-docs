@@ -1,22 +1,22 @@
 ---
-title: General Information
+title: About & App Management
 bookCollapseSection: true
 weight: 20
 ---
 
-# General Information
+# About & App Management
 
-Welcome to the general reference section for **Sleep as Android**. Here you will find essential information regarding app setup, licensing, and our commitment to your privacy.
+Welcome to the **About & App Management** reference section for **Sleep as Android**. Here you will find essential information regarding app licensing, legal terms, privacy policies, release notes, and community contributions.
 
 ## Getting Started
-New to the app? Learn the basics and how to start your first tracking session.
+New to the app? Visit our dedicated Getting Started chapter.
 
-*   [**Get Started Guide**](/general/start): A high-level overview of why to track sleep and how to set up your first night.
+*   [**Getting Started**](/getting_started/start.html): A high-level overview of why to track sleep, phone placement, and how to set up your first night.
 
 ## Licensing & Plans
 Understand the differences between our free and premium versions and how to unlock the full potential of the app.
 
-*   [**Purchasing the App**](/general/plan): Details on the 14-day trial, lifetime licenses, and subscription options.
+*   [**Free Trial & Purchasing**](/getting_started/plan.html): Details on the 14-day trial, lifetime licenses, and subscription options.
 *   [**Terms of Service**](/general/terms_of_service): Our official legal agreement and medical disclaimer.
 
 
@@ -24,7 +24,7 @@ Understand the differences between our free and premium versions and how to unlo
 We take your data security seriously. Learn how we handle your information and why we request specific system permissions.
 
 *   [**Privacy Policy**](/general/privacy): Configure how your data is used, managed, and backed up.
-*   [**Permissions Explained**](/general/permissions): A transparent breakdown of every system permission the app requires.
+*   [**Permissions Explained**](/getting_started/permissions.html): A transparent breakdown of every system permission the app requires.
 
 ## Community & Updates
 Stay informed about the latest changes and learn how you can help improve the app for everyone.

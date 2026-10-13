@@ -18,7 +18,7 @@ If you track with a smartwatch, red gaps mean the Bluetooth connection between t
 
 ### 3. Sensor Issues
 If using Sonar or the Accelerometer, physical movement or environmental noise might have interrupted the signal.
-*   👉 **Fix:** Check your [Phone Placement](/general/start.html#phone_placement) and ensure the phone is on a stable surface.
+*   👉 **Fix:** Check your [Phone Placement](/getting_started/start.html#phone_placement) and ensure the phone is on a stable surface.
 
 ---
 
