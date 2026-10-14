@@ -28,5 +28,5 @@ Let’s get your first night of tracking set up in just a few quick steps.
 ---
 
 > 💡 **Need a hand getting set up?**
-> We build Sleep as Android for *you*. If you ever run into issues or have questions, our team is directly behind the support system to help you out. <br>
+> We build Sleep as Android for *you*. If you ever run into issues or have questions, our team is here to help you out. <br>
 > Feel free to [email us at support@urbandroid.org](mailto:support@urbandroid.org). We’re always happy to help!
