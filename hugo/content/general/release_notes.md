@@ -17,6 +17,11 @@ You can download any older version from [our website here](https://sleep.urbandr
 ## Latest version 20261006
 * Fix for audio ads in free version
 * Experimental alpha version of SleepSync service
+* Automatic reconnect for Polar SDK
+* Improved formatting for AI outputs
+* Table formatting for AI outputs
+* Fix for last noise card
+* Fix for a crash in HealthConnect sync service
 
 
 ## 20260923
