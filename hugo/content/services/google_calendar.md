@@ -45,7 +45,7 @@ When enabled, your nightly sleep sessions are exported directly to your Google C
 *   **Calendar Name:** The app creates and uses a dedicated **"Sleep as Android"** calendar.
 
 <div style="text-align: center;">
-  <img src="/assets/images/calendar.png" alt="Google Calendar sleep entry" style="max-width: 400px; width: 100%;" />
+  <img src="/docs/assets/images/calendar.png" alt="Google Calendar sleep entry" style="max-width: 400px; width: 100%;" />
 </div>
 
 > [!NOTE]

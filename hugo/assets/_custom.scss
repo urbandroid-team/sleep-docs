@@ -13,7 +13,6 @@ p:has(> img:only-child) img {
   display: block;
   width: 80%;
   height: auto;
-  display: block;
   margin: 1rem auto;
 }
 
@@ -22,4 +21,61 @@ p:not(:has(> img:only-child)) img {
   display: inline-block;
   height: 1.2em;
   vertical-align: -0.15em;
+}
+
+/* 3. Category Grid & Clickable Tiles on Main Index */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border-radius: 12px;
+  border: 1px solid var(--gray-200, #d0d0d0);
+  background-color: var(--gray-100, #f0f0f0);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-link, #0055ee);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+
+    img.card-icon {
+      width: 28px;
+      height: 28px;
+      display: inline-block !important;
+      margin: 0 !important;
+      filter: var(--icon-filter, none);
+      flex-shrink: 0;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--color-link, #0055ee);
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--body-font-color, #000000);
+    opacity: 0.85;
+  }
 }

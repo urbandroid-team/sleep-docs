@@ -23,11 +23,57 @@ Welcome to the official documentation for **Sleep as Android**, your smart alarm
 
 ## Explore the Documentation
 
-*   [**Getting Started**](/getting_started/start.html): New to the app? Start here.
-*   [**Alarms & Naps**](/alarms/alarm_settings): Configure your wake-up routine.
-*   [**Sleep Tracking**](/sleep/sleep_tracking): Learn how we measure your sleep.
-*   [**Connected Devices**](/devices/wearables): Set up your smartwatch or Sleep Phaser.
-*   [**Connected Services**](/services/): Integrate with Google Fit, Health Connect, or IFTTT.
+<div class="category-grid">
+
+<a href="/docs/getting_started/start.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_action_track.svg" alt="Getting Started" class="card-icon" />
+    <h3>Getting Started</h3>
+  </div>
+  <p>New to the app? Learn the basics, phone placement, and set up your first night of tracking.</p>
+</a>
+
+<a href="/docs/alarms/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_alarm.svg" alt="Alarms & Naps" class="card-icon" />
+    <h3>Alarms & Naps</h3>
+  </div>
+  <p>Configure smart wake-ups, CAPTCHA tasks, ringtones, bedtime notifications, and nap timers.</p>
+</a>
+
+<a href="/docs/sleep/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_action_graph.svg" alt="Sleep Tracking & Metrics" class="card-icon" />
+    <h3>Sleep Tracking & Metrics</h3>
+  </div>
+  <p>Understand sleep graphs, sleep scores, breath rate, snoring detection, and tracking theory.</p>
+</a>
+
+<a href="/docs/devices/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_action_watch.svg" alt="Wearables & Devices" class="card-icon" />
+    <h3>Wearables & Devices</h3>
+  </div>
+  <p>Connect smartwatches, Wear OS, Garmin, Sleep Phaser, oximeters, and smart lights.</p>
+</a>
+
+<a href="/docs/services/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_automagic.svg" alt="Integrations & Automation" class="card-icon" />
+    <h3>Integrations & Automation</h3>
+  </div>
+  <p>Sync with Google Fit, Health Connect, IFTTT, MQTT, Tasker, and Spotify.</p>
+</a>
+
+<a href="/docs/faqs/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_help_q.svg" alt="Troubleshooting & FAQs" class="card-icon" />
+    <h3>Troubleshooting & FAQs</h3>
+  </div>
+  <p>Find quick answers to common questions and solve technical or tracking issues.</p>
+</a>
+
+</div>
 
 ---
 

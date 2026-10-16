@@ -16,13 +16,13 @@ Let’s get your first night of tracking set up in just a few quick steps.
 
 ## Quick Start Guide
 
-* 🚀 **[Get Started with Sleep as Android](/docs/getting_started/start.html)**
+* 🚀 **[Get Started with Sleep as Android](/getting_started/start.html)**
   *Everything you need to set up your very first night of sleep tracking in just a few taps.*
 
-* 🛡️ **[Permissions Explained](/docs/getting_started/permissions.html)**
+* 🛡️ **[Permissions Explained](/getting_started/permissions.html)**
   *We respect your device and privacy. Here is a transparent breakdown of why each permission is needed.*
 
-* 🎁 **[Free Trial & Purchasing Options](/docs/getting_started/plan.html)**
+* 🎁 **[Free Trial & Purchasing Options](/getting_started/plan.html)**
   *Learn about our 14-day full feature trial, lifetime unlock key, and simple subscription options.*
 
 ---
