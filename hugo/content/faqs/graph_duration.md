@@ -46,7 +46,7 @@ If automatic tracking doesn't register your awakes properly, the awake sensitivi
 
 If tracking started before you actually got into bed, or the graph ended too late, you can edit the graph start or graph ending.
 *   👉 **Fix:** Open the graph, tap the **pencil icon**, drag to select the excess period at the start, and tap the **scissors icon**.
-*   See the [**Graph Editing guide**](/sleep/graph_edit.html#add_awake) for details.
+*   See the [**Graph Editing guide**](/sleep_results/graph_edit.html#add_awake) for details.
 
 You cannot add missing sensor data to an existing graph to increase the length of the graph. However, you can add a manual sleep record for the missing period.
  *   👉 **Fix:**: Go to **`Left ☰ Menu` → `Graphs` → `(+)`** and add the missine period. The app will count both graphs to the same sleep day.

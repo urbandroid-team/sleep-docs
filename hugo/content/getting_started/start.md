@@ -35,7 +35,7 @@ What am I looking at?
 *   **Tap for Details:** Tap any graph card to open the **Full Graph view**. This overlays all your data onto a single timeline to help you see connections.
 
 > [!TIP]
-> Want a full breakdown of your Morning screen? Read our [Morning Screen Guide](/sleep/how_to_read_sleep_graphs#morning_screen) to learn more.
+> Want a full breakdown of your Morning screen? Read our [Morning Screen Guide](/sleep_results/how_to_read_sleep_graphs#morning_screen) to learn more.
 
 
 ## Choose Your Tracking Style

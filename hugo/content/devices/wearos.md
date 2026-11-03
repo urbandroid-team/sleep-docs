@@ -20,7 +20,7 @@ Sleep as Android supports the full range of Wear OS versions, from legacy models
 
 ## Supported Versions
 
-*   **Wear OS 3.0 & 4.0:** Supported (Note: Some platform limitations apply).
+*   **Wear OS 3.0 & newer:** Supported (Note: Some platform limitations apply).
 *   **Wear OS 2.0:** Fully supported.
 *   **Android Wear 1.0:** Supported.
 

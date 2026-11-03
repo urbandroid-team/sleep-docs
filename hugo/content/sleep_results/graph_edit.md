@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Editing graphs
+weight: 2
 nav_order: 2
-parent: /sleep/0parent.html
+parent: /sleep_results/_index.md
+redirect_from:
+- /sleep_results/graph_edit.html
 ---
 
 # Editing graphs
@@ -31,7 +34,7 @@ Rate your sleep on the morning screen by tapping on the stars.
 
 ## Adding Comments and Tags
 
-Choose any of the available icon tags from the list. With the **(+)** button you can also create your own personal tags (`#any_text` or `#emoji`) - read more in [Tags](/sleep/tags).
+Choose any of the available icon tags from the list. With the **(+)** button you can also create your own personal tags (`#any_text` or `#emoji`) - read more in [Tags](/sleep_results/tags).
 
 Tap on the **Comment** section to type anything you would like to save as a note.
 
@@ -57,7 +60,7 @@ Tap on the **Comment** section to type anything you would like to save as a note
 ![Trimming and adding awakes](/assets/images/edit_3.png)
 
 > [!NOTE] <a id="add_sleep"></a> <a id="disable_optimizations"></a> <a id="disable_optimizations_mic"></a>
-> If you are missing an entire sleep record, you can add it manually. Go to **Left ☰ Menu → Graphs** or the [**Statistics**](/sleep/statistics) screen and use the **(+) Add sleep** ![plus](/assets/icons/plus.svg) button.
+> If you are missing an entire sleep record, you can add it manually. Go to **Left ☰ Menu → Graphs** or the [**Statistics**](/sleep_results/statistics) screen and use the **(+) Add sleep** ![plus](/assets/icons/plus.svg) button.
 
 ---
 

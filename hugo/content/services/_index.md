@@ -1,10 +1,10 @@
 ---
-title: Connected Services
+title: Services & Integrations
 bookCollapseSection: true
-weight: 60
+weight: 90
 ---
 
-# Connected Services
+# Services & Integrations
 
 **Sleep as Android** can integrate with a wide variety of third-party platforms and services to sync your health data, automate your smart home, and enhance your overall sleep experience.
 
@@ -43,4 +43,3 @@ Enhance your daily routine by connecting your calendar, voice assistant, or musi
 *   [**Google Calendar**](/services/google_calendar): Automatically skip alarms on holidays or reschedule them based on upcoming events.
 *   [**Google Assistant (App Actions)**](/services/google_app_actions): Control sleep tracking and alarms using voice commands.
 *   [**Spotify**](/services/spotify): Wake up to your favorite playlists or fall asleep to calming soundscapes.
-

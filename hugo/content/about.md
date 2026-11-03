@@ -1,5 +1,6 @@
 ---
 title: About
+weight: 130
 ---
 
 This is the user manual for **Sleep as Android**, the #1 sleep tracking app for Android.

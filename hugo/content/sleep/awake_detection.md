@@ -21,10 +21,10 @@ When you start sleep tracking, the app doesn't just measure total tracking time,
 
 **Awake Detection** monitors subtle cues during the night (like movement, light, or heart rate) to identify moments when you are awake. If you briefly wake up to grab a glass of water, turn on a light, or toss and turn, the app automatically logs these periods as "awake time" on your sleep graph.
 
-We then use awake events to measure **sleep efficiency** (*= time sleeping / time tracking*) - an important dimension in your [sleep score](/sleep/sleepscore).
+We then use awake events to measure **sleep efficiency** (*= time sleeping / time tracking*) - an important dimension in your [sleep score](/sleep_results/sleepscore).
 
 > [!NOTE]
-> Awake time is subtracted from your overall sleep **duration** - another important [Sleep score](/sleep/sleepscore) measure.
+> Awake time is subtracted from your overall sleep **duration** - another important [Sleep score](/sleep_results/sleepscore) measure.
 
 ## How It Works
 

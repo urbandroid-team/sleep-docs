@@ -58,13 +58,13 @@ Features a curated selection of the most distinct or interesting sounds recorded
 *   **Playback:** Tap the card to play back the recorded sound clips (such as snoring, talking, or ambient noise).
 
 ### Sleep Score Card <a id="sleepscore"></a>
-Displays your average overall [Sleep score](/sleep/sleepscore) calculated from your last 14 days of tracked sleep.
-*   **Deep Dive:** Tap this card to open your detailed sleep statistics (see [Stats](/sleep/statistics)).
+Displays your average overall [Sleep score](/sleep_results/sleepscore) calculated from your last 14 days of tracked sleep.
+*   **Deep Dive:** Tap this card to open your detailed sleep statistics (see [Stats](/sleep_results/statistics)).
 
 ### Graphs Card
-Shows a preview of your recent sleep graphs from the [Charts section](/sleep/charts).
+Shows a preview of your recent sleep graphs from the [Charts section](/sleep_results/charts).
 *   **Browse:** Swipe left or right to cycle through recent nights.
-*   **Open:** Tap the card to open the [detailed view](/sleep/how_to_read_sleep_graphs) of the most recent graph.
+*   **Open:** Tap the card to open the [detailed view](/sleep_results/how_to_read_sleep_graphs) of the most recent graph.
 
 ### Noise Card
 Displays a summary of your latest noise recordings.
@@ -72,7 +72,7 @@ Displays a summary of your latest noise recordings.
 ### Charts Card
 Provides quick access to your long-term sleep trends.
 *   **Browse:** Swipe through different chart categories.
-*   **Open:** Tap to enter the full [Charts section](/sleep/charts).
+*   **Open:** Tap to enter the full [Charts section](/sleep_results/charts).
 
 ### Advice Card <a id="advicecard"></a>
 Shows a rotating selection of tips from the [Advice section](/sleep/advice). Tap the card to see more personalized insights.

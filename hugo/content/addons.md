@@ -1,6 +1,6 @@
 ---
 title: Add-ons
-weight: 60
+weight: 100
 ---
 
 Enhance your Sleep as Android experience with these official add-ons and compatible services:

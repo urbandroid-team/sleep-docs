@@ -1,9 +1,11 @@
 ---
-
 layout: default
 title: Achievements
-nav_order: 2
-parent: /sleep/0parent.html
+weight: 9
+nav_order: 9
+parent: /sleep_results/_index.md
+redirect_from:
+- /sleep/achievements.html
 ---
 
 # Achievements

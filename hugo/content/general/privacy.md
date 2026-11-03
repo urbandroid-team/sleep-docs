@@ -27,7 +27,7 @@ Opts you out of early-access features, such as new actigraphy processing algorit
 ### Disable Sleep Location
 Prevents the app from collecting location data.
 > [!NOTE]
-> The app only ever uses **coarse location** (±5 km accuracy) for [geotagging](/sleep/tags#geo) and home location detection; your exact address is never stored.
+> The app only ever uses **coarse location** (±5 km accuracy) for [geotagging](/sleep_results/tags#geo) and home location detection; your exact address is never stored.
 
 ### Reset Home Location
 Clears your currently identified "home" baseline. Use this if you have moved to a new house to ensure "Only at Home" features (like CAPTCHA bypass) work correctly.
@@ -71,7 +71,7 @@ When enabled, the app automatically mutes alarms/lullabies and pauses sound reco
 > *Requires the "Phone" permission.*
 
 ### Weather
-Enables coarse location checks to provide the weather forecast on your [Morning Briefing](/sleep/how_to_read_sleep_graphs#morning_screen).
+Enables coarse location checks to provide the weather forecast on your [Morning Briefing](/sleep_results/how_to_read_sleep_graphs#morning_screen).
 
 ### Restore Settings
 Resets all app settings to their values from the most recent backup. **Warning:** This will overwrite any changes you have made since the last backup was created.

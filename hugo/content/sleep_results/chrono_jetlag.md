@@ -1,9 +1,11 @@
 ---
-
 layout: default
 title: Chronotype, Social jetlag, Sleep Regularity
-nav_order: 2
-parent: /sleep/0parent.html
+weight: 8
+nav_order: 8
+parent: /sleep_results/_index.md
+redirect_from:
+- /sleep/chrono_jetlag.html
 ---
 
 # Chronotype, Social jetlag, Sleep Regularity
@@ -84,8 +86,8 @@ Research shows that high sleep regularity is strongly linked to:
 Unlike basic average duration, SRI accounts for night awakenings, daytime naps, and non-standard schedules (such as shift work or polyphasic sleep).
 
 > 📊 **Where to find it:**<br>
->    1.  The bottom metric on your [Sleep Score](/sleep/sleepscore.html).
->    2.  Long-term trends in the [Charts section](/sleep/charts.html).
+>    1.  The bottom metric on your [Sleep Score](/sleep_results/sleepscore.html).
+>    2.  Long-term trends in the [Charts section](/sleep_results/charts.html).
 >    3.  Targeted insights in the [Advice section](/sleep/advice.html).
 
 

@@ -79,3 +79,16 @@ p:not(:has(> img:only-child)) img {
     opacity: 0.85;
   }
 }
+
+/* 4. Left Menu Section Dividers */
+.book-menu-divider {
+  list-style: none !important;
+  margin: 0.75rem 0 !important;
+  padding: 0 !important;
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--gray-200, rgba(128, 128, 128, 0.3));
+    margin: 0;
+  }
+}

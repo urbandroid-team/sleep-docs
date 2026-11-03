@@ -17,8 +17,8 @@ redirect_from:
 
 | Permission | Feature(s) Using This | Why it's needed |
 | :--- | :--- | :--- |
-| **Microphone** | <ul><li>[Sleep noise recording](/sleep/sleep_noise_recording)</li><li>[Sonar tracking](/sleep/sensors#sonar)</li></ul> | Required to analyze sleep sounds (snoring, talking) or to use ultrasonic waves for contactless movement tracking. |
-| **Location** <a id="location"></a> | <ul><li>[Sunrise wakeup](/devices/smart_light#guide)</li><li>[Geotagging](/sleep/tags#geo)</li><li>[Pair tracking](/sleep/pair_tracking)</li><li>Bluetooth wearables</li></ul> | Used to detect local sunrise times and weather. **Note:** Coarse location (±5 km) is used for tags. Precise location is required by Android to scan for Bluetooth/BLE devices. |
+| **Microphone** | <ul><li>[Sleep noise recording](/sleep_noise/sleep_noise_recording)</li><li>[Sonar tracking](/sleep/sensors#sonar)</li></ul> | Required to analyze sleep sounds (snoring, talking) or to use ultrasonic waves for contactless movement tracking. |
+| **Location** <a id="location"></a> | <ul><li>[Sunrise wakeup](/devices/smart_light#guide)</li><li>[Geotagging](/sleep_results/tags#geo)</li><li>[Pair tracking](/sleep/pair_tracking)</li><li>Bluetooth wearables</li></ul> | Used to detect local sunrise times and weather. **Note:** Coarse location (±5 km) is used for tags. Precise location is required by Android to scan for Bluetooth/BLE devices. |
 | **Camera** | <ul><li>[CAPTCHA tasks](/alarms/captcha)</li><li>Flashlight cues</li><li>Pee-light</li></ul> | Used to scan QR codes/barcodes for CAPTCHAs, or to detect your smile. Also required to control the physical flashlight for visual alerts. |
 | **Storage / Media** | <ul><li>[Backup & Restore](/services/backup_data)</li><li>Sound recording</li></ul> | Used to export your sleep data to CSV and to store your nightly audio recordings on your device. |
 | **Nearby Devices / Bluetooth** | <ul><li>Smartwatches</li><li>[Sleep Phaser](/devices/sleep_phaser)</li><li>[Oximeters](/devices/oximeter)</li></ul> | Required to communicate with and collect data from external hardware and wearables. |

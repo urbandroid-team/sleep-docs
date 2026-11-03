@@ -26,7 +26,7 @@ If your phone's battery drops too low during the night, the app may automaticall
 ### 4. How to Correct the Sleep Record
 While missing sensor data from a killed session cannot be restored:
 *   You can manually add a sleep record for the missing period using **Left ☰ Menu → Graphs → (+)**.
-*   See the **[Graph Editing guide](/sleep/graph_edit.html)** for details on modifying sleep records.
+*   See the **[Graph Editing guide](/sleep_results/graph_edit.html)** for details on modifying sleep records.
 
 ---
 

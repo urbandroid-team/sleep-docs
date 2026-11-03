@@ -43,10 +43,26 @@ Welcome to the official documentation for **Sleep as Android**, your smart alarm
 
 <a href="/docs/sleep/index.html" class="category-card">
   <div class="card-header">
-    <img src="/docs/assets/icons/ic_action_graph.svg" alt="Sleep Tracking & Metrics" class="card-icon" />
-    <h3>Sleep Tracking & Metrics</h3>
+    <img src="/docs/assets/icons/ic_action_track.svg" alt="Sleep Tracking" class="card-icon" />
+    <h3>Sleep Tracking</h3>
   </div>
-  <p>Understand sleep graphs, sleep scores, breath rate, snoring detection, and tracking theory.</p>
+  <p>Learn how we measure your sleep, smart wake-up, sensors, and tracking theory.</p>
+</a>
+
+<a href="/docs/sleep_noise/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_action_noise.svg" alt="Sleep Noise Analysis" class="card-icon" />
+    <h3>Sleep Noise Analysis</h3>
+  </div>
+  <p>Record and analyze night sounds, snoring, speech, and AI sound classification.</p>
+</a>
+
+<a href="/docs/sleep_results/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_action_graph.svg" alt="Sleep Graphs & Analytics" class="card-icon" />
+    <h3>Sleep Graphs & Analytics</h3>
+  </div>
+  <p>Interpret sleep graphs, sleep scores, statistics, trends, and tags.</p>
 </a>
 
 <a href="/docs/devices/index.html" class="category-card">
@@ -63,6 +79,14 @@ Welcome to the official documentation for **Sleep as Android**, your smart alarm
     <h3>Integrations & Automation</h3>
   </div>
   <p>Sync with Google Fit, Health Connect, IFTTT, MQTT, Tasker, and Spotify.</p>
+</a>
+
+<a href="/docs/ux/index.html" class="category-card">
+  <div class="card-header">
+    <img src="/docs/assets/icons/ic_dashboard.svg" alt="Personalize & App Layout" class="card-icon" />
+    <h3>Personalize & App Layout</h3>
+  </div>
+  <p>Customize home screen layouts (Dashboard, Tabs), themes, left menu, and widgets.</p>
 </a>
 
 <a href="/docs/faqs/index.html" class="category-card">

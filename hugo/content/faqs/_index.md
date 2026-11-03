@@ -1,7 +1,8 @@
 ---
 title: FAQs
 bookCollapseSection: true
-weight: 80
+weight: 110
+bookMenuDivider: true
 ---
 
 # Frequently Asked Questions and Troubleshooting

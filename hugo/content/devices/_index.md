@@ -1,10 +1,10 @@
 ---
-title: Connected Devices
+title: Wearables & Devices
 bookCollapseSection: true
-weight: 50
+weight: 80
 ---
 
-# Connected Devices
+# Wearables & Devices
 
 **Sleep as Android** supports a wide range of external hardware to improve the accuracy of sleep tracking and enhance your wake-up experience.
 

@@ -1,63 +1,55 @@
 ---
 title: Sleep Tracking
 bookCollapseSection: true
-weight: 30
+weight: 50
 ---
 
 # Sleep Tracking
 
-**Sleep as Android** uses advanced algorithms and your device's sensors to provide a detailed window into your nightly rest. By understanding your sleep cycles, you can make informed decisions to improve your health, productivity, and overall well-being.
+**Sleep as Android** uses advanced algorithms and your device's sensors to provide a detailed window into your nightly rest.
 
-Use this section to learn about the science behind our tracking, how to interpret your results, and how to use our advanced monitoring tools.
-
----
-
-## Foundations
-Understand the technology and get started with tracking.
-
-*   [**Sleep Tracking Theory**](/sleep/sleep_tracking_theory): Learn about sleep phases (Deep, Light, REM) and how actigraphy works.
-*   [**How to Track Sleep**](/sleep/sleep_tracking): A step-by-step guide to starting your first session.
-*   [**Sensors Overview**](/sleep/sensors): Explore the different ways the app can "see" your movement (Accelerometer, Sonar, Wearables).
+Use this chapter to learn how to start tracking, explore your tracking screen controls, and discover every setting and sensor option available in the app.
 
 ---
 
-## Analysis & Results
-Learn how to read the data the app collects each night.
+## App Settings & Guide Breakdown
 
-*   [**How to Read Sleep Graphs**](/sleep/how_to_read_sleep_graphs): A comprehensive guide to understanding your nightly hypnogram.
-*   [**Sleep Score**](/sleep/sleepscore): Discover how we calculate your overall sleep health percentage.
-*   [**Statistics & Trends**](/sleep/statistics): Analyze your progress over weeks, months, and years.
-*   [**Charts & Trends**](/sleep/charts): Deep dive into specific metrics like regularity and deep sleep percentage.
+Looking for a specific toggle or option in your sleep tracking settings?
+
+*   [**Sleep Tracking Guide & Settings**](/sleep/sleep_tracking.html): A complete guide to starting sleep tracking, positioning your phone (accelerometer, sonar, wearables), using the tracking screen controls, and understanding every option under `Settings` ➔ `Sleep tracking` (including screen dimming, Do Not Disturb, stand-by, and battery optimizations).
 
 ---
 
-## Sleep Quality & Health
-Monitor vitals and identify potential sleep-related health issues.
+## Foundations & Sensors
 
-*   [**Breath Rate & Oxygen (SpO<sub>2</sub>)**](/sleep/breath_rate): Track your respiratory health during the night.
-*   [**Sleep Apnea Pre-screening**](/sleep/sleep_apnea): Use the app to identify potential breathing disturbances.
-*   [**Heart Rate Monitoring**](/sleep/heart_rate): Integrate pulse data from your wearable.
-*   [**Anti-snoring**](/sleep/anti_snoring): Use gentle cues to help you or your partner stop snoring.
-*   [**Chronotype & Regularity**](/sleep/chrono_jetlag): Find out if you're a "Morning Lark" or "Night Owl."
+Learn about the technology and hardware that power sleep tracking:
 
----
-
-## Advanced Monitoring Tools
-Use AI and automated features to capture every detail.
-
-*   [**Sound Recognition**](/sleep/sound_recognition): Automatically identify snoring, talking, coughing, or baby cries.
-*   [**Sleep Noise Analysis**](/sleep/sleep_noise_recording): Record and listen back to significant nightly sounds.
-*   [**Automatic Tracking**](/sleep/automatic_sleep_tracking): Set the app to start tracking automatically when you go to bed.
-*   [**Awake Detection**](/sleep/awake_detection): Learn how the app identifies when you're no longer asleep.
-*   [**Pair Tracking**](/sleep/pair_tracking): Filter out your partner's movement for a cleaner graph.
+*   [**Sleep Tracking Theory**](/sleep/sleep_tracking_theory.html): Learn about sleep phases (Deep, Light, REM) and how actigraphy works.
+*   [**Sensors Overview**](/sleep/sensors.html): Explore accelerometer, sonar, and wearable sensors in detail.
+*   [**Smart Wake-up**](/sleep/smart_wake_up.html): How the app finds the ideal moment to wake you up in light sleep.
 
 ---
 
-## Improvement & Goals
-Turn your sleep data into better habits.
+## Vitals & Health Monitoring
 
-*   [**Sleep Advice**](/sleep/advice): Get personalized tips based on your recent sleep trends.
-*   [**Sleep Goals**](/sleep/goals): Set targets for duration, regularity, or deep sleep.
-*   [**Lullabies**](/sleep/lullaby): Fall asleep faster with nature sounds, white noise, and binaural beats.
-*   [**Lucid Dreaming**](/sleep/lucid_dreaming): Use REM-triggered cues to master your dreams.
-*   [**Jet Lag Prevention**](/sleep/jetlag): Use light therapy and schedule shifts to combat travel fatigue.
+Monitor your respiratory and cardiovascular health while you sleep:
+
+*   [**Breath Rate & Oxygen (SpO₂)**](/sleep/breath_rate.html): Monitor your breathing rate and blood oxygen levels.
+*   [**Heart Rate Monitoring**](/sleep/heart_rate.html): Integrate real-time pulse and HRV data from your smartwatch or chest strap.
+*   [**Sleep Apnea Pre-screening**](/sleep/sleep_apnea.html): Identify potential breathing pauses and calculate your RDI score.
+
+---
+
+## Tracking Features & Tools
+
+Customize and enhance your nightly sleep sessions:
+
+*   [**Automatic Sleep Tracking**](/sleep/automatic_sleep_tracking.html): Set the app to start and stop tracking automatically.
+*   [**Awake Detection**](/sleep/awake_detection.html): Learn how smart heuristics detect when you wake up during the night.
+*   [**Pair Tracking**](/sleep/pair_tracking.html): Filter out your partner's movements for a cleaner sleep record.
+*   [**Lullabies**](/sleep/lullaby.html): Fall asleep faster with nature sounds, white noise, and binaural beats.
+*   [**Lucid Dreaming**](/sleep/lucid_dreaming.html): Cues during REM sleep to trigger dream awareness.
+*   [**Sleep Goals**](/sleep/goals.html): Set daily duration targets and build consistent sleep habits.
+*   [**Sleep Advice**](/sleep/advice.html): Receive personalized recommendations based on recent sleep trends.
+*   [**Jet Lag Prevention**](/sleep/jetlag.html): Light therapy and schedule shifts to manage travel fatigue.
+*   [**Sleep Time Estimation**](/sleep/sleep_time_estimation.html): Estimated sleep and fall-asleep timings.

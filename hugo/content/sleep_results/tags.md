@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Tags
-nav_order: 2
-parent: /sleep/0parent.html
+weight: 6
+nav_order: 6
+parent: /sleep_results/_index.md
+redirect_from:
+- /sleep_results/tags.html
 tags:
 - graph
 - tag
@@ -311,8 +314,8 @@ If you want to rename or clean up a tag across your entire sleep history:
 
 The real magic of tagging happens in your analytics:
 
-- **[Charts](/sleep/charts):** Filter your sleep graphs by tag to view specific nights side-by-side.
-- **[Statistics](/sleep/statistics):** Open the `Stats` screen and expand the `Tags` section.
+- **[Charts](/sleep_results/charts):** Filter your sleep graphs by tag to view specific nights side-by-side.
+- **[Statistics](/sleep_results/statistics):** Open the `Stats` screen and expand the `Tags` section.
 
 Here, you can compare your overall baseline metrics (such as average sleep duration, deep sleep percentage, or snoring count) against nights with a specific tag.
 

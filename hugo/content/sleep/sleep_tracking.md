@@ -15,7 +15,7 @@ tags:
 By tracking your sleep, the app enables you to:
 
 *   **Visualize:** View a detailed sleep graph for every night.
-*   **Monitor:** Track long-term trends with your [Sleep Score](/sleep/sleepscore) and [Statistics](/sleep/statistics).
+*   **Monitor:** Track long-term trends with your [Sleep Score](/sleep_results/sleepscore) and [Statistics](/sleep_results/statistics).
 *   **Improve:** Set personal [goals](/sleep/goals) to enhance your sleep hygiene.
 *   **Wake Up Refreshed:** Use [Smart Wake Up](/sleep/smart_wake_up) to wake up during your lightest sleep phase.
 
@@ -97,9 +97,10 @@ When tracking is active, the screen provides real-time data and quick actions.
 | **2️⃣** | **Elapsed Time** | Total duration of the current session. |
 | **3️⃣** | **Current Time** | Digital clock for quick reference. |
 | **4️⃣** | **Quick Actions** | <ul><li>![Pause](/assets/icons/ic_action_pause.svg) **Pause:** Manually pause tracking.</li><li>![Lullabies](/assets/icons/ic_action_lullaby.svg) **[Lullabies:](/sleep/lullaby)** Start soothing sounds.</li><li>![Stop](/assets/icons/ic_action_cancel.svg) **Stop:** End the session (requires confirmation).</li></ul> |
-| **5️⃣** | **Noise Indicator** | Shows volume levels if [Noise Recording](/sleep/sleep_noise_recording) is on. |
+| **5️⃣** | **Noise Indicator** | Shows volume levels if [Noise Recording](/sleep_noise/sleep_noise_recording) is on. |
 | **6️⃣** | **Alarm Info** | Displays your next scheduled wake-up time. Tap to add or edit alarms. |
 | **7️⃣** | **Pull up menu** | <ul><li>![Flashlight](/assets/icons/ic_flashlight.svg) **Night light:** Turn on flashlight or [Smartlight](/devices/smart_light).</li><li>![Tags](/assets/icons/ic_pencil.svg) **Tags:** Add tags or notes to the entry.</li></ul> |
+| **8️⃣** | **Status Bar Indicator** | A crescent moon icon ![Crescent Moon](/assets/icons/ic_action_track.svg) in your phone's status bar provides a visual indicator that sleep tracking is actively running in the background. |
 
 
 ### Pull up menu
@@ -112,9 +113,9 @@ Sliding up the *Pull up menu* menu will bring up further options:
 | :--- | :--- |
 | **![Stop](/assets/icons/ic_action_cancel.svg) Stop** | End the current sleep tracking (no confirmation needed). |
 | **![Flashlight](/assets/icons/ic_flashlight.svg) Night light** | Turn on the phone's flashlight or any connected [Smartlight](/devices/smart_light). It will use it at minimum brightness (and red if possible) to help you navigate the room. |
-| **![Tags](/assets/icons/ic_pencil.svg) Tags** | Add [tags](/sleep/tags) or notes to the current sleep entry. |
+| **![Tags](/assets/icons/ic_pencil.svg) Tags** | Add [tags](/sleep_results/tags) or notes to the current sleep entry. |
 | **![Lullabies](/assets/icons/ic_action_lullaby.svg) Lullabies** | Start [lullaby sounds](/sleep/lullaby). |
-| **![Save battery](/assets/icons/ic_battery_60.svg) Save battery** | Switches sleep tracking into a low power mode. In this mode, tracking will consume minimum battery, but [Noise Recording](/sleep/sleep_noise_recording) will be stopped and no activity will be tracked using sensors. Useful if you don't have much battery but still want to track your sleep time. |
+| **![Save battery](/assets/icons/ic_battery_60.svg) Save battery** | Switches sleep tracking into a low power mode. In this mode, tracking will consume minimum battery, but [Noise Recording](/sleep_noise/sleep_noise_recording) will be stopped and no activity will be tracked using sensors. Useful if you don't have much battery but still want to track your sleep time. |
 
 
 ## Key Settings Explained

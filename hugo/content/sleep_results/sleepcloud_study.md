@@ -1,9 +1,11 @@
 ---
-
 layout: default
 title: SleepCloud study
-nav_order: 2
-parent: /sleep/0parent.html
+weight: 7
+nav_order: 7
+parent: /sleep_results/_index.md
+redirect_from:
+- /sleep_results/sleepcloud_study.html
 ---
 
 # SleepCloud study
@@ -48,4 +50,3 @@ Participating in the study is completely optional and safe:
 - **100% Anonymous:** Contributed data is stripped of personal identifiers (exact locations, or sound recordings) to protect your privacy.
 - **Opt-In / Opt-Out:** You control whether your data contributes to research. You can adjust your data-sharing preferences anytime under `Settings`️ → `Services` → `Cloud backup` → `SleepCloud`.
 - **Backup & Insights:** Using SleepCloud also allows you to [back up](/services/sleepcloud) your sleep graphs securely and view long-term trends across all your devices.
-

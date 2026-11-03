@@ -1,9 +1,11 @@
 ---
-
 layout: default
 title: Sleep score
-nav_order: 2
-parent: /sleep/0parent.html
+weight: 3
+nav_order: 3
+parent: /sleep_results/_index.md
+redirect_from:
+- /sleep_results/sleepscore.html
 ---
 
 # Sleep score
@@ -15,7 +17,7 @@ Rather than relying on a single metric, Sleep as Android evaluates your sleep ac
 
 ## Where to Find Your Sleep Score
 
-- **Morning screen:** Right after waking up, you can evaluate your Sleep Score on the [Morning screen](/sleep/how_to_read_sleep_graphs#morning_screen).
+- **Morning screen:** Right after waking up, you can evaluate your Sleep Score on the [Morning screen](/sleep_results/how_to_read_sleep_graphs#morning_screen).
 - **Main Dashboard:** Located on the **Sleep Score** card  on the main screen.
 - **Charts & Trends:** Open `Left ☰ menu` → `Trend` → `Trend tab` → `Sleep score chart`.
 
@@ -129,11 +131,11 @@ Tracks breathing pauses or disruptions per hour.
 <a id="snoring"></a>
 
 ### Snoring
-Calculates how long you were [snoring](/sleep/sound_recognition#snoring) relative to your total sleep duration.
+Calculates how long you were [snoring](/sleep_noise/sound_recognition#snoring) relative to your total sleep duration.
 - **Top Value:** Percentage of night spent snoring.
 - **Bottom Value:** Total snoring duration.
 - **Healthy Target:** **< 3%**.
-- **Unfavourable:** **> 10%**. If snoring is high, you might want to try [Anti-snoring cues](/sleep/anti_snoring)
+- **Unfavourable:** **> 10%**. If snoring is high, you might want to try [Anti-snoring cues](/sleep_noise/anti_snoring)
 
 <a id="rating"></a>
 

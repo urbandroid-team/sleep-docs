@@ -33,9 +33,9 @@ Based on your tracking history, the app automatically determines your **chronoty
 **Chronotypes banner**
 ![](chrono.png)
 
-According to research by Professor [Till Roenneberg](https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/), chronotypes are innate, with everyone falling somewhere on the spectrum between 100% Owl and 100% Lark. Our [SleepCloud study](/sleep/sleepcloud_study) reached the same conclusion.
+According to research by Professor [Till Roenneberg](https://www.amazon.com/Internal-Time-Chronotypes-Social-Youre-dp-0674065859/dp/0674065859/), chronotypes are innate, with everyone falling somewhere on the spectrum between 100% Owl and 100% Lark. Our [SleepCloud study](/sleep_results/sleepcloud_study) reached the same conclusion.
 
-To learn more, see our documentation on [Social Jetlag & Regularity](/sleep/chrono_jetlag).
+To learn more, see our documentation on [Social Jetlag & Regularity](/sleep_results/chrono_jetlag).
 
 
 ## Sleep as Android Section
@@ -43,14 +43,14 @@ To learn more, see our documentation on [Social Jetlag & Regularity](/sleep/chro
 | Icon | Description |
 | :--- | :--- |
 | ![ic_alarm](/assets/icons/ic_alarm.svg) | **Alarms:** Opens your complete list of alarms. |
-| ![ic_timelapse](/assets/icons/ic_timelapse.svg) | **Stats:** Opens long-term [Statistics and Trends](/sleep/charts). |
-| ![ic_action_graph](/assets/icons/ic_action_graph.svg) | **Graphs:** View your [latest sleep tracking records](/sleep/how_to_read_sleep_graphs.html). |
-| ![ic_action_stats](/assets/icons/ic_action_stats.svg) | **Charts:** Deep dive into specific [sleep quality metrics](/sleep/charts). |
+| ![ic_timelapse](/assets/icons/ic_timelapse.svg) | **Stats:** Opens long-term [Statistics and Trends](/sleep_results/charts). |
+| ![ic_action_graph](/assets/icons/ic_action_graph.svg) | **Graphs:** View your [latest sleep tracking records](/sleep_results/how_to_read_sleep_graphs.html). |
+| ![ic_action_stats](/assets/icons/ic_action_stats.svg) | **Charts:** Deep dive into specific [sleep quality metrics](/sleep_results/charts). |
 | ![ic_goal](/assets/icons/ic_goal.svg) | **Goal:** Track your progress toward active [Sleep Goals](/sleep/goals). |
 | ![ic_lightbulb](/assets/icons/ic_lightbulb.svg) | **Advice:** Get personalized insights from the [Advice section](/sleep/advice). |
-| ![ic_action_noise](/assets/icons/ic_action_noise.svg) | **Noise:** Review [recorded sleep noises](/sleep/sleep_noise_recording) (snoring, talking, etc.). |
+| ![ic_action_noise](/assets/icons/ic_action_noise.svg) | **Noise:** Review [recorded sleep noises](/sleep_noise/sleep_noise_recording) (snoring, talking, etc.). |
 | ![ic_action_lullaby](/assets/icons/ic_action_lullaby.svg) | **Lullabies:** Quick access to the [Lullaby player](/sleep/lullaby). |
-| ![trophy](/assets/icons/trophy.svg) | **Achievements:** View your unlocked [Sleep Achievements](/sleep/achievements). |
+| ![trophy](/assets/icons/trophy.svg) | **Achievements:** View your unlocked [Sleep Achievements](/sleep_results/achievements). |
 
 
 ## Home Screen Section

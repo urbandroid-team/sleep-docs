@@ -1,9 +1,11 @@
 ---
-
 layout: default
 title: Charts / Trends
-nav_order: 2
-parent: /sleep/0parent.html
+weight: 5
+nav_order: 5
+parent: /sleep_results/_index.md
+redirect_from:
+- /sleep_results/charts.html
 ---
 
 # Charts / Trends
@@ -24,7 +26,7 @@ Charts help you identify patterns in your sleep, allowing you to make evidence-b
 
 ![Sleep Score](/assets/images/charts/trend/trend_sleepscore.png)
 
-The **Sleep Score** radar chart provides a multi-dimensional view of your [Sleep Score](/sleep/sleepscore). Each section represents a different health metric and can earn up to 5 points. The goal is to fill the entire chart!
+The **Sleep Score** radar chart provides a multi-dimensional view of your [Sleep Score](/sleep_results/sleepscore). Each section represents a different health metric and can earn up to 5 points. The goal is to fill the entire chart!
 
 ### Deficit
 
@@ -241,4 +243,3 @@ Predicts how changing your bedtime affects sleep quality.
 ![Duration Regression Model](/assets/images/charts/advice/duration_regression.png)
 
 Predicts how changing your total sleep duration affects your quality and rating. Use this to find your personal "sweet spot" for sleep length.
-
