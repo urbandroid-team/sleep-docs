@@ -104,6 +104,7 @@ A showcase of available extensions, compatible devices, and other apps from our 
 
 <a id="figure-dashboard-edit"></a>
 **The Dashboard editing mode**
+
 ![](editing_dashboard.gif)
 
 
@@ -113,4 +114,37 @@ If the Dashboard layout isn't the best fit for your workflow, you can switch to:
 
 *   [**Tabs**](/ux/hs_tabs): A classic interface with swipeable tabs at the top.
 *   [**Alarms only mode**](/ux/hs_alarms_only): A minimalist interface dedicated strictly to managing your alarms.
+
+---
+
+## ❓ FAQs & Troubleshooting
+
+<a id="customize_shortcuts"></a>
+<details>
+<summary><strong>How do I customize, edit, or add new Shortcuts?</strong></summary>
+
+The shortcut panel can be fully personalized to fit your daily routines:
+
+1. **Open Shortcut Settings:** Tap the **cog settings icon** ![ic_cog](/assets/icons/ic_cog.svg) on the **Shortcuts card**.
+2. **Add or Edit:**
+   * Tap the **`+` (Add)** button at the top to create a new custom shortcut.
+   * Tap any existing shortcut card in the list to edit its settings.
+3. **Available Shortcut Settings:**
+   * **Name:** Set the display label for the shortcut card.
+   * **Sleep Tracking:**
+     * **Start sleep tracking:** Toggles whether tracking begins automatically when the shortcut is tapped.
+     * **Save Battery:** Optional lightweight mode that tracks total sleep duration without active motion sensors or noise recording.
+   * **Alarm:**
+     * **Add alarm:** Enables an alarm tied to the shortcut.
+     * **Sleep duration goal:** Automatically calculates wake-up time based on your configured ideal sleep duration goal.
+     * **Sleep duration:** Sets a custom alarm timer tailored to specific needs (ranging from 10 minutes up to 13 hours 50 minutes).
+   * **Lullaby:**
+     * **Lullabies:** Select a preferred lullaby melody to start automatically.
+     * **Meditation:** Choose a [guided meditation](/sleep/lullaby.html#guided-meditation) track.
+     * **Turn off when sleeping:** Gradually fades out and silences audio once the app detects you have fallen asleep.
+
+</details>
+
+*Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
+
 
