@@ -90,6 +90,31 @@ These features can be tailored individually inside each alarm card to fit specif
 
 ---
 
+<a id="silent_alarm"></a>
+## How to Set a Silent Alarm
+
+If you want a quiet wake-up call, for example, when wearing a smartwatch or sleeping next to a partner, you can configure silent alarms using vibrations or smartlights.
+
+There are two primary ways to set up a silent alarm:
+
+### Option 1: Ringtone Delay (Recommended) 💡
+Set the alarm ringtone audio to start after a delay (e.g., 2–5 minutes).
+
+* **How it works:** When the alarm triggers, silent wake-up methods (such as [wearable vibrations](/devices/wearables.html#silent_alarm), sunrise screen backlight, or smartlights) begin immediately. Audio only kicks in if you haven't woken up and dismissed the alarm within the delay window.
+* **Why it's recommended:** This acts as a reliable safety net, preventing oversleeping in case your watch battery dies, comes off your wrist, or the vibration isn't enough to wake you up.
+* 👉 **Setup:** Go to `Settings` ➔ `Alarms` ➔ `Gentle wake up` ➔ `Delayed sound` and select your preferred delay duration (from 30 seconds up to 24 minutes).
+
+### Option 2: Completely Silent Ringtone
+Set the alarm sound directly to **Silent**.
+
+* **How it works:** The alarm will rely exclusively on vibrations (phone or smartwatch) and visual cues (screen or smartlight) without playing any audio at all.
+* 👉 **Setup:** Open the specific alarm card ➔ tap **Sound** ➔ select **Silent**.
+
+> [!TIP]
+> **Wearable Users:** If you wear a smartwatch, ensure wearable vibrations are enabled under `Settings` ➔ `Sleep tracking` ➔ `Wearables` ➔ `Alarm` so your watch vibrates as soon as the alarm starts!
+
+---
+
 ## ❓ FAQs & Troubleshooting
 
 <details>
