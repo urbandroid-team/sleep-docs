@@ -15,7 +15,7 @@ title: Ringtone / Sound issues
 
 ### 3. How do I set a silent alarm for smartwatches or sleeping next to a partner?
 You can set up a silent alarm using either **Delayed Sound** (recommended to prevent oversleeping) or by setting the ringtone to **Silent**:
-* **Option 1 (Ringtone Delay):** Go to `Settings` ➔ `Alarms` ➔ `Gentle wake up` ➔ `Delayed sound`. Wearable vibrations or smartlights trigger first, and audio only starts if you don't wake up within the delay window.
+* **Option 1 (Ringtone Delay):** Go to `Settings` ➔ `Alarms` ➔ `Gentle wake up` ➔ `Delayed sound`. Wearable vibrations or smart lights trigger first, and audio only starts if you don't wake up within the delay window.
 * **Option 2 (Silent Ringtone):** Open the specific alarm card ➔ tap **Sound** ➔ select **Silent**.
 
 👉 For a detailed step-by-step guide, see [How to Set a Silent Alarm](/alarms/create_alarm.html#silent_alarm).

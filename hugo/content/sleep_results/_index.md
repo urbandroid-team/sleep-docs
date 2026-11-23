@@ -6,7 +6,7 @@ weight: 60
 
 # Sleep Graphs & Analytics
 
-Welcome to your sleep laboratory! 📊
+Welcome to your sleep laboratory!
 
 Every morning when you wake up and stop sleep tracking, **Sleep as Android** turns thousands of raw sensor measurements into clear, visual stories about your rest.
 
@@ -14,7 +14,7 @@ Use this chapter to learn how to read your hypnogram graphs, decode your Sleep S
 
 ---
 
-## 📈 Your Nightly Sleep Graphs
+## Your Nightly Sleep Graphs
 
 Start here to decode your daily morning results and fine-tune your sleep records:
 
@@ -25,7 +25,7 @@ Start here to decode your daily morning results and fine-tune your sleep records
 
 ---
 
-## 🏆 Health Scores & AI Insights
+## Health Scores & AI Insights
 
 Explore how your sleep quality evolves and get plain-language explanations of your results:
 
@@ -40,7 +40,7 @@ Explore how your sleep quality evolves and get plain-language explanations of yo
 
 ---
 
-## 🌿 Habits, Rhythms & Badges
+## Habits, Rhythms & Badges
 
 See how lifestyle choices and circadian rhythms influence your recovery:
 
@@ -53,7 +53,7 @@ See how lifestyle choices and circadian rhythms influence your recovery:
 
 ---
 
-## 🌍 Community & Research
+## Community & Research
 
 *   [**SleepCloud Study**](/sleep_results/sleepcloud_study.html)
     *Explore anonymous insights from the world's largest crowd-sourced sleep study, fueled by over 100,000 opt-in users.*

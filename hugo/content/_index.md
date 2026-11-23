@@ -54,7 +54,7 @@ Welcome to the official documentation for **Sleep as Android**, your smart alarm
     <img src="/docs/assets/icons/ic_action_noise.svg" alt="Sleep Noise Analysis" class="card-icon" />
     <h3>Sleep Noise Analysis</h3>
   </div>
-  <p>Record and analyze night sounds, snoring, speech, and AI sound classification.</p>
+  <p>Record and analyze night sounds, snoring, speech, and sound classification.</p>
 </a>
 
 <a href="/docs/sleep_results/index.html" class="category-card">

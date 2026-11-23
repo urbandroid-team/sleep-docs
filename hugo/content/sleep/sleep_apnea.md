@@ -96,6 +96,14 @@ You can share your sleep history with your doctor via:
 
 </details>
 
+<details>
+<summary><strong>Why is there no Respiratory Disturbance Index (RDI) calculated even though SpO2 data was recorded?</strong></summary>
+
+* **Reason:** Calculating a reliable Respiratory Disturbance Index (RDI) requires a continuous, stable stream of SpO2 data throughout your sleep session. If the recorded SpO2 data contains frequent gaps, sensor dropouts, or signal noise, the app cannot reliably detect breathing pauses and suppresses the RDI score to avoid displaying inaccurate results.
+* 👉  *Fix:* Ensure your wearable or oximeter is worn snugly on your wrist or finger so the optical sensor maintains continuous skin contact throughout the night. Check that your Bluetooth connection remains active and battery saver mode doesn't disconnect the device overnight.
+
+</details>
+
 *Need further help? Contact us via **`Left ☰ Menu` → `Support` → `Report a bug`**.*
 
 <!---
